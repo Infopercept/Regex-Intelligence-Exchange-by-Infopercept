@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sakirm-icpl.github.io/threat-advisory/sitemap.xml
