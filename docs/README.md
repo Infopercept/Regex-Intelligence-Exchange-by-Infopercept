@@ -31,9 +31,9 @@ Please see our [contribution guidelines](patterns/CONTRIBUTING.md) for details o
 
 Last updated: 2025-10-01
 
-# Version Detection Pattern Database Documentation
+# Regex Intelligence Exchange by Invinsense Documentation
 
-Welcome to the documentation for the Version Detection Pattern Database!
+Welcome to the documentation for the Regex Intelligence Exchange by Invinsense!
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -44,7 +44,7 @@ Welcome to the documentation for the Version Detection Pattern Database!
 
 ## Introduction
 
-The Version Detection Pattern Database is an open-source collection of regex patterns designed to help security researchers, penetration testers, and developers identify software versions through service banners, HTTP responses, and other network protocol responses.
+The Regex Intelligence Exchange by Invinsense is an open-source collection of regex patterns designed to help security researchers, penetration testers, and developers identify software versions through service banners, HTTP responses, and other network protocol responses.
 
 Our database provides:
 - Community-driven version detection patterns
@@ -55,7 +55,7 @@ Our database provides:
 
 ## Getting Started
 
-If you're new to the Version Detection Pattern Database, start here:
+If you're new to the Regex Intelligence Exchange by Invinsense, start here:
 
 - [Getting Started Guide](community/beginners-guide.html) - Introduction for new contributors and users
 - [Pattern Database Guide](community/pattern-development.html) - Understanding our pattern structure and organization
@@ -101,20 +101,24 @@ If you're new to the Version Detection Pattern Database, start here:
 
 ## Support
 
-If you need help with the Version Detection Pattern Database:
+If you need help with the Regex Intelligence Exchange by Invinsense:
 
 1. Check the documentation in this directory
 2. Review existing issues and discussions
-3. Ask questions in [GitHub Discussions](https://github.com/your-org/threat-advisory/discussions)
+3. Ask questions in [GitHub Discussions](https://github.com/Invinsense/regex-intelligence-exchange/discussions)
 4. Contact maintainers directly for complex issues
 
 ## License
 
-The Version Detection Pattern Database documentation is licensed under the MIT License. See [LICENSE](../LICENSE) for details.
+The Regex Intelligence Exchange by Invinsense documentation is licensed under the MIT License. See [LICENSE](../LICENSE) for details.
 
 # Documentation
 
-This directory contains the documentation for the Version Detection Pattern Database.
+This directory contains the documentation for the Regex Intelligence Exchange by Invinsense.
+
+## Deployment
+
+This site is manually deployed. When new changes are pushed to the master branch, follow the manual deployment steps outlined in the [DEPLOYMENT.md](../DEPLOYMENT.md) file in the main repository.
 
 ## Files
 

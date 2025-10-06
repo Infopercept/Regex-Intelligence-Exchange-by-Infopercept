@@ -52,6 +52,10 @@ regex-intelligence-exchange/
 
 Visit our [live documentation site](https://invinsense.github.io/regex-intelligence-exchange/) to explore the pattern database and learn how to contribute.
 
+## Deployment
+
+This site is manually deployed. When new changes are pushed to the master branch, follow the manual deployment steps outlined in the [DEPLOYMENT.md](DEPLOYMENT.md) file.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
