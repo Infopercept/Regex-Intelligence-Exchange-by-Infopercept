@@ -29,6 +29,8 @@ This document provides step-by-step instructions for manually deploying the Rege
    - Set "Branch" to "master" and "/docs" folder
 5. Click "Save"
 
+**Note**: The repository includes a `.nojekyll` file in the `/docs` directory to disable Jekyll processing, and the `CNAME` file has been updated to point to the correct domain.
+
 ### 3. Manual Deployment Process
 
 Since we're using manual deployment, you'll need to follow these steps each time you want to deploy changes:
@@ -42,6 +44,8 @@ Since we're using manual deployment, you'll need to follow these steps each time
 ### 4. Verify Deployment
 
 1. After deployment, visit your site at: https://invinsense.github.io/regex-intelligence-exchange/
+
+**Note**: If you have a custom domain configured, visit that domain instead.
 2. Check that your changes are visible
 3. If you don't see your changes immediately, wait a few minutes and refresh
 
