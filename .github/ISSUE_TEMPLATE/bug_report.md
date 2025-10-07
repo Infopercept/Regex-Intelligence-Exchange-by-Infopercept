@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Report errors or issues with the Regex Intelligence Exchange by Invinsense
+about: Report errors or issues with the Regex Intelligence Exchange by Infopercept
 title: '[BUG] '
 labels: bug
 assignees: ''

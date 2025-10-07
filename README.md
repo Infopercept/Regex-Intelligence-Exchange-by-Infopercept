@@ -1,60 +1,37 @@
-# Regex Intelligence Exchange by Invinsense
+# Regex Intelligence Exchange by Infopercept
 
-An open-source repository of regex patterns for detecting software versions across different products and applications. This database is designed to support security scanning tools, penetration testing, bug bounty hunting, VAPT, and other security-related activities.
+Welcome to the Regex Intelligence Exchange by Infopercept, a comprehensive collection of regex patterns designed to identify software versions from various sources including HTTP headers, file contents, network responses, and more.
 
-## Purpose
+This repository serves as a valuable resource for security professionals, penetration testers, and bug bounty hunters who need to accurately identify software versions during security assessments.
 
-This project aims to create a comprehensive database of regex patterns that can identify software versions from various sources like HTTP headers, file contents, network responses, and more. By providing a centralized repository of well-tested patterns, we can help security professionals quickly identify software versions during assessments.
+## About
 
-## Use Cases
+The Regex Intelligence Exchange contains patterns for detecting versions of:
+- Web servers and applications
+- Database systems
+- Networking equipment
+- Content management systems
+- Programming frameworks
+- And many other software categories
 
-- Security scanning tools
-- Penetration testing
-- Bug bounty hunting
-- Vulnerability assessment and penetration testing (VAPT)
-- Asset discovery and management
-- Threat intelligence
-
-## Repository Structure
-
-```
-regex-intelligence-exchange/
-├── patterns/                 # Main pattern database
-│   ├── web/                  # Web server patterns
-│   ├── networking/           # Networking device patterns
-│   ├── database/             # Database patterns
-│   ├── messaging/            # Messaging system patterns
-│   ├── cms/                  # Content management systems
-│   ├── framework/            # Software frameworks
-│   ├── os/                   # Operating systems
-│   ├── TEMPLATE.md           # Pattern template
-│   └── CONTRIBUTING.md       # Contribution guidelines
-├── tools/                    # Validation and utility scripts
-├── docs/                     # Documentation site
-├── data/                     # Product and vendor databases
-├── README.md                 # This file
-└── LICENSE                   # License information
-```
+Each pattern includes:
+- A well-tested regex expression
+- Metadata about the software it detects
+- Confidence scores for accuracy
+- Test cases to validate functionality
 
 ## Getting Started
 
-1. **Explore the patterns**: Browse the [patterns directory](https://github.com/Invinsense/regex-intelligence-exchange/tree/master/patterns) to see existing version detection patterns
-2. **Read the documentation**: Visit our [documentation site](https://invinsense.github.io/regex-intelligence-exchange/) to learn how to contribute
-3. **Contribute**: Follow our [contribution guidelines](https://github.com/Invinsense/regex-intelligence-exchange/blob/master/patterns/CONTRIBUTING.md) to add new patterns
+1. **Explore the patterns**: Browse the [patterns directory](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Invinsense/tree/master/patterns) to see existing version detection patterns
+2. **Learn the format**: Review the [pattern template](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Invinsense/blob/master/patterns/TEMPLATE.md) to understand the JSON structure
+3. **Contribute**: Follow our [contribution guidelines](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Invinsense/blob/master/patterns/CONTRIBUTING.md) to add new patterns
 
-## Community
+## Documentation
 
-- [Beginner's Guide](https://invinsense.github.io/regex-intelligence-exchange/community/beginners-guide.html) - Getting started with contributing
-- [Good First Issues](https://invinsense.github.io/regex-intelligence-exchange/community/good-first-issues.html) - Easy ways to contribute
-- [Pattern Development Guide](https://invinsense.github.io/regex-intelligence-exchange/community/pattern-development.html) - Advanced pattern creation
-
-## Live Site
-
-Visit our [live documentation site](https://invinsense.github.io/regex-intelligence-exchange/) to explore the pattern database and learn how to contribute.
-
-## Deployment
-
-This site is manually deployed. When new changes are pushed to the master branch, follow the manual deployment steps outlined in the [DEPLOYMENT.md](DEPLOYMENT.md) file.
+- [Pattern Database](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/)
+- [Beginner's Guide](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/community/beginners-guide.html)
+- [Good First Issues](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/community/good-first-issues.html)
+- [Pattern Development Guide](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/community/pattern-development.html)
 
 ## License
 

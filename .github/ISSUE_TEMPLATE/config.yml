@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: VersionIntel Documentation
-    url: https://github.com/your-username/versionintel/blob/main/docs/README.md
+  - name: Regex Intelligence Exchange Documentation
+    url: https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Invinsense/blob/master/docs/README.md
     about: Check our documentation for help with installation, usage, and troubleshooting
   - name: Community Discussions
-    url: https://github.com/your-username/versionintel/discussions
-    about: Ask questions, share ideas, and connect with other VersionIntel users
+    url: https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Invinsense/discussions
+    about: Ask questions, share ideas, and connect with other Regex Intelligence Exchange users
   - name: Security Issues
-    url: security@versionintel.org
+    url: security@infopercept.com
     about: Report security vulnerabilities responsibly (do not use public issues)

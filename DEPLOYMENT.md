@@ -1,6 +1,6 @@
 # Manual Deployment Instructions
 
-This document provides step-by-step instructions for manually deploying the Regex Intelligence Exchange by Invinsense documentation site to GitHub Pages.
+This document provides step-by-step instructions for manually deploying the Regex Intelligence Exchange by Infopercept documentation site to GitHub Pages.
 
 ## Prerequisites
 
@@ -43,7 +43,7 @@ Since we're using manual deployment, you'll need to follow these steps each time
 
 ### 4. Verify Deployment
 
-1. After deployment, visit your site at: https://invinsense.github.io/regex-intelligence-exchange/
+1. After deployment, visit your site at: https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/
 
 **Note**: If you have a custom domain configured, visit that domain instead.
 2. Check that your changes are visible
@@ -84,6 +84,7 @@ If you need to rollback to a previous version:
    git revert <commit-hash>
    git push origin master
    ```
+
 3. Follow the deployment steps again
 
 ## Contact

@@ -1,6 +1,6 @@
 ---
 name: Feature Request
-about: Suggest an idea for the Regex Intelligence Exchange by Invinsense
+about: Suggest an idea for the Regex Intelligence Exchange by Infopercept
 title: '[FEATURE] '
 labels: enhancement
 assignees: ''

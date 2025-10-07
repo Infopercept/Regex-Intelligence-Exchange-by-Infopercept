@@ -1,4 +1,4 @@
-# Regex Intelligence Exchange by Invinsense
+# Regex Intelligence Exchange by Infopercept
 
 This repository contains a collection of regex patterns used to detect software versions from various sources like HTTP headers, file contents, network responses, and more.
 
@@ -23,7 +23,7 @@ This repository contains a collection of regex patterns used to detect software 
 ## Documentation
 
 The documentation site is available at:
-- GitHub Pages: https://invinsense.github.io/regex-intelligence-exchange/
+- GitHub Pages: https://infopercept.github.io/Regex-Intelligence-Exchange-by-Invinsense/
 
 ## Contributing
 
@@ -31,9 +31,9 @@ Please see our [contribution guidelines](patterns/CONTRIBUTING.md) for details o
 
 Last updated: 2025-10-01
 
-# Regex Intelligence Exchange by Invinsense Documentation
+# Regex Intelligence Exchange by Infopercept Documentation
 
-Welcome to the documentation for the Regex Intelligence Exchange by Invinsense!
+Welcome to the documentation for the Regex Intelligence Exchange by Infopercept!
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -44,7 +44,7 @@ Welcome to the documentation for the Regex Intelligence Exchange by Invinsense!
 
 ## Introduction
 
-The Regex Intelligence Exchange by Invinsense is an open-source collection of regex patterns designed to help security researchers, penetration testers, and developers identify software versions through service banners, HTTP responses, and other network protocol responses.
+The Regex Intelligence Exchange by Infopercept is an open-source collection of regex patterns designed to help security researchers, penetration testers, and developers identify software versions through service banners, HTTP responses, and other network protocol responses.
 
 Our database provides:
 - Community-driven version detection patterns
@@ -55,7 +55,7 @@ Our database provides:
 
 ## Getting Started
 
-If you're new to the Regex Intelligence Exchange by Invinsense, start here:
+If you're new to the Regex Intelligence Exchange by Infopercept, start here:
 
 - [Getting Started Guide](community/beginners-guide.html) - Introduction for new contributors and users
 - [Pattern Database Guide](community/pattern-development.html) - Understanding our pattern structure and organization
@@ -79,12 +79,12 @@ If you're new to the Regex Intelligence Exchange by Invinsense, start here:
 
 ### Participation
 - [Code of Conduct](../CODE_OF_CONDUCT.md) - Our community standards
-- [Community Discussions](https://github.com/Invinsense/regex-intelligence-exchange/discussions) - Engage with other community members
-- [Issue Tracker](https://github.com/Invinsense/regex-intelligence-exchange/issues) - Report bugs and request features
+- [Community Discussions](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Invinsense/discussions) - Engage with other community members
+- [Issue Tracker](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Invinsense/issues) - Report bugs and request features
 
 ### Contribution
-- [Good First Issues](https://github.com/Invinsense/regex-intelligence-exchange/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - Issues suitable for newcomers
-- [Help Wanted](https://github.com/Invinsense/regex-intelligence-exchange/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) - Opportunities for more experienced contributors
+- [Good First Issues](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Invinsense/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - Issues suitable for newcomers
+- [Help Wanted](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Invinsense/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) - Opportunities for more experienced contributors
 - [Governance](#) - How the project is managed
 
 ## Development
@@ -101,20 +101,20 @@ If you're new to the Regex Intelligence Exchange by Invinsense, start here:
 
 ## Support
 
-If you need help with the Regex Intelligence Exchange by Invinsense:
+If you need help with the Regex Intelligence Exchange by Infopercept:
 
 1. Check the documentation in this directory
 2. Review existing issues and discussions
-3. Ask questions in [GitHub Discussions](https://github.com/Invinsense/regex-intelligence-exchange/discussions)
+3. Ask questions in [GitHub Discussions](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Invinsense/discussions)
 4. Contact maintainers directly for complex issues
 
 ## License
 
-The Regex Intelligence Exchange by Invinsense documentation is licensed under the MIT License. See [LICENSE](../LICENSE) for details.
+The Regex Intelligence Exchange by Infopercept documentation is licensed under the MIT License. See [LICENSE](../LICENSE) for details.
 
 # Documentation
 
-This directory contains the documentation for the Regex Intelligence Exchange by Invinsense.
+This directory contains the documentation for the Regex Intelligence Exchange by Infopercept.
 
 ## Deployment
 
