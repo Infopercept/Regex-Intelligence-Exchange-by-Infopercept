@@ -28,10 +28,10 @@ Each pattern includes:
 
 ## Documentation
 
-- [Pattern Database](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/)
-- [Beginner's Guide](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/community/beginners-guide.html)
-- [Good First Issues](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/community/good-first-issues.html)
-- [Pattern Development Guide](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/community/pattern-development.html)
+- [Pattern Database](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Invinsense/pattern-database.html)
+- [Beginner's Guide](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Invinsense/community/beginners-guide.html)
+- [Good First Issues](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Invinsense/community/good-first-issues.html)
+- [Pattern Development Guide](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Invinsense/community/pattern-development.html)
 
 ## License
 
