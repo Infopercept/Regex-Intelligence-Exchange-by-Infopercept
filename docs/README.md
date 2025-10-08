@@ -23,7 +23,7 @@ This repository contains a collection of regex patterns used to detect software 
 ## Documentation
 
 The documentation site is available at:
-- GitHub Pages: https://infopercept.github.io/Regex-Intelligence-Exchange-by-Invinsense/
+- GitHub Pages: https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/
 
 ## Contributing
 
@@ -79,12 +79,12 @@ If you're new to the Regex Intelligence Exchange by Infopercept, start here:
 
 ### Participation
 - [Code of Conduct](../CODE_OF_CONDUCT.md) - Our community standards
-- [Community Discussions](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Invinsense/discussions) - Engage with other community members
-- [Issue Tracker](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Invinsense/issues) - Report bugs and request features
+- [Community Discussions](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept/discussions) - Engage with other community members
+- [Issue Tracker](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept/issues) - Report bugs and request features
 
 ### Contribution
-- [Good First Issues](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Invinsense/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - Issues suitable for newcomers
-- [Help Wanted](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Invinsense/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) - Opportunities for more experienced contributors
+- [Good First Issues](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - Issues suitable for newcomers
+- [Help Wanted](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) - Opportunities for more experienced contributors
 - [Governance](#) - How the project is managed
 
 ## Development
@@ -105,7 +105,7 @@ If you need help with the Regex Intelligence Exchange by Infopercept:
 
 1. Check the documentation in this directory
 2. Review existing issues and discussions
-3. Ask questions in [GitHub Discussions](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Invinsense/discussions)
+3. Ask questions in [GitHub Discussions](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept/discussions)
 4. Contact maintainers directly for complex issues
 
 ## License

@@ -22,16 +22,16 @@ Each pattern includes:
 
 ## Getting Started
 
-1. **Explore the patterns**: Browse the [patterns directory](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Invinsense/tree/master/patterns) to see existing version detection patterns
-2. **Learn the format**: Review the [pattern template](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Invinsense/blob/master/patterns/TEMPLATE.md) to understand the JSON structure
-3. **Contribute**: Follow our [contribution guidelines](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Invinsense/blob/master/patterns/CONTRIBUTING.md) to add new patterns
+1. **Explore the patterns**: Browse the [patterns directory](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept/tree/master/patterns) to see existing version detection patterns
+2. **Learn the format**: Review the [pattern template](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept/blob/master/patterns/TEMPLATE.md) to understand the JSON structure
+3. **Contribute**: Follow our [contribution guidelines](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept/blob/master/patterns/CONTRIBUTING.md) to add new patterns
 
 ## Documentation
 
-- [Pattern Database](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Invinsense/pattern-database.html)
-- [Beginner's Guide](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Invinsense/community/beginners-guide.html)
-- [Good First Issues](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Invinsense/community/good-first-issues.html)
-- [Pattern Development Guide](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Invinsense/community/pattern-development.html)
+- [Pattern Database](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/pattern-database.html)
+- [Beginner's Guide](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/community/beginners-guide.html)
+- [Good First Issues](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/community/good-first-issues.html)
+- [Pattern Development Guide](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/community/pattern-development.html)
 
 ## License
 
