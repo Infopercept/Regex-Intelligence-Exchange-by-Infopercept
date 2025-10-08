@@ -1,0 +1,31 @@
+{
+  "patterns": [
+    {
+      "name": "CompleteFTP FTP Server",
+      "category": "networking",
+      "pattern": "(?i)220\\sCompleteFTP\\sv\\s([\\d.]+)",
+      "vendor": "enterprisedt",
+      "product": "completeftp_server",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.9,
+      "metadata": {
+        "author": "Security Scanner Team",
+        "created_at": "2024-10-01T00:00:00",
+        "updated_at": "2024-10-01T00:00:00",
+        "description": "Detects CompleteFTP version from FTP banner. This pattern matches the 220 response commonly returned by CompleteFTP FTP servers.",
+        "tags": ["ftp", "completeftp", "file-transfer"],
+        "test_cases": [
+          {
+            "input": "220 CompleteFTP v 12.1.0",
+            "expected_version": "12.1.0"
+          },
+          {
+            "input": "220 CompleteFTP v 8.2.3 ready",
+            "expected_version": "8.2.3"
+          }
+        ]
+      }
+    }
+  ]
+}
