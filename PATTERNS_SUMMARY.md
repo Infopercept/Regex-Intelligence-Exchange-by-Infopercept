@@ -1,8 +1,8 @@
 # Pattern Database Summary
 
-Total Patterns: 32
-Patterns with Test Cases: 32
-Total Test Cases: 53
+Total Patterns: 37
+Patterns with Test Cases: 37
+Total Test Cases: 58
 
 ## Patterns by Category
 
@@ -10,13 +10,13 @@ Total Test Cases: 53
 - database: 3
 - framework: 1
 - messaging: 3
-- networking: 6
+- networking: 7
 - os: 1
-- web: 13
+- web: 17
 
 ## Patterns by Vendor
 
-- Apache: 4
+- Apache: 7
 - Apiman: 1
 - Argoproj: 1
 - Blackmoon FTP Server: 1
@@ -27,6 +27,7 @@ Total Test Cases: 53
 - Django Software Foundation: 1
 - Drupal: 2
 - Elastic: 1
+- EnterpriseDT: 1
 - Ethereum: 1
 - F5 Networks: 1
 - Karjasoft: 1
@@ -44,6 +45,7 @@ Total Test Cases: 53
 ## Patterns by Product
 
 - Answer: 1
+- Apache HTTPD: 4
 - Apiman: 1
 - Argocd: 1
 - Blackmoon FTP Server: 1
@@ -52,7 +54,6 @@ Total Test Cases: 53
 - Django: 1
 - Drupal: 2
 - Go Ethereum: 1
-- HTTPD: 1
 - IOS: 2
 - Internet Information Services: 1
 - Kibana: 1
