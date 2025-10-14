@@ -43,7 +43,7 @@ Since we're using manual deployment, you'll need to follow these steps each time
 
 ### 4. Verify Deployment
 
-1. After deployment, visit your site at: https://infopercept.github.io/Regex-Intelligence-Exchange-by-Invinsense/
+1. After deployment, visit your site at: https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/
 
 **Note**: If you have a custom domain configured, visit that domain instead.
 2. Check that your changes are visible

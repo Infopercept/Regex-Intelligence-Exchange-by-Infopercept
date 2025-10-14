@@ -1,6 +1,6 @@
 # Contributing Patterns to Regex Intelligence Exchange by Infopercept
 
-Thank you for your interest in contributing to the Regex Intelligence Exchange by Invinsense! This document provides guidelines and best practices for contributing new patterns or improving existing ones.
+Thank you for your interest in contributing to the Regex Intelligence Exchange by Infopercept! This document provides guidelines and best practices for contributing new patterns or improving existing ones.
 
 ## Pattern Guidelines
 
