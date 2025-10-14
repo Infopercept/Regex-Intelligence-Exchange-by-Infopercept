@@ -1,27 +1,21 @@
 # Pattern Database
 
-This directory contains the regex patterns used to detect software versions. Patterns are organized by category to make them easy to find and manage.
+This directory contains the regex patterns used to detect software versions. Patterns are now organized by vendor and product in the [by-vendor/](by-vendor/) directory.
 
 ## Categories
 
-- [web](web/) - Web servers, proxies, and web-related technologies
-- [networking](networking/) - Routers, switches, firewalls, and other networking devices
-- [database](database/) - Database management systems
-- [messaging](messaging/) - Message queues, brokers, and messaging systems
-- [os](os/) - Operating systems
-- [cms](cms/) - Content management systems
-- [framework](framework/) - Software frameworks and libraries
+Patterns are now organized by vendor and product in the [by-vendor/](by-vendor/) directory. The previous category-based organization has been removed to simplify the structure.
 
 ## Getting Started
 
 1. Use our [pattern template](TEMPLATE.md) as a starting point for new patterns
-2. Follow our [contribution guidelines](CONTRIBUTING.md)
+2. Follow our [contribution guidelines](../CONTRIBUTING.md)
 3. Include comprehensive test cases
 4. Validate your pattern with our tools
 
 ## Validation
 
-All patterns are validated using our [pattern validation tool](../tools/validate-pattern.py) which checks:
+All patterns are validated using our [pattern validation tool](../tools/validate-new-pattern.py) which checks:
 
 - JSON schema compliance
 - Regex pattern compilation

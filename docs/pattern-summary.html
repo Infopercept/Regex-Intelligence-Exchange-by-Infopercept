@@ -3,148 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pattern Summary - Regex Intelligence Exchange by Infopercept</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f8f9fa;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        header {
-            background: linear-gradient(135deg, #2c3e50, #1a2a3a);
-            color: white;
-            padding: 1rem 0;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 0;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-        }
-
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-            font-weight: 500;
-            transition: opacity 0.3s;
-        }
-
-        .nav-links a:hover {
-            opacity: 0.8;
-        }
-
-        .content {
-            background: white;
-            padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-            margin: 2rem 0;
-        }
-
-        h1, h2, h3 {
-            color: #2c3e50;
-            margin: 1.5rem 0 1rem 0;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-        }
-
-        h2 {
-            font-size: 1.8rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 0.5rem;
-        }
-
-        h3 {
-            font-size: 1.4rem;
-        }
-
-        p {
-            margin-bottom: 1rem;
-        }
-
-        ul, ol {
-            margin-left: 2rem;
-            margin-bottom: 1rem;
-        }
-
-        li {
-            margin-bottom: 0.5rem;
-        }
-
-        .stats-card {
-            background: #f8f9fa;
-            padding: 1.5rem;
-            border-radius: 8px;
-            margin: 1rem 0;
-            border-left: 4px solid #3498db;
-        }
-
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1rem;
-            margin: 2rem 0;
-        }
-
-        .stats-card h3 {
-            margin-top: 0;
-        }
-
-        footer {
-            background: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 2rem 0;
-            margin-top: 3rem;
-        }
-
-        @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-            
-            .stats-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+    <title>Pattern Summary - Regex Intelligence Exchange by Invinsense</title>
+    <meta name="description" content="Statistics and summary of all regex patterns in the Regex Intelligence Exchange">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <nav>
-                <div class="logo">Regex Intelligence Exchange</div>
+            <nav class="nav">
+                <div class="logo">
+                    <span class="logo-icon">🔍</span>
+                    <span>Regex Intelligence Exchange</span>
+                </div>
                 <div class="nav-links">
                     <a href="index.html">Home</a>
                     <a href="pattern-database.html">Patterns</a>
+                    <a href="pattern-summary.html">Statistics</a>
                     <a href="community/beginners-guide.html">Getting Started</a>
                     <a href="community/good-first-issues.html">Contribute</a>
                 </div>
@@ -157,106 +33,176 @@
             <h1>Pattern Database Summary</h1>
             
             <div class="stats-grid">
-                <div class="stats-card">
-                    <h3>Total Patterns</h3>
-                    <p style="font-size: 2rem; font-weight: bold; color: #3498db;">32</p>
+                <div class="stat-card">
+                    <div class="stat-label">Total Patterns</div>
+                    <div class="stat-value">37</div>
+                    <div class="stat-description">Across all vendors and products</div>
                 </div>
                 
-                <div class="stats-card">
-                    <h3>Patterns with Test Cases</h3>
-                    <p style="font-size: 2rem; font-weight: bold; color: #3498db;">32</p>
+                <div class="stat-card">
+                    <div class="stat-label">Patterns with Test Cases</div>
+                    <div class="stat-value">37</div>
+                    <div class="stat-description">100% test coverage</div>
                 </div>
                 
-                <div class="stats-card">
-                    <h3>Total Test Cases</h3>
-                    <p style="font-size: 2rem; font-weight: bold; color: #3498db;">53</p>
+                <div class="stat-card">
+                    <div class="stat-label">Total Test Cases</div>
+                    <div class="stat-value">58</div>
+                    <div class="stat-description">Validated patterns</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-label">Vendors</div>
+                    <div class="stat-value">26</div>
+                    <div class="stat-description">Technology companies</div>
                 </div>
             </div>
             
             <h2>Patterns by Category</h2>
             
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-label">Web</div>
+                    <div class="stat-value">17</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-label">Networking</div>
+                    <div class="stat-value">7</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-label">CMS</div>
+                    <div class="stat-value">5</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-label">Messaging</div>
+                    <div class="stat-value">3</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-label">Database</div>
+                    <div class="stat-value">3</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-label">OS</div>
+                    <div class="stat-value">1</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-label">Framework</div>
+                    <div class="stat-value">1</div>
+                </div>
+            </div>
+            
+            <h2>Top Vendors by Pattern Count</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-label">Apache</div>
+                    <div class="stat-value">7</div>
+                    <div class="stat-description">HTTPD, Traffic Server, Pulsar, Answer</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-label">Cisco</div>
+                    <div class="stat-value">2</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-label">Drupal</div>
+                    <div class="stat-value">2</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-label">Trustwave</div>
+                    <div class="stat-value">2</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-label">VMware</div>
+                    <div class="stat-value">2</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-label">WordPress</div>
+                    <div class="stat-value">2</div>
+                </div>
+            </div>
+            
+            <h2>All Vendors</h2>
             <ul>
-                <li>cms: 5</li>
-                <li>database: 3</li>
-                <li>framework: 1</li>
-                <li>messaging: 3</li>
-                <li>networking: 6</li>
-                <li>os: 1</li>
-                <li>web: 13</li>
+                <li>Apache Software Foundation</li>
+                <li>Microsoft Corporation</li>
+                <li>F5 Networks</li>
+                <li>Oracle Corporation</li>
+                <li>Cisco Systems</li>
+                <li>Canonical Ltd</li>
+                <li>VMware</li>
+                <li>PostgreSQL Global Development Group</li>
+                <li>Trustwave</li>
+                <li>WordPress</li>
+                <li>Drupal</li>
+                <li>Django Software Foundation</li>
+                <li>Apiman</li>
+                <li>Argoproj</li>
+                <li>Blackmoon FTP Server</li>
+                <li>EnterpriseDT</li>
+                <li>Ethereum</li>
+                <li>Elastic</li>
+                <li>Karjasoft</li>
+                <li>Liferay</li>
+                <li>Mattermost</li>
+                <li>OpenBSD</li>
+                <li>Couchbase</li>
+                <li>ConcreteCMS</li>
+                <li>Whitsoft Development</li>
+                <li>ZenML</li>
             </ul>
             
-            <h2>Patterns by Vendor</h2>
-            
+            <h2>All Products</h2>
             <ul>
-                <li>Apache: 4</li>
-                <li>Apiman: 1</li>
-                <li>Argoproj: 1</li>
-                <li>Blackmoon FTP Server: 1</li>
-                <li>Canonical: 1</li>
-                <li>Cisco: 2</li>
-                <li>ConcreteCMS: 1</li>
-                <li>Couchbase: 1</li>
-                <li>Django Software Foundation: 1</li>
-                <li>Drupal: 2</li>
-                <li>Elastic: 1</li>
-                <li>Ethereum: 1</li>
-                <li>F5 Networks: 1</li>
-                <li>Karjasoft: 1</li>
-                <li>Liferay: 1</li>
-                <li>Microsoft: 1</li>
-                <li>OpenBSD: 1</li>
-                <li>Oracle: 1</li>
-                <li>PostgreSQL Global Development Group: 1</li>
-                <li>Trustwave: 2</li>
-                <li>VMware: 2</li>
-                <li>Whitsoft Development: 1</li>
-                <li>WordPress: 2</li>
-                <li>ZenML: 1</li>
+                <li>Apache HTTPD Server (4 patterns)</li>
+                <li>Answer (1 pattern)</li>
+                <li>Apiman (1 pattern)</li>
+                <li>Argo CD (1 pattern)</li>
+                <li>Blackmoon FTP Server (1 pattern)</li>
+                <li>Concrete CMS (1 pattern)</li>
+                <li>Couchbase Server (1 pattern)</li>
+                <li>Django (1 pattern)</li>
+                <li>Drupal (2 patterns)</li>
+                <li>Go Ethereum (1 pattern)</li>
+                <li>IOS (2 patterns)</li>
+                <li>Internet Information Services (1 pattern)</li>
+                <li>Kibana (1 pattern)</li>
+                <li>Liferay Portal (1 pattern)</li>
+                <li>ModSecurity (2 patterns)</li>
+                <li>MySQL (1 pattern)</li>
+                <li>NGINX (1 pattern)</li>
+                <li>OpenSSH (1 pattern)</li>
+                <li>PostgreSQL (1 pattern)</li>
+                <li>Pulsar (1 pattern)</li>
+                <li>RabbitMQ (2 patterns)</li>
+                <li>Sami FTP Server (1 pattern)</li>
+                <li>Slimftpd (1 pattern)</li>
+                <li>Traffic Server (1 pattern)</li>
+                <li>Ubuntu (1 pattern)</li>
+                <li>WordPress (2 patterns)</li>
+                <li>ZenML (1 pattern)</li>
             </ul>
-            
-            <h2>Patterns by Product</h2>
-            
-            <ul>
-                <li>Answer: 1</li>
-                <li>Apiman: 1</li>
-                <li>Argocd: 1</li>
-                <li>Blackmoon FTP Server: 1</li>
-                <li>Concrete CMS: 1</li>
-                <li>Couchbase Server: 1</li>
-                <li>Django: 1</li>
-                <li>Drupal: 2</li>
-                <li>Go Ethereum: 1</li>
-                <li>HTTPD: 1</li>
-                <li>IOS: 2</li>
-                <li>Internet Information Services: 1</li>
-                <li>Kibana: 1</li>
-                <li>Liferay Portal: 1</li>
-                <li>ModSecurity: 2</li>
-                <li>MySQL: 1</li>
-                <li>NGINX: 1</li>
-                <li>OpenSSH: 1</li>
-                <li>PostgreSQL: 1</li>
-                <li>Pulsar: 1</li>
-                <li>RabbitMQ: 2</li>
-                <li>Sami FTP Server: 1</li>
-                <li>Slimftpd: 1</li>
-                <li>Traffic Server: 1</li>
-                <li>Ubuntu: 1</li>
-                <li>WordPress: 2</li>
-                <li>ZenML: 1</li>
-            </ul>
-            
-            <p><a href="pattern-database.html" class="cta-button">Back to Pattern Database</a></p>
         </div>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Regex Intelligence Exchange by Infopercept. Open Source under MIT License. Updated: 2025-10-01</p>
-            <p style="margin-top: 10px;">
-                <a href="https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept/tree/master" style="color: #3498db; text-decoration: none;">GitHub Repository</a> | 
-                <a href="index.html" style="color: #3498db; text-decoration: none;">Home</a> | 
-                <a href="https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/" style="color: #3498db; text-decoration: none;">Live Site</a>
+            <p>&copy; 2025 Regex Intelligence Exchange by Invinsense. Open Source under MIT License.</p>
+            <p>
+                <a href="https://github.com/Invinsense/Regex-Intelligence-Exchange-by-Invinsense">GitHub Repository</a> | 
+                <a href="index.html">Home</a> | 
+                <a href="pattern-database.html">Pattern Database</a> |
+                <a href="https://invinsense.github.io/Regex-Intelligence-Exchange-by-Invinsense/">Live Site</a>
             </p>
         </div>
     </footer>

@@ -1,6 +1,6 @@
-# Contributing to Regex Intelligence Exchange by Infopercept
+# Contributing to Regex Intelligence Exchange by Invinsense
 
-Thank you for your interest in contributing to the Regex Intelligence Exchange by Infopercept! This document provides guidelines for contributing to this project.
+Thank you for your interest in contributing to the Regex Intelligence Exchange by Invinsense! This document provides guidelines for contributing to this project.
 
 ## How to Contribute
 
@@ -13,7 +13,7 @@ Thank you for your interest in contributing to the Regex Intelligence Exchange b
 
 ### Pattern Structure
 
-All patterns must follow our standardized JSON structure as defined in the [pattern template](https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept/blob/master/patterns/TEMPLATE.md).
+All patterns must follow our standardized JSON structure as defined in the [pattern template](https://github.com/Invinsense/Regex-Intelligence-Exchange-by-Invinsense/blob/master/patterns/TEMPLATE.md).
 
 ### Pattern Requirements
 
@@ -27,7 +27,7 @@ All patterns must follow our standardized JSON structure as defined in the [patt
 Before submitting a pattern, ensure it passes our validation tests:
 
 ```bash
-python tools/validate-pattern.py patterns/category/your-pattern.json
+python tools/validate-new-pattern.py patterns/by-vendor/vendor-name/product-name.json
 ```
 
 ## Development Workflow
@@ -51,7 +51,7 @@ python tools/validate-pattern.py patterns/category/your-pattern.json
 To keep your fork updated with the main repository:
 
 ```bash
-git remote add upstream https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept.git
+git remote add upstream https://github.com/Invinsense/Regex-Intelligence-Exchange-by-Invinsense.git
 git fetch upstream
 git checkout master
 git merge upstream/master

@@ -4,26 +4,52 @@ Use this template when creating new pattern files for the database.
 
 ```json
 {
-  "patterns": [
+  "vendor": "Vendor Name",
+  "vendor_id": "vendor-id",
+  "product": "Product Name",
+  "product_id": "vendor-id-product-id",
+  "category": "product-category",
+  "versions": {
+    "version-range": [
+      {
+        "name": "Pattern Name",
+        "pattern": "regex_pattern",
+        "version_group": 1,
+        "priority": 100,
+        "confidence": 0.9,
+        "metadata": {
+          "author": "Author Name",
+          "created_at": "YYYY-MM-DD",
+          "updated_at": "YYYY-MM-DD",
+          "description": "Pattern description",
+          "tags": ["tag1", "tag2"],
+          "test_cases": [
+            {
+              "input": "Test input",
+              "expected_version": "Expected version"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "all_versions": [
     {
-      "name": "Pattern Name",
-      "category": "pattern_category",
-      "pattern": "regex_pattern_with_capture_groups",
-      "vendor": "Vendor Name",
-      "product": "Product Name",
+      "name": "Generic Pattern Name",
+      "pattern": "generic_regex_pattern",
       "version_group": 1,
       "priority": 100,
-      "confidence": 0.95,
+      "confidence": 0.8,
       "metadata": {
-        "author": "Your Name",
+        "author": "Author Name",
         "created_at": "YYYY-MM-DD",
         "updated_at": "YYYY-MM-DD",
-        "description": "Brief description of what this pattern detects",
-        "tags": ["tag1", "tag2", "tag3"],
+        "description": "Generic pattern description",
+        "tags": ["tag1", "tag2"],
         "test_cases": [
           {
-            "input": "Sample input text that should match the pattern",
-            "expected_version": "Expected version string"
+            "input": "Test input",
+            "expected_version": "Expected version"
           }
         ]
       }
@@ -34,51 +60,74 @@ Use this template when creating new pattern files for the database.
 
 ## Field Descriptions
 
-| Field | Description | Required |
-|-------|-------------|----------|
-| `name` | A descriptive name for the pattern | Yes |
-| `category` | Category of the pattern (web, networking, database, messaging, os, cms, framework) | Yes |
-| `pattern` | The actual regex pattern with capture groups for version extraction | Yes |
-| `vendor` | The company or organization that creates the product | Yes |
-| `product` | The specific product name | Yes |
-| `version_group` | The capture group number that contains the version string | Yes |
-| `priority` | Priority score (0-200) indicating reliability (higher = more reliable) | Yes |
-| `confidence` | Confidence level (0.0-1.0) in the pattern's accuracy | Yes |
-| `metadata.author` | The pattern creator's name or handle | Yes |
-| `metadata.created_at` | Creation date in ISO 8601 format (YYYY-MM-DD) | Yes |
-| `metadata.updated_at` | Last update date in ISO 8601 format (YYYY-MM-DD) | Yes |
-| `metadata.description` | Detailed description of what the pattern detects | Yes |
-| `metadata.tags` | Relevant tags to help with searching and categorization | Yes |
-| `metadata.test_cases` | Array of test cases to validate the pattern | Yes |
+- `vendor`: The company or organization that creates the product
+- `vendor_id`: A normalized identifier for the vendor
+- `product`: The specific product name
+- `product_id`: A normalized identifier for the product
+- `category`: Product category (web, database, networking, etc.)
+- `versions`: Object containing version-specific patterns
+  - Keys are version ranges (e.g., "2.4.x")
+  - Values are arrays of patterns for that version range
+- `all_versions`: Array of patterns that work across all versions
+
+Each pattern contains:
+- `name`: Descriptive name of the pattern
+- `pattern`: The regex pattern with capture groups
+- `version_group`: The capture group number containing the version
+- `priority`: Priority score (0-200) indicating reliability
+- `confidence`: Confidence level (0.0-1.0) in accuracy
+- `metadata`: Additional information about the pattern
 
 ## Example Pattern
 
 ```json
 {
-  "patterns": [
+  "vendor": "Apache",
+  "vendor_id": "apache",
+  "product": "HTTPD",
+  "product_id": "apache-httpd",
+  "category": "web",
+  "versions": {
+    "2.4.x": [
+      {
+        "name": "Apache HTTPD Server 2.4 Banner",
+        "pattern": "Server: Apache/2\\.4\\.([\\d]+)",
+        "version_group": 1,
+        "priority": 180,
+        "confidence": 0.9,
+        "metadata": {
+          "author": "Security Scanner Team",
+          "created_at": "2024-01-01",
+          "updated_at": "2024-01-01",
+          "description": "Detects Apache HTTPD 2.4.x version from HTTP server banner",
+          "tags": ["http", "apache", "webserver"],
+          "test_cases": [
+            {
+              "input": "Server: Apache/2.4.41 (Ubuntu)",
+              "expected_version": "41"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "all_versions": [
     {
-      "name": "Apache HTTPD Server",
-      "category": "web",
+      "name": "Apache HTTPD Server Generic",
       "pattern": "Server: Apache/([\\d.]+)",
-      "vendor": "Apache",
-      "product": "HTTPD",
       "version_group": 1,
-      "priority": 180,
-      "confidence": 0.9,
+      "priority": 100,
+      "confidence": 0.8,
       "metadata": {
         "author": "Security Scanner Team",
         "created_at": "2024-01-01",
         "updated_at": "2024-01-01",
-        "description": "Detects Apache HTTPD version from HTTP server banner. This pattern matches the Server header commonly returned by Apache HTTPD servers.",
+        "description": "Generic pattern for Apache HTTPD version detection",
         "tags": ["http", "apache", "webserver"],
         "test_cases": [
           {
             "input": "Server: Apache/2.4.41 (Ubuntu)",
             "expected_version": "2.4.41"
-          },
-          {
-            "input": "Server: Apache/2.4.52",
-            "expected_version": "2.4.52"
           }
         ]
       }
@@ -86,4 +135,3 @@ Use this template when creating new pattern files for the database.
   ]
 }
 ```
-

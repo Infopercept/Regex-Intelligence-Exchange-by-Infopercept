@@ -3,157 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beginner's Guide - Regex Intelligence Exchange by Infopercept</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f8f9fa;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        header {
-            background: linear-gradient(135deg, #2c3e50, #1a2a3a);
-            color: white;
-            padding: 1rem 0;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 0;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-        }
-
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-            font-weight: 500;
-            transition: opacity 0.3s;
-        }
-
-        .nav-links a:hover {
-            opacity: 0.8;
-        }
-
-        .content {
-            background: white;
-            padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-            margin: 2rem 0;
-        }
-
-        h1, h2, h3 {
-            color: #2c3e50;
-            margin: 1.5rem 0 1rem 0;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-        }
-
-        h2 {
-            font-size: 1.8rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 0.5rem;
-        }
-
-        h3 {
-            font-size: 1.4rem;
-        }
-
-        p {
-            margin-bottom: 1rem;
-        }
-
-        ul, ol {
-            margin-left: 2rem;
-            margin-bottom: 1rem;
-        }
-
-        li {
-            margin-bottom: 0.5rem;
-        }
-
-        .step {
-            background: #e8f4fc;
-            padding: 1.5rem;
-            border-radius: 8px;
-            margin: 1.5rem 0;
-            border-left: 4px solid #3498db;
-        }
-
-        .tip {
-            background: #fff8e1;
-            padding: 1.5rem;
-            border-radius: 8px;
-            margin: 1.5rem 0;
-            border-left: 4px solid #f39c12;
-        }
-
-        .cta-button {
-            display: inline-block;
-            background: #3498db;
-            color: white;
-            padding: 12px 30px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: background 0.3s;
-            margin: 1rem 0;
-        }
-
-        .cta-button:hover {
-            background: #2980b9;
-        }
-
-        footer {
-            background: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 2rem 0;
-            margin-top: 3rem;
-        }
-
-        @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-        }
-    </style>
+    <title>Beginner's Guide - Regex Intelligence Exchange by Invinsense</title>
+    <meta name="description" content="Getting started guide for contributing to the Regex Intelligence Exchange project">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <nav>
-                <div class="logo">Regex Intelligence Exchange</div>
+            <nav class="nav">
+                <div class="logo">
+                    <span class="logo-icon">🔍</span>
+                    <span>Regex Intelligence Exchange</span>
+                </div>
                 <div class="nav-links">
                     <a href="../index.html">Home</a>
                     <a href="../pattern-database.html">Patterns</a>
+                    <a href="../pattern-summary.html">Statistics</a>
                     <a href="beginners-guide.html">Getting Started</a>
                     <a href="good-first-issues.html">Contribute</a>
                 </div>
@@ -165,10 +32,10 @@
         <div class="content">
             <h1>Beginner's Guide to Contributing</h1>
             
-            <p>Welcome to the Regex Intelligence Exchange by Infopercept! This guide will help you get started contributing to our open-source project, even if you're new to security research or open-source development.</p>
+            <p>Welcome to the Regex Intelligence Exchange by Invinsense! This guide will help you get started contributing to our open-source project, even if you're new to security research or open-source development.</p>
             
             <h2>What is this project?</h2>
-            <p>The Regex Intelligence Exchange by Infopercept is a collection of regex patterns used to identify software versions from various sources like HTTP headers, file contents, network responses, and more. These patterns are used by security tools to:</p>
+            <p>The Regex Intelligence Exchange by Invinsense is a collection of regex patterns used to identify software versions from various sources like HTTP headers, file contents, network responses, and more. These patterns are used by security tools to:</p>
             
             <ul>
                 <li>Detect vulnerable software versions during security assessments</li>
@@ -183,7 +50,7 @@
                 <h3>Step 1: Fork the Repository</h3>
                 <p>Start by forking our repository on GitHub. This creates your own copy where you can make changes without affecting the main project.</p>
                 <ol>
-                    <li>Visit our <a href="https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept/tree/master">GitHub repository</a></li>
+                    <li>Visit our <a href="https://github.com/Invinsense/Regex-Intelligence-Exchange-by-Invinsense/tree/master">GitHub repository</a></li>
                     <li>Click the "Fork" button in the top right corner</li>
                     <li>Choose your GitHub account as the destination for the fork</li>
                 </ol>
@@ -192,7 +59,7 @@
             <div class="step">
                 <h3>Step 2: Clone Your Fork</h3>
                 <p>Clone your forked repository to your local machine:</p>
-                <pre><code>git clone https://github.com/YOUR-USERNAME/Regex-Intelligence-Exchange-by-Infopercept.git
+                <pre><code>git clone https://github.com/YOUR-USERNAME/Regex-Intelligence-Exchange-by-Invinsense.git
 cd regex-intelligence-exchange</code></pre>
             </div>
             
@@ -215,12 +82,12 @@ cd regex-intelligence-exchange</code></pre>
             
             <div class="step">
                 <h3>Step 5: Create Your Pattern File</h3>
-                <p>Create a new pattern file in the appropriate category directory:</p>
+                <p>Create a new pattern file in the appropriate vendor directory:</p>
                 <ol>
-                    <li>Navigate to the <code>patterns/</code> directory</li>
-                    <li>Choose the appropriate subdirectory (web, database, networking, etc.)</li>
+                    <li>Navigate to the <code>patterns/by-vendor/</code> directory</li>
+                    <li>Find or create the appropriate vendor directory</li>
                     <li>Create a new JSON file using the product name (e.g., <code>nginx.json</code>)</li>
-                    <li>Use our <a href="https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept/blob/master/patterns/TEMPLATE.md">pattern template</a> as a starting point</li>
+                    <li>Use our <a href="https://github.com/Invinsense/Regex-Intelligence-Exchange-by-Invinsense/blob/master/patterns/TEMPLATE.md">pattern template</a> as a starting point</li>
                 </ol>
             </div>
             
@@ -238,14 +105,14 @@ cd regex-intelligence-exchange</code></pre>
             <div class="step">
                 <h3>Step 7: Validate Your Pattern</h3>
                 <p>Use our validation tool to check your pattern:</p>
-                <pre><code>python tools/validate-pattern.py patterns/web/nginx.json</code></pre>
+                <pre><code>python tools/validate-new-pattern.py patterns/by-vendor/vendor-name/product-name.json</code></pre>
                 <p>Fix any issues that the validation tool reports.</p>
             </div>
             
             <div class="step">
                 <h3>Step 8: Commit and Push Your Changes</h3>
-                <pre><code>git add patterns/web/nginx.json
-git commit -m "feat: Add pattern for NGINX version detection"
+                <pre><code>git add patterns/by-vendor/vendor-name/product-name.json
+git commit -m "feat: Add pattern for PRODUCT version detection"
 git push origin add-my-new-pattern</code></pre>
             </div>
             
@@ -268,34 +135,33 @@ git push origin add-my-new-pattern</code></pre>
             
             <div class="tip">
                 <h3>Test Extensively</h3>
-                <p>Include comprehensive test cases that cover normal cases, edge cases, and examples that should not match.</p>
-            </div>
-            
-            <div class="tip">
-                <h3>Follow the Template</h3>
-                <p>Use our standard pattern template and fill out all required fields with accurate information.</p>
+                <p>Include comprehensive test cases that cover various version formats and edge cases. The more test cases you include, the more confident we can be in the pattern's accuracy.</p>
             </div>
             
             <h2>Need Help?</h2>
-            <p>If you need assistance:</p>
+            <p>If you get stuck or have questions:</p>
             <ul>
-                <li>Check our <a href="https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept/blob/master/patterns/CONTRIBUTING.md">contribution guidelines</a></li>
+                <li>Check our <a href="https://github.com/Invinsense/Regex-Intelligence-Exchange-by-Invinsense/discussions">GitHub Discussions</a> for community support</li>
                 <li>Look at existing patterns as examples</li>
-                <li>Open an issue on GitHub with your question</li>
-                <li>Join our community discussions</li>
+                <li>Review our <a href="https://github.com/Invinsense/Regex-Intelligence-Exchange-by-Invinsense/blob/master/patterns/TEMPLATE.md">pattern template</a> and <a href="https://github.com/Invinsense/Regex-Intelligence-Exchange-by-Invinsense/blob/master/patterns/CONTRIBUTING.md">contribution guidelines</a></li>
+                <li>Join our community discussions to ask questions</li>
             </ul>
             
-            <a href="good-first-issues.html" class="cta-button">Find Good First Issues</a>
+            <div class="text-center mt-3">
+                <a href="good-first-issues.html" class="btn btn-primary">Find Good First Issues</a>
+                <a href="../pattern-database.html" class="btn btn-secondary">Browse Existing Patterns</a>
+            </div>
         </div>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Regex Intelligence Exchange by Infopercept. Open Source under MIT License. Updated: 2025-10-01</p>
-            <p style="margin-top: 10px;">
-                <a href="https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept/tree/master" style="color: #3498db; text-decoration: none;">GitHub Repository</a> | 
-                <a href="../index.html" style="color: #3498db; text-decoration: none;">Home</a> | 
-                <a href="https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/" style="color: #3498db; text-decoration: none;">Live Site</a>
+            <p>&copy; 2025 Regex Intelligence Exchange by Invinsense. Open Source under MIT License.</p>
+            <p>
+                <a href="https://github.com/Invinsense/Regex-Intelligence-Exchange-by-Invinsense">GitHub Repository</a> | 
+                <a href="../index.html">Home</a> | 
+                <a href="../pattern-database.html">Pattern Database</a> |
+                <a href="https://invinsense.github.io/Regex-Intelligence-Exchange-by-Invinsense/">Live Site</a>
             </p>
         </div>
     </footer>

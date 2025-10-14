@@ -3,139 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Community - Regex Intelligence Exchange by Infopercept</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f8f9fa;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        header {
-            background: linear-gradient(135deg, #2c3e50, #1a2a3a);
-            color: white;
-            padding: 1rem 0;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 0;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-        }
-
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-            font-weight: 500;
-            transition: opacity 0.3s;
-        }
-
-        .nav-links a:hover {
-            opacity: 0.8;
-        }
-
-        .content {
-            background: white;
-            padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-            margin: 2rem 0;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            color: #2c3e50;
-            margin-bottom: 2rem;
-        }
-
-        .resources {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-
-        .resource-card {
-            background: #f8f9fa;
-            padding: 2rem;
-            border-radius: 10px;
-            transition: transform 0.3s;
-        }
-
-        .resource-card:hover {
-            transform: translateY(-5px);
-            background: #e8f4fc;
-        }
-
-        .resource-card h2 {
-            color: #3498db;
-            margin-bottom: 1rem;
-        }
-
-        .cta-button {
-            display: inline-block;
-            background: #3498db;
-            color: white;
-            padding: 12px 30px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: background 0.3s;
-            margin: 1rem 0;
-        }
-
-        .cta-button:hover {
-            background: #2980b9;
-        }
-
-        footer {
-            background: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 2rem 0;
-            margin-top: 3rem;
-        }
-
-        @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-        }
-    </style>
+    <title>Community - Regex Intelligence Exchange by Invinsense</title>
+    <meta name="description" content="Join the Regex Intelligence Exchange community of security professionals and open-source contributors">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <nav>
-                <div class="logo">Regex Intelligence Exchange</div>
+            <nav class="nav">
+                <div class="logo">
+                    <span class="logo-icon">🔍</span>
+                    <span>Regex Intelligence Exchange</span>
+                </div>
                 <div class="nav-links">
                     <a href="../index.html">Home</a>
+                    <a href="../pattern-database.html">Patterns</a>
+                    <a href="../pattern-summary.html">Statistics</a>
                     <a href="beginners-guide.html">Getting Started</a>
                     <a href="good-first-issues.html">Contribute</a>
                 </div>
@@ -145,39 +30,102 @@
 
     <main class="container">
         <div class="content">
-            <h1>Community Resources</h1>
+            <h1>Community</h1>
             
-            <div class="resources">
-                <div class="resource-card">
-                    <h2>Beginner's Guide</h2>
-                    <p>New to open-source or version detection? Start here to learn how to contribute to our project.</p>
-                    <a href="beginners-guide.html" class="cta-button">Get Started</a>
+            <p>Welcome to the Regex Intelligence Exchange community! We're a group of security professionals, researchers, and open-source enthusiasts working together to improve software version detection for security assessments.</p>
+            
+            <div class="features mt-2">
+                <div class="feature-card">
+                    <div class="feature-icon">📖</div>
+                    <h3>Getting Started</h3>
+                    <p>New to the project? Start with our beginner's guide to learn how to contribute.</p>
+                    <a href="beginners-guide.html" class="btn btn-primary mt-2">Beginner's Guide</a>
                 </div>
                 
-                <div class="resource-card">
-                    <h2>Good First Issues</h2>
-                    <p>Looking for your first contribution? These issues are perfect for newcomers to the project.</p>
-                    <a href="good-first-issues.html" class="cta-button">Find Issues</a>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Contribute</h3>
+                    <p>Ready to contribute? Find good first issues or learn how to create new patterns.</p>
+                    <a href="good-first-issues.html" class="btn btn-primary mt-2">Good First Issues</a>
                 </div>
                 
-                <div class="resource-card">
-                    <h2>Pattern Development</h2>
-                    <p>Ready to create advanced patterns? Learn best practices for developing high-quality regex patterns.</p>
-                    <a href="pattern-development.html" class="cta-button">Learn More</a>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Advanced Development</h3>
+                    <p>Learn advanced pattern development techniques and best practices.</p>
+                    <a href="pattern-development.html" class="btn btn-primary mt-2">Pattern Development</a>
+                </div>
+            </div>
+            
+            <h2>Community Resources</h2>
+            
+            <div class="step">
+                <h3>GitHub Discussions</h3>
+                <p>Join our community discussions to ask questions, share ideas, and connect with other contributors.</p>
+                <a href="https://github.com/Invinsense/Regex-Intelligence-Exchange-by-Invinsense/discussions" class="btn btn-outline">Visit Discussions</a>
+            </div>
+            
+            <div class="step">
+                <h3>Issue Tracker</h3>
+                <p>Report bugs, request features, or find issues to work on in our GitHub issue tracker.</p>
+                <a href="https://github.com/Invinsense/Regex-Intelligence-Exchange-by-Invinsense/issues" class="btn btn-outline">View Issues</a>
+            </div>
+            
+            <div class="step">
+                <h3>Code of Conduct</h3>
+                <p>Please review our community standards to ensure a welcoming environment for everyone.</p>
+                <a href="https://github.com/Invinsense/Regex-Intelligence-Exchange-by-Invinsense/blob/master/CODE_OF_CONDUCT.md" class="btn btn-outline">Read Code of Conduct</a>
+            </div>
+            
+            <h2>Why Contribute?</h2>
+            
+            <ul>
+                <li><strong>Improve Security</strong> - Help identify vulnerable software versions in security assessments</li>
+                <li><strong>Build Skills</strong> - Develop expertise in regex, security research, and open-source development</li>
+                <li><strong>Network</strong> - Connect with security professionals and researchers worldwide</li>
+                <li><strong>Make Impact</strong> - Contribute to tools used by penetration testers and bug bounty hunters</li>
+                <li><strong>Learn</strong> - Deepen your understanding of how software reports version information</li>
+            </ul>
+            
+            <h2>Contribution Areas</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-label">Pattern Creation</div>
+                    <div class="stat-value">➕</div>
+                    <div class="stat-description">Add new regex patterns for software detection</div>
                 </div>
                 
-                <div class="resource-card">
-                    <h2>Pattern Database</h2>
-                    <p>Browse our complete collection of version detection patterns organized by category and vendor.</p>
-                    <a href="../pattern-database.html" class="cta-button">Browse Patterns</a>
+                <div class="stat-card">
+                    <div class="stat-label">Pattern Improvement</div>
+                    <div class="stat-value">🔧</div>
+                    <div class="stat-description">Enhance existing patterns with better accuracy</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-label">Documentation</div>
+                    <div class="stat-value">📚</div>
+                    <div class="stat-description">Improve guides, tutorials, and explanations</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-label">Tool Development</div>
+                    <div class="stat-value">⚙️</div>
+                    <div class="stat-description">Create utilities for pattern validation and testing</div>
                 </div>
             </div>
         </div>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Regex Intelligence Exchange by Infopercept. Open Source under MIT License.</p>
+            <p>&copy; 2025 Regex Intelligence Exchange by Invinsense. Open Source under MIT License.</p>
+            <p>
+                <a href="https://github.com/Invinsense/Regex-Intelligence-Exchange-by-Invinsense">GitHub Repository</a> | 
+                <a href="../index.html">Home</a> | 
+                <a href="../pattern-database.html">Pattern Database</a> |
+                <a href="https://invinsense.github.io/Regex-Intelligence-Exchange-by-Invinsense/">Live Site</a>
+            </p>
         </div>
     </footer>
 </body>

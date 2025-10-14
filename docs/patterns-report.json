@@ -1,0 +1,507 @@
+{
+  "vendors": {
+    "apache": {
+      "name": "Apache",
+      "products": {
+        "answer.json": {
+          "name": "Answer",
+          "category": "web",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        },
+        "httpd.json": {
+          "name": "HTTPD",
+          "category": "web",
+          "patterns": 4,
+          "version_specific_patterns": 2,
+          "generic_patterns": 2
+        },
+        "pulsar.json": {
+          "name": "Pulsar",
+          "category": "messaging",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        },
+        "traffic-server.json": {
+          "name": "Traffic Server",
+          "category": "web",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 7,
+      "categories": [
+        "web",
+        "messaging"
+      ]
+    },
+    "apiman": {
+      "name": "Apiman",
+      "products": {
+        "apiman.json": {
+          "name": "Apiman",
+          "category": "web",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "web"
+      ]
+    },
+    "argoproj": {
+      "name": "Argoproj",
+      "products": {
+        "argocd.json": {
+          "name": "Argocd",
+          "category": "web",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "web"
+      ]
+    },
+    "blackmoon-ftp-server": {
+      "name": "Blackmoon FTP Server",
+      "products": {
+        "blackmoon-ftp-server.json": {
+          "name": "Blackmoon FTP Server",
+          "category": "networking",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "networking"
+      ]
+    },
+    "canonical": {
+      "name": "Canonical",
+      "products": {
+        "ubuntu.json": {
+          "name": "Ubuntu",
+          "category": "os",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "os"
+      ]
+    },
+    "cisco": {
+      "name": "Cisco",
+      "products": {
+        "ios.json": {
+          "name": "IOS",
+          "category": "networking",
+          "patterns": 2,
+          "version_specific_patterns": 0,
+          "generic_patterns": 2
+        }
+      },
+      "total_patterns": 2,
+      "categories": [
+        "networking"
+      ]
+    },
+    "concretecms": {
+      "name": "ConcreteCMS",
+      "products": {
+        "concrete-cms.json": {
+          "name": "Concrete CMS",
+          "category": "cms",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "cms"
+      ]
+    },
+    "couchbase": {
+      "name": "Couchbase",
+      "products": {
+        "couchbase-server.json": {
+          "name": "Couchbase Server",
+          "category": "database",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "database"
+      ]
+    },
+    "django-software-foundation": {
+      "name": "Django Software Foundation",
+      "products": {
+        "django.json": {
+          "name": "Django",
+          "category": "framework",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "framework"
+      ]
+    },
+    "drupal": {
+      "name": "Drupal",
+      "products": {
+        "drupal.json": {
+          "name": "Drupal",
+          "category": "cms",
+          "patterns": 2,
+          "version_specific_patterns": 0,
+          "generic_patterns": 2
+        }
+      },
+      "total_patterns": 2,
+      "categories": [
+        "cms"
+      ]
+    },
+    "elastic": {
+      "name": "Elastic",
+      "products": {
+        "kibana.json": {
+          "name": "Kibana",
+          "category": "web",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "web"
+      ]
+    },
+    "enterprisedt": {
+      "name": "enterprisedt",
+      "products": {
+        "completeftp_server.json": {
+          "name": "completeftp_server",
+          "category": "networking",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "networking"
+      ]
+    },
+    "ethereum": {
+      "name": "Ethereum",
+      "products": {
+        "go-ethereum.json": {
+          "name": "Go Ethereum",
+          "category": "web",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "web"
+      ]
+    },
+    "f5-networks": {
+      "name": "F5 Networks",
+      "products": {
+        "nginx.json": {
+          "name": "NGINX",
+          "category": "web",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "web"
+      ]
+    },
+    "karjasoft": {
+      "name": "Karjasoft",
+      "products": {
+        "sami-ftp-server.json": {
+          "name": "Sami FTP Server",
+          "category": "networking",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "networking"
+      ]
+    },
+    "liferay": {
+      "name": "Liferay",
+      "products": {
+        "liferay-portal.json": {
+          "name": "Liferay Portal",
+          "category": "web",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "web"
+      ]
+    },
+    "mattermost": {
+      "name": "mattermost",
+      "products": {
+        "mattermost.json": {
+          "name": "mattermost",
+          "category": "web",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "web"
+      ]
+    },
+    "microsoft": {
+      "name": "Microsoft",
+      "products": {
+        "internet-information-services.json": {
+          "name": "Internet Information Services",
+          "category": "web",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "web"
+      ]
+    },
+    "openbsd": {
+      "name": "OpenBSD",
+      "products": {
+        "openssh.json": {
+          "name": "OpenSSH",
+          "category": "networking",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "networking"
+      ]
+    },
+    "oracle": {
+      "name": "Oracle",
+      "products": {
+        "mysql.json": {
+          "name": "MySQL",
+          "category": "database",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "database"
+      ]
+    },
+    "postgresql-global-development-group": {
+      "name": "PostgreSQL Global Development Group",
+      "products": {
+        "postgresql.json": {
+          "name": "PostgreSQL",
+          "category": "database",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "database"
+      ]
+    },
+    "trustwave": {
+      "name": "Trustwave",
+      "products": {
+        "modsecurity.json": {
+          "name": "ModSecurity",
+          "category": "web",
+          "patterns": 2,
+          "version_specific_patterns": 0,
+          "generic_patterns": 2
+        }
+      },
+      "total_patterns": 2,
+      "categories": [
+        "web"
+      ]
+    },
+    "vmware": {
+      "name": "VMware",
+      "products": {
+        "rabbitmq.json": {
+          "name": "RabbitMQ",
+          "category": "messaging",
+          "patterns": 2,
+          "version_specific_patterns": 0,
+          "generic_patterns": 2
+        }
+      },
+      "total_patterns": 2,
+      "categories": [
+        "messaging"
+      ]
+    },
+    "whitsoft-development": {
+      "name": "Whitsoft Development",
+      "products": {
+        "slimftpd.json": {
+          "name": "Slimftpd",
+          "category": "networking",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "networking"
+      ]
+    },
+    "wordpress": {
+      "name": "WordPress",
+      "products": {
+        "wordpress.json": {
+          "name": "WordPress",
+          "category": "cms",
+          "patterns": 2,
+          "version_specific_patterns": 0,
+          "generic_patterns": 2
+        }
+      },
+      "total_patterns": 2,
+      "categories": [
+        "cms"
+      ]
+    },
+    "zenml": {
+      "name": "ZenML",
+      "products": {
+        "zenml.json": {
+          "name": "ZenML",
+          "category": "web",
+          "patterns": 1,
+          "version_specific_patterns": 0,
+          "generic_patterns": 1
+        }
+      },
+      "total_patterns": 1,
+      "categories": [
+        "web"
+      ]
+    }
+  },
+  "categories": {
+    "web": 17,
+    "networking": 7,
+    "cms": 5,
+    "messaging": 3,
+    "database": 3,
+    "os": 1,
+    "framework": 1
+  },
+  "summary": {
+    "total_patterns": 37,
+    "total_vendors": 26,
+    "total_products": 29,
+    "categories": {
+      "web": 17,
+      "messaging": 3,
+      "networking": 7,
+      "os": 1,
+      "cms": 5,
+      "database": 3,
+      "framework": 1
+    },
+    "top_vendors": [
+      [
+        "apache",
+        7
+      ],
+      [
+        "cisco",
+        2
+      ],
+      [
+        "drupal",
+        2
+      ],
+      [
+        "trustwave",
+        2
+      ],
+      [
+        "vmware",
+        2
+      ],
+      [
+        "wordpress",
+        2
+      ],
+      [
+        "apiman",
+        1
+      ],
+      [
+        "argoproj",
+        1
+      ],
+      [
+        "blackmoon-ftp-server",
+        1
+      ],
+      [
+        "canonical",
+        1
+      ]
+    ]
+  }
+}

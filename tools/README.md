@@ -4,22 +4,33 @@ This directory contains utility scripts for working with the pattern database.
 
 ## Validation Tools
 
-### validate-pattern.py
+### validate-new-pattern.py
 
-Validates a single pattern file against our schema and tests the regex patterns against provided test cases.
+Validates a pattern file in the new by-vendor format.
 
 Usage:
 ```bash
-python validate-pattern.py ../patterns/web/apache.json
+python validate-new-pattern.py ../patterns/by-vendor/apache/httpd.json
 ```
 
-### validate-all-patterns.py
+## Pattern Discovery Tools
 
-Validates all pattern files in the repository.
+### list-vendors-products.py
+
+Lists all vendors and products in the new by-vendor structure.
 
 Usage:
 ```bash
-python validate-all-patterns.py
+python list-vendors-products.py
+```
+
+### search-patterns.py
+
+Searches for patterns by vendor or product name in the new by-vendor structure.
+
+Usage:
+```bash
+python search-patterns.py <search-term>
 ```
 
 ## Summary Tools

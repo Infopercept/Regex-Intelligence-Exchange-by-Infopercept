@@ -3,178 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pattern Development Guide - Regex Intelligence Exchange by Infopercept</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f8f9fa;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        header {
-            background: linear-gradient(135deg, #2c3e50, #1a2a3a);
-            color: white;
-            padding: 1rem 0;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 0;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-        }
-
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-            font-weight: 500;
-            transition: opacity 0.3s;
-        }
-
-        .nav-links a:hover {
-            opacity: 0.8;
-        }
-
-        .content {
-            background: white;
-            padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-            margin: 2rem 0;
-        }
-
-        h1, h2, h3 {
-            color: #2c3e50;
-            margin: 1.5rem 0 1rem 0;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-        }
-
-        h2 {
-            font-size: 1.8rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 0.5rem;
-        }
-
-        h3 {
-            font-size: 1.4rem;
-        }
-
-        p {
-            margin-bottom: 1rem;
-        }
-
-        ul, ol {
-            margin-left: 2rem;
-            margin-bottom: 1rem;
-        }
-
-        li {
-            margin-bottom: 0.5rem;
-        }
-
-        .step {
-            background: #e8f4fc;
-            padding: 1.5rem;
-            border-radius: 8px;
-            margin: 1.5rem 0;
-            border-left: 4px solid #3498db;
-        }
-
-        .tip {
-            background: #fff8e1;
-            padding: 1.5rem;
-            border-radius: 8px;
-            margin: 1.5rem 0;
-            border-left: 4px solid #f39c12;
-        }
-
-        .warning {
-            background: #f8d7da;
-            padding: 1.5rem;
-            border-radius: 8px;
-            margin: 1.5rem 0;
-            border-left: 4px solid #e74c3c;
-        }
-
-        .cta-button {
-            display: inline-block;
-            background: #3498db;
-            color: white;
-            padding: 12px 30px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: background 0.3s;
-            margin: 1rem 0;
-        }
-
-        .cta-button:hover {
-            background: #2980b9;
-        }
-
-        pre {
-            background: #2c3e50;
-            color: #f8f9fa;
-            padding: 1rem;
-            border-radius: 5px;
-            overflow-x: auto;
-            margin: 1rem 0;
-        }
-
-        code {
-            font-family: 'Courier New', monospace;
-        }
-
-        footer {
-            background: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 2rem 0;
-            margin-top: 3rem;
-        }
-
-        @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-        }
-    </style>
+    <title>Pattern Development Guide - Regex Intelligence Exchange by Invinsense</title>
+    <meta name="description" content="Advanced guide for creating and improving regex patterns in the Regex Intelligence Exchange">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <nav>
-                <div class="logo">Regex Intelligence Exchange</div>
+            <nav class="nav">
+                <div class="logo">
+                    <span class="logo-icon">🔍</span>
+                    <span>Regex Intelligence Exchange</span>
+                </div>
                 <div class="nav-links">
                     <a href="../index.html">Home</a>
                     <a href="../pattern-database.html">Patterns</a>
+                    <a href="../pattern-summary.html">Statistics</a>
                     <a href="beginners-guide.html">Getting Started</a>
                     <a href="good-first-issues.html">Contribute</a>
                 </div>
@@ -198,162 +44,212 @@
             <div class="step">
                 <h3>Complex Pattern Structures</h3>
                 <p>For complex software that reports versions in multiple ways, consider creating multiple patterns in a single file:</p>
-                
                 <pre><code>{
-  "patterns": [
+  "vendor": "Example Vendor",
+  "product": "Example Product",
+  "all_versions": [
     {
-      "name": "Apache HTTPD - Server Header",
-      "category": "web",
-      "pattern": "Server: Apache/([\\d.]+)",
-      "vendor": "Apache",
-      "product": "HTTPD",
+      "name": "Header Pattern",
+      "pattern": "Server: Example/([\\d.]+)",
       "version_group": 1,
-      "priority": 180,
-      "confidence": 0.9,
-      "metadata": {
-        // ... metadata ...
-      }
+      "priority": 150,
+      "confidence": 0.9
     },
     {
-      "name": "Apache HTTPD - X-Powered-By Header",
-      "category": "web",
-      "pattern": "X-Powered-By: Apache/([\\d.]+)",
-      "vendor": "Apache",
-      "product": "HTTPD",
+      "name": "Body Pattern",
+      "pattern": "Version: ([\\d.]+)",
       "version_group": 1,
-      "priority": 160,
-      "confidence": 0.85,
-      "metadata": {
-        // ... metadata ...
-      }
+      "priority": 100,
+      "confidence": 0.8
     }
   ]
 }</code></pre>
             </div>
             
-            <h2>Regex Best Practices</h2>
-            
-            <div class="tip">
-                <h3>Performance Considerations</h3>
-                <p>Patterns should be efficient to avoid performance issues in scanning tools:</p>
-                <ul>
-                    <li>Avoid excessive backtracking</li>
-                    <li>Use specific character classes when possible</li>
-                    <li>Anchor patterns when appropriate</li>
-                    <li>Use non-capturing groups for elements you don't need to extract</li>
-                </ul>
+            <div class="step">
+                <h3>Version-Specific Patterns</h3>
+                <p>For software with different version reporting mechanisms, use the <code>versions</code> field to organize patterns by version range:</p>
+                <pre><code>{
+  "vendor": "Example Vendor",
+  "product": "Example Product",
+  "versions": {
+    "2.x": [
+      {
+        "name": "Version 2 Pattern",
+        "pattern": "Example v2\\.([\\d]+)",
+        "version_group": 1,
+        "priority": 180,
+        "confidence": 0.95
+      }
+    ],
+    "3.x": [
+      {
+        "name": "Version 3 Pattern",
+        "pattern": "Example v3\\.([\\d]+)",
+        "version_group": 1,
+        "priority": 180,
+        "confidence": 0.95
+      }
+    ]
+  }
+}</code></pre>
             </div>
             
-            <div class="warning">
-                <h3>Common Pitfalls</h3>
-                <p>Avoid these common regex mistakes:</p>
-                <ul>
-                    <li>Overly broad patterns that match unrelated text</li>
-                    <li>Not escaping special characters properly</li>
-                    <li>Incorrect capture group numbering</li>
-                    <li>Not accounting for whitespace variations</li>
-                </ul>
+            <h2>Priority and Confidence Scoring</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-label">Priority</div>
+                    <div class="stat-value">0-200</div>
+                    <div class="stat-description">Higher = More reliable</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-label">Confidence</div>
+                    <div class="stat-value">0.0-1.0</div>
+                    <div class="stat-description">Accuracy level</div>
+                </div>
             </div>
             
-            <h2>Advanced Testing Techniques</h2>
+            <h3>Priority Guidelines</h3>
+            <ul>
+                <li><strong>180-200</strong>: Highly specific patterns with minimal false positives</li>
+                <li><strong>150-179</strong>: Specific patterns with good reliability</li>
+                <li><strong>100-149</strong>: General patterns that work across versions</li>
+                <li><strong>50-99</strong>: Broad patterns with potential for false positives</li>
+                <li><strong>0-49</strong>: Experimental or low-confidence patterns</li>
+            </ul>
+            
+            <h3>Confidence Guidelines</h3>
+            <ul>
+                <li><strong>0.9-1.0</strong>: Extremely reliable with comprehensive test cases</li>
+                <li><strong>0.8-0.89</strong>: Very reliable with good test coverage</li>
+                <li><strong>0.7-0.79</strong>: Reliable with adequate test coverage</li>
+                <li><strong>0.5-0.69</strong>: Moderately reliable, needs more testing</li>
+                <li><strong>0.0-0.49</strong>: Low confidence, experimental</li>
+            </ul>
+            
+            <h2>Advanced Regex Techniques</h2>
             
             <div class="step">
-                <h3>Negative Test Cases</h3>
-                <p>Include test cases that should NOT match your pattern to ensure specificity:</p>
-                
+                <h3>Non-Capturing Groups</h3>
+                <p>Use non-capturing groups <code>(?:...)</code> for grouping without affecting version_group:</p>
+                <pre><code>"pattern": "Server: (?:Apache|httpd)/([\\d.]+)"</code></pre>
+            </div>
+            
+            <div class="step">
+                <h3>Lookaheads and Lookbehinds</h3>
+                <p>Use lookaheads <code>(?=...)</code> and lookbehinds <code>(?&lt;=...)</code> for context-sensitive matching:</p>
+                <pre><code>"pattern": "(?&lt;=Server: )Apache/([\\d.]+)"</code></pre>
+            </div>
+            
+            <div class="step">
+                <h3>Escaping Special Characters</h3>
+                <p>Remember to escape special regex characters in JSON strings:</p>
+                <pre><code>// Correct - escaped backslashes
+"pattern": "Server: Apache/([\\d.]+)"
+
+// Incorrect - unescaped backslashes
+"pattern": "Server: Apache/([\d.]+)"</code></pre>
+            </div>
+            
+            <h2>Test Case Best Practices</h2>
+            
+            <div class="tip">
+                <h3>Comprehensive Coverage</h3>
+                <p>Include test cases for:</p>
+                <ul>
+                    <li>Positive matches with expected versions</li>
+                    <li>Negative matches that should not match</li>
+                    <li>Edge cases and unusual version formats</li>
+                    <li>Different software deployment scenarios</li>
+                </ul>
+            </div>
+            
+            <div class="step">
+                <h3>Example Test Cases</h3>
                 <pre><code>"test_cases": [
   {
     "input": "Server: Apache/2.4.41 (Ubuntu)",
     "expected_version": "2.4.41"
   },
   {
-    "input": "Server: Nginx/1.18.0"
-    // No expected_version means this should NOT match
+    "input": "Server: nginx/1.18.0",
+    "expected_version": "1.18.0"
+  },
+  {
+    "input": "Server: IIS/10.0",
+    "expected_version": "10.0"
+  },
+  {
+    "input": "Server: Apache",  // No version
+    "expected_version": null
   }
 ]</code></pre>
             </div>
             
-            <div class="step">
-                <h3>Edge Case Testing</h3>
-                <p>Test edge cases such as:</p>
+            <h2>Performance Considerations</h2>
+            
+            <div class="warning">
+                <h3>Avoid Catastrophic Backtracking</h3>
+                <p>Write efficient regex patterns to avoid performance issues:</p>
                 <ul>
-                    <li>Pre-release versions (alpha, beta, RC)</li>
-                    <li>Non-standard version formats</li>
-                    <li>Very long version strings</li>
-                    <li>Unicode characters in version strings</li>
+                    <li>Use specific patterns instead of generic ones</li>
+                    <li>Avoid nested quantifiers when possible</li>
+                    <li>Use atomic groups <code>(?&gt;...)</code> for performance-critical patterns</li>
+                    <li>Test patterns against large datasets to ensure performance</li>
                 </ul>
             </div>
             
-            <h2>Pattern Optimization</h2>
+            <h2>Validation and Testing</h2>
             
-            <div class="tip">
-                <h3>Priority and Confidence Tuning</h3>
-                <p>Fine-tune these values based on:</p>
+            <div class="step">
+                <h3>Using the Validation Tool</h3>
+                <p>Always validate your patterns with our tool:</p>
+                <pre><code>python tools/validate-new-pattern.py patterns/by-vendor/vendor/product.json</code></pre>
+            </div>
+            
+            <div class="step">
+                <h3>Manual Testing</h3>
+                <p>Test your patterns manually with the pattern matcher:</p>
+                <pre><code>python tools/pattern-matcher.py "Server: Apache/2.4.41" vendor product</code></pre>
+            </div>
+            
+            <h2>Common Pitfalls to Avoid</h2>
+            
+            <div class="warning">
+                <h3>False Positives</h3>
                 <ul>
-                    <li>Real-world testing results</li>
-                    <li>False positive/negative rates</li>
-                    <li>Specificity of the pattern</li>
-                    <li>Reliability of the source</li>
+                    <li>Make patterns specific enough to avoid matching unrelated software</li>
+                    <li>Test against diverse datasets to identify potential false positives</li>
+                    <li>Use context clues to increase specificity</li>
                 </ul>
             </div>
             
-            <h2>Working with the Validation Tools</h2>
-            
-            <div class="step">
-                <h3>Automated Validation</h3>
-                <p>Use our validation tools to check your patterns:</p>
-                
-                <pre><code># Validate a single pattern
-python tools/validate-pattern.py patterns/web/apache.json
-
-# Validate all patterns
-python tools/validate-all-patterns.py</code></pre>
+            <div class="warning">
+                <h3>Version Extraction Issues</h3>
+                <ul>
+                    <li>Ensure version_group points to the correct capture group</li>
+                    <li>Handle different version formats (semver, date-based, etc.)</li>
+                    <li>Consider partial version strings vs. full versions</li>
+                </ul>
             </div>
             
-            <div class="tip">
-                <h3>Continuous Integration</h3>
-                <p>All patterns are automatically validated when submitted via pull request. Make sure your patterns pass validation before submitting.</p>
+            <div class="text-center mt-3">
+                <a href="beginners-guide.html" class="btn btn-primary">Beginner's Guide</a>
+                <a href="good-first-issues.html" class="btn btn-secondary">Good First Issues</a>
             </div>
-            
-            <h2>Collaboration and Review</h2>
-            
-            <div class="step">
-                <h3>Peer Review Process</h3>
-                <p>All pattern submissions go through peer review:</p>
-                <ol>
-                    <li>Automated validation checks</li>
-                    <li>Manual review by maintainers</li>
-                    <li>Testing against real-world samples</li>
-                    <li>Feedback and revision requests</li>
-                    <li>Approval and merge</li>
-                </ol>
-            </div>
-            
-            <div class="tip">
-                <h3>Incorporating Feedback</h3>
-                <p>Be open to feedback and willing to iterate on your patterns. Reviewers may suggest improvements to accuracy, performance, or clarity.</p>
-            </div>
-            
-            <h2>Advanced Contribution Opportunities</h2>
-            
-            <ul>
-                <li>Develop new validation tools or enhance existing ones</li>
-                <li>Create pattern analysis tools to identify potential improvements</li>
-                <li>Build integrations with popular security scanning frameworks</li>
-                <li>Research and document version detection techniques for new software categories</li>
-            </ul>
-            
-            <a href="good-first-issues.html" class="cta-button">Find Advanced Issues</a>
         </div>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Regex Intelligence Exchange by Infopercept. Open Source under MIT License. Updated: 2025-10-01</p>
-            <p style="margin-top: 10px;">
-                <a href="https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept/tree/master" style="color: #3498db; text-decoration: none;">GitHub Repository</a> | 
-                <a href="../index.html" style="color: #3498db; text-decoration: none;">Home</a> | 
-                <a href="https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/" style="color: #3498db; text-decoration: none;">Live Site</a>
+            <p>&copy; 2025 Regex Intelligence Exchange by Invinsense. Open Source under MIT License.</p>
+            <p>
+                <a href="https://github.com/Invinsense/Regex-Intelligence-Exchange-by-Invinsense">GitHub Repository</a> | 
+                <a href="../index.html">Home</a> | 
+                <a href="../pattern-database.html">Pattern Database</a> |
+                <a href="https://invinsense.github.io/Regex-Intelligence-Exchange-by-Invinsense/">Live Site</a>
             </p>
         </div>
     </footer>
