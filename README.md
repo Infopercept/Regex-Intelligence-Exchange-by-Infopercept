@@ -32,6 +32,10 @@ Patterns are organized by vendor and product in the [patterns/by-vendor/](patter
 
 See our [Patterns Architecture](PATTERNS_ARCHITECTURE.md) document for more details.
 
+## Automatic Updates
+
+This repository automatically updates statistics and data files whenever new patterns are added. See our [Automatic Updates](docs/automatic-updates.md) documentation for more information.
+
 ## Documentation
 
 - [Pattern Database](https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/pattern-database.html)

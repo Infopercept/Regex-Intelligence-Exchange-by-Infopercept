@@ -42,20 +42,22 @@ def analyze_patterns(pattern_files):
                 print(f"Error parsing {pattern_file}: {e}")
                 continue
         
-        # Process each pattern in the file
-        for pattern in pattern_data.get('patterns', []):
+        # Extract vendor and product information
+        vendor = pattern_data.get('vendor', 'unknown')
+        product = pattern_data.get('product', 'unknown')
+        category = pattern_data.get('category', 'unknown')
+        
+        # Process patterns in all_versions
+        for pattern in pattern_data.get('all_versions', []):
             total_patterns += 1
             
             # Count by category
-            category = pattern.get('category', 'unknown')
             patterns_by_category[category] += 1
             
             # Count by vendor
-            vendor = pattern.get('vendor', 'unknown')
             patterns_by_vendor[vendor] += 1
             
             # Count by product
-            product = pattern.get('product', 'unknown')
             patterns_by_product[product] += 1
             
             # Count test cases
@@ -63,6 +65,26 @@ def analyze_patterns(pattern_files):
             total_test_cases += len(test_cases)
             if len(test_cases) > 0:
                 patterns_with_test_cases += 1
+        
+        # Process patterns in versions (version-specific patterns)
+        for version_range, patterns in pattern_data.get('versions', {}).items():
+            for pattern in patterns:
+                total_patterns += 1
+                
+                # Count by category
+                patterns_by_category[category] += 1
+                
+                # Count by vendor
+                patterns_by_vendor[vendor] += 1
+                
+                # Count by product
+                patterns_by_product[product] += 1
+                
+                # Count test cases
+                test_cases = pattern.get('metadata', {}).get('test_cases', [])
+                total_test_cases += len(test_cases)
+                if len(test_cases) > 0:
+                    patterns_with_test_cases += 1
     
     return {
         'total_patterns': total_patterns,

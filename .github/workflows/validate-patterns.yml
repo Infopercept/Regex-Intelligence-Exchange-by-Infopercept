@@ -1,4 +1,4 @@
-name: Validate Patterns
+name: Validate and Update Patterns
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  validate:
+  validate-and-update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,3 +22,15 @@ jobs:
       - name: Validate all patterns
         run: |
           python tools/validate-all-patterns.py
+
+      - name: Update statistics and data files
+        run: |
+          python tools/update-all-data.py
+
+      - name: Commit and push changes
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add PATTERNS_SUMMARY.md data/vendors.json data/products.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: Update pattern statistics and data files" && git push)
