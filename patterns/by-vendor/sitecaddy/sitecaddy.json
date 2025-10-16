@@ -1,0 +1,120 @@
+{
+  "vendor": "SiteCaddy",
+  "vendor_id": "sitecaddy",
+  "product": "SiteCaddy",
+  "product_id": "sitecaddy",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SiteCaddy Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SiteCaddy",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- SECTION: bottom branding -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ SECTION:\\ bottom\\ branding\\ \\-\\->"
+    },
+    {
+      "name": "SiteCaddy Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SiteCaddy",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- write title and meta tags -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ write\\ title\\ and\\ meta\\ tags\\ \\-\\->"
+    },
+    {
+      "name": "SiteCaddy Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SiteCaddy",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<ul class=\"siteCaddyMenu menuLevel0 bottomNav\" id=\"primaryNav\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<ul\\ class=\"siteCaddyMenu\\ menuLevel0\\ bottomNav\"\\ id=\"primaryNav\">"
+    },
+    {
+      "name": "SiteCaddy Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SiteCaddy",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.sitecaddy.com\" title=\"Powered by SiteCaddy.com\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.sitecaddy\\.com\"\\ title=\"Powered\\ by\\ SiteCaddy\\.com\">"
+    },
+    {
+      "name": "SiteCaddy Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SiteCaddy",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"/mysitecaddy/assets3/common/images/poweredbysitecaddy.gif\" alt=\"Powered by SiteCaddy.com\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"/mysitecaddy/assets3/common/images/poweredbysitecaddy\\.gif\"\\ alt=\"Powered\\ by\\ SiteCaddy\\.com\">"
+    }
+  ]
+}

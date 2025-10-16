@@ -1,0 +1,32 @@
+{
+  "vendor": "CGIProxy",
+  "vendor_id": "cgiproxy",
+  "product": "CGIProxy",
+  "product_id": "cgiproxy",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CGIProxy Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CGIProxy",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Start Using CGIProxy</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Start\\ Using\\ CGIProxy</title>"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "vendor": "Microsoft-Azure",
+  "vendor_id": "microsoft-azure",
+  "product": "Microsoft-Azure",
+  "product_id": "microsoft-azure",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ARRAffinity cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Azure",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "ARRAffinity"
+    },
+    {
+      "name": "WAWebSiteSID cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Azure",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "WAWebSiteSID"
+    }
+  ]
+}

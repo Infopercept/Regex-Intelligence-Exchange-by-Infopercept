@@ -1,0 +1,186 @@
+{
+  "vendor": "Rumba-CMS",
+  "vendor_id": "rumba-cms",
+  "product": "Rumba-CMS",
+  "product_id": "rumba-cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Rumba-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Rumba-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": " <center><small><a href=http://rumba.net.ru>Powered by Rumba CMS</a></small></center></body>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ <center><small><a\\ href=http://rumba\\.net\\.ru>Powered\\ by\\ Rumba\\ CMS</a></small></center></body>"
+    },
+    {
+      "name": "Rumba-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Rumba-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": " <center><small><a href=http://rumbacms.com>Powered by Rumba CMS</a></small></center></body>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ <center><small><a\\ href=http://rumbacms\\.com>Powered\\ by\\ Rumba\\ CMS</a></small></center></body>"
+    },
+    {
+      "name": "Rumba-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Rumba-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": " Powered by <a rel=\"nofollow\" target=\"_blank\" href=\"http://rumba.net.ru/\">Rumba CMS</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ Powered\\ by\\ <a\\ rel=\"nofollow\"\\ target=\"_blank\"\\ href=\"http://rumba\\.net\\.ru/\">Rumba\\ CMS</a></p>"
+    },
+    {
+      "name": "Rumba-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Rumba-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": " <meta name=\"generator\" content=\"Rumba Easy http://rumba.net.ru\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ <meta\\ name=\"generator\"\\ content=\"Rumba\\ Easy\\ http://rumba\\.net\\.ru\"\\ />"
+    },
+    {
+      "name": "Rumba-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Rumba-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": " <meta name=\"generator\" content=\"Rumba Easy http://rumbacms.com\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ <meta\\ name=\"generator\"\\ content=\"Rumba\\ Easy\\ http://rumbacms\\.com\"\\ />"
+    },
+    {
+      "name": "Rumba-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Rumba-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": " <meta name=\"generator\" content=\"http://rumba.net.ru\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ <meta\\ name=\"generator\"\\ content=\"http://rumba\\.net\\.ru\"\\ />"
+    },
+    {
+      "name": "Rumba-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Rumba-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": " <meta name=\"generator\" content=\"Rumba Wiki http://rumba.net.ru/\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ <meta\\ name=\"generator\"\\ content=\"Rumba\\ Wiki\\ http://rumba\\.net\\.ru/\"\\ />"
+    },
+    {
+      "name": "Rumba-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Rumba-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Generator\" content=\"http://rumba.net.ru\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Generator\"\\ content=\"http://rumba\\.net\\.ru\"\\ />"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "vendor": "TROY-Serial-Server",
+  "vendor_id": "troy-serial-server",
+  "product": "TROY-Serial-Server",
+  "product_id": "troy-serial-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TROY-Serial-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TROY-Serial-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<BODY><CENTER><TABLE BORDER=0><TR ALIGN=CENTER><TD><FONT COLOR=RED SIZE=5>TROY Serial Server</FONT></TD></TR>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<BODY><CENTER><TABLE\\ BORDER=0><TR\\ ALIGN=CENTER><TD><FONT\\ COLOR=RED\\ SIZE=5>TROY\\ Serial\\ Server</FONT></TD></TR>"
+    },
+    {
+      "name": "TROY-Serial-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TROY-Serial-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Network Card Access Password&#058; </B><INPUT TYPE=PASSWORD SIZE=16 MAXLENGTH=16 NAME=access_psw>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Network\\ Card\\ Access\\ Password\\&\\#058;\\ </B><INPUT\\ TYPE=PASSWORD\\ SIZE=16\\ MAXLENGTH=16\\ NAME=access_psw>"
+    }
+  ]
+}

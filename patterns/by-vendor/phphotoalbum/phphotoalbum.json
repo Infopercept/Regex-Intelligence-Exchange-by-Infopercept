@@ -1,0 +1,32 @@
+{
+  "vendor": "phPhotoAlbum",
+  "vendor_id": "phphotoalbum",
+  "product": "phPhotoAlbum",
+  "product_id": "phphotoalbum",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "phPhotoAlbum Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phPhotoAlbum",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>My Picture Album</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>My\\ Picture\\ Album</title>"
+    }
+  ]
+}

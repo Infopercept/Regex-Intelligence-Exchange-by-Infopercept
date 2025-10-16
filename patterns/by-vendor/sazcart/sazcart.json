@@ -1,0 +1,48 @@
+{
+  "vendor": "SazCart",
+  "vendor_id": "sazcart",
+  "product": "SazCart",
+  "product_id": "sazcart",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SazCart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SazCart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "[^&]+&raquo; Powered by SazCart</title>"
+    },
+    {
+      "name": "SazCart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SazCart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.sazcart.com\">Powered by SazCart</a> | <a href=\"http://www.sazcart.com\">Copyright &#169; 2005 - 2006 SazCart.com</a>  </div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.sazcart\\.com\">Powered\\ by\\ SazCart</a>\\ \\|\\ <a\\ href=\"http://www\\.sazcart\\.com\">Copyright\\ \\&\\#169;\\ 2005\\ \\-\\ 2006\\ SazCart\\.com</a>\\ \\ </div>"
+    }
+  ]
+}

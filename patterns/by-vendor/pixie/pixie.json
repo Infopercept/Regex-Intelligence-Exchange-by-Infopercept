@@ -1,0 +1,26 @@
+{
+  "vendor": "Pixie",
+  "vendor_id": "pixie",
+  "product": "Pixie",
+  "product_id": "pixie",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Pixie Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Pixie",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "href=\"http://www.getpixie.co.uk\" title=\"Get Pixie\">(Pixie Powered|Powered by Pixie|Pixie)</a>"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "vendor": "PG-Roomate-Finder-Solution",
+  "vendor_id": "pg-roomate-finder-solution",
+  "product": "PG-Roomate-Finder-Solution",
+  "product_id": "pg-roomate-finder-solution",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PG-Roomate-Finder-Solution Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PG-Roomate-Finder-Solution",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div align=\"center\" style=\"padding-top: 20px; padding-bottom:20px;\">Powered by <a href=\"http://www.realtysoft.pro/roommate/\" title=\"real estate web site design, real estate listing software\">PG Roomate Finder Solution - roommate estate web site design</a></div></td></tr>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ align=\"center\"\\ style=\"padding\\-top:\\ 20px;\\ padding\\-bottom:20px;\">Powered\\ by\\ <a\\ href=\"http://www\\.realtysoft\\.pro/roommate/\"\\ title=\"real\\ estate\\ web\\ site\\ design,\\ real\\ estate\\ listing\\ software\">PG\\ Roomate\\ Finder\\ Solution\\ \\-\\ roommate\\ estate\\ web\\ site\\ design</a></div></td></tr>"
+    }
+  ]
+}

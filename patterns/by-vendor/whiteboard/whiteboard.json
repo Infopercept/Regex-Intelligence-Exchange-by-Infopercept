@@ -1,0 +1,32 @@
+{
+  "vendor": "WhiteBoard",
+  "vendor_id": "whiteboard",
+  "product": "WhiteBoard",
+  "product_id": "whiteboard",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WhiteBoard Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WhiteBoard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t&copy; <a href=\"http://www.powerwd.com\">SaroSoftware</a><br />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\t\\&copy;\\ <a\\ href=\"http://www\\.powerwd\\.com\">SaroSoftware</a><br\\ />"
+    }
+  ]
+}

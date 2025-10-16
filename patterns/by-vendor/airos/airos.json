@@ -1,0 +1,32 @@
+{
+  "vendor": "AirOS",
+  "vendor_id": "airos",
+  "product": "AirOS",
+  "product_id": "airos",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AirOS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AirOS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "cache_images(['main_top.png', 'main.png', 'link.png', 'net.png', '4dv.png', 'srv.png', 'system.png', 'border.gif', 'spectr.gif']);",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "cache_images\\(\\['main_top\\.png',\\ 'main\\.png',\\ 'link\\.png',\\ 'net\\.png',\\ '4dv\\.png',\\ 'srv\\.png',\\ 'system\\.png',\\ 'border\\.gif',\\ 'spectr\\.gif'\\]\\);"
+    }
+  ]
+}

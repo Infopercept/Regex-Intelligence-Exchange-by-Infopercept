@@ -1,0 +1,56 @@
+{
+  "vendor": "Dell-KACE-Appliance",
+  "vendor_id": "dell-kace-appliance",
+  "product": "Dell-KACE-Appliance",
+  "product_id": "dell-kace-appliance",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Dell-KACE-Appliance Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dell-KACE-Appliance",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-dellkace-version: ^(.+)$",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-dellkace-version: ^(.+)$",
+      "version_group": 1
+    },
+    {
+      "name": "Dell-KACE-Appliance Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dell-KACE-Appliance",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-kbox-version: ^(.+)$",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-kbox-version: ^(.+)$",
+      "version_group": 1
+    }
+  ]
+}

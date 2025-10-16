@@ -1,0 +1,142 @@
+{
+  "vendor": "Tradingeye",
+  "vendor_id": "tradingeye",
+  "product": "Tradingeye",
+  "product_id": "tradingeye",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Tradingeye Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tradingeye",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p id=\"credits\"><a href=\"http://www.tradingeye.com/\">powered by Tradingeye</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ id=\"credits\"><a\\ href=\"http://www\\.tradingeye\\.com/\">powered\\ by\\ Tradingeye</a></p>"
+    },
+    {
+      "name": "Tradingeye Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tradingeye",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"dpivision.com Ltd\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"dpivision\\.com\\ Ltd\"\\ />"
+    },
+    {
+      "name": "Tradingeye Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tradingeye",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p id=\"breadcrumbs\">You are here:",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ id=\"breadcrumbs\">You\\ are\\ here:"
+    },
+    {
+      "name": "Tradingeye Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tradingeye",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</div><!-- end body/inner -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</div><!\\-\\-\\ end\\ body/inner\\ \\-\\->"
+    },
+    {
+      "name": "Tradingeye Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tradingeye",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p id=\"skip\">[<a href=\"#main\">skip to main content</a>]</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ id=\"skip\">\\[<a\\ href=\"\\#main\">skip\\ to\\ main\\ content</a>\\]</p>"
+    },
+    {
+      "name": "Tradingeye Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tradingeye",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<th class=\"login_bg\" colspan=\"2\">Tradingeye Login</th>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<th\\ class=\"login_bg\"\\ colspan=\"2\">Tradingeye\\ Login</th>"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "vendor": "SugarCRM",
+  "vendor_id": "sugarcrm",
+  "product": "SugarCRM",
+  "product_id": "sugarcrm",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SugarCRM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SugarCRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<h3 style='color:red'>Possible Cross Site Request Forgery (XSRF) Attack Detected</h3>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<h3\\ style='color:red'>Possible\\ Cross\\ Site\\ Request\\ Forgery\\ \\(XSRF\\)\\ Attack\\ Detected</h3>"
+    },
+    {
+      "name": "SugarCRM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SugarCRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span>|</span>    <a href=\" javascript:void window.open(\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span>\\|</span>\\ \\ \\ \\ <a\\ href=\"\\ javascript:void\\ window\\.open\\(\\\\"
+    },
+    {
+      "name": "SugarCRM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SugarCRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script>var module_sugar_grp1 = 'Users';</script><script>var action_sugar_grp1 = 'Login';</script><script>jscal_today",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script>var\\ module_sugar_grp1\\ =\\ 'Users';</script><script>var\\ action_sugar_grp1\\ =\\ 'Login';</script><script>jscal_today"
+    },
+    {
+      "name": "SugarCRM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SugarCRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img style='margin-top: 2px' border='0' width='106' height='23' src='include/images/poweredby_sugarcrm.png' alt='Powered By SugarCRM'>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ style='margin\\-top:\\ 2px'\\ border='0'\\ width='106'\\ height='23'\\ src='include/images/poweredby_sugarcrm\\.png'\\ alt='Powered\\ By\\ SugarCRM'>"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "vendor": "6kbbs",
+  "vendor_id": "6kbbs",
+  "product": "6kbbs",
+  "product_id": "6kbbs",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "6kbbs Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for 6kbbs",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"www.6kbbs.com\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"www\\.6kbbs\\.com\"\\ />"
+    }
+  ]
+}

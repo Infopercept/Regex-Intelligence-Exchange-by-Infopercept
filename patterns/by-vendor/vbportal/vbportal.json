@@ -1,0 +1,54 @@
+{
+  "vendor": "vbPortal",
+  "vendor_id": "vbportal",
+  "product": "vbPortal",
+  "product_id": "vbportal",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "vbPortal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for vbPortal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"vbPortal - Copyright 2010\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"vbPortal\\ \\-\\ Copyright\\ 2010\"\\ />"
+    },
+    {
+      "name": "vbPortal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for vbPortal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<!-- Do not remove  or your scheduled tasks will cease to function -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<!\\-\\-\\ Do\\ not\\ remove\\ \\ or\\ your\\ scheduled\\ tasks\\ will\\ cease\\ to\\ function\\ \\-\\->"
+    }
+  ]
+}

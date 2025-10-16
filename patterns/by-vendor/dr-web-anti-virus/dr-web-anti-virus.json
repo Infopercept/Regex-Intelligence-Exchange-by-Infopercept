@@ -1,0 +1,48 @@
+{
+  "vendor": "Dr-Web-Anti-Virus",
+  "vendor_id": "dr-web-anti-virus",
+  "product": "Dr-Web-Anti-Virus",
+  "product_id": "dr-web-anti-virus",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Dr-Web-Anti-Virus Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dr-Web-Anti-Virus",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "DRWEB_PERSONAL_OFFICE=[^;]*;"
+    },
+    {
+      "name": "Dr-Web-Anti-Virus Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dr-Web-Anti-Virus",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"logo\" class=\"logo\"><img src=\"/avdesk/includes/system/templates/images/logo_en.png\" alt=\"\" /></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"logo\"\\ class=\"logo\"><img\\ src=\"/avdesk/includes/system/templates/images/logo_en\\.png\"\\ alt=\"\"\\ /></div>"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "vendor": "phpMyRealty",
+  "vendor_id": "phpmyrealty",
+  "product": "phpMyRealty",
+  "product_id": "phpmyrealty",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "phpMyRealty Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpMyRealty",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Main Content table : stop -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Main\\ Content\\ table\\ :\\ stop\\ \\-\\->"
+    },
+    {
+      "name": "phpMyRealty Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpMyRealty",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.phpmyrealty.com\" target=\"_blank\" style=\"font-size: 12px; font-family: arial\">phpMyRealty Professional</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.phpmyrealty\\.com\"\\ target=\"_blank\"\\ style=\"font\\-size:\\ 12px;\\ font\\-family:\\ arial\">phpMyRealty\\ Professional</a>"
+    },
+    {
+      "name": "phpMyRealty Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpMyRealty",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span class=\"table_header_text\"> &nbsp;Administrator Control Panel</span>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span\\ class=\"table_header_text\">\\ \\&nbsp;Administrator\\ Control\\ Panel</span>"
+    }
+  ]
+}

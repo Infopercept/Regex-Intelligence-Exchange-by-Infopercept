@@ -1,0 +1,76 @@
+{
+  "vendor": "poMMo",
+  "vendor_id": "pommo",
+  "product": "poMMo",
+  "product_id": "pommo",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "poMMo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for poMMo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Page fueled by <a href=\"http://www.pommo.org/\">poMMo</a> mailing management software",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Page\\ fueled\\ by\\ <a\\ href=\"http://www\\.pommo\\.org/\">poMMo</a>\\ mailing\\ management\\ software"
+    },
+    {
+      "name": "poMMo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for poMMo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Page fueled by <a href=\"http://pommo.sourceforge.net/\">poMMo</a> mailing management software",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Page\\ fueled\\ by\\ <a\\ href=\"http://pommo\\.sourceforge\\.net/\">poMMo</a>\\ mailing\\ management\\ software"
+    },
+    {
+      "name": "poMMo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for poMMo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>. ..poMMo.. .</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>\\.\\ \\.\\.poMMo\\.\\.\\ \\.</title>"
+    }
+  ]
+}

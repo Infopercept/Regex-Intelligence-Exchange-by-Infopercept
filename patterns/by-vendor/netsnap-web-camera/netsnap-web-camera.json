@@ -1,0 +1,98 @@
+{
+  "vendor": "Netsnap-Web-Camera",
+  "vendor_id": "netsnap-web-camera",
+  "product": "Netsnap-Web-Camera",
+  "product_id": "netsnap-web-camera",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Netsnap-Web-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netsnap-Web-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Live NetSnap Cam-Server feed</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Live\\ NetSnap\\ Cam\\-Server\\ feed</title>"
+    },
+    {
+      "name": "Netsnap-Web-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netsnap-Web-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "color=\"#008080\">Live-Webcam</font></big></big></big></strong></em></font></h3>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "color=\"\\#008080\">Live\\-Webcam</font></big></big></big></strong></em></font></h3>"
+    },
+    {
+      "name": "Netsnap-Web-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netsnap-Web-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "color=\"#008080\">NetSnap\u00ae</font></big></big></big></big><font size=\"6\"> </font></strong></font></em></h3>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "color=\"\\#008080\">NetSnap\u00ae</font></big></big></big></big><font\\ size=\"6\">\\ </font></strong></font></em></h3>"
+    },
+    {
+      "name": "Netsnap-Web-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netsnap-Web-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p align=\"center\"><font face=\"Arial\"><small><small>NetSnap is a registered Trademark of",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ align=\"center\"><font\\ face=\"Arial\"><small><small>NetSnap\\ is\\ a\\ registered\\ Trademark\\ of"
+    }
+  ]
+}

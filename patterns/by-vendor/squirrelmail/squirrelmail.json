@@ -1,0 +1,98 @@
+{
+  "vendor": "SquirrelMail",
+  "vendor_id": "squirrelmail",
+  "product": "SquirrelMail",
+  "product_id": "squirrelmail",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "default title",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SquirrelMail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>SquirrelMail - Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>SquirrelMail\\ \\-\\ Login</title>"
+    },
+    {
+      "name": "js function",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SquirrelMail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "function squirrelmail_loginpage_onload()",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "function\\ squirrelmail_loginpage_onload\\(\\)"
+    },
+    {
+      "name": "css comment",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SquirrelMail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/* avoid stupid IE6 bug with frames and scrollbars */",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "/\\*\\ avoid\\ stupid\\ IE6\\ bug\\ with\\ frames\\ and\\ scrollbars\\ \\*/"
+    },
+    {
+      "name": "SquirrelMail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SquirrelMail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<b>SquirrelMail Login</b>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<b>SquirrelMail\\ Login</b>"
+    }
+  ]
+}

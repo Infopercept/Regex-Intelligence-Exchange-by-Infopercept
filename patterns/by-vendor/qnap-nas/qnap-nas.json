@@ -1,0 +1,356 @@
+{
+  "vendor": "QNAP-NAS",
+  "vendor_id": "qnap-nas",
+  "product": "QNAP-NAS",
+  "product_id": "qnap-nas",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "QNAP-NAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QNAP-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>QNAP Photo Station</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>QNAP\\ Photo\\ Station</title>"
+    },
+    {
+      "name": "QNAP-NAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QNAP-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>QNAP Download Station</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>QNAP\\ Download\\ Station</title>"
+    },
+    {
+      "name": "QNAP-NAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QNAP-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>QNAP Multimedia Station (Photo Album)</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>QNAP\\ Multimedia\\ Station\\ \\(Photo\\ Album\\)</TITLE>"
+    },
+    {
+      "name": "QNAP-NAS Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QNAP-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Multimedia Station</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Multimedia\\ Station</TITLE>"
+    },
+    {
+      "name": "QNAP-NAS Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QNAP-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "NavPage(\"http://\"+ location_hostname_for_ipv6(location.hostname) +\":\"+ qweb_port +\"/\", 0);",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "NavPage\\(\"http://\"\\+\\ location_hostname_for_ipv6\\(location\\.hostname\\)\\ \\+\":\"\\+\\ qweb_port\\ \\+\"/\",\\ 0\\);"
+    },
+    {
+      "name": "QNAP-NAS Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QNAP-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "location.href=pr+\"://[\"+location.hostname+\"]\"+pt+redirect_suffix;",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "location\\.href=pr\\+\"://\\[\"\\+location\\.hostname\\+\"\\]\"\\+pt\\+redirect_suffix;"
+    },
+    {
+      "name": "QNAP-NAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QNAP-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^//window.location = '/indexnas\\.cgi\\?counter=' \\+ Math\\.floor\\(\\(diff1-diff2\\)/1000\\);[\\r\\n]^window.location.replace\\('/indexnas\\.cgi\\?counter=' \\+ Math\\.floor\\(\\(diff1-diff2\\)/1000\\)\\);$"
+    },
+    {
+      "name": "QNAP-NAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QNAP-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.qnap.com\"><img src=\"/ajax_obj/images/qnap_logo_w.gif\" alt=\"QNAP Turbo NAS\" title=\"QNAP Turbo NAS\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.qnap\\.com\"><img\\ src=\"/ajax_obj/images/qnap_logo_w\\.gif\"\\ alt=\"QNAP\\ Turbo\\ NAS\"\\ title=\"QNAP\\ Turbo\\ NAS\""
+    },
+    {
+      "name": "QNAP-NAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QNAP-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td class=\"header_tb_logo\"><img id=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ class=\"header_tb_logo\"><img\\ id=\\\\"
+    },
+    {
+      "name": "QNAP-NAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QNAP-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<table width=\"100%\" border=\"0\" background=\"/v3_menu/images/admin_header.jpg\" cellpadding=\"0\" cellspacing=\"0\" class=\"12-blue\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<table\\ width=\"100%\"\\ border=\"0\"\\ background=\"/v3_menu/images/admin_header\\.jpg\"\\ cellpadding=\"0\"\\ cellspacing=\"0\"\\ class=\"12\\-blue\">"
+    },
+    {
+      "name": "QNAP-NAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QNAP-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img id=\"img_webserver\" src=\"/ajax_obj/images/login_main_2.jpg\" longdesc=\"javascript:onQuickLinkChange(2);\" alt=\"Web Server\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ id=\"img_webserver\"\\ src=\"/ajax_obj/images/login_main_2\\.jpg\"\\ longdesc=\"javascript:onQuickLinkChange\\(2\\);\"\\ alt=\"Web\\ Server\"\\ />"
+    },
+    {
+      "name": "QNAP-NAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QNAP-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img id=\"img_multimedia\" src=\"/ajax_obj/images/login_main_3.jpg\" longdesc=\"javascript:onQuickLinkChange(3);\" alt=\"Multimedia Station\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ id=\"img_multimedia\"\\ src=\"/ajax_obj/images/login_main_3\\.jpg\"\\ longdesc=\"javascript:onQuickLinkChange\\(3\\);\"\\ alt=\"Multimedia\\ Station\"\\ />"
+    },
+    {
+      "name": "QNAP-NAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QNAP-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img id=\"img_download\" src=\"/ajax_obj/images/login_main_4.jpg\" longdesc=\"javascript:onQuickLinkChange(4);\" alt=\"Download Station\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ id=\"img_download\"\\ src=\"/ajax_obj/images/login_main_4\\.jpg\"\\ longdesc=\"javascript:onQuickLinkChange\\(4\\);\"\\ alt=\"Download\\ Station\"\\ />"
+    },
+    {
+      "name": "QNAP-NAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QNAP-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img id=\"img_webfile\" src=\"/ajax_obj/images/login_main_5.jpg\" longdesc=\"javascript:onQuickLinkChange(5);\" alt=\"Web File Manager\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ id=\"img_webfile\"\\ src=\"/ajax_obj/images/login_main_5\\.jpg\"\\ longdesc=\"javascript:onQuickLinkChange\\(5\\);\"\\ alt=\"Web\\ File\\ Manager\"\\ />"
+    },
+    {
+      "name": "QNAP-NAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QNAP-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img id=\"img_surveillance\" src=\"/ajax_obj/images/login_main_6.jpg\" longdesc=\"javascript:onQuickLinkChange(6);\" alt=\"Surveillance Station\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ id=\"img_surveillance\"\\ src=\"/ajax_obj/images/login_main_6\\.jpg\"\\ longdesc=\"javascript:onQuickLinkChange\\(6\\);\"\\ alt=\"Surveillance\\ Station\"\\ />"
+    },
+    {
+      "name": "QNAP-NAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QNAP-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Welcome to QNAP Turbo NAS</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Welcome\\ to\\ QNAP\\ Turbo\\ NAS</title>"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "vendor": "PowerAlert",
+  "vendor_id": "poweralert",
+  "product": "PowerAlert",
+  "product_id": "poweralert",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PowerAlert Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PowerAlert",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<h1>Protected Object</h1>This object on the Netsilicon is protected.<p>Return to <A TARGET=\"_top\" HREF=\"index.html\">Last page</A><p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<h1>Protected\\ Object</h1>This\\ object\\ on\\ the\\ Netsilicon\\ is\\ protected\\.<p>Return\\ to\\ <A\\ TARGET=\"_top\"\\ HREF=\"index\\.html\">Last\\ page</A><p>"
+    }
+  ]
+}

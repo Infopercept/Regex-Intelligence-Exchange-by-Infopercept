@@ -1,0 +1,114 @@
+{
+  "vendor": "WSN-Classifieds",
+  "vendor_id": "wsn-classifieds",
+  "product": "WSN-Classifieds",
+  "product_id": "wsn-classifieds",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WSN-Classifieds Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WSN-Classifieds",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>WSN Classifieds Admin Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>WSN\\ Classifieds\\ Admin\\ Login</title>"
+    },
+    {
+      "name": "WSN-Classifieds Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WSN-Classifieds",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>WSN Classifieds Administration Panel</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>WSN\\ Classifieds\\ Administration\\ Panel</title>"
+    },
+    {
+      "name": "WSN-Classifieds Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WSN-Classifieds",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- place any jquery-dependent script tags that need to be before the /head tag in here -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ place\\ any\\ jquery\\-dependent\\ script\\ tags\\ that\\ need\\ to\\ be\\ before\\ the\\ /head\\ tag\\ in\\ here\\ \\-\\->"
+    },
+    {
+      "name": "WSN-Classifieds Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WSN-Classifieds",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<div class=\"boxtitle\" on[c|C]lick=\"minmax\\('[a-z]+box'\\)\"><img src="
+    },
+    {
+      "name": "WSN-Classifieds Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WSN-Classifieds",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<textarea readonly rows=\"20\" cols=\"75\">WSN Classifieds License Agreement",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<textarea\\ readonly\\ rows=\"20\"\\ cols=\"75\">WSN\\ Classifieds\\ License\\ Agreement"
+    }
+  ]
+}

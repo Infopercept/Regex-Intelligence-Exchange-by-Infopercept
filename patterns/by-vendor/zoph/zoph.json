@@ -1,0 +1,54 @@
+{
+  "vendor": "Zoph",
+  "vendor_id": "zoph",
+  "product": "Zoph",
+  "product_id": "zoph",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Zoph Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Zoph",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<li class=\"selected\"><a href=\"zoph.php\">home</a></li><li ><a href=\"albums.php\">albums</a></li><li ><a href=\"categories.php\">categories</a></li><li >",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<li\\ class=\"selected\"><a\\ href=\"zoph\\.php\">home</a></li><li\\ ><a\\ href=\"albums\\.php\">albums</a></li><li\\ ><a\\ href=\"categories\\.php\">categories</a></li><li\\ >"
+    },
+    {
+      "name": "Zoph Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Zoph",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Zoph - Home</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Zoph\\ \\-\\ Home</title>"
+    }
+  ]
+}

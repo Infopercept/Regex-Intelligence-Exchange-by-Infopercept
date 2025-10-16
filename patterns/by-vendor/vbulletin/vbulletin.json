@@ -1,0 +1,160 @@
+{
+  "vendor": "VBulletin",
+  "vendor_id": "vbulletin",
+  "product": "VBulletin",
+  "product_id": "vbulletin",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VBulletin Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VBulletin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=\"generator\" content=\"vBulletin"
+    },
+    {
+      "name": "VBulletin Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VBulletin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "\\* vBulletin [0-9a-z.]+ CSS"
+    },
+    {
+      "name": "vbulletin_global.js",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VBulletin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script type=\"text/javascript\" src=\"[a-z0-9./]*vbulletin_global.js"
+    },
+    {
+      "name": "VBulletin Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VBulletin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "vb_bullet.gif\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "vb_bullet\\.gif\""
+    },
+    {
+      "name": "VBulletin Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VBulletin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by(:)? vBulletin(&reg;)? Version"
+    },
+    {
+      "name": "VBulletin Pattern",
+      "priority": 50,
+      "confidence": 0.5,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VBulletin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Copyright &copy;2000 - [0-9]+, Jelsoft Enterprises Ltd."
+    },
+    {
+      "name": "bblastactivity cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VBulletin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "bblastactivity"
+    },
+    {
+      "name": "bblastvisit cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VBulletin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "bblastvisit"
+    },
+    {
+      "name": "bbsessionhash cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VBulletin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "bbsessionhash"
+    }
+  ]
+}

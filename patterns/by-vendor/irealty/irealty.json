@@ -1,0 +1,98 @@
+{
+  "vendor": "iRealty",
+  "vendor_id": "irealty",
+  "product": "iRealty",
+  "product_id": "irealty",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "iRealty Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iRealty",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.irealty.com/\" title=\"iRealty\"> iRealty </a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.irealty\\.com/\"\\ title=\"iRealty\">\\ iRealty\\ </a>"
+    },
+    {
+      "name": "iRealty Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iRealty",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a target=\"_blank\" href=\"http://www.irealtysoft.com/\">- Powered by iRealty</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ target=\"_blank\"\\ href=\"http://www\\.irealtysoft\\.com/\">\\-\\ Powered\\ by\\ iRealty</a>"
+    },
+    {
+      "name": "iRealty Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iRealty",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a target=\"_blank\" title=\"iRealty &mdash; Real Estate Listing Software\" href=\"http://www.irealtysoft.com/\">iRealty</a>,",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ target=\"_blank\"\\ title=\"iRealty\\ \\&mdash;\\ Real\\ Estate\\ Listing\\ Software\"\\ href=\"http://www\\.irealtysoft\\.com/\">iRealty</a>,"
+    },
+    {
+      "name": "iRealty Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iRealty",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a target=\"_blank\" title=\"iRealty &mdash; Real Estate Listing Software\" href=\"http://www.worksforweb.com/products/iRealty/\">iRealty</a>,",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ target=\"_blank\"\\ title=\"iRealty\\ \\&mdash;\\ Real\\ Estate\\ Listing\\ Software\"\\ href=\"http://www\\.worksforweb\\.com/products/iRealty/\">iRealty</a>,"
+    }
+  ]
+}

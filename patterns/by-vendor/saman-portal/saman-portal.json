@@ -1,0 +1,80 @@
+{
+  "vendor": "Saman-Portal",
+  "vendor_id": "saman-portal",
+  "product": "Saman-Portal",
+  "product_id": "saman-portal",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Saman-Portal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Saman-Portal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Generator\" content=\"Saman Information Structure\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Generator\"\\ content=\"Saman\\ Information\\ Structure\"\\ />"
+    },
+    {
+      "name": "Saman-Portal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Saman-Portal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script  type=\"text/javascript\" language=\"JavaScript\">[\\s]+var sisTHEMEPATH_HTTP = \""
+    },
+    {
+      "name": "Saman-Portal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Saman-Portal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "sisRapid Framework"
+    },
+    {
+      "name": "Saman-Portal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Saman-Portal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "SAMANPORTALSID=[^;]+;"
+    }
+  ]
+}

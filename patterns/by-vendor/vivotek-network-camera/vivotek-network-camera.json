@@ -1,0 +1,86 @@
+{
+  "vendor": "Vivotek-Network-Camera",
+  "vendor_id": "vivotek-network-camera",
+  "product": "Vivotek-Network-Camera",
+  "product_id": "vivotek-network-camera",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Vivotek-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Vivotek-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"logo_icon\"><a href=\"http://www.vivotek.com/\" target=\"_blank\"><img alt=\"logo\" src=\"pic/logo.gif\"></a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"logo_icon\"><a\\ href=\"http://www\\.vivotek\\.com/\"\\ target=\"_blank\"><img\\ alt=\"logo\"\\ src=\"pic/logo\\.gif\"></a></div>"
+    },
+    {
+      "name": "Vivotek-Network-Camera Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Vivotek-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<frameset rows=\"2000,0\" border=\"0\" frameborder=\"no\" framespacing=\"0\">[\\s]+<frame name=\"mainframe\" src=\"main\\.html\" marginheight=\"0\" marginwidth=\"0\">"
+    },
+    {
+      "name": "Vivotek-Network-Camera Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Vivotek-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^(Network Camera|Network Dome Camera|Network Camera with Pan/Tilt|Wireless Network Camera)$"
+    },
+    {
+      "name": "Vivotek-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Vivotek-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"text/javascript\" \tsrc=\"/cgi-bin/admin/getparamjs.cgi?system\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ type=\"text/javascript\"\\ \\\tsrc=\"/cgi\\-bin/admin/getparamjs\\.cgi\\?system\">"
+    }
+  ]
+}

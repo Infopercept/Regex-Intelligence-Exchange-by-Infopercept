@@ -1,0 +1,54 @@
+{
+  "vendor": "IBM-Cognos",
+  "vendor_id": "ibm-cognos",
+  "product": "IBM-Cognos",
+  "product_id": "ibm-cognos",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "IBM-Cognos Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for IBM-Cognos",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Trademark\" content=\"Licensed Material - Property of IBM Corp. IBM, the IBM logo, and Cognos are trademarks of IBM Corp., registered in many jurisdictions worldwide.\"/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Trademark\"\\ content=\"Licensed\\ Material\\ \\-\\ Property\\ of\\ IBM\\ Corp\\.\\ IBM,\\ the\\ IBM\\ logo,\\ and\\ Cognos\\ are\\ trademarks\\ of\\ IBM\\ Corp\\.,\\ registered\\ in\\ many\\ jurisdictions\\ worldwide\\.\"/>"
+    },
+    {
+      "name": "IBM-Cognos Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for IBM-Cognos",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td nowrap class=\"copyright\" id=\"loginLegalContainer\">Licensed Material - Property of IBM Corp.<br>(C) Copyright IBM Corporation and its licensors 2005, 2009.<br>IBM, the IBM logo, and Cognos are trademarks of IBM Corp., registered in many jurisdictions worldwide.</td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ nowrap\\ class=\"copyright\"\\ id=\"loginLegalContainer\">Licensed\\ Material\\ \\-\\ Property\\ of\\ IBM\\ Corp\\.<br>\\(C\\)\\ Copyright\\ IBM\\ Corporation\\ and\\ its\\ licensors\\ 2005,\\ 2009\\.<br>IBM,\\ the\\ IBM\\ logo,\\ and\\ Cognos\\ are\\ trademarks\\ of\\ IBM\\ Corp\\.,\\ registered\\ in\\ many\\ jurisdictions\\ worldwide\\.</td>"
+    }
+  ]
+}

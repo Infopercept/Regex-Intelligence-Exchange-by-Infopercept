@@ -1,0 +1,54 @@
+{
+  "vendor": "AContent",
+  "vendor_id": "acontent",
+  "product": "AContent",
+  "product_id": "acontent",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AContent Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AContent",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>AContent: Learning Content Repository:",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>AContent:\\ Learning\\ Content\\ Repository:"
+    },
+    {
+      "name": "AContent Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AContent",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<dt><span class=\"required\" title=\"Required Field\">*</span><label for=\"login\">Login Name or Email</label></dt>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<dt><span\\ class=\"required\"\\ title=\"Required\\ Field\">\\*</span><label\\ for=\"login\">Login\\ Name\\ or\\ Email</label></dt>"
+    }
+  ]
+}

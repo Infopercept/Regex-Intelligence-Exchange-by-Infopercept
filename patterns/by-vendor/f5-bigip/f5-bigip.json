@@ -1,0 +1,90 @@
+{
+  "vendor": "F5-BigIP",
+  "vendor_id": "f5-bigip",
+  "product": "F5-BigIP",
+  "product_id": "f5-bigip",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BIGIP cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for F5-BigIP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "BIGIP"
+    },
+    {
+      "name": "CEBrowser cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for F5-BigIP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "CEBrowser"
+    },
+    {
+      "name": "ceSessionUID cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for F5-BigIP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "ceSessionUID"
+    },
+    {
+      "name": "LoadingAsMobile cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for F5-BigIP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "LoadingAsMobile"
+    },
+    {
+      "name": "_SitePath cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for F5-BigIP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "_SitePath"
+    }
+  ]
+}

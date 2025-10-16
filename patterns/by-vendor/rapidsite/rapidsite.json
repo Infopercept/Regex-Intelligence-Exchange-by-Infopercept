@@ -1,0 +1,26 @@
+{
+  "vendor": "RapidSite",
+  "vendor_id": "rapidsite",
+  "product": "RapidSite",
+  "product_id": "rapidsite",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "RapidSite Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for RapidSite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Rapidsite"
+    }
+  ]
+}

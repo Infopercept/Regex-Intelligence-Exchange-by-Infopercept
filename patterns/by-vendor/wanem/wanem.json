@@ -1,0 +1,32 @@
+{
+  "vendor": "WANem",
+  "vendor_id": "wanem",
+  "product": "WANem",
+  "product_id": "wanem",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WANem Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WANem",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Welcome to WANem</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Welcome\\ to\\ WANem</TITLE>"
+    }
+  ]
+}

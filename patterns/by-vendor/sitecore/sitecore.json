@@ -1,0 +1,42 @@
+{
+  "vendor": "SiteCore",
+  "vendor_id": "sitecore",
+  "product": "SiteCore",
+  "product_id": "sitecore",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SC_ANALYTICS_ cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SiteCore",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^SC_ANALYTICS_"
+    },
+    {
+      "name": "sc_expview cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SiteCore",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^sc_expview"
+    }
+  ]
+}

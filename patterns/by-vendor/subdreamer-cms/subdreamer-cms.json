@@ -1,0 +1,92 @@
+{
+  "vendor": "Subdreamer-CMS",
+  "vendor_id": "subdreamer-cms",
+  "product": "Subdreamer-CMS",
+  "product_id": "subdreamer-cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "powered by text #1",
+      "priority": 100,
+      "confidence": 1.0,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Subdreamer-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.subdreamer.com\" target=\"_blank\" class=\"copyright\">Website powered by Subdreamer CMS</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.subdreamer\\.com\"\\ target=\"_blank\"\\ class=\"copyright\">Website\\ powered\\ by\\ Subdreamer\\ CMS</a>"
+    },
+    {
+      "name": "powered by text #2",
+      "priority": 100,
+      "confidence": 1.0,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Subdreamer-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"http://www.subdreamer.com[/]*\" title=\"Website powered by Subdreamer[\\ CMS]*\">Website powered by Subdreamer[\\ CMS]*</a>"
+    },
+    {
+      "name": "login page text",
+      "priority": 100,
+      "confidence": 1.0,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Subdreamer-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"copyright\">Powered by <b>Subdreamer CMS</b></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"copyright\">Powered\\ by\\ <b>Subdreamer\\ CMS</b></div>"
+    },
+    {
+      "name": "old login page text",
+      "priority": 100,
+      "confidence": 1.0,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Subdreamer-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td class=\"logintitle\" height=\"18\">Subdreamer Admin Panel</td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ class=\"logintitle\"\\ height=\"18\">Subdreamer\\ Admin\\ Panel</td>"
+    }
+  ]
+}

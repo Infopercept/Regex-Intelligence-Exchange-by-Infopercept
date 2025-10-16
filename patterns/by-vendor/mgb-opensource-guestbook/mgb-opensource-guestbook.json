@@ -1,0 +1,54 @@
+{
+  "vendor": "MGB-OpenSource-Guestbook",
+  "vendor_id": "mgb-opensource-guestbook",
+  "product": "MGB-OpenSource-Guestbook",
+  "product_id": "mgb-opensource-guestbook",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MGB-OpenSource-Guestbook Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MGB-OpenSource-Guestbook",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- If you want to remove this copyright you can do so. But it took and already takes a lot of time to code all this stuff.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ If\\ you\\ want\\ to\\ remove\\ this\\ copyright\\ you\\ can\\ do\\ so\\.\\ But\\ it\\ took\\ and\\ already\\ takes\\ a\\ lot\\ of\\ time\\ to\\ code\\ all\\ this\\ stuff\\."
+    },
+    {
+      "name": "MGB-OpenSource-Guestbook Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MGB-OpenSource-Guestbook",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td class=\"entry_info\" colspan=\"3\"><a href=\"email.php?id=denied\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ class=\"entry_info\"\\ colspan=\"3\"><a\\ href=\"email\\.php\\?id=denied\">"
+    }
+  ]
+}

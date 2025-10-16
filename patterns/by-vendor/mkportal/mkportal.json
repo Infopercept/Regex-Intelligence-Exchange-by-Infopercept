@@ -1,0 +1,76 @@
+{
+  "vendor": "MKPortal",
+  "vendor_id": "mkportal",
+  "product": "MKPortal",
+  "product_id": "mkportal",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MKPortal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MKPortal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"MKPortal\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"MKPortal\"\\ />"
+    },
+    {
+      "name": "MKPortal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MKPortal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "|   Cascading Style Sheet for MKportal \"Forum\" Portal Template",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\|\\ \\ \\ Cascading\\ Style\\ Sheet\\ for\\ MKportal\\ \"Forum\"\\ Portal\\ Template"
+    },
+    {
+      "name": "MKPortal Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MKPortal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- end close portal body -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ end\\ close\\ portal\\ body\\ \\-\\->"
+    }
+  ]
+}

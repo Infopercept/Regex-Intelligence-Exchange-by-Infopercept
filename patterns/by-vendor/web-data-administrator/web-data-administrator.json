@@ -1,0 +1,54 @@
+{
+  "vendor": "Web-Data-Administrator",
+  "vendor_id": "web-data-administrator",
+  "product": "Web-Data-Administrator",
+  "product_id": "web-data-administrator",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "default title",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Web-Data-Administrator",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Web Data Administrator - Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Web\\ Data\\ Administrator\\ \\-\\ Login</title>"
+    },
+    {
+      "name": "default form html",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Web-Data-Administrator",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form name=\"WebForm1\" method=\"post\" action=\"Default.aspx\" onsubmit=\"javascript:return WebForm_OnSubmit();\" id=\"WebForm1\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ name=\"WebForm1\"\\ method=\"post\"\\ action=\"Default\\.aspx\"\\ onsubmit=\"javascript:return\\ WebForm_OnSubmit\\(\\);\"\\ id=\"WebForm1\">"
+    }
+  ]
+}

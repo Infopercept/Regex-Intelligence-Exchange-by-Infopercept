@@ -1,0 +1,64 @@
+{
+  "vendor": "AfterLogic-WebMail-Pro",
+  "vendor_id": "afterlogic-webmail-pro",
+  "product": "AfterLogic-WebMail-Pro",
+  "product_id": "afterlogic-webmail-pro",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AfterLogic-WebMail-Pro Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AfterLogic-WebMail-Pro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.afterlogic.com/products/webmail-pro\" target=\"_blank\">AfterLogic WebMail Pro</a><br />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.afterlogic\\.com/products/webmail\\-pro\"\\ target=\"_blank\">AfterLogic\\ WebMail\\ Pro</a><br\\ />"
+    },
+    {
+      "name": "PHPWEBMAILSESSID cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AfterLogic-WebMail-Pro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^PHPWEBMAILSESSID=[^;]+;"
+    },
+    {
+      "name": "PHPWMADMINSESSID cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AfterLogic-WebMail-Pro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^PHPWEBMAILSESSID=[^;]+;"
+    }
+  ]
+}

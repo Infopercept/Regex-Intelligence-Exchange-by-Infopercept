@@ -1,0 +1,142 @@
+{
+  "vendor": "Cogent-DataHub",
+  "vendor_id": "cogent-datahub",
+  "product": "Cogent-DataHub",
+  "product_id": "cogent-datahub",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Cogent-DataHub Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cogent-DataHub",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "timerID = setTimeout (\"DataHubConnection.updateTimer()\", this.timerTick);",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "timerID\\ =\\ setTimeout\\ \\(\"DataHubConnection\\.updateTimer\\(\\)\",\\ this\\.timerTick\\);"
+    },
+    {
+      "name": "Cogent-DataHub Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cogent-DataHub",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link type=\"text/css\" rel=\"stylesheet\" href=\"css/dhwebserver.css\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ type=\"text/css\"\\ rel=\"stylesheet\"\\ href=\"css/dhwebserver\\.css\"\\ />"
+    },
+    {
+      "name": "Cogent-DataHub Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cogent-DataHub",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"images/Cogent.gif\" alt=\"\" width=\"449\" height=\"47\" border=\"0\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"images/Cogent\\.gif\"\\ alt=\"\"\\ width=\"449\"\\ height=\"47\"\\ border=\"0\">"
+    },
+    {
+      "name": "Cogent-DataHub Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cogent-DataHub",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- The DataHub script that determines if the DataPid is running is at the top of this file. The DataHub script is not visable",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ The\\ DataHub\\ script\\ that\\ determines\\ if\\ the\\ DataPid\\ is\\ running\\ is\\ at\\ the\\ top\\ of\\ this\\ file\\.\\ The\\ DataHub\\ script\\ is\\ not\\ visable"
+    },
+    {
+      "name": "Cogent-DataHub Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cogent-DataHub",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Cogent DataHub WebView</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Cogent\\ DataHub\\ WebView</title>"
+    },
+    {
+      "name": "Cogent-DataHub Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cogent-DataHub",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- The following ASP code generates the table of DataHub point values -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ The\\ following\\ ASP\\ code\\ generates\\ the\\ table\\ of\\ DataHub\\ point\\ values\\ \\-\\->"
+    }
+  ]
+}

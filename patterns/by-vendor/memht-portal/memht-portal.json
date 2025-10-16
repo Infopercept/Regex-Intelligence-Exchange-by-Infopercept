@@ -1,0 +1,76 @@
+{
+  "vendor": "MemHT-Portal",
+  "vendor_id": "memht-portal",
+  "product": "MemHT-Portal",
+  "product_id": "memht-portal",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MemHT-Portal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MemHT-Portal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name='author' content='MemHT Portal (www.memht.com) - Miltenovik Manojlo'>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name='author'\\ content='MemHT\\ Portal\\ \\(www\\.memht\\.com\\)\\ \\-\\ Miltenovik\\ Manojlo'>"
+    },
+    {
+      "name": "MemHT-Portal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MemHT-Portal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "// MemHT Portal is free, released under a very permissive license as",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "//\\ MemHT\\ Portal\\ is\\ free,\\ released\\ under\\ a\\ very\\ permissive\\ license\\ as"
+    },
+    {
+      "name": "MemHT-Portal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MemHT-Portal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href='http://www.memht.com' title='MemHT.com' target='_blank'><b>MemHT Portal</b></a> is a free software released under the GNU/GPL License by <a href='http://www.memht.com' title='MemHT.com' target='_blank'><b>Miltenovik Manojlo</b></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href='http://www\\.memht\\.com'\\ title='MemHT\\.com'\\ target='_blank'><b>MemHT\\ Portal</b></a>\\ is\\ a\\ free\\ software\\ released\\ under\\ the\\ GNU/GPL\\ License\\ by\\ <a\\ href='http://www\\.memht\\.com'\\ title='MemHT\\.com'\\ target='_blank'><b>Miltenovik\\ Manojlo</b></a>"
+    }
+  ]
+}

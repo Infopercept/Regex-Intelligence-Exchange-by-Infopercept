@@ -1,0 +1,70 @@
+{
+  "vendor": "Sitefinity",
+  "vendor_id": "sitefinity",
+  "product": "Sitefinity",
+  "product_id": "sitefinity",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Sitefinity Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sitefinity",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "href=\"http://www.sitefinity.com\" class=\"poweredBySitefinity\" title=\"Sitefinity ASP.NET CMS\">Powered by Sitefinity ASP.NET CMS</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "href=\"http://www\\.sitefinity\\.com\"\\ class=\"poweredBySitefinity\"\\ title=\"Sitefinity\\ ASP\\.NET\\ CMS\">Powered\\ by\\ Sitefinity\\ ASP\\.NET\\ CMS</a></p>"
+    },
+    {
+      "name": "Sitefinity Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sitefinity",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "title=\"Sitefinity ASP.NET CMS\" class=\"poweredBySitefinity\" href=\"http://www.sitefinity.com\">Powered by Sitefinity ASP.NET CMS</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "title=\"Sitefinity\\ ASP\\.NET\\ CMS\"\\ class=\"poweredBySitefinity\"\\ href=\"http://www\\.sitefinity\\.com\">Powered\\ by\\ Sitefinity\\ ASP\\.NET\\ CMS</a></p>"
+    },
+    {
+      "name": "Sitefinity Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sitefinity",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link href=\"/[Ss]ite[Ff]inity/WebsiteTemplates/"
+    }
+  ]
+}

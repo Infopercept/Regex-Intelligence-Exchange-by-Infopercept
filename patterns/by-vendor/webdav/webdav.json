@@ -1,0 +1,88 @@
+{
+  "vendor": "WebDAV",
+  "vendor_id": "webdav",
+  "product": "WebDAV",
+  "product_id": "webdav",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WebDAV Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebDAV",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "[^\\r^\\n]*DAV/"
+    },
+    {
+      "name": "WebDAV Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebDAV",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: [^\\r^\\n]*DAV/([^\\s^\\r^\\n]*)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: [^\\r^\\n]*DAV/([^\\s^\\r^\\n]*)",
+      "version_group": 1
+    },
+    {
+      "name": "MS-Author-Via HTTP Header",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebDAV",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^[\\s]*DAV"
+    },
+    {
+      "name": "WebDAV Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebDAV",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "dav: [\\s]*1,2,<http://([^>]+)>",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "dav: [\\s]*1,2,<http://([^>]+)>",
+      "version_group": 1
+    }
+  ]
+}

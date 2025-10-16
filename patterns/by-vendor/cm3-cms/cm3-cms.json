@@ -1,0 +1,180 @@
+{
+  "vendor": "cm3-cms",
+  "vendor_id": "cm3-cms",
+  "product": "cm3-cms",
+  "product_id": "cm3-cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "JavaScript Object (CM2)",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for cm3-cms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "top.cm2_home.location.href",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "top\\.cm2_home\\.location\\.href"
+    },
+    {
+      "name": "HTML Body (CM2)",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for cm3-cms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "name=\"cm2_top\" id=\"cm2_top\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "name=\"cm2_top\"\\ id=\"cm2_top\""
+    },
+    {
+      "name": "HTML Body (CM2)",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for cm3-cms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "name=\"cm25_main\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "name=\"cm25_main\""
+    },
+    {
+      "name": "HTML Body (CM3)",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for cm3-cms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "name=\"id=\"cm3top\" name=\"cm3top\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "name=\"id=\"cm3top\"\\ name=\"cm3top\""
+    },
+    {
+      "name": "HTML Body (CM3)",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for cm3-cms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "logo_cm3_top.gif\" border=\"0\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "logo_cm3_top\\.gif\"\\ border=\"0\""
+    },
+    {
+      "name": "HTML Body (CM3)",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for cm3-cms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "alt=\"Content management system: cm3 built and powered\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "alt=\"Content\\ management\\ system:\\ cm3\\ built\\ and\\ powered\""
+    },
+    {
+      "name": "HTML Body (CM3)",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for cm3-cms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "cm3powered_green.gif\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "cm3powered_green\\.gif\""
+    },
+    {
+      "name": "Set-Cookie Header (CM3)",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for cm3-cms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "cm3session"
+    }
+  ]
+}

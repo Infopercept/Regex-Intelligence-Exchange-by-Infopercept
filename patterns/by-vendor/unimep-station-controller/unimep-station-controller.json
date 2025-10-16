@@ -1,0 +1,98 @@
+{
+  "vendor": "Unimep-Station-Controller",
+  "vendor_id": "unimep-station-controller",
+  "product": "Unimep-Station-Controller",
+  "product_id": "unimep-station-controller",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Unimep-Station-Controller Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Unimep-Station-Controller",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<META Name=\"Description\" Content=\"UniMep Station Controller\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<META\\ Name=\"Description\"\\ Content=\"UniMep\\ Station\\ Controller\">"
+    },
+    {
+      "name": "Unimep-Station-Controller Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Unimep-Station-Controller",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<center><a href=\"cgi-bin/usc.ver.cgi\">USC&nbsp;Version</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<center><a\\ href=\"cgi\\-bin/usc\\.ver\\.cgi\">USC\\&nbsp;Version</a>"
+    },
+    {
+      "name": "Unimep-Station-Controller Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Unimep-Station-Controller",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"cgi-bin/log.log.cgi\" target=\"_blank\">Log1.cgi</a>&nbsp;<a href=\"/Log.log\" target=\"_blank\">Log1.log</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"cgi\\-bin/log\\.log\\.cgi\"\\ target=\"_blank\">Log1\\.cgi</a>\\&nbsp;<a\\ href=\"/Log\\.log\"\\ target=\"_blank\">Log1\\.log</a>"
+    },
+    {
+      "name": "Unimep-Station-Controller Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Unimep-Station-Controller",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type='button' value='Cashier' onclick=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ type='button'\\ value='Cashier'\\ onclick=\\\\"
+    }
+  ]
+}

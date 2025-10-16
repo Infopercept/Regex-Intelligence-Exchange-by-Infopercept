@@ -1,0 +1,86 @@
+{
+  "vendor": "RevSense",
+  "vendor_id": "revsense",
+  "product": "RevSense",
+  "product_id": "revsense",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "RevSense Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for RevSense",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t\t<li><a href=\"http://www.revsense.com.au/\"><strong>RevSense</strong> - Powered by RevSense Ads</a></li>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\t\\\t<li><a\\ href=\"http://www\\.revsense\\.com\\.au/\"><strong>RevSense</strong>\\ \\-\\ Powered\\ by\\ RevSense\\ Ads</a></li>"
+    },
+    {
+      "name": "RevSense Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for RevSense",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<!-- You cannot remove this powered by link without receiving permission from W3matter.com -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<!\\-\\-\\ You\\ cannot\\ remove\\ this\\ powered\\ by\\ link\\ without\\ receiving\\ permission\\ from\\ W3matter\\.com\\ \\-\\->"
+    },
+    {
+      "name": "RevSense Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for RevSense",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "\t<font size=1><a>Powered by Revsense &trade;<\\"
+    },
+    {
+      "name": "RevSense Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for RevSense",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "\t<font size=1><a href=\"http://www.w3matter.com\">Powered by Revsense &trade;<\\"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "vendor": "Site4",
+  "vendor_id": "site4",
+  "product": "Site4",
+  "product_id": "site4",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Site4 Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Site4",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>SITE4.dk Site4 Setup Error..</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>SITE4\\.dk\\ Site4\\ Setup\\ Error\\.\\.</title>"
+    },
+    {
+      "name": "Site4 Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Site4",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"http://www.site4.dk/images/site4logo.jpg\">\n",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"http://www\\.site4\\.dk/images/site4logo\\.jpg\">\\\n"
+    },
+    {
+      "name": "Site4 Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Site4",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"caption\" align=\"center\"><b>A Site4 event or error occured..</b></div></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"caption\"\\ align=\"center\"><b>A\\ Site4\\ event\\ or\\ error\\ occured\\.\\.</b></div></td>"
+    },
+    {
+      "name": "Site4 Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Site4",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "To read more about SITE4.dk please <a class=\"smalltext\" style=\"text-decoration:none;\" href=\"http://www.site4.dk\"><b>click here</b></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "To\\ read\\ more\\ about\\ SITE4\\.dk\\ please\\ <a\\ class=\"smalltext\"\\ style=\"text\\-decoration:none;\"\\ href=\"http://www\\.site4\\.dk\"><b>click\\ here</b></a>"
+    }
+  ]
+}

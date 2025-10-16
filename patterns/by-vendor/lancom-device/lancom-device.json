@@ -1,0 +1,26 @@
+{
+  "vendor": "LANCOM-Device",
+  "vendor_id": "lancom-device",
+  "product": "LANCOM-Device",
+  "product_id": "lancom-device",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "LANCOM-Device Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LANCOM-Device",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^LANCOM"
+    }
+  ]
+}

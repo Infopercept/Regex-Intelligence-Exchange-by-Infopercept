@@ -1,0 +1,120 @@
+{
+  "vendor": "ORCA-Platform",
+  "vendor_id": "orca-platform",
+  "product": "ORCA-Platform",
+  "product_id": "orca-platform",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ORCA-Platform Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ORCA-Platform",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "    <meta name=\"author\" content=\"ORCA Websites\"/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ <meta\\ name=\"author\"\\ content=\"ORCA\\ Websites\"/>"
+    },
+    {
+      "name": "ORCA-Platform Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ORCA-Platform",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "    <meta name=\"generator\" content=\"ORCA Platform - http://www.orcawebsites.com\"/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ <meta\\ name=\"generator\"\\ content=\"ORCA\\ Platform\\ \\-\\ http://www\\.orcawebsites\\.com\"/>"
+    },
+    {
+      "name": "ORCA-Platform Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ORCA-Platform",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.orcawebsites.com/\" title=\"Powered By ORCA Websites\">Powered By ORCA Websites</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.orcawebsites\\.com/\"\\ title=\"Powered\\ By\\ ORCA\\ Websites\">Powered\\ By\\ ORCA\\ Websites</a>"
+    },
+    {
+      "name": "ORCA-Platform Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ORCA-Platform",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "                <p class=\"orca\">Powered By <a href=\"http://www.orcawebsites.com/\" title=\"ORCA Websites\">ORCA Websites</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <p\\ class=\"orca\">Powered\\ By\\ <a\\ href=\"http://www\\.orcawebsites\\.com/\"\\ title=\"ORCA\\ Websites\">ORCA\\ Websites</a></p>"
+    },
+    {
+      "name": "ORCA-Platform Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ORCA-Platform",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "    <!-- Macro Initialisation - Don\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ <!\\-\\-\\ Macro\\ Initialisation\\ \\-\\ Don\\\\"
+    }
+  ]
+}

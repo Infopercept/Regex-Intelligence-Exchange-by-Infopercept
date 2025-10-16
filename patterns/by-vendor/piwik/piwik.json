@@ -1,0 +1,86 @@
+{
+  "vendor": "Piwik",
+  "vendor_id": "piwik",
+  "product": "Piwik",
+  "product_id": "piwik",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Piwik Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Piwik",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Piwik &rsaquo; Web Analytics Reports</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Piwik\\ \\&rsaquo;\\ Web\\ Analytics\\ Reports</title>"
+    },
+    {
+      "name": "Piwik Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Piwik",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"themes/default/images/loading-blue.gif\" alt=\"\" /> Loading data",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"themes/default/images/loading\\-blue\\.gif\"\\ alt=\"\"\\ />\\ Loading\\ data"
+    },
+    {
+      "name": "_pk_ cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Piwik",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^_pk_"
+    },
+    {
+      "name": "PIWIK_SESSID cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Piwik",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^PIWIK_SESSID"
+    }
+  ]
+}

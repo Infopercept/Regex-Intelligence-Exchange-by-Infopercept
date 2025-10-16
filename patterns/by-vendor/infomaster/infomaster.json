@@ -1,0 +1,92 @@
+{
+  "vendor": "Infomaster",
+  "vendor_id": "infomaster",
+  "product": "Infomaster",
+  "product_id": "infomaster",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Infomaster Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Infomaster",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "class=\"ackn\">[\\s]*Powered by InfoMaster"
+    },
+    {
+      "name": "Infomaster Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Infomaster",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"../../MasterView.css\" type=\"text/css\" rel=\"stylesheet\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"\\.\\./\\.\\./MasterView\\.css\"\\ type=\"text/css\"\\ rel=\"stylesheet\""
+    },
+    {
+      "name": "Infomaster Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Infomaster",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"../../App_Themes/MasterView/MPLeftNavStyle/PanelBar.MPIFMA.css\" type=\"text/css\" rel=\"stylesheet\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"\\.\\./\\.\\./App_Themes/MasterView/MPLeftNavStyle/PanelBar\\.MPIFMA\\.css\"\\ type=\"text/css\"\\ rel=\"stylesheet\"\\ />"
+    },
+    {
+      "name": "Infomaster Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Infomaster",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script language=\"javascript\" src=\"../../common/masterView.js\"></script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ language=\"javascript\"\\ src=\"\\.\\./\\.\\./common/masterView\\.js\"></script>"
+    }
+  ]
+}

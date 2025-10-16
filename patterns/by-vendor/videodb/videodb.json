@@ -1,0 +1,120 @@
+{
+  "vendor": "VideoDB",
+  "vendor_id": "videodb",
+  "product": "VideoDB",
+  "product_id": "videodb",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VideoDB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VideoDB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"index.php?export=pdf&amp;ext=.pdf\"><img src=\"images/pdfexport.png\" /></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"index\\.php\\?export=pdf\\&amp;ext=\\.pdf\"><img\\ src=\"images/pdfexport\\.png\"\\ /></a>"
+    },
+    {
+      "name": "VideoDB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VideoDB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- /content --><!-- footer.tpl -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ /content\\ \\-\\-><!\\-\\-\\ footer\\.tpl\\ \\-\\->"
+    },
+    {
+      "name": "VideoDB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VideoDB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"VideoDB RSS\" href=\"index.php?export=rss\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"alternate\"\\ type=\"application/rss\\+xml\"\\ title=\"VideoDB\\ RSS\"\\ href=\"index\\.php\\?export=rss\"\\ />"
+    },
+    {
+      "name": "VideoDB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VideoDB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name='description' content='VideoDB' />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name='description'\\ content='VideoDB'\\ />"
+    },
+    {
+      "name": "VideoDB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VideoDB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"VideoDB\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"VideoDB\"\\ />"
+    }
+  ]
+}

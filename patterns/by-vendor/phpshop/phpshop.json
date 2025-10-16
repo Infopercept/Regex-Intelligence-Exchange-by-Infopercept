@@ -1,0 +1,42 @@
+{
+  "vendor": "PHPShop",
+  "vendor_id": "phpshop",
+  "product": "PHPShop",
+  "product_id": "phpshop",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PHPShop Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHPShop",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by phpShop"
+    },
+    {
+      "name": "PHPShop Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHPShop",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by <a href=\"http://www.phpshop.org\"[^>]*>phpShop</a>"
+    }
+  ]
+}

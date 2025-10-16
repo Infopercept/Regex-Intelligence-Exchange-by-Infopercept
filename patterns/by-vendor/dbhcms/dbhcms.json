@@ -1,0 +1,64 @@
+{
+  "vendor": "DBHcms",
+  "vendor_id": "dbhcms",
+  "product": "DBHcms",
+  "product_id": "dbhcms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DBHcms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DBHcms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a target=\"_blank\" href=\"http://www.drbenhur.com/\" class=\"copyright\"> powered by DBHcms </a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ target=\"_blank\"\\ href=\"http://www\\.drbenhur\\.com/\"\\ class=\"copyright\">\\ powered\\ by\\ DBHcms\\ </a>"
+    },
+    {
+      "name": "DBHcms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DBHcms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!--[\\s]+Please leave this link on your website, it will help a lot for the DBHcms to get well-known."
+    },
+    {
+      "name": "DBHcms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DBHcms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!--[\\s]+Change the copyright but please leave a link \"powered by DBHcms\" to http://www.drbenhur.com[\\s]"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "vendor": "Entrans",
+  "vendor_id": "entrans",
+  "product": "Entrans",
+  "product_id": "entrans",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Entrans Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Entrans",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<li ><a href=\"list.php?category=all&amp;page=1\" >View All Strings</a> </li>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<li\\ ><a\\ href=\"list\\.php\\?category=all\\&amp;page=1\"\\ >View\\ All\\ Strings</a>\\ </li>"
+    },
+    {
+      "name": "Entrans Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Entrans",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Entrans</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Entrans</title>"
+    }
+  ]
+}

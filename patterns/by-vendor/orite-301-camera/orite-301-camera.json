@@ -1,0 +1,76 @@
+{
+  "vendor": "ORITE-301-Camera",
+  "vendor_id": "orite-301-camera",
+  "product": "ORITE-301-Camera",
+  "product_id": "orite-301-camera",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ORITE-301-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ORITE-301-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<TITLE>ORITE Audio IP-Camera IC-301 </TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<TITLE>ORITE\\ Audio\\ IP\\-Camera\\ IC\\-301\\ </TITLE>"
+    },
+    {
+      "name": "ORITE-301-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ORITE-301-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Orite IC301</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Orite\\ IC301</TITLE>"
+    },
+    {
+      "name": "ORITE-301-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ORITE-301-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\tvar s=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\tvar\\ s=\\\\"
+    }
+  ]
+}

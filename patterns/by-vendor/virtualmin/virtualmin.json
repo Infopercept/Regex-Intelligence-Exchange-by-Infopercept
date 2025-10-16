@@ -1,0 +1,32 @@
+{
+  "vendor": "Virtualmin",
+  "vendor_id": "virtualmin",
+  "product": "Virtualmin",
+  "product_id": "virtualmin",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "virtualmin default text",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Virtualmin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<center><a href=/virtualmin-password-recovery/>Forgot your Virtualmin password?</a></center>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<center><a\\ href=/virtualmin\\-password\\-recovery/>Forgot\\ your\\ Virtualmin\\ password\\?</a></center>"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "vendor": "Lithium",
+  "vendor_id": "lithium",
+  "product": "Lithium",
+  "product_id": "lithium",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BODY id element",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Lithium",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<body[^>]+id=\"lia-body\""
+    }
+  ]
+}

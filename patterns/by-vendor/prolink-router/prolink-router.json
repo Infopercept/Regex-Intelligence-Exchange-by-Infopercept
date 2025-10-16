@@ -1,0 +1,98 @@
+{
+  "vendor": "PROLiNK-Router",
+  "vendor_id": "prolink-router",
+  "product": "PROLiNK-Router",
+  "product_id": "prolink-router",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PROLiNK-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PROLiNK-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<! Copyright (c) Realtek Semiconductor Corp., 2003. All Rights Reserved. ->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\ Copyright\\ \\(c\\)\\ Realtek\\ Semiconductor\\ Corp\\.,\\ 2003\\.\\ All\\ Rights\\ Reserved\\.\\ \\->"
+    },
+    {
+      "name": "PROLiNK-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PROLiNK-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>PROLiNK ADSL Router</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>PROLiNK\\ ADSL\\ Router</title>"
+    },
+    {
+      "name": "PROLiNK-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PROLiNK-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>RFwell ADSL Router Status</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>RFwell\\ ADSL\\ Router\\ Status</title>"
+    },
+    {
+      "name": "PROLiNK-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PROLiNK-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<FRAME SRC=\"attention.htm\" NAME=\"attention\" FRAMEBORDER=\"NO\" SCROLLING=\"NO\" MARGINWIDTH=\"0\" MARGINHEIGHT=\"0\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<FRAME\\ SRC=\"attention\\.htm\"\\ NAME=\"attention\"\\ FRAMEBORDER=\"NO\"\\ SCROLLING=\"NO\"\\ MARGINWIDTH=\"0\"\\ MARGINHEIGHT=\"0\">"
+    }
+  ]
+}

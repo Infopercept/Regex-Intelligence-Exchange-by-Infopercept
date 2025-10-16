@@ -1,0 +1,70 @@
+{
+  "vendor": "CMS-Made-Simple",
+  "vendor_id": "cms-made-simple",
+  "product": "CMS-Made-Simple",
+  "product_id": "cms-made-simple",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CMSSESSID cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CMS-Made-Simple",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^CMSSESSID"
+    },
+    {
+      "name": "Meta generator",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CMS-Made-Simple",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Generator\" content=\"CMS Made Simple",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Generator\"\\ content=\"CMS\\ Made\\ Simple"
+    },
+    {
+      "name": "Admin Login Title",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CMS-Made-Simple",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Login to CMS Made Simple</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Login\\ to\\ CMS\\ Made\\ Simple</title>"
+    }
+  ]
+}

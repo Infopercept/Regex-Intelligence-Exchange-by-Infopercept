@@ -1,0 +1,76 @@
+{
+  "vendor": "xGB",
+  "vendor_id": "xgb",
+  "product": "xGB",
+  "product_id": "xgb",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "xGB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for xGB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<title>xGB</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<title>xGB</title>"
+    },
+    {
+      "name": "xGB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for xGB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- start xGB dynamic content -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ start\\ xGB\\ dynamic\\ content\\ \\-\\->"
+    },
+    {
+      "name": "xGB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for xGB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "powered by <a href='http://www.x-gfx.de' target='blank' title='Script by x-gfx.de'>xGB",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "powered\\ by\\ <a\\ href='http://www\\.x\\-gfx\\.de'\\ target='blank'\\ title='Script\\ by\\ x\\-gfx\\.de'>xGB"
+    }
+  ]
+}

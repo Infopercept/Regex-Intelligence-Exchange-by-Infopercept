@@ -1,0 +1,112 @@
+{
+  "vendor": "Movable-Type",
+  "vendor_id": "movable-type",
+  "product": "Movable-Type",
+  "product_id": "movable-type",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "javascript with 'mt' in the name",
+      "priority": 50,
+      "confidence": 0.5,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Movable-Type",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script type=\"text/javascript\" src=\"[^\"]+mt(-site)?\\.js\"></script>"
+    },
+    {
+      "name": "mt-tags|mt-tb|mt-cp|mt-search|mt-user-login|mt-recommend cgi",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Movable-Type",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "\"[^\"]+/mt-(tags|tb|cp|search|user-login|recommend)\\.[f]?cgi[^\"]*\""
+    },
+    {
+      "name": "meta generator tag",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Movable-Type",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=\"generator\" content=\"http://www\\.movabletype\\.org/\" />"
+    },
+    {
+      "name": "Movable-Type Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Movable-Type",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Movable Type System Check [mt-check.cgi]</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Movable\\ Type\\ System\\ Check\\ \\[mt\\-check\\.cgi\\]</title>"
+    },
+    {
+      "name": "Powered by link",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Movable-Type",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"http://sixapart\\.com\">Powered by Movable Type</a>"
+    },
+    {
+      "name": "Powered by link",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Movable-Type",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by <a href=\"http://www\\.movabletype\\.com/\"[^>]*>Movable Type</a>"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "vendor": "mySQL-Error",
+  "vendor_id": "mysql-error",
+  "product": "mySQL-Error",
+  "product_id": "mysql-error",
+  "category": "database",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "mySQL-Error Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for mySQL-Error",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '|You have an error in your SQL syntax near '"
+    },
+    {
+      "name": "mySQL-Error Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for mySQL-Error",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Connessione non riuscita: Can't connect to local MySQL server through socket ",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Connessione\\ non\\ riuscita:\\ Can't\\ connect\\ to\\ local\\ MySQL\\ server\\ through\\ socket\\ "
+    },
+    {
+      "name": "mySQL-Error Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for mySQL-Error",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<b>Warning</b>:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<b>Warning</b>:\\ \\ mysql_connect\\(\\)\\ \\[<a\\ href='function\\.mysql\\-connect'>function\\.mysql\\-connect</a>\\]:\\ Can't\\ connect\\ to\\ local\\ MySQL\\ server\\ through\\ socket"
+    },
+    {
+      "name": "mySQL-Error Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for mySQL-Error",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Warning: mysql_connect() [function.mysql-connect]: Lost connection to MySQL server at 'reading initial communication packet', ",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Warning:\\ mysql_connect\\(\\)\\ \\[function\\.mysql\\-connect\\]:\\ Lost\\ connection\\ to\\ MySQL\\ server\\ at\\ 'reading\\ initial\\ communication\\ packet',\\ "
+    },
+    {
+      "name": "mySQL-Error Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for mySQL-Error",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<b>Warning</b>:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Lost connection to MySQL server at 'reading initial communication packet', ",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<b>Warning</b>:\\ \\ mysql_connect\\(\\)\\ \\[<a\\ href='function\\.mysql\\-connect'>function\\.mysql\\-connect</a>\\]:\\ Lost\\ connection\\ to\\ MySQL\\ server\\ at\\ 'reading\\ initial\\ communication\\ packet',\\ "
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "vendor": "ezBOO-WebStats",
+  "vendor_id": "ezboo-webstats",
+  "product": "ezBOO-WebStats",
+  "product_id": "ezboo-webstats",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ezBOO-WebStats Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ezBOO-WebStats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>ezBOO WebStats</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>ezBOO\\ WebStats</title>"
+    },
+    {
+      "name": "ezBOO-WebStats Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ezBOO-WebStats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div align=\"center\" class=\"titre\"><font color=\"#FFFFFF\">&gt;&gt; Administrator Panel        &lt;&lt; </font></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ align=\"center\"\\ class=\"titre\"><font\\ color=\"\\#FFFFFF\">\\&gt;\\&gt;\\ Administrator\\ Panel\\ \\ \\ \\ \\ \\ \\ \\ \\&lt;\\&lt;\\ </font></div>"
+    },
+    {
+      "name": "ezBOO-WebStats Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ezBOO-WebStats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td height=\"60\" valign=\"top\" align=\"center\"><img src=\"image/logo_ez1.gif\" border=\"0\"></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ height=\"60\"\\ valign=\"top\"\\ align=\"center\"><img\\ src=\"image/logo_ez1\\.gif\"\\ border=\"0\"></td>"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "vendor": "AMX-Mod-X",
+  "vendor_id": "amx-mod-x",
+  "product": "AMX-Mod-X",
+  "product_id": "amx-mod-x",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AMX-Mod-X Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AMX-Mod-X",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "// *NOTE* amx_sql_type specifies the DEFAULT database type which admin.sma will use.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "//\\ \\*NOTE\\*\\ amx_sql_type\\ specifies\\ the\\ DEFAULT\\ database\\ type\\ which\\ admin\\.sma\\ will\\ use\\."
+    }
+  ]
+}

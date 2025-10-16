@@ -1,0 +1,42 @@
+{
+  "vendor": "WordPress-Stats",
+  "vendor_id": "wordpress-stats",
+  "product": "WordPress-Stats",
+  "product_id": "wordpress-stats",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WordPress-Stats Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WordPress-Stats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script src=\"https?://(ssl-)?stats\\.wordpress\\.com/[^\"]+\" type=\"text/javascript\"></script>"
+    },
+    {
+      "name": "WordPress-Stats Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WordPress-Stats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<noscript><img src=\"https?://stats\\.wordpress\\.com/b\\.gif\\?v=noscript\""
+    }
+  ]
+}

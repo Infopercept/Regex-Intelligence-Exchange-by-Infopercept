@@ -1,0 +1,92 @@
+{
+  "vendor": "Synology-DiskStation",
+  "vendor_id": "synology-diskstation",
+  "product": "Synology-DiskStation",
+  "product_id": "synology-diskstation",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Login Page HTML Comment",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Synology-DiskStation",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Don't contain any text node to avoid IE insertBefore bug -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Don't\\ contain\\ any\\ text\\ node\\ to\\ avoid\\ IE\\ insertBefore\\ bug\\ \\-\\->"
+    },
+    {
+      "name": "SYNO.SDS.Session JavaScript",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Synology-DiskStation",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"text/javascript\">SYNO.SDS.Session = {",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ type=\"text/javascript\">SYNO\\.SDS\\.Session\\ =\\ \\{"
+    },
+    {
+      "name": "Login Form HTML",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Synology-DiskStation",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"sds-login-dialog-form\" style=\"position: absolute; top: -10000px; left: -10000px;\"><form id=\"login-form\" class=\"x-plain-body\" method=\"POST\" action=\"login.cgi\" target=\"login_iframe\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"sds\\-login\\-dialog\\-form\"\\ style=\"position:\\ absolute;\\ top:\\ \\-10000px;\\ left:\\ \\-10000px;\"><form\\ id=\"login\\-form\"\\ class=\"x\\-plain\\-body\"\\ method=\"POST\"\\ action=\"login\\.cgi\"\\ target=\"login_iframe\""
+    },
+    {
+      "name": "Stauts Header",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Synology-DiskStation",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^30[12] Moved"
+    }
+  ]
+}

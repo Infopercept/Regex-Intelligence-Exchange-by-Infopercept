@@ -1,0 +1,32 @@
+{
+  "vendor": "ApPHP-Calendar",
+  "vendor_id": "apphp-calendar",
+  "product": "ApPHP-Calendar",
+  "product_id": "apphp-calendar",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ApPHP-Calendar Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ApPHP-Calendar",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr class='tr_days'><td class='th'>Sunday</td><td class='th'>Monday</td><td class='th'>Tuesday</td><td class='th'>Wednesday</td><td class='th'>Thursday</td><td class='th'>Friday</td><td class='th'>Satarday</td></tr>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr\\ class='tr_days'><td\\ class='th'>Sunday</td><td\\ class='th'>Monday</td><td\\ class='th'>Tuesday</td><td\\ class='th'>Wednesday</td><td\\ class='th'>Thursday</td><td\\ class='th'>Friday</td><td\\ class='th'>Satarday</td></tr>"
+    }
+  ]
+}

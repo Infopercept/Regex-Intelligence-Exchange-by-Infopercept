@@ -1,0 +1,76 @@
+{
+  "vendor": "CaLogic-Calendars",
+  "vendor_id": "calogic-calendars",
+  "product": "CaLogic-Calendars",
+  "product_id": "calogic-calendars",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CaLogic-Calendars Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CaLogic-Calendars",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "    <h1><b>CaLogic Calendars Demo - Login</b></h1>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ <h1><b>CaLogic\\ Calendars\\ Demo\\ \\-\\ Login</b></h1>"
+    },
+    {
+      "name": "CaLogic-Calendars Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CaLogic-Calendars",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Change for 1.2.2 : the logon form MUST use the post method for security reasons!!!",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Change\\ for\\ 1\\.2\\.2\\ :\\ the\\ logon\\ form\\ MUST\\ use\\ the\\ post\\ method\\ for\\ security\\ reasons!!!"
+    },
+    {
+      "name": "CaLogic-Calendars Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CaLogic-Calendars",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "This is your Timezone Offset from GMT and is shown in hours. It is based on your computers time and country settings. The Timezone Offset is needed in order to show the correct date and time and to ensure that your reminders get sent on time.<br>If the Timezone Offset is not correct, then your computers time settings are wrong. You should not adjust the Timezone Offset, but rather correct your computers time settings.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "This\\ is\\ your\\ Timezone\\ Offset\\ from\\ GMT\\ and\\ is\\ shown\\ in\\ hours\\.\\ It\\ is\\ based\\ on\\ your\\ computers\\ time\\ and\\ country\\ settings\\.\\ The\\ Timezone\\ Offset\\ is\\ needed\\ in\\ order\\ to\\ show\\ the\\ correct\\ date\\ and\\ time\\ and\\ to\\ ensure\\ that\\ your\\ reminders\\ get\\ sent\\ on\\ time\\.<br>If\\ the\\ Timezone\\ Offset\\ is\\ not\\ correct,\\ then\\ your\\ computers\\ time\\ settings\\ are\\ wrong\\.\\ You\\ should\\ not\\ adjust\\ the\\ Timezone\\ Offset,\\ but\\ rather\\ correct\\ your\\ computers\\ time\\ settings\\."
+    }
+  ]
+}

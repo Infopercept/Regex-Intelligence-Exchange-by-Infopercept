@@ -1,0 +1,98 @@
+{
+  "vendor": "WebGuard",
+  "vendor_id": "webguard",
+  "product": "WebGuard",
+  "product_id": "webguard",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WebGuard Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebGuard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>WebGuard Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>WebGuard\\ Login</title>"
+    },
+    {
+      "name": "WebGuard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebGuard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body leftmargin=\"0\" topmargin=\"0\" marginwidth=\"0\" marginheight=\"0\" onLoad=\"GetInfo()\" onResize=\"fit_center()\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ leftmargin=\"0\"\\ topmargin=\"0\"\\ marginwidth=\"0\"\\ marginheight=\"0\"\\ onLoad=\"GetInfo\\(\\)\"\\ onResize=\"fit_center\\(\\)\">"
+    },
+    {
+      "name": "WebGuard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebGuard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<table id=loginback border=\"0\" cellpadding=\"0\" cellspacing=\"0\" background=\"images/login_venus_back.gif\" width=480 height=175 style=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<table\\ id=loginback\\ border=\"0\"\\ cellpadding=\"0\"\\ cellspacing=\"0\"\\ background=\"images/login_venus_back\\.gif\"\\ width=480\\ height=175\\ style=\\\\"
+    },
+    {
+      "name": "WebGuard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebGuard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td align=\"left\" valign=\"middle\"><input name=\"login_passwd\" type=\"password\" class=\"noborder\" size=\"26\"></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ align=\"left\"\\ valign=\"middle\"><input\\ name=\"login_passwd\"\\ type=\"password\"\\ class=\"noborder\"\\ size=\"26\"></td>"
+    }
+  ]
+}

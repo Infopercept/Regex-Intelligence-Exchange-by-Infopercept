@@ -1,0 +1,54 @@
+{
+  "vendor": "Adcon-Telemetry-Gateway",
+  "vendor_id": "adcon-telemetry-gateway",
+  "product": "Adcon-Telemetry-Gateway",
+  "product_id": "adcon-telemetry-gateway",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Adcon-Telemetry-Gateway Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Adcon-Telemetry-Gateway",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<area href=\"http://www.adcon.at\" coords=\"446,0,565,66\" shape=\"rect\" title=\"Adcon Telemetry\" alt=\"Adcon Telemetry\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<area\\ href=\"http://www\\.adcon\\.at\"\\ coords=\"446,0,565,66\"\\ shape=\"rect\"\\ title=\"Adcon\\ Telemetry\"\\ alt=\"Adcon\\ Telemetry\\\\"
+    },
+    {
+      "name": "Adcon-Telemetry-Gateway Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Adcon-Telemetry-Gateway",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a name=\"configurator\" href=\"/cgi-bin/configurator.jnlp\">configure your Gateway</a>.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ name=\"configurator\"\\ href=\"/cgi\\-bin/configurator\\.jnlp\">configure\\ your\\ Gateway</a>\\."
+    }
+  ]
+}

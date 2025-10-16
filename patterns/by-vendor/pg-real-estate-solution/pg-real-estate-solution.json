@@ -1,0 +1,76 @@
+{
+  "vendor": "PG-Real-Estate-Solution",
+  "vendor_id": "pg-real-estate-solution",
+  "product": "PG-Real-Estate-Solution",
+  "product_id": "pg-real-estate-solution",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PG-Real-Estate-Solution Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PG-Real-Estate-Solution",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<title>PG Real Estate Solution",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<title>PG\\ Real\\ Estate\\ Solution"
+    },
+    {
+      "name": "PG-Real-Estate-Solution Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PG-Real-Estate-Solution",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href='http://www.realtysoft.pro/realestate/' title='real estate web site design, real estate listing software'>PG Real Estate Solution - real estate web site design</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href='http://www\\.realtysoft\\.pro/realestate/'\\ title='real\\ estate\\ web\\ site\\ design,\\ real\\ estate\\ listing\\ software'>PG\\ Real\\ Estate\\ Solution\\ \\-\\ real\\ estate\\ web\\ site\\ design</a>"
+    },
+    {
+      "name": "PG-Real-Estate-Solution Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PG-Real-Estate-Solution",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.realtysoft.pro/realestate/\" title=\"real estate web site design, real estate listing software\">PG Real Estate Solution - real estate web site design</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.realtysoft\\.pro/realestate/\"\\ title=\"real\\ estate\\ web\\ site\\ design,\\ real\\ estate\\ listing\\ software\">PG\\ Real\\ Estate\\ Solution\\ \\-\\ real\\ estate\\ web\\ site\\ design</a>"
+    }
+  ]
+}

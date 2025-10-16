@@ -1,0 +1,54 @@
+{
+  "vendor": "dwr",
+  "vendor_id": "dwr",
+  "product": "dwr",
+  "product_id": "dwr",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "HTML Body",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for dwr",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/dwr/engine.js\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "/dwr/engine\\.js\\\\"
+    },
+    {
+      "name": "HTML Body",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for dwr",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/dwr/engine.js\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "/dwr/engine\\.js\">"
+    }
+  ]
+}

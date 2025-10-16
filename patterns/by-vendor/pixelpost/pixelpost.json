@@ -1,0 +1,48 @@
+{
+  "vendor": "PixelPost",
+  "vendor_id": "pixelpost",
+  "product": "PixelPost",
+  "product_id": "pixelpost",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PixelPost Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PixelPost",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "[Pp]owered by <a href=\"http://www.pixelpost.org[/]?\"[\\s]*(title=\"Powered by Pixelpost\")?>[Pp]ixel[Pp]ost<"
+    },
+    {
+      "name": "PixelPost Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PixelPost",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a onclick=\"window.open(this.href); return false;\" href=\"http://pixelpost.org/\" title=\"Pixelpost\">Pixelpost</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ onclick=\"window\\.open\\(this\\.href\\);\\ return\\ false;\"\\ href=\"http://pixelpost\\.org/\"\\ title=\"Pixelpost\">Pixelpost</a>"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "vendor": "AMDSoFT",
+  "vendor_id": "amdsoft",
+  "product": "AMDSoFT",
+  "product_id": "amdsoft",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AMDSoFT Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AMDSoFT",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "style=\"color: aliceblue\"><span style=\"color: gray\">Powered\\s+by</span> </span><a href=\"http://www\\.iranfairit\\.com\">"
+    }
+  ]
+}

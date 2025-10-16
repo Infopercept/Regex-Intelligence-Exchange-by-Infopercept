@@ -1,0 +1,49 @@
+{
+  "vendor": "TeleFinder",
+  "vendor_id": "telefinder",
+  "product": "TeleFinder",
+  "product_id": "telefinder",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TeleFinder Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TeleFinder",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^TeleFinder"
+    },
+    {
+      "name": "TeleFinder Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TeleFinder",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^TeleFinder/8.5$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^TeleFinder/([\\d\\.]+)$",
+      "version_group": 1
+    }
+  ]
+}

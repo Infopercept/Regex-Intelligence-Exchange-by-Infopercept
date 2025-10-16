@@ -1,0 +1,76 @@
+{
+  "vendor": "BestShopPro",
+  "vendor_id": "bestshoppro",
+  "product": "BestShopPro",
+  "product_id": "bestshoppro",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BestShopPro Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BestShopPro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td width=300 height=18 colspan=2 align=center class=tdn><b>Logowanie</b></td></tr>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ width=300\\ height=18\\ colspan=2\\ align=center\\ class=tdn><b>Logowanie</b></td></tr>"
+    },
+    {
+      "name": "BestShopPro Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BestShopPro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta content=\"www.bst.pl\" name=\"author\"/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ content=\"www\\.bst\\.pl\"\\ name=\"author\"/>"
+    },
+    {
+      "name": "BestShopPro Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BestShopPro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<META CONTENT=\"www.bst.pl\" NAME=AUTHOR>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<META\\ CONTENT=\"www\\.bst\\.pl\"\\ NAME=AUTHOR>"
+    }
+  ]
+}

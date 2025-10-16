@@ -1,0 +1,164 @@
+{
+  "vendor": "WebEye-Network-Camera",
+  "vendor_id": "webeye-network-camera",
+  "product": "WebEye-Network-Camera",
+  "product_id": "webeye-network-camera",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WebEye-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebEye-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>WebEye User Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>WebEye\\ User\\ Login</title>"
+    },
+    {
+      "name": "WebEye-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebEye-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>WebEye Java Applet Page</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>WebEye\\ Java\\ Applet\\ Page</title>"
+    },
+    {
+      "name": "WebEye-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebEye-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>WebEye Index Page</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>WebEye\\ Index\\ Page</title>"
+    },
+    {
+      "name": "WebEye-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebEye-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Author\" content=\"WebGateInc\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Author\"\\ content=\"WebGateInc\">"
+    },
+    {
+      "name": "WebEye-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebEye-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"WebGateInc\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"WebGateInc\">"
+    },
+    {
+      "name": "WebEye-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebEye-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>Click <a href=\"./login.ml?FORM_METHOD=get\">here</a> if you have a problem to login ...",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>Click\\ <a\\ href=\"\\./login\\.ml\\?FORM_METHOD=get\">here</a>\\ if\\ you\\ have\\ a\\ problem\\ to\\ login\\ \\.\\.\\."
+    },
+    {
+      "name": "WebEye-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebEye-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t  <applet archive=\"/wg_jwebeye.jar\" code=WebEyeApplet.class codebase=. width=720 height=773> \\\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\t\\ \\ <applet\\ archive=\"/wg_jwebeye\\.jar\"\\ code=WebEyeApplet\\.class\\ codebase=\\.\\ width=720\\ height=773>\\ \\\\\\\\"
+    }
+  ]
+}

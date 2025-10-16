@@ -1,0 +1,32 @@
+{
+  "vendor": "FreeJoomlas_com",
+  "vendor_id": "freejoomlas_com",
+  "product": "FreeJoomlas_com",
+  "product_id": "freejoomlas_com",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FreeJoomlas_com Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FreeJoomlas_com",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Free <a href=\"http://joomla.org\" target=_blank>Joomla!</a> hosting powered by  <a href=\"http://freejoomlas.com\"> FreeJoomlas.com </a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Free\\ <a\\ href=\"http://joomla\\.org\"\\ target=_blank>Joomla!</a>\\ hosting\\ powered\\ by\\ \\ <a\\ href=\"http://freejoomlas\\.com\">\\ FreeJoomlas\\.com\\ </a>"
+    }
+  ]
+}

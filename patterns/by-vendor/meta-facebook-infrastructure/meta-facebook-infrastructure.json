@@ -1,0 +1,58 @@
+{
+  "vendor": "Meta-Facebook-Infrastructure",
+  "vendor_id": "meta-facebook-infrastructure",
+  "product": "Meta-Facebook-Infrastructure",
+  "product_id": "meta-facebook-infrastructure",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Facebook Proxygen Server",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Meta-Facebook-Infrastructure",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^proxygen-bolt"
+    },
+    {
+      "name": "Facebook OG Meta Tag",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Meta-Facebook-Infrastructure",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta property=\"og:site_name\"[^>]*content=\"Facebook\""
+    },
+    {
+      "name": "Instagram OG Meta Tag",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Meta-Facebook-Infrastructure",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta property=\"og:site_name\"[^>]*content=\"Instagram\""
+    }
+  ]
+}

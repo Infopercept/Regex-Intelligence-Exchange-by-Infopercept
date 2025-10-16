@@ -1,0 +1,76 @@
+{
+  "vendor": "NetArtMedia-Real-Estate-Portal",
+  "vendor_id": "netartmedia-real-estate-portal",
+  "product": "NetArtMedia-Real-Estate-Portal",
+  "product_id": "netartmedia-real-estate-portal",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "NetArtMedia-Real-Estate-Portal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetArtMedia-Real-Estate-Portal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.netartmedia.net/realestate\" target=\"_blank\">Real Estate Portal</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.netartmedia\\.net/realestate\"\\ target=\"_blank\">Real\\ Estate\\ Portal</a>"
+    },
+    {
+      "name": "NetArtMedia-Real-Estate-Portal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetArtMedia-Real-Estate-Portal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.netartmedia.net/realestate\">Real Estate Portal</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.netartmedia\\.net/realestate\">Real\\ Estate\\ Portal</a>"
+    },
+    {
+      "name": "NetArtMedia-Real-Estate-Portal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetArtMedia-Real-Estate-Portal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\tdocument.form1.property_type.options[i] = new Option(CurrentModels[i], CurrentModels[i], 0, 0);",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\tdocument\\.form1\\.property_type\\.options\\[i\\]\\ =\\ new\\ Option\\(CurrentModels\\[i\\],\\ CurrentModels\\[i\\],\\ 0,\\ 0\\);"
+    }
+  ]
+}

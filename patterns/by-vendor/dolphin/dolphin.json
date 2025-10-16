@@ -1,0 +1,98 @@
+{
+  "vendor": "Dolphin",
+  "vendor_id": "dolphin",
+  "product": "Dolphin",
+  "product_id": "dolphin",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Dolphin Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dolphin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Dolphin Log In</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Dolphin\\ Log\\ In</title>"
+    },
+    {
+      "name": "Dolphin Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dolphin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td><input name=\"PHP_AUTH_PW\" type=\"password\"></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td><input\\ name=\"PHP_AUTH_PW\"\\ type=\"password\"></td>"
+    },
+    {
+      "name": "Dolphin Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dolphin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td NOWRAP><input name=\"PHP_AUTH_USER\" type=\"text\"></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ NOWRAP><input\\ name=\"PHP_AUTH_USER\"\\ type=\"text\"></td>"
+    },
+    {
+      "name": "Dolphin Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dolphin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body onload=\"focus_username();\" bottommargin=\"0\" rightmargin=\"0\" leftmargin=\"0\" topmargin=\"0\" marginwidth=\"0\" marginheight=\"0\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ onload=\"focus_username\\(\\);\"\\ bottommargin=\"0\"\\ rightmargin=\"0\"\\ leftmargin=\"0\"\\ topmargin=\"0\"\\ marginwidth=\"0\"\\ marginheight=\"0\">"
+    }
+  ]
+}

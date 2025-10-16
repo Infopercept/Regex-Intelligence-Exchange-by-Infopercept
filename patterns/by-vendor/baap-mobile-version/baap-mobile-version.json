@@ -1,0 +1,33 @@
+{
+  "vendor": "BAAP-Mobile-Version",
+  "vendor_id": "baap-mobile-version",
+  "product": "BAAP-Mobile-Version",
+  "product_id": "baap-mobile-version",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BAAP-Mobile-Version Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BAAP-Mobile-Version",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-mobilized-by: ^BAAP Mobile Version ([^\\s]+)$",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-mobilized-by: ^BAAP Mobile Version ([^\\s]+)$",
+      "version_group": 1
+    }
+  ]
+}

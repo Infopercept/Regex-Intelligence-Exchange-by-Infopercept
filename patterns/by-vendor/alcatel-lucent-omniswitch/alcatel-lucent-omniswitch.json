@@ -1,0 +1,54 @@
+{
+  "vendor": "Alcatel-Lucent-Omniswitch",
+  "vendor_id": "alcatel-lucent-omniswitch",
+  "product": "Alcatel-Lucent-Omniswitch",
+  "product_id": "alcatel-lucent-omniswitch",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Alcatel-Lucent-Omniswitch Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Alcatel-Lucent-Omniswitch",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Webview Logon Page</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Webview\\ Logon\\ Page</title>"
+    },
+    {
+      "name": "Alcatel-Lucent-Omniswitch Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Alcatel-Lucent-Omniswitch",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "document.write(errMsg==\"\"?\"&nbsp;\":(\"<u>Error</u>&nbsp;-&nbsp;\" + errMsg));",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "document\\.write\\(errMsg==\"\"\\?\"\\&nbsp;\":\\(\"<u>Error</u>\\&nbsp;\\-\\&nbsp;\"\\ \\+\\ errMsg\\)\\);"
+    }
+  ]
+}

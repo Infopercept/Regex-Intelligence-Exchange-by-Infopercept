@@ -1,0 +1,26 @@
+{
+  "vendor": "Knopflerfish-HTTP-Server",
+  "vendor_id": "knopflerfish-http-server",
+  "product": "Knopflerfish-HTTP-Server",
+  "product_id": "knopflerfish-http-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Knopflerfish-HTTP-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Knopflerfish-HTTP-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^The Knopflerfish HTTP Server$"
+    }
+  ]
+}

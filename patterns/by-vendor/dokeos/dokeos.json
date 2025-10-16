@@ -1,0 +1,180 @@
+{
+  "vendor": "Dokeos",
+  "vendor_id": "dokeos",
+  "product": "Dokeos",
+  "product_id": "dokeos",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Dokeos Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dokeos",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<ul id=\"dokeostabs\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<ul\\ id=\"dokeostabs\">"
+    },
+    {
+      "name": "Dokeos Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dokeos",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- start of #main wrapper for #content and #menu divs -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ start\\ of\\ \\#main\\ wrapper\\ for\\ \\#content\\ and\\ \\#menu\\ divs\\ \\-\\->"
+    },
+    {
+      "name": "Dokeos Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dokeos",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"http://www.dokeos.com/documentation.php\" rel=\"Help\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"http://www\\.dokeos\\.com/documentation\\.php\"\\ rel=\"Help\"\\ />"
+    },
+    {
+      "name": "Dokeos Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dokeos",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"http://www.dokeos.com/team.php\" rel=\"Author\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"http://www\\.dokeos\\.com/team\\.php\"\\ rel=\"Author\"\\ />"
+    },
+    {
+      "name": "Dokeos Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dokeos",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"http://www.dokeos.com\" rel=\"Copyright\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"http://www\\.dokeos\\.com\"\\ rel=\"Copyright\"\\ />"
+    },
+    {
+      "name": "Dokeos Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dokeos",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Generator\" content=\"Dokeos\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Generator\"\\ content=\"Dokeos\">"
+    },
+    {
+      "name": "Dokeos Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dokeos",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Dokeos has not been installed</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Dokeos\\ has\\ not\\ been\\ installed</title>"
+    },
+    {
+      "name": "Dokeos Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dokeos",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<form action=\"main/install/index\\.php\" method=\"get\"><button class=\"save\" type=\"submit\"[^>]+value=\"&nbsp;&nbsp; Click to INSTALL (Dokeos|DOKEOS)[\\s]+&nbsp;&nbsp;\" >Click to INSTALL (Dokeos|DOKEOS)[\\s]*</button></form><br />"
+    }
+  ]
+}

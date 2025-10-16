@@ -1,0 +1,213 @@
+{
+  "vendor": "Apache",
+  "vendor_id": "apache",
+  "product": "Apache",
+  "product_id": "apache",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Apache Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Test Page for Apache Installation</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Test\\ Page\\ for\\ Apache\\ Installation</title>"
+    },
+    {
+      "name": "Apache Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Test Page for the SSL/TLS-aware Apache Installation on Web Site</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Test\\ Page\\ for\\ the\\ SSL/TLS\\-aware\\ Apache\\ Installation\\ on\\ Web\\ Site</TITLE>"
+    },
+    {
+      "name": "Apache Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html><body><h1>It works!</h1></body></html>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html><body><h1>It\\ works!</h1></body></html>"
+    },
+    {
+      "name": "Apache Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html>Apache is functioning normally</html>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html>Apache\\ is\\ functioning\\ normally</html>"
+    },
+    {
+      "name": "This IP is being shared among many domains.",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body><center>This IP is being shared among many domains.<br>\\nTo view the domain you are looking for, simply enter the domain name in the location bar of your web browser.<br>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body><center>This\\ IP\\ is\\ being\\ shared\\ among\\ many\\ domains\\.<br>\\\\nTo\\ view\\ the\\ domain\\ you\\ are\\ looking\\ for,\\ simply\\ enter\\ the\\ domain\\ name\\ in\\ the\\ location\\ bar\\ of\\ your\\ web\\ browser\\.<br>"
+    },
+    {
+      "name": "Apache Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Apache is working on your cPanel<sup>&reg;</sup> and WHM&#8482; Server",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Apache\\ is\\ working\\ on\\ your\\ cPanel<sup>\\&reg;</sup>\\ and\\ WHM\\&\\#8482;\\ Server"
+    },
+    {
+      "name": "HTTP Server Header",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Apache"
+    },
+    {
+      "name": "HTTP Server Header",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Apache/8.5",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Apache/([\\d\\.]+)",
+      "version_group": 1
+    },
+    {
+      "name": "Apache Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^NOYB$"
+    },
+    {
+      "name": "htacess WWW-Authenticate realm",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Basic realm=\"htaccess password prompt\""
+    }
+  ]
+}

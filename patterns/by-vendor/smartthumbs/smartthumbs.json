@@ -1,0 +1,48 @@
+{
+  "vendor": "SmartThumbs",
+  "vendor_id": "smartthumbs",
+  "product": "SmartThumbs",
+  "product_id": "smartthumbs",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SmartThumbs Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SmartThumbs",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "POWERED[\\s]+BY[\\s]+<a href=\"http://www.smart-scripts.com\">SMART THUMBS</a>"
+    },
+    {
+      "name": "SmartThumbs Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SmartThumbs",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "POWERED BY<span> <a href=\"http://www.thumbsrotator.com\"><b><span style=\"font-size: 11px; font-family: Verdana, Arial;\">SMART THUMBS</span>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "POWERED\\ BY<span>\\ <a\\ href=\"http://www\\.thumbsrotator\\.com\"><b><span\\ style=\"font\\-size:\\ 11px;\\ font\\-family:\\ Verdana,\\ Arial;\">SMART\\ THUMBS</span>"
+    }
+  ]
+}

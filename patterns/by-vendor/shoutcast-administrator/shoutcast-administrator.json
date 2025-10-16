@@ -1,0 +1,48 @@
+{
+  "vendor": "SHOUTcast-Administrator",
+  "vendor_id": "shoutcast-administrator",
+  "product": "SHOUTcast-Administrator",
+  "product_id": "shoutcast-administrator",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SHOUTcast-Administrator Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SHOUTcast-Administrator",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>SHOUTcast Administrator</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>SHOUTcast\\ Administrator</title>"
+    },
+    {
+      "name": "SHOUTcast-Administrator Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SHOUTcast-Administrator",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<tr><td><font class=ltv>Written by Stephen 'Tag Loomis, Tom Pepper and Justin Frankel</font></td></tr></table></td></tr><tr><td nowrap colspan=5 align=center><font class=ST><b><a href=\"http://www.shoutcast.com/disclaimer.phtml\">Copyright Nullsoft Inc</a>[<a href=\"/llamacookie\">.<\\"
+    }
+  ]
+}

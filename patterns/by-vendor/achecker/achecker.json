@@ -1,0 +1,32 @@
+{
+  "vendor": "AChecker",
+  "vendor_id": "achecker",
+  "product": "AChecker",
+  "product_id": "achecker",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AChecker Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AChecker",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>AChecker : ATRC Accessibility Checker: </title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>AChecker\\ :\\ ATRC\\ Accessibility\\ Checker:\\ </title>"
+    }
+  ]
+}

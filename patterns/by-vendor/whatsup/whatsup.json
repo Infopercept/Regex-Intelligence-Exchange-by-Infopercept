@@ -1,0 +1,65 @@
+{
+  "vendor": "WhatsUp",
+  "vendor_id": "whatsup",
+  "product": "WhatsUp",
+  "product_id": "whatsup",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "HTTP Server Header",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WhatsUp",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^WhatsUp"
+    },
+    {
+      "name": "WhatsUp Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WhatsUp",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^WhatsUp_Gold/8.5",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^WhatsUp_Gold/([\\d\\.]+)",
+      "version_group": 1
+    },
+    {
+      "name": "WWW-Authenticate",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WhatsUp",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Basic realm=\"WhatsUp[\\s]?Gold\""
+    }
+  ]
+}

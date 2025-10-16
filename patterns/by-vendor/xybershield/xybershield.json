@@ -1,0 +1,42 @@
+{
+  "vendor": "XyberShield",
+  "vendor_id": "xybershield",
+  "product": "XyberShield",
+  "product_id": "xybershield",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "XyberShield Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for XyberShield",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "XyberShieldSession=[^\\s]+;"
+    },
+    {
+      "name": "XyberShield Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for XyberShield",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "XyberShieldStatus=[^\\s]+;"
+    }
+  ]
+}

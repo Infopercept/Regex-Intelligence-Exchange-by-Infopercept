@@ -1,0 +1,76 @@
+{
+  "vendor": "MailEnable",
+  "vendor_id": "mailenable",
+  "product": "MailEnable",
+  "product_id": "mailenable",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MailEnable Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MailEnable",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</table><!-- loginPanel_shell_table -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</table><!\\-\\-\\ loginPanel_shell_table\\ \\-\\->"
+    },
+    {
+      "name": "MailEnable Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MailEnable",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td class=\"loginPanel_botLeft\"><div class=\"loginPanel_botLeft_div\"></div></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ class=\"loginPanel_botLeft\"><div\\ class=\"loginPanel_botLeft_div\"></div></td>"
+    },
+    {
+      "name": "MailEnable Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MailEnable",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>MailEnable - Webmail</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>MailEnable\\ \\-\\ Webmail</title>"
+    }
+  ]
+}

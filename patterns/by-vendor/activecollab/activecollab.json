@@ -1,0 +1,54 @@
+{
+  "vendor": "activeCollab",
+  "vendor_id": "activecollab",
+  "product": "activeCollab",
+  "product_id": "activecollab",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "activeCollab Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for activeCollab",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form method=\"post\" id=\"system_form_2\" class=\"uniForm focusFirstField\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ method=\"post\"\\ id=\"system_form_2\"\\ class=\"uniForm\\ focusFirstField\">"
+    },
+    {
+      "name": "powered by footer",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for activeCollab",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p id=\"powered_by\"><a href=\"http://www.activecollab.com/\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ id=\"powered_by\"><a\\ href=\"http://www\\.activecollab\\.com/\""
+    }
+  ]
+}

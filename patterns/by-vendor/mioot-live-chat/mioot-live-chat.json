@@ -1,0 +1,142 @@
+{
+  "vendor": "Mioot-Live-Chat",
+  "vendor_id": "mioot-live-chat",
+  "product": "Mioot-Live-Chat",
+  "product_id": "mioot-live-chat",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mioot-Live-Chat Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mioot-Live-Chat",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"miootOnOffDiv\" class=\"online\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"miootOnOffDiv\"\\ class=\"online\">"
+    },
+    {
+      "name": "Mioot-Live-Chat Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mioot-Live-Chat",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"miootOnOffDiv\" style=\"display:inline;\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"miootOnOffDiv\"\\ style=\"display:inline;\">"
+    },
+    {
+      "name": "Mioot-Live-Chat Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mioot-Live-Chat",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"miootOnOffDiv\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"miootOnOffDiv\">"
+    },
+    {
+      "name": "Mioot-Live-Chat Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mioot-Live-Chat",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"miootOnOffDiv\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"miootOnOffDiv\""
+    },
+    {
+      "name": "Mioot-Live-Chat Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mioot-Live-Chat",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Start LIVE CHAT image tag, for details visit www.mioot.com -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Start\\ LIVE\\ CHAT\\ image\\ tag,\\ for\\ details\\ visit\\ www\\.mioot\\.com\\ \\-\\->"
+    },
+    {
+      "name": "Mioot-Live-Chat Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mioot-Live-Chat",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"javascript:OnOffImage(\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"javascript:OnOffImage\\(\\\\"
+    }
+  ]
+}

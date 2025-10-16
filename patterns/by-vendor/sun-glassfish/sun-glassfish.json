@@ -1,0 +1,95 @@
+{
+  "vendor": "Sun-GlassFish",
+  "vendor_id": "sun-glassfish",
+  "product": "Sun-GlassFish",
+  "product_id": "sun-glassfish",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Sun-GlassFish Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sun-GlassFish",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^GlassFish"
+    },
+    {
+      "name": "Sun-GlassFish Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sun-GlassFish",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^GlassFish v(.+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^GlassFish v(.+)$",
+      "version_group": 1
+    },
+    {
+      "name": "Sun-GlassFish Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sun-GlassFish",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^GlassFish Server Open Source Edition (.+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^GlassFish Server Open Source Edition (.+)$",
+      "version_group": 1
+    },
+    {
+      "name": "Sun-GlassFish Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sun-GlassFish",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: Sun GlassFish Enterprise Server v(.+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: Sun GlassFish Enterprise Server v(.+)$",
+      "version_group": 1
+    }
+  ]
+}

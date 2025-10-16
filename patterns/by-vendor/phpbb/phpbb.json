@@ -1,0 +1,124 @@
+{
+  "vendor": "phpBB",
+  "vendor_id": "phpbb",
+  "product": "phpBB",
+  "product_id": "phpbb",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "phpBB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- link rel=\"stylesheet\" href=\"templates/subSilver/subSilver.css",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ link\\ rel=\"stylesheet\"\\ href=\"templates/subSilver/subSilver\\.css"
+    },
+    {
+      "name": "phpBB Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/images/logo_phpBB.gif",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "/images/logo_phpBB\\.gif"
+    },
+    {
+      "name": "phpBB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "We request you retain the full copyright notice below including the link to www.phpbb.com.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "We\\ request\\ you\\ retain\\ the\\ full\\ copyright\\ notice\\ below\\ including\\ the\\ link\\ to\\ www\\.phpbb\\.com\\."
+    },
+    {
+      "name": "Powered by...",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by <a href=\"http://www.phpbb.com/\"( target=\"_phpbb\")?( class=\"copyright\")?>phpBB</a>[ ]+&copy;[ 0-9,\\.]+ phpBB Group"
+    },
+    {
+      "name": "folder icons",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<td width=\"20\" align=\"center\"><img src=\"[^\"]+images/folder_new_big.gif\" alt=\"New posts\"/></td>"
+    },
+    {
+      "name": "In total there are x users online ::",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "In total there are <b>[0-9]+</b> users online :: [0-9]+ Registered, [0-9]+ Hidden and [0-9]+ Guests"
+    }
+  ]
+}

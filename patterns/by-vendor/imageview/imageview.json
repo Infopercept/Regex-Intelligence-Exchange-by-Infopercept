@@ -1,0 +1,114 @@
+{
+  "vendor": "Imageview",
+  "vendor_id": "imageview",
+  "product": "Imageview",
+  "product_id": "imageview",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Imageview Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Imageview",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<td (width=\"160\"|rowspan=\"2\")><iframe allowtransparency=\"yes\" frameborder=\"0\" height=\"100%\" width=\"100%\" scrolling=\"auto\" title=\"(frmcontent|frmlist)\" name=\"(frmcontent|frmlist)\" src=\"albumlist.php\\?album=[^\"]*\"></iframe></td>"
+    },
+    {
+      "name": "Imageview Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Imageview",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"Jorge Schrauwen\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Jorge\\ Schrauwen\"\\ />"
+    },
+    {
+      "name": "Imageview Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Imageview",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<frame src=\"preload.php\" name=\"frImageview\" id=\"frImageview\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<frame\\ src=\"preload\\.php\"\\ name=\"frImageview\"\\ id=\"frImageview\"\\ />"
+    },
+    {
+      "name": "Imageview Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Imageview",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<frame src=\"about:blank\" name=\"iHistoryRecorder\" id=\"iHistoryRecorder\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<frame\\ src=\"about:blank\"\\ name=\"iHistoryRecorder\"\\ id=\"iHistoryRecorder\"\\ />"
+    },
+    {
+      "name": "Imageview Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Imageview",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"Developer\" href=\"http://www.blackdot.be\" title=\"Blackdot.be\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"Developer\"\\ href=\"http://www\\.blackdot\\.be\"\\ title=\"Blackdot\\.be\"\\ />"
+    }
+  ]
+}

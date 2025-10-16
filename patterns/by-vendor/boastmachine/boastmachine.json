@@ -1,0 +1,26 @@
+{
+  "vendor": "boastMachine",
+  "vendor_id": "boastmachine",
+  "product": "boastMachine",
+  "product_id": "boastmachine",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "boastMachine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for boastMachine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"http://boastology.com\"><img src=\"http://[^>]*alt=\"Powered by boastMachine\" /></a>"
+    }
+  ]
+}

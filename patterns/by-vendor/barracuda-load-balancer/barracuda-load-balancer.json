@@ -1,0 +1,54 @@
+{
+  "vendor": "Barracuda-Load-Balancer",
+  "vendor_id": "barracuda-load-balancer",
+  "product": "Barracuda-Load-Balancer",
+  "product_id": "barracuda-load-balancer",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BNI__BARRACUDA_LB_COOKIE cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Barracuda-Load-Balancer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "BNI__BARRACUDA_LB_COOKIE",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "BNI__BARRACUDA_LB_COOKIE"
+    },
+    {
+      "name": "BNI_BARRACUDA_LB_COOKIE cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Barracuda-Load-Balancer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "BNI_BARRACUDA_LB_COOKIE",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "BNI_BARRACUDA_LB_COOKIE"
+    }
+  ]
+}

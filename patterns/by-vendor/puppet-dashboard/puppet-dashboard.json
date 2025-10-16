@@ -1,0 +1,54 @@
+{
+  "vendor": "Puppet-Dashboard",
+  "vendor_id": "puppet-dashboard",
+  "product": "Puppet-Dashboard",
+  "product_id": "puppet-dashboard",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Puppet-Dashboard Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Puppet-Dashboard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Puppet Node Manager</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Puppet\\ Node\\ Manager</title>"
+    },
+    {
+      "name": "Puppet-Dashboard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Puppet-Dashboard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href='/' style=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href='/'\\ style=\\\\"
+    }
+  ]
+}

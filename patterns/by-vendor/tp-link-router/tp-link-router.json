@@ -1,0 +1,54 @@
+{
+  "vendor": "TP-Link-Router",
+  "vendor_id": "tp-link-router",
+  "product": "TP-Link-Router",
+  "product_id": "tp-link-router",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TP-Link-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TP-Link-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Operating System Error Nr:3997698:  <P><HR><H2>File not found</H2>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Operating\\ System\\ Error\\ Nr:3997698:\\ \\ <P><HR><H2>File\\ not\\ found</H2>"
+    },
+    {
+      "name": "TP-Link-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TP-Link-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Operating System Error Nr:3997698: HTM <P><HR><H2>Access denied</H2>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Operating\\ System\\ Error\\ Nr:3997698:\\ HTM\\ <P><HR><H2>Access\\ denied</H2>"
+    }
+  ]
+}

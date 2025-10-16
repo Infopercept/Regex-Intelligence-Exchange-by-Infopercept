@@ -1,0 +1,32 @@
+{
+  "vendor": "Proxmox-VE",
+  "vendor_id": "proxmox-ve",
+  "product": "Proxmox-VE",
+  "product_id": "proxmox-ve",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Proxmox-VE Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Proxmox-VE",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img alt=\"\" style=\"display:block;border:0px;width:1000px;max-height:300px;\" src=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ alt=\"\"\\ style=\"display:block;border:0px;width:1000px;max\\-height:300px;\"\\ src=\\\\"
+    }
+  ]
+}

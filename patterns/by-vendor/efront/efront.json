@@ -1,0 +1,76 @@
+{
+  "vendor": "eFront",
+  "vendor_id": "efront",
+  "product": "eFront",
+  "product_id": "efront",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "eFront Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eFront",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body  onkeypress = \"if (window.eF_js_keypress) eF_js_keypress(event);\" onbeforeunload = \"if (window.getPeriodicData) getPeriodicData();\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ \\ onkeypress\\ =\\ \"if\\ \\(window\\.eF_js_keypress\\)\\ eF_js_keypress\\(event\\);\"\\ onbeforeunload\\ =\\ \"if\\ \\(window\\.getPeriodicData\\)\\ getPeriodicData\\(\\);\">"
+    },
+    {
+      "name": "eFront Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eFront",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script>var BOOKMARKTRANSLATION = 'Bookmarks';var NODATAFOUND = 'No data found';</script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script>var\\ BOOKMARKTRANSLATION\\ =\\ 'Bookmarks';var\\ NODATAFOUND\\ =\\ 'No\\ data\\ found';</script>"
+    },
+    {
+      "name": "eFront Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eFront",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</script><script>if (__shouldTriggerNextNotifications) { new Ajax.Request(\"send_notifications.php?ajax=1\", {method:\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</script><script>if\\ \\(__shouldTriggerNextNotifications\\)\\ \\{\\ new\\ Ajax\\.Request\\(\"send_notifications\\.php\\?ajax=1\",\\ \\{method:\\\\"
+    }
+  ]
+}

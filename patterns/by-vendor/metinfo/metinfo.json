@@ -1,0 +1,26 @@
+{
+  "vendor": "MetInfo",
+  "vendor_id": "metinfo",
+  "product": "MetInfo",
+  "product_id": "metinfo",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MetInfo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MetInfo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=\"author\" content=\"[^\"]+--Powered by MetInfo\">"
+    }
+  ]
+}

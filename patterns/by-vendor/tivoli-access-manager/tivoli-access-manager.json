@@ -1,0 +1,98 @@
+{
+  "vendor": "Tivoli-Access-Manager",
+  "vendor_id": "tivoli-access-manager",
+  "product": "Tivoli-Access-Manager",
+  "product_id": "tivoli-access-manager",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Tivoli-Access-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tivoli-Access-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Access Manager for e-business Login</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Access\\ Manager\\ for\\ e\\-business\\ Login</TITLE>"
+    },
+    {
+      "name": "Tivoli-Access-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tivoli-Access-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Copyright (C) 2000 Tivoli Systems, Inc. -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Copyright\\ \\(C\\)\\ 2000\\ Tivoli\\ Systems,\\ Inc\\.\\ \\-\\->"
+    },
+    {
+      "name": "Tivoli-Access-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tivoli-Access-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--- DO NOT TRANSLATE OR MODIFY any part of the hidden parameter(s) --->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\-\\ DO\\ NOT\\ TRANSLATE\\ OR\\ MODIFY\\ any\\ part\\ of\\ the\\ hidden\\ parameter\\(s\\)\\ \\-\\-\\->"
+    },
+    {
+      "name": "Tivoli-Access-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tivoli-Access-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "var warningString = \"<B>WARNING:</B> To maintain your login session, make sure that your browser is configured to accept Cookies.\";",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "var\\ warningString\\ =\\ \"<B>WARNING:</B>\\ To\\ maintain\\ your\\ login\\ session,\\ make\\ sure\\ that\\ your\\ browser\\ is\\ configured\\ to\\ accept\\ Cookies\\.\";"
+    }
+  ]
+}

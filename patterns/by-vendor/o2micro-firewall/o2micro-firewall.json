@@ -1,0 +1,49 @@
+{
+  "vendor": "O2Micro-Firewall",
+  "vendor_id": "o2micro-firewall",
+  "product": "O2Micro-Firewall",
+  "product_id": "o2micro-firewall",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "O2Micro-Firewall Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for O2Micro-Firewall",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^O2micro"
+    },
+    {
+      "name": "O2Micro-Firewall Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for O2Micro-Firewall",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^(O2micro|Firewall)/8.5",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^(O2micro|Firewall)/([\\d\\.]+)",
+      "version_group": 1
+    }
+  ]
+}

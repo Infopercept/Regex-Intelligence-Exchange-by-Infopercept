@@ -1,0 +1,32 @@
+{
+  "vendor": "MobilityGuard",
+  "vendor_id": "mobilityguard",
+  "product": "MobilityGuard",
+  "product_id": "mobilityguard",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MobilityGuard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MobilityGuard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<font size=2>Click here for more information about MobilityGuard.</font></a></center><br>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<font\\ size=2>Click\\ here\\ for\\ more\\ information\\ about\\ MobilityGuard\\.</font></a></center><br>"
+    }
+  ]
+}

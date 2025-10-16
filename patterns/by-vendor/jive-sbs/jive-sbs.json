@@ -1,0 +1,108 @@
+{
+  "vendor": "Jive-SBS",
+  "vendor_id": "jive-sbs",
+  "product": "Jive-SBS",
+  "product_id": "jive-sbs",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Jive-SBS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Jive-SBS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"#jive-body-full\" class=\"jive-skip-nav\">Skip navigation</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"\\#jive\\-body\\-full\"\\ class=\"jive\\-skip\\-nav\">Skip\\ navigation</a>"
+    },
+    {
+      "name": "Jive-SBS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Jive-SBS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body class=\"jive-body-formpage jive-body-formpage-login\" >",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ class=\"jive\\-body\\-formpage\\ jive\\-body\\-formpage\\-login\"\\ >"
+    },
+    {
+      "name": "Jive-SBS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Jive-SBS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": " * This software is the proprietary information of Jive Software. Use is subject to license terms.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\*\\ This\\ software\\ is\\ the\\ proprietary\\ information\\ of\\ Jive\\ Software\\.\\ Use\\ is\\ subject\\ to\\ license\\ terms\\."
+    },
+    {
+      "name": "Jive-SBS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Jive-SBS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^D=[\\d]+ t=[\\d]+$"
+    },
+    {
+      "name": "Jive-SBS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Jive-SBS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^[\\d]+$"
+    }
+  ]
+}

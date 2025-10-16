@@ -1,0 +1,48 @@
+{
+  "vendor": "Hughes-Satellite-Router",
+  "vendor_id": "hughes-satellite-router",
+  "product": "Hughes-Satellite-Router",
+  "product_id": "hughes-satellite-router",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Hughes-Satellite-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Hughes-Satellite-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<frame src=/fs/dynaform/dw_logo.html scrolling=no marginheight=0 marginwidth=0 NORESIZE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<frame\\ src=/fs/dynaform/dw_logo\\.html\\ scrolling=no\\ marginheight=0\\ marginwidth=0\\ NORESIZE>"
+    },
+    {
+      "name": "Hughes-Satellite-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Hughes-Satellite-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Basic realm=\"HUGHES Terminal\"$"
+    }
+  ]
+}

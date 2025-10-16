@@ -1,0 +1,42 @@
+{
+  "vendor": "MongoDB",
+  "vendor_id": "mongodb",
+  "product": "MongoDB",
+  "product_id": "mongodb",
+  "category": "database",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Title",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MongoDB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>mongod [^<]+</title>"
+    },
+    {
+      "name": "Info",
+      "priority": 100,
+      "confidence": 1.0,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MongoDB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<pre>db version v[\\d\\.]+, pdfile version [\\d\\.]+\\ngit hash:"
+    }
+  ]
+}

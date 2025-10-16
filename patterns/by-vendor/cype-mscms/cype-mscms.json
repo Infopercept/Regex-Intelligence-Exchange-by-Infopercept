@@ -1,0 +1,70 @@
+{
+  "vendor": "Cype-MSCMS",
+  "vendor_id": "cype-mscms",
+  "product": "Cype-MSCMS",
+  "product_id": "cype-mscms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Cype-MSCMS Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cype-MSCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>[^\\(^<]+ \\(Powered by Cype\\)</title>"
+    },
+    {
+      "name": "Cype-MSCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cype-MSCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"cypedev.com\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"cypedev\\.com\"\\ />"
+    },
+    {
+      "name": "Cype-MSCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cype-MSCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<li><i>All images and other contents related to <a href='http://maplestory.com/' target='_blank'>MapleStory</a>&trade; are owned by <a href='http://nexon.net/' target='_blank'>Nexon Corporation</a></i><br /></li>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<li><i>All\\ images\\ and\\ other\\ contents\\ related\\ to\\ <a\\ href='http://maplestory\\.com/'\\ target='_blank'>MapleStory</a>\\&trade;\\ are\\ owned\\ by\\ <a\\ href='http://nexon\\.net/'\\ target='_blank'>Nexon\\ Corporation</a></i><br\\ /></li>"
+    }
+  ]
+}

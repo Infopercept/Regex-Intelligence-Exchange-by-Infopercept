@@ -1,0 +1,26 @@
+{
+  "vendor": "WoW-Server-Status",
+  "vendor_id": "wow-server-status",
+  "product": "WoW-Server-Status",
+  "product_id": "wow-server-status",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WoW-Server-Status Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WoW-Server-Status",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<img[^>]*src=\"wow_ss.php\\?realm="
+    }
+  ]
+}

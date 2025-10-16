@@ -1,0 +1,86 @@
+{
+  "vendor": "Bentley-Systems-ProjectWise",
+  "vendor_id": "bentley-systems-projectwise",
+  "product": "Bentley-Systems-ProjectWise",
+  "product_id": "bentley-systems-projectwise",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Bentley-Systems-ProjectWise Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Bentley-Systems-ProjectWise",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</title><meta http-equiv=\"X-UA-Compatible\" content=\"IE=8\" /><link rel=\"shortcut icon\" href=\"ProjectWise.ico\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</title><meta\\ http\\-equiv=\"X\\-UA\\-Compatible\"\\ content=\"IE=8\"\\ /><link\\ rel=\"shortcut\\ icon\"\\ href=\"ProjectWise\\.ico\"\\ />"
+    },
+    {
+      "name": "Bentley-Systems-ProjectWise Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Bentley-Systems-ProjectWise",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>\\s+ProjectWise Web Server\\s+</title>"
+    },
+    {
+      "name": "Bentley-Systems-ProjectWise Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Bentley-Systems-ProjectWise",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Initially invisible login form -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Initially\\ invisible\\ login\\ form\\ \\-\\->"
+    },
+    {
+      "name": "Bentley-Systems-ProjectWise Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Bentley-Systems-ProjectWise",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Bentley.WebSession="
+    }
+  ]
+}

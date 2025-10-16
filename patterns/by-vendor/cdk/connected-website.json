@@ -1,0 +1,64 @@
+{
+  "vendor": "CDK",
+  "vendor_id": "cdk",
+  "product": "Connected Website",
+  "product_id": "connected-website",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "scripts from assets-cdk.com",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CDK Connected Website",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "src=\"https://media-cf.assets-cdk.com/",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "src=\"https://media\\-cf\\.assets\\-cdk\\.com/"
+    },
+    {
+      "name": "CDK Connected Website Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CDK Connected Website",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "."
+    },
+    {
+      "name": "nitraside cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CDK Connected Website",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^nitraside"
+    }
+  ]
+}

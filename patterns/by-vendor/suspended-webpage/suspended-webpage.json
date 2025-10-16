@@ -1,0 +1,54 @@
+{
+  "vendor": "Suspended-Webpage",
+  "vendor_id": "suspended-webpage",
+  "product": "Suspended-Webpage",
+  "product_id": "suspended-webpage",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Suspended-Webpage Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Suspended-Webpage",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- InstanceBegin template=rwh.dwt codeOutsideHTMLIsLocked=false --><!--Copyright &copy; 2002-2010 by Flux Services, Inc.--><html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\"><title>Website Unavailable - UltraWebsiteHosting.com</title><META NAME=ROBOTS CONTENT=NOINDEX,NOFOLLOW><LINK REL=\"SHORTCUT ICON\" HREF=favicon.ico><style type=\"text/css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ InstanceBegin\\ template=rwh\\.dwt\\ codeOutsideHTMLIsLocked=false\\ \\-\\-><!\\-\\-Copyright\\ \\&copy;\\ 2002\\-2010\\ by\\ Flux\\ Services,\\ Inc\\.\\-\\-><html><head><meta\\ http\\-equiv=\"Content\\-Type\"\\ content=\"text/html;\\ charset=iso\\-8859\\-1\"><title>Website\\ Unavailable\\ \\-\\ UltraWebsiteHosting\\.com</title><META\\ NAME=ROBOTS\\ CONTENT=NOINDEX,NOFOLLOW><LINK\\ REL=\"SHORTCUT\\ ICON\"\\ HREF=favicon\\.ico><style\\ type=\"text/css\">"
+    },
+    {
+      "name": "Suspended-Webpage Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Suspended-Webpage",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "background-image: url(http://www.ultrawebsitehosting.com/suspended/body-bg.gif);",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "background\\-image:\\ url\\(http://www\\.ultrawebsitehosting\\.com/suspended/body\\-bg\\.gif\\);"
+    }
+  ]
+}

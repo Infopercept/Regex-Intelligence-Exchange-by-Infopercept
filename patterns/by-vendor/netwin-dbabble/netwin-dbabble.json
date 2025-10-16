@@ -1,0 +1,274 @@
+{
+  "vendor": "NetWin-DBabble",
+  "vendor_id": "netwin-dbabble",
+  "product": "NetWin-DBabble",
+  "product_id": "netwin-dbabble",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "NetWin-DBabble Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-DBabble",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>DBabble login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>DBabble\\ login</title>"
+    },
+    {
+      "name": "NetWin-DBabble Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-DBabble",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<LINK REL = \"stylesheet\" TYPE = \"text/css\" HREF = \"/cgi/dbabble.cgi?cmd_get_js2=dbabble.css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<LINK\\ REL\\ =\\ \"stylesheet\"\\ TYPE\\ =\\ \"text/css\"\\ HREF\\ =\\ \"/cgi/dbabble\\.cgi\\?cmd_get_js2=dbabble\\.css\">"
+    },
+    {
+      "name": "NetWin-DBabble Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-DBabble",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<LINK REL = \"stylesheet\" TYPE = \"text/css\" HREF = \"/dbabble?cmd_get_js2=dbabble.css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<LINK\\ REL\\ =\\ \"stylesheet\"\\ TYPE\\ =\\ \"text/css\"\\ HREF\\ =\\ \"/dbabble\\?cmd_get_js2=dbabble\\.css\">"
+    },
+    {
+      "name": "NetWin-DBabble Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-DBabble",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script language=\"JavaScript\" src=\"/cgi/dbabble.cgi?cmd_get_js2=dbabble.js\"></script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ language=\"JavaScript\"\\ src=\"/cgi/dbabble\\.cgi\\?cmd_get_js2=dbabble\\.js\"></script>"
+    },
+    {
+      "name": "NetWin-DBabble Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-DBabble",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script language=\"JavaScript\" src=\"/dbabble?cmd_get_js2=dbabble.js\"></script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ language=\"JavaScript\"\\ src=\"/dbabble\\?cmd_get_js2=dbabble\\.js\"></script>"
+    },
+    {
+      "name": "NetWin-DBabble Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-DBabble",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "if (window.top!=window && window.location!=\"/cgi/dbabble.cgi\") {",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "if\\ \\(window\\.top!=window\\ \\&\\&\\ window\\.location!=\"/cgi/dbabble\\.cgi\"\\)\\ \\{"
+    },
+    {
+      "name": "NetWin-DBabble Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-DBabble",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "if (window.top!=window && window.location!=\"/dbabble\") {",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "if\\ \\(window\\.top!=window\\ \\&\\&\\ window\\.location!=\"/dbabble\"\\)\\ \\{"
+    },
+    {
+      "name": "NetWin-DBabble Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-DBabble",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "document.writeln(\"<b>Warning - DBabble requires a web browser that Supports JavaScript 1.1 or higher.</b><br>\");",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "document\\.writeln\\(\"<b>Warning\\ \\-\\ DBabble\\ requires\\ a\\ web\\ browser\\ that\\ Supports\\ JavaScript\\ 1\\.1\\ or\\ higher\\.</b><br>\"\\);"
+    },
+    {
+      "name": "NetWin-DBabble Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-DBabble",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form style=\"margin:0\" name=\"loginform\" method=\"POST\" target=\"_top\" action=\"/cgi/dbabble.cgi\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ style=\"margin:0\"\\ name=\"loginform\"\\ method=\"POST\"\\ target=\"_top\"\\ action=\"/cgi/dbabble\\.cgi\""
+    },
+    {
+      "name": "NetWin-DBabble Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-DBabble",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form style=\"margin:0\" name=\"loginform\" method=\"POST\" target=\"_top\" action=\"/dbabble\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ style=\"margin:0\"\\ name=\"loginform\"\\ method=\"POST\"\\ target=\"_top\"\\ action=\"/dbabble\""
+    },
+    {
+      "name": "NetWin-DBabble Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-DBabble",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a target=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ target=\\\\"
+    },
+    {
+      "name": "NetWin-DBabble Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-DBabble",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "You can use DBabble securely but slower through your web browser at <a href=\"http",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "You\\ can\\ use\\ DBabble\\ securely\\ but\\ slower\\ through\\ your\\ web\\ browser\\ at\\ <a\\ href=\"http"
+    }
+  ]
+}

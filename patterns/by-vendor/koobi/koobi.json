@@ -1,0 +1,48 @@
+{
+  "vendor": "Koobi",
+  "vendor_id": "koobi",
+  "product": "Koobi",
+  "product_id": "koobi",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Koobi Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Koobi",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by <a title=\"Koobi ist ein komfortables und leistungsf&auml;higes Content-Management-System \\(CMS\\) f&uuml;r Privatpersonen, Vereine, kleine und mittelst&auml;ndische Unternehmen, die einen professionellen Internetauftritt realisieren m&ouml;chten.\"[^>]+>Koobi"
+    },
+    {
+      "name": "Koobi Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Koobi",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- powered by koobi - do not remove this info! -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ powered\\ by\\ koobi\\ \\-\\ do\\ not\\ remove\\ this\\ info!\\ \\-\\->"
+    }
+  ]
+}

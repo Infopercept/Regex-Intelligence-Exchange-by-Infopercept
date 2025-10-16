@@ -1,0 +1,76 @@
+{
+  "vendor": "Macs-CMS",
+  "vendor_id": "macs-cms",
+  "product": "Macs-CMS",
+  "product_id": "macs-cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Macs-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Macs-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Mac's CMS - Admin Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Mac's\\ CMS\\ \\-\\ Admin\\ Login</title>"
+    },
+    {
+      "name": "Macs-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Macs-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "    <!-- START: This block contains all code that the framework generates -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ <!\\-\\-\\ START:\\ This\\ block\\ contains\\ all\\ code\\ that\\ the\\ framework\\ generates\\ \\-\\->"
+    },
+    {
+      "name": "Macs-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Macs-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Site Powered by Mac\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Site\\ Powered\\ by\\ Mac\\\\"
+    }
+  ]
+}

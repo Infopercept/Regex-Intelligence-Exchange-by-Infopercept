@@ -1,0 +1,56 @@
+{
+  "vendor": "DeleGate",
+  "vendor_id": "delegate",
+  "product": "DeleGate",
+  "product_id": "delegate",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DeleGate Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DeleGate",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^DeleGate/([^\\s]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^DeleGate/([^\\s]+)",
+      "version_group": 1
+    },
+    {
+      "name": "DeleGate Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DeleGate",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "delegate-ver: ^([^\\s]+) \\(delay=",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "delegate-ver: ^([^\\s]+) \\(delay=",
+      "version_group": 1
+    }
+  ]
+}

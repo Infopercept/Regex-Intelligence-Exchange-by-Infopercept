@@ -1,0 +1,70 @@
+{
+  "vendor": "LetoDMS",
+  "vendor_id": "letodms",
+  "product": "LetoDMS",
+  "product_id": "letodms",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "LetoDMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LetoDMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"disclaimer\">This is a classified area. Access is permitted only to authorized personnel. Any violation will be prosecuted according to the national and international laws.</div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"disclaimer\">This\\ is\\ a\\ classified\\ area\\.\\ Access\\ is\\ permitted\\ only\\ to\\ authorized\\ personnel\\.\\ Any\\ violation\\ will\\ be\\ prosecuted\\ according\\ to\\ the\\ national\\ and\\ international\\ laws\\.</div>"
+    },
+    {
+      "name": "LetoDMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LetoDMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "letoDMS free document management system - www.letodms.com</div></body>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "letoDMS\\ free\\ document\\ management\\ system\\ \\-\\ www\\.letodms\\.com</div></body>"
+    },
+    {
+      "name": "LetoDMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LetoDMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "out/out\\.ViewFolder\\.php"
+    }
+  ]
+}

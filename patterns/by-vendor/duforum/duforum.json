@@ -1,0 +1,48 @@
+{
+  "vendor": "DUforum",
+  "vendor_id": "duforum",
+  "product": "DUforum",
+  "product_id": "duforum",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "default title",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DUforum",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>DUdforum[0-9a-zA-Z\\ \\.-]+</title>"
+    },
+    {
+      "name": "default text",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DUforum",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td align=\"right\" valign=\"middle\" class=\"text\">Powered by <a href=\"http://www.duware.com\" target=\"_blank\">DUforum</a></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ align=\"right\"\\ valign=\"middle\"\\ class=\"text\">Powered\\ by\\ <a\\ href=\"http://www\\.duware\\.com\"\\ target=\"_blank\">DUforum</a></td>"
+    }
+  ]
+}

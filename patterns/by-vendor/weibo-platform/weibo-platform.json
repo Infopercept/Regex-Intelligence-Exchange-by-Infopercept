@@ -1,0 +1,48 @@
+{
+  "vendor": "Weibo-Platform",
+  "vendor_id": "weibo-platform",
+  "product": "Weibo-Platform",
+  "product_id": "weibo-platform",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Weibo DNS Prefetch",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Weibo-Platform",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\\\\"
+    },
+    {
+      "name": "Weibo OG Meta Tag",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Weibo-Platform",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta property=\"og:site_name\"[^>]*content=\"[^\"]*\u5fae\u535a"
+    }
+  ]
+}

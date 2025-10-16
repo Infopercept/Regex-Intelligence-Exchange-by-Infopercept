@@ -1,0 +1,54 @@
+{
+  "vendor": "bitweaver",
+  "vendor_id": "bitweaver",
+  "product": "bitweaver",
+  "product_id": "bitweaver",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "bitweaver Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for bitweaver",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a id=\"poweredby\" class=\"external\" href=\"http://www.bitweaver.org\">Powered by bitweaver</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ id=\"poweredby\"\\ class=\"external\"\\ href=\"http://www\\.bitweaver\\.org\">Powered\\ by\\ bitweaver</a>"
+    },
+    {
+      "name": "bitweaver Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for bitweaver",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"bitweaver - http://www.bitweaver.org\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"bitweaver\\ \\-\\ http://www\\.bitweaver\\.org\"\\ />"
+    }
+  ]
+}

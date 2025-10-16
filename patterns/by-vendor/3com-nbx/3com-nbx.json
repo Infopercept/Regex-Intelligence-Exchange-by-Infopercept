@@ -1,0 +1,120 @@
+{
+  "vendor": "3COM-NBX",
+  "vendor_id": "3com-nbx",
+  "product": "3COM-NBX",
+  "product_id": "3com-nbx",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "3COM-NBX Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for 3COM-NBX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<head><title>NBX NetSet</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<head><title>NBX\\ NetSet</title>"
+    },
+    {
+      "name": "3COM-NBX Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for 3COM-NBX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HEAD><TITLE>NBX NetSet</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<HEAD><TITLE>NBX\\ NetSet</TITLE>"
+    },
+    {
+      "name": "3COM-NBX Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for 3COM-NBX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- (c) Copyright, 3Com Corporation or its subsidiaries, 2004.  All Rights Reserved. -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ \\(c\\)\\ Copyright,\\ 3Com\\ Corporation\\ or\\ its\\ subsidiaries,\\ 2004\\.\\ \\ All\\ Rights\\ Reserved\\.\\ \\-\\->"
+    },
+    {
+      "name": "3COM-NBX Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for 3COM-NBX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Gregory Brucato  4/22/98  NBX Corporation -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Gregory\\ Brucato\\ \\ 4/22/98\\ \\ NBX\\ Corporation\\ \\-\\->"
+    },
+    {
+      "name": "3COM-NBX Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for 3COM-NBX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span class=\"splashTitleIPTelephony\">&nbsp;3Com<SUP><span class=\"splashTitleNBXReg\">&reg;</span></SUP> IP Telephony Solution</span>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span\\ class=\"splashTitleIPTelephony\">\\&nbsp;3Com<SUP><span\\ class=\"splashTitleNBXReg\">\\&reg;</span></SUP>\\ IP\\ Telephony\\ Solution</span>"
+    }
+  ]
+}

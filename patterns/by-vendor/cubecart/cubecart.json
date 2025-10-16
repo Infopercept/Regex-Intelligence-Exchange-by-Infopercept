@@ -1,0 +1,32 @@
+{
+  "vendor": "CubeCart",
+  "vendor_id": "cubecart",
+  "product": "CubeCart",
+  "product_id": "cubecart",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CubeCart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CubeCart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class='txtCopyright'>Powered by <a href='http://www.cubecart.com' class='txtCopyright' target='_blank'>CubeCart</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class='txtCopyright'>Powered\\ by\\ <a\\ href='http://www\\.cubecart\\.com'\\ class='txtCopyright'\\ target='_blank'>CubeCart</a>"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "vendor": "Dradis-Framework",
+  "vendor_id": "dradis-framework",
+  "product": "Dradis-Framework",
+  "product_id": "dradis-framework",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Dradis-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dradis-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "effective information sharing - <a href=\"http://dradisframework.org/\">http://dradisframework.org</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "effective\\ information\\ sharing\\ \\-\\ <a\\ href=\"http://dradisframework\\.org/\">http://dradisframework\\.org</a>"
+    },
+    {
+      "name": "Dradis-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dradis-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"back\"><a href=\"/\">&lsaquo; back to the app.</a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"back\"><a\\ href=\"/\">\\&lsaquo;\\ back\\ to\\ the\\ app\\.</a></div>"
+    },
+    {
+      "name": "Dradis-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dradis-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p id=\"wizard\">Not familiar with Dradis? Checkout the <a href=\"/wizard\">Wizard</a>.</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ id=\"wizard\">Not\\ familiar\\ with\\ Dradis\\?\\ Checkout\\ the\\ <a\\ href=\"/wizard\">Wizard</a>\\.</p>"
+    },
+    {
+      "name": "Dradis-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dradis-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<li>Integration with existing systems and tools through <a href=\"http://Dradisframework.org/server_plugins.html\">server plugins</a>.</li>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<li>Integration\\ with\\ existing\\ systems\\ and\\ tools\\ through\\ <a\\ href=\"http://Dradisframework\\.org/server_plugins\\.html\">server\\ plugins</a>\\.</li>"
+    }
+  ]
+}

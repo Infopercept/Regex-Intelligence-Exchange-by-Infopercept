@@ -1,0 +1,130 @@
+{
+  "vendor": "Energine",
+  "vendor_id": "energine",
+  "product": "Energine",
+  "product_id": "energine",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Energine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Energine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script type=\"text/javascript\" src=\"[^\"]*scripts/Energine.js\"></script>"
+    },
+    {
+      "name": "Energine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Energine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link rel=\"stylesheet\" type=\"text/css\" href=\"[^\"]*stylesheets/energine.css\" />"
+    },
+    {
+      "name": "Energine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Energine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"footer\"><span class=\"copyright\">Powered by <a href=\"http://energine.org\">Energine</a><br/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"footer\"><span\\ class=\"copyright\">Powered\\ by\\ <a\\ href=\"http://energine\\.org\">Energine</a><br/>"
+    },
+    {
+      "name": "Energine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Energine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span class=\"copyright\">Powered by <a href= \"http://energine.org/\">Energine</a></span>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span\\ class=\"copyright\">Powered\\ by\\ <a\\ href=\\ \"http://energine\\.org/\">Energine</a></span>"
+    },
+    {
+      "name": "Energine Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Energine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"footer\">Powered by Energine.</div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"footer\">Powered\\ by\\ Energine\\.</div>"
+    },
+    {
+      "name": "Energine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Energine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"footer\">Powered by <a href=\"http://energine.org\">Energine</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"footer\">Powered\\ by\\ <a\\ href=\"http://energine\\.org\">Energine</a>"
+    }
+  ]
+}

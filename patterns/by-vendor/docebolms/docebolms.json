@@ -1,0 +1,70 @@
+{
+  "vendor": "DoceboLMS",
+  "vendor_id": "docebolms",
+  "product": "DoceboLMS",
+  "product_id": "docebolms",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DoceboLMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DoceboLMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.docebo.com/?versions\" onclick=\"window.open(this.href); return false;\">Docebo <sup>&reg;</sup></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.docebo\\.com/\\?versions\"\\ onclick=\"window\\.open\\(this\\.href\\);\\ return\\ false;\">Docebo\\ <sup>\\&reg;</sup></a>"
+    },
+    {
+      "name": "DoceboLMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DoceboLMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<div class=\"powered\"><a href=\"http://www.docebo.com/\\?[a-z]+\" target=\"_blank\" alt=\"Powered by Docebo .\" title=\"Powered by Docebo .\">Powered by Docebo .</a></div>"
+    },
+    {
+      "name": "DoceboLMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DoceboLMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "lang_setup.setBody(\"<ul class=\\\"link_list_inline\\\" id=\\\"language_selection\\\"><li><a class=\\\"lang-sprite lang_",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "lang_setup\\.setBody\\(\"<ul\\ class=\\\\\"link_list_inline\\\\\"\\ id=\\\\\"language_selection\\\\\"><li><a\\ class=\\\\\"lang\\-sprite\\ lang_"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "vendor": "Linksys-Network-Camera",
+  "vendor_id": "linksys-network-camera",
+  "product": "Linksys-Network-Camera",
+  "product_id": "linksys-network-camera",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Linksys-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Linksys-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"WVC54GCA\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"WVC54GCA\">"
+    },
+    {
+      "name": "Linksys-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Linksys-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td bgcolor=\"#6766CC\" align=\"right\" valign=\"top\"><span class=\"model\" style=\"position:relative;top:-12px\">WVC54GCA</span><img src=\"../blue_top_right.gif\" alt=\"\" border=\"0\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ bgcolor=\"\\#6766CC\"\\ align=\"right\"\\ valign=\"top\"><span\\ class=\"model\"\\ style=\"position:relative;top:\\-12px\">WVC54GCA</span><img\\ src=\"\\.\\./blue_top_right\\.gif\"\\ alt=\"\"\\ border=\"0\">"
+    },
+    {
+      "name": "Linksys-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Linksys-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"WVC80N\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"WVC80N\">"
+    },
+    {
+      "name": "Linksys-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Linksys-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td bgcolor=\"#6766CC\" align=\"right\" valign=\"top\"><span class=\"model\" style=\"position:relative;top:-12px\">WVC80N</span><img src=\"../blue_top_right.gif\" alt=\"\" border=\"0\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ bgcolor=\"\\#6766CC\"\\ align=\"right\"\\ valign=\"top\"><span\\ class=\"model\"\\ style=\"position:relative;top:\\-12px\">WVC80N</span><img\\ src=\"\\.\\./blue_top_right\\.gif\"\\ alt=\"\"\\ border=\"0\">"
+    }
+  ]
+}

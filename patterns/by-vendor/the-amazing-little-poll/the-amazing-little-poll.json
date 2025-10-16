@@ -1,0 +1,48 @@
+{
+  "vendor": "The-Amazing-Little-Poll",
+  "vendor_id": "the-amazing-little-poll",
+  "product": "The-Amazing-Little-Poll",
+  "product_id": "the-amazing-little-poll",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "The-Amazing-Little-Poll Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for The-Amazing-Little-Poll",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form action=\"lp_admin.php\" method=\"post\" name=\"form0\">Admin Password:<input type=\"hidden\" name=\"adminstep\" value=\"1\"><input type=\"Password\" name=\"pwd\" size=\"20\"><br><input type=\"Submit\" value=\"OK\"></form>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ action=\"lp_admin\\.php\"\\ method=\"post\"\\ name=\"form0\">Admin\\ Password:<input\\ type=\"hidden\"\\ name=\"adminstep\"\\ value=\"1\"><input\\ type=\"Password\"\\ name=\"pwd\"\\ size=\"20\"><br><input\\ type=\"Submit\"\\ value=\"OK\"></form>"
+    },
+    {
+      "name": "The-Amazing-Little-Poll Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for The-Amazing-Little-Poll",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "pollidcookie="
+    }
+  ]
+}

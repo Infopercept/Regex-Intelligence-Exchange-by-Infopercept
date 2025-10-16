@@ -1,0 +1,54 @@
+{
+  "vendor": "Toshiba-Network-Camera",
+  "vendor_id": "toshiba-network-camera",
+  "product": "Toshiba-Network-Camera",
+  "product_id": "toshiba-network-camera",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Toshiba-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Toshiba-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>TOSHIBA Network Camera - User Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>TOSHIBA\\ Network\\ Camera\\ \\-\\ User\\ Login</title>"
+    },
+    {
+      "name": "Toshiba-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Toshiba-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "    <td height=\"32\"><img src=\"toshiba.gif\" width=\"68\" height=\"12\"><font class=\"netcam\"><strong>&nbsp;&nbsp;Network Camera</strong></font></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ <td\\ height=\"32\"><img\\ src=\"toshiba\\.gif\"\\ width=\"68\"\\ height=\"12\"><font\\ class=\"netcam\"><strong>\\&nbsp;\\&nbsp;Network\\ Camera</strong></font></td>"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "vendor": "Squirrelcart",
+  "vendor_id": "squirrelcart",
+  "product": "Squirrelcart",
+  "product_id": "squirrelcart",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Squirrelcart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Squirrelcart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"sc_link\">Powered by <a target=\"_blank\" href=\"http://www.squirrelcart.com/php_shopping_cart.php\">Squirrelcart &copy; PHP Shopping Cart Software</a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"sc_link\">Powered\\ by\\ <a\\ target=\"_blank\"\\ href=\"http://www\\.squirrelcart\\.com/php_shopping_cart\\.php\">Squirrelcart\\ \\&copy;\\ PHP\\ Shopping\\ Cart\\ Software</a></div>"
+    },
+    {
+      "name": "Squirrelcart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Squirrelcart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Template: price_html.tpl.php -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Template:\\ price_html\\.tpl\\.php\\ \\-\\->"
+    },
+    {
+      "name": "Squirrelcart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Squirrelcart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "SC_referer="
+    }
+  ]
+}

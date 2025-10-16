@@ -1,0 +1,32 @@
+{
+  "vendor": "SillySmart",
+  "vendor_id": "sillysmart",
+  "product": "SillySmart",
+  "product_id": "sillysmart",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SillySmart Pattern",
+      "priority": 85,
+      "confidence": 0.85,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SillySmart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "var slsBuild",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "var\\ slsBuild"
+    }
+  ]
+}

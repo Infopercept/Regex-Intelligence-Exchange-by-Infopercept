@@ -1,0 +1,54 @@
+{
+  "vendor": "NoticeBoardPro",
+  "vendor_id": "noticeboardpro",
+  "product": "NoticeBoardPro",
+  "product_id": "noticeboardpro",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "NoticeBoardPro Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NoticeBoardPro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<A HREF=\"registerOutline.php\" CLASS=\"Xref\" style=\"margin-right:10\">[Register]</A>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<A\\ HREF=\"registerOutline\\.php\"\\ CLASS=\"Xref\"\\ style=\"margin\\-right:10\">\\[Register\\]</A>"
+    },
+    {
+      "name": "NoticeBoardPro Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NoticeBoardPro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<A HREF=\"loginOutline.php\" CLASS=\"Xref\" style=\"margin-left:165; margin-right:10\">[Sign In]</A>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<A\\ HREF=\"loginOutline\\.php\"\\ CLASS=\"Xref\"\\ style=\"margin\\-left:165;\\ margin\\-right:10\">\\[Sign\\ In\\]</A>"
+    }
+  ]
+}

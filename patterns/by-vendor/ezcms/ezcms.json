@@ -1,0 +1,76 @@
+{
+  "vendor": "EZCMS",
+  "vendor_id": "ezcms",
+  "product": "EZCMS",
+  "product_id": "ezcms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "EZCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for EZCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "        <td align=\"right\"><a href=\"http://www.ezwebsites.com.au\" class=\"credits\">Site Powered by EZCMS</a></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ <td\\ align=\"right\"><a\\ href=\"http://www\\.ezwebsites\\.com\\.au\"\\ class=\"credits\">Site\\ Powered\\ by\\ EZCMS</a></td>"
+    },
+    {
+      "name": "EZCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for EZCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "      <td width=\"100%\" align=\"left\" valign=\"bottom\" background=\"images/headerbg.png\"><div align=\"right\"><img src=\"images/headerright.png\" border=\"0\"></div></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ \\ \\ <td\\ width=\"100%\"\\ align=\"left\"\\ valign=\"bottom\"\\ background=\"images/headerbg\\.png\"><div\\ align=\"right\"><img\\ src=\"images/headerright\\.png\"\\ border=\"0\"></div></td>"
+    },
+    {
+      "name": "EZCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for EZCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>EZCMS Content Management System</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>EZCMS\\ Content\\ Management\\ System</title>"
+    }
+  ]
+}

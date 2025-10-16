@@ -1,0 +1,48 @@
+{
+  "vendor": "Toshiba-Projector",
+  "vendor_id": "toshiba-projector",
+  "product": "Toshiba-Projector",
+  "product_id": "toshiba-projector",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Toshiba-Projector Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Toshiba-Projector",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^TOSHIBA-Projector$"
+    },
+    {
+      "name": "Toshiba-Projector Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Toshiba-Projector",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TD class=\"f12w\" width=\"190\"><A href=\"http://multimedia.projector-toshiba.com/\" target=\"_blank\">TOSHIBA Projector Website</A></TD>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TD\\ class=\"f12w\"\\ width=\"190\"><A\\ href=\"http://multimedia\\.projector\\-toshiba\\.com/\"\\ target=\"_blank\">TOSHIBA\\ Projector\\ Website</A></TD>"
+    }
+  ]
+}

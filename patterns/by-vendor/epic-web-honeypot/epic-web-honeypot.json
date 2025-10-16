@@ -1,0 +1,54 @@
+{
+  "vendor": "Epic-Web-Honeypot",
+  "vendor_id": "epic-web-honeypot",
+  "product": "Epic-Web-Honeypot",
+  "product_id": "epic-web-honeypot",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Epic-Web-Honeypot Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Epic-Web-Honeypot",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<center><font size=\"3\" face=\"monospace\">******************************** Epic Web Honeypot ********************************</font></center>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<center><font\\ size=\"3\"\\ face=\"monospace\">\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\ Epic\\ Web\\ Honeypot\\ \\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*</font></center>"
+    },
+    {
+      "name": "Epic-Web-Honeypot Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Epic-Web-Honeypot",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Added OS fingerprints - creds - nmap and honeyd nmap.prints file!-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Added\\ OS\\ fingerprints\\ \\-\\ creds\\ \\-\\ nmap\\ and\\ honeyd\\ nmap\\.prints\\ file!\\-\\->"
+    }
+  ]
+}

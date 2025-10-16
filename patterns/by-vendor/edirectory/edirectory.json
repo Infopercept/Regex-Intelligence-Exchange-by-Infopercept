@@ -1,0 +1,48 @@
+{
+  "vendor": "eDirectory",
+  "vendor_id": "edirectory",
+  "product": "eDirectory",
+  "product_id": "edirectory",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "eDirectory Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eDirectory",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span class=\"basePowered\">Powered by <a href=\"http://www.edirectory.com\" target=\"_blank\">eDirectory&trade;</a>.</span>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span\\ class=\"basePowered\">Powered\\ by\\ <a\\ href=\"http://www\\.edirectory\\.com\"\\ target=\"_blank\">eDirectory\\&trade;</a>\\.</span>"
+    },
+    {
+      "name": "eDirectory Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eDirectory",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": " class=\"basePowered\">Powered by <a href=\"[^\"]+\" target=\"_blank\">eDirectory&trade;[\\s]?</a>"
+    }
+  ]
+}

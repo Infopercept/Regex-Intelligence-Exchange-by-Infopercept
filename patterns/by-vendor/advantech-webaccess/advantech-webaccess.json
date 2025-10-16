@@ -1,0 +1,70 @@
+{
+  "vendor": "Advantech-WebAccess",
+  "vendor_id": "advantech-webaccess",
+  "product": "Advantech-WebAccess",
+  "product_id": "advantech-webaccess",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Advantech-WebAccess Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Advantech-WebAccess",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html><!-- #BeginTemplate \"/Templates/bw_templete1.dwt\" -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html><!\\-\\-\\ \\#BeginTemplate\\ \"/Templates/bw_templete1\\.dwt\"\\ \\-\\->"
+    },
+    {
+      "name": "Advantech-WebAccess Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Advantech-WebAccess",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"/broadweb/WebAccessClientSetup.exe\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"/broadweb/WebAccessClientSetup\\.exe\">"
+    },
+    {
+      "name": "Advantech-WebAccess Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Advantech-WebAccess",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "\\./broadWeb/bwviewpg\\.asp\\?proj="
+    }
+  ]
+}

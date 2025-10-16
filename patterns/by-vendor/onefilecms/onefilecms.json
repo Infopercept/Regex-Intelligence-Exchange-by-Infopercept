@@ -1,0 +1,32 @@
+{
+  "vendor": "OneFileCMS",
+  "vendor_id": "onefilecms",
+  "product": "OneFileCMS",
+  "product_id": "onefilecms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OneFileCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OneFileCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>This site powered by <a href=\"http://onefilecms.com/\">OneFileCMS</a>. [<a href=\"onefilecms.php?f=index.php\">Admin</a>]</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>This\\ site\\ powered\\ by\\ <a\\ href=\"http://onefilecms\\.com/\">OneFileCMS</a>\\.\\ \\[<a\\ href=\"onefilecms\\.php\\?f=index\\.php\">Admin</a>\\]</p>"
+    }
+  ]
+}

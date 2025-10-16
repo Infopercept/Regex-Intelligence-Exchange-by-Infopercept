@@ -1,0 +1,197 @@
+{
+  "vendor": "ZyXEL-Router",
+  "vendor_id": "zyxel-router",
+  "product": "ZyXEL-Router",
+  "product_id": "zyxel-router",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ZyXEL-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ZyXEL-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>.:: Welcome to the Web-Based Configurator::.</title><meta http-equiv='content-type' content='text/html;charset=iso-8859-1'>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>\\.::\\ Welcome\\ to\\ the\\ Web\\-Based\\ Configurator::\\.</title><meta\\ http\\-equiv='content\\-type'\\ content='text/html;charset=iso\\-8859\\-1'>"
+    },
+    {
+      "name": "ZyXEL-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ZyXEL-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form method=\"post\" action=\"/Forms/rpAuth_1\" onSubmit=\"LoginClick(document.forms[0].hiddenPassword, document.forms[0].LoginPassword);\"><p>&nbsp;</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ method=\"post\"\\ action=\"/Forms/rpAuth_1\"\\ onSubmit=\"LoginClick\\(document\\.forms\\[0\\]\\.hiddenPassword,\\ document\\.forms\\[0\\]\\.LoginPassword\\);\"><p>\\&nbsp;</p>"
+    },
+    {
+      "name": "ZyXEL-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ZyXEL-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Welcome to your router Configuration Interface<p></p>Enter your password and press enter or click \"Login\"<p></p><img src=\"Images/i_key.gif\" width=\"11\" height=\"17\"  align=\"absmiddle\"> <strong>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Welcome\\ to\\ your\\ router\\ Configuration\\ Interface<p></p>Enter\\ your\\ password\\ and\\ press\\ enter\\ or\\ click\\ \"Login\"<p></p><img\\ src=\"Images/i_key\\.gif\"\\ width=\"11\"\\ height=\"17\"\\ \\ align=\"absmiddle\">\\ <strong>"
+    },
+    {
+      "name": "ZyXEL-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ZyXEL-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<font size=\"3\" color=\"3366CC\" face=\"Arial\"><b><i>Vantage Service Gateway</i>&nbsp;</b></font>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<font\\ size=\"3\"\\ color=\"3366CC\"\\ face=\"Arial\"><b><i>Vantage\\ Service\\ Gateway</i>\\&nbsp;</b></font>"
+    },
+    {
+      "name": "ZyXEL-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ZyXEL-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<frameset rows=\"75,97%,25\" framespacing=\"0\" border=\"0\" frameborder=\"0\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<frameset\\ rows=\"75,97%,25\"\\ framespacing=\"0\"\\ border=\"0\"\\ frameborder=\"0\">"
+    },
+    {
+      "name": "ZyXEL-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ZyXEL-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "loginPassword.value = \"ZyXEL ZyWALL Series\";",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "loginPassword\\.value\\ =\\ \"ZyXEL\\ ZyWALL\\ Series\";"
+    },
+    {
+      "name": "HTTP Server Header",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ZyXEL-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^ZyXEL-RomPager"
+    },
+    {
+      "name": "HTTP Server Header",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ZyXEL-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^ZyXEL-RomPager/([^\\s]+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^ZyXEL-RomPager/([^\\s]+)$",
+      "version_group": 1
+    },
+    {
+      "name": "HTTP Server Header",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ZyXEL-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^RomPager"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "vendor": "MultiPowUpload",
+  "vendor_id": "multipowupload",
+  "product": "MultiPowUpload",
+  "product_id": "multipowupload",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MultiPowUpload Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MultiPowUpload",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Upload result:<br><pre>No files sent. Script is OK!Here is some more debugging info:Array",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Upload\\ result:<br><pre>No\\ files\\ sent\\.\\ Script\\ is\\ OK!Here\\ is\\ some\\ more\\ debugging\\ info:Array"
+    },
+    {
+      "name": "MultiPowUpload Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MultiPowUpload",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\tVisit <a href=\"http://www.element-it.com/MultiPowUpload.aspx\">MultiPowUpload</a> web site for new release and support information.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\tVisit\\ <a\\ href=\"http://www\\.element\\-it\\.com/MultiPowUpload\\.aspx\">MultiPowUpload</a>\\ web\\ site\\ for\\ new\\ release\\ and\\ support\\ information\\."
+    },
+    {
+      "name": "MultiPowUpload Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MultiPowUpload",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\tVisit <a href=\"http://www.element-it.com/multiple-file-upload/flash-uploader.aspx\">MultiPowUpload</a> web site for new release and support information.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\tVisit\\ <a\\ href=\"http://www\\.element\\-it\\.com/multiple\\-file\\-upload/flash\\-uploader\\.aspx\">MultiPowUpload</a>\\ web\\ site\\ for\\ new\\ release\\ and\\ support\\ information\\."
+    },
+    {
+      "name": "MultiPowUpload Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MultiPowUpload",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<PARAM NAME=\"FlashVars\" VALUE=\"uploadUrl=FileProcessingScripts/PHP/uploadfiles.php",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<PARAM\\ NAME=\"FlashVars\"\\ VALUE=\"uploadUrl=FileProcessingScripts/PHP/uploadfiles\\.php"
+    },
+    {
+      "name": "MultiPowUpload Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MultiPowUpload",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<embed bgcolor=[^>]+src=\"ElementITMultiPowUpload.swf\" quality=\"high\" pluginspage=\"http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<embed\\ bgcolor=\\[\\^>\\]\\+src=\"ElementITMultiPowUpload\\.swf\"\\ quality=\"high\"\\ pluginspage=\"http://www\\.macromedia\\.com/shockwave/download/index\\.cgi\\?P1_Prod_Version=ShockwaveFlash\""
+    }
+  ]
+}

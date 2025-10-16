@@ -1,0 +1,180 @@
+{
+  "vendor": "Pixel-Ads-Script",
+  "vendor_id": "pixel-ads-script",
+  "product": "Pixel-Ads-Script",
+  "product_id": "pixel-ads-script",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Pixel-Ads-Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Pixel-Ads-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"index.php?magnify=1\">Magnifier On</a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"index\\.php\\?magnify=1\">Magnifier\\ On</a></div>"
+    },
+    {
+      "name": "Pixel-Ads-Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Pixel-Ads-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"index.php?magnify=1\">Zoom On</a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"index\\.php\\?magnify=1\">Zoom\\ On</a></div>"
+    },
+    {
+      "name": "Pixel-Ads-Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Pixel-Ads-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "  <title>Pixel Ads Script</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ <title>Pixel\\ Ads\\ Script</title>"
+    },
+    {
+      "name": "Pixel-Ads-Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Pixel-Ads-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "  <title>Scrap Pixels - Pixel List</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ <title>Scrap\\ Pixels\\ \\-\\ Pixel\\ List</title>"
+    },
+    {
+      "name": "Pixel-Ads-Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Pixel-Ads-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "  <title>Pixel Ads Script Administration - Administrator Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ <title>Pixel\\ Ads\\ Script\\ Administration\\ \\-\\ Administrator\\ Login</title>"
+    },
+    {
+      "name": "Pixel-Ads-Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Pixel-Ads-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "          <td width=\"850\" class=\"sitetitle\">Pixel Ads Script",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <td\\ width=\"850\"\\ class=\"sitetitle\">Pixel\\ Ads\\ Script"
+    },
+    {
+      "name": "Pixel-Ads-Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Pixel-Ads-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "          <td width=\"150\" class=\"statsbox\" bgcolor=\"#FFFFFF\"><strong>Pixels Sold:</strong> [\\d\\,]+<br>"
+    },
+    {
+      "name": "Pixel-Ads-Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Pixel-Ads-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": " href=\"http://www.pixel-ads-script.com\">Powered by: Pixel-Ads-Script.Com</a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ href=\"http://www\\.pixel\\-ads\\-script\\.com\">Powered\\ by:\\ Pixel\\-Ads\\-Script\\.Com</a></div>"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "vendor": "Traidnt-UP",
+  "vendor_id": "traidnt-up",
+  "product": "Traidnt-UP",
+  "product_id": "traidnt-up",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Traidnt-UP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Traidnt-UP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- # START HEDARE -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ \\#\\ START\\ HEDARE\\ \\-\\->"
+    },
+    {
+      "name": "Traidnt-UP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Traidnt-UP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<font color='#000080'><a href='http://traidnt.net' target='_blank'>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<font\\ color='\\#000080'><a\\ href='http://traidnt\\.net'\\ target='_blank'>"
+    },
+    {
+      "name": "Traidnt-UP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Traidnt-UP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t<span style='text-decoration: none'><font color='#000000'>Traidnt&nbsp;UP</font></span></a></font></span></b>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\t<span\\ style='text\\-decoration:\\ none'><font\\ color='\\#000000'>Traidnt\\&nbsp;UP</font></span></a></font></span></b>"
+    }
+  ]
+}

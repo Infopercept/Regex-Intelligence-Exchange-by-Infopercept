@@ -1,0 +1,26 @@
+{
+  "vendor": "WebPA",
+  "vendor_id": "webpa",
+  "product": "WebPA",
+  "product_id": "webpa",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WebPA Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebPA",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<iframe src=\"https?://[^/]+/keep_alive\\.php\" height=\"1\" width=\"1\" style=\"display: none;\">keep alive</iframe>"
+    }
+  ]
+}

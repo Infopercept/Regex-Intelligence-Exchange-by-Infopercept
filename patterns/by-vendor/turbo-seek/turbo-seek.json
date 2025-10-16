@@ -1,0 +1,32 @@
+{
+  "vendor": "Turbo-Seek",
+  "vendor_id": "turbo-seek",
+  "product": "Turbo-Seek",
+  "product_id": "turbo-seek",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "uniquie javascript",
+      "priority": 100,
+      "confidence": 1.0,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Turbo-Seek",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "    var myspecs = \"\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ var\\ myspecs\\ =\\ \"\\\\"
+    }
+  ]
+}

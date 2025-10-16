@@ -1,0 +1,76 @@
+{
+  "vendor": "Ganglia",
+  "vendor_id": "ganglia",
+  "product": "Ganglia",
+  "product_id": "ganglia",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Ganglia Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Ganglia",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Ganglia:: Cluster Report</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Ganglia::\\ Cluster\\ Report</TITLE>"
+    },
+    {
+      "name": "Ganglia Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Ganglia",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "(Nodes colored by 1-minute load) | <A HREF=\"./node_legend.html\">Legend</A>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\(Nodes\\ colored\\ by\\ 1\\-minute\\ load\\)\\ \\|\\ <A\\ HREF=\"\\./node_legend\\.html\">Legend</A>"
+    },
+    {
+      "name": "Ganglia Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Ganglia",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<B>Metric</B>&nbsp;&nbsp;<SELECT NAME=\"m\" OnChange=\"ganglia_form.submit();\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<B>Metric</B>\\&nbsp;\\&nbsp;<SELECT\\ NAME=\"m\"\\ OnChange=\"ganglia_form\\.submit\\(\\);\">"
+    }
+  ]
+}

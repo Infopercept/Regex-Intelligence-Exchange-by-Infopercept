@@ -1,0 +1,77 @@
+{
+  "vendor": "Liferay",
+  "vendor_id": "liferay",
+  "product": "Liferay",
+  "product_id": "liferay",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Liferay Pattern",
+      "priority": 10,
+      "confidence": 0.1,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Liferay",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by Liferay Portal",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ Liferay\\ Portal"
+    },
+    {
+      "name": "Liferay Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Liferay",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<![CDATA[*/Liferay.Util.addInputFocus();/*]]>*",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\[CDATA\\[\\*/Liferay\\.Util\\.addInputFocus\\(\\);/\\*\\]\\]>\\*"
+    },
+    {
+      "name": "Liferay Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Liferay",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "liferay-portal: ^Liferay Portal (.+ Edition) (.+)$",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "liferay-portal: ^Liferay Portal (.+ Edition) (.+)$",
+      "version_group": 1
+    }
+  ]
+}

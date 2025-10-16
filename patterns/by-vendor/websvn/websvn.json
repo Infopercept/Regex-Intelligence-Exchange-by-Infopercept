@@ -1,0 +1,54 @@
+{
+  "vendor": "WebSVN",
+  "vendor_id": "websvn",
+  "product": "WebSVN",
+  "product_id": "websvn",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WebSVN Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebSVN",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"WebSVN RSS\" href=\"rss.php?repname=",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"alternate\"\\ type=\"application/rss\\+xml\"\\ title=\"WebSVN\\ RSS\"\\ href=\"rss\\.php\\?repname="
+    },
+    {
+      "name": "WebSVN Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebSVN",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel='alternate' type='application/rss+xml' title='WebSVN RSS' href='rss.php?repname=",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel='alternate'\\ type='application/rss\\+xml'\\ title='WebSVN\\ RSS'\\ href='rss\\.php\\?repname="
+    }
+  ]
+}

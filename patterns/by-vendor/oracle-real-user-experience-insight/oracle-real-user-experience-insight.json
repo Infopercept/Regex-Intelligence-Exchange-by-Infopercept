@@ -1,0 +1,32 @@
+{
+  "vendor": "Oracle-Real-User-Experience-Insight",
+  "vendor_id": "oracle-real-user-experience-insight",
+  "product": "Oracle-Real-User-Experience-Insight",
+  "product_id": "oracle-real-user-experience-insight",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Oracle-Real-User-Experience-Insight Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-Real-User-Experience-Insight",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "{\"retval\":false,\"error_",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\{\"retval\":false,\"error_"
+    }
+  ]
+}

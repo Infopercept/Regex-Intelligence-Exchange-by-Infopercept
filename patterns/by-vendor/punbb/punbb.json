@@ -1,0 +1,76 @@
+{
+  "vendor": "PunBB",
+  "vendor_id": "punbb",
+  "product": "PunBB",
+  "product_id": "punbb",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PunBB Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PunBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- forum_debug -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ forum_debug\\ \\-\\->"
+    },
+    {
+      "name": "PunBB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PunBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"brd-index\" class=\"brd-page basic-page\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"brd\\-index\"\\ class=\"brd\\-page\\ basic\\-page\">"
+    },
+    {
+      "name": "PunBB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PunBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p id=\"copyright\">Powered by <strong><a href=\"http://punbb.informer.com/\">PunBB</a></strong>, supported by <strong><a href=\"http://www.informer.com/\">Informer Technologies, Inc</a></strong>.</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ id=\"copyright\">Powered\\ by\\ <strong><a\\ href=\"http://punbb\\.informer\\.com/\">PunBB</a></strong>,\\ supported\\ by\\ <strong><a\\ href=\"http://www\\.informer\\.com/\">Informer\\ Technologies,\\ Inc</a></strong>\\.</p>"
+    }
+  ]
+}

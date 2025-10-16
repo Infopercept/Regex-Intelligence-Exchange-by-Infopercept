@@ -1,0 +1,54 @@
+{
+  "vendor": "HostBill",
+  "vendor_id": "hostbill",
+  "product": "HostBill",
+  "product_id": "hostbill",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "HostBill Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HostBill",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- part below is not css valid. remove it if you want this document to be css valid -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ part\\ below\\ is\\ not\\ css\\ valid\\.\\ remove\\ it\\ if\\ you\\ want\\ this\\ document\\ to\\ be\\ css\\ valid\\ \\-\\->"
+    },
+    {
+      "name": "HostBill Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HostBill",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</div><br/><center>Powered by <a href=\"http://hostbillapp.com\" target=\"_blank\"><strong>HostBill</strong></a></center><br/></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</div><br/><center>Powered\\ by\\ <a\\ href=\"http://hostbillapp\\.com\"\\ target=\"_blank\"><strong>HostBill</strong></a></center><br/></div>"
+    }
+  ]
+}

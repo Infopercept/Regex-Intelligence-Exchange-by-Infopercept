@@ -1,0 +1,32 @@
+{
+  "vendor": "Cyn_in",
+  "vendor_id": "cyn_in",
+  "product": "Cyn_in",
+  "product_id": "cyn_in",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Cyn_in Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cyn_in",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"cyn.in - http://cyn.in\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"cyn\\.in\\ \\-\\ http://cyn\\.in\"\\ />"
+    }
+  ]
+}

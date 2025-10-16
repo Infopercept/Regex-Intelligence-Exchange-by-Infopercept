@@ -1,0 +1,76 @@
+{
+  "vendor": "envezion~media",
+  "vendor_id": "envezion-media",
+  "product": "envezion~media",
+  "product_id": "envezion-media",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "envezion~media Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for envezion~media",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://envezion.com/\">envezion~MEDIA</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://envezion\\.com/\">envezion\\~MEDIA</a>"
+    },
+    {
+      "name": "envezion~media Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for envezion~media",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://envezion.com/\"><strong>envezion~MEDIA</strong></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://envezion\\.com/\"><strong>envezion\\~MEDIA</strong></a>"
+    },
+    {
+      "name": "envezion~media Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for envezion~media",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.envezion.com\" target=\"_blank\"><strong> envezion~media</strong></a><br />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.envezion\\.com\"\\ target=\"_blank\"><strong>\\ envezion\\~media</strong></a><br\\ />"
+    }
+  ]
+}

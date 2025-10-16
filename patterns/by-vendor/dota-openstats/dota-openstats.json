@@ -1,0 +1,76 @@
+{
+  "vendor": "DotA-OpenStats",
+  "vendor_id": "dota-openstats",
+  "product": "DotA-OpenStats",
+  "product_id": "dota-openstats",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DotA-OpenStats Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DotA-OpenStats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"dota OpenStats\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"dota\\ OpenStats\"\\ />"
+    },
+    {
+      "name": "DotA-OpenStats Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DotA-OpenStats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"copyright\" content=\"openstats.iz.rs\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"copyright\"\\ content=\"openstats\\.iz\\.rs\"\\ />"
+    },
+    {
+      "name": "DotA-OpenStats Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DotA-OpenStats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img alt='' width='16' height='16' style='vertical-align:middle' src='./style/dota/img/logo.png' />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ alt=''\\ width='16'\\ height='16'\\ style='vertical\\-align:middle'\\ src='\\./style/dota/img/logo\\.png'\\ />"
+    }
+  ]
+}

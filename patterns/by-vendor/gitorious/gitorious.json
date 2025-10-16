@@ -1,0 +1,42 @@
+{
+  "vendor": "Gitorious",
+  "vendor_id": "gitorious",
+  "product": "Gitorious",
+  "product_id": "gitorious",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Gitorious Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Gitorious",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"http://gitorious\\.org\"><img alt=\"Poweredby\" src=\"/images/\\.\\./img/poweredby\\.png\\?[\\d]+\" title=\"Powered by Gitorious\" /></a></div>"
+    },
+    {
+      "name": "Gitorious Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Gitorious",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "_gitorious_sess=[^-]+--[^;]+; domain="
+    }
+  ]
+}

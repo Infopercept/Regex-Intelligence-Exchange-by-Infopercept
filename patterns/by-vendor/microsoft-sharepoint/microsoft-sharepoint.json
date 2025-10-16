@@ -1,0 +1,142 @@
+{
+  "vendor": "Microsoft-Sharepoint",
+  "vendor_id": "microsoft-sharepoint",
+  "product": "Microsoft-Sharepoint",
+  "product_id": "microsoft-sharepoint",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Microsoft-Sharepoint Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Sharepoint",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<noscript><div class='noindex'>You may be trying to access this site from a secured browser on the server. Please enable scripts and reload this page.</div></noscript>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<noscript><div\\ class='noindex'>You\\ may\\ be\\ trying\\ to\\ access\\ this\\ site\\ from\\ a\\ secured\\ browser\\ on\\ the\\ server\\.\\ Please\\ enable\\ scripts\\ and\\ reload\\ this\\ page\\.</div></noscript>"
+    },
+    {
+      "name": "Microsoft-Sharepoint Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Sharepoint",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<noscript><div class='noindex'>Please enable scripts and reload this page. If your browser does not support script, then you can visit the minimal version of this site at <a href=",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<noscript><div\\ class='noindex'>Please\\ enable\\ scripts\\ and\\ reload\\ this\\ page\\.\\ If\\ your\\ browser\\ does\\ not\\ support\\ script,\\ then\\ you\\ can\\ visit\\ the\\ minimal\\ version\\ of\\ this\\ site\\ at\\ <a\\ href="
+    },
+    {
+      "name": "Microsoft-Sharepoint Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Sharepoint",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"CollaborationServer\" content=\"SharePoint Team Web Site\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"CollaborationServer\"\\ content=\"SharePoint\\ Team\\ Web\\ Site\"\\ />"
+    },
+    {
+      "name": "Microsoft-Sharepoint Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Sharepoint",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"hidden\" name=\"MSOWebPartPage_PostbackSource\" id=\"MSOWebPartPage_PostbackSource\" value=",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ type=\"hidden\"\\ name=\"MSOWebPartPage_PostbackSource\"\\ id=\"MSOWebPartPage_PostbackSource\"\\ value="
+    },
+    {
+      "name": "Microsoft-Sharepoint Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Sharepoint",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"GENERATOR\" content=\"Microsoft SharePoint\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"GENERATOR\"\\ content=\"Microsoft\\ SharePoint\"\\ />"
+    },
+    {
+      "name": "Microsoft-Sharepoint Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Sharepoint",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"progid\" content=\"SharePoint.WebPartPage.Document\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"progid\"\\ content=\"SharePoint\\.WebPartPage\\.Document\"\\ />"
+    }
+  ]
+}

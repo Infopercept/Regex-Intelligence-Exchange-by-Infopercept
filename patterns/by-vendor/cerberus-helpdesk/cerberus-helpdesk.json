@@ -1,0 +1,54 @@
+{
+  "vendor": "Cerberus-Helpdesk",
+  "vendor_id": "cerberus-helpdesk",
+  "product": "Cerberus-Helpdesk",
+  "product_id": "cerberus-helpdesk",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Cerberus-Helpdesk Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cerberus-Helpdesk",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- If you have your own stylesheet for HTML elements, you can remove the cerberus-html.css link -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ If\\ you\\ have\\ your\\ own\\ stylesheet\\ for\\ HTML\\ elements,\\ you\\ can\\ remove\\ the\\ cerberus\\-html\\.css\\ link\\ \\-\\->"
+    },
+    {
+      "name": "Cerberus-Helpdesk Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cerberus-Helpdesk",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td width=\"519\" class=\"kb_most_viewed_articles\">Most Viewed Knowledgebase Articles</td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ width=\"519\"\\ class=\"kb_most_viewed_articles\">Most\\ Viewed\\ Knowledgebase\\ Articles</td>"
+    }
+  ]
+}

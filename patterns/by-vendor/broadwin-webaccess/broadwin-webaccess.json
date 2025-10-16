@@ -1,0 +1,120 @@
+{
+  "vendor": "BroadWin-WebAccess",
+  "vendor_id": "broadwin-webaccess",
+  "product": "BroadWin-WebAccess",
+  "product_id": "broadwin-webaccess",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BroadWin-WebAccess Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BroadWin-WebAccess",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<frame marginheight=\"0\" marginwidth=\"0\" name=\"rightRunFrame\" noresize src=\"bwRunRight.asp\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<frame\\ marginheight=\"0\"\\ marginwidth=\"0\"\\ name=\"rightRunFrame\"\\ noresize\\ src=\"bwRunRight\\.asp\">"
+    },
+    {
+      "name": "BroadWin-WebAccess Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BroadWin-WebAccess",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html><!-- #BeginTemplate \"/Templates/bw_templete1.dwt\" -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html><!\\-\\-\\ \\#BeginTemplate\\ \"/Templates/bw_templete1\\.dwt\"\\ \\-\\->"
+    },
+    {
+      "name": "BroadWin-WebAccess Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BroadWin-WebAccess",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Operator Manual</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Operator\\ Manual</title>"
+    },
+    {
+      "name": "BroadWin-WebAccess Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BroadWin-WebAccess",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form name=\"login\" action=\"/broadweb/user/signin.asp\" method=\"post\" onSubmit=\"return validateUserName()\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ name=\"login\"\\ action=\"/broadweb/user/signin\\.asp\"\\ method=\"post\"\\ onSubmit=\"return\\ validateUserName\\(\\)\">"
+    },
+    {
+      "name": "BroadWin-WebAccess Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BroadWin-WebAccess",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "window.top.location.replace(\"/broadweb/bwroot.asp?username=admin\");",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "window\\.top\\.location\\.replace\\(\"/broadweb/bwroot\\.asp\\?username=admin\"\\);"
+    }
+  ]
+}

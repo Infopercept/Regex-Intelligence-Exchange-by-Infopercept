@@ -1,0 +1,120 @@
+{
+  "vendor": "Gallarific",
+  "vendor_id": "gallarific",
+  "product": "Gallarific",
+  "product_id": "gallarific",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Gallarific Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Gallarific",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta http-equiv=\"Generator\" content=\"Gallarific\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ http\\-equiv=\"Generator\"\\ content=\"Gallarific\"\\ />"
+    },
+    {
+      "name": "Gallarific Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Gallarific",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- popular_grid: output a 4x1 row containing the most viewed photos --><tr> <td colspan=\"2\" class=\"heading\">Most Viewed Photos</td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ popular_grid:\\ output\\ a\\ 4x1\\ row\\ containing\\ the\\ most\\ viewed\\ photos\\ \\-\\-><tr>\\ <td\\ colspan=\"2\"\\ class=\"heading\">Most\\ Viewed\\ Photos</td>"
+    },
+    {
+      "name": "Gallarific Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Gallarific",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- recent_grid: output a 4x1 row containing recently uploaded photos --><tr> <td colspan=\"2\" class=\"heading\">Recently Uploaded Photos</td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ recent_grid:\\ output\\ a\\ 4x1\\ row\\ containing\\ recently\\ uploaded\\ photos\\ \\-\\-><tr>\\ <td\\ colspan=\"2\"\\ class=\"heading\">Recently\\ Uploaded\\ Photos</td>"
+    },
+    {
+      "name": "Gallarific Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Gallarific",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.gallarific.com/\"><img src=\"http://www.gallarific.com/images/gallarific_white.gif\" width=\"215\" height=\"61\" border=\"0\" /></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.gallarific\\.com/\"><img\\ src=\"http://www\\.gallarific\\.com/images/gallarific_white\\.gif\"\\ width=\"215\"\\ height=\"61\"\\ border=\"0\"\\ /></a>"
+    },
+    {
+      "name": "Gallarific Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Gallarific",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Gallarific > Sign in</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Gallarific\\ >\\ Sign\\ in</title>"
+    }
+  ]
+}

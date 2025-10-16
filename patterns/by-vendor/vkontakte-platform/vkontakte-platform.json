@@ -1,0 +1,64 @@
+{
+  "vendor": "VKontakte-Platform",
+  "vendor_id": "vkontakte-platform",
+  "product": "VKontakte-Platform",
+  "product_id": "vkontakte-platform",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VK Kittenx Server",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VKontakte-Platform",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^kittenx"
+    },
+    {
+      "name": "VK API Script",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VKontakte-Platform",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script[^>]*src=\"//vk\\.com/js/api/openapi\\.js"
+    },
+    {
+      "name": "VK OG Meta Tag",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VKontakte-Platform",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta property=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ property=\\\\"
+    }
+  ]
+}

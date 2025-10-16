@@ -1,0 +1,152 @@
+{
+  "vendor": "PegaRULES",
+  "vendor_id": "pegarules",
+  "product": "PegaRULES",
+  "product_id": "pegarules",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PegaRULES",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Pega-RULES",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Pega\\-RULES"
+    },
+    {
+      "name": "title",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PegaRULES",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title> Welcome to PegaRULES </title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>\\ Welcome\\ to\\ PegaRULES\\ </title>"
+    },
+    {
+      "name": "copyright footer",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PegaRULES",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<span>[^<]+Copyright[^<]+Pegasystems Inc"
+    },
+    {
+      "name": "shortcut icon",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PegaRULES",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<LINK REL=\"SHORTCUT ICON\" HREF=\"images/pzPegaIcon.ico\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<LINK\\ REL=\"SHORTCUT\\ ICON\"\\ HREF=\"images/pzPegaIcon\\.ico\">"
+    },
+    {
+      "name": "PegaRULES Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PegaRULES",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- B-12380 avoid reuse/repost of username/password -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ B\\-12380\\ avoid\\ reuse/repost\\ of\\ username/password\\ \\-\\->"
+    },
+    {
+      "name": "PegaRULES Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PegaRULES",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HEAD><H3>Unable to logon to the PegaRULES system.</H3></HEAD>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<HEAD><H3>Unable\\ to\\ logon\\ to\\ the\\ PegaRULES\\ system\\.</H3></HEAD>"
+    },
+    {
+      "name": "PegaRULES Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PegaRULES",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<TR><TD>\\s+<FONT face=\"Helvetica\">\\s+Your system policy has denied access to the requested URL\\.\\s+</FONT>"
+    }
+  ]
+}

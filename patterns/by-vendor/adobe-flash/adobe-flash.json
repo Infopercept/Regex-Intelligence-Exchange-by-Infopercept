@@ -1,0 +1,106 @@
+{
+  "vendor": "Adobe-Flash",
+  "vendor_id": "adobe-flash",
+  "product": "Adobe-Flash",
+  "product_id": "adobe-flash",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Adobe-Flash Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Adobe-Flash",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<object[^>]+application/x-shockwave-flash[^>]+>"
+    },
+    {
+      "name": "Adobe-Flash Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Adobe-Flash",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<embed[^>]+src[\\s]*=[\\s]*[\"']?[^\\s^'^\"^>]+"
+    },
+    {
+      "name": "Adobe-Flash Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Adobe-Flash",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "new[\\s]+FlashObject[\\s]*\\([\\s]*['\"]?[^'^\"]+"
+    },
+    {
+      "name": "Adobe-Flash Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Adobe-Flash",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "new[\\s]+SWFObject[\\s]*\\([\\s]*['\"]?[^'^\"]+"
+    },
+    {
+      "name": "Adobe-Flash Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Adobe-Flash",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "\\.embedSWF[\\s]*\\([\\s]*[\"']?[^'^\"]+"
+    },
+    {
+      "name": "File extension",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Adobe-Flash",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^(fla|flv|swf|swt|swc)$"
+    }
+  ]
+}

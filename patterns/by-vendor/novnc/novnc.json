@@ -1,0 +1,32 @@
+{
+  "vendor": "noVNC",
+  "vendor_id": "novnc",
+  "product": "noVNC",
+  "product_id": "novnc",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "noVNC Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for noVNC",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"VNC_status_bar\" class=\"VNC_status_bar\" style=\"margin-top: 0px;\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"VNC_status_bar\"\\ class=\"VNC_status_bar\"\\ style=\"margin\\-top:\\ 0px;\">"
+    }
+  ]
+}

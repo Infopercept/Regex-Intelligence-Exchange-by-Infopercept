@@ -1,0 +1,142 @@
+{
+  "vendor": "sNews",
+  "vendor_id": "snews",
+  "product": "sNews",
+  "product_id": "snews",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "sNews Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for sNews",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>This site is powered by <a href=\"http://snewscms.com/\" title=\"sNews CMS\" onclick=\"target=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>This\\ site\\ is\\ powered\\ by\\ <a\\ href=\"http://snewscms\\.com/\"\\ title=\"sNews\\ CMS\"\\ onclick=\"target=\\\\"
+    },
+    {
+      "name": "sNews Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for sNews",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "powered by <a href=\"http://www.solucija.com/home/snews/\" title=\"sNews\">sNews</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "powered\\ by\\ <a\\ href=\"http://www\\.solucija\\.com/home/snews/\"\\ title=\"sNews\">sNews</a>"
+    },
+    {
+      "name": "sNews Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for sNews",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://snews.solucija.com\" title=\"Single file CSS and XHTML valid CMS\">sNews</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://snews\\.solucija\\.com\"\\ title=\"Single\\ file\\ CSS\\ and\\ XHTML\\ valid\\ CMS\">sNews</a>"
+    },
+    {
+      "name": "sNews Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for sNews",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://snewscms.com/\" title=\"Single file CMS\">sNews</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://snewscms\\.com/\"\\ title=\"Single\\ file\\ CMS\">sNews</a>"
+    },
+    {
+      "name": "sNews Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for sNews",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"sNews CMS\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"sNews\\ CMS\"\\ />"
+    },
+    {
+      "name": "sNews Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for sNews",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p><label for=\"uname\">Username</label>:<br /><input type=\"text\" name=\"uname\" id=\"uname\" class=\"text\" value=\"\" /></p><p><label for=\"pass\">Password</label>:<br /><input type=\"password\" name=\"pass\" id=\"pass\" class=\"text\" value=\"\" /></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p><label\\ for=\"uname\">Username</label>:<br\\ /><input\\ type=\"text\"\\ name=\"uname\"\\ id=\"uname\"\\ class=\"text\"\\ value=\"\"\\ /></p><p><label\\ for=\"pass\">Password</label>:<br\\ /><input\\ type=\"password\"\\ name=\"pass\"\\ id=\"pass\"\\ class=\"text\"\\ value=\"\"\\ /></p>"
+    }
+  ]
+}

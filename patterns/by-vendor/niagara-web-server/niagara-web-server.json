@@ -1,0 +1,72 @@
+{
+  "vendor": "Niagara-Web-Server",
+  "vendor_id": "niagara-web-server",
+  "product": "Niagara-Web-Server",
+  "product_id": "niagara-web-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Niagara-Web-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Niagara-Web-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Niagara Web Server"
+    },
+    {
+      "name": "Niagara-Web-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Niagara-Web-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: Niagara Web Server/8.5",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: Niagara Web Server/([\\d\\.]+)",
+      "version_group": 1
+    },
+    {
+      "name": "Niagara-Web-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Niagara-Web-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "niagara-release: ^(.*)$",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "niagara-release: ^(.*)$",
+      "version_group": 1
+    }
+  ]
+}

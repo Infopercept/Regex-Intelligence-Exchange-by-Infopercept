@@ -1,0 +1,76 @@
+{
+  "vendor": "MobileIron-MDM",
+  "vendor_id": "mobileiron-mdm",
+  "product": "MobileIron-MDM",
+  "product_id": "mobileiron-mdm",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MobileIron-MDM Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MobileIron-MDM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/mifs/user/index.html",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "/mifs/user/index\\.html"
+    },
+    {
+      "name": "MobileIron-MDM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MobileIron-MDM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/mifs/user/login.jsp",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "/mifs/user/login\\.jsp"
+    },
+    {
+      "name": "MobileIron-MDM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MobileIron-MDM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>MobileIron User Portal: Sign In",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>MobileIron\\ User\\ Portal:\\ Sign\\ In"
+    }
+  ]
+}

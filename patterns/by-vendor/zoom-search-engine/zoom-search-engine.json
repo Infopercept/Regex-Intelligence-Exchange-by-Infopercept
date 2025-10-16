@@ -1,0 +1,32 @@
+{
+  "vendor": "Zoom-Search-Engine",
+  "vendor_id": "zoom-search-engine",
+  "product": "Zoom-Search-Engine",
+  "product_id": "zoom-search-engine",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Zoom-Search-Engine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Zoom-Search-Engine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<center><p><small>Search powered by <a href=\"http://www.wrensoft.com/zoom/\" target=\"_blank\"><b>Zoom Search Engine</b></a></small></p></center>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<center><p><small>Search\\ powered\\ by\\ <a\\ href=\"http://www\\.wrensoft\\.com/zoom/\"\\ target=\"_blank\"><b>Zoom\\ Search\\ Engine</b></a></small></p></center>"
+    }
+  ]
+}

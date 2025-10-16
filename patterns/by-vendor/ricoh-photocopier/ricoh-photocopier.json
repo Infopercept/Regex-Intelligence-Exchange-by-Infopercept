@@ -1,0 +1,54 @@
+{
+  "vendor": "Ricoh-Photocopier",
+  "vendor_id": "ricoh-photocopier",
+  "product": "Ricoh-Photocopier",
+  "product_id": "ricoh-photocopier",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Ricoh-Photocopier Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Ricoh-Photocopier",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"background:url(/images/settingDivision.gif) repeat-x bottom;\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<table\\ width=\"100%\"\\ border=\"0\"\\ cellspacing=\"0\"\\ cellpadding=\"0\"\\ style=\"background:url\\(/images/settingDivision\\.gif\\)\\ repeat\\-x\\ bottom;\">"
+    },
+    {
+      "name": "Ricoh-Photocopier Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Ricoh-Photocopier",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta http-equiv=\"refresh\" content=\"1; URL=/web/guest/en/websys/webArch/message.cgi?messageID=MSG_JAVASCRIPTOFF&buttonURL=/../../../\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ http\\-equiv=\"refresh\"\\ content=\"1;\\ URL=/web/guest/en/websys/webArch/message\\.cgi\\?messageID=MSG_JAVASCRIPTOFF\\&buttonURL=/\\.\\./\\.\\./\\.\\./\">"
+    }
+  ]
+}

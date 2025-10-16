@@ -1,0 +1,48 @@
+{
+  "vendor": "Kerio-WinRoute-Firewall",
+  "vendor_id": "kerio-winroute-firewall",
+  "product": "Kerio-WinRoute-Firewall",
+  "product_id": "kerio-winroute-firewall",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Kerio-WinRoute-Firewall Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kerio-WinRoute-Firewall",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Kerio WinRoute Firewall Embedded Web Server$"
+    },
+    {
+      "name": "Kerio-WinRoute-Firewall Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kerio-WinRoute-Firewall",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta HTTP-EQUIV=\"Refresh\" content=\"0;URL=/internal/ntlm/dologin.php?internal=0\">\t<title>Kerio WinRoute Firewall - Login Page - Kerio WinRoute Firewall</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ HTTP\\-EQUIV=\"Refresh\"\\ content=\"0;URL=/internal/ntlm/dologin\\.php\\?internal=0\">\\\t<title>Kerio\\ WinRoute\\ Firewall\\ \\-\\ Login\\ Page\\ \\-\\ Kerio\\ WinRoute\\ Firewall</title>"
+    }
+  ]
+}

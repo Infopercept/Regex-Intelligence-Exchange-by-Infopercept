@@ -1,0 +1,58 @@
+{
+  "vendor": "Wix",
+  "vendor_id": "wix",
+  "product": "Wix",
+  "product_id": "wix",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "_wixAB3 cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Wix",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "_wixAB3"
+    },
+    {
+      "name": "hs cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Wix",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^hs\\s"
+    },
+    {
+      "name": "svSession cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Wix",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "svSession"
+    }
+  ]
+}

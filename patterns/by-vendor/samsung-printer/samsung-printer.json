@@ -1,0 +1,32 @@
+{
+  "vendor": "Samsung-Printer",
+  "vendor_id": "samsung-printer",
+  "product": "Samsung-Printer",
+  "product_id": "samsung-printer",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Samsung-Printer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Samsung-Printer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "var debugMode = (\"$$GSI_TCPIP_IP_ADDR$$\".indexOf(\".\")",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "var\\ debugMode\\ =\\ \\(\"\\$\\$GSI_TCPIP_IP_ADDR\\$\\$\"\\.indexOf\\(\"\\.\"\\)"
+    }
+  ]
+}

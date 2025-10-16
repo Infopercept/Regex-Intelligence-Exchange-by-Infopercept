@@ -1,0 +1,32 @@
+{
+  "vendor": "Zen-Load-Balancer",
+  "vendor_id": "zen-load-balancer",
+  "product": "Zen-Load-Balancer",
+  "product_id": "zen-load-balancer",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Zen-Load-Balancer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Zen-Load-Balancer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Basic realm=\"Zen Load Balancer\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Basic\\ realm=\"Zen\\ Load\\ Balancer\""
+    }
+  ]
+}

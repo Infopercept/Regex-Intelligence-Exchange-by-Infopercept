@@ -1,0 +1,70 @@
+{
+  "vendor": "Lyris-ListManager",
+  "vendor_id": "lyris-listmanager",
+  "product": "Lyris-ListManager",
+  "product_id": "lyris-listmanager",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Lyris-ListManager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Lyris-ListManager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<INPUT TYPE=\"hidden\" NAME=\"check_code\" VALUE=\"[^\"^>]+\">"
+    },
+    {
+      "name": "Lyris-ListManager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Lyris-ListManager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html><h3>This Lyris ListManager Server is currently unavailable.<br>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html><h3>This\\ Lyris\\ ListManager\\ Server\\ is\\ currently\\ unavailable\\.<br>"
+    },
+    {
+      "name": "Lyris-ListManager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Lyris-ListManager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<font face=\"Arial, Helvetica, sans-serif\" color=\"#000000\"><b><i>Main Menu</i></b></font><br>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<font\\ face=\"Arial,\\ Helvetica,\\ sans\\-serif\"\\ color=\"\\#000000\"><b><i>Main\\ Menu</i></b></font><br>"
+    }
+  ]
+}

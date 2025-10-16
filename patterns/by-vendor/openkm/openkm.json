@@ -1,0 +1,48 @@
+{
+  "vendor": "OpenKM",
+  "vendor_id": "openkm",
+  "product": "OpenKM",
+  "product_id": "openkm",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OpenKM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenKM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form name=\"login\" method=\"post\" action=\"j_security_check\" onsubmit=\"setCookie()\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ name=\"login\"\\ method=\"post\"\\ action=\"j_security_check\"\\ onsubmit=\"setCookie\\(\\)\">"
+    },
+    {
+      "name": "OpenKM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenKM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>OpenKM Login</title>[\\s]+</head>[\\s]+<body onload=\"document\\.forms\\[0\\]\\.elements\\[0\\]\\.focus\\(\\)\">"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "vendor": "AlstraSoft-AskMe",
+  "vendor_id": "alstrasoft-askme",
+  "product": "AlstraSoft-AskMe",
+  "product_id": "alstrasoft-askme",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AlstraSoft-AskMe Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AlstraSoft-AskMe",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Enter details about your question and press the button bellow. All fields are required.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Enter\\ details\\ about\\ your\\ question\\ and\\ press\\ the\\ button\\ bellow\\.\\ All\\ fields\\ are\\ required\\."
+    },
+    {
+      "name": "AlstraSoft-AskMe Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AlstraSoft-AskMe",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<font size=\"+2\">AskMe Pro Admin</font></b>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<font\\ size=\"\\+2\">AskMe\\ Pro\\ Admin</font></b>"
+    },
+    {
+      "name": "AlstraSoft-AskMe Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AlstraSoft-AskMe",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<br> Powered by <a href='http://www.alstrasoft.com' targe='_blank'><font color=blue>AlstraSoft AskMe Pro</font></a><br><br>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<br>\\ Powered\\ by\\ <a\\ href='http://www\\.alstrasoft\\.com'\\ targe='_blank'><font\\ color=blue>AlstraSoft\\ AskMe\\ Pro</font></a><br><br>"
+    },
+    {
+      "name": "AlstraSoft-AskMe Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AlstraSoft-AskMe",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td colspan=2 align=\"center\"><a href=\"pass_recover.php\">Forgotten Password?</a></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ colspan=2\\ align=\"center\"><a\\ href=\"pass_recover\\.php\">Forgotten\\ Password\\?</a></td>"
+    },
+    {
+      "name": "AlstraSoft-AskMe Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AlstraSoft-AskMe",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered By <a href=\"http://www.alstrasoft.com\">AlstraSoft AskMe Pro</td></tr></table></body></a></html>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.alstrasoft\\.com\">AlstraSoft\\ AskMe\\ Pro</td></tr></table></body></a></html>"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "vendor": "Streamline-PHP-Media-Server",
+  "vendor_id": "streamline-php-media-server",
+  "product": "Streamline-PHP-Media-Server",
+  "product_id": "streamline-php-media-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Streamline-PHP-Media-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Streamline-PHP-Media-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "                <div style=\"font-size: 10pt\">A PHP Streaming Media Server</div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <div\\ style=\"font\\-size:\\ 10pt\">A\\ PHP\\ Streaming\\ Media\\ Server</div>"
+    },
+    {
+      "name": "Streamline-PHP-Media-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Streamline-PHP-Media-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "    <title>Streamline Media Installation Wizard</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ <title>Streamline\\ Media\\ Installation\\ Wizard</title>"
+    },
+    {
+      "name": "Streamline-PHP-Media-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Streamline-PHP-Media-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "            &copy; 2003-2010 Streamline",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\&copy;\\ 2003\\-2010\\ Streamline"
+    }
+  ]
+}

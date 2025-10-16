@@ -1,0 +1,32 @@
+{
+  "vendor": "phpRaid",
+  "vendor_id": "phpraid",
+  "product": "phpRaid",
+  "product_id": "phpraid",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "phpRaid Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpRaid",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Raid Management Provided by phpRaid",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Raid\\ Management\\ Provided\\ by\\ phpRaid"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "vendor": "Biscom-Delivery-Server",
+  "vendor_id": "biscom-delivery-server",
+  "product": "Biscom-Delivery-Server",
+  "product_id": "biscom-delivery-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Biscom-Delivery-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Biscom-Delivery-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"StyleSheet\" href=\"/bds/stylesheets/fds.css\" type=\"text/css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"StyleSheet\"\\ href=\"/bds/stylesheets/fds\\.css\"\\ type=\"text/css\">"
+    },
+    {
+      "name": "Biscom-Delivery-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Biscom-Delivery-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script src=\"/bds/includes/fdsJavascript.do\" type=\"text/javascript\"></script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ src=\"/bds/includes/fdsJavascript\\.do\"\\ type=\"text/javascript\"></script>"
+    },
+    {
+      "name": "Biscom-Delivery-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Biscom-Delivery-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"ICON\" href=\"/bds/images/icons/favicon.ico\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"ICON\"\\ href=\"/bds/images/icons/favicon\\.ico\"\\ />"
+    }
+  ]
+}

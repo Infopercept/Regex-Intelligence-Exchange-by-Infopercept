@@ -1,0 +1,76 @@
+{
+  "vendor": "OkiPBX",
+  "vendor_id": "okipbx",
+  "product": "OkiPBX",
+  "product_id": "okipbx",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OkiPBX Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OkiPBX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>IPstageMaintenanceConsole(PBX)</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>IPstageMaintenanceConsole\\(PBX\\)</title>"
+    },
+    {
+      "name": "OkiPBX Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OkiPBX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<APPLET CODE=\"DavisBar.class\" ARCHIVE=\"ipstage.jar\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<APPLET\\ CODE=\"DavisBar\\.class\"\\ ARCHIVE=\"ipstage\\.jar\""
+    },
+    {
+      "name": "OkiPBX Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OkiPBX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<PARAM NAME=\"systype\"    value=\"OKI\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<PARAM\\ NAME=\"systype\"\\ \\ \\ \\ value=\"OKI\">"
+    }
+  ]
+}

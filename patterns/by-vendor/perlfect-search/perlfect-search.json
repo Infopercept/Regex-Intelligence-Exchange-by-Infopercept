@@ -1,0 +1,32 @@
+{
+  "vendor": "Perlfect-Search",
+  "vendor_id": "perlfect-search",
+  "product": "Perlfect-Search",
+  "product_id": "perlfect-search",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Perlfect-Search Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Perlfect-Search",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- the following meta tag is important to avoid cross site scripting attacks: -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ the\\ following\\ meta\\ tag\\ is\\ important\\ to\\ avoid\\ cross\\ site\\ scripting\\ attacks:\\ \\-\\->"
+    }
+  ]
+}

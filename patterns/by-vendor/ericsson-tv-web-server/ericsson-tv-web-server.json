@@ -1,0 +1,26 @@
+{
+  "vendor": "Ericsson-TV-Web-Server",
+  "vendor_id": "ericsson-tv-web-server",
+  "product": "Ericsson-TV-Web-Server",
+  "product_id": "ericsson-tv-web-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Ericsson-TV-Web-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Ericsson-TV-Web-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Ericsson Television Web server$"
+    }
+  ]
+}

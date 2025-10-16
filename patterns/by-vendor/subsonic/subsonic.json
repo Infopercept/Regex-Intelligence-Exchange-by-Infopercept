@@ -1,0 +1,54 @@
+{
+  "vendor": "Subsonic",
+  "vendor_id": "subsonic",
+  "product": "Subsonic",
+  "product_id": "subsonic",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Subsonic Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Subsonic",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"checkbox\" name=\"_acegi_security_remember_me\" id=\"remember\" class=\"checkbox\" tabindex=\"3\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ type=\"checkbox\"\\ name=\"_acegi_security_remember_me\"\\ id=\"remember\"\\ class=\"checkbox\"\\ tabindex=\"3\">"
+    },
+    {
+      "name": "Subsonic Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Subsonic",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form action=\"/j_acegi_security_check\" method=\"POST\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ action=\"/j_acegi_security_check\"\\ method=\"POST\">"
+    }
+  ]
+}

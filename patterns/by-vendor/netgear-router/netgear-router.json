@@ -1,0 +1,26 @@
+{
+  "vendor": "Netgear-Router",
+  "vendor_id": "netgear-router",
+  "product": "Netgear-Router",
+  "product_id": "netgear-router",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Netgear-Router Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netgear-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Basic realm=\"?[\\s]*Netgear"
+    }
+  ]
+}

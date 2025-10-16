@@ -1,0 +1,32 @@
+{
+  "vendor": "BASE",
+  "vendor_id": "base",
+  "product": "BASE",
+  "product_id": "base",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BASE Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BASE",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Basic Analysis and Security Engine (BASE) -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Basic\\ Analysis\\ and\\ Security\\ Engine\\ \\(BASE\\)\\ \\-\\->"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "vendor": "Google-API",
+  "vendor_id": "google-api",
+  "product": "Google-API",
+  "product_id": "google-api",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Google-API Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Google-API",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script[^>]+src[\\s]*=[\\s]*[\"|']?http://www.google.com/jsapi[^>]*>[\\s]*</script[\\s]*>"
+    }
+  ]
+}

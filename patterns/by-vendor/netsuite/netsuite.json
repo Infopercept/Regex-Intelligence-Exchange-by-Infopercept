@@ -1,0 +1,58 @@
+{
+  "vendor": "NetSuite",
+  "vendor_id": "netsuite",
+  "product": "NetSuite",
+  "product_id": "netsuite",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "NLSD3 cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetSuite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^NLSD3"
+    },
+    {
+      "name": "NS_ROUTING_VERSION cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetSuite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^NS_ROUTING_VERSION"
+    },
+    {
+      "name": "NS_VER cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetSuite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^NS_VER"
+    }
+  ]
+}

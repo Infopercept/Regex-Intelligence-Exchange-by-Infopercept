@@ -1,0 +1,26 @@
+{
+  "vendor": "KSearch",
+  "vendor_id": "ksearch",
+  "product": "KSearch",
+  "product_id": "ksearch",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "KSearch Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for KSearch",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by[\\s]+<a[^>]+href=\"http://www\\.kscripts\\.com/(scripts\\.html#ksearch)?\"[^>]*>KSearch</a>"
+    }
+  ]
+}

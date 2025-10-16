@@ -1,0 +1,54 @@
+{
+  "vendor": "WebYep",
+  "vendor_id": "webyep",
+  "product": "WebYep",
+  "product_id": "webyep",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WebYep Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebYep",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p class=\"warning\">To edit these pages with WebYep you need to <strong>enable JavaScript</strong> in your Web",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ class=\"warning\">To\\ edit\\ these\\ pages\\ with\\ WebYep\\ you\\ need\\ to\\ <strong>enable\\ JavaScript</strong>\\ in\\ your\\ Web"
+    },
+    {
+      "name": "WebYep Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebYep",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html><!-- InstanceBegin template=\"/Templates/panels.dwt.php\" codeOutsideHTMLIsLocked=\"false\" -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html><!\\-\\-\\ InstanceBegin\\ template=\"/Templates/panels\\.dwt\\.php\"\\ codeOutsideHTMLIsLocked=\"false\"\\ \\-\\->"
+    }
+  ]
+}

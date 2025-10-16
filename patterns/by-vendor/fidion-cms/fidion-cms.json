@@ -1,0 +1,76 @@
+{
+  "vendor": "Fidion-CMS",
+  "vendor_id": "fidion-cms",
+  "product": "Fidion-CMS",
+  "product_id": "fidion-cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Fidion-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Fidion-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- ================== This site is powered by: ==================== -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ ==================\\ This\\ site\\ is\\ powered\\ by:\\ ====================\\ \\-\\->"
+    },
+    {
+      "name": "Fidion-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Fidion-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- | fCMS by fidion GmbH, W\u00fcg.         http://www.fidion.de  | -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ \\|\\ fCMS\\ by\\ fidion\\ GmbH,\\ W\u00fcg\\.\\ \\ \\ \\ \\ \\ \\ \\ \\ http://www\\.fidion\\.de\\ \\ \\|\\ \\-\\->"
+    },
+    {
+      "name": "Fidion-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Fidion-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- fCMS-Template head.tpl begins -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ fCMS\\-Template\\ head\\.tpl\\ begins\\ \\-\\->"
+    }
+  ]
+}

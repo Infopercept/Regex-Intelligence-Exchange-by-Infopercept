@@ -1,0 +1,32 @@
+{
+  "vendor": "PageUp-People",
+  "vendor_id": "pageup-people",
+  "product": "PageUp-People",
+  "product_id": "pageup-people",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PageUp-People Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PageUp-People",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a class=\"pageupLink\" href=\"http://www.pageuppeople.com\" target=\"self\">Powered by PageUp People</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ class=\"pageupLink\"\\ href=\"http://www\\.pageuppeople\\.com\"\\ target=\"self\">Powered\\ by\\ PageUp\\ People</a>"
+    }
+  ]
+}

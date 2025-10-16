@@ -1,0 +1,32 @@
+{
+  "vendor": "Astaro-End-User-Portal",
+  "vendor_id": "astaro-end-user-portal",
+  "product": "Astaro-End-User-Portal",
+  "product_id": "astaro-end-user-portal",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Astaro-End-User-Portal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Astaro-End-User-Portal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script src=\"eup/eup_50_change_password.js\" type=\"text/JavaScript\"></script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ src=\"eup/eup_50_change_password\\.js\"\\ type=\"text/JavaScript\"></script>"
+    }
+  ]
+}

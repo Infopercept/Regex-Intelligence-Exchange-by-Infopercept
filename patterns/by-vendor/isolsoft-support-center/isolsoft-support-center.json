@@ -1,0 +1,54 @@
+{
+  "vendor": "Isolsoft-Support-Center",
+  "vendor_id": "isolsoft-support-center",
+  "product": "Isolsoft-Support-Center",
+  "product_id": "isolsoft-support-center",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Isolsoft-Support-Center Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Isolsoft-Support-Center",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<strong><font color=\"#FF0000\">Warning! This heldesk requires a browser with javascript ",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<strong><font\\ color=\"\\#FF0000\">Warning!\\ This\\ heldesk\\ requires\\ a\\ browser\\ with\\ javascript\\ "
+    },
+    {
+      "name": "Isolsoft-Support-Center Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Isolsoft-Support-Center",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Copyright Line: Unauthorized removal can void license -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Copyright\\ Line:\\ Unauthorized\\ removal\\ can\\ void\\ license\\ \\-\\->"
+    }
+  ]
+}

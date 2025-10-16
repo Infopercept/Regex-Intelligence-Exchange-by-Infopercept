@@ -1,0 +1,120 @@
+{
+  "vendor": "Videoconference-Management-System",
+  "vendor_id": "videoconference-management-system",
+  "product": "Videoconference-Management-System",
+  "product_id": "videoconference-management-system",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Videoconference-Management-System Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Videoconference-Management-System",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta NAME=\"AUTHOR\" CONTENT=\"TANDBERG ASA (http://www.tandberg.net)\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ NAME=\"AUTHOR\"\\ CONTENT=\"TANDBERG\\ ASA\\ \\(http://www\\.tandberg\\.net\\)\">"
+    },
+    {
+      "name": "Videoconference-Management-System Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Videoconference-Management-System",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "content=\"TANDBERG is a leading global provider of videoconferencing solutions. The company designs, develops and manufactures videoconferencing systems and offers sales, support and value-added services in more than 50 countries worldwide.\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "content=\"TANDBERG\\ is\\ a\\ leading\\ global\\ provider\\ of\\ videoconferencing\\ solutions\\.\\ The\\ company\\ designs,\\ develops\\ and\\ manufactures\\ videoconferencing\\ systems\\ and\\ offers\\ sales,\\ support\\ and\\ value\\-added\\ services\\ in\\ more\\ than\\ 50\\ countries\\ worldwide\\.\">"
+    },
+    {
+      "name": "Videoconference-Management-System Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Videoconference-Management-System",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>TANDBERG</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>TANDBERG</title>"
+    },
+    {
+      "name": "Videoconference-Management-System Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Videoconference-Management-System",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t<frame src=\"framemiddle.htm\" name=\"No Name\" noresize marginheight=\"0\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t<frame\\ src=\"framemiddle\\.htm\"\\ name=\"No\\ Name\"\\ noresize\\ marginheight=\"0\">"
+    },
+    {
+      "name": "Videoconference-Management-System Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Videoconference-Management-System",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<title>Middle frame of Videoconference Management System</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<title>Middle\\ frame\\ of\\ Videoconference\\ Management\\ System</title>"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "vendor": "XWiki",
+  "vendor_id": "xwiki",
+  "product": "XWiki",
+  "product_id": "xwiki",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "XWiki Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for XWiki",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"wiki\" content=\"xwiki\"/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"wiki\"\\ content=\"xwiki\"/>"
+    },
+    {
+      "name": "XWiki Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for XWiki",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"xwikilicence\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"xwikilicence\">"
+    }
+  ]
+}

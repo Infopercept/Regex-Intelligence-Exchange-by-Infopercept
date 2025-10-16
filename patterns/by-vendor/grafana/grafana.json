@@ -1,0 +1,32 @@
+{
+  "vendor": "Grafana",
+  "vendor_id": "grafana",
+  "product": "Grafana",
+  "product_id": "grafana",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "title",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Grafana",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Grafana</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Grafana</title>"
+    }
+  ]
+}

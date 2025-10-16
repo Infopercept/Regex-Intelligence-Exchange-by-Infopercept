@@ -1,0 +1,33 @@
+{
+  "vendor": "Citrix-ConfProxy",
+  "vendor_id": "citrix-confproxy",
+  "product": "Citrix-ConfProxy",
+  "product_id": "citrix-confproxy",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Citrix-ConfProxy Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Citrix-ConfProxy",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^confproxy/8.5",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^confproxy/([\\d\\.]+)",
+      "version_group": 1
+    }
+  ]
+}

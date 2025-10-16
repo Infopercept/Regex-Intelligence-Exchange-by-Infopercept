@@ -1,0 +1,32 @@
+{
+  "vendor": "TimeLive",
+  "vendor_id": "timelive",
+  "product": "TimeLive",
+  "product_id": "timelive",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TimeLive Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TimeLive",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img id=\"CtlLogin1_Login1_imgCompanyOwnLogo\" src=\"Images/TopHeader.jpg\" alt=\"CompanyLogo\" style=\"height:50px;border-width:0px;\" /></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ id=\"CtlLogin1_Login1_imgCompanyOwnLogo\"\\ src=\"Images/TopHeader\\.jpg\"\\ alt=\"CompanyLogo\"\\ style=\"height:50px;border\\-width:0px;\"\\ /></td>"
+    }
+  ]
+}

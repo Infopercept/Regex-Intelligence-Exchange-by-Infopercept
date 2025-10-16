@@ -1,0 +1,76 @@
+{
+  "vendor": "Canon-Network-Camera",
+  "vendor_id": "canon-network-camera",
+  "product": "Canon-Network-Camera",
+  "product_id": "canon-network-camera",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Canon-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Canon-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Network Camera VB-C50i/VB-C50iR</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Network\\ Camera\\ VB\\-C50i/VB\\-C50iR</TITLE>"
+    },
+    {
+      "name": "Canon-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Canon-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<param name=cabbase\tvalue=\"LiveApplet.cab\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<param\\ name=cabbase\\\tvalue=\"LiveApplet\\.cab\">"
+    },
+    {
+      "name": "Canon-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Canon-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>LiveApplet</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>LiveApplet</title>"
+    }
+  ]
+}

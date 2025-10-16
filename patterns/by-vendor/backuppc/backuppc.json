@@ -1,0 +1,86 @@
+{
+  "vendor": "BackupPC",
+  "vendor_id": "backuppc",
+  "product": "BackupPC",
+  "product_id": "backuppc",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BackupPC Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BackupPC",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"hidden\" name=\"action\" value=\"hostInfo\"><input type=\"submit\" value=\"Go\" name=\"ignore\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ type=\"hidden\"\\ name=\"action\"\\ value=\"hostInfo\"><input\\ type=\"submit\"\\ value=\"Go\"\\ name=\"ignore\">"
+    },
+    {
+      "name": "BackupPC Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BackupPC",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</head><body onLoad=\"document.getElementById(\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</head><body\\ onLoad=\"document\\.getElementById\\(\\\\"
+    },
+    {
+      "name": "BackupPC Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BackupPC",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Basic realm=\"(Backup Admin|BackupPC admin|backuppc)\""
+    },
+    {
+      "name": "BackupPC Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BackupPC",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "/cgi-bin/BackupPC_Admin$"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "vendor": "Indico",
+  "vendor_id": "indico",
+  "product": "Indico",
+  "product_id": "indico",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Indico Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Indico",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td class=\"menuConfTopCell\" align=\"left\" valign=\"bottom\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ class=\"menuConfTopCell\"\\ align=\"left\"\\ valign=\"bottom\">"
+    }
+  ]
+}

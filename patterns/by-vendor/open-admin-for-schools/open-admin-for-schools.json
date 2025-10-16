@@ -1,0 +1,76 @@
+{
+  "vendor": "Open-Admin-for-Schools",
+  "vendor_id": "open-admin-for-schools",
+  "product": "Open-Admin-for-Schools",
+  "product_id": "open-admin-for-schools",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Open-Admin-for-Schools Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Open-Admin-for-Schools",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form action=\"/cgi-bin/rptbirthday.pl\" method=\"post\" style=\"display:inline;\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ action=\"/cgi\\-bin/rptbirthday\\.pl\"\\ method=\"post\"\\ style=\"display:inline;\">"
+    },
+    {
+      "name": "Open-Admin-for-Schools Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Open-Admin-for-Schools",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</h2><!--  === Report Section ===  -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</h2><!\\-\\-\\ \\ ===\\ Report\\ Section\\ ===\\ \\ \\-\\->"
+    },
+    {
+      "name": "Open-Admin-for-Schools Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Open-Admin-for-Schools",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- End of Student Reports Section -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ End\\ of\\ Student\\ Reports\\ Section\\ \\-\\->"
+    }
+  ]
+}

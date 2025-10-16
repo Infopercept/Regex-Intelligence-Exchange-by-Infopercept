@@ -1,0 +1,136 @@
+{
+  "vendor": "Elite-Gaming-Ladders",
+  "vendor_id": "elite-gaming-ladders",
+  "product": "Elite-Gaming-Ladders",
+  "product_id": "elite-gaming-ladders",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Elite-Gaming-Ladders Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Elite-Gaming-Ladders",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- DO NOT EDIT ABOVE THIS LINE UNLESS YOU KNOW WHAT YOU ARE DOIN - END -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ DO\\ NOT\\ EDIT\\ ABOVE\\ THIS\\ LINE\\ UNLESS\\ YOU\\ KNOW\\ WHAT\\ YOU\\ ARE\\ DOIN\\ \\-\\ END\\ \\-\\->"
+    },
+    {
+      "name": "Elite-Gaming-Ladders Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Elite-Gaming-Ladders",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Do Not Edit Below This Line Unless You Know What You're Doing -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Do\\ Not\\ Edit\\ Below\\ This\\ Line\\ Unless\\ You\\ Know\\ What\\ You're\\ Doing\\ \\-\\->"
+    },
+    {
+      "name": "Elite-Gaming-Ladders Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Elite-Gaming-Ladders",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- EGL INFORMATION - BLOCK END -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ EGL\\ INFORMATION\\ \\-\\ BLOCK\\ END\\ \\-\\->"
+    },
+    {
+      "name": "Elite-Gaming-Ladders Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Elite-Gaming-Ladders",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- DESIGNER AND POWERED BY - START  - You must leave this Copyright link back to Elite Ladders in place othersise your license will be revoked -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ DESIGNER\\ AND\\ POWERED\\ BY\\ \\-\\ START\\ \\ \\-\\ You\\ must\\ leave\\ this\\ Copyright\\ link\\ back\\ to\\ Elite\\ Ladders\\ in\\ place\\ othersise\\ your\\ license\\ will\\ be\\ revoked\\ \\-\\->"
+    },
+    {
+      "name": "Elite-Gaming-Ladders Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Elite-Gaming-Ladders",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Copyright - Removing this link back to Elite Ladders without permission will result in suspension of your license  -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Copyright\\ \\-\\ Removing\\ this\\ link\\ back\\ to\\ Elite\\ Ladders\\ without\\ permission\\ will\\ result\\ in\\ suspension\\ of\\ your\\ license\\ \\ \\-\\->"
+    },
+    {
+      "name": "Elite-Gaming-Ladders Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Elite-Gaming-Ladders",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<b><span style=\"color:#013171;\">Design By: </span> Soulast<span style=\"color:#013171;\"> \\| Powered [bB]y: </span>[\\s]?<a href=\"http://(www\\.)?eliteladders\\.com\""
+    }
+  ]
+}

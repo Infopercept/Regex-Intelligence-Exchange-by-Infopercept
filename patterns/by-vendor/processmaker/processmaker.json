@@ -1,0 +1,98 @@
+{
+  "vendor": "ProcessMaker",
+  "vendor_id": "processmaker",
+  "product": "ProcessMaker",
+  "product_id": "processmaker",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ProcessMaker Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ProcessMaker",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"companyLogo\"><img src=\"/images/processmaker2.logo2.png\"/></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"companyLogo\"><img\\ src=\"/images/processmaker2\\.logo2\\.png\"/></div>"
+    },
+    {
+      "name": "ProcessMaker Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ProcessMaker",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.processmaker.com\" alt=\"Powered by ProcessMaker - Open Source Workflow & Business Process Management (BPM) Management Software\" title=\"Powered by ProcessMaker\" target=\"_blank\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.processmaker\\.com\"\\ alt=\"Powered\\ by\\ ProcessMaker\\ \\-\\ Open\\ Source\\ Workflow\\ \\&\\ Business\\ Process\\ Management\\ \\(BPM\\)\\ Management\\ Software\"\\ title=\"Powered\\ by\\ ProcessMaker\"\\ target=\"_blank\">"
+    },
+    {
+      "name": "ProcessMaker Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ProcessMaker",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"content\"><a href=\"#\" onclick=\"openInfoPanel();return false;\" class=\"FooterLink\">| System Information |</a><br /><br />Copyright &copy; 2003-2012 <a href=\"http://www.colosa.com\" alt=\"Colosa, Inc.\" target=\"_blank\">Colosa, Inc.</a> All rights reserved.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"content\"><a\\ href=\"\\#\"\\ onclick=\"openInfoPanel\\(\\);return\\ false;\"\\ class=\"FooterLink\">\\|\\ System\\ Information\\ \\|</a><br\\ /><br\\ />Copyright\\ \\&copy;\\ 2003\\-2012\\ <a\\ href=\"http://www\\.colosa\\.com\"\\ alt=\"Colosa,\\ Inc\\.\"\\ target=\"_blank\">Colosa,\\ Inc\\.</a>\\ All\\ rights\\ reserved\\."
+    },
+    {
+      "name": "ProcessMaker Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ProcessMaker",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta http-equiv=\"REFRESH\" content=\"0;URL=/sys/en/classic/login/login.html\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ http\\-equiv=\"REFRESH\"\\ content=\"0;URL=/sys/en/classic/login/login\\.html\"\\ />"
+    }
+  ]
+}

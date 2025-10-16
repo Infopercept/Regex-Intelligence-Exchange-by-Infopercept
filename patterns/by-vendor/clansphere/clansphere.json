@@ -1,0 +1,118 @@
+{
+  "vendor": "ClanSphere",
+  "vendor_id": "clansphere",
+  "product": "ClanSphere",
+  "product_id": "clansphere",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ClanSphere Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ClanSphere",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>ClanSphere - News</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>ClanSphere\\ \\-\\ News</title>"
+    },
+    {
+      "name": "ClanSphere Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ClanSphere",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"ClanSphere\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"ClanSphere\"\\ />"
+    },
+    {
+      "name": "ClanSphere Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ClanSphere",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by <a href=\"http://www.csphere.eu[^>]+>Clansphere[\\ CSP]*"
+    },
+    {
+      "name": "ClanSphere Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ClanSphere",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"[/]*index.php\\?mod=clansphere&amp;action=about[^>]+>Powered by Clansphere[\\ CSP]*"
+    },
+    {
+      "name": "ClanSphere Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ClanSphere",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"[/]*index.php\\?mod=clansphere&amp;action=about[^>]+>Clansphere[\\ CSP]*"
+    },
+    {
+      "name": "ClanSphere Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ClanSphere",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "powered by <a href=\"http://www.clansphere.net[^>]+>ClanSphere Project</a>"
+    }
+  ]
+}

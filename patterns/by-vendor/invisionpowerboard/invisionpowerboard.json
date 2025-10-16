@@ -1,0 +1,232 @@
+{
+  "vendor": "InvisionPowerBoard",
+  "vendor_id": "invisionpowerboard",
+  "product": "InvisionPowerBoard",
+  "product_id": "invisionpowerboard",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "InvisionPowerBoard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for InvisionPowerBoard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "(Powered by Invision Power Board)</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\(Powered\\ by\\ Invision\\ Power\\ Board\\)</title>"
+    },
+    {
+      "name": "InvisionPowerBoard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for InvisionPowerBoard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "index.php?app=core&amp;module=global&amp;section=rss&amp;type=forums&amp;id=",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "index\\.php\\?app=core\\&amp;module=global\\&amp;section=rss\\&amp;type=forums\\&amp;id="
+    },
+    {
+      "name": "InvisionPowerBoard Pattern",
+      "priority": 50,
+      "confidence": 0.5,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for InvisionPowerBoard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href='#j_content' title='Jump to content' accesskey='m'>Jump to content</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href='\\#j_content'\\ title='Jump\\ to\\ content'\\ accesskey='m'>Jump\\ to\\ content</a>"
+    },
+    {
+      "name": "InvisionPowerBoard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for InvisionPowerBoard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script [^>]+src='[^']+/ipb\\.js"
+    },
+    {
+      "name": "InvisionPowerBoard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for InvisionPowerBoard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script [^>]*src='[^']+/ipb_global\\.js'>"
+    },
+    {
+      "name": "InvisionPowerBoard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for InvisionPowerBoard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"ipbwrapper\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"ipbwrapper\">"
+    },
+    {
+      "name": "InvisionPowerBoard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for InvisionPowerBoard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<div [^>]*class='copyright'>Powered by <[^>]+>Invision Power Board</a>"
+    },
+    {
+      "name": "InvisionPowerBoard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for InvisionPowerBoard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script type=\"text/javascript\" src='[^']*ips_xmlhttprequest\\.js'></script>"
+    },
+    {
+      "name": "InvisionPowerBoard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for InvisionPowerBoard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered By <a href='http://www.invisionboard.com' style='text-decoration:none' target='_blank'>IP.Board</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ By\\ <a\\ href='http://www\\.invisionboard\\.com'\\ style='text\\-decoration:none'\\ target='_blank'>IP\\.Board</a>"
+    },
+    {
+      "name": "InvisionPowerBoard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for InvisionPowerBoard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "&copy; [0-9]+ &nbsp;<a href='http://www\\.invisionpower\\.com'[^>]*>IPS, Inc<"
+    },
+    {
+      "name": "InvisionPowerBoard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for InvisionPowerBoard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "&copy; [0-9]+ &nbsp;<a href='http://www\\.invisionpower\\.com'[^>]*>IPS, <abbr title='Incorporated'>Inc</abbr><"
+    },
+    {
+      "name": "InvisionPowerBoard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for InvisionPowerBoard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"[^\"]+index\\.php\\?s=[a-z0-9]+&amp;act=Login&amp;CODE=[0-9]+\">Log In</a>"
+    }
+  ]
+}

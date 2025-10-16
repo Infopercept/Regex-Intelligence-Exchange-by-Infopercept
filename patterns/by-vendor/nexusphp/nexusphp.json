@@ -1,0 +1,70 @@
+{
+  "vendor": "NexusPHP",
+  "vendor_id": "nexusphp",
+  "product": "NexusPHP",
+  "product_id": "nexusphp",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "NexusPHP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NexusPHP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=\"generator\" content=\"NexusPHP\"[\\s]?/>"
+    },
+    {
+      "name": "NexusPHP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NexusPHP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p><b>Note</b>: You need cookies enabled to log in or switch language.<br /> [<b>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p><b>Note</b>:\\ You\\ need\\ cookies\\ enabled\\ to\\ log\\ in\\ or\\ switch\\ language\\.<br\\ />\\ \\[<b>"
+    },
+    {
+      "name": "NexusPHP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NexusPHP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr><td class=\"rowhead\">SSL (HTTPS):</td><td class=\"rowfollow\" align=\"left\"><input class=\"checkbox\" type=\"checkbox\" name=\"ssl\" value=\"yes\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr><td\\ class=\"rowhead\">SSL\\ \\(HTTPS\\):</td><td\\ class=\"rowfollow\"\\ align=\"left\"><input\\ class=\"checkbox\"\\ type=\"checkbox\"\\ name=\"ssl\"\\ value=\"yes\""
+    }
+  ]
+}

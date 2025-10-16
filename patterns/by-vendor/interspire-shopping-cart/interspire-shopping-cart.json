@@ -1,0 +1,48 @@
+{
+  "vendor": "Interspire-Shopping-Cart",
+  "vendor_id": "interspire-shopping-cart",
+  "product": "Interspire-Shopping-Cart",
+  "product_id": "interspire-shopping-cart",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Interspire-Shopping-Cart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Interspire-Shopping-Cart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<meta name=\"generator\" content=\"Interspire Shopping Cart\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<meta\\ name=\"generator\"\\ content=\"Interspire\\ Shopping\\ Cart\"\\ />"
+    },
+    {
+      "name": "Interspire-Shopping-Cart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Interspire-Shopping-Cart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "\t\t\t\tPowered by <a href=\"http://www.interspire.com/shoppingcart[/]*\" target=\"_blank\" class=\"PoweredBy\">Interspire Shopping Cart</a>"
+    }
+  ]
+}

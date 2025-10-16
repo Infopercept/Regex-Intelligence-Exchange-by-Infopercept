@@ -1,0 +1,26 @@
+{
+  "vendor": "Oracle-Database",
+  "vendor_id": "oracle-database",
+  "product": "Oracle-Database",
+  "product_id": "oracle-database",
+  "category": "database",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Oracle-Database Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-Database",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Oracle XML DB/Oracle Database$"
+    }
+  ]
+}

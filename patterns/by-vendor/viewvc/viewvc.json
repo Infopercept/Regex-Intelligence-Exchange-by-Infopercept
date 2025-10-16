@@ -1,0 +1,76 @@
+{
+  "vendor": "ViewVC",
+  "vendor_id": "viewvc",
+  "product": "ViewVC",
+  "product_id": "viewvc",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ViewVC Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ViewVC",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>ViewVC Repository Listing</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>ViewVC\\ Repository\\ Listing</title>"
+    },
+    {
+      "name": "ViewVC Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ViewVC",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- ViewVC :: http://www.viewvc.org/ -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ ViewVC\\ ::\\ http://www\\.viewvc\\.org/\\ \\-\\->"
+    },
+    {
+      "name": "ViewVC Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ViewVC",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- ViewCVS -- http://viewcvs.sourceforge.net/",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ ViewCVS\\ \\-\\-\\ http://viewcvs\\.sourceforge\\.net/"
+    }
+  ]
+}

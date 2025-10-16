@@ -1,0 +1,184 @@
+{
+  "vendor": "HESK",
+  "vendor_id": "hesk",
+  "product": "HESK",
+  "product_id": "hesk",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "HESK Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HESK",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script language=\"Javascript\" type=\"text/javascript\" src=\"(\\.\\./|\\./)?hesk_javascript\\.js\"></script>"
+    },
+    {
+      "name": "HESK Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HESK",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link href=\"(\\./)?hesk_style\\.css\" type=\"text/css\" rel=\"stylesheet\""
+    },
+    {
+      "name": "HESK Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HESK",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link rel=\"stylesheet\" type=\"text/css\" href=\"(\\./)?hesk_style\\.css\""
+    },
+    {
+      "name": "HESK Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HESK",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body onload=\"javascript:var i=new Image();i.src=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ onload=\"javascript:var\\ i=new\\ Image\\(\\);i\\.src=\\\\"
+    },
+    {
+      "name": "HESK Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HESK",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"img/loading.gif\" width=\"24\" height=\"24\" alt=\"\" border=\"0\" style=\"vertical-align:text-bottom\" /> <i>Loading knowledgebase suggestions...</i>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"img/loading\\.gif\"\\ width=\"24\"\\ height=\"24\"\\ alt=\"\"\\ border=\"0\"\\ style=\"vertical\\-align:text\\-bottom\"\\ />\\ <i>Loading\\ knowledgebase\\ suggestions\\.\\.\\.</i>"
+    },
+    {
+      "name": "HESK Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HESK",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- START KNOWLEDGEBASE SUGGEST -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ START\\ KNOWLEDGEBASE\\ SUGGEST\\ \\-\\->"
+    },
+    {
+      "name": "HESK Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HESK",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p style=\"text-align:center\"><a href=\"admin/\" class=\"smaller\">Go to Administration Panel</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ style=\"text\\-align:center\"><a\\ href=\"admin/\"\\ class=\"smaller\">Go\\ to\\ Administration\\ Panel</a></p>"
+    },
+    {
+      "name": "HESK Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HESK",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<p style=\"text-align:center\"><span class=\"smaller\">Powered by <a href=\"http://www\\.hesk\\.com\" class=\"smaller\"( target=\"_blank\")? title=\"Free Help Desk Software HESK\">Help Desk Software</a> HESK&trade;"
+    },
+    {
+      "name": "HESK Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HESK",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.phpjunkyard.com/free-helpdesk-software.php\" class=\"smaller\" target=\"_blank\">Help desk software</a> HESK<sup>TM</sup></span>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.phpjunkyard\\.com/free\\-helpdesk\\-software\\.php\"\\ class=\"smaller\"\\ target=\"_blank\">Help\\ desk\\ software</a>\\ HESK<sup>TM</sup></span>"
+    }
+  ]
+}

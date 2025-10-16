@@ -1,0 +1,92 @@
+{
+  "vendor": "SnoGrafx",
+  "vendor_id": "snografx",
+  "product": "SnoGrafx",
+  "product_id": "snografx",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SnoGrafx Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SnoGrafx",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!-- Website designed[\\ and powered]* by [^\\|]+\\|\\| Visit: http://snografx.com/ -->"
+    },
+    {
+      "name": "SnoGrafx Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SnoGrafx",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "var snoOff = new Image();snoOff.src = \"xfx/snografx0.gif\";var snoOn = new Image();snoOn.src = \"xfx/snografx2.gif\";",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "var\\ snoOff\\ =\\ new\\ Image\\(\\);snoOff\\.src\\ =\\ \"xfx/snografx0\\.gif\";var\\ snoOn\\ =\\ new\\ Image\\(\\);snoOn\\.src\\ =\\ \"xfx/snografx2\\.gif\";"
+    },
+    {
+      "name": "SnoGrafx Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SnoGrafx",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "var snoOff = new Image();snoOff.src = \"4fx/00sno.png\";var snoOn = new Image();snoOn.src = \"4fx/02sno.png\";",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "var\\ snoOff\\ =\\ new\\ Image\\(\\);snoOff\\.src\\ =\\ \"4fx/00sno\\.png\";var\\ snoOn\\ =\\ new\\ Image\\(\\);snoOn\\.src\\ =\\ \"4fx/02sno\\.png\";"
+    },
+    {
+      "name": "SnoGrafx Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SnoGrafx",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Website powered by: <a href='http://snografx.com/' target='_blank'>Sn\u00f6fx</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Website\\ powered\\ by:\\ <a\\ href='http://snografx\\.com/'\\ target='_blank'>Sn\u00f6fx</a>"
+    }
+  ]
+}

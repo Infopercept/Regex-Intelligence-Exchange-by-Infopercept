@@ -1,0 +1,80 @@
+{
+  "vendor": "Textpattern",
+  "vendor_id": "textpattern",
+  "product": "Textpattern",
+  "product_id": "textpattern",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "generator",
+      "priority": 50,
+      "confidence": 0.5,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Textpattern",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=\\\"generator\\\"[^>]+content=\\\"textpattern\" />"
+    },
+    {
+      "name": "jquery.js",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Textpattern",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script[^>]+src=\"[^\"]+textpattern/jquery.js[^\"]*\">"
+    },
+    {
+      "name": "css.php",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Textpattern",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link[^>]+href=\\\"[^\"]+textpattern/css.php[^\"]*\" />"
+    },
+    {
+      "name": "/textpattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Textpattern",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td id=\"view-site\" class=\"tabdown\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ id=\"view\\-site\"\\ class=\"tabdown\">"
+    }
+  ]
+}

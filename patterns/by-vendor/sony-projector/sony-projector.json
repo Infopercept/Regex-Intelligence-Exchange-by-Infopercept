@@ -1,0 +1,142 @@
+{
+  "vendor": "Sony-Projector",
+  "vendor_id": "sony-projector",
+  "product": "Sony-Projector",
+  "product_id": "sony-projector",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Sony-Projector Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sony-Projector",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<BODY onLoad=\"setWindowTitle();showIndex();\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<BODY\\ onLoad=\"setWindowTitle\\(\\);showIndex\\(\\);\">"
+    },
+    {
+      "name": "Sony-Projector Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sony-Projector",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form Action=\"/Forms/index_1\" method=\"post\"  NAME=\"form1\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ Action=\"/Forms/index_1\"\\ method=\"post\"\\ \\ NAME=\"form1\">"
+    },
+    {
+      "name": "Sony-Projector Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sony-Projector",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"text/javascript\" src=\"sonylogoJS.js\"></script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ type=\"text/javascript\"\\ src=\"sonylogoJS\\.js\"></script>"
+    },
+    {
+      "name": "Sony-Projector Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sony-Projector",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<frame src=\"index_bg.htm\" NAME=\"RIGHT\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" noresize>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<frame\\ src=\"index_bg\\.htm\"\\ NAME=\"RIGHT\"\\ marginwidth=\"0\"\\ marginheight=\"0\"\\ scrolling=\"no\"\\ noresize>"
+    },
+    {
+      "name": "Sony-Projector Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sony-Projector",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<frame src=\"index_bg.htm\" NAME=\"RIGHT\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" noresize>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<frame\\ src=\"index_bg\\.htm\"\\ NAME=\"RIGHT\"\\ marginwidth=\"0\"\\ marginheight=\"0\"\\ scrolling=\"no\"\\ noresize>"
+    },
+    {
+      "name": "Sony-Projector Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sony-Projector",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TR><TD COLSPAN=\"2\"><script type=\"text/javascript\">sonylogo();</script></TD>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TR><TD\\ COLSPAN=\"2\"><script\\ type=\"text/javascript\">sonylogo\\(\\);</script></TD>"
+    }
+  ]
+}

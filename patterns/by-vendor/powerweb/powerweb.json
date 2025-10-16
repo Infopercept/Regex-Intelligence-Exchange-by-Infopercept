@@ -1,0 +1,49 @@
+{
+  "vendor": "PowerWeb",
+  "vendor_id": "powerweb",
+  "product": "PowerWeb",
+  "product_id": "powerweb",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PowerWeb Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PowerWeb",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^PowerWeb"
+    },
+    {
+      "name": "PowerWeb Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PowerWeb",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^PowerWeb/([^\\s]+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^PowerWeb/([^\\s]+)$",
+      "version_group": 1
+    }
+  ]
+}

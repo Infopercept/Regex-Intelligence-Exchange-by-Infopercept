@@ -1,0 +1,26 @@
+{
+  "vendor": "AllNewsManager_NET",
+  "vendor_id": "allnewsmanager_net",
+  "product": "AllNewsManager_NET",
+  "product_id": "allnewsmanager_net",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AllNewsManager_NET Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AllNewsManager_NET",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "(kujeme|Powered by) <a id=\"[^\"]+\" href=\"http://www.allnewsmanager.net\">AllNewsManager.NET</a>"
+    }
+  ]
+}

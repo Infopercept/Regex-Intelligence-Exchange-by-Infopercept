@@ -1,0 +1,54 @@
+{
+  "vendor": "Shaadi-Zone",
+  "vendor_id": "shaadi-zone",
+  "product": "Shaadi-Zone",
+  "product_id": "shaadi-zone",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Shaadi-Zone Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Shaadi-Zone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href='http://www.vastal.com/' target='_blank'>Powered By Shaadi Zone</a>.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href='http://www\\.vastal\\.com/'\\ target='_blank'>Powered\\ By\\ Shaadi\\ Zone</a>\\."
+    },
+    {
+      "name": "Shaadi-Zone Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Shaadi-Zone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered By <a href='http://www.vastal.com/' target=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ By\\ <a\\ href='http://www\\.vastal\\.com/'\\ target=\\\\"
+    }
+  ]
+}

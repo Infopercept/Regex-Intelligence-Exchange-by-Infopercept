@@ -1,0 +1,32 @@
+{
+  "vendor": "GuppY",
+  "vendor_id": "guppy",
+  "product": "GuppY",
+  "product_id": "guppy",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "GuppY Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for GuppY",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Generator\" content=\"GuppY\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Generator\"\\ content=\"GuppY\">"
+    }
+  ]
+}

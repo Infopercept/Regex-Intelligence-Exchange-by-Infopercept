@@ -1,0 +1,76 @@
+{
+  "vendor": "Linksys-Wireless-G-Camera",
+  "vendor_id": "linksys-wireless-g-camera",
+  "product": "Linksys-Wireless-G-Camera",
+  "product_id": "linksys-wireless-g-camera",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Linksys-Wireless-G-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Linksys-Wireless-G-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Linksys Wireless-G Internet-Videokamera</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Linksys\\ Wireless\\-G\\ Internet\\-Videokamera</title>"
+    },
+    {
+      "name": "Linksys-Wireless-G-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Linksys-Wireless-G-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Linksys Wireless-G Internet Video Camera</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Linksys\\ Wireless\\-G\\ Internet\\ Video\\ Camera</title>"
+    },
+    {
+      "name": "Linksys-Wireless-G-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Linksys-Wireless-G-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body bgcolor=\"#ffffff\" marginheight=\"0\" marginwidth=\"0\" leftmargin=\"0\" topmargin=\"0\" onload=\"parent.chkRefresh(\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ bgcolor=\"\\#ffffff\"\\ marginheight=\"0\"\\ marginwidth=\"0\"\\ leftmargin=\"0\"\\ topmargin=\"0\"\\ onload=\"parent\\.chkRefresh\\(\\\\"
+    }
+  ]
+}

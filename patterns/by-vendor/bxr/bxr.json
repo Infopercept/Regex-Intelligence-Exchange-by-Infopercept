@@ -1,0 +1,32 @@
+{
+  "vendor": "BXR",
+  "vendor_id": "bxr",
+  "product": "BXR",
+  "product_id": "bxr",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BXR Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BXR",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"BXR::Web\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"BXR::Web\"\\ />"
+    }
+  ]
+}

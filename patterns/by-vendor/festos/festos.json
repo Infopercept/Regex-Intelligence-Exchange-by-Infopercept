@@ -1,0 +1,70 @@
+{
+  "vendor": "FestOS",
+  "vendor_id": "festos",
+  "product": "FestOS",
+  "product_id": "festos",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FestOS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FestOS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by[\\ FestOS,]* <a href=\"http://[festengine.org/|www.festengine.org/|skypanther.com/festos.php]+\" title=\"FestOS, [the\\ festival\\ engine|the\\ Festival\\ Engine|the\\ web\\-based\\ festival\\ manager]+\"[\\ target=\"_blank\"]*>[FestOS|FestOS&trade;|www.festengine.org]+</a>"
+    },
+    {
+      "name": "FestOS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FestOS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<meta name=\"author\" content=\"FestOS by Skypanther Studios\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<meta\\ name=\"author\"\\ content=\"FestOS\\ by\\ Skypanther\\ Studios\">"
+    },
+    {
+      "name": "FestOS Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FestOS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<meta name=\"author\" content=\"Skypanther Studios\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<meta\\ name=\"author\"\\ content=\"Skypanther\\ Studios\">"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "vendor": "Elxis-CMS",
+  "vendor_id": "elxis-cms",
+  "product": "Elxis-CMS",
+  "product_id": "elxis-cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Elxis-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Elxis-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.elxis.org\" title=\"Elxis CMS\">Elxis</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.elxis\\.org\"\\ title=\"Elxis\\ CMS\">Elxis</a>"
+    },
+    {
+      "name": "Elxis-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Elxis-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by <a href=\"http://www.elxis.org[/]*\" title=\"Elxis open source content management system\"[\\ target=\"_blank\"]*>Elxis[\\ CMS]*</a>"
+    }
+  ]
+}

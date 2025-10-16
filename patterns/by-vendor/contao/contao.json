@@ -1,0 +1,54 @@
+{
+  "vendor": "Contao",
+  "vendor_id": "contao",
+  "product": "Contao",
+  "product_id": "contao",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Contao Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Contao",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "This website is powered by Contao Open Source CMS :: Licensed under GNU/LGPL",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "This\\ website\\ is\\ powered\\ by\\ Contao\\ Open\\ Source\\ CMS\\ ::\\ Licensed\\ under\\ GNU/LGPL"
+    },
+    {
+      "name": "Contao Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Contao",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- indexer::continue -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ indexer::continue\\ \\-\\->"
+    }
+  ]
+}

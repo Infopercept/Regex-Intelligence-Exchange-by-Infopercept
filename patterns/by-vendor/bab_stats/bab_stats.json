@@ -1,0 +1,114 @@
+{
+  "vendor": "BAB_Stats",
+  "vendor_id": "bab_stats",
+  "product": "BAB_Stats",
+  "product_id": "bab_stats",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BAB_Stats Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BAB_Stats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta NAME=\"Author\" CONTENT=\"Bab.Stats Team\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ NAME=\"Author\"\\ CONTENT=\"Bab\\.Stats\\ Team\">"
+    },
+    {
+      "name": "BAB_Stats Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BAB_Stats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>[^:]+ :: [^:]+ :: Powered by BAB.stats</title>"
+    },
+    {
+      "name": "BAB_Stats Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BAB_Stats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta NAME=\"Author\" CONTENT=\"Tomas Stucinskas a.k.a Baboon\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ NAME=\"Author\"\\ CONTENT=\"Tomas\\ Stucinskas\\ a\\.k\\.a\\ Baboon\">"
+    },
+    {
+      "name": "BAB_Stats Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BAB_Stats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": " - Powered by BAB.stats Chronos</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\-\\ Powered\\ by\\ BAB\\.stats\\ Chronos</title>"
+    },
+    {
+      "name": "BAB_Stats Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BAB_Stats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- AUTHOR : Tomas Stucinskas a.k.a Baboon -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ AUTHOR\\ :\\ Tomas\\ Stucinskas\\ a\\.k\\.a\\ Baboon\\ \\-\\->"
+    }
+  ]
+}

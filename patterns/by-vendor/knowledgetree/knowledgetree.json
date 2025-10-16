@@ -1,0 +1,76 @@
+{
+  "vendor": "KnowledgeTree",
+  "vendor_id": "knowledgetree",
+  "product": "KnowledgeTree",
+  "product_id": "knowledgetree",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "KnowledgeTree Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for KnowledgeTree",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "    <title>Dashboard | KnowledgeTree</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ <title>Dashboard\\ \\|\\ KnowledgeTree</title>"
+    },
+    {
+      "name": "KnowledgeTree Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for KnowledgeTree",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "    <title>Login | KnowledgeTree</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ <title>Login\\ \\|\\ KnowledgeTree</title>"
+    },
+    {
+      "name": "KnowledgeTree Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for KnowledgeTree",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/resources/powered-by-kt.png\" border=\"0\" alt=\"Powered by KnowledgeTree\" title=\"Powered by KnowledgeTree\"/></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "/resources/powered\\-by\\-kt\\.png\"\\ border=\"0\"\\ alt=\"Powered\\ by\\ KnowledgeTree\"\\ title=\"Powered\\ by\\ KnowledgeTree\"/></a>"
+    }
+  ]
+}

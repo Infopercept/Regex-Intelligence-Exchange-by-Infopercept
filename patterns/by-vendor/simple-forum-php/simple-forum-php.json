@@ -1,0 +1,76 @@
+{
+  "vendor": "Simple-Forum-PHP",
+  "vendor_id": "simple-forum-php",
+  "product": "Simple-Forum-PHP",
+  "product_id": "simple-forum-php",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Simple-Forum-PHP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Simple-Forum-PHP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Simple Forum PHP script - Administration</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Simple\\ Forum\\ PHP\\ script\\ \\-\\ Administration</title>"
+    },
+    {
+      "name": "Simple-Forum-PHP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Simple-Forum-PHP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td class=\"userpassfield\"><input type=\"submit\" name=\"button\" value=\"Login\" class=\"loginButon\" /></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ class=\"userpassfield\"><input\\ type=\"submit\"\\ name=\"button\"\\ value=\"Login\"\\ class=\"loginButon\"\\ /></td>"
+    },
+    {
+      "name": "Simple-Forum-PHP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Simple-Forum-PHP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": ".php?act=new\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\.php\\?act=new\\\\"
+    }
+  ]
+}

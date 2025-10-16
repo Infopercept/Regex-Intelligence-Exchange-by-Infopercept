@@ -1,0 +1,54 @@
+{
+  "vendor": "Clearwell-E-Discovery",
+  "vendor_id": "clearwell-e-discovery",
+  "product": "Clearwell-E-Discovery",
+  "product_id": "clearwell-e-discovery",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Clearwell-E-Discovery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Clearwell-E-Discovery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/><a class=\"needHelp\" style=\"text-decoration:none\" href=\"javascript:logonHelp();void(0);\">Need help?</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "/><a\\ class=\"needHelp\"\\ style=\"text\\-decoration:none\"\\ href=\"javascript:logonHelp\\(\\);void\\(0\\);\">Need\\ help\\?</a>"
+    },
+    {
+      "name": "Clearwell-E-Discovery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Clearwell-E-Discovery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Clearwell E-Discovery Platform log in</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Clearwell\\ E\\-Discovery\\ Platform\\ log\\ in</title>"
+    }
+  ]
+}

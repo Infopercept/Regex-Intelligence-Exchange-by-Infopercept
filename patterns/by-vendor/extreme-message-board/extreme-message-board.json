@@ -1,0 +1,54 @@
+{
+  "vendor": "eXtreme-Message-Board",
+  "vendor_id": "extreme-message-board",
+  "product": "eXtreme-Message-Board",
+  "product_id": "extreme-message-board",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "eXtreme-Message-Board Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eXtreme-Message-Board",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Powered by XMB ",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Powered\\ by\\ XMB\\ "
+    },
+    {
+      "name": "eXtreme-Message-Board Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eXtreme-Message-Board",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- The XMB Group -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ The\\ XMB\\ Group\\ \\-\\->"
+    }
+  ]
+}

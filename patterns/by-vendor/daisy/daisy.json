@@ -1,0 +1,33 @@
+{
+  "vendor": "Daisy",
+  "vendor_id": "daisy",
+  "product": "Daisy",
+  "product_id": "daisy",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Daisy Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Daisy",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-daisy-version: ^([^\\s]+) \\(build: [^\\s]+",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-daisy-version: ^([^\\s]+) \\(build: [^\\s]+",
+      "version_group": 1
+    }
+  ]
+}

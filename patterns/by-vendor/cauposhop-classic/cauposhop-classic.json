@@ -1,0 +1,26 @@
+{
+  "vendor": "CaupoShop-Classic",
+  "vendor_id": "cauposhop-classic",
+  "product": "CaupoShop-Classic",
+  "product_id": "cauposhop-classic",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CaupoShop-Classic Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CaupoShop-Classic",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<td align=\"center\"><small>Powered by CaupoShop Classic[\\s]?</small></td>"
+    }
+  ]
+}

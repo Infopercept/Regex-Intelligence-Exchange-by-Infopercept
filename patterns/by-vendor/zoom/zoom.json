@@ -1,0 +1,32 @@
+{
+  "vendor": "Zoom",
+  "vendor_id": "zoom",
+  "product": "Zoom",
+  "product_id": "zoom",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Zoom Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Zoom",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Video Conferencing, Web Conferencing, Online Meetings, Screen Sharing - Zoom</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Video\\ Conferencing,\\ Web\\ Conferencing,\\ Online\\ Meetings,\\ Screen\\ Sharing\\ \\-\\ Zoom</title>"
+    }
+  ]
+}

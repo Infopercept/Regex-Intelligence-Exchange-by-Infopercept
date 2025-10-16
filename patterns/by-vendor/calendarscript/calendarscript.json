@@ -1,0 +1,76 @@
+{
+  "vendor": "CalendarScript",
+  "vendor_id": "calendarscript",
+  "product": "CalendarScript",
+  "product_id": "calendarscript",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CalendarScript Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CalendarScript",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HEAD><TITLE>Calendar Administration : Login</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<HEAD><TITLE>Calendar\\ Administration\\ :\\ Login</TITLE>"
+    },
+    {
+      "name": "CalendarScript Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CalendarScript",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<FONT color=\"#FFFFFF\" SIZE=\"-1\">Powered by <A HREF=\"http://www.CalendarScript.com/\" STYLE=\"color:#FFFFFF;\">CalendarScript</A></FONT>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<FONT\\ color=\"\\#FFFFFF\"\\ SIZE=\"\\-1\">Powered\\ by\\ <A\\ HREF=\"http://www\\.CalendarScript\\.com/\"\\ STYLE=\"color:\\#FFFFFF;\">CalendarScript</A></FONT>"
+    },
+    {
+      "name": "CalendarScript Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CalendarScript",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <A HREF=\"http://www.CalendarScript.com/\" CLASS=\"footertext\" STYLE=\"text-decoration:underline;\">CalendarScript</A>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <A\\ HREF=\"http://www\\.CalendarScript\\.com/\"\\ CLASS=\"footertext\"\\ STYLE=\"text\\-decoration:underline;\">CalendarScript</A>"
+    }
+  ]
+}

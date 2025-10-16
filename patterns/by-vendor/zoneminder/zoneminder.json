@@ -1,0 +1,71 @@
+{
+  "vendor": "ZoneMinder",
+  "vendor_id": "zoneminder",
+  "product": "ZoneMinder",
+  "product_id": "zoneminder",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ZoneMinder Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ZoneMinder",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr><td colspan=\"2\" class=\"smallhead\" align=\"center\">ZoneMinder Login</td></tr>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr><td\\ colspan=\"2\"\\ class=\"smallhead\"\\ align=\"center\">ZoneMinder\\ Login</td></tr>"
+    },
+    {
+      "name": "ZoneMinder Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ZoneMinder",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^ZoneMinder Video Server/([^\\s]+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^ZoneMinder Video Server/([^\\s]+)$",
+      "version_group": 1
+    },
+    {
+      "name": "ZoneMinder Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ZoneMinder",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "ZMSESSID=[^;]+"
+    }
+  ]
+}

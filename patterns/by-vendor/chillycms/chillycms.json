@@ -1,0 +1,76 @@
+{
+  "vendor": "chillyCMS",
+  "vendor_id": "chillycms",
+  "product": "chillyCMS",
+  "product_id": "chillycms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "chillyCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for chillyCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\tpowered by <a href=\"http://FrozenPepper.de\">chillyCMS</a>.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\tpowered\\ by\\ <a\\ href=\"http://FrozenPepper\\.de\">chillyCMS</a>\\."
+    },
+    {
+      "name": "chillyCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for chillyCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<p>&copy;2010 <a href=\"\">demo.opensourcecms.com</a>,",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<p>\\&copy;2010\\ <a\\ href=\"\">demo\\.opensourcecms\\.com</a>,"
+    },
+    {
+      "name": "chillyCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for chillyCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<p>&copy;2010 <a href=\"\">chillycms.bplaced.net</a>,",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<p>\\&copy;2010\\ <a\\ href=\"\">chillycms\\.bplaced\\.net</a>,"
+    }
+  ]
+}

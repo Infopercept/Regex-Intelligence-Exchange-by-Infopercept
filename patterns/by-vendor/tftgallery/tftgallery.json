@@ -1,0 +1,92 @@
+{
+  "vendor": "TFTgallery",
+  "vendor_id": "tftgallery",
+  "product": "TFTgallery",
+  "product_id": "tftgallery",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TFTgallery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TFTgallery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Select an album: <select name=\"album\" onchange=\"javascript:document.tftnavi.submit();\"><option></option>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Select\\ an\\ album:\\ <select\\ name=\"album\"\\ onchange=\"javascript:document\\.tftnavi\\.submit\\(\\);\"><option></option>"
+    },
+    {
+      "name": "TFTgallery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TFTgallery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>TFTgallery administration</title><link rel='stylesheet' type='text/css' href",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>TFTgallery\\ administration</title><link\\ rel='stylesheet'\\ type='text/css'\\ href"
+    },
+    {
+      "name": "TFTgallery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TFTgallery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"login_text\"><br /><a href=\"../index.php\">back to the gallery</a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"login_text\"><br\\ /><a\\ href=\"\\.\\./index\\.php\">back\\ to\\ the\\ gallery</a></div>"
+    },
+    {
+      "name": "TFTgallery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TFTgallery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<td class='footer_right'><a href='http://www.tftgallery.org/' target='_blank'><img src=\"[^\"]*images/TFTgallery.png\" alt=\"TFTgallery\" border=\"0\" /></a></td>"
+    }
+  ]
+}

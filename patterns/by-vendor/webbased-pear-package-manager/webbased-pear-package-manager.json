@@ -1,0 +1,54 @@
+{
+  "vendor": "Webbased-PEAR-Package-Manager",
+  "vendor_id": "webbased-pear-package-manager",
+  "product": "Webbased-PEAR-Package-Manager",
+  "product_id": "webbased-pear-package-manager",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Webbased-PEAR-Package-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Webbased-PEAR-Package-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"?img=pear\" width=\"104\" height=\"50\" vspace=\"2\" hspace=\"5\" alt=\"PEAR\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"\\?img=pear\"\\ width=\"104\"\\ height=\"50\"\\ vspace=\"2\"\\ hspace=\"5\"\\ alt=\"PEAR\">"
+    },
+    {
+      "name": "Webbased-PEAR-Package-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Webbased-PEAR-Package-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<b>Warning:</b> This package management website is <b>not protected</b> with a password, this is a MAJOR security risk. Please read the <a href=\"?command=doc-show&pkg=pear.php.net/PEAR_Frontend_Web&file=README\" class=\"green\">README</a>.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<b>Warning:</b>\\ This\\ package\\ management\\ website\\ is\\ <b>not\\ protected</b>\\ with\\ a\\ password,\\ this\\ is\\ a\\ MAJOR\\ security\\ risk\\.\\ Please\\ read\\ the\\ <a\\ href=\"\\?command=doc\\-show\\&pkg=pear\\.php\\.net/PEAR_Frontend_Web\\&file=README\"\\ class=\"green\">README</a>\\."
+    }
+  ]
+}

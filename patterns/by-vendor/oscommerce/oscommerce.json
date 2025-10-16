@@ -1,0 +1,98 @@
+{
+  "vendor": "OSCommerce",
+  "vendor_id": "oscommerce",
+  "product": "OSCommerce",
+  "product_id": "oscommerce",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OSCommerce Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OSCommerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "The Exchange Project - Community Made Shopping!",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "The\\ Exchange\\ Project\\ \\-\\ Community\\ Made\\ Shopping!"
+    },
+    {
+      "name": "OSCommerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OSCommerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td class=\"messageStackWarning\"><img src=\"images/icons/warning.gif\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ class=\"messageStackWarning\"><img\\ src=\"images/icons/warning\\.gif\""
+    },
+    {
+      "name": "OSCommerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OSCommerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.oscommerce.com\" target=\"_blank\">osCommerce</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.oscommerce\\.com\"\\ target=\"_blank\">osCommerce</a>"
+    },
+    {
+      "name": "OSCommerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OSCommerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "cookie_test=please_accept_for_session;",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "cookie_test=please_accept_for_session;"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "vendor": "Seagull-PHP-Framework",
+  "vendor_id": "seagull-php-framework",
+  "product": "Seagull-PHP-Framework",
+  "product_id": "seagull-php-framework",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Seagull-PHP-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Seagull-PHP-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "    <meta name=\"generator\" content=\"Seagull Framework\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ <meta\\ name=\"generator\"\\ content=\"Seagull\\ Framework\"\\ />"
+    },
+    {
+      "name": "Seagull-PHP-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Seagull-PHP-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "    Powered by <a href=\"http://seagullproject.org[/]*\" title=\"Seagull framework homepage\">Seagull PHP Framework</a>"
+    },
+    {
+      "name": "Seagull-PHP-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Seagull-PHP-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "        var SGL_JS_SESSID[\\s]*="
+    },
+    {
+      "name": "Seagull-PHP-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Seagull-PHP-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link rel=\"help\" href=\"http://trac.seagullproject.org[/]*\" title=\"Seagull Documentation.\" />"
+    },
+    {
+      "name": "Seagull-PHP-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Seagull-PHP-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "    <title>Seagull Framework :: Installation</title>        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-15\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ <title>Seagull\\ Framework\\ ::\\ Installation</title>\\ \\ \\ \\ \\ \\ \\ \\ <meta\\ http\\-equiv=\"Content\\-Type\"\\ content=\"text/html;\\ charset=iso\\-8859\\-15\"\\ />"
+    }
+  ]
+}

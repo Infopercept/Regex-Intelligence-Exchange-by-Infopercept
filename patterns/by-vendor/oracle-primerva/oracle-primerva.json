@@ -1,0 +1,54 @@
+{
+  "vendor": "Oracle-Primerva",
+  "vendor_id": "oracle-primerva",
+  "product": "Oracle-Primerva",
+  "product_id": "oracle-primerva",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Oracle-Primerva Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-Primerva",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- use the default style sheet only.... we do not know the users locale at this time -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ use\\ the\\ default\\ style\\ sheet\\ only\\.\\.\\.\\.\\ we\\ do\\ not\\ know\\ the\\ users\\ locale\\ at\\ this\\ time\\ \\-\\->"
+    },
+    {
+      "name": "Oracle-Primerva Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-Primerva",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"img/process_meter.gif\" border=0 id=\"progressimage\"><br><br>Loading Java Plugin and Security Certificate",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"img/process_meter\\.gif\"\\ border=0\\ id=\"progressimage\"><br><br>Loading\\ Java\\ Plugin\\ and\\ Security\\ Certificate"
+    }
+  ]
+}

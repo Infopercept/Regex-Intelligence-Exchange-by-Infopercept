@@ -1,0 +1,48 @@
+{
+  "vendor": "LPSE",
+  "vendor_id": "lpse",
+  "product": "LPSE",
+  "product_id": "lpse",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "LPSE Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LPSE",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^(https?://[^/]+)?/eproc/app"
+    },
+    {
+      "name": "LPSE Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LPSE",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/eproc/assets/application.css\"/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/eproc/assets/application\\.css\"/>"
+    }
+  ]
+}

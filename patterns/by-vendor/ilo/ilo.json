@@ -1,0 +1,136 @@
+{
+  "vendor": "iLO",
+  "vendor_id": "ilo",
+  "product": "iLO",
+  "product_id": "ilo",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "iLO Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iLO",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Derivative Work - 1996, 1998-2000 Copyright 1996, 1998-2000 The Regents of the University of California<br>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Derivative\\ Work\\ \\-\\ 1996,\\ 1998\\-2000\\ Copyright\\ 1996,\\ 1998\\-2000\\ The\\ Regents\\ of\\ the\\ University\\ of\\ California<br>"
+    },
+    {
+      "name": "iLO Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iLO",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>[\\s]+HP Integrated Lights-Out( [\\d])?[\\s]+</title>"
+    },
+    {
+      "name": "iLO Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iLO",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.hp.com/servers/lights-out\" target=\"new\"><IMG height=60 src=\"ilo.gif\" width=150 border=0 alt=\"Integrated Lights-Out\"></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.hp\\.com/servers/lights\\-out\"\\ target=\"new\"><IMG\\ height=60\\ src=\"ilo\\.gif\"\\ width=150\\ border=0\\ alt=\"Integrated\\ Lights\\-Out\"></a>"
+    },
+    {
+      "name": "iLO Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iLO",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "document.title=\"Integrated Lights Out: \"+serverName;",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "document\\.title=\"Integrated\\ Lights\\ Out:\\ \"\\+serverName;"
+    },
+    {
+      "name": "iLO Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iLO",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.hp.com/go/ilo\" target=\"new\"><IMG src=\"iLO2_blue.jpg\" height=57 border=0 alt=\"Integrated Lights-Out\"></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.hp\\.com/go/ilo\"\\ target=\"new\"><IMG\\ src=\"iLO2_blue\\.jpg\"\\ height=57\\ border=0\\ alt=\"Integrated\\ Lights\\-Out\"></a>"
+    },
+    {
+      "name": "iLO Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iLO",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "document.title=\"Integrated Lights Out 2: \"+serverName;",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "document\\.title=\"Integrated\\ Lights\\ Out\\ 2:\\ \"\\+serverName;"
+    }
+  ]
+}

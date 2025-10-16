@@ -1,0 +1,32 @@
+{
+  "vendor": "Plandora",
+  "vendor_id": "plandora",
+  "product": "Plandora",
+  "product_id": "plandora",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Plandora Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plandora",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<area shape=\"rect\" coords=\"180,1,215,30\" href=\"javascript:void(0);\" onClick=\"closeFloatPanel();\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<area\\ shape=\"rect\"\\ coords=\"180,1,215,30\"\\ href=\"javascript:void\\(0\\);\"\\ onClick=\"closeFloatPanel\\(\\);\"\\ />"
+    }
+  ]
+}

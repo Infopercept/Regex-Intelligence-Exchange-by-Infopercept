@@ -1,0 +1,26 @@
+{
+  "vendor": "Gannett",
+  "vendor_id": "gannett",
+  "product": "Gannett",
+  "product_id": "gannett",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Favicon",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Gannett",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link rel=\"shortcut icon\" href=\"http://www.gannett-cdn.com/sites/[A-Za-z0-9_-]+/images/favicon.png\">"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "vendor": "WiFiDog",
+  "vendor_id": "wifidog",
+  "product": "WiFiDog",
+  "product_id": "wifidog",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WiFiDog Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WiFiDog",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Welcome - Wifidog Auth-server installation and configuration</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Welcome\\ \\-\\ Wifidog\\ Auth\\-server\\ installation\\ and\\ configuration</TITLE>"
+    },
+    {
+      "name": "WiFiDog Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WiFiDog",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p><br></p><A HREF=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p><br></p><A\\ HREF=\\\\"
+    },
+    {
+      "name": "WiFiDog Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WiFiDog",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html><body><h1>I am unable to retrieve the schema version. Either the wifidog database hasn't been created yet, the postgresql server is down, or pg_hba.conf does not allow your web server to connect to the wifidog database.</h1>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html><body><h1>I\\ am\\ unable\\ to\\ retrieve\\ the\\ schema\\ version\\.\\ Either\\ the\\ wifidog\\ database\\ hasn't\\ been\\ created\\ yet,\\ the\\ postgresql\\ server\\ is\\ down,\\ or\\ pg_hba\\.conf\\ does\\ not\\ allow\\ your\\ web\\ server\\ to\\ connect\\ to\\ the\\ wifidog\\ database\\.</h1>"
+    }
+  ]
+}

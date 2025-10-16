@@ -1,0 +1,76 @@
+{
+  "vendor": "DnP-Firewall",
+  "vendor_id": "dnp-firewall",
+  "product": "DnP-Firewall",
+  "product_id": "dnp-firewall",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DnP-Firewall Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DnP-Firewall",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Forum Gateway - Powered by DnP Firewall</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Forum\\ Gateway\\ \\-\\ Powered\\ by\\ DnP\\ Firewall</title>"
+    },
+    {
+      "name": "DnP-Firewall Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DnP-Firewall",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<form name=dnp_firewall method=get action=dnp_fw.php",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<form\\ name=dnp_firewall\\ method=get\\ action=dnp_fw\\.php"
+    },
+    {
+      "name": "DnP-Firewall Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DnP-Firewall",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=submit value=\" \" alt=\"Click to continue to your destination\" style=\"background-image:url(default.jpg); height:444px; width:635px; cursor:pointer; border-width:0px;\"> ",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ type=submit\\ value=\"\\ \"\\ alt=\"Click\\ to\\ continue\\ to\\ your\\ destination\"\\ style=\"background\\-image:url\\(default\\.jpg\\);\\ height:444px;\\ width:635px;\\ cursor:pointer;\\ border\\-width:0px;\">\\ "
+    }
+  ]
+}

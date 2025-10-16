@@ -1,0 +1,92 @@
+{
+  "vendor": "PCPIN-Chat",
+  "vendor_id": "pcpin-chat",
+  "product": "PCPIN-Chat",
+  "product_id": "pcpin-chat",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PCPIN-Chat Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PCPIN-Chat",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Please don't remove next line. Thank You! -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Please\\ don't\\ remove\\ next\\ line\\.\\ Thank\\ You!\\ \\-\\->"
+    },
+    {
+      "name": "PCPIN-Chat Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PCPIN-Chat",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.pcpin.com\" style=\"font-size:10; color:#990000;\" target=\"_blank\">Powered by PCPIN.com</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.pcpin\\.com\"\\ style=\"font\\-size:10;\\ color:\\#990000;\"\\ target=\"_blank\">Powered\\ by\\ PCPIN\\.com</a>"
+    },
+    {
+      "name": "PCPIN-Chat Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PCPIN-Chat",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.pcpin.com/\" target=\"_blank\" title=\"Powered by PCPIN Chat\">PCPIN Chat</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.pcpin\\.com/\"\\ target=\"_blank\"\\ title=\"Powered\\ by\\ PCPIN\\ Chat\">PCPIN\\ Chat</a>"
+    },
+    {
+      "name": "PCPIN-Chat Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PCPIN-Chat",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<INPUT type=\"submit\" class=\"buttons\" value=\"[^\"]+\" onClicK=\"document.loginform.register.value=0; document.loginform.lostpassword.value=0\">"
+    }
+  ]
+}

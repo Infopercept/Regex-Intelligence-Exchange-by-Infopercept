@@ -1,0 +1,102 @@
+{
+  "vendor": "IBM-Remote-Supervisor-Adapter",
+  "vendor_id": "ibm-remote-supervisor-adapter",
+  "product": "IBM-Remote-Supervisor-Adapter",
+  "product_id": "ibm-remote-supervisor-adapter",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "IBM-Remote-Supervisor-Adapter Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for IBM-Remote-Supervisor-Adapter",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HTML><BODY bgcolor=\"#FFFFFF\"><SCRIPT language=\"javascript1.2\"> top.location = \"/\"; </SCRIPT> </BODY> </HTML>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<HTML><BODY\\ bgcolor=\"\\#FFFFFF\"><SCRIPT\\ language=\"javascript1\\.2\">\\ top\\.location\\ =\\ \"/\";\\ </SCRIPT>\\ </BODY>\\ </HTML>"
+    },
+    {
+      "name": "IBM-Remote-Supervisor-Adapter Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for IBM-Remote-Supervisor-Adapter",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<FRAME scrolling=\"no\" src=\"/private\\"
+    },
+    {
+      "name": "IBM-Remote-Supervisor-Adapter Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for IBM-Remote-Supervisor-Adapter",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<FRAME src=\"/private\\"
+    },
+    {
+      "name": "IBM-Remote-Supervisor-Adapter Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for IBM-Remote-Supervisor-Adapter",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<IMG SRC=\"banner.jpg\" WIDTH=110 HEIGHT=53 ALT=\"banner\" >",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<IMG\\ SRC=\"banner\\.jpg\"\\ WIDTH=110\\ HEIGHT=53\\ ALT=\"banner\"\\ >"
+    },
+    {
+      "name": "IBM-Remote-Supervisor-Adapter Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for IBM-Remote-Supervisor-Adapter",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "https?://[^/]+/private\\"
+    }
+  ]
+}

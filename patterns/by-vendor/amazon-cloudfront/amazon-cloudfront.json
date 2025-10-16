@@ -1,0 +1,64 @@
+{
+  "vendor": "Amazon-CloudFront",
+  "vendor_id": "amazon-cloudfront",
+  "product": "Amazon-CloudFront",
+  "product_id": "amazon-cloudfront",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Amazon-CloudFront Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Amazon-CloudFront",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html><body>Sorry, invalid request</body></html>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html><body>Sorry,\\ invalid\\ request</body></html>"
+    },
+    {
+      "name": "Amazon-CloudFront Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Amazon-CloudFront",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^CloudFront"
+    },
+    {
+      "name": "Amazon-CloudFront Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Amazon-CloudFront",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Error from cloudfront"
+    }
+  ]
+}

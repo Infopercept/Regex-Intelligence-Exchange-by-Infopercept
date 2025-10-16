@@ -1,0 +1,54 @@
+{
+  "vendor": "Webgrind",
+  "vendor_id": "webgrind",
+  "product": "Webgrind",
+  "product_id": "webgrind",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Webgrind Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Webgrind",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span id=\"invocation_sum\"></span> different functions called in <span id=\"runtime_sum\"></span> milliseconds (<span id=\"runs\"></span> runs, <span id=\"shown_sum\"></span> shown)",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span\\ id=\"invocation_sum\"></span>\\ different\\ functions\\ called\\ in\\ <span\\ id=\"runtime_sum\"></span>\\ milliseconds\\ \\(<span\\ id=\"runs\"></span>\\ runs,\\ <span\\ id=\"shown_sum\"></span>\\ shown\\)"
+    },
+    {
+      "name": "Webgrind Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Webgrind",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img class=\"list_reload\" src=\"img/reload.png\" onclick=\"reloadFilelist()\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ class=\"list_reload\"\\ src=\"img/reload\\.png\"\\ onclick=\"reloadFilelist\\(\\)\">"
+    }
+  ]
+}

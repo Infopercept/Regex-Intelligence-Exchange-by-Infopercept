@@ -1,0 +1,74 @@
+{
+  "vendor": "JBoss",
+  "vendor_id": "jboss",
+  "product": "JBoss",
+  "product_id": "jboss",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Jboss default title",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for JBoss",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>Welcome to JBoss AS</title>"
+    },
+    {
+      "name": "link to Administration Console",
+      "priority": 50,
+      "confidence": 0.5,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for JBoss",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\\\"/admin-console/\\\">Administration Console</a>"
+    },
+    {
+      "name": "link to Web Console",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for JBoss",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\\\"/web-console/\\\">Jboss Web Console</a>"
+    },
+    {
+      "name": "link to JMX Console",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for JBoss",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\\\"/jmx-console/\\\">JMX Console</a>"
+    }
+  ]
+}

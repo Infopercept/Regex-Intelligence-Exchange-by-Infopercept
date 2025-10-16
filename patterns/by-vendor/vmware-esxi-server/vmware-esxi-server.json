@@ -1,0 +1,76 @@
+{
+  "vendor": "VMware-ESXi-Server",
+  "vendor_id": "vmware-esxi-server",
+  "product": "VMware-ESXi-Server",
+  "product_id": "vmware-esxi-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VMware-ESXi-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VMware-ESXi-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"text/javascript\">document.write(\"<title>\" + ID_EESX_Welcome + \"</title>\");</script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ type=\"text/javascript\">document\\.write\\(\"<title>\"\\ \\+\\ ID_EESX_Welcome\\ \\+\\ \"</title>\"\\);</script>"
+    },
+    {
+      "name": "VMware-ESXi-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VMware-ESXi-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"VMware ESXi Server is virtual infrastructure software for partitioning, consolidating, and managing systems in mission-critical environments. VMware ESXi Server provides a highly scalable virtual machine platform with advanced resource management capabilities, which can be managed by VMware vCenter Server.\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"VMware\\ ESXi\\ Server\\ is\\ virtual\\ infrastructure\\ software\\ for\\ partitioning,\\ consolidating,\\ and\\ managing\\ systems\\ in\\ mission\\-critical\\ environments\\.\\ VMware\\ ESXi\\ Server\\ provides\\ a\\ highly\\ scalable\\ virtual\\ machine\\ platform\\ with\\ advanced\\ resource\\ management\\ capabilities,\\ which\\ can\\ be\\ managed\\ by\\ VMware\\ vCenter\\ Server\\.\">"
+    },
+    {
+      "name": "VMware-ESXi-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VMware-ESXi-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<h1><script type=\"text/javascript\">document.write(ID_EESXServer3);</script></h1>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<h1><script\\ type=\"text/javascript\">document\\.write\\(ID_EESXServer3\\);</script></h1>"
+    }
+  ]
+}

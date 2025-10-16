@@ -1,0 +1,142 @@
+{
+  "vendor": "BM-Classifieds",
+  "vendor_id": "bm-classifieds",
+  "product": "BM-Classifieds",
+  "product_id": "bm-classifieds",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BM-Classifieds Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BM-Classifieds",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- // All source code on this site \u00a9 2007 BM Scripts unless otherwise stated - All Rights Reserved // -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ //\\ All\\ source\\ code\\ on\\ this\\ site\\ \u00a9\\ 2007\\ BM\\ Scripts\\ unless\\ otherwise\\ stated\\ \\-\\ All\\ Rights\\ Reserved\\ //\\ \\-\\->"
+    },
+    {
+      "name": "BM-Classifieds Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BM-Classifieds",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- // All source code on this site \u00a9 2007 BM Scripts unless otherwise noted - All Rights Reserved // -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ //\\ All\\ source\\ code\\ on\\ this\\ site\\ \u00a9\\ 2007\\ BM\\ Scripts\\ unless\\ otherwise\\ noted\\ \\-\\ All\\ Rights\\ Reserved\\ //\\ \\-\\->"
+    },
+    {
+      "name": "BM-Classifieds Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BM-Classifieds",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t<!-- START HEADER TABLE - HOLDS GRAPHIC AND SITE NAME -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t<!\\-\\-\\ START\\ HEADER\\ TABLE\\ \\-\\ HOLDS\\ GRAPHIC\\ AND\\ SITE\\ NAME\\ \\-\\->"
+    },
+    {
+      "name": "BM-Classifieds Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BM-Classifieds",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t<!-- START MAIN TABLE - HOLDS CATEGORIES, MENU, ETC. -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t<!\\-\\-\\ START\\ MAIN\\ TABLE\\ \\-\\ HOLDS\\ CATEGORIES,\\ MENU,\\ ETC\\.\\ \\-\\->"
+    },
+    {
+      "name": "BM-Classifieds Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BM-Classifieds",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<p class='credits'><a href='http://www.bmscripts.com'>Powered by BM Classifieds</a><br /></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<p\\ class='credits'><a\\ href='http://www\\.bmscripts\\.com'>Powered\\ by\\ BM\\ Classifieds</a><br\\ /></p>"
+    },
+    {
+      "name": "BM-Classifieds Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BM-Classifieds",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<p class='credits'>Powered by BM Classifieds<br /></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<p\\ class='credits'>Powered\\ by\\ BM\\ Classifieds<br\\ /></p>"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "vendor": "Blogger",
+  "vendor_id": "blogger",
+  "product": "Blogger",
+  "product_id": "blogger",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Blogger Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Blogger",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta content='blogger' name='generator'/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ content='blogger'\\ name='generator'/>"
+    },
+    {
+      "name": "Powered by link",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Blogger",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"http://www.blogger.com\"><img [^>]* alt=\"Powered by Blogger\"></a>"
+    }
+  ]
+}

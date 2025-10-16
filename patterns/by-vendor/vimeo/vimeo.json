@@ -1,0 +1,42 @@
+{
+  "vendor": "Vimeo",
+  "vendor_id": "vimeo",
+  "product": "Vimeo",
+  "product_id": "vimeo",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Vimeo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Vimeo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<(param|object|embed) [^>]+vimeo\\.com/moogaloop"
+    },
+    {
+      "name": "Vimeo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Vimeo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<iframe [^>]*src=['\"]https?://player\\.vimeo\\.com/video/"
+    }
+  ]
+}

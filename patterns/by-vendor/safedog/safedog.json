@@ -1,0 +1,48 @@
+{
+  "vendor": "Safedog",
+  "vendor_id": "safedog",
+  "product": "Safedog",
+  "product_id": "safedog",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Server Header",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Safedog",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Safedog"
+    },
+    {
+      "name": "safedog-flow-item Cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Safedog",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "safedog-flow-item=",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "safedog\\-flow\\-item="
+    }
+  ]
+}

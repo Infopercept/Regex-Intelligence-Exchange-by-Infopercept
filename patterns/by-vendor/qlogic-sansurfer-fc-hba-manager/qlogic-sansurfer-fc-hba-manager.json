@@ -1,0 +1,70 @@
+{
+  "vendor": "QLogic-SANsurfer-FC-HBA-Manager",
+  "vendor_id": "qlogic-sansurfer-fc-hba-manager",
+  "product": "QLogic-SANsurfer-FC-HBA-Manager",
+  "product_id": "qlogic-sansurfer-fc-hba-manager",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "QLogic-SANsurfer-FC-HBA-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QLogic-SANsurfer-FC-HBA-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Developers should be aware that for Gecko-based browsers (NS 6.x)",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Developers\\ should\\ be\\ aware\\ that\\ for\\ Gecko\\-based\\ browsers\\ \\(NS\\ 6\\.x\\)"
+    },
+    {
+      "name": "QLogic-SANsurfer-FC-HBA-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QLogic-SANsurfer-FC-HBA-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!---- This initializes the navigator.family object ---->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\-\\-\\ This\\ initializes\\ the\\ navigator\\.family\\ object\\ \\-\\-\\-\\->"
+    },
+    {
+      "name": "QLogic-SANsurfer-FC-HBA-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QLogic-SANsurfer-FC-HBA-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<SCRIPT LANGUAGE=\"Javascript\">\\s+<!--\\s+insertLink\\(\"sansurfer\\.jnlp\",\\s+\"Start SANsurfer FC HBA Manager\"\\);"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "vendor": "Winamp-Web-Interface",
+  "vendor_id": "winamp-web-interface",
+  "product": "Winamp-Web-Interface",
+  "product_id": "winamp-web-interface",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Winamp-Web-Interface Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Winamp-Web-Interface",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<noframes><p><b>Frames are required for this site!<b></p><p>If no-frames operation is required, check the <b>No Frames Mode</b> box in the Options screen.</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<noframes><p><b>Frames\\ are\\ required\\ for\\ this\\ site!<b></p><p>If\\ no\\-frames\\ operation\\ is\\ required,\\ check\\ the\\ <b>No\\ Frames\\ Mode</b>\\ box\\ in\\ the\\ Options\\ screen\\.</p>"
+    }
+  ]
+}

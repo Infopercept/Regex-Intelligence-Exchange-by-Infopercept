@@ -1,0 +1,49 @@
+{
+  "vendor": "WebSocket",
+  "vendor_id": "websocket",
+  "product": "WebSocket",
+  "product_id": "websocket",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WebSocket Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebSocket",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^WebSocket$"
+    },
+    {
+      "name": "WebSocket Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebSocket",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "sec-websocket-version-server: (.+)",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "sec-websocket-version-server: (.+)",
+      "version_group": 1
+    }
+  ]
+}

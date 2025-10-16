@@ -1,0 +1,92 @@
+{
+  "vendor": "Tickets-CAD-System",
+  "vendor_id": "tickets-cad-system",
+  "product": "Tickets-CAD-System",
+  "product_id": "tickets-cad-system",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Tickets-CAD-System Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tickets-CAD-System",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HEAD><TITLE>Tickets - Top Frame</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<HEAD><TITLE>Tickets\\ \\-\\ Top\\ Frame</TITLE>"
+    },
+    {
+      "name": "Tickets-CAD-System Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tickets-CAD-System",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HEAD><TITLE>Tickets - Login Module</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<HEAD><TITLE>Tickets\\ \\-\\ Login\\ Module</TITLE>"
+    },
+    {
+      "name": "Tickets-CAD-System Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tickets-CAD-System",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<NOFRAMES>\\s+<BODY>\\s+Tickets requires a frames-capable browser\\.\\s+</BODY>\\s+</NOFRAMES>"
+    },
+    {
+      "name": "Tickets-CAD-System Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tickets-CAD-System",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TR CLASS='even'><TD ROWSPAN=6 VALIGN='middle' ALIGN='left' bgcolor=#EFEFEF><BR /><BR />&nbsp;&nbsp;<IMG BORDER=0 SRC='open_source_button.png'>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TR\\ CLASS='even'><TD\\ ROWSPAN=6\\ VALIGN='middle'\\ ALIGN='left'\\ bgcolor=\\#EFEFEF><BR\\ /><BR\\ />\\&nbsp;\\&nbsp;<IMG\\ BORDER=0\\ SRC='open_source_button\\.png'>"
+    }
+  ]
+}

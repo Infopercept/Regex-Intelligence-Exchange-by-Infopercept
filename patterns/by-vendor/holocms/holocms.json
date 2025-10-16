@@ -1,0 +1,48 @@
+{
+  "vendor": "HoloCMS",
+  "vendor_id": "holocms",
+  "product": "HoloCMS",
+  "product_id": "holocms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "HoloCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HoloCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"remember-me-notification\" class=\"bottom-bubble\" style=\"display:none;\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"remember\\-me\\-notification\"\\ class=\"bottom\\-bubble\"\\ style=\"display:none;\">"
+    },
+    {
+      "name": "HoloCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HoloCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Powered by HoloCMS &copy[;]* 2008 Meth0d & Parts by Yifan, sisija"
+    }
+  ]
+}

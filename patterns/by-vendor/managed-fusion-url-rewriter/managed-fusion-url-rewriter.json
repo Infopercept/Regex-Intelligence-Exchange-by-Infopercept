@@ -1,0 +1,49 @@
+{
+  "vendor": "Managed-Fusion-Url-Rewriter",
+  "vendor_id": "managed-fusion-url-rewriter",
+  "product": "Managed-Fusion-Url-Rewriter",
+  "product_id": "managed-fusion-url-rewriter",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Managed-Fusion-Url-Rewriter Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Managed-Fusion-Url-Rewriter",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^ManagedFusion \\(rewriter; reverse-proxy; +http://managedfusion\\.com/\\)$"
+    },
+    {
+      "name": "Managed-Fusion-Url-Rewriter Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Managed-Fusion-Url-Rewriter",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-managedfusion-rewriter-version: ^(.+)$",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-managedfusion-rewriter-version: ^(.+)$",
+      "version_group": 1
+    }
+  ]
+}

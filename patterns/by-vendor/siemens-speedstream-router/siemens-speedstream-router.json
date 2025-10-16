@@ -1,0 +1,70 @@
+{
+  "vendor": "Siemens-SpeedStream-Router",
+  "vendor_id": "siemens-speedstream-router",
+  "product": "Siemens-SpeedStream-Router",
+  "product_id": "siemens-speedstream-router",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Siemens-SpeedStream-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Siemens-SpeedStream-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>SpeedStream Router Management Interface</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>SpeedStream\\ Router\\ Management\\ Interface</TITLE>"
+    },
+    {
+      "name": "Siemens-SpeedStream-Router Pattern",
+      "priority": 50,
+      "confidence": 0.5,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Siemens-SpeedStream-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!-- Copyright(C) [0-9]+ Siemens Subscriber Networks -->"
+    },
+    {
+      "name": "Siemens-SpeedStream-Router Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Siemens-SpeedStream-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<FRAME SRC=\"pflogin.htm\" NAME=\"rightFrame\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<FRAME\\ SRC=\"pflogin\\.htm\"\\ NAME=\"rightFrame\""
+    }
+  ]
+}

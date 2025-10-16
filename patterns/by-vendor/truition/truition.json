@@ -1,0 +1,120 @@
+{
+  "vendor": "Truition",
+  "vendor_id": "truition",
+  "product": "Truition",
+  "product_id": "truition",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Truition Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Truition",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<A HREF=\"/cgi-bin/ncommerce3/ExecMacro/search.d2w/report?wl=151\">Search</A>&nbsp;|&nbsp;",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<A\\ HREF=\"/cgi\\-bin/ncommerce3/ExecMacro/search\\.d2w/report\\?wl=151\">Search</A>\\&nbsp;\\|\\&nbsp;"
+    },
+    {
+      "name": "Truition Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Truition",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--Logon Information-faq answers below-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-Logon\\ Information\\-faq\\ answers\\ below\\-\\->"
+    },
+    {
+      "name": "Truition Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Truition",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<li>DTWF050E: Net.Data is unable to locate the HTML block specification in the URL.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<li>DTWF050E:\\ Net\\.Data\\ is\\ unable\\ to\\ locate\\ the\\ HTML\\ block\\ specification\\ in\\ the\\ URL\\."
+    },
+    {
+      "name": "Truition Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Truition",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<li>DTWP001E: Net.Data is unable to locate the macro file",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<li>DTWP001E:\\ Net\\.Data\\ is\\ unable\\ to\\ locate\\ the\\ macro\\ file"
+    },
+    {
+      "name": "Truition Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Truition",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "location.href = \"/cgi-bin/ncommerce3/ExecMacro/static/",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "location\\.href\\ =\\ \"/cgi\\-bin/ncommerce3/ExecMacro/static/"
+    }
+  ]
+}

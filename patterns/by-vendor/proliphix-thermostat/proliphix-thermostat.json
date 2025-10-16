@@ -1,0 +1,54 @@
+{
+  "vendor": "Proliphix-Thermostat",
+  "vendor_id": "proliphix-thermostat",
+  "product": "Proliphix-Thermostat",
+  "product_id": "proliphix-thermostat",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Proliphix-Thermostat Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Proliphix-Thermostat",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "printFSC(\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "printFSC\\(\\\\"
+    },
+    {
+      "name": "Proliphix-Thermostat Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Proliphix-Thermostat",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": " - Status &amp; Control</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\-\\ Status\\ \\&amp;\\ Control</title>"
+    }
+  ]
+}

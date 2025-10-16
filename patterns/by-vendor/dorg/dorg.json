@@ -1,0 +1,98 @@
+{
+  "vendor": "DORG",
+  "vendor_id": "dorg",
+  "product": "DORG",
+  "product_id": "dorg",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DORG Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DORG",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>Powered by <a href=\"http://www.discorganizer.org\">DORG</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://www\\.discorganizer\\.org\">DORG</a>"
+    },
+    {
+      "name": "DORG Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DORG",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>DORG - Disc Organization System</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>DORG\\ \\-\\ Disc\\ Organization\\ System</title>"
+    },
+    {
+      "name": "DORG Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DORG",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>DORG - admin panel</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>DORG\\ \\-\\ admin\\ panel</title>"
+    },
+    {
+      "name": "DORG Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DORG",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"this is the administration panel of the DORG system\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"this\\ is\\ the\\ administration\\ panel\\ of\\ the\\ DORG\\ system\"\\ />"
+    }
+  ]
+}

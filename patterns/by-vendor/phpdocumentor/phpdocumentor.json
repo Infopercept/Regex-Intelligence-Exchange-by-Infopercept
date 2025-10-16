@@ -1,0 +1,76 @@
+{
+  "vendor": "phpDocumentor",
+  "vendor_id": "phpdocumentor",
+  "product": "phpDocumentor",
+  "product_id": "phpdocumentor",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "phpDocumentor Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpDocumentor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>docBuilder - phpDocumentor web interface</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>docBuilder\\ \\-\\ phpDocumentor\\ web\\ interface</title>"
+    },
+    {
+      "name": "phpDocumentor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpDocumentor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Description\" content=\"Frameset for phpDcoumentor docBuilder web interface\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Description\"\\ content=\"Frameset\\ for\\ phpDcoumentor\\ docBuilder\\ web\\ interface\">"
+    },
+    {
+      "name": "phpDocumentor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpDocumentor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Description\" content=\"Frameset for phpDocumentor docBuilder web interface\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Description\"\\ content=\"Frameset\\ for\\ phpDocumentor\\ docBuilder\\ web\\ interface\">"
+    }
+  ]
+}

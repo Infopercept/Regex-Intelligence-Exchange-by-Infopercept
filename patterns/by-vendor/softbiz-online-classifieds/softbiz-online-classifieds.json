@@ -1,0 +1,98 @@
+{
+  "vendor": "Softbiz-Online-Classifieds",
+  "vendor_id": "softbiz-online-classifieds",
+  "product": "Softbiz-Online-Classifieds",
+  "product_id": "softbiz-online-classifieds",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Softbiz-Online-Classifieds Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Softbiz-Online-Classifieds",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "by <a class=\"softbiz\" href=\"http://www.softbizscripts.com\" target=\"_blank\">Softbiz Scripts</a></font></font>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "by\\ <a\\ class=\"softbiz\"\\ href=\"http://www\\.softbizscripts\\.com\"\\ target=\"_blank\">Softbiz\\ Scripts</a></font></font>"
+    },
+    {
+      "name": "Softbiz-Online-Classifieds Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Softbiz-Online-Classifieds",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "by <a class=\"softbiz\" href=\"http://www.softbizscripts.com\" target=\"_blank\">SoftbizScripts</a></font></font>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "by\\ <a\\ class=\"softbiz\"\\ href=\"http://www\\.softbizscripts\\.com\"\\ target=\"_blank\">SoftbizScripts</a></font></font>"
+    },
+    {
+      "name": "Softbiz-Online-Classifieds Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Softbiz-Online-Classifieds",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "                    Classifieds PLUS Script</strong> - ADMIN PANEL</font></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ Classifieds\\ PLUS\\ Script</strong>\\ \\-\\ ADMIN\\ PANEL</font></p>"
+    },
+    {
+      "name": "Softbiz-Online-Classifieds Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Softbiz-Online-Classifieds",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- --><font style=\"font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-style: normal;color: #009900;font-weight: bold;\">Powered By <a href=\"http://www.softbizscripts.com/classified-ads-plus-script-features.php\" style=\"font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-style: normal;color: #0099FF;font-weight: normal;\" title=\"Classified Ads Plus PHP Script\" target=\"_blank\" >Softbiz Scripts</a></font>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ \\-\\-><font\\ style=\"font\\-family:\\ Arial,\\ Helvetica,\\ sans\\-serif;font\\-size:\\ 12px;font\\-style:\\ normal;color:\\ \\#009900;font\\-weight:\\ bold;\">Powered\\ By\\ <a\\ href=\"http://www\\.softbizscripts\\.com/classified\\-ads\\-plus\\-script\\-features\\.php\"\\ style=\"font\\-family:\\ Arial,\\ Helvetica,\\ sans\\-serif;font\\-size:\\ 12px;font\\-style:\\ normal;color:\\ \\#0099FF;font\\-weight:\\ normal;\"\\ title=\"Classified\\ Ads\\ Plus\\ PHP\\ Script\"\\ target=\"_blank\"\\ >Softbiz\\ Scripts</a></font>"
+    }
+  ]
+}

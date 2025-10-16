@@ -1,0 +1,70 @@
+{
+  "vendor": "LifeSize-Control",
+  "vendor_id": "lifesize-control",
+  "product": "LifeSize-Control",
+  "product_id": "lifesize-control",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "LifeSize-Control Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LifeSize-Control",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>LifeSize Control flash check</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>LifeSize\\ Control\\ flash\\ check</title>"
+    },
+    {
+      "name": "LifeSize-Control Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LifeSize-Control",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<h3><font color=\"#999999\" face=\"Arial, Helvetica, sans-serif\">You don\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<h3><font\\ color=\"\\#999999\"\\ face=\"Arial,\\ Helvetica,\\ sans\\-serif\">You\\ don\\\\"
+    },
+    {
+      "name": "LifeSize-Control Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LifeSize-Control",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^https?://[^/]+/LifeSizeControl/ASP/index\\.html$"
+    }
+  ]
+}

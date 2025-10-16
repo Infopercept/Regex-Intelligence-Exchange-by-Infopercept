@@ -1,0 +1,92 @@
+{
+  "vendor": "Ultrastats",
+  "vendor_id": "ultrastats",
+  "product": "Ultrastats",
+  "product_id": "ultrastats",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Ultrastats Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Ultrastats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<DIV align=center>Powered by Ultrastats",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<DIV\\ align=center>Powered\\ by\\ Ultrastats"
+    },
+    {
+      "name": "Ultrastats Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Ultrastats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"./images/main/ultrastatslogo.png\" width=\"300\" height=\"200\" name=\"ultrastats_logo\" align=\"center\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"\\./images/main/ultrastatslogo\\.png\"\\ width=\"300\"\\ height=\"200\"\\ name=\"ultrastats_logo\"\\ align=\"center\">"
+    },
+    {
+      "name": "Ultrastats Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Ultrastats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>Ultrastats :: [^<]+</title>"
+    },
+    {
+      "name": "Ultrastats Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Ultrastats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>UltraStats :: Critical Error occured</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>UltraStats\\ ::\\ Critical\\ Error\\ occured</title>"
+    }
+  ]
+}

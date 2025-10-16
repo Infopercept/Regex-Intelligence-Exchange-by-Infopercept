@@ -1,0 +1,32 @@
+{
+  "vendor": "UCenter-Home",
+  "vendor_id": "ucenter-home",
+  "product": "UCenter-Home",
+  "product_id": "ucenter-home",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "UCenter-Home Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for UCenter-Home",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by UCenter Home</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ UCenter\\ Home</title>"
+    }
+  ]
+}

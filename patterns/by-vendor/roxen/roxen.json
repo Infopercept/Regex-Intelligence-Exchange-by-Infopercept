@@ -1,0 +1,49 @@
+{
+  "vendor": "Roxen",
+  "vendor_id": "roxen",
+  "product": "Roxen",
+  "product_id": "roxen",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Roxen Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Roxen",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Roxen$"
+    },
+    {
+      "name": "Roxen Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Roxen",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Roxen/([^\\s]+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Roxen/([^\\s]+)$",
+      "version_group": 1
+    }
+  ]
+}

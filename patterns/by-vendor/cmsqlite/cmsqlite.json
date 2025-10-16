@@ -1,0 +1,54 @@
+{
+  "vendor": "CMSQLite",
+  "vendor_id": "cmsqlite",
+  "product": "CMSQLite",
+  "product_id": "cmsqlite",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CMSQLite Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CMSQLite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"cmsqliteFooter\"><span id=\"anchorFooter\"><a href=\"http://www.cmsqlite.net\" target=\"_blank\">powered by CMSQLite</a></span></div></body></html>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"cmsqliteFooter\"><span\\ id=\"anchorFooter\"><a\\ href=\"http://www\\.cmsqlite\\.net\"\\ target=\"_blank\">powered\\ by\\ CMSQLite</a></span></div></body></html>"
+    },
+    {
+      "name": "CMSQLite Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CMSQLite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"www.CMSQLite.net by www.Netzabdruck.de\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"www\\.CMSQLite\\.net\\ by\\ www\\.Netzabdruck\\.de\"\\ />"
+    }
+  ]
+}

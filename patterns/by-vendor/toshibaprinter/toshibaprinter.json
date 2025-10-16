@@ -1,0 +1,32 @@
+{
+  "vendor": "ToshibaPrinter",
+  "vendor_id": "toshibaprinter",
+  "product": "ToshibaPrinter",
+  "product_id": "toshibaprinter",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ToshibaPrinter Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ToshibaPrinter",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE CLASS=\"clsTitle1\">TopAccess</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE\\ CLASS=\"clsTitle1\">TopAccess</title>"
+    }
+  ]
+}

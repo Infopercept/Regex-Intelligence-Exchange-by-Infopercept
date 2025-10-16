@@ -1,0 +1,76 @@
+{
+  "vendor": "AlumniServer",
+  "vendor_id": "alumniserver",
+  "product": "AlumniServer",
+  "product_id": "alumniserver",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AlumniServer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AlumniServer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div style=\"float:right;\"><a href=\"AlumniServerProject.php\" style=\"color:#c6cccd;margin:2px;margin-right:10px;\">AlumniServer project</a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ style=\"float:right;\"><a\\ href=\"AlumniServerProject\\.php\"\\ style=\"color:\\#c6cccd;margin:2px;margin\\-right:10px;\">AlumniServer\\ project</a></div>"
+    },
+    {
+      "name": "AlumniServer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AlumniServer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div style=\"margin:25px 15px 20px 15px;\"><noscript><div style=\"color:red;margin-bottom: 15px;\">Your browser does not support JavaScript!</div></noscript><h2>The AlumniServer project</h2>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ style=\"margin:25px\\ 15px\\ 20px\\ 15px;\"><noscript><div\\ style=\"color:red;margin\\-bottom:\\ 15px;\">Your\\ browser\\ does\\ not\\ support\\ JavaScript!</div></noscript><h2>The\\ AlumniServer\\ project</h2>"
+    },
+    {
+      "name": "AlumniServer Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AlumniServer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"keywords\" content=\"Alumni,Student,Network,Community,University\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"keywords\"\\ content=\"Alumni,Student,Network,Community,University\">"
+    }
+  ]
+}

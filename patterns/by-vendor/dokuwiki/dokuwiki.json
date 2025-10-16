@@ -1,0 +1,48 @@
+{
+  "vendor": "DokuWiki",
+  "vendor_id": "dokuwiki",
+  "product": "DokuWiki",
+  "product_id": "dokuwiki",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DokuWiki Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DokuWiki",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<div class=\"dokuwiki\"[\\s]?>"
+    },
+    {
+      "name": "DokuWiki Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DokuWiki",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"DokuWiki\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"DokuWiki\"\\ />"
+    }
+  ]
+}

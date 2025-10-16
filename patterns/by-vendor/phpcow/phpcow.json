@@ -1,0 +1,98 @@
+{
+  "vendor": "PHPCow",
+  "vendor_id": "phpcow",
+  "product": "PHPCow",
+  "product_id": "phpcow",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PHPCow Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHPCow",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<b>Powered by</b>: <a href=\"http://www.phpcow.com\" target=\"_blank\" style=\"color: #000000\">PHPCow.com</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<b>Powered\\ by</b>:\\ <a\\ href=\"http://www\\.phpcow\\.com\"\\ target=\"_blank\"\\ style=\"color:\\ \\#000000\">PHPCow\\.com</a>"
+    },
+    {
+      "name": "PHPCow Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHPCow",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<b>Powered by</b>: <a href=\"http://www.phpcow.com\" target=\"_blank\" style=\"color: #000000\" title=\"PHPCow news publishing script, content management system\">PHPCow.com</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<b>Powered\\ by</b>:\\ <a\\ href=\"http://www\\.phpcow\\.com\"\\ target=\"_blank\"\\ style=\"color:\\ \\#000000\"\\ title=\"PHPCow\\ news\\ publishing\\ script,\\ content\\ management\\ system\">PHPCow\\.com</a>"
+    },
+    {
+      "name": "PHPCow Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHPCow",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Description\" content=\"PHPCow news publishing content management system\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Description\"\\ content=\"PHPCow\\ news\\ publishing\\ content\\ management\\ system\"\\ />"
+    },
+    {
+      "name": "PHPCow Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHPCow",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Keywords\" content=\"phpcow, news publishing, article publishing, cms\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Keywords\"\\ content=\"phpcow,\\ news\\ publishing,\\ article\\ publishing,\\ cms\"\\ />"
+    }
+  ]
+}

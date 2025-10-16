@@ -1,0 +1,54 @@
+{
+  "vendor": "Bulletlink-Newspaper-Template",
+  "vendor_id": "bulletlink-newspaper-template",
+  "product": "Bulletlink-Newspaper-Template",
+  "product_id": "bulletlink-newspaper-template",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Bulletlink-Newspaper-Template Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Bulletlink-Newspaper-Template",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" href=\"/ModalPopup/core-modalpopup.css\" type=\"text/css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"/ModalPopup/core\\-modalpopup\\.css\"\\ type=\"text/css\">"
+    },
+    {
+      "name": "Bulletlink-Newspaper-Template Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Bulletlink-Newspaper-Template",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"copyright\"><script type=\"text/javascript\" language=\"JavaScript\">GetCopyright();</script>&nbsp;&nbsp;&nbsp;<a class=\"copyright\" href=\"/sitemap.asp\">sitemap</a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"copyright\"><script\\ type=\"text/javascript\"\\ language=\"JavaScript\">GetCopyright\\(\\);</script>\\&nbsp;\\&nbsp;\\&nbsp;<a\\ class=\"copyright\"\\ href=\"/sitemap\\.asp\">sitemap</a></div>"
+    }
+  ]
+}

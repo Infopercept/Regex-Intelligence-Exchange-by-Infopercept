@@ -1,0 +1,98 @@
+{
+  "vendor": "XOOPS-Cube",
+  "vendor_id": "xoops-cube",
+  "product": "XOOPS-Cube",
+  "product_id": "xoops-cube",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "XOOPS-Cube Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for XOOPS-Cube",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>XOOPS Cube Site - Just Use it!</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>XOOPS\\ Cube\\ Site\\ \\-\\ Just\\ Use\\ it!</title>"
+    },
+    {
+      "name": "XOOPS-Cube Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for XOOPS-Cube",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- RMV: added module header -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ RMV:\\ added\\ module\\ header\\ \\-\\->"
+    },
+    {
+      "name": "XOOPS-Cube Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for XOOPS-Cube",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"XOOPS Cube\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"XOOPS\\ Cube\"\\ />"
+    },
+    {
+      "name": "XOOPS-Cube Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for XOOPS-Cube",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"XOOPS Cube\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"XOOPS\\ Cube\"\\ />"
+    }
+  ]
+}

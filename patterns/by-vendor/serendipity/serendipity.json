@@ -1,0 +1,142 @@
+{
+  "vendor": "Serendipity",
+  "vendor_id": "serendipity",
+  "product": "Serendipity",
+  "product_id": "serendipity",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Serendipity Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Serendipity",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>Powered by <a href=\"http://www.s9y.org\" target=\"_blank\">Serendipity</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://www\\.s9y\\.org\"\\ target=\"_blank\">Serendipity</a>"
+    },
+    {
+      "name": "Serendipity Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Serendipity",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"copyright\">Powered by <a href=\"http://www.s9y.org\" title=\"a PHP Weblog/Blog software\">Serendipity</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"copyright\">Powered\\ by\\ <a\\ href=\"http://www\\.s9y\\.org\"\\ title=\"a\\ PHP\\ Weblog/Blog\\ software\">Serendipity</a>"
+    },
+    {
+      "name": "Serendipity Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Serendipity",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "serendipity_entry_body",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "serendipity_entry_body"
+    },
+    {
+      "name": "Serendipity Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Serendipity",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "serendipity_entry_author_Admin",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "serendipity_entry_author_Admin"
+    },
+    {
+      "name": "Serendipity Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Serendipity",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "serendipity_entryFooter",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "serendipity_entryFooter"
+    },
+    {
+      "name": "Serendipity Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Serendipity",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"serendipityLeftSideBar\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"serendipityLeftSideBar\">"
+    }
+  ]
+}

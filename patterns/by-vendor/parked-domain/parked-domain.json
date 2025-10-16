@@ -1,0 +1,384 @@
+{
+  "vendor": "Parked-Domain",
+  "vendor_id": "parked-domain",
+  "product": "Parked-Domain",
+  "product_id": "parked-domain",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Parked-Domain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parked-Domain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"http://images-pw.secureserver.net/images/log_gd_3.gif\" usemap=\"#lmap\" border=\"0\" alt=\"This web page is parked FREE, courtesy of GoDaddy.com\" ></a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"http://images\\-pw\\.secureserver\\.net/images/log_gd_3\\.gif\"\\ usemap=\"\\#lmap\"\\ border=\"0\"\\ alt=\"This\\ web\\ page\\ is\\ parked\\ FREE,\\ courtesy\\ of\\ GoDaddy\\.com\"\\ ></a></div>"
+    },
+    {
+      "name": "Parked-Domain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parked-Domain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script language='javascript' src='https://a12.alphagodaddy.com/hosting_ads/gd01.js'></script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ language='javascript'\\ src='https://a12\\.alphagodaddy\\.com/hosting_ads/gd01\\.js'></script>"
+    },
+    {
+      "name": "Parked-Domain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parked-Domain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>This Domain is Parked at Servlet.com</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>This\\ Domain\\ is\\ Parked\\ at\\ Servlet\\.com</title>"
+    },
+    {
+      "name": "Parked-Domain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parked-Domain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "document.write('<a href=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "document\\.write\\('<a\\ href=\\\\"
+    },
+    {
+      "name": "Parked-Domain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parked-Domain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Domain Temporarily Parked with Dreamhost.com!</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Domain\\ Temporarily\\ Parked\\ with\\ Dreamhost\\.com!</title>"
+    },
+    {
+      "name": "Parked-Domain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parked-Domain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>This domain is parked with eHost.co.za</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>This\\ domain\\ is\\ parked\\ with\\ eHost\\.co\\.za</title>"
+    },
+    {
+      "name": "Parked-Domain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parked-Domain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>This domain is currently parked at WebOlli Hosting Solutions - www.WebOlli.com</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>This\\ domain\\ is\\ currently\\ parked\\ at\\ WebOlli\\ Hosting\\ Solutions\\ \\-\\ www\\.WebOlli\\.com</title>"
+    },
+    {
+      "name": "Parked-Domain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parked-Domain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"parkblurb\">This domain is parked for free at Sitelutions.  The domain name <b>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"parkblurb\">This\\ domain\\ is\\ parked\\ for\\ free\\ at\\ Sitelutions\\.\\ \\ The\\ domain\\ name\\ <b>"
+    },
+    {
+      "name": "Parked-Domain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parked-Domain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>This Domain is Parked at Domainmasters.co.ke</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>This\\ Domain\\ is\\ Parked\\ at\\ Domainmasters\\.co\\.ke</title>"
+    },
+    {
+      "name": "Parked-Domain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parked-Domain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>This domain is parked by The Good Geeks / Geek Media</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>This\\ domain\\ is\\ parked\\ by\\ The\\ Good\\ Geeks\\ /\\ Geek\\ Media</title>"
+    },
+    {
+      "name": "Parked-Domain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parked-Domain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>This domain is parked by IberSoluciones.com</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>This\\ domain\\ is\\ parked\\ by\\ IberSoluciones\\.com</title>"
+    },
+    {
+      "name": "Parked-Domain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parked-Domain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Enlighten Hosting - This domain is currently parked</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Enlighten\\ Hosting\\ \\-\\ This\\ domain\\ is\\ currently\\ parked</title>"
+    },
+    {
+      "name": "Parked-Domain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parked-Domain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.enlightenhosting.com/services/domain/freeparking.aspx\">Parking your domain</a> is a free service provided by <a href=\"http://www.enlightenhosting.com/\">Enlighten Hosting</a>.</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.enlightenhosting\\.com/services/domain/freeparking\\.aspx\">Parking\\ your\\ domain</a>\\ is\\ a\\ free\\ service\\ provided\\ by\\ <a\\ href=\"http://www\\.enlightenhosting\\.com/\">Enlighten\\ Hosting</a>\\.</p>"
+    },
+    {
+      "name": "Parked-Domain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parked-Domain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"http://www.omegapointdesign.com/domain_parked.jpg\" alt=\"This domain is parked\" border=\"0\" /></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"http://www\\.omegapointdesign\\.com/domain_parked\\.jpg\"\\ alt=\"This\\ domain\\ is\\ parked\"\\ border=\"0\"\\ /></div>"
+    },
+    {
+      "name": "Parked-Domain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parked-Domain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>This domain is parked at config.com Internet services provider - commercial and consumer Internet services </TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>This\\ domain\\ is\\ parked\\ at\\ config\\.com\\ Internet\\ services\\ provider\\ \\-\\ commercial\\ and\\ consumer\\ Internet\\ services\\ </TITLE>"
+    },
+    {
+      "name": "Parked-Domain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parked-Domain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>This Domain is Parked at Dot Com Today</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>This\\ Domain\\ is\\ Parked\\ at\\ Dot\\ Com\\ Today</title>"
+    },
+    {
+      "name": "Parked-Domain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parked-Domain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>This domain is parked for free with web.com</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>This\\ domain\\ is\\ parked\\ for\\ free\\ with\\ web\\.com</title>"
+    }
+  ]
+}

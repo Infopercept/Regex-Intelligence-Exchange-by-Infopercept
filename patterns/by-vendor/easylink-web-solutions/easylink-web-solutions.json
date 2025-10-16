@@ -1,0 +1,32 @@
+{
+  "vendor": "easyLink-Web-Solutions",
+  "vendor_id": "easylink-web-solutions",
+  "product": "easyLink-Web-Solutions",
+  "product_id": "easylink-web-solutions",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "easyLink-Web-Solutions Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for easyLink-Web-Solutions",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Dieser Abschnitt darf nur mit Genehmigung des Entwicklers entfernt werden und bedarf einer",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Dieser\\ Abschnitt\\ darf\\ nur\\ mit\\ Genehmigung\\ des\\ Entwicklers\\ entfernt\\ werden\\ und\\ bedarf\\ einer"
+    }
+  ]
+}

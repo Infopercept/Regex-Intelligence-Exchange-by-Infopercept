@@ -1,0 +1,70 @@
+{
+  "vendor": "HiveMail",
+  "vendor_id": "hivemail",
+  "product": "HiveMail",
+  "product_id": "hivemail",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "HiveMail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HiveMail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Database Error in HiveMail&trade;</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Database\\ Error\\ in\\ HiveMail\\&trade;</title>"
+    },
+    {
+      "name": "HiveMail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HiveMail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"text\" class=\"validate[ajax[ajaxUserCall]] input\" name=\"answer\" id=\"answer\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ type=\"text\"\\ class=\"validate\\[ajax\\[ajaxUserCall\\]\\]\\ input\"\\ name=\"answer\"\\ id=\"answer\"\\ />"
+    },
+    {
+      "name": "HiveMail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HiveMail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "hivesession="
+    }
+  ]
+}

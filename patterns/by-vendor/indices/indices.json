@@ -1,0 +1,26 @@
+{
+  "vendor": "Indices",
+  "vendor_id": "indices",
+  "product": "Indices",
+  "product_id": "indices",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Indices Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Indices",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!--[\\s]+Pleasant Apache directory listings courtesy of Indices:[\\s]+http://antisleep\\.com/software/indices[\\s]+-->"
+    }
+  ]
+}

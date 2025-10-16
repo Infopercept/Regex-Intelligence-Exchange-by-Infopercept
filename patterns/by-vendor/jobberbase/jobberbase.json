@@ -1,0 +1,48 @@
+{
+  "vendor": "jobberBase",
+  "vendor_id": "jobberbase",
+  "product": "jobberBase",
+  "product_id": "jobberbase",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "jobberBase Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for jobberBase",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"http://www.jobberbase.com\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"http://www\\.jobberbase\\.com\"\\ />"
+    },
+    {
+      "name": "jobberBase Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for jobberBase",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Proudly powered by[\\s]+<a href=\"http://www.jobberbase.com/\"[^>]*title=\"open source job board software\">jobberBase</a>"
+    }
+  ]
+}

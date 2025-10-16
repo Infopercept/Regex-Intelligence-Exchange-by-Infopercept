@@ -1,0 +1,26 @@
+{
+  "vendor": "CoyotePoint-Load-Balancer",
+  "vendor_id": "coyotepoint-load-balancer",
+  "product": "CoyotePoint-Load-Balancer",
+  "product_id": "coyotepoint-load-balancer",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CoyotePoint-Load-Balancer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CoyotePoint-Load-Balancer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^CoyotePoint"
+    }
+  ]
+}

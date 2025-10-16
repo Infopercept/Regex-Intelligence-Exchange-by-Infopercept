@@ -1,0 +1,54 @@
+{
+  "vendor": "bitcoin-js-remote",
+  "vendor_id": "bitcoin-js-remote",
+  "product": "bitcoin-js-remote",
+  "product_id": "bitcoin-js-remote",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "bitcoin-js-remote Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for bitcoin-js-remote",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span id=\"balance\"</span>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span\\ id=\"balance\"</span>"
+    },
+    {
+      "name": "bitcoin-js-remote Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for bitcoin-js-remote",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p><a href=\"http://tcatm.github.com/bitcoin-js-remote\">bitcoin-js-remote</a> <span id=\"version\"></span> by <a href=\"mailto:tcatm@gawab.com\">tcatm</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p><a\\ href=\"http://tcatm\\.github\\.com/bitcoin\\-js\\-remote\">bitcoin\\-js\\-remote</a>\\ <span\\ id=\"version\"></span>\\ by\\ <a\\ href=\"mailto:tcatm@gawab\\.com\">tcatm</a></p>"
+    }
+  ]
+}

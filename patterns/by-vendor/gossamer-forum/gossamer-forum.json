@@ -1,0 +1,32 @@
+{
+  "vendor": "Gossamer-Forum",
+  "vendor_id": "gossamer-forum",
+  "product": "Gossamer-Forum",
+  "product_id": "gossamer-forum",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Gossamer-Forum Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Gossamer-Forum",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Gossamer Forum: An error occured!</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Gossamer\\ Forum:\\ An\\ error\\ occured!</title>"
+    }
+  ]
+}

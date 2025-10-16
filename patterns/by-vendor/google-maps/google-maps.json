@@ -1,0 +1,26 @@
+{
+  "vendor": "Google-Maps",
+  "vendor_id": "google-maps",
+  "product": "Google-Maps",
+  "product_id": "google-maps",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Google-Maps Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Google-Maps",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script [^>]*src=[\"'][^>]*maps\\.google\\.com/maps(\\?file=api|/api/staticmap)"
+    }
+  ]
+}

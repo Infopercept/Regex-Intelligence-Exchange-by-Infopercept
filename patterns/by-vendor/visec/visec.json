@@ -1,0 +1,49 @@
+{
+  "vendor": "Visec",
+  "vendor_id": "visec",
+  "product": "Visec",
+  "product_id": "visec",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Visec Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Visec",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!--wml-->\\s+<!--bad-->"
+    },
+    {
+      "name": "Visec Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Visec",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^VISEC/([^\\s]+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^VISEC/([^\\s]+)$",
+      "version_group": 1
+    }
+  ]
+}

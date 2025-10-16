@@ -1,0 +1,98 @@
+{
+  "vendor": "WWWPhoto",
+  "vendor_id": "wwwphoto",
+  "product": "WWWPhoto",
+  "product_id": "wwwphoto",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WWWPhoto Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WWWPhoto",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t<meta name=\"generator\" content=\"WWWPhoto cvshead\"> <!-- leave this for stats -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t<meta\\ name=\"generator\"\\ content=\"WWWPhoto\\ cvshead\">\\ <!\\-\\-\\ leave\\ this\\ for\\ stats\\ \\-\\->"
+    },
+    {
+      "name": "WWWPhoto Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WWWPhoto",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.pburkhalter.net/wwwphoto.php\">powered by wwwphoto-cvshead</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.pburkhalter\\.net/wwwphoto\\.php\">powered\\ by\\ wwwphoto\\-cvshead</a>"
+    },
+    {
+      "name": "WWWPhoto Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WWWPhoto",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "http_navbar.open('get','navbar.rpc.php?user='+GLOBAL_USER+'&tag='+GLOBAL_TAG+'&id='+GLOBAL_ID+'&marked='+marked+'&timestamp='+new Date().getTime());",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "http_navbar\\.open\\('get','navbar\\.rpc\\.php\\?user='\\+GLOBAL_USER\\+'\\&tag='\\+GLOBAL_TAG\\+'\\&id='\\+GLOBAL_ID\\+'\\&marked='\\+marked\\+'\\&timestamp='\\+new\\ Date\\(\\)\\.getTime\\(\\)\\);"
+    },
+    {
+      "name": "WWWPhoto Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WWWPhoto",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- sorry joshua, one little, small table is a must have :-) -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ sorry\\ joshua,\\ one\\ little,\\ small\\ table\\ is\\ a\\ must\\ have\\ :\\-\\)\\ \\-\\->"
+    }
+  ]
+}

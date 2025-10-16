@@ -1,0 +1,54 @@
+{
+  "vendor": "Gallery",
+  "vendor_id": "gallery",
+  "product": "Gallery",
+  "product_id": "gallery",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Gallery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Gallery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"#\" id=\"g-password-reset\" class=\"g-right g-text-small\">Forgot your password?</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"\\#\"\\ id=\"g\\-password\\-reset\"\\ class=\"g\\-right\\ g\\-text\\-small\">Forgot\\ your\\ password\\?</a>"
+    },
+    {
+      "name": "Gallery Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Gallery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Gallery 3 Installer</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Gallery\\ 3\\ Installer</title>"
+    }
+  ]
+}

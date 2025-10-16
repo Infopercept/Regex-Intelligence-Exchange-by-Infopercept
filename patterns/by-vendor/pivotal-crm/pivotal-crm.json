@@ -1,0 +1,76 @@
+{
+  "vendor": "Pivotal-CRM",
+  "vendor_id": "pivotal-crm",
+  "product": "Pivotal-CRM",
+  "product_id": "pivotal-crm",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Pivotal-CRM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Pivotal-CRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "&lt;script language=&quot;javascript&quot; src=&quot;javascript/utils.js&quot;&gt;&lt;/script&gt;&lt;script language=&quot;javascript&quot; src=&quot;javascript/navigation.js&quot;&gt;&lt;/script&gt;&lt;script language=&quot;javascript&quot;&gt;",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\&lt;script\\ language=\\&quot;javascript\\&quot;\\ src=\\&quot;javascript/utils\\.js\\&quot;\\&gt;\\&lt;/script\\&gt;\\&lt;script\\ language=\\&quot;javascript\\&quot;\\ src=\\&quot;javascript/navigation\\.js\\&quot;\\&gt;\\&lt;/script\\&gt;\\&lt;script\\ language=\\&quot;javascript\\&quot;\\&gt;"
+    },
+    {
+      "name": "Pivotal-CRM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Pivotal-CRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<frame name=\"hidden\" src=\"xmlloader.asp?type=portal\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" noresize>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<frame\\ name=\"hidden\"\\ src=\"xmlloader\\.asp\\?type=portal\"\\ marginwidth=\"0\"\\ marginheight=\"0\"\\ scrolling=\"no\"\\ noresize>"
+    },
+    {
+      "name": "Pivotal-CRM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Pivotal-CRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<frame name=\"hidden\" title=\"Hidden\" src=\"xmlloader.asp?type=portal\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" noresize>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<frame\\ name=\"hidden\"\\ title=\"Hidden\"\\ src=\"xmlloader\\.asp\\?type=portal\"\\ marginwidth=\"0\"\\ marginheight=\"0\"\\ scrolling=\"no\"\\ noresize>"
+    }
+  ]
+}

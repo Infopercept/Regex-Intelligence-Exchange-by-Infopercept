@@ -1,0 +1,96 @@
+{
+  "vendor": "Evo-Cam",
+  "vendor_id": "evo-cam",
+  "product": "Evo-Cam",
+  "product_id": "evo-cam",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Evo-Cam Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Evo-Cam",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>EvoCam( \\d)*</title>"
+    },
+    {
+      "name": "Evo-Cam Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Evo-Cam",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<TITLE>EvoCam( Java| JavaScript)? Example Page</TITLE>"
+    },
+    {
+      "name": "Evo-Cam Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Evo-Cam",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <A HREF=\"http://www.evological.com/evocam.html\">EvoCam</A>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <A\\ HREF=\"http://www\\.evological\\.com/evocam\\.html\">EvoCam</A>"
+    },
+    {
+      "name": "Evo-Cam Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Evo-Cam",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<applet archive=\"evocam.jar\" code=\"com.evological.evocam.class\""
+    },
+    {
+      "name": "Evo-Cam Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Evo-Cam",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<param name=\"archive\" value=\"evocam.jar\">"
+    }
+  ]
+}

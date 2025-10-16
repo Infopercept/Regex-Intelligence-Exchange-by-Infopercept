@@ -1,0 +1,58 @@
+{
+  "vendor": "NextGEN-Gallery",
+  "vendor_id": "nextgen-gallery",
+  "product": "NextGEN-Gallery",
+  "product_id": "nextgen-gallery",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "NextGEN-Gallery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NextGEN-Gallery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link rel='stylesheet' id='NextGEN-css'  href='[^']*/wp-content/themes/default_ngg/nggallery.css\\?ver=[\\d\\.]+' type='text/css' media='screen' />"
+    },
+    {
+      "name": "NextGEN-Gallery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NextGEN-Gallery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link rel='stylesheet' id='shutter-css'  href='[^']*/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.css\\?ver=[\\d\\.]+' type='text/css' media='screen' />"
+    },
+    {
+      "name": "NextGEN-Gallery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NextGEN-Gallery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link rel='stylesheet' id='galleryview-css'  href='[^']*/wp-content/plugins/nggGalleryview/galleryview.css\\?ver=[\\d\\.]+' type='text/css' media='screen' />"
+    }
+  ]
+}

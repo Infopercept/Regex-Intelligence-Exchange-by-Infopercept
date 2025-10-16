@@ -1,0 +1,48 @@
+{
+  "vendor": "anyInventory",
+  "vendor_id": "anyinventory",
+  "product": "anyInventory",
+  "product_id": "anyinventory",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "anyInventory Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for anyInventory",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t<title>anyInventory: Top</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t<title>anyInventory:\\ Top</title>"
+    },
+    {
+      "name": "anyInventory Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for anyInventory",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "\t\t\t\t\t you have inventoried <b>[0-9]*</b>  items with <a href=\"http://anyinventory.sourceforge.net/\">anyInventory, the most flexible and powerful web-based inventory system</a>"
+    }
+  ]
+}

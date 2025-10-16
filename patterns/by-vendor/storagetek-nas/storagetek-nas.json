@@ -1,0 +1,71 @@
+{
+  "vendor": "StorageTek-NAS",
+  "vendor_id": "storagetek-nas",
+  "product": "StorageTek-NAS",
+  "product_id": "storagetek-nas",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "StorageTek-NAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for StorageTek-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Sun StorageTek NAS OS Web Admin</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Sun\\ StorageTek\\ NAS\\ OS\\ Web\\ Admin</title>"
+    },
+    {
+      "name": "StorageTek-NAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for StorageTek-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^StorageTek-HTTPD"
+    },
+    {
+      "name": "StorageTek-NAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for StorageTek-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^StorageTek-HTTPD/([^\\s]+) \\([^\\s]+ NAS\\)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^StorageTek-HTTPD/([^\\s]+) \\([^\\s]+ NAS\\)$",
+      "version_group": 1
+    }
+  ]
+}

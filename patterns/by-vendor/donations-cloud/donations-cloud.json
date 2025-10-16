@@ -1,0 +1,92 @@
+{
+  "vendor": "Donations-Cloud",
+  "vendor_id": "donations-cloud",
+  "product": "Donations-Cloud",
+  "product_id": "donations-cloud",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Donations-Cloud Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Donations-Cloud",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "wp-content/plugins/donationscloud//donationscloud.css' type='text/css' media='screen' />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "wp\\-content/plugins/donationscloud//donationscloud\\.css'\\ type='text/css'\\ media='screen'\\ />"
+    },
+    {
+      "name": "Donations-Cloud Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Donations-Cloud",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "if (dc_get('pp_amount').value == '') { alert(\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "if\\ \\(dc_get\\('pp_amount'\\)\\.value\\ ==\\ ''\\)\\ \\{\\ alert\\(\\\\"
+    },
+    {
+      "name": "Donations-Cloud Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Donations-Cloud",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<p id='dc_credits'>powered by <a href=[\\'|\\\"]+http://www.zirona.com/software/[^>]+>Donations Cloud</a></p>"
+    },
+    {
+      "name": "Donations-Cloud Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Donations-Cloud",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form action='https://www.paypal.com/cgi-bin/webscr' method='post' id='dc_paypal_form' onsubmit='if (!dc_checkform()) return false;'>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ action='https://www\\.paypal\\.com/cgi\\-bin/webscr'\\ method='post'\\ id='dc_paypal_form'\\ onsubmit='if\\ \\(!dc_checkform\\(\\)\\)\\ return\\ false;'>"
+    }
+  ]
+}

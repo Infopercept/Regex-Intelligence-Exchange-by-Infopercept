@@ -1,0 +1,114 @@
+{
+  "vendor": "Microsoft-Remote-Web-Workplace",
+  "vendor_id": "microsoft-remote-web-workplace",
+  "product": "Microsoft-Remote-Web-Workplace",
+  "product_id": "microsoft-remote-web-workplace",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Microsoft-Remote-Web-Workplace Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Remote-Web-Workplace",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</title><link href=\"signinStyle.css\" rel=\"stylesheet\" type=\"text/css\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</title><link\\ href=\"signinStyle\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ />"
+    },
+    {
+      "name": "Microsoft-Remote-Web-Workplace Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Remote-Web-Workplace",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<form name=\"form1\" method=\"post\" action=\"logon\\.aspx\\?ReturnUrl=%2f[^\"]\" id=\"form1\" autocomplete=\"OFF\" onsubmit=\"OnUserNameFocus\\(\\);\">"
+    },
+    {
+      "name": "Microsoft-Remote-Web-Workplace Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Remote-Web-Workplace",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input id=\"rememberMe\" type=\"checkbox\" name=\"rememberMe\" tabindex=\"3\" /><label for=\"rememberMe\">Remember me on this computer</label>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ id=\"rememberMe\"\\ type=\"checkbox\"\\ name=\"rememberMe\"\\ tabindex=\"3\"\\ /><label\\ for=\"rememberMe\">Remember\\ me\\ on\\ this\\ computer</label>"
+    },
+    {
+      "name": "Microsoft-Remote-Web-Workplace Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Remote-Web-Workplace",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"copyright\" content=\"Copyright (c) Microsoft Corporation.  All rights reserved.\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"copyright\"\\ content=\"Copyright\\ \\(c\\)\\ Microsoft\\ Corporation\\.\\ \\ All\\ rights\\ reserved\\.\"\\ />"
+    },
+    {
+      "name": "Microsoft-Remote-Web-Workplace Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Remote-Web-Workplace",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<head id=\"Head1\"><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<head\\ id=\"Head1\"><meta\\ http\\-equiv=\"Content\\-Type\"\\ content=\"text/html;\\ charset=utf\\-8\"\\ /><title>"
+    }
+  ]
+}

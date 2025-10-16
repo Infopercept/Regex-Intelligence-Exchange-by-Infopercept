@@ -1,0 +1,54 @@
+{
+  "vendor": "Hughes-Voice-Appliance",
+  "vendor_id": "hughes-voice-appliance",
+  "product": "Hughes-Voice-Appliance",
+  "product_id": "hughes-voice-appliance",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Hughes-Voice-Appliance Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Hughes-Voice-Appliance",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HTML><HEAD></HEAD><BODY onload=\"window.location=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<HTML><HEAD></HEAD><BODY\\ onload=\"window\\.location=\\\\"
+    },
+    {
+      "name": "Hughes-Voice-Appliance Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Hughes-Voice-Appliance",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<head><title>HughesNet Appliance Control Center</title></head>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<head><title>HughesNet\\ Appliance\\ Control\\ Center</title></head>"
+    }
+  ]
+}

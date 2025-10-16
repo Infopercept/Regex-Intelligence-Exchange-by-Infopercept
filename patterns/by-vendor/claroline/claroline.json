@@ -1,0 +1,76 @@
+{
+  "vendor": "Claroline",
+  "vendor_id": "claroline",
+  "product": "Claroline",
+  "product_id": "claroline",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Claroline Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Claroline",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"http://www.claroline.net/documentation.htm\" rel=\"Help\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"http://www\\.claroline\\.net/documentation\\.htm\"\\ rel=\"Help\"\\ />"
+    },
+    {
+      "name": "Claroline Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Claroline",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"http://www.claroline.net/credits.htm\" rel=\"Author\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"http://www\\.claroline\\.net/credits\\.htm\"\\ rel=\"Author\"\\ />"
+    },
+    {
+      "name": "Claroline Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Claroline",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"http://www.claroline.net\" rel=\"Copyright\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"http://www\\.claroline\\.net\"\\ rel=\"Copyright\"\\ />"
+    }
+  ]
+}

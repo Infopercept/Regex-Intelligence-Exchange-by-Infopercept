@@ -1,0 +1,32 @@
+{
+  "vendor": "XtraBusinessHosting",
+  "vendor_id": "xtrabusinesshosting",
+  "product": "XtraBusinessHosting",
+  "product_id": "xtrabusinesshosting",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "XtraBusinessHosting Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for XtraBusinessHosting",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Xtra Business: Web Hosting</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Xtra\\ Business:\\ Web\\ Hosting</title>"
+    }
+  ]
+}

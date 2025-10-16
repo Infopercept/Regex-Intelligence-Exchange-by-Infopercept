@@ -1,0 +1,48 @@
+{
+  "vendor": "Mercurial",
+  "vendor_id": "mercurial",
+  "product": "Mercurial",
+  "product_id": "mercurial",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mercurial Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mercurial",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://mercurial.selenic.com/\" title=\"Mercurial\" style=\"float: right;\">Mercurial</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://mercurial\\.selenic\\.com/\"\\ title=\"Mercurial\"\\ style=\"float:\\ right;\">Mercurial</a>"
+    },
+    {
+      "name": "Mercurial Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mercurial",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<div id=\"powered-by\">[\\s]+<p><a href=\"http://mercurial\\.selenic\\.com/\" title=\"Mercurial\">"
+    }
+  ]
+}

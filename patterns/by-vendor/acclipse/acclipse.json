@@ -1,0 +1,86 @@
+{
+  "vendor": "Acclipse",
+  "vendor_id": "acclipse",
+  "product": "Acclipse",
+  "product_id": "acclipse",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Footer link",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Acclipse",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"http://www\\.(acclipse|acclipseweb)\\.(co\\.nz|com\\.au)[/]?(for_Businesses)?\" target=\"_blank\"( class=\"poweredbylink\")?>(Software solutions for accountants|Web design New Zealand|Web design Australia)</a>"
+    },
+    {
+      "name": "Website powered by",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Acclipse",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Website powered by <A href=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Website\\ powered\\ by\\ <A\\ href=\\\\"
+    },
+    {
+      "name": "acclipse link with uppercase A href",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Acclipse",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<A href=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<A\\ href=\\\\"
+    },
+    {
+      "name": "https://secure.acclipse.com link",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Acclipse",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "https://secure\\.acclipse(web)?\\.com/[^/]*/index\\.cfm"
+    }
+  ]
+}

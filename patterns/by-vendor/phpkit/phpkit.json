@@ -1,0 +1,92 @@
+{
+  "vendor": "PHPKIT",
+  "vendor_id": "phpkit",
+  "product": "PHPKIT",
+  "product_id": "phpkit",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PHPKIT Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHPKIT",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=\"generator\" content=\"PHPKIT WCMS Web Content Management System\" />"
+    },
+    {
+      "name": "PHPKIT Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHPKIT",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"PHPKIT WCMS - Web Content Management System - Copyright mxbyte GbR\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"PHPKIT\\ WCMS\\ \\-\\ Web\\ Content\\ Management\\ System\\ \\-\\ Copyright\\ mxbyte\\ GbR\"\\ />"
+    },
+    {
+      "name": "PHPKIT Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHPKIT",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"pkcopyright\"><a class=\"none\" href=\"http://www.phpkit.com\">PHPKIT ist eine eingetragene Marke der mxbyte GbR &copy;",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"pkcopyright\"><a\\ class=\"none\"\\ href=\"http://www\\.phpkit\\.com\">PHPKIT\\ ist\\ eine\\ eingetragene\\ Marke\\ der\\ mxbyte\\ GbR\\ \\&copy;"
+    },
+    {
+      "name": "PHPKIT Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHPKIT",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"PHPKIT, WCMS, Web Content Management System, Administration\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"PHPKIT,\\ WCMS,\\ Web\\ Content\\ Management\\ System,\\ Administration\"\\ />"
+    }
+  ]
+}

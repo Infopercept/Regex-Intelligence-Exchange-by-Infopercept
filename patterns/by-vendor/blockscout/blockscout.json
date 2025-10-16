@@ -1,0 +1,76 @@
+{
+  "vendor": "BlockScout",
+  "vendor_id": "blockscout",
+  "product": "BlockScout",
+  "product_id": "blockscout",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "footer-info-text",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BlockScout",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p class=\"footer-info-text\">Blockscout is a",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ class=\"footer\\-info\\-text\">Blockscout\\ is\\ a"
+    },
+    {
+      "name": "input-group",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BlockScout",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"input-group\" title=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"input\\-group\"\\ title=\\\\"
+    },
+    {
+      "name": "BlockScout Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BlockScout",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<h2 class=\"card-title text-center\" data-test=\"administrator_login\">Administrator Login</h2>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<h2\\ class=\"card\\-title\\ text\\-center\"\\ data\\-test=\"administrator_login\">Administrator\\ Login</h2>"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "vendor": "Umbraco",
+  "vendor_id": "umbraco",
+  "product": "Umbraco",
+  "product_id": "umbraco",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Umbraco Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Umbraco",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"umbraco\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"umbraco\"\\ />"
+    },
+    {
+      "name": "Umbraco Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Umbraco",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by[^<]*<a[\\s]+href=\"http://[www.]*umbraco.org[^>]*>Umbraco</a>"
+    },
+    {
+      "name": "Umbraco Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Umbraco",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "powered by[^<]*<a[\\s]+href=\"http://[www.]*umbraco.org[^>]*>umbraco v4</a>",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "powered by[^<]*<a[\\s]+href=\"http://[www.]*umbraco.org[^>]*>umbraco v4</a>",
+      "version_group": 1
+    },
+    {
+      "name": "Umbraco Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Umbraco",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link rel=\"stylesheet\"[^>]*href=\"/css/umbraco-starterkit-style\\.css\""
+    },
+    {
+      "name": "Umbraco Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Umbraco",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script src=\"/scripts/umbraco-starterkit-app.js\""
+    },
+    {
+      "name": "Admin Page",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Umbraco",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>For full functionality of Umbraco CMS it is necessary to enable JavaScript.</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>For\\ full\\ functionality\\ of\\ Umbraco\\ CMS\\ it\\ is\\ necessary\\ to\\ enable\\ JavaScript\\.</p>"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "vendor": "TomatoCart",
+  "vendor_id": "tomatocart",
+  "product": "TomatoCart",
+  "product_id": "tomatocart",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TomatoCart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TomatoCart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"TomatoCart Open Source Shopping Cart Solutions\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"TomatoCart\\ Open\\ Source\\ Shopping\\ Cart\\ Solutions\"\\ />"
+    },
+    {
+      "name": "TomatoCart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TomatoCart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.tomatocart.com\" target=\"_blank\">TomatoCart</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.tomatocart\\.com\"\\ target=\"_blank\">TomatoCart</a>"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "vendor": "GpsGate-Server",
+  "vendor_id": "gpsgate-server",
+  "product": "GpsGate-Server",
+  "product_id": "gpsgate-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "GpsGate-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for GpsGate-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input name=\"LoginControl$TextBoxPassword\" type=\"password\" id=\"LoginControl_TextBoxPassword\" tabindex=\"2\" class=\"form\" onfocus=\"document.getElementById(\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ name=\"LoginControl\\$TextBoxPassword\"\\ type=\"password\"\\ id=\"LoginControl_TextBoxPassword\"\\ tabindex=\"2\"\\ class=\"form\"\\ onfocus=\"document\\.getElementById\\(\\\\"
+    },
+    {
+      "name": "GpsGate-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for GpsGate-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<head><title>\\r?\\n\\tGpsGate Server - Login\\r?\\n</title></head>"
+    }
+  ]
+}

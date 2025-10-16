@@ -1,0 +1,98 @@
+{
+  "vendor": "phpMySport",
+  "vendor_id": "phpmysport",
+  "product": "phpMySport",
+  "product_id": "phpmysport",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "phpMySport Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpMySport",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by phpMySport <a href=\"http://phpmysport.sourceforge.net\" title=\"phpMySport\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ phpMySport\\ <a\\ href=\"http://phpmysport\\.sourceforge\\.net\"\\ title=\"phpMySport\">"
+    },
+    {
+      "name": "phpMySport Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpMySport",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://phpmysport.sourceforge.net\" title=\"phpMySport\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://phpmysport\\.sourceforge\\.net\"\\ title=\"phpMySport\">"
+    },
+    {
+      "name": "phpMySport Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpMySport",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"footer\">R&eacute;alisation phpMySport",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"footer\">R\\&eacute;alisation\\ phpMySport"
+    },
+    {
+      "name": "phpMySport Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpMySport",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/tpl_image/by_phpmysport.gif\" border=\"0\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "/tpl_image/by_phpmysport\\.gif\"\\ border=\"0\""
+    }
+  ]
+}

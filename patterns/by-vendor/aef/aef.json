@@ -1,0 +1,48 @@
+{
+  "vendor": "AEF",
+  "vendor_id": "aef",
+  "product": "AEF",
+  "product_id": "aef",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AEF Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AEF",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"keywords\" content=\"aef, advanced, electron, forum, bulletin, board, software\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"keywords\"\\ content=\"aef,\\ advanced,\\ electron,\\ forum,\\ bulletin,\\ board,\\ software\"\\ />"
+    },
+    {
+      "name": "AEF Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AEF",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "AEFCookies[\\d]*\\[aefsid\\]="
+    }
+  ]
+}

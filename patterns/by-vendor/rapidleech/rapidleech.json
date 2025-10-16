@@ -1,0 +1,42 @@
+{
+  "vendor": "Rapidleech",
+  "vendor_id": "rapidleech",
+  "product": "Rapidleech",
+  "product_id": "rapidleech",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Rapidleech Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Rapidleech",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<small[^>]+>Credits to Pramode &amp; Checkmate &amp; Kloon</small><br"
+    },
+    {
+      "name": "Rapidleech Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Rapidleech",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<small[^>]+>Credits to Pramode &amp; Checkmate &amp; Kloon. Mod by: MsNeil &amp; Idoenk</small><br"
+    }
+  ]
+}

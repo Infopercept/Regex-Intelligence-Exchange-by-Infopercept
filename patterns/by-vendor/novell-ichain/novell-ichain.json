@@ -1,0 +1,92 @@
+{
+  "vendor": "Novell-iChain",
+  "vendor_id": "novell-ichain",
+  "product": "Novell-iChain",
+  "product_id": "novell-ichain",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Novell-iChain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Novell-iChain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td height=\"20\" align=\"center\"><img height=\"8\" width=\"445\" src=\"ICHAINErrors/alertbar.gif\"></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ height=\"20\"\\ align=\"center\"><img\\ height=\"8\"\\ width=\"445\"\\ src=\"ICHAINErrors/alertbar\\.gif\"></td>"
+    },
+    {
+      "name": "Novell-iChain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Novell-iChain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HTML><HEAD><TITLE>Novell iChain</TITLE></HEAD><BODY><b><p>Your old browser does not support a 302 Redirect.</b></BODY></HTML>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<HTML><HEAD><TITLE>Novell\\ iChain</TITLE></HEAD><BODY><b><p>Your\\ old\\ browser\\ does\\ not\\ support\\ a\\ 302\\ Redirect\\.</b></BODY></HTML>"
+    },
+    {
+      "name": "Novell-iChain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Novell-iChain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HTML><HEAD><TITLE>Novell Proxy</TITLE></HEAD><BODY><b><p>HTTP request is being redirected to HTTPS.</b></BODY></HTML>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<HTML><HEAD><TITLE>Novell\\ Proxy</TITLE></HEAD><BODY><b><p>HTTP\\ request\\ is\\ being\\ redirected\\ to\\ HTTPS\\.</b></BODY></HTML>"
+    },
+    {
+      "name": "Novell-iChain Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Novell-iChain",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Host name received is not for this web site"
+    }
+  ]
+}

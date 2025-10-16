@@ -1,0 +1,120 @@
+{
+  "vendor": "Netquery",
+  "vendor_id": "netquery",
+  "product": "Netquery",
+  "product_id": "netquery",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Netquery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netquery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form class=\"nquser\" action=\"nquser.php\" method=\"post\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ class=\"nquser\"\\ action=\"nquser\\.php\"\\ method=\"post\">"
+    },
+    {
+      "name": "Netquery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netquery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"nquser.php?querytype=countries\"><img class=\"gobuttonup\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"nquser\\.php\\?querytype=countries\"><img\\ class=\"gobuttonup\""
+    },
+    {
+      "name": "Netquery Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netquery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<legend>NQ User Interface</legend>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<legend>NQ\\ User\\ Interface</legend>"
+    },
+    {
+      "name": "Netquery Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netquery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<br /><a href=\"nquser.php?formtype=countries\">Top Countries",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<br\\ /><a\\ href=\"nquser\\.php\\?formtype=countries\">Top\\ Countries"
+    },
+    {
+      "name": "Netquery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netquery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"nqadmin.php\"><img class=\"gobutton\" src=\"images/btn_adm.gif\" alt=\"Administration\" /></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"nqadmin\\.php\"><img\\ class=\"gobutton\"\\ src=\"images/btn_adm\\.gif\"\\ alt=\"Administration\"\\ /></a>"
+    }
+  ]
+}

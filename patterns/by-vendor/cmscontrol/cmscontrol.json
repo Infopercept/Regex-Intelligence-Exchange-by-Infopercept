@@ -1,0 +1,97 @@
+{
+  "vendor": "CMScontrol",
+  "vendor_id": "cmscontrol",
+  "product": "CMScontrol",
+  "product_id": "cmscontrol",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CMScontrol Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CMScontrol",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<META name=[\\\"\\']*generator[\\\"\\']* content=[\\\"\\']*CMScontrol eContent[\\\"\\']*>"
+    },
+    {
+      "name": "CMScontrol Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CMScontrol",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<META name=[\\\"\\']*formatter[\\\"\\']* content=[\\\"\\']*CMScontrol eContent[\\\"\\']*>"
+    },
+    {
+      "name": "CMScontrol Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CMScontrol",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<META name=[\\\"\\']*abstract[\\\"\\']* content=[\\\"\\']*CMScontrol[\\\"\\']*>"
+    },
+    {
+      "name": "CMScontrol Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CMScontrol",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "document.write(\"<ME\"+\"TA ht\"+\"tp-eq\"+\"uiv=\\\"REF\"+\"RESH\\\" con\"+\"tent=\\\"1.00; u\"+\"rl=\"+\"index\"+\".\"+\"ph\"+\"p\\\">\");",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "document\\.write\\(\"<ME\"\\+\"TA\\ ht\"\\+\"tp\\-eq\"\\+\"uiv=\\\\\"REF\"\\+\"RESH\\\\\"\\ con\"\\+\"tent=\\\\\"1\\.00;\\ u\"\\+\"rl=\"\\+\"index\"\\+\"\\.\"\\+\"ph\"\\+\"p\\\\\">\"\\);"
+    },
+    {
+      "name": "CMScontrol Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CMScontrol",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<META NAME=[\\\"\\']*generator[\\\"\\']* CONTENT=[\\\"\\']*CMScontrol rel 3.x[\\\"\\']*>",
+      "version_group": 1
+    }
+  ]
+}

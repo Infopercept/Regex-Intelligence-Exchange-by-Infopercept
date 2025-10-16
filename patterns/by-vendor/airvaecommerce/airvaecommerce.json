@@ -1,0 +1,54 @@
+{
+  "vendor": "AirvaeCommerce",
+  "vendor_id": "airvaecommerce",
+  "product": "AirvaeCommerce",
+  "product_id": "airvaecommerce",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AirvaeCommerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AirvaeCommerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"imgs/store.css\" rel=\"stylesheet\" media=\"screen\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"imgs/store\\.css\"\\ rel=\"stylesheet\"\\ media=\"screen\">"
+    },
+    {
+      "name": "AirvaeCommerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AirvaeCommerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"/conf/minify/f=imgs/store.css&142\" rel=\"stylesheet\" media=\"screen\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"/conf/minify/f=imgs/store\\.css\\&142\"\\ rel=\"stylesheet\"\\ media=\"screen\">"
+    }
+  ]
+}

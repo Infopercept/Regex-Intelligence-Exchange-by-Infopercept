@@ -1,0 +1,76 @@
+{
+  "vendor": "LuCI",
+  "vendor_id": "luci",
+  "product": "LuCI",
+  "product_id": "luci",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "LuCI Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LuCI",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a style=\"color: white; text-decoration: none\" href=\"/cgi-bin/luci\">LuCI - Lua Configuration Interface</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ style=\"color:\\ white;\\ text\\-decoration:\\ none\"\\ href=\"/cgi\\-bin/luci\">LuCI\\ \\-\\ Lua\\ Configuration\\ Interface</a>"
+    },
+    {
+      "name": "LuCI Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LuCI",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"/luci-static/openwrt.org/cascade.css\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ media=\"screen\"\\ href=\"/luci\\-static/openwrt\\.org/cascade\\.css\"\\ />"
+    },
+    {
+      "name": "LuCI Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LuCI",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<li><a href=\"/cgi-bin/luci/admin/\">Administration</a></li>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<li><a\\ href=\"/cgi\\-bin/luci/admin/\">Administration</a></li>"
+    }
+  ]
+}

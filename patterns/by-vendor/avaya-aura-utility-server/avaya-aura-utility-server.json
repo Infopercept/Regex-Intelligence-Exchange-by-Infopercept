@@ -1,0 +1,54 @@
+{
+  "vendor": "Avaya-Aura-Utility-Server",
+  "vendor_id": "avaya-aura-utility-server",
+  "product": "Avaya-Aura-Utility-Server",
+  "product_id": "avaya-aura-utility-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Avaya-Aura-Utility-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Avaya-Aura-Utility-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span class=\"vmsTitle\">Avaya Aura&#8482;&nbsp;Utility Server</span>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span\\ class=\"vmsTitle\">Avaya\\ Aura\\&\\#8482;\\&nbsp;Utility\\ Server</span>"
+    },
+    {
+      "name": "Avaya-Aura-Utility-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Avaya-Aura-Utility-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"topBar\"><div id=\"topBarLeft\"><a href=\"#\" class=\"helpAndExit\" onclick=\"window.open(\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"topBar\"><div\\ id=\"topBarLeft\"><a\\ href=\"\\#\"\\ class=\"helpAndExit\"\\ onclick=\"window\\.open\\(\\\\"
+    }
+  ]
+}

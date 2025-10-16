@@ -1,0 +1,54 @@
+{
+  "vendor": "AvantFAX",
+  "vendor_id": "avantfax",
+  "product": "AvantFAX",
+  "product_id": "avantfax",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AvantFAX Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AvantFAX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"Web 2.0 HylaFAX management\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"Web\\ 2\\.0\\ HylaFAX\\ management\"\\ />"
+    },
+    {
+      "name": "AvantFAX Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AvantFAX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</label><br /><br /><input type=\"password\" name=\"password\" id=\"password\" style=\"width: 12em\" maxlength=\"15\" /></p><br />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</label><br\\ /><br\\ /><input\\ type=\"password\"\\ name=\"password\"\\ id=\"password\"\\ style=\"width:\\ 12em\"\\ maxlength=\"15\"\\ /></p><br\\ />"
+    }
+  ]
+}

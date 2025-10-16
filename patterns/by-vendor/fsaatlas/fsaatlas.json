@@ -1,0 +1,54 @@
+{
+  "vendor": "fsaATLAS",
+  "vendor_id": "fsaatlas",
+  "product": "fsaATLAS",
+  "product_id": "fsaatlas",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "fsaATLAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for fsaATLAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form action=\"LoginFinish.asp\" method=\"post\" name=\"MainForm\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ action=\"LoginFinish\\.asp\"\\ method=\"post\"\\ name=\"MainForm\">"
+    },
+    {
+      "name": "fsaATLAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for fsaATLAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- AP - 06/02/2009 - Defect 1533 - Campus DataLink Link not appearing at the top navigation bar-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ AP\\ \\-\\ 06/02/2009\\ \\-\\ Defect\\ 1533\\ \\-\\ Campus\\ DataLink\\ Link\\ not\\ appearing\\ at\\ the\\ top\\ navigation\\ bar\\-\\->"
+    }
+  ]
+}

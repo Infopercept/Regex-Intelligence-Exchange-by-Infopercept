@@ -1,0 +1,48 @@
+{
+  "vendor": "Dedicated-Micros-Device",
+  "vendor_id": "dedicated-micros-device",
+  "product": "Dedicated-Micros-Device",
+  "product_id": "dedicated-micros-device",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Dedicated-Micros-Device Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dedicated-Micros-Device",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<title>DVIP</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<title>DVIP</title>"
+    },
+    {
+      "name": "Dedicated-Micros-Device Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dedicated-Micros-Device",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^ADH-Web$"
+    }
+  ]
+}

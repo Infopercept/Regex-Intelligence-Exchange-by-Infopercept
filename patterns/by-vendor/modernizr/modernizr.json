@@ -1,0 +1,26 @@
+{
+  "vendor": "Modernizr",
+  "vendor_id": "modernizr",
+  "product": "Modernizr",
+  "product_id": "modernizr",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Modernizr Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Modernizr",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script [^>]*src=[\"'][^>]*modernizr[^>]*\\.js"
+    }
+  ]
+}

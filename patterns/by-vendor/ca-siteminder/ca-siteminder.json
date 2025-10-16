@@ -1,0 +1,130 @@
+{
+  "vendor": "CA-SiteMinder",
+  "vendor_id": "ca-siteminder",
+  "product": "CA-SiteMinder",
+  "product_id": "ca-siteminder",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CA-SiteMinder Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CA-SiteMinder",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<td><img alt=\"Logo\" src=\"(/)?(siteminderagent/)?(pw/|pwcgi/|pwserv/)?siteminder_logo\\.gif\" height=\"44\"></td></tr></table>"
+    },
+    {
+      "name": "CA-SiteMinder Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CA-SiteMinder",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- SiteMinder Encoding=UTF-8; -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ SiteMinder\\ Encoding=UTF\\-8;\\ \\-\\->"
+    },
+    {
+      "name": "CA-SiteMinder Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CA-SiteMinder",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- SiteMinder Encoding=ISO-8859-1; -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ SiteMinder\\ Encoding=ISO\\-8859\\-1;\\ \\-\\->"
+    },
+    {
+      "name": "CA-SiteMinder Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CA-SiteMinder",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr><td></td></tr></table></td></tr></table></center></div><!--</form> --></body></html>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr><td></td></tr></table></td></tr></table></center></div><!\\-\\-</form>\\ \\-\\-></body></html>"
+    },
+    {
+      "name": "CA-SiteMinder Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CA-SiteMinder",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "/\\* SiteMinder Login Form CGI\\s+Copyright \\(C\\) 1999,2000 Netegrity, Inc\\. All rights reserved\\."
+    },
+    {
+      "name": "CA-SiteMinder Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CA-SiteMinder",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>SiteMinder Password Services</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>SiteMinder\\ Password\\ Services</title>"
+    }
+  ]
+}

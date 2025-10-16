@@ -1,0 +1,26 @@
+{
+  "vendor": "BlogSmithMedia",
+  "vendor_id": "blogsmithmedia",
+  "product": "BlogSmithMedia",
+  "product_id": "blogsmithmedia",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BlogSmithMedia Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BlogSmithMedia",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script [^>]*\\\"http://www.blogsmithmedia.com"
+    }
+  ]
+}

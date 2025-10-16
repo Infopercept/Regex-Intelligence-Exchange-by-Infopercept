@@ -1,0 +1,26 @@
+{
+  "vendor": "USP-Secure-Entry-Server",
+  "vendor_id": "usp-secure-entry-server",
+  "product": "USP-Secure-Entry-Server",
+  "product_id": "usp-secure-entry-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "USP-Secure-Entry-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for USP-Secure-Entry-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Secure Entry Server$"
+    }
+  ]
+}

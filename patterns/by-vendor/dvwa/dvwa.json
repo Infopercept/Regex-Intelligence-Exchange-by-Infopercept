@@ -1,0 +1,70 @@
+{
+  "vendor": "DVWA",
+  "vendor_id": "dvwa",
+  "product": "DVWA",
+  "product_id": "dvwa",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DVWA Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DVWA",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t<title>Damn Vulnerable Web App (DVWA) - Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t<title>Damn\\ Vulnerable\\ Web\\ App\\ \\(DVWA\\)\\ \\-\\ Login</title>"
+    },
+    {
+      "name": "DVWA Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DVWA",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"[^\"]*dvwa/css/login.css\" />"
+    },
+    {
+      "name": "DVWA Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DVWA",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t<p><label for=\"pass\">Password</label><input type=\"password\" AUTOCOMPLETE=\"off\" size=\"20\" name=\"password\"></p><br />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\t<p><label\\ for=\"pass\">Password</label><input\\ type=\"password\"\\ AUTOCOMPLETE=\"off\"\\ size=\"20\"\\ name=\"password\"></p><br\\ />"
+    }
+  ]
+}

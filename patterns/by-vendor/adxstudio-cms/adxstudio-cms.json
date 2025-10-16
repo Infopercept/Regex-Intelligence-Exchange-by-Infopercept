@@ -1,0 +1,92 @@
+{
+  "vendor": "adxstudio-cms",
+  "vendor_id": "adxstudio-cms",
+  "product": "adxstudio-cms",
+  "product_id": "adxstudio-cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Set-cookie Header",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for adxstudio-cms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "anonprofile"
+    },
+    {
+      "name": "adxstudio-cms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for adxstudio-cms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/PoweredByADX.gif",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "/PoweredByADX\\.gif"
+    },
+    {
+      "name": "adxstudio-cms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for adxstudio-cms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "alt=\"Powered by Adxstudio\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "alt=\"Powered\\ by\\ Adxstudio\""
+    },
+    {
+      "name": "adxstudio-cms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for adxstudio-cms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/poweredbyadx.png",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "/poweredbyadx\\.png"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "vendor": "YouTube",
+  "vendor_id": "youtube",
+  "product": "YouTube",
+  "product_id": "youtube",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "YouTube Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for YouTube",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<(param|embed) [^>]*youtube\\.com/v"
+    },
+    {
+      "name": "YouTube Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for YouTube",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<iframe class=\"youtube-player\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<iframe\\ class=\"youtube\\-player\""
+    },
+    {
+      "name": "YouTube Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for YouTube",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<iframe [^>]*src=['\"]https?://(www\\.)?youtube\\.com/embed/"
+    }
+  ]
+}

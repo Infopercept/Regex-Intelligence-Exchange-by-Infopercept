@@ -1,0 +1,48 @@
+{
+  "vendor": "CMScout",
+  "vendor_id": "cmscout",
+  "product": "CMScout",
+  "product_id": "cmscout",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CMScout Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CMScout",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by CMScout &copy;[\\d\\,]+ <a href=\"http://www.cmscout.za.net\" title=\"CMScout Group\" target=\"_blank\">CMScout Group</a>"
+    },
+    {
+      "name": "CMScout Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CMScout",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--Shows the CMScout and website copyright information. Please do not remove this without permission from the CMScout admin-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-Shows\\ the\\ CMScout\\ and\\ website\\ copyright\\ information\\.\\ Please\\ do\\ not\\ remove\\ this\\ without\\ permission\\ from\\ the\\ CMScout\\ admin\\-\\->"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "vendor": "MRTG",
+  "vendor_id": "mrtg",
+  "product": "MRTG",
+  "product_id": "mrtg",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Title",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MRTG",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<TITLE>MRTG Index Page</TITLE>"
+    },
+    {
+      "name": "Logo in footer",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MRTG",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "HREF=\"http://oss.oetiker.ch/mrtg/\"><IMG[\\s]*BORDER=0 SRC=\"mrtg-l.png\""
+    },
+    {
+      "name": "Logo in footer2",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MRTG",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "HREF=\"http://www.ee.ethz.ch/~oetiker/webtools/mrtg/\">.*src=mrtg-l.png alt=MRTG"
+    }
+  ]
+}

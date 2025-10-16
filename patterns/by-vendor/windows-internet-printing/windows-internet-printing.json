@@ -1,0 +1,54 @@
+{
+  "vendor": "Windows-Internet-Printing",
+  "vendor_id": "windows-internet-printing",
+  "product": "Windows-Internet-Printing",
+  "product_id": "windows-internet-printing",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Windows-Internet-Printing Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Windows-Internet-Printing",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "        <td width=\"12%\"><img src=\"images/ipp_0002.gif\" alt=\"printers.gif\"></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ <td\\ width=\"12%\"><img\\ src=\"images/ipp_0002\\.gif\"\\ alt=\"printers\\.gif\"></td>"
+    },
+    {
+      "name": "Windows-Internet-Printing Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Windows-Internet-Printing",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "      <tr><td bgcolor=#000000 nowrap><font  face=\"Tahoma, Verdana, Arial, MS Sans Serif\"  size=2 color=white><b>Name&nbsp;&nbsp;</b></font></td><td bgcolor=#000000 nowrap><font  face=\"Tahoma, Verdana, Arial, MS Sans Serif\"  size=2 color=white><b>Status&nbsp;&nbsp;</b></font></td><td bgcolor=#000000 nowrap><font  face=\"Tahoma, Verdana, Arial, MS Sans Serif\"  size=2 color=white><b>Location&nbsp;&nbsp;</b></font></td><td bgcolor=#000000 nowrap><font  face=\"Tahoma, Verdana, Arial, MS Sans Serif\"  size=2 color=white><b>Jobs&nbsp;&nbsp;</b></font></td><td bgcolor=#000000 nowrap><font  face=\"Tahoma, Verdana, Arial, MS Sans Serif\"  size=2 color=white><b>Model&nbsp;&nbsp;</b></font></td><td bgcolor=#000000 nowrap><font  face=\"Tahoma, Verdana, Arial, MS Sans Serif\"  size=2 color=white><b>Comment&nbsp;&nbsp;</b></font></td></tr><tr><td nowrap><font  face=\"Tahoma, Verdana, Arial, MS Sans Serif\"  size=2>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ \\ \\ <tr><td\\ bgcolor=\\#000000\\ nowrap><font\\ \\ face=\"Tahoma,\\ Verdana,\\ Arial,\\ MS\\ Sans\\ Serif\"\\ \\ size=2\\ color=white><b>Name\\&nbsp;\\&nbsp;</b></font></td><td\\ bgcolor=\\#000000\\ nowrap><font\\ \\ face=\"Tahoma,\\ Verdana,\\ Arial,\\ MS\\ Sans\\ Serif\"\\ \\ size=2\\ color=white><b>Status\\&nbsp;\\&nbsp;</b></font></td><td\\ bgcolor=\\#000000\\ nowrap><font\\ \\ face=\"Tahoma,\\ Verdana,\\ Arial,\\ MS\\ Sans\\ Serif\"\\ \\ size=2\\ color=white><b>Location\\&nbsp;\\&nbsp;</b></font></td><td\\ bgcolor=\\#000000\\ nowrap><font\\ \\ face=\"Tahoma,\\ Verdana,\\ Arial,\\ MS\\ Sans\\ Serif\"\\ \\ size=2\\ color=white><b>Jobs\\&nbsp;\\&nbsp;</b></font></td><td\\ bgcolor=\\#000000\\ nowrap><font\\ \\ face=\"Tahoma,\\ Verdana,\\ Arial,\\ MS\\ Sans\\ Serif\"\\ \\ size=2\\ color=white><b>Model\\&nbsp;\\&nbsp;</b></font></td><td\\ bgcolor=\\#000000\\ nowrap><font\\ \\ face=\"Tahoma,\\ Verdana,\\ Arial,\\ MS\\ Sans\\ Serif\"\\ \\ size=2\\ color=white><b>Comment\\&nbsp;\\&nbsp;</b></font></td></tr><tr><td\\ nowrap><font\\ \\ face=\"Tahoma,\\ Verdana,\\ Arial,\\ MS\\ Sans\\ Serif\"\\ \\ size=2>"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "vendor": "Microsys-PROMOTIC",
+  "vendor_id": "microsys-promotic",
+  "product": "Microsys-PROMOTIC",
+  "product_id": "microsys-promotic",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Microsys-PROMOTIC Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsys-PROMOTIC",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Promotic$"
+    },
+    {
+      "name": "Microsys-PROMOTIC Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsys-PROMOTIC",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html><head><title>PROMOTIC Redirection</title></head>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html><head><title>PROMOTIC\\ Redirection</title></head>"
+    }
+  ]
+}

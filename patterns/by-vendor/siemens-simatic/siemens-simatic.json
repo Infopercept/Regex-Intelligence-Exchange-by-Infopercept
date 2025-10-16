@@ -1,0 +1,230 @@
+{
+  "vendor": "Siemens-Simatic",
+  "vendor_id": "siemens-simatic",
+  "product": "Siemens-Simatic",
+  "product_id": "siemens-simatic",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Siemens-Simatic Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Siemens-Simatic",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<META HTTP-EQUIV=\"refresh\" content=\"0;URL=/www/start.html\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<META\\ HTTP\\-EQUIV=\"refresh\"\\ content=\"0;URL=/www/start\\.html\">"
+    },
+    {
+      "name": "Siemens-Simatic Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Siemens-Simatic",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title> Miniweb Start Page </title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>\\ Miniweb\\ Start\\ Page\\ </title>"
+    },
+    {
+      "name": "Siemens-Simatic Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Siemens-Simatic",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"/Images/Siemens_Firmenmarke.gif\" alt=\"Siemens\" border=\"0\"></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"/Images/Siemens_Firmenmarke\\.gif\"\\ alt=\"Siemens\"\\ border=\"0\"></td>"
+    },
+    {
+      "name": "Siemens-Simatic Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Siemens-Simatic",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<font color=\"#ffffff\"> <!-- font ist da, um bei einer Anzeige OHNE CSS nicht schwarz auf schwarz anzuzeigen -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<font\\ color=\"\\#ffffff\">\\ <!\\-\\-\\ font\\ ist\\ da,\\ um\\ bei\\ einer\\ Anzeige\\ OHNE\\ CSS\\ nicht\\ schwarz\\ auf\\ schwarz\\ anzuzeigen\\ \\-\\->"
+    },
+    {
+      "name": "Siemens-Simatic Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Siemens-Simatic",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Hint:<br> When the devicename contains an underscore ( _ ) some browsers have a bug that makes it impossible to log in.<br> One possible solution may be to use the IP address of the device instead of the name, or to use another browser.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Hint:<br>\\ When\\ the\\ devicename\\ contains\\ an\\ underscore\\ \\(\\ _\\ \\)\\ some\\ browsers\\ have\\ a\\ bug\\ that\\ makes\\ it\\ impossible\\ to\\ log\\ in\\.<br>\\ One\\ possible\\ solution\\ may\\ be\\ to\\ use\\ the\\ IP\\ address\\ of\\ the\\ device\\ instead\\ of\\ the\\ name,\\ or\\ to\\ use\\ another\\ browser\\."
+    },
+    {
+      "name": "Siemens-Simatic Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Siemens-Simatic",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>SIMATIC NET IT-CP</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>SIMATIC\\ NET\\ IT\\-CP</title>"
+    },
+    {
+      "name": "Siemens-Simatic Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Siemens-Simatic",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td class=\"Login_Area\" colspan=\"2\"><img src=\"/SIMATIC_CONTROLLER.png\" alt=\"Simatic S7 CP\"></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ class=\"Login_Area\"\\ colspan=\"2\"><img\\ src=\"/SIMATIC_CONTROLLER\\.png\"\\ alt=\"Simatic\\ S7\\ CP\"></td>"
+    },
+    {
+      "name": "Siemens-Simatic Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Siemens-Simatic",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td><img src=\"/Siemens_Firmenmarke_Header.gif\" alt=\"Siemens\" border=\"0\"></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td><img\\ src=\"/Siemens_Firmenmarke_Header\\.gif\"\\ alt=\"Siemens\"\\ border=\"0\"></td>"
+    },
+    {
+      "name": "Siemens-Simatic Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Siemens-Simatic",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/S7Web.css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/S7Web\\.css\">"
+    },
+    {
+      "name": "Siemens-Simatic Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Siemens-Simatic",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td class=\"MainMenu_Navigation_Level1\"><a class=\"MainMenu_Navigation_Text_Level1\" href=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ class=\"MainMenu_Navigation_Level1\"><a\\ class=\"MainMenu_Navigation_Text_Level1\"\\ href=\\\\"
+    }
+  ]
+}

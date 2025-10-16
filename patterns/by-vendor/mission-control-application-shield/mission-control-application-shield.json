@@ -1,0 +1,48 @@
+{
+  "vendor": "Mission-Control-Application-Shield",
+  "vendor_id": "mission-control-application-shield",
+  "product": "Mission-Control-Application-Shield",
+  "product_id": "mission-control-application-shield",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mission-Control-Application-Shield Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mission-Control-Application-Shield",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img id=\"logo\" src=\"/srm-error-pages/images/logo.gif\" alt=\"mission control application shield\" ></td><td><p class=\"notification\">Notification</p></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ id=\"logo\"\\ src=\"/srm\\-error\\-pages/images/logo\\.gif\"\\ alt=\"mission\\ control\\ application\\ shield\"\\ ></td><td><p\\ class=\"notification\">Notification</p></td>"
+    },
+    {
+      "name": "Mission-Control-Application-Shield Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mission-Control-Application-Shield",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Mission Control Application Shield$"
+    }
+  ]
+}

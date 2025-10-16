@@ -1,0 +1,54 @@
+{
+  "vendor": "EasyFeeds",
+  "vendor_id": "easyfeeds",
+  "product": "EasyFeeds",
+  "product_id": "easyfeeds",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "EasyFeeds Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for EasyFeeds",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"feedslist\" align=\"left\" class=\"divTableCell\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"feedslist\"\\ align=\"left\"\\ class=\"divTableCell\">"
+    },
+    {
+      "name": "EasyFeeds Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for EasyFeeds",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div style=\"float: left; height: 35px; width: 300px; margin: 45px 0px 0px 40px;\"></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ style=\"float:\\ left;\\ height:\\ 35px;\\ width:\\ 300px;\\ margin:\\ 45px\\ 0px\\ 0px\\ 40px;\"></div>"
+    }
+  ]
+}

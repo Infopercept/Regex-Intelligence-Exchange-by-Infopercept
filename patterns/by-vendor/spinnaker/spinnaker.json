@@ -1,0 +1,49 @@
+{
+  "vendor": "Spinnaker",
+  "vendor_id": "spinnaker",
+  "product": "Spinnaker",
+  "product_id": "spinnaker",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Spinnaker Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Spinnaker",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Spinnaker"
+    },
+    {
+      "name": "Spinnaker Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Spinnaker",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Spinnaker/([^\\s]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Spinnaker/([^\\s]+)",
+      "version_group": 1
+    }
+  ]
+}

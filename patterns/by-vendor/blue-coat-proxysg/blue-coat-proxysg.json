@@ -1,0 +1,26 @@
+{
+  "vendor": "Blue-Coat-ProxySG",
+  "vendor_id": "blue-coat-proxysg",
+  "product": "Blue-Coat-ProxySG",
+  "product_id": "blue-coat-proxysg",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Blue-Coat-ProxySG Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Blue-Coat-ProxySG",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "https?://proxysg/\\?cfru=[^\\s]+$"
+    }
+  ]
+}

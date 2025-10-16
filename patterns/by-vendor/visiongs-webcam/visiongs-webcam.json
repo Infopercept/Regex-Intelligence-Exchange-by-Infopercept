@@ -1,0 +1,70 @@
+{
+  "vendor": "VisionGS-Webcam",
+  "vendor_id": "visiongs-webcam",
+  "product": "VisionGS-Webcam",
+  "product_id": "visiongs-webcam",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VisionGS-Webcam Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VisionGS-Webcam",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>VisionGS Webcam Software</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>VisionGS\\ Webcam\\ Software</title>"
+    },
+    {
+      "name": "VisionGS-Webcam Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VisionGS-Webcam",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "  <!-- VisionGS Still Code Begin -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ <!\\-\\-\\ VisionGS\\ Still\\ Code\\ Begin\\ \\-\\->"
+    },
+    {
+      "name": "VisionGS-Webcam Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VisionGS-Webcam",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"http://www.visiongs.de/\"><font [size=\"1\"\\ ]*face=\"Verdana, Arial, Helvetica, sans-serif\"[\\ size=\"1\"]*>VisionGS"
+    }
+  ]
+}

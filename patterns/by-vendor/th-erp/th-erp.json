@@ -1,0 +1,54 @@
+{
+  "vendor": "th-ERP",
+  "vendor_id": "th-erp",
+  "product": "th-ERP",
+  "product_id": "th-erp",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "th-ERP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for th-ERP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<LINK REL=StyleSheet HREF='../include/therp.css' TYPE='text/css'><script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<LINK\\ REL=StyleSheet\\ HREF='\\.\\./include/therp\\.css'\\ TYPE='text/css'><script>"
+    },
+    {
+      "name": "th-ERP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for th-ERP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>thERP - Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>thERP\\ \\-\\ Login</title>"
+    }
+  ]
+}

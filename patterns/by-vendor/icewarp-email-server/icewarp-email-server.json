@@ -1,0 +1,70 @@
+{
+  "vendor": "IceWarp-Email-Server",
+  "vendor_id": "icewarp-email-server",
+  "product": "IceWarp-Email-Server",
+  "product_id": "icewarp-email-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "IceWarp-Email-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for IceWarp-Email-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<DIV align=\"center\" CLASS=\"copy\">Powered by[\\s]+<A HREF=\"http://www.icewarp.com/\" target=\"_blank\" CLASS=\"copylink\">IceWarp Software</A> <A HREF=\"http://(www\\.)?icewarp\\.com/Products/Merak_Email_Server_Software/\" target=\"_blank\" CLASS=\"copylink\">Merak Email Server</A><BR>"
+    },
+    {
+      "name": "IceWarp-Email-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for IceWarp-Email-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<noscript>Please, enable <strong>JavaScript</strong> for this site and if such option is not available, download the latest <a href=\"http://www.microsoft.com/windows/downloads/ie/getitnow.mspx\">Internet Explorer</a> or <a href=\"http://www.getfirefox.com\">Mozilla FireFox</a>.</noscript>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<noscript>Please,\\ enable\\ <strong>JavaScript</strong>\\ for\\ this\\ site\\ and\\ if\\ such\\ option\\ is\\ not\\ available,\\ download\\ the\\ latest\\ <a\\ href=\"http://www\\.microsoft\\.com/windows/downloads/ie/getitnow\\.mspx\">Internet\\ Explorer</a>\\ or\\ <a\\ href=\"http://www\\.getfirefox\\.com\">Mozilla\\ FireFox</a>\\.</noscript>"
+    },
+    {
+      "name": "IceWarp-Email-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for IceWarp-Email-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span id=\"cipher\"><input type=\"checkbox\" name=\"xcipher\" value=\"1\" >Encrypted login</span>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span\\ id=\"cipher\"><input\\ type=\"checkbox\"\\ name=\"xcipher\"\\ value=\"1\"\\ >Encrypted\\ login</span>"
+    }
+  ]
+}

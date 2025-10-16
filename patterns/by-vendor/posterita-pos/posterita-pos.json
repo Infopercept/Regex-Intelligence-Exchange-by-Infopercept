@@ -1,0 +1,54 @@
+{
+  "vendor": "Posterita-POS",
+  "vendor_id": "posterita-pos",
+  "product": "Posterita-POS",
+  "product_id": "posterita-pos",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Posterita-POS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Posterita-POS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"images/newUI/logo.gif\" alt=\"Powered by Posterita POS\" width=\"133px\" height=\"41px\" border=\"0px\"/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"images/newUI/logo\\.gif\"\\ alt=\"Powered\\ by\\ Posterita\\ POS\"\\ width=\"133px\"\\ height=\"41px\"\\ border=\"0px\"/>"
+    },
+    {
+      "name": "Posterita-POS Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Posterita-POS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- chooseApplication.jsp -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ chooseApplication\\.jsp\\ \\-\\->"
+    }
+  ]
+}

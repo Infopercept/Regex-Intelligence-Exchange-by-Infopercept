@@ -1,0 +1,33 @@
+{
+  "vendor": "UrlRewriter_NET",
+  "vendor_id": "urlrewriter_net",
+  "product": "UrlRewriter_NET",
+  "product_id": "urlrewriter_net",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "UrlRewriter_NET Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for UrlRewriter_NET",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-powered-by: UrlRewriter\\.NET ([^\\s]+)",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-powered-by: UrlRewriter\\.NET ([^\\s]+)",
+      "version_group": 1
+    }
+  ]
+}

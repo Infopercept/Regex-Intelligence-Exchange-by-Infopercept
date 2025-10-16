@@ -1,0 +1,26 @@
+{
+  "vendor": "Easy-Site-Edit",
+  "vendor_id": "easy-site-edit",
+  "product": "Easy-Site-Edit",
+  "product_id": "easy-site-edit",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Easy-Site-Edit Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Easy-Site-Edit",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by <a href=\"http://www\\.easysiteedit\\.com\" class=\"link(tahoma11)?[^\"]*\" target=\"_blank\">Easy Site-Edit</a>"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "vendor": "QuiXplorer",
+  "vendor_id": "quixplorer",
+  "product": "QuiXplorer",
+  "product_id": "quixplorer",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "QuiXplorer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QuiXplorer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<A class=\"title\" href=\"http://quixplorer.sourceforge.net\" target=\"_blank\">QuiXplorer</A> - <A href=\"http://quix.tk\" target=\"_blank\">the QuiX project</A></SMALL>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<A\\ class=\"title\"\\ href=\"http://quixplorer\\.sourceforge\\.net\"\\ target=\"_blank\">QuiXplorer</A>\\ \\-\\ <A\\ href=\"http://quix\\.tk\"\\ target=\"_blank\">the\\ QuiX\\ project</A></SMALL>"
+    }
+  ]
+}

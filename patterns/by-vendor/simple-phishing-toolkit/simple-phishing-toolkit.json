@@ -1,0 +1,76 @@
+{
+  "vendor": "Simple-Phishing-Toolkit",
+  "vendor_id": "simple-phishing-toolkit",
+  "product": "Simple-Phishing-Toolkit",
+  "product_id": "simple-phishing-toolkit",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Simple-Phishing-Toolkit Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Simple-Phishing-Toolkit",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"browser_warning\">You are running a web browser that has not been tested...Try the latest version of <a href=\"http://google.com/chrome\">Google Chrome</a>, <a href=\"http://microsoft.com/ie\">Microsoft Internet Explorer</a> or <a href=\"http://mozilla.org/firefox\">Mozilla Firefox</a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"browser_warning\">You\\ are\\ running\\ a\\ web\\ browser\\ that\\ has\\ not\\ been\\ tested\\.\\.\\.Try\\ the\\ latest\\ version\\ of\\ <a\\ href=\"http://google\\.com/chrome\">Google\\ Chrome</a>,\\ <a\\ href=\"http://microsoft\\.com/ie\">Microsoft\\ Internet\\ Explorer</a>\\ or\\ <a\\ href=\"http://mozilla\\.org/firefox\">Mozilla\\ Firefox</a></div>"
+    },
+    {
+      "name": "Simple-Phishing-Toolkit Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Simple-Phishing-Toolkit",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"welcome to spt - simple phishing toolkit.  spt is a super simple but powerful phishing toolkit.\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"welcome\\ to\\ spt\\ \\-\\ simple\\ phishing\\ toolkit\\.\\ \\ spt\\ is\\ a\\ super\\ simple\\ but\\ powerful\\ phishing\\ toolkit\\.\"\\ />"
+    },
+    {
+      "name": "Simple-Phishing-Toolkit Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Simple-Phishing-Toolkit",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>spt - simple phishing toolkit</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>spt\\ \\-\\ simple\\ phishing\\ toolkit</title>"
+    }
+  ]
+}

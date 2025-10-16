@@ -1,0 +1,70 @@
+{
+  "vendor": "Forest-Blog",
+  "vendor_id": "forest-blog",
+  "product": "Forest-Blog",
+  "product_id": "forest-blog",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Forest-Blog Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Forest-Blog",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered [B|b]?y[:]? <a href=\"http://www.hostforest.co.uk/[^\"]*\"[^>]+title=\"Forest Blog\"[^>]*>"
+    },
+    {
+      "name": "Forest-Blog Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Forest-Blog",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Forest Blog Administration</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Forest\\ Blog\\ Administration</title>"
+    },
+    {
+      "name": "Forest-Blog Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Forest-Blog",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t<h1>Forest Blog Administration</h1>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\t<h1>Forest\\ Blog\\ Administration</h1>"
+    }
+  ]
+}

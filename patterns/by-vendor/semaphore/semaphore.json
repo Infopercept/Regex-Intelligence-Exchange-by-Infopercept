@@ -1,0 +1,70 @@
+{
+  "vendor": "Semaphore",
+  "vendor_id": "semaphore",
+  "product": "Semaphore",
+  "product_id": "semaphore",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Semaphore Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Semaphore",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html><head><title>Semaphore server Error</title></head><body>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html><head><title>Semaphore\\ server\\ Error</title></head><body>"
+    },
+    {
+      "name": "Semaphore Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Semaphore",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Display the \"Powered by Semaphore\" logo -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Display\\ the\\ \"Powered\\ by\\ Semaphore\"\\ logo\\ \\-\\->"
+    },
+    {
+      "name": "Semaphore Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Semaphore",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"http://www.smartlogic.com/poweredbysemaphore\"><img src=\"[^\"^>]+/semaphore/semaphore_small\\.gif\"[^>]+alt=\"Powered by Semaphore\" title=\"Powered by Semaphore\" /></a>"
+    }
+  ]
+}

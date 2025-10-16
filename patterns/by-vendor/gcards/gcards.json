@@ -1,0 +1,54 @@
+{
+  "vendor": "gCards",
+  "vendor_id": "gcards",
+  "product": "gCards",
+  "product_id": "gcards",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "gCards Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for gCards",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"compose.php?imageid=",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"compose\\.php\\?imageid="
+    },
+    {
+      "name": "gCards Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for gCards",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>eCards Administration Console Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>eCards\\ Administration\\ Console\\ Login</title>"
+    }
+  ]
+}

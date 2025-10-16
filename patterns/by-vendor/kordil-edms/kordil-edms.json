@@ -1,0 +1,48 @@
+{
+  "vendor": "Kordil-EDMS",
+  "vendor_id": "kordil-edms",
+  "product": "Kordil-EDMS",
+  "product_id": "kordil-edms",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Kordil-EDMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kordil-EDMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "stm_aix(\"p6i3\",\"p1i0\",[0,\" Kordil EDMS\\\\\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "stm_aix\\(\"p6i3\",\"p1i0\",\\[0,\"\\ Kordil\\ EDMS\\\\\\\\\\\\"
+    },
+    {
+      "name": "Kordil-EDMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kordil-EDMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "https?://[^/]+kordil_edms/documents\\.php$"
+    }
+  ]
+}

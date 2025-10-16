@@ -1,0 +1,42 @@
+{
+  "vendor": "DUclassified",
+  "vendor_id": "duclassified",
+  "product": "DUclassified",
+  "product_id": "duclassified",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "default title",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DUclassified",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>DUclassified[\\s\\d\\.]*</title>"
+    },
+    {
+      "name": "assets/DUclassified.css",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DUclassified",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link[^>]href=\"[^\"]*assets/DUclassified.css\"[^>]+>"
+    }
+  ]
+}

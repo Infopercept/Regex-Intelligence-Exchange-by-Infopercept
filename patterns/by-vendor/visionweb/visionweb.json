@@ -1,0 +1,48 @@
+{
+  "vendor": "VisionWEB",
+  "vendor_id": "visionweb",
+  "product": "VisionWEB",
+  "product_id": "visionweb",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VisionWEB Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VisionWEB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^IWeb/([^\\s]+)"
+    },
+    {
+      "name": "VisionWEB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VisionWEB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<b>CIEFFE srl</b> - \"We power Your eyes\"<br",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<b>CIEFFE\\ srl</b>\\ \\-\\ \"We\\ power\\ Your\\ eyes\"<br"
+    }
+  ]
+}

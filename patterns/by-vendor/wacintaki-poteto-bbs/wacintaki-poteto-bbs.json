@@ -1,0 +1,48 @@
+{
+  "vendor": "Wacintaki-Poteto-BBS",
+  "vendor_id": "wacintaki-poteto-bbs",
+  "product": "Wacintaki-Poteto-BBS",
+  "product_id": "wacintaki-poteto-bbs",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Wacintaki-Poteto-BBS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Wacintaki-Poteto-BBS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<div align=\"center\">OekakiPoteto v([^\\s]+) by <a href=\"http://suteki\\.nu\">RanmaGuy</a> and <a href=\"http://www\\.cellosoft\\.com\">Marcello</a>"
+    },
+    {
+      "name": "Wacintaki-Poteto-BBS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Wacintaki-Poteto-BBS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "OekakiPoteto 5.x by <a href=\"http://www.suteki.nu\">RanmaGuy</a> and <a href=\"http://www.cellosoft.com\">Marcello</a><br />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "OekakiPoteto\\ 5\\.x\\ by\\ <a\\ href=\"http://www\\.suteki\\.nu\">RanmaGuy</a>\\ and\\ <a\\ href=\"http://www\\.cellosoft\\.com\">Marcello</a><br\\ />"
+    }
+  ]
+}

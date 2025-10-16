@@ -1,0 +1,42 @@
+{
+  "vendor": "MooTools",
+  "vendor_id": "mootools",
+  "product": "MooTools",
+  "product_id": "mootools",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MooTools Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MooTools",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^// Load your build at: http://mootools.net/core/"
+    },
+    {
+      "name": "MooTools Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MooTools",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^//MooTools More, <http://mootools.net/more>. Copyright \\(c\\) 2006-2008 Valerio Proietti, <http://mad4milk.net>, MIT Style License."
+    }
+  ]
+}

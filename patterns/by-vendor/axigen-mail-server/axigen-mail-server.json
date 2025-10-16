@@ -1,0 +1,98 @@
+{
+  "vendor": "Axigen-Mail-Server",
+  "vendor_id": "axigen-mail-server",
+  "product": "Axigen-Mail-Server",
+  "product_id": "axigen-mail-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Axigen-Mail-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axigen-Mail-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "            top.opener.location.href=\"/?login=\";",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ top\\.opener\\.location\\.href=\"/\\?login=\";"
+    },
+    {
+      "name": "Axigen-Mail-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axigen-Mail-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div>Powered by <a href=\"http://www.axigen.com\" target=\"_blank\" class=\"gray\">Axigen Mail Server</a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div>Powered\\ by\\ <a\\ href=\"http://www\\.axigen\\.com\"\\ target=\"_blank\"\\ class=\"gray\">Axigen\\ Mail\\ Server</a></div>"
+    },
+    {
+      "name": "Axigen-Mail-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axigen-Mail-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.axigen.com/\" target=\"_blank\">Axigen Mail Server</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.axigen\\.com/\"\\ target=\"_blank\">Axigen\\ Mail\\ Server</a>"
+    },
+    {
+      "name": "Axigen-Mail-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axigen-Mail-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"nojsContainer\"><h1>In order to access AXIGEN Webmail, <br />you must enable Javascript in your browser!</h1></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"nojsContainer\"><h1>In\\ order\\ to\\ access\\ AXIGEN\\ Webmail,\\ <br\\ />you\\ must\\ enable\\ Javascript\\ in\\ your\\ browser!</h1></div>"
+    }
+  ]
+}

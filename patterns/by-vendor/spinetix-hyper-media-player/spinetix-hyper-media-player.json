@@ -1,0 +1,92 @@
+{
+  "vendor": "SpinetiX-Hyper-Media-Player",
+  "vendor_id": "spinetix-hyper-media-player",
+  "product": "SpinetiX-Hyper-Media-Player",
+  "product_id": "spinetix-hyper-media-player",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SpinetiX-Hyper-Media-Player Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SpinetiX-Hyper-Media-Player",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>HMP100 #[0-9a-z]*: Status</title>"
+    },
+    {
+      "name": "SpinetiX-Hyper-Media-Player Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SpinetiX-Hyper-Media-Player",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<h1>SpinetiX HMP100 Web Access</h1></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<h1>SpinetiX\\ HMP100\\ Web\\ Access</h1></div>"
+    },
+    {
+      "name": "SpinetiX-Hyper-Media-Player Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SpinetiX-Hyper-Media-Player",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src='images/device_hmp100.jpg' width='550' height='323' alt='SpinetiX HMP100' usemap='#advancedMap'/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src='images/device_hmp100\\.jpg'\\ width='550'\\ height='323'\\ alt='SpinetiX\\ HMP100'\\ usemap='\\#advancedMap'/>"
+    },
+    {
+      "name": "SpinetiX-Hyper-Media-Player Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SpinetiX-Hyper-Media-Player",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel='shortcut icon' href='css/ithemeSpinetix_favicon.ico' type='image/x-icon' />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel='shortcut\\ icon'\\ href='css/ithemeSpinetix_favicon\\.ico'\\ type='image/x\\-icon'\\ />"
+    }
+  ]
+}

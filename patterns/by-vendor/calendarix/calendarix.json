@@ -1,0 +1,70 @@
+{
+  "vendor": "Calendarix",
+  "vendor_id": "calendarix",
+  "product": "Calendarix",
+  "product_id": "calendarix",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Calendarix Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Calendarix",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "powered by <a[^>]*http://www.calendarix.com[^>]+>Calendarix</a>"
+    },
+    {
+      "name": "Calendarix Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Calendarix",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "var url = 'cal_popup.php?op=view&id='+event+'&uname=' ;",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "var\\ url\\ =\\ 'cal_popup\\.php\\?op=view\\&id='\\+event\\+'\\&uname='\\ ;"
+    },
+    {
+      "name": "Calendarix Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Calendarix",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Calendarix User Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Calendarix\\ User\\ Login</title>"
+    }
+  ]
+}

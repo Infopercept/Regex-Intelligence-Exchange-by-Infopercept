@@ -1,0 +1,76 @@
+{
+  "vendor": "VMware-VirtualCenter",
+  "vendor_id": "vmware-virtualcenter",
+  "product": "VMware-VirtualCenter",
+  "product_id": "vmware-virtualcenter",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VMware-VirtualCenter Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VMware-VirtualCenter",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"text/javascript\">document.write(\"<title>\" + ID_VC_Welcome + \"</title>\");</script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ type=\"text/javascript\">document\\.write\\(\"<title>\"\\ \\+\\ ID_VC_Welcome\\ \\+\\ \"</title>\"\\);</script>"
+    },
+    {
+      "name": "VMware-VirtualCenter Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VMware-VirtualCenter",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"VMware vSphere is virtual infrastructure software for partitioning, consolidating and managing systems in mission-critical environments. VMware ESX Server provides a highly scalable platform with advanced resource management capabilities, which can be managed by vSphere.\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"VMware\\ vSphere\\ is\\ virtual\\ infrastructure\\ software\\ for\\ partitioning,\\ consolidating\\ and\\ managing\\ systems\\ in\\ mission\\-critical\\ environments\\.\\ VMware\\ ESX\\ Server\\ provides\\ a\\ highly\\ scalable\\ platform\\ with\\ advanced\\ resource\\ management\\ capabilities,\\ which\\ can\\ be\\ managed\\ by\\ vSphere\\.\">"
+    },
+    {
+      "name": "VMware-VirtualCenter Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VMware-VirtualCenter",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>VMware Virtual Infrastructure Web Access</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>VMware\\ Virtual\\ Infrastructure\\ Web\\ Access</title>"
+    }
+  ]
+}

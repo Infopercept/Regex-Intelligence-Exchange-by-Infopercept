@@ -1,0 +1,99 @@
+{
+  "vendor": "Alt-N-MDaemon-WorldClient",
+  "vendor_id": "alt-n-mdaemon-worldclient",
+  "product": "Alt-N-MDaemon-WorldClient",
+  "product_id": "alt-n-mdaemon-worldclient",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Alt-N-MDaemon-WorldClient Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Alt-N-MDaemon-WorldClient",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"biglogo\" align=\"center\"><img src=\"LookOut/biglogo.gif\" alt=\"WorldClient\" /></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"biglogo\"\\ align=\"center\"><img\\ src=\"LookOut/biglogo\\.gif\"\\ alt=\"WorldClient\"\\ /></div>"
+    },
+    {
+      "name": "Alt-N-MDaemon-WorldClient Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Alt-N-MDaemon-WorldClient",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form action=\"/WorldClient.dll?View=Main\" target=\"_top\" method=\"post\" onsubmit=\"document.getElementById(\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ action=\"/WorldClient\\.dll\\?View=Main\"\\ target=\"_top\"\\ method=\"post\"\\ onsubmit=\"document\\.getElementById\\(\\\\"
+    },
+    {
+      "name": "Alt-N-MDaemon-WorldClient Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Alt-N-MDaemon-WorldClient",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form action=\"/WorldClient.dll?View=Main\" target=\"_top\" method=\"post\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ action=\"/WorldClient\\.dll\\?View=Main\"\\ target=\"_top\"\\ method=\"post\">"
+    },
+    {
+      "name": "Alt-N-MDaemon-WorldClient Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Alt-N-MDaemon-WorldClient",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^WDaemon/8.5$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^WDaemon/([\\d\\.]+)$",
+      "version_group": 1
+    }
+  ]
+}

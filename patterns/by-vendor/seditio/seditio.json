@@ -1,0 +1,76 @@
+{
+  "vendor": "Seditio",
+  "vendor_id": "seditio",
+  "product": "Seditio",
+  "product_id": "seditio",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Seditio Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Seditio",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"Seditio by Neocrome http://www.neocrome.net\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"Seditio\\ by\\ Neocrome\\ http://www\\.neocrome\\.net\"\\ />"
+    },
+    {
+      "name": "Seditio Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Seditio",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.neocrome.net\">Powered by Seditio</a><br />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.neocrome\\.net\">Powered\\ by\\ Seditio</a><br\\ />"
+    },
+    {
+      "name": "Seditio Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Seditio",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<br />Powered by <a href=\"http://www.neocrome.net\" target=\"_blank\">Seditio</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<br\\ />Powered\\ by\\ <a\\ href=\"http://www\\.neocrome\\.net\"\\ target=\"_blank\">Seditio</a>"
+    }
+  ]
+}

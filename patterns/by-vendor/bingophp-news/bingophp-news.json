@@ -1,0 +1,142 @@
+{
+  "vendor": "BinGoPHP-News",
+  "vendor_id": "bingophp-news",
+  "product": "BinGoPHP-News",
+  "product_id": "bingophp-news",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BinGoPHP-News Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BinGoPHP-News",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</b><a href='bnadmin.php' target='_blank'>Admin des news</a>'",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</b><a\\ href='bnadmin\\.php'\\ target='_blank'>Admin\\ des\\ news</a>'"
+    },
+    {
+      "name": "BinGoPHP-News Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BinGoPHP-News",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://bingophp.free.fr\" target=\"_blank\"><font color=\"#00000\" style=\"font-size: 8px\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://bingophp\\.free\\.fr\"\\ target=\"_blank\"><font\\ color=\"\\#00000\"\\ style=\"font\\-size:\\ 8px\">"
+    },
+    {
+      "name": "BinGoPHP-News Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BinGoPHP-News",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "onClick=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "onClick=\\\\"
+    },
+    {
+      "name": "BinGoPHP-News Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BinGoPHP-News",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html><head><title>BinGoPHP News - IDENTIFICATION</title></head>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html><head><title>BinGoPHP\\ News\\ \\-\\ IDENTIFICATION</title></head>"
+    },
+    {
+      "name": "BinGoPHP-News Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BinGoPHP-News",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<br><input type=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<br><input\\ type=\\\\"
+    },
+    {
+      "name": "BinGoPHP-News Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BinGoPHP-News",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "       <td width=\"50%\"><a href=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ <td\\ width=\"50%\"><a\\ href=\\\\"
+    }
+  ]
+}

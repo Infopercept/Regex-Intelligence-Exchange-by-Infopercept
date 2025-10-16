@@ -1,0 +1,54 @@
+{
+  "vendor": "Op5-Statistics",
+  "vendor_id": "op5-statistics",
+  "product": "Op5-Statistics",
+  "product_id": "op5-statistics",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Op5-Statistics Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Op5-Statistics",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td colspan=\"2\"><center><img src=\"/statistics/plugins/op5gui/op5_statistics.gif\" border=\"0\" alt=\"\"></center></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ colspan=\"2\"><center><img\\ src=\"/statistics/plugins/op5gui/op5_statistics\\.gif\"\\ border=\"0\"\\ alt=\"\"></center></td>"
+    },
+    {
+      "name": "Op5-Statistics Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Op5-Statistics",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Login to op5 Statistics</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Login\\ to\\ op5\\ Statistics</title>"
+    }
+  ]
+}

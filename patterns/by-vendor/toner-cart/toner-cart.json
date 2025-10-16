@@ -1,0 +1,32 @@
+{
+  "vendor": "Toner-Cart",
+  "vendor_id": "toner-cart",
+  "product": "Toner-Cart",
+  "product_id": "toner-cart",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Toner-Cart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Toner-Cart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p align=\"right\"><font color=\"#FFFFFF\">Powered by <a href=\"http://www.vastal.com/\" target=\"_blank\"><font color=\"#FFFFFF\">Vastal I-Tech",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ align=\"right\"><font\\ color=\"\\#FFFFFF\">Powered\\ by\\ <a\\ href=\"http://www\\.vastal\\.com/\"\\ target=\"_blank\"><font\\ color=\"\\#FFFFFF\">Vastal\\ I\\-Tech"
+    }
+  ]
+}

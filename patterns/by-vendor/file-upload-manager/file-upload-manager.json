@@ -1,0 +1,76 @@
+{
+  "vendor": "File-Upload-Manager",
+  "vendor_id": "file-upload-manager",
+  "product": "File-Upload-Manager",
+  "product_id": "file-upload-manager",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "File-Upload-Manager Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for File-Upload-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>File Upload Manager</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>File\\ Upload\\ Manager</title>"
+    },
+    {
+      "name": "File-Upload-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for File-Upload-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Copyright (c) 2003 thepeak. Get your own copy of this free PHP script from www.mtnpeak.net -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Copyright\\ \\(c\\)\\ 2003\\ thepeak\\.\\ Get\\ your\\ own\\ copy\\ of\\ this\\ free\\ PHP\\ script\\ from\\ www\\.mtnpeak\\.net\\ \\-\\->"
+    },
+    {
+      "name": "File-Upload-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for File-Upload-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.mtnpeak.net\" style=\"text-decoration: none; color: #C0C0C0; font-size: 9px; cursor: default\";>&copy; thepeak</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.mtnpeak\\.net\"\\ style=\"text\\-decoration:\\ none;\\ color:\\ \\#C0C0C0;\\ font\\-size:\\ 9px;\\ cursor:\\ default\";>\\&copy;\\ thepeak</a>"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "vendor": "Tiger-Netcom-Device",
+  "vendor_id": "tiger-netcom-device",
+  "product": "Tiger-Netcom-Device",
+  "product_id": "tiger-netcom-device",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Tiger-Netcom-Device Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tiger-Netcom-Device",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^TigerNetCom"
+    },
+    {
+      "name": "Tiger-Netcom-Device Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tiger-Netcom-Device",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^TigerNetCom/([^\\s]+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^TigerNetCom/([^\\s]+)$",
+      "version_group": 1
+    }
+  ]
+}

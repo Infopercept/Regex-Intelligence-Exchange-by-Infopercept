@@ -1,0 +1,32 @@
+{
+  "vendor": "WebIssues",
+  "vendor_id": "webissues",
+  "product": "WebIssues",
+  "product_id": "webissues",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WebIssues Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebIssues",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div><input type=\"hidden\" name=\"__formId\" id=\"field-login-__formId\" value=\"login\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div><input\\ type=\"hidden\"\\ name=\"__formId\"\\ id=\"field\\-login\\-__formId\"\\ value=\"login\"\\ />"
+    }
+  ]
+}

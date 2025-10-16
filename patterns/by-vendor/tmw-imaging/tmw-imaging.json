@@ -1,0 +1,70 @@
+{
+  "vendor": "TMW-Imaging",
+  "vendor_id": "tmw-imaging",
+  "product": "TMW-Imaging",
+  "product_id": "tmw-imaging",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TMW-Imaging Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TMW-Imaging",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "TMWImagingSession=[^;]+"
+    },
+    {
+      "name": "TMW-Imaging Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TMW-Imaging",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- TMW Document Imaging -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ TMW\\ Document\\ Imaging\\ \\-\\->"
+    },
+    {
+      "name": "TMW-Imaging Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TMW-Imaging",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- HTML Library is $Id: TmwHTML.pm",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ HTML\\ Library\\ is\\ \\$Id:\\ TmwHTML\\.pm"
+    }
+  ]
+}

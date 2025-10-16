@@ -1,0 +1,272 @@
+{
+  "vendor": "Plesk",
+  "vendor_id": "plesk",
+  "product": "Plesk",
+  "product_id": "plesk",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Plesk Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plesk",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "sw-cp-server"
+    },
+    {
+      "name": "logo gif",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plesk",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<img src='def_plesk_logo\\.gif' alt=\"Plesk logo\""
+    },
+    {
+      "name": "Plesk Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plesk",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>For more information please contact <!--@adminemail@-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>For\\ more\\ information\\ please\\ contact\\ <!\\-\\-@adminemail@\\-\\->"
+    },
+    {
+      "name": "poweredBy parallels",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plesk",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a target=\"_blank\" href=\"http://www\\.parallels\\.com\"><img src=\"[^\"]+/parallels_powered\\.gif\" title=\"Powered by Parallels&trade;\"></a>"
+    },
+    {
+      "name": "Plesk Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plesk",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"poweredBy\"><a target=\"_blank\" href=\"http://www.swsoft.com/en/products/plesk/",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"poweredBy\"><a\\ target=\"_blank\"\\ href=\"http://www\\.swsoft\\.com/en/products/plesk/"
+    },
+    {
+      "name": "Plesk Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plesk",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Default PLESK Page</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Default\\ PLESK\\ Page</title>"
+    },
+    {
+      "name": "Plesk Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plesk",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Default Parallels Plesk Panel Page</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Default\\ Parallels\\ Plesk\\ Panel\\ Page</title>"
+    },
+    {
+      "name": "Plesk Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plesk",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<h1>This is the Plesk&#153; default page</h1>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<h1>This\\ is\\ the\\ Plesk\\&\\#153;\\ default\\ page</h1>"
+    },
+    {
+      "name": "h1 plesk link",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plesk",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<h1><a class=\"product-logo\" href=\"http://www.parallels.com/plesk/\" title=\"Parallels Plesk Panel\">Parallels Plesk Panel</a></h1>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<h1><a\\ class=\"product\\-logo\"\\ href=\"http://www\\.parallels\\.com/plesk/\"\\ title=\"Parallels\\ Plesk\\ Panel\">Parallels\\ Plesk\\ Panel</a></h1>"
+    },
+    {
+      "name": "Plesk Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plesk",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "This page (was|is) generated by <a href=\"http://www\\.parallels\\.com/(en/products/)?plesk/\">Parallels Plesk Panel</a>"
+    },
+    {
+      "name": "Plesk Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plesk",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "This page is autogenerated by <a target=\"_blank\" href=\"http://www.swsoft.com/en/products/plesk/\">Plesk",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "This\\ page\\ is\\ autogenerated\\ by\\ <a\\ target=\"_blank\"\\ href=\"http://www\\.swsoft\\.com/en/products/plesk/\">Plesk"
+    },
+    {
+      "name": "Plesk Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plesk",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "if (window.plesk_promo.virtuozzo) {",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "if\\ \\(window\\.plesk_promo\\.virtuozzo\\)\\ \\{"
+    },
+    {
+      "name": "Plesk Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plesk",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</html><!--______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________IE error page size limitation______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</html><!\\-\\-______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________IE\\ error\\ page\\ size\\ limitation______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________\\-\\->"
+    }
+  ]
+}

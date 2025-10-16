@@ -1,0 +1,54 @@
+{
+  "vendor": "syntaxCMS",
+  "vendor_id": "syntaxcms",
+  "product": "syntaxCMS",
+  "product_id": "syntaxcms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "syntaxCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for syntaxCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.syntaxcms.org\">SyntaxCMS</a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.syntaxcms\\.org\">SyntaxCMS</a></div>"
+    },
+    {
+      "name": "syntaxCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for syntaxCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "powered by <a href=\"http://www.syntaxcms.org/\" title=\"SyntaxCMS\">SyntaxCMS</a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "powered\\ by\\ <a\\ href=\"http://www\\.syntaxcms\\.org/\"\\ title=\"SyntaxCMS\">SyntaxCMS</a></div>"
+    }
+  ]
+}

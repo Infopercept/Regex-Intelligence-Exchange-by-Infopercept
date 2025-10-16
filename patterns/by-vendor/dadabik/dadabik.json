@@ -1,0 +1,32 @@
+{
+  "vendor": "DaDaBIK",
+  "vendor_id": "dadabik",
+  "product": "DaDaBIK",
+  "product_id": "dadabik",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DaDaBIK Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DaDaBIK",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"powered_by_dadabik\" align=\"right\">Powered by: <a href=\"http://www.dadabik.org/\">DaDaBIK</a> database front-end</div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"powered_by_dadabik\"\\ align=\"right\">Powered\\ by:\\ <a\\ href=\"http://www\\.dadabik\\.org/\">DaDaBIK</a>\\ database\\ front\\-end</div>"
+    }
+  ]
+}

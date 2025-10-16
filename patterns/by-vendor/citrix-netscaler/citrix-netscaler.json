@@ -1,0 +1,42 @@
+{
+  "vendor": "Citrix-NetScaler",
+  "vendor_id": "citrix-netscaler",
+  "product": "Citrix-NetScaler",
+  "product_id": "citrix-netscaler",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Citrix-NetScaler Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Citrix-NetScaler",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "NS\\-CACHE"
+    },
+    {
+      "name": "NSC_ cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Citrix-NetScaler",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^NSC_"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "vendor": "Quick_Cms",
+  "vendor_id": "quick_cms",
+  "product": "Quick_Cms",
+  "product_id": "quick_cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Quick_Cms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Quick_Cms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "  <title>Admin - Quick.Cms - simple content management system</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ <title>Admin\\ \\-\\ Quick\\.Cms\\ \\-\\ simple\\ content\\ management\\ system</title>"
+    },
+    {
+      "name": "Quick_Cms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Quick_Cms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "    var cfLangNoWord      = \"Please fill in all required fields\";",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ var\\ cfLangNoWord\\ \\ \\ \\ \\ \\ =\\ \"Please\\ fill\\ in\\ all\\ required\\ fields\";"
+    },
+    {
+      "name": "Quick_Cms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Quick_Cms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "      <div class=\"foot\" id=\"powered\"><a href=\"http://opensolution.org/\">Powered by <strong>Quick.Cms</strong></a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ \\ \\ <div\\ class=\"foot\"\\ id=\"powered\"><a\\ href=\"http://opensolution\\.org/\">Powered\\ by\\ <strong>Quick\\.Cms</strong></a></div>"
+    },
+    {
+      "name": "Quick_Cms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Quick_Cms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "        LICENSE REQUIREMENTS - DONT DELETE/HIDE LINK \"powered by Quick.Cms\" TO www.OpenSolution.org",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ LICENSE\\ REQUIREMENTS\\ \\-\\ DONT\\ DELETE/HIDE\\ LINK\\ \"powered\\ by\\ Quick\\.Cms\"\\ TO\\ www\\.OpenSolution\\.org"
+    },
+    {
+      "name": "Quick_Cms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Quick_Cms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "  <meta name=\"Author\" content=\"OpenSolution.org\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ <meta\\ name=\"Author\"\\ content=\"OpenSolution\\.org\"\\ />"
+    }
+  ]
+}

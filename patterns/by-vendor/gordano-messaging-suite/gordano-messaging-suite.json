@@ -1,0 +1,33 @@
+{
+  "vendor": "Gordano-Messaging-Suite",
+  "vendor_id": "gordano-messaging-suite",
+  "product": "Gordano-Messaging-Suite",
+  "product_id": "gordano-messaging-suite",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Gordano-Messaging-Suite Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Gordano-Messaging-Suite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Gordano (Messaging Suite )?Web Server v([^\\s]+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Gordano (Messaging Suite )?Web Server v([^\\s]+)$",
+      "version_group": 1
+    }
+  ]
+}

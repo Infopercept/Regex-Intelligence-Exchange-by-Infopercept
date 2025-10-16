@@ -1,0 +1,54 @@
+{
+  "vendor": "XAMPP",
+  "vendor_id": "xampp",
+  "product": "XAMPP",
+  "product_id": "xampp",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "XAMPP Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for XAMPP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"Kai Oswald Seidler\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Kai\\ Oswald\\ Seidler\">"
+    },
+    {
+      "name": "XAMPP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for XAMPP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p style=\"margin-left: 2.6em; font-size: 1.2em; color: red;\">New XAMPP security concept:</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ style=\"margin\\-left:\\ 2\\.6em;\\ font\\-size:\\ 1\\.2em;\\ color:\\ red;\">New\\ XAMPP\\ security\\ concept:</p>"
+    }
+  ]
+}

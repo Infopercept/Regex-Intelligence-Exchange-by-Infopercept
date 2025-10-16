@@ -1,0 +1,64 @@
+{
+  "vendor": "Snare",
+  "vendor_id": "snare",
+  "product": "Snare",
+  "product_id": "snare",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Snare Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Snare",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^SNARE/([\\d\\.]+)$"
+    },
+    {
+      "name": "Snare Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Snare",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Digest realm=\"SNARE\""
+    },
+    {
+      "name": "Snare Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Snare",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<ADDRESS>Snare Server Remote Control facility</ADDRESS>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<ADDRESS>Snare\\ Server\\ Remote\\ Control\\ facility</ADDRESS>"
+    }
+  ]
+}

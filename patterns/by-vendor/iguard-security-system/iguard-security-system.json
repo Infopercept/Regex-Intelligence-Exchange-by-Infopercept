@@ -1,0 +1,32 @@
+{
+  "vendor": "iGuard-Security-System",
+  "vendor_id": "iguard-security-system",
+  "product": "iGuard-Security-System",
+  "product_id": "iguard-security-system",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "iGuard-Security-System Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iGuard-Security-System",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<TITLE>iGuard Fingerprint Security System</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<TITLE>iGuard\\ Fingerprint\\ Security\\ System</TITLE>"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "vendor": "FrogCMS",
+  "vendor_id": "frogcms",
+  "product": "FrogCMS",
+  "product_id": "frogcms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "poweredBy",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FrogCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "(Powered by|Running|Propuls\u00e9 par)[^<]*<a href=\"http://www.madebyfrog.com/\"[^>]*>Frog CMS"
+    },
+    {
+      "name": "default rss feed",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FrogCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Frog Default RSS Feed\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"alternate\"\\ type=\"application/rss\\+xml\"\\ title=\"Frog\\ Default\\ RSS\\ Feed\""
+    },
+    {
+      "name": "FrogCMS Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FrogCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<[^>]+\"/frog/plugins/"
+    }
+  ]
+}

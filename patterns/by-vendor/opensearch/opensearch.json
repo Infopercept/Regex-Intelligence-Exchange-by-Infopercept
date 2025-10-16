@@ -1,0 +1,26 @@
+{
+  "vendor": "OpenSearch",
+  "vendor_id": "opensearch",
+  "product": "OpenSearch",
+  "product_id": "opensearch",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "open search",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenSearch",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link[^>]+type=[\"']?application/opensearchdescription\\+xml['\"]?[^>]*>"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "vendor": "StackExchange",
+  "vendor_id": "stackexchange",
+  "product": "StackExchange",
+  "product_id": "stackexchange",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "StackExchange.init() call",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for StackExchange",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "StackExchange.init"
+    }
+  ]
+}

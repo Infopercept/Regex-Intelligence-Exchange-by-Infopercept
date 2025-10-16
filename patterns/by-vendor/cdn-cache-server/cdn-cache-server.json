@@ -1,0 +1,33 @@
+{
+  "vendor": "CDN-Cache-Server",
+  "vendor_id": "cdn-cache-server",
+  "product": "CDN-Cache-Server",
+  "product_id": "cdn-cache-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CDN-Cache-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CDN-Cache-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Cdn Cache Server V8.5",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Cdn Cache Server V([\\d\\.]+)",
+      "version_group": 1
+    }
+  ]
+}

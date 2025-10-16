@@ -1,0 +1,32 @@
+{
+  "vendor": "CERVIS",
+  "vendor_id": "cervis",
+  "product": "CERVIS",
+  "product_id": "cervis",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CERVIS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CERVIS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.cervistech.com\" target=\"_blank\"><img src=\"/acts/images/cervis_logo_sm.png\" align=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.cervistech\\.com\"\\ target=\"_blank\"><img\\ src=\"/acts/images/cervis_logo_sm\\.png\"\\ align=\\\\"
+    }
+  ]
+}

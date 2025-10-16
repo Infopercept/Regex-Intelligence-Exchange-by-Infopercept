@@ -1,0 +1,54 @@
+{
+  "vendor": "MeiTrack",
+  "vendor_id": "meitrack",
+  "product": "MeiTrack",
+  "product_id": "meitrack",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MeiTrack Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MeiTrack",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "var _TrackerMain_GTVTSeries = \"GT Series\\\\\\\\VT Series\";",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "var\\ _TrackerMain_GTVTSeries\\ =\\ \"GT\\ Series\\\\\\\\\\\\\\\\VT\\ Series\";"
+    },
+    {
+      "name": "MeiTrack Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MeiTrack",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form name=\"form1\" method=\"post\" action=\"trackerlogin.aspx\" id=\"form1\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ name=\"form1\"\\ method=\"post\"\\ action=\"trackerlogin\\.aspx\"\\ id=\"form1\">"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "vendor": "Coppermine",
+  "vendor_id": "coppermine",
+  "product": "Coppermine",
+  "product_id": "coppermine",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Coppermine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Coppermine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Coppermine Photo Gallery - Home</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Coppermine\\ Photo\\ Gallery\\ \\-\\ Home</title>"
+    },
+    {
+      "name": "Coppermine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Coppermine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Coppermine version: ([0-9\\.]+)[ \\n]*\\$Revision"
+    },
+    {
+      "name": "Coppermine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Coppermine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- BEGIN album_list -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ BEGIN\\ album_list\\ \\-\\->"
+    },
+    {
+      "name": "powered by link",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Coppermine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by <a href=\"http://(coppermine-gallery.net|coppermine.sf.net|coppermine.sourceforge.net)/\" [^>]+>Coppermine Photo Gallery</a>"
+    },
+    {
+      "name": "Coppermine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Coppermine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!--Coppermine Photo Gallery ([\\d\\.]+)[^>]+-->"
+    },
+    {
+      "name": "displayimage.php url",
+      "priority": 50,
+      "confidence": 0.5,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Coppermine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"[^\"]*/displayimage.php\\?album=[a-z0-9]+&pos=\">"
+    }
+  ]
+}

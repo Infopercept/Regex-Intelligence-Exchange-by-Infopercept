@@ -1,0 +1,42 @@
+{
+  "vendor": "b2evolution",
+  "vendor_id": "b2evolution",
+  "product": "b2evolution",
+  "product_id": "b2evolution",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "b2evolution Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for b2evolution",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "rsc/img/powered-by-b2evolution-150t.gif\" alt=\"Powered by b2evolution\""
+    },
+    {
+      "name": "b2evolution Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for b2evolution",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by <a href=\"http://b2evolution.net[/]*\"[^>]+>b2evolution</a>"
+    }
+  ]
+}

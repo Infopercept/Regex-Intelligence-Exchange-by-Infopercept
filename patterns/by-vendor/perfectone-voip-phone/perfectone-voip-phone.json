@@ -1,0 +1,76 @@
+{
+  "vendor": "Perfectone-VOIP-Phone",
+  "vendor_id": "perfectone-voip-phone",
+  "product": "Perfectone-VOIP-Phone",
+  "product_id": "perfectone-voip-phone",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Perfectone-VOIP-Phone Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Perfectone-VOIP-Phone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body OnLoad=\"JavaScript:document.loginform.user.focus();\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ OnLoad=\"JavaScript:document\\.loginform\\.user\\.focus\\(\\);\">"
+    },
+    {
+      "name": "Perfectone-VOIP-Phone Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Perfectone-VOIP-Phone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p style=\"margin-top: 5px\"><font face=\"Arial\"><input type=submit value=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ style=\"margin\\-top:\\ 5px\"><font\\ face=\"Arial\"><input\\ type=submit\\ value=\\\\"
+    },
+    {
+      "name": "Perfectone-VOIP-Phone Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Perfectone-VOIP-Phone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<font face=\"Arial\" color=\"#FFFFFF\"><b>Login VoIP</b></font></i></td> </tr>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<font\\ face=\"Arial\"\\ color=\"\\#FFFFFF\"><b>Login\\ VoIP</b></font></i></td>\\ </tr>"
+    }
+  ]
+}

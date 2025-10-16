@@ -1,0 +1,26 @@
+{
+  "vendor": "php-ping",
+  "vendor_id": "php-ping",
+  "product": "php-ping",
+  "product_id": "php-ping",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "php-ping Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for php-ping",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<form methode=\"post\" action=\"[^>]*>[\\s]*Enter IP or Host[^<]*<[^<]*type=\"text\" name=\"host\" value=\"[\\d\\.]*\"></input>[\\s]*Enter Count[^>]*name=\"count\" size=\"2\" value=\"4\"></input>[^>]*[\\s]*<input type=\"submit\"[^>]*name=\"submit\" value=\"Ping!\"></input></form><br><b></b>"
+    }
+  ]
+}

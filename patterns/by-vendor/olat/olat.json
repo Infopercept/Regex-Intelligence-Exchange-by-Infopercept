@@ -1,0 +1,230 @@
+{
+  "vendor": "OLAT",
+  "vendor_id": "olat",
+  "product": "OLAT",
+  "product_id": "olat",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OLAT Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OLAT",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"DC.creator\" content=\"University of Zurich - http://www.uzh.ch\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"DC\\.creator\"\\ content=\"University\\ of\\ Zurich\\ \\-\\ http://www\\.uzh\\.ch\"\\ />"
+    },
+    {
+      "name": "OLAT Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OLAT",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"DC.subject\" content=\"OLAT - Online Learning And Training - Your Open Source Learning Management System\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"DC\\.subject\"\\ content=\"OLAT\\ \\-\\ Online\\ Learning\\ And\\ Training\\ \\-\\ Your\\ Open\\ Source\\ Learning\\ Management\\ System\"\\ />"
+    },
+    {
+      "name": "OLAT Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OLAT",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"DC.contributor\" content=\"see http://www.olat.org/website/en/html/download_license.html\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"DC\\.contributor\"\\ content=\"see\\ http://www\\.olat\\.org/website/en/html/download_license\\.html\"\\ />"
+    },
+    {
+      "name": "OLAT Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OLAT",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>OLAT - Online Learning And Training</title></head>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>OLAT\\ \\-\\ Online\\ Learning\\ And\\ Training</title></head>"
+    },
+    {
+      "name": "OLAT Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OLAT",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>OLAT - Online Learning And Training </title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>OLAT\\ \\-\\ Online\\ Learning\\ And\\ Training\\ </title>"
+    },
+    {
+      "name": "OLAT Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OLAT",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body onload=\"b_start();\" id=\"b_body\" class=\"b_lang_en\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ onload=\"b_start\\(\\);\"\\ id=\"b_body\"\\ class=\"b_lang_en\">"
+    },
+    {
+      "name": "OLAT Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OLAT",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body onload=\"b_start();\" id=\"b_body\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ onload=\"b_start\\(\\);\"\\ id=\"b_body\">"
+    },
+    {
+      "name": "OLAT Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OLAT",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body onload=\"o2start();\" class=\"o_body\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ onload=\"o2start\\(\\);\"\\ class=\"o_body\">"
+    },
+    {
+      "name": "OLAT Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OLAT",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- START olatContentPanel -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ START\\ olatContentPanel\\ \\-\\->"
+    },
+    {
+      "name": "OLAT Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OLAT",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a accesskey=\"2\" href=\"#content\" title=\"Go to \"Content\"\"></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ accesskey=\"2\"\\ href=\"\\#content\"\\ title=\"Go\\ to\\ \"Content\"\"></a>"
+    }
+  ]
+}

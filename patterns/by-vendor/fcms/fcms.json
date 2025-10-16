@@ -1,0 +1,48 @@
+{
+  "vendor": "FCMS",
+  "vendor_id": "fcms",
+  "product": "FCMS",
+  "product_id": "fcms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"Ryan Haudenschilt\"/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Ryan\\ Haudenschilt\"/>"
+    },
+    {
+      "name": "FCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "- [pP]owered by Family Connections</title>"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "vendor": "Cisco-ACE",
+  "vendor_id": "cisco-ace",
+  "product": "Cisco-ACE",
+  "product_id": "cisco-ace",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Cisco-ACE Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cisco-ACE",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"/utility/cuesStylesLogo.css\" rel=\"stylesheet\" type=\"text/css\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"/utility/cuesStylesLogo\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ />"
+    }
+  ]
+}

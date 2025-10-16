@@ -1,0 +1,48 @@
+{
+  "vendor": "PHPWind",
+  "vendor_id": "phpwind",
+  "product": "PHPWind",
+  "product_id": "phpwind",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PHPWind Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHPWind",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>[^<]+ - (powered by phpwind.net|Powered by PHPWind)</title>"
+    },
+    {
+      "name": "PHPWind Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHPWind",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.phpwind.net/\" target=\"_blank\"><b>PHPWind</b></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.phpwind\\.net/\"\\ target=\"_blank\"><b>PHPWind</b></a>"
+    }
+  ]
+}

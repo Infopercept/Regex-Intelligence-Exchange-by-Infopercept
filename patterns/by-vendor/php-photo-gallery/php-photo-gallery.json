@@ -1,0 +1,54 @@
+{
+  "vendor": "PHP-Photo-Gallery",
+  "vendor_id": "php-photo-gallery",
+  "product": "PHP-Photo-Gallery",
+  "product_id": "php-photo-gallery",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PHP-Photo-Gallery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Photo-Gallery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://phpweby.com/software/gallery\">PHP Photo Gallery</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://phpweby\\.com/software/gallery\">PHP\\ Photo\\ Gallery</a>"
+    },
+    {
+      "name": "PHP-Photo-Gallery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Photo-Gallery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://phpweby.com\">PHP Photo Gallery</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://phpweby\\.com\">PHP\\ Photo\\ Gallery</a>"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "vendor": "Keil-Embedded-WEB-Server",
+  "vendor_id": "keil-embedded-web-server",
+  "product": "Keil-Embedded-WEB-Server",
+  "product_id": "keil-embedded-web-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Keil-Embedded-WEB-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Keil-Embedded-WEB-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<head><title>Keil Embedded WEB Server</title></head><body><h2>HTTP 1.0 401 Error. Unauthorized Access</h2>You are not authorized to access this server.<hr>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<head><title>Keil\\ Embedded\\ WEB\\ Server</title></head><body><h2>HTTP\\ 1\\.0\\ 401\\ Error\\.\\ Unauthorized\\ Access</h2>You\\ are\\ not\\ authorized\\ to\\ access\\ this\\ server\\.<hr>"
+    },
+    {
+      "name": "Keil-Embedded-WEB-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Keil-Embedded-WEB-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Keil-EWEB/([^\\s]+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Keil-EWEB/([^\\s]+)$",
+      "version_group": 1
+    },
+    {
+      "name": "Keil-Embedded-WEB-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Keil-Embedded-WEB-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Keil-EWEB"
+    }
+  ]
+}

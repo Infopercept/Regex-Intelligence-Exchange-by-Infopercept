@@ -1,0 +1,76 @@
+{
+  "vendor": "Zeus-Cart",
+  "vendor_id": "zeus-cart",
+  "product": "Zeus-Cart",
+  "product_id": "zeus-cart",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Zeus-Cart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Zeus-Cart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"images/warning.gif\">Warning: Installation directory exists ZEUSCART ROOT DIRECTORY/install. Please remove/rename this directory for security reasons.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"images/warning\\.gif\">Warning:\\ Installation\\ directory\\ exists\\ ZEUSCART\\ ROOT\\ DIRECTORY/install\\.\\ Please\\ remove/rename\\ this\\ directory\\ for\\ security\\ reasons\\."
+    },
+    {
+      "name": "Zeus-Cart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Zeus-Cart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.ajsquare.com/products/ecom/\" style=\"color:#716f6f;\" target=\"_blank\">ZeusCart</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.ajsquare\\.com/products/ecom/\"\\ style=\"color:\\#716f6f;\"\\ target=\"_blank\">ZeusCart</a>"
+    },
+    {
+      "name": "Zeus-Cart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Zeus-Cart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>:: Zeuscart Admin Panel</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>::\\ Zeuscart\\ Admin\\ Panel</title>"
+    }
+  ]
+}

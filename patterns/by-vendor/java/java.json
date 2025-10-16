@@ -1,0 +1,72 @@
+{
+  "vendor": "Java",
+  "vendor_id": "java",
+  "product": "Java",
+  "product_id": "java",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "X-Powered-By # JSP Version Detection",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Java",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-powered-by: JSP/1.0",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-powered-by: JSP/([\\d\\.]+)",
+      "version_group": 1
+    },
+    {
+      "name": "Server # Version Detection",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Java",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: java/([\\d\\.\\-\\_]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: java/([\\d\\.\\-\\_]+)",
+      "version_group": 1
+    },
+    {
+      "name": "File extension",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Java",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^(jsp|jpx|wss|do)$"
+    }
+  ]
+}

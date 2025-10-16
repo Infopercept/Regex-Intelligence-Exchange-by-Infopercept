@@ -1,0 +1,54 @@
+{
+  "vendor": "PHP-CSL",
+  "vendor_id": "php-csl",
+  "product": "PHP-CSL",
+  "product_id": "php-csl",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PHP-CSL Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-CSL",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"PHP Code Snippet Library stores all your code for you for easy access, runs on any PHP platform and does not require a database... easy to install and full of features.\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"PHP\\ Code\\ Snippet\\ Library\\ stores\\ all\\ your\\ code\\ for\\ you\\ for\\ easy\\ access,\\ runs\\ on\\ any\\ PHP\\ platform\\ and\\ does\\ not\\ require\\ a\\ database\\.\\.\\.\\ easy\\ to\\ install\\ and\\ full\\ of\\ features\\.\">"
+    },
+    {
+      "name": "PHP-CSL Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-CSL",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Please note the credit message below is required if you want support -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Please\\ note\\ the\\ credit\\ message\\ below\\ is\\ required\\ if\\ you\\ want\\ support\\ \\-\\->"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "vendor": "AiCart",
+  "vendor_id": "aicart",
+  "product": "AiCart",
+  "product_id": "aicart",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AiCart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AiCart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\" for = \"l_password\">Password <span class=\"req\">*</span></label>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\"\\ for\\ =\\ \"l_password\">Password\\ <span\\ class=\"req\">\\*</span></label>"
+    },
+    {
+      "name": "AiCart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AiCart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input id = \"l_password\" name = \"l_password\" class = \"field text medium\" type = \"password\" maxlength = \"255\" value = \"\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ id\\ =\\ \"l_password\"\\ name\\ =\\ \"l_password\"\\ class\\ =\\ \"field\\ text\\ medium\"\\ type\\ =\\ \"password\"\\ maxlength\\ =\\ \"255\"\\ value\\ =\\ \"\"\\ />"
+    },
+    {
+      "name": "AiCart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AiCart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input id=\"l_remember_me\" name=\"l_remember_me\" class = \"field checkbox\" type = \"checkbox\" value = \"1\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ id=\"l_remember_me\"\\ name=\"l_remember_me\"\\ class\\ =\\ \"field\\ checkbox\"\\ type\\ =\\ \"checkbox\"\\ value\\ =\\ \"1\"\\ />"
+    },
+    {
+      "name": "AiCart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AiCart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input name=\"APP_authenticate\" type=\"hidden\" id=\"APP_authenticate\" value=\"frmLogin\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ name=\"APP_authenticate\"\\ type=\"hidden\"\\ id=\"APP_authenticate\"\\ value=\"frmLogin\"\\ />"
+    }
+  ]
+}

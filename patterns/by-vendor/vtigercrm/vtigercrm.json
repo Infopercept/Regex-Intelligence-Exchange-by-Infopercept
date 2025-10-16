@@ -1,0 +1,54 @@
+{
+  "vendor": "vTigerCRM",
+  "vendor_id": "vtigercrm",
+  "product": "vTigerCRM",
+  "product_id": "vtigercrm",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "stats img",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for vTigerCRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\\\\"
+    },
+    {
+      "name": "html body favicon",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for vTigerCRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/vtigercrm_icon.ico\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "/vtigercrm_icon\\.ico\">"
+    }
+  ]
+}

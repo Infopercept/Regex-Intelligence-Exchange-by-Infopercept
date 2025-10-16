@@ -1,0 +1,98 @@
+{
+  "vendor": "Veo-Observer",
+  "vendor_id": "veo-observer",
+  "product": "Veo-Observer",
+  "product_id": "veo-observer",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Veo-Observer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Veo-Observer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Veo Observer XT</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Veo\\ Observer\\ XT</title>"
+    },
+    {
+      "name": "Veo-Observer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Veo-Observer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "  <frame src=\"/en/sitemonitor.html\" name=\"sitecheck\" scrolling=\"NO\" noresize>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ <frame\\ src=\"/en/sitemonitor\\.html\"\\ name=\"sitecheck\"\\ scrolling=\"NO\"\\ noresize>"
+    },
+    {
+      "name": "Veo-Observer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Veo-Observer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t<title>Veo Observer Web Client</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t<title>Veo\\ Observer\\ Web\\ Client</title>"
+    },
+    {
+      "name": "Veo-Observer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Veo-Observer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t<object classid=\"clsid:0957C19A-D854-482A-A4F9-18856C723D7D\" id=\"VeoNetCamAcx\" width=\"0\" height=\"0\" codebase=\"XNC600NetCam.cab#version",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t<object\\ classid=\"clsid:0957C19A\\-D854\\-482A\\-A4F9\\-18856C723D7D\"\\ id=\"VeoNetCamAcx\"\\ width=\"0\"\\ height=\"0\"\\ codebase=\"XNC600NetCam\\.cab\\#version"
+    }
+  ]
+}

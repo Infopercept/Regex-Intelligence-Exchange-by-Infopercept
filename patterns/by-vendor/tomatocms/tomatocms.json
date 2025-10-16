@@ -1,0 +1,76 @@
+{
+  "vendor": "TomatoCMS",
+  "vendor_id": "tomatocms",
+  "product": "TomatoCMS",
+  "product_id": "tomatocms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TomatoCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TomatoCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.tomatocms.com\" title=\"Powered by TomatoCMS\" target=\"_blank\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.tomatocms\\.com\"\\ title=\"Powered\\ by\\ TomatoCMS\"\\ target=\"_blank\">"
+    },
+    {
+      "name": "TomatoCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TomatoCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\tTomato.Core.Widget.Loader.baseUrl = 'http://",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\tTomato\\.Core\\.Widget\\.Loader\\.baseUrl\\ =\\ 'http://"
+    },
+    {
+      "name": "TomatoCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TomatoCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t\t\t<h1>TomatoCMS Install Wizard</h1>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\t\\\t\\\t<h1>TomatoCMS\\ Install\\ Wizard</h1>"
+    }
+  ]
+}

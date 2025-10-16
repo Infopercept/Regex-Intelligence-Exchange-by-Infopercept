@@ -1,0 +1,58 @@
+{
+  "vendor": "Minify",
+  "vendor_id": "minify",
+  "product": "Minify",
+  "product_id": "minify",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "script tag minify.php",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Minify",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script[^>]+src=[\"'][^>]+/minify.php\\?[a-z]+=[^>]+[\"']"
+    },
+    {
+      "name": "script tag /min/g=",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Minify",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script[^>]+src=[\"'][^>]*/min/g=[^>]+[\"']"
+    },
+    {
+      "name": "script tag /min/js?",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Minify",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script[^>]+src=[\"'][^>]*/min/js\\?[^>]+[\"']"
+    }
+  ]
+}

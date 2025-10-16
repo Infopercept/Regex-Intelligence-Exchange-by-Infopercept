@@ -1,0 +1,70 @@
+{
+  "vendor": "PHP-Support-Tickets",
+  "vendor_id": "php-support-tickets",
+  "product": "PHP-Support-Tickets",
+  "product_id": "php-support-tickets",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PHP-Support-Tickets Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Support-Tickets",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>PHP Support Tickets :: Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>PHP\\ Support\\ Tickets\\ ::\\ Login</title>"
+    },
+    {
+      "name": "PHP-Support-Tickets Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Support-Tickets",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"copyright\"   content=\"Triangle Solutions Ltd\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"copyright\"\\ \\ \\ content=\"Triangle\\ Solutions\\ Ltd\"\\ />"
+    },
+    {
+      "name": "PHP-Support-Tickets Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Support-Tickets",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!--<td class=\"boxborder list-menu\" width=\"10%\"><a href=\"javascript:popwindow\\('help\\.php#userpage','top=150,left=300,width=400,height=400,buttons=no,scrollbars=YES,location=no,menubar=no,resizable=no,status=no,directories=no,toolbar=no'\\)\" title=\"Help popup\">Help</a></td>-->"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "vendor": "Fortinet-Firewall",
+  "vendor_id": "fortinet-firewall",
+  "product": "Fortinet-Firewall",
+  "product_id": "fortinet-firewall",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Fortinet-Firewall Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Fortinet-Firewall",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "str_table\\.token_needed = \"Please input your token code.\";[\\s]+str_table\\.ncode_needed = \"FortiToken clock drift detected\\. Please input the next code and continue\\.\";[\\s]+str_table\\.mail_token_msg = \"An email message containing a Token Code will be sent to\";"
+    }
+  ]
+}

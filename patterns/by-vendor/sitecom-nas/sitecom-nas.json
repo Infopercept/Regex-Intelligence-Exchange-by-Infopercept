@@ -1,0 +1,32 @@
+{
+  "vendor": "Sitecom-NAS",
+  "vendor_id": "sitecom-nas",
+  "product": "Sitecom-NAS",
+  "product_id": "sitecom-nas",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Sitecom-NAS Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sitecom-NAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Basic realm=\"SITECOM LOGIN Enter Password (default is sitecom)",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Basic\\ realm=\"SITECOM\\ LOGIN\\ Enter\\ Password\\ \\(default\\ is\\ sitecom\\)"
+    }
+  ]
+}

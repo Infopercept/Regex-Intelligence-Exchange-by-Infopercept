@@ -1,0 +1,32 @@
+{
+  "vendor": "OpenLabyrinth",
+  "vendor_id": "openlabyrinth",
+  "product": "OpenLabyrinth",
+  "product_id": "openlabyrinth",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OpenLabyrinth Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenLabyrinth",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/images/openlabyrinth-logo.jpg\" alt=\"Labyrinth Identity\" border=\"0\" width=\"150\" height=\"150\"></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "/images/openlabyrinth\\-logo\\.jpg\"\\ alt=\"Labyrinth\\ Identity\"\\ border=\"0\"\\ width=\"150\"\\ height=\"150\"></a>"
+    }
+  ]
+}

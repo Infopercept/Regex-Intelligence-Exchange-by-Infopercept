@@ -1,0 +1,142 @@
+{
+  "vendor": "nopCommerce",
+  "vendor_id": "nopcommerce",
+  "product": "nopCommerce",
+  "product_id": "nopcommerce",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "nopCommerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for nopCommerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--Powered by nopCommerce - http://www.nopCommerce.com-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-Powered\\ by\\ nopCommerce\\ \\-\\ http://www\\.nopCommerce\\.com\\-\\->"
+    },
+    {
+      "name": "nopCommerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for nopCommerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.nopcommerce.com/\">nopCommerce</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.nopcommerce\\.com/\">nopCommerce</a>"
+    },
+    {
+      "name": "nopCommerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for nopCommerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.nopcommerce.com\" target=\"_blank\">nopCommerce</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.nopcommerce\\.com\"\\ target=\"_blank\">nopCommerce</a>"
+    },
+    {
+      "name": "nopCommerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for nopCommerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"submit\" name=\"LoginForm$LoginButton\" value=\"Log in\" onclick=\"javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;LoginForm$LoginButton&quot;, &quot;&quot;, true, &quot;LoginForm&quot;, &quot;&quot;, false, false))\" id=\"LoginForm_LoginButton\" class=\"adminButtonBlue\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ type=\"submit\"\\ name=\"LoginForm\\$LoginButton\"\\ value=\"Log\\ in\"\\ onclick=\"javascript:WebForm_DoPostBackWithOptions\\(new\\ WebForm_PostBackOptions\\(\\&quot;LoginForm\\$LoginButton\\&quot;,\\ \\&quot;\\&quot;,\\ true,\\ \\&quot;LoginForm\\&quot;,\\ \\&quot;\\&quot;,\\ false,\\ false\\)\\)\"\\ id=\"LoginForm_LoginButton\"\\ class=\"adminButtonBlue\"\\ />"
+    },
+    {
+      "name": "nopCommerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for nopCommerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input id=\"LoginForm_RememberMe\" type=\"checkbox\" name=\"LoginForm$RememberMe\" checked=\"checked\" /><label for=\"LoginForm_RememberMe\">Remember me</label>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ id=\"LoginForm_RememberMe\"\\ type=\"checkbox\"\\ name=\"LoginForm\\$RememberMe\"\\ checked=\"checked\"\\ /><label\\ for=\"LoginForm_RememberMe\">Remember\\ me</label>"
+    },
+    {
+      "name": "nopCommerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for nopCommerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "var LoginForm_UserNameOrEmailRequired = document.all ? document.all[\"LoginForm_UserNameOrEmailRequired\"] : document.getElementById(\"LoginForm_UserNameOrEmailRequired\");",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "var\\ LoginForm_UserNameOrEmailRequired\\ =\\ document\\.all\\ \\?\\ document\\.all\\[\"LoginForm_UserNameOrEmailRequired\"\\]\\ :\\ document\\.getElementById\\(\"LoginForm_UserNameOrEmailRequired\"\\);"
+    }
+  ]
+}

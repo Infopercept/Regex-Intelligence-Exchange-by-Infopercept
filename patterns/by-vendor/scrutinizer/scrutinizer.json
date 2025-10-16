@@ -1,0 +1,42 @@
+{
+  "vendor": "Scrutinizer",
+  "vendor_id": "scrutinizer",
+  "product": "Scrutinizer",
+  "product_id": "scrutinizer",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Scrutinizer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Scrutinizer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link id='scrutStyle' rel=\"stylesheet\" href=\"/css/classic\\.css"
+    },
+    {
+      "name": "Scrutinizer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Scrutinizer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<div id='testAlertHdrMsg'>For the best Scrutinizer experience possible, please address the issues below:</div>"
+    }
+  ]
+}

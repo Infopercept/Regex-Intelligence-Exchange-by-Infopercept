@@ -1,0 +1,54 @@
+{
+  "vendor": "Viscacha",
+  "vendor_id": "viscacha",
+  "product": "Viscacha",
+  "product_id": "viscacha",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Viscacha Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Viscacha",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"Viscacha (http://www.viscacha.org)\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"Viscacha\\ \\(http://www\\.viscacha\\.org\\)\"\\ />"
+    },
+    {
+      "name": "Viscacha Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Viscacha",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"copyright\" href=\"http://www.viscacha.org\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"copyright\"\\ href=\"http://www\\.viscacha\\.org\"\\ />"
+    }
+  ]
+}

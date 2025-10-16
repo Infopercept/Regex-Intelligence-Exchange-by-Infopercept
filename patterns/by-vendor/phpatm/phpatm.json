@@ -1,0 +1,32 @@
+{
+  "vendor": "phpATM",
+  "vendor_id": "phpatm",
+  "product": "phpATM",
+  "product_id": "phpatm",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "phpATM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpATM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<frame name=\"viewer_bottom\" src=\"viewer_bottom.php?file=",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<frame\\ name=\"viewer_bottom\"\\ src=\"viewer_bottom\\.php\\?file="
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "vendor": "ACTi-Web-Configurator",
+  "vendor_id": "acti-web-configurator",
+  "product": "ACTi-Web-Configurator",
+  "product_id": "acti-web-configurator",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ACTi-Web-Configurator Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ACTi-Web-Configurator",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<form name=\"frm(LOGIN|Config)\" method=\"POST\" enctype=\"multipart/form-data\" action=\"videoconfiguration\\.cgi\">"
+    }
+  ]
+}

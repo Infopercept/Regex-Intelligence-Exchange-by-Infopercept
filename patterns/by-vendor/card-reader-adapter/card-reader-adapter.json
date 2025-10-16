@@ -1,0 +1,32 @@
+{
+  "vendor": "Card-Reader-Adapter",
+  "vendor_id": "card-reader-adapter",
+  "product": "Card-Reader-Adapter",
+  "product_id": "card-reader-adapter",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Card-Reader-Adapter Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Card-Reader-Adapter",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HTML> <Title> 401 unAuthorized </title>                   <body> <H1> 401 unauthorized request </H1></body>                   </HTML>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<HTML>\\ <Title>\\ 401\\ unAuthorized\\ </title>\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <body>\\ <H1>\\ 401\\ unauthorized\\ request\\ </H1></body>\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ </HTML>"
+    }
+  ]
+}

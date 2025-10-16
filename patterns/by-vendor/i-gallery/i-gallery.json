@@ -1,0 +1,92 @@
+{
+  "vendor": "i-Gallery",
+  "vendor_id": "i-gallery",
+  "product": "i-Gallery",
+  "product_id": "i-gallery",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "i-Gallery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for i-Gallery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "var verify = confirm(\"Are you sure you want to permanently delete the selected \\\"Item\\\" from the i-Gallery database?  All information will be lost!\");",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "var\\ verify\\ =\\ confirm\\(\"Are\\ you\\ sure\\ you\\ want\\ to\\ permanently\\ delete\\ the\\ selected\\ \\\\\"Item\\\\\"\\ from\\ the\\ i\\-Gallery\\ database\\?\\ \\ All\\ information\\ will\\ be\\ lost!\"\\);"
+    },
+    {
+      "name": "i-Gallery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for i-Gallery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- ################ Begin Empty Root Folder Message ################ -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ \\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\ Begin\\ Empty\\ Root\\ Folder\\ Message\\ \\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\ \\-\\->"
+    },
+    {
+      "name": "i-Gallery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for i-Gallery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<img src=\"images/igallery-logo.gif\" width=[0-9]* height=[0-9]* border=[0-9]* alt=\"i-Gallery Home Page\"></a><br>"
+    },
+    {
+      "name": "i-Gallery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for i-Gallery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>.::  - Photo Viewer ::.</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>\\.::\\ \\ \\-\\ Photo\\ Viewer\\ ::\\.</title>"
+    }
+  ]
+}

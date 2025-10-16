@@ -1,0 +1,98 @@
+{
+  "vendor": "PulseCMS",
+  "vendor_id": "pulsecms",
+  "product": "PulseCMS",
+  "product_id": "pulsecms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PulseCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PulseCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"img/new-logo.png\" alt=\"Pulse CMS\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"img/new\\-logo\\.png\"\\ alt=\"Pulse\\ CMS\">"
+    },
+    {
+      "name": "PulseCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PulseCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"password\" size=\"27\" name=\"mpass_pass\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ type=\"password\"\\ size=\"27\"\\ name=\"mpass_pass\">"
+    },
+    {
+      "name": "PulseCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PulseCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Pulse Content Manager</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Pulse\\ Content\\ Manager</title>"
+    },
+    {
+      "name": "PulseCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PulseCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body id=\"login-page\" onload=\"document.login.mpass_pass.focus()\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ id=\"login\\-page\"\\ onload=\"document\\.login\\.mpass_pass\\.focus\\(\\)\">"
+    }
+  ]
+}

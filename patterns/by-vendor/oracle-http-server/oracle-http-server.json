@@ -1,0 +1,72 @@
+{
+  "vendor": "Oracle-HTTP-Server",
+  "vendor_id": "oracle-http-server",
+  "product": "Oracle-HTTP-Server",
+  "product_id": "oracle-http-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Oracle-HTTP-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-HTTP-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Oracle[ -]HTTP[ -]Server"
+    },
+    {
+      "name": "Oracle-HTTP-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-HTTP-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: Oracle_Web_[Ll]istener(_NT_)?([\\d\\.]+/[^\\s]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: Oracle_Web_[Ll]istener(_NT_)?([\\d\\.]+/[^\\s]+)",
+      "version_group": 1
+    },
+    {
+      "name": "Oracle-HTTP-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-HTTP-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: Oracle_Web_[Ll]istener(_NT_)?/([^\\s]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: Oracle_Web_[Ll]istener(_NT_)?/([^\\s]+)",
+      "version_group": 1
+    }
+  ]
+}

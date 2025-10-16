@@ -1,0 +1,93 @@
+{
+  "vendor": "Chamilo",
+  "vendor_id": "chamilo",
+  "product": "Chamilo",
+  "product_id": "chamilo",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Chamilo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Chamilo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-powered-by: ^Chamilo 1.0",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-powered-by: ^Chamilo ([\\d\\.]+)",
+      "version_group": 1
+    },
+    {
+      "name": "Chamilo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Chamilo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"http://www.chamilo.org/documentation.php\" rel=\"Help\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"http://www\\.chamilo\\.org/documentation\\.php\"\\ rel=\"Help\"\\ />"
+    },
+    {
+      "name": "Chamilo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Chamilo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=\"Generator\" content=\"Chamilo ([\\d\\.]+)\">"
+    },
+    {
+      "name": "Chamilo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Chamilo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- end of #main\" started at the end of banner.inc.php -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ end\\ of\\ \\#main\"\\ started\\ at\\ the\\ end\\ of\\ banner\\.inc\\.php\\ \\-\\->"
+    }
+  ]
+}

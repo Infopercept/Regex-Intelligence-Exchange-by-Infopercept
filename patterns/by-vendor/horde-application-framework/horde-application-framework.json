@@ -1,0 +1,252 @@
+{
+  "vendor": "Horde-Application-Framework",
+  "vendor_id": "horde-application-framework",
+  "product": "Horde-Application-Framework",
+  "product_id": "horde-application-framework",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Horde-Application-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Horde-Application-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "title=\"This site is powered by The Horde Application Framework.\" href=\"http://horde.org\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "title=\"This\\ site\\ is\\ powered\\ by\\ The\\ Horde\\ Application\\ Framework\\.\"\\ href=\"http://horde\\.org\">"
+    },
+    {
+      "name": "Horde-Application-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Horde-Application-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by </font><a href=\"http://www.horde.org/\" TARGET=_blank>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ </font><a\\ href=\"http://www\\.horde\\.org/\"\\ TARGET=_blank>"
+    },
+    {
+      "name": "Horde-Application-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Horde-Application-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- IMP: Copyright 2001-2006, The Horde Project. IMP is under the GPL. -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ IMP:\\ Copyright\\ 2001\\-2006,\\ The\\ Horde\\ Project\\.\\ IMP\\ is\\ under\\ the\\ GPL\\.\\ \\-\\->"
+    },
+    {
+      "name": "Horde-Application-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Horde-Application-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--   Horde Project: http://horde.org/ | IMP: http://horde.org/imp/    -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ \\ \\ Horde\\ Project:\\ http://horde\\.org/\\ \\|\\ IMP:\\ http://horde\\.org/imp/\\ \\ \\ \\ \\-\\->"
+    },
+    {
+      "name": "Horde-Application-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Horde-Application-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/themes/graphics/horde-power1.png\" alt=\"Powered by Horde\" title=\"\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "/themes/graphics/horde\\-power1\\.png\"\\ alt=\"Powered\\ by\\ Horde\"\\ title=\"\"\\ />"
+    },
+    {
+      "name": "Horde-Application-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Horde-Application-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "if (typeof(_setHordeTitle) == 'undefined' && document.title && parent.frames.horde_main) parent.document.title = document.title;",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "if\\ \\(typeof\\(_setHordeTitle\\)\\ ==\\ 'undefined'\\ \\&\\&\\ document\\.title\\ \\&\\&\\ parent\\.frames\\.horde_main\\)\\ parent\\.document\\.title\\ =\\ document\\.title;"
+    },
+    {
+      "name": "Horde-Application-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Horde-Application-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- This file contains any \"Message Of The Day\" Type information -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ This\\ file\\ contains\\ any\\ \"Message\\ Of\\ The\\ Day\"\\ Type\\ information\\ \\-\\->"
+    },
+    {
+      "name": "Horde-Application-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Horde-Application-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"icon_browser.php?app=chora\">Version Control</a><br />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"icon_browser\\.php\\?app=chora\">Version\\ Control</a><br\\ />"
+    },
+    {
+      "name": "Horde-Application-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Horde-Application-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html><body bgcolor=\"#aaaaaa\"><a href=\"icon_browser.php\">Application List</a><br /><br /><h2>Icons for My Account</h2>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html><body\\ bgcolor=\"\\#aaaaaa\"><a\\ href=\"icon_browser\\.php\">Application\\ List</a><br\\ /><br\\ /><h2>Icons\\ for\\ My\\ Account</h2>"
+    },
+    {
+      "name": "Horde-Application-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Horde-Application-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script language=\"JavaScript\" type=\"text/javascript\" src=\"/hunter/js/enter_key_trap.js\"></script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ language=\"JavaScript\"\\ type=\"text/javascript\"\\ src=\"/hunter/js/enter_key_trap\\.js\"></script>"
+    },
+    {
+      "name": "Horde-Application-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Horde-Application-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"/mail/mailbox.php?mailbox=INBOX\" rel=\"Top\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"/mail/mailbox\\.php\\?mailbox=INBOX\"\\ rel=\"Top\"\\ />"
+    }
+  ]
+}

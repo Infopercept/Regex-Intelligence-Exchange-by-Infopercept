@@ -1,0 +1,76 @@
+{
+  "vendor": "Mobotix-Network-Camera",
+  "vendor_id": "mobotix-network-camera",
+  "product": "Mobotix-Network-Camera",
+  "product_id": "mobotix-network-camera",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mobotix-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mobotix-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"publisher\" content=\"MOBOTIX AG, Germany\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"publisher\"\\ content=\"MOBOTIX\\ AG,\\ Germany\">"
+    },
+    {
+      "name": "Mobotix-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mobotix-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"copyright\" content=\"MOBOTIX AG, Germany\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"copyright\"\\ content=\"MOBOTIX\\ AG,\\ Germany\">"
+    },
+    {
+      "name": "Mobotix-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mobotix-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"Daniel Kabs, MOBOTIX AG, Kaiserslautern, Germany.\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Daniel\\ Kabs,\\ MOBOTIX\\ AG,\\ Kaiserslautern,\\ Germany\\.\">"
+    }
+  ]
+}

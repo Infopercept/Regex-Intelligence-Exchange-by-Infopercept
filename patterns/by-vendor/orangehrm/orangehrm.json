@@ -1,0 +1,32 @@
+{
+  "vendor": "OrangeHRM",
+  "vendor_id": "orangehrm",
+  "product": "OrangeHRM",
+  "product_id": "orangehrm",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OrangeHRM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OrangeHRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"hidden\" name=\"hdnUserTimeZoneOffset\" id=\"hdnUserTimeZoneOffset\" value=\"0\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ type=\"hidden\"\\ name=\"hdnUserTimeZoneOffset\"\\ id=\"hdnUserTimeZoneOffset\"\\ value=\"0\"\\ />"
+    }
+  ]
+}

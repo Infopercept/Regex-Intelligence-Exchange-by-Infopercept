@@ -1,0 +1,93 @@
+{
+  "vendor": "ocPortal",
+  "vendor_id": "ocportal",
+  "product": "ocPortal",
+  "product_id": "ocportal",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ocPortal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ocPortal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html id=\"main_website_html\" xmlns=\"http://www.w3.org/1999/xhtml\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html\\ id=\"main_website_html\"\\ xmlns=\"http://www\\.w3\\.org/1999/xhtml\""
+    },
+    {
+      "name": "ocPortal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ocPortal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"GENERATOR\" content=\"ocPortal\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"GENERATOR\"\\ content=\"ocPortal\"\\ />"
+    },
+    {
+      "name": "ocPortal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ocPortal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-powered-by: ^ocPortal ([^\\(]+) \\(PHP",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-powered-by: ^ocPortal ([^\\(]+) \\(PHP",
+      "version_group": 1
+    },
+    {
+      "name": "ocp_session cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ocPortal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "ocp_session=[\\d]+;"
+    }
+  ]
+}

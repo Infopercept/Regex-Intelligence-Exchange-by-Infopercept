@@ -1,0 +1,76 @@
+{
+  "vendor": "Infotrak-Oil-Commander",
+  "vendor_id": "infotrak-oil-commander",
+  "product": "Infotrak-Oil-Commander",
+  "product_id": "infotrak-oil-commander",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Infotrak-Oil-Commander Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Infotrak-Oil-Commander",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Login - Powered By: Infotrak's Oil Commander</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Login\\ \\-\\ Powered\\ By:\\ Infotrak's\\ Oil\\ Commander</title>"
+    },
+    {
+      "name": "Infotrak-Oil-Commander Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Infotrak-Oil-Commander",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"pnlContent_Shadow\" style=\"background-color:DarkGray;overflow:hidden;position:absolute;left:23;top:163;z-index:-1;width:98%;height:700 ;\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"pnlContent_Shadow\"\\ style=\"background\\-color:DarkGray;overflow:hidden;position:absolute;left:23;top:163;z\\-index:\\-1;width:98%;height:700\\ ;\">"
+    },
+    {
+      "name": "Infotrak-Oil-Commander Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Infotrak-Oil-Commander",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span id=\"lblMessage\">After entering your email address and clicking on Continue, an email with your login details will be sent. Please allow some time for the email. If you do not receive it please contact your dealership. </span>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span\\ id=\"lblMessage\">After\\ entering\\ your\\ email\\ address\\ and\\ clicking\\ on\\ Continue,\\ an\\ email\\ with\\ your\\ login\\ details\\ will\\ be\\ sent\\.\\ Please\\ allow\\ some\\ time\\ for\\ the\\ email\\.\\ If\\ you\\ do\\ not\\ receive\\ it\\ please\\ contact\\ your\\ dealership\\.\\ </span>"
+    }
+  ]
+}

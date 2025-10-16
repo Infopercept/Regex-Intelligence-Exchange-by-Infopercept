@@ -1,0 +1,56 @@
+{
+  "vendor": "iHTML",
+  "vendor_id": "ihtml",
+  "product": "iHTML",
+  "product_id": "ihtml",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "iHTML Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iHTML",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: \\(Using iHTML/([^\\)^\\s]+)\\)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server:  \\(Using iHTML/([^\\)^\\s]+)\\)",
+      "version_group": 1
+    },
+    {
+      "name": "iHTML Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iHTML",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-powered-by: ^iHTML/([^\\s]+)$",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-powered-by: ^iHTML/([^\\s]+)$",
+      "version_group": 1
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "vendor": "Tencent-QQ",
+  "vendor_id": "tencent-qq",
+  "product": "Tencent-QQ",
+  "product_id": "tencent-qq",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Tencent-QQ Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tencent-QQ",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^HTTP_ME/\\d\\.\\d Tencent/HTTP_Magic_Expression$"
+    }
+  ]
+}

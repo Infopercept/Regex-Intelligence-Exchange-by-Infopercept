@@ -1,0 +1,108 @@
+{
+  "vendor": "CushyCMS",
+  "vendor_id": "cushycms",
+  "product": "CushyCMS",
+  "product_id": "cushycms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CushyCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CushyCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Content Management Powered by <a href=\"http://www.cushycms.com\">CushyCMS</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Content\\ Management\\ Powered\\ by\\ <a\\ href=\"http://www\\.cushycms\\.com\">CushyCMS</a>"
+    },
+    {
+      "name": "CushyCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CushyCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<li id=\"poweredBy\"><img alt=\"Powered by CushyCMS\" src=\"/images/cushy_badge.gif",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<li\\ id=\"poweredBy\"><img\\ alt=\"Powered\\ by\\ CushyCMS\"\\ src=\"/images/cushy_badge\\.gif"
+    },
+    {
+      "name": "CushyCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CushyCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span id=\"cushycms-footer\">Powered by CushyCMS</span>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span\\ id=\"cushycms\\-footer\">Powered\\ by\\ CushyCMS</span>"
+    },
+    {
+      "name": "CushyCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CushyCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"http://www.cushycms.com/[^>]+>(<font[^>]+>)?Powered by CushyCMS"
+    },
+    {
+      "name": "CushyCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CushyCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<[^>]+class=\"cushycms\""
+    }
+  ]
+}

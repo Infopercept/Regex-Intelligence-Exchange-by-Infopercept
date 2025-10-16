@@ -1,0 +1,32 @@
+{
+  "vendor": "VMware-Horizon",
+  "vendor_id": "vmware-horizon",
+  "product": "VMware-Horizon",
+  "product_id": "vmware-horizon",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "title",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VMware-Horizon",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>VMware Horizon</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>VMware\\ Horizon</title>"
+    }
+  ]
+}

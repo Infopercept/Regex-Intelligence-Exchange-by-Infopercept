@@ -1,0 +1,54 @@
+{
+  "vendor": "Videosmate-Organizer",
+  "vendor_id": "videosmate-organizer",
+  "product": "Videosmate-Organizer",
+  "product_id": "videosmate-organizer",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Videosmate-Organizer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Videosmate-Organizer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</div> <!-- /content-in -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</div>\\ <!\\-\\-\\ /content\\-in\\ \\-\\->"
+    },
+    {
+      "name": "Videosmate-Organizer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Videosmate-Organizer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- script Downloaded from http://videosmate.com -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ script\\ Downloaded\\ from\\ http://videosmate\\.com\\ \\-\\->"
+    }
+  ]
+}

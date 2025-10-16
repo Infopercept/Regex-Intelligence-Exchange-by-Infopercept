@@ -1,0 +1,98 @@
+{
+  "vendor": "Softbiz-Freelancers-Script",
+  "vendor_id": "softbiz-freelancers-script",
+  "product": "Softbiz-Freelancers-Script",
+  "product_id": "softbiz-freelancers-script",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Softbiz-Freelancers-Script Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Softbiz-Freelancers-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "by <a class=\"softbiz\" href=\"http://www.softbizscripts.com\" target=\"_blank\">Softbiz Scripts</a></font></font>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "by\\ <a\\ class=\"softbiz\"\\ href=\"http://www\\.softbizscripts\\.com\"\\ target=\"_blank\">Softbiz\\ Scripts</a></font></font>"
+    },
+    {
+      "name": "Softbiz-Freelancers-Script Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Softbiz-Freelancers-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "by <a class=\"softbiz\" href=\"http://www.softbizscripts.com\" target=\"_blank\">SoftbizScripts</a></font></font>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "by\\ <a\\ class=\"softbiz\"\\ href=\"http://www\\.softbizscripts\\.com\"\\ target=\"_blank\">SoftbizScripts</a></font></font>"
+    },
+    {
+      "name": "Softbiz-Freelancers-Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Softbiz-Freelancers-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "                  <div align=\"center\"><font size=\"3\"><strong>Softbiz SEO Freelancers Script</strong><br>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <div\\ align=\"center\"><font\\ size=\"3\"><strong>Softbiz\\ SEO\\ Freelancers\\ Script</strong><br>"
+    },
+    {
+      "name": "Softbiz-Freelancers-Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Softbiz-Freelancers-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div align=\"right\"><!-- --><font style=\"font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-style: normal;color: #009900;font-weight: bold;\">Powered By <a href=\"http://www.softbizscripts.com/freelancers-script-features.php\" style=\"font-family: Arial, Helvetica, sans-serif;font-size: 12px;font-style: normal;color: #0099FF;font-weight: normal;\" title=\"Softbiz Freelancers Script\" target=\"_blank\" >Freelancers script</a></font></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ align=\"right\"><!\\-\\-\\ \\-\\-><font\\ style=\"font\\-family:\\ Arial,\\ Helvetica,\\ sans\\-serif;font\\-size:\\ 12px;font\\-style:\\ normal;color:\\ \\#009900;font\\-weight:\\ bold;\">Powered\\ By\\ <a\\ href=\"http://www\\.softbizscripts\\.com/freelancers\\-script\\-features\\.php\"\\ style=\"font\\-family:\\ Arial,\\ Helvetica,\\ sans\\-serif;font\\-size:\\ 12px;font\\-style:\\ normal;color:\\ \\#0099FF;font\\-weight:\\ normal;\"\\ title=\"Softbiz\\ Freelancers\\ Script\"\\ target=\"_blank\"\\ >Freelancers\\ script</a></font></div>"
+    }
+  ]
+}

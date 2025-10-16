@@ -1,0 +1,120 @@
+{
+  "vendor": "Novell-Groupwise",
+  "vendor_id": "novell-groupwise",
+  "product": "Novell-Groupwise",
+  "product_id": "novell-groupwise",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Novell-Groupwise Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Novell-Groupwise",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- START NOVELL SERVICES -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ START\\ NOVELL\\ SERVICES\\ \\-\\->"
+    },
+    {
+      "name": "Novell-Groupwise Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Novell-Groupwise",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- START GROUPWISE WEBACCESS -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ START\\ GROUPWISE\\ WEBACCESS\\ \\-\\->"
+    },
+    {
+      "name": "Novell-Groupwise Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Novell-Groupwise",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- ========== GroupWise WebAccess Form ========== -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ ==========\\ GroupWise\\ WebAccess\\ Form\\ ==========\\ \\-\\->"
+    },
+    {
+      "name": "Novell-Groupwise Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Novell-Groupwise",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Novell Web Services</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Novell\\ Web\\ Services</title>"
+    },
+    {
+      "name": "Novell-Groupwise Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Novell-Groupwise",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Novell WebAccess</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Novell\\ WebAccess</TITLE>"
+    }
+  ]
+}

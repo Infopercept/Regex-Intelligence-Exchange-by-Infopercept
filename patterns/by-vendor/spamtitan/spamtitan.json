@@ -1,0 +1,48 @@
+{
+  "vendor": "SpamTitan",
+  "vendor_id": "spamtitan",
+  "product": "SpamTitan",
+  "product_id": "spamtitan",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SpamTitan Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SpamTitan",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/?styles\\"
+    },
+    {
+      "name": "SpamTitan Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SpamTitan",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<table class=\"lhead\"><tr><td class=\"img\"><img src=\"/imgs/logo.gif\" alt=\"SpamTitan Logo\"></td></tr></table></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<table\\ class=\"lhead\"><tr><td\\ class=\"img\"><img\\ src=\"/imgs/logo\\.gif\"\\ alt=\"SpamTitan\\ Logo\"></td></tr></table></div>"
+    }
+  ]
+}

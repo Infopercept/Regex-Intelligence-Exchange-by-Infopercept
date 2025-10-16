@@ -1,0 +1,32 @@
+{
+  "vendor": "VoIP-Router-Gateway",
+  "vendor_id": "voip-router-gateway",
+  "product": "VoIP-Router-Gateway",
+  "product_id": "voip-router-gateway",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VoIP-Router-Gateway Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VoIP-Router-Gateway",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<area shape=\"poly\" coords=\"152,237,152,180,194,180,260,215,293,214,293,236\" href=\"enFrame.htm\" alt=\"english version\" onClick=\"form_submit(\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<area\\ shape=\"poly\"\\ coords=\"152,237,152,180,194,180,260,215,293,214,293,236\"\\ href=\"enFrame\\.htm\"\\ alt=\"english\\ version\"\\ onClick=\"form_submit\\(\\\\"
+    }
+  ]
+}

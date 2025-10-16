@@ -1,0 +1,128 @@
+{
+  "vendor": "Shopify",
+  "vendor_id": "shopify",
+  "product": "Shopify",
+  "product_id": "shopify",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Admin-Login-Page",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Shopify",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a target=\"_blank\" class=\"ico ico-shopify-bag\" href=\"//www.shopify.com\">        <span class=\"helper--visually-hidden\">Shopify.com</span></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ target=\"_blank\"\\ class=\"ico\\ ico\\-shopify\\-bag\"\\ href=\"//www\\.shopify\\.com\">\\ \\ \\ \\ \\ \\ \\ \\ <span\\ class=\"helper\\-\\-visually\\-hidden\">Shopify\\.com</span></a>"
+    },
+    {
+      "name": "_secure_session_id cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Shopify",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "_secure_session_id"
+    },
+    {
+      "name": "_session_id cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Shopify",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "_session_id"
+    },
+    {
+      "name": "cart_sig cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Shopify",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "cart_sig"
+    },
+    {
+      "name": "customer_sig cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Shopify",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "customer_sig"
+    },
+    {
+      "name": "secure_customer_sig cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Shopify",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "secure_customer_sig"
+    },
+    {
+      "name": "Shopify Digital Wallet Meta Tag",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Shopify",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=\"shopify-digital-wallet\""
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "vendor": "OpenWrt",
+  "vendor_id": "openwrt",
+  "product": "OpenWrt",
+  "product_id": "openwrt",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OpenWrt Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenWrt",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>OpenWrt Administrative Console</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>OpenWrt\\ Administrative\\ Console</title>"
+    },
+    {
+      "name": "OpenWrt Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenWrt",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "OpenWrt Administrative Console<br />Redirecting to : <a style=\"color: inherit;\" href=\"/cgi-bin/webif.sh\">main page</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "OpenWrt\\ Administrative\\ Console<br\\ />Redirecting\\ to\\ :\\ <a\\ style=\"color:\\ inherit;\"\\ href=\"/cgi\\-bin/webif\\.sh\">main\\ page</a></p>"
+    }
+  ]
+}

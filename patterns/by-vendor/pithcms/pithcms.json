@@ -1,0 +1,54 @@
+{
+  "vendor": "PithCMS",
+  "vendor_id": "pithcms",
+  "product": "PithCMS",
+  "product_id": "pithcms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PithCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PithCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p class=\"admin\">Powered by <a href=\"http://pithcms.altervista.org/index.php?pagina=data/info.php\">PithCMS</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ class=\"admin\">Powered\\ by\\ <a\\ href=\"http://pithcms\\.altervista\\.org/index\\.php\\?pagina=data/info\\.php\">PithCMS</a>"
+    },
+    {
+      "name": "PithCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PithCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/icons/admin48.png\"><br />Welcome Admin.<br /><br />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "/icons/admin48\\.png\"><br\\ />Welcome\\ Admin\\.<br\\ /><br\\ />"
+    }
+  ]
+}

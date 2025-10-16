@@ -1,0 +1,42 @@
+{
+  "vendor": "PortalApp",
+  "vendor_id": "portalapp",
+  "product": "PortalApp",
+  "product_id": "portalapp",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PortalApp Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PortalApp",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<img src='[/]*images/palogo_gr_17.gif' height=23 alt='powered by PortalApp' align=[\\'|\\\"]*[center|middle]+[\\'|\\\"]*></A>"
+    },
+    {
+      "name": "PortalApp Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PortalApp",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=[\\'|\\\"]*generator[\\'|\\\"]* content=[\\'|\\\"]*aspapp.com[\\'|\\\"]*[\\ /]*>"
+    }
+  ]
+}

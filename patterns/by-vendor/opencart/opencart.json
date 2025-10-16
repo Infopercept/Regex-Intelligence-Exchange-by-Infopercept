@@ -1,0 +1,64 @@
+{
+  "vendor": "OpenCart",
+  "vendor_id": "opencart",
+  "product": "OpenCart",
+  "product_id": "opencart",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OpenCart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenCart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!--\\s+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation\\."
+    },
+    {
+      "name": "OpenCart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenCart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<div id=\"powered\">Powered By <a href=\"http://www\\.opencart\\.com\"( title=\"OpenCart\")?>OpenCart</a>"
+    },
+    {
+      "name": "OpenCart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenCart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/admin/index.php?route=common/login\" method=\"post\" enctype=\"multipart/form-data\" id=\"form\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "/admin/index\\.php\\?route=common/login\"\\ method=\"post\"\\ enctype=\"multipart/form\\-data\"\\ id=\"form\">"
+    }
+  ]
+}

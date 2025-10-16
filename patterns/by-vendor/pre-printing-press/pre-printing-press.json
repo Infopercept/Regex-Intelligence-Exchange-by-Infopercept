@@ -1,0 +1,76 @@
+{
+  "vendor": "Pre-Printing-Press",
+  "vendor_id": "pre-printing-press",
+  "product": "Pre-Printing-Press",
+  "product_id": "pre-printing-press",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Pre-Printing-Press Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Pre-Printing-Press",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p align=\"left\"><select id=\"mylist\" name=\"mylist\" onchange = \"go()\" style=\"font-family:",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ align=\"left\"><select\\ id=\"mylist\"\\ name=\"mylist\"\\ onchange\\ =\\ \"go\\(\\)\"\\ style=\"font\\-family:"
+    },
+    {
+      "name": "Pre-Printing-Press Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Pre-Printing-Press",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input id=\"ib_attrib_disk_quantity-2\" type=\"radio\" onClick=\"showsubcat(this.value)\" value=\"olduser\" name=\"allusers\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ id=\"ib_attrib_disk_quantity\\-2\"\\ type=\"radio\"\\ onClick=\"showsubcat\\(this\\.value\\)\"\\ value=\"olduser\"\\ name=\"allusers\"\\ />"
+    },
+    {
+      "name": "Pre-Printing-Press Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Pre-Printing-Press",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div align=\"center\">&copy; Copyright PreProjects.com All Rights Reserved</div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ align=\"center\">\\&copy;\\ Copyright\\ PreProjects\\.com\\ All\\ Rights\\ Reserved</div>"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "vendor": "Confluence",
+  "vendor_id": "confluence",
+  "product": "Confluence",
+  "product_id": "confluence",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Confluence Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Confluence",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta id=\"confluence-context-path\" name=\"confluence-context-path\" content=\"\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ id=\"confluence\\-context\\-path\"\\ name=\"confluence\\-context\\-path\"\\ content=\"\">"
+    },
+    {
+      "name": "Confluence Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Confluence",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<li class=\"noprint\"><a href=\"http://www.atlassian.com/software/confluence\" class=\"hover-footer-link\">Atlassian Confluence</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<li\\ class=\"noprint\"><a\\ href=\"http://www\\.atlassian\\.com/software/confluence\"\\ class=\"hover\\-footer\\-link\">Atlassian\\ Confluence</a>"
+    }
+  ]
+}

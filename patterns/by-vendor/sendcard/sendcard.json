@@ -1,0 +1,86 @@
+{
+  "vendor": "Sendcard",
+  "vendor_id": "sendcard",
+  "product": "Sendcard",
+  "product_id": "sendcard",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Sendcard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sendcard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"http://(sendcard.sf.net|www.sendcard.org)/\"( title=\"download your own PHP e-card script\")?><img src=\"poweredbysendcard102x47.gif\"[^>]+alt=\"Powered by sendcard - an advanced PHP e-card program\"[^>]*></a>"
+    },
+    {
+      "name": "Sendcard Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sendcard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<img src=\"poweredbysendcard102x47.gif\"[^>]+alt=\"Powered by sendcard - an advanced PHP e-card program\">"
+    },
+    {
+      "name": "Sendcard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sendcard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- The following line should allow me to search on google and find sendcard installations -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ The\\ following\\ line\\ should\\ allow\\ me\\ to\\ search\\ on\\ google\\ and\\ find\\ sendcard\\ installations\\ \\-\\->"
+    },
+    {
+      "name": "Sendcard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sendcard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div style=\"display: none; color: White;\">scscsc320</div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ style=\"display:\\ none;\\ color:\\ White;\">scscsc320</div>"
+    }
+  ]
+}

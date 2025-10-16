@@ -1,0 +1,64 @@
+{
+  "vendor": "openEngine",
+  "vendor_id": "openengine",
+  "product": "openEngine",
+  "product_id": "openengine",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "openEngine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for openEngine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- openEngine Comment START -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ openEngine\\ Comment\\ START\\ \\-\\->"
+    },
+    {
+      "name": "openEngine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for openEngine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!--\\[if lte? IE 7\\]>[\\s]+<script src=\"system/([^/^>]+/)*script/IE7/ie7-standard-p\\.js\" type=\"text/javascript\"></script>"
+    },
+    {
+      "name": "openEngine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for openEngine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"http://www\\.openengine\\.de\" target=\"_blank\"><img src=\"system/([^/^>]+/)*/img/oes_logo\\.png\" alt=\"openEngine Homepage\"></a></p>"
+    }
+  ]
+}

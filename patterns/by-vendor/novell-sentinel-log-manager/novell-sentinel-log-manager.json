@@ -1,0 +1,54 @@
+{
+  "vendor": "Novell-Sentinel-Log-Manager",
+  "vendor_id": "novell-sentinel-log-manager",
+  "product": "Novell-Sentinel-Log-Manager",
+  "product_id": "novell-sentinel-log-manager",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Novell-Sentinel-Log-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Novell-Sentinel-Log-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p class=\"content\">Novell Sentinel Log Manager supports Firefox 3 (works best on 3.6) and Internet Explorer 8 (works best on 8.0)</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ class=\"content\">Novell\\ Sentinel\\ Log\\ Manager\\ supports\\ Firefox\\ 3\\ \\(works\\ best\\ on\\ 3\\.6\\)\\ and\\ Internet\\ Explorer\\ 8\\ \\(works\\ best\\ on\\ 8\\.0\\)</p>"
+    },
+    {
+      "name": "Novell-Sentinel-Log-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Novell-Sentinel-Log-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<META HTTP-EQUIV=\"refresh\" CONTENT=\"0;URL=/novelllogmanager\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<META\\ HTTP\\-EQUIV=\"refresh\"\\ CONTENT=\"0;URL=/novelllogmanager\">"
+    }
+  ]
+}

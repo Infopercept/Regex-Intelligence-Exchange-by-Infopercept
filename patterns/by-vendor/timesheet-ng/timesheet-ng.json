@@ -1,0 +1,76 @@
+{
+  "vendor": "Timesheet-NG",
+  "vendor_id": "timesheet-ng",
+  "product": "Timesheet-NG",
+  "product_id": "timesheet-ng",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Timesheet-NG Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Timesheet-NG",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- include the timesheet face up until the heading start section -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ include\\ the\\ timesheet\\ face\\ up\\ until\\ the\\ heading\\ start\\ section\\ \\-\\->"
+    },
+    {
+      "name": "Timesheet-NG Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Timesheet-NG",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td><img class=\"login_image\" src=\"images/spacer.gif\"></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td><img\\ class=\"login_image\"\\ src=\"images/spacer\\.gif\"></td>"
+    },
+    {
+      "name": "Timesheet-NG Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Timesheet-NG",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<META name=\"description\" content=\"Timesheet Next Gen\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<META\\ name=\"description\"\\ content=\"Timesheet\\ Next\\ Gen\">"
+    }
+  ]
+}

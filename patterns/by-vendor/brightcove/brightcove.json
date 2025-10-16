@@ -1,0 +1,26 @@
+{
+  "vendor": "Brightcove",
+  "vendor_id": "brightcove",
+  "product": "Brightcove",
+  "product_id": "brightcove",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Brightcove Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Brightcove",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "goku\\.brightcove\\.com|admin\\.brightcove\\.com/js"
+    }
+  ]
+}

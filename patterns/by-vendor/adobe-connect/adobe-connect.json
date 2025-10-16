@@ -1,0 +1,48 @@
+{
+  "vendor": "Adobe-Connect",
+  "vendor_id": "adobe-connect",
+  "product": "Adobe-Connect",
+  "product_id": "adobe-connect",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Adobe-Connect Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Adobe-Connect",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script src=\"/common/scripts/showContent.js\"></script><script type=\"text/javascript\" src=\"/common/scripts/breezeUI.js\"></script><script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ src=\"/common/scripts/showContent\\.js\"></script><script\\ type=\"text/javascript\"\\ src=\"/common/scripts/breezeUI\\.js\"></script><script>"
+    },
+    {
+      "name": "Adobe-Connect Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Adobe-Connect",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "BREEZESESSION=breez[^;]+;"
+    }
+  ]
+}

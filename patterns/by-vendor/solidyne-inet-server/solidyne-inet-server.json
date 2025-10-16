@@ -1,0 +1,98 @@
+{
+  "vendor": "Solidyne-iNET-Server",
+  "vendor_id": "solidyne-inet-server",
+  "product": "Solidyne-iNET-Server",
+  "product_id": "solidyne-inet-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Solidyne-iNET-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Solidyne-iNET-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Solidyne iNET Server</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Solidyne\\ iNET\\ Server</title>"
+    },
+    {
+      "name": "Solidyne-iNET-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Solidyne-iNET-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<frame name=\"frLeft\" scrolling=\"NO\" id=\"frLeft\" src=\"QFrLeft.aspx\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<frame\\ name=\"frLeft\"\\ scrolling=\"NO\"\\ id=\"frLeft\"\\ src=\"QFrLeft\\.aspx\">"
+    },
+    {
+      "name": "Solidyne-iNET-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Solidyne-iNET-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<META HTTP-EQUIV=\"refresh\" content=\"0; url=/hmi/\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<META\\ HTTP\\-EQUIV=\"refresh\"\\ content=\"0;\\ url=/hmi/\">"
+    },
+    {
+      "name": "Solidyne-iNET-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Solidyne-iNET-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form name=\"form1\" method=\"post\" action=\"QLogin.aspx\" id=\"form1\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ name=\"form1\"\\ method=\"post\"\\ action=\"QLogin\\.aspx\"\\ id=\"form1\">"
+    }
+  ]
+}

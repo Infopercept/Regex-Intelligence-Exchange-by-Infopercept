@@ -1,0 +1,54 @@
+{
+  "vendor": "Wobserver",
+  "vendor_id": "wobserver",
+  "product": "Wobserver",
+  "product_id": "wobserver",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Wobserver Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Wobserver",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"A web based version of the Erlang observer.\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"A\\ web\\ based\\ version\\ of\\ the\\ Erlang\\ observer\\.\">"
+    },
+    {
+      "name": "Wobserver Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Wobserver",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Wobserver</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Wobserver</title>"
+    }
+  ]
+}

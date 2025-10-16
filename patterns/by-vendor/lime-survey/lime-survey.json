@@ -1,0 +1,54 @@
+{
+  "vendor": "Lime-Survey",
+  "vendor_id": "lime-survey",
+  "product": "Lime-Survey",
+  "product_id": "lime-survey",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "default text",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Lime-Survey",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.limesurvey.org\" target=\"_blank\"><font color=\"#000000\">The Online Survey Tool</font></a> - Free & Open Source<br />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.limesurvey\\.org\"\\ target=\"_blank\"><font\\ color=\"\\#000000\">The\\ Online\\ Survey\\ Tool</font></a>\\ \\-\\ Free\\ \\&\\ Open\\ Source<br\\ />"
+    },
+    {
+      "name": "meta generator",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Lime-Survey",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"LimeSurvey http://www.limesurvey.org\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"LimeSurvey\\ http://www\\.limesurvey\\.org\"\\ />"
+    }
+  ]
+}
