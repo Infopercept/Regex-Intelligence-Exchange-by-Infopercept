@@ -1,0 +1,164 @@
+{
+  "vendor": "Contrexx-CMS",
+  "vendor_id": "contrexx-cms",
+  "product": "Contrexx-CMS",
+  "product_id": "contrexx-cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Contrexx-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Contrexx-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": " - powered by Contrexx   Web Content Management System</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\-\\ powered\\ by\\ Contrexx\\ \\ \\ Web\\ Content\\ Management\\ System</title>"
+    },
+    {
+      "name": "Contrexx-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Contrexx-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p id=\"powered\"><a href=\"http://www.contrexx.com/\" title=\"Powered by Contrexx&reg; Software\">Powered by Contrexx&reg; Software</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ id=\"powered\"><a\\ href=\"http://www\\.contrexx\\.com/\"\\ title=\"Powered\\ by\\ Contrexx\\&reg;\\ Software\">Powered\\ by\\ Contrexx\\&reg;\\ Software</a>"
+    },
+    {
+      "name": "Contrexx-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Contrexx-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"footer_right\">Powered by <a href=\"http://www.contrexx.com\">Contrexx Software</a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"footer_right\">Powered\\ by\\ <a\\ href=\"http://www\\.contrexx\\.com\">Contrexx\\ Software</a></div>"
+    },
+    {
+      "name": "Contrexx-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Contrexx-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"Contrexx   Web Content Management System\"/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"Contrexx\\ \\ \\ Web\\ Content\\ Management\\ System\"/>"
+    },
+    {
+      "name": "Contrexx-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Contrexx-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<style type=\"text/css\">@import url(core_modules/frontendEditing/css/style.css) all;</style>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<style\\ type=\"text/css\">@import\\ url\\(core_modules/frontendEditing/css/style\\.css\\)\\ all;</style>"
+    },
+    {
+      "name": "Contrexx-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Contrexx-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Contrexx Administration Console</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Contrexx\\ Administration\\ Console</title>"
+    },
+    {
+      "name": "Contrexx-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Contrexx-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t<td><input type=\"submit\" tabindex=\"4\" name=\"submit_button\" value=\"Anmelden\" onclick=\"if(this.disabled || typeof(this.disabled)==\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t<td><input\\ type=\"submit\"\\ tabindex=\"4\"\\ name=\"submit_button\"\\ value=\"Anmelden\"\\ onclick=\"if\\(this\\.disabled\\ \\|\\|\\ typeof\\(this\\.disabled\\)==\\\\"
+    }
+  ]
+}

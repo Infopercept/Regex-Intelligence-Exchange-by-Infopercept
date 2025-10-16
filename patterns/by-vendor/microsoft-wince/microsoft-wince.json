@@ -1,0 +1,49 @@
+{
+  "vendor": "Microsoft-WinCE",
+  "vendor_id": "microsoft-wince",
+  "product": "Microsoft-WinCE",
+  "product_id": "microsoft-wince",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Microsoft-WinCE Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-WinCE",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Microsoft-WinCE"
+    },
+    {
+      "name": "Microsoft-WinCE Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-WinCE",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Microsoft-WinCE/([\\S]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Microsoft-WinCE/([\\S]+)",
+      "version_group": 1
+    }
+  ]
+}

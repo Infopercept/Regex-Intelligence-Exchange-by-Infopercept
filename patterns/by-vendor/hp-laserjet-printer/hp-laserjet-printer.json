@@ -1,0 +1,98 @@
+{
+  "vendor": "HP-LaserJet-Printer",
+  "vendor_id": "hp-laserjet-printer",
+  "product": "HP-LaserJet-Printer",
+  "product_id": "hp-laserjet-printer",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "HP-LaserJet-Printer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HP-LaserJet-Printer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"images/logo.gif\" alt=\"Click this Hewlett-Packard logo to open a new browser window, which takes you to the external HP.com Web site.\" /></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"images/logo\\.gif\"\\ alt=\"Click\\ this\\ Hewlett\\-Packard\\ logo\\ to\\ open\\ a\\ new\\ browser\\ window,\\ which\\ takes\\ you\\ to\\ the\\ external\\ HP\\.com\\ Web\\ site\\.\"\\ /></a>"
+    },
+    {
+      "name": "HP-LaserJet-Printer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HP-LaserJet-Printer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"#skipnavigation\" title=\"Jump to main content. Please activate this if you would like to skip the navigation and jump directly to the main content.\"></a><a href=\"http://www.hp.com\" onclick=\"target = new Date().valueOf().toString(); if (window.open) window.open(\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"\\#skipnavigation\"\\ title=\"Jump\\ to\\ main\\ content\\.\\ Please\\ activate\\ this\\ if\\ you\\ would\\ like\\ to\\ skip\\ the\\ navigation\\ and\\ jump\\ directly\\ to\\ the\\ main\\ content\\.\"></a><a\\ href=\"http://www\\.hp\\.com\"\\ onclick=\"target\\ =\\ new\\ Date\\(\\)\\.valueOf\\(\\)\\.toString\\(\\);\\ if\\ \\(window\\.open\\)\\ window\\.open\\(\\\\"
+    },
+    {
+      "name": "HP-LaserJet-Printer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HP-LaserJet-Printer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "HP 9250C Digital Sender Series</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "HP\\ 9250C\\ Digital\\ Sender\\ Series</title>"
+    },
+    {
+      "name": "HP-LaserJet-Printer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HP-LaserJet-Printer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "hp 9200C Digital Sender</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "hp\\ 9200C\\ Digital\\ Sender</title>"
+    }
+  ]
+}

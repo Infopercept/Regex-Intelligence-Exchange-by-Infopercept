@@ -1,0 +1,98 @@
+{
+  "vendor": "Mahara",
+  "vendor_id": "mahara",
+  "product": "Mahara",
+  "product_id": "mahara",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mahara Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mahara",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- This site is powered by Mahara, an Open Source",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ This\\ site\\ is\\ powered\\ by\\ Mahara,\\ an\\ Open\\ Source"
+    },
+    {
+      "name": "Mahara Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mahara",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- there is a div id=\"performance-info\" wrapping this -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ there\\ is\\ a\\ div\\ id=\"performance\\-info\"\\ wrapping\\ this\\ \\-\\->"
+    },
+    {
+      "name": "Mahara Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mahara",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"powered-by\"><a href=\"http://mahara.org/\"><img src=\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"powered\\-by\"><a\\ href=\"http://mahara\\.org/\"><img\\ src=\""
+    },
+    {
+      "name": "Mahara Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mahara",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"text/javascript\">var strings = {\"namedfieldempty\":\"The required field \\\"%s\\\" is empty\",\"processing\":\"Processing\",\"requiredfieldempty\":\"A required field is empty\",\"unknownerror\":\"An unknown error occurred (0x20f91a0)\",",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ type=\"text/javascript\">var\\ strings\\ =\\ \\{\"namedfieldempty\":\"The\\ required\\ field\\ \\\\\"%s\\\\\"\\ is\\ empty\",\"processing\":\"Processing\",\"requiredfieldempty\":\"A\\ required\\ field\\ is\\ empty\",\"unknownerror\":\"An\\ unknown\\ error\\ occurred\\ \\(0x20f91a0\\)\","
+    }
+  ]
+}

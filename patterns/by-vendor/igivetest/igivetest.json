@@ -1,0 +1,32 @@
+{
+  "vendor": "iGiveTest",
+  "vendor_id": "igivetest",
+  "product": "iGiveTest",
+  "product_id": "igivetest",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "iGiveTest Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iGiveTest",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form action=\"index.php\" method=post name=signinform>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ action=\"index\\.php\"\\ method=post\\ name=signinform>"
+    }
+  ]
+}

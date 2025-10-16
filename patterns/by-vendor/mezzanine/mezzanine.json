@@ -1,0 +1,26 @@
+{
+  "vendor": "Mezzanine",
+  "vendor_id": "mezzanine",
+  "product": "Mezzanine",
+  "product_id": "mezzanine",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Admin Login Page ",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mezzanine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "mezzanine_login_interface"
+    }
+  ]
+}

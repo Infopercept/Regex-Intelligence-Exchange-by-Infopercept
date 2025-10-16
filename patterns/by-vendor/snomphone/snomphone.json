@@ -1,0 +1,80 @@
+{
+  "vendor": "SnomPhone",
+  "vendor_id": "snomphone",
+  "product": "SnomPhone",
+  "product_id": "snomphone",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "copyright snom.com",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SnomPhone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "&copy; 2000-20[0-9]+ <a href=\"http://snom.com\">snom AG</a><br>"
+    },
+    {
+      "name": "link to manual1",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SnomPhone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<tr><td class=\"flyoutLink\" colspan=\"2\"><b><a href=http://(wiki|www).snom.com"
+    },
+    {
+      "name": "SnomPhone Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SnomPhone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "You can enter a simple telephone number (e.g. 0114930398330) or URI like info@snom.com.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "You\\ can\\ enter\\ a\\ simple\\ telephone\\ number\\ \\(e\\.g\\.\\ 0114930398330\\)\\ or\\ URI\\ like\\ info@snom\\.com\\."
+    },
+    {
+      "name": "SnomPhone Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SnomPhone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<td[^>]+>Welcome to Your Phone!</td>"
+    }
+  ]
+}

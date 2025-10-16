@@ -1,0 +1,33 @@
+{
+  "vendor": "Epson-Printer",
+  "vendor_id": "epson-printer",
+  "product": "Epson-Printer",
+  "product_id": "epson-printer",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Epson-Printer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Epson-Printer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^EPSON-HTTP/([^\\s]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^EPSON-HTTP/([^\\s]+)",
+      "version_group": 1
+    }
+  ]
+}

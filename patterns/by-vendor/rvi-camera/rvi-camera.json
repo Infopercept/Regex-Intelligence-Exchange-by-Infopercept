@@ -1,0 +1,54 @@
+{
+  "vendor": "RVI-Camera",
+  "vendor_id": "rvi-camera",
+  "product": "RVI-Camera",
+  "product_id": "rvi-camera",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "RVI-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for RVI-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\u0421\u043a\u0430\u0447\u0430\u0442\u044c \u0444\u0430\u0439\u043b \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438 OCX&nbsp;&nbsp;&nbsp;<a href=\"xdview.exe\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\u0421\u043a\u0430\u0447\u0430\u0442\u044c\\ \u0444\u0430\u0439\u043b\\ \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438\\ OCX\\&nbsp;\\&nbsp;\\&nbsp;<a\\ href=\"xdview\\.exe\">"
+    },
+    {
+      "name": "RVI-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for RVI-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<Meta name=\"Author\" Content=\"hhdigital\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<Meta\\ name=\"Author\"\\ Content=\"hhdigital\">"
+    }
+  ]
+}

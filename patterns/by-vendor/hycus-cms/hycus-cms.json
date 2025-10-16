@@ -1,0 +1,54 @@
+{
+  "vendor": "Hycus-CMS",
+  "vendor_id": "hycus-cms",
+  "product": "Hycus-CMS",
+  "product_id": "hycus-cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Hycus-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Hycus-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"Hycus - Open Source PHP Based Content Management\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"Hycus\\ \\-\\ Open\\ Source\\ PHP\\ Based\\ Content\\ Management\"\\ />"
+    },
+    {
+      "name": "Hycus-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Hycus-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered By <a href=\"http://www.hycus.com\" target=\"_blank\" >Hycus-CMS</a>. Developed By <a href=\"http://www.hycus.com\" target=\"_blank\" >Hycus Team</a>.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.hycus\\.com\"\\ target=\"_blank\"\\ >Hycus\\-CMS</a>\\.\\ Developed\\ By\\ <a\\ href=\"http://www\\.hycus\\.com\"\\ target=\"_blank\"\\ >Hycus\\ Team</a>\\."
+    }
+  ]
+}

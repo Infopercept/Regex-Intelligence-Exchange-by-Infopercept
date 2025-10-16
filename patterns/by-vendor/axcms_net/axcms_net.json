@@ -1,0 +1,54 @@
+{
+  "vendor": "AxCMS_net",
+  "vendor_id": "axcms_net",
+  "product": "AxCMS_net",
+  "product_id": "axcms_net",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AxCMS_net Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AxCMS_net",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div style=\"text-align:center;width:100%;\"><a href=\"http://axcms.net\" target=\"_blank\"><img src=\"http://axcms.net/upload/poweredby_150x25_13871.png\" height=\"25\" width=\"150\" alt=\"Powered by AxCMS.net\" style=\"height:25px;width:150px;border-width:0px;\" /></a></div></form>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ style=\"text\\-align:center;width:100%;\"><a\\ href=\"http://axcms\\.net\"\\ target=\"_blank\"><img\\ src=\"http://axcms\\.net/upload/poweredby_150x25_13871\\.png\"\\ height=\"25\"\\ width=\"150\"\\ alt=\"Powered\\ by\\ AxCMS\\.net\"\\ style=\"height:25px;width:150px;border\\-width:0px;\"\\ /></a></div></form>"
+    },
+    {
+      "name": "AxCMS_net Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AxCMS_net",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Build and published by AxCMS.net | powered by Axinom-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Build\\ and\\ published\\ by\\ AxCMS\\.net\\ \\|\\ powered\\ by\\ Axinom\\-\\->"
+    }
+  ]
+}

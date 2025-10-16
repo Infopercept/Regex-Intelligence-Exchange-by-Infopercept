@@ -1,0 +1,48 @@
+{
+  "vendor": "phpPgAdmin",
+  "vendor_id": "phppgadmin",
+  "product": "phpPgAdmin",
+  "product_id": "phppgadmin",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PPA_ID Cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpPgAdmin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^PPA_ID=[a-z0-9]+"
+    },
+    {
+      "name": "phpPgAdmin Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpPgAdmin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td><span class=\"appname\">phpPgAdmin</span></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td><span\\ class=\"appname\">phpPgAdmin</span></td>"
+    }
+  ]
+}

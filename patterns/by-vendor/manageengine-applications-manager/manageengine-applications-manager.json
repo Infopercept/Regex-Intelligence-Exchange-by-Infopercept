@@ -1,0 +1,76 @@
+{
+  "vendor": "ManageEngine-Applications-Manager",
+  "vendor_id": "manageengine-applications-manager",
+  "product": "ManageEngine-Applications-Manager",
+  "product_id": "manageengine-applications-manager",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ManageEngine-Applications-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ManageEngine-Applications-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- This comment is for Instant Gratification to work applications.do -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ This\\ comment\\ is\\ for\\ Instant\\ Gratification\\ to\\ work\\ applications\\.do\\ \\-\\->"
+    },
+    {
+      "name": "ManageEngine-Applications-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ManageEngine-Applications-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<SCRIPT LANGUAGE=\"JavaScript1.2\" SRC=\"/template/appmanager.js\"></SCRIPT>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<SCRIPT\\ LANGUAGE=\"JavaScript1\\.2\"\\ SRC=\"/template/appmanager\\.js\"></SCRIPT>"
+    },
+    {
+      "name": "ManageEngine-Applications-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ManageEngine-Applications-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Applications Manager Login Screen</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Applications\\ Manager\\ Login\\ Screen</title>"
+    }
+  ]
+}

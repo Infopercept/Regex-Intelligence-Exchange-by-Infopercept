@@ -1,0 +1,76 @@
+{
+  "vendor": "SonicWALL-GMS",
+  "vendor_id": "sonicwall-gms",
+  "product": "SonicWALL-GMS",
+  "product_id": "sonicwall-gms",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SonicWALL-GMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SonicWALL-GMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>SonicWALL GMS Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>SonicWALL\\ GMS\\ Login</title>"
+    },
+    {
+      "name": "SonicWALL-GMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SonicWALL-GMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>SonicWALL GMS Login Screen</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>SonicWALL\\ GMS\\ Login\\ Screen</title>"
+    },
+    {
+      "name": "SonicWALL-GMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SonicWALL-GMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body background=\"images/gray_waves.back.gif\" leftmargin=\"0\" topmargin=\"0\" marginwidth=\"0\" marginheight=\"0\" onLoad=\"onLoadFunc()\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ background=\"images/gray_waves\\.back\\.gif\"\\ leftmargin=\"0\"\\ topmargin=\"0\"\\ marginwidth=\"0\"\\ marginheight=\"0\"\\ onLoad=\"onLoadFunc\\(\\)\">"
+    }
+  ]
+}

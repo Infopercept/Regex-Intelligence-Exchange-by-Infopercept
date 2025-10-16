@@ -1,0 +1,54 @@
+{
+  "vendor": "LK-IHC-Controller",
+  "vendor_id": "lk-ihc-controller",
+  "product": "LK-IHC-Controller",
+  "product_id": "lk-ihc-controller",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "LK-IHC-Controller Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LK-IHC-Controller",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>LK IHC controller forside</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>LK\\ IHC\\ controller\\ forside</title>"
+    },
+    {
+      "name": "LK-IHC-Controller Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LK-IHC-Controller",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<table width=\"640\" height=\"480\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"  background=\"images/bg_image_LK.jpg\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<table\\ width=\"640\"\\ height=\"480\"\\ border=\"0\"\\ cellspacing=\"0\"\\ cellpadding=\"0\"\\ \\ background=\"images/bg_image_LK\\.jpg\">"
+    }
+  ]
+}

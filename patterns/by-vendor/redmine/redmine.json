@@ -1,0 +1,70 @@
+{
+  "vendor": "Redmine",
+  "vendor_id": "redmine",
+  "product": "Redmine",
+  "product_id": "redmine",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Redmine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Redmine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "_redmine_session="
+    },
+    {
+      "name": "Redmine Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Redmine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"Redmine\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"Redmine\"\\ />"
+    },
+    {
+      "name": "Redmine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Redmine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>redMine 404 error</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>redMine\\ 404\\ error</title>"
+    }
+  ]
+}

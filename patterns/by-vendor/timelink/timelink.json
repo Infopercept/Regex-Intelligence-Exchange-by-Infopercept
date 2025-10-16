@@ -1,0 +1,32 @@
+{
+  "vendor": "TimeLink",
+  "vendor_id": "timelink",
+  "product": "TimeLink",
+  "product_id": "timelink",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TimeLink Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TimeLink",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"shortcut icon\" type=\"image/png\" href=\"/timelink/images/favicon.ico\"/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ type=\"image/png\"\\ href=\"/timelink/images/favicon\\.ico\"/>"
+    }
+  ]
+}

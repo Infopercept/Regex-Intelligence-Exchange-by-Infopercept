@@ -1,0 +1,98 @@
+{
+  "vendor": "DrugPak",
+  "vendor_id": "drugpak",
+  "product": "DrugPak",
+  "product_id": "drugpak",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DrugPak Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DrugPak",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<LINK REL=StyleSheet HREF=\"<#imagepath>/<#_style1 default=dpstyle.css>\" TYPE=\"text/css\" MEDIA=screen>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<LINK\\ REL=StyleSheet\\ HREF=\"<\\#imagepath>/<\\#_style1\\ default=dpstyle\\.css>\"\\ TYPE=\"text/css\"\\ MEDIA=screen>"
+    },
+    {
+      "name": "DrugPak Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DrugPak",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--Assist making SSL connection-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-Assist\\ making\\ SSL\\ connection\\-\\->"
+    },
+    {
+      "name": "DrugPak Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DrugPak",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<hr>Powered by DrugPak</body>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<hr>Powered\\ by\\ DrugPak</body>"
+    },
+    {
+      "name": "DrugPak Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DrugPak",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<LINK REL=StyleSheet HREF=\"/dplimg/DPSTYLE.CSS\" TYPE=\"text/css\" media=\"all\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<LINK\\ REL=StyleSheet\\ HREF=\"/dplimg/DPSTYLE\\.CSS\"\\ TYPE=\"text/css\"\\ media=\"all\">"
+    }
+  ]
+}

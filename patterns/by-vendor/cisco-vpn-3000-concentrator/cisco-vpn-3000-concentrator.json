@@ -1,0 +1,54 @@
+{
+  "vendor": "Cisco-VPN-3000-Concentrator",
+  "vendor_id": "cisco-vpn-3000-concentrator",
+  "product": "Cisco-VPN-3000-Concentrator",
+  "product_id": "cisco-vpn-3000-concentrator",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Cisco-VPN-3000-Concentrator Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cisco-VPN-3000-Concentrator",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Cisco Systems, Inc. VPN 3000 Concentrator ",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Cisco\\ Systems,\\ Inc\\.\\ VPN\\ 3000\\ Concentrator\\ "
+    },
+    {
+      "name": "Cisco-VPN-3000-Concentrator Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cisco-VPN-3000-Concentrator",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>You are using an old browser or have disabled JavaScript. You <b>must</b> use version 4 or higher of Netscape Navigator/Communicator or version 4 or higher of Microsoft Internet Explorer with JavaScript enabled.</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>You\\ are\\ using\\ an\\ old\\ browser\\ or\\ have\\ disabled\\ JavaScript\\.\\ You\\ <b>must</b>\\ use\\ version\\ 4\\ or\\ higher\\ of\\ Netscape\\ Navigator/Communicator\\ or\\ version\\ 4\\ or\\ higher\\ of\\ Microsoft\\ Internet\\ Explorer\\ with\\ JavaScript\\ enabled\\.</p>"
+    }
+  ]
+}

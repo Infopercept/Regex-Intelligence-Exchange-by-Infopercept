@@ -1,0 +1,120 @@
+{
+  "vendor": "WebDVR",
+  "vendor_id": "webdvr",
+  "product": "WebDVR",
+  "product_id": "webdvr",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WebDVR Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebDVR",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>WebDVR</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>WebDVR</title>"
+    },
+    {
+      "name": "WebDVR Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebDVR",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>WEBDVR</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>WEBDVR</TITLE>"
+    },
+    {
+      "name": "WebDVR Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebDVR",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\talert(\"Direct Draw Overlay Mode: It is faster than GDI but only available on ATI Video Card and requires Direct 7 or above.\\nIf you have other video cards than ATI, you shouldn\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\talert\\(\"Direct\\ Draw\\ Overlay\\ Mode:\\ It\\ is\\ faster\\ than\\ GDI\\ but\\ only\\ available\\ on\\ ATI\\ Video\\ Card\\ and\\ requires\\ Direct\\ 7\\ or\\ above\\.\\\\nIf\\ you\\ have\\ other\\ video\\ cards\\ than\\ ATI,\\ you\\ shouldn\\\\"
+    },
+    {
+      "name": "WebDVR Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebDVR",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\talert(\"DirectDraw Video acceleration will be enabled if your VGA card supports Microsoft DirectX 8.1 or later.\");",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\talert\\(\"DirectDraw\\ Video\\ acceleration\\ will\\ be\\ enabled\\ if\\ your\\ VGA\\ card\\ supports\\ Microsoft\\ DirectX\\ 8\\.1\\ or\\ later\\.\"\\);"
+    },
+    {
+      "name": "WebDVR Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebDVR",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\twindow.location=\"webdvr.html\";",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\twindow\\.location=\"webdvr\\.html\";"
+    }
+  ]
+}

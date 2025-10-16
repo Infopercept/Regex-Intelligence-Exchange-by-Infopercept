@@ -1,0 +1,26 @@
+{
+  "vendor": "NetGear-Firewall",
+  "vendor_id": "netgear-firewall",
+  "product": "NetGear-Firewall",
+  "product_id": "netgear-firewall",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "NetGear-Firewall Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetGear-Firewall",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^NETGEAR Firewall$"
+    }
+  ]
+}

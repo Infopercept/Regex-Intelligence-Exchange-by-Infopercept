@@ -1,0 +1,99 @@
+{
+  "vendor": "DirectAdmin",
+  "vendor_id": "directadmin",
+  "product": "DirectAdmin",
+  "product_id": "directadmin",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DirectAdmin Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DirectAdmin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td class=listtitle colspan=2>Please enter your Username and Password</td></tr>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ class=listtitle\\ colspan=2>Please\\ enter\\ your\\ Username\\ and\\ Password</td></tr>"
+    },
+    {
+      "name": "DirectAdmin Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DirectAdmin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>DirectAdmin Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>DirectAdmin\\ Login</title>"
+    },
+    {
+      "name": "DirectAdmin Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DirectAdmin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "onload=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "onload=\\\\"
+    },
+    {
+      "name": "DirectAdmin Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DirectAdmin",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^DirectAdmin Daemon v([^\\s]+) Registered to ",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^DirectAdmin Daemon v([^\\s]+) Registered to ",
+      "version_group": 1
+    }
+  ]
+}

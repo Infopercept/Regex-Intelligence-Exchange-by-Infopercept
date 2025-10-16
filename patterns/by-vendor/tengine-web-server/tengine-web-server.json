@@ -1,0 +1,49 @@
+{
+  "vendor": "Tengine-Web-Server",
+  "vendor_id": "tengine-web-server",
+  "product": "Tengine-Web-Server",
+  "product_id": "tengine-web-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Tengine-Web-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tengine-Web-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Tengine$"
+    },
+    {
+      "name": "Tengine-Web-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tengine-Web-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Tengine/([^\\s]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Tengine/([^\\s]+)",
+      "version_group": 1
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "vendor": "W3-Total-Cache",
+  "vendor_id": "w3-total-cache",
+  "product": "W3-Total-Cache",
+  "product_id": "w3-total-cache",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "W3-Total-Cache Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for W3-Total-Cache",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Performance\\ optimized\\ by\\ W3\\ Total\\ Cache\\.\\ Learn\\ more:\\ http://www\\.w3\\-edge\\.com/wordpress\\-plugins/"
+    }
+  ]
+}

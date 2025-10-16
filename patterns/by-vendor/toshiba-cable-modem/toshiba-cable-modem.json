@@ -1,0 +1,54 @@
+{
+  "vendor": "Toshiba-Cable-Modem",
+  "vendor_id": "toshiba-cable-modem",
+  "product": "Toshiba-Cable-Modem",
+  "product_id": "toshiba-cable-modem",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Toshiba-Cable-Modem Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Toshiba-Cable-Modem",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Toshiba Cable Modem PCX3000</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Toshiba\\ Cable\\ Modem\\ PCX3000</TITLE>"
+    },
+    {
+      "name": "Toshiba-Cable-Modem Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Toshiba-Cable-Modem",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<BR><FONT color=navy size=5>Toshiba Cable Modem Diagnostics Page &nbsp;</FONT>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<BR><FONT\\ color=navy\\ size=5>Toshiba\\ Cable\\ Modem\\ Diagnostics\\ Page\\ \\&nbsp;</FONT>"
+    }
+  ]
+}

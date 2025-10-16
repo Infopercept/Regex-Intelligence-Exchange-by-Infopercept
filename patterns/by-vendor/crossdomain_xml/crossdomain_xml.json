@@ -1,0 +1,54 @@
+{
+  "vendor": "crossdomain_xml",
+  "vendor_id": "crossdomain_xml",
+  "product": "crossdomain_xml",
+  "product_id": "crossdomain_xml",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "crossdomain_xml Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for crossdomain_xml",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<cross-domain-policy>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<cross\\-domain\\-policy>"
+    },
+    {
+      "name": "crossdomain_xml Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for crossdomain_xml",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<site-control permitted-cross-domain-policies=\"none\"/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<site\\-control\\ permitted\\-cross\\-domain\\-policies=\"none\"/>"
+    }
+  ]
+}

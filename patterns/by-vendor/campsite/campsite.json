@@ -1,0 +1,98 @@
+{
+  "vendor": "Campsite",
+  "vendor_id": "campsite",
+  "product": "Campsite",
+  "product_id": "campsite",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Campsite Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Campsite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.campware.org\" target=\"_blank\"><img src=\"/templates/img/powered.gif\" alt=\"powered by campsite\" border=\"0\"/></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.campware\\.org\"\\ target=\"_blank\"><img\\ src=\"/templates/img/powered\\.gif\"\\ alt=\"powered\\ by\\ campsite\"\\ border=\"0\"/></a>"
+    },
+    {
+      "name": "Campsite Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Campsite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "powered by <a href=\"http://www.campware.org\" target=\"_blank\">CAMPSite</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "powered\\ by\\ <a\\ href=\"http://www\\.campware\\.org\"\\ target=\"_blank\">CAMPSite</a></p>"
+    },
+    {
+      "name": "Campsite Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Campsite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "powered by <a href=\"http://campsite.campware.org\" target=\"_blank\">Campsite</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "powered\\ by\\ <a\\ href=\"http://campsite\\.campware\\.org\"\\ target=\"_blank\">Campsite</a>"
+    },
+    {
+      "name": "Campsite Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Campsite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "powered by <a href=\"http://campsite.sourcefabric.org\" target=\"_blank\">Campsite</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "powered\\ by\\ <a\\ href=\"http://campsite\\.sourcefabric\\.org\"\\ target=\"_blank\">Campsite</a>"
+    }
+  ]
+}

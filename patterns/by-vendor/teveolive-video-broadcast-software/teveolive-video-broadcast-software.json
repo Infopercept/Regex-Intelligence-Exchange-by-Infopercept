@@ -1,0 +1,80 @@
+{
+  "vendor": "TeveoLive-Video-Broadcast-Software",
+  "vendor_id": "teveolive-video-broadcast-software",
+  "product": "TeveoLive-Video-Broadcast-Software",
+  "product_id": "teveolive-video-broadcast-software",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TeveoLive-Video-Broadcast-Software Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TeveoLive-Video-Broadcast-Software",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"images/vidioscene.jpg\" border=0 width=\"61\" height=\"30\"></a> ",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"images/vidioscene\\.jpg\"\\ border=0\\ width=\"61\"\\ height=\"30\"></a>\\ "
+    },
+    {
+      "name": "TeveoLive-Video-Broadcast-Software Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TeveoLive-Video-Broadcast-Software",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^TeveoLive HTTP Server$"
+    },
+    {
+      "name": "TeveoLive-Video-Broadcast-Software Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TeveoLive-Video-Broadcast-Software",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^\\d+$"
+    },
+    {
+      "name": "TeveoLive-Video-Broadcast-Software Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TeveoLive-Video-Broadcast-Software",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^\\d+$"
+    }
+  ]
+}

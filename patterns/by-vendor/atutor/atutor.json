@@ -1,0 +1,32 @@
+{
+  "vendor": "ATutor",
+  "vendor_id": "atutor",
+  "product": "ATutor",
+  "product_id": "atutor",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Documentation link",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ATutor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span id=\"howto\">For guidance on using ATutor see the official",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span\\ id=\"howto\">For\\ guidance\\ on\\ using\\ ATutor\\ see\\ the\\ official"
+    }
+  ]
+}

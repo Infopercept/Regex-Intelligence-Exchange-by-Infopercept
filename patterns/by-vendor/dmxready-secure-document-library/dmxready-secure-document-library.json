@@ -1,0 +1,42 @@
+{
+  "vendor": "DMXReady-Secure-Document-Library",
+  "vendor_id": "dmxready-secure-document-library",
+  "product": "DMXReady-Secure-Document-Library",
+  "product_id": "dmxready-secure-document-library",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DMXReady-Secure-Document-Library Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DMXReady-Secure-Document-Library",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"[^\"]*/applications/[sS]ecureDocumentLibrary/inc_securedocumentlibrary\\.asp\\?show=sendpassword\">Forget Password\\?</a>"
+    },
+    {
+      "name": "DMXReady-Secure-Document-Library Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DMXReady-Secure-Document-Library",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<form action=\"[^\"]*/applications/SecureDocumentLibrary/inc_securedocumentlibrary\\.asp\" method=\"POST\" name=\"login\" onSubmit=\"YY_checkform\\('login','entity_username','#q','0','Please provide username','entity_password','#q','0','Please provide password'\\);return document.MM_returnValue\""
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "vendor": "cPanel",
+  "vendor_id": "cpanel",
+  "product": "cPanel",
+  "product_id": "cpanel",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "cPanel Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for cPanel",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>cPanel&reg;</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>cPanel\\&reg;</title>"
+    },
+    {
+      "name": "cPanel Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for cPanel",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"footer_images\"><img src=\"sys_cpanel/images/powered_by.gif\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"footer_images\"><img\\ src=\"sys_cpanel/images/powered_by\\.gif\"\\ />"
+    },
+    {
+      "name": "cPanel Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for cPanel",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Apache is working on your cPanel<sup>&reg;</sup> and WHM&#8482; Server",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Apache\\ is\\ working\\ on\\ your\\ cPanel<sup>\\&reg;</sup>\\ and\\ WHM\\&\\#8482;\\ Server"
+    },
+    {
+      "name": "cPanel Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for cPanel",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html><head><META HTTP-EQUIV=\"refresh\" CONTENT=\"0;URL=/cgi-sys/defaultwebpage.cgi\"></head><body></body></html>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html><head><META\\ HTTP\\-EQUIV=\"refresh\"\\ CONTENT=\"0;URL=/cgi\\-sys/defaultwebpage\\.cgi\"></head><body></body></html>"
+    },
+    {
+      "name": "cPanel Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for cPanel",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link rel=\"stylesheet\" href=\"[^>^\"]*/unprotected/cpanel/style_optimized\\.css\" type=\"text/css\" />"
+    },
+    {
+      "name": "cPanel Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for cPanel",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p class=\"troubleshoot\">It may be possible to restore access to this site by <a href=\"http://www.cpanel.net/docs/dnscache/cleardns.html\">following these instructions</a> for clearing your dns cache.</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ class=\"troubleshoot\">It\\ may\\ be\\ possible\\ to\\ restore\\ access\\ to\\ this\\ site\\ by\\ <a\\ href=\"http://www\\.cpanel\\.net/docs/dnscache/cleardns\\.html\">following\\ these\\ instructions</a>\\ for\\ clearing\\ your\\ dns\\ cache\\.</p>"
+    },
+    {
+      "name": "cPanel Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for cPanel",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^cpsrvd/8.5$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^cpsrvd/([\\d\\.]+)$",
+      "version_group": 1
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "vendor": "Index-Of",
+  "vendor_id": "index-of",
+  "product": "Index-Of",
+  "product_id": "index-of",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Index-Of Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Index-Of",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Index of /",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Index\\ of\\ /"
+    },
+    {
+      "name": "Index-Of Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Index-Of",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"\\?C=N;O=D\">Name</a></th><th><a\\ href=\"\\?C=M;O=A\">Last\\ modified</a>"
+    },
+    {
+      "name": "Index-Of Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Index-Of",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"\\?C=N;O=D\">Name</a>[\\s]*<a href=\"\\?C=M;O=A\">Last modified</a>"
+    },
+    {
+      "name": "Index-Of Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Index-Of",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<pre>Name[\\s]+Last modified[\\s]+Size[\\s]+<hr>"
+    },
+    {
+      "name": "Index-Of Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Index-Of",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<A HREF=\"\\?N=D\">Name</A>[\\s]+<A HREF=\"\\?M=A\">Last modified</A>"
+    },
+    {
+      "name": "minimal apache listing",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Index-Of",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>Index of /[^<]*</title>[\\s]*</head>[\\s]*<body>[\\s]*<h1>Index of "
+    }
+  ]
+}

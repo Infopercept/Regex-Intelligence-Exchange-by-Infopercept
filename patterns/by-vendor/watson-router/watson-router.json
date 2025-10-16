@@ -1,0 +1,54 @@
+{
+  "vendor": "Watson-Router",
+  "vendor_id": "watson-router",
+  "product": "Watson-Router",
+  "product_id": "watson-router",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Watson-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Watson-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Watson Management Console</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Watson\\ Management\\ Console</TITLE>"
+    },
+    {
+      "name": "Watson-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Watson-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--- Page(page_login)=[Login] ---><HTML>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\-\\ Page\\(page_login\\)=\\[Login\\]\\ \\-\\-\\-><HTML>"
+    }
+  ]
+}

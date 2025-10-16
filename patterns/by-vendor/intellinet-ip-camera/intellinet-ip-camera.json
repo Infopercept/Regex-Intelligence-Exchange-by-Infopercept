@@ -1,0 +1,120 @@
+{
+  "vendor": "Intellinet-IP-Camera",
+  "vendor_id": "intellinet-ip-camera",
+  "product": "Intellinet-IP-Camera",
+  "product_id": "intellinet-ip-camera",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Intellinet-IP-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Intellinet-IP-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "    <font size=\"4\" color=\"#FFFFFF\" face=\"Arial\">NETWORK IP CAMERA<br>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ <font\\ size=\"4\"\\ color=\"\\#FFFFFF\"\\ face=\"Arial\">NETWORK\\ IP\\ CAMERA<br>"
+    },
+    {
+      "name": "Intellinet-IP-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Intellinet-IP-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>::::: INTELLINET IP Camera Homepage :::::</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>:::::\\ INTELLINET\\ IP\\ Camera\\ Homepage\\ :::::</TITLE>"
+    },
+    {
+      "name": "Intellinet-IP-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Intellinet-IP-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>::::: INTELLINET ACTIVE NETWORKING Network IP Camera Homepage :::::</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>:::::\\ INTELLINET\\ ACTIVE\\ NETWORKING\\ Network\\ IP\\ Camera\\ Homepage\\ :::::</title>"
+    },
+    {
+      "name": "Intellinet-IP-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Intellinet-IP-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>INTELLINET NETWORK SOLUTIONS: Professional Series Network IP Camera Homepage</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>INTELLINET\\ NETWORK\\ SOLUTIONS:\\ Professional\\ Series\\ Network\\ IP\\ Camera\\ Homepage</TITLE>"
+    },
+    {
+      "name": "Intellinet-IP-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Intellinet-IP-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>INTELLINET NETWORK SOLUTIONS: Professional Series Wireless Network IP Camera Homepage</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>INTELLINET\\ NETWORK\\ SOLUTIONS:\\ Professional\\ Series\\ Wireless\\ Network\\ IP\\ Camera\\ Homepage</TITLE>"
+    }
+  ]
+}

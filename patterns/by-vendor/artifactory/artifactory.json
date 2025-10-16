@@ -1,0 +1,54 @@
+{
+  "vendor": "Artifactory",
+  "vendor_id": "artifactory",
+  "product": "Artifactory",
+  "product_id": "artifactory",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Artifactory Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Artifactory",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html ng-app=\"artifactory.ui\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html\\ ng\\-app=\"artifactory\\.ui\">"
+    },
+    {
+      "name": "Artifactory Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Artifactory",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body jf-body-class ng-class=\"{\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ jf\\-body\\-class\\ ng\\-class=\"\\{\\\\"
+    }
+  ]
+}

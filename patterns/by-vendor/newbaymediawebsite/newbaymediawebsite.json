@@ -1,0 +1,26 @@
+{
+  "vendor": "NewBayMediaWebsite",
+  "vendor_id": "newbaymediawebsite",
+  "product": "NewBayMediaWebsite",
+  "product_id": "newbaymediawebsite",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CSS class used for the menus",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NewBayMediaWebsite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "nice-menu-menu-newbay-media-websites"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "vendor": "PluXml",
+  "vendor_id": "pluxml",
+  "product": "PluXml",
+  "product_id": "pluxml",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PluXml Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PluXml",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "par <a href=\"http://pluxml.org\">Pluxml</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "par\\ <a\\ href=\"http://pluxml\\.org\">Pluxml</a></p>"
+    },
+    {
+      "name": "PluXml Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PluXml",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by <a href=\"http://pluxml\\.org"
+    },
+    {
+      "name": "PluXml Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PluXml",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>PluXml - Page d'authentification</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>PluXml\\ \\-\\ Page\\ d'authentification</title>"
+    },
+    {
+      "name": "PluXml Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PluXml",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p class=\"auth_return\"><a href=\"../../\">Retour au site</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ class=\"auth_return\"><a\\ href=\"\\.\\./\\.\\./\">Retour\\ au\\ site</a>"
+    },
+    {
+      "name": "PluXml Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PluXml",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "G&eacute;n&eacute;r&eacute; par <a href=\"http://pluxml.org\" title=\"Blog ou Cms sans base de donn&eacute;es\">PluXml</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "G\\&eacute;n\\&eacute;r\\&eacute;\\ par\\ <a\\ href=\"http://pluxml\\.org\"\\ title=\"Blog\\ ou\\ Cms\\ sans\\ base\\ de\\ donn\\&eacute;es\">PluXml</a>"
+    },
+    {
+      "name": "PluXml Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PluXml",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "G&eacute;n&eacute;r&eacute; par <a href=\"http://pluxml.org\">PluXml</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "G\\&eacute;n\\&eacute;r\\&eacute;\\ par\\ <a\\ href=\"http://pluxml\\.org\">PluXml</a></p>"
+    }
+  ]
+}

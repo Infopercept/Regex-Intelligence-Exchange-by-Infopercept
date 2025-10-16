@@ -1,0 +1,54 @@
+{
+  "vendor": "Auxilium-PetRatePro",
+  "vendor_id": "auxilium-petratepro",
+  "product": "Auxilium-PetRatePro",
+  "product_id": "auxilium-petratepro",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Auxilium-PetRatePro Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Auxilium-PetRatePro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form method=\"post\" name=\"myform2\" action=\"index.php?cmd=11\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ method=\"post\"\\ name=\"myform2\"\\ action=\"index\\.php\\?cmd=11\">"
+    },
+    {
+      "name": "Auxilium-PetRatePro Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Auxilium-PetRatePro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p class=\"text\"><b>Leader Of The Pack (Top 10 Pets)</b><br><br>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ class=\"text\"><b>Leader\\ Of\\ The\\ Pack\\ \\(Top\\ 10\\ Pets\\)</b><br><br>"
+    }
+  ]
+}

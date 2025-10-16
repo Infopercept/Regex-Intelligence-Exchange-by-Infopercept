@@ -1,0 +1,76 @@
+{
+  "vendor": "Mac-OSX-Server",
+  "vendor_id": "mac-osx-server",
+  "product": "Mac-OSX-Server",
+  "product_id": "mac-osx-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mac-OSX-Server Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mac-OSX-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Mac OS X Server</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Mac\\ OS\\ X\\ Server</title>"
+    },
+    {
+      "name": "Mac-OSX-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mac-OSX-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<iframe id=\"webmail_frame\" src=\"/webmail/src/\"><!-- this frame will enable the webmail link if webmail is active --></iframe>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<iframe\\ id=\"webmail_frame\"\\ src=\"/webmail/src/\"><!\\-\\-\\ this\\ frame\\ will\\ enable\\ the\\ webmail\\ link\\ if\\ webmail\\ is\\ active\\ \\-\\-></iframe>"
+    },
+    {
+      "name": "Mac-OSX-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mac-OSX-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" type=\"text/css\" media=\"screen, projection\" href=\"/collaboration/css/required_compressed.css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ media=\"screen,\\ projection\"\\ href=\"/collaboration/css/required_compressed\\.css\">"
+    }
+  ]
+}

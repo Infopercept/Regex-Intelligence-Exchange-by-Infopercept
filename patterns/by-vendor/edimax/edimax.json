@@ -1,0 +1,98 @@
+{
+  "vendor": "EDIMAX",
+  "vendor_id": "edimax",
+  "product": "EDIMAX",
+  "product_id": "edimax",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "EDIMAX Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for EDIMAX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>EDIMAX Technology</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>EDIMAX\\ Technology</title>"
+    },
+    {
+      "name": "EDIMAX Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for EDIMAX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Access Point Status</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Access\\ Point\\ Status</title>"
+    },
+    {
+      "name": "EDIMAX Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for EDIMAX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "cdwindow=window.open('countdown.asp','CountDown','channelmode=0, directories=0,fullscreen=0,height=100,location=0,menubar=0,resizable=1,scrollbars=0,status=0,titlebar=0,toolbar=0,width=450','false');",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "cdwindow=window\\.open\\('countdown\\.asp','CountDown','channelmode=0,\\ directories=0,fullscreen=0,height=100,location=0,menubar=0,resizable=1,scrollbars=0,status=0,titlebar=0,toolbar=0,width=450','false'\\);"
+    },
+    {
+      "name": "EDIMAX Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for EDIMAX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" href=\"edimax.css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"edimax\\.css\">"
+    }
+  ]
+}

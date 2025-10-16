@@ -1,0 +1,26 @@
+{
+  "vendor": "php-Charts",
+  "vendor_id": "php-charts",
+  "product": "php-Charts",
+  "product_id": "php-charts",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "php-Charts Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for php-Charts",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "\\b(href|src)\\s*=\\s*[\"'][^>]*url\\.php\\?type=bar&dimension=[^\\s^&]+&data_type=[^\\s^&]+&file_path=[^&]+&group_col=[^\\s^&]+&series_col=[^\\s^&]+&output_type=[^\\s^&]+"
+    }
+  ]
+}

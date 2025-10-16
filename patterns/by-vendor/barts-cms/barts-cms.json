@@ -1,0 +1,32 @@
+{
+  "vendor": "Barts-CMS",
+  "vendor_id": "barts-cms",
+  "product": "Barts-CMS",
+  "product_id": "barts-cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Barts-CMS Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Barts-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"Bart Verstricht\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Bart\\ Verstricht\"\\ />"
+    }
+  ]
+}

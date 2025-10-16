@@ -1,0 +1,32 @@
+{
+  "vendor": "HAProxy",
+  "vendor_id": "haproxy",
+  "product": "HAProxy",
+  "product_id": "haproxy",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "HAProxy Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HAProxy",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Basic realm=\"HAProxy Statistics\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Basic\\ realm=\"HAProxy\\ Statistics\""
+    }
+  ]
+}

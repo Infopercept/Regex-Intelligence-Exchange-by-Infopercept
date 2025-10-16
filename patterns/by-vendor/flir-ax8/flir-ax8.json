@@ -1,0 +1,32 @@
+{
+  "vendor": "Flir-AX8",
+  "vendor_id": "flir-ax8",
+  "product": "Flir-AX8",
+  "product_id": "flir-ax8",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Flir-AX8 Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Flir-AX8",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p style=\"display: inline-block\" id=\"login-title\">FLIR AX8",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ style=\"display:\\ inline\\-block\"\\ id=\"login\\-title\">FLIR\\ AX8"
+    }
+  ]
+}

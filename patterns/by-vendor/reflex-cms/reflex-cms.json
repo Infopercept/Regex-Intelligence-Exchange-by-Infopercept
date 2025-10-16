@@ -1,0 +1,92 @@
+{
+  "vendor": "ReFlex-CMS",
+  "vendor_id": "reflex-cms",
+  "product": "ReFlex-CMS",
+  "product_id": "reflex-cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ReFlex-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ReFlex-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link id=\"ctl00_hlnk[^\"]+\" rel=\"stylesheet\" type=\"text/css\"[^>]+href=\"[^\"]*/Site/Resources/css/(layout|styles).css\" />"
+    },
+    {
+      "name": "ReFlex-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ReFlex-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "var Page_Validators =  new Array(document.getElementById(\"ctl00_cphMain_rfvUserName\"), document.getElementById(\"ctl00_cphMain_rfvUserPassword\"));",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "var\\ Page_Validators\\ =\\ \\ new\\ Array\\(document\\.getElementById\\(\"ctl00_cphMain_rfvUserName\"\\),\\ document\\.getElementById\\(\"ctl00_cphMain_rfvUserPassword\"\\)\\);"
+    },
+    {
+      "name": "ReFlex-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ReFlex-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"Resources/images/reflex.png\" alt=\"ReFlex Administration\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"Resources/images/reflex\\.png\"\\ alt=\"ReFlex\\ Administration\"\\ />"
+    },
+    {
+      "name": "ReFlex-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ReFlex-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script defer type=\"text/javascript\" src=\"Resources/js/pngfix.js\"></script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ defer\\ type=\"text/javascript\"\\ src=\"Resources/js/pngfix\\.js\"></script>"
+    }
+  ]
+}

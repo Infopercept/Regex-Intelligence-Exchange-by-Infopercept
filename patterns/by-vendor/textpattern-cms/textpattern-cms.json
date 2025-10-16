@@ -1,0 +1,136 @@
+{
+  "vendor": "Textpattern-CMS",
+  "vendor_id": "textpattern-cms",
+  "product": "Textpattern-CMS",
+  "product_id": "textpattern-cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Textpattern-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Textpattern-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by <a href=\"http://textpattern.com[/]*\">Textpattern CMS</a>"
+    },
+    {
+      "name": "Textpattern-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Textpattern-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://textpattern.com/\" title=\"Textpattern, an Open Source Content Management System\">Textpattern CMS</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://textpattern\\.com/\"\\ title=\"Textpattern,\\ an\\ Open\\ Source\\ Content\\ Management\\ System\">Textpattern\\ CMS</a>"
+    },
+    {
+      "name": "Textpattern-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Textpattern-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href='http://textpattern.com/' title='The Content Management System'>Textpattern CMS</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href='http://textpattern\\.com/'\\ title='The\\ Content\\ Management\\ System'>Textpattern\\ CMS</a>"
+    },
+    {
+      "name": "Textpattern-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Textpattern-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://textpattern.com/\" title=\"Textpattern Open Source Content Management System\">Textpattern CMS</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://textpattern\\.com/\"\\ title=\"Textpattern\\ Open\\ Source\\ Content\\ Management\\ System\">Textpattern\\ CMS</a>"
+    },
+    {
+      "name": "Textpattern-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Textpattern-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://textpattern.com/\" title=\"A flexible, elegant and easy-to-use content management system.\">Textpattern CMS</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://textpattern\\.com/\"\\ title=\"A\\ flexible,\\ elegant\\ and\\ easy\\-to\\-use\\ content\\ management\\ system\\.\">Textpattern\\ CMS</a>"
+    },
+    {
+      "name": "Textpattern-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Textpattern-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "powered by <a href=\"http://textpattern.com\">textpattern</a> cms",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "powered\\ by\\ <a\\ href=\"http://textpattern\\.com\">textpattern</a>\\ cms"
+    }
+  ]
+}

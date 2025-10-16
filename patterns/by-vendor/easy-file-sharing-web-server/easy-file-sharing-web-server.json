@@ -1,0 +1,33 @@
+{
+  "vendor": "Easy-File-Sharing-Web-Server",
+  "vendor_id": "easy-file-sharing-web-server",
+  "product": "Easy-File-Sharing-Web-Server",
+  "product_id": "easy-file-sharing-web-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Easy-File-Sharing-Web-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Easy-File-Sharing-Web-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Easy File Sharing Web Server v(.+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Easy File Sharing Web Server v(.+)$",
+      "version_group": 1
+    }
+  ]
+}

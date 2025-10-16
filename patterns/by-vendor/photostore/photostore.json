@@ -1,0 +1,120 @@
+{
+  "vendor": "PhotoStore",
+  "vendor_id": "photostore",
+  "product": "PhotoStore",
+  "product_id": "photostore",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PhotoStore Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PhotoStore",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered By <a href=\"http://www.ktools.net/photostore/index.php\" title=\"Sell your photos online with PhotoStore, online proofing and sales.\" target=\"_blank\"><u>PhotoStore | Sell Photos Online</u></a> by <a href=\"http://www.ktools.net\" title=\"Ktools LLC\" target=\"_blank\"><u>Ktools.net LLC</u></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.ktools\\.net/photostore/index\\.php\"\\ title=\"Sell\\ your\\ photos\\ online\\ with\\ PhotoStore,\\ online\\ proofing\\ and\\ sales\\.\"\\ target=\"_blank\"><u>PhotoStore\\ \\|\\ Sell\\ Photos\\ Online</u></a>\\ by\\ <a\\ href=\"http://www\\.ktools\\.net\"\\ title=\"Ktools\\ LLC\"\\ target=\"_blank\"><u>Ktools\\.net\\ LLC</u></a>"
+    },
+    {
+      "name": "PhotoStore Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PhotoStore",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered By <a href=\"http://www.ktools.net/photoshow/index.php\" title=\"Show your photos online with PhotoShow, an online photo gallery.\" target=\"_blank\"><u>PhotoShow | Photo Gallery</u></a> by <a href=\"http://www.ktools.net\" title=\"Ktools LLC\" target=\"_blank\"><u>Ktools.net LLC</u></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.ktools\\.net/photoshow/index\\.php\"\\ title=\"Show\\ your\\ photos\\ online\\ with\\ PhotoShow,\\ an\\ online\\ photo\\ gallery\\.\"\\ target=\"_blank\"><u>PhotoShow\\ \\|\\ Photo\\ Gallery</u></a>\\ by\\ <a\\ href=\"http://www\\.ktools\\.net\"\\ title=\"Ktools\\ LLC\"\\ target=\"_blank\"><u>Ktools\\.net\\ LLC</u></a>"
+    },
+    {
+      "name": "PhotoStore Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PhotoStore",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<b>Search:</b> <input type=\"textbox\" name=\"search\" class=\"search_box\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<b>Search:</b>\\ <input\\ type=\"textbox\"\\ name=\"search\"\\ class=\"search_box\">"
+    },
+    {
+      "name": "PhotoStore Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PhotoStore",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form action=\"mgr_actions.php?pmode=login\" name=\"login_form\" method=\"post\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ action=\"mgr_actions\\.php\\?pmode=login\"\\ name=\"login_form\"\\ method=\"post\">"
+    },
+    {
+      "name": "PhotoStore Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PhotoStore",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body bgcolor=\"#13387E\" topmargin=\"0\" leftmargin=\"0\" marginheight=\"0\" marginwidth=\"0\" onLoad=\"document.login_form.username.focus();\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ bgcolor=\"\\#13387E\"\\ topmargin=\"0\"\\ leftmargin=\"0\"\\ marginheight=\"0\"\\ marginwidth=\"0\"\\ onLoad=\"document\\.login_form\\.username\\.focus\\(\\);\">"
+    }
+  ]
+}

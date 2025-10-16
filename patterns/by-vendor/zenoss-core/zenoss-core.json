@@ -1,0 +1,32 @@
+{
+  "vendor": "Zenoss-Core",
+  "vendor_id": "zenoss-core",
+  "product": "Zenoss-Core",
+  "product_id": "zenoss-core",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Zenoss-Core Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Zenoss-Core",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/zport/dmd/favicon.ico\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ type=\"image/x\\-icon\"\\ href=\"/zport/dmd/favicon\\.ico\"\\ />"
+    }
+  ]
+}

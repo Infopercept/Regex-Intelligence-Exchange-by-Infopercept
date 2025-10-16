@@ -1,0 +1,186 @@
+{
+  "vendor": "Kloxo-Single-Server",
+  "vendor_id": "kloxo-single-server",
+  "product": "Kloxo-Single-Server",
+  "product_id": "kloxo-single-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Kloxo-Single-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kloxo-Single-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title> HyperVM 2.0 </title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>\\ HyperVM\\ 2\\.0\\ </title>"
+    },
+    {
+      "name": "Kloxo-Single-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kloxo-Single-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title> Kloxo </title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>\\ Kloxo\\ </title>"
+    },
+    {
+      "name": "Kloxo-Single-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kloxo-Single-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title> Lxadmin </title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>\\ Lxadmin\\ </title>"
+    },
+    {
+      "name": "Kloxo-Single-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kloxo-Single-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img id=main_logo width=84 height=23 src=\"/img/hypervm-logo.gif\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ id=main_logo\\ width=84\\ height=23\\ src=\"/img/hypervm\\-logo\\.gif\">"
+    },
+    {
+      "name": "Kloxo-Single-Server Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kloxo-Single-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Use a valid username and password to gain access to the console</b>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Use\\ a\\ valid\\ username\\ and\\ password\\ to\\ gain\\ access\\ to\\ the\\ console</b>"
+    },
+    {
+      "name": "Kloxo-Single-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kloxo-Single-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "@import url(\"/htmllib/lib/admin_login.css\");",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "@import\\ url\\(\"/htmllib/lib/admin_login\\.css\"\\);"
+    },
+    {
+      "name": "login javascript",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kloxo-Single-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script language=javascript src=\"/htmllib/js/preop.js\"></script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ language=javascript\\ src=\"/htmllib/js/preop\\.js\"></script>"
+    },
+    {
+      "name": "login form",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kloxo-Single-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form name=loginform action=\"/htmllib/phplib/\" onsubmit=\"encode_url(loginform) ; return fieldcheck(this);\" method=post>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ name=loginform\\ action=\"/htmllib/phplib/\"\\ onsubmit=\"encode_url\\(loginform\\)\\ ;\\ return\\ fieldcheck\\(this\\);\"\\ method=post>"
+    }
+  ]
+}

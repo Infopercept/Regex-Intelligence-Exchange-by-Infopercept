@@ -1,0 +1,32 @@
+{
+  "vendor": "CF-Image-Hosting-Script",
+  "vendor_id": "cf-image-hosting-script",
+  "product": "CF-Image-Hosting-Script",
+  "product_id": "cf-image-hosting-script",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CF-Image-Hosting-Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CF-Image-Hosting-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>Powered By <a href=\"http://codefuture.co.uk/projects/imagehost/\" title=\"Free PHP Image Hosting Script\">CF Image Hosting script</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>Powered\\ By\\ <a\\ href=\"http://codefuture\\.co\\.uk/projects/imagehost/\"\\ title=\"Free\\ PHP\\ Image\\ Hosting\\ Script\">CF\\ Image\\ Hosting\\ script</a>"
+    }
+  ]
+}

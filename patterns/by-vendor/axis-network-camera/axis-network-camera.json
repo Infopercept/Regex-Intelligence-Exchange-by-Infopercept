@@ -1,0 +1,142 @@
+{
+  "vendor": "Axis-Network-Camera",
+  "vendor_id": "axis-network-camera",
+  "product": "Axis-Network-Camera",
+  "product_id": "axis-network-camera",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Axis-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axis-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>AXIS Video Server</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>AXIS\\ Video\\ Server</TITLE>"
+    },
+    {
+      "name": "Axis-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axis-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<FRAME NAME=\"WhatEver\" SRC=\"/incl/whatever.shtml\" SCROLLING=NO MARGINGHEIGHT=0 MARGINWIDTH=0>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<FRAME\\ NAME=\"WhatEver\"\\ SRC=\"/incl/whatever\\.shtml\"\\ SCROLLING=NO\\ MARGINGHEIGHT=0\\ MARGINWIDTH=0>"
+    },
+    {
+      "name": "Axis-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axis-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<FRAME NAME=\"Trash\" SRC=\"/view/trash.shtml\" SCROLLING=NO MARGINGHEIGHT=0 MARGINWIDTH=0>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<FRAME\\ NAME=\"Trash\"\\ SRC=\"/view/trash\\.shtml\"\\ SCROLLING=NO\\ MARGINGHEIGHT=0\\ MARGINWIDTH=0>"
+    },
+    {
+      "name": "Axis-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axis-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "      <FRAME NAME=\"Temp\" SRC=\"/view/temp.shtml\" SCROLLING=NO MARGINGHEIGHT=0 MARGINWIDTH=0>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ \\ \\ <FRAME\\ NAME=\"Temp\"\\ SRC=\"/view/temp\\.shtml\"\\ SCROLLING=NO\\ MARGINGHEIGHT=0\\ MARGINWIDTH=0>"
+    },
+    {
+      "name": "Axis-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axis-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Your browser has JavaScript turned off.<br>For the user interface to work effectively, you must enable JavaScript in your browser and reload/refresh this page.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Your\\ browser\\ has\\ JavaScript\\ turned\\ off\\.<br>For\\ the\\ user\\ interface\\ to\\ work\\ effectively,\\ you\\ must\\ enable\\ JavaScript\\ in\\ your\\ browser\\ and\\ reload/refresh\\ this\\ page\\."
+    },
+    {
+      "name": "Axis-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axis-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img SRC=\"/pics/AxisLogo.gif\" WIDTH=\"95\" HEIGHT=\"40\" BORDER=\"0\" ALIGN=\"right\" ALT=\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ SRC=\"/pics/AxisLogo\\.gif\"\\ WIDTH=\"95\"\\ HEIGHT=\"40\"\\ BORDER=\"0\"\\ ALIGN=\"right\"\\ ALT=\""
+    }
+  ]
+}

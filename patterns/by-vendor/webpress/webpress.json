@@ -1,0 +1,76 @@
+{
+  "vendor": "WebPress",
+  "vendor_id": "webpress",
+  "product": "WebPress",
+  "product_id": "webpress",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WebPress Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebPress",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered By <a href=\"http://www.ecomenterprises.com\" target=\"_blank\" class=\"small_text\">WebPress</a><SUP><FONT SIZE=\"-5\">TM</FONT></SUP></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.ecomenterprises\\.com\"\\ target=\"_blank\"\\ class=\"small_text\">WebPress</a><SUP><FONT\\ SIZE=\"\\-5\">TM</FONT></SUP></td>"
+    },
+    {
+      "name": "WebPress Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebPress",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://goywp.com\" id=\"webpresslink\">WebPress</a><br></p></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://goywp\\.com\"\\ id=\"webpresslink\">WebPress</a><br></p></td>"
+    },
+    {
+      "name": "WebPress Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebPress",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by </font><font size=\"1\" color=\"#000000\" face=\"Arial\">YWP</font>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ </font><font\\ size=\"1\"\\ color=\"\\#000000\"\\ face=\"Arial\">YWP</font>"
+    }
+  ]
+}

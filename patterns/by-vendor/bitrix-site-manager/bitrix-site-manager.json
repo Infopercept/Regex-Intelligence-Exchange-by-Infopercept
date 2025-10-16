@@ -1,0 +1,145 @@
+{
+  "vendor": "Bitrix-Site-Manager",
+  "vendor_id": "bitrix-site-manager",
+  "product": "Bitrix-Site-Manager",
+  "product_id": "bitrix-site-manager",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "P3P Header",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Bitrix-Site-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^policyref=\"/bitrix/p3p\\.xml\", CP=\"NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA\"$"
+    },
+    {
+      "name": "BITRIX_SM_SALE_UID Cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Bitrix-Site-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "BITRIX_SM_SALE_UID=[\\d]+;"
+    },
+    {
+      "name": "BITRIX_SM_GUEST_ID Cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Bitrix-Site-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "BITRIX_SM_GUEST_ID=[\\d]+;"
+    },
+    {
+      "name": "BITRIX_SM_LAST_VISIT Cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Bitrix-Site-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "BITRIX_SM_LAST_VISIT="
+    },
+    {
+      "name": "BITRIX_SM_BANNERS Cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Bitrix-Site-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "BITRIX_SM_BANNERS="
+    },
+    {
+      "name": "X-Powered-CMS Header",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Bitrix-Site-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Bitrix Site Manager \\("
+    },
+    {
+      "name": "B-Powered-By Header",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Bitrix-Site-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Bitrix SM \\("
+    },
+    {
+      "name": "B-Powered-By Header",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Bitrix-Site-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "b-powered-by: ^Bitrix SM/1.0 \\(",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "b-powered-by: ^Bitrix SM/([\\d\\.]+) \\(",
+      "version_group": 1
+    }
+  ]
+}

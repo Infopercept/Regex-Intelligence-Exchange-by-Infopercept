@@ -1,0 +1,58 @@
+{
+  "vendor": "HighWire-Press",
+  "vendor_id": "highwire-press",
+  "product": "HighWire-Press",
+  "product_id": "highwire-press",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "HighWire-Press Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HighWire-Press",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^[\\d\\.]+$"
+    },
+    {
+      "name": "HighWire-Press Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HighWire-Press",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^detect-robot:"
+    },
+    {
+      "name": "HighWire-Press Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HighWire-Press",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^.+$"
+    }
+  ]
+}

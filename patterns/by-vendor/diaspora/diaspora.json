@@ -1,0 +1,48 @@
+{
+  "vendor": "Diaspora",
+  "vendor_id": "diaspora",
+  "product": "Diaspora",
+  "product_id": "diaspora",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Diaspora Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Diaspora",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "_diaspora_session="
+    },
+    {
+      "name": "Diaspora Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Diaspora",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input name=\"user[remember_me]\" type=\"hidden\" value=\"0\" /><input id=\"user_remember_me\" name=\"user[remember_me]\" type=\"checkbox\" value=\"1\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ name=\"user\\[remember_me\\]\"\\ type=\"hidden\"\\ value=\"0\"\\ /><input\\ id=\"user_remember_me\"\\ name=\"user\\[remember_me\\]\"\\ type=\"checkbox\"\\ value=\"1\"\\ />"
+    }
+  ]
+}

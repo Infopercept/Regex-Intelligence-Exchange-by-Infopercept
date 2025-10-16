@@ -1,0 +1,42 @@
+{
+  "vendor": "NaviCOPA",
+  "vendor_id": "navicopa",
+  "product": "NaviCOPA",
+  "product_id": "navicopa",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "NaviCOPA Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NaviCOPA",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^InterVations NaviCOPA"
+    },
+    {
+      "name": "NaviCopaSession Cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NaviCOPA",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^NaviCopaSession"
+    }
+  ]
+}

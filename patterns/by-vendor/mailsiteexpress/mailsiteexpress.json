@@ -1,0 +1,108 @@
+{
+  "vendor": "MailSiteExpress",
+  "vendor_id": "mailsiteexpress",
+  "product": "MailSiteExpress",
+  "product_id": "mailsiteexpress",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MailSiteExpress Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MailSiteExpress",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>MailSite Express</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>MailSite\\ Express</title>"
+    },
+    {
+      "name": "MailSiteExpress Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MailSiteExpress",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<font face=\"arial\" size=\"1\">MailSite Express <br> version [0-9\\.]+</font>"
+    },
+    {
+      "name": "MailSiteExpress Pattern",
+      "priority": 50,
+      "confidence": 0.5,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MailSiteExpress",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!-- This software is copyright [0-9 ,\\.]+ Rockliffe systems, Inc. -->"
+    },
+    {
+      "name": "MailSiteExpress Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MailSiteExpress",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<b>MailSite <em>Express</em> Login</b>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<b>MailSite\\ <em>Express</em>\\ Login</b>"
+    },
+    {
+      "name": "MailSiteExpress Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MailSiteExpress",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "onSubmit=\"OpenExpress(document.ExpressLogin)\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "onSubmit=\"OpenExpress\\(document\\.ExpressLogin\\)\""
+    }
+  ]
+}

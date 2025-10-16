@@ -1,0 +1,54 @@
+{
+  "vendor": "gitstat",
+  "vendor_id": "gitstat",
+  "product": "gitstat",
+  "product_id": "gitstat",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "gitstat Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for gitstat",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- FIXME: We should have some reference to the website of the git tree if available -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ FIXME:\\ We\\ should\\ have\\ some\\ reference\\ to\\ the\\ website\\ of\\ the\\ git\\ tree\\ if\\ available\\ \\-\\->"
+    },
+    {
+      "name": "gitstat Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for gitstat",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://sourceforge.net/projects/gitstat/\">gitstat</a> <br><img src=\"images/separator.gif\" alt=\"\" />Design: <a href=\"http://www.oswd.org/\">OSWD.ORG</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://sourceforge\\.net/projects/gitstat/\">gitstat</a>\\ <br><img\\ src=\"images/separator\\.gif\"\\ alt=\"\"\\ />Design:\\ <a\\ href=\"http://www\\.oswd\\.org/\">OSWD\\.ORG</a></p>"
+    }
+  ]
+}

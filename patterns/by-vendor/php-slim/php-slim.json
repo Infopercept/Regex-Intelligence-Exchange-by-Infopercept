@@ -1,0 +1,54 @@
+{
+  "vendor": "PHP-Slim",
+  "vendor_id": "php-slim",
+  "product": "PHP-Slim",
+  "product_id": "php-slim",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Slim < 4.0",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Slim",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "to ensure your URL is spelled correctly. If all else fails, you can",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "to\\ ensure\\ your\\ URL\\ is\\ spelled\\ correctly\\.\\ If\\ all\\ else\\ fails,\\ you\\ can"
+    },
+    {
+      "name": "Slim > 4.0",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Slim",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "The requested resource could not be found. Please verify the URI and try again.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "The\\ requested\\ resource\\ could\\ not\\ be\\ found\\.\\ Please\\ verify\\ the\\ URI\\ and\\ try\\ again\\."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "vendor": "Novell-NetWare",
+  "vendor_id": "novell-netware",
+  "product": "Novell-NetWare",
+  "product_id": "novell-netware",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Novell-NetWare Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Novell-NetWare",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</HEAD><BODY><font size=+2><p>Unauthorized!</font><font size=+1><p>Please login using a full NDS name and context (example: .user.engineering.acme_corp.)</font></BODY></HTML>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</HEAD><BODY><font\\ size=\\+2><p>Unauthorized!</font><font\\ size=\\+1><p>Please\\ login\\ using\\ a\\ full\\ NDS\\ name\\ and\\ context\\ \\(example:\\ \\.user\\.engineering\\.acme_corp\\.\\)</font></BODY></HTML>"
+    },
+    {
+      "name": "Novell-NetWare Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Novell-NetWare",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<TITLE>NetWare Server [^<]+</TITLE><LINK REL=stylesheet TYPE=text/css HREF=/SYS/LOGIN/portal\\.css>"
+    },
+    {
+      "name": "Novell-NetWare Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Novell-NetWare",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<APPLET CODE=NWSHealth.class NAME=\"NWServerHealth\" CODEBASE=/SYS/Login width=38 height=99>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<APPLET\\ CODE=NWSHealth\\.class\\ NAME=\"NWServerHealth\"\\ CODEBASE=/SYS/Login\\ width=38\\ height=99>"
+    },
+    {
+      "name": "Novell-NetWare Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Novell-NetWare",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TABLE WIDTH=\"100%\"><TR><TD ALIGN=LEFT VALIGN=TOP><APPLET CODE=\"NWSHealth.class\" NAME=\"NWServerHealth\" CODEBASE=\"/SYS/Login\" width=33 height=52>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TABLE\\ WIDTH=\"100%\"><TR><TD\\ ALIGN=LEFT\\ VALIGN=TOP><APPLET\\ CODE=\"NWSHealth\\.class\"\\ NAME=\"NWServerHealth\"\\ CODEBASE=\"/SYS/Login\"\\ width=33\\ height=52>"
+    }
+  ]
+}

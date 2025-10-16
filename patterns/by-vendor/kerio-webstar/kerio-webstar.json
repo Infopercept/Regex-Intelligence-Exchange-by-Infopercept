@@ -1,0 +1,118 @@
+{
+  "vendor": "Kerio-WebSTAR",
+  "vendor_id": "kerio-webstar",
+  "product": "Kerio-WebSTAR",
+  "product_id": "kerio-webstar",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Kerio-WebSTAR Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kerio-WebSTAR",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^(Kerio_|WebSTAR|4D_WebStar)"
+    },
+    {
+      "name": "Kerio-WebSTAR Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kerio-WebSTAR",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^WebSTAR/([^\\s^\\(]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^WebSTAR/([^\\s^\\(]+)",
+      "version_group": 1
+    },
+    {
+      "name": "Kerio-WebSTAR Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kerio-WebSTAR",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Kerio_WebSTAR/([^\\s^\\(]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Kerio_WebSTAR/([^\\s^\\(]+)",
+      "version_group": 1
+    },
+    {
+      "name": "Kerio-WebSTAR Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kerio-WebSTAR",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^WebSTAR ([\\d\\.]+ .+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^WebSTAR ([\\d\\.]+ .+)$",
+      "version_group": 1
+    },
+    {
+      "name": "Kerio-WebSTAR Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kerio-WebSTAR",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^4D_WebStar_[A-Z]/8.5",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^4D_WebStar_[A-Z]/([\\d\\.]+)",
+      "version_group": 1
+    }
+  ]
+}

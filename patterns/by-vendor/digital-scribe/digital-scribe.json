@@ -1,0 +1,54 @@
+{
+  "vendor": "Digital-Scribe",
+  "vendor_id": "digital-scribe",
+  "product": "Digital-Scribe",
+  "product_id": "digital-scribe",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Digital-Scribe Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Digital-Scribe",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<BR><A HREF=forgot.php?Submit2=1&email=>Forgot your password</A>?",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<BR><A\\ HREF=forgot\\.php\\?Submit2=1\\&email=>Forgot\\ your\\ password</A>\\?"
+    },
+    {
+      "name": "Digital-Scribe Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Digital-Scribe",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<IMG SRC=/DigitalScribe/images/logosmall.gif width=158 height=63 alt=\"Digital Scribe Logo\" border=0></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<IMG\\ SRC=/DigitalScribe/images/logosmall\\.gif\\ width=158\\ height=63\\ alt=\"Digital\\ Scribe\\ Logo\"\\ border=0></a>"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "vendor": "LANCOM-VPN",
+  "vendor_id": "lancom-vpn",
+  "product": "LANCOM-VPN",
+  "product_id": "lancom-vpn",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "LANCOM-VPN Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LANCOM-VPN",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^LANCOM.*VPN"
+    }
+  ]
+}

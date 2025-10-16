@@ -1,0 +1,76 @@
+{
+  "vendor": "Netjuke",
+  "vendor_id": "netjuke",
+  "product": "Netjuke",
+  "product_id": "netjuke",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Netjuke Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netjuke",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Start Primary Header -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Start\\ Primary\\ Header\\ \\-\\->"
+    },
+    {
+      "name": "Netjuke Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netjuke",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Begin Primary Footer -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Begin\\ Primary\\ Footer\\ \\-\\->"
+    },
+    {
+      "name": "Netjuke Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netjuke",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "onClick=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "onClick=\\\\"
+    }
+  ]
+}

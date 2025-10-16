@@ -1,0 +1,26 @@
+{
+  "vendor": "JW-Player",
+  "vendor_id": "jw-player",
+  "product": "JW-Player",
+  "product_id": "jw-player",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SEOT cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for JW-Player",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^SEOT"
+    }
+  ]
+}

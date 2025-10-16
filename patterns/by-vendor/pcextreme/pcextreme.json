@@ -1,0 +1,32 @@
+{
+  "vendor": "pcextreme",
+  "vendor_id": "pcextreme",
+  "product": "pcextreme",
+  "product_id": "pcextreme",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "pcextreme Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for pcextreme",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p class=\"content\" align=\"center\">Deze server is eigendom van <a href=\"http://www.pcextreme.nl/\">PCextreme B.V.</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ class=\"content\"\\ align=\"center\">Deze\\ server\\ is\\ eigendom\\ van\\ <a\\ href=\"http://www\\.pcextreme\\.nl/\">PCextreme\\ B\\.V\\.</a></p>"
+    }
+  ]
+}

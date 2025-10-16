@@ -1,0 +1,42 @@
+{
+  "vendor": "Oracle-Access-Manager",
+  "vendor_id": "oracle-access-manager",
+  "product": "Oracle-Access-Manager",
+  "product_id": "oracle-access-manager",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Oracle-Access-Manager Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-Access-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "ObSSOCookie=[^;]+;"
+    },
+    {
+      "name": "Oracle-Access-Manager Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-Access-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "obrareq\\.cgi"
+    }
+  ]
+}

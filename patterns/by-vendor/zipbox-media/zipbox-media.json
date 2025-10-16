@@ -1,0 +1,64 @@
+{
+  "vendor": "ZIPBOX-Media",
+  "vendor_id": "zipbox-media",
+  "product": "ZIPBOX-Media",
+  "product_id": "zipbox-media",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ZIPBOX-Media Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ZIPBOX-Media",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.zipboxmedia.com\" class=\"zbm\"><img src=\"/images/zb_rotate_ft.gif\" alt=\"Powered By ZIPBOX Media\" border=\"0\" /></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.zipboxmedia\\.com\"\\ class=\"zbm\"><img\\ src=\"/images/zb_rotate_ft\\.gif\"\\ alt=\"Powered\\ By\\ ZIPBOX\\ Media\"\\ border=\"0\"\\ /></a>"
+    },
+    {
+      "name": "ZIPBOX-Media Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ZIPBOX-Media",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"https://secure.zipboxmedia.com/signup/\\?referral=[\\d]+\" class=\"zbm\" title=\"get your own ZIPBOX Media Store\"><img src=\"/images/get_zipbox.gif\" alt=\"Get A ZIPBOX Media Store\" border=\"0\" /></a>"
+    },
+    {
+      "name": "ZIPBOX-Media Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ZIPBOX-Media",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<h3 style=\"padding-top:2px; margin:0px; display:none\"><a href=\"javascript:loadMoreMessages\\([\\d]+\\)\" id=\"load_more_messages\">Load more messages</a></h3>"
+    }
+  ]
+}

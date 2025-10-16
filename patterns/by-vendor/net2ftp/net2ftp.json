@@ -1,0 +1,54 @@
+{
+  "vendor": "net2ftp",
+  "vendor_id": "net2ftp",
+  "product": "net2ftp",
+  "product_id": "net2ftp",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "net2ftp Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for net2ftp",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>net2ftp - a web based FTP client</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>net2ftp\\ \\-\\ a\\ web\\ based\\ FTP\\ client</title>"
+    },
+    {
+      "name": "net2ftp Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for net2ftp",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- End of net2ftp login form -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ End\\ of\\ net2ftp\\ login\\ form\\ \\-\\->"
+    }
+  ]
+}

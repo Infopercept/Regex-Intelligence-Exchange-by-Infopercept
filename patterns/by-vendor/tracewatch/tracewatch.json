@@ -1,0 +1,32 @@
+{
+  "vendor": "TraceWatch",
+  "vendor_id": "tracewatch",
+  "product": "TraceWatch",
+  "product_id": "tracewatch",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TraceWatch Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TraceWatch",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<h1 class=\"main\"><a href=\"http://www.tracewatch.com/\"><img alt=\"TraceWatch\" title=\"TraceWatch\" src=\"./base/img/tracewatch",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<h1\\ class=\"main\"><a\\ href=\"http://www\\.tracewatch\\.com/\"><img\\ alt=\"TraceWatch\"\\ title=\"TraceWatch\"\\ src=\"\\./base/img/tracewatch"
+    }
+  ]
+}

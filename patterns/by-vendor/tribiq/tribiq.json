@@ -1,0 +1,202 @@
+{
+  "vendor": "Tribiq",
+  "vendor_id": "tribiq",
+  "product": "Tribiq",
+  "product_id": "tribiq",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Tribiq Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tribiq",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://tribiq.com/\" target=\"_blank\">Tribiq CMS</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://tribiq\\.com/\"\\ target=\"_blank\">Tribiq\\ CMS</a>"
+    },
+    {
+      "name": "Tribiq Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tribiq",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Designed &amp; Powered by <a alt=\"Tribiq CMS\" target=\"_blank\" title=\"Tribiq CMS\" href=\"http://www.tribiq.com\">Tribiq CMS</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Designed\\ \\&amp;\\ Powered\\ by\\ <a\\ alt=\"Tribiq\\ CMS\"\\ target=\"_blank\"\\ title=\"Tribiq\\ CMS\"\\ href=\"http://www\\.tribiq\\.com\">Tribiq\\ CMS</a>"
+    },
+    {
+      "name": "Tribiq Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tribiq",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Designed &amp; Powered by <a href=\"http://www.tribiq.com[/]*[^>]+>Tribiq CMS</a>"
+    },
+    {
+      "name": "Tribiq Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tribiq",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://tribiq.com\" title=\"TRIBiQ Content Management System\" target=\"_blank\">Tribiq</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://tribiq\\.com\"\\ title=\"TRIBiQ\\ Content\\ Management\\ System\"\\ target=\"_blank\">Tribiq</a>"
+    },
+    {
+      "name": "Tribiq Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tribiq",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://tribiq.com\">Powered by Tribiq CMS</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://tribiq\\.com\">Powered\\ by\\ Tribiq\\ CMS</a>"
+    },
+    {
+      "name": "Tribiq Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tribiq",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://tribiq.com\" target=\"_blank\">TRIBiQ</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://tribiq\\.com\"\\ target=\"_blank\">TRIBiQ</a>"
+    },
+    {
+      "name": "Tribiq Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tribiq",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t\t\tdocument.location.href = \"adminlogin.php?sk=\" + (hash? hash : \"tribiq__content\");",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\t\\\t\\\tdocument\\.location\\.href\\ =\\ \"adminlogin\\.php\\?sk=\"\\ \\+\\ \\(hash\\?\\ hash\\ :\\ \"tribiq__content\"\\);"
+    },
+    {
+      "name": "Tribiq Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tribiq",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t\t<p><a href=\"adminlogin.php\">Please log in</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\t\\\t<p><a\\ href=\"adminlogin\\.php\">Please\\ log\\ in</a></p>"
+    },
+    {
+      "name": "Tribiq Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tribiq",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Tribiq CMS Administrator Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Tribiq\\ CMS\\ Administrator\\ Login</title>"
+    }
+  ]
+}

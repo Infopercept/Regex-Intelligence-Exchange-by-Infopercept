@@ -1,0 +1,136 @@
+{
+  "vendor": "Kleeja",
+  "vendor_id": "kleeja",
+  "product": "Kleeja",
+  "product_id": "kleeja",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Kleeja Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kleeja",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>[^\\(]+\\(Powered by Kleeja\\)</title>"
+    },
+    {
+      "name": "Kleeja Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kleeja",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"copyrights\" content=\"Powered by Kleeja :: kleeja.com\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"copyrights\"\\ content=\"Powered\\ by\\ Kleeja\\ ::\\ kleeja\\.com\"\\ />"
+    },
+    {
+      "name": "Kleeja Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kleeja",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Description\" content=\"Powered by Kleeja :: kleeja.com\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Description\"\\ content=\"Powered\\ by\\ Kleeja\\ ::\\ kleeja\\.com\"\\ />"
+    },
+    {
+      "name": "Kleeja Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kleeja",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.kleeja.com/\" target=\"_blank\">Kleeja</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.kleeja\\.com/\"\\ target=\"_blank\">Kleeja</a>"
+    },
+    {
+      "name": "Kleeja Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kleeja",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- IF REMOVE: Pay for a license -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ IF\\ REMOVE:\\ Pay\\ for\\ a\\ license\\ \\-\\->"
+    },
+    {
+      "name": "Kleeja Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kleeja",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- IF REMOVE: Pay for a license - see http://www.kleeja.com -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ IF\\ REMOVE:\\ Pay\\ for\\ a\\ license\\ \\-\\ see\\ http://www\\.kleeja\\.com\\ \\-\\->"
+    }
+  ]
+}

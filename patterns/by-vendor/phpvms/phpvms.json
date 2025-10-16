@@ -1,0 +1,70 @@
+{
+  "vendor": "phpVMS",
+  "vendor_id": "phpvms",
+  "product": "phpVMS",
+  "product_id": "phpvms",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "phpVMS Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpVMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"jqmWindow\" id=\"jqmdialog\"></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"jqmWindow\"\\ id=\"jqmdialog\"></div>"
+    },
+    {
+      "name": "phpVMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpVMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!-- Please retain this!! It's part of the phpVMS license\\. You must display a[\\s]+\"powered by phpVMS\" somewhere on your page\\. Thanks! -->"
+    },
+    {
+      "name": "phpVMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpVMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.phpvms.net\" target=\"_blank\">powered by phpVMS</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.phpvms\\.net\"\\ target=\"_blank\">powered\\ by\\ phpVMS</a>"
+    }
+  ]
+}

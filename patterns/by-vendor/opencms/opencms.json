@@ -1,0 +1,97 @@
+{
+  "vendor": "OpenCms",
+  "vendor_id": "opencms",
+  "product": "OpenCms",
+  "product_id": "opencms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OpenCms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenCms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=\"generator\"[^>]+content=\"OpenCms\"( /)?>"
+    },
+    {
+      "name": "OpenCms Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenCms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<(link|img)[^>]+(href|src)=\"[^\"^:]*/(opencms|export)/(sites|system)/[^\"]+\"[^>]*>"
+    },
+    {
+      "name": "OpenCms Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenCms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<(link|img)[^>]+(href|src)=\"[^\"^:]*/opencms/[^\"]+\"[^>]*>"
+    },
+    {
+      "name": "OpenCms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenCms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^OpenCms"
+    },
+    {
+      "name": "OpenCms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenCms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^OpenCms/([a-z\\d\\.]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^OpenCms/([a-z\\d\\.]+)",
+      "version_group": 1
+    }
+  ]
+}

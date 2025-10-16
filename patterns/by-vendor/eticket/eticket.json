@@ -1,0 +1,92 @@
+{
+  "vendor": "eTicket",
+  "vendor_id": "eticket",
+  "product": "eTicket",
+  "product_id": "eticket",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "eTicket Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eTicket",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<td><a href=\"(http://)?www\\.eticketsupport\\.com\" target=\"_blank\">Powered by eTicket</a></td>"
+    },
+    {
+      "name": "eTicket Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eTicket",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"pre-footer\">Support Ticket System</div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"pre\\-footer\">Support\\ Ticket\\ System</div>"
+    },
+    {
+      "name": "eTicket Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eTicket",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" href=\"themes/eticket/style.css\" type=\"text/css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"themes/eticket/style\\.css\"\\ type=\"text/css\">"
+    },
+    {
+      "name": "eTicket Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eTicket",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p><strong>Note:</strong> &quot;/path/to/automail.pl&quot; should be the <a href=\"http://en.wikipedia.org/wiki/Full_path\">full path</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p><strong>Note:</strong>\\ \\&quot;/path/to/automail\\.pl\\&quot;\\ should\\ be\\ the\\ <a\\ href=\"http://en\\.wikipedia\\.org/wiki/Full_path\">full\\ path</a>"
+    }
+  ]
+}

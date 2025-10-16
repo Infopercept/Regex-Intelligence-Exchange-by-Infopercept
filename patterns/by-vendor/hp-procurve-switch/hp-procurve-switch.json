@@ -1,0 +1,26 @@
+{
+  "vendor": "HP-ProCurve-Switch",
+  "vendor_id": "hp-procurve-switch",
+  "product": "HP-ProCurve-Switch",
+  "product_id": "hp-procurve-switch",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "HP-ProCurve-Switch Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HP-ProCurve-Switch",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^eHTTP"
+    }
+  ]
+}

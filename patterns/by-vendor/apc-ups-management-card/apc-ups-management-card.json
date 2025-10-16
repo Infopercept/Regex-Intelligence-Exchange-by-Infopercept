@@ -1,0 +1,70 @@
+{
+  "vendor": "APC-UPS-Management-Card",
+  "vendor_id": "apc-ups-management-card",
+  "product": "APC-UPS-Management-Card",
+  "product_id": "apc-ups-management-card",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "APC-UPS-Management-Card Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for APC-UPS-Management-Card",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td class=\"apclogo\"><a href=\"http://www.apc.com\"><img src=\"images/smapc.gif\" alt=\"APC Website\" width=\"59\" height=\"17\" border=\"0\" align=\"top\" /></a>&nbsp;&nbsp;</td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ class=\"apclogo\"><a\\ href=\"http://www\\.apc\\.com\"><img\\ src=\"images/smapc\\.gif\"\\ alt=\"APC\\ Website\"\\ width=\"59\"\\ height=\"17\"\\ border=\"0\"\\ align=\"top\"\\ /></a>\\&nbsp;\\&nbsp;</td>"
+    },
+    {
+      "name": "APC-UPS-Management-Card Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for APC-UPS-Management-Card",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td>This object on the&nbsp;APC Management Web Server&nbsp;is protected and requires a secure socket connection.<br /><br /><br /><br /><A HREF=\"https://",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td>This\\ object\\ on\\ the\\&nbsp;APC\\ Management\\ Web\\ Server\\&nbsp;is\\ protected\\ and\\ requires\\ a\\ secure\\ socket\\ connection\\.<br\\ /><br\\ /><br\\ /><br\\ /><A\\ HREF=\"https://"
+    },
+    {
+      "name": "WWW-Authenticate realm",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for APC-UPS-Management-Card",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Basic realm=\"APC Management Card\"$"
+    }
+  ]
+}

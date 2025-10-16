@@ -1,0 +1,32 @@
+{
+  "vendor": "phpRemoteView",
+  "vendor_id": "phpremoteview",
+  "product": "phpRemoteView",
+  "product_id": "phpremoteview",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "phpRemoteView Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpRemoteView",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "'><font face=fixedsys size=+2>*</font></a><font size=5><b>Index of</b></font>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "'><font\\ face=fixedsys\\ size=\\+2>\\*</font></a><font\\ size=5><b>Index\\ of</b></font>"
+    }
+  ]
+}

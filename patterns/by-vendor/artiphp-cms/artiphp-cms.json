@@ -1,0 +1,76 @@
+{
+  "vendor": "Artiphp-CMS",
+  "vendor_id": "artiphp-cms",
+  "product": "Artiphp-CMS",
+  "product_id": "artiphp-cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Artiphp-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Artiphp-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--  fin ArtiMenu horizontal -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ \\ fin\\ ArtiMenu\\ horizontal\\ \\-\\->"
+    },
+    {
+      "name": "Artiphp-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Artiphp-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--  Fin ArtiMenu horizontal -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ \\ Fin\\ ArtiMenu\\ horizontal\\ \\-\\->"
+    },
+    {
+      "name": "Artiphp-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Artiphp-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- copyright Artiphp, merci de respecter notre travail en laissant notre signature -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ copyright\\ Artiphp,\\ merci\\ de\\ respecter\\ notre\\ travail\\ en\\ laissant\\ notre\\ signature\\ \\-\\->"
+    }
+  ]
+}

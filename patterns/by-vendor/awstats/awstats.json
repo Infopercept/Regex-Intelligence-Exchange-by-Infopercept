@@ -1,0 +1,76 @@
+{
+  "vendor": "AWStats",
+  "vendor_id": "awstats",
+  "product": "AWStats",
+  "product_id": "awstats",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AWStats Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AWStats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://awstats.sourceforge.net\" target=\"_newawstats\">Created by awstats</a><br>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://awstats\\.sourceforge\\.net\"\\ target=\"_newawstats\">Created\\ by\\ awstats</a><br>"
+    },
+    {
+      "name": "AWStats Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AWStats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta http-equiv=\"description\" content=\"Awstats - Advanced Web Statistics for",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ http\\-equiv=\"description\"\\ content=\"Awstats\\ \\-\\ Advanced\\ Web\\ Statistics\\ for"
+    },
+    {
+      "name": "default logo",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AWStats",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://awstats.sourceforge.net\" target=\"_newawstats\"><img src=\"/icon/other/awstats_logo1.png\" border=0 alt=\"awstats Official Web Site\" title=\"awstats Official Web Site\"></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://awstats\\.sourceforge\\.net\"\\ target=\"_newawstats\"><img\\ src=\"/icon/other/awstats_logo1\\.png\"\\ border=0\\ alt=\"awstats\\ Official\\ Web\\ Site\"\\ title=\"awstats\\ Official\\ Web\\ Site\"></a>"
+    }
+  ]
+}

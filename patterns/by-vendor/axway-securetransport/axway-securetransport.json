@@ -1,0 +1,77 @@
+{
+  "vendor": "Axway-SecureTransport",
+  "vendor_id": "axway-securetransport",
+  "product": "Axway-SecureTransport",
+  "product_id": "axway-securetransport",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Axway-SecureTransport Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axway-SecureTransport",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^SecureTransport/([^\\s]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^SecureTransport/([^\\s]+)",
+      "version_group": 1
+    },
+    {
+      "name": "Axway-SecureTransport Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axway-SecureTransport",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- /application.bar -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ /application\\.bar\\ \\-\\->"
+    },
+    {
+      "name": "Axway-SecureTransport Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axway-SecureTransport",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Welcome to SecureTransport</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Welcome\\ to\\ SecureTransport</title>"
+    }
+  ]
+}

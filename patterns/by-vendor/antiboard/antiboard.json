@@ -1,0 +1,32 @@
+{
+  "vendor": "Antiboard",
+  "vendor_id": "antiboard",
+  "product": "Antiboard",
+  "product_id": "antiboard",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "powered by",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Antiboard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\\\\"
+    }
+  ]
+}

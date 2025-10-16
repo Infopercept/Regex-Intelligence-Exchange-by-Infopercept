@@ -1,0 +1,98 @@
+{
+  "vendor": "VP-ASP",
+  "vendor_id": "vp-asp",
+  "product": "VP-ASP",
+  "product_id": "vp-asp",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VP-ASP Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VP-ASP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "src=\"vs350.js\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "src=\"vs350\\.js\""
+    },
+    {
+      "name": "VP-ASP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VP-ASP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.vpasp.com\">Shopping Cart</a> powered by VP-ASP</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.vpasp\\.com\">Shopping\\ Cart</a>\\ powered\\ by\\ VP\\-ASP</p>"
+    },
+    {
+      "name": "VP-ASP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VP-ASP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.vpasp.com\">Powered By VP-ASP Shopping Cart</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.vpasp\\.com\">Powered\\ By\\ VP\\-ASP\\ Shopping\\ Cart</a>"
+    },
+    {
+      "name": "VP-ASP Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VP-ASP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "shopdisplayproducts.asp?id=",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "shopdisplayproducts\\.asp\\?id="
+    }
+  ]
+}

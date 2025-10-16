@@ -1,0 +1,114 @@
+{
+  "vendor": "mojoPortal",
+  "vendor_id": "mojoportal",
+  "product": "mojoPortal",
+  "product_id": "mojoportal",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "mojoPortal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for mojoPortal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href='http://www.mojoportal.com' >Powered by mojoPortal</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href='http://www\\.mojoportal\\.com'\\ >Powered\\ by\\ mojoPortal</a>"
+    },
+    {
+      "name": "mojoPortal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for mojoPortal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href='http://www.mojoportal.com'  title='mojoPortal.com'>Powered by mojoPortal</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href='http://www\\.mojoportal\\.com'\\ \\ title='mojoPortal\\.com'>Powered\\ by\\ mojoPortal</a>"
+    },
+    {
+      "name": "mojoPortal Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for mojoPortal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<head id=\"ct[0-9]+_Head[0-9]+\"><title>"
+    },
+    {
+      "name": "mojoPortal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for mojoPortal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<img src=\"../Data/SiteImages/mojoportal-logo-med.gif\" alt=\"mojoPortal Content Management System\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<img\\ src=\"\\.\\./Data/SiteImages/mojoportal\\-logo\\-med\\.gif\"\\ alt=\"mojoPortal\\ Content\\ Management\\ System\"\\ />"
+    },
+    {
+      "name": "mojoPortal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for mojoPortal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link id=\"Link1\" runat=\"server\" rel=\"stylesheet\" href=\"../Data/style/setup.css\" type=\"text/css\"  />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ id=\"Link1\"\\ runat=\"server\"\\ rel=\"stylesheet\"\\ href=\"\\.\\./Data/style/setup\\.css\"\\ type=\"text/css\"\\ \\ />"
+    }
+  ]
+}

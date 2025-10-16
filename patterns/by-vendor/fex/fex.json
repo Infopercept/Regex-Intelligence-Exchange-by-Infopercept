@@ -1,0 +1,86 @@
+{
+  "vendor": "FEX",
+  "vendor_id": "fex",
+  "product": "FEX",
+  "product_id": "fex",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FEX Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FEX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HEAD><TITLE>F*EX - File EXchange</TITLE></HEAD>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<HEAD><TITLE>F\\*EX\\ \\-\\ File\\ EXchange</TITLE></HEAD>"
+    },
+    {
+      "name": "FEX Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FEX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<h1>F*EX - Frams' Fast File EXchange",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<h1>F\\*EX\\ \\-\\ Frams'\\ Fast\\ File\\ EXchange"
+    },
+    {
+      "name": "FEX Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FEX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"mailto:[^\"]+\">fexmaster</a></address>"
+    },
+    {
+      "name": "FEX Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FEX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^fexsrv$"
+    }
+  ]
+}

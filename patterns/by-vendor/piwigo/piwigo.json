@@ -1,0 +1,86 @@
+{
+  "vendor": "Piwigo",
+  "vendor_id": "piwigo",
+  "product": "Piwigo",
+  "product_id": "piwigo",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Piwigo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Piwigo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"Piwigo (aka PWG), see piwigo.org\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"Piwigo\\ \\(aka\\ PWG\\),\\ see\\ piwigo\\.org\">"
+    },
+    {
+      "name": "Piwigo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Piwigo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"Piwigo, piwigo.org\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"Piwigo,\\ piwigo\\.org\">"
+    },
+    {
+      "name": "Piwigo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Piwigo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<div id=\"copyright\">\\s+<a name=\"EoP\"></a>\\s+<!-- End of Page -->"
+    },
+    {
+      "name": "Piwigo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Piwigo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by\\s+<a href=\"http://piwigo\\.org\" class=\"Piwigo\">"
+    }
+  ]
+}

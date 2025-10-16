@@ -1,0 +1,98 @@
+{
+  "vendor": "CruxCMS",
+  "vendor_id": "cruxcms",
+  "product": "CruxCMS",
+  "product_id": "cruxcms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CruxCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CruxCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<font color=\"#666666\"><center>Powered by <a href=\"http://www.cruxcms.co.uk\">Crux CMS</a></center> </font>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<font\\ color=\"\\#666666\"><center>Powered\\ by\\ <a\\ href=\"http://www\\.cruxcms\\.co\\.uk\">Crux\\ CMS</a></center>\\ </font>"
+    },
+    {
+      "name": "CruxCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CruxCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<font color=\"#666666\"><center>Powered by <a href=\"http://www.cruxsoftware.co.uk\">Crux CMS</a></center> </font>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<font\\ color=\"\\#666666\"><center>Powered\\ by\\ <a\\ href=\"http://www\\.cruxsoftware\\.co\\.uk\">Crux\\ CMS</a></center>\\ </font>"
+    },
+    {
+      "name": "CruxCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CruxCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Generator\" content=\"Created by CruxCMS http://www.cruxsoftware.co.uk\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Generator\"\\ content=\"Created\\ by\\ CruxCMS\\ http://www\\.cruxsoftware\\.co\\.uk\">"
+    },
+    {
+      "name": "CruxCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CruxCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Generator\" content=\"Created by Crux CMS http://www.cruxcms.co.uk\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Generator\"\\ content=\"Created\\ by\\ Crux\\ CMS\\ http://www\\.cruxcms\\.co\\.uk\">"
+    }
+  ]
+}

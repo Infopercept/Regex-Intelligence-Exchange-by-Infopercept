@@ -1,0 +1,74 @@
+{
+  "vendor": "DotCMS",
+  "vendor_id": "dotcms",
+  "product": "DotCMS",
+  "product_id": "dotcms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DotCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DotCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<img[^>]+src=\"[^\"]*/dotAsset/"
+    },
+    {
+      "name": "DotCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DotCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link[^>]+href=\"[^\"]*/dotAsset/"
+    },
+    {
+      "name": "DotCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DotCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a[^>]+href=\"[^h][^\"]*index\\.dot"
+    },
+    {
+      "name": "dotcms cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DotCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "dotcms"
+    }
+  ]
+}

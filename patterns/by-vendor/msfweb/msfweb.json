@@ -1,0 +1,70 @@
+{
+  "vendor": "MSFWeb",
+  "vendor_id": "msfweb",
+  "product": "MSFWeb",
+  "product_id": "msfweb",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MSFWeb Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MSFWeb",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Author\" content=\"Mike Whitehead (mwhite22[at]caledonian.ac.uk), Metasploit LLC\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Author\"\\ content=\"Mike\\ Whitehead\\ \\(mwhite22\\[at\\]caledonian\\.ac\\.uk\\),\\ Metasploit\\ LLC\"\\ />"
+    },
+    {
+      "name": "MSFWeb Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MSFWeb",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Copyright\" content=\"(c) 2007, Mike Whitehead (mwhite22[at]caledonian.ac.uk), (c) 2006-2007 Metasploit LLC\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Copyright\"\\ content=\"\\(c\\)\\ 2007,\\ Mike\\ Whitehead\\ \\(mwhite22\\[at\\]caledonian\\.ac\\.uk\\),\\ \\(c\\)\\ 2006\\-2007\\ Metasploit\\ LLC\"\\ />"
+    },
+    {
+      "name": "MSFWeb Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MSFWeb",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script>[\\s]*document.writeln('<link rel=\"stylesheet\" type=\"text/css\" href=\"' + mainStyle + '\">'); // MSFWeb main stylesheet[\\s]*document.writeln('<link rel=\"stylesheet\" type=\"text/css\" href=\"' + windowStyle + '\">'); // Window frame stylesheet[\\s]*</script>"
+    }
+  ]
+}

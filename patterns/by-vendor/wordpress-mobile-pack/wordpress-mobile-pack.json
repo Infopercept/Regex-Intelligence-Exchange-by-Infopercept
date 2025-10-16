@@ -1,0 +1,33 @@
+{
+  "vendor": "WordPress-Mobile-Pack",
+  "vendor_id": "wordpress-mobile-pack",
+  "product": "WordPress-Mobile-Pack",
+  "product_id": "wordpress-mobile-pack",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WordPress-Mobile-Pack Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WordPress-Mobile-Pack",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-mobilized-by: ^WordPress Mobile Pack ([^\\s]+)$",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-mobilized-by: ^WordPress Mobile Pack ([^\\s]+)$",
+      "version_group": 1
+    }
+  ]
+}

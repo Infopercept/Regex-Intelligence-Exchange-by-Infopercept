@@ -1,0 +1,58 @@
+{
+  "vendor": "OpenEMR",
+  "vendor_id": "openemr",
+  "product": "OpenEMR",
+  "product_id": "openemr",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OpenEMR Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenEMR",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<body ONLOAD=\"javascript:top\\.location\\.href='interface/login/login_frame\\.php(\\?site=default)?';\">"
+    },
+    {
+      "name": "OpenEMR Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenEMR",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!--<frame src=\"/[^/]+/interface/login/filler\\.php\" name=\"Filler Bottom\" scrolling=\"no\" noresize frameborder=\"NO\">-->"
+    },
+    {
+      "name": "OpenEMR Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenEMR",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "OpenEMR=[^\\s]+;"
+    }
+  ]
+}

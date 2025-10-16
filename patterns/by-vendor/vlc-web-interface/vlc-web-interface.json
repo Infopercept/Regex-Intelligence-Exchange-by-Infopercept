@@ -1,0 +1,164 @@
+{
+  "vendor": "VLC-Web-Interface",
+  "vendor_id": "vlc-web-interface",
+  "product": "VLC-Web-Interface",
+  "product_id": "vlc-web-interface",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VLC-Web-Interface Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VLC-Web-Interface",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>VLC media player - Web Interface</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>VLC\\ media\\ player\\ \\-\\ Web\\ Interface</title>"
+    },
+    {
+      "name": "VLC-Web-Interface Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VLC-Web-Interface",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>VLC media player - Web Interface - Mosaic Wizard</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>VLC\\ media\\ player\\ \\-\\ Web\\ Interface\\ \\-\\ Mosaic\\ Wizard</title>"
+    },
+    {
+      "name": "VLC-Web-Interface Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VLC-Web-Interface",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>VLC media player - Web Interface with Flash Viewer</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>VLC\\ media\\ player\\ \\-\\ Web\\ Interface\\ with\\ Flash\\ Viewer</title>"
+    },
+    {
+      "name": "VLC-Web-Interface Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VLC-Web-Interface",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>VLC media player - Web Interface - VLM</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>VLC\\ media\\ player\\ \\-\\ Web\\ Interface\\ \\-\\ VLM</title>"
+    },
+    {
+      "name": "VLC-Web-Interface Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VLC-Web-Interface",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- do we need to browse in order to setup a mosaic ? for the background image maybe ... -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ do\\ we\\ need\\ to\\ browse\\ in\\ order\\ to\\ setup\\ a\\ mosaic\\ \\?\\ for\\ the\\ background\\ image\\ maybe\\ \\.\\.\\.\\ \\-\\->"
+    },
+    {
+      "name": "VLC-Web-Interface Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VLC-Web-Interface",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"checkbox\" id=\"vlm_schedule_repeat\" onchange=\"toggle_schedule_repeat();update_vlm_add_schedule();\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ type=\"checkbox\"\\ id=\"vlm_schedule_repeat\"\\ onchange=\"toggle_schedule_repeat\\(\\);update_vlm_add_schedule\\(\\);\"\\ />"
+    },
+    {
+      "name": "VLC-Web-Interface Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VLC-Web-Interface",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"text\" name=\"sout_mrl\" id=\"sout_mrl\" size=\"60\" onkeypress=\"if( event.keyCode == 13 ) vlm_output_change();\"/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ type=\"text\"\\ name=\"sout_mrl\"\\ id=\"sout_mrl\"\\ size=\"60\"\\ onkeypress=\"if\\(\\ event\\.keyCode\\ ==\\ 13\\ \\)\\ vlm_output_change\\(\\);\"/>"
+    }
+  ]
+}

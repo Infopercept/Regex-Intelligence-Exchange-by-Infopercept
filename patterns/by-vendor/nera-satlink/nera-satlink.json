@@ -1,0 +1,48 @@
+{
+  "vendor": "Nera-SatLink",
+  "vendor_id": "nera-satlink",
+  "product": "Nera-SatLink",
+  "product_id": "nera-satlink",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Nera-SatLink Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Nera-SatLink",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Basic realm=\"SatLink Terminal\"$"
+    },
+    {
+      "name": "Nera-SatLink Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Nera-SatLink",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<FORM ID =\"statussatellite\" name = \"statussatellite\" method = \"GET\" action = \"\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<FORM\\ ID\\ =\"statussatellite\"\\ name\\ =\\ \"statussatellite\"\\ method\\ =\\ \"GET\"\\ action\\ =\\ \"\">"
+    }
+  ]
+}

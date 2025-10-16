@@ -1,0 +1,32 @@
+{
+  "vendor": "RIPS",
+  "vendor_id": "rips",
+  "product": "RIPS",
+  "product_id": "rips",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "RIPS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for RIPS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td nowrap><input type=\"checkbox\" id=\"subdirs\" value=\"1\" title=\"check to scan subdirectories\" />subdirs</td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ nowrap><input\\ type=\"checkbox\"\\ id=\"subdirs\"\\ value=\"1\"\\ title=\"check\\ to\\ scan\\ subdirectories\"\\ />subdirs</td>"
+    }
+  ]
+}

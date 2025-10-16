@@ -1,0 +1,54 @@
+{
+  "vendor": "Car-Portal",
+  "vendor_id": "car-portal",
+  "product": "Car-Portal",
+  "product_id": "car-portal",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Car-Portal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Car-Portal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div onmousedown=\"javascript:gSubmitForm()\" class=\"main_form_search_button\">SEARCH</div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ onmousedown=\"javascript:gSubmitForm\\(\\)\"\\ class=\"main_form_search_button\">SEARCH</div>"
+    },
+    {
+      "name": "Car-Portal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Car-Portal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.netartmedia.net/carsportal\">Car Portal</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.netartmedia\\.net/carsportal\">Car\\ Portal</a>"
+    }
+  ]
+}

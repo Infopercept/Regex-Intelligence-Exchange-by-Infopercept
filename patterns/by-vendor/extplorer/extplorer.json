@@ -1,0 +1,32 @@
+{
+  "vendor": "eXtplorer",
+  "vendor_id": "extplorer",
+  "product": "eXtplorer",
+  "product_id": "extplorer",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "eXtplorer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eXtplorer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Login - eXtplorer</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Login\\ \\-\\ eXtplorer</title>"
+    }
+  ]
+}

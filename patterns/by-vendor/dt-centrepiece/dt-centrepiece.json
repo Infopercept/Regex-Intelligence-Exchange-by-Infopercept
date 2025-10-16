@@ -1,0 +1,54 @@
+{
+  "vendor": "DT-Centrepiece",
+  "vendor_id": "dt-centrepiece",
+  "product": "DT-Centrepiece",
+  "product_id": "dt-centrepiece",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DT-Centrepiece Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DT-Centrepiece",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<meta name=\"generator\" content=\"DT Centrepiece - www.dt.net.nz/centrepiece/\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<meta\\ name=\"generator\"\\ content=\"DT\\ Centrepiece\\ \\-\\ www\\.dt\\.net\\.nz/centrepiece/\"\\ />"
+    },
+    {
+      "name": "DT-Centrepiece Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DT-Centrepiece",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.dt.net.nz/centrepiece/\" target=\"_blank\">Powered By DT Centrepiece</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.dt\\.net\\.nz/centrepiece/\"\\ target=\"_blank\">Powered\\ By\\ DT\\ Centrepiece</a>"
+    }
+  ]
+}

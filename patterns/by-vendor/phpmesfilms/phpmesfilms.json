@@ -1,0 +1,98 @@
+{
+  "vendor": "PhpMesFilms",
+  "vendor_id": "phpmesfilms",
+  "product": "PhpMesFilms",
+  "product_id": "phpmesfilms",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PhpMesFilms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PhpMesFilms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t<title>PhpMesFilms - Administration</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t<title>PhpMesFilms\\ \\-\\ Administration</title>"
+    },
+    {
+      "name": "PhpMesFilms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PhpMesFilms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t<title>PhpMesFilms - Liste</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t<title>PhpMesFilms\\ \\-\\ Liste</title>"
+    },
+    {
+      "name": "PhpMesFilms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PhpMesFilms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t<title>PhpMesFilms - Fiche film</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t<title>PhpMesFilms\\ \\-\\ Fiche\\ film</title>"
+    },
+    {
+      "name": "PhpMesFilms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PhpMesFilms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t\tpowered by <a href=\"http://phpmesfilms.dyndns.org/\">PhpMesFilms</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\t\\\tpowered\\ by\\ <a\\ href=\"http://phpmesfilms\\.dyndns\\.org/\">PhpMesFilms</a>"
+    }
+  ]
+}

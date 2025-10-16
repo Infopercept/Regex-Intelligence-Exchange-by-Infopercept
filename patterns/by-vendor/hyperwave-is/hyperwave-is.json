@@ -1,0 +1,72 @@
+{
+  "vendor": "Hyperwave-IS",
+  "vendor_id": "hyperwave-is",
+  "product": "Hyperwave-IS",
+  "product_id": "hyperwave-is",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Hyperwave-IS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Hyperwave-IS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Hyperwave-"
+    },
+    {
+      "name": "Hyperwave-IS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Hyperwave-IS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Hyperwave-IS/([^\\s]+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Hyperwave-IS/([^\\s]+)$",
+      "version_group": 1
+    },
+    {
+      "name": "Hyperwave-IS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Hyperwave-IS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Hyperwave-Information-Server/([^\\s]+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Hyperwave-Information-Server/([^\\s]+)$",
+      "version_group": 1
+    }
+  ]
+}

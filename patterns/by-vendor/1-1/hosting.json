@@ -1,0 +1,26 @@
+{
+  "vendor": "1&1",
+  "vendor_id": "1-1",
+  "product": "Hosting",
+  "product_id": "hosting",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DIY_SB cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for 1&1 Hosting",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "DIY_SB"
+    }
+  ]
+}

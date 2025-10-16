@@ -1,0 +1,32 @@
+{
+  "vendor": "Spree-Commerce",
+  "vendor_id": "spree-commerce",
+  "product": "Spree-Commerce",
+  "product_id": "spree-commerce",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Spree-Commerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Spree-Commerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div style=\"margin:0;padding:0;display:inline\"><input name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ style=\"margin:0;padding:0;display:inline\"><input\\ name=\"utf8\"\\ type=\"hidden\"\\ value=\"\\&\\#x2713;\"\\ /></div>"
+    }
+  ]
+}

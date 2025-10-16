@@ -1,0 +1,130 @@
+{
+  "vendor": "Citrix-Access-Gateway",
+  "vendor_id": "citrix-access-gateway",
+  "product": "Citrix-Access-Gateway",
+  "product_id": "citrix-access-gateway",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Citrix-Access-Gateway Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Citrix-Access-Gateway",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HTML><HEAD><TITLE>Citrix Access Gateway</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<HTML><HEAD><TITLE>Citrix\\ Access\\ Gateway</TITLE>"
+    },
+    {
+      "name": "Citrix-Access-Gateway Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Citrix-Access-Gateway",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"SHORTCUT ICON\" href=\"/vpn/images/AccessGateway.ico\" type=\"image/vnd.microsoft.icon\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"SHORTCUT\\ ICON\"\\ href=\"/vpn/images/AccessGateway\\.ico\"\\ type=\"image/vnd\\.microsoft\\.icon\">"
+    },
+    {
+      "name": "Citrix-Access-Gateway Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Citrix-Access-Gateway",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--CONTENT CONTENT CONTENT CONTENT CONTENT--->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-CONTENT\\ CONTENT\\ CONTENT\\ CONTENT\\ CONTENT\\-\\-\\->"
+    },
+    {
+      "name": "Citrix-Access-Gateway Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Citrix-Access-Gateway",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</div><!---end of div c_logon_maincontent-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</div><!\\-\\-\\-end\\ of\\ div\\ c_logon_maincontent\\-\\->"
+    },
+    {
+      "name": "Citrix-Access-Gateway Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Citrix-Access-Gateway",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "ezisneercsresu="
+    },
+    {
+      "name": "Citrix-Access-Gateway Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Citrix-Access-Gateway",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Cyms-SecS v[\\d\\.]+$"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "vendor": "360-Web-Manager",
+  "vendor_id": "360-web-manager",
+  "product": "360-Web-Manager",
+  "product_id": "360-web-manager",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "360-Web-Manager Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for 360-Web-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "360WebManager Software :: administrador contenidos web"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "vendor": "Axis-Commerce",
+  "vendor_id": "axis-commerce",
+  "product": "Axis-Commerce",
+  "product_id": "axis-commerce",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Axis-Commerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axis-Commerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"head\"><h2>Forgot password</h2><p class=\"powered\">Powered by Axis</p></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"head\"><h2>Forgot\\ password</h2><p\\ class=\"powered\">Powered\\ by\\ Axis</p></div>"
+    },
+    {
+      "name": "Axis-Commerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axis-Commerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Login to Axis administrator panel</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Login\\ to\\ Axis\\ administrator\\ panel</title>"
+    },
+    {
+      "name": "Axis-Commerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axis-Commerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p class=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ class=\\\\"
+    }
+  ]
+}

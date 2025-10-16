@@ -1,0 +1,76 @@
+{
+  "vendor": "ASProxy",
+  "vendor_id": "asproxy",
+  "product": "ASProxy",
+  "product_id": "asproxy",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ASProxy Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ASProxy",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Surf the web invisibly using ASProxy power. A Powerfull web proxy is in your hands. -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Surf\\ the\\ web\\ invisibly\\ using\\ ASProxy\\ power\\.\\ A\\ Powerfull\\ web\\ proxy\\ is\\ in\\ your\\ hands\\.\\ \\-\\->"
+    },
+    {
+      "name": "ASProxy Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ASProxy",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--This is ASProxy powered by SalarSoft. -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-This\\ is\\ ASProxy\\ powered\\ by\\ SalarSoft\\.\\ \\-\\->"
+    },
+    {
+      "name": "ASProxy Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ASProxy",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"button\" onclick=\"_Page_SubmitForm()\" value=\"Display\" id=\"btnASProxyDisplayButton\" class=\"Button\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ type=\"button\"\\ onclick=\"_Page_SubmitForm\\(\\)\"\\ value=\"Display\"\\ id=\"btnASProxyDisplayButton\"\\ class=\"Button\"\\ />"
+    }
+  ]
+}

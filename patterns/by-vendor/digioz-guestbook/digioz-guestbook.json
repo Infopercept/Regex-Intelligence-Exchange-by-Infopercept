@@ -1,0 +1,54 @@
+{
+  "vendor": "DigiOz-Guestbook",
+  "vendor_id": "digioz-guestbook",
+  "product": "DigiOz-Guestbook",
+  "product_id": "digioz-guestbook",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DigiOz-Guestbook Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DigiOz-Guestbook",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- NOTE: PLEASE DO NOT REMOVE THE BELLOW 3 LINES FROM YOUR HEADER FILE -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ NOTE:\\ PLEASE\\ DO\\ NOT\\ REMOVE\\ THE\\ BELLOW\\ 3\\ LINES\\ FROM\\ YOUR\\ HEADER\\ FILE\\ \\-\\->"
+    },
+    {
+      "name": "DigiOz-Guestbook Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DigiOz-Guestbook",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- NOTE: PLEASE DO NOT REMOVE THE ABOVE 3 LINES FROM YOUR HEADER FILE -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ NOTE:\\ PLEASE\\ DO\\ NOT\\ REMOVE\\ THE\\ ABOVE\\ 3\\ LINES\\ FROM\\ YOUR\\ HEADER\\ FILE\\ \\-\\->"
+    }
+  ]
+}

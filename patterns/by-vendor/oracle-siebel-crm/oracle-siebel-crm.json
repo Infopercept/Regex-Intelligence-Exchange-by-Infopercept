@@ -1,0 +1,186 @@
+{
+  "vendor": "Oracle-Siebel-CRM",
+  "vendor_id": "oracle-siebel-crm",
+  "product": "Oracle-Siebel-CRM",
+  "product_id": "oracle-siebel-crm",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Oracle-Siebel-CRM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-Siebel-CRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html OT='SiebWebMainWindow'>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html\\ OT='SiebWebMainWindow'>"
+    },
+    {
+      "name": "Oracle-Siebel-CRM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-Siebel-CRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>Scripting is used to manage data interactions between the Siebel server/Web Server and the User Interface. This requires JavaScript to be enabled  in the web browser </p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>Scripting\\ is\\ used\\ to\\ manage\\ data\\ interactions\\ between\\ the\\ Siebel\\ server/Web\\ Server\\ and\\ the\\ User\\ Interface\\.\\ This\\ requires\\ JavaScript\\ to\\ be\\ enabled\\ \\ in\\ the\\ web\\ browser\\ </p>"
+    },
+    {
+      "name": "Oracle-Siebel-CRM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-Siebel-CRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body>The server you are trying to access is either busy or experiencing difficulties. Please close the Web browser, open a new browser window, and try logging in again.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body>The\\ server\\ you\\ are\\ trying\\ to\\ access\\ is\\ either\\ busy\\ or\\ experiencing\\ difficulties\\.\\ Please\\ close\\ the\\ Web\\ browser,\\ open\\ a\\ new\\ browser\\ window,\\ and\\ try\\ logging\\ in\\ again\\."
+    },
+    {
+      "name": "Oracle-Siebel-CRM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-Siebel-CRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "alert(\"Your session timed out because you were idle for too long.  Please log in again to resume.\\nIf you had a Siebel attachment open, your changes may have been lost.  Please save the file locally, close it, and reattach it to the appropriate record.\");",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "alert\\(\"Your\\ session\\ timed\\ out\\ because\\ you\\ were\\ idle\\ for\\ too\\ long\\.\\ \\ Please\\ log\\ in\\ again\\ to\\ resume\\.\\\\nIf\\ you\\ had\\ a\\ Siebel\\ attachment\\ open,\\ your\\ changes\\ may\\ have\\ been\\ lost\\.\\ \\ Please\\ save\\ the\\ file\\ locally,\\ close\\ it,\\ and\\ reattach\\ it\\ to\\ the\\ appropriate\\ record\\.\"\\);"
+    },
+    {
+      "name": "Oracle-Siebel-CRM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-Siebel-CRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script language=\"javascript\">top._swescript = window;</script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ language=\"javascript\">top\\._swescript\\ =\\ window;</script>"
+    },
+    {
+      "name": "Oracle-Siebel-CRM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-Siebel-CRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- SWELogin.swt  -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ SWELogin\\.swt\\ \\ \\-\\->"
+    },
+    {
+      "name": "Oracle-Siebel-CRM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-Siebel-CRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body onLoad=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ onLoad=\\\\"
+    },
+    {
+      "name": "Oracle-Siebel-CRM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-Siebel-CRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</form><script language=\"javascript\">var formObj = document.forms[\"RedirectForHost\"];formObj.SWEHo.value=top.location.hostname;formObj.submit();</script></body></html>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</form><script\\ language=\"javascript\">var\\ formObj\\ =\\ document\\.forms\\[\"RedirectForHost\"\\];formObj\\.SWEHo\\.value=top\\.location\\.hostname;formObj\\.submit\\(\\);</script></body></html>"
+    }
+  ]
+}

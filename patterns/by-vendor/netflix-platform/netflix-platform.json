@@ -1,0 +1,26 @@
+{
+  "vendor": "Netflix-Platform",
+  "vendor_id": "netflix-platform",
+  "product": "Netflix-Platform",
+  "product_id": "netflix-platform",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Netflix OG Meta Tag",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netflix-Platform",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta property=\"og:site_name\"[^>]*content=\"Netflix\""
+    }
+  ]
+}

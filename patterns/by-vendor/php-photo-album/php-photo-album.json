@@ -1,0 +1,76 @@
+{
+  "vendor": "PHP-Photo-Album",
+  "vendor_id": "php-photo-album",
+  "product": "PHP-Photo-Album",
+  "product_id": "php-photo-album",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PHP-Photo-Album Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Photo-Album",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<LINK REL=\"stylesheet\" HREF=\"main.php?cmd=theme&var1=style_css\" TYPE=\"text/css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<LINK\\ REL=\"stylesheet\"\\ HREF=\"main\\.php\\?cmd=theme\\&var1=style_css\"\\ TYPE=\"text/css\">"
+    },
+    {
+      "name": "PHP-Photo-Album Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Photo-Album",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<font size=\"2\">Powered by </font><a class=\"me\" href=\"http://www.phpalbum.net\"><font size=\"2\">PHP Photo Album</font></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<font\\ size=\"2\">Powered\\ by\\ </font><a\\ class=\"me\"\\ href=\"http://www\\.phpalbum\\.net\"><font\\ size=\"2\">PHP\\ Photo\\ Album</font></a>"
+    },
+    {
+      "name": "PHP-Photo-Album Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Photo-Album",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- <font size=\"2\">Powered by <a class=\"me\"href=\"http://www.phpalbum.net\">PHP Photo Album</font></a> -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ <font\\ size=\"2\">Powered\\ by\\ <a\\ class=\"me\"href=\"http://www\\.phpalbum\\.net\">PHP\\ Photo\\ Album</font></a>\\ \\-\\->"
+    }
+  ]
+}

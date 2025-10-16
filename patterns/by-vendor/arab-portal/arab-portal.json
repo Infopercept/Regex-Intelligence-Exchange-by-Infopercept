@@ -1,0 +1,26 @@
+{
+  "vendor": "Arab-Portal",
+  "vendor_id": "arab-portal",
+  "product": "Arab-Portal",
+  "product_id": "arab-portal",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Arab-Portal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Arab-Portal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<META NAME=\"COPYRIGHT\" CONTENT=\"Copyright[^\\>]*by Arab[\\s]*Portal\""
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "vendor": "MySQLMan",
+  "vendor_id": "mysqlman",
+  "product": "MySQLMan",
+  "product_id": "mysqlman",
+  "category": "database",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MySQLMan Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MySQLMan",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "| <A href=\"mysql.cgi?do=top_level_op&data_source=&action=create_db\">Create</A>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\|\\ <A\\ href=\"mysql\\.cgi\\?do=top_level_op\\&data_source=\\&action=create_db\">Create</A>"
+    }
+  ]
+}

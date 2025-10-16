@@ -1,0 +1,32 @@
+{
+  "vendor": "Inout-Music",
+  "vendor_id": "inout-music",
+  "product": "Inout-Music",
+  "product_id": "inout-music",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Inout-Music Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Inout-Music",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": " href=\"http://www.inoutscripts.com/?r=13\">Powered by Inoutscripts</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ href=\"http://www\\.inoutscripts\\.com/\\?r=13\">Powered\\ by\\ Inoutscripts</a>"
+    }
+  ]
+}

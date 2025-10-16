@@ -1,0 +1,32 @@
+{
+  "vendor": "IPMATE-Router",
+  "vendor_id": "ipmate-router",
+  "product": "IPMATE-Router",
+  "product_id": "ipmate-router",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "IPMATE-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for IPMATE-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Welcome to IPMATE</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Welcome\\ to\\ IPMATE</TITLE>"
+    }
+  ]
+}

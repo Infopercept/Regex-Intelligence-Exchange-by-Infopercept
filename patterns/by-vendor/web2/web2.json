@@ -1,0 +1,49 @@
+{
+  "vendor": "Web2",
+  "vendor_id": "web2",
+  "product": "Web2",
+  "product_id": "web2",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Web2 Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Web2",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Web/2 "
+    },
+    {
+      "name": "Web2 Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Web2",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Web/2 v([^\\r^\\n]+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Web/2 v([^\\r^\\n]+)$",
+      "version_group": 1
+    }
+  ]
+}

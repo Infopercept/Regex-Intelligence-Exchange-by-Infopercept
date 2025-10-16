@@ -1,0 +1,49 @@
+{
+  "vendor": "WEBCOMpro-CMS",
+  "vendor_id": "webcompro-cms",
+  "product": "WEBCOMpro-CMS",
+  "product_id": "webcompro-cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WEBCOMpro-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WEBCOMpro-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-powered-by: WEBCOMpro CMS (.+)$",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-powered-by: WEBCOMpro CMS (.+)$",
+      "version_group": 1
+    },
+    {
+      "name": "WEBCOMpro-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WEBCOMpro-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=\"generator\" content=\"WEBCOMpro CMS ([^\\s]+) . Patrick Heyer, www\\.webcompro-cms\\.com\">"
+    }
+  ]
+}

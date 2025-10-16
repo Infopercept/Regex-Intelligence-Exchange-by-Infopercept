@@ -1,0 +1,49 @@
+{
+  "vendor": "UserLand-Frontier",
+  "vendor_id": "userland-frontier",
+  "product": "UserLand-Frontier",
+  "product_id": "userland-frontier",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "HTTP Server Header",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for UserLand-Frontier",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^UserLand Frontier"
+    },
+    {
+      "name": "UserLand-Frontier Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for UserLand-Frontier",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^UserLand Frontier/([^-]+)-(.+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^UserLand Frontier/([^-]+)-(.+)$",
+      "version_group": 1
+    }
+  ]
+}

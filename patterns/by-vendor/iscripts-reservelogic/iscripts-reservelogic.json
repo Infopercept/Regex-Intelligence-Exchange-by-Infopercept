@@ -1,0 +1,32 @@
+{
+  "vendor": "iScripts-ReserveLogic",
+  "vendor_id": "iscripts-reservelogic",
+  "product": "iScripts-ReserveLogic",
+  "product_id": "iscripts-reservelogic",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "iScripts-ReserveLogic Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iScripts-ReserveLogic",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.iscripts.com/reservelogic/\" target=\"_blank\">iScripts ReserveLogic</a> . A premium product from <a href=\"http://www.iscripts.com\" target=\"_blank\">iScripts.com</a></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.iscripts\\.com/reservelogic/\"\\ target=\"_blank\">iScripts\\ ReserveLogic</a>\\ \\.\\ A\\ premium\\ product\\ from\\ <a\\ href=\"http://www\\.iscripts\\.com\"\\ target=\"_blank\">iScripts\\.com</a></td>"
+    }
+  ]
+}

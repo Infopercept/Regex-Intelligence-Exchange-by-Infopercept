@@ -1,0 +1,120 @@
+{
+  "vendor": "Hunt-Electronics-CCTV",
+  "vendor_id": "hunt-electronics-cctv",
+  "product": "Hunt-Electronics-CCTV",
+  "product_id": "hunt-electronics-cctv",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Hunt-Electronics-CCTV Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Hunt-Electronics-CCTV",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body bgcolor=\"white\" text=\"black\" link=\"blue\" vlink=\"purple\" alink=\"red\" leftmargin=\"0\" marginwidth=\"0\" topmargin=\"0\" marginheight=\"0\" OnLoad=\"preload_img(false, \\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ bgcolor=\"white\"\\ text=\"black\"\\ link=\"blue\"\\ vlink=\"purple\"\\ alink=\"red\"\\ leftmargin=\"0\"\\ marginwidth=\"0\"\\ topmargin=\"0\"\\ marginheight=\"0\"\\ OnLoad=\"preload_img\\(false,\\ \\\\"
+    },
+    {
+      "name": "Hunt-Electronics-CCTV Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Hunt-Electronics-CCTV",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "   //login.action = \"./webviewer.php\" ;",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ //login\\.action\\ =\\ \"\\./webviewer\\.php\"\\ ;"
+    },
+    {
+      "name": "Hunt-Electronics-CCTV Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Hunt-Electronics-CCTV",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "                        <!--<p>If ActiveX control can\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <!\\-\\-<p>If\\ ActiveX\\ control\\ can\\\\"
+    },
+    {
+      "name": "Hunt-Electronics-CCTV Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Hunt-Electronics-CCTV",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "                        <!--<p>If ActiveX control can\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <!\\-\\-<p>If\\ ActiveX\\ control\\ can\\\\"
+    },
+    {
+      "name": "Hunt-Electronics-CCTV Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Hunt-Electronics-CCTV",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "                        <!--<p>If ActiveX control can\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <!\\-\\-<p>If\\ ActiveX\\ control\\ can\\\\"
+    }
+  ]
+}

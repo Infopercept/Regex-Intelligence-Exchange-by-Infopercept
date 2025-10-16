@@ -1,0 +1,48 @@
+{
+  "vendor": "Aruba-Device",
+  "vendor_id": "aruba-device",
+  "product": "Aruba-Device",
+  "product_id": "aruba-device",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Aruba-Device Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Aruba-Device",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<img src=\"/images/arubalogo\\.gif\" width=\"200\" height=\"51\"[\\s]+alt=\"Aruba( Wireless)? Networks\" title=\"Aruba( Wireless)? Networks\"/>"
+    },
+    {
+      "name": "Aruba-Device Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Aruba-Device",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form id=\"login-form\" method=\"post\" autocomplete=\"off\" action=\"/screens/wms/wms.login\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ id=\"login\\-form\"\\ method=\"post\"\\ autocomplete=\"off\"\\ action=\"/screens/wms/wms\\.login\">"
+    }
+  ]
+}

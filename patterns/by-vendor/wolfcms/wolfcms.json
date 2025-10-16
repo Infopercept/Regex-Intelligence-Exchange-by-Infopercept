@@ -1,0 +1,26 @@
+{
+  "vendor": "WolfCMS",
+  "vendor_id": "wolfcms",
+  "product": "WolfCMS",
+  "product_id": "wolfcms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WolfCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WolfCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "href=\"http://www.wolfcms.org/\" title=\"Wolf CMS\" rel=\"noreferrer\">Wolf CMS</a>[\\s]+Inside."
+    }
+  ]
+}

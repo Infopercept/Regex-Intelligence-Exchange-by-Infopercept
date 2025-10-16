@@ -1,0 +1,32 @@
+{
+  "vendor": "FreeNAC",
+  "vendor_id": "freenac",
+  "product": "FreeNAC",
+  "product_id": "freenac",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FreeNAC Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FreeNAC",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"unknowns.php\" title=\"List unknown end devices and print/edit/delete them\">Find unknowns</a><br/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"unknowns\\.php\"\\ title=\"List\\ unknown\\ end\\ devices\\ and\\ print/edit/delete\\ them\">Find\\ unknowns</a><br/>"
+    }
+  ]
+}

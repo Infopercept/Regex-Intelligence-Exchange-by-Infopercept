@@ -1,0 +1,130 @@
+{
+  "vendor": "Google-Search-Appliance",
+  "vendor_id": "google-search-appliance",
+  "product": "Google-Search-Appliance",
+  "product_id": "google-search-appliance",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Google-Search-Appliance Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Google-Search-Appliance",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<font face=arial,sans-serif size=-1>If you are an end user looking for a Google search service on your network, please ask your system administrator for the URL of the search service.<p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<font\\ face=arial,sans\\-serif\\ size=\\-1>If\\ you\\ are\\ an\\ end\\ user\\ looking\\ for\\ a\\ Google\\ search\\ service\\ on\\ your\\ network,\\ please\\ ask\\ your\\ system\\ administrator\\ for\\ the\\ URL\\ of\\ the\\ search\\ service\\.<p>"
+    },
+    {
+      "name": "Google-Search-Appliance Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Google-Search-Appliance",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^GSE$"
+    },
+    {
+      "name": "Google-Search-Appliance Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Google-Search-Appliance",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^/EnterpriseController"
+    },
+    {
+      "name": "Google-Search-Appliance Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Google-Search-Appliance",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr id=\"TopBar\"><td id=\"TopBarName\">About Google Search Appliance</td></tr></table></td></tr></table>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr\\ id=\"TopBar\"><td\\ id=\"TopBarName\">About\\ Google\\ Search\\ Appliance</td></tr></table></td></tr></table>"
+    },
+    {
+      "name": "Google-Search-Appliance Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Google-Search-Appliance",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr id=\"TopBar\"><td id=\"TopBarName\">Welcome to the Google Search Appliance!</td></tr></table></td></tr></table>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr\\ id=\"TopBar\"><td\\ id=\"TopBarName\">Welcome\\ to\\ the\\ Google\\ Search\\ Appliance!</td></tr></table></td></tr></table>"
+    },
+    {
+      "name": "Google-Search-Appliance Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Google-Search-Appliance",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr id=\"TopBar\"> <td id=\"TopBarName\">  Welcome to the Google Mini!  </td> </tr> </table>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr\\ id=\"TopBar\">\\ <td\\ id=\"TopBarName\">\\ \\ Welcome\\ to\\ the\\ Google\\ Mini!\\ \\ </td>\\ </tr>\\ </table>"
+    }
+  ]
+}

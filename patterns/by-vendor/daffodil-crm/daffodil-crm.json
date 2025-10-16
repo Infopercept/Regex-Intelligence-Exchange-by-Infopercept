@@ -1,0 +1,70 @@
+{
+  "vendor": "Daffodil-CRM",
+  "vendor_id": "daffodil-crm",
+  "product": "Daffodil-CRM",
+  "product_id": "daffodil-crm",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Daffodil-CRM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Daffodil-CRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"right_footer\">Powered by Daffodil Software Ltd</div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"right_footer\">Powered\\ by\\ Daffodil\\ Software\\ Ltd</div>"
+    },
+    {
+      "name": "Daffodil-CRM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Daffodil-CRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"right_footer\">Design & Development by Daffodil Software Ltd</div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"right_footer\">Design\\ \\&\\ Development\\ by\\ Daffodil\\ Software\\ Ltd</div>"
+    },
+    {
+      "name": "Daffodil-CRM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Daffodil-CRM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": " href=\"\\?app=forgot_passwd&amp;cmd=passwd_send\">[^>]*Forgot Password\\?</a></td>"
+    }
+  ]
+}

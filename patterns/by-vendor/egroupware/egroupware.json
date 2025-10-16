@@ -1,0 +1,208 @@
+{
+  "vendor": "eGroupWare",
+  "vendor_id": "egroupware",
+  "product": "eGroupWare",
+  "product_id": "egroupware",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "eGroupWare Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eGroupWare",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"eGroupWare http://www.egroupware.org\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"eGroupWare\\ http://www\\.egroupware\\.org\"\\ />"
+    },
+    {
+      "name": "eGroupWare Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eGroupWare",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div align=\"center\"><font color=\"#FF0000\">Votre session n\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ align=\"center\"><font\\ color=\"\\#FF0000\">Votre\\ session\\ n\\\\"
+    },
+    {
+      "name": "eGroupWare Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eGroupWare",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"loginCdMessage\"><font color=\"red\">Your session could not be verified.</font></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"loginCdMessage\"><font\\ color=\"red\">Your\\ session\\ could\\ not\\ be\\ verified\\.</font></div>"
+    },
+    {
+      "name": "eGroupWare Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eGroupWare",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>EGroupware [Login]</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>EGroupware\\ \\[Login\\]</title>"
+    },
+    {
+      "name": "eGroupWare Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eGroupWare",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- we don't need body tags anymore, do we?) we do!!! onload!! LK -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ we\\ don't\\ need\\ body\\ tags\\ anymore,\\ do\\ we\\?\\)\\ we\\ do!!!\\ onload!!\\ LK\\ \\-\\->"
+    },
+    {
+      "name": "eGroupWare Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eGroupWare",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<META NAME=\"description\" CONTENT=\"Expresso Livre login screen, working environment powered by eGroupWare\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<META\\ NAME=\"description\"\\ CONTENT=\"Expresso\\ Livre\\ login\\ screen,\\ working\\ environment\\ powered\\ by\\ eGroupWare\">"
+    },
+    {
+      "name": "eGroupWare Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eGroupWare",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<META NAME=\"keywords\" CONTENT=\"Expresso Livre login screen, eGroupWare, groupware, groupware suite\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<META\\ NAME=\"keywords\"\\ CONTENT=\"Expresso\\ Livre\\ login\\ screen,\\ eGroupWare,\\ groupware,\\ groupware\\ suite\">"
+    },
+    {
+      "name": "eGroupWare Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eGroupWare",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<br><a title=\"eGroupWare\" target=\"_blank\" href=\"http://www.egroupware.org/\"> Powered by eGroupWare </a></div></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<br><a\\ title=\"eGroupWare\"\\ target=\"_blank\"\\ href=\"http://www\\.egroupware\\.org/\">\\ Powered\\ by\\ eGroupWare\\ </a></div></td>"
+    },
+    {
+      "name": "eGroupWare Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eGroupWare",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Expresso Livre - Login</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Expresso\\ Livre\\ \\-\\ Login</TITLE>"
+    }
+  ]
+}

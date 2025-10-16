@@ -1,0 +1,114 @@
+{
+  "vendor": "SARG",
+  "vendor_id": "sarg",
+  "product": "SARG",
+  "product_id": "sarg",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SARG Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SARG",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Squid User's Access Report</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Squid\\ User's\\ Access\\ Report</title>"
+    },
+    {
+      "name": "SARG Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SARG",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr><th class=\"logo\"><a href=\"http://sarg.sourceforge.net\"><img src=\"./images/sarg.png\" border=\"0\" align=\"absmiddle\" title=\"SARG, Squid Analysis Report Generator. Logo by Osamu Matsuzaki\"></a>&nbsp;<font class=\"logo\">Squid Analysis Report Generator</font></th></tr>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr><th\\ class=\"logo\"><a\\ href=\"http://sarg\\.sourceforge\\.net\"><img\\ src=\"\\./images/sarg\\.png\"\\ border=\"0\"\\ align=\"absmiddle\"\\ title=\"SARG,\\ Squid\\ Analysis\\ Report\\ Generator\\.\\ Logo\\ by\\ Osamu\\ Matsuzaki\"></a>\\&nbsp;<font\\ class=\"logo\">Squid\\ Analysis\\ Report\\ Generator</font></th></tr>"
+    },
+    {
+      "name": "SARG Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SARG",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr><th class=\"logo\"><a href=\"http://sarg.sourceforge.net\"><img src=\"../images/sarg.png\" border=\"0\" align=\"absmiddle\" title=\"SARG, Squid Analysis Report Generator. Logo by Osamu Matsuzaki\"></a>&nbsp;<font class=\"logo\">Squid Analysis Report Generator</font></th></tr>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr><th\\ class=\"logo\"><a\\ href=\"http://sarg\\.sourceforge\\.net\"><img\\ src=\"\\.\\./images/sarg\\.png\"\\ border=\"0\"\\ align=\"absmiddle\"\\ title=\"SARG,\\ Squid\\ Analysis\\ Report\\ Generator\\.\\ Logo\\ by\\ Osamu\\ Matsuzaki\"></a>\\&nbsp;<font\\ class=\"logo\">Squid\\ Analysis\\ Report\\ Generator</font></th></tr>"
+    },
+    {
+      "name": "SARG Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SARG",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr><th><a href=\"http://sarg.sourceforge.net\"><img src=\"./images/sarg.png\" title=\"SARG, Squid Analysis Report Generator. Logo by Osamu Matsuzaki\" alt=\"Sarg\"></a>&nbsp;Squid Analysis Report Generator</th></tr>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr><th><a\\ href=\"http://sarg\\.sourceforge\\.net\"><img\\ src=\"\\./images/sarg\\.png\"\\ title=\"SARG,\\ Squid\\ Analysis\\ Report\\ Generator\\.\\ Logo\\ by\\ Osamu\\ Matsuzaki\"\\ alt=\"Sarg\"></a>\\&nbsp;Squid\\ Analysis\\ Report\\ Generator</th></tr>"
+    },
+    {
+      "name": "SARG Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SARG",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<tr><th (align=\"center\" )?class=\"title(_c)?\">Squid User Access Reports?</th></tr>"
+    }
+  ]
+}

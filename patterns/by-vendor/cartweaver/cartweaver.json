@@ -1,0 +1,70 @@
+{
+  "vendor": "Cartweaver",
+  "vendor_id": "cartweaver",
+  "product": "Cartweaver",
+  "product_id": "cartweaver",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Cartweaver Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cartweaver",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Cartweaver Error Notice</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Cartweaver\\ Error\\ Notice</title>"
+    },
+    {
+      "name": "Cartweaver Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cartweaver",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "    <h1>Cartweaver&copy; Administration Log In</h1>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ <h1>Cartweaver\\&copy;\\ Administration\\ Log\\ In</h1>"
+    },
+    {
+      "name": "Cartweaver Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cartweaver",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"http://www.cartweaver.com[/]*\"[\\ target=\"_blank\"]*>[\\s]*<img src=\"[images/]*cartweaver[0-9]+x[0-9]+.gif\" [^alt]+alt=\"Powered [B|b]+y Cartweaver\""
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "vendor": "JAMM-CMS",
+  "vendor_id": "jamm-cms",
+  "product": "JAMM-CMS",
+  "product_id": "jamm-cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "JAMM-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for JAMM-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a[^>]+href=\"http://jammcms\\.jamm-media\\.de\\?ref=[^>]+>powered by JAMM CMS"
+    },
+    {
+      "name": "JAMM-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for JAMM-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<META NAME='Author' CONTENT='JAMM MEDIA Technologies Team 2005'>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<META\\ NAME='Author'\\ CONTENT='JAMM\\ MEDIA\\ Technologies\\ Team\\ 2005'>"
+    },
+    {
+      "name": "JAMM-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for JAMM-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<META NAME=   'author' CONTENT='JAMM MEDIA Team 2001'>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<META\\ NAME=\\ \\ \\ 'author'\\ CONTENT='JAMM\\ MEDIA\\ Team\\ 2001'>"
+    },
+    {
+      "name": "JAMM-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for JAMM-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--- Content Management System JAMM CMS OWEN - Visit www.jamm-media.de for more informations -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\-\\ Content\\ Management\\ System\\ JAMM\\ CMS\\ OWEN\\ \\-\\ Visit\\ www\\.jamm\\-media\\.de\\ for\\ more\\ informations\\ \\-\\->"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "vendor": "Moxa-NPort-Device",
+  "vendor_id": "moxa-nport-device",
+  "product": "Moxa-NPort-Device",
+  "product_id": "moxa-nport-device",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Moxa-NPort-Device Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Moxa-NPort-Device",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HTML><HEAD><TITLE>NPort Web Console</TITLE></HEAD> <FRAMESET rows=57,1* frameborder=NO> <FRAME name=top scrolling=NO target=contents src=top.htm noresize> <FRAMESET cols=200,*> <FRAME name=contents target=main src=contents.htm> <FRAME name=main src=main.htm marginwidth=0 marginheight=0 scrolling=auto> </FRAMESET> <NOFRAMES><BODY background=bg.gif><P>This page uses frame, but your browser doesn't support.</P></BODY> </NOFRAMES> </FRAMESET></HTML>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<HTML><HEAD><TITLE>NPort\\ Web\\ Console</TITLE></HEAD>\\ <FRAMESET\\ rows=57,1\\*\\ frameborder=NO>\\ <FRAME\\ name=top\\ scrolling=NO\\ target=contents\\ src=top\\.htm\\ noresize>\\ <FRAMESET\\ cols=200,\\*>\\ <FRAME\\ name=contents\\ target=main\\ src=contents\\.htm>\\ <FRAME\\ name=main\\ src=main\\.htm\\ marginwidth=0\\ marginheight=0\\ scrolling=auto>\\ </FRAMESET>\\ <NOFRAMES><BODY\\ background=bg\\.gif><P>This\\ page\\ uses\\ frame,\\ but\\ your\\ browser\\ doesn't\\ support\\.</P></BODY>\\ </NOFRAMES>\\ </FRAMESET></HTML>"
+    },
+    {
+      "name": "Moxa-NPort-Device Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Moxa-NPort-Device",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HTML><HEAD><TITLE>NPort Web Console</TITLE> <SCRIPT language=",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<HTML><HEAD><TITLE>NPort\\ Web\\ Console</TITLE>\\ <SCRIPT\\ language="
+    },
+    {
+      "name": "Moxa-NPort-Device Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Moxa-NPort-Device",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HTML><HEAD> <LINK href=nport2g.css rel=stylesheet type=text/css><TITLE>Overview</TITLE></HEAD>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<HTML><HEAD>\\ <LINK\\ href=nport2g\\.css\\ rel=stylesheet\\ type=text/css><TITLE>Overview</TITLE></HEAD>"
+    },
+    {
+      "name": "Moxa-NPort-Device Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Moxa-NPort-Device",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</script><BODY onload=window_onload()> <TABLE width=100% border=0 align=center><TR><TD><H2>Welcome to <span id=devlab1></span>'s web console !</H2></TD></TR>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</script><BODY\\ onload=window_onload\\(\\)>\\ <TABLE\\ width=100%\\ border=0\\ align=center><TR><TD><H2>Welcome\\ to\\ <span\\ id=devlab1></span>'s\\ web\\ console\\ !</H2></TD></TR>"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "vendor": "QuesCom-Qportal",
+  "vendor_id": "quescom-qportal",
+  "product": "QuesCom-Qportal",
+  "product_id": "quescom-qportal",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "QuesCom-Qportal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QuesCom-Qportal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<head profile=\"http://www.quescom.com\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<head\\ profile=\"http://www\\.quescom\\.com\">"
+    },
+    {
+      "name": "QuesCom-Qportal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QuesCom-Qportal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<FRAME src=\"/cticall/cticall_close.asp\" name=\"cticlose\" frameborder=\"no\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<FRAME\\ src=\"/cticall/cticall_close\\.asp\"\\ name=\"cticlose\"\\ frameborder=\"no\"\\ scrolling=\"no\"\\ marginwidth=\"0\"\\ marginheight=\"0\">"
+    },
+    {
+      "name": "QuesCom-Qportal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for QuesCom-Qportal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"/qpuser.css\" rel=\"stylesheet\" type=\"text/css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"/qpuser\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\">"
+    }
+  ]
+}

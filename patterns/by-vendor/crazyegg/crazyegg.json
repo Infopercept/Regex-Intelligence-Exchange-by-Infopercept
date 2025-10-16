@@ -1,0 +1,32 @@
+{
+  "vendor": "CrazyEgg",
+  "vendor_id": "crazyegg",
+  "product": "CrazyEgg",
+  "product_id": "crazyegg",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CrazyEgg Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CrazyEgg",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "cetrk.com",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "cetrk\\.com"
+    }
+  ]
+}

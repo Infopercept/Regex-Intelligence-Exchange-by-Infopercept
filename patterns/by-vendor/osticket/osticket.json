@@ -1,0 +1,42 @@
+{
+  "vendor": "osTicket",
+  "vendor_id": "osticket",
+  "product": "osTicket",
+  "product_id": "osticket",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "osTicket Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for osTicket",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>osTicket Installer</title>[\\s]+<link rel=\"stylesheet\" href=\"style\\.css\" media=\"screen\">"
+    },
+    {
+      "name": "osTicket Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for osTicket",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a id=\"powered_by\" href=\"http://osticket\\.com\"><img src=\"\\./images/poweredby\\.jpg\" width=\"126\" height=\"23\" alt=\"Powered by osTicket\"></a></div>"
+    }
+  ]
+}

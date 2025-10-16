@@ -1,0 +1,49 @@
+{
+  "vendor": "Raptor-Firewall",
+  "vendor_id": "raptor-firewall",
+  "product": "Raptor-Firewall",
+  "product_id": "raptor-firewall",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Raptor-Firewall Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Raptor-Firewall",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Simple, Secure Web Server"
+    },
+    {
+      "name": "Raptor-Firewall Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Raptor-Firewall",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Simple, Secure Web Server (.+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Simple, Secure Web Server (.+)$",
+      "version_group": 1
+    }
+  ]
+}

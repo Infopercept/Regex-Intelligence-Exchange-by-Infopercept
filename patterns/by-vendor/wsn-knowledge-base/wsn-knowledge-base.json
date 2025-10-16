@@ -1,0 +1,114 @@
+{
+  "vendor": "WSN-Knowledge-Base",
+  "vendor_id": "wsn-knowledge-base",
+  "product": "WSN-Knowledge-Base",
+  "product_id": "wsn-knowledge-base",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WSN-Knowledge-Base Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WSN-Knowledge-Base",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>WSN Knowledge Base Admin Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>WSN\\ Knowledge\\ Base\\ Admin\\ Login</title>"
+    },
+    {
+      "name": "WSN-Knowledge-Base Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WSN-Knowledge-Base",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>WSN Knowledge Base Administration Panel</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>WSN\\ Knowledge\\ Base\\ Administration\\ Panel</title>"
+    },
+    {
+      "name": "WSN-Knowledge-Base Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WSN-Knowledge-Base",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- place any jquery-dependent script tags that need to be before the /head tag in here -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ place\\ any\\ jquery\\-dependent\\ script\\ tags\\ that\\ need\\ to\\ be\\ before\\ the\\ /head\\ tag\\ in\\ here\\ \\-\\->"
+    },
+    {
+      "name": "WSN-Knowledge-Base Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WSN-Knowledge-Base",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<div class=\"boxtitle\" on[c|C]lick=\"minmax\\('[a-z]+box'\\)\"><img src="
+    },
+    {
+      "name": "WSN-Knowledge-Base Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WSN-Knowledge-Base",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<textarea readonly rows=\"20\" cols=\"75\">WSN Knowledge Base License Agreement",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<textarea\\ readonly\\ rows=\"20\"\\ cols=\"75\">WSN\\ Knowledge\\ Base\\ License\\ Agreement"
+    }
+  ]
+}

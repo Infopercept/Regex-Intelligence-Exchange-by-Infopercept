@@ -1,0 +1,87 @@
+{
+  "vendor": "CAStor",
+  "vendor_id": "castor",
+  "product": "CAStor",
+  "product_id": "castor",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CAStor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CAStor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html><head><title>CAStor Node Status</title></head><body><h2>CAStor Node IP",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html><head><title>CAStor\\ Node\\ Status</title></head><body><h2>CAStor\\ Node\\ IP"
+    },
+    {
+      "name": "CAStor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CAStor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^CAStor Cluster/([^\\s]+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^CAStor Cluster/([^\\s]+)$",
+      "version_group": 1
+    },
+    {
+      "name": "CAStor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CAStor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^[\\d]+$"
+    },
+    {
+      "name": "CAStor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CAStor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^[\\d]+$"
+    }
+  ]
+}

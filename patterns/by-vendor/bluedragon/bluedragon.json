@@ -1,0 +1,79 @@
+{
+  "vendor": "BlueDragon",
+  "vendor_id": "bluedragon",
+  "product": "BlueDragon",
+  "product_id": "bluedragon",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BlueDragon Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BlueDragon",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: BlueDragon Server (JXAS|JX)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: BlueDragon Server (JXAS|JX)",
+      "version_group": 1
+    },
+    {
+      "name": "BlueDragon Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BlueDragon",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-powered-by: BlueDragon Server/([^\\s^,]+)",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-powered-by: BlueDragon Server/([^\\s^,]+)",
+      "version_group": 1
+    },
+    {
+      "name": "BlueDragon Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BlueDragon",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: BlueDragon Server( JXAS| JX)?(/| )8.5",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: BlueDragon Server( JXAS| JX)?(/| )([\\d\\.]+)",
+      "version_group": 1
+    }
+  ]
+}

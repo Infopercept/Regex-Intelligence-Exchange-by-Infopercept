@@ -1,0 +1,120 @@
+{
+  "vendor": "Tilgin-Router",
+  "vendor_id": "tilgin-router",
+  "product": "Tilgin-Router",
+  "product_id": "tilgin-router",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Tilgin-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tilgin-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<H1 id=\"title\">Welcome to the Tilgin router</H1>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<H1\\ id=\"title\">Welcome\\ to\\ the\\ Tilgin\\ router</H1>"
+    },
+    {
+      "name": "Tilgin-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tilgin-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>VOOD</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>VOOD</TITLE>"
+    },
+    {
+      "name": "Tilgin-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tilgin-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<A href=\"/wizard/\" class=\"\" title=\"Wizard\">Run wizard</A> for a quick and simple initial configuration.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<A\\ href=\"/wizard/\"\\ class=\"\"\\ title=\"Wizard\">Run\\ wizard</A>\\ for\\ a\\ quick\\ and\\ simple\\ initial\\ configuration\\."
+    },
+    {
+      "name": "Tilgin-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tilgin-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<A href=\"/status/\" class=\"menuitem\" title=\"Status\">Status</A><SPAN class=\"separator\"> </SPAN><A href=\"/help/\" class=\"last menuitem\" title=\"Help\">Help</A>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<A\\ href=\"/status/\"\\ class=\"menuitem\"\\ title=\"Status\">Status</A><SPAN\\ class=\"separator\">\\ </SPAN><A\\ href=\"/help/\"\\ class=\"last\\ menuitem\"\\ title=\"Help\">Help</A>"
+    },
+    {
+      "name": "Tilgin-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tilgin-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<LINK rel=\"stylesheet\" type=\"text/css\" href=\"/compressed-control.css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<LINK\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/compressed\\-control\\.css\">"
+    }
+  ]
+}

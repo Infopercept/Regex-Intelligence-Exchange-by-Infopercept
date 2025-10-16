@@ -1,0 +1,42 @@
+{
+  "vendor": "DMXReady-Members-Area-Manager",
+  "vendor_id": "dmxready-members-area-manager",
+  "product": "DMXReady-Members-Area-Manager",
+  "product_id": "dmxready-members-area-manager",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DMXReady-Members-Area-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DMXReady-Members-Area-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<p align=\"center\"><a href=\"[^\"]*/applications/MembersAreaManager/inc_membersareamanager\\.asp\\?show=sendpassword\">Forget Password\\?</a>"
+    },
+    {
+      "name": "DMXReady-Members-Area-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DMXReady-Members-Area-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<form ACTION=\"[^\"]*/applications/MembersAreaManager/inc_membersareamanager\\.asp\" method=\"POST\" name=\"login\" onSubmit=\"YY_checkform\\('login','entity_username','#q','0','Please provide username','entity_password','#q','0','Please provide password'\\);return document.MM_returnValue\" >"
+    }
+  ]
+}

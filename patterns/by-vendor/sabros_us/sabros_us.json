@@ -1,0 +1,76 @@
+{
+  "vendor": "sabros_us",
+  "vendor_id": "sabros_us",
+  "product": "sabros_us",
+  "product_id": "sabros_us",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "sabros_us Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for sabros_us",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<title>sabros.us/",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<title>sabros\\.us/"
+    },
+    {
+      "name": "sabros_us Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for sabros_us",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t<p class=\"powered\">powered by: <a title=\"sabros.us\" href=\"http://sabros.us/\">sabros.us</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t<p\\ class=\"powered\">powered\\ by:\\ <a\\ title=\"sabros\\.us\"\\ href=\"http://sabros\\.us/\">sabros\\.us</a></p>"
+    },
+    {
+      "name": "sabros_us Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for sabros_us",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t<p class=\"powered\">powered by: <a title=\"sabros.us\" href=\"http://sourceforge.net/projects/sabrosus/\">sabros.us</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t<p\\ class=\"powered\">powered\\ by:\\ <a\\ title=\"sabros\\.us\"\\ href=\"http://sourceforge\\.net/projects/sabrosus/\">sabros\\.us</a></p>"
+    }
+  ]
+}

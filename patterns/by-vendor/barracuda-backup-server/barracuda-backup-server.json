@@ -1,0 +1,48 @@
+{
+  "vendor": "Barracuda-Backup-Server",
+  "vendor_id": "barracuda-backup-server",
+  "product": "Barracuda-Backup-Server",
+  "product_id": "barracuda-backup-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Barracuda-Backup-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Barracuda-Backup-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"logo-wrapper\"><a id=\"logo\" href=\"http://www.barracudanetworks.com/ns/?a=backup_localui\">Barracuda Networks</a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"logo\\-wrapper\"><a\\ id=\"logo\"\\ href=\"http://www\\.barracudanetworks\\.com/ns/\\?a=backup_localui\">Barracuda\\ Networks</a></div>"
+    },
+    {
+      "name": "Barracuda-Backup-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Barracuda-Backup-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "BACKUP_LOCAL_LOCALE="
+    }
+  ]
+}

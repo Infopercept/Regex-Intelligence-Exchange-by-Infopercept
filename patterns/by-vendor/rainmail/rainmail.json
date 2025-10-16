@@ -1,0 +1,120 @@
+{
+  "vendor": "Rainmail",
+  "vendor_id": "rainmail",
+  "product": "Rainmail",
+  "product_id": "rainmail",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Rainmail Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Rainmail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form action='/cgi-bin/openwebmail/openwebmail.pl'",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ action='/cgi\\-bin/openwebmail/openwebmail\\.pl'"
+    },
+    {
+      "name": "Rainmail Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Rainmail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--  SCRIPT CONFIGURATION SECTION -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ \\ SCRIPT\\ CONFIGURATION\\ SECTION\\ \\-\\->"
+    },
+    {
+      "name": "Rainmail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Rainmail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TD width=50%><font color=\"ffffff\" size=\"1\"face=\"Verdana, Helvetica\">Rainmail is a product of :</font>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TD\\ width=50%><font\\ color=\"ffffff\"\\ size=\"1\"face=\"Verdana,\\ Helvetica\">Rainmail\\ is\\ a\\ product\\ of\\ :</font>"
+    },
+    {
+      "name": "Rainmail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Rainmail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div align=\"center\">.: <b>Rainmail Intranet Login </b> :.</div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ align=\"center\">\\.:\\ <b>Rainmail\\ Intranet\\ Login\\ </b>\\ :\\.</div>"
+    },
+    {
+      "name": "Rainmail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Rainmail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TD><font color=\"ffffff\" size=\"1\"face=\"Verdana, Arial, Helvetica, sans-serif\">Rainmail is a product of :</font></TD>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TD><font\\ color=\"ffffff\"\\ size=\"1\"face=\"Verdana,\\ Arial,\\ Helvetica,\\ sans\\-serif\">Rainmail\\ is\\ a\\ product\\ of\\ :</font></TD>"
+    }
+  ]
+}

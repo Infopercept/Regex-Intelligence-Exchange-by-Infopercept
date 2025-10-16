@@ -1,0 +1,32 @@
+{
+  "vendor": "GoAhead-Webs",
+  "vendor_id": "goahead-webs",
+  "product": "GoAhead-Webs",
+  "product_id": "goahead-webs",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "GoAhead-Webs Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for GoAhead-Webs",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "response_code_begin ERIC_RESPONSE_OK response_code_end response_msg_begin  response_msg_end",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "response_code_begin\\ ERIC_RESPONSE_OK\\ response_code_end\\ response_msg_begin\\ \\ response_msg_end"
+    }
+  ]
+}

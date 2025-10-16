@@ -1,0 +1,76 @@
+{
+  "vendor": "Novell-Open-Enterprise-Server",
+  "vendor_id": "novell-open-enterprise-server",
+  "product": "Novell-Open-Enterprise-Server",
+  "product_id": "novell-open-enterprise-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Novell-Open-Enterprise-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Novell-Open-Enterprise-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- This is all just a super-duper redirect to the Welcome page",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ This\\ is\\ all\\ just\\ a\\ super\\-duper\\ redirect\\ to\\ the\\ Welcome\\ page"
+    },
+    {
+      "name": "Novell-Open-Enterprise-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Novell-Open-Enterprise-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Home - Novell Open Enterprise Server 2</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Home\\ \\-\\ Novell\\ Open\\ Enterprise\\ Server\\ 2</title>"
+    },
+    {
+      "name": "Novell-Open-Enterprise-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Novell-Open-Enterprise-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"text/javascript\" src=\"/welcome/inc/flashobj.js\"></script> <!-- required for javascript banners from Novell.com -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ type=\"text/javascript\"\\ src=\"/welcome/inc/flashobj\\.js\"></script>\\ <!\\-\\-\\ required\\ for\\ javascript\\ banners\\ from\\ Novell\\.com\\ \\-\\->"
+    }
+  ]
+}

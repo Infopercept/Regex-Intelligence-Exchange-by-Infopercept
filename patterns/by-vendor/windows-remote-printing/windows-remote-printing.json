@@ -1,0 +1,26 @@
+{
+  "vendor": "Windows-Remote-Printing",
+  "vendor_id": "windows-remote-printing",
+  "product": "Windows-Remote-Printing",
+  "product_id": "windows-remote-printing",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Windows-Remote-Printing Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Windows-Remote-Printing",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<frame src=\"ipp_000[\\d]\\.asp\\?eprinter="
+    }
+  ]
+}

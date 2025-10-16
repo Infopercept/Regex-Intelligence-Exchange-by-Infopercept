@@ -1,0 +1,180 @@
+{
+  "vendor": "ClipBucket",
+  "vendor_id": "clipbucket",
+  "product": "ClipBucket",
+  "product_id": "clipbucket",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ClipBucket Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ClipBucket",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"Arslan Hassan - http://clip-bucket.com/arslan-hassan\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Arslan\\ Hassan\\ \\-\\ http://clip\\-bucket\\.com/arslan\\-hassan\"\\ />"
+    },
+    {
+      "name": "ClipBucket Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ClipBucket",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- ClipBucket v2 -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ ClipBucket\\ v2\\ \\-\\->"
+    },
+    {
+      "name": "ClipBucket Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ClipBucket",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Setting Template Variables -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Setting\\ Template\\ Variables\\ \\-\\->"
+    },
+    {
+      "name": "ClipBucket Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ClipBucket",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Forged by ClipBucket -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Forged\\ by\\ ClipBucket\\ \\-\\->"
+    },
+    {
+      "name": "ClipBucket Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ClipBucket",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Forged by ClipBucket ends -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Forged\\ by\\ ClipBucket\\ ends\\ \\-\\->"
+    },
+    {
+      "name": "ClipBucket Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ClipBucket",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Please do not remove this unless you have license -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Please\\ do\\ not\\ remove\\ this\\ unless\\ you\\ have\\ license\\ \\-\\->"
+    },
+    {
+      "name": "ClipBucket Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ClipBucket",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Forged by <a href=\"http://clip-bucket.com/\">ClipBucket</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Forged\\ by\\ <a\\ href=\"http://clip\\-bucket\\.com/\">ClipBucket</a>"
+    },
+    {
+      "name": "ClipBucket Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ClipBucket",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "pageredir=https?%3A%2F%2F"
+    }
+  ]
+}

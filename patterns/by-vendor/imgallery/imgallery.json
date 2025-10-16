@@ -1,0 +1,32 @@
+{
+  "vendor": "IMGallery",
+  "vendor_id": "imgallery",
+  "product": "IMGallery",
+  "product_id": "imgallery",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "powered by text",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for IMGallery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a class = \"a07\" href=\"http://www.imgallery.zor.pl\"><b>IMGallery</b></a> &copy; Dariusz Niemiec",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ class\\ =\\ \"a07\"\\ href=\"http://www\\.imgallery\\.zor\\.pl\"><b>IMGallery</b></a>\\ \\&copy;\\ Dariusz\\ Niemiec"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "vendor": "phpwcms",
+  "vendor_id": "phpwcms",
+  "product": "phpwcms",
+  "product_id": "phpwcms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "phpwcms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpwcms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\tphpwcms is copyright 2003-2010 of Oliver Georgi. Extensions are copyright of",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\tphpwcms\\ is\\ copyright\\ 2003\\-2010\\ of\\ Oliver\\ Georgi\\.\\ Extensions\\ are\\ copyright\\ of"
+    },
+    {
+      "name": "phpwcms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpwcms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\tcreated by Oliver Georgi (oliver at phpwcms dot de) and licensed under GNU/GPL.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\tcreated\\ by\\ Oliver\\ Georgi\\ \\(oliver\\ at\\ phpwcms\\ dot\\ de\\)\\ and\\ licensed\\ under\\ GNU/GPL\\."
+    }
+  ]
+}

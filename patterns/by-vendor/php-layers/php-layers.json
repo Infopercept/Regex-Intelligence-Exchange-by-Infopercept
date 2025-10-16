@@ -1,0 +1,54 @@
+{
+  "vendor": "PHP-Layers",
+  "vendor_id": "php-layers",
+  "product": "PHP-Layers",
+  "product_id": "php-layers",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PHP-Layers Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Layers",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "// because Konqueror 3 sets IE = 1 ... AAAAAAAAAARGHHH!!!",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "//\\ because\\ Konqueror\\ 3\\ sets\\ IE\\ =\\ 1\\ \\.\\.\\.\\ AAAAAAAAAARGHHH!!!"
+    },
+    {
+      "name": "PHP-Layers Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Layers",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": ".png\" alt=\"Powered by PHP Layers Menu\" height=\"31\" width=\"88\" /></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\.png\"\\ alt=\"Powered\\ by\\ PHP\\ Layers\\ Menu\"\\ height=\"31\"\\ width=\"88\"\\ /></a>"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "vendor": "SocketTimesheet",
+  "vendor_id": "sockettimesheet",
+  "product": "SocketTimesheet",
+  "product_id": "sockettimesheet",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SocketTimesheet Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SocketTimesheet",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "alert('You Are Using '+browser+' Version '+version+', a Non-Tested Browser For This Application. Currently Supported Browsers Are:\\\\n\\\\n1. Internet Explorer 6 and Above\\\\n2. Firefox 2 and Above\\\\n3. Netscape 8 and Above\\\\n\\\\nIf You Experience Any Problem, Please Change To The Supported Browser As Listed Above. Thank You.');",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "alert\\('You\\ Are\\ Using\\ '\\+browser\\+'\\ Version\\ '\\+version\\+',\\ a\\ Non\\-Tested\\ Browser\\ For\\ This\\ Application\\.\\ Currently\\ Supported\\ Browsers\\ Are:\\\\\\\\n\\\\\\\\n1\\.\\ Internet\\ Explorer\\ 6\\ and\\ Above\\\\\\\\n2\\.\\ Firefox\\ 2\\ and\\ Above\\\\\\\\n3\\.\\ Netscape\\ 8\\ and\\ Above\\\\\\\\n\\\\\\\\nIf\\ You\\ Experience\\ Any\\ Problem,\\ Please\\ Change\\ To\\ The\\ Supported\\ Browser\\ As\\ Listed\\ Above\\.\\ Thank\\ You\\.'\\);"
+    },
+    {
+      "name": "SocketTimesheet Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SocketTimesheet",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "alert('You Are Using '+browser+', a Non-Supported Browser For This Application\\\\nCurrently Supported Browsers Are:\\\\n1. Internet Explorer\\\\n2. Firefox (with IETab Enabled)\\\\n\\\\nSome Critical Functionalities May Not Work With '+browser);",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "alert\\('You\\ Are\\ Using\\ '\\+browser\\+',\\ a\\ Non\\-Supported\\ Browser\\ For\\ This\\ Application\\\\\\\\nCurrently\\ Supported\\ Browsers\\ Are:\\\\\\\\n1\\.\\ Internet\\ Explorer\\\\\\\\n2\\.\\ Firefox\\ \\(with\\ IETab\\ Enabled\\)\\\\\\\\n\\\\\\\\nSome\\ Critical\\ Functionalities\\ May\\ Not\\ Work\\ With\\ '\\+browser\\);"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "vendor": "Canon-Printer",
+  "vendor_id": "canon-printer",
+  "product": "Canon-Printer",
+  "product_id": "canon-printer",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Canon-Printer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Canon-Printer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"top_canon.gif\" width=\"123\" height=\"33\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"top_canon\\.gif\"\\ width=\"123\"\\ height=\"33\""
+    },
+    {
+      "name": "Canon-Printer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Canon-Printer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Canon Http Server"
+    },
+    {
+      "name": "Canon-Printer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Canon-Printer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Canon Http Server (Ver)?(.*)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Canon Http Server (Ver)?(.*)",
+      "version_group": 1
+    },
+    {
+      "name": "Canon-Printer Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Canon-Printer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^KS_HTTP/([^\\s]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^KS_HTTP/([^\\s]+)",
+      "version_group": 1
+    },
+    {
+      "name": "Canon-Printer Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Canon-Printer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^LPC Http Server/V([^\\s]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^LPC Http Server/V([^\\s]+)",
+      "version_group": 1
+    }
+  ]
+}

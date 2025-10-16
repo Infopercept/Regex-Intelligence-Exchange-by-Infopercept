@@ -1,0 +1,54 @@
+{
+  "vendor": "Taurus-Server-Appliance",
+  "vendor_id": "taurus-server-appliance",
+  "product": "Taurus-Server-Appliance",
+  "product_id": "taurus-server-appliance",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Taurus-Server-Appliance Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Taurus-Server-Appliance",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>The Taurus Server Appliance</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>The\\ Taurus\\ Server\\ Appliance</title>"
+    },
+    {
+      "name": "Taurus-Server-Appliance Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Taurus-Server-Appliance",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<b><font color=#FFFFFF>Welcome to Taurus </font></b>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<b><font\\ color=\\#FFFFFF>Welcome\\ to\\ Taurus\\ </font></b>"
+    }
+  ]
+}

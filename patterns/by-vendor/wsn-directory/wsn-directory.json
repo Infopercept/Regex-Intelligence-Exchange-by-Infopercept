@@ -1,0 +1,114 @@
+{
+  "vendor": "WSN-Directory",
+  "vendor_id": "wsn-directory",
+  "product": "WSN-Directory",
+  "product_id": "wsn-directory",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WSN-Directory Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WSN-Directory",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>WSN Directory Admin Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>WSN\\ Directory\\ Admin\\ Login</title>"
+    },
+    {
+      "name": "WSN-Directory Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WSN-Directory",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>WSN Directory Administration Panel</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>WSN\\ Directory\\ Administration\\ Panel</title>"
+    },
+    {
+      "name": "WSN-Directory Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WSN-Directory",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- place any jquery-dependent script tags that need to be before the /head tag in here -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ place\\ any\\ jquery\\-dependent\\ script\\ tags\\ that\\ need\\ to\\ be\\ before\\ the\\ /head\\ tag\\ in\\ here\\ \\-\\->"
+    },
+    {
+      "name": "WSN-Directory Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WSN-Directory",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<div class=\"boxtitle\" on[c|C]lick=\"minmax\\('[a-z]+box'\\)\"><img src="
+    },
+    {
+      "name": "WSN-Directory Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WSN-Directory",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<textarea readonly rows=\"20\" cols=\"75\">WSN Directory License Agreement",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<textarea\\ readonly\\ rows=\"20\"\\ cols=\"75\">WSN\\ Directory\\ License\\ Agreement"
+    }
+  ]
+}

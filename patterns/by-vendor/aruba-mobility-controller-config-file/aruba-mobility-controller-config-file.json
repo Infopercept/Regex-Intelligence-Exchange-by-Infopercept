@@ -1,0 +1,76 @@
+{
+  "vendor": "Aruba-Mobility-Controller-Config-File",
+  "vendor_id": "aruba-mobility-controller-config-file",
+  "product": "Aruba-Mobility-Controller-Config-File",
+  "product_id": "aruba-mobility-controller-config-file",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Aruba-Mobility-Controller-Config-File Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Aruba-Mobility-Controller-Config-File",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "logging level warnings stm",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "logging\\ level\\ warnings\\ stm"
+    },
+    {
+      "name": "Aruba-Mobility-Controller-Config-File Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Aruba-Mobility-Controller-Config-File",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "packet-capture-defaults tcp disable udp disable sysmsg disable other disable",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "packet\\-capture\\-defaults\\ tcp\\ disable\\ udp\\ disable\\ sysmsg\\ disable\\ other\\ disable"
+    },
+    {
+      "name": "Aruba-Mobility-Controller-Config-File Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Aruba-Mobility-Controller-Config-File",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "ids-policy rate-frame-type-param disassoc node-time-interval",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "ids\\-policy\\ rate\\-frame\\-type\\-param\\ disassoc\\ node\\-time\\-interval"
+    }
+  ]
+}

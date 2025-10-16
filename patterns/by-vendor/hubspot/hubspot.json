@@ -1,0 +1,26 @@
+{
+  "vendor": "HubSpot",
+  "vendor_id": "hubspot",
+  "product": "HubSpot",
+  "product_id": "hubspot",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "hsPagesViewedThisSession cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HubSpot",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "hsPagesViewedThisSession"
+    }
+  ]
+}

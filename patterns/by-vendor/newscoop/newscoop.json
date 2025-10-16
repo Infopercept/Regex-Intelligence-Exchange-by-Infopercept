@@ -1,0 +1,76 @@
+{
+  "vendor": "Newscoop",
+  "vendor_id": "newscoop",
+  "product": "Newscoop",
+  "product_id": "newscoop",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Newscoop Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Newscoop",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by Newscoop, the open content management system for professional journalists.<br />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ Newscoop,\\ the\\ open\\ content\\ management\\ system\\ for\\ professional\\ journalists\\.<br\\ />"
+    },
+    {
+      "name": "Newscoop Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Newscoop",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://newscoop.sourcefabric.org/\" target=\"_blank\">Newscoop</a>, the open content management system for professional journalists.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://newscoop\\.sourcefabric\\.org/\"\\ target=\"_blank\">Newscoop</a>,\\ the\\ open\\ content\\ management\\ system\\ for\\ professional\\ journalists\\."
+    },
+    {
+      "name": "Newscoop Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Newscoop",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"Newscoop\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"Newscoop\"\\ />"
+    }
+  ]
+}

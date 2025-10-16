@@ -1,0 +1,70 @@
+{
+  "vendor": "LandShop",
+  "vendor_id": "landshop",
+  "product": "LandShop",
+  "product_id": "landshop",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "LandShop Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LandShop",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a class=\"white\" href=\"http://www\\.landshop\\.gr\" target=\"_blank\" (alte=\"Samedia LandShop\")? title=\"Samedia Landshop\">Land[Ss]hop<sup>&reg;</sup></a><br>"
+    },
+    {
+      "name": "LandShop Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LandShop",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"more CAT\" style=\"height:20px;margin:5px 0px 10px 0px;text-align:right\"><a class=\"item fat\"  href=\"ls.php?",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"more\\ CAT\"\\ style=\"height:20px;margin:5px\\ 0px\\ 10px\\ 0px;text\\-align:right\"><a\\ class=\"item\\ fat\"\\ \\ href=\"ls\\.php\\?"
+    },
+    {
+      "name": "LandShop Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LandShop",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--<A href=\"<#G_ADMIN_URL#>/action/contacts.php?action=list\"><#list_contacts#></a>-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-<A\\ href=\"<\\#G_ADMIN_URL\\#>/action/contacts\\.php\\?action=list\"><\\#list_contacts\\#></a>\\-\\->"
+    }
+  ]
+}

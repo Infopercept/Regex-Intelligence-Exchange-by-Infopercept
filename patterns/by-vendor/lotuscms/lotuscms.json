@@ -1,0 +1,186 @@
+{
+  "vendor": "LotusCMS",
+  "vendor_id": "lotuscms",
+  "product": "LotusCMS",
+  "product_id": "lotuscms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "LotusCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LotusCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by: <a href=\"http://www.lotuscms.org\">LotusCMS</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by:\\ <a\\ href=\"http://www\\.lotuscms\\.org\">LotusCMS</a>"
+    },
+    {
+      "name": "LotusCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LotusCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.arboroia.com/cmsproject/\">ArboroianCMS</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.arboroia\\.com/cmsproject/\">ArboroianCMS</a>"
+    },
+    {
+      "name": "LotusCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LotusCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<ul><li><a class='firstM' href='index.php?page=index'>Home</a></li><li><a class='normalM' href='index.php?system=",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<ul><li><a\\ class='firstM'\\ href='index\\.php\\?page=index'>Home</a></li><li><a\\ class='normalM'\\ href='index\\.php\\?system="
+    },
+    {
+      "name": "LotusCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LotusCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>LotusCMS Administration</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>LotusCMS\\ Administration</title>"
+    },
+    {
+      "name": "LotusCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LotusCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>.:Lotus Administration:.</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>\\.:Lotus\\ Administration:\\.</title>"
+    },
+    {
+      "name": "LotusCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LotusCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form method=\"POST\" action=\"index.php?system=Admin&page=loginSubmit\" id=\"contactform\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ method=\"POST\"\\ action=\"index\\.php\\?system=Admin\\&page=loginSubmit\"\\ id=\"contactform\">"
+    },
+    {
+      "name": "LotusCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LotusCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Please don't delete this. You can use this template for free and this is the only way that you can say thanks to me -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Please\\ don't\\ delete\\ this\\.\\ You\\ can\\ use\\ this\\ template\\ for\\ free\\ and\\ this\\ is\\ the\\ only\\ way\\ that\\ you\\ can\\ say\\ thanks\\ to\\ me\\ \\-\\->"
+    },
+    {
+      "name": "LotusCMS Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LotusCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"keywords\" content=\"LotusCMS\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"keywords\"\\ content=\"LotusCMS\"\\ />"
+    }
+  ]
+}

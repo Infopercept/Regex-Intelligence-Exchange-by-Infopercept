@@ -1,0 +1,48 @@
+{
+  "vendor": "OpenConf",
+  "vendor_id": "openconf",
+  "product": "OpenConf",
+  "product_id": "openconf",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OpenConf Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenConf",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.OpenConf.org\" target=\"_blank\">OpenConf</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.OpenConf\\.org\"\\ target=\"_blank\">OpenConf</a>"
+    },
+    {
+      "name": "OpenConf Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenConf",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "OPENCONF=[^;]+;"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "vendor": "Mihalism-Multi-Host",
+  "vendor_id": "mihalism-multi-host",
+  "product": "Mihalism-Multi-Host",
+  "product_id": "mihalism-multi-host",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mihalism-Multi-Host Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mihalism-Multi-Host",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.mihalism.com/product/mmh/\">Mihalism Multi Host</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.mihalism\\.com/product/mmh/\">Mihalism\\ Multi\\ Host</a>"
+    },
+    {
+      "name": "Mihalism-Multi-Host Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mihalism-Multi-Host",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!-- Powered by Mihalism Multi Host - Copyright \\(c\\) [\\d\\,\\ ]+ Mihalism Technologies \\(www.mihalism.net\\) -->"
+    },
+    {
+      "name": "Mihalism-Multi-Host Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mihalism-Multi-Host",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!-- Powered by Mihalism Multi Host - Copyright \\(c\\) [\\d\\,\\ ]+ Mihalism, Inc. \\(www.mihalism.com\\) -->"
+    },
+    {
+      "name": "Mihalism-Multi-Host Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mihalism-Multi-Host",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t\t\t<title>Fatal Error (Powered by Mihalism Multi Host)</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\t\\\t\\\t<title>Fatal\\ Error\\ \\(Powered\\ by\\ Mihalism\\ Multi\\ Host\\)</title>"
+    },
+    {
+      "name": "Mihalism-Multi-Host Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mihalism-Multi-Host",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t\t\t<title>MySQL Error (Powered by Mihalism Multi Host)</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\t\\\t\\\t<title>MySQL\\ Error\\ \\(Powered\\ by\\ Mihalism\\ Multi\\ Host\\)</title>"
+    },
+    {
+      "name": "Mihalism-Multi-Host Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mihalism-Multi-Host",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "    <title>Mihalism Multi Host \u00bb Installation</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ <title>Mihalism\\ Multi\\ Host\\ \u00bb\\ Installation</title>"
+    },
+    {
+      "name": "Mihalism-Multi-Host Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mihalism-Multi-Host",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<b style=\"color: #F00;\">Warning:</b> Using this installer will erase any already existing Mihalism Multi Host installation.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<b\\ style=\"color:\\ \\#F00;\">Warning:</b>\\ Using\\ this\\ installer\\ will\\ erase\\ any\\ already\\ existing\\ Mihalism\\ Multi\\ Host\\ installation\\."
+    }
+  ]
+}

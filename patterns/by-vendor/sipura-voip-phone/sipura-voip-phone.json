@@ -1,0 +1,54 @@
+{
+  "vendor": "Sipura-VoIP-Phone",
+  "vendor_id": "sipura-voip-phone",
+  "product": "Sipura-VoIP-Phone",
+  "product_id": "sipura-voip-phone",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Sipura-VoIP-Phone Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sipura-VoIP-Phone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form action=\"bsipura.spa\" method=\"POST\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ action=\"bsipura\\.spa\"\\ method=\"POST\">"
+    },
+    {
+      "name": "Sipura-VoIP-Phone Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sipura-VoIP-Phone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img width=\"100%\" src=\"/spabanner.jpg\" border=\"0\" alt=\"Sipura Technology Inc\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ width=\"100%\"\\ src=\"/spabanner\\.jpg\"\\ border=\"0\"\\ alt=\"Sipura\\ Technology\\ Inc\">"
+    }
+  ]
+}

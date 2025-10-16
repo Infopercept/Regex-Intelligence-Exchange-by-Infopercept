@@ -1,0 +1,26 @@
+{
+  "vendor": "Dell-Remote-Access-Controller",
+  "vendor_id": "dell-remote-access-controller",
+  "product": "Dell-Remote-Access-Controller",
+  "product_id": "dell-remote-access-controller",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Dell-Remote-Access-Controller Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Dell-Remote-Access-Controller",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^RAC_ONE_HTTP ([\\d\\.]+)$"
+    }
+  ]
+}

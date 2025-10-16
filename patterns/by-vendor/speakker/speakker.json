@@ -1,0 +1,70 @@
+{
+  "vendor": "Speakker",
+  "vendor_id": "speakker",
+  "product": "Speakker",
+  "product_id": "speakker",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Speakker Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Speakker",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- INSTANTIATE SPEAKKER -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ INSTANTIATE\\ SPEAKKER\\ \\-\\->"
+    },
+    {
+      "name": "Speakker Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Speakker",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- INCLUDE SPEAKKER -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ INCLUDE\\ SPEAKKER\\ \\-\\->"
+    },
+    {
+      "name": "Speakker Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Speakker",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script type=\"text/javascript\" src=\"[^\"]+/(projekktor|speakker)\\.min\\.js\"></script>"
+    }
+  ]
+}

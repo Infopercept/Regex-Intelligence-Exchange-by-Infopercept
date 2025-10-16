@@ -1,0 +1,54 @@
+{
+  "vendor": "VCalendar",
+  "vendor_id": "vcalendar",
+  "product": "VCalendar",
+  "product_id": "vcalendar",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VCalendar Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VCalendar",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.vcalendar.org\">VCalendar</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.vcalendar\\.org\">VCalendar</a>"
+    },
+    {
+      "name": "VCalendar Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VCalendar",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"Styles/Basic/Style.css\" type=\"text/css\" rel=\"stylesheet\"></head>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"Styles/Basic/Style\\.css\"\\ type=\"text/css\"\\ rel=\"stylesheet\"></head>"
+    }
+  ]
+}

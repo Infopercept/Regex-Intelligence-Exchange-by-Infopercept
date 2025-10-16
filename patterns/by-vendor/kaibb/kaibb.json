@@ -1,0 +1,54 @@
+{
+  "vendor": "KaiBB",
+  "vendor_id": "kaibb",
+  "product": "KaiBB",
+  "product_id": "kaibb",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "KaiBB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for KaiBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- THIS MUST REMAIN INTACT AND SHOWN ON ALL PAGES -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ THIS\\ MUST\\ REMAIN\\ INTACT\\ AND\\ SHOWN\\ ON\\ ALL\\ PAGES\\ \\-\\->"
+    },
+    {
+      "name": "KaiBB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for KaiBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Description\" http-equiv=\"Description\" content=\"Forum powered by KaiBB - Powered by KaiBB\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Description\"\\ http\\-equiv=\"Description\"\\ content=\"Forum\\ powered\\ by\\ KaiBB\\ \\-\\ Powered\\ by\\ KaiBB\"\\ />"
+    }
+  ]
+}

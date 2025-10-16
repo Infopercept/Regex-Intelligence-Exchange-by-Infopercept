@@ -1,0 +1,26 @@
+{
+  "vendor": "Electro-Industries-GaugeTech",
+  "vendor_id": "electro-industries-gaugetech",
+  "product": "Electro-Industries-GaugeTech",
+  "product_id": "electro-industries-gaugetech",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Electro-Industries-GaugeTech Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Electro-Industries-GaugeTech",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^EIG Embedded Web Server$"
+    }
+  ]
+}

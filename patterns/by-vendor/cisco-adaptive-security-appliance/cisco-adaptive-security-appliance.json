@@ -1,0 +1,80 @@
+{
+  "vendor": "Cisco-Adaptive-Security-Appliance",
+  "vendor_id": "cisco-adaptive-security-appliance",
+  "product": "Cisco-Adaptive-Security-Appliance",
+  "product_id": "cisco-adaptive-security-appliance",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Cisco-Adaptive-Security-Appliance Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cisco-Adaptive-Security-Appliance",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Cisco Systems, Inc. Network Access</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Cisco\\ Systems,\\ Inc\\.\\ Network\\ Access</title>"
+    },
+    {
+      "name": "Cisco-Adaptive-Security-Appliance Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cisco-Adaptive-Security-Appliance",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Adaptive Security Appliance HTTP/1\\.1$"
+    },
+    {
+      "name": "Cisco-Adaptive-Security-Appliance Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cisco-Adaptive-Security-Appliance",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<FORM ACTION=\"/netaccess/redirect\\.html\">\\s+<INPUT type=hidden name=sid VALUE="
+    },
+    {
+      "name": "Cisco-Adaptive-Security-Appliance Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cisco-Adaptive-Security-Appliance",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "document\\.location\\.replace\\(['\"]/\\+CSCOE\\+/logon\\.html(?:\\?[^'\"]*)?['\"]\\)"
+    }
+  ]
+}

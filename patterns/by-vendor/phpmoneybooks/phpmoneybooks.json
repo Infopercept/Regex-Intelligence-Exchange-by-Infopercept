@@ -1,0 +1,32 @@
+{
+  "vendor": "phpMoneyBooks",
+  "vendor_id": "phpmoneybooks",
+  "product": "phpMoneyBooks",
+  "product_id": "phpmoneybooks",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "phpMoneyBooks Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpMoneyBooks",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr><td><center><input type=\"submit\" name=\"B1\" value=\"  Login  \" class=\"button\"></center></td><td><input type=\"checkbox\" name=\"remember\" value=\"1\"> Remember Me</td></tr>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr><td><center><input\\ type=\"submit\"\\ name=\"B1\"\\ value=\"\\ \\ Login\\ \\ \"\\ class=\"button\"></center></td><td><input\\ type=\"checkbox\"\\ name=\"remember\"\\ value=\"1\">\\ Remember\\ Me</td></tr>"
+    }
+  ]
+}

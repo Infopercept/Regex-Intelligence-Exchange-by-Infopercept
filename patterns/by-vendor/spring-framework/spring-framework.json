@@ -1,0 +1,32 @@
+{
+  "vendor": "Spring-Framework",
+  "vendor_id": "spring-framework",
+  "product": "Spring-Framework",
+  "product_id": "spring-framework",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Spring-Framework Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Spring-Framework",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE=",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "org\\.springframework\\.web\\.servlet\\.i18n\\.CookieLocaleResolver\\.LOCALE="
+    }
+  ]
+}

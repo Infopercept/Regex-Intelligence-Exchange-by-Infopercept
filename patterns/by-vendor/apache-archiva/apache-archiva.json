@@ -1,0 +1,98 @@
+{
+  "vendor": "Apache-Archiva",
+  "vendor_id": "apache-archiva",
+  "product": "Apache-Archiva",
+  "product_id": "apache-archiva",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Apache-Archiva Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache-Archiva",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Apache Archiva \\\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Apache\\ Archiva\\ \\\\\\\\"
+    },
+    {
+      "name": "Apache-Archiva Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache-Archiva",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "No context on this server matched or handled this request.<BR>Contexts known to this server are: <ul><li><a href=\"/archiva\">/archiva&nbsp;--->&nbsp;org.mortbay.jetty.webapp.WebAppContext",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "No\\ context\\ on\\ this\\ server\\ matched\\ or\\ handled\\ this\\ request\\.<BR>Contexts\\ known\\ to\\ this\\ server\\ are:\\ <ul><li><a\\ href=\"/archiva\">/archiva\\&nbsp;\\-\\-\\->\\&nbsp;org\\.mortbay\\.jetty\\.webapp\\.WebAppContext"
+    },
+    {
+      "name": "Apache-Archiva Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache-Archiva",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form namespace=\"/\" id=\"quickSearch\" name=\"quickSearch\" onsubmit=\"customOnsubmit_quickSearch(); return validateForm_quickSearch();\" action=\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ namespace=\"/\"\\ id=\"quickSearch\"\\ name=\"quickSearch\"\\ onsubmit=\"customOnsubmit_quickSearch\\(\\);\\ return\\ validateForm_quickSearch\\(\\);\"\\ action=\""
+    },
+    {
+      "name": "Apache-Archiva Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache-Archiva",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form namespace=\"/\" id=\"quickSearch\" name=\"quickSearch\" onsubmit=\"return validateForm_quickSearch();\" action=\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ namespace=\"/\"\\ id=\"quickSearch\"\\ name=\"quickSearch\"\\ onsubmit=\"return\\ validateForm_quickSearch\\(\\);\"\\ action=\""
+    }
+  ]
+}

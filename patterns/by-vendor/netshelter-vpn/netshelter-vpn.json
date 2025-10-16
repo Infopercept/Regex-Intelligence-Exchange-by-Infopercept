@@ -1,0 +1,48 @@
+{
+  "vendor": "NetShelter-VPN",
+  "vendor_id": "netshelter-vpn",
+  "product": "NetShelter-VPN",
+  "product_id": "netshelter-vpn",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "NetShelter-VPN Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetShelter-VPN",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HEAD><TITLE>Welcome to NetShelter</TITLE></HEAD>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<HEAD><TITLE>Welcome\\ to\\ NetShelter</TITLE></HEAD>"
+    },
+    {
+      "name": "NetShelter-VPN Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetShelter-VPN",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^NetShelter/VPN$"
+    }
+  ]
+}

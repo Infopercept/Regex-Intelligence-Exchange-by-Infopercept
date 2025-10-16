@@ -1,0 +1,54 @@
+{
+  "vendor": "TutorTrac",
+  "vendor_id": "tutortrac",
+  "product": "TutorTrac",
+  "product_id": "tutortrac",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TutorTrac Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TutorTrac",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>TutorTrac Learning Center Tracking Software</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>TutorTrac\\ Learning\\ Center\\ Tracking\\ Software</TITLE>"
+    },
+    {
+      "name": "TutorTrac Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TutorTrac",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"keywords\" content=\"tutor,software,scheduling,learning,center,tutoring,assistant,assistance,education,accutrack,tutorial,community,college,university\"><meta name=\"description\" content=\"Web Based Tutor/Learning Center Management/Scheduling Software\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"keywords\"\\ content=\"tutor,software,scheduling,learning,center,tutoring,assistant,assistance,education,accutrack,tutorial,community,college,university\"><meta\\ name=\"description\"\\ content=\"Web\\ Based\\ Tutor/Learning\\ Center\\ Management/Scheduling\\ Software\">"
+    }
+  ]
+}

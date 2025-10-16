@@ -1,0 +1,86 @@
+{
+  "vendor": "iDVR",
+  "vendor_id": "idvr",
+  "product": "iDVR",
+  "product_id": "idvr",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "iDVR Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iDVR",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>iDVR</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>iDVR</title>"
+    },
+    {
+      "name": "iDVR Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iDVR",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "\t  \t'\t  codebase=\"http://' + szDomainFull + '\\"
+    },
+    {
+      "name": "iDVR Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iDVR",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\\"
+    },
+    {
+      "name": "iDVR Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iDVR",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "\t\tmonitorDiv.innerHTML = \"<object id='monitorObject' style='display:none' classid='clsid:574B47E8-A366-4AB9-B2EA-57F145CA3780' codebase='lib\\"
+    }
+  ]
+}

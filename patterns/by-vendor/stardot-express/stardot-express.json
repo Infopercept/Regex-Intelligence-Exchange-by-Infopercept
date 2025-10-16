@@ -1,0 +1,26 @@
+{
+  "vendor": "Stardot-Express",
+  "vendor_id": "stardot-express",
+  "product": "Stardot-Express",
+  "product_id": "stardot-express",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WWW-Authenticate realm",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Stardot-Express",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Basic realm=\"Express6\""
+    }
+  ]
+}

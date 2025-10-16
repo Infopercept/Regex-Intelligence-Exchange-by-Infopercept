@@ -1,0 +1,70 @@
+{
+  "vendor": "AM4SS",
+  "vendor_id": "am4ss",
+  "product": "AM4SS",
+  "product_id": "am4ss",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AM4SS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AM4SS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Header end and right block start -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Header\\ end\\ and\\ right\\ block\\ start\\ \\-\\->"
+    },
+    {
+      "name": "AM4SS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AM4SS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered By <a href=\"http://am4ss.com\"><font color=\"#FF000\">AM4SS</font></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ By\\ <a\\ href=\"http://am4ss\\.com\"><font\\ color=\"\\#FF000\">AM4SS</font></a>"
+    },
+    {
+      "name": "AM4SS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AM4SS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link rel=\"stylesheet\" type=\"text/css\" href=\"templates/[^/]+/am4ss\\.css\" />"
+    }
+  ]
+}

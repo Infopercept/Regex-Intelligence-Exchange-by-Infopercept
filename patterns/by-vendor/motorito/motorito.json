@@ -1,0 +1,54 @@
+{
+  "vendor": "Motorito",
+  "vendor_id": "motorito",
+  "product": "Motorito",
+  "product_id": "motorito",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Motorito Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Motorito",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- end META_TAGS subst -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ end\\ META_TAGS\\ subst\\ \\-\\->"
+    },
+    {
+      "name": "Motorito Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Motorito",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- CAL POSAR UN DISCRIMINADOR DE NAVEGADORS PER CARREGAR ELS ESTILS ADEQUATS -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ CAL\\ POSAR\\ UN\\ DISCRIMINADOR\\ DE\\ NAVEGADORS\\ PER\\ CARREGAR\\ ELS\\ ESTILS\\ ADEQUATS\\ \\-\\->"
+    }
+  ]
+}

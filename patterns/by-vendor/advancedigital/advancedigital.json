@@ -1,0 +1,26 @@
+{
+  "vendor": "AdvanceDigital",
+  "vendor_id": "advancedigital",
+  "product": "AdvanceDigital",
+  "product_id": "advancedigital",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "link to user agreement that it's present in the footer",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AdvanceDigital",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "href=\"http://www.advance.net/advancedigitalUserAgreementPP/#opt_out.*Ad Choices"
+    }
+  ]
+}

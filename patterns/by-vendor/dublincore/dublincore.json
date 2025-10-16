@@ -1,0 +1,26 @@
+{
+  "vendor": "DublinCore",
+  "vendor_id": "dublincore",
+  "product": "DublinCore",
+  "product_id": "dublincore",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "dublin core",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DublinCore",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta [^>]*name=\"DC\\.title\"[^>]*>"
+    }
+  ]
+}

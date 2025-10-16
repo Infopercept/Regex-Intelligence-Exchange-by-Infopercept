@@ -1,0 +1,32 @@
+{
+  "vendor": "Net2Phone",
+  "vendor_id": "net2phone",
+  "product": "Net2Phone",
+  "product_id": "net2phone",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Net2Phone Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Net2Phone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HTML><HEAD><TITLE>Net2Phone Init Page</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<HTML><HEAD><TITLE>Net2Phone\\ Init\\ Page</TITLE>"
+    }
+  ]
+}

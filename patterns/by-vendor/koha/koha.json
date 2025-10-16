@@ -1,0 +1,152 @@
+{
+  "vendor": "Koha",
+  "vendor_id": "koha",
+  "product": "Koha",
+  "product_id": "koha",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Koha Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Koha",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link rel=\"shortcut icon\" href=\"/(intranet|opac)-tmpl/[^/]+\\"
+    },
+    {
+      "name": "Koha Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Koha",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<input type=\"hidden\" name=\"koha_login_context\" value=\"(opac|intranet)\" />"
+    },
+    {
+      "name": "Koha Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Koha",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/intranet-tmpl/prog/en/lib/jquery/plugins/ui.tabs.css\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/intranet\\-tmpl/prog/en/lib/jquery/plugins/ui\\.tabs\\.css\"\\ />"
+    },
+    {
+      "name": "Koha Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Koha",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/opac-tmpl/prog/en/lib/jquery/plugins/ui.tabs.css\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/opac\\-tmpl/prog/en/lib/jquery/plugins/ui\\.tabs\\.css\"\\ />"
+    },
+    {
+      "name": "Koha Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Koha",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<li><a href=\"/cgi-bin/koha/lostpassword.pl\" title=\"Password Lost and Found\">Lost your password?</a></li>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<li><a\\ href=\"/cgi\\-bin/koha/lostpassword\\.pl\"\\ title=\"Password\\ Lost\\ and\\ Found\">Lost\\ your\\ password\\?</a></li>"
+    },
+    {
+      "name": "Koha Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Koha",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- login prompt time-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ login\\ prompt\\ time\\-\\->"
+    },
+    {
+      "name": "Koha Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Koha",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"help\"><span class=\"loggedin\">You are not logged in | </span><a href=\"/cgi-bin/koha/help.pl\" onclick=\"Help(); return false;\">[ ? ]</a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"help\"><span\\ class=\"loggedin\">You\\ are\\ not\\ logged\\ in\\ \\|\\ </span><a\\ href=\"/cgi\\-bin/koha/help\\.pl\"\\ onclick=\"Help\\(\\);\\ return\\ false;\">\\[\\ \\?\\ \\]</a></div>"
+    }
+  ]
+}

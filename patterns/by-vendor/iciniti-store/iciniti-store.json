@@ -1,0 +1,32 @@
+{
+  "vendor": "Iciniti-Store",
+  "vendor_id": "iciniti-store",
+  "product": "Iciniti-Store",
+  "product_id": "iciniti-store",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Iciniti-Store Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Iciniti-Store",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- START (content_stylesheet.inc) -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ START\\ \\(content_stylesheet\\.inc\\)\\ \\-\\->"
+    }
+  ]
+}

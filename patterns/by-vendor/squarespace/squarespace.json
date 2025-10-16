@@ -1,0 +1,80 @@
+{
+  "vendor": "SquareSpace",
+  "vendor_id": "squarespace",
+  "product": "SquareSpace",
+  "product_id": "squarespace",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SquareSpace Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SquareSpace",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "This site is completely powered by the Squarespace platform.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "This\\ site\\ is\\ completely\\ powered\\ by\\ the\\ Squarespace\\ platform\\."
+    },
+    {
+      "name": "WebPersCookie cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SquareSpace",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^WebPersCookie"
+    },
+    {
+      "name": "SS_MID cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SquareSpace",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^SS_MID"
+    },
+    {
+      "name": "ss_sd cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SquareSpace",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^ss_sd"
+    }
+  ]
+}

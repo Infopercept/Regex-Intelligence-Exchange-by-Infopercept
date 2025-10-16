@@ -1,0 +1,33 @@
+{
+  "vendor": "Inktomi-Search",
+  "vendor_id": "inktomi-search",
+  "product": "Inktomi-Search",
+  "product_id": "inktomi-search",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Inktomi-Search Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Inktomi-Search",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Inktomi Search ([^\\s]+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Inktomi Search ([^\\s]+)$",
+      "version_group": 1
+    }
+  ]
+}

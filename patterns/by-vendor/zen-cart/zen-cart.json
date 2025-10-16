@@ -1,0 +1,98 @@
+{
+  "vendor": "Zen-Cart",
+  "vendor_id": "zen-cart",
+  "product": "Zen-Cart",
+  "product_id": "zen-cart",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Zen-Cart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Zen-Cart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by Zen Cart!, The Art of E-commerce</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ Zen\\ Cart!,\\ The\\ Art\\ of\\ E\\-commerce</title>"
+    },
+    {
+      "name": "Zen-Cart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Zen-Cart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.zen-cart.com\" target=\"_blank\">Zen Cart</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.zen\\-cart\\.com\"\\ target=\"_blank\">Zen\\ Cart</a>"
+    },
+    {
+      "name": "Zen-Cart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Zen-Cart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"authors\" content=\"The Zen Cart&trade; Team and others",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"authors\"\\ content=\"The\\ Zen\\ Cart\\&trade;\\ Team\\ and\\ others"
+    },
+    {
+      "name": "Zen-Cart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Zen-Cart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"shopping cart program by Zen Cart&trade;, http://www.zen-cart.com",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"shopping\\ cart\\ program\\ by\\ Zen\\ Cart\\&trade;,\\ http://www\\.zen\\-cart\\.com"
+    }
+  ]
+}

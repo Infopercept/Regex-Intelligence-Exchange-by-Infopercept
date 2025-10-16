@@ -1,0 +1,98 @@
+{
+  "vendor": "Octopussy",
+  "vendor_id": "octopussy",
+  "product": "Octopussy",
+  "product_id": "octopussy",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Octopussy Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Octopussy",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"submit\" name=\"submit\" value=\"Connect to Octopussy\"></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ type=\"submit\"\\ name=\"submit\"\\ value=\"Connect\\ to\\ Octopussy\"></td>"
+    },
+    {
+      "name": "Octopussy Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Octopussy",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img border=\"0\" src=\"IMG/octo_login1.png\" alt=\"Octopussy Logo\"></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ border=\"0\"\\ src=\"IMG/octo_login1\\.png\"\\ alt=\"Octopussy\\ Logo\"></td>"
+    },
+    {
+      "name": "Octopussy Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Octopussy",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Octopussy Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Octopussy\\ Login</title>"
+    },
+    {
+      "name": "Octopussy Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Octopussy",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"icon\" type=\"image/gif\" href=\"IMG/octopussy.gif\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"icon\"\\ type=\"image/gif\"\\ href=\"IMG/octopussy\\.gif\">"
+    }
+  ]
+}

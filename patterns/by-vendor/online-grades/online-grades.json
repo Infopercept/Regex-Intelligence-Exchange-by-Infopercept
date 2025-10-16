@@ -1,0 +1,114 @@
+{
+  "vendor": "Online-Grades",
+  "vendor_id": "online-grades",
+  "product": "Online-Grades",
+  "product_id": "online-grades",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Online-Grades Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Online-Grades",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<small><br /><em>Disclaimer</em>:  If you handed in an assignment or took a test today, don't expect the grade to be online immediately.  Teachers only update their grade books as needed.</small><ul><li>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<small><br\\ /><em>Disclaimer</em>:\\ \\ If\\ you\\ handed\\ in\\ an\\ assignment\\ or\\ took\\ a\\ test\\ today,\\ don't\\ expect\\ the\\ grade\\ to\\ be\\ online\\ immediately\\.\\ \\ Teachers\\ only\\ update\\ their\\ grade\\ books\\ as\\ needed\\.</small><ul><li>"
+    },
+    {
+      "name": "Online-Grades Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Online-Grades",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"Online Grade Posting System -- http://www.onlinegrades.org\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Online\\ Grade\\ Posting\\ System\\ \\-\\-\\ http://www\\.onlinegrades\\.org\"\\ />"
+    },
+    {
+      "name": "Online-Grades Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Online-Grades",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- YOU CAN SAFELY REMOVE OR CHANGE ANYTHING BETWEEN THIS SECTION OF COMENTED CODE -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ YOU\\ CAN\\ SAFELY\\ REMOVE\\ OR\\ CHANGE\\ ANYTHING\\ BETWEEN\\ THIS\\ SECTION\\ OF\\ COMENTED\\ CODE\\ \\-\\->"
+    },
+    {
+      "name": "Online-Grades Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Online-Grades",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- STOP REMOVING LINES HERE IF REMOVING/CHANGING THE FOOTER -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ STOP\\ REMOVING\\ LINES\\ HERE\\ IF\\ REMOVING/CHANGING\\ THE\\ FOOTER\\ \\-\\->"
+    },
+    {
+      "name": "Online-Grades Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Online-Grades",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"http://www.onlinegrades.org\"><img src=\"[^\"^>]+/images/og.png\"[^>]+alt=\"Powered by Online Grades\"[^>]*></a>"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "vendor": "Epiware",
+  "vendor_id": "epiware",
+  "product": "Epiware",
+  "product_id": "epiware",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Epiware Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Epiware",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Epiware - Project and Document Management  </title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Epiware\\ \\-\\ Project\\ and\\ Document\\ Management\\ \\ </title>"
+    },
+    {
+      "name": "Epiware Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Epiware",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<div id=\"jsWarning\" class=\"javascript_warning\">\\s+This web-site requires javascript\\.\\s+Please enable javascript to access this web-site\\.\\s+</div>"
+    }
+  ]
+}

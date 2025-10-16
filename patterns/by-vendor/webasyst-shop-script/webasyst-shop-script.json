@@ -1,0 +1,70 @@
+{
+  "vendor": "WebAsyst-Shop-Script",
+  "vendor_id": "webasyst-shop-script",
+  "product": "WebAsyst-Shop-Script",
+  "product_id": "webasyst-shop-script",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WebAsyst-Shop-Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebAsyst-Shop-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by WebAsyst Shop-Script <a href=\"http://www.shop-script.com/\" style=\"font-weight: normal\">shopping cart software</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ WebAsyst\\ Shop\\-Script\\ <a\\ href=\"http://www\\.shop\\-script\\.com/\"\\ style=\"font\\-weight:\\ normal\">shopping\\ cart\\ software</a>"
+    },
+    {
+      "name": "WebAsyst-Shop-Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebAsyst-Shop-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.shop-script.com\" style=\"font-weight: bold;\" target=\"_blank\">WebAsyst Shop-Script</a> - <a href=\"http://www.shop-script.com/\" style=\"font-weight: normal;\" target=\"_blank\">shopping cart software</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.shop\\-script\\.com\"\\ style=\"font\\-weight:\\ bold;\"\\ target=\"_blank\">WebAsyst\\ Shop\\-Script</a>\\ \\-\\ <a\\ href=\"http://www\\.shop\\-script\\.com/\"\\ style=\"font\\-weight:\\ normal;\"\\ target=\"_blank\">shopping\\ cart\\ software</a>"
+    },
+    {
+      "name": "WebAsyst-Shop-Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebAsyst-Shop-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "[\\s]+var WAROOT_URL = '[^\\']+';//ok"
+    }
+  ]
+}

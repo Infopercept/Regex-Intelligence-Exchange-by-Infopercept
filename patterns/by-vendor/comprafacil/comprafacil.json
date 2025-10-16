@@ -1,0 +1,76 @@
+{
+  "vendor": "Comprafacil",
+  "vendor_id": "comprafacil",
+  "product": "Comprafacil",
+  "product_id": "comprafacil",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Comprafacil Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Comprafacil",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a id=\"seloPowered\" href=\"http://www.comprafacil.com.br\"><img alt=\"Powered by Comprafacil\" src=\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ id=\"seloPowered\"\\ href=\"http://www\\.comprafacil\\.com\\.br\"><img\\ alt=\"Powered\\ by\\ Comprafacil\"\\ src=\""
+    },
+    {
+      "name": "Comprafacil Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Comprafacil",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\"      content=\"HERMES SA\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ \\ \\ \\ \\ \\ content=\"HERMES\\ SA\"\\ />"
+    },
+    {
+      "name": "Comprafacil Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Comprafacil",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"HERMES SA\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"HERMES\\ SA\"\\ />"
+    }
+  ]
+}

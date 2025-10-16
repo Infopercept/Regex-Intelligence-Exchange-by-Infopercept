@@ -1,0 +1,32 @@
+{
+  "vendor": "Linksys-USB-HDD",
+  "vendor_id": "linksys-usb-hdd",
+  "product": "Linksys-USB-HDD",
+  "product_id": "linksys-usb-hdd",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Linksys-USB-HDD Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Linksys-USB-HDD",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Network Storage Link for USB 2.0 Disks</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Network\\ Storage\\ Link\\ for\\ USB\\ 2\\.0\\ Disks</title>"
+    }
+  ]
+}

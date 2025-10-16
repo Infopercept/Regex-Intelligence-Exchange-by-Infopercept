@@ -1,0 +1,49 @@
+{
+  "vendor": "Python",
+  "vendor_id": "python",
+  "product": "Python",
+  "product_id": "python",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "# Server # Version Detection",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Python",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: [^\\r^\\n]* Python/([^\\s^\\r^\\n]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: [^\\r^\\n]* Python/([^\\s^\\r^\\n]+)",
+      "version_group": 1
+    },
+    {
+      "name": "File extension",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Python",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^(py|pyc|py3|pyo|pyw|pyx|pyd|pxd|pyi|pyz|pywz|rpy|pyde|pyp|pyt|xpy|ipynb)$"
+    }
+  ]
+}

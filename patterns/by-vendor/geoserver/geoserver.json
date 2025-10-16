@@ -1,0 +1,70 @@
+{
+  "vendor": "GeoServer",
+  "vendor_id": "geoserver",
+  "product": "GeoServer",
+  "product_id": "geoserver",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "GeoServer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for GeoServer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"shortcut icon\" href=\"resources/org.geoserver.web.GeoServerBasePage/favicon.ico\"/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ href=\"resources/org\\.geoserver\\.web\\.GeoServerBasePage/favicon\\.ico\"/>"
+    },
+    {
+      "name": "GeoServer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for GeoServer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"resources/org.geoserver.web.GeoServerBasePage/favicon.ico\" rel=\"shortcut icon\"/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"resources/org\\.geoserver\\.web\\.GeoServerBasePage/favicon\\.ico\"\\ rel=\"shortcut\\ icon\"/>"
+    },
+    {
+      "name": "GeoServer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for GeoServer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<body>[\\s]+<p><b>Redirecting to the actual home page\\.</b></p>[\\s]+<p>If you're stuck here, it means you don't have javascript[\\s]+enabled\\. Javascript is required to actually use the GeoServer admin console.</p>[\\s]+</body>[\\s]+</html>"
+    }
+  ]
+}

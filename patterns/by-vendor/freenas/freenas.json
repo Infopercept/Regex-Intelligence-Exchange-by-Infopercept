@@ -1,0 +1,70 @@
+{
+  "vendor": "FreeNAS",
+  "vendor_id": "freenas",
+  "product": "FreeNAS",
+  "product_id": "freenas",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FreeNAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FreeNAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- THIS IS A LOGIN WEBPAGE -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ THIS\\ IS\\ A\\ LOGIN\\ WEBPAGE\\ \\-\\->"
+    },
+    {
+      "name": "FreeNAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FreeNAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"/\" title=\"FreeNAS&trade;\"><img src=\"/static/images/ui/freenas-logo.png?cache=\" alt=\"FreeNAS&trade;\" style=\"padding-left:10px;\"/></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"/\"\\ title=\"FreeNAS\\&trade;\"><img\\ src=\"/static/images/ui/freenas\\-logo\\.png\\?cache=\"\\ alt=\"FreeNAS\\&trade;\"\\ style=\"padding\\-left:10px;\"/></a>"
+    },
+    {
+      "name": "FreeNAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FreeNAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "https?://[^/]+/account/login/\\?next=/"
+    }
+  ]
+}

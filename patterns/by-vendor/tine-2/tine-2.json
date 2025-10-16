@@ -1,0 +1,120 @@
+{
+  "vendor": "Tine-2",
+  "vendor_id": "tine-2",
+  "product": "Tine-2",
+  "product_id": "tine-2",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Tine-2 Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tine-2",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Tine 2.0 static files -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Tine\\ 2\\.0\\ static\\ files\\ \\-\\->"
+    },
+    {
+      "name": "Tine-2 Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tine-2",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Tine 2.0 setup static files -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Tine\\ 2\\.0\\ setup\\ static\\ files\\ \\-\\->"
+    },
+    {
+      "name": "Tine-2 Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tine-2",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by: <a target=\"_blank\" href=\"http://www.tine20.org/\">Tine 2.0</a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by:\\ <a\\ target=\"_blank\"\\ href=\"http://www\\.tine20\\.org/\">Tine\\ 2\\.0</a></div>"
+    },
+    {
+      "name": "Tine-2 Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tine-2",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<noscript><p>You need to enable javascript to use <a href=\"http://www.tine20.org/\" title=\"online open source groupware and crm\">Tine 2.0</a></p></noscript>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<noscript><p>You\\ need\\ to\\ enable\\ javascript\\ to\\ use\\ <a\\ href=\"http://www\\.tine20\\.org/\"\\ title=\"online\\ open\\ source\\ groupware\\ and\\ crm\">Tine\\ 2\\.0</a></p></noscript>"
+    },
+    {
+      "name": "Tine-2 Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tine-2",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<noscript>You need to enable javascript to use <a href=\"http://www.tine20.org\">Tine 2.0 setup or use the CLI setup</a></noscript>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<noscript>You\\ need\\ to\\ enable\\ javascript\\ to\\ use\\ <a\\ href=\"http://www\\.tine20\\.org\">Tine\\ 2\\.0\\ setup\\ or\\ use\\ the\\ CLI\\ setup</a></noscript>"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "vendor": "TCExam",
+  "vendor_id": "tcexam",
+  "product": "TCExam",
+  "product_id": "tcexam",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TCExam Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TCExam",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a name=\"topofdoc\" id=\"topofdoc\"></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ name=\"topofdoc\"\\ id=\"topofdoc\"></a>"
+    },
+    {
+      "name": "TCExam Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TCExam",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"Nicola Asuni - Tecnick.com s.r.l.\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Nicola\\ Asuni\\ \\-\\ Tecnick\\.com\\ s\\.r\\.l\\.\"\\ />"
+    },
+    {
+      "name": "TCExam Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TCExam",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- TCExam19730104 -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ TCExam19730104\\ \\-\\->"
+    },
+    {
+      "name": "TCExam Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TCExam",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<li><a href=\"tce_login.php\" title=\"click on this link to access on this system\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<li><a\\ href=\"tce_login\\.php\"\\ title=\"click\\ on\\ this\\ link\\ to\\ access\\ on\\ this\\ system\">"
+    },
+    {
+      "name": "TCExam Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TCExam",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"tcexam_level\" content=\"0\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"tcexam_level\"\\ content=\"0\"\\ />"
+    }
+  ]
+}

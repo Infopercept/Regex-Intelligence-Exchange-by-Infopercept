@@ -1,0 +1,58 @@
+{
+  "vendor": "Namazu",
+  "vendor_id": "namazu",
+  "product": "Namazu",
+  "product_id": "namazu",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Namazu Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Namazu",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "This search system is powered by[\\s]+<strong><a href=\"http://www\\.namazu\\.org/\">Namazu</a></strong>"
+    },
+    {
+      "name": "Namazu Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Namazu",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by <a href=\"http://www\\.namazu\\.(org|cc)/[^\"]*\" target=\"_blank\">(N|n)amazu</a>"
+    },
+    {
+      "name": "Namazu Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Namazu",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<p><strong> Total <!-- HIT -->[\\d]+<!-- HIT --> documents matching your query.</strong></p>"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "vendor": "SilverStripe",
+  "vendor_id": "silverstripe",
+  "product": "SilverStripe",
+  "product_id": "silverstripe",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SilverStripe Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SilverStripe",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=\"generator\"[^>]*content=\"SilverStripe"
+    },
+    {
+      "name": "layout, typography, form css files",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SilverStripe",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link[^>]*stylesheet[^>]*layout.css[^>]*>[^<]*<link[^>]*stylesheet[^>]*typography.css[^>]*>[^<]*<link[^>]*stylesheet[^>]*form.css[^>]*>"
+    },
+    {
+      "name": "SilverStripe Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SilverStripe",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<img src=\"/assets/[^/]+/_resampled/[^\"]+.jpg\""
+    }
+  ]
+}

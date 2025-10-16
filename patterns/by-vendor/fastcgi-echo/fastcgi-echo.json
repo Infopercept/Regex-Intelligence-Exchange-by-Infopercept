@@ -1,0 +1,76 @@
+{
+  "vendor": "FastCGI-echo",
+  "vendor_id": "fastcgi-echo",
+  "product": "FastCGI-echo",
+  "product_id": "fastcgi-echo",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FastCGI-echo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FastCGI-echo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "SCRIPT_NAME=/fcgi-bin/echo",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "SCRIPT_NAME=/fcgi\\-bin/echo"
+    },
+    {
+      "name": "FastCGI-echo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FastCGI-echo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>FastCGI echo</title><h1>FastCGI echo</h1>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>FastCGI\\ echo</title><h1>FastCGI\\ echo</h1>"
+    },
+    {
+      "name": "FastCGI-echo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FastCGI-echo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "REQUEST_URI=/fcgi-bin/echo",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "REQUEST_URI=/fcgi\\-bin/echo"
+    }
+  ]
+}

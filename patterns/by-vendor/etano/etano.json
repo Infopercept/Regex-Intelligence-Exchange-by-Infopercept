@@ -1,0 +1,54 @@
+{
+  "vendor": "Etano",
+  "vendor_id": "etano",
+  "product": "Etano",
+  "product_id": "etano",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Etano Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Etano",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "All Rights Reserved.<br />Powered by <a href=\"http://www.datemill.com\" title=\"Etano community builder\">Etano</a>.</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "All\\ Rights\\ Reserved\\.<br\\ />Powered\\ by\\ <a\\ href=\"http://www\\.datemill\\.com\"\\ title=\"Etano\\ community\\ builder\">Etano</a>\\.</p>"
+    },
+    {
+      "name": "Etano Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Etano",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Etano</a>. All Rights Reserved.<br />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Etano</a>\\.\\ All\\ Rights\\ Reserved\\.<br\\ />"
+    }
+  ]
+}

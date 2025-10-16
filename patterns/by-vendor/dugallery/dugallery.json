@@ -1,0 +1,48 @@
+{
+  "vendor": "DUgallery",
+  "vendor_id": "dugallery",
+  "product": "DUgallery",
+  "product_id": "dugallery",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DUgallery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DUgallery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>DUgallery[^<]*</title>"
+    },
+    {
+      "name": "DUgallery Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DUgallery",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"assets/title.gif\" alt=\"Powered by DUportal\" width=\"269\" height=\"62\" border=\"0\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"assets/title\\.gif\"\\ alt=\"Powered\\ by\\ DUportal\"\\ width=\"269\"\\ height=\"62\"\\ border=\"0\">"
+    }
+  ]
+}

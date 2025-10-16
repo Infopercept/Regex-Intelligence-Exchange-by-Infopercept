@@ -1,0 +1,120 @@
+{
+  "vendor": "AV-Arcade",
+  "vendor_id": "av-arcade",
+  "product": "AV-Arcade",
+  "product_id": "av-arcade",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AV-Arcade Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AV-Arcade",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--MUST BE INCLUDED IN ALL TEMPLATES AND UNMODIFIED UNLESS YOU HAVE PAID FOR COPYRIGHT REMOVAL-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-MUST\\ BE\\ INCLUDED\\ IN\\ ALL\\ TEMPLATES\\ AND\\ UNMODIFIED\\ UNLESS\\ YOU\\ HAVE\\ PAID\\ FOR\\ COPYRIGHT\\ REMOVAL\\-\\->"
+    },
+    {
+      "name": "AV-Arcade Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AV-Arcade",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t  <!--MUST BE INCLUDED IN ALL TEMPLATES AND UNMODIFIED UNLESS YOU HAVE PAID FOR COPYRIGHT REMOVAL-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\ \\ <!\\-\\-MUST\\ BE\\ INCLUDED\\ IN\\ ALL\\ TEMPLATES\\ AND\\ UNMODIFIED\\ UNLESS\\ YOU\\ HAVE\\ PAID\\ FOR\\ COPYRIGHT\\ REMOVAL\\-\\->"
+    },
+    {
+      "name": "AV-Arcade Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AV-Arcade",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<b><span class=\"copytext\">Powered by <a href=\"http://www.avscripts.net/avarcade/\">AV Arcade Free Edition</a> - Copyright 2006-2010 <a href=\"http://www.avscripts.net\">AV Scripts</a></span></b>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<b><span\\ class=\"copytext\">Powered\\ by\\ <a\\ href=\"http://www\\.avscripts\\.net/avarcade/\">AV\\ Arcade\\ Free\\ Edition</a>\\ \\-\\ Copyright\\ 2006\\-2010\\ <a\\ href=\"http://www\\.avscripts\\.net\">AV\\ Scripts</a></span></b>"
+    },
+    {
+      "name": "AV-Arcade Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AV-Arcade",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<b><span class=\"copytext\">Powered by <a href=\"http://www.avscripts.net/avarcade/\">AV Arcade v3</a> - Copyright 2006-2008 <a href=\"http://www.avscripts.net\">AV Scripts</a></span></b>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<b><span\\ class=\"copytext\">Powered\\ by\\ <a\\ href=\"http://www\\.avscripts\\.net/avarcade/\">AV\\ Arcade\\ v3</a>\\ \\-\\ Copyright\\ 2006\\-2008\\ <a\\ href=\"http://www\\.avscripts\\.net\">AV\\ Scripts</a></span></b>"
+    },
+    {
+      "name": "AV-Arcade Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AV-Arcade",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.avscripts.net/avarcade/\">AV Arcade Pro</a> - Copyright <a href=\"http://www.avscripts.net\">AV Scripts</a> 2006-2010 <a href=\"http://www.avscripts.net\"></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.avscripts\\.net/avarcade/\">AV\\ Arcade\\ Pro</a>\\ \\-\\ Copyright\\ <a\\ href=\"http://www\\.avscripts\\.net\">AV\\ Scripts</a>\\ 2006\\-2010\\ <a\\ href=\"http://www\\.avscripts\\.net\"></a>"
+    }
+  ]
+}

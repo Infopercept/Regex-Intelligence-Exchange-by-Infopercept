@@ -1,0 +1,70 @@
+{
+  "vendor": "MagImageBank",
+  "vendor_id": "magimagebank",
+  "product": "MagImageBank",
+  "product_id": "magimagebank",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MagImageBank Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MagImageBank",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</div></div><div id=\"SiteBottom\" class=\"fun\"></div><div id=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</div></div><div\\ id=\"SiteBottom\"\\ class=\"fun\"></div><div\\ id=\\\\"
+    },
+    {
+      "name": "MagImageBank Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MagImageBank",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link href=\"/imagebank/stylesheets/fancybox\\.css\\?[\\d]+\" media=\"screen\" rel=\"Stylesheet\" type=\"text/css\" />"
+    },
+    {
+      "name": "MagImageBank Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MagImageBank",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by MagImageBank | <a href=\"http://magimagebank.com/\">magimagebank.com</a> | <a href=\"mailto:info@magimagebank.com\">info@magimagebank.com</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ MagImageBank\\ \\|\\ <a\\ href=\"http://magimagebank\\.com/\">magimagebank\\.com</a>\\ \\|\\ <a\\ href=\"mailto:info@magimagebank\\.com\">info@magimagebank\\.com</a>"
+    }
+  ]
+}

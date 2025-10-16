@@ -1,0 +1,58 @@
+{
+  "vendor": "Apache-Wicket",
+  "vendor_id": "apache-wicket",
+  "product": "Apache-Wicket",
+  "product_id": "apache-wicket",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "XMLNS data",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache-Wicket",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "xmlns:wicket=\"(http://wicket\\.sourceforge\\.net/|http://wicket\\.apache\\.org/)\">"
+    },
+    {
+      "name": "Wicket ID scheme",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache-Wicket",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": " wicket:id=\"[^\"]*\""
+    },
+    {
+      "name": "Wicket Resource scheme",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache-Wicket",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<[^=]+[ ]?=[ ]?['\"]?wicket/[^/]+/org\\.apache\\.wicket\\."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "vendor": "Intrasrv",
+  "vendor_id": "intrasrv",
+  "product": "Intrasrv",
+  "product_id": "intrasrv",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Intrasrv Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Intrasrv",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^intrasrv 8.5$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^intrasrv ([\\d\\.]+)$",
+      "version_group": 1
+    }
+  ]
+}

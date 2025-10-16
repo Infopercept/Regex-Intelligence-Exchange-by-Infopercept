@@ -1,0 +1,98 @@
+{
+  "vendor": "MySource-Matrix",
+  "vendor_id": "mysource-matrix",
+  "product": "MySource-Matrix",
+  "product_id": "mysource-matrix",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MySource-Matrix Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MySource-Matrix",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p class=\"right\">Powered by <a href=\"http://www.squiz.co.uk/mysource_matrix\" target=\"_blank\">MySource Matrix</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ class=\"right\">Powered\\ by\\ <a\\ href=\"http://www\\.squiz\\.co\\.uk/mysource_matrix\"\\ target=\"_blank\">MySource\\ Matrix</a></p>"
+    },
+    {
+      "name": "MySource-Matrix Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MySource-Matrix",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "class=\"squiz\">Powered by MySource Matrix - a Squiz.net initiative</a> </div>  </div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "class=\"squiz\">Powered\\ by\\ MySource\\ Matrix\\ \\-\\ a\\ Squiz\\.net\\ initiative</a>\\ </div>\\ \\ </div>"
+    },
+    {
+      "name": "MySource-Matrix Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MySource-Matrix",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>Powered By MySource Matrix - A Squiz.net  Initiative</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>Powered\\ By\\ MySource\\ Matrix\\ \\-\\ A\\ Squiz\\.net\\ \\ Initiative</p>"
+    },
+    {
+      "name": "MySource-Matrix Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MySource-Matrix",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "  MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ MySource,\\ MySource\\ Matrix\\ and\\ Squiz\\.net\\ are\\ registered\\ Trademarks\\ of\\ Squiz\\ Pty\\ Ltd"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "vendor": "phpSysInfo",
+  "vendor_id": "phpsysinfo",
+  "product": "phpSysInfo",
+  "product_id": "phpsysinfo",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "phpSysInfo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpSysInfo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "var sTargetURL = \"index.php?disp=dynamic\";",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "var\\ sTargetURL\\ =\\ \"index\\.php\\?disp=dynamic\";"
+    }
+  ]
+}

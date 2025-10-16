@@ -1,0 +1,49 @@
+{
+  "vendor": "xproxy",
+  "vendor_id": "xproxy",
+  "product": "xproxy",
+  "product_id": "xproxy",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "xproxy Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for xproxy",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^xproxy"
+    },
+    {
+      "name": "xproxy Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for xproxy",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^xproxy/([^\\(]+)\\([\\d]+\\)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^xproxy/([^\\(]+)\\([\\d]+\\)$",
+      "version_group": 1
+    }
+  ]
+}

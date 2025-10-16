@@ -1,0 +1,42 @@
+{
+  "vendor": "Alibaba-Aliyun",
+  "vendor_id": "alibaba-aliyun",
+  "product": "Alibaba-Aliyun",
+  "product_id": "alibaba-aliyun",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Tengine (Alibaba Server)",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Alibaba-Aliyun",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "tengine"
+    },
+    {
+      "name": "Aliyun CDN",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Alibaba-Aliyun",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "aliyun|alicdn"
+    }
+  ]
+}

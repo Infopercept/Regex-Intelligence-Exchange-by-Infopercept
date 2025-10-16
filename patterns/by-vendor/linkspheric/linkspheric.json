@@ -1,0 +1,164 @@
+{
+  "vendor": "linkSpheric",
+  "vendor_id": "linkspheric",
+  "product": "linkSpheric",
+  "product_id": "linkspheric",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "linkSpheric Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for linkSpheric",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<style type=\"text/css\" media=\"screen\">@import \"styles/ls_orange.css\";</style>\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<style\\ type=\"text/css\"\\ media=\"screen\">@import\\ \"styles/ls_orange\\.css\";</style>\""
+    },
+    {
+      "name": "linkSpheric Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for linkSpheric",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>linkSpheric Installer</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>linkSpheric\\ Installer</title>"
+    },
+    {
+      "name": "linkSpheric Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for linkSpheric",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p style=\"text-align: center;\"><a href=\"admin/index.php\"><img src=\"images/ls_logo.png\" width=\"190\" height=\"75\" alt=\"Powered by linkSpheric\" /></a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ style=\"text\\-align:\\ center;\"><a\\ href=\"admin/index\\.php\"><img\\ src=\"images/ls_logo\\.png\"\\ width=\"190\"\\ height=\"75\"\\ alt=\"Powered\\ by\\ linkSpheric\"\\ /></a></p>"
+    },
+    {
+      "name": "linkSpheric Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for linkSpheric",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "   <strong>linkSpheric Administrator:</strong>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ <strong>linkSpheric\\ Administrator:</strong>"
+    },
+    {
+      "name": "linkSpheric Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for linkSpheric",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--License terms require you to leave this link attribution intact.  You are only permitted to remove it by special arrangement with dataSpheric-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-License\\ terms\\ require\\ you\\ to\\ leave\\ this\\ link\\ attribution\\ intact\\.\\ \\ You\\ are\\ only\\ permitted\\ to\\ remove\\ it\\ by\\ special\\ arrangement\\ with\\ dataSpheric\\-\\->"
+    },
+    {
+      "name": "linkSpheric Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for linkSpheric",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--License terms require you to leave this link attribution intact. You are only permitted to remove it by special arrangement with dataSpheric-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-License\\ terms\\ require\\ you\\ to\\ leave\\ this\\ link\\ attribution\\ intact\\.\\ You\\ are\\ only\\ permitted\\ to\\ remove\\ it\\ by\\ special\\ arrangement\\ with\\ dataSpheric\\-\\->"
+    },
+    {
+      "name": "linkSpheric Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for linkSpheric",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://dataspheric.com/services/software/ls/\" style=\"text-decoration: none; color: #000;\"><strong>link<span style=\"font-size: 1.3em; color: #f60;\">S</span>pheric</strong></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://dataspheric\\.com/services/software/ls/\"\\ style=\"text\\-decoration:\\ none;\\ color:\\ \\#000;\"><strong>link<span\\ style=\"font\\-size:\\ 1\\.3em;\\ color:\\ \\#f60;\">S</span>pheric</strong></a>"
+    }
+  ]
+}

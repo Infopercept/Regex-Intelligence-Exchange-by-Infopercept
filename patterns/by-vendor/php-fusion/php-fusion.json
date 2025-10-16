@@ -1,0 +1,152 @@
+{
+  "vendor": "PHP-Fusion",
+  "vendor_id": "php-fusion",
+  "product": "PHP-Fusion",
+  "product_id": "php-fusion",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PHP-Fusion Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Fusion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td align='right' class='tbl1 profile_user_level'><!--profile_user_level-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ align='right'\\ class='tbl1\\ profile_user_level'><!\\-\\-profile_user_level\\-\\->"
+    },
+    {
+      "name": "PHP-Fusion Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Fusion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td align='right' class='profile_user_level tbl1'><!--profile_user_level-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ align='right'\\ class='profile_user_level\\ tbl1'><!\\-\\-profile_user_level\\-\\->"
+    },
+    {
+      "name": "PHP-Fusion Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Fusion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "class='tbl profile_user_avatar'><!--profile_user_avatar--><img src='images/avatars/",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "class='tbl\\ profile_user_avatar'><!\\-\\-profile_user_avatar\\-\\-><img\\ src='images/avatars/"
+    },
+    {
+      "name": "PHP-Fusion Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Fusion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td align='right' class='tbl1 profile_user_name'><!--profile_user_name-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ align='right'\\ class='tbl1\\ profile_user_name'><!\\-\\-profile_user_name\\-\\->"
+    },
+    {
+      "name": "PHP-Fusion Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Fusion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td align='right' class='profile_user_name tbl1'><!--profile_user_name-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ align='right'\\ class='profile_user_name\\ tbl1'><!\\-\\-profile_user_name\\-\\->"
+    },
+    {
+      "name": "PHP-Fusion Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Fusion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!--counter-->[\\d,]+ unique visits<"
+    },
+    {
+      "name": "fusion_visited Cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Fusion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "fusion_visited="
+    }
+  ]
+}

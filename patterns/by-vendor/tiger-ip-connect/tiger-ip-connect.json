@@ -1,0 +1,114 @@
+{
+  "vendor": "Tiger-IP-Connect",
+  "vendor_id": "tiger-ip-connect",
+  "product": "Tiger-IP-Connect",
+  "product_id": "tiger-ip-connect",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Tiger-IP-Connect Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tiger-IP-Connect",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^network/index\\.php$"
+    },
+    {
+      "name": "Tiger-IP-Connect Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tiger-IP-Connect",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td align=\"center\" bgcolor=\"#FFCC00\"><b>Login is disabled from this IP address.</b></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ align=\"center\"\\ bgcolor=\"\\#FFCC00\"><b>Login\\ is\\ disabled\\ from\\ this\\ IP\\ address\\.</b></td>"
+    },
+    {
+      "name": "Tiger-IP-Connect Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tiger-IP-Connect",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "background-image:url(../images/tiger/subTabmidden.gif);",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "background\\-image:url\\(\\.\\./images/tiger/subTabmidden\\.gif\\);"
+    },
+    {
+      "name": "Tiger-IP-Connect Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tiger-IP-Connect",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" href=\"/include/tms.css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"/include/tms\\.css\">"
+    },
+    {
+      "name": "Tiger-IP-Connect Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tiger-IP-Connect",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" href=\"/include/firedigit.css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"/include/firedigit\\.css\">"
+    }
+  ]
+}

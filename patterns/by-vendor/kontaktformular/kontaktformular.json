@@ -1,0 +1,98 @@
+{
+  "vendor": "Kontaktformular",
+  "vendor_id": "kontaktformular",
+  "product": "Kontaktformular",
+  "product_id": "kontaktformular",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Kontaktformular Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kontaktformular",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--Copyright darf NICHT entfernt werden!!-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-Copyright\\ darf\\ NICHT\\ entfernt\\ werden!!\\-\\->"
+    },
+    {
+      "name": "Kontaktformular Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kontaktformular",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Hinweis darf nicht entfernt werden! -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Hinweis\\ darf\\ nicht\\ entfernt\\ werden!\\ \\-\\->"
+    },
+    {
+      "name": "Kontaktformular Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kontaktformular",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Script Powered by <a target=\"_blank\" href=\"http://www.radbekleidung.eu/gratis-kontaktformular.html\">Kontaktformular</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Script\\ Powered\\ by\\ <a\\ target=\"_blank\"\\ href=\"http://www\\.radbekleidung\\.eu/gratis\\-kontaktformular\\.html\">Kontaktformular</a>"
+    },
+    {
+      "name": "Kontaktformular Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kontaktformular",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "&copy; Script Powered by kontaktformular.org </span>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\&copy;\\ Script\\ Powered\\ by\\ kontaktformular\\.org\\ </span>"
+    }
+  ]
+}

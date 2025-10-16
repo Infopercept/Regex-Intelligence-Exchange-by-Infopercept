@@ -1,0 +1,76 @@
+{
+  "vendor": "Calypso-ION-8r-Device",
+  "vendor_id": "calypso-ion-8r-device",
+  "product": "Calypso-ION-8r-Device",
+  "product_id": "calypso-ion-8r-device",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Calypso-ION-8r-Device Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Calypso-ION-8r-Device",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Calypso ION-8r Device</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Calypso\\ ION\\-8r\\ Device</title>"
+    },
+    {
+      "name": "Calypso-ION-8r-Device Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Calypso-ION-8r-Device",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<li><a href=\"/A/cfg/entercmd.stm\">Enter Command</a></li>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<li><a\\ href=\"/A/cfg/entercmd\\.stm\">Enter\\ Command</a></li>"
+    },
+    {
+      "name": "Calypso-ION-8r-Device Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Calypso-ION-8r-Device",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Calypso ION8r Device",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Calypso\\ ION8r\\ Device"
+    }
+  ]
+}

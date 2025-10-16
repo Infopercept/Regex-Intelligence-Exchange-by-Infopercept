@@ -1,0 +1,48 @@
+{
+  "vendor": "NetComm-Wireless-HotSpot-Gateway",
+  "vendor_id": "netcomm-wireless-hotspot-gateway",
+  "product": "NetComm-Wireless-HotSpot-Gateway",
+  "product_id": "netcomm-wireless-hotspot-gateway",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "NetComm-Wireless-HotSpot-Gateway Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetComm-Wireless-HotSpot-Gateway",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "if \\(now < 946685000 \\)[\\s]+\\{[\\s]+alert\\(\"Warning! The system time is wrong and may cause the inaccuracy of authentication and billing\\. Please refer to the user manual to set up the correct system time\\.\"\\);"
+    },
+    {
+      "name": "NetComm-Wireless-HotSpot-Gateway Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetComm-Wireless-HotSpot-Gateway",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td colspan=\"8\" align=\"center\" background=\"imgs_login/login_r6_c7.gif\"><font class=\"loginmsg\"><strong>Welcome To Administrator Login Page<br> Please Enter Your User Name and Password To Sign In.</strong></font>&nbsp;</td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ colspan=\"8\"\\ align=\"center\"\\ background=\"imgs_login/login_r6_c7\\.gif\"><font\\ class=\"loginmsg\"><strong>Welcome\\ To\\ Administrator\\ Login\\ Page<br>\\ Please\\ Enter\\ Your\\ User\\ Name\\ and\\ Password\\ To\\ Sign\\ In\\.</strong></font>\\&nbsp;</td>"
+    }
+  ]
+}

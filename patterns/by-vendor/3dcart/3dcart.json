@@ -1,0 +1,86 @@
+{
+  "vendor": "3dcart",
+  "vendor_id": "3dcart",
+  "product": "3dcart",
+  "product_id": "3dcart",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "3dcart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for 3dcart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--START: 3dcart stats-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-START:\\ 3dcart\\ stats\\-\\->"
+    },
+    {
+      "name": "3dcart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for 3dcart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--END: 3dcart stats-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-END:\\ 3dcart\\ stats\\-\\->"
+    },
+    {
+      "name": "3dcart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for 3dcart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "3dvisit"
+    },
+    {
+      "name": "affiliate cookie",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for 3dcart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^affiliate\\s"
+    }
+  ]
+}

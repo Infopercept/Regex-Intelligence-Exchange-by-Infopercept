@@ -1,0 +1,54 @@
+{
+  "vendor": "1024-CMS",
+  "vendor_id": "1024-cms",
+  "product": "1024-CMS",
+  "product_id": "1024-cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "1024-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for 1024-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id='otatfpowered'><a href='http://www.1024cms.com' target='_blank'>Powered by 1024 CMS</a></div></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id='otatfpowered'><a\\ href='http://www\\.1024cms\\.com'\\ target='_blank'>Powered\\ by\\ 1024\\ CMS</a></div></div>"
+    },
+    {
+      "name": "1024-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for 1024-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"1024 CMS (c) 2008 Treble Designs. This is free software, and you may redistribute it under the Attribution-Non-Commercial-Share Alike 2.0 license (http://creativecommons.org/licenses/by-nc-sa/2.0/uk/). 1024 CMS comes with absolutely no warranty, for details, see the license (http://creativecommons.org/licenses/by-nc-sa/2.0/uk/).\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"1024\\ CMS\\ \\(c\\)\\ 2008\\ Treble\\ Designs\\.\\ This\\ is\\ free\\ software,\\ and\\ you\\ may\\ redistribute\\ it\\ under\\ the\\ Attribution\\-Non\\-Commercial\\-Share\\ Alike\\ 2\\.0\\ license\\ \\(http://creativecommons\\.org/licenses/by\\-nc\\-sa/2\\.0/uk/\\)\\.\\ 1024\\ CMS\\ comes\\ with\\ absolutely\\ no\\ warranty,\\ for\\ details,\\ see\\ the\\ license\\ \\(http://creativecommons\\.org/licenses/by\\-nc\\-sa/2\\.0/uk/\\)\\.\"\\ />"
+    }
+  ]
+}

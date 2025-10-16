@@ -1,0 +1,56 @@
+{
+  "vendor": "TMSoft-MyAuth-Gateway",
+  "vendor_id": "tmsoft-myauth-gateway",
+  "product": "TMSoft-MyAuth-Gateway",
+  "product_id": "tmsoft-myauth-gateway",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TMSoft-MyAuth-Gateway Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TMSoft-MyAuth-Gateway",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-powered-by: TMSoft MyAuth Gateway ([^\\s^\\r^\\n]+)",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-powered-by: TMSoft MyAuth Gateway ([^\\s^\\r^\\n]+)",
+      "version_group": 1
+    },
+    {
+      "name": "TMSoft-MyAuth-Gateway Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TMSoft-MyAuth-Gateway",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-manager-by: MyAuth Gateway ([^\\s]+)",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-manager-by: MyAuth Gateway ([^\\s]+)",
+      "version_group": 1
+    }
+  ]
+}

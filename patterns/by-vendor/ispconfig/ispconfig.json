@@ -1,0 +1,48 @@
+{
+  "vendor": "ISPConfig",
+  "vendor_id": "ispconfig",
+  "product": "ISPConfig",
+  "product_id": "ispconfig",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ISPConfig Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ISPConfig",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "powered by <a HREF=\"http://www.ispconfig.org\">ISPConfig</a>"
+    },
+    {
+      "name": "ISPConfig Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ISPConfig",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "This IP address is shared. For access to the web site which you look for, enter its address instead of its IP.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "This\\ IP\\ address\\ is\\ shared\\.\\ For\\ access\\ to\\ the\\ web\\ site\\ which\\ you\\ look\\ for,\\ enter\\ its\\ address\\ instead\\ of\\ its\\ IP\\."
+    }
+  ]
+}

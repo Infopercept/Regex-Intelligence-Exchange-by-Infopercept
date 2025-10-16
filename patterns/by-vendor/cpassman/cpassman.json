@@ -1,0 +1,54 @@
+{
+  "vendor": "cPassMan",
+  "vendor_id": "cpassman",
+  "product": "cPassMan",
+  "product_id": "cpassman",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "cPassMan Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for cPassMan",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Collaborative Passwords Manager</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Collaborative\\ Passwords\\ Manager</title>"
+    },
+    {
+      "name": "cPassMan Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for cPassMan",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/\" title=\"Collaborative Passwords Manager by Nils Laumaill&#233; is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 License\" target=\"_blank\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ rel=\"license\"\\ href=\"http://creativecommons\\.org/licenses/by\\-nc\\-nd/3\\.0/\"\\ title=\"Collaborative\\ Passwords\\ Manager\\ by\\ Nils\\ Laumaill\\&\\#233;\\ is\\ licensed\\ under\\ a\\ Creative\\ Commons\\ Attribution\\-Noncommercial\\-No\\ Derivative\\ Works\\ 3\\.0\\ License\"\\ target=\"_blank\">"
+    }
+  ]
+}

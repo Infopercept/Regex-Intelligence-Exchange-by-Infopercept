@@ -1,0 +1,99 @@
+{
+  "vendor": "ntop",
+  "vendor_id": "ntop",
+  "product": "ntop",
+  "product_id": "ntop",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ntop Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ntop",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^ntop/([^\\s]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^ntop/([^\\s]+)",
+      "version_group": 1
+    },
+    {
+      "name": "ntop Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ntop",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"ntop RSS Feed\" href=\"http://www.ntop.org/blog/?feed=rss2\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"alternate\"\\ type=\"application/rss\\+xml\"\\ title=\"ntop\\ RSS\\ Feed\"\\ href=\"http://www\\.ntop\\.org/blog/\\?feed=rss2\"\\ />"
+    },
+    {
+      "name": "ntop Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ntop",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Global Traffic Statistics</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Global\\ Traffic\\ Statistics</TITLE>"
+    },
+    {
+      "name": "ntop Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ntop",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Basic realm=\"NTOP\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Basic\\ realm=\"NTOP\""
+    }
+  ]
+}

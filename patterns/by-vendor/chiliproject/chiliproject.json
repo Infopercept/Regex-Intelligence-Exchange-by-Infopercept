@@ -1,0 +1,92 @@
+{
+  "vendor": "ChiliProject",
+  "vendor_id": "chiliproject",
+  "product": "ChiliProject",
+  "product_id": "chiliproject",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ChiliProject Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ChiliProject",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"https://www.chiliproject.org/\">ChiliProject</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"https://www\\.chiliproject\\.org/\">ChiliProject</a>"
+    },
+    {
+      "name": "ChiliProject Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ChiliProject",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"ChiliProject\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"ChiliProject\"\\ />"
+    },
+    {
+      "name": "ChiliProject Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ChiliProject",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- page specific tags -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ page\\ specific\\ tags\\ \\-\\->"
+    },
+    {
+      "name": "ChiliProject Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ChiliProject",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "_chiliproject_session="
+    }
+  ]
+}

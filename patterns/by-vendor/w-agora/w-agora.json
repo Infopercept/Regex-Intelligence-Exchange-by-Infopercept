@@ -1,0 +1,54 @@
+{
+  "vendor": "w-agora",
+  "vendor_id": "w-agora",
+  "product": "w-agora",
+  "product_id": "w-agora",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "w-agora Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for w-agora",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<CAPTION><B>System Administrator's Informations (login : <u>admin</u>)</B></CAPTION>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<CAPTION><B>System\\ Administrator's\\ Informations\\ \\(login\\ :\\ <u>admin</u>\\)</B></CAPTION>"
+    },
+    {
+      "name": "w-agora Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for w-agora",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<table border bgcolor=\"#eeeeee\" align=\"center\" cellspacing=0 cellpadding=5 width=400><tr><td align=center><font face=\"Arial, Verdana\" color=\"#FF2020\">Cannot access configuration file: ./conf/site_agora.php3</td></tr></table>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<table\\ border\\ bgcolor=\"\\#eeeeee\"\\ align=\"center\"\\ cellspacing=0\\ cellpadding=5\\ width=400><tr><td\\ align=center><font\\ face=\"Arial,\\ Verdana\"\\ color=\"\\#FF2020\">Cannot\\ access\\ configuration\\ file:\\ \\./conf/site_agora\\.php3</td></tr></table>"
+    }
+  ]
+}

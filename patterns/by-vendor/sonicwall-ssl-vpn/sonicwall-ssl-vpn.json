@@ -1,0 +1,26 @@
+{
+  "vendor": "SonicWALL-SSL-VPN",
+  "vendor_id": "sonicwall-ssl-vpn",
+  "product": "SonicWALL-SSL-VPN",
+  "product_id": "sonicwall-ssl-vpn",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SonicWALL-SSL-VPN Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SonicWALL-SSL-VPN",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^SonicWALL SSL-VPN Web Server\\.?$"
+    }
+  ]
+}

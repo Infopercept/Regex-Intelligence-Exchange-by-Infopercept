@@ -1,0 +1,130 @@
+{
+  "vendor": "BlueQuartz",
+  "vendor_id": "bluequartz",
+  "product": "BlueQuartz",
+  "product_id": "bluequartz",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BlueQuartz Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BlueQuartz",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<BODY BGCOLOR=\"#FFFFFF\" onLoad=\"focuslogin()\" onResize=\"if(navigator.appName == \\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<BODY\\ BGCOLOR=\"\\#FFFFFF\"\\ onLoad=\"focuslogin\\(\\)\"\\ onResize=\"if\\(navigator\\.appName\\ ==\\ \\\\"
+    },
+    {
+      "name": "BlueQuartz Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BlueQuartz",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "EVEN IF SUN HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES\\.[\\n][\\n]You acknowledge that  this software is not designed or intended for use in the design, construction, operation or maintenance of any nuclear facility.[\\n]-->"
+    },
+    {
+      "name": "BlueQuartz Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BlueQuartz",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<META NAME=\"Copyright\" VALUE=\"Copyright (C) 2000, Cobalt Networks, Inc.  All rights reserved.\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<META\\ NAME=\"Copyright\"\\ VALUE=\"Copyright\\ \\(C\\)\\ 2000,\\ Cobalt\\ Networks,\\ Inc\\.\\ \\ All\\ rights\\ reserved\\.\">"
+    },
+    {
+      "name": "BlueQuartz Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BlueQuartz",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "var url = \"/login.php?expired=true&target=\"+escape(pathname+top.location.search+top.location.hash);",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "var\\ url\\ =\\ \"/login\\.php\\?expired=true\\&target=\"\\+escape\\(pathname\\+top\\.location\\.search\\+top\\.location\\.hash\\);"
+    },
+    {
+      "name": "BlueQuartz Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BlueQuartz",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<P ALIGN=\"CENTER\"><FONT SIZE=\"5\" COLOR=\"#000099\" FACE=\"HELVETICA, ARIAL\"><B>Welcome to the Web Site of [^\\s^<]+</B></FONT>"
+    },
+    {
+      "name": "BlueQuartz Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BlueQuartz",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<BODY onLoad=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<BODY\\ onLoad=\\\\"
+    }
+  ]
+}

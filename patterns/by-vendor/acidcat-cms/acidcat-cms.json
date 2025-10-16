@@ -1,0 +1,186 @@
+{
+  "vendor": "Acidcat-CMS",
+  "vendor_id": "acidcat-cms",
+  "product": "Acidcat-CMS",
+  "product_id": "acidcat-cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Acidcat-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Acidcat-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Start Acidcat CMS footer information. Note: this code is not to be edited or removed in the free version. -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Start\\ Acidcat\\ CMS\\ footer\\ information\\.\\ Note:\\ this\\ code\\ is\\ not\\ to\\ be\\ edited\\ or\\ removed\\ in\\ the\\ free\\ version\\.\\ \\-\\->"
+    },
+    {
+      "name": "Acidcat-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Acidcat-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr><td colspan=\"2\" valign=\"top\" class=\"ac_menuleftbg\" ><table width=\"100%\" cellspacing=\"0\" border=\"0\"><tr>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr><td\\ colspan=\"2\"\\ valign=\"top\"\\ class=\"ac_menuleftbg\"\\ ><table\\ width=\"100%\"\\ cellspacing=\"0\"\\ border=\"0\"><tr>"
+    },
+    {
+      "name": "Acidcat-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Acidcat-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr><td colspan=\"2\" valign=\"top\" class=\"ac_menuleftbg\" ><table cellspacing=\"0\" border=\"0\"><tr>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr><td\\ colspan=\"2\"\\ valign=\"top\"\\ class=\"ac_menuleftbg\"\\ ><table\\ cellspacing=\"0\"\\ border=\"0\"><tr>"
+    },
+    {
+      "name": "Acidcat-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Acidcat-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td class=\"ac_footer_menu\">&nbsp;<br /><br /></td></tr></table></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ class=\"ac_footer_menu\">\\&nbsp;<br\\ /><br\\ /></td></tr></table></td>"
+    },
+    {
+      "name": "Acidcat-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Acidcat-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td class=\"ac_footer_menu\">&nbsp;<br /></td></tr></table></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ class=\"ac_footer_menu\">\\&nbsp;<br\\ /></td></tr></table></td>"
+    },
+    {
+      "name": "Acidcat-CMS Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Acidcat-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<table cellspacing=\"0\" class=\"ac_admin_main\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<table\\ cellspacing=\"0\"\\ class=\"ac_admin_main\">"
+    },
+    {
+      "name": "Acidcat-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Acidcat-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"admin/css/admin_import.css\" rel=\"stylesheet\" type=\"text/css\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"admin/css/admin_import\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ />"
+    },
+    {
+      "name": "Acidcat-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Acidcat-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<br><center><table border=1 class=errorTable><tr><td class='login_view'><img src=images/acidcat_logo.gif><td colspan=1 class='login_view'><b>Acidcat CMS Error",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<br><center><table\\ border=1\\ class=errorTable><tr><td\\ class='login_view'><img\\ src=images/acidcat_logo\\.gif><td\\ colspan=1\\ class='login_view'><b>Acidcat\\ CMS\\ Error"
+    }
+  ]
+}

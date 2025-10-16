@@ -1,0 +1,49 @@
+{
+  "vendor": "SmugMug",
+  "vendor_id": "smugmug",
+  "product": "SmugMug",
+  "product_id": "smugmug",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SmugMug Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SmugMug",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^SmugMug"
+    },
+    {
+      "name": "SmugMug Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SmugMug",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-powered-by: ^SmugMug/1.0$",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-powered-by: ^SmugMug/([\\d\\.]+)$",
+      "version_group": 1
+    }
+  ]
+}

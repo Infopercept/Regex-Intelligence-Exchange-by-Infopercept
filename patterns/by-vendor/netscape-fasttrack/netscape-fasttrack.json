@@ -1,0 +1,49 @@
+{
+  "vendor": "Netscape-FastTrack",
+  "vendor_id": "netscape-fasttrack",
+  "product": "Netscape-FastTrack",
+  "product_id": "netscape-fasttrack",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Netscape-FastTrack Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netscape-FastTrack",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Netscape-FastTrack"
+    },
+    {
+      "name": "Netscape-FastTrack Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netscape-FastTrack",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Netscape-FastTrack/(.+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Netscape-FastTrack/(.+)$",
+      "version_group": 1
+    }
+  ]
+}

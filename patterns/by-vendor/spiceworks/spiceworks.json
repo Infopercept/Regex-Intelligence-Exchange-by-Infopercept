@@ -1,0 +1,76 @@
+{
+  "vendor": "Spiceworks",
+  "vendor_id": "spiceworks",
+  "product": "Spiceworks",
+  "product_id": "spiceworks",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Spiceworks Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Spiceworks",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"Spiceworks, Inc.\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Spiceworks,\\ Inc\\.\"\\ />"
+    },
+    {
+      "name": "Spiceworks Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Spiceworks",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>Spiceworks is compatible with <a href=\"http://community.spiceworks.com/help/Spiceworks_Requirements#Browser\">modern browsers</a>, and requires JavaScript, Cookies, and Stylesheets (CSS) to function correctly.</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>Spiceworks\\ is\\ compatible\\ with\\ <a\\ href=\"http://community\\.spiceworks\\.com/help/Spiceworks_Requirements\\#Browser\">modern\\ browsers</a>,\\ and\\ requires\\ JavaScript,\\ Cookies,\\ and\\ Stylesheets\\ \\(CSS\\)\\ to\\ function\\ correctly\\.</p>"
+    },
+    {
+      "name": "Spiceworks Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Spiceworks",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Spiceworks - Login Required</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Spiceworks\\ \\-\\ Login\\ Required</title>"
+    }
+  ]
+}

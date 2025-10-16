@@ -1,0 +1,76 @@
+{
+  "vendor": "Kolab",
+  "vendor_id": "kolab",
+  "product": "Kolab",
+  "product_id": "kolab",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Kolab Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kolab",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"toptitle\">Kolab Groupware login</div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"toptitle\">Kolab\\ Groupware\\ login</div>"
+    },
+    {
+      "name": "Kolab Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kolab",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"Kolab Administration Webinterface\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"Kolab\\ Administration\\ Webinterface\"\\ />"
+    },
+    {
+      "name": "Kolab Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kolab",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Kolab Groupware login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Kolab\\ Groupware\\ login</title>"
+    }
+  ]
+}

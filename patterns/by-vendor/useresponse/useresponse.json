@@ -1,0 +1,70 @@
+{
+  "vendor": "UseResponse",
+  "vendor_id": "useresponse",
+  "product": "UseResponse",
+  "product_id": "useresponse",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "UseResponse Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for UseResponse",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "title=\"Customer Feedback Software, Community Support System\" target=\"_blank\" href=\"http://www.useresponse.com\" class=\"popup-logo\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "title=\"Customer\\ Feedback\\ Software,\\ Community\\ Support\\ System\"\\ target=\"_blank\"\\ href=\"http://www\\.useresponse\\.com\"\\ class=\"popup\\-logo\">"
+    },
+    {
+      "name": "UseResponse Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for UseResponse",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!-- DO NOT MODIFY (ABOVE|BELOW) THIS LINE UNLESS PURCHASED BRANDING REMOVAL -->"
+    },
+    {
+      "name": "UseResponse Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for UseResponse",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form id=\"system-form-registration\" enctype=\"application/x-www-form-urlencoded\" class=\"system-form-registration\" accept-charset=\"utf-8\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ id=\"system\\-form\\-registration\"\\ enctype=\"application/x\\-www\\-form\\-urlencoded\"\\ class=\"system\\-form\\-registration\"\\ accept\\-charset=\"utf\\-8\""
+    }
+  ]
+}

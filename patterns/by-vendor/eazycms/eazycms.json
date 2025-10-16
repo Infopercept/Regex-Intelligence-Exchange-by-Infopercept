@@ -1,0 +1,92 @@
+{
+  "vendor": "EazyCMS",
+  "vendor_id": "eazycms",
+  "product": "EazyCMS",
+  "product_id": "eazycms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "EazyCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for EazyCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "powered by <a href=\"http://www.eazycms.com\" target=\"_blank\">eazyCMS</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "powered\\ by\\ <a\\ href=\"http://www\\.eazycms\\.com\"\\ target=\"_blank\">eazyCMS</a>"
+    },
+    {
+      "name": "EazyCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for EazyCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a [^href]+href=\"http://www.eazyCMS.com[/]*\"[^>]*>powered by eazyCMS</a>"
+    },
+    {
+      "name": "EazyCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for EazyCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.eazycms.com\">eazyCMS</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.eazycms\\.com\">eazyCMS</a>"
+    },
+    {
+      "name": "EazyCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for EazyCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a title=\"eazyCMS :: The eazy-to-use Content Management System, maintain your website from anywhere in the world via a web browser!\" href=\"http://www.eazycms.com\" target=\"eazycms\">eazyCMS</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ title=\"eazyCMS\\ ::\\ The\\ eazy\\-to\\-use\\ Content\\ Management\\ System,\\ maintain\\ your\\ website\\ from\\ anywhere\\ in\\ the\\ world\\ via\\ a\\ web\\ browser!\"\\ href=\"http://www\\.eazycms\\.com\"\\ target=\"eazycms\">eazyCMS</a>"
+    }
+  ]
+}

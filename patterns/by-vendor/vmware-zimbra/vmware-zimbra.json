@@ -1,0 +1,164 @@
+{
+  "vendor": "VMware-Zimbra",
+  "vendor_id": "vmware-zimbra",
+  "product": "VMware-Zimbra",
+  "product_id": "vmware-zimbra",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VMware-Zimbra Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VMware-Zimbra",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"Zimbra provides open source server and client software for messaging and collaboration. To find out more visit http://www.zimbra.com.\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"Zimbra\\ provides\\ open\\ source\\ server\\ and\\ client\\ software\\ for\\ messaging\\ and\\ collaboration\\.\\ To\\ find\\ out\\ more\\ visit\\ http://www\\.zimbra\\.com\\.\">"
+    },
+    {
+      "name": "VMware-Zimbra Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VMware-Zimbra",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--div id=\"ZLoginAppName\">Web Client</div-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-div\\ id=\"ZLoginAppName\">Web\\ Client</div\\-\\->"
+    },
+    {
+      "name": "VMware-Zimbra Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VMware-Zimbra",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Zimbra Web Client Log In</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Zimbra\\ Web\\ Client\\ Log\\ In</title>"
+    },
+    {
+      "name": "VMware-Zimbra Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VMware-Zimbra",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<h1><a href=\"http://www.zimbra.com/\" id=\"bannerLink\" target=\"_new\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<h1><a\\ href=\"http://www\\.zimbra\\.com/\"\\ id=\"bannerLink\"\\ target=\"_new\">"
+    },
+    {
+      "name": "VMware-Zimbra Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VMware-Zimbra",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td><input id=\"password\" class=\"zLoginField\" name=\"password\" type=\"password\" value=\"\" size=\"40\"/></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td><input\\ id=\"password\"\\ class=\"zLoginField\"\\ name=\"password\"\\ type=\"password\"\\ value=\"\"\\ size=\"40\"/></td>"
+    },
+    {
+      "name": "VMware-Zimbra Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VMware-Zimbra",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"ZLoginWhatsThis\" class=\"ZLoginInfoMessage\" style=\"display:none;\"><center style=\"margin-bottom:3px;\"><b>Client Types:</b></center>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"ZLoginWhatsThis\"\\ class=\"ZLoginInfoMessage\"\\ style=\"display:none;\"><center\\ style=\"margin\\-bottom:3px;\"><b>Client\\ Types:</b></center>"
+    },
+    {
+      "name": "VMware-Zimbra Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VMware-Zimbra",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"ZLoginNotice\" class=\"legalNotice-small\"><a target=\"_new\" href=\"http://www.zimbra.com\">Zimbra</a> :: the leader in open source messaging and collaboration ::",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"ZLoginNotice\"\\ class=\"legalNotice\\-small\"><a\\ target=\"_new\"\\ href=\"http://www\\.zimbra\\.com\">Zimbra</a>\\ ::\\ the\\ leader\\ in\\ open\\ source\\ messaging\\ and\\ collaboration\\ ::"
+    }
+  ]
+}

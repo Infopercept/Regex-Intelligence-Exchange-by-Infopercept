@@ -1,0 +1,86 @@
+{
+  "vendor": "VSP-Stats-Processor",
+  "vendor_id": "vsp-stats-processor",
+  "product": "VSP-Stats-Processor",
+  "product_id": "vsp-stats-processor",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VSP-Stats-Processor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VSP-Stats-Processor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "powered by <A HREF=\"http://www.(scivox.net|clanavl.com)/vsp/\">vsp stats processor</A>"
+    },
+    {
+      "name": "VSP-Stats-Processor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VSP-Stats-Processor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "&nbsp;theme:bismarck by <A HREF=\"#\" TITLE=\"myrddin8 <AT> gmail <DOT> com\">myrddin</A>&nbsp;",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\&nbsp;theme:bismarck\\ by\\ <A\\ HREF=\"\\#\"\\ TITLE=\"myrddin8\\ <AT>\\ gmail\\ <DOT>\\ com\">myrddin</A>\\&nbsp;"
+    },
+    {
+      "name": "VSP-Stats-Processor Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VSP-Stats-Processor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<TITLE>vsp \\((map|award|game|player) stats\\)</TITLE>"
+    },
+    {
+      "name": "VSP-Stats-Processor Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VSP-Stats-Processor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<BODY>error: cannot establish database connection or database database_name does not exist",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<BODY>error:\\ cannot\\ establish\\ database\\ connection\\ or\\ database\\ database_name\\ does\\ not\\ exist"
+    }
+  ]
+}

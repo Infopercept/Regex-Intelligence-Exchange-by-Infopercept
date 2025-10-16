@@ -1,0 +1,142 @@
+{
+  "vendor": "SX-Webserver",
+  "vendor_id": "sx-webserver",
+  "product": "SX-Webserver",
+  "product_id": "sx-webserver",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SX-Webserver Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SX-Webserver",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<head></head><body><html><h1>Error 400</h1><p>The server couldn't understand your request.</html></body>\\r\\n",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<head></head><body><html><h1>Error\\ 400</h1><p>The\\ server\\ couldn't\\ understand\\ your\\ request\\.</html></body>\\\\r\\\\n"
+    },
+    {
+      "name": "SX-Webserver Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SX-Webserver",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<head></head><body><html><h1>Error 403</h1><p>Forbidden.</html></body>\\r\\n",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<head></head><body><html><h1>Error\\ 403</h1><p>Forbidden\\.</html></body>\\\\r\\\\n"
+    },
+    {
+      "name": "SX-Webserver Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SX-Webserver",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<head></head><body><html><h1>Error 404</h1><p>Document not found.</html></body>\\r\\n",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<head></head><body><html><h1>Error\\ 404</h1><p>Document\\ not\\ found\\.</html></body>\\\\r\\\\n"
+    },
+    {
+      "name": "SX-Webserver Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SX-Webserver",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<head></head><body><html><h1>Error 500</h1><p>The server encountered an unexpected condition which prevented it from fulfilling the request.</html></body>\\r\\n",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<head></head><body><html><h1>Error\\ 500</h1><p>The\\ server\\ encountered\\ an\\ unexpected\\ condition\\ which\\ prevented\\ it\\ from\\ fulfilling\\ the\\ request\\.</html></body>\\\\r\\\\n"
+    },
+    {
+      "name": "SX-Webserver Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SX-Webserver",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<head></head><body><html><h1>Error 501</h1><p>This feature is not implemented.</html></body>\\r\\n",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<head></head><body><html><h1>Error\\ 501</h1><p>This\\ feature\\ is\\ not\\ implemented\\.</html></body>\\\\r\\\\n"
+    },
+    {
+      "name": "SX-Webserver Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SX-Webserver",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<head></head><body><html><h1>Error 505</h1><p>HTTP Version not supported.  This server supports HTTP 1.0 and HTTP 1.1.</html></body>\\r\\n",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<head></head><body><html><h1>Error\\ 505</h1><p>HTTP\\ Version\\ not\\ supported\\.\\ \\ This\\ server\\ supports\\ HTTP\\ 1\\.0\\ and\\ HTTP\\ 1\\.1\\.</html></body>\\\\r\\\\n"
+    }
+  ]
+}

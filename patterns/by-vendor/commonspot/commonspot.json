@@ -1,0 +1,58 @@
+{
+  "vendor": "CommonSpot",
+  "vendor_id": "commonspot",
+  "product": "CommonSpot",
+  "product_id": "commonspot",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CommonSpot Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CommonSpot",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta[^>]+name=\"Generator\"[^>]+content=\"CommonSpot[^\"]+\"[^>]*/>"
+    },
+    {
+      "name": "CommonSpot Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CommonSpot",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<img[^>]+src=\"[^\"]+commonspot[^\"]+\"[^>]*/>"
+    },
+    {
+      "name": "CommonSpot Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CommonSpot",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link[^>]+href=\"[^\"]commonspot/commonspot\\.css\"[^>]+/>"
+    }
+  ]
+}

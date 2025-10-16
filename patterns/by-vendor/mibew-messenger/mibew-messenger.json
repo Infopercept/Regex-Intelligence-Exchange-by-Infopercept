@@ -1,0 +1,32 @@
+{
+  "vendor": "Mibew-Messenger",
+  "vendor_id": "mibew-messenger",
+  "product": "Mibew-Messenger",
+  "product_id": "mibew-messenger",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mibew-Messenger Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mibew-Messenger",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"empty_inner\" style=\"\">&#160;</div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"empty_inner\"\\ style=\"\">\\&\\#160;</div>"
+    }
+  ]
+}

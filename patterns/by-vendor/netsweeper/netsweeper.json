@@ -1,0 +1,230 @@
+{
+  "vendor": "Netsweeper",
+  "vendor_id": "netsweeper",
+  "product": "Netsweeper",
+  "product_id": "netsweeper",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Netsweeper Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netsweeper",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<DIV id=\"overDiv\" style=\"position:absolute; visibility:hidden; z-index:104;\"></DIV>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<DIV\\ id=\"overDiv\"\\ style=\"position:absolute;\\ visibility:hidden;\\ z\\-index:104;\"></DIV>"
+    },
+    {
+      "name": "Netsweeper Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netsweeper",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"overDiv\" style=\"position:absolute; visibility:hidden; z-index:104;\"></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"overDiv\"\\ style=\"position:absolute;\\ visibility:hidden;\\ z\\-index:104;\"></div>"
+    },
+    {
+      "name": "Netsweeper Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netsweeper",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Body of content starts here -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Body\\ of\\ content\\ starts\\ here\\ \\-\\->"
+    },
+    {
+      "name": "Netsweeper Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netsweeper",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<BR><SPAN class='netsweepersmbtextatbottomofloginscreen'>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<BR><SPAN\\ class='netsweepersmbtextatbottomofloginscreen'>"
+    },
+    {
+      "name": "Netsweeper Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netsweeper",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<br><span class='netsweepersmbtextatbottomofloginscreen'>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<br><span\\ class='netsweepersmbtextatbottomofloginscreen'>"
+    },
+    {
+      "name": "Netsweeper Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netsweeper",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- full_page_header.html START -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ full_page_header\\.html\\ START\\ \\-\\->"
+    },
+    {
+      "name": "Netsweeper Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netsweeper",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- full_page_footer.html START-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ full_page_footer\\.html\\ START\\-\\->"
+    },
+    {
+      "name": "Netsweeper Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netsweeper",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a target=_parent href=\"../\" >Please click <u>here</u> to continue.</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ target=_parent\\ href=\"\\.\\./\"\\ >Please\\ click\\ <u>here</u>\\ to\\ continue\\.</a>"
+    },
+    {
+      "name": "Netsweeper Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netsweeper",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.poweredbynetsweeper.com\"><img src=\"http://www.poweredbynetsweeper.com/images/deny/global/poweredbynetsweeper.gif\" border=\"0\" alt=\"\" align=\"top\" /></a></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.poweredbynetsweeper\\.com\"><img\\ src=\"http://www\\.poweredbynetsweeper\\.com/images/deny/global/poweredbynetsweeper\\.gif\"\\ border=\"0\"\\ alt=\"\"\\ align=\"top\"\\ /></a></td>"
+    },
+    {
+      "name": "Netsweeper Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Netsweeper",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.poweredbynetsweeper.com\"><img align=top border=0 src=\"http://www.poweredbynetsweeper.com/images/deny/global/poweredbynetsweeper.gif\"></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.poweredbynetsweeper\\.com\"><img\\ align=top\\ border=0\\ src=\"http://www\\.poweredbynetsweeper\\.com/images/deny/global/poweredbynetsweeper\\.gif\"></a>"
+    }
+  ]
+}

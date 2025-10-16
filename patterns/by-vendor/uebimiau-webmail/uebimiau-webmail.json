@@ -1,0 +1,98 @@
+{
+  "vendor": "Uebimiau-Webmail",
+  "vendor_id": "uebimiau-webmail",
+  "product": "Uebimiau-Webmail",
+  "product_id": "uebimiau-webmail",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Uebimiau-Webmail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Uebimiau-Webmail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Uebimiau ( Installer )</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Uebimiau\\ \\(\\ Installer\\ \\)</title>"
+    },
+    {
+      "name": "Uebimiau-Webmail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Uebimiau-Webmail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>You are about to re-install Uebimiau Webmail on you system.<br>Thanks to log with your UebiMiau Admin ID and password to continue.</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>You\\ are\\ about\\ to\\ re\\-install\\ Uebimiau\\ Webmail\\ on\\ you\\ system\\.<br>Thanks\\ to\\ log\\ with\\ your\\ UebiMiau\\ Admin\\ ID\\ and\\ password\\ to\\ continue\\.</p>"
+    },
+    {
+      "name": "Uebimiau-Webmail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Uebimiau-Webmail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"text/javascript\" src=\"themes/default/js/webmail.js\"></script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ type=\"text/javascript\"\\ src=\"themes/default/js/webmail\\.js\"></script>"
+    },
+    {
+      "name": "Uebimiau-Webmail Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Uebimiau-Webmail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"keywords\" content=\"uebimiau,tdah,uebimiau,webmail,email,mail,client,application,pop3,php,open     source,free,sourceforge,development\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"keywords\"\\ content=\"uebimiau,tdah,uebimiau,webmail,email,mail,client,application,pop3,php,open\\ \\ \\ \\ \\ source,free,sourceforge,development\"\\ />"
+    }
+  ]
+}

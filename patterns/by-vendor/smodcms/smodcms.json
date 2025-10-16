@@ -1,0 +1,70 @@
+{
+  "vendor": "SmodCMS",
+  "vendor_id": "smodcms",
+  "product": "SmodCMS",
+  "product_id": "smodcms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SmodCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SmodCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Generator\" content=\"SmodCMS\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Generator\"\\ content=\"SmodCMS\"\\ />"
+    },
+    {
+      "name": "SmodCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SmodCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Authoring_Tool\" content=\"SmodCMS // www.smod.pl\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Authoring_Tool\"\\ content=\"SmodCMS\\ //\\ www\\.smod\\.pl\"\\ />"
+    },
+    {
+      "name": "SmodCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SmodCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "[P|p]+owered by <a href=\"http://www.smod.pl[/]+\"[^>]+>SmodCMS[\\s]*</a>"
+    }
+  ]
+}

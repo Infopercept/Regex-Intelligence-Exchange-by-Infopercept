@@ -1,0 +1,54 @@
+{
+  "vendor": "MYRE-PHP",
+  "vendor_id": "myre-php",
+  "product": "MYRE-PHP",
+  "product_id": "myre-php",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MYRE-PHP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MYRE-PHP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td align=right><a href='links_view.php'><font class='menu_top'><b><u>My Last Viewed</u></b></font></a>&nbsp;&nbsp;<a href='alert.php?action=register'><font class='menu_top'><b><u>Get e-mail alerts</u></b></font></a>&nbsp;&nbsp;",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ align=right><a\\ href='links_view\\.php'><font\\ class='menu_top'><b><u>My\\ Last\\ Viewed</u></b></font></a>\\&nbsp;\\&nbsp;<a\\ href='alert\\.php\\?action=register'><font\\ class='menu_top'><b><u>Get\\ e\\-mail\\ alerts</u></b></font></a>\\&nbsp;\\&nbsp;"
+    },
+    {
+      "name": "MYRE-PHP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MYRE-PHP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- BEGIN: MENU FOOTER don't change anything -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ BEGIN:\\ MENU\\ FOOTER\\ don't\\ change\\ anything\\ \\-\\->"
+    }
+  ]
+}

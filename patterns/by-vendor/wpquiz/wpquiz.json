@@ -1,0 +1,48 @@
+{
+  "vendor": "wpQuiz",
+  "vendor_id": "wpquiz",
+  "product": "wpQuiz",
+  "product_id": "wpquiz",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "wpQuiz Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for wpQuiz",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>[^>]*>> [Register|Login]+ - wp[q|Q]+uiz</title>"
+    },
+    {
+      "name": "wpQuiz Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for wpQuiz",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class='small' style='text-align: center;'>Powered by wpQuiz</div>\n",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class='small'\\ style='text\\-align:\\ center;'>Powered\\ by\\ wpQuiz</div>\\\n"
+    }
+  ]
+}

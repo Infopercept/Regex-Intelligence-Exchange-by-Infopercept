@@ -1,0 +1,153 @@
+{
+  "vendor": "FormMail",
+  "vendor_id": "formmail",
+  "product": "FormMail",
+  "product_id": "formmail",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FormMail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FormMail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "This form was suplied by <A href=\"http://www.worldwidemart.com/scripts/formmail.shtml\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "This\\ form\\ was\\ suplied\\ by\\ <A\\ href=\"http://www\\.worldwidemart\\.com/scripts/formmail\\.shtml\""
+    },
+    {
+      "name": "FormMail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FormMail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.worldwidemart.com/scripts/formmail.shtml\">FormMail</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.worldwidemart\\.com/scripts/formmail\\.shtml\">FormMail</a>"
+    },
+    {
+      "name": "copyright",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FormMail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "&copy; 19[\\d]+ -[\\d]+ Matt Wright<BR>"
+    },
+    {
+      "name": "FormMail Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FormMail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>FormMail ",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>FormMail\\ "
+    },
+    {
+      "name": "FormMail Pattern",
+      "priority": 50,
+      "confidence": 0.5,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FormMail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "A Free Product of <a href=\"http://www.worldwidemart.com/scripts/\">Matt\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "A\\ Free\\ Product\\ of\\ <a\\ href=\"http://www\\.worldwidemart\\.com/scripts/\">Matt\\\\"
+    },
+    {
+      "name": "FormMail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FormMail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr><th><font size=+2>FormMail</font></th></tr>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr><th><font\\ size=\\+2>FormMail</font></th></tr>"
+    },
+    {
+      "name": "FormMail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FormMail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Copyright 1995 - 2001 Matt Wright<br>[\\s]+Version 1.9",
+      "version_group": 1
+    }
+  ]
+}

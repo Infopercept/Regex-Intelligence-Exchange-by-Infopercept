@@ -1,0 +1,54 @@
+{
+  "vendor": "ManageEngine-DeviceExpert",
+  "vendor_id": "manageengine-deviceexpert",
+  "product": "ManageEngine-DeviceExpert",
+  "product_id": "manageengine-deviceexpert",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ManageEngine-DeviceExpert Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ManageEngine-DeviceExpert",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"hidden\" name=\"AUTHRULE_NAME\" id=\"AUTHRULE_NAME\" value=\"Authenticator\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ type=\"hidden\"\\ name=\"AUTHRULE_NAME\"\\ id=\"AUTHRULE_NAME\"\\ value=\"Authenticator\">"
+    },
+    {
+      "name": "ManageEngine-DeviceExpert Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ManageEngine-DeviceExpert",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<SCRIPT language=\"javascript\" src=\"/javascript/deviceexpert.js\"></SCRIPT>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<SCRIPT\\ language=\"javascript\"\\ src=\"/javascript/deviceexpert\\.js\"></SCRIPT>"
+    }
+  ]
+}

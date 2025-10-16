@@ -1,0 +1,99 @@
+{
+  "vendor": "NetGear-Print-Server",
+  "vendor_id": "netgear-print-server",
+  "product": "NetGear-Print-Server",
+  "product_id": "netgear-print-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "NetGear-Print-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetGear-Print-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>NetGear Print Server Setup</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>NetGear\\ Print\\ Server\\ Setup</title>"
+    },
+    {
+      "name": "NetGear-Print-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetGear-Print-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>To provide an enhanced user interface, this Print Server uses JavaScript extensively.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>To\\ provide\\ an\\ enhanced\\ user\\ interface,\\ this\\ Print\\ Server\\ uses\\ JavaScript\\ extensively\\."
+    },
+    {
+      "name": "NetGear-Print-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetGear-Print-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>NETGEAR Print Server </title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>NETGEAR\\ Print\\ Server\\ </title>"
+    },
+    {
+      "name": "NetGear-Print-Server Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetGear-Print-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^PRINT_SERVER WEB 8.5$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^PRINT_SERVER WEB ([\\d\\.]+)$",
+      "version_group": 1
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "vendor": "Level1-Router",
+  "vendor_id": "level1-router",
+  "product": "Level1-Router",
+  "product_id": "level1-router",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Level1-Router Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Level1-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!---CAS:0003--><HTML>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\-CAS:0003\\-\\-><HTML>"
+    }
+  ]
+}

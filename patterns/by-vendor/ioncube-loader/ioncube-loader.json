@@ -1,0 +1,76 @@
+{
+  "vendor": "ionCube-Loader",
+  "vendor_id": "ioncube-loader",
+  "product": "ionCube-Loader",
+  "product_id": "ioncube-loader",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ionCube-Loader Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ionCube-Loader",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"?page=logo\" alt=\"ionCube logo\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"\\?page=logo\"\\ alt=\"ionCube\\ logo\">"
+    },
+    {
+      "name": "ionCube-Loader Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ionCube-Loader",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<h2>ionCube Loader Wizard</h2><p class=\"alert\">An updated version of this Wizard script is available <a href=\"http://loaders.ioncube.com/\">here</a>.</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<h2>ionCube\\ Loader\\ Wizard</h2><p\\ class=\"alert\">An\\ updated\\ version\\ of\\ this\\ Wizard\\ script\\ is\\ available\\ <a\\ href=\"http://loaders\\.ioncube\\.com/\">here</a>\\.</p>"
+    },
+    {
+      "name": "ionCube-Loader Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ionCube-Loader",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"loading\"><script type=\"text/javascript\">document.write(\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"loading\"><script\\ type=\"text/javascript\">document\\.write\\(\\\\"
+    }
+  ]
+}

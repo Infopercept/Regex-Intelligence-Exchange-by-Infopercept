@@ -1,0 +1,76 @@
+{
+  "vendor": "Infinet-bCX1-Controller-Router",
+  "vendor_id": "infinet-bcx1-controller-router",
+  "product": "Infinet-bCX1-Controller-Router",
+  "product_id": "infinet-bcx1-controller-router",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Infinet-bCX1-Controller-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Infinet-bCX1-Controller-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<H2><u><A HREF=\"/BCXMain\"><font face=\"Arial\" size=\"3\">Controller Configuration Options</FONT></A></u></H2>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<H2><u><A\\ HREF=\"/BCXMain\"><font\\ face=\"Arial\"\\ size=\"3\">Controller\\ Configuration\\ Options</FONT></A></u></H2>"
+    },
+    {
+      "name": "Infinet-bCX1-Controller-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Infinet-bCX1-Controller-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img BORDER=\"0\" src=\"/Images/taclogo\" </A></H3>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ BORDER=\"0\"\\ src=\"/Images/taclogo\"\\ </A></H3>"
+    },
+    {
+      "name": "Infinet-bCX1-Controller-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Infinet-bCX1-Controller-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img BORDER=\"0\" src=\"/Images/AndoverContinuum\"</A><P>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ BORDER=\"0\"\\ src=\"/Images/AndoverContinuum\"</A><P>"
+    }
+  ]
+}

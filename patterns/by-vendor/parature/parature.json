@@ -1,0 +1,76 @@
+{
+  "vendor": "Parature",
+  "vendor_id": "parature",
+  "product": "Parature",
+  "product_id": "parature",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Parature Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parature",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "This Website requires your browser to be JavaScript enabled. Please enable JavaScript  and click <a href=\"/ics/default.asp\">here</a> to continue.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "This\\ Website\\ requires\\ your\\ browser\\ to\\ be\\ JavaScript\\ enabled\\.\\ Please\\ enable\\ JavaScript\\ \\ and\\ click\\ <a\\ href=\"/ics/default\\.asp\">here</a>\\ to\\ continue\\."
+    },
+    {
+      "name": "Parature Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parature",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "RedirectPortalURL('/ics/support/custhandler.asp?task=signOut&redirectURL=' + encodeURI('",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "RedirectPortalURL\\('/ics/support/custhandler\\.asp\\?task=signOut\\&redirectURL='\\ \\+\\ encodeURI\\('"
+    },
+    {
+      "name": "Parature Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Parature",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<frame title=\"Left Navigation\" name=\"cypLeft\" src=\"KBFolder.asp?deptID=",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<frame\\ title=\"Left\\ Navigation\"\\ name=\"cypLeft\"\\ src=\"KBFolder\\.asp\\?deptID="
+    }
+  ]
+}

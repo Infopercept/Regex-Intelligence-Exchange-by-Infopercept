@@ -1,0 +1,49 @@
+{
+  "vendor": "BlackJumboDog",
+  "vendor_id": "blackjumbodog",
+  "product": "BlackJumboDog",
+  "product_id": "blackjumbodog",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BlackJumboDog Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BlackJumboDog",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^BlackJumboDog$"
+    },
+    {
+      "name": "BlackJumboDog Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BlackJumboDog",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^BlackJumboDog Version (.+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^BlackJumboDog Version (.+)$",
+      "version_group": 1
+    }
+  ]
+}

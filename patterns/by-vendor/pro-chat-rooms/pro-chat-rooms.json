@@ -1,0 +1,76 @@
+{
+  "vendor": "Pro-Chat-Rooms",
+  "vendor_id": "pro-chat-rooms",
+  "product": "Pro-Chat-Rooms",
+  "product_id": "pro-chat-rooms",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Pro-Chat-Rooms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Pro-Chat-Rooms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Pro Chat Rooms</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Pro\\ Chat\\ Rooms</title>"
+    },
+    {
+      "name": "Pro-Chat-Rooms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Pro-Chat-Rooms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr id=\"doPasswordBox\"><td>Password:</td><td><input type=\"password\" name=\"password\" id=\"password\" value=\"\" onblur=\"def(\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr\\ id=\"doPasswordBox\"><td>Password:</td><td><input\\ type=\"password\"\\ name=\"password\"\\ id=\"password\"\\ value=\"\"\\ onblur=\"def\\(\\\\"
+    },
+    {
+      "name": "Pro-Chat-Rooms Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Pro-Chat-Rooms",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\tshowError(\"char_error\", \"Sorry, Username is already registered.\");",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\tshowError\\(\"char_error\",\\ \"Sorry,\\ Username\\ is\\ already\\ registered\\.\"\\);"
+    }
+  ]
+}

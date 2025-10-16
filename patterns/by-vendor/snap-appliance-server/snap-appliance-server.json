@@ -1,0 +1,154 @@
+{
+  "vendor": "Snap-Appliance-Server",
+  "vendor_id": "snap-appliance-server",
+  "product": "Snap-Appliance-Server",
+  "product_id": "snap-appliance-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Snap-Appliance-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Snap-Appliance-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<A HREF=\"http://www.snapappliance.com/support\" TARGET=\"new\"><IMG SRC=\"/config/resource/Tech.gif\"  ALIGN=\"TOP\" NATURALSIZEFLAG=\"3\" BORDER=\"0\" ALT=\"\"></A> ",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<A\\ HREF=\"http://www\\.snapappliance\\.com/support\"\\ TARGET=\"new\"><IMG\\ SRC=\"/config/resource/Tech\\.gif\"\\ \\ ALIGN=\"TOP\"\\ NATURALSIZEFLAG=\"3\"\\ BORDER=\"0\"\\ ALT=\"\"></A>\\ "
+    },
+    {
+      "name": "Snap-Appliance-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Snap-Appliance-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<A HREF=\"javascript:_ShowAbout()\" onMouseOver=\"window.status=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<A\\ HREF=\"javascript:_ShowAbout\\(\\)\"\\ onMouseOver=\"window\\.status=\\\\"
+    },
+    {
+      "name": "Snap-Appliance-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Snap-Appliance-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "   window.open(\"/config?Func=AboutSend\",\"AboutSnap\",\"toolbar=no,location=no,status=no,menubar=no,scrollbars=no,width=500,height=395,resizable=yes,dependent=yes\"); ",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ window\\.open\\(\"/config\\?Func=AboutSend\",\"AboutSnap\",\"toolbar=no,location=no,status=no,menubar=no,scrollbars=no,width=500,height=395,resizable=yes,dependent=yes\"\\);\\ "
+    },
+    {
+      "name": "Snap-Appliance-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Snap-Appliance-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Snap Appliance"
+    },
+    {
+      "name": "Snap-Appliance-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Snap-Appliance-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Quantum Corporation"
+    },
+    {
+      "name": "Snap-Appliance-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Snap-Appliance-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Snap Appliances?, Inc\\./8.5$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Snap Appliances?, Inc\\./([\\d\\.]+)$",
+      "version_group": 1
+    },
+    {
+      "name": "Snap-Appliance-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Snap-Appliance-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Quantum Corporation\\./8.5$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Quantum Corporation\\./([\\d\\.]+)$",
+      "version_group": 1
+    }
+  ]
+}

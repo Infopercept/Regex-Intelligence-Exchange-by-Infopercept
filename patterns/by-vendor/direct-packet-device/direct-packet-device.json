@@ -1,0 +1,54 @@
+{
+  "vendor": "Direct-Packet-Device",
+  "vendor_id": "direct-packet-device",
+  "product": "Direct-Packet-Device",
+  "product_id": "direct-packet-device",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Direct-Packet-Device Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Direct-Packet-Device",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body bgcolor=#efefef link=# vlink=# text=#3f3f3f background=  >",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ bgcolor=\\#efefef\\ link=\\#\\ vlink=\\#\\ text=\\#3f3f3f\\ background=\\ \\ >"
+    },
+    {
+      "name": "Direct-Packet-Device Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Direct-Packet-Device",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td height=\"30\" class=\"login\"><b><font color=\"ffffff\" size=\"2\" face=\"Arial, Helvetica, sans-serif\">Password</font></b></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ height=\"30\"\\ class=\"login\"><b><font\\ color=\"ffffff\"\\ size=\"2\"\\ face=\"Arial,\\ Helvetica,\\ sans\\-serif\">Password</font></b></td>"
+    }
+  ]
+}

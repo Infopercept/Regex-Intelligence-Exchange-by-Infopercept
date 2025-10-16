@@ -1,0 +1,134 @@
+{
+  "vendor": "Plone",
+  "vendor_id": "plone",
+  "product": "Plone",
+  "product_id": "plone",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "meta generator tag",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=\"generator\" content=\"[^>]*http://plone.org\" />"
+    },
+    {
+      "name": "plone css",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "(@import url|text/css)[^>]*portal_css/.*plone.*css(\\)|\")"
+    },
+    {
+      "name": "plone javascript",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "src=\"[^\"]*ploneScripts[0-9]+.js\""
+    },
+    {
+      "name": "Plone Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"visualIcon contenttype-plone-site\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"visualIcon\\ contenttype\\-plone\\-site\">"
+    },
+    {
+      "name": "div tag, visual-portal-wrapper",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"visual-portal-wrapper\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"visual\\-portal\\-wrapper\">"
+    },
+    {
+      "name": "X-Caching-Rule-Id: plone-content-types",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "plone-content-types"
+    },
+    {
+      "name": "X-Cache-Rule: plone-content-types",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "plone-content-types"
+    }
+  ]
+}

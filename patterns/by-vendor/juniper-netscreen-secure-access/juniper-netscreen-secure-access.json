@@ -1,0 +1,26 @@
+{
+  "vendor": "Juniper-NetScreen-Secure-Access",
+  "vendor_id": "juniper-netscreen-secure-access",
+  "product": "Juniper-NetScreen-Secure-Access",
+  "product_id": "juniper-netscreen-secure-access",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "html body",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Juniper-NetScreen-Secure-Access",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "src=\"/dana\\-na/css/ds\\.js\">|<img border=\"0\" src=\"welcome\\.cgi\\?p=logo|src=\"/dana\\-na/imgs/space\\.gif\"|document\\.cookie = \"DSPREAUTH=\"\\+ escape\\(\"\"\\)|src=\"/dana\\-na/auth/url_default/s"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "vendor": "SyndeoCMS",
+  "vendor_id": "syndeocms",
+  "product": "SyndeoCMS",
+  "product_id": "syndeocms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SyndeoCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SyndeoCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by <a href=\"http://www.syndeocms.org[/]?\" target=\"_blank\">"
+    },
+    {
+      "name": "SyndeoCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SyndeoCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by <a href=\"http://www.syndeocms.org[/]?\" title=\"SyndeoCMS\">"
+    },
+    {
+      "name": "SyndeoCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SyndeoCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by <a href=\"http://www.syndeocms.org[/]?\"[^>]*>SyndeoCMS</a>"
+    },
+    {
+      "name": "SyndeoCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SyndeoCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Site created with <a href=\"http://www.syndeocms.org[/]?\">SyndeoCMS</a>"
+    },
+    {
+      "name": "SyndeoCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SyndeoCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Please don't remove my credits! I worked hard to create this theme and distribute it freely. Thanks! -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Please\\ don't\\ remove\\ my\\ credits!\\ I\\ worked\\ hard\\ to\\ create\\ this\\ theme\\ and\\ distribute\\ it\\ freely\\.\\ Thanks!\\ \\-\\->"
+    }
+  ]
+}

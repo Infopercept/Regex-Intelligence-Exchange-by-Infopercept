@@ -1,0 +1,80 @@
+{
+  "vendor": "FluxBB",
+  "vendor_id": "fluxbb",
+  "product": "FluxBB",
+  "product_id": "fluxbb",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Powered by",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FluxBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": ">P(owered by|ropuls&#233; par) (<strong>)?<a href=\"http://fluxbb\\.org/\">FluxBB</a>"
+    },
+    {
+      "name": "FluxBB Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FluxBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link rel=\"stylesheet\" type=\"text/css\" href=\"style/(Cobalt|Lithium|Mercury|Oxygen|Radium|Sulfur)\\.css\" />"
+    },
+    {
+      "name": "FluxBB Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FluxBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<li id=\"navlogin\"><a href=\"login.php\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<li\\ id=\"navlogin\"><a\\ href=\"login\\.php\">"
+    },
+    {
+      "name": "FluxBB Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FluxBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<div id=\"brdwelcome\" class=\"inbox\">[\\s]+<p>[^<]+</p>[\\s]+</div>"
+    }
+  ]
+}

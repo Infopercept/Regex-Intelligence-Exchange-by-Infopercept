@@ -1,0 +1,76 @@
+{
+  "vendor": "GeekLog",
+  "vendor_id": "geeklog",
+  "product": "GeekLog",
+  "product_id": "geeklog",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "GeekLog Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for GeekLog",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered By <a href=\"http://www.geeklog.net/\">Geeklog</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.geeklog\\.net/\">Geeklog</a>"
+    },
+    {
+      "name": "GeekLog Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for GeekLog",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered By <a class=\"footer\" href=\"http://www.geeklog.net/\">GeekLog</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ By\\ <a\\ class=\"footer\"\\ href=\"http://www\\.geeklog\\.net/\">GeekLog</a>"
+    },
+    {
+      "name": "GeekLog Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for GeekLog",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--If you want the splash, uncomment the last line. If you want no splash, make sure it is commented out.-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-If\\ you\\ want\\ the\\ splash,\\ uncomment\\ the\\ last\\ line\\.\\ If\\ you\\ want\\ no\\ splash,\\ make\\ sure\\ it\\ is\\ commented\\ out\\.\\-\\->"
+    }
+  ]
+}

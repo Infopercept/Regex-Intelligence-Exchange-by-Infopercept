@@ -1,0 +1,70 @@
+{
+  "vendor": "Axentra-HipServ",
+  "vendor_id": "axentra-hipserv",
+  "product": "Axentra-HipServ",
+  "product_id": "axentra-hipserv",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Axentra-HipServ Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axentra-HipServ",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"Axentra\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Axentra\">"
+    },
+    {
+      "name": "Axentra-HipServ Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axentra-HipServ",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title id=\"document_title\">Axentra :: Digital Home/SOHO Software Platform for Internet Gateway and NAS Devices</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title\\ id=\"document_title\">Axentra\\ ::\\ Digital\\ Home/SOHO\\ Software\\ Platform\\ for\\ Internet\\ Gateway\\ and\\ NAS\\ Devices</title>"
+    },
+    {
+      "name": "HOMEBASEID Cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axentra-HipServ",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "HOMEBASEID="
+    }
+  ]
+}

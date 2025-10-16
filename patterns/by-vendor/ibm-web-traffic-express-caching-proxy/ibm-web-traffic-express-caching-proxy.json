@@ -1,0 +1,33 @@
+{
+  "vendor": "IBM-Web-Traffic-Express-Caching-Proxy",
+  "vendor_id": "ibm-web-traffic-express-caching-proxy",
+  "product": "IBM-Web-Traffic-Express-Caching-Proxy",
+  "product_id": "ibm-web-traffic-express-caching-proxy",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "IBM-Web-Traffic-Express-Caching-Proxy Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for IBM-Web-Traffic-Express-Caching-Proxy",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^IBM-PROXY-WTE/([^\\s]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^IBM-PROXY-WTE/([^\\s]+)",
+      "version_group": 1
+    }
+  ]
+}

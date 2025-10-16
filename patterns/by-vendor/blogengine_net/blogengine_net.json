@@ -1,0 +1,48 @@
+{
+  "vendor": "BlogEngine_NET",
+  "vendor_id": "blogengine_net",
+  "product": "BlogEngine_NET",
+  "product_id": "blogengine_net",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BlogEngine_NET Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BlogEngine_NET",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"shortcut icon\" href=\"pics/blogengine.ico\" type=\"image/x-icon\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ href=\"pics/blogengine\\.ico\"\\ type=\"image/x\\-icon\"\\ />"
+    },
+    {
+      "name": "BlogEngine_NET Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BlogEngine_NET",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by[\\r\\n\\s]*<a href=\"http://www.dotnetblogengine.net[/]?\"[^>]*>BlogEngine.NET</a>"
+    }
+  ]
+}

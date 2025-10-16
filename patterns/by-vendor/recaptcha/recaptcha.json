@@ -1,0 +1,26 @@
+{
+  "vendor": "reCAPTCHA",
+  "vendor_id": "recaptcha",
+  "product": "reCAPTCHA",
+  "product_id": "recaptcha",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "reCAPTCHA Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for reCAPTCHA",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<noscript>[\\s]*<iframe src=\"http://www\\.google\\.com/recaptcha/api/noscript\\?k="
+    }
+  ]
+}

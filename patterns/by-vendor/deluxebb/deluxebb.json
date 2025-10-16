@@ -1,0 +1,48 @@
+{
+  "vendor": "DeluxeBB",
+  "vendor_id": "deluxebb",
+  "product": "DeluxeBB",
+  "product_id": "deluxebb",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DeluxeBB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DeluxeBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!-- \\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|[\\r\\n\\s]+\\| This forum is coded by and          \\|[\\r\\n\\s]+\\| copyrighted to Frank Nissel         \\|"
+    },
+    {
+      "name": "DeluxeBB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DeluxeBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"powered by DeluxeBB - www.deluxebb.com\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"powered\\ by\\ DeluxeBB\\ \\-\\ www\\.deluxebb\\.com\"\\ />"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "vendor": "Kerio-Connect",
+  "vendor_id": "kerio-connect",
+  "product": "Kerio-Connect",
+  "product_id": "kerio-connect",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Kerio-Connect Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kerio-Connect",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Kerio"
+    },
+    {
+      "name": "Kerio-Connect Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kerio-Connect",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Kerio (MailServer|Connect) (.+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Kerio (MailServer|Connect) (.+)$",
+      "version_group": 1
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "vendor": "Wing-FTP-Server",
+  "vendor_id": "wing-ftp-server",
+  "product": "Wing-FTP-Server",
+  "product_id": "wing-ftp-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Wing-FTP-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Wing-FTP-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Wing FTP Server/8.5\\(([^\\)]*)\\)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Wing FTP Server/([\\d\\.]+)\\(([^\\)]*)\\)$",
+      "version_group": 1
+    },
+    {
+      "name": "Wing-FTP-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Wing-FTP-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>JavaScript is a scripting language that works with your browser to create interactive elements in web pages. The web client depend on JavaScript to function properly. </p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>JavaScript\\ is\\ a\\ scripting\\ language\\ that\\ works\\ with\\ your\\ browser\\ to\\ create\\ interactive\\ elements\\ in\\ web\\ pages\\.\\ The\\ web\\ client\\ depend\\ on\\ JavaScript\\ to\\ function\\ properly\\.\\ </p>"
+    }
+  ]
+}

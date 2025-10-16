@@ -1,0 +1,76 @@
+{
+  "vendor": "ICEshop",
+  "vendor_id": "iceshop",
+  "product": "ICEshop",
+  "product_id": "iceshop",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ICEshop Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ICEshop",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p id=\"power_by\"><a href=\"http://www.iceshop.nl\" target=\"_blank\">Powered by ICEshop</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ id=\"power_by\"><a\\ href=\"http://www\\.iceshop\\.nl\"\\ target=\"_blank\">Powered\\ by\\ ICEshop</a></p>"
+    },
+    {
+      "name": "ICEshop Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ICEshop",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a class=\"link copyright02\" href=\"http://www.iceshop.nl/\" target=\"_blank\">ICEshop</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ class=\"link\\ copyright02\"\\ href=\"http://www\\.iceshop\\.nl/\"\\ target=\"_blank\">ICEshop</a>"
+    },
+    {
+      "name": "ICEshop Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ICEshop",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<dl class=\"box boxLogo  box02 iceshop\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<dl\\ class=\"box\\ boxLogo\\ \\ box02\\ iceshop\">"
+    }
+  ]
+}

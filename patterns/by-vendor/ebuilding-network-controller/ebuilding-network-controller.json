@@ -1,0 +1,54 @@
+{
+  "vendor": "eBuilding-Network-Controller",
+  "vendor_id": "ebuilding-network-controller",
+  "product": "eBuilding-Network-Controller",
+  "product_id": "ebuilding-network-controller",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "eBuilding-Network-Controller Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eBuilding-Network-Controller",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>eBuilding Web</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>eBuilding\\ Web</title>"
+    },
+    {
+      "name": "eBuilding-Network-Controller Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eBuilding-Network-Controller",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HTML><HEAD><TITLE>eBuilding Network Controller</TITLE><LINK title=global_style ",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<HTML><HEAD><TITLE>eBuilding\\ Network\\ Controller</TITLE><LINK\\ title=global_style\\ "
+    }
+  ]
+}

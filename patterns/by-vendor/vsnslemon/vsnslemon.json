@@ -1,0 +1,80 @@
+{
+  "vendor": "VSNSLemon",
+  "vendor_id": "vsnslemon",
+  "product": "VSNSLemon",
+  "product_id": "vsnslemon",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VSNSLemon Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VSNSLemon",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>Powered by <abbr title=\"very simple news system\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>Powered\\ by\\ <abbr\\ title=\"very\\ simple\\ news\\ system\">"
+    },
+    {
+      "name": "VSNSLemon Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VSNSLemon",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a[^>]+title=\"Blog powered by VSNS Lemon\">"
+    },
+    {
+      "name": "VSNSLemon Pattern",
+      "priority": 50,
+      "confidence": 0.5,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VSNSLemon",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<div id=\"vsns-(inner|container)\">"
+    },
+    {
+      "name": "VSNSLemon Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VSNSLemon",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<img[^>]+alt=\"VSNS Lemon\"[^>]+title=\"Blog powered by VSNS Lemon\""
+    }
+  ]
+}

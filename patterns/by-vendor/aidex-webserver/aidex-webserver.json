@@ -1,0 +1,55 @@
+{
+  "vendor": "AIDeX-Webserver",
+  "vendor_id": "aidex-webserver",
+  "product": "AIDeX-Webserver",
+  "product_id": "aidex-webserver",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AIDeX-Webserver Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AIDeX-Webserver",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^aidex/([^\\s]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^aidex/([^\\s]+)",
+      "version_group": 1
+    },
+    {
+      "name": "AIDeX-Webserver Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AIDeX-Webserver",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<br><small>Powered by <a href=\"http://www.aidex.de/software/webserver/\" target=\"_blank\">AIDeX Webserver</a></small></div></div><br><br><br>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<br><small>Powered\\ by\\ <a\\ href=\"http://www\\.aidex\\.de/software/webserver/\"\\ target=\"_blank\">AIDeX\\ Webserver</a></small></div></div><br><br><br>"
+    }
+  ]
+}

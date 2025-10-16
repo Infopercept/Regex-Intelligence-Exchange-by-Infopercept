@@ -1,0 +1,54 @@
+{
+  "vendor": "Reinvigorate",
+  "vendor_id": "reinvigorate",
+  "product": "Reinvigorate",
+  "product_id": "reinvigorate",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Reinvigorate Pattern",
+      "priority": 10,
+      "confidence": 0.1,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Reinvigorate",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Reinvigorate -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Reinvigorate\\ \\-\\->"
+    },
+    {
+      "name": "Reinvigorate Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Reinvigorate",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"text/javascript\" src=\"http://include.reinvigorate.net/re_.js\"></script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ type=\"text/javascript\"\\ src=\"http://include\\.reinvigorate\\.net/re_\\.js\"></script>"
+    }
+  ]
+}

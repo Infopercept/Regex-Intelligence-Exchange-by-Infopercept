@@ -1,0 +1,76 @@
+{
+  "vendor": "phpDealerLocator",
+  "vendor_id": "phpdealerlocator",
+  "product": "phpDealerLocator",
+  "product_id": "phpdealerlocator",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "phpDealerLocator Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpDealerLocator",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<select class=\"PythonSelect\" name=\"s_Dealer_Radius\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<select\\ class=\"PythonSelect\"\\ name=\"s_Dealer_Radius\">"
+    },
+    {
+      "name": "phpDealerLocator Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpDealerLocator",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</td></tr></table><b>Database error:</b> Invalid SQL: SELECT Cat_Text FROM ( dealer_category_matrix RIGHT JOIN dealers ON dealers.Dealer_ID = dealer_category_matrix.DCM_Dealer_ID ) RIGHT JOIN category ON dealer_category_matrix.DCM_Cat_ID = category.Cat_ID WHERE Dealer_ID =  AND (Dealer_Publish = 'Y') AND (Dealer_Approved = 'Y')<br>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</td></tr></table><b>Database\\ error:</b>\\ Invalid\\ SQL:\\ SELECT\\ Cat_Text\\ FROM\\ \\(\\ dealer_category_matrix\\ RIGHT\\ JOIN\\ dealers\\ ON\\ dealers\\.Dealer_ID\\ =\\ dealer_category_matrix\\.DCM_Dealer_ID\\ \\)\\ RIGHT\\ JOIN\\ category\\ ON\\ dealer_category_matrix\\.DCM_Cat_ID\\ =\\ category\\.Cat_ID\\ WHERE\\ Dealer_ID\\ =\\ \\ AND\\ \\(Dealer_Publish\\ =\\ 'Y'\\)\\ AND\\ \\(Dealer_Approved\\ =\\ 'Y'\\)<br>"
+    },
+    {
+      "name": "phpDealerLocator Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpDealerLocator",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td><label for=\"Dealer_Radiuss_Dealer_Zip\">Zipcode/Postal Code</label></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td><label\\ for=\"Dealer_Radiuss_Dealer_Zip\">Zipcode/Postal\\ Code</label></td>"
+    }
+  ]
+}

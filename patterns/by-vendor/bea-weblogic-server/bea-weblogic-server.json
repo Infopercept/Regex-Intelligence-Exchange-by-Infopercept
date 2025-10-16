@@ -1,0 +1,54 @@
+{
+  "vendor": "BEA-WebLogic-Server",
+  "vendor_id": "bea-weblogic-server",
+  "product": "BEA-WebLogic-Server",
+  "product_id": "bea-weblogic-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BEA-WebLogic-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BEA-WebLogic-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Default BEA WebLogic Server Web Server Index Page</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Default\\ BEA\\ WebLogic\\ Server\\ Web\\ Server\\ Index\\ Page</title>"
+    },
+    {
+      "name": "BEA-WebLogic-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BEA-WebLogic-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Default BEA WebLogic Server Web Server Index Page</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Default\\ BEA\\ WebLogic\\ Server\\ Web\\ Server\\ Index\\ Page</TITLE>"
+    }
+  ]
+}

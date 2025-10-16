@@ -1,0 +1,32 @@
+{
+  "vendor": "CGI-Backdoor",
+  "vendor_id": "cgi-backdoor",
+  "product": "CGI-Backdoor",
+  "product_id": "cgi-backdoor",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CGI-Backdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CGI-Backdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html><body><!-- Simple CGI backdoor by DK (http://michaeldaw.org) --><b style=\"color:black;background-color:#ffff66\">Usage</b>: http://target.com/perlcmd.cgi?cat /etc/passwd<pre></pre></body></html>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html><body><!\\-\\-\\ Simple\\ CGI\\ backdoor\\ by\\ DK\\ \\(http://michaeldaw\\.org\\)\\ \\-\\-><b\\ style=\"color:black;background\\-color:\\#ffff66\">Usage</b>:\\ http://target\\.com/perlcmd\\.cgi\\?cat\\ /etc/passwd<pre></pre></body></html>"
+    }
+  ]
+}

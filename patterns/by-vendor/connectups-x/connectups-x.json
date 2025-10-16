@@ -1,0 +1,48 @@
+{
+  "vendor": "ConnectUPS-X",
+  "vendor_id": "connectups-x",
+  "product": "ConnectUPS-X",
+  "product_id": "connectups-x",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ConnectUPS-X Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ConnectUPS-X",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "UPS_Server/1.0",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "UPS_Server/1\\.0"
+    },
+    {
+      "name": "ConnectUPS-X Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ConnectUPS-X",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<TITLE>ConnectUPS (Web/SNMP Card|SNMP/WEB Adapter)</TITLE>"
+    }
+  ]
+}

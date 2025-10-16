@@ -1,0 +1,76 @@
+{
+  "vendor": "D-Link-Network-Camera",
+  "vendor_id": "d-link-network-camera",
+  "product": "D-Link-Network-Camera",
+  "product_id": "d-link-network-camera",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "D-Link-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for D-Link-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>DCS-5300</title></head>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>DCS\\-5300</title></head>"
+    },
+    {
+      "name": "D-Link-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for D-Link-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>DCS-950G</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>DCS\\-950G</TITLE>"
+    },
+    {
+      "name": "D-Link-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for D-Link-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "if (document.domain.toLowerCase() == \"DCS-950G\".toLowerCase())",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "if\\ \\(document\\.domain\\.toLowerCase\\(\\)\\ ==\\ \"DCS\\-950G\"\\.toLowerCase\\(\\)\\)"
+    }
+  ]
+}

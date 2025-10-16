@@ -1,0 +1,65 @@
+{
+  "vendor": "Telligent-Community-Server",
+  "vendor_id": "telligent-community-server",
+  "product": "Telligent-Community-Server",
+  "product_id": "telligent-community-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Telligent-Community-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Telligent-Community-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "communityserver: ^1.0$",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "communityserver: ^([\\d\\.]+)$",
+      "version_group": 1
+    },
+    {
+      "name": "Cookies",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Telligent-Community-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^CommunityServer-UserCookie[\\d\\.]+"
+    },
+    {
+      "name": "Cookies",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Telligent-Community-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^CommunityServer-LastVisitUpdated-[\\d\\.]+"
+    }
+  ]
+}

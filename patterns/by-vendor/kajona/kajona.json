@@ -1,0 +1,102 @@
+{
+  "vendor": "Kajona",
+  "vendor_id": "kajona",
+  "product": "Kajona",
+  "product_id": "kajona",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Kajona Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kajona",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=\"generator\" content=\"Kajona., www\\.kajona\\.de\" />"
+    },
+    {
+      "name": "Kajona Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kajona",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!--\\s+Website powered by Kajona. Open Source Content Management Framework"
+    },
+    {
+      "name": "Kajona Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kajona",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script type=\"text/javascript\">KAJONA_(DEBUG|WEBPATH) = "
+    },
+    {
+      "name": "Kajona Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kajona",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"left\">powered by Kajona</div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"left\">powered\\ by\\ Kajona</div>"
+    },
+    {
+      "name": "Kajona Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kajona",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"footerContainer\">powered by <a href=\"http://www.kajona.de\" target=\"_blank\" title=\"Kajona",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"footerContainer\">powered\\ by\\ <a\\ href=\"http://www\\.kajona\\.de\"\\ target=\"_blank\"\\ title=\"Kajona"
+    }
+  ]
+}

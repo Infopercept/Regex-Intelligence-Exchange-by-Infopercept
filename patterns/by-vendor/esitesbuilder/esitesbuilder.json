@@ -1,0 +1,130 @@
+{
+  "vendor": "eSitesBuilder",
+  "vendor_id": "esitesbuilder",
+  "product": "eSitesBuilder",
+  "product_id": "esitesbuilder",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "eSitesBuilder Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eSitesBuilder",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- created by XTLabs, Inc. http://www.xt-labs.com -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ created\\ by\\ XTLabs,\\ Inc\\.\\ http://www\\.xt\\-labs\\.com\\ \\-\\->"
+    },
+    {
+      "name": "eSitesBuilder Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eSitesBuilder",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a [^href]+href=\"http://[www\\.]*esitesbuilder.com\">Powered by eSitesBuilder</a>"
+    },
+    {
+      "name": "eSitesBuilder Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eSitesBuilder",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.esitesbuilder.com/\" target=\"_blank\" alt=\"website builder\">eSitesBuilder</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.esitesbuilder\\.com/\"\\ target=\"_blank\"\\ alt=\"website\\ builder\">eSitesBuilder</a>"
+    },
+    {
+      "name": "eSitesBuilder Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eSitesBuilder",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "All rights reserved. Powered by eSitesBuilder",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "All\\ rights\\ reserved\\.\\ Powered\\ by\\ eSitesBuilder"
+    },
+    {
+      "name": "eSitesBuilder Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eSitesBuilder",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by[&nbsp;]*[\\s]*<a [^href]+href=\"http://[www\\.]*esitesbuilder.com\">eSitesBuilder</a>"
+    },
+    {
+      "name": "eSitesBuilder Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eSitesBuilder",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.esitesbuilder.com/\" target=\"_blank\" alt=\"website builder\">eSitesBuilder</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.esitesbuilder\\.com/\"\\ target=\"_blank\"\\ alt=\"website\\ builder\">eSitesBuilder</a>"
+    }
+  ]
+}

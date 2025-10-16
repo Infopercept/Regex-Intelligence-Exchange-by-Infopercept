@@ -1,0 +1,32 @@
+{
+  "vendor": "PHP-XMLRPC",
+  "vendor_id": "php-xmlrpc",
+  "product": "PHP-XMLRPC",
+  "product_id": "php-xmlrpc",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PHP-XMLRPC Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-XMLRPC",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"XML-RPC for PHP\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"XML\\-RPC\\ for\\ PHP\"\\ />"
+    }
+  ]
+}

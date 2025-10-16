@@ -1,0 +1,142 @@
+{
+  "vendor": "Puridiom",
+  "vendor_id": "puridiom",
+  "product": "Puridiom",
+  "product_id": "puridiom",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Puridiom Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Puridiom",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Puridiom, Enabling Self-Service Procurement</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Puridiom,\\ Enabling\\ Self\\-Service\\ Procurement</TITLE>"
+    },
+    {
+      "name": "Puridiom Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Puridiom",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Puridiom Xpress, Enabling Self-Service Procurement</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Puridiom\\ Xpress,\\ Enabling\\ Self\\-Service\\ Procurement</TITLE>"
+    },
+    {
+      "name": "Puridiom Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Puridiom",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<iframe id=\"getInfoFrame\" name=\"getInfoFrame\" src=\"/puridiom/system/processing.jsp\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<iframe\\ id=\"getInfoFrame\"\\ name=\"getInfoFrame\"\\ src=\"/puridiom/system/processing\\.jsp\""
+    },
+    {
+      "name": "Puridiom Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Puridiom",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr><td width=100% align=center valign=top><br><b>Loading Page... Please wait.</b><br><br><br><img src=\"/puridiom",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr><td\\ width=100%\\ align=center\\ valign=top><br><b>Loading\\ Page\\.\\.\\.\\ Please\\ wait\\.</b><br><br><br><img\\ src=\"/puridiom"
+    },
+    {
+      "name": "Puridiom Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Puridiom",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<META NAME=\"Description\" Content=\"/puridiom/system/header.jsp\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<META\\ NAME=\"Description\"\\ Content=\"/puridiom/system/header\\.jsp\">"
+    },
+    {
+      "name": "Puridiom Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Puridiom",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<META NAME=\"Description\" Content=\"/puridiomx/system/header.jsp\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<META\\ NAME=\"Description\"\\ Content=\"/puridiomx/system/header\\.jsp\">"
+    }
+  ]
+}

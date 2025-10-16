@@ -1,0 +1,54 @@
+{
+  "vendor": "lochDNS-MyDNS-Appliance",
+  "vendor_id": "lochdns-mydns-appliance",
+  "product": "lochDNS-MyDNS-Appliance",
+  "product_id": "lochdns-mydns-appliance",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "lochDNS-MyDNS-Appliance Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for lochDNS-MyDNS-Appliance",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<li><a href=\"/mydnsconfig/index.htm\">Configure MyDNS</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<li><a\\ href=\"/mydnsconfig/index\\.htm\">Configure\\ MyDNS</a>"
+    },
+    {
+      "name": "lochDNS-MyDNS-Appliance Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for lochDNS-MyDNS-Appliance",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body bgcolor=\"#FFFFFF\" leftmargin=0 topmargin=0 marginwidth=0 marginheight=0 onLoad=\"breakout()\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ bgcolor=\"\\#FFFFFF\"\\ leftmargin=0\\ topmargin=0\\ marginwidth=0\\ marginheight=0\\ onLoad=\"breakout\\(\\)\">"
+    }
+  ]
+}

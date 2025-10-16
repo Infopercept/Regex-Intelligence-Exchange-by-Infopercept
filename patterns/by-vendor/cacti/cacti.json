@@ -1,0 +1,54 @@
+{
+  "vendor": "Cacti",
+  "vendor_id": "cacti",
+  "product": "Cacti",
+  "product_id": "cacti",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Cacti Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cacti",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Login to Cacti</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Login\\ to\\ Cacti</title>"
+    },
+    {
+      "name": "Cacti Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cacti",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body bgcolor=\"#FFFFFF\" onload=\"document.login.login_username.focus()\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ bgcolor=\"\\#FFFFFF\"\\ onload=\"document\\.login\\.login_username\\.focus\\(\\)\">"
+    }
+  ]
+}

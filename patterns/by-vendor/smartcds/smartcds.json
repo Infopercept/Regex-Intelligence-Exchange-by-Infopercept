@@ -1,0 +1,94 @@
+{
+  "vendor": "SmartCDS",
+  "vendor_id": "smartcds",
+  "product": "SmartCDS",
+  "product_id": "smartcds",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SmartCDS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SmartCDS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img border=0 src=\"http://www.globaldawin.com/capcds/refresh.gif\" width=\"13\" height=\"16\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ border=0\\ src=\"http://www\\.globaldawin\\.com/capcds/refresh\\.gif\"\\ width=\"13\"\\ height=\"16\""
+    },
+    {
+      "name": "SmartCDS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SmartCDS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^smartcds"
+    },
+    {
+      "name": "SmartCDS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SmartCDS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^smartcds/([^\\s]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^smartcds/([^\\s]+)",
+      "version_group": 1
+    },
+    {
+      "name": "SmartCDS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SmartCDS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "smartcds: ^Version:([^\\s]+)$",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "smartcds: ^Version:([^\\s]+)$",
+      "version_group": 1
+    }
+  ]
+}

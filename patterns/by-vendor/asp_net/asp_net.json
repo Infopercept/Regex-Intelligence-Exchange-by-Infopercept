@@ -1,0 +1,249 @@
+{
+  "vendor": "ASP_NET",
+  "vendor_id": "asp_net",
+  "product": "ASP_NET",
+  "product_id": "asp_net",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ASP_NET Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ASP_NET",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "vti_title:SR|Web Settings for Active Server Pages",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "vti_title:SR\\|Web\\ Settings\\ for\\ Active\\ Server\\ Pages"
+    },
+    {
+      "name": "ASP_NET Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ASP_NET",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "This error page might contain sensitive information because ASP.NET is configured to show verbose error messages",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "This\\ error\\ page\\ might\\ contain\\ sensitive\\ information\\ because\\ ASP\\.NET\\ is\\ configured\\ to\\ show\\ verbose\\ error\\ messages"
+    },
+    {
+      "name": "ASP_NET Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ASP_NET",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "name=\"__VIEWSTATEENCRYPTED\" id=\"__VIEWSTATEENCRYPTED\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "name=\"__VIEWSTATEENCRYPTED\"\\ id=\"__VIEWSTATEENCRYPTED\""
+    },
+    {
+      "name": "x-powered-by HTTP header",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ASP_NET",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "asp\\.net"
+    },
+    {
+      "name": "X-AspNet-Version HTTP header",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ASP_NET",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-aspnet-version: ^(.*)$",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-aspnet-version: ^(.*)$",
+      "version_group": 1
+    },
+    {
+      "name": "ASP_NET Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ASP_NET",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^anonymousID=[^;]+; expires=[^;]+; path=[^;]+; HttpOnly"
+    },
+    {
+      "name": "ASP_NET Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ASP_NET",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^chkvalues=[^;]+; expires=[^;]+; path=[^;]+; HttpOnly"
+    },
+    {
+      "name": "__RequestVerificationToken cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ASP_NET",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^__RequestVerificationToken"
+    },
+    {
+      "name": ".ASPXANONYMOUS cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ASP_NET",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^.ASPXANONYMOUS"
+    },
+    {
+      "name": "ASP.NET_SessionId cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ASP_NET",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^ASP.NET_SessionId"
+    },
+    {
+      "name": "ASPSESSIONID cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ASP_NET",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^ASPSESSIONID"
+    },
+    {
+      "name": "ASP_NET Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ASP_NET",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ type=\"hidden\"\\ name=\"__VIEWSTATE\"\\ id=\"__VIEWSTATE\""
+    },
+    {
+      "name": "File extension",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ASP_NET",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^(asp|aspx|ashx)$"
+    }
+  ]
+}

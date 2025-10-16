@@ -1,0 +1,70 @@
+{
+  "vendor": "sX-Shop",
+  "vendor_id": "sx-shop",
+  "product": "sX-Shop",
+  "product_id": "sx-shop",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "sX-Shop Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for sX-Shop",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"http://www.source-worx.de[^>]+>powered[\\s]+by sX-Shop</a>"
+    },
+    {
+      "name": "sX-Shop Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for sX-Shop",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"Source WorX - Software Development\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Source\\ WorX\\ \\-\\ Software\\ Development\">"
+    },
+    {
+      "name": "sX-Shop Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for sX-Shop",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "alert(\"Ihr Suchbegriff muss mind. aus 3 Zeichen bestehen.\");",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "alert\\(\"Ihr\\ Suchbegriff\\ muss\\ mind\\.\\ aus\\ 3\\ Zeichen\\ bestehen\\.\"\\);"
+    }
+  ]
+}

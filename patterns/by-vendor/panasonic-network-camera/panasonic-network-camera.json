@@ -1,0 +1,174 @@
+{
+  "vendor": "Panasonic-Network-Camera",
+  "vendor_id": "panasonic-network-camera",
+  "product": "Panasonic-Network-Camera",
+  "product_id": "panasonic-network-camera",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Panasonic-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Panasonic-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HEAD><TITLE>WJ-NT104 MAIN PAGE</TITLE></HEAD>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<HEAD><TITLE>WJ\\-NT104\\ MAIN\\ PAGE</TITLE></HEAD>"
+    },
+    {
+      "name": "Panasonic-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Panasonic-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "      <FONT FACE=\"Arial\" STYLE=\"font-size: 24px\" COLOR=\"#ffffff\"><B>Network Camera</B></FONT>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ \\ \\ \\ \\ <FONT\\ FACE=\"Arial\"\\ STYLE=\"font\\-size:\\ 24px\"\\ COLOR=\"\\#ffffff\"><B>Network\\ Camera</B></FONT>"
+    },
+    {
+      "name": "Panasonic-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Panasonic-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<BODY BACKGROUND=\"image/Hcm1[0]?\\.gif\" \t\t[\\t]?BGCOLOR=\"#efefef\" TEXT=\"#000000\" LINK=\"#000000\" \t\t\tVLINK=\"#000000\" ALINK=\"#000000\">"
+    },
+    {
+      "name": "Panasonic-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Panasonic-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<FRAME name=bar src=\"CgiTagMenu\\?page=[^&]+&Language=[\\d]+\" scrolling=no NORESIZE>"
+    },
+    {
+      "name": "Panasonic-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Panasonic-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<META name=\"copyright\" content=\"Copyright (C) 2003 Matsushita Electric Industrial Co., Ltd. All rights reserved.\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<META\\ name=\"copyright\"\\ content=\"Copyright\\ \\(C\\)\\ 2003\\ Matsushita\\ Electric\\ Industrial\\ Co\\.,\\ Ltd\\.\\ All\\ rights\\ reserved\\.\">"
+    },
+    {
+      "name": "Panasonic-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Panasonic-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Digital Disk Recorder WJ-HD220 CONTROL MAIN PAGE</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Digital\\ Disk\\ Recorder\\ WJ\\-HD220\\ CONTROL\\ MAIN\\ PAGE</TITLE>"
+    },
+    {
+      "name": "Panasonic-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Panasonic-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>WJ-HD200 DigitalDiskRecorder CONTROL MAIN PAGE</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>WJ\\-HD200\\ DigitalDiskRecorder\\ CONTROL\\ MAIN\\ PAGE</TITLE>"
+    },
+    {
+      "name": "Panasonic-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Panasonic-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "window.location.replace(\"/view/idconv.cgi?UID=%i&FILE=/hdrindex.html&PAGE=\"+myDate.getTime());",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "window\\.location\\.replace\\(\"/view/idconv\\.cgi\\?UID=%i\\&FILE=/hdrindex\\.html\\&PAGE=\"\\+myDate\\.getTime\\(\\)\\);"
+    }
+  ]
+}

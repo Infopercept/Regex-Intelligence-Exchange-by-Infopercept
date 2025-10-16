@@ -1,0 +1,48 @@
+{
+  "vendor": "webSPELL",
+  "vendor_id": "webspell",
+  "product": "webSPELL",
+  "product_id": "webspell",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "webSPELL Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webSPELL",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"webSPELL\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"webSPELL\"\\ />"
+    },
+    {
+      "name": "webSPELL Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webSPELL",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "ws_session=[a-z\\d]+;"
+    }
+  ]
+}

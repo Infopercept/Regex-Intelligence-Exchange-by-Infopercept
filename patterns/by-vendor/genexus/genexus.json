@@ -1,0 +1,32 @@
+{
+  "vendor": "GeneXus",
+  "vendor_id": "genexus",
+  "product": "GeneXus",
+  "product_id": "genexus",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "GeneXus Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for GeneXus",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\\\\"
+    }
+  ]
+}

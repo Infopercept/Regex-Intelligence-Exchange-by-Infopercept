@@ -1,0 +1,76 @@
+{
+  "vendor": "OpenX",
+  "vendor_id": "openx",
+  "product": "OpenX",
+  "product_id": "openx",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OpenX Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body class=\"hasInterface hasGradient hasSidebar \" onload=\"initPage();\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ class=\"hasInterface\\ hasGradient\\ hasSidebar\\ \"\\ onload=\"initPage\\(\\);\">"
+    },
+    {
+      "name": "OpenX Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"oaHeaderBranding\" class=\"brandingAdServer\">OpenX</div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"oaHeaderBranding\"\\ class=\"brandingAdServer\">OpenX</div>"
+    },
+    {
+      "name": "OpenX Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenX",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span class=\"tab-s\">Welcome to OpenX</span><br />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span\\ class=\"tab\\-s\">Welcome\\ to\\ OpenX</span><br\\ />"
+    }
+  ]
+}

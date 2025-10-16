@@ -1,0 +1,32 @@
+{
+  "vendor": "Bomgar",
+  "vendor_id": "bomgar",
+  "product": "Bomgar",
+  "product_id": "bomgar",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Bomgar Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Bomgar",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"/content/poweredby.jpg\" alt=\"Remote Support by BOMGAR\"/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"/content/poweredby\\.jpg\"\\ alt=\"Remote\\ Support\\ by\\ BOMGAR\"/>"
+    }
+  ]
+}

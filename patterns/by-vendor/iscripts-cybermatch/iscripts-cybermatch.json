@@ -1,0 +1,26 @@
+{
+  "vendor": "iScripts-CyberMatch",
+  "vendor_id": "iscripts-cybermatch",
+  "product": "iScripts-CyberMatch",
+  "product_id": "iscripts-cybermatch",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "iScripts-CyberMatch Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for iScripts-CyberMatch",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "    <td width=\"[\\d]+%\" align=\"left\" class=\"footer\">Powered by <a href=\"http://www.iscripts.com/cybermatch/\" target=\"_blank\">iScripts Cybermatch</a> . A premium product from <a href=\"http://www.iscripts.com\" target=\"_blank\">iScripts.com</a></td>"
+    }
+  ]
+}

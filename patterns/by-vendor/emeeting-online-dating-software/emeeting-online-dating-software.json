@@ -1,0 +1,76 @@
+{
+  "vendor": "eMeeting-Online-Dating-Software",
+  "vendor_id": "emeeting-online-dating-software",
+  "product": "eMeeting-Online-Dating-Software",
+  "product_id": "emeeting-online-dating-software",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "eMeeting-Online-Dating-Software Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eMeeting-Online-Dating-Software",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html xmlns=\"http://www.w3.org/1999/xhtml\"><head><title>Admin Area Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html\\ xmlns=\"http://www\\.w3\\.org/1999/xhtml\"><head><title>Admin\\ Area\\ Login</title>"
+    },
+    {
+      "name": "eMeeting-Online-Dating-Software Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eMeeting-Online-Dating-Software",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t\t<td valign=\"bottom\"><h2>Admin Area Login</h2></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\t\\\t<td\\ valign=\"bottom\"><h2>Admin\\ Area\\ Login</h2></td>"
+    },
+    {
+      "name": "eMeeting-Online-Dating-Software Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eMeeting-Online-Dating-Software",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.datingscripts.org\" alt=\"Dating Software by eMeeting Ltd\" target=\"_blank\">Dating Software Powered by eMeeting Ltd</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.datingscripts\\.org\"\\ alt=\"Dating\\ Software\\ by\\ eMeeting\\ Ltd\"\\ target=\"_blank\">Dating\\ Software\\ Powered\\ by\\ eMeeting\\ Ltd</a>"
+    }
+  ]
+}

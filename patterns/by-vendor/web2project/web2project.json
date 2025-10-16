@@ -1,0 +1,70 @@
+{
+  "vendor": "web2Project",
+  "vendor_id": "web2project",
+  "product": "web2Project",
+  "product_id": "web2project",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "web2Project Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for web2Project",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>web2Project Development :: web2Project Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>web2Project\\ Development\\ ::\\ web2Project\\ Login</title>"
+    },
+    {
+      "name": "web2Project Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for web2Project",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</head><body>Fatal Error. You haven't created a config file yet.<br/><a href=",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</head><body>Fatal\\ Error\\.\\ You\\ haven't\\ created\\ a\\ config\\ file\\ yet\\.<br/><a\\ href="
+    },
+    {
+      "name": "web2Project Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for web2Project",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "web2project=[^;]+;"
+    }
+  ]
+}

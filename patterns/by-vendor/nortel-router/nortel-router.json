@@ -1,0 +1,77 @@
+{
+  "vendor": "Nortel-Router",
+  "vendor_id": "nortel-router",
+  "product": "Nortel-Router",
+  "product_id": "nortel-router",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Nortel-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Nortel-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td class=\"greytitle\" nowrap><b>About Nortel Secure Router</b></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ class=\"greytitle\"\\ nowrap><b>About\\ Nortel\\ Secure\\ Router</b></td>"
+    },
+    {
+      "name": "Nortel-Router Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Nortel-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td class=\"headtext\" nowrap><font class=\"yellowbullet\">&#149;</font> <a href=\"javascript:telnetToBox();\">Telnet</a></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ class=\"headtext\"\\ nowrap><font\\ class=\"yellowbullet\">\\&\\#149;</font>\\ <a\\ href=\"javascript:telnetToBox\\(\\);\">Telnet</a></td>"
+    },
+    {
+      "name": "Nortel-Router Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Nortel-Router",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Nortel Http Server v([^\\s]+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Nortel Http Server v([^\\s]+)$",
+      "version_group": 1
+    }
+  ]
+}

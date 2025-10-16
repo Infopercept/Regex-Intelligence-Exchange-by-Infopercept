@@ -1,0 +1,98 @@
+{
+  "vendor": "OpenNewsletter",
+  "vendor_id": "opennewsletter",
+  "product": "OpenNewsletter",
+  "product_id": "opennewsletter",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OpenNewsletter Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenNewsletter",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "This is a <a href=fsw.php>Free</a> & <a href=osd.php>Open Source</a> mailing list manager developed by <a href=selfexile.php>Self Exile</a> and distributed under the <a href=gpl.php>GPL</a>.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "This\\ is\\ a\\ <a\\ href=fsw\\.php>Free</a>\\ \\&\\ <a\\ href=osd\\.php>Open\\ Source</a>\\ mailing\\ list\\ manager\\ developed\\ by\\ <a\\ href=selfexile\\.php>Self\\ Exile</a>\\ and\\ distributed\\ under\\ the\\ <a\\ href=gpl\\.php>GPL</a>\\."
+    },
+    {
+      "name": "OpenNewsletter Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenNewsletter",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "This is a <a href=fsw.php>Free</a> & <a href=osd.php>Open Source</a> mailing list manager developed by <a href=feedback.php>Self Exile</a> and distributed under the <a href=gpl.php>GPL</a>.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "This\\ is\\ a\\ <a\\ href=fsw\\.php>Free</a>\\ \\&\\ <a\\ href=osd\\.php>Open\\ Source</a>\\ mailing\\ list\\ manager\\ developed\\ by\\ <a\\ href=feedback\\.php>Self\\ Exile</a>\\ and\\ distributed\\ under\\ the\\ <a\\ href=gpl\\.php>GPL</a>\\."
+    },
+    {
+      "name": "OpenNewsletter Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenNewsletter",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "This is a Free & Open Source mailing list manager developed by <a href=\"http://netmeans.net\">NetMeans.Net</a> and distributed under the LGPL license. This software is based on the OpenNewsletter project by <a href=\"http://www.selfexile.com\" target=\"_blank\">Self Exile</a>.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "This\\ is\\ a\\ Free\\ \\&\\ Open\\ Source\\ mailing\\ list\\ manager\\ developed\\ by\\ <a\\ href=\"http://netmeans\\.net\">NetMeans\\.Net</a>\\ and\\ distributed\\ under\\ the\\ LGPL\\ license\\.\\ This\\ software\\ is\\ based\\ on\\ the\\ OpenNewsletter\\ project\\ by\\ <a\\ href=\"http://www\\.selfexile\\.com\"\\ target=\"_blank\">Self\\ Exile</a>\\."
+    },
+    {
+      "name": "OpenNewsletter Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenNewsletter",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "This is a Free & Open Source mailing list manager developed by <a href=\"http://www.quadronet.net\">Quadro Net</a> and distributed under the LGPL license. This software is based on the OpenNewsletter project by <a href=\"http://www.selfexile.com\" target=\"_blank\">Self Exile</a> and NmnNewsletter by <a href=\"http://netmeans.net\">NetMeans.Net</a>.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "This\\ is\\ a\\ Free\\ \\&\\ Open\\ Source\\ mailing\\ list\\ manager\\ developed\\ by\\ <a\\ href=\"http://www\\.quadronet\\.net\">Quadro\\ Net</a>\\ and\\ distributed\\ under\\ the\\ LGPL\\ license\\.\\ This\\ software\\ is\\ based\\ on\\ the\\ OpenNewsletter\\ project\\ by\\ <a\\ href=\"http://www\\.selfexile\\.com\"\\ target=\"_blank\">Self\\ Exile</a>\\ and\\ NmnNewsletter\\ by\\ <a\\ href=\"http://netmeans\\.net\">NetMeans\\.Net</a>\\."
+    }
+  ]
+}

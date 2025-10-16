@@ -1,0 +1,80 @@
+{
+  "vendor": "TYPO3",
+  "vendor_id": "typo3",
+  "product": "TYPO3",
+  "product_id": "typo3",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TYPO3 Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TYPO3",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--TYPO3SEARCH_end-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-TYPO3SEARCH_end\\-\\->"
+    },
+    {
+      "name": "Powered by HTML comment",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TYPO3",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!--\\W+This website is powered by TYPO3"
+    },
+    {
+      "name": "fe_typo_user cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TYPO3",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^fe_typo_user"
+    },
+    {
+      "name": "X-TYPO3-Parsetime header",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TYPO3",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "\\d+ms"
+    }
+  ]
+}

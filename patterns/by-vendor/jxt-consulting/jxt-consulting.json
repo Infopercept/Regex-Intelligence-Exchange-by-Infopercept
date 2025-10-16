@@ -1,0 +1,92 @@
+{
+  "vendor": "JXT-Consulting",
+  "vendor_id": "jxt-consulting",
+  "product": "JXT-Consulting",
+  "product_id": "jxt-consulting",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "JXT-Consulting Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for JXT-Consulting",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"jxt-popup-wrapper\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"jxt\\-popup\\-wrapper\">"
+    },
+    {
+      "name": "JXT-Consulting Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for JXT-Consulting",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Dynamic white label meta content -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Dynamic\\ white\\ label\\ meta\\ content\\ \\-\\->"
+    },
+    {
+      "name": "JXT-Consulting Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for JXT-Consulting",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by <a href=\"http://(www\\.)?jxt\\.com\\.au\" target=\"_blank\">JXT Consulting</a>"
+    },
+    {
+      "name": "JXT-Consulting Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for JXT-Consulting",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.jxt.com.au\" target=\"_blank\">Powered by JXT Consulting</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.jxt\\.com\\.au\"\\ target=\"_blank\">Powered\\ by\\ JXT\\ Consulting</a>"
+    }
+  ]
+}

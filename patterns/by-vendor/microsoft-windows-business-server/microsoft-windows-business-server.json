@@ -1,0 +1,202 @@
+{
+  "vendor": "Microsoft-Windows-Business-Server",
+  "vendor_id": "microsoft-windows-business-server",
+  "product": "Microsoft-Windows-Business-Server",
+  "product_id": "microsoft-windows-business-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Microsoft-Windows-Business-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Windows-Business-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Welcome to Windows Small Business Server 2003</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Welcome\\ to\\ Windows\\ Small\\ Business\\ Server\\ 2003</title>"
+    },
+    {
+      "name": "Microsoft-Windows-Business-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Windows-Business-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Welcome to Windows Small Business Server 2008</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Welcome\\ to\\ Windows\\ Small\\ Business\\ Server\\ 2008</title>"
+    },
+    {
+      "name": "Microsoft-Windows-Business-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Windows-Business-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TD id=\"Remote_Link\" class=\"linkHeader\"><A HREF=\"/Remote\">Remote Web Workplace</A></TD>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TD\\ id=\"Remote_Link\"\\ class=\"linkHeader\"><A\\ HREF=\"/Remote\">Remote\\ Web\\ Workplace</A></TD>"
+    },
+    {
+      "name": "Microsoft-Windows-Business-Server Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Windows-Business-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<IMG alt=\"\" src=\"images/sbslogo.gif\" border=\"0\" width=\"200\" height=\"55\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<IMG\\ alt=\"\"\\ src=\"images/sbslogo\\.gif\"\\ border=\"0\"\\ width=\"200\"\\ height=\"55\">"
+    },
+    {
+      "name": "Microsoft-Windows-Business-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Windows-Business-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</title><link href=\"signinStyle.css\" rel=\"stylesheet\" type=\"text/css\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</title><link\\ href=\"signinStyle\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ />"
+    },
+    {
+      "name": "Microsoft-Windows-Business-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Windows-Business-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<form name=\"form1\" method=\"post\" action=\"logon\\.aspx\\?ReturnUrl=%2f[^\"]\" id=\"form1\" autocomplete=\"OFF\" onsubmit=\"OnUserNameFocus\\(\\);\">"
+    },
+    {
+      "name": "Microsoft-Windows-Business-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Windows-Business-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input id=\"rememberMe\" type=\"checkbox\" name=\"rememberMe\" tabindex=\"3\" /><label for=\"rememberMe\">Remember me on this computer</label>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ id=\"rememberMe\"\\ type=\"checkbox\"\\ name=\"rememberMe\"\\ tabindex=\"3\"\\ /><label\\ for=\"rememberMe\">Remember\\ me\\ on\\ this\\ computer</label>"
+    },
+    {
+      "name": "Microsoft-Windows-Business-Server Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Windows-Business-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"copyright\" content=\"Copyright (c) Microsoft Corporation.  All rights reserved.\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"copyright\"\\ content=\"Copyright\\ \\(c\\)\\ Microsoft\\ Corporation\\.\\ \\ All\\ rights\\ reserved\\.\"\\ />"
+    },
+    {
+      "name": "Microsoft-Windows-Business-Server Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-Windows-Business-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<head id=\"Head1\"><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<head\\ id=\"Head1\"><meta\\ http\\-equiv=\"Content\\-Type\"\\ content=\"text/html;\\ charset=utf\\-8\"\\ /><title>"
+    }
+  ]
+}

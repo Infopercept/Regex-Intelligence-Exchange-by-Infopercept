@@ -1,0 +1,276 @@
+{
+  "vendor": "Conexant-EmWeb",
+  "vendor_id": "conexant-emweb",
+  "product": "Conexant-EmWeb",
+  "product_id": "conexant-emweb",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Conexant-EmWeb Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Conexant-EmWeb",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" scrolling=\"no\" style=\"border-collapse: collapse\"bordercolor=\"#FFFFFF\" width=\"80%\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<table\\ border=\"1\"\\ cellpadding=\"0\"\\ cellspacing=\"0\"\\ scrolling=\"no\"\\ style=\"border\\-collapse:\\ collapse\"bordercolor=\"\\#FFFFFF\"\\ width=\"80%\">"
+    },
+    {
+      "name": "Conexant-EmWeb Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Conexant-EmWeb",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Flexor 151 Home</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Flexor\\ 151\\ Home</title>"
+    },
+    {
+      "name": "Conexant-EmWeb Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Conexant-EmWeb",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td><b>Flexor 151</b> is connected and working properly, for more information",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td><b>Flexor\\ 151</b>\\ is\\ connected\\ and\\ working\\ properly,\\ for\\ more\\ information"
+    },
+    {
+      "name": "Conexant-EmWeb Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Conexant-EmWeb",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Advanced configuration: <a style=\"font-size: 90%\" href=\"voice.html\">Voice Settings</a>&nbsp;&nbsp;&nbsp;<a style=\"font-size: 90%\" href=\"network.html\">Network Settings</a>&nbsp;&nbsp;&nbsp;<a style=\"font-size: 90%\" href=\"qos.html\">QoS Settings</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Advanced\\ configuration:\\ <a\\ style=\"font\\-size:\\ 90%\"\\ href=\"voice\\.html\">Voice\\ Settings</a>\\&nbsp;\\&nbsp;\\&nbsp;<a\\ style=\"font\\-size:\\ 90%\"\\ href=\"network\\.html\">Network\\ Settings</a>\\&nbsp;\\&nbsp;\\&nbsp;<a\\ style=\"font\\-size:\\ 90%\"\\ href=\"qos\\.html\">QoS\\ Settings</a>"
+    },
+    {
+      "name": "Conexant-EmWeb Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Conexant-EmWeb",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<h2><a class=\"lg\" href=\"status.html\">Flexor 151</a></h2>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<h2><a\\ class=\"lg\"\\ href=\"status\\.html\">Flexor\\ 151</a></h2>"
+    },
+    {
+      "name": "Conexant-EmWeb Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Conexant-EmWeb",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr valign=\"middle\"><td class=\"tmainhead\"><img src=\"/webconfig/images/blank.gif\" width=\"49\" height=\"10\" alt=\"\" hspace=\"0\" vspace=\"0\" align=\"top\" id=\"logospacer\">e-con TDL-3424M Ethernet Router</td></tr>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr\\ valign=\"middle\"><td\\ class=\"tmainhead\"><img\\ src=\"/webconfig/images/blank\\.gif\"\\ width=\"49\"\\ height=\"10\"\\ alt=\"\"\\ hspace=\"0\"\\ vspace=\"0\"\\ align=\"top\"\\ id=\"logospacer\">e\\-con\\ TDL\\-3424M\\ Ethernet\\ Router</td></tr>"
+    },
+    {
+      "name": "Conexant-EmWeb Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Conexant-EmWeb",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>AT-iMG634WA</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>AT\\-iMG634WA</TITLE>"
+    },
+    {
+      "name": "Conexant-EmWeb Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Conexant-EmWeb",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>AT-iMG606BD</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>AT\\-iMG606BD</TITLE>"
+    },
+    {
+      "name": "Conexant-EmWeb Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Conexant-EmWeb",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>AT-iMG646BD</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>AT\\-iMG646BD</TITLE>"
+    },
+    {
+      "name": "Conexant-EmWeb Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Conexant-EmWeb",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p class=\"help_data\"><b>Note:</b> If \"Checking Firmware Upgrades Automatically\" or \"Image Upgrade\" fails then please contact your service provider.</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ class=\"help_data\"><b>Note:</b>\\ If\\ \"Checking\\ Firmware\\ Upgrades\\ Automatically\"\\ or\\ \"Image\\ Upgrade\"\\ fails\\ then\\ please\\ contact\\ your\\ service\\ provider\\.</p>"
+    },
+    {
+      "name": "Conexant-EmWeb Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Conexant-EmWeb",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: Conexant-EmWeb/([^\\r^\\n]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: Conexant-EmWeb/([^\\r^\\n]+)",
+      "version_group": 1
+    },
+    {
+      "name": "Conexant-EmWeb Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Conexant-EmWeb",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: Virata-EmWeb/([^\\r^\\n]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: Virata-EmWeb/([^\\r^\\n]+)",
+      "version_group": 1
+    }
+  ]
+}

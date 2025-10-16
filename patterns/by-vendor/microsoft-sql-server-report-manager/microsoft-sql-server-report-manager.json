@@ -1,0 +1,136 @@
+{
+  "vendor": "Microsoft-SQL-Server-Report-Manager",
+  "vendor_id": "microsoft-sql-server-report-manager",
+  "product": "Microsoft-SQL-Server-Report-Manager",
+  "product_id": "microsoft-sql-server-report-manager",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Microsoft-SQL-Server-Report-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-SQL-Server-Report-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td valign=\"top\" width=\"18px\"><a href=\"/Reports/Pages/Folder.aspx?ItemPath=",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ valign=\"top\"\\ width=\"18px\"><a\\ href=\"/Reports/Pages/Folder\\.aspx\\?ItemPath="
+    },
+    {
+      "name": "Microsoft-SQL-Server-Report-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-SQL-Server-Report-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"/Reports/styles/ReportingServices.css\"type=\"text/css\" rel=\"stylesheet\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"/Reports/styles/ReportingServices\\.css\"type=\"text/css\"\\ rel=\"stylesheet\">"
+    },
+    {
+      "name": "Microsoft-SQL-Server-Report-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-SQL-Server-Report-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script language=\"JScript\" type=\"text/Javascript\" src=\"/Reports/js/ReportingServices.js\"></script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ language=\"JScript\"\\ type=\"text/Javascript\"\\ src=\"/Reports/js/ReportingServices\\.js\"></script>"
+    },
+    {
+      "name": "Microsoft-SQL-Server-Report-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-SQL-Server-Report-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"mailto:rcwebhlp@microsoft.com\">Send feedback</a> to \"rcwebhlp@microsoft.com\" | <a href=\"index.htm\" target=\"_top\">Launch Help in Frameset</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"mailto:rcwebhlp@microsoft\\.com\">Send\\ feedback</a>\\ to\\ \"rcwebhlp@microsoft\\.com\"\\ \\|\\ <a\\ href=\"index\\.htm\"\\ target=\"_top\">Launch\\ Help\\ in\\ Frameset</a>"
+    },
+    {
+      "name": "Microsoft-SQL-Server-Report-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-SQL-Server-Report-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body topmargin=0 id=\"bodyID\" class = \"dtBODY\"><LINK REL=\"stylesheet\" TYPE=\"text/css\" HREF=\"sql.css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ topmargin=0\\ id=\"bodyID\"\\ class\\ =\\ \"dtBODY\"><LINK\\ REL=\"stylesheet\"\\ TYPE=\"text/css\"\\ HREF=\"sql\\.css\">"
+    },
+    {
+      "name": "Microsoft-SQL-Server-Report-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Microsoft-SQL-Server-Report-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "/Reports/Pages/Folder\\.aspx"
+    }
+  ]
+}

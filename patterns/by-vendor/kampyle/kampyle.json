@@ -1,0 +1,70 @@
+{
+  "vendor": "Kampyle",
+  "vendor_id": "kampyle",
+  "product": "Kampyle",
+  "product_id": "kampyle",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Kampyle Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kampyle",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script [^>]*src=[\"']http://cf\\.kampyle\\.com/k_button\\.js[\"'][^>]*>"
+    },
+    {
+      "name": "Kampyle Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kampyle",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--Start Kampyle Feedback Form Button-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-Start\\ Kampyle\\ Feedback\\ Form\\ Button\\-\\->"
+    },
+    {
+      "name": "Kampyle Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kampyle",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--End Kampyle Feedback Form Button-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-End\\ Kampyle\\ Feedback\\ Form\\ Button\\-\\->"
+    }
+  ]
+}

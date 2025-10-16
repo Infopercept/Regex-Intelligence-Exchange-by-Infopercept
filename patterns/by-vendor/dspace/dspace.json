@@ -1,0 +1,32 @@
+{
+  "vendor": "DSpace",
+  "vendor_id": "dspace",
+  "product": "DSpace",
+  "product_id": "dspace",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DSpace Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DSpace",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta content=\"DSpace\" name=\"Generator\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ content=\"DSpace\"\\ name=\"Generator\"\\ />"
+    }
+  ]
+}

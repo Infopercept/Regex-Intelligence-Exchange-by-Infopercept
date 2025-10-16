@@ -1,0 +1,48 @@
+{
+  "vendor": "Axous",
+  "vendor_id": "axous",
+  "product": "Axous",
+  "product_id": "axous",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Axous Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axous",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=\"generator\" content=\"Axous V([^\"]+)\" />"
+    },
+    {
+      "name": "Axous Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Axous",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"tit2 tit3\">Products</div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"tit2\\ tit3\">Products</div>"
+    }
+  ]
+}

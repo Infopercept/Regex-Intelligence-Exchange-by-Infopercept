@@ -1,0 +1,42 @@
+{
+  "vendor": "TeaLeaf",
+  "vendor_id": "tealeaf",
+  "product": "TeaLeaf",
+  "product_id": "tealeaf",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TLTSID cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TeaLeaf",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^TLTSID"
+    },
+    {
+      "name": "TLTUID cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TeaLeaf",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^TLTUID"
+    }
+  ]
+}

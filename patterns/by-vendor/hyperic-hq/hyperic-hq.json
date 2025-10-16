@@ -1,0 +1,48 @@
+{
+  "vendor": "Hyperic-HQ",
+  "vendor_id": "hyperic-hq",
+  "product": "Hyperic-HQ",
+  "product_id": "hyperic-hq",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Hyperic-HQ Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Hyperic-HQ",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a id=\"screencastLink\" href=\"http://www.hyperic.com/demo/screencasts.html\" target=\"_blank\" title=\"Screencasts\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ id=\"screencastLink\"\\ href=\"http://www\\.hyperic\\.com/demo/screencasts\\.html\"\\ target=\"_blank\"\\ title=\"Screencasts\">"
+    },
+    {
+      "name": "Hyperic-HQ Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Hyperic-HQ",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "/app/login;jsessionid="
+    }
+  ]
+}

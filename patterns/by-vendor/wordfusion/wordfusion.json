@@ -1,0 +1,48 @@
+{
+  "vendor": "WordFusion",
+  "vendor_id": "wordfusion",
+  "product": "WordFusion",
+  "product_id": "wordfusion",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WordFusion Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WordFusion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<head id=\"Head\"><title>\\s+WordFusion\\.Web\\s+\\</title>"
+    },
+    {
+      "name": "WordFusion Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WordFusion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<param name=\"source\" value=\"ClientBin/WordFusion.Web.xap\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<param\\ name=\"source\"\\ value=\"ClientBin/WordFusion\\.Web\\.xap\">"
+    }
+  ]
+}

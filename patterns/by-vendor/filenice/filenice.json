@@ -1,0 +1,98 @@
+{
+  "vendor": "FileNice",
+  "vendor_id": "filenice",
+  "product": "FileNice",
+  "product_id": "filenice",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FileNice Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FileNice",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- please leave the word fileNice visible on the page, it's only polite really isn't it. -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ please\\ leave\\ the\\ word\\ fileNice\\ visible\\ on\\ the\\ page,\\ it's\\ only\\ polite\\ really\\ isn't\\ it\\.\\ \\-\\->"
+    },
+    {
+      "name": "FileNice Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FileNice",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- please leave the word fileNice and the link to fileNice.com in the about, it's only polite really isn't it. I didn't do all this work just for you to try to pass it off as your own. -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ please\\ leave\\ the\\ word\\ fileNice\\ and\\ the\\ link\\ to\\ fileNice\\.com\\ in\\ the\\ about,\\ it's\\ only\\ polite\\ really\\ isn't\\ it\\.\\ I\\ didn't\\ do\\ all\\ this\\ work\\ just\\ for\\ you\\ to\\ try\\ to\\ pass\\ it\\ off\\ as\\ your\\ own\\.\\ \\-\\->"
+    },
+    {
+      "name": "FileNice Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FileNice",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Free open source file browser available from <a href=\"http://fileNice.com\" title=\"fileNice.com\">fileNice.com</a><br />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Free\\ open\\ source\\ file\\ browser\\ available\\ from\\ <a\\ href=\"http://fileNice\\.com\"\\ title=\"fileNice\\.com\">fileNice\\.com</a><br\\ />"
+    },
+    {
+      "name": "FileNice Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FileNice",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<meta name=\"generator\" content=\"the fantabulous mechanical eviltwin code machine\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<meta\\ name=\"generator\"\\ content=\"the\\ fantabulous\\ mechanical\\ eviltwin\\ code\\ machine\"\\ />"
+    }
+  ]
+}

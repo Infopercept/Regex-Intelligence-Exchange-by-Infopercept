@@ -1,0 +1,114 @@
+{
+  "vendor": "MyBB",
+  "vendor_id": "mybb",
+  "product": "MyBB",
+  "product_id": "mybb",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MyBB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MyBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t\t<!-- MyBB is free software developed and maintained by a volunteer community. ",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\t\\\t<!\\-\\-\\ MyBB\\ is\\ free\\ software\\ developed\\ and\\ maintained\\ by\\ a\\ volunteer\\ community\\.\\ "
+    },
+    {
+      "name": "MyBB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MyBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t\t<!-- You may NOT remove, modify or hinder the visibility of the MyBB copyright at any time.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\t\\\t<!\\-\\-\\ You\\ may\\ NOT\\ remove,\\ modify\\ or\\ hinder\\ the\\ visibility\\ of\\ the\\ MyBB\\ copyright\\ at\\ any\\ time\\."
+    },
+    {
+      "name": "MyBB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MyBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- The following piece of code allows MyBB to run scheduled tasks. DO NOT REMOVE --><img",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ The\\ following\\ piece\\ of\\ code\\ allows\\ MyBB\\ to\\ run\\ scheduled\\ tasks\\.\\ DO\\ NOT\\ REMOVE\\ \\-\\-><img"
+    },
+    {
+      "name": "MyBB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MyBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered By <a href=\"http://(mybb.com/|www.mybboard.net)\" target=\"_blank\">MyBB<\\"
+    },
+    {
+      "name": "MyBB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MyBB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered By <a href=\"http://www.mybboard.com\" target=\"_blank\">MyBB</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.mybboard\\.com\"\\ target=\"_blank\">MyBB</a>"
+    }
+  ]
+}

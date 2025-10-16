@@ -1,0 +1,80 @@
+{
+  "vendor": "Accellion-Secure-File-Transfer",
+  "vendor_id": "accellion-secure-file-transfer",
+  "product": "Accellion-Secure-File-Transfer",
+  "product_id": "accellion-secure-file-transfer",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Accellion-Secure-File-Transfer Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Accellion-Secure-File-Transfer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "sfcurl=deleted;"
+    },
+    {
+      "name": "Accellion-Secure-File-Transfer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Accellion-Secure-File-Transfer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "/courier/[\\d]+@/mail_user_login\\.html\\?$"
+    },
+    {
+      "name": "Accellion-Secure-File-Transfer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Accellion-Secure-File-Transfer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form name=\"form1\" method=\"post\" action=\"mail_user_login_exec.html\" onsubmit=\"document.form1.submit.disabled=true;\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ name=\"form1\"\\ method=\"post\"\\ action=\"mail_user_login_exec\\.html\"\\ onsubmit=\"document\\.form1\\.submit\\.disabled=true;\">"
+    },
+    {
+      "name": "Accellion-Secure-File-Transfer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Accellion-Secure-File-Transfer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link href=\"custom_template/[\\d]+/wcStyle\\.css\" type=\"?text/css\"? rel=\"?stylesheet\"?>"
+    }
+  ]
+}

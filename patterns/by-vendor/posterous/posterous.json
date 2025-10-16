@@ -1,0 +1,92 @@
+{
+  "vendor": "Posterous",
+  "vendor_id": "posterous",
+  "product": "Posterous",
+  "product_id": "posterous",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Posterous Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Posterous",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"Posterous\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"Posterous\"\\ />"
+    },
+    {
+      "name": "Posterous Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Posterous",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"posterous_site_data\" data-post-id=\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"posterous_site_data\"\\ data\\-post\\-id=\""
+    },
+    {
+      "name": "Posterous Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Posterous",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<li class=\"first\"><a href=\"http://posterous.com/login?jumpto=http",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<li\\ class=\"first\"><a\\ href=\"http://posterous\\.com/login\\?jumpto=http"
+    },
+    {
+      "name": "Posterous Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Posterous",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<html><body>You are being <a href=\"http://([^\"]+)\\.posterous\\.com/\">redirected</a>\\.</body></html>"
+    }
+  ]
+}

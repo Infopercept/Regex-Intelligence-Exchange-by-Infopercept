@@ -1,0 +1,70 @@
+{
+  "vendor": "Prediction-Football",
+  "vendor_id": "prediction-football",
+  "product": "Prediction-Football",
+  "product_id": "prediction-football",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Prediction-Football Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Prediction-Football",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Show the different leagues -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Show\\ the\\ different\\ leagues\\ \\-\\->"
+    },
+    {
+      "name": "Prediction-Football Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Prediction-Football",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Show the league ID if there is more than one. -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Show\\ the\\ league\\ ID\\ if\\ there\\ is\\ more\\ than\\ one\\.\\ \\-\\->"
+    },
+    {
+      "name": "Prediction-Football Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Prediction-Football",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!-- The display of powered by prediction football must not be removed without explicit permission\\.[\\s]+Unauthorized removal or modification of the powered by prediction football will require that[\\s]+the associated payment is made\\. -->"
+    }
+  ]
+}

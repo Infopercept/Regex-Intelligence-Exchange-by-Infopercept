@@ -1,0 +1,65 @@
+{
+  "vendor": "TalkSwitch-Phone",
+  "vendor_id": "talkswitch-phone",
+  "product": "TalkSwitch-Phone",
+  "product_id": "talkswitch-phone",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TalkSwitch-Phone Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TalkSwitch-Phone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^TalkSwitch"
+    },
+    {
+      "name": "TalkSwitch-Phone Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TalkSwitch-Phone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^TalkSwitch HTTP Server/8.5$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^TalkSwitch HTTP Server/([\\d\\.]+)$",
+      "version_group": 1
+    },
+    {
+      "name": "WWW-Authenticate realm",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TalkSwitch-Phone",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Digest realm=\"Your TalkSwitch System\"$"
+    }
+  ]
+}

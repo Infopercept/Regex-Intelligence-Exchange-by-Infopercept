@@ -1,0 +1,128 @@
+{
+  "vendor": "Django",
+  "vendor_id": "django",
+  "product": "Django",
+  "product_id": "django",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Django Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Django",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^WSGIServer/[^\\s]+ Python/[^\\s]+$"
+    },
+    {
+      "name": "Django Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Django",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<div id=\"explanation\">[\\s]+<p>[\\s]+You're seeing this error because you have <code>DEBUG = True</code> in[\\s]+your[\\s]+Django settings file"
+    },
+    {
+      "name": "Django Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Django",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=\"robots\" content=\"NONE,NOARCHIVE\"><title>Welcome to Django</title>"
+    },
+    {
+      "name": "Django Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Django",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<form action=\"/admin\\"
+    },
+    {
+      "name": "Django Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Django",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"hidden\" name=\"this_is_the_login_form\" value=\"1\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ type=\"hidden\"\\ name=\"this_is_the_login_form\"\\ value=\"1\"\\ />"
+    },
+    {
+      "name": "csrftoken cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Django",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "csrftoken"
+    },
+    {
+      "name": "django_ cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Django",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "django_"
+    }
+  ]
+}

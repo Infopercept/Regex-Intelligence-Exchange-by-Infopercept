@@ -1,0 +1,48 @@
+{
+  "vendor": "CraftCMS",
+  "vendor_id": "craftcms",
+  "product": "CraftCMS",
+  "product_id": "craftcms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Admin-Login-Page",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CraftCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a id=\"poweredby\" href=\"http://craftcms.com/\" title=\"Powered by Craft CMS\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ id=\"poweredby\"\\ href=\"http://craftcms\\.com/\"\\ title=\"Powered\\ by\\ Craft\\ CMS\">"
+    },
+    {
+      "name": "CraftSessionId cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CraftCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "CraftSessionId"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "vendor": "WebHare-Application-Portal",
+  "vendor_id": "webhare-application-portal",
+  "product": "WebHare-Application-Portal",
+  "product_id": "webhare-application-portal",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WebHare-Application-Portal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebHare-Application-Portal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^WebHare Application Portal"
+    },
+    {
+      "name": "WebHare-Application-Portal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WebHare-Application-Portal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^WebHare Application Portal v8.5 Webserver$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^WebHare Application Portal v([\\d\\.]+) Webserver$",
+      "version_group": 1
+    }
+  ]
+}

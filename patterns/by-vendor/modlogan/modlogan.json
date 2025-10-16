@@ -1,0 +1,54 @@
+{
+  "vendor": "ModLogAn",
+  "vendor_id": "modlogan",
+  "product": "ModLogAn",
+  "product_id": "modlogan",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ModLogAn Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ModLogAn",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" href=\"modlogan.css\" type=\"text/css\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"modlogan\\.css\"\\ type=\"text/css\"\\ />"
+    },
+    {
+      "name": "ModLogAn Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ModLogAn",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<LINK REL=STYLESHEET HREF=\"modlogan.css\" type=\"text/css\"></HEAD>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<LINK\\ REL=STYLESHEET\\ HREF=\"modlogan\\.css\"\\ type=\"text/css\"></HEAD>"
+    }
+  ]
+}

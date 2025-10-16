@@ -1,0 +1,72 @@
+{
+  "vendor": "Web-Crossing-Server",
+  "vendor_id": "web-crossing-server",
+  "product": "Web-Crossing-Server",
+  "product_id": "web-crossing-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Web-Crossing-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Web-Crossing-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Web Crossing/([^\\s]+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Web Crossing/([^\\s]+)$",
+      "version_group": 1
+    },
+    {
+      "name": "Web-Crossing-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Web-Crossing-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Web Crossing\\(r\\) [^\\s]+-v8.5 built",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Web Crossing\\(r\\) [^\\s]+-v([\\d\\.]+) built",
+      "version_group": 1
+    },
+    {
+      "name": "Web-Crossing-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Web-Crossing-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "webxSess=[\\d]+\\.[^\\s]+;"
+    }
+  ]
+}

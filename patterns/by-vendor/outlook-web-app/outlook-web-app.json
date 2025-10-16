@@ -1,0 +1,158 @@
+{
+  "vendor": "Outlook-Web-App",
+  "vendor_id": "outlook-web-app",
+  "product": "Outlook-Web-App",
+  "product_id": "outlook-web-app",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Outlook-Web-App Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Outlook-Web-App",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body class=\"owaLgnBdy\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ class=\"owaLgnBdy\">"
+    },
+    {
+      "name": "Outlook-Web-App Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Outlook-Web-App",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- OwaPage = ASP.auth_logon_aspx -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ OwaPage\\ =\\ ASP\\.auth_logon_aspx\\ \\-\\->"
+    },
+    {
+      "name": "Outlook-Web-App Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Outlook-Web-App",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<FORM action=\"(/CookieAuth\\.dll\\?Logon|/exchweb/bin/auth/owaauth\\.dll)\" method=\"POST\" name=\"logonForm\""
+    },
+    {
+      "name": "html body",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Outlook-Web-App",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TR><TD><P style=\"color:red\">You could not be logged on to",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TR><TD><P\\ style=\"color:red\">You\\ could\\ not\\ be\\ logged\\ on\\ to"
+    },
+    {
+      "name": "html body",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Outlook-Web-App",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TR><TD><P style=\"color:red\">You could not be logged on to",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TR><TD><P\\ style=\"color:red\">You\\ could\\ not\\ be\\ logged\\ on\\ to"
+    },
+    {
+      "name": "html title",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Outlook-Web-App",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Microsoft Outlook Web Access</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Microsoft\\ Outlook\\ Web\\ Access</TITLE>"
+    },
+    {
+      "name": "Outlook-Web-App Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Outlook-Web-App",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td style=\"width:100%\">To use Outlook Web App, browser settings must allow scripts to run. For information about how to allow scripts, consult the Help for your browser. If your browser doesn\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ style=\"width:100%\">To\\ use\\ Outlook\\ Web\\ App,\\ browser\\ settings\\ must\\ allow\\ scripts\\ to\\ run\\.\\ For\\ information\\ about\\ how\\ to\\ allow\\ scripts,\\ consult\\ the\\ Help\\ for\\ your\\ browser\\.\\ If\\ your\\ browser\\ doesn\\\\"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "vendor": "MD-Pro",
+  "vendor_id": "md-pro",
+  "product": "MD-Pro",
+  "product_id": "md-pro",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MD-Pro Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MD-Pro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"language/eng/dbfail.html\" style=\"text-decoration: none;\">MAXdev - Problem in Database Connection: click here to read more...</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"language/eng/dbfail\\.html\"\\ style=\"text\\-decoration:\\ none;\">MAXdev\\ \\-\\ Problem\\ in\\ Database\\ Connection:\\ click\\ here\\ to\\ read\\ more\\.\\.\\.</a>"
+    },
+    {
+      "name": "MD-Pro Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MD-Pro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.maxdev.it\" target=\"_blank\">Powered by MAXDev</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.maxdev\\.it\"\\ target=\"_blank\">Powered\\ by\\ MAXDev</a>"
+    },
+    {
+      "name": "MD-Pro Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MD-Pro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<div class=\"poweredtext\"><a href=\"javascript:opencredits\\(\\)\">Credit(i|s)</a> <a href=\"http://www.maxdev(.it|italia.com)\">Powered by MAXdev</a></div>"
+    },
+    {
+      "name": "MD-Pro Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MD-Pro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "************** MAXdev - MAXdev (http://www.maxdev.it) ***********",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\ MAXdev\\ \\-\\ MAXdev\\ \\(http://www\\.maxdev\\.it\\)\\ \\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*"
+    },
+    {
+      "name": "MD-Pro Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MD-Pro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "************** MAXdev - MAXdev (http://www.maxdev.com) ***********",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\ MAXdev\\ \\-\\ MAXdev\\ \\(http://www\\.maxdev\\.com\\)\\ \\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*"
+    }
+  ]
+}

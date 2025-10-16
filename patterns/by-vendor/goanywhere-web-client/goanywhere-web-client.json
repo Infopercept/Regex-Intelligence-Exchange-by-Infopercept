@@ -1,0 +1,54 @@
+{
+  "vendor": "GoAnywhere-Web-Client",
+  "vendor_id": "goanywhere-web-client",
+  "product": "GoAnywhere-Web-Client",
+  "product_id": "goanywhere-web-client",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "GoAnywhere-Web-Client Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for GoAnywhere-Web-Client",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>GoAnywhere Web Client - Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>GoAnywhere\\ Web\\ Client\\ \\-\\ Login</title>"
+    },
+    {
+      "name": "GoAnywhere-Web-Client Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for GoAnywhere-Web-Client",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\\\\"
+    }
+  ]
+}

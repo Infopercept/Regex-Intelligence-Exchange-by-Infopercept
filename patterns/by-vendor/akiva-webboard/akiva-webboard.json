@@ -1,0 +1,98 @@
+{
+  "vendor": "Akiva-WebBoard",
+  "vendor_id": "akiva-webboard",
+  "product": "Akiva-WebBoard",
+  "product_id": "akiva-webboard",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Akiva-WebBoard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Akiva-WebBoard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- --- AKIVA COPYRIGHT NOTICE --- -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ \\-\\-\\-\\ AKIVA\\ COPYRIGHT\\ NOTICE\\ \\-\\-\\-\\ \\-\\->"
+    },
+    {
+      "name": "Akiva-WebBoard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Akiva-WebBoard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Under the terms of the WebBoard License Agreement -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Under\\ the\\ terms\\ of\\ the\\ WebBoard\\ License\\ Agreement\\ \\-\\->"
+    },
+    {
+      "name": "Akiva-WebBoard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Akiva-WebBoard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- wbmain 8/22/2005 11:11AM -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ wbmain\\ 8/22/2005\\ 11:11AM\\ \\-\\->"
+    },
+    {
+      "name": "Akiva-WebBoard Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Akiva-WebBoard",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"images/branding-bottom.gif\" width=\"46\" height=\"44\" alt=\"Powered by WebBoard\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"images/branding\\-bottom\\.gif\"\\ width=\"46\"\\ height=\"44\"\\ alt=\"Powered\\ by\\ WebBoard\">"
+    }
+  ]
+}

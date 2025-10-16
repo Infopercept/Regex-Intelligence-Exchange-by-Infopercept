@@ -1,0 +1,42 @@
+{
+  "vendor": "ClickMotive",
+  "vendor_id": "clickmotive",
+  "product": "ClickMotive",
+  "product_id": "clickmotive",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ddcaffinitygroup cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ClickMotive",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "ddcaffinitygroup"
+    },
+    {
+      "name": "ddcpoolid cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ClickMotive",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "ddcpoolid"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "vendor": "SEH-KYOCERA-PrintServer",
+  "vendor_id": "seh-kyocera-printserver",
+  "product": "SEH-KYOCERA-PrintServer",
+  "product_id": "seh-kyocera-printserver",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "HTML start",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SEH-KYOCERA-PrintServer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<HTML><HEAD>[\\s]*<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; CHARSET=UTF-8\">[\\s]*<TITLE>Print server homepage</TITLE>[\\s]*</HEAD>[\\s]*<FRAMESET COLS=\"200"
+    }
+  ]
+}

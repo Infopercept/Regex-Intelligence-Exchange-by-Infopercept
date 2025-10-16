@@ -1,0 +1,54 @@
+{
+  "vendor": "Xataface",
+  "vendor_id": "xataface",
+  "product": "Xataface",
+  "product_id": "xataface",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Xataface Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Xataface",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- custom javascripts can go in slot \"custom_javascripts\" -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ custom\\ javascripts\\ can\\ go\\ in\\ slot\\ \"custom_javascripts\"\\ \\-\\->"
+    },
+    {
+      "name": "Xataface Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Xataface",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Place any other items in the head of the document by filling the \"head_slot\" slot -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Place\\ any\\ other\\ items\\ in\\ the\\ head\\ of\\ the\\ document\\ by\\ filling\\ the\\ \"head_slot\"\\ slot\\ \\-\\->"
+    }
+  ]
+}

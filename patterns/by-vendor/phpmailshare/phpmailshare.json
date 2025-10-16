@@ -1,0 +1,32 @@
+{
+  "vendor": "phpMailShare",
+  "vendor_id": "phpmailshare",
+  "product": "phpMailShare",
+  "product_id": "phpmailshare",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "phpMailShare Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpMailShare",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"index.php?action=viewbox&amp;box=0\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"index\\.php\\?action=viewbox\\&amp;box=0\">"
+    }
+  ]
+}

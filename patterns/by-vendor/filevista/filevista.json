@@ -1,0 +1,32 @@
+{
+  "vendor": "FileVista",
+  "vendor_id": "filevista",
+  "product": "FileVista",
+  "product_id": "filevista",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FileVista Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FileVista",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td>Welcome to FileVista<br />Please enter your credentials:</td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td>Welcome\\ to\\ FileVista<br\\ />Please\\ enter\\ your\\ credentials:</td>"
+    }
+  ]
+}

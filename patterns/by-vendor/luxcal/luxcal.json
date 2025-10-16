@@ -1,0 +1,98 @@
+{
+  "vendor": "LuxCal",
+  "vendor_id": "luxcal",
+  "product": "LuxCal",
+  "product_id": "luxcal",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "LuxCal Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LuxCal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"LuxCal web calendar - a LuxSoft product\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"LuxCal\\ web\\ calendar\\ \\-\\ a\\ LuxSoft\\ product\"\\ />"
+    },
+    {
+      "name": "LuxCal Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LuxCal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"shortcut icon\" href=\"lcal.ico\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ href=\"lcal\\.ico\"\\ />"
+    },
+    {
+      "name": "LuxCal Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LuxCal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"Roel Buining\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Roel\\ Buining\"\\ />"
+    },
+    {
+      "name": "LuxCal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LuxCal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span class=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span\\ class=\\\\"
+    }
+  ]
+}

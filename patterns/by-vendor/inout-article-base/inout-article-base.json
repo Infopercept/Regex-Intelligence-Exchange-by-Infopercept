@@ -1,0 +1,76 @@
+{
+  "vendor": "Inout-Article-Base",
+  "vendor_id": "inout-article-base",
+  "product": "Inout-Article-Base",
+  "product_id": "inout-article-base",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Inout-Article-Base Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Inout-Article-Base",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Inout Article Base - Admin Area</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Inout\\ Article\\ Base\\ \\-\\ Admin\\ Area</title>"
+    },
+    {
+      "name": "Inout-Article-Base Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Inout-Article-Base",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Inout ArticleBase - Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Inout\\ ArticleBase\\ \\-\\ Login</title>"
+    },
+    {
+      "name": "Inout-Article-Base Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Inout-Article-Base",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": " href=\"http://www.inoutscripts.com/?r=0\">Powered by Inoutscripts</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ href=\"http://www\\.inoutscripts\\.com/\\?r=0\">Powered\\ by\\ Inoutscripts</a>"
+    }
+  ]
+}

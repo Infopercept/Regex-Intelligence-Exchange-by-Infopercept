@@ -1,0 +1,26 @@
+{
+  "vendor": "ExtJS",
+  "vendor_id": "extjs",
+  "product": "ExtJS",
+  "product_id": "extjs",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ExtJS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ExtJS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script [^>]*src=[\"'][^>]*ext\\-base\\.js[\"']"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "vendor": "FileMakerPro",
+  "vendor_id": "filemakerpro",
+  "product": "FileMakerPro",
+  "product_id": "filemakerpro",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FileMakerPro Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FileMakerPro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^FileMakerPro"
+    },
+    {
+      "name": "FileMakerPro Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FileMakerPro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^FileMakerPro/([^\\s]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^FileMakerPro/([^\\s]+)",
+      "version_group": 1
+    }
+  ]
+}

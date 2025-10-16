@@ -1,0 +1,98 @@
+{
+  "vendor": "MyWebFTP",
+  "vendor_id": "mywebftp",
+  "product": "MyWebFTP",
+  "product_id": "mywebftp",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MyWebFTP Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MyWebFTP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>MyWebFTP</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>MyWebFTP</TITLE>"
+    },
+    {
+      "name": "MyWebFTP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MyWebFTP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<FORM METHOD=post NAME=\"mwForm\" ENCTYPE=\"multipart/form-data\" ACTION=\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<FORM\\ METHOD=post\\ NAME=\"mwForm\"\\ ENCTYPE=\"multipart/form\\-data\"\\ ACTION=\""
+    },
+    {
+      "name": "MyWebFTP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MyWebFTP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<LINK REL=\"stylesheet\" TYPE=\"text/css\" HREF=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<LINK\\ REL=\"stylesheet\"\\ TYPE=\"text/css\"\\ HREF=\\\\"
+    },
+    {
+      "name": "MyWebFTP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MyWebFTP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<SCRIPT LANGUAGE=JAVASCRIPT SRC=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<SCRIPT\\ LANGUAGE=JAVASCRIPT\\ SRC=\\\\"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "vendor": "BugTracker.NET",
+  "vendor_id": "bugtracker-net",
+  "product": "BugTracker.NET",
+  "product_id": "bugtracker-net",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BugTracker.NET Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BugTracker.NET",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"StyleSheet\" href=\"btnet.css\" type=\"text/css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"StyleSheet\"\\ href=\"btnet\\.css\"\\ type=\"text/css\">"
+    },
+    {
+      "name": "BugTracker.NET Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for BugTracker.NET",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td width=100 valign=middle><a href=http://ifdefined.com/bugtrackernet.html>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ width=100\\ valign=middle><a\\ href=http://ifdefined\\.com/bugtrackernet\\.html>"
+    }
+  ]
+}

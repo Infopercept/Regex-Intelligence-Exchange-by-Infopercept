@@ -1,0 +1,54 @@
+{
+  "vendor": "Minecraft-Server",
+  "vendor_id": "minecraft-server",
+  "product": "Minecraft-Server",
+  "product_id": "minecraft-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Minecraft-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Minecraft-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span>Map type:</span><select id=\"mode\" onchange=\"show(1,$(\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span>Map\\ type:</span><select\\ id=\"mode\"\\ onchange=\"show\\(1,\\$\\(\\\\"
+    },
+    {
+      "name": "Minecraft-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Minecraft-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>MineOS Admin Page</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>MineOS\\ Admin\\ Page</title>"
+    }
+  ]
+}

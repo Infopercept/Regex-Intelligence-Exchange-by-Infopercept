@@ -1,0 +1,76 @@
+{
+  "vendor": "Jasig-CAS",
+  "vendor_id": "jasig-cas",
+  "product": "Jasig-CAS",
+  "product_id": "jasig-cas",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Jasig-CAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Jasig-CAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>CAS &#8211; Central Authentication Service</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>CAS\\ \\&\\#8211;\\ Central\\ Authentication\\ Service</title>"
+    },
+    {
+      "name": "Jasig-CAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Jasig-CAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Congratulations on bringing CAS online!  The default authentication handler authenticates where usernames equal passwords: go ahead, try it out.  -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Congratulations\\ on\\ bringing\\ CAS\\ online!\\ \\ The\\ default\\ authentication\\ handler\\ authenticates\\ where\\ usernames\\ equal\\ passwords:\\ go\\ ahead,\\ try\\ it\\ out\\.\\ \\ \\-\\->"
+    },
+    {
+      "name": "Jasig-CAS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Jasig-CAS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>Powered by <a href=\"http://www.jasig.org/cas\">Jasig Central Authentication Service</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://www\\.jasig\\.org/cas\">Jasig\\ Central\\ Authentication\\ Service</a></p>"
+    }
+  ]
+}

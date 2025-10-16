@@ -1,0 +1,80 @@
+{
+  "vendor": "Mambo",
+  "vendor_id": "mambo",
+  "product": "Mambo",
+  "product_id": "mambo",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mambo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mambo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=\"Generator\" content=\"Mambo - Copyright 2000 - [0-9]+ Miro International Pty Ltd.  All rights reserved.\" />"
+    },
+    {
+      "name": "Mambo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mambo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=\"description\" content=\"Mambo - the dynamic portal engine and content management system\" />"
+    },
+    {
+      "name": "Mambo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mambo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Mambo is OSI Certified Open Source Software, released under the GNU General Public License",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Mambo\\ is\\ OSI\\ Certified\\ Open\\ Source\\ Software,\\ released\\ under\\ the\\ GNU\\ General\\ Public\\ License"
+    },
+    {
+      "name": "Mambo Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Mambo",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "(<name>Mambo Admin</name>|<authorUrl>http://www\\.mambo\\-foundation\\.org</authorUrl>)"
+    }
+  ]
+}

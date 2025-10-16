@@ -1,0 +1,32 @@
+{
+  "vendor": "OpenLookup",
+  "vendor_id": "openlookup",
+  "product": "OpenLookup",
+  "product_id": "openlookup",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OpenLookup Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OpenLookup",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<h2>OpenLookup Node Status</h2>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<h2>OpenLookup\\ Node\\ Status</h2>"
+    }
+  ]
+}

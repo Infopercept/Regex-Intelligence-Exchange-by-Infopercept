@@ -1,0 +1,230 @@
+{
+  "vendor": "NetWin-Surgemail",
+  "vendor_id": "netwin-surgemail",
+  "product": "NetWin-Surgemail",
+  "product_id": "netwin-surgemail",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "NetWin-Surgemail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-Surgemail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Start of index.htm --><!-- delayed after doctype-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Start\\ of\\ index\\.htm\\ \\-\\-><!\\-\\-\\ delayed\\ after\\ doctype\\-\\->"
+    },
+    {
+      "name": "NetWin-Surgemail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-Surgemail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>SurgeMail Welcome Page</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>SurgeMail\\ Welcome\\ Page</title>"
+    },
+    {
+      "name": "NetWin-Surgemail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-Surgemail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"GENERATOR\" content=\"Mozilla/4.75 [en] (Windows NT 5.0; U) [Netscape]\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"GENERATOR\"\\ content=\"Mozilla/4\\.75\\ \\[en\\]\\ \\(Windows\\ NT\\ 5\\.0;\\ U\\)\\ \\[Netscape\\]\">"
+    },
+    {
+      "name": "NetWin-Surgemail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-Surgemail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/surgeweb\" target=\"client\"><input type=\"button\" name=\"\" value=\"Secure WebMail 2.0 Login\" onmouseover=\"MO(event)\" onmouseout=\"MU(event)\" onclick=\"MC3(event)\" class=spbutton></a></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "/surgeweb\"\\ target=\"client\"><input\\ type=\"button\"\\ name=\"\"\\ value=\"Secure\\ WebMail\\ 2\\.0\\ Login\"\\ onmouseover=\"MO\\(event\\)\"\\ onmouseout=\"MU\\(event\\)\"\\ onclick=\"MC3\\(event\\)\"\\ class=spbutton></a></td>"
+    },
+    {
+      "name": "NetWin-Surgemail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-Surgemail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"/cgi/user.cgi\">User account self management</a> - <font class=\"small_font\">users and domain administrators can modify passwords, forwarding, create new accounts</font></blockquote>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"/cgi/user\\.cgi\">User\\ account\\ self\\ management</a>\\ \\-\\ <font\\ class=\"small_font\">users\\ and\\ domain\\ administrators\\ can\\ modify\\ passwords,\\ forwarding,\\ create\\ new\\ accounts</font></blockquote>"
+    },
+    {
+      "name": "NetWin-Surgemail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-Surgemail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td colspan=\"2\" class=\"about_wrapper\"><img src=\"/web/redline.gif\"><br><a class=\"about_link\" href=\"/about_mail.htm\">about SurgeMail</a></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ colspan=\"2\"\\ class=\"about_wrapper\"><img\\ src=\"/web/redline\\.gif\"><br><a\\ class=\"about_link\"\\ href=\"/about_mail\\.htm\">about\\ SurgeMail</a></td>"
+    },
+    {
+      "name": "NetWin-Surgemail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-Surgemail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Start of na_login.htm --><!-- delayed after doctype-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Start\\ of\\ na_login\\.htm\\ \\-\\-><!\\-\\-\\ delayed\\ after\\ doctype\\-\\->"
+    },
+    {
+      "name": "NetWin-Surgemail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-Surgemail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--<body bgcolor=\"#FFFFFF\" onload=\"window.focus();document.main.username.focus();\">-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-<body\\ bgcolor=\"\\#FFFFFF\"\\ onload=\"window\\.focus\\(\\);document\\.main\\.username\\.focus\\(\\);\">\\-\\->"
+    },
+    {
+      "name": "NetWin-Surgemail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-Surgemail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a class=\"about_mail\" target=\"_top\" href=\"/about_mail.htm\">about SurgeMail </a></font> </td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ class=\"about_mail\"\\ target=\"_top\"\\ href=\"/about_mail\\.htm\">about\\ SurgeMail\\ </a></font>\\ </td>"
+    },
+    {
+      "name": "NetWin-Surgemail Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for NetWin-Surgemail",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form action=\"/scripts/webmail.exe\" method=\"post\" name=\"reloginform\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ action=\"/scripts/webmail\\.exe\"\\ method=\"post\"\\ name=\"reloginform\">"
+    }
+  ]
+}

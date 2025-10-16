@@ -1,0 +1,42 @@
+{
+  "vendor": "Concrete5",
+  "vendor_id": "concrete5",
+  "product": "Concrete5",
+  "product_id": "concrete5",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "JavaScript",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Concrete5",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "\\bvar CCM_DISPATCHER_FILENAME ?="
+    },
+    {
+      "name": "CONCRETE5 cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Concrete5",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^CONCRETE5="
+    }
+  ]
+}

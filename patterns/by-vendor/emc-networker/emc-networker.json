@@ -1,0 +1,32 @@
+{
+  "vendor": "EMC-NetWorker",
+  "vendor_id": "emc-networker",
+  "product": "EMC-NetWorker",
+  "product_id": "emc-networker",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "EMC-NetWorker Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for EMC-NetWorker",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Welcome to NetWorker Management Console</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Welcome\\ to\\ NetWorker\\ Management\\ Console</title>"
+    }
+  ]
+}

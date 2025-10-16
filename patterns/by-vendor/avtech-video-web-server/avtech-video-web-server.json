@@ -1,0 +1,76 @@
+{
+  "vendor": "AVTech-Video-Web-Server",
+  "vendor_id": "avtech-video-web-server",
+  "product": "AVTech-Video-Web-Server",
+  "product_id": "avtech-video-web-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AVTech-Video-Web-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AVTech-Video-Web-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>--- VIDEO WEB SERVER ---</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>\\-\\-\\-\\ VIDEO\\ WEB\\ SERVER\\ \\-\\-\\-</title>"
+    },
+    {
+      "name": "AVTech-Video-Web-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AVTech-Video-Web-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"button\" name=\"Download\" value=\"Download AP\" class=\"button\" onClick=\"MM_goToURL(\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ type=\"button\"\\ name=\"Download\"\\ value=\"Download\\ AP\"\\ class=\"button\"\\ onClick=\"MM_goToURL\\(\\\\"
+    },
+    {
+      "name": "AVTech-Video-Web-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AVTech-Video-Web-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"submit\" name=\"Download\" value=\"Download AP\" class=\"button\" onClick=\"MM_goToURL(\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ type=\"submit\"\\ name=\"Download\"\\ value=\"Download\\ AP\"\\ class=\"button\"\\ onClick=\"MM_goToURL\\(\\\\"
+    }
+  ]
+}

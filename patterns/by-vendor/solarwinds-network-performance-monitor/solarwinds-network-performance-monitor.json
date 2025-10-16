@@ -1,0 +1,246 @@
+{
+  "vendor": "SolarWinds-Network-Performance-Monitor",
+  "vendor_id": "solarwinds-network-performance-monitor",
+  "product": "SolarWinds-Network-Performance-Monitor",
+  "product_id": "solarwinds-network-performance-monitor",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SolarWinds-Network-Performance-Monitor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SolarWinds-Network-Performance-Monitor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<b>Cannot access main SQL Server database.</b><br><br><b>Connection</b>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<b>Cannot\\ access\\ main\\ SQL\\ Server\\ database\\.</b><br><br><b>Connection</b>"
+    },
+    {
+      "name": "SolarWinds-Network-Performance-Monitor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SolarWinds-Network-Performance-Monitor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>SolarWinds Network Management</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>SolarWinds\\ Network\\ Management</TITLE>"
+    },
+    {
+      "name": "SolarWinds-Network-Performance-Monitor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SolarWinds-Network-Performance-Monitor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TD Class=PageHeader>Network Performance Monitor</TD>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TD\\ Class=PageHeader>Network\\ Performance\\ Monitor</TD>"
+    },
+    {
+      "name": "SolarWinds-Network-Performance-Monitor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SolarWinds-Network-Performance-Monitor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/SolarWinds.css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/SolarWinds\\.css\">"
+    },
+    {
+      "name": "SolarWinds-Network-Performance-Monitor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SolarWinds-Network-Performance-Monitor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>[\\r\\n]*\tOrion Network Performance Monitor[\\r\\n]*</title>"
+    },
+    {
+      "name": "SolarWinds-Network-Performance-Monitor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SolarWinds-Network-Performance-Monitor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/SolarWinds.css\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/SolarWinds\\.css\"\\ />"
+    },
+    {
+      "name": "SolarWinds-Network-Performance-Monitor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SolarWinds-Network-Performance-Monitor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Stylesheets left here to support legacy resources -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Stylesheets\\ left\\ here\\ to\\ support\\ legacy\\ resources\\ \\-\\->"
+    },
+    {
+      "name": "SolarWinds-Network-Performance-Monitor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SolarWinds-Network-Performance-Monitor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"/NetPerfMon/images/SolarWinds.Logo.gif\" alt=\"Site Logo\"/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"/NetPerfMon/images/SolarWinds\\.Logo\\.gif\"\\ alt=\"Site\\ Logo\"/>"
+    },
+    {
+      "name": "SolarWinds-Network-Performance-Monitor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SolarWinds-Network-Performance-Monitor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"../NetPerfMon/images/SolarWinds.Logo.jpg\" border=0>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"\\.\\./NetPerfMon/images/SolarWinds\\.Logo\\.jpg\"\\ border=0>"
+    },
+    {
+      "name": "SolarWinds-Network-Performance-Monitor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SolarWinds-Network-Performance-Monitor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"/NetPerfMon/images/SolarWinds.Logo.jpg\" border=0>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"/NetPerfMon/images/SolarWinds\\.Logo\\.jpg\"\\ border=0>"
+    },
+    {
+      "name": "SolarWinds-Network-Performance-Monitor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SolarWinds-Network-Performance-Monitor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"/Login.asp\"><u><b>Retry Login<b><u></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"/Login\\.asp\"><u><b>Retry\\ Login<b><u></a>"
+    }
+  ]
+}

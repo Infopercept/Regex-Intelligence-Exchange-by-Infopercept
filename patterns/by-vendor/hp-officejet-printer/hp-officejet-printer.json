@@ -1,0 +1,54 @@
+{
+  "vendor": "HP-OfficeJet-Printer",
+  "vendor_id": "hp-officejet-printer",
+  "product": "HP-OfficeJet-Printer",
+  "product_id": "hp-officejet-printer",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "HP-OfficeJet-Printer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HP-OfficeJet-Printer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "index.htm?cat=info&page=printerInfo",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "index\\.htm\\?cat=info\\&page=printerInfo"
+    },
+    {
+      "name": "HP-OfficeJet-Printer Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HP-OfficeJet-Printer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "home.htm?cat=home&page=home",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "home\\.htm\\?cat=home\\&page=home"
+    }
+  ]
+}

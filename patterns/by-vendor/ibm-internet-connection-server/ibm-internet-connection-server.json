@@ -1,0 +1,33 @@
+{
+  "vendor": "IBM-Internet-Connection-Server",
+  "vendor_id": "ibm-internet-connection-server",
+  "product": "IBM-Internet-Connection-Server",
+  "product_id": "ibm-internet-connection-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "IBM-Internet-Connection-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for IBM-Internet-Connection-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^IBM Internet Connection Server/([^\\s]+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^IBM Internet Connection Server/([^\\s]+)$",
+      "version_group": 1
+    }
+  ]
+}

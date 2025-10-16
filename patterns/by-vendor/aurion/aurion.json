@@ -1,0 +1,98 @@
+{
+  "vendor": "Aurion",
+  "vendor_id": "aurion",
+  "product": "Aurion",
+  "product_id": "aurion",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Aurion Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Aurion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<br/>Please enable JavaScript in your browser or refer to you internal IT support for assistance.<br/><br/></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<br/>Please\\ enable\\ JavaScript\\ in\\ your\\ browser\\ or\\ refer\\ to\\ you\\ internal\\ IT\\ support\\ for\\ assistance\\.<br/><br/></div>"
+    },
+    {
+      "name": "Aurion Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Aurion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Aurion Teal will be used as the login-time default. Shell layouts will replace these after login. -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Aurion\\ Teal\\ will\\ be\\ used\\ as\\ the\\ login\\-time\\ default\\.\\ Shell\\ layouts\\ will\\ replace\\ these\\ after\\ login\\.\\ \\-\\->"
+    },
+    {
+      "name": "Aurion Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Aurion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- teal.css has stuff needed for div#loading-noscript -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ teal\\.css\\ has\\ stuff\\ needed\\ for\\ div\\#loading\\-noscript\\ \\-\\->"
+    },
+    {
+      "name": "Aurion Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Aurion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta http-equiv=\"X-UA-Compatible\" content=\"chrome=1; IE=8; IE=7\"> <!-- Stop Internet Explorer from using \"Compatability Mode\" -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ http\\-equiv=\"X\\-UA\\-Compatible\"\\ content=\"chrome=1;\\ IE=8;\\ IE=7\">\\ <!\\-\\-\\ Stop\\ Internet\\ Explorer\\ from\\ using\\ \"Compatability\\ Mode\"\\ \\-\\->"
+    }
+  ]
+}

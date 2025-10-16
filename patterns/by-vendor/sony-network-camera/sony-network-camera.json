@@ -1,0 +1,70 @@
+{
+  "vendor": "Sony-Network-Camera",
+  "vendor_id": "sony-network-camera",
+  "product": "Sony-Network-Camera",
+  "product_id": "sony-network-camera",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Sony-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sony-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\tsetWindowVar = window.open(\"/adm/file.cgi?next_file=setting.htm\", \"adminWin\", setWinoptions);",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\tsetWindowVar\\ =\\ window\\.open\\(\"/adm/file\\.cgi\\?next_file=setting\\.htm\",\\ \"adminWin\",\\ setWinoptions\\);"
+    },
+    {
+      "name": "Sony-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sony-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>Server Push Viewer</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>Server\\ Push\\ Viewer</TITLE>"
+    },
+    {
+      "name": "Sony-Network-Camera Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sony-Network-Camera",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<FRAME SRC=\"bar.html\" SCROLLING=\"NO\" NAME=\"sonyhome[0-9]*\" NORESIZE[\\ MARGINHEIGHT=\"0-9\"]* MARGINWIDTH=\"0\">"
+    }
+  ]
+}

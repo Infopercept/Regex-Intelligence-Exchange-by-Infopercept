@@ -1,0 +1,120 @@
+{
+  "vendor": "AutoIndex-PHP-Script",
+  "vendor_id": "autoindex-php-script",
+  "product": "AutoIndex-PHP-Script",
+  "product_id": "autoindex-php-script",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AutoIndex-PHP-Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AutoIndex-PHP-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" href=\"/stylesheet.css\" type=\"text/css\" title=\"AutoIndex Default\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"/stylesheet\\.css\"\\ type=\"text/css\"\\ title=\"AutoIndex\\ Default\"\\ />"
+    },
+    {
+      "name": "AutoIndex-PHP-Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AutoIndex-PHP-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"./templates/default/default.css\" rel=\"stylesheet\" title=\"AutoIndex Default\" type=\"text/css\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"\\./templates/default/default\\.css\"\\ rel=\"stylesheet\"\\ title=\"AutoIndex\\ Default\"\\ type=\"text/css\"\\ />"
+    },
+    {
+      "name": "AutoIndex-PHP-Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AutoIndex-PHP-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"./templates/default/alternate.css\" rel=\"alternate stylesheet\" title=\"AutoIndex Alternate\" type=\"text/css\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"\\./templates/default/alternate\\.css\"\\ rel=\"alternate\\ stylesheet\"\\ title=\"AutoIndex\\ Alternate\"\\ type=\"text/css\"\\ />"
+    },
+    {
+      "name": "AutoIndex-PHP-Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AutoIndex-PHP-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"small\" style=\"text-align: right;\">Powered by <a class=\"default_a\" href=\"autoindex.sourceforge.net/\">AutoIndex PHP Script</a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"small\"\\ style=\"text\\-align:\\ right;\">Powered\\ by\\ <a\\ class=\"default_a\"\\ href=\"autoindex\\.sourceforge\\.net/\">AutoIndex\\ PHP\\ Script</a></div>"
+    },
+    {
+      "name": "AutoIndex-PHP-Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for AutoIndex-PHP-Script",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"autoindex_small\" style=\"text-align: right;\">Powered by <a class=\"autoindex_a\" href=\"autoindex.sourceforge.net/\" target=\"_blank\">AutoIndex PHP Script</a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"autoindex_small\"\\ style=\"text\\-align:\\ right;\">Powered\\ by\\ <a\\ class=\"autoindex_a\"\\ href=\"autoindex\\.sourceforge\\.net/\"\\ target=\"_blank\">AutoIndex\\ PHP\\ Script</a></div>"
+    }
+  ]
+}

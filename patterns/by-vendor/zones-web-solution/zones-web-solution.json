@@ -1,0 +1,54 @@
+{
+  "vendor": "Zones-Web-Solution",
+  "vendor_id": "zones-web-solution",
+  "product": "Zones-Web-Solution",
+  "product_id": "zones-web-solution",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Zones-Web-Solution Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Zones-Web-Solution",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"Vikas Madaan (http://madaan.zones.in) - Zones Web Solution (www.zones.in), Visit http://www.zones.in for more info\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Vikas\\ Madaan\\ \\(http://madaan\\.zones\\.in\\)\\ \\-\\ Zones\\ Web\\ Solution\\ \\(www\\.zones\\.in\\),\\ Visit\\ http://www\\.zones\\.in\\ for\\ more\\ info\">"
+    },
+    {
+      "name": "Zones-Web-Solution Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Zones-Web-Solution",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<br>Powered by : <a href=\"http://www.zones.in\" target=\"_blank\">Zones Web Solution</a> &amp;",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<br>Powered\\ by\\ :\\ <a\\ href=\"http://www\\.zones\\.in\"\\ target=\"_blank\">Zones\\ Web\\ Solution</a>\\ \\&amp;"
+    }
+  ]
+}

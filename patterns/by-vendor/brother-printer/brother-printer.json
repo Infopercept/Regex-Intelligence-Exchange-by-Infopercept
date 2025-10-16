@@ -1,0 +1,143 @@
+{
+  "vendor": "Brother-Printer",
+  "vendor_id": "brother-printer",
+  "product": "Brother-Printer",
+  "product_id": "brother-printer",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Brother-Printer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Brother-Printer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<FRAME SRC=\"/printer/inc_head.html\" NAME=\"header\" NORESIZE SCROLLING=\"no\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<FRAME\\ SRC=\"/printer/inc_head\\.html\"\\ NAME=\"header\"\\ NORESIZE\\ SCROLLING=\"no\">"
+    },
+    {
+      "name": "Brother-Printer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Brother-Printer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<IMG src=\"/common/image/HL4040CN.gif\" border=0>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<IMG\\ src=\"/common/image/HL4040CN\\.gif\"\\ border=0>"
+    },
+    {
+      "name": "Brother-Printer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Brother-Printer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<IMG src=\"/common/image/HL4040CDN.gif\" border=0>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<IMG\\ src=\"/common/image/HL4040CDN\\.gif\"\\ border=0>"
+    },
+    {
+      "name": "Brother-Printer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Brother-Printer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<IMG src=\"/common/image/HL4050CDN.gif\" border=0>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<IMG\\ src=\"/common/image/HL4050CDN\\.gif\"\\ border=0>"
+    },
+    {
+      "name": "Brother-Printer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Brother-Printer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<IMG src=\"/common/image/HL4070CDW.gif\" border=0>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<IMG\\ src=\"/common/image/HL4070CDW\\.gif\"\\ border=0>"
+    },
+    {
+      "name": "Brother-Printer Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Brother-Printer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^[Dd]ebut/8.5$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^[Dd]ebut/([\\d\\.]+)$",
+      "version_group": 1
+    }
+  ]
+}

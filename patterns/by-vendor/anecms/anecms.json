@@ -1,0 +1,48 @@
+{
+  "vendor": "ANECMS",
+  "vendor_id": "anecms",
+  "product": "ANECMS",
+  "product_id": "anecms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ANECMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ANECMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Author\" content=\"Erwin Aligam - ealigam@gmail.com\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Author\"\\ content=\"Erwin\\ Aligam\\ \\-\\ ealigam@gmail\\.com\"\\ />"
+    },
+    {
+      "name": "ANECMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ANECMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>[^<^\\-]+- Powered By ANECMS</title>"
+    }
+  ]
+}

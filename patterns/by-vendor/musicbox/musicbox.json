@@ -1,0 +1,98 @@
+{
+  "vendor": "Musicbox",
+  "vendor_id": "musicbox",
+  "product": "Musicbox",
+  "product_id": "musicbox",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Musicbox Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Musicbox",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- THE FOLLOWING IS NEEDED FOR THE AUTO-COMPLETE SEARCH BOX -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ THE\\ FOLLOWING\\ IS\\ NEEDED\\ FOR\\ THE\\ AUTO\\-COMPLETE\\ SEARCH\\ BOX\\ \\-\\->"
+    },
+    {
+      "name": "Musicbox Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Musicbox",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" href=\"template/musicboxv2.css\" type=\"text/css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"template/musicboxv2\\.css\"\\ type=\"text/css\">"
+    },
+    {
+      "name": "Musicbox Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Musicbox",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Please dont edit this unless you are advanced coder -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Please\\ dont\\ edit\\ this\\ unless\\ you\\ are\\ advanced\\ coder\\ \\-\\->"
+    },
+    {
+      "name": "Musicbox Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Musicbox",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr><td align='left'><a href='../userinfo.php?user=admin' target='_blank'>My Account</a></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr><td\\ align='left'><a\\ href='\\.\\./userinfo\\.php\\?user=admin'\\ target='_blank'>My\\ Account</a></td>"
+    }
+  ]
+}

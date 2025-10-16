@@ -1,0 +1,76 @@
+{
+  "vendor": "phplist",
+  "vendor_id": "phplist",
+  "product": "phplist",
+  "product_id": "phplist",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "phplist Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phplist",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html><head><title>Nothing here</title></head><body>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html><head><title>Nothing\\ here</title></head><body>"
+    },
+    {
+      "name": "phplist Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phplist",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>You probably want to be <a href=\"../\">here</a> or <a href=\"admin/\">here</a>.</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>You\\ probably\\ want\\ to\\ be\\ <a\\ href=\"\\.\\./\">here</a>\\ or\\ <a\\ href=\"admin/\">here</a>\\.</p>"
+    },
+    {
+      "name": "phplist Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phplist",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Author\" content=\"Michiel Dethmers - http://www.phplist.com\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Author\"\\ content=\"Michiel\\ Dethmers\\ \\-\\ http://www\\.phplist\\.com\"\\ />"
+    }
+  ]
+}

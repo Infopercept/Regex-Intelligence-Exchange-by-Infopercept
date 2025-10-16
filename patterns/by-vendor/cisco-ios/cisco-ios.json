@@ -1,0 +1,58 @@
+{
+  "vendor": "Cisco-IOS",
+  "vendor_id": "cisco-ios",
+  "product": "Cisco-IOS",
+  "product_id": "cisco-ios",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Cisco-IOS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cisco-IOS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<input type=\"hidden\" name=\"DIRINFO\" value=\"\\s+Directory of archive:/"
+    },
+    {
+      "name": "Cisco-IOS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cisco-IOS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<input type=\"hidden\" name=\"DIRINFO\" value=\"\\s*(Command authorization failed|% Authorization failed)"
+    },
+    {
+      "name": "Cisco-IOS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Cisco-IOS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^cisco-IOS"
+    }
+  ]
+}

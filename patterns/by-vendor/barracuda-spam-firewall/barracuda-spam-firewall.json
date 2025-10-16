@@ -1,0 +1,98 @@
+{
+  "vendor": "Barracuda-Spam-Firewall",
+  "vendor_id": "barracuda-spam-firewall",
+  "product": "Barracuda-Spam-Firewall",
+  "product_id": "barracuda-spam-firewall",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Barracuda-Spam-Firewall Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Barracuda-Spam-Firewall",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Barracuda Spam & Virus Firewall: Welcome</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Barracuda\\ Spam\\ \\&\\ Virus\\ Firewall:\\ Welcome</title>"
+    },
+    {
+      "name": "Barracuda-Spam-Firewall Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Barracuda-Spam-Firewall",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Barracuda Spam Firewall: Welcome</title><link rel=\"stylesheet\" type=\"text/css\" href=\"/barracuda.css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Barracuda\\ Spam\\ Firewall:\\ Welcome</title><link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/barracuda\\.css\">"
+    },
+    {
+      "name": "Barracuda-Spam-Firewall Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Barracuda-Spam-Firewall",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr><td valign=top width=680 bgcolor=\"#ffffff\" nowrap><table summary =\"Logo Row\" cellspacing=0 cellpadding=0 border=0><tr><td><a href=\"http://www.barracudanetworks.com?track=asg\" class=transbutton><img src=\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr><td\\ valign=top\\ width=680\\ bgcolor=\"\\#ffffff\"\\ nowrap><table\\ summary\\ =\"Logo\\ Row\"\\ cellspacing=0\\ cellpadding=0\\ border=0><tr><td><a\\ href=\"http://www\\.barracudanetworks\\.com\\?track=asg\"\\ class=transbutton><img\\ src=\""
+    },
+    {
+      "name": "Barracuda-Spam-Firewall Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Barracuda-Spam-Firewall",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.barracudanetworks.com?track=asg\"><img src=\"/images/powered_by.gif\" border=0",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.barracudanetworks\\.com\\?track=asg\"><img\\ src=\"/images/powered_by\\.gif\"\\ border=0"
+    }
+  ]
+}

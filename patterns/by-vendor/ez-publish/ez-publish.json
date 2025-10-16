@@ -1,0 +1,92 @@
+{
+  "vendor": "eZ-Publish",
+  "vendor_id": "ez-publish",
+  "product": "eZ-Publish",
+  "product_id": "ez-publish",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "eZ-Publish Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eZ-Publish",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>eZ publish administration</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>eZ\\ publish\\ administration</title>"
+    },
+    {
+      "name": "eZ-Publish Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eZ-Publish",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/admin/templates/ezpublish/style.css\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/admin/templates/ezpublish/style\\.css\"\\ />"
+    },
+    {
+      "name": "eZ-Publish Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eZ-Publish",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "topmargin=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "topmargin=\\\\"
+    },
+    {
+      "name": "eZ-Publish Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eZ-Publish",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^eZ [p|P]ublish"
+    }
+  ]
+}

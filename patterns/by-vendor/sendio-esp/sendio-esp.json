@@ -1,0 +1,54 @@
+{
+  "vendor": "Sendio-ESP",
+  "vendor_id": "sendio-esp",
+  "product": "Sendio-ESP",
+  "product_id": "sendio-esp",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Sendio-ESP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sendio-ESP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<frameset id=\"icetopframeset\" name=\"icetopframeset\" rows=\"28,*,20,0,0,0\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<frameset\\ id=\"icetopframeset\"\\ name=\"icetopframeset\"\\ rows=\"28,\\*,20,0,0,0\""
+    },
+    {
+      "name": "Sendio-ESP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Sendio-ESP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/sendio/ice/css/nice.css\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/sendio/ice/css/nice\\.css\"\\ />"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "vendor": "Apache-Struts",
+  "vendor_id": "apache-struts",
+  "product": "Apache-Struts",
+  "product_id": "apache-struts",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Apache-Struts Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache-Struts",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "org\\.apache\\.struts\\.action\\.LOCALE=[^\\s]+;"
+    },
+    {
+      "name": "Apache-Struts Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache-Struts",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "org\\.apache\\.struts\\.[^\\s]+=[^\\s]+;"
+    },
+    {
+      "name": "Apache-Struts Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache-Struts",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a\\s+href=[^>]+org.apache.struts"
+    },
+    {
+      "name": "Apache-Struts Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache-Struts",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "org.apache.struts2",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "org\\.apache\\.struts2"
+    },
+    {
+      "name": "Apache-Struts Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache-Struts",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "org.apache.struts.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "org\\.apache\\.struts\\."
+    },
+    {
+      "name": "Apache-Struts Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache-Struts",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Development mode, or devMode, enables extra\\s+debugging behaviors and reports to assist developers.  To disable this mode, set:\\s+<pre>\\s+  struts.devMode=false"
+    }
+  ]
+}

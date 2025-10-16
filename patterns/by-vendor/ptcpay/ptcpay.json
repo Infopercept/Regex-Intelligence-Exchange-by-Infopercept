@@ -1,0 +1,54 @@
+{
+  "vendor": "PTCPay",
+  "vendor_id": "ptcpay",
+  "product": "PTCPay",
+  "product_id": "ptcpay",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PTCPay Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PTCPay",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"left\"><img src=\"pre/images/ic_support.png\" width=\"23\" height=\"23\" alt=\"\" /></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"left\"><img\\ src=\"pre/images/ic_support\\.png\"\\ width=\"23\"\\ height=\"23\"\\ alt=\"\"\\ /></div>"
+    },
+    {
+      "name": "PTCPay Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PTCPay",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>Powered by <a href=\"http://www.ptcpay.com\" target=\"_blank\">GeN4 Security+</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://www\\.ptcpay\\.com\"\\ target=\"_blank\">GeN4\\ Security\\+</a>"
+    }
+  ]
+}

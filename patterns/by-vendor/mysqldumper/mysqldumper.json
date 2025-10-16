@@ -1,0 +1,76 @@
+{
+  "vendor": "MySqlDumper",
+  "vendor_id": "mysqldumper",
+  "product": "MySqlDumper",
+  "product_id": "mysqldumper",
+  "category": "database",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MySqlDumper Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MySqlDumper",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<select class=\"SQLCombo\" name=\"tablecombo\" onchange=\"this.form.sqltextarea.value=this.options[this.selectedIndex].value;this.form.execsql.click();\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<select\\ class=\"SQLCombo\"\\ name=\"tablecombo\"\\ onchange=\"this\\.form\\.sqltextarea\\.value=this\\.options\\[this\\.selectedIndex\\]\\.value;this\\.form\\.execsql\\.click\\(\\);\">"
+    },
+    {
+      "name": "MySqlDumper Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MySqlDumper",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "align=\"center\">The execution of SQL Statements can manipulate data. TAKE CARE! The Authors don\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "align=\"center\">The\\ execution\\ of\\ SQL\\ Statements\\ can\\ manipulate\\ data\\.\\ TAKE\\ CARE!\\ The\\ Authors\\ don\\\\"
+    },
+    {
+      "name": "MySqlDumper Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MySqlDumper",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a title=\"Select Database / Datebase functions / Import - Export \" href=\"sql.php?db=&amp;dbid=0&amp;context=3",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ title=\"Select\\ Database\\ /\\ Datebase\\ functions\\ /\\ Import\\ \\-\\ Export\\ \"\\ href=\"sql\\.php\\?db=\\&amp;dbid=0\\&amp;context=3"
+    }
+  ]
+}

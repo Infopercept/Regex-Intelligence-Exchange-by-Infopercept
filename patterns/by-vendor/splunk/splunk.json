@@ -1,0 +1,54 @@
+{
+  "vendor": "Splunk",
+  "vendor_id": "splunk",
+  "product": "Splunk",
+  "product_id": "splunk",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Splunk Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Splunk",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p><span>First time logging in?</span> Splunk's default credentials are </p><p>username: <span>admin</span><br />password: <span>changeme</span></p><p>If you've forgotten your username or password, please contact your Splunk administrator.</p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p><span>First\\ time\\ logging\\ in\\?</span>\\ Splunk's\\ default\\ credentials\\ are\\ </p><p>username:\\ <span>admin</span><br\\ />password:\\ <span>changeme</span></p><p>If\\ you've\\ forgotten\\ your\\ username\\ or\\ password,\\ please\\ contact\\ your\\ Splunk\\ administrator\\.</p>"
+    },
+    {
+      "name": "Splunk Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Splunk",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"Splunk Inc.\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Splunk\\ Inc\\.\"\\ />"
+    }
+  ]
+}

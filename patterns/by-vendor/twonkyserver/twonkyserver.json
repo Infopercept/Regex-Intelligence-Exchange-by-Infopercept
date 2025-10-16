@@ -1,0 +1,114 @@
+{
+  "vendor": "TwonkyServer",
+  "vendor_id": "twonkyserver",
+  "product": "TwonkyServer",
+  "product_id": "twonkyserver",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TwonkyServer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TwonkyServer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "TwonkyMedia UPnP"
+    },
+    {
+      "name": "TwonkyServer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TwonkyServer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"TwonkyMedia Digital Home\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"TwonkyMedia\\ Digital\\ Home\">"
+    },
+    {
+      "name": "TwonkyServer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TwonkyServer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td><strong><font color=\"#294A94\" size=\"2\">TwonkyMedia Settings</font></strong></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td><strong><font\\ color=\"\\#294A94\"\\ size=\"2\">TwonkyMedia\\ Settings</font></strong></td>"
+    },
+    {
+      "name": "TwonkyServer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TwonkyServer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html><head><title>TwonkyServer Media Browser</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html><head><title>TwonkyServer\\ Media\\ Browser</title>"
+    },
+    {
+      "name": "TwonkyServer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TwonkyServer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html><head><title>TwonkyMedia server media browser</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<html><head><title>TwonkyMedia\\ server\\ media\\ browser</title>"
+    }
+  ]
+}

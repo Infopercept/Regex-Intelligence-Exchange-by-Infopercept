@@ -1,0 +1,54 @@
+{
+  "vendor": "PHP-Server-Monitor",
+  "vendor_id": "php-server-monitor",
+  "product": "PHP-Server-Monitor",
+  "product_id": "php-server-monitor",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PHP-Server-Monitor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Server-Monitor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>PHP Server Monitor</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>PHP\\ Server\\ Monitor</title>"
+    },
+    {
+      "name": "PHP-Server-Monitor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Server-Monitor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"opensource\"><a href=\"index.php\"><img src=\"img/opensource.png\" alt=\"Open Source\" height=\"101px\" /></a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"opensource\"><a\\ href=\"index\\.php\"><img\\ src=\"img/opensource\\.png\"\\ alt=\"Open\\ Source\"\\ height=\"101px\"\\ /></a></div>"
+    }
+  ]
+}

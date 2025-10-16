@@ -1,0 +1,54 @@
+{
+  "vendor": "Op5-Monitor",
+  "vendor_id": "op5-monitor",
+  "product": "Op5-Monitor",
+  "product_id": "op5-monitor",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Op5-Monitor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Op5-Monitor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>op5 Monitor login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>op5\\ Monitor\\ login</title>"
+    },
+    {
+      "name": "Op5-Monitor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Op5-Monitor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link type=\"text/css\" rel=\"stylesheet\" href=\"/monitor/application/views/themes/default/css/default/common.css\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ type=\"text/css\"\\ rel=\"stylesheet\"\\ href=\"/monitor/application/views/themes/default/css/default/common\\.css\"\\ />"
+    }
+  ]
+}

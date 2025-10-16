@@ -1,0 +1,49 @@
+{
+  "vendor": "TivoWebPlus",
+  "vendor_id": "tivowebplus",
+  "product": "TivoWebPlus",
+  "product_id": "tivowebplus",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TivoWebPlus Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TivoWebPlus",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "TivoWebPlus"
+    },
+    {
+      "name": "TivoWebPlus Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TivoWebPlus",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "www-authenticate: ^Basic realm=['\"]TivoWebPlus - v([^'^\"]+)['\"]$",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "www-authenticate: ^Basic realm=['\"]TivoWebPlus - v([^'^\"]+)['\"]$",
+      "version_group": 1
+    }
+  ]
+}

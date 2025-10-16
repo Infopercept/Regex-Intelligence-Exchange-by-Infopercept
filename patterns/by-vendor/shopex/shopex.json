@@ -1,0 +1,64 @@
+{
+  "vendor": "ShopEx",
+  "vendor_id": "shopex",
+  "product": "ShopEx",
+  "product_id": "shopex",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ShopEx Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ShopEx",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>[^<]* -- Powered by Shop(e|E)x</title>"
+    },
+    {
+      "name": "ShopEx Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ShopEx",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p align=center><font color=black style='font-size:9pt;font-family:Arial'>Powered by </font><a href='http://www.shopex.cn' target='_blank'><font color=navy style='font-size:9pt;font-family:Arial;text-decoration:under-line'>Shop<font><font color=orange style='font-size:9pt;font-family:Arial;text-decoration:under-line'>Ex<font></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p\\ align=center><font\\ color=black\\ style='font\\-size:9pt;font\\-family:Arial'>Powered\\ by\\ </font><a\\ href='http://www\\.shopex\\.cn'\\ target='_blank'><font\\ color=navy\\ style='font\\-size:9pt;font\\-family:Arial;text\\-decoration:under\\-line'>Shop<font><font\\ color=orange\\ style='font\\-size:9pt;font\\-family:Arial;text\\-decoration:under\\-line'>Ex<font></a>"
+    },
+    {
+      "name": "ShopEx Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ShopEx",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link href=\"syssite/home/shop/[\\d]+/images/[\\d]+/css\\.css\" rel=\"stylesheet\" type=\"text/css\">"
+    }
+  ]
+}

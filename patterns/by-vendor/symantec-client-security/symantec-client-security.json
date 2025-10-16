@@ -1,0 +1,32 @@
+{
+  "vendor": "Symantec-Client-Security",
+  "vendor_id": "symantec-client-security",
+  "product": "Symantec-Client-Security",
+  "product_id": "symantec-client-security",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Symantec-Client-Security Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Symantec-Client-Security",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Symantec Client Security Web Based Installation -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Symantec\\ Client\\ Security\\ Web\\ Based\\ Installation\\ \\-\\->"
+    }
+  ]
+}

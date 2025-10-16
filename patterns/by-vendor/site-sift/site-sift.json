@@ -1,0 +1,70 @@
+{
+  "vendor": "Site-Sift",
+  "vendor_id": "site-sift",
+  "product": "Site-Sift",
+  "product_id": "site-sift",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Site-Sift Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Site-Sift",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<div align=\"center\" class=\"copyright\">powered by <A class=\"bottomlink\" href=\"http://[scripts|www]+.site-sift.com[/]*\">Site Sift[^<]*</A></div>"
+    },
+    {
+      "name": "Site-Sift Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Site-Sift",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t\t<!-- end of header.php -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\t\\\t<!\\-\\-\\ end\\ of\\ header\\.php\\ \\-\\->"
+    },
+    {
+      "name": "Site-Sift Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Site-Sift",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t\t<!-- begin of footer.php -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\t\\\t<!\\-\\-\\ begin\\ of\\ footer\\.php\\ \\-\\->"
+    }
+  ]
+}

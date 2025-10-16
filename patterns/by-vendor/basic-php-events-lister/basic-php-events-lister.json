@@ -1,0 +1,76 @@
+{
+  "vendor": "Basic-PHP-Events-Lister",
+  "vendor_id": "basic-php-events-lister",
+  "product": "Basic-PHP-Events-Lister",
+  "product_id": "basic-php-events-lister",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Basic-PHP-Events-Lister Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Basic-PHP-Events-Lister",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by: <a href=\"http://www.mevin.com/\">mevin productions</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by:\\ <a\\ href=\"http://www\\.mevin\\.com/\">mevin\\ productions</a>"
+    },
+    {
+      "name": "Basic-PHP-Events-Lister Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Basic-PHP-Events-Lister",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<br /><center><input class=\"text\" type=\"submit\" name=\"submitBtn\" value=\"Login\" /></center>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<br\\ /><center><input\\ class=\"text\"\\ type=\"submit\"\\ name=\"submitBtn\"\\ value=\"Login\"\\ /></center>"
+    },
+    {
+      "name": "Basic-PHP-Events-Lister Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Basic-PHP-Events-Lister",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<center><br> <a href=recover.php>Lost your password?</a></center>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<center><br>\\ <a\\ href=recover\\.php>Lost\\ your\\ password\\?</a></center>"
+    }
+  ]
+}

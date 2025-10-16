@@ -1,0 +1,70 @@
+{
+  "vendor": "Jamroom",
+  "vendor_id": "jamroom",
+  "product": "Jamroom",
+  "product_id": "jamroom",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Jamroom Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Jamroom",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"text\" name=\"search_string\" class=\"jform s_input\" style=\"width:300px;\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ type=\"text\"\\ name=\"search_string\"\\ class=\"jform\\ s_input\"\\ style=\"width:300px;\">"
+    },
+    {
+      "name": "Jamroom Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Jamroom",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"designer\" content=\"Talldude Networks, LLC.\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"designer\"\\ content=\"Talldude\\ Networks,\\ LLC\\.\">"
+    },
+    {
+      "name": "Jamroom Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Jamroom",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"http://www.jamroom.net\"><img src=\"[^\"]*\" alt=\"Powered by Jamroom - the Powerful Social Media Platform\" title=\"Powered by Jamroom - the Powerful Social Media Platform\" border=\"0\"></a>"
+    }
+  ]
+}

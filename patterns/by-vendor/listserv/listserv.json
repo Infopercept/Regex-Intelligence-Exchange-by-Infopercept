@@ -1,0 +1,76 @@
+{
+  "vendor": "LISTSERV",
+  "vendor_id": "listserv",
+  "product": "LISTSERV",
+  "product_id": "listserv",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "LISTSERV Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LISTSERV",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "_white-space:pre;   /* IE only hack to re-specify in addition to word-wrap  */",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "_white\\-space:pre;\\ \\ \\ /\\*\\ IE\\ only\\ hack\\ to\\ re\\-specify\\ in\\ addition\\ to\\ word\\-wrap\\ \\ \\*/"
+    },
+    {
+      "name": "LISTSERV Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LISTSERV",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "alt=\"Powered by the LISTSERV Email List Manager\" title=\"Powered by the LISTSERV Email List Manager\" border=\"0\"></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "alt=\"Powered\\ by\\ the\\ LISTSERV\\ Email\\ List\\ Manager\"\\ title=\"Powered\\ by\\ the\\ LISTSERV\\ Email\\ List\\ Manager\"\\ border=\"0\"></a>"
+    },
+    {
+      "name": "LISTSERV Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for LISTSERV",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>LISTSERV - Redirecting ...</TITLE>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<TITLE>LISTSERV\\ \\-\\ Redirecting\\ \\.\\.\\.</TITLE>"
+    }
+  ]
+}

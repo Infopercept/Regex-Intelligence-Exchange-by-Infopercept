@@ -1,0 +1,93 @@
+{
+  "vendor": "Oracle-Fusion-Middleware",
+  "vendor_id": "oracle-fusion-middleware",
+  "product": "Oracle-Fusion-Middleware",
+  "product_id": "oracle-fusion-middleware",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Oracle-Fusion-Middleware Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-Fusion-Middleware",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Welcome to Oracle Fusion Middleware</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Welcome\\ to\\ Oracle\\ Fusion\\ Middleware</title>"
+    },
+    {
+      "name": "Oracle-Fusion-Middleware Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-Fusion-Middleware",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"css/fmw_bottom_area.css\" rel=\"stylesheet\" type=\"text/css\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ href=\"css/fmw_bottom_area\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\">"
+    },
+    {
+      "name": "Oracle-Fusion-Middleware Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-Fusion-Middleware",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Oracle-Fusion-Middleware"
+    },
+    {
+      "name": "Oracle-Fusion-Middleware Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Oracle-Fusion-Middleware",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Oracle-Fusion-Middleware/([^\\s]+ \\([^\\)]+\\))",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Oracle-Fusion-Middleware/([^\\s]+ \\([^\\)]+\\))",
+      "version_group": 1
+    }
+  ]
+}

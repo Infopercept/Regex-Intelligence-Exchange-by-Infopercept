@@ -1,0 +1,32 @@
+{
+  "vendor": "Pc4Uploader",
+  "vendor_id": "pc4uploader",
+  "product": "Pc4Uploader",
+  "product_id": "pc4uploader",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Pc4Uploader Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Pc4Uploader",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "eval(\"page\" + id + \" = window.open(URL, \\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "eval\\(\"page\"\\ \\+\\ id\\ \\+\\ \"\\ =\\ window\\.open\\(URL,\\ \\\\"
+    }
+  ]
+}

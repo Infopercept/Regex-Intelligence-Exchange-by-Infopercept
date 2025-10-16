@@ -1,0 +1,86 @@
+{
+  "vendor": "PmWiki",
+  "vendor_id": "pmwiki",
+  "product": "PmWiki",
+  "product_id": "pmwiki",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PmWiki Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PmWiki",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "imstime=[\\d]+;"
+    },
+    {
+      "name": "PmWiki Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PmWiki",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--PageLeftFmt-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-PageLeftFmt\\-\\->"
+    },
+    {
+      "name": "PmWiki Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PmWiki",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span class='commentout-pmwikiorg'>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span\\ class='commentout\\-pmwikiorg'>"
+    },
+    {
+      "name": "PmWiki Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PmWiki",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link rel='stylesheet' href='[^']*/pmwiki/pub/skins/pmwiki/pmwiki\\.css' type='text/css' />"
+    }
+  ]
+}

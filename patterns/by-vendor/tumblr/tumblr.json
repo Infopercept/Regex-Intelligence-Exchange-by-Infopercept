@@ -1,0 +1,64 @@
+{
+  "vendor": "Tumblr",
+  "vendor_id": "tumblr",
+  "product": "Tumblr",
+  "product_id": "tumblr",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Tumblr Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tumblr",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link rel=\"(shortcut )?icon\" href=\"http:/\\"
+    },
+    {
+      "name": "Tumblr Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tumblr",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=\"tumblr-theme\" content=\"[\\d]+\"[\\s]?/>"
+    },
+    {
+      "name": "Tumblr Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Tumblr",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- BEGIN TUMBLR CODE --><iframe src=\"http://assets.tumblr.com/iframe.html",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ BEGIN\\ TUMBLR\\ CODE\\ \\-\\-><iframe\\ src=\"http://assets\\.tumblr\\.com/iframe\\.html"
+    }
+  ]
+}

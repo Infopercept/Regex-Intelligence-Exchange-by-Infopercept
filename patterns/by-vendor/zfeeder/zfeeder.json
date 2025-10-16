@@ -1,0 +1,32 @@
+{
+  "vendor": "zFeeder",
+  "vendor_id": "zfeeder",
+  "product": "zFeeder",
+  "product_id": "zfeeder",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "zFeeder Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for zFeeder",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span style=\"font-family: Verdana, Arial, Helvetica, sans-serif; font-size: xx-small;\">powered by <a href=\"http://zvonnews.sourceforge.net\">zFeeder</a></span>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span\\ style=\"font\\-family:\\ Verdana,\\ Arial,\\ Helvetica,\\ sans\\-serif;\\ font\\-size:\\ xx\\-small;\">powered\\ by\\ <a\\ href=\"http://zvonnews\\.sourceforge\\.net\">zFeeder</a></span>"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "vendor": "PHPEasyData",
+  "vendor_id": "phpeasydata",
+  "product": "PHPEasyData",
+  "product_id": "phpeasydata",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PHPEasyData Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHPEasyData",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id='phpeasydata_container'  >",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id='phpeasydata_container'\\ \\ >"
+    },
+    {
+      "name": "PHPEasyData Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHPEasyData",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "  <head><title>PhpEasyData login page</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ <head><title>PhpEasyData\\ login\\ page</title>"
+    }
+  ]
+}

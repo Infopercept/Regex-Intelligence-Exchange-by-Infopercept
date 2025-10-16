@@ -1,0 +1,108 @@
+{
+  "vendor": "xt-Commerce",
+  "vendor_id": "xt-commerce",
+  "product": "xt-Commerce",
+  "product_id": "xt-commerce",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "xt-Commerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for xt-Commerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<!--\\n\tThis OnlineStore is brought to you by XT-Commerce, Community made shopping\\n\tXTC is a free open source e-Commerce System\\n\tcreated by Mario Zanier & Guido Winger and licensed under GNU/GPL.\\n\tInformation and contribution at http://www.xt-commerce.com\\n-->"
+    },
+    {
+      "name": "xt-Commerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for xt-Commerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"(c) by xtcModified , http://www.xtc-modified.org\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"\\(c\\)\\ by\\ xtcModified\\ ,\\ http://www\\.xtc\\-modified\\.org\"\\ />"
+    },
+    {
+      "name": "xt-Commerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for xt-Commerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"(c) by xtcModified ----- http://www.xtc-modified.org\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"\\(c\\)\\ by\\ xtcModified\\ \\-\\-\\-\\-\\-\\ http://www\\.xtc\\-modified\\.org\"\\ />"
+    },
+    {
+      "name": "xt-Commerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for xt-Commerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<div class=\"copyright\"><a rel=\"follow\" href=\"http://[^>^\"]*/ecombase.php\" title=\"eComBASE licence\">eComBASE<\\"
+    },
+    {
+      "name": "xt-Commerce Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for xt-Commerce",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"copyright\"><a href=\"http://www.xtc-modified.org\" target=\"_blank\">xtcModified</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class=\"copyright\"><a\\ href=\"http://www\\.xtc\\-modified\\.org\"\\ target=\"_blank\">xtcModified</a>"
+    }
+  ]
+}

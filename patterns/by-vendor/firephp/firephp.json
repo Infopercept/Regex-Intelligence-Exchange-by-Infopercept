@@ -1,0 +1,49 @@
+{
+  "vendor": "FirePHP",
+  "vendor_id": "firephp",
+  "product": "FirePHP",
+  "product_id": "firephp",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FirePHP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FirePHP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-wf-1-plugin-1: ^http://meta\\.firephp\\.org/Wildfire/Plugin/FirePHP/Library-FirePHPCore/([^\\s]+)$",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-wf-1-plugin-1: ^http://meta\\.firephp\\.org/Wildfire/Plugin/FirePHP/Library-FirePHPCore/([^\\s]+)$",
+      "version_group": 1
+    },
+    {
+      "name": "FirePHP Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for FirePHP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^http://meta\\.wildfirehq\\.org/Protocol/"
+    }
+  ]
+}

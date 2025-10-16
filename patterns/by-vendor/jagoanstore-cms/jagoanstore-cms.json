@@ -1,0 +1,32 @@
+{
+  "vendor": "JagoanStore-CMS",
+  "vendor_id": "jagoanstore-cms",
+  "product": "JagoanStore-CMS",
+  "product_id": "jagoanstore-cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "JagoanStore-CMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for JagoanStore-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "CMS <a style=\"color:#fff;font-size:11px;\" href=\"http://www.jagoanstore.com/\" target=\"_blank\">Toko Online</a> by <a href=\"http://www.jagoanstore.com/\" target=\"_blank\"><img src=\"http://www.jagoanstore.com/jagstorecom-lil.png\" border=0 align=\"absmiddle\" /></a></div>\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "CMS\\ <a\\ style=\"color:\\#fff;font\\-size:11px;\"\\ href=\"http://www\\.jagoanstore\\.com/\"\\ target=\"_blank\">Toko\\ Online</a>\\ by\\ <a\\ href=\"http://www\\.jagoanstore\\.com/\"\\ target=\"_blank\"><img\\ src=\"http://www\\.jagoanstore\\.com/jagstorecom\\-lil\\.png\"\\ border=0\\ align=\"absmiddle\"\\ /></a></div>\\\\"
+    }
+  ]
+}

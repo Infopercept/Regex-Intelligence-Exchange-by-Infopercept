@@ -1,0 +1,32 @@
+{
+  "vendor": "ACollab",
+  "vendor_id": "acollab",
+  "product": "ACollab",
+  "product_id": "acollab",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ACollab Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ACollab",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>ACollab : Accessible Collaboration Environment:",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>ACollab\\ :\\ Accessible\\ Collaboration\\ Environment:"
+    }
+  ]
+}

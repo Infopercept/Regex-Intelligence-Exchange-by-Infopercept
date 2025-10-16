@@ -1,0 +1,74 @@
+{
+  "vendor": "ComersusCart",
+  "vendor_id": "comersuscart",
+  "product": "ComersusCart",
+  "product_id": "comersuscart",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ComersusCart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ComersusCart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta NAME=\"DESCRIPTION\" CONTENT=\"Powered by Comersus http://www.comersus.com\">"
+    },
+    {
+      "name": "ComersusCart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ComersusCart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>[^<]*Powered by Comersus ASP Shopping Cart Open Source[^<]*</title>"
+    },
+    {
+      "name": "ComersusCart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ComersusCart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a href=\"[^\"]*comersus_showCart.asp\">"
+    },
+    {
+      "name": "ComersusCart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ComersusCart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by <[^>]*>Comersus</a>"
+    }
+  ]
+}

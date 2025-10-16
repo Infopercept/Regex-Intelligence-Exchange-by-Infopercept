@@ -1,0 +1,32 @@
+{
+  "vendor": "WWW-File-Share-Pro",
+  "vendor_id": "www-file-share-pro",
+  "product": "WWW-File-Share-Pro",
+  "product_id": "www-file-share-pro",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WWW-File-Share-Pro Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for WWW-File-Share-Pro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td height=\"27\"><a href=\"http://www.lionmax.com\" target=\"_blank\">Powered by LionMax Software</a></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<td\\ height=\"27\"><a\\ href=\"http://www\\.lionmax\\.com\"\\ target=\"_blank\">Powered\\ by\\ LionMax\\ Software</a></td>"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "vendor": "EPiServer",
+  "vendor_id": "episerver",
+  "product": "EPiServer",
+  "product_id": "episerver",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "meta generator tag with EPiServer",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for EPiServer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\\\\"
+    },
+    {
+      "name": "EPiServer comment",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for EPiServer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- EPiServer -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ EPiServer\\ \\-\\->"
+    },
+    {
+      "name": "EPiServer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for EPiServer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "src=\"/Util/javascript/episerverscriptmanager.js\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "src=\"/Util/javascript/episerverscriptmanager\\.js\""
+    },
+    {
+      "name": "EPiServer Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for EPiServer",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<h1>Log in to EPiServer CMS 6",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<h1>Log\\ in\\ to\\ EPiServer\\ CMS\\ 6"
+    }
+  ]
+}

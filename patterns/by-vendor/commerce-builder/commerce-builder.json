@@ -1,0 +1,33 @@
+{
+  "vendor": "Commerce-Builder",
+  "vendor_id": "commerce-builder",
+  "product": "Commerce-Builder",
+  "product_id": "commerce-builder",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Commerce-Builder Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Commerce-Builder",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^Commerce-Builder/([^\\s]+)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^Commerce-Builder/([^\\s]+)",
+      "version_group": 1
+    }
+  ]
+}

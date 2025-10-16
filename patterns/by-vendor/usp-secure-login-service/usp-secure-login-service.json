@@ -1,0 +1,92 @@
+{
+  "vendor": "USP-Secure-Login-Service",
+  "vendor_id": "usp-secure-login-service",
+  "product": "USP-Secure-Login-Service",
+  "product_id": "usp-secure-login-service",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "USP-Secure-Login-Service Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for USP-Secure-Login-Service",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Optional: If browser does not support Javascript, load URL xyz -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Optional:\\ If\\ browser\\ does\\ not\\ support\\ Javascript,\\ load\\ URL\\ xyz\\ \\-\\->"
+    },
+    {
+      "name": "USP-Secure-Login-Service Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for USP-Secure-Login-Service",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- SLS JavaScripts -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ SLS\\ JavaScripts\\ \\-\\->"
+    },
+    {
+      "name": "USP-Secure-Login-Service Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for USP-Secure-Login-Service",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form action=\"auth\" method=\"post\" name=\"LoginForm\" onsubmit=\"return checkFormSubmit();\" >",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ action=\"auth\"\\ method=\"post\"\\ name=\"LoginForm\"\\ onsubmit=\"return\\ checkFormSubmit\\(\\);\"\\ >"
+    },
+    {
+      "name": "USP-Secure-Login-Service Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for USP-Secure-Login-Service",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<input name=\"currentRequestedPage\" type=\"hidden\" value=\"[^\"]+\" /></form>"
+    }
+  ]
+}

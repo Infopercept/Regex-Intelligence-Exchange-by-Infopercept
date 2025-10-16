@@ -1,0 +1,190 @@
+{
+  "vendor": "ColdFusion",
+  "vendor_id": "coldfusion",
+  "product": "ColdFusion",
+  "product_id": "coldfusion",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ColdFusion Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ColdFusion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<title>ColdFusion Administrator Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<title>ColdFusion\\ Administrator\\ Login</title>"
+    },
+    {
+      "name": "ColdFusion Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ColdFusion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t{   document.write(\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\{\\ \\ \\ document\\.write\\(\\\\"
+    },
+    {
+      "name": "ColdFusion Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ColdFusion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form name=\"loginform\" action=\"./enter.cfm\" method=\"POST\" onSubmit=\"cfadminPassword.value = hex_hmac_sha1(salt.value, hex_sha1(cfadminPassword.value));\" >",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ name=\"loginform\"\\ action=\"\\./enter\\.cfm\"\\ method=\"POST\"\\ onSubmit=\"cfadminPassword\\.value\\ =\\ hex_hmac_sha1\\(salt\\.value,\\ hex_sha1\\(cfadminPassword\\.value\\)\\);\"\\ >"
+    },
+    {
+      "name": "ColdFusion Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ColdFusion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input name=\"cfadminPassword\" type=\"Password\" size=\"15\" style=\"width:15em;\" class=\"label\" maxlength=\"100\" id=\"admin_login\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ name=\"cfadminPassword\"\\ type=\"Password\"\\ size=\"15\"\\ style=\"width:15em;\"\\ class=\"label\"\\ maxlength=\"100\"\\ id=\"admin_login\">"
+    },
+    {
+      "name": "ColdFusion Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ColdFusion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\tMacromedia, the Macromedia logo, Macromedia ColdFusion and ColdFusion are<br />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\tMacromedia,\\ the\\ Macromedia\\ logo,\\ Macromedia\\ ColdFusion\\ and\\ ColdFusion\\ are<br\\ />"
+    },
+    {
+      "name": "ColdFusion Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ColdFusion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<tr><td><img src=\"./images/mx_copyrframe.gif\" width=\"2\" height=\"57\" border=\"0\" alt=\"ColdFusion MX\" hspace=\"10\"></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<tr><td><img\\ src=\"\\./images/mx_copyrframe\\.gif\"\\ width=\"2\"\\ height=\"57\"\\ border=\"0\"\\ alt=\"ColdFusion\\ MX\"\\ hspace=\"10\"></td>"
+    },
+    {
+      "name": "ColdFusion Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ColdFusion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "(Abnormal|Normal)"
+    },
+    {
+      "name": "ColdFusion Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ColdFusion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "CFAUTHORIZATION_cfadmin="
+    },
+    {
+      "name": "File extension",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ColdFusion",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^(cfm|cfc)$"
+    }
+  ]
+}

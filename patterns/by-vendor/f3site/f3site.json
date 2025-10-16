@@ -1,0 +1,64 @@
+{
+  "vendor": "F3Site",
+  "vendor_id": "f3site",
+  "product": "F3Site",
+  "product_id": "f3site",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "F3Site Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for F3Site",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://compmaster.prv.pl\" target=\"_blank\">powered by F3Site</a></span>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://compmaster\\.prv\\.pl\"\\ target=\"_blank\">powered\\ by\\ F3Site</a></span>"
+    },
+    {
+      "name": "F3Site Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for F3Site",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by[^>]*<a[^>]*href=\"http://compmaster.prv.pl[^>]*>F3Site[^>]*</a>"
+    },
+    {
+      "name": "F3Site Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for F3Site",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Powered by[^>]*<a[^>]*href=\"http://dhost.info/compmaste[^>]*>F3Site[^<]*</a>"
+    }
+  ]
+}

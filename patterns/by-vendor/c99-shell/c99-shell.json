@@ -1,0 +1,54 @@
+{
+  "vendor": "c99-Shell",
+  "vendor_id": "c99-shell",
+  "product": "c99-Shell",
+  "product_id": "c99-shell",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "c99-Shell Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for c99-Shell",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Dir: <input type=\"text\" name=\"directory\" method=\"get\"> <input type=\"submit\" value=\"List Directory\"><br><br> eg: /etc/<br>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Dir:\\ <input\\ type=\"text\"\\ name=\"directory\"\\ method=\"get\">\\ <input\\ type=\"submit\"\\ value=\"List\\ Directory\"><br><br>\\ eg:\\ /etc/<br>"
+    },
+    {
+      "name": "c99-Shell Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for c99-Shell",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<center>Php Safe-Mode Bypass (List Directories):     <form action=\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<center>Php\\ Safe\\-Mode\\ Bypass\\ \\(List\\ Directories\\):\\ \\ \\ \\ \\ <form\\ action=\""
+    }
+  ]
+}

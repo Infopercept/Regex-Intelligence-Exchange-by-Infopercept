@@ -1,0 +1,76 @@
+{
+  "vendor": "TypoLight",
+  "vendor_id": "typolight",
+  "product": "TypoLight",
+  "product_id": "typolight",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "typolight.css",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TypoLight",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" href=\"system/typolight.css\" type=\"text/css\" media=\"screen\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"system/typolight\\.css\"\\ type=\"text/css\"\\ media=\"screen\"\\ />"
+    },
+    {
+      "name": "TypoLight Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TypoLight",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "This website is powered by TYPOlight Open Source CMS :: Licensed under GNU/LGPL",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "This\\ website\\ is\\ powered\\ by\\ TYPOlight\\ Open\\ Source\\ CMS\\ ::\\ Licensed\\ under\\ GNU/LGPL"
+    },
+    {
+      "name": "TypoLight Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TypoLight",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- indexer::continue -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ indexer::continue\\ \\-\\->"
+    }
+  ]
+}

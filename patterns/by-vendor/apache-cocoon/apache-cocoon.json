@@ -1,0 +1,33 @@
+{
+  "vendor": "Apache-Cocoon",
+  "vendor_id": "apache-cocoon",
+  "product": "Apache-Cocoon",
+  "product_id": "apache-cocoon",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Apache-Cocoon Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache-Cocoon",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-cocoon-version: ^(.*)$",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-cocoon-version: ^(.*)$",
+      "version_group": 1
+    }
+  ]
+}

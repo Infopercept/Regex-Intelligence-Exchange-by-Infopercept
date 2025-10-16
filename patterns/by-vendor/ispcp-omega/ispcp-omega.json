@@ -1,0 +1,76 @@
+{
+  "vendor": "ispCP-Omega",
+  "vendor_id": "ispcp-omega",
+  "product": "ispCP-Omega",
+  "product_id": "ispcp-omega",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ispCP-Omega Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ispCP-Omega",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>ispCP Omega a Virtual Hosting Control System</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>ispCP\\ Omega\\ a\\ Virtual\\ Hosting\\ Control\\ System</title>"
+    },
+    {
+      "name": "ispCP-Omega Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ispCP-Omega",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a class=\"login\" href=\"http://www.isp-control.net\" target=\"_blank\">ispCP Omega",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ class=\"login\"\\ href=\"http://www\\.isp\\-control\\.net\"\\ target=\"_blank\">ispCP\\ Omega"
+    },
+    {
+      "name": "ispCP-Omega Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ispCP-Omega",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "themes/omega_original/images/login/login_lock.jpg",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "themes/omega_original/images/login/login_lock\\.jpg"
+    }
+  ]
+}

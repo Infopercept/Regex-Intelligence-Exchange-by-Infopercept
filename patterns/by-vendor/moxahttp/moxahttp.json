@@ -1,0 +1,49 @@
+{
+  "vendor": "MoxaHttp",
+  "vendor_id": "moxahttp",
+  "product": "MoxaHttp",
+  "product_id": "moxahttp",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MoxaHttp Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MoxaHttp",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^MoxaHttp"
+    },
+    {
+      "name": "MoxaHttp Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for MoxaHttp",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: ^MoxaHttp/([^\\s]+)$",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: ^MoxaHttp/([^\\s]+)$",
+      "version_group": 1
+    }
+  ]
+}

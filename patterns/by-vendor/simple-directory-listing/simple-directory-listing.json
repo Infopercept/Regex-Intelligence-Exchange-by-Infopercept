@@ -1,0 +1,114 @@
+{
+  "vendor": "Simple-Directory-Listing",
+  "vendor_id": "simple-directory-listing",
+  "product": "Simple-Directory-Listing",
+  "product_id": "simple-directory-listing",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Simple-Directory-Listing Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Simple-Directory-Listing",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name='keywords' content='simple, directory, listing'></meta>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name='keywords'\\ content='simple,\\ directory,\\ listing'></meta>"
+    },
+    {
+      "name": "Simple-Directory-Listing Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Simple-Directory-Listing",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name='keywords' content='simple, directory, listing, /[^/]*/? - Simple Directory Listing'></meta>"
+    },
+    {
+      "name": "Simple-Directory-Listing Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Simple-Directory-Listing",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form action='?system=login' method='post' onsubmit='Sdl.login.submit(); return false;'>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ action='\\?system=login'\\ method='post'\\ onsubmit='Sdl\\.login\\.submit\\(\\);\\ return\\ false;'>"
+    },
+    {
+      "name": "Simple-Directory-Listing Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Simple-Directory-Listing",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<i><b>powered by <a href='http://simpledirectorylisting.net'>SimpleDirectoryListing</a></b></i>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<i><b>powered\\ by\\ <a\\ href='http://simpledirectorylisting\\.net'>SimpleDirectoryListing</a></b></i>"
+    },
+    {
+      "name": "Simple-Directory-Listing Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Simple-Directory-Listing",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://sourceforge.net/simpledirectory\">SimpleDirectoryListing</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://sourceforge\\.net/simpledirectory\">SimpleDirectoryListing</a>"
+    }
+  ]
+}

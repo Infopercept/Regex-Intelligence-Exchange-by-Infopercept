@@ -1,0 +1,42 @@
+{
+  "vendor": "Plogger",
+  "vendor_id": "plogger",
+  "product": "Plogger",
+  "product_id": "plogger",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Plogger Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plogger",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>[^powered]+powered by Plogger Gallery</title>"
+    },
+    {
+      "name": "Plogger Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Plogger",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<a[\\ title=\"Powered by Plogger\"]* href=\"http://www.plogger.org/\">Powered by Plogger[!]*</a>"
+    }
+  ]
+}

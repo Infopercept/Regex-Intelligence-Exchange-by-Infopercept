@@ -1,0 +1,92 @@
+{
+  "vendor": "Kayako-SupportSuite",
+  "vendor_id": "kayako-supportsuite",
+  "product": "Kayako-SupportSuite",
+  "product_id": "kayako-supportsuite",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Kayako-SupportSuite Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kayako-SupportSuite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "SWIFT_client",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "SWIFT_client"
+    },
+    {
+      "name": "Kayako-SupportSuite Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kayako-SupportSuite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": " - Powered By Kayako eSupport</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\-\\ Powered\\ By\\ Kayako\\ eSupport</title>"
+    },
+    {
+      "name": "Kayako-SupportSuite Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kayako-SupportSuite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<span class=\"smalltext\"><font color=\"#333333\">Powered by e(Support|SupportSuite)<br\\"
+    },
+    {
+      "name": "Kayako-SupportSuite Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kayako-SupportSuite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"bottomfooter\" class=\"bottomfooterpadding\"><a href=\"http://www.kayako.com\" target=\"_blank\" class=\"bottomfooterlink\">Help Desk Software\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"bottomfooter\"\\ class=\"bottomfooterpadding\"><a\\ href=\"http://www\\.kayako\\.com\"\\ target=\"_blank\"\\ class=\"bottomfooterlink\">Help\\ Desk\\ Software\""
+    }
+  ]
+}

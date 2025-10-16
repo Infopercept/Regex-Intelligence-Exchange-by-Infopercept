@@ -1,0 +1,26 @@
+{
+  "vendor": "TOTVS-SmartClient",
+  "vendor_id": "totvs-smartclient",
+  "product": "TOTVS-SmartClient",
+  "product_id": "totvs-smartclient",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TOTVS-SmartClient Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TOTVS-SmartClient",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^TotvsSmartClient$"
+    }
+  ]
+}

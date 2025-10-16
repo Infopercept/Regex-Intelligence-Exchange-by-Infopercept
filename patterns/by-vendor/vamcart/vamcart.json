@@ -1,0 +1,70 @@
+{
+  "vendor": "VamCart",
+  "vendor_id": "vamcart",
+  "product": "VamCart",
+  "product_id": "vamcart",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VamCart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VamCart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<link type=\"text/css\" href=\"[^\"]+/stylesheets/load/vamcart\\.css\" rel=\"stylesheet\"  media=\"screen\"/>"
+    },
+    {
+      "name": "VamCart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VamCart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Powered by: VamCart (http://vamcart.com) -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Powered\\ by:\\ VamCart\\ \\(http://vamcart\\.com\\)\\ \\-\\->"
+    },
+    {
+      "name": "VamCart Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VamCart",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p><a href=\"http://vamcart.com/\">PHP Shopping Cart</a> <a href=\"http://vamcart.com/\">VamCart</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p><a\\ href=\"http://vamcart\\.com/\">PHP\\ Shopping\\ Cart</a>\\ <a\\ href=\"http://vamcart\\.com/\">VamCart</a></p>"
+    }
+  ]
+}

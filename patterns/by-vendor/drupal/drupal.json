@@ -2,70 +2,133 @@
   "vendor": "Drupal",
   "vendor_id": "drupal",
   "product": "Drupal",
-  "product_id": "drupal-drupal",
+  "product_id": "drupal",
   "category": "cms",
   "versions": {},
   "all_versions": [
     {
-      "name": "Drupal CMS - Generator Meta Tag",
-      "category": "cms",
-      "pattern": "<meta name=\"Generator\" content=\"Drupal ([\\d.]+)",
-      "vendor": "Drupal",
-      "product": "Drupal",
-      "version_group": 1,
-      "priority": 160,
-      "confidence": 0.9,
+      "name": "Drupal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
       "metadata": {
-        "author": "Security Scanner Team",
-        "created_at": "2024-01-01T00:00:00",
-        "updated_at": "2024-01-01T00:00:00",
-        "description": "Detects Drupal version from the Generator meta tag in HTML content. This is commonly found in Drupal sites.",
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Drupal",
         "tags": [
-          "cms",
-          "drupal",
-          "php",
-          "web"
-        ],
-        "test_cases": [
-          {
-            "input": "<meta name=\"Generator\" content=\"Drupal 9 (https://www.drupal.org)\">",
-            "expected_version": "9"
-          },
-          {
-            "input": "<meta name=\"Generator\" content=\"Drupal 8.9.16 (https://www.drupal.org)\">",
-            "expected_version": "8.9.16"
-          }
+          "whatweb",
+          "extracted"
         ]
-      }
+      },
+      "pattern": "<script type=\"text/javascript\" src=\"[^\\\"]*/misc/drupal.js[^\\\"]*\"></script>"
     },
     {
-      "name": "Drupal CMS - X-Generator Header",
-      "category": "cms",
-      "pattern": "X-Generator: Drupal ([\\d.]+)",
-      "vendor": "Drupal",
-      "product": "Drupal",
-      "version_group": 1,
-      "priority": 150,
-      "confidence": 0.85,
+      "name": "Drupal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
       "metadata": {
-        "author": "Security Scanner Team",
-        "created_at": "2024-01-01T00:00:00",
-        "updated_at": "2024-01-01T00:00:00",
-        "description": "Detects Drupal version from the X-Generator HTTP header. This header is often present in Drupal installations.",
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Drupal",
         "tags": [
-          "cms",
-          "drupal",
-          "php",
-          "web",
-          "header"
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<[^>]+alt=\"Powered by Drupal, an open source content management system\""
+    },
+    {
+      "name": "Drupal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Drupal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "@import \"[^\\\"]*/misc/drupal.css\""
+    },
+    {
+      "name": "Drupal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Drupal",
+        "tags": [
+          "whatweb",
+          "extracted"
         ],
         "test_cases": [
           {
-            "input": "X-Generator: Drupal 9 (https://www.drupal.org)",
-            "expected_version": "9"
+            "input": "jQuery.extend(Drupal.settings,",
+            "expected_version": "unknown"
           }
         ]
-      }
+      },
+      "pattern": "jQuery\\.extend\\(Drupal\\.settings,"
+    },
+    {
+      "name": "Drupal Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Drupal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Drupal.extend(",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Drupal\\.extend\\("
+    },
+    {
+      "name": "Mobile Plugin Cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Drupal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "mobileplugin_group="
+    },
+    {
+      "name": "Drupal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Drupal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "(HIT|MISS)"
     }
   ]
 }

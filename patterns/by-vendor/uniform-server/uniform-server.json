@@ -1,0 +1,76 @@
+{
+  "vendor": "Uniform-Server",
+  "vendor_id": "uniform-server",
+  "product": "Uniform-Server",
+  "product_id": "uniform-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Uniform-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Uniform-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"divider\">Developed By <a href=\"http://www.uniformserver.com/\">The Uniform Server Development Team</a></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"divider\">Developed\\ By\\ <a\\ href=\"http://www\\.uniformserver\\.com/\">The\\ Uniform\\ Server\\ Development\\ Team</a></div>"
+    },
+    {
+      "name": "Uniform-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Uniform-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Description\" content=\"The Uniform Server 8.1.0-Coral.\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Description\"\\ content=\"The\\ Uniform\\ Server\\ 8\\.1\\.0\\-Coral\\.\"\\ />"
+    },
+    {
+      "name": "Uniform-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Uniform-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"header\"><a href=\"http://www.uniformserver.com\"><img src=\"images/logo.jpg\" align=\"left\" alt=\"The Uniform Server\" /></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"header\"><a\\ href=\"http://www\\.uniformserver\\.com\"><img\\ src=\"images/logo\\.jpg\"\\ align=\"left\"\\ alt=\"The\\ Uniform\\ Server\"\\ /></a>"
+    }
+  ]
+}

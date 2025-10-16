@@ -1,0 +1,26 @@
+{
+  "vendor": "SABnzbd",
+  "vendor_id": "sabnzbd",
+  "product": "SABnzbd",
+  "product_id": "sabnzbd",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SABnzbd Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SABnzbd",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "    <form action=\"/sabnzbd/[^\"]*\" method=\"POST\">"
+    }
+  ]
+}

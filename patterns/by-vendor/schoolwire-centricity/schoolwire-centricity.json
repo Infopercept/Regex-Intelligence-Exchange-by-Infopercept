@@ -1,0 +1,58 @@
+{
+  "vendor": "SchoolWire-Centricity",
+  "vendor_id": "schoolwire-centricity",
+  "product": "SchoolWire-Centricity",
+  "product_id": "schoolwire-centricity",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SWSessionID cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SchoolWire-Centricity",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^SWSessionID"
+    },
+    {
+      "name": "PSDB cookie",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SchoolWire-Centricity",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^PSDB"
+    },
+    {
+      "name": "PSN cookie",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SchoolWire-Centricity",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^PSN"
+    }
+  ]
+}

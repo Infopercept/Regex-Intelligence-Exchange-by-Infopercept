@@ -1,0 +1,164 @@
+{
+  "vendor": "PHP-Live",
+  "vendor_id": "php-live",
+  "product": "PHP-Live",
+  "product_id": "php-live",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PHP-Live Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Live",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "// image is NOT CACHED (Netscape problem).  keep this or bad things could happen",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "//\\ image\\ is\\ NOT\\ CACHED\\ \\(Netscape\\ problem\\)\\.\\ \\ keep\\ this\\ or\\ bad\\ things\\ could\\ happen"
+    },
+    {
+      "name": "PHP-Live Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Live",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- copyright OSI Codes Inc. http://www.osicodes.com [DO NOT DELETE] -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ copyright\\ OSI\\ Codes\\ Inc\\.\\ http://www\\.osicodes\\.com\\ \\[DO\\ NOT\\ DELETE\\]\\ \\-\\->"
+    },
+    {
+      "name": "PHP-Live Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Live",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- copyright OSI Codes, http://www.osicodes.com [DO NOT DELETE] -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ copyright\\ OSI\\ Codes,\\ http://www\\.osicodes\\.com\\ \\[DO\\ NOT\\ DELETE\\]\\ \\-\\->"
+    },
+    {
+      "name": "PHP-Live Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Live",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- BEGIN PHP Live! Code, copyright 2001 OSI Codes -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ BEGIN\\ PHP\\ Live!\\ Code,\\ copyright\\ 2001\\ OSI\\ Codes\\ \\-\\->"
+    },
+    {
+      "name": "PHP-Live Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Live",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- END PHP Live! Code, copyright 2001 OSI Codes -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ END\\ PHP\\ Live!\\ Code,\\ copyright\\ 2001\\ OSI\\ Codes\\ \\-\\->"
+    },
+    {
+      "name": "PHP-Live Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Live",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title> Knowledge BASE (FAQ) </title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>\\ Knowledge\\ BASE\\ \\(FAQ\\)\\ </title>"
+    },
+    {
+      "name": "PHP-Live Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PHP-Live",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<font color=\"#FF0000\">[Configuration Error: config files not found!] Exiting",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<font\\ color=\"\\#FF0000\">\\[Configuration\\ Error:\\ config\\ files\\ not\\ found!\\]\\ Exiting"
+    }
+  ]
+}

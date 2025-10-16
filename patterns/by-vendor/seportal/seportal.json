@@ -1,0 +1,32 @@
+{
+  "vendor": "SePortal",
+  "vendor_id": "seportal",
+  "product": "SePortal",
+  "product_id": "seportal",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SePortal Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SePortal",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "  <title>SePortal Installer</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\ \\ <title>SePortal\\ Installer</title>"
+    }
+  ]
+}

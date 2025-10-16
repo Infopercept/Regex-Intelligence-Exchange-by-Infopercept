@@ -1,0 +1,54 @@
+{
+  "vendor": "Syncrify",
+  "vendor_id": "syncrify",
+  "product": "Syncrify",
+  "product_id": "syncrify",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Syncrify Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Syncrify",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta NAME=\"Keywords\" CONTENT=\"Syncrify - Fast incremental backup\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ NAME=\"Keywords\"\\ CONTENT=\"Syncrify\\ \\-\\ Fast\\ incremental\\ backup\"\\ />"
+    },
+    {
+      "name": "Syncrify Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Syncrify",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>Powered by <a href='http://www.syncrify.com' >Syncrify</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>Powered\\ by\\ <a\\ href='http://www\\.syncrify\\.com'\\ >Syncrify</a></p>"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "vendor": "Controlstar-SCADA",
+  "vendor_id": "controlstar-scada",
+  "product": "Controlstar-SCADA",
+  "product_id": "controlstar-scada",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Controlstar-SCADA Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Controlstar-SCADA",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<APPLET archive=\"scada.jar, toolbox.jar, batik.jar, crimson-parser.jar\" code=\"Scada\" style=\"position:absolute;left:0;top:0;width:expression(document.body.clientWidth);height:expression(document.body.clientHeight);\" >",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<APPLET\\ archive=\"scada\\.jar,\\ toolbox\\.jar,\\ batik\\.jar,\\ crimson\\-parser\\.jar\"\\ code=\"Scada\"\\ style=\"position:absolute;left:0;top:0;width:expression\\(document\\.body\\.clientWidth\\);height:expression\\(document\\.body\\.clientHeight\\);\"\\ >"
+    }
+  ]
+}

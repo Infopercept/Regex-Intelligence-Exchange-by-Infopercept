@@ -1,0 +1,32 @@
+{
+  "vendor": "Realtor-747",
+  "vendor_id": "realtor-747",
+  "product": "Realtor-747",
+  "product_id": "realtor-747",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Realtor-747 Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Realtor-747",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body onload=\"start_realtor747_admin();\" onunload=\"stop_realtor747_admin();\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ onload=\"start_realtor747_admin\\(\\);\"\\ onunload=\"stop_realtor747_admin\\(\\);\">"
+    }
+  ]
+}

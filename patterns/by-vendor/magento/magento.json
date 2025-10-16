@@ -1,0 +1,206 @@
+{
+  "vendor": "Magento",
+  "vendor_id": "magento",
+  "product": "Magento",
+  "product_id": "magento",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "default logo alt-text",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Magento",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "images/logo.gif\" alt=\"Magento Commerce\" /></a></h1>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "images/logo\\.gif\"\\ alt=\"Magento\\ Commerce\"\\ /></a></h1>"
+    },
+    {
+      "name": "Meta keywords",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Magento",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"keywords\" content=\"Magento, Varien, E-commerce\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"keywords\"\\ content=\"Magento,\\ Varien,\\ E\\-commerce\"\\ />"
+    },
+    {
+      "name": "Magento Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Magento",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "var searchForm = new Varien.searchForm('search_mini_form', 'search', '",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "var\\ searchForm\\ =\\ new\\ Varien\\.searchForm\\('search_mini_form',\\ 'search',\\ '"
+    },
+    {
+      "name": "Magento Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Magento",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": ",mage/cookies.js\" ></script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": ",mage/cookies\\.js\"\\ ></script>"
+    },
+    {
+      "name": "JavaScript disabled warning",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Magento",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<div id=\"noscript-notice\" class=\"magento-notice\">"
+    },
+    {
+      "name": "Magento Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Magento",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Log into Magento Admin Page</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Log\\ into\\ Magento\\ Admin\\ Page</title>"
+    },
+    {
+      "name": "cookie called magento",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Magento",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^magento=[0-9a-f]+"
+    },
+    {
+      "name": "cookie called frontend",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Magento",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^frontend=[0-9a-z]+"
+    },
+    {
+      "name": "cookie called CUSTOMER",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Magento",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^CUSTOMER"
+    },
+    {
+      "name": "Magento Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Magento",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"text/x-magento-init\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ type=\"text/x\\-magento\\-init\">"
+    }
+  ]
+}

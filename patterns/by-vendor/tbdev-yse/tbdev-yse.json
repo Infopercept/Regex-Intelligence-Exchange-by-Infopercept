@@ -1,0 +1,54 @@
+{
+  "vendor": "TBDev-YSE",
+  "vendor_id": "tbdev-yse",
+  "product": "TBDev-YSE",
+  "product_id": "tbdev-yse",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TBDev-YSE Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TBDev-YSE",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- /////// Top Navigation Menu for unregistered-->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ ///////\\ Top\\ Navigation\\ Menu\\ for\\ unregistered\\-\\->"
+    },
+    {
+      "name": "TBDev-YSE Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for TBDev-YSE",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- /////////// here we go, with the menu //////////// -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ ///////////\\ here\\ we\\ go,\\ with\\ the\\ menu\\ ////////////\\ \\-\\->"
+    }
+  ]
+}

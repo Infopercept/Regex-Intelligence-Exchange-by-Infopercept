@@ -1,0 +1,64 @@
+{
+  "vendor": "Batavi",
+  "vendor_id": "batavi",
+  "product": "Batavi",
+  "product_id": "batavi",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Batavi Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Batavi",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"Batavi.org - Open Source E-Commerce\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"Batavi\\.org\\ \\-\\ Open\\ Source\\ E\\-Commerce\"\\ />"
+    },
+    {
+      "name": "Batavi Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Batavi",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Batavi e\\-commerce"
+    },
+    {
+      "name": "Batavi Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Batavi",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "frontsid=[^;]+;"
+    }
+  ]
+}

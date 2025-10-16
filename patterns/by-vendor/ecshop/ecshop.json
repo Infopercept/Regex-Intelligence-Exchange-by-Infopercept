@@ -1,0 +1,26 @@
+{
+  "vendor": "ECShop",
+  "vendor_id": "ecshop",
+  "product": "ECShop",
+  "product_id": "ecshop",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ECShop Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ECShop",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>[^<]+ - Powered by ECShop</title>"
+    }
+  ]
+}

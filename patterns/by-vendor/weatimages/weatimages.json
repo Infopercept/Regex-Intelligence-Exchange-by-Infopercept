@@ -1,0 +1,76 @@
+{
+  "vendor": "Weatimages",
+  "vendor_id": "weatimages",
+  "product": "Weatimages",
+  "product_id": "weatimages",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Weatimages Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Weatimages",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div align=\"center\" class=\"weatimages_toppest_navig\" style=\"text-decoration:underline;\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ align=\"center\"\\ class=\"weatimages_toppest_navig\"\\ style=\"text\\-decoration:underline;\">"
+    },
+    {
+      "name": "Weatimages Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Weatimages",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Generator\" content=\"Weatimages\"/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Generator\"\\ content=\"Weatimages\"/>"
+    },
+    {
+      "name": "Weatimages Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Weatimages",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://nazarkin.name/projects/weatimages/\">Weatimages</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://nazarkin\\.name/projects/weatimages/\">Weatimages</a>"
+    }
+  ]
+}

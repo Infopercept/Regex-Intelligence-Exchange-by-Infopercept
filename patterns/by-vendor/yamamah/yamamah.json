@@ -1,0 +1,54 @@
+{
+  "vendor": "Yamamah",
+  "vendor_id": "yamamah",
+  "product": "Yamamah",
+  "product_id": "yamamah",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Yamamah Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Yamamah",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Author\" content=\"Majed Al-Mulihani - majed@modernsys.net\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Author\"\\ content=\"Majed\\ Al\\-Mulihani\\ \\-\\ majed@modernsys\\.net\"\\ />"
+    },
+    {
+      "name": "Yamamah Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Yamamah",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Description\" content=\"Yamamah is free photo gallery cms\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Description\"\\ content=\"Yamamah\\ is\\ free\\ photo\\ gallery\\ cms\"\\ />"
+    }
+  ]
+}

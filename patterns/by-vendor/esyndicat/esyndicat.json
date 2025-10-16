@@ -1,0 +1,32 @@
+{
+  "vendor": "eSyndiCat",
+  "vendor_id": "esyndicat",
+  "product": "eSyndiCat",
+  "product_id": "esyndicat",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "eSyndiCat Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for eSyndiCat",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Login To eSyndiCat Admin Panel</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Login\\ To\\ eSyndiCat\\ Admin\\ Panel</title>"
+    }
+  ]
+}

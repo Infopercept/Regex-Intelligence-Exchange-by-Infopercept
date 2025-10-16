@@ -1,0 +1,48 @@
+{
+  "vendor": "phpMyBackupPro",
+  "vendor_id": "phpmybackuppro",
+  "product": "phpMyBackupPro",
+  "product_id": "phpmybackuppro",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "phpMyBackupPro Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpMyBackupPro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "[bB]asic realm=\"phpMyBackupPro\""
+    },
+    {
+      "name": "phpMyBackupPro Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for phpMyBackupPro",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Please login (use your MySQL username and password): <a href=\"index.php?login=TRUE\">Login</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Please\\ login\\ \\(use\\ your\\ MySQL\\ username\\ and\\ password\\):\\ <a\\ href=\"index\\.php\\?login=TRUE\">Login</a>"
+    }
+  ]
+}

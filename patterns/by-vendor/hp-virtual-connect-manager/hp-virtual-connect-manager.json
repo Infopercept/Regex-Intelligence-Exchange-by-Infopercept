@@ -1,0 +1,98 @@
+{
+  "vendor": "HP-Virtual-Connect-Manager",
+  "vendor_id": "hp-virtual-connect-manager",
+  "product": "HP-Virtual-Connect-Manager",
+  "product_id": "hp-virtual-connect-manager",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "HP-Virtual-Connect-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HP-Virtual-Connect-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- HP Virtual Connect Manager                                            -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ HP\\ Virtual\\ Connect\\ Manager\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\-\\->"
+    },
+    {
+      "name": "HP-Virtual-Connect-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HP-Virtual-Connect-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<h2><img src=\"./images/progress_bar_large.gif\"></h2><br />Loading, please wait...",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<h2><img\\ src=\"\\./images/progress_bar_large\\.gif\"></h2><br\\ />Loading,\\ please\\ wait\\.\\.\\."
+    },
+    {
+      "name": "HP-Virtual-Connect-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HP-Virtual-Connect-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>HP Virtual Connect Manager</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>HP\\ Virtual\\ Connect\\ Manager</title>"
+    },
+    {
+      "name": "HP-Virtual-Connect-Manager Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for HP-Virtual-Connect-Manager",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<frame id='MX_HIDDEN' name='MX_HIDDEN' src=\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<frame\\ id='MX_HIDDEN'\\ name='MX_HIDDEN'\\ src=\\\\"
+    }
+  ]
+}

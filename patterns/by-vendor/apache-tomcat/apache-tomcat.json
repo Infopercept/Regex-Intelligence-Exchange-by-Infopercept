@@ -1,0 +1,80 @@
+{
+  "vendor": "Apache-Tomcat",
+  "vendor_id": "apache-tomcat",
+  "product": "Apache-Tomcat",
+  "product_id": "apache-tomcat",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "tomcat in title",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache-Tomcat",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<title>Apache Tomcat</title>"
+    },
+    {
+      "name": "catalina home",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache-Tomcat",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "CATALINA_HOME/webapps/ROOT/index\\.html"
+    },
+    {
+      "name": "Java Stack Trace Error",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache-Tomcat",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "org\\.apache\\.tomcat\\..*java\\.lang\\.Thread\\.run"
+    },
+    {
+      "name": "Tomcat admin /manager/status",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Apache-Tomcat",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "tomcat",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "tomcat"
+    }
+  ]
+}

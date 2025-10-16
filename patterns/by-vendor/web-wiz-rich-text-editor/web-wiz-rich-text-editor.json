@@ -1,0 +1,32 @@
+{
+  "vendor": "Web-Wiz-Rich-Text-Editor",
+  "vendor_id": "web-wiz-rich-text-editor",
+  "product": "Web-Wiz-Rich-Text-Editor",
+  "product_id": "web-wiz-rich-text-editor",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Web-Wiz-Rich-Text-Editor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Web-Wiz-Rich-Text-Editor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form method=\"post\" action=\"RTE_popup_file_atch.asp\" name=\"frmImageInsrt\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<form\\ method=\"post\"\\ action=\"RTE_popup_file_atch\\.asp\"\\ name=\"frmImageInsrt\">"
+    }
+  ]
+}

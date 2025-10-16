@@ -1,0 +1,162 @@
+{
+  "vendor": "DotNetNuke",
+  "vendor_id": "dotnetnuke",
+  "product": "DotNetNuke",
+  "product_id": "dotnetnuke",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DotNetNuke Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DotNetNuke",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "src=\"[^\"]*/portals/_default/(containers|skins)"
+    },
+    {
+      "name": "DotNetNuke Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DotNetNuke",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta id=\"MetaGenerator\" name=\"GENERATOR\" content=\"DotNetNuke \" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ id=\"MetaGenerator\"\\ name=\"GENERATOR\"\\ content=\"DotNetNuke\\ \"\\ />"
+    },
+    {
+      "name": "VIEWSTATE contains DotNetNuke",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DotNetNuke",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "__VIEWSTATE\" value=\"[^\"]*RG90TmV0TnVrZ|RvdE5ldE51a2|3ROZXROdWtl"
+    },
+    {
+      "name": "DotNetNuke Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DotNetNuke",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"dnn_ctr",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"dnn_ctr"
+    },
+    {
+      "name": "DotNetNuke Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DotNetNuke",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"dnn_",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id=\"dnn_"
+    },
+    {
+      "name": "DotNetNuke Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DotNetNuke",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input name=\"__dnnVariable\" type=\"hidden\" id=\"__dnnVariable\"",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<input\\ name=\"__dnnVariable\"\\ type=\"hidden\"\\ id=\"__dnnVariable\""
+    },
+    {
+      "name": "DotNetNukeAnonymous Cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DotNetNuke",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "DotNetNukeAnonymous="
+    },
+    {
+      "name": "dnn_IsMobile cookie",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DotNetNuke",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "dnn_IsMobile"
+    }
+  ]
+}

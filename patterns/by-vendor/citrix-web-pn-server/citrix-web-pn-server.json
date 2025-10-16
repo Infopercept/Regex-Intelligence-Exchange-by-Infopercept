@@ -1,0 +1,26 @@
+{
+  "vendor": "Citrix-Web-PN-Server",
+  "vendor_id": "citrix-web-pn-server",
+  "product": "Citrix-Web-PN-Server",
+  "product_id": "citrix-web-pn-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Citrix-Web-PN-Server Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Citrix-Web-PN-Server",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Citrix Web PN Server$"
+    }
+  ]
+}

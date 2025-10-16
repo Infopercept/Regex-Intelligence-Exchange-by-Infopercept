@@ -1,0 +1,76 @@
+{
+  "vendor": "GridSite",
+  "vendor_id": "gridsite",
+  "product": "GridSite",
+  "product_id": "gridsite",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "GridSite Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for GridSite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"gridsite-admin.cgi?cmd=history&amp;file=index.html\">View&nbsp;page&nbsp;history</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"gridsite\\-admin\\.cgi\\?cmd=history\\&amp;file=index\\.html\">View\\&nbsp;page\\&nbsp;history</a>"
+    },
+    {
+      "name": "GridSite Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for GridSite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"gridsite-admin.cgi?cmd=print&amp;file=index.html\">Print&nbsp;View</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"gridsite\\-admin\\.cgi\\?cmd=print\\&amp;file=index\\.html\">Print\\&nbsp;View</a>"
+    },
+    {
+      "name": "GridSite Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for GridSite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- start of gridsitefoot.txt -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ start\\ of\\ gridsitefoot\\.txt\\ \\-\\->"
+    }
+  ]
+}

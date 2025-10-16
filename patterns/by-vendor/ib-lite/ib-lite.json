@@ -1,0 +1,32 @@
+{
+  "vendor": "IB-Lite",
+  "vendor_id": "ib-lite",
+  "product": "IB-Lite",
+  "product_id": "ib-lite",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "IB-Lite Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for IB-Lite",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr class=\"w_r\"><td class=\"w_n\">Access code</td><td width=\"140\" class=\"w_v\"><input id=\"psw_id\" type=\"password\" maxLength=\"15\" size=\"20\" name=\"q\" value=\"\"></td></tr>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr\\ class=\"w_r\"><td\\ class=\"w_n\">Access\\ code</td><td\\ width=\"140\"\\ class=\"w_v\"><input\\ id=\"psw_id\"\\ type=\"password\"\\ maxLength=\"15\"\\ size=\"20\"\\ name=\"q\"\\ value=\"\"></td></tr>"
+    }
+  ]
+}

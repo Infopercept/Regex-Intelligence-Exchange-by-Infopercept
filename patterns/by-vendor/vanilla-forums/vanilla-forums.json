@@ -1,0 +1,65 @@
+{
+  "vendor": "Vanilla-Forums",
+  "vendor_id": "vanilla-forums",
+  "product": "Vanilla-Forums",
+  "product_id": "vanilla-forums",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Vanilla-Forums Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Vanilla-Forums",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "x-garden-version: ^Vanilla ([^\\s]+)$",
+            "expected_version": "1.0"
+          }
+        ]
+      },
+      "pattern": "x-garden-version: ^Vanilla ([^\\s]+)$",
+      "version_group": 1
+    },
+    {
+      "name": "Vanilla-Forums Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Vanilla-Forums",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Vanilla=deleted; expires="
+    },
+    {
+      "name": "Vanilla-Forums Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Vanilla-Forums",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<body id=[\"'](DiscussionsPage|vanilla)"
+    }
+  ]
+}

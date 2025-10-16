@@ -1,0 +1,140 @@
+{
+  "vendor": "DataLife-Engine",
+  "vendor_id": "datalife-engine",
+  "product": "DataLife-Engine",
+  "product_id": "datalife-engine",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DataLife-Engine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DataLife-Engine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"DataLife Engine (http://dle-news.ru)\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"DataLife\\ Engine\\ \\(http://dle\\-news\\.ru\\)\"\\ />"
+    },
+    {
+      "name": "DataLife-Engine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DataLife-Engine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"DataLife Engine\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"DataLife\\ Engine\"\\ />"
+    },
+    {
+      "name": "DataLife-Engine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DataLife-Engine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"DataLife Engine Nulled by M.I.D-Team (http://www.mid-team.ws)\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"DataLife\\ Engine\\ Nulled\\ by\\ M\\.I\\.D\\-Team\\ \\(http://www\\.mid\\-team\\.ws\\)\"\\ />"
+    },
+    {
+      "name": "DataLife-Engine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DataLife-Engine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script language=\"javascript\" type=\"text/javascript\">[\\s]+<!--[\\s]+var dle_root       = '[^']+';[\\s]+var dle_admin      = '[^']*';[\\s]+var dle_login_hash = '[^']*';[\\s]+(var dle_group      = [\\d]+;[\\s]+)?var dle_skin       = '[^']*';[\\s]+var dle_wysiwyg    = '[^']*';[\\s]+var quick_wysiwyg  = '[^']*';[\\s]+"
+    },
+    {
+      "name": "DataLife-Engine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DataLife-Engine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "dle_hash=[^;]+;"
+    },
+    {
+      "name": "DataLife-Engine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DataLife-Engine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "dle_password=[^;]+;"
+    },
+    {
+      "name": "DataLife-Engine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for DataLife-Engine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "dle_user_id=[^;]+;"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "vendor": "Support-Incident-Tracker",
+  "vendor_id": "support-incident-tracker",
+  "product": "Support-Incident-Tracker",
+  "product_id": "support-incident-tracker",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Support-Incident-Tracker Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Support-Incident-Tracker",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id='masthead'><h1 id='apptitle'><span>SiT! Support Incident Tracker</span></h1></div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ id='masthead'><h1\\ id='apptitle'><span>SiT!\\ Support\\ Incident\\ Tracker</span></h1></div>"
+    },
+    {
+      "name": "Support-Incident-Tracker Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Support-Incident-Tracker",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class='windowtitle'>SiT! - Login</div>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<div\\ class='windowtitle'>SiT!\\ \\-\\ Login</div>"
+    }
+  ]
+}

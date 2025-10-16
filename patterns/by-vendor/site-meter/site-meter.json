@@ -1,0 +1,32 @@
+{
+  "vendor": "Site-Meter",
+  "vendor_id": "site-meter",
+  "product": "Site-Meter",
+  "product_id": "site-meter",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Site-Meter Pattern",
+      "priority": 25,
+      "confidence": 0.25,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Site-Meter",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Site Meter -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Site\\ Meter\\ \\-\\->"
+    }
+  ]
+}

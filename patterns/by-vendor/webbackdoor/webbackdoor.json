@@ -1,0 +1,518 @@
+{
+  "vendor": "webbackdoor",
+  "vendor_id": "webbackdoor",
+  "product": "webbackdoor",
+  "product_id": "webbackdoor",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--    http://michaeldaw.org ",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ \\ \\ \\ http://michaeldaw\\.org\\ "
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "by DK (http://michaeldaw.org) -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "by\\ DK\\ \\(http://michaeldaw\\.org\\)\\ \\-\\->"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--\\n\\n_KIT\\n",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\\\n\\\\n_KIT\\\\n"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Created by Mark Woan (http://www.woany.co.uk) -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Created\\ by\\ Mark\\ Woan\\ \\(http://www\\.woany\\.co\\.uk\\)\\ \\-\\->"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<h1>JSP Backdoor Reverse Shell</h1>"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<input title=\"Launch command in current directory\" type=\"Submit\" class=\"button\" name=\"Submit\" value=\"Launch command\">|<small>jsp File Browser version"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<FORM METHOD=\"GET\" NAME=\"myform\" ACTION=\"\">(\\r\\n|\\n)<INPUT TYPE=\"text\" NAME=\"cmd\">(\\r\\n|\\n)<INPUT TYPE=\"submit\" VALUE=\"Send\">"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<FORM METHOD=GET ACTION='cmdjsp.jsp'>(\\r\\n|\\n)<INPUT name='cmd' type=text>(\\r\\n|\\n)<INPUT type=submit value='Run'>(\\r\\n|\\n)</FORM>"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<h1>JSP Backdoor Reverse Shell</h1>"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<form method=\"post\">(\\r\\n|\\n)IP Address(\\r\\n|\\n)<input type=\"text\" name=\"ipaddress\" size=30>(\\r\\n|\\n)Port(\\r\\n|\\n)<input type=\"text\" name=\"port\" size=10>(\\r\\n|\\n)<input type=\"submit\" name=\"Connect\" value=\"Connect\">(\\r\\n|\\n)"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<HTML><BODY>(\\r\\n|\\n)\\t<FORM METHOD=\"POST\" NAME=\"myform\" ACTION=\"\">(\\r\\n|\\n)\\t<INPUT TYPE=\"text\" NAME=\"file\">(\\r\\n|\\n)\\t<INPUT TYPE=\"submit\" VALUE=\"Send\">(\\r\\n|\\n)\\t</FORM>"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<html>(\\r\\n|\\n)<form name=\"test\" method=\"post\" action=\"\" enctype=\"multipart/form-data\">(\\r\\n|\\n)<input type=\"File\" name=\"fichero\">(\\r\\n|\\n)<input type=\"Submit\" value=\"Upload\" name=\"Submit\">(\\r\\n|\\n)</form>"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<HTML><BODY>(\\r\\n|\\n)<FORM METHOD=\"POST\" NAME=\"myform\" ACTION=\"\">(\\r\\n|\\n)<INPUT TYPE=\"text\" NAME=\"cmd\">(\\r\\n|\\n)<INPUT TYPE=\"submit\" VALUE=\"Send\">(\\r\\n|\\n)</FORM>(\\r\\n|\\n)<pre>"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<html>(\\r\\n|\\n)<form name=\"test\" method=\"post\" action=\"\" enctype=\"multipart/form-data\">(\\r\\n|\\n)<input type=\"File\" name=\"fichero\">(\\r\\n|\\n)<input type=\"Submit\" value=\"Upload\" name=\"Submit\">(\\r\\n|\\n)</form>(\\r\\n|\\n)</html>"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<HTML>\\n<HEAD>\\n<TITLE>Directory Listing</TITLE>\\n</HEAD>\\n<BODY>\\n<FONT Face=\\\"Courier New, Helvetica\\\" Color=\\\"Black\\\">\\n"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<html><body><br><form method=\"POST\" action=\"\" enctype=\"multipart/form-data\">UPLOAD <input type=\"file\" name=\"file\" size=\"60\"><input type=\"submit\" value=\"Upload\">"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "Notes:<br><br>(\\r\\n|\\n)<ul>(\\r\\n|\\n)<li>Prefix DOS commands with"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<table>(\\r\\n|\\n)<form method=\"POST\" action=\"\">(\\r\\n|\\n) <tr>(\\r\\n|\\n)  <td>Command:</td>(\\r\\n|\\n)  <td> < input type=text name=\"cmd\""
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Simple CGI backdoor by DK (http://michaeldaw.org) -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Simple\\ CGI\\ backdoor\\ by\\ DK\\ \\(http://michaeldaw\\.org\\)\\ \\-\\->"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "# <!--    http://michaeldaw.org   2006    -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\#\\ <!\\-\\-\\ \\ \\ \\ http://michaeldaw\\.org\\ \\ \\ 2006\\ \\ \\ \\ \\-\\->"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.muquit.com/muquit/\">Muhammad A Muquit",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.muquit\\.com/muquit/\">Muhammad\\ A\\ Muquit"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<input type=\"submit\" value=\"Run\">(\\r\\n|\\n)</form>(\\r\\n|\\n)<pre>"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<input type=\"submit\" value=\"List\">(\\r\\n|\\n)</form>(\\r\\n|\\n)Directory"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Simple CGI backdoor by DK (http://michaeldaw.org) -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Simple\\ CGI\\ backdoor\\ by\\ DK\\ \\(http://michaeldaw\\.org\\)\\ \\-\\->"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "# <!--    http://michaeldaw.org   2006    -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\#\\ <!\\-\\-\\ \\ \\ \\ http://michaeldaw\\.org\\ \\ \\ 2006\\ \\ \\ \\ \\-\\->"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.muquit.com/muquit/\">Muhammad A Muquit",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href=\"http://www\\.muquit\\.com/muquit/\">Muhammad\\ A\\ Muquit"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<input type=\"text\" name=\"cmd\">(\\r\\n|\\n)<input type=\"submit\" value=\"Send\">"
+    },
+    {
+      "name": "webbackdoor Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for webbackdoor",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<input type=\"text\" name=\"cmd\">(\\r\\n|\\n)<input type=\"submit\" value=\"Send\">"
+    }
+  ]
+}

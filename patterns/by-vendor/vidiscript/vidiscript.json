@@ -1,0 +1,54 @@
+{
+  "vendor": "VidiScript",
+  "vendor_id": "vidiscript",
+  "product": "VidiScript",
+  "product_id": "vidiscript",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VidiScript Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VidiScript",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span  style=\"font-size:12px\"><a href=\"http://www.VidiScript.com\"><b>Free Open Source Video Script</b></a>&nbsp;Powered By&nbsp;<a href=\"http://www.VidiScript.com\"><b>VidiScript.com</b></a> |    <b>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span\\ \\ style=\"font\\-size:12px\"><a\\ href=\"http://www\\.VidiScript\\.com\"><b>Free\\ Open\\ Source\\ Video\\ Script</b></a>\\&nbsp;Powered\\ By\\&nbsp;<a\\ href=\"http://www\\.VidiScript\\.com\"><b>VidiScript\\.com</b></a>\\ \\|\\ \\ \\ \\ <b>"
+    },
+    {
+      "name": "VidiScript Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for VidiScript",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href='http://www.VidiScript.com'><b>Free Video Script</b></a>&nbsp;Powered By&nbsp;<a href='http://www.VidiScript.com'><b>VidiScript.com</b></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<a\\ href='http://www\\.VidiScript\\.com'><b>Free\\ Video\\ Script</b></a>\\&nbsp;Powered\\ By\\&nbsp;<a\\ href='http://www\\.VidiScript\\.com'><b>VidiScript\\.com</b></a>"
+    }
+  ]
+}

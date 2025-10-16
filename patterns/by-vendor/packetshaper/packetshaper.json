@@ -1,0 +1,54 @@
+{
+  "vendor": "PacketShaper",
+  "vendor_id": "packetshaper",
+  "product": "PacketShaper",
+  "product_id": "packetshaper",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PacketShaper Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PacketShaper",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>PacketShaper Customer Login</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>PacketShaper\\ Customer\\ Login</title>"
+    },
+    {
+      "name": "PacketShaper Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PacketShaper",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<SCRIPT LANGUAGE=JavaScript SRC=\"/libmd5.js\"></SCRIPT>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<SCRIPT\\ LANGUAGE=JavaScript\\ SRC=\"/libmd5\\.js\"></SCRIPT>"
+    }
+  ]
+}

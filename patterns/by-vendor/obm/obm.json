@@ -1,0 +1,42 @@
+{
+  "vendor": "OBM",
+  "vendor_id": "obm",
+  "product": "OBM",
+  "product_id": "obm",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OBM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OBM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<body>[\\s]+[\\s]+<p id=\"aliasource\">[\\s]+<a href=\"http://www\\.obm\\.org\">OBM\\.org</a>[\\s]+</p>[\\s]+<h1>"
+    },
+    {
+      "name": "OBM Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for OBM",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "OBM_Session=[\\s]+;"
+    }
+  ]
+}

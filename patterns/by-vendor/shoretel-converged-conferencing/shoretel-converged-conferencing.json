@@ -1,0 +1,76 @@
+{
+  "vendor": "ShoreTel-Converged-Conferencing",
+  "vendor_id": "shoretel-converged-conferencing",
+  "product": "ShoreTel-Converged-Conferencing",
+  "product_id": "shoretel-converged-conferencing",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ShoreTel-Converged-Conferencing Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ShoreTel-Converged-Conferencing",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script src=\"/ics?action=get_branding_js\" charset=\"UTF-8\"></script>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ src=\"/ics\\?action=get_branding_js\"\\ charset=\"UTF\\-8\"></script>"
+    },
+    {
+      "name": "ShoreTel-Converged-Conferencing Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ShoreTel-Converged-Conferencing",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<DIV style=\"visibility:hidden;display:none\" id=\"TEXT_OPENING_PRODUCT\">Opening *brand_product_name*</DIV>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<DIV\\ style=\"visibility:hidden;display:none\"\\ id=\"TEXT_OPENING_PRODUCT\">Opening\\ \\*brand_product_name\\*</DIV>"
+    },
+    {
+      "name": "ShoreTel-Converged-Conferencing Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for ShoreTel-Converged-Conferencing",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "this.product_name_long = \"ShoreTel Converged Conferencing\";",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "this\\.product_name_long\\ =\\ \"ShoreTel\\ Converged\\ Conferencing\";"
+    }
+  ]
+}

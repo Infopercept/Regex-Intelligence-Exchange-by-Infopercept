@@ -1,0 +1,80 @@
+{
+  "vendor": "Check-Point-SSL-Network-Extender",
+  "vendor_id": "check-point-ssl-network-extender",
+  "product": "Check-Point-SSL-Network-Extender",
+  "product_id": "check-point-ssl-network-extender",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Check-Point-SSL-Network-Extender Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Check-Point-SSL-Network-Extender",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Check Point SVN foundation$"
+    },
+    {
+      "name": "Check-Point-SSL-Network-Extender Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Check-Point-SSL-Network-Extender",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<script src=\"cookies\\.js\"></script>[\\s]+<script>document\\.write\\(conn_html\\)</script>[\\s]+<HEAD>"
+    },
+    {
+      "name": "Check-Point-SSL-Network-Extender Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Check-Point-SSL-Network-Extender",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=Generator content=\"Microsoft Word 11 \\(filtered\\)\">[\\s]+<title>Check Point SSL Network Extender HELP</title>"
+    },
+    {
+      "name": "Check-Point-SSL-Network-Extender Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Check-Point-SSL-Network-Extender",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"Webui Login Page\"/>  <!-- changes to this line must be reflected in sfwOverrides.js & lm_home.js -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"description\"\\ content=\"Webui\\ Login\\ Page\"/>\\ \\ <!\\-\\-\\ changes\\ to\\ this\\ line\\ must\\ be\\ reflected\\ in\\ sfwOverrides\\.js\\ \\&\\ lm_home\\.js\\ \\-\\->"
+    }
+  ]
+}

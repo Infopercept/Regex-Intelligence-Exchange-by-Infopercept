@@ -1,0 +1,120 @@
+{
+  "vendor": "X10media-MP3-Search-Engine",
+  "vendor_id": "x10media-mp3-search-engine",
+  "product": "X10media-MP3-Search-Engine",
+  "product_id": "x10media-mp3-search-engine",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "X10media-MP3-Search-Engine Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for X10media-MP3-Search-Engine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<meta name=\"copyright\" content=\"X10Media\"/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<meta\\ name=\"copyright\"\\ content=\"X10Media\"/>"
+    },
+    {
+      "name": "X10media-MP3-Search-Engine Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for X10media-MP3-Search-Engine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<meta name=\"contributor\" content=\"X10Media\"/>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t<meta\\ name=\"contributor\"\\ content=\"X10Media\"/>"
+    },
+    {
+      "name": "X10media-MP3-Search-Engine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for X10media-MP3-Search-Engine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>x10media Mp3 Search Engine</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>x10media\\ Mp3\\ Search\\ Engine</title>"
+    },
+    {
+      "name": "X10media-MP3-Search-Engine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for X10media-MP3-Search-Engine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.x10media.com\">x10media.com</a> a <a href=\"http://www.x10media.com/mp3-script.php\">MP3 Search Script</a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.x10media\\.com\">x10media\\.com</a>\\ a\\ <a\\ href=\"http://www\\.x10media\\.com/mp3\\-script\\.php\">MP3\\ Search\\ Script</a>"
+    },
+    {
+      "name": "X10media-MP3-Search-Engine Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for X10media-MP3-Search-Engine",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Cannot connect to the database. Possibly, the X10Media Mp3 Search engine is not installed. Click <a href=\"install/\">here</a>, to install it.",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Cannot\\ connect\\ to\\ the\\ database\\.\\ Possibly,\\ the\\ X10Media\\ Mp3\\ Search\\ engine\\ is\\ not\\ installed\\.\\ Click\\ <a\\ href=\"install/\">here</a>,\\ to\\ install\\ it\\."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "vendor": "Saurus-CMS",
+  "vendor_id": "saurus-cms",
+  "product": "Saurus-CMS",
+  "product_id": "saurus-cms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "meta generator",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Saurus-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "<meta name=\"Generator\" content=\"Saurus CMS\"[\\ /]*>"
+    },
+    {
+      "name": "default favicon html",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Saurus-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/extensions/saurus4/images/favicon.ico\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ type=\"image/x\\-icon\"\\ href=\"/extensions/saurus4/images/favicon\\.ico\">"
+    },
+    {
+      "name": "meta powered by",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Saurus-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Powered_by\" content=\"Saurus CMS\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"Powered_by\"\\ content=\"Saurus\\ CMS\">"
+    },
+    {
+      "name": "powered by default",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Saurus-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>Saiti jooksutab <a title=\"Sisuhaldustarkvara\" target=\"_blank\" href=\"http://www.saurus.ee\">Saurus CMS</a> | <a title=\"Sisukaart\" href=\"?op=sitemap\">Sisukaart</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>Saiti\\ jooksutab\\ <a\\ title=\"Sisuhaldustarkvara\"\\ target=\"_blank\"\\ href=\"http://www\\.saurus\\.ee\">Saurus\\ CMS</a>\\ \\|\\ <a\\ title=\"Sisukaart\"\\ href=\"\\?op=sitemap\">Sisukaart</a></p>"
+    },
+    {
+      "name": "powered by english",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Saurus-CMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p>Powered by <a href=\"http://www.saurus.info\" target=\"_blank\" title=\"Sisuhaldustarkvara\">Saurus CMS</a> | <a href=\"?op=sitemap\" title=\"Sisukaart\">Sitemap</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://www\\.saurus\\.info\"\\ target=\"_blank\"\\ title=\"Sisuhaldustarkvara\">Saurus\\ CMS</a>\\ \\|\\ <a\\ href=\"\\?op=sitemap\"\\ title=\"Sisukaart\">Sitemap</a></p>"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "vendor": "CitrusDB",
+  "vendor_id": "citrusdb",
+  "product": "CitrusDB",
+  "product_id": "citrusdb",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CitrusDB Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CitrusDB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<INPUT TYPE=\"SUBMIT\" NAME=\"submit\" VALUE=\"Login\"  onclick=\"password.value = calcMD5(password.value)\" class=smallbutton>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<INPUT\\ TYPE=\"SUBMIT\"\\ NAME=\"submit\"\\ VALUE=\"Login\"\\ \\ onclick=\"password\\.value\\ =\\ calcMD5\\(password\\.value\\)\"\\ class=smallbutton>"
+    },
+    {
+      "name": "CitrusDB Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CitrusDB",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<center><table><td valign=top><img src=\"images/my-logo.png\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<center><table><td\\ valign=top><img\\ src=\"images/my\\-logo\\.png\">"
+    }
+  ]
+}

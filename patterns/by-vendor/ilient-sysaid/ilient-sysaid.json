@@ -1,0 +1,76 @@
+{
+  "vendor": "Ilient-SysAid",
+  "vendor_id": "ilient-sysaid",
+  "product": "Ilient-SysAid",
+  "product_id": "ilient-sysaid",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Ilient-SysAid Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Ilient-SysAid",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</a><u class=\"LookLikeLink\"><span class=\"LookLikeLink\"> by SysAid</span></u>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "</a><u\\ class=\"LookLikeLink\"><span\\ class=\"LookLikeLink\">\\ by\\ SysAid</span></u>"
+    },
+    {
+      "name": "Ilient-SysAid Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Ilient-SysAid",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p><a href=\"http://www.ilient.com\">Help Desk Software by Ilient</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p><a\\ href=\"http://www\\.ilient\\.com\">Help\\ Desk\\ Software\\ by\\ Ilient</a></p>"
+    },
+    {
+      "name": "Ilient-SysAid Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Ilient-SysAid",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p><a href=\"http://www.ilient.com\">Help Desk Software by SysAid</a></p>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<p><a\\ href=\"http://www\\.ilient\\.com\">Help\\ Desk\\ Software\\ by\\ SysAid</a></p>"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "vendor": "CitusCMS",
+  "vendor_id": "cituscms",
+  "product": "CitusCMS",
+  "product_id": "cituscms",
+  "category": "cms",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CitusCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CitusCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Administration &#149; Webseitenname</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Administration\\ \\&\\#149;\\ Webseitenname</title>"
+    },
+    {
+      "name": "CitusCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CitusCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Powered by CitusCMS - http://www.citus-cms.org -->",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Powered\\ by\\ CitusCMS\\ \\-\\ http://www\\.citus\\-cms\\.org\\ \\-\\->"
+    },
+    {
+      "name": "CitusCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CitusCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.citus-cms.org\" target=\"_blank\" title=\"Powered by CitusCMS\"><strong>CitusCMS</strong></a>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.citus\\-cms\\.org\"\\ target=\"_blank\"\\ title=\"Powered\\ by\\ CitusCMS\"><strong>CitusCMS</strong></a>"
+    },
+    {
+      "name": "CitusCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CitusCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"CitusCMS - http://www.citus-cms.org\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"CitusCMS\\ \\-\\ http://www\\.citus\\-cms\\.org\"\\ />"
+    },
+    {
+      "name": "CitusCMS Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CitusCMS",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"CitusCMS [http://www.citus-cms.org]\" />",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"CitusCMS\\ \\[http://www\\.citus\\-cms\\.org\\]\"\\ />"
+    }
+  ]
+}

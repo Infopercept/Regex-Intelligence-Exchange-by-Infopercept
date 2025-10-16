@@ -1,0 +1,70 @@
+{
+  "vendor": "PJIRC",
+  "vendor_id": "pjirc",
+  "product": "PJIRC",
+  "product_id": "pjirc",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PJIRC Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PJIRC",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body onload=\"document.login.nick.focus();\" style=\"margin: 5px;\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body\\ onload=\"document\\.login\\.nick\\.focus\\(\\);\"\\ style=\"margin:\\ 5px;\">"
+    },
+    {
+      "name": "PJIRC Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PJIRC",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t\t\tdocument.writeln(\\",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "\\\t\\\t\\\t\\\t\\\tdocument\\.writeln\\(\\\\"
+    },
+    {
+      "name": "PJIRC Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for PJIRC",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "\t\t\t\t<form name=\"login\" action=\"[^\"]*index\\.php\" method=\"post\" onsubmit=\"return CheckForm\\('[^']*index\\.php\\?page=advanced'\\)\">"
+    }
+  ]
+}

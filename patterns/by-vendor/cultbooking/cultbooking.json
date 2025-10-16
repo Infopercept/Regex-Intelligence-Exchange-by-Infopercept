@@ -1,0 +1,120 @@
+{
+  "vendor": "CultBooking",
+  "vendor_id": "cultbooking",
+  "product": "CultBooking",
+  "product_id": "cultbooking",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CultBooking Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CultBooking",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr><td width=\"3%\" align=\"center\"><img src=\"img/default/small/pfeil_vor.gif\" id=\"up2\"/></td><td width=\"32%\"> <p>Enter the promotioncode (if any)</p></td><td><input size=\"10\" maxlength=\"20\" name=\"promotionCode\" align=\"right\" value=\"\" >",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr><td\\ width=\"3%\"\\ align=\"center\"><img\\ src=\"img/default/small/pfeil_vor\\.gif\"\\ id=\"up2\"/></td><td\\ width=\"32%\">\\ <p>Enter\\ the\\ promotioncode\\ \\(if\\ any\\)</p></td><td><input\\ size=\"10\"\\ maxlength=\"20\"\\ name=\"promotionCode\"\\ align=\"right\"\\ value=\"\"\\ >"
+    },
+    {
+      "name": "CultBooking Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CultBooking",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr><td width=\"3%\" align=\"center\"><img src=\"img/default/small/pfeil_vor.gif\" id=\"up2\"/></td><td width=\"45%\"> <p>Enter the promotion code (if any)</p></td><td><input size=\"10\" maxlength=\"20\" name=\"promotionCode\" align=\"right\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr><td\\ width=\"3%\"\\ align=\"center\"><img\\ src=\"img/default/small/pfeil_vor\\.gif\"\\ id=\"up2\"/></td><td\\ width=\"45%\">\\ <p>Enter\\ the\\ promotion\\ code\\ \\(if\\ any\\)</p></td><td><input\\ size=\"10\"\\ maxlength=\"20\"\\ name=\"promotionCode\"\\ align=\"right\">"
+    },
+    {
+      "name": "CultBooking Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CultBooking",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr><td width=\"3%\" align=\"center\"><img src=\"img/default/small/pfeil_vor.gif\" id=\"up2\"/></td><td width=\"45%\"> <p>Promotioncode eingeben (falls vorhanden)</p></td><td><input size=\"10\" maxlength=\"20\" name=\"promotionCode\" align=\"right\">",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<tr><td\\ width=\"3%\"\\ align=\"center\"><img\\ src=\"img/default/small/pfeil_vor\\.gif\"\\ id=\"up2\"/></td><td\\ width=\"45%\">\\ <p>Promotioncode\\ eingeben\\ \\(falls\\ vorhanden\\)</p></td><td><input\\ size=\"10\"\\ maxlength=\"20\"\\ name=\"promotionCode\"\\ align=\"right\">"
+    },
+    {
+      "name": "CultBooking Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CultBooking",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span class=\"font\" onclick=\"small();\"> <img src=\"img/default/small.gif\" alt=\"small font\"> </span> <span class=\"font\" onclick=\"medium();\"><img src=\"img/default/medium.gif\" alt=\"medium font\" > </span> <span class=\"font\" onclick=\"large();\"> <img src=\"img/default/large.gif\" alt=\"large font\"></span></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span\\ class=\"font\"\\ onclick=\"small\\(\\);\">\\ <img\\ src=\"img/default/small\\.gif\"\\ alt=\"small\\ font\">\\ </span>\\ <span\\ class=\"font\"\\ onclick=\"medium\\(\\);\"><img\\ src=\"img/default/medium\\.gif\"\\ alt=\"medium\\ font\"\\ >\\ </span>\\ <span\\ class=\"font\"\\ onclick=\"large\\(\\);\">\\ <img\\ src=\"img/default/large\\.gif\"\\ alt=\"large\\ font\"></span></td>"
+    },
+    {
+      "name": "CultBooking Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for CultBooking",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span class=\"font\" onclick=\"small();\"> <img src=\"img/default/small.gif\" alt=\"small font\"> </span> <span class=\"font\" onclick=\"medium();\"><img src=\"img/default/medium.gif\" alt=\"medium font\" > </span> <span class=\"font\" onclick=\"large();\"> <img src=\"img/default/large.gif\" alt=\"large font\"></span></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<span\\ class=\"font\"\\ onclick=\"small\\(\\);\">\\ <img\\ src=\"img/default/small\\.gif\"\\ alt=\"small\\ font\">\\ </span>\\ <span\\ class=\"font\"\\ onclick=\"medium\\(\\);\"><img\\ src=\"img/default/medium\\.gif\"\\ alt=\"medium\\ font\"\\ >\\ </span>\\ <span\\ class=\"font\"\\ onclick=\"large\\(\\);\">\\ <img\\ src=\"img/default/large\\.gif\"\\ alt=\"large\\ font\"></span></td>"
+    }
+  ]
+}

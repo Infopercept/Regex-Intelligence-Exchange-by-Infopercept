@@ -1,0 +1,70 @@
+{
+  "vendor": "Kedacom-TrueSens",
+  "vendor_id": "kedacom-truesens",
+  "product": "Kedacom-TrueSens",
+  "product_id": "kedacom-truesens",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Kedacom-TrueSens Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kedacom-TrueSens",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^KEDACOM-Webs$"
+    },
+    {
+      "name": "Kedacom-TrueSens Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kedacom-TrueSens",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body><span style=\"font:12px;\">Loading...</span></body>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<body><span\\ style=\"font:12px;\">Loading\\.\\.\\.</span></body>"
+    },
+    {
+      "name": "Kedacom-TrueSens Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Kedacom-TrueSens",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"./img/kedacom-logo.jpg\" alt=\"WEB CONSOLE\" /></td>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<img\\ src=\"\\./img/kedacom\\-logo\\.jpg\"\\ alt=\"WEB\\ CONSOLE\"\\ /></td>"
+    }
+  ]
+}

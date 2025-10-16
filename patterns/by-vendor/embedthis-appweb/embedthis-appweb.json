@@ -1,0 +1,49 @@
+{
+  "vendor": "Embedthis-AppWeb",
+  "vendor_id": "embedthis-appweb",
+  "product": "Embedthis-AppWeb",
+  "product_id": "embedthis-appweb",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Embedthis-AppWeb Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Embedthis-AppWeb",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: Mbedthis-Appweb/(.*)",
+            "expected_version": "8.5"
+          }
+        ]
+      },
+      "pattern": "Server: Mbedthis-Appweb/(.*)",
+      "version_group": 1
+    },
+    {
+      "name": "Embedthis-AppWeb Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Embedthis-AppWeb",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ]
+      },
+      "pattern": "^Mbedthis-Appweb"
+    }
+  ]
+}

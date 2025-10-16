@@ -1,0 +1,54 @@
+{
+  "vendor": "Astaro-Command-Center",
+  "vendor_id": "astaro-command-center",
+  "product": "Astaro-Command-Center",
+  "product_id": "astaro-command-center",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Astaro-Command-Center Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Astaro-Command-Center",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script src=\"wfe/acc/js/acc_aggregated_reporting.js?t=",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ src=\"wfe/acc/js/acc_aggregated_reporting\\.js\\?t="
+    },
+    {
+      "name": "Astaro-Command-Center Pattern",
+      "priority": 75,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Astaro-Command-Center",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script src=\"wfe/asg/js/_variables_from_backend.js?t=",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<script\\ src=\"wfe/asg/js/_variables_from_backend\\.js\\?t="
+    }
+  ]
+}
