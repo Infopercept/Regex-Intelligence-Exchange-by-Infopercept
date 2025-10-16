@@ -74,7 +74,7 @@ def validate_pattern_file(file_path):
 def validate_pattern_structure(pattern, file_path):
     """Validate the structure of a single pattern."""
     # Check required fields
-    required_fields = ['name', 'pattern', 'priority', 'confidence']
+    required_fields = ['name', 'pattern', 'version_group', 'priority', 'confidence']
     for field in required_fields:
         if field not in pattern:
             print(f"Error: Missing required field '{field}' in pattern in {file_path}")
