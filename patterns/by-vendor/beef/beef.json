@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"\\.\\./images/beef\\.gif\"\\ onclick=\"new\\ Effect\\.Shake\\(\\\\"
+      "pattern": "<img\\ src=\"\\.\\./images/beef\\.gif\"\\ onclick=\"new\\ Effect\\.Shake\\(\\\\",
+      "version_group": 0
     },
     {
       "name": "BeEF Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>Browser\\ Exploitation\\ Framework</title>"
+      "pattern": "<title>Browser\\ Exploitation\\ Framework</title>",
+      "version_group": 0
     },
     {
       "name": "BeEF Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script[^>]+src=['\"]?[^>^=\"'^\"]+/hook/beefmagic.js.php['\"]?",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script[^>]+src=['\"]?[^>^=\"'^\"]+/hook/beefmagic\\.js\\.php['\"]?"
+      "pattern": "<script[^>]+src=['\"]?[^>^=\"'^\"]+/hook/beefmagic\\.js\\.php['\"]?",
+      "version_group": 0
     },
     {
       "name": "BeEF Pattern",
@@ -78,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script[^>]+src=['\"]?https?://[^/]+/hook.js['\"]?",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script[^>]+src=['\"]?https?://[^/]+/hook\\.js['\"]?"
+      "pattern": "<script[^>]+src=['\"]?https?://[^/]+/hook\\.js['\"]?",
+      "version_group": 0
     },
     {
       "name": "BeEF Pattern",
@@ -102,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"centered\"><img\\ id=\"beef\\-logo\"\\ src=\"/ui/media/images/beef\\.png\"\\ alt=\"BeEF\\ \\-\\ The\\ Browser\\ Exploitation\\ Framework\"\\ /></div>"
+      "pattern": "<div\\ id=\"centered\"><img\\ id=\"beef\\-logo\"\\ src=\"/ui/media/images/beef\\.png\"\\ alt=\"BeEF\\ \\-\\ The\\ Browser\\ Exploitation\\ Framework\"\\ /></div>",
+      "version_group": 0
     },
     {
       "name": "BeEF Pattern",
@@ -127,5 +144,6 @@
       "pattern": "Server: ^BeEF ([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

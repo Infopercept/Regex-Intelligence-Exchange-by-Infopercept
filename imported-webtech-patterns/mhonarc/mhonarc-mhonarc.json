@@ -1,0 +1,31 @@
+{
+  "vendor": "MHonArc",
+  "vendor_id": "mhonarc",
+  "product": "MHonArc",
+  "product_id": "mhonarc-mhonarc",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MHonArc HTML Detection",
+      "pattern": "<!-- MHonArc v([0-9.]+) -->",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MHonArc from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "mhonarc"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

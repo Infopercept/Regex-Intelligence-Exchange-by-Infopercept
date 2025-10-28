@@ -1,0 +1,31 @@
+{
+  "vendor": "Indico",
+  "vendor_id": "indico",
+  "product": "Indico",
+  "product_id": "indico-indico",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Indico HTML Detection",
+      "pattern": "Powered by\\s+(?:CERN )?<a href=\"http://(?:cdsware\\.cern\\.ch/indico/|indico-software\\.org|cern\\.ch/indico)\">(?:CDS )?Indico( [\\d\\.]+)?",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Indico from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "indico"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

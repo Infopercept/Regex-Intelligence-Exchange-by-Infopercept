@@ -1,0 +1,31 @@
+{
+  "vendor": "Redis",
+  "vendor_id": "redis",
+  "product": "Redis Object Cache",
+  "product_id": "redis-redis-object-cache",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Redis Object Cache HTML Detection",
+      "pattern": "<!--\\s+Performance optimized by Redis Object Cache",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Redis Object Cache from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "redis-object-cache"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"description\"\\ content=\"PHP\\ Code\\ Snippet\\ Library\\ stores\\ all\\ your\\ code\\ for\\ you\\ for\\ easy\\ access,\\ runs\\ on\\ any\\ PHP\\ platform\\ and\\ does\\ not\\ require\\ a\\ database\\.\\.\\.\\ easy\\ to\\ install\\ and\\ full\\ of\\ features\\.\">"
+      "pattern": "<meta\\ name=\"description\"\\ content=\"PHP\\ Code\\ Snippet\\ Library\\ stores\\ all\\ your\\ code\\ for\\ you\\ for\\ easy\\ access,\\ runs\\ on\\ any\\ PHP\\ platform\\ and\\ does\\ not\\ require\\ a\\ database\\.\\.\\.\\ easy\\ to\\ install\\ and\\ full\\ of\\ features\\.\">",
+      "version_group": 0
     },
     {
       "name": "PHP-CSL Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Please\\ note\\ the\\ credit\\ message\\ below\\ is\\ required\\ if\\ you\\ want\\ support\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Please\\ note\\ the\\ credit\\ message\\ below\\ is\\ required\\ if\\ you\\ want\\ support\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

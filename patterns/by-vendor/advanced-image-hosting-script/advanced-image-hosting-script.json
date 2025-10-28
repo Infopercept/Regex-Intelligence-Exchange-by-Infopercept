@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ <td\\ colspan=2\\ align=center><h3>Advanced\\ Image\\ Host\\ Script</h3></td>"
+      "pattern": "\\ \\ \\ \\ <td\\ colspan=2\\ align=center><h3>Advanced\\ Image\\ Host\\ Script</h3></td>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,51 @@
+{
+  "vendor": "TweenMax",
+  "vendor_id": "tweenmax",
+  "product": "TweenMax",
+  "product_id": "tweenmax-tweenmax",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TweenMax Script Detection",
+      "pattern": "TweenMax(?:\\.min)?\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects TweenMax from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "tweenmax"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "TweenMax JavaScript Detection",
+      "pattern": "window\\.TweenMax\\.version|TweenMax\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects TweenMax from JavaScript variable 'TweenMax.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "tweenmax"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

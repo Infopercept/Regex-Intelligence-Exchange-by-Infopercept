@@ -1,0 +1,51 @@
+{
+  "vendor": "Tumblr",
+  "vendor_id": "tumblr",
+  "product": "Tumblr",
+  "product_id": "tumblr-tumblr",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Tumblr Header Detection",
+      "pattern": "X-Tumblr-User: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Tumblr from X-Tumblr-User header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "tumblr"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Tumblr HTML Detection",
+      "pattern": "<iframe src=\"[^>]+tumblr\\.com",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Tumblr from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "tumblr"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<form\\ action=\"lp_admin\\.php\"\\ method=\"post\"\\ name=\"form0\">Admin\\ Password:<input\\ type=\"hidden\"\\ name=\"adminstep\"\\ value=\"1\"><input\\ type=\"Password\"\\ name=\"pwd\"\\ size=\"20\"><br><input\\ type=\"Submit\"\\ value=\"OK\"></form>"
+      "pattern": "<form\\ action=\"lp_admin\\.php\"\\ method=\"post\"\\ name=\"form0\">Admin\\ Password:<input\\ type=\"hidden\"\\ name=\"adminstep\"\\ value=\"1\"><input\\ type=\"Password\"\\ name=\"pwd\"\\ size=\"20\"><br><input\\ type=\"Submit\"\\ value=\"OK\"></form>",
+      "version_group": 0
     },
     {
       "name": "The-Amazing-Little-Poll Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "pollidcookie=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "pollidcookie="
+      "pattern": "pollidcookie=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

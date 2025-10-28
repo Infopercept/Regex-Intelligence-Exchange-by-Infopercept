@@ -52,5 +52,6 @@
       "pattern": "servlet-engine: Enhydra Application Server/([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

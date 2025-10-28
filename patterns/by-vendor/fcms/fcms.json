@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"author\"\\ content=\"Ryan\\ Haudenschilt\"/>"
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Ryan\\ Haudenschilt\"/>",
+      "version_group": 0
     },
     {
       "name": "FCMS Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "- [pP]owered by Family Connections</title>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "- [pP]owered by Family Connections</title>"
+      "pattern": "- [pP]owered by Family Connections</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

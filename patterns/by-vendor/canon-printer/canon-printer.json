@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"top_canon\\.gif\"\\ width=\"123\"\\ height=\"33\""
+      "pattern": "<img\\ src=\"top_canon\\.gif\"\\ width=\"123\"\\ height=\"33\"",
+      "version_group": 0
     },
     {
       "name": "Canon-Printer Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Canon Http Server",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Canon Http Server"
+      "pattern": "^Canon Http Server",
+      "version_group": 0
     },
     {
       "name": "Canon-Printer Pattern",
@@ -113,5 +121,6 @@
       "pattern": "Server: ^LPC Http Server/V([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

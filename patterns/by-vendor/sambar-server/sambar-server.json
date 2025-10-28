@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^SAMBAR",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^SAMBAR"
+      "pattern": "^SAMBAR",
+      "version_group": 0
     },
     {
       "name": "Sambar-Server Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^SAMBAR ([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

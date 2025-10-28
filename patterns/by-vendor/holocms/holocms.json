@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"remember\\-me\\-notification\"\\ class=\"bottom\\-bubble\"\\ style=\"display:none;\">"
+      "pattern": "<div\\ id=\"remember\\-me\\-notification\"\\ class=\"bottom\\-bubble\"\\ style=\"display:none;\">",
+      "version_group": 0
     },
     {
       "name": "HoloCMS Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Powered by HoloCMS &copy[;]* 2008 Meth0d & Parts by Yifan, sisija",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Powered by HoloCMS &copy[;]* 2008 Meth0d & Parts by Yifan, sisija"
+      "pattern": "^Powered by HoloCMS &copy[;]* 2008 Meth0d & Parts by Yifan, sisija",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

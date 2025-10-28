@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>EDIMAX\\ Technology</title>"
+      "pattern": "<title>EDIMAX\\ Technology</title>",
+      "version_group": 0
     },
     {
       "name": "EDIMAX Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>Access\\ Point\\ Status</title>"
+      "pattern": "<title>Access\\ Point\\ Status</title>",
+      "version_group": 0
     },
     {
       "name": "EDIMAX Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "cdwindow=window\\.open\\('countdown\\.asp','CountDown','channelmode=0,\\ directories=0,fullscreen=0,height=100,location=0,menubar=0,resizable=1,scrollbars=0,status=0,titlebar=0,toolbar=0,width=450','false'\\);"
+      "pattern": "cdwindow=window\\.open\\('countdown\\.asp','CountDown','channelmode=0,\\ directories=0,fullscreen=0,height=100,location=0,menubar=0,resizable=1,scrollbars=0,status=0,titlebar=0,toolbar=0,width=450','false'\\);",
+      "version_group": 0
     },
     {
       "name": "EDIMAX Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"edimax\\.css\">"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"edimax\\.css\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

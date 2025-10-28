@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"javascript:void\\(0\\);showContextSpecificHelp\\(\\\\"
+      "pattern": "<a\\ href=\"javascript:void\\(0\\);showContextSpecificHelp\\(\\\\",
+      "version_group": 0
     },
     {
       "name": "Skillsoft-Skillport-LMS Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"poweredbylogo\">s+<img src =\"/skillportfe/resources/default/images/poweredby.gif\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div id=\"poweredbylogo\">\\s+<img src =\"/skillportfe/resources/default/images/poweredby\\.gif\" />"
+      "pattern": "<div id=\"poweredbylogo\">\\s+<img src =\"/skillportfe/resources/default/images/poweredby\\.gif\" />",
+      "version_group": 0
     },
     {
       "name": "Skillsoft-Skillport-LMS Pattern",
@@ -56,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "SP[5-7]dFE=d+.d+.d+",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "SP[5-7]\\dFE=\\d+\\.\\d+\\.\\d+"
+      "pattern": "SP[5-7]\\dFE=\\d+\\.\\d+\\.\\d+",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

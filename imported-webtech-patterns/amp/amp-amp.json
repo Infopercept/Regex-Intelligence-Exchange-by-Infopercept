@@ -1,0 +1,31 @@
+{
+  "vendor": "AMP",
+  "vendor_id": "amp",
+  "product": "AMP",
+  "product_id": "amp-amp",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AMP HTML Detection",
+      "pattern": "<html[^>]* (?:amp|⚡)[^-]",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AMP from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "amp"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

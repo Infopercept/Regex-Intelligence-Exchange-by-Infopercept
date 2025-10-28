@@ -1,0 +1,31 @@
+{
+  "vendor": "Splunkd",
+  "vendor_id": "splunkd",
+  "product": "Splunkd",
+  "product_id": "splunkd-splunkd",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Splunkd Header Detection",
+      "pattern": "Server: Splunkd",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Splunkd from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "splunkd"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"Posterous\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"Posterous\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Posterous Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<div\\ class=\"posterous_site_data\"\\ data\\-post\\-id=\""
+      "pattern": "<div\\ class=\"posterous_site_data\"\\ data\\-post\\-id=\"",
+      "version_group": 0
     },
     {
       "name": "Posterous Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<li\\ class=\"first\"><a\\ href=\"http://posterous\\.com/login\\?jumpto=http"
+      "pattern": "<li\\ class=\"first\"><a\\ href=\"http://posterous\\.com/login\\?jumpto=http",
+      "version_group": 0
     },
     {
       "name": "Posterous Pattern",
@@ -84,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html><body>You are being <a href=\"http://([^\"]+).posterous.com/\">redirected</a>.</body></html>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<html><body>You are being <a href=\"http://([^\"]+)\\.posterous\\.com/\">redirected</a>\\.</body></html>"
+      "pattern": "<html><body>You are being <a href=\"http://([^\"]+)\\.posterous\\.com/\">redirected</a>\\.</body></html>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

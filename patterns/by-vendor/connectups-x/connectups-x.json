@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "UPS_Server/1\\.0"
+      "pattern": "UPS_Server/1\\.0",
+      "version_group": 0
     },
     {
       "name": "ConnectUPS-X Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>ConnectUPS (Web/SNMP Card|SNMP/WEB Adapter)</TITLE>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<TITLE>ConnectUPS (Web/SNMP Card|SNMP/WEB Adapter)</TITLE>"
+      "pattern": "<TITLE>ConnectUPS (Web/SNMP Card|SNMP/WEB Adapter)</TITLE>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

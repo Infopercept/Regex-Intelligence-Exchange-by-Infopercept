@@ -1,0 +1,31 @@
+{
+  "vendor": "SimpleHTTP",
+  "vendor_id": "simplehttp",
+  "product": "SimpleHTTP",
+  "product_id": "simplehttp-simplehttp",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SimpleHTTP Header Detection",
+      "pattern": "Server: SimpleHTTP(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SimpleHTTP from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "simplehttp"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

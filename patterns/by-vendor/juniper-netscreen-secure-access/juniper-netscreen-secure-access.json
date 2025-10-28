@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "src=\"/dana-na/css/ds.js\">|<img border=\"0\" src=\"welcome.cgi?p=logo|src=\"/dana-na/imgs/space.gif\"|document.cookie = \"DSPREAUTH=\"+ escape(\"\")|src=\"/dana-na/auth/url_default/s",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "src=\"/dana\\-na/css/ds\\.js\">|<img border=\"0\" src=\"welcome\\.cgi\\?p=logo|src=\"/dana\\-na/imgs/space\\.gif\"|document\\.cookie = \"DSPREAUTH=\"\\+ escape\\(\"\"\\)|src=\"/dana\\-na/auth/url_default/s"
+      "pattern": "src=\"/dana\\-na/css/ds\\.js\">|<img border=\"0\" src=\"welcome\\.cgi\\?p=logo|src=\"/dana\\-na/imgs/space\\.gif\"|document\\.cookie = \"DSPREAUTH=\"\\+ escape\\(\"\"\\)|src=\"/dana\\-na/auth/url_default/s",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

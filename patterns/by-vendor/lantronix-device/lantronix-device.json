@@ -41,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Gordian Embedded",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Gordian Embedded"
+      "pattern": "^Gordian Embedded",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

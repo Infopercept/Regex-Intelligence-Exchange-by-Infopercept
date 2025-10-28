@@ -1,0 +1,51 @@
+{
+  "vendor": "Woltlab",
+  "vendor_id": "woltlab",
+  "product": "Woltlab Community Framework",
+  "product_id": "woltlab-woltlab-community-framework",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Woltlab Community Framework HTML Detection",
+      "pattern": "var WCF_PATH[^>]+",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Woltlab Community Framework from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "woltlab-community-framework"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Woltlab Community Framework Script Detection",
+      "pattern": "WCF\\..*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Woltlab Community Framework from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "woltlab-community-framework"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

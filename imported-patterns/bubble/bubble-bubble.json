@@ -1,0 +1,71 @@
+{
+  "vendor": "Bubble",
+  "vendor_id": "bubble",
+  "product": "Bubble",
+  "product_id": "bubble-bubble",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Bubble Header Detection",
+      "pattern": "x-bubble-capacity-limit: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bubble from x-bubble-capacity-limit header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "bubble"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Bubble Header Detection",
+      "pattern": "x-bubble-capacity-used: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bubble from x-bubble-capacity-used header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "bubble"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Bubble Header Detection",
+      "pattern": "x-bubble-perf: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bubble from x-bubble-perf header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "bubble"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "top\\.cm2_home\\.location\\.href"
+      "pattern": "top\\.cm2_home\\.location\\.href",
+      "version_group": 0
     },
     {
       "name": "HTML Body (CM2)",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "name=\"cm2_top\"\\ id=\"cm2_top\""
+      "pattern": "name=\"cm2_top\"\\ id=\"cm2_top\"",
+      "version_group": 0
     },
     {
       "name": "HTML Body (CM2)",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "name=\"cm25_main\""
+      "pattern": "name=\"cm25_main\"",
+      "version_group": 0
     },
     {
       "name": "HTML Body (CM3)",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "name=\"id=\"cm3top\"\\ name=\"cm3top\""
+      "pattern": "name=\"id=\"cm3top\"\\ name=\"cm3top\"",
+      "version_group": 0
     },
     {
       "name": "HTML Body (CM3)",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "logo_cm3_top\\.gif\"\\ border=\"0\""
+      "pattern": "logo_cm3_top\\.gif\"\\ border=\"0\"",
+      "version_group": 0
     },
     {
       "name": "HTML Body (CM3)",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "alt=\"Content\\ management\\ system:\\ cm3\\ built\\ and\\ powered\""
+      "pattern": "alt=\"Content\\ management\\ system:\\ cm3\\ built\\ and\\ powered\"",
+      "version_group": 0
     },
     {
       "name": "HTML Body (CM3)",
@@ -158,7 +164,8 @@
           }
         ]
       },
-      "pattern": "cm3powered_green\\.gif\""
+      "pattern": "cm3powered_green\\.gif\"",
+      "version_group": 0
     },
     {
       "name": "Set-Cookie Header (CM3)",
@@ -172,9 +179,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "cm3session",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "cm3session"
+      "pattern": "cm3session",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

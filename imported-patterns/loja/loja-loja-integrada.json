@@ -1,0 +1,31 @@
+{
+  "vendor": "Loja",
+  "vendor_id": "loja",
+  "product": "Loja Integrada",
+  "product_id": "loja-loja-integrada",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Loja Integrada Header Detection",
+      "pattern": "X-Powered-By: vtex-integrated-store",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Loja Integrada from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "loja-integrada"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

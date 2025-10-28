@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<br/>Please\\ enable\\ JavaScript\\ in\\ your\\ browser\\ or\\ refer\\ to\\ you\\ internal\\ IT\\ support\\ for\\ assistance\\.<br/><br/></div>"
+      "pattern": "<br/>Please\\ enable\\ JavaScript\\ in\\ your\\ browser\\ or\\ refer\\ to\\ you\\ internal\\ IT\\ support\\ for\\ assistance\\.<br/><br/></div>",
+      "version_group": 0
     },
     {
       "name": "Aurion Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Aurion\\ Teal\\ will\\ be\\ used\\ as\\ the\\ login\\-time\\ default\\.\\ Shell\\ layouts\\ will\\ replace\\ these\\ after\\ login\\.\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Aurion\\ Teal\\ will\\ be\\ used\\ as\\ the\\ login\\-time\\ default\\.\\ Shell\\ layouts\\ will\\ replace\\ these\\ after\\ login\\.\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Aurion Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ teal\\.css\\ has\\ stuff\\ needed\\ for\\ div\\#loading\\-noscript\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ teal\\.css\\ has\\ stuff\\ needed\\ for\\ div\\#loading\\-noscript\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Aurion Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ http\\-equiv=\"X\\-UA\\-Compatible\"\\ content=\"chrome=1;\\ IE=8;\\ IE=7\">\\ <!\\-\\-\\ Stop\\ Internet\\ Explorer\\ from\\ using\\ \"Compatability\\ Mode\"\\ \\-\\->"
+      "pattern": "<meta\\ http\\-equiv=\"X\\-UA\\-Compatible\"\\ content=\"chrome=1;\\ IE=8;\\ IE=7\">\\ <!\\-\\-\\ Stop\\ Internet\\ Explorer\\ from\\ using\\ \"Compatability\\ Mode\"\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "Chorus",
+  "vendor_id": "chorus",
+  "product": "Chorus",
+  "product_id": "chorus-chorus",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Chorus HTML Detection",
+      "pattern": "<meta data-chorus-version=",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Chorus from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "chorus"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

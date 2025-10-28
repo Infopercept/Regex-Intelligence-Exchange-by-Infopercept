@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\ alt=\"Powered\\ by\\ Zend\\ Framework!\"\\ />"
+      "pattern": "\\ alt=\"Powered\\ by\\ Zend\\ Framework!\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Zend Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "controllers/images/PoweredBy_ZF\\.gif\"\\ alt=\"Powerd\\ by\\ Zend\\ Framework!\"\\ />"
+      "pattern": "controllers/images/PoweredBy_ZF\\.gif\"\\ alt=\"Powerd\\ by\\ Zend\\ Framework!\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Zend Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<h1>Controller/action not found!</h1>(rn|n)<p>Controller/action not found!</p>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<h1>Controller/action not found!</h1>(\\r\\n|\\n)<p>Controller/action not found!</p>"
+      "pattern": "<h1>Controller/action not found!</h1>(\\r\\n|\\n)<p>Controller/action not found!</p>",
+      "version_group": 0
     },
     {
       "name": "Zend Pattern",
@@ -86,7 +95,8 @@
           }
         ]
       },
-      "pattern": "\\(\\ !\\ \\)</span>\\ Zend_Controller_Dispatcher_Exception:\\ Invalid\\ controller\\ specified\\ \\(application\\)\\ in"
+      "pattern": "\\(\\ !\\ \\)</span>\\ Zend_Controller_Dispatcher_Exception:\\ Invalid\\ controller\\ specified\\ \\(application\\)\\ in",
+      "version_group": 0
     },
     {
       "name": "Zend Pattern",
@@ -108,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<b>Fatal\\ error</b>:\\ \\ Uncaught\\ exception\\ 'Zend_Controller_Dispatcher_Exception"
+      "pattern": "<b>Fatal\\ error</b>:\\ \\ Uncaught\\ exception\\ 'Zend_Controller_Dispatcher_Exception",
+      "version_group": 0
     },
     {
       "name": "Zend Pattern",
@@ -130,7 +141,8 @@
           }
         ]
       },
-      "pattern": "Uncaught\\ exception\\ 'Zend_Controller_Router_Exception'\\ with\\ message\\ 'No\\ route\\ matched\\ the\\ request'"
+      "pattern": "Uncaught\\ exception\\ 'Zend_Controller_Router_Exception'\\ with\\ message\\ 'No\\ route\\ matched\\ the\\ request'",
+      "version_group": 0
     },
     {
       "name": "Zend Pattern",
@@ -152,7 +164,8 @@
           }
         ]
       },
-      "pattern": "/Zend/Controller/Router/Rewrite\\.php</b>\\ on\\ line\\ <b>"
+      "pattern": "/Zend/Controller/Router/Rewrite\\.php</b>\\ on\\ line\\ <b>",
+      "version_group": 0
     },
     {
       "name": "Zend Pattern",
@@ -174,7 +187,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"vendor\"\\ content=\"Zend\\ Technologies"
+      "pattern": "<meta\\ name=\"vendor\"\\ content=\"Zend\\ Technologies",
+      "version_group": 0
     },
     {
       "name": "Zend Pattern",
@@ -188,9 +202,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Zend Framework",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Zend Framework"
+      "pattern": "Zend Framework",
+      "version_group": 0
     },
     {
       "name": "Zend Pattern",
@@ -250,9 +271,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Zend ",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Zend "
+      "pattern": "^Zend ",
+      "version_group": 0
     },
     {
       "name": "Zend Pattern",
@@ -277,5 +305,6 @@
       "pattern": "Server: Zend Core/([a-zA-Z0-9\\./\\+\\-\\(\\)]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -64,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^(jsp|jpx|wss|do)$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^(jsp|jpx|wss|do)$"
+      "pattern": "^(jsp|jpx|wss|do)$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^OKIDATA-HTTPD",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^OKIDATA-HTTPD"
+      "pattern": "^OKIDATA-HTTPD",
+      "version_group": 0
     },
     {
       "name": "OKI-Printer Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^OKIDATA-HTTPD/([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

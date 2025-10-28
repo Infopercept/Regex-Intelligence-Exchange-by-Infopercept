@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>\\ HyperVM\\ 2\\.0\\ </title>"
+      "pattern": "<title>\\ HyperVM\\ 2\\.0\\ </title>",
+      "version_group": 0
     },
     {
       "name": "Kloxo-Single-Server Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>\\ Kloxo\\ </title>"
+      "pattern": "<title>\\ Kloxo\\ </title>",
+      "version_group": 0
     },
     {
       "name": "Kloxo-Single-Server Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<title>\\ Lxadmin\\ </title>"
+      "pattern": "<title>\\ Lxadmin\\ </title>",
+      "version_group": 0
     },
     {
       "name": "Kloxo-Single-Server Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<img\\ id=main_logo\\ width=84\\ height=23\\ src=\"/img/hypervm\\-logo\\.gif\">"
+      "pattern": "<img\\ id=main_logo\\ width=84\\ height=23\\ src=\"/img/hypervm\\-logo\\.gif\">",
+      "version_group": 0
     },
     {
       "name": "Kloxo-Single-Server Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "Use\\ a\\ valid\\ username\\ and\\ password\\ to\\ gain\\ access\\ to\\ the\\ console</b>"
+      "pattern": "Use\\ a\\ valid\\ username\\ and\\ password\\ to\\ gain\\ access\\ to\\ the\\ console</b>",
+      "version_group": 0
     },
     {
       "name": "Kloxo-Single-Server Pattern",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "@import\\ url\\(\"/htmllib/lib/admin_login\\.css\"\\);"
+      "pattern": "@import\\ url\\(\"/htmllib/lib/admin_login\\.css\"\\);",
+      "version_group": 0
     },
     {
       "name": "login javascript",
@@ -158,7 +164,8 @@
           }
         ]
       },
-      "pattern": "<script\\ language=javascript\\ src=\"/htmllib/js/preop\\.js\"></script>"
+      "pattern": "<script\\ language=javascript\\ src=\"/htmllib/js/preop\\.js\"></script>",
+      "version_group": 0
     },
     {
       "name": "login form",
@@ -180,7 +187,9 @@
           }
         ]
       },
-      "pattern": "<form\\ name=loginform\\ action=\"/htmllib/phplib/\"\\ onsubmit=\"encode_url\\(loginform\\)\\ ;\\ return\\ fieldcheck\\(this\\);\"\\ method=post>"
+      "pattern": "<form\\ name=loginform\\ action=\"/htmllib/phplib/\"\\ onsubmit=\"encode_url\\(loginform\\)\\ ;\\ return\\ fieldcheck\\(this\\);\"\\ method=post>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

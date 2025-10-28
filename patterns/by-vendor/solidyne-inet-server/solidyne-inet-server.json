@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Solidyne\\ iNET\\ Server</title>"
+      "pattern": "<title>Solidyne\\ iNET\\ Server</title>",
+      "version_group": 0
     },
     {
       "name": "Solidyne-iNET-Server Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<frame\\ name=\"frLeft\"\\ scrolling=\"NO\"\\ id=\"frLeft\"\\ src=\"QFrLeft\\.aspx\">"
+      "pattern": "<frame\\ name=\"frLeft\"\\ scrolling=\"NO\"\\ id=\"frLeft\"\\ src=\"QFrLeft\\.aspx\">",
+      "version_group": 0
     },
     {
       "name": "Solidyne-iNET-Server Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<META\\ HTTP\\-EQUIV=\"refresh\"\\ content=\"0;\\ url=/hmi/\">"
+      "pattern": "<META\\ HTTP\\-EQUIV=\"refresh\"\\ content=\"0;\\ url=/hmi/\">",
+      "version_group": 0
     },
     {
       "name": "Solidyne-iNET-Server Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<form\\ name=\"form1\"\\ method=\"post\"\\ action=\"QLogin\\.aspx\"\\ id=\"form1\">"
+      "pattern": "<form\\ name=\"form1\"\\ method=\"post\"\\ action=\"QLogin\\.aspx\"\\ id=\"form1\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

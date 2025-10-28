@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>AnyGate"
+      "pattern": "<title>AnyGate",
+      "version_group": 0
     },
     {
       "name": "AnyGate Pattern",
@@ -43,12 +44,14 @@
         ],
         "test_cases": [
           {
-            "input": "\uc0ac\uc6a9\uc790 \uc554\ud638\uac00 \uc124\uc815\ub418\uc5b4 \uc788\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.",
+            "input": "사용자 암호가 설정되어 있지 않습니다.",
             "expected_version": "unknown"
           }
         ]
       },
-      "pattern": "\uc0ac\uc6a9\uc790\\ \uc554\ud638\uac00\\ \uc124\uc815\ub418\uc5b4\\ \uc788\uc9c0\\ \uc54a\uc2b5\ub2c8\ub2e4\\."
+      "pattern": "사용자\\ 암호가\\ 설정되어\\ 있지\\ 않습니다\\.",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

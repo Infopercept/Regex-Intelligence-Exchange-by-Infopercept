@@ -1,0 +1,111 @@
+{
+  "vendor": "Jive",
+  "vendor_id": "jive",
+  "product": "Jive",
+  "product_id": "jive-jive",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Jive Header Detection",
+      "pattern": "X-JIVE-USER-ID: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Jive from X-JIVE-USER-ID header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "jive"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Jive Header Detection",
+      "pattern": "X-JSL: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Jive from X-JSL header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "jive"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Jive Header Detection",
+      "pattern": "X-Jive-Flow-Id: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Jive from X-Jive-Flow-Id header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "jive"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Jive Header Detection",
+      "pattern": "X-Jive-Request-Id: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Jive from X-Jive-Request-Id header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "jive"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Jive Header Detection",
+      "pattern": "x-jive-chrome-wrapped: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Jive from x-jive-chrome-wrapped header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "jive"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

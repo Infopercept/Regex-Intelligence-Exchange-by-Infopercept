@@ -1,0 +1,31 @@
+{
+  "vendor": "Snap",
+  "vendor_id": "snap",
+  "product": "Snap",
+  "product_id": "snap-snap",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Snap Header Detection",
+      "pattern": "Server: Snap/([.\\d]+)",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Snap from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "snap"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

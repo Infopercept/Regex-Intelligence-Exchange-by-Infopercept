@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Basic realm=\"Express6\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Basic realm=\"Express6\""
+      "pattern": "^Basic realm=\"Express6\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "groupoffice=[^;]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "groupoffice=[^;]+;"
+      "pattern": "groupoffice=[^;]+;",
+      "version_group": 0
     },
     {
       "name": "Group-Office Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ include\\ everything\\ after\\ the\\ loading\\ indicator\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ include\\ everything\\ after\\ the\\ loading\\ indicator\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Group-Office Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"description\"\\ content=\"Take\\ your\\ office\\ online\\.\\ Share\\ projects,\\ calendars,\\ files\\ and\\ e\\-mail\\ online\\ with\\ co\\-workers\\ and\\ clients\\.\\ Easy\\ to\\ use\\ and\\ fully\\ customizable,\\ Group\\-Office\\ takes\\ online\\ colaboration\\ to\\ the\\ next\\ level\\.\"\\ />\\."
+      "pattern": "<meta\\ name=\"description\"\\ content=\"Take\\ your\\ office\\ online\\.\\ Share\\ projects,\\ calendars,\\ files\\ and\\ e\\-mail\\ online\\ with\\ co\\-workers\\ and\\ clients\\.\\ Easy\\ to\\ use\\ and\\ fully\\ customizable,\\ Group\\-Office\\ takes\\ online\\ colaboration\\ to\\ the\\ next\\ level\\.\"\\ />\\.",
+      "version_group": 0
     },
     {
       "name": "Group-Office Pattern",
@@ -86,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<a\\ style=\"color:\\ white;\"\\ target=\"_blank\"\\ href=\"http://www\\.group\\-office\\.com\">powered\\ by\\ Group\\-Office</a>"
+      "pattern": "<a\\ style=\"color:\\ white;\"\\ target=\"_blank\"\\ href=\"http://www\\.group\\-office\\.com\">powered\\ by\\ Group\\-Office</a>",
+      "version_group": 0
     },
     {
       "name": "Group-Office Pattern",
@@ -108,7 +118,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ Group\\-Office:\\ <a\\ target=\"_blank\"\\ class=\"normal\\-link\"\\ href=\"http://www\\.group\\-office\\.com\">http://www\\.group\\-office\\.com</a>"
+      "pattern": "Powered\\ by\\ Group\\-Office:\\ <a\\ target=\"_blank\"\\ class=\"normal\\-link\"\\ href=\"http://www\\.group\\-office\\.com\">http://www\\.group\\-office\\.com</a>",
+      "version_group": 0
     },
     {
       "name": "Group-Office Pattern",
@@ -130,7 +141,8 @@
           }
         ]
       },
-      "pattern": "alert\\('The\\ Group\\-Office\\ javascripts\\ were\\ not\\ loaded\\.\\ Check\\ the\\ host\\ property\\ in\\ config\\.php\\ and\\ see\\ if\\ the\\ file_storage_path\\ folder\\ and\\ it\\\\\\\\'s\\ contents\\ are\\ writable'\\);"
+      "pattern": "alert\\('The\\ Group\\-Office\\ javascripts\\ were\\ not\\ loaded\\.\\ Check\\ the\\ host\\ property\\ in\\ config\\.php\\ and\\ see\\ if\\ the\\ file_storage_path\\ folder\\ and\\ it\\\\\\\\'s\\ contents\\ are\\ writable'\\);",
+      "version_group": 0
     },
     {
       "name": "Group-Office Pattern",
@@ -152,7 +164,9 @@
           }
         ]
       },
-      "pattern": "alert\\('Could\\ not\\ load\\ the\\ application\\ javascripts\\.\\ Check\\ the\\ \\\\"
+      "pattern": "alert\\('Could\\ not\\ load\\ the\\ application\\ javascripts\\.\\ Check\\ the\\ \\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

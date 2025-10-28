@@ -1,0 +1,51 @@
+{
+  "vendor": "MediaElement.js",
+  "vendor_id": "mediaelement.js",
+  "product": "MediaElement.js",
+  "product_id": "mediaelement.js-mediaelementjs",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MediaElement.js JavaScript Detection",
+      "pattern": "window\\.mejs|mejs\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MediaElement.js from JavaScript variable 'mejs'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "mediaelement.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "MediaElement.js JavaScript Detection",
+      "pattern": "window\\.mejs\\.version|mejs\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MediaElement.js from JavaScript variable 'mejs.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "mediaelement.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

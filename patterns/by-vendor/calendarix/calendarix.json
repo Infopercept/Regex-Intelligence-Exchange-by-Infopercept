@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "powered by <a[^>]*http://www.calendarix.com[^>]+>Calendarix</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "powered by <a[^>]*http://www.calendarix.com[^>]+>Calendarix</a>"
+      "pattern": "powered by <a[^>]*http://www.calendarix.com[^>]+>Calendarix</a>",
+      "version_group": 0
     },
     {
       "name": "Calendarix Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "var\\ url\\ =\\ 'cal_popup\\.php\\?op=view\\&id='\\+event\\+'\\&uname='\\ ;"
+      "pattern": "var\\ url\\ =\\ 'cal_popup\\.php\\?op=view\\&id='\\+event\\+'\\&uname='\\ ;",
+      "version_group": 0
     },
     {
       "name": "Calendarix Pattern",
@@ -64,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<title>Calendarix\\ User\\ Login</title>"
+      "pattern": "<title>Calendarix\\ User\\ Login</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

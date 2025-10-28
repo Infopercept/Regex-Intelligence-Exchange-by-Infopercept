@@ -1,0 +1,31 @@
+{
+  "vendor": "Proximis",
+  "vendor_id": "proximis",
+  "product": "Proximis",
+  "product_id": "proximis-proximis",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Proximis Script Detection",
+      "pattern": "widget-commerce(?:\\.min)?\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Proximis from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "proximis"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

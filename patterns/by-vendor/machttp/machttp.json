@@ -41,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^MacHTTP$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^MacHTTP$"
+      "pattern": "^MacHTTP$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

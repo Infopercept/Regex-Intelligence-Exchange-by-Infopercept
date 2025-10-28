@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Oracle[ -]HTTP[ -]Server",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Oracle[ -]HTTP[ -]Server"
+      "pattern": "Oracle[ -]HTTP[ -]Server",
+      "version_group": 0
     },
     {
       "name": "Oracle-HTTP-Server Pattern",
@@ -68,5 +75,6 @@
       "pattern": "Server: Oracle_Web_[Ll]istener(_NT_)?/([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

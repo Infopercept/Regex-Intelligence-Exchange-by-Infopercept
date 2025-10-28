@@ -1,0 +1,31 @@
+{
+  "vendor": "SiteEdit",
+  "vendor_id": "siteedit",
+  "product": "SiteEdit",
+  "product_id": "siteedit-siteedit",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SiteEdit Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']SiteEdit[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SiteEdit from meta tag with name 'generator'",
+        "tags": [
+          "webtech",
+          "meta",
+          "siteedit"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

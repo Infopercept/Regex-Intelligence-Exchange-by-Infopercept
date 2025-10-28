@@ -49,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ /application\\.bar\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ /application\\.bar\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Axway-SecureTransport Pattern",
@@ -71,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<title>Welcome\\ to\\ SecureTransport</title>"
+      "pattern": "<title>Welcome\\ to\\ SecureTransport</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

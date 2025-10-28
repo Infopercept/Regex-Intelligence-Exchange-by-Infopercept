@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<form\\ name=\"login\"\\ method=\"post\"\\ action=\"j_security_check\"\\ onsubmit=\"setCookie\\(\\)\">"
+      "pattern": "<form\\ name=\"login\"\\ method=\"post\"\\ action=\"j_security_check\"\\ onsubmit=\"setCookie\\(\\)\">",
+      "version_group": 0
     },
     {
       "name": "OpenKM Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>OpenKM Login</title>[s]+</head>[s]+<body onload=\"document.forms[0].elements[0].focus()\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>OpenKM Login</title>[\\s]+</head>[\\s]+<body onload=\"document\\.forms\\[0\\]\\.elements\\[0\\]\\.focus\\(\\)\">"
+      "pattern": "<title>OpenKM Login</title>[\\s]+</head>[\\s]+<body onload=\"document\\.forms\\[0\\]\\.elements\\[0\\]\\.focus\\(\\)\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

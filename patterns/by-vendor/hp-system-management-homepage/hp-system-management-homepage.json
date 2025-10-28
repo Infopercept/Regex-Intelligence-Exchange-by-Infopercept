@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>HP System Management Homepage Login</TITLE>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<TITLE>HP System Management Homepage Login</TITLE>"
+      "pattern": "<TITLE>HP System Management Homepage Login</TITLE>",
+      "version_group": 0
     },
     {
       "name": "HP-System-Management-Homepage Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Compaq-HMMD=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Compaq-HMMD="
+      "pattern": "Compaq-HMMD=",
+      "version_group": 0
     },
     {
       "name": "HP-System-Management-Homepage Pattern",
@@ -61,5 +75,6 @@
       "pattern": "Server: CompaqHTTPServer/[^\\s]+ HP System Management Homepage/([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

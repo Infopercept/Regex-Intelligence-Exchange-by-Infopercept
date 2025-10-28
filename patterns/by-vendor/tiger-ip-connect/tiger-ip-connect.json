@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^network/index.php$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^network/index\\.php$"
+      "pattern": "^network/index\\.php$",
+      "version_group": 0
     },
     {
       "name": "Tiger-IP-Connect Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<td\\ align=\"center\"\\ bgcolor=\"\\#FFCC00\"><b>Login\\ is\\ disabled\\ from\\ this\\ IP\\ address\\.</b></td>"
+      "pattern": "<td\\ align=\"center\"\\ bgcolor=\"\\#FFCC00\"><b>Login\\ is\\ disabled\\ from\\ this\\ IP\\ address\\.</b></td>",
+      "version_group": 0
     },
     {
       "name": "Tiger-IP-Connect Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "background\\-image:url\\(\\.\\./images/tiger/subTabmidden\\.gif\\);"
+      "pattern": "background\\-image:url\\(\\.\\./images/tiger/subTabmidden\\.gif\\);",
+      "version_group": 0
     },
     {
       "name": "Tiger-IP-Connect Pattern",
@@ -86,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"/include/tms\\.css\">"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"/include/tms\\.css\">",
+      "version_group": 0
     },
     {
       "name": "Tiger-IP-Connect Pattern",
@@ -108,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"/include/firedigit\\.css\">"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"/include/firedigit\\.css\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

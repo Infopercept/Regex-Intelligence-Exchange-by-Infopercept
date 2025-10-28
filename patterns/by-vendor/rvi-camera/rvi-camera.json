@@ -21,12 +21,13 @@
         ],
         "test_cases": [
           {
-            "input": "\u0421\u043a\u0430\u0447\u0430\u0442\u044c \u0444\u0430\u0439\u043b \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438 OCX&nbsp;&nbsp;&nbsp;<a href=\"xdview.exe\">",
+            "input": "Скачать файл установки OCX&nbsp;&nbsp;&nbsp;<a href=\"xdview.exe\">",
             "expected_version": "unknown"
           }
         ]
       },
-      "pattern": "\u0421\u043a\u0430\u0447\u0430\u0442\u044c\\ \u0444\u0430\u0439\u043b\\ \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438\\ OCX\\&nbsp;\\&nbsp;\\&nbsp;<a\\ href=\"xdview\\.exe\">"
+      "pattern": "Скачать\\ файл\\ установки\\ OCX\\&nbsp;\\&nbsp;\\&nbsp;<a\\ href=\"xdview\\.exe\">",
+      "version_group": 0
     },
     {
       "name": "RVI-Camera Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<Meta\\ name=\"Author\"\\ Content=\"hhdigital\">"
+      "pattern": "<Meta\\ name=\"Author\"\\ Content=\"hhdigital\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

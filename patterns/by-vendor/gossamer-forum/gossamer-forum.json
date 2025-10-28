@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<title>Gossamer\\ Forum:\\ An\\ error\\ occured!</title>"
+      "pattern": "<title>Gossamer\\ Forum:\\ An\\ error\\ occured!</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

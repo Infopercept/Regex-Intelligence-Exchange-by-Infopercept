@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<H2><u><A\\ HREF=\"/BCXMain\"><font\\ face=\"Arial\"\\ size=\"3\">Controller\\ Configuration\\ Options</FONT></A></u></H2>"
+      "pattern": "<H2><u><A\\ HREF=\"/BCXMain\"><font\\ face=\"Arial\"\\ size=\"3\">Controller\\ Configuration\\ Options</FONT></A></u></H2>",
+      "version_group": 0
     },
     {
       "name": "Infinet-bCX1-Controller-Router Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<img\\ BORDER=\"0\"\\ src=\"/Images/taclogo\"\\ </A></H3>"
+      "pattern": "<img\\ BORDER=\"0\"\\ src=\"/Images/taclogo\"\\ </A></H3>",
+      "version_group": 0
     },
     {
       "name": "Infinet-bCX1-Controller-Router Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<img\\ BORDER=\"0\"\\ src=\"/Images/AndoverContinuum\"</A><P>"
+      "pattern": "<img\\ BORDER=\"0\"\\ src=\"/Images/AndoverContinuum\"</A><P>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

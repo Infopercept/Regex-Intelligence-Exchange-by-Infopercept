@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Purveyor Encrypt",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Purveyor Encrypt"
+      "pattern": "^Purveyor Encrypt",
+      "version_group": 0
     },
     {
       "name": "Purveyor-Encrypt-WebServer Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Purveyor Encrypt (Export|Domestic)/v([^\\s]+) OpenVMS$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

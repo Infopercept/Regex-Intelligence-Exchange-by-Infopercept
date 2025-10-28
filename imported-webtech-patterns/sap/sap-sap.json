@@ -1,0 +1,31 @@
+{
+  "vendor": "SAP",
+  "vendor_id": "sap",
+  "product": "SAP",
+  "product_id": "sap-sap",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SAP Header Detection",
+      "pattern": "Server: SAP NetWeaver Application Server",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SAP from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "sap"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "imstime=[d]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "imstime=[\\d]+;"
+      "pattern": "imstime=[\\d]+;",
+      "version_group": 0
     },
     {
       "name": "PmWiki Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-PageLeftFmt\\-\\->"
+      "pattern": "<!\\-\\-PageLeftFmt\\-\\->",
+      "version_group": 0
     },
     {
       "name": "PmWiki Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<span\\ class='commentout\\-pmwikiorg'>"
+      "pattern": "<span\\ class='commentout\\-pmwikiorg'>",
+      "version_group": 0
     },
     {
       "name": "PmWiki Pattern",
@@ -78,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel='stylesheet' href='[^']*/pmwiki/pub/skins/pmwiki/pmwiki.css' type='text/css' />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link rel='stylesheet' href='[^']*/pmwiki/pub/skins/pmwiki/pmwiki\\.css' type='text/css' />"
+      "pattern": "<link rel='stylesheet' href='[^']*/pmwiki/pub/skins/pmwiki/pmwiki\\.css' type='text/css' />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

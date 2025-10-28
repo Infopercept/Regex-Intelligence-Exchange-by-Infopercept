@@ -1,0 +1,31 @@
+{
+  "vendor": "MantisBT",
+  "vendor_id": "mantisbt",
+  "product": "MantisBT",
+  "product_id": "mantisbt-mantisbt",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MantisBT HTML Detection",
+      "pattern": "<img[^>]+ alt=\"Powered by Mantis Bugtracker",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MantisBT from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "mantisbt"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

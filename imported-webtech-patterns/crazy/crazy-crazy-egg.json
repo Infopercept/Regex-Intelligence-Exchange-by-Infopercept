@@ -1,0 +1,51 @@
+{
+  "vendor": "Crazy",
+  "vendor_id": "crazy",
+  "product": "Crazy Egg",
+  "product_id": "crazy-crazy-egg",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Crazy Egg Script Detection",
+      "pattern": "script\\.crazyegg\\.com/pages/scripts/\\d+/\\d+\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Crazy Egg from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "crazy-egg"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Crazy Egg JavaScript Detection",
+      "pattern": "window\\.CE2|CE2\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Crazy Egg from JavaScript variable 'CE2'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "crazy-egg"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "vendor": "IPB",
+  "vendor_id": "ipb",
+  "product": "IPB",
+  "product_id": "ipb-ipb",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "IPB HTML Detection",
+      "pattern": "<link[^>]+ipb_[^>]+\\.css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects IPB from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "ipb"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "IPB Script Detection",
+      "pattern": "jscripts/ips_",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects IPB from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "ipb"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "IPB JavaScript Detection",
+      "pattern": "window\\.IPBoard|IPBoard\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects IPB from JavaScript variable 'IPBoard'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "ipb"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "IPB JavaScript Detection",
+      "pattern": "window\\.ipb_var|ipb_var\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects IPB from JavaScript variable 'ipb_var'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "ipb"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "IPB JavaScript Detection",
+      "pattern": "window\\.ipsSettings|ipsSettings\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects IPB from JavaScript variable 'ipsSettings'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "ipb"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

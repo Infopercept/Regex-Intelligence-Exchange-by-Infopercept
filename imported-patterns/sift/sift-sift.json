@@ -1,0 +1,31 @@
+{
+  "vendor": "Sift",
+  "vendor_id": "sift",
+  "product": "Sift",
+  "product_id": "sift-sift",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Sift Script Detection",
+      "pattern": "cdn\\.sift(?:science)?\\.com/s\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Sift from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "sift"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

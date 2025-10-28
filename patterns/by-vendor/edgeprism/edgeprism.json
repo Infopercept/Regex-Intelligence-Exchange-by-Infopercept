@@ -41,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^EdgePrismSSL",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^EdgePrismSSL"
+      "pattern": "^EdgePrismSSL",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

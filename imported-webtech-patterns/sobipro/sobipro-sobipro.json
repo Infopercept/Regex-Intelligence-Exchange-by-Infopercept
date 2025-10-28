@@ -1,0 +1,31 @@
+{
+  "vendor": "SobiPro",
+  "vendor_id": "sobipro",
+  "product": "SobiPro",
+  "product_id": "sobipro-sobipro",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SobiPro JavaScript Detection",
+      "pattern": "window\\.SobiProUrl|SobiProUrl\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SobiPro from JavaScript variable 'SobiProUrl'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "sobipro"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

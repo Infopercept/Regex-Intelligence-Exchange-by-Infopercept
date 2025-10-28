@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by:\\ <a\\ href=\"http://www\\.lotuscms\\.org\">LotusCMS</a>"
+      "pattern": "Powered\\ by:\\ <a\\ href=\"http://www\\.lotuscms\\.org\">LotusCMS</a>",
+      "version_group": 0
     },
     {
       "name": "LotusCMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.arboroia\\.com/cmsproject/\">ArboroianCMS</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.arboroia\\.com/cmsproject/\">ArboroianCMS</a>",
+      "version_group": 0
     },
     {
       "name": "LotusCMS Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<ul><li><a\\ class='firstM'\\ href='index\\.php\\?page=index'>Home</a></li><li><a\\ class='normalM'\\ href='index\\.php\\?system="
+      "pattern": "<ul><li><a\\ class='firstM'\\ href='index\\.php\\?page=index'>Home</a></li><li><a\\ class='normalM'\\ href='index\\.php\\?system=",
+      "version_group": 0
     },
     {
       "name": "LotusCMS Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<title>LotusCMS\\ Administration</title>"
+      "pattern": "<title>LotusCMS\\ Administration</title>",
+      "version_group": 0
     },
     {
       "name": "LotusCMS Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<title>\\.:Lotus\\ Administration:\\.</title>"
+      "pattern": "<title>\\.:Lotus\\ Administration:\\.</title>",
+      "version_group": 0
     },
     {
       "name": "LotusCMS Pattern",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<form\\ method=\"POST\"\\ action=\"index\\.php\\?system=Admin\\&page=loginSubmit\"\\ id=\"contactform\">"
+      "pattern": "<form\\ method=\"POST\"\\ action=\"index\\.php\\?system=Admin\\&page=loginSubmit\"\\ id=\"contactform\">",
+      "version_group": 0
     },
     {
       "name": "LotusCMS Pattern",
@@ -158,7 +164,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Please\\ don't\\ delete\\ this\\.\\ You\\ can\\ use\\ this\\ template\\ for\\ free\\ and\\ this\\ is\\ the\\ only\\ way\\ that\\ you\\ can\\ say\\ thanks\\ to\\ me\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Please\\ don't\\ delete\\ this\\.\\ You\\ can\\ use\\ this\\ template\\ for\\ free\\ and\\ this\\ is\\ the\\ only\\ way\\ that\\ you\\ can\\ say\\ thanks\\ to\\ me\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "LotusCMS Pattern",
@@ -180,7 +187,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"keywords\"\\ content=\"LotusCMS\"\\ />"
+      "pattern": "<meta\\ name=\"keywords\"\\ content=\"LotusCMS\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

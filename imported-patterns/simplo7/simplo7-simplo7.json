@@ -1,0 +1,31 @@
+{
+  "vendor": "Simplo7",
+  "vendor_id": "simplo7",
+  "product": "Simplo7",
+  "product_id": "simplo7-simplo7",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Simplo7 Script Detection",
+      "pattern": "cdn\\.simplo7\\.\\w+/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Simplo7 from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "simplo7"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

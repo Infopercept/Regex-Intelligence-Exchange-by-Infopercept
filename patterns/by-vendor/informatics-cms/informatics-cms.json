@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "[d]+=HTMLTitle=[^s]*&OrgName=[^s]+&EmailThankYou=[^s]*&DefaultIdPage=[^s]+&State=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "[\\d]+=HTMLTitle=[^\\s]*&OrgName=[^\\s]+&EmailThankYou=[^\\s]*&DefaultIdPage=[^\\s]+&State="
+      "pattern": "[\\d]+=HTMLTitle=[^\\s]*&OrgName=[^\\s]+&EmailThankYou=[^\\s]*&DefaultIdPage=[^\\s]+&State=",
+      "version_group": 0
     },
     {
       "name": "Informatics-CMS Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"author\"\\ content=\"Informatics,\\ Inc\\.\">"
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Informatics,\\ Inc\\.\">",
+      "version_group": 0
     },
     {
       "name": "Informatics-CMS Pattern",
@@ -56,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Web Application by <a href=\"http://www.(ia-informatics|informaticsinc).com\" [^>]*target=\"_blank\"><b>Informatics, Inc.</b></a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Web Application by <a href=\"http://www\\.(ia-informatics|informaticsinc)\\.com\" [^>]*target=\"_blank\"><b>Informatics, Inc\\.</b></a>"
+      "pattern": "Web Application by <a href=\"http://www\\.(ia-informatics|informaticsinc)\\.com\" [^>]*target=\"_blank\"><b>Informatics, Inc\\.</b></a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

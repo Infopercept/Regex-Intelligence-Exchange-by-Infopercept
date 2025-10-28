@@ -1,0 +1,31 @@
+{
+  "vendor": "Ceres",
+  "vendor_id": "ceres",
+  "product": "Ceres",
+  "product_id": "ceres-ceres",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Ceres Header Detection",
+      "pattern": "X-Plenty-Shop: Ceres",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Ceres from X-Plenty-Shop header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "ceres"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

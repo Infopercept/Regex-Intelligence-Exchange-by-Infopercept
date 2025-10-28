@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <div\\ style=\"font\\-size:\\ 10pt\">A\\ PHP\\ Streaming\\ Media\\ Server</div>"
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <div\\ style=\"font\\-size:\\ 10pt\">A\\ PHP\\ Streaming\\ Media\\ Server</div>",
+      "version_group": 0
     },
     {
       "name": "Streamline-PHP-Media-Server Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ <title>Streamline\\ Media\\ Installation\\ Wizard</title>"
+      "pattern": "\\ \\ \\ \\ <title>Streamline\\ Media\\ Installation\\ Wizard</title>",
+      "version_group": 0
     },
     {
       "name": "Streamline-PHP-Media-Server Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\&copy;\\ 2003\\-2010\\ Streamline"
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\&copy;\\ 2003\\-2010\\ Streamline",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

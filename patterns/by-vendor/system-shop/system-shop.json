@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ \\ \\ powered\\ by\\ System4you\\.com\\ internet\\ solutions"
+      "pattern": "\\ \\ \\ \\ \\ \\ powered\\ by\\ System4you\\.com\\ internet\\ solutions",
+      "version_group": 0
     },
     {
       "name": "System-Shop Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ powered\\ by\\ System\\-Shop"
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ powered\\ by\\ System\\-Shop",
+      "version_group": 0
     },
     {
       "name": "System-Shop Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ http://www\\.system\\-shop\\.at"
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ http://www\\.system\\-shop\\.at",
+      "version_group": 0
     },
     {
       "name": "System-Shop Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.systemshop\\.at\"\\ target=\"_blank\">Powered\\ by\\ System"
+      "pattern": "<a\\ href=\"http://www\\.systemshop\\.at\"\\ target=\"_blank\">Powered\\ by\\ System",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

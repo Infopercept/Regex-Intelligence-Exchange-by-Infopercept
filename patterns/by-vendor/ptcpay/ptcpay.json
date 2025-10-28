@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ class=\"left\"><img\\ src=\"pre/images/ic_support\\.png\"\\ width=\"23\"\\ height=\"23\"\\ alt=\"\"\\ /></div>"
+      "pattern": "<div\\ class=\"left\"><img\\ src=\"pre/images/ic_support\\.png\"\\ width=\"23\"\\ height=\"23\"\\ alt=\"\"\\ /></div>",
+      "version_group": 0
     },
     {
       "name": "PTCPay Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://www\\.ptcpay\\.com\"\\ target=\"_blank\">GeN4\\ Security\\+</a>"
+      "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://www\\.ptcpay\\.com\"\\ target=\"_blank\">GeN4\\ Security\\+</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

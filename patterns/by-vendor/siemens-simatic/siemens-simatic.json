@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<META\\ HTTP\\-EQUIV=\"refresh\"\\ content=\"0;URL=/www/start\\.html\">"
+      "pattern": "<META\\ HTTP\\-EQUIV=\"refresh\"\\ content=\"0;URL=/www/start\\.html\">",
+      "version_group": 0
     },
     {
       "name": "Siemens-Simatic Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>\\ Miniweb\\ Start\\ Page\\ </title>"
+      "pattern": "<title>\\ Miniweb\\ Start\\ Page\\ </title>",
+      "version_group": 0
     },
     {
       "name": "Siemens-Simatic Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"/Images/Siemens_Firmenmarke\\.gif\"\\ alt=\"Siemens\"\\ border=\"0\"></td>"
+      "pattern": "<img\\ src=\"/Images/Siemens_Firmenmarke\\.gif\"\\ alt=\"Siemens\"\\ border=\"0\"></td>",
+      "version_group": 0
     },
     {
       "name": "Siemens-Simatic Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<font\\ color=\"\\#ffffff\">\\ <!\\-\\-\\ font\\ ist\\ da,\\ um\\ bei\\ einer\\ Anzeige\\ OHNE\\ CSS\\ nicht\\ schwarz\\ auf\\ schwarz\\ anzuzeigen\\ \\-\\->"
+      "pattern": "<font\\ color=\"\\#ffffff\">\\ <!\\-\\-\\ font\\ ist\\ da,\\ um\\ bei\\ einer\\ Anzeige\\ OHNE\\ CSS\\ nicht\\ schwarz\\ auf\\ schwarz\\ anzuzeigen\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Siemens-Simatic Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "Hint:<br>\\ When\\ the\\ devicename\\ contains\\ an\\ underscore\\ \\(\\ _\\ \\)\\ some\\ browsers\\ have\\ a\\ bug\\ that\\ makes\\ it\\ impossible\\ to\\ log\\ in\\.<br>\\ One\\ possible\\ solution\\ may\\ be\\ to\\ use\\ the\\ IP\\ address\\ of\\ the\\ device\\ instead\\ of\\ the\\ name,\\ or\\ to\\ use\\ another\\ browser\\."
+      "pattern": "Hint:<br>\\ When\\ the\\ devicename\\ contains\\ an\\ underscore\\ \\(\\ _\\ \\)\\ some\\ browsers\\ have\\ a\\ bug\\ that\\ makes\\ it\\ impossible\\ to\\ log\\ in\\.<br>\\ One\\ possible\\ solution\\ may\\ be\\ to\\ use\\ the\\ IP\\ address\\ of\\ the\\ device\\ instead\\ of\\ the\\ name,\\ or\\ to\\ use\\ another\\ browser\\.",
+      "version_group": 0
     },
     {
       "name": "Siemens-Simatic Pattern",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<title>SIMATIC\\ NET\\ IT\\-CP</title>"
+      "pattern": "<title>SIMATIC\\ NET\\ IT\\-CP</title>",
+      "version_group": 0
     },
     {
       "name": "Siemens-Simatic Pattern",
@@ -158,7 +164,8 @@
           }
         ]
       },
-      "pattern": "<td\\ class=\"Login_Area\"\\ colspan=\"2\"><img\\ src=\"/SIMATIC_CONTROLLER\\.png\"\\ alt=\"Simatic\\ S7\\ CP\"></td>"
+      "pattern": "<td\\ class=\"Login_Area\"\\ colspan=\"2\"><img\\ src=\"/SIMATIC_CONTROLLER\\.png\"\\ alt=\"Simatic\\ S7\\ CP\"></td>",
+      "version_group": 0
     },
     {
       "name": "Siemens-Simatic Pattern",
@@ -180,7 +187,8 @@
           }
         ]
       },
-      "pattern": "<td><img\\ src=\"/Siemens_Firmenmarke_Header\\.gif\"\\ alt=\"Siemens\"\\ border=\"0\"></td>"
+      "pattern": "<td><img\\ src=\"/Siemens_Firmenmarke_Header\\.gif\"\\ alt=\"Siemens\"\\ border=\"0\"></td>",
+      "version_group": 0
     },
     {
       "name": "Siemens-Simatic Pattern",
@@ -202,7 +210,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/S7Web\\.css\">"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/S7Web\\.css\">",
+      "version_group": 0
     },
     {
       "name": "Siemens-Simatic Pattern",
@@ -224,7 +233,9 @@
           }
         ]
       },
-      "pattern": "<td\\ class=\"MainMenu_Navigation_Level1\"><a\\ class=\"MainMenu_Navigation_Text_Level1\"\\ href=\\\\"
+      "pattern": "<td\\ class=\"MainMenu_Navigation_Level1\"><a\\ class=\"MainMenu_Navigation_Text_Level1\"\\ href=\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

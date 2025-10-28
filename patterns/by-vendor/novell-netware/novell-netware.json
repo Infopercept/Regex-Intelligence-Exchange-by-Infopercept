@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "</HEAD><BODY><font\\ size=\\+2><p>Unauthorized!</font><font\\ size=\\+1><p>Please\\ login\\ using\\ a\\ full\\ NDS\\ name\\ and\\ context\\ \\(example:\\ \\.user\\.engineering\\.acme_corp\\.\\)</font></BODY></HTML>"
+      "pattern": "</HEAD><BODY><font\\ size=\\+2><p>Unauthorized!</font><font\\ size=\\+1><p>Please\\ login\\ using\\ a\\ full\\ NDS\\ name\\ and\\ context\\ \\(example:\\ \\.user\\.engineering\\.acme_corp\\.\\)</font></BODY></HTML>",
+      "version_group": 0
     },
     {
       "name": "Novell-NetWare Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>NetWare Server [^<]+</TITLE><LINK REL=stylesheet TYPE=text/css HREF=/SYS/LOGIN/portal.css>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<TITLE>NetWare Server [^<]+</TITLE><LINK REL=stylesheet TYPE=text/css HREF=/SYS/LOGIN/portal\\.css>"
+      "pattern": "<TITLE>NetWare Server [^<]+</TITLE><LINK REL=stylesheet TYPE=text/css HREF=/SYS/LOGIN/portal\\.css>",
+      "version_group": 0
     },
     {
       "name": "Novell-NetWare Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<APPLET\\ CODE=NWSHealth\\.class\\ NAME=\"NWServerHealth\"\\ CODEBASE=/SYS/Login\\ width=38\\ height=99>"
+      "pattern": "<APPLET\\ CODE=NWSHealth\\.class\\ NAME=\"NWServerHealth\"\\ CODEBASE=/SYS/Login\\ width=38\\ height=99>",
+      "version_group": 0
     },
     {
       "name": "Novell-NetWare Pattern",
@@ -86,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<TABLE\\ WIDTH=\"100%\"><TR><TD\\ ALIGN=LEFT\\ VALIGN=TOP><APPLET\\ CODE=\"NWSHealth\\.class\"\\ NAME=\"NWServerHealth\"\\ CODEBASE=\"/SYS/Login\"\\ width=33\\ height=52>"
+      "pattern": "<TABLE\\ WIDTH=\"100%\"><TR><TD\\ ALIGN=LEFT\\ VALIGN=TOP><APPLET\\ CODE=\"NWSHealth\\.class\"\\ NAME=\"NWServerHealth\"\\ CODEBASE=\"/SYS/Login\"\\ width=33\\ height=52>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

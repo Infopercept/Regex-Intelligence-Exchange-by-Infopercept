@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<INPUT TYPE=\"hidden\" NAME=\"check_code\" VALUE=\"[^\"^>]+\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<INPUT TYPE=\"hidden\" NAME=\"check_code\" VALUE=\"[^\"^>]+\">"
+      "pattern": "<INPUT TYPE=\"hidden\" NAME=\"check_code\" VALUE=\"[^\"^>]+\">",
+      "version_group": 0
     },
     {
       "name": "Lyris-ListManager Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<html><h3>This\\ Lyris\\ ListManager\\ Server\\ is\\ currently\\ unavailable\\.<br>"
+      "pattern": "<html><h3>This\\ Lyris\\ ListManager\\ Server\\ is\\ currently\\ unavailable\\.<br>",
+      "version_group": 0
     },
     {
       "name": "Lyris-ListManager Pattern",
@@ -64,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<font\\ face=\"Arial,\\ Helvetica,\\ sans\\-serif\"\\ color=\"\\#000000\"><b><i>Main\\ Menu</i></b></font><br>"
+      "pattern": "<font\\ face=\"Arial,\\ Helvetica,\\ sans\\-serif\"\\ color=\"\\#000000\"><b><i>Main\\ Menu</i></b></font><br>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "Salesfloor",
+  "vendor_id": "salesfloor",
+  "product": "Salesfloor",
+  "product_id": "salesfloor-salesfloor",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Salesfloor Script Detection",
+      "pattern": "salesFloor\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Salesfloor from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "salesfloor"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

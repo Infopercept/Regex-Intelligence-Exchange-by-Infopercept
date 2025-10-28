@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Login\\ to\\ LynxGuide\\ Server</title>"
+      "pattern": "<title>Login\\ to\\ LynxGuide\\ Server</title>",
+      "version_group": 0
     },
     {
       "name": "LynxGuide Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Use\\ subject\\ to\\ <a\\ href=\"/cgi/help/license\\.htm\">license\\ agreement</a></span>"
+      "pattern": "Use\\ subject\\ to\\ <a\\ href=\"/cgi/help/license\\.htm\">license\\ agreement</a></span>",
+      "version_group": 0
     },
     {
       "name": "LynxGuide Pattern",
@@ -62,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Access_Num=[^;]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Access_Num=[^;]+;"
+      "pattern": "Access_Num=[^;]+;",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,111 @@
+{
+  "vendor": "Wix",
+  "vendor_id": "wix",
+  "product": "Wix",
+  "product_id": "wix-wix",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Wix Header Detection",
+      "pattern": "X-Wix-Renderer-Server: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Wix from X-Wix-Renderer-Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "wix"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Wix Header Detection",
+      "pattern": "X-Wix-Request-Id: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Wix from X-Wix-Request-Id header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "wix"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Wix Header Detection",
+      "pattern": "X-Wix-Server-Artifact-Id: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Wix from X-Wix-Server-Artifact-Id header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "wix"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Wix Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']Wix\\.com Website Builder[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Wix from meta tag with name 'generator'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "wix"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Wix Script Detection",
+      "pattern": "static\\.parastorage\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Wix from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "wix"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

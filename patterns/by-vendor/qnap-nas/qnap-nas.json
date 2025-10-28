@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>QNAP\\ Photo\\ Station</title>"
+      "pattern": "<title>QNAP\\ Photo\\ Station</title>",
+      "version_group": 0
     },
     {
       "name": "QNAP-NAS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>QNAP\\ Download\\ Station</title>"
+      "pattern": "<title>QNAP\\ Download\\ Station</title>",
+      "version_group": 0
     },
     {
       "name": "QNAP-NAS Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<TITLE>QNAP\\ Multimedia\\ Station\\ \\(Photo\\ Album\\)</TITLE>"
+      "pattern": "<TITLE>QNAP\\ Multimedia\\ Station\\ \\(Photo\\ Album\\)</TITLE>",
+      "version_group": 0
     },
     {
       "name": "QNAP-NAS Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<TITLE>Multimedia\\ Station</TITLE>"
+      "pattern": "<TITLE>Multimedia\\ Station</TITLE>",
+      "version_group": 0
     },
     {
       "name": "QNAP-NAS Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "NavPage\\(\"http://\"\\+\\ location_hostname_for_ipv6\\(location\\.hostname\\)\\ \\+\":\"\\+\\ qweb_port\\ \\+\"/\",\\ 0\\);"
+      "pattern": "NavPage\\(\"http://\"\\+\\ location_hostname_for_ipv6\\(location\\.hostname\\)\\ \\+\":\"\\+\\ qweb_port\\ \\+\"/\",\\ 0\\);",
+      "version_group": 0
     },
     {
       "name": "QNAP-NAS Pattern",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "location\\.href=pr\\+\"://\\[\"\\+location\\.hostname\\+\"\\]\"\\+pt\\+redirect_suffix;"
+      "pattern": "location\\.href=pr\\+\"://\\[\"\\+location\\.hostname\\+\"\\]\"\\+pt\\+redirect_suffix;",
+      "version_group": 0
     },
     {
       "name": "QNAP-NAS Pattern",
@@ -150,9 +156,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^//window.location = '/indexnas.cgi?counter=' + Math.floor((diff1-diff2)/1000);[rn]^window.location.replace('/indexnas.cgi?counter=' + Math.floor((diff1-diff2)/1000));$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^//window.location = '/indexnas\\.cgi\\?counter=' \\+ Math\\.floor\\(\\(diff1-diff2\\)/1000\\);[\\r\\n]^window.location.replace\\('/indexnas\\.cgi\\?counter=' \\+ Math\\.floor\\(\\(diff1-diff2\\)/1000\\)\\);$"
+      "pattern": "^//window.location = '/indexnas\\.cgi\\?counter=' \\+ Math\\.floor\\(\\(diff1-diff2\\)/1000\\);[\\r\\n]^window.location.replace\\('/indexnas\\.cgi\\?counter=' \\+ Math\\.floor\\(\\(diff1-diff2\\)/1000\\)\\);$",
+      "version_group": 0
     },
     {
       "name": "QNAP-NAS Pattern",
@@ -174,7 +187,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.qnap\\.com\"><img\\ src=\"/ajax_obj/images/qnap_logo_w\\.gif\"\\ alt=\"QNAP\\ Turbo\\ NAS\"\\ title=\"QNAP\\ Turbo\\ NAS\""
+      "pattern": "<a\\ href=\"http://www\\.qnap\\.com\"><img\\ src=\"/ajax_obj/images/qnap_logo_w\\.gif\"\\ alt=\"QNAP\\ Turbo\\ NAS\"\\ title=\"QNAP\\ Turbo\\ NAS\"",
+      "version_group": 0
     },
     {
       "name": "QNAP-NAS Pattern",
@@ -196,7 +210,8 @@
           }
         ]
       },
-      "pattern": "<td\\ class=\"header_tb_logo\"><img\\ id=\\\\"
+      "pattern": "<td\\ class=\"header_tb_logo\"><img\\ id=\\\\",
+      "version_group": 0
     },
     {
       "name": "QNAP-NAS Pattern",
@@ -218,7 +233,8 @@
           }
         ]
       },
-      "pattern": "<table\\ width=\"100%\"\\ border=\"0\"\\ background=\"/v3_menu/images/admin_header\\.jpg\"\\ cellpadding=\"0\"\\ cellspacing=\"0\"\\ class=\"12\\-blue\">"
+      "pattern": "<table\\ width=\"100%\"\\ border=\"0\"\\ background=\"/v3_menu/images/admin_header\\.jpg\"\\ cellpadding=\"0\"\\ cellspacing=\"0\"\\ class=\"12\\-blue\">",
+      "version_group": 0
     },
     {
       "name": "QNAP-NAS Pattern",
@@ -240,7 +256,8 @@
           }
         ]
       },
-      "pattern": "<img\\ id=\"img_webserver\"\\ src=\"/ajax_obj/images/login_main_2\\.jpg\"\\ longdesc=\"javascript:onQuickLinkChange\\(2\\);\"\\ alt=\"Web\\ Server\"\\ />"
+      "pattern": "<img\\ id=\"img_webserver\"\\ src=\"/ajax_obj/images/login_main_2\\.jpg\"\\ longdesc=\"javascript:onQuickLinkChange\\(2\\);\"\\ alt=\"Web\\ Server\"\\ />",
+      "version_group": 0
     },
     {
       "name": "QNAP-NAS Pattern",
@@ -262,7 +279,8 @@
           }
         ]
       },
-      "pattern": "<img\\ id=\"img_multimedia\"\\ src=\"/ajax_obj/images/login_main_3\\.jpg\"\\ longdesc=\"javascript:onQuickLinkChange\\(3\\);\"\\ alt=\"Multimedia\\ Station\"\\ />"
+      "pattern": "<img\\ id=\"img_multimedia\"\\ src=\"/ajax_obj/images/login_main_3\\.jpg\"\\ longdesc=\"javascript:onQuickLinkChange\\(3\\);\"\\ alt=\"Multimedia\\ Station\"\\ />",
+      "version_group": 0
     },
     {
       "name": "QNAP-NAS Pattern",
@@ -284,7 +302,8 @@
           }
         ]
       },
-      "pattern": "<img\\ id=\"img_download\"\\ src=\"/ajax_obj/images/login_main_4\\.jpg\"\\ longdesc=\"javascript:onQuickLinkChange\\(4\\);\"\\ alt=\"Download\\ Station\"\\ />"
+      "pattern": "<img\\ id=\"img_download\"\\ src=\"/ajax_obj/images/login_main_4\\.jpg\"\\ longdesc=\"javascript:onQuickLinkChange\\(4\\);\"\\ alt=\"Download\\ Station\"\\ />",
+      "version_group": 0
     },
     {
       "name": "QNAP-NAS Pattern",
@@ -306,7 +325,8 @@
           }
         ]
       },
-      "pattern": "<img\\ id=\"img_webfile\"\\ src=\"/ajax_obj/images/login_main_5\\.jpg\"\\ longdesc=\"javascript:onQuickLinkChange\\(5\\);\"\\ alt=\"Web\\ File\\ Manager\"\\ />"
+      "pattern": "<img\\ id=\"img_webfile\"\\ src=\"/ajax_obj/images/login_main_5\\.jpg\"\\ longdesc=\"javascript:onQuickLinkChange\\(5\\);\"\\ alt=\"Web\\ File\\ Manager\"\\ />",
+      "version_group": 0
     },
     {
       "name": "QNAP-NAS Pattern",
@@ -328,7 +348,8 @@
           }
         ]
       },
-      "pattern": "<img\\ id=\"img_surveillance\"\\ src=\"/ajax_obj/images/login_main_6\\.jpg\"\\ longdesc=\"javascript:onQuickLinkChange\\(6\\);\"\\ alt=\"Surveillance\\ Station\"\\ />"
+      "pattern": "<img\\ id=\"img_surveillance\"\\ src=\"/ajax_obj/images/login_main_6\\.jpg\"\\ longdesc=\"javascript:onQuickLinkChange\\(6\\);\"\\ alt=\"Surveillance\\ Station\"\\ />",
+      "version_group": 0
     },
     {
       "name": "QNAP-NAS Pattern",
@@ -350,7 +371,9 @@
           }
         ]
       },
-      "pattern": "<title>Welcome\\ to\\ QNAP\\ Turbo\\ NAS</title>"
+      "pattern": "<title>Welcome\\ to\\ QNAP\\ Turbo\\ NAS</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

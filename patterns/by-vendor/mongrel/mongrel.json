@@ -29,5 +29,6 @@
       "pattern": "Server: ^Mongrel ([\\d][^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

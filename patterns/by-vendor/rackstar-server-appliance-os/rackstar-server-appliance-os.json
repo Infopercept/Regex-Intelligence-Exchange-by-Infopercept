@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<A HREF='http://www.rackstar.net/' TITLE='This server is powered by the RackStar Server Appliance OS'>RACKSTAR</A>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<A HREF='http://www.rackstar.net/' TITLE='This server is powered by the RackStar Server Appliance OS'>RACKSTAR</A>"
+      "pattern": "<A HREF='http://www.rackstar.net/' TITLE='This server is powered by the RackStar Server Appliance OS'>RACKSTAR</A>",
+      "version_group": 0
     },
     {
       "name": "RackStar-Server-Appliance-OS Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "(<A HREF=http://www.rackstar.net/>RACKSTAR</A>)",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "\\(<A HREF=http://www.rackstar.net/>RACKSTAR</A>\\)"
+      "pattern": "\\(<A HREF=http://www.rackstar.net/>RACKSTAR</A>\\)",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

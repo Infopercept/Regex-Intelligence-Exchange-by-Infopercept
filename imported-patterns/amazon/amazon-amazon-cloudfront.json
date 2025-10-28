@@ -1,0 +1,51 @@
+{
+  "vendor": "Amazon",
+  "vendor_id": "amazon",
+  "product": "Amazon Cloudfront",
+  "product_id": "amazon-amazon-cloudfront",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Amazon Cloudfront Header Detection",
+      "pattern": "Via: \\(CloudFront\\)$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Amazon Cloudfront from Via header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "amazon-cloudfront"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Amazon Cloudfront Header Detection",
+      "pattern": "X-Amz-Cf-Id: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Amazon Cloudfront from X-Amz-Cf-Id header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "amazon-cloudfront"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

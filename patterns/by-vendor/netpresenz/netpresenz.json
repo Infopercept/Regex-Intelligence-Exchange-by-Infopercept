@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^NetPresenz",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^NetPresenz"
+      "pattern": "^NetPresenz",
+      "version_group": 0
     },
     {
       "name": "NetPresenz Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^NetPresenz/([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

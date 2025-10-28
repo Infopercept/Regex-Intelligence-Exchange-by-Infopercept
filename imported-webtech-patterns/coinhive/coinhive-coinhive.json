@@ -1,0 +1,71 @@
+{
+  "vendor": "CoinHive",
+  "vendor_id": "coinhive",
+  "product": "CoinHive",
+  "product_id": "coinhive-coinhive",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CoinHive Script Detection",
+      "pattern": "/(?:coinhive|(authedmine))(?:\\.min)?\\.js?opt-in:",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CoinHive from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "coinhive"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "CoinHive Script Detection",
+      "pattern": "coinhive\\.com/lib",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CoinHive from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "coinhive"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "CoinHive JavaScript Detection",
+      "pattern": "window\\.CoinHive|CoinHive\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CoinHive from JavaScript variable 'CoinHive'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "coinhive"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

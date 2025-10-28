@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<td\\ height=\"20\"\\ align=\"center\"><img\\ height=\"8\"\\ width=\"445\"\\ src=\"ICHAINErrors/alertbar\\.gif\"></td>"
+      "pattern": "<td\\ height=\"20\"\\ align=\"center\"><img\\ height=\"8\"\\ width=\"445\"\\ src=\"ICHAINErrors/alertbar\\.gif\"></td>",
+      "version_group": 0
     },
     {
       "name": "Novell-iChain Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<HTML><HEAD><TITLE>Novell\\ iChain</TITLE></HEAD><BODY><b><p>Your\\ old\\ browser\\ does\\ not\\ support\\ a\\ 302\\ Redirect\\.</b></BODY></HTML>"
+      "pattern": "<HTML><HEAD><TITLE>Novell\\ iChain</TITLE></HEAD><BODY><b><p>Your\\ old\\ browser\\ does\\ not\\ support\\ a\\ 302\\ Redirect\\.</b></BODY></HTML>",
+      "version_group": 0
     },
     {
       "name": "Novell-iChain Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<HTML><HEAD><TITLE>Novell\\ Proxy</TITLE></HEAD><BODY><b><p>HTTP\\ request\\ is\\ being\\ redirected\\ to\\ HTTPS\\.</b></BODY></HTML>"
+      "pattern": "<HTML><HEAD><TITLE>Novell\\ Proxy</TITLE></HEAD><BODY><b><p>HTTP\\ request\\ is\\ being\\ redirected\\ to\\ HTTPS\\.</b></BODY></HTML>",
+      "version_group": 0
     },
     {
       "name": "Novell-iChain Pattern",
@@ -84,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Host name received is not for this web site",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Host name received is not for this web site"
+      "pattern": "Host name received is not for this web site",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

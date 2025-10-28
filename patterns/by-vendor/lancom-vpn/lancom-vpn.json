@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^LANCOM.*VPN",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^LANCOM.*VPN"
+      "pattern": "^LANCOM.*VPN",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

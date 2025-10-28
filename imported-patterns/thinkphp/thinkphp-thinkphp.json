@@ -1,0 +1,31 @@
+{
+  "vendor": "ThinkPHP",
+  "vendor_id": "thinkphp",
+  "product": "ThinkPHP",
+  "product_id": "thinkphp-thinkphp",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ThinkPHP Header Detection",
+      "pattern": "X-Powered-By: ThinkPHP",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ThinkPHP from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "thinkphp"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "vendor": "DirectAdmin",
+  "vendor_id": "directadmin",
+  "product": "DirectAdmin",
+  "product_id": "directadmin-directadmin",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DirectAdmin Header Detection",
+      "pattern": "Server: DirectAdmin Daemon v([\\d.]+)",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DirectAdmin from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "directadmin"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "DirectAdmin HTML Detection",
+      "pattern": "<a[^>]+>DirectAdmin</a> Web Control Panel",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DirectAdmin from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "directadmin"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

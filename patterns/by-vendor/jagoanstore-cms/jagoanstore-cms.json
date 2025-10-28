@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "CMS\\ <a\\ style=\"color:\\#fff;font\\-size:11px;\"\\ href=\"http://www\\.jagoanstore\\.com/\"\\ target=\"_blank\">Toko\\ Online</a>\\ by\\ <a\\ href=\"http://www\\.jagoanstore\\.com/\"\\ target=\"_blank\"><img\\ src=\"http://www\\.jagoanstore\\.com/jagstorecom\\-lil\\.png\"\\ border=0\\ align=\"absmiddle\"\\ /></a></div>\\\\"
+      "pattern": "CMS\\ <a\\ style=\"color:\\#fff;font\\-size:11px;\"\\ href=\"http://www\\.jagoanstore\\.com/\"\\ target=\"_blank\">Toko\\ Online</a>\\ by\\ <a\\ href=\"http://www\\.jagoanstore\\.com/\"\\ target=\"_blank\"><img\\ src=\"http://www\\.jagoanstore\\.com/jagstorecom\\-lil\\.png\"\\ border=0\\ align=\"absmiddle\"\\ /></a></div>\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

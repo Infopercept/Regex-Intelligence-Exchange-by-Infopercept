@@ -1,0 +1,91 @@
+{
+  "vendor": "Leaflet",
+  "vendor_id": "leaflet",
+  "product": "Leaflet",
+  "product_id": "leaflet-leaflet",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Leaflet Script Detection",
+      "pattern": "leaflet.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Leaflet from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "leaflet"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Leaflet JavaScript Detection",
+      "pattern": "window\\.L\\.DistanceGrid|L\\.DistanceGrid\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Leaflet from JavaScript variable 'L.DistanceGrid'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "leaflet"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Leaflet JavaScript Detection",
+      "pattern": "window\\.L\\.PosAnimation|L\\.PosAnimation\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Leaflet from JavaScript variable 'L.PosAnimation'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "leaflet"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Leaflet JavaScript Detection",
+      "pattern": "window\\.L\\.version|L\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Leaflet from JavaScript variable 'L.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "leaflet"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

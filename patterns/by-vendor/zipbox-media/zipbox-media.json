@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.zipboxmedia\\.com\"\\ class=\"zbm\"><img\\ src=\"/images/zb_rotate_ft\\.gif\"\\ alt=\"Powered\\ By\\ ZIPBOX\\ Media\"\\ border=\"0\"\\ /></a>"
+      "pattern": "<a\\ href=\"http://www\\.zipboxmedia\\.com\"\\ class=\"zbm\"><img\\ src=\"/images/zb_rotate_ft\\.gif\"\\ alt=\"Powered\\ By\\ ZIPBOX\\ Media\"\\ border=\"0\"\\ /></a>",
+      "version_group": 0
     },
     {
       "name": "ZIPBOX-Media Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"https://secure.zipboxmedia.com/signup/?referral=[d]+\" class=\"zbm\" title=\"get your own ZIPBOX Media Store\"><img src=\"/images/get_zipbox.gif\" alt=\"Get A ZIPBOX Media Store\" border=\"0\" /></a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"https://secure.zipboxmedia.com/signup/\\?referral=[\\d]+\" class=\"zbm\" title=\"get your own ZIPBOX Media Store\"><img src=\"/images/get_zipbox.gif\" alt=\"Get A ZIPBOX Media Store\" border=\"0\" /></a>"
+      "pattern": "<a href=\"https://secure.zipboxmedia.com/signup/\\?referral=[\\d]+\" class=\"zbm\" title=\"get your own ZIPBOX Media Store\"><img src=\"/images/get_zipbox.gif\" alt=\"Get A ZIPBOX Media Store\" border=\"0\" /></a>",
+      "version_group": 0
     },
     {
       "name": "ZIPBOX-Media Pattern",
@@ -56,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<h3 style=\"padding-top:2px; margin:0px; display:none\"><a href=\"javascript:loadMoreMessages([d]+)\" id=\"load_more_messages\">Load more messages</a></h3>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<h3 style=\"padding-top:2px; margin:0px; display:none\"><a href=\"javascript:loadMoreMessages\\([\\d]+\\)\" id=\"load_more_messages\">Load more messages</a></h3>"
+      "pattern": "<h3 style=\"padding-top:2px; margin:0px; display:none\"><a href=\"javascript:loadMoreMessages\\([\\d]+\\)\" id=\"load_more_messages\">Load more messages</a></h3>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

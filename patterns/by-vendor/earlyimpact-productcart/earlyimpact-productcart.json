@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"fpassword\\.asp\\?redirectUrl=\\&frURL=Custva\\.asp\""
+      "pattern": "<a\\ href=\"fpassword\\.asp\\?redirectUrl=\\&frURL=Custva\\.asp\"",
+      "version_group": 0
     },
     {
       "name": "EarlyImpact-ProductCart Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ end\\ of\\ password\\ request\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ end\\ of\\ password\\ request\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -29,5 +29,6 @@
       "pattern": "Server: ^[\\s]*Boa/([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -29,5 +29,6 @@
       "pattern": "Server: TwistedWeb/?([^ ]+)?",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

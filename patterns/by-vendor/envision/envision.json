@@ -29,5 +29,6 @@
       "pattern": "Server: ^Content Interface Corp - enVision ([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

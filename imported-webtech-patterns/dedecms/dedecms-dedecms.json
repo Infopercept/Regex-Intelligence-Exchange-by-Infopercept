@@ -1,0 +1,51 @@
+{
+  "vendor": "DedeCMS",
+  "vendor_id": "dedecms",
+  "product": "DedeCMS",
+  "product_id": "dedecms-dedecms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DedeCMS Script Detection",
+      "pattern": "dedeajax",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DedeCMS from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "dedecms"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "DedeCMS JavaScript Detection",
+      "pattern": "window\\.DedeContainer|DedeContainer\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DedeCMS from JavaScript variable 'DedeContainer'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "dedecms"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vendor": "Cloudinary",
+  "vendor_id": "cloudinary",
+  "product": "Cloudinary",
+  "product_id": "cloudinary-cloudinary",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Cloudinary HTML Detection",
+      "pattern": "<img[^>]+\\.cloudinary\\.com\\;confidence:80",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Cloudinary from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "cloudinary"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

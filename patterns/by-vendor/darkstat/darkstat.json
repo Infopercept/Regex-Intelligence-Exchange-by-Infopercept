@@ -29,5 +29,6 @@
       "pattern": "Server: ^darkstat/([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

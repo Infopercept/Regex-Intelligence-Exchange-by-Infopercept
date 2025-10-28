@@ -1,0 +1,131 @@
+{
+  "vendor": "TiddlyWiki",
+  "vendor_id": "tiddlywiki",
+  "product": "TiddlyWiki",
+  "product_id": "tiddlywiki-tiddlywiki",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TiddlyWiki HTML Detection",
+      "pattern": "<[^>]*type=[^>]text/vnd\\.tiddlywiki",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects TiddlyWiki from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "tiddlywiki"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "TiddlyWiki Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']application-name[\"'][^>]+content=[\"']^TiddlyWiki$[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects TiddlyWiki from meta tag with name 'application-name'",
+        "tags": [
+          "webtech",
+          "meta",
+          "tiddlywiki"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "TiddlyWiki Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']copyright[\"'][^>]+content=[\"']^TiddlyWiki created by Jeremy Ruston[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects TiddlyWiki from meta tag with name 'copyright'",
+        "tags": [
+          "webtech",
+          "meta",
+          "tiddlywiki"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "TiddlyWiki Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']^TiddlyWiki$[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects TiddlyWiki from meta tag with name 'generator'",
+        "tags": [
+          "webtech",
+          "meta",
+          "tiddlywiki"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "TiddlyWiki Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']tiddlywiki-version[\"'][^>]+content=[\"']^(.+)$[\"']",
+      "version_group": 1,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects TiddlyWiki from meta tag with name 'tiddlywiki-version'",
+        "tags": [
+          "webtech",
+          "meta",
+          "tiddlywiki"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "TiddlyWiki JavaScript Detection",
+      "pattern": "window\\.tiddler|tiddler\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects TiddlyWiki from JavaScript variable 'tiddler'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "tiddlywiki"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

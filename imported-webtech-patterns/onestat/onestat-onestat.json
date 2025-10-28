@@ -1,0 +1,31 @@
+{
+  "vendor": "OneStat",
+  "vendor_id": "onestat",
+  "product": "OneStat",
+  "product_id": "onestat-onestat",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OneStat JavaScript Detection",
+      "pattern": "window\\.OneStat_Pageview|OneStat_Pageview\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects OneStat from JavaScript variable 'OneStat_Pageview'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "onestat"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

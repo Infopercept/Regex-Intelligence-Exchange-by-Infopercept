@@ -1,0 +1,91 @@
+{
+  "vendor": "Shapecss",
+  "vendor_id": "shapecss",
+  "product": "Shapecss",
+  "product_id": "shapecss-shapecss",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Shapecss HTML Detection",
+      "pattern": "<link[^>]* href=\"[^\"]*shapecss(?:\\.min)?\\.css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Shapecss from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "shapecss"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Shapecss Script Detection",
+      "pattern": "shapecss[-.]([\\d.]*\\d)[^/]*\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Shapecss from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "shapecss"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Shapecss Script Detection",
+      "pattern": "/([\\d.]+)/shapecss(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Shapecss from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "shapecss"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Shapecss Script Detection",
+      "pattern": "shapecss.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Shapecss from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "shapecss"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

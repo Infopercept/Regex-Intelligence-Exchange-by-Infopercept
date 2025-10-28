@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<a\\ target=\"_blank\"\\ class=\"ico\\ ico\\-shopify\\-bag\"\\ href=\"//www\\.shopify\\.com\">\\ \\ \\ \\ \\ \\ \\ \\ <span\\ class=\"helper\\-\\-visually\\-hidden\">Shopify\\.com</span></a>"
+      "pattern": "<a\\ target=\"_blank\"\\ class=\"ico\\ ico\\-shopify\\-bag\"\\ href=\"//www\\.shopify\\.com\">\\ \\ \\ \\ \\ \\ \\ \\ <span\\ class=\"helper\\-\\-visually\\-hidden\">Shopify\\.com</span></a>",
+      "version_group": 0
     },
     {
       "name": "_secure_session_id cookie",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "_secure_session_id",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "_secure_session_id"
+      "pattern": "_secure_session_id",
+      "version_group": 0
     },
     {
       "name": "_session_id cookie",
@@ -56,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "_session_id",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "_session_id"
+      "pattern": "_session_id",
+      "version_group": 0
     },
     {
       "name": "cart_sig cookie",
@@ -72,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "cart_sig",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "cart_sig"
+      "pattern": "cart_sig",
+      "version_group": 0
     },
     {
       "name": "customer_sig cookie",
@@ -88,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "customer_sig",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "customer_sig"
+      "pattern": "customer_sig",
+      "version_group": 0
     },
     {
       "name": "secure_customer_sig cookie",
@@ -104,9 +133,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "secure_customer_sig",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "secure_customer_sig"
+      "pattern": "secure_customer_sig",
+      "version_group": 0
     },
     {
       "name": "Shopify Digital Wallet Meta Tag",
@@ -120,9 +156,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"shopify-digital-wallet\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\"shopify-digital-wallet\""
+      "pattern": "<meta name=\"shopify-digital-wallet\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

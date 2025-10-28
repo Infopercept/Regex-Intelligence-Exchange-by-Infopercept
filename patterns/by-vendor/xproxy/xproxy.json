@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^xproxy",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^xproxy"
+      "pattern": "^xproxy",
+      "version_group": 0
     },
     {
       "name": "xproxy Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^xproxy/([^\\(]+)\\([\\d]+\\)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

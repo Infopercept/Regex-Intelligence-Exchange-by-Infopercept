@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<BODY BGCOLOR=\"#FFFFFF\">s*msLoadMap(): Regular expression error",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<BODY BGCOLOR=\"#FFFFFF\">\\s*msLoadMap(): Regular expression error"
+      "pattern": "<BODY BGCOLOR=\"#FFFFFF\">\\s*msLoadMap(): Regular expression error",
+      "version_group": 0
     },
     {
       "name": "Invalid Map Parameter",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HEAD><TITLE>MapServer Message</TITLE></HEAD>s*<!-- MapServer version",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<HEAD><TITLE>MapServer Message</TITLE></HEAD>\\s*<!\\-\\- MapServer version"
+      "pattern": "<HEAD><TITLE>MapServer Message</TITLE></HEAD>\\s*<!\\-\\- MapServer version",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

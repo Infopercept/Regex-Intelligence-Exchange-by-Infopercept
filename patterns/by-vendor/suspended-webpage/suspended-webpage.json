@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ InstanceBegin\\ template=rwh\\.dwt\\ codeOutsideHTMLIsLocked=false\\ \\-\\-><!\\-\\-Copyright\\ \\&copy;\\ 2002\\-2010\\ by\\ Flux\\ Services,\\ Inc\\.\\-\\-><html><head><meta\\ http\\-equiv=\"Content\\-Type\"\\ content=\"text/html;\\ charset=iso\\-8859\\-1\"><title>Website\\ Unavailable\\ \\-\\ UltraWebsiteHosting\\.com</title><META\\ NAME=ROBOTS\\ CONTENT=NOINDEX,NOFOLLOW><LINK\\ REL=\"SHORTCUT\\ ICON\"\\ HREF=favicon\\.ico><style\\ type=\"text/css\">"
+      "pattern": "<!\\-\\-\\ InstanceBegin\\ template=rwh\\.dwt\\ codeOutsideHTMLIsLocked=false\\ \\-\\-><!\\-\\-Copyright\\ \\&copy;\\ 2002\\-2010\\ by\\ Flux\\ Services,\\ Inc\\.\\-\\-><html><head><meta\\ http\\-equiv=\"Content\\-Type\"\\ content=\"text/html;\\ charset=iso\\-8859\\-1\"><title>Website\\ Unavailable\\ \\-\\ UltraWebsiteHosting\\.com</title><META\\ NAME=ROBOTS\\ CONTENT=NOINDEX,NOFOLLOW><LINK\\ REL=\"SHORTCUT\\ ICON\"\\ HREF=favicon\\.ico><style\\ type=\"text/css\">",
+      "version_group": 0
     },
     {
       "name": "Suspended-Webpage Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "background\\-image:\\ url\\(http://www\\.ultrawebsitehosting\\.com/suspended/body\\-bg\\.gif\\);"
+      "pattern": "background\\-image:\\ url\\(http://www\\.ultrawebsitehosting\\.com/suspended/body\\-bg\\.gif\\);",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

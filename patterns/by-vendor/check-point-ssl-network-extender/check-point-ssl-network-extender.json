@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Check Point SVN foundation$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Check Point SVN foundation$"
+      "pattern": "^Check Point SVN foundation$",
+      "version_group": 0
     },
     {
       "name": "Check-Point-SSL-Network-Extender Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script src=\"cookies.js\"></script>[s]+<script>document.write(conn_html)</script>[s]+<HEAD>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script src=\"cookies\\.js\"></script>[\\s]+<script>document\\.write\\(conn_html\\)</script>[\\s]+<HEAD>"
+      "pattern": "<script src=\"cookies\\.js\"></script>[\\s]+<script>document\\.write\\(conn_html\\)</script>[\\s]+<HEAD>",
+      "version_group": 0
     },
     {
       "name": "Check-Point-SSL-Network-Extender Pattern",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=Generator content=\"Microsoft Word 11 (filtered)\">[s]+<title>Check Point SSL Network Extender HELP</title>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=Generator content=\"Microsoft Word 11 \\(filtered\\)\">[\\s]+<title>Check Point SSL Network Extender HELP</title>"
+      "pattern": "<meta name=Generator content=\"Microsoft Word 11 \\(filtered\\)\">[\\s]+<title>Check Point SSL Network Extender HELP</title>",
+      "version_group": 0
     },
     {
       "name": "Check-Point-SSL-Network-Extender Pattern",
@@ -74,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"description\"\\ content=\"Webui\\ Login\\ Page\"/>\\ \\ <!\\-\\-\\ changes\\ to\\ this\\ line\\ must\\ be\\ reflected\\ in\\ sfwOverrides\\.js\\ \\&\\ lm_home\\.js\\ \\-\\->"
+      "pattern": "<meta\\ name=\"description\"\\ content=\"Webui\\ Login\\ Page\"/>\\ \\ <!\\-\\-\\ changes\\ to\\ this\\ line\\ must\\ be\\ reflected\\ in\\ sfwOverrides\\.js\\ \\&\\ lm_home\\.js\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

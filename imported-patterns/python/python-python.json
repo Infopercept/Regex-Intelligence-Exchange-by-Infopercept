@@ -1,0 +1,31 @@
+{
+  "vendor": "Python",
+  "vendor_id": "python",
+  "product": "Python",
+  "product_id": "python-python",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Python Header Detection",
+      "pattern": "Server: (?:^|\\s)Python(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Python from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "python"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

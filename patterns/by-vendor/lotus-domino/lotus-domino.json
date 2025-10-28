@@ -41,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Lotus-Domino$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Lotus-Domino$"
+      "pattern": "^Lotus-Domino$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

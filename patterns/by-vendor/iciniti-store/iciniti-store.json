@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ START\\ \\(content_stylesheet\\.inc\\)\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ START\\ \\(content_stylesheet\\.inc\\)\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

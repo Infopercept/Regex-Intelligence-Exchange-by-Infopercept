@@ -1,0 +1,31 @@
+{
+  "vendor": "Erlang",
+  "vendor_id": "erlang",
+  "product": "Erlang",
+  "product_id": "erlang-erlang",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Erlang Header Detection",
+      "pattern": "Server: Erlang( OTP/(?:[\\d.ABR-]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Erlang from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "erlang"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

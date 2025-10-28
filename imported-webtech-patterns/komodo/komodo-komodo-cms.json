@@ -1,0 +1,31 @@
+{
+  "vendor": "Komodo",
+  "vendor_id": "komodo",
+  "product": "Komodo CMS",
+  "product_id": "komodo-komodo-cms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Komodo CMS Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']^Komodo CMS[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Komodo CMS from meta tag with name 'generator'",
+        "tags": [
+          "webtech",
+          "meta",
+          "komodo-cms"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

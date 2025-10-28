@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<form\\ method=\"post\"\\ id=\"system_form_2\"\\ class=\"uniForm\\ focusFirstField\">"
+      "pattern": "<form\\ method=\"post\"\\ id=\"system_form_2\"\\ class=\"uniForm\\ focusFirstField\">",
+      "version_group": 0
     },
     {
       "name": "powered by footer",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<p\\ id=\"powered_by\"><a\\ href=\"http://www\\.activecollab\\.com/\""
+      "pattern": "<p\\ id=\"powered_by\"><a\\ href=\"http://www\\.activecollab\\.com/\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

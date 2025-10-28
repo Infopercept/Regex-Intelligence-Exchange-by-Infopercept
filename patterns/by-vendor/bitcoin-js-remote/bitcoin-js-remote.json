@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<span\\ id=\"balance\"</span>"
+      "pattern": "<span\\ id=\"balance\"</span>",
+      "version_group": 0
     },
     {
       "name": "bitcoin-js-remote Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<p><a\\ href=\"http://tcatm\\.github\\.com/bitcoin\\-js\\-remote\">bitcoin\\-js\\-remote</a>\\ <span\\ id=\"version\"></span>\\ by\\ <a\\ href=\"mailto:tcatm@gawab\\.com\">tcatm</a></p>"
+      "pattern": "<p><a\\ href=\"http://tcatm\\.github\\.com/bitcoin\\-js\\-remote\">bitcoin\\-js\\-remote</a>\\ <span\\ id=\"version\"></span>\\ by\\ <a\\ href=\"mailto:tcatm@gawab\\.com\">tcatm</a></p>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

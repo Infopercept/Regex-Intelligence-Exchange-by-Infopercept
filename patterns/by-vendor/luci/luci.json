@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<a\\ style=\"color:\\ white;\\ text\\-decoration:\\ none\"\\ href=\"/cgi\\-bin/luci\">LuCI\\ \\-\\ Lua\\ Configuration\\ Interface</a>"
+      "pattern": "<a\\ style=\"color:\\ white;\\ text\\-decoration:\\ none\"\\ href=\"/cgi\\-bin/luci\">LuCI\\ \\-\\ Lua\\ Configuration\\ Interface</a>",
+      "version_group": 0
     },
     {
       "name": "LuCI Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ media=\"screen\"\\ href=\"/luci\\-static/openwrt\\.org/cascade\\.css\"\\ />"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ media=\"screen\"\\ href=\"/luci\\-static/openwrt\\.org/cascade\\.css\"\\ />",
+      "version_group": 0
     },
     {
       "name": "LuCI Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<li><a\\ href=\"/cgi\\-bin/luci/admin/\">Administration</a></li>"
+      "pattern": "<li><a\\ href=\"/cgi\\-bin/luci/admin/\">Administration</a></li>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

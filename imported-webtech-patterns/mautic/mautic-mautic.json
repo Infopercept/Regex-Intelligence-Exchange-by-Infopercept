@@ -1,0 +1,51 @@
+{
+  "vendor": "Mautic",
+  "vendor_id": "mautic",
+  "product": "Mautic",
+  "product_id": "mautic-mautic",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mautic Script Detection",
+      "pattern": "[^a-z]mtc.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Mautic from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "mautic"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Mautic JavaScript Detection",
+      "pattern": "window\\.MauticTrackingObject|MauticTrackingObject\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Mautic from JavaScript variable 'MauticTrackingObject'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "mautic"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

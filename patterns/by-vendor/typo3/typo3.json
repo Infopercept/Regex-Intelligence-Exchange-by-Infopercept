@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-TYPO3SEARCH_end\\-\\->"
+      "pattern": "<!\\-\\-TYPO3SEARCH_end\\-\\->",
+      "version_group": 0
     },
     {
       "name": "Powered by HTML comment",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--W+This website is powered by TYPO3",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!--\\W+This website is powered by TYPO3"
+      "pattern": "<!--\\W+This website is powered by TYPO3",
+      "version_group": 0
     },
     {
       "name": "fe_typo_user cookie",
@@ -56,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^fe_typo_user",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^fe_typo_user"
+      "pattern": "^fe_typo_user",
+      "version_group": 0
     },
     {
       "name": "X-TYPO3-Parsetime header",
@@ -72,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "d+ms",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "\\d+ms"
+      "pattern": "\\d+ms",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

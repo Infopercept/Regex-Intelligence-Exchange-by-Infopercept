@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"\\#jive\\-body\\-full\"\\ class=\"jive\\-skip\\-nav\">Skip\\ navigation</a>"
+      "pattern": "<a\\ href=\"\\#jive\\-body\\-full\"\\ class=\"jive\\-skip\\-nav\">Skip\\ navigation</a>",
+      "version_group": 0
     },
     {
       "name": "Jive-SBS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<body\\ class=\"jive\\-body\\-formpage\\ jive\\-body\\-formpage\\-login\"\\ >"
+      "pattern": "<body\\ class=\"jive\\-body\\-formpage\\ jive\\-body\\-formpage\\-login\"\\ >",
+      "version_group": 0
     },
     {
       "name": "Jive-SBS Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "\\ \\*\\ This\\ software\\ is\\ the\\ proprietary\\ information\\ of\\ Jive\\ Software\\.\\ Use\\ is\\ subject\\ to\\ license\\ terms\\."
+      "pattern": "\\ \\*\\ This\\ software\\ is\\ the\\ proprietary\\ information\\ of\\ Jive\\ Software\\.\\ Use\\ is\\ subject\\ to\\ license\\ terms\\.",
+      "version_group": 0
     },
     {
       "name": "Jive-SBS Pattern",
@@ -84,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^D=[d]+ t=[d]+$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^D=[\\d]+ t=[\\d]+$"
+      "pattern": "^D=[\\d]+ t=[\\d]+$",
+      "version_group": 0
     },
     {
       "name": "Jive-SBS Pattern",
@@ -100,9 +110,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^[d]+$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^[\\d]+$"
+      "pattern": "^[\\d]+$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

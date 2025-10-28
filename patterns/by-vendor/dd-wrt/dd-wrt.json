@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<link\\ type=\"text/css\"\\ rel=\"stylesheet\"\\ href=\"style/pwc/ddwrt\\.css\"\\ />"
+      "pattern": "<link\\ type=\"text/css\"\\ rel=\"stylesheet\"\\ href=\"style/pwc/ddwrt\\.css\"\\ />",
+      "version_group": 0
     },
     {
       "name": "DD-WRT Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.dd\\-wrt\\.com/\">DD\\-WRT</a><br\\ /><form\\ action=\"https://www\\.paypal\\.com/cgi\\-bin/webscr\"\\ method=\"post\"\\ target=\"_blank\"><input\\ type=\"hidden\"\\ name=\"cmd\"\\ value=\"_xclick\"\\ /><input\\ type=\"hidden\"\\ name=\"business\"\\ value=\"paypal@dd\\-wrt\\.com\"\\ /><input\\ type=\"hidden\"\\ name=\"item_name\"\\ value=\"DD\\-WRT\\ Development\\ Support\"\\ />"
+      "pattern": "<a\\ href=\"http://www\\.dd\\-wrt\\.com/\">DD\\-WRT</a><br\\ /><form\\ action=\"https://www\\.paypal\\.com/cgi\\-bin/webscr\"\\ method=\"post\"\\ target=\"_blank\"><input\\ type=\"hidden\"\\ name=\"cmd\"\\ value=\"_xclick\"\\ /><input\\ type=\"hidden\"\\ name=\"business\"\\ value=\"paypal@dd\\-wrt\\.com\"\\ /><input\\ type=\"hidden\"\\ name=\"item_name\"\\ value=\"DD\\-WRT\\ Development\\ Support\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

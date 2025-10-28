@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^ubpv",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^ubpv"
+      "pattern": "^ubpv",
+      "version_group": 0
     },
     {
       "name": "ubvs cookie",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^ubvs",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^ubvs"
+      "pattern": "^ubvs",
+      "version_group": 0
     },
     {
       "name": "ubvt cookie",
@@ -50,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^ubvt",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^ubvt"
+      "pattern": "^ubvt",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

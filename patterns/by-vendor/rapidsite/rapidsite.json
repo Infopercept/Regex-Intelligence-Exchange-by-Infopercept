@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Rapidsite",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Rapidsite"
+      "pattern": "^Rapidsite",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

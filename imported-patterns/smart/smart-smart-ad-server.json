@@ -1,0 +1,31 @@
+{
+  "vendor": "Smart",
+  "vendor_id": "smart",
+  "product": "Smart Ad Server",
+  "product_id": "smart-smart-ad-server",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Smart Ad Server HTML Detection",
+      "pattern": "<img[^>]+smartadserver\\.com/call",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Smart Ad Server from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "smart-ad-server"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

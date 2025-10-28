@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "    <form action=\"/sabnzbd/[^\"]*\" method=\"POST\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "    <form action=\"/sabnzbd/[^\"]*\" method=\"POST\">"
+      "pattern": "    <form action=\"/sabnzbd/[^\"]*\" method=\"POST\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

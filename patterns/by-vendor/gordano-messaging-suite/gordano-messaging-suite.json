@@ -29,5 +29,6 @@
       "pattern": "Server: ^Gordano (Messaging Suite )?Web Server v([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

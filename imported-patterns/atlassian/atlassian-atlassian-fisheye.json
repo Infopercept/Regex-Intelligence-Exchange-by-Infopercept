@@ -1,0 +1,31 @@
+{
+  "vendor": "Atlassian",
+  "vendor_id": "atlassian",
+  "product": "Atlassian FishEye",
+  "product_id": "atlassian-atlassian-fisheye",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Atlassian FishEye HTML Detection",
+      "pattern": "<title>(?:Log in to )?FishEye (?:and Crucible )?([\\d.]+)?</title>",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Atlassian FishEye from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "atlassian-fisheye"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

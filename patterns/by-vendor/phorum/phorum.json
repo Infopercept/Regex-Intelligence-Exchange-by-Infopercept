@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "powered by <a href=\"http://www.phorum.org/\"( target=\"_blank\")?>Phorum</a>.",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "powered by <a href=\"http://www\\.phorum\\.org/\"( target=\"_blank\")?>Phorum</a>\\."
+      "pattern": "powered by <a href=\"http://www\\.phorum\\.org/\"( target=\"_blank\")?>Phorum</a>\\.",
+      "version_group": 0
     },
     {
       "name": "Phorum Pattern",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ end\\ of\\ div\\ id=user\\-info\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ end\\ of\\ div\\ id=user\\-info\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

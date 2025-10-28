@@ -1,0 +1,31 @@
+{
+  "vendor": "Weebly",
+  "vendor_id": "weebly",
+  "product": "Weebly",
+  "product_id": "weebly-weebly",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Weebly Script Detection",
+      "pattern": "cdn\\d+\\.editmysite\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Weebly from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "weebly"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vendor": "Aegea",
+  "vendor_id": "aegea",
+  "product": "Aegea",
+  "product_id": "aegea-aegea",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Aegea Header Detection",
+      "pattern": "X-Powered-By: ^E2 Aegea v(\\d+)$",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Aegea from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "aegea"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

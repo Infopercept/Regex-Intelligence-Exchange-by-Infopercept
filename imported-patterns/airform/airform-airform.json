@@ -1,0 +1,31 @@
+{
+  "vendor": "Airform",
+  "vendor_id": "airform",
+  "product": "Airform",
+  "product_id": "airform-airform",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Airform HTML Detection",
+      "pattern": "<form[^>]+?action=\"[^\"]*airform\\.io[^>]+?>",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Airform from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "airform"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

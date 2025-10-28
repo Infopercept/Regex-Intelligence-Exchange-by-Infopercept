@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered [B|b]?y[:]? <a href=\"http://www.hostforest.co.uk/[^\"]*\"[^>]+title=\"Forest Blog\"[^>]*>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered [B|b]?y[:]? <a href=\"http://www.hostforest.co.uk/[^\"]*\"[^>]+title=\"Forest Blog\"[^>]*>"
+      "pattern": "Powered [B|b]?y[:]? <a href=\"http://www.hostforest.co.uk/[^\"]*\"[^>]+title=\"Forest Blog\"[^>]*>",
+      "version_group": 0
     },
     {
       "name": "Forest-Blog Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>Forest\\ Blog\\ Administration</title>"
+      "pattern": "<title>Forest\\ Blog\\ Administration</title>",
+      "version_group": 0
     },
     {
       "name": "Forest-Blog Pattern",
@@ -64,7 +72,9 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t\\\t<h1>Forest\\ Blog\\ Administration</h1>"
+      "pattern": "\\\t\\\t\\\t<h1>Forest\\ Blog\\ Administration</h1>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

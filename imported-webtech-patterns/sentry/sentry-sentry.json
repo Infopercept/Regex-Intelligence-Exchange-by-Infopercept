@@ -1,0 +1,111 @@
+{
+  "vendor": "Sentry",
+  "vendor_id": "sentry",
+  "product": "Sentry",
+  "product_id": "sentry-sentry",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Sentry HTML Detection",
+      "pattern": "<script[^>]*>\\s*Raven\\.config\\('[^']*', {\\s+release: '([0-9\\.]+)'",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Sentry from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "sentry"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Sentry JavaScript Detection",
+      "pattern": "window\\.Sentry|Sentry\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Sentry from JavaScript variable 'Sentry'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "sentry"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Sentry JavaScript Detection",
+      "pattern": "window\\.Sentry\\.SDK_VERSION|Sentry\\.SDK_VERSION\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Sentry from JavaScript variable 'Sentry.SDK_VERSION'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "sentry"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Sentry JavaScript Detection",
+      "pattern": "window\\.Raven\\.config|Raven\\.config\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Sentry from JavaScript variable 'Raven.config'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "sentry"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Sentry JavaScript Detection",
+      "pattern": "window\\.ravenOptions\\.whitelistUrls|ravenOptions\\.whitelistUrls\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Sentry from JavaScript variable 'ravenOptions.whitelistUrls'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "sentry"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

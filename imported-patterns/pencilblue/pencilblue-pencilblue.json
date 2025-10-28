@@ -1,0 +1,31 @@
+{
+  "vendor": "PencilBlue",
+  "vendor_id": "pencilblue",
+  "product": "PencilBlue",
+  "product_id": "pencilblue-pencilblue",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PencilBlue Header Detection",
+      "pattern": "X-Powered-By: PencilBlue",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PencilBlue from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "pencilblue"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

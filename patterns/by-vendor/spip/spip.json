@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ class=\"formulaire_spip\\ formulaire_recherche\""
+      "pattern": "<div\\ class=\"formulaire_spip\\ formulaire_recherche\"",
+      "version_group": 0
     },
     {
       "name": "SPIP Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "SPIP @ www.spip.net",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "SPIP @ www\\.spip\\.net"
+      "pattern": "SPIP @ www\\.spip\\.net",
+      "version_group": 0
     },
     {
       "name": "SPIP Pattern",
@@ -56,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^.+$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^.+$"
+      "pattern": "^.+$",
+      "version_group": 0
     },
     {
       "name": "SPIP Pattern",
@@ -80,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"spip\\.php"
+      "pattern": "<a\\ href=\"spip\\.php",
+      "version_group": 0
     },
     {
       "name": "SPIP Pattern",
@@ -102,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\\\\"
+      "pattern": "<img\\ src=\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

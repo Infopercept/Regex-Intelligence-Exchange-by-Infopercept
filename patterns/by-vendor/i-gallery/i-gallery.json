@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "var\\ verify\\ =\\ confirm\\(\"Are\\ you\\ sure\\ you\\ want\\ to\\ permanently\\ delete\\ the\\ selected\\ \\\\\"Item\\\\\"\\ from\\ the\\ i\\-Gallery\\ database\\?\\ \\ All\\ information\\ will\\ be\\ lost!\"\\);"
+      "pattern": "var\\ verify\\ =\\ confirm\\(\"Are\\ you\\ sure\\ you\\ want\\ to\\ permanently\\ delete\\ the\\ selected\\ \\\\\"Item\\\\\"\\ from\\ the\\ i\\-Gallery\\ database\\?\\ \\ All\\ information\\ will\\ be\\ lost!\"\\);",
+      "version_group": 0
     },
     {
       "name": "i-Gallery Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ \\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\ Begin\\ Empty\\ Root\\ Folder\\ Message\\ \\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ \\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\ Begin\\ Empty\\ Root\\ Folder\\ Message\\ \\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "i-Gallery Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"images/igallery-logo.gif\" width=[0-9]* height=[0-9]* border=[0-9]* alt=\"i-Gallery Home Page\"></a><br>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<img src=\"images/igallery-logo.gif\" width=[0-9]* height=[0-9]* border=[0-9]* alt=\"i-Gallery Home Page\"></a><br>"
+      "pattern": "<img src=\"images/igallery-logo.gif\" width=[0-9]* height=[0-9]* border=[0-9]* alt=\"i-Gallery Home Page\"></a><br>",
+      "version_group": 0
     },
     {
       "name": "i-Gallery Pattern",
@@ -86,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<title>\\.::\\ \\ \\-\\ Photo\\ Viewer\\ ::\\.</title>"
+      "pattern": "<title>\\.::\\ \\ \\-\\ Photo\\ Viewer\\ ::\\.</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

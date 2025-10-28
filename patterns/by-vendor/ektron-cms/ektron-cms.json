@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "EkAnalytics",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "EkAnalytics"
+      "pattern": "EkAnalytics",
+      "version_group": 0
     },
     {
       "name": "Ektron-CMS Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "ecm=user_id=[d]+&isMembershipUser=[d]+&site_id=&username=&new_site=[^&]+&unique_id=[d]+&site_preview=[d]+&langvalue=[d]+&DefaultLanguage=[d]+",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "ecm=user_id=[\\d]+&isMembershipUser=[\\d]+&site_id=&username=&new_site=[^&]+&unique_id=[\\d]+&site_preview=[\\d]+&langvalue=[\\d]+&DefaultLanguage=[\\d]+"
+      "pattern": "ecm=user_id=[\\d]+&isMembershipUser=[\\d]+&site_id=&username=&new_site=[^&]+&unique_id=[\\d]+&site_preview=[\\d]+&langvalue=[\\d]+&DefaultLanguage=[\\d]+",
+      "version_group": 0
     },
     {
       "name": "Ektron-CMS Pattern",
@@ -58,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<script\\ id=\"EktronJS\"\\ type=\"text/javascript\"\\ src=\"/WorkArea/java/ektron\\.js\">"
+      "pattern": "<script\\ id=\"EktronJS\"\\ type=\"text/javascript\"\\ src=\"/WorkArea/java/ektron\\.js\">",
+      "version_group": 0
     },
     {
       "name": "Ektron-CMS Pattern",
@@ -80,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<script\\ id=\"EktronRegisteredJs\"\\ type=\"text/javascript\"\\ src=\"/workarea/java/ektronJs\\.ashx\\?id="
+      "pattern": "<script\\ id=\"EktronRegisteredJs\"\\ type=\"text/javascript\"\\ src=\"/workarea/java/ektronJs\\.ashx\\?id=",
+      "version_group": 0
     },
     {
       "name": "Ektron-CMS Pattern",
@@ -102,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<script\\ id=\"EktronModalJS\"\\ type=\"text/javascript\"\\ src=\"/WorkArea/java/plugins/modal/ektron\\.modal\\.js\">"
+      "pattern": "<script\\ id=\"EktronModalJS\"\\ type=\"text/javascript\"\\ src=\"/WorkArea/java/plugins/modal/ektron\\.modal\\.js\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

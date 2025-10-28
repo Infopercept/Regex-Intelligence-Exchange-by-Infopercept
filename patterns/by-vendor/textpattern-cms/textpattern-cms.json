@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://textpattern.com[/]*\">Textpattern CMS</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <a href=\"http://textpattern.com[/]*\">Textpattern CMS</a>"
+      "pattern": "Powered by <a href=\"http://textpattern.com[/]*\">Textpattern CMS</a>",
+      "version_group": 0
     },
     {
       "name": "Textpattern-CMS Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://textpattern\\.com/\"\\ title=\"Textpattern,\\ an\\ Open\\ Source\\ Content\\ Management\\ System\">Textpattern\\ CMS</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://textpattern\\.com/\"\\ title=\"Textpattern,\\ an\\ Open\\ Source\\ Content\\ Management\\ System\">Textpattern\\ CMS</a>",
+      "version_group": 0
     },
     {
       "name": "Textpattern-CMS Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href='http://textpattern\\.com/'\\ title='The\\ Content\\ Management\\ System'>Textpattern\\ CMS</a>"
+      "pattern": "Powered\\ by\\ <a\\ href='http://textpattern\\.com/'\\ title='The\\ Content\\ Management\\ System'>Textpattern\\ CMS</a>",
+      "version_group": 0
     },
     {
       "name": "Textpattern-CMS Pattern",
@@ -86,7 +95,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://textpattern\\.com/\"\\ title=\"Textpattern\\ Open\\ Source\\ Content\\ Management\\ System\">Textpattern\\ CMS</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://textpattern\\.com/\"\\ title=\"Textpattern\\ Open\\ Source\\ Content\\ Management\\ System\">Textpattern\\ CMS</a>",
+      "version_group": 0
     },
     {
       "name": "Textpattern-CMS Pattern",
@@ -108,7 +118,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://textpattern\\.com/\"\\ title=\"A\\ flexible,\\ elegant\\ and\\ easy\\-to\\-use\\ content\\ management\\ system\\.\">Textpattern\\ CMS</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://textpattern\\.com/\"\\ title=\"A\\ flexible,\\ elegant\\ and\\ easy\\-to\\-use\\ content\\ management\\ system\\.\">Textpattern\\ CMS</a>",
+      "version_group": 0
     },
     {
       "name": "Textpattern-CMS Pattern",
@@ -130,7 +141,9 @@
           }
         ]
       },
-      "pattern": "powered\\ by\\ <a\\ href=\"http://textpattern\\.com\">textpattern</a>\\ cms"
+      "pattern": "powered\\ by\\ <a\\ href=\"http://textpattern\\.com\">textpattern</a>\\ cms",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "Dieser\\ Abschnitt\\ darf\\ nur\\ mit\\ Genehmigung\\ des\\ Entwicklers\\ entfernt\\ werden\\ und\\ bedarf\\ einer"
+      "pattern": "Dieser\\ Abschnitt\\ darf\\ nur\\ mit\\ Genehmigung\\ des\\ Entwicklers\\ entfernt\\ werden\\ und\\ bedarf\\ einer",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

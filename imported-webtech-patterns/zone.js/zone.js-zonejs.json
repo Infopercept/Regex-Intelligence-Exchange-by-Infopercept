@@ -1,0 +1,31 @@
+{
+  "vendor": "Zone.js",
+  "vendor_id": "zone.js",
+  "product": "Zone.js",
+  "product_id": "zone.js-zonejs",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Zone.js JavaScript Detection",
+      "pattern": "window\\.Zone\\.root|Zone\\.root\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Zone.js from JavaScript variable 'Zone.root'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "zone.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

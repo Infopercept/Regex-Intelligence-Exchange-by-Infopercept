@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"synType\\ CMS\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"synType\\ CMS\"\\ />",
+      "version_group": 0
     },
     {
       "name": "synType-CMS Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "width=\"150\"\\ height=\"40\"\\ border=\"0\"\\ alt=\"This\\ Web\\ site\\ is\\ powered\\ by\\ synType\\ CMS,\\ the\\ ultimate\\ Content\\ Management\\ System\"\\ /></a>"
+      "pattern": "width=\"150\"\\ height=\"40\"\\ border=\"0\"\\ alt=\"This\\ Web\\ site\\ is\\ powered\\ by\\ synType\\ CMS,\\ the\\ ultimate\\ Content\\ Management\\ System\"\\ /></a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

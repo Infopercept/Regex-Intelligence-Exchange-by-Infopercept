@@ -1,0 +1,51 @@
+{
+  "vendor": "DERAK.CLOUD",
+  "vendor_id": "derak.cloud",
+  "product": "DERAK.CLOUD",
+  "product_id": "derak.cloud-derakcloud",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DERAK.CLOUD Header Detection",
+      "pattern": "Derak-Umbrage: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DERAK.CLOUD from Derak-Umbrage header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "derak.cloud"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "DERAK.CLOUD Header Detection",
+      "pattern": "Server: ^DERAK\\.CLOUD$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DERAK.CLOUD from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "derak.cloud"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

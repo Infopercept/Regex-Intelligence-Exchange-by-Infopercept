@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by[s]*<a href=\"http://www.blogn.org[^>]*>BlognPlus",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by[\\s]*<a href=\"http://www.blogn.org[^>]*>BlognPlus"
+      "pattern": "Powered by[\\s]*<a href=\"http://www.blogn.org[^>]*>BlognPlus",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

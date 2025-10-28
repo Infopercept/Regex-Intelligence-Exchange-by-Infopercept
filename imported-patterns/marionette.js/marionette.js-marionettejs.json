@@ -1,0 +1,31 @@
+{
+  "vendor": "Marionette.js",
+  "vendor_id": "marionette.js",
+  "product": "Marionette.js",
+  "product_id": "marionette.js-marionettejs",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Marionette.js Script Detection",
+      "pattern": "backbone\\.marionette.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Marionette.js from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "marionette.js"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

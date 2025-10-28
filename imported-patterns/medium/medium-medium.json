@@ -1,0 +1,51 @@
+{
+  "vendor": "Medium",
+  "vendor_id": "medium",
+  "product": "Medium",
+  "product_id": "medium-medium",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Medium Header Detection",
+      "pattern": "X-Powered-By: ^Medium$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Medium from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "medium"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Medium Script Detection",
+      "pattern": "medium\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Medium from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "medium"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

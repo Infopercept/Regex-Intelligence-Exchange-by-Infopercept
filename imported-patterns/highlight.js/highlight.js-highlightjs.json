@@ -1,0 +1,31 @@
+{
+  "vendor": "Highlight.js",
+  "vendor_id": "highlight.js",
+  "product": "Highlight.js",
+  "product_id": "highlight.js-highlightjs",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Highlight.js Script Detection",
+      "pattern": "/(?:([\\d.])+/)?highlight(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Highlight.js from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "highlight.js"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ HTTP\\-EQUIV=\"REFRESH\"\\ CONTENT=\"0;url=playing\\.html\">"
+      "pattern": "<meta\\ HTTP\\-EQUIV=\"REFRESH\"\\ CONTENT=\"0;url=playing\\.html\">",
+      "version_group": 0
     },
     {
       "name": "samPHPweb Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.spacialaudio\\.com/products/sambroadcaster/\"\\ target=\"_blank\"><img\\ src=\"images/sam\\-bc\\.gif\"\\ border=\"0\"\\ alt=\"Powered\\ by\\ SAM\\ Broadcaster\"\\ width=\"120\"\\ height=\"60\"\\ />"
+      "pattern": "<a\\ href=\"http://www\\.spacialaudio\\.com/products/sambroadcaster/\"\\ target=\"_blank\"><img\\ src=\"images/sam\\-bc\\.gif\"\\ border=\"0\"\\ alt=\"Powered\\ by\\ SAM\\ Broadcaster\"\\ width=\"120\"\\ height=\"60\"\\ />",
+      "version_group": 0
     },
     {
       "name": "samPHPweb Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.spacialaudio\\.com/products/sambroadcaster/\"\\ target=\"_blank\"><img\\ src=\"images/sam\\-bc\\.gif\"\\ width=\"120\"\\ height=\"60\"\\ border=\"0\"\\ alt=\"Powered\\ by\\ SAM\\ Broadcaster\">"
+      "pattern": "<a\\ href=\"http://www\\.spacialaudio\\.com/products/sambroadcaster/\"\\ target=\"_blank\"><img\\ src=\"images/sam\\-bc\\.gif\"\\ width=\"120\"\\ height=\"60\"\\ border=\"0\"\\ alt=\"Powered\\ by\\ SAM\\ Broadcaster\">",
+      "version_group": 0
     },
     {
       "name": "samPHPweb Pattern",
@@ -87,12 +90,13 @@
         ],
         "test_cases": [
           {
-            "input": "This page was produced using <a target=\"_blank\" href=\"http://www.spacialaudio.com/products/sambroadcaster/\">SAM Broadcaster</a>. \u00a9 Copyright <a target=\"_blank\" href=\"http://www.spacialaudio.com\">Spacial Audio Solutions, LLC</a>",
+            "input": "This page was produced using <a target=\"_blank\" href=\"http://www.spacialaudio.com/products/sambroadcaster/\">SAM Broadcaster</a>. © Copyright <a target=\"_blank\" href=\"http://www.spacialaudio.com\">Spacial Audio Solutions, LLC</a>",
             "expected_version": "unknown"
           }
         ]
       },
-      "pattern": "This\\ page\\ was\\ produced\\ using\\ <a\\ target=\"_blank\"\\ href=\"http://www\\.spacialaudio\\.com/products/sambroadcaster/\">SAM\\ Broadcaster</a>\\.\\ \u00a9\\ Copyright\\ <a\\ target=\"_blank\"\\ href=\"http://www\\.spacialaudio\\.com\">Spacial\\ Audio\\ Solutions,\\ LLC</a>"
+      "pattern": "This\\ page\\ was\\ produced\\ using\\ <a\\ target=\"_blank\"\\ href=\"http://www\\.spacialaudio\\.com/products/sambroadcaster/\">SAM\\ Broadcaster</a>\\.\\ ©\\ Copyright\\ <a\\ target=\"_blank\"\\ href=\"http://www\\.spacialaudio\\.com\">Spacial\\ Audio\\ Solutions,\\ LLC</a>",
+      "version_group": 0
     },
     {
       "name": "samPHPweb Pattern",
@@ -114,7 +118,9 @@
           }
         ]
       },
-      "pattern": "\\ songwin\\ =\\ window\\.open\\(\"songinfo\\.php\\?songid=\"\\+songid,\\ \"songinfowin\",\\ \"location=no,status=no,menubar=no,scrollbars=yes,resizeable=yes,height=400,width=650\"\\);"
+      "pattern": "\\ songwin\\ =\\ window\\.open\\(\"songinfo\\.php\\?songid=\"\\+songid,\\ \"songinfowin\",\\ \"location=no,status=no,menubar=no,scrollbars=yes,resizeable=yes,height=400,width=650\"\\);",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

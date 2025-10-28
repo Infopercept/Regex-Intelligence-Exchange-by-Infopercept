@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"author\"\\ content=\"www\\.6kbbs\\.com\"\\ />"
+      "pattern": "<meta\\ name=\"author\"\\ content=\"www\\.6kbbs\\.com\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

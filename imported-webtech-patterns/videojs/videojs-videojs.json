@@ -1,0 +1,71 @@
+{
+  "vendor": "VideoJS",
+  "vendor_id": "videojs",
+  "product": "VideoJS",
+  "product_id": "videojs-videojs",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VideoJS HTML Detection",
+      "pattern": "<div[^>]+class=\"video-js+\">",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects VideoJS from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "videojs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "VideoJS Script Detection",
+      "pattern": "zencdn\\.net/c/video\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects VideoJS from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "videojs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "VideoJS JavaScript Detection",
+      "pattern": "window\\.VideoJS|VideoJS\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects VideoJS from JavaScript variable 'VideoJS'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "videojs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

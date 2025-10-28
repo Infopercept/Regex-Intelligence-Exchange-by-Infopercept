@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Kerio",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Kerio"
+      "pattern": "^Kerio",
+      "version_group": 0
     },
     {
       "name": "Kerio-Connect Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Kerio (MailServer|Connect) (.+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

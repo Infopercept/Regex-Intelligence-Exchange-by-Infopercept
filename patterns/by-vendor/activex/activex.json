@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "d27cdb6e-ae6d-11cf-96b8-444553540000",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "d27cdb6e-ae6d-11cf-96b8-444553540000"
+      "pattern": "d27cdb6e-ae6d-11cf-96b8-444553540000",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

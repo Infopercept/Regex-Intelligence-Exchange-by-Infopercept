@@ -1,0 +1,31 @@
+{
+  "vendor": "Freespee",
+  "vendor_id": "freespee",
+  "product": "Freespee",
+  "product_id": "freespee-freespee",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Freespee Script Detection",
+      "pattern": "analytics\\.freespee\\.com/js/external/fs\\.(?:min\\.)?js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Freespee from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "freespee"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

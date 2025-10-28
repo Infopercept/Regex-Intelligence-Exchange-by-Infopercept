@@ -1,0 +1,31 @@
+{
+  "vendor": "Koa",
+  "vendor_id": "koa",
+  "product": "Koa",
+  "product_id": "koa-koa",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Koa Header Detection",
+      "pattern": "X-Powered-By: ^koa$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Koa from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "koa"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "vendor": "Bounce",
+  "vendor_id": "bounce",
+  "product": "Bounce Exchange",
+  "product_id": "bounce-bounce-exchange",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Bounce Exchange Script Detection",
+      "pattern": "^https?://tag\\.bounceexchange\\.com/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bounce Exchange from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "bounce-exchange"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Bounce Exchange JavaScript Detection",
+      "pattern": "window\\.bouncex|bouncex\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bounce Exchange from JavaScript variable 'bouncex'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "bounce-exchange"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^(D. )?Rogatkin",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^(D\\. )?Rogatkin"
+      "pattern": "^(D\\. )?Rogatkin",
+      "version_group": 0
     },
     {
       "name": "Miniature-JWS Pattern",
@@ -68,5 +75,6 @@
       "pattern": "Server: ^D\\. Rogatkin's TJWS based on Acme\\.Serve/Version [^,]+, \\$Revision: ([\\d\\.]+) \\$$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

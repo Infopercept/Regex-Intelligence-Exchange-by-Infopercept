@@ -1,0 +1,171 @@
+{
+  "vendor": "Magento",
+  "vendor_id": "magento",
+  "product": "Magento",
+  "product_id": "magento-magento",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Magento HTML Detection",
+      "pattern": "<script [^>]+data-requiremodule=\"mage/2",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Magento from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "magento"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Magento HTML Detection",
+      "pattern": "<script [^>]+data-requiremodule=\"Magento_2",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Magento from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "magento"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Magento HTML Detection",
+      "pattern": "<script type=\"text/x-magento-init\">",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Magento from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "magento"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Magento Script Detection",
+      "pattern": "js/mage",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Magento from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "magento"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Magento Script Detection",
+      "pattern": "skin/frontend/(?:default|(enterprise))?Enterprise:Community",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Magento from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "magento"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Magento Script Detection",
+      "pattern": "static/_requirejs",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Magento from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "magento"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Magento JavaScript Detection",
+      "pattern": "window\\.Mage|Mage\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Magento from JavaScript variable 'Mage'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "magento"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Magento JavaScript Detection",
+      "pattern": "window\\.VarienForm|VarienForm\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Magento from JavaScript variable 'VarienForm'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "magento"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

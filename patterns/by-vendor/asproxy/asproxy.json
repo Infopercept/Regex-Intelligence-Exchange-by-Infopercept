@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Surf\\ the\\ web\\ invisibly\\ using\\ ASProxy\\ power\\.\\ A\\ Powerfull\\ web\\ proxy\\ is\\ in\\ your\\ hands\\.\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Surf\\ the\\ web\\ invisibly\\ using\\ ASProxy\\ power\\.\\ A\\ Powerfull\\ web\\ proxy\\ is\\ in\\ your\\ hands\\.\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "ASProxy Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-This\\ is\\ ASProxy\\ powered\\ by\\ SalarSoft\\.\\ \\-\\->"
+      "pattern": "<!\\-\\-This\\ is\\ ASProxy\\ powered\\ by\\ SalarSoft\\.\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "ASProxy Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<input\\ type=\"button\"\\ onclick=\"_Page_SubmitForm\\(\\)\"\\ value=\"Display\"\\ id=\"btnASProxyDisplayButton\"\\ class=\"Button\"\\ />"
+      "pattern": "<input\\ type=\"button\"\\ onclick=\"_Page_SubmitForm\\(\\)\"\\ value=\"Display\"\\ id=\"btnASProxyDisplayButton\"\\ class=\"Button\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

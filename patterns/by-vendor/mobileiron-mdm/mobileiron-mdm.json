@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "/mifs/user/index\\.html"
+      "pattern": "/mifs/user/index\\.html",
+      "version_group": 0
     },
     {
       "name": "MobileIron-MDM Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "/mifs/user/login\\.jsp"
+      "pattern": "/mifs/user/login\\.jsp",
+      "version_group": 0
     },
     {
       "name": "MobileIron-MDM Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<title>MobileIron\\ User\\ Portal:\\ Sign\\ In"
+      "pattern": "<title>MobileIron\\ User\\ Portal:\\ Sign\\ In",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

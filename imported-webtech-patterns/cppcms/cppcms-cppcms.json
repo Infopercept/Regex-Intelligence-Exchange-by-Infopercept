@@ -1,0 +1,31 @@
+{
+  "vendor": "CppCMS",
+  "vendor_id": "cppcms",
+  "product": "CppCMS",
+  "product_id": "cppcms-cppcms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CppCMS Header Detection",
+      "pattern": "X-Powered-By: ^CppCMS/([\\d.]+)$",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CppCMS from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "cppcms"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<select\\ class=\"SQLCombo\"\\ name=\"tablecombo\"\\ onchange=\"this\\.form\\.sqltextarea\\.value=this\\.options\\[this\\.selectedIndex\\]\\.value;this\\.form\\.execsql\\.click\\(\\);\">"
+      "pattern": "<select\\ class=\"SQLCombo\"\\ name=\"tablecombo\"\\ onchange=\"this\\.form\\.sqltextarea\\.value=this\\.options\\[this\\.selectedIndex\\]\\.value;this\\.form\\.execsql\\.click\\(\\);\">",
+      "version_group": 0
     },
     {
       "name": "MySqlDumper Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "align=\"center\">The\\ execution\\ of\\ SQL\\ Statements\\ can\\ manipulate\\ data\\.\\ TAKE\\ CARE!\\ The\\ Authors\\ don\\\\"
+      "pattern": "align=\"center\">The\\ execution\\ of\\ SQL\\ Statements\\ can\\ manipulate\\ data\\.\\ TAKE\\ CARE!\\ The\\ Authors\\ don\\\\",
+      "version_group": 0
     },
     {
       "name": "MySqlDumper Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<a\\ title=\"Select\\ Database\\ /\\ Datebase\\ functions\\ /\\ Import\\ \\-\\ Export\\ \"\\ href=\"sql\\.php\\?db=\\&amp;dbid=0\\&amp;context=3"
+      "pattern": "<a\\ title=\"Select\\ Database\\ /\\ Datebase\\ functions\\ /\\ Import\\ \\-\\ Export\\ \"\\ href=\"sql\\.php\\?db=\\&amp;dbid=0\\&amp;context=3",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "database-engine"
 }

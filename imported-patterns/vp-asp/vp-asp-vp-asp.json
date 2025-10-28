@@ -1,0 +1,51 @@
+{
+  "vendor": "VP-ASP",
+  "vendor_id": "vp-asp",
+  "product": "VP-ASP",
+  "product_id": "vp-asp-vp-asp",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VP-ASP HTML Detection",
+      "pattern": "<a[^>]+>Powered By VP-ASP Shopping Cart</a>",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects VP-ASP from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "vp-asp"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "VP-ASP Script Detection",
+      "pattern": "vs350\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects VP-ASP from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "vp-asp"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

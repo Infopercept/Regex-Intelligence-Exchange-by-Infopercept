@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"author\"\\ content=\"eGroupWare\\ http://www\\.egroupware\\.org\"\\ />"
+      "pattern": "<meta\\ name=\"author\"\\ content=\"eGroupWare\\ http://www\\.egroupware\\.org\"\\ />",
+      "version_group": 0
     },
     {
       "name": "eGroupWare Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<div\\ align=\"center\"><font\\ color=\"\\#FF0000\">Votre\\ session\\ n\\\\"
+      "pattern": "<div\\ align=\"center\"><font\\ color=\"\\#FF0000\">Votre\\ session\\ n\\\\",
+      "version_group": 0
     },
     {
       "name": "eGroupWare Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"loginCdMessage\"><font\\ color=\"red\">Your\\ session\\ could\\ not\\ be\\ verified\\.</font></div>"
+      "pattern": "<div\\ id=\"loginCdMessage\"><font\\ color=\"red\">Your\\ session\\ could\\ not\\ be\\ verified\\.</font></div>",
+      "version_group": 0
     },
     {
       "name": "eGroupWare Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<title>EGroupware\\ \\[Login\\]</title>"
+      "pattern": "<title>EGroupware\\ \\[Login\\]</title>",
+      "version_group": 0
     },
     {
       "name": "eGroupWare Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ we\\ don't\\ need\\ body\\ tags\\ anymore,\\ do\\ we\\?\\)\\ we\\ do!!!\\ onload!!\\ LK\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ we\\ don't\\ need\\ body\\ tags\\ anymore,\\ do\\ we\\?\\)\\ we\\ do!!!\\ onload!!\\ LK\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "eGroupWare Pattern",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<META\\ NAME=\"description\"\\ CONTENT=\"Expresso\\ Livre\\ login\\ screen,\\ working\\ environment\\ powered\\ by\\ eGroupWare\">"
+      "pattern": "<META\\ NAME=\"description\"\\ CONTENT=\"Expresso\\ Livre\\ login\\ screen,\\ working\\ environment\\ powered\\ by\\ eGroupWare\">",
+      "version_group": 0
     },
     {
       "name": "eGroupWare Pattern",
@@ -158,7 +164,8 @@
           }
         ]
       },
-      "pattern": "<META\\ NAME=\"keywords\"\\ CONTENT=\"Expresso\\ Livre\\ login\\ screen,\\ eGroupWare,\\ groupware,\\ groupware\\ suite\">"
+      "pattern": "<META\\ NAME=\"keywords\"\\ CONTENT=\"Expresso\\ Livre\\ login\\ screen,\\ eGroupWare,\\ groupware,\\ groupware\\ suite\">",
+      "version_group": 0
     },
     {
       "name": "eGroupWare Pattern",
@@ -180,7 +187,8 @@
           }
         ]
       },
-      "pattern": "<br><a\\ title=\"eGroupWare\"\\ target=\"_blank\"\\ href=\"http://www\\.egroupware\\.org/\">\\ Powered\\ by\\ eGroupWare\\ </a></div></td>"
+      "pattern": "<br><a\\ title=\"eGroupWare\"\\ target=\"_blank\"\\ href=\"http://www\\.egroupware\\.org/\">\\ Powered\\ by\\ eGroupWare\\ </a></div></td>",
+      "version_group": 0
     },
     {
       "name": "eGroupWare Pattern",
@@ -202,7 +210,9 @@
           }
         ]
       },
-      "pattern": "<TITLE>Expresso\\ Livre\\ \\-\\ Login</TITLE>"
+      "pattern": "<TITLE>Expresso\\ Livre\\ \\-\\ Login</TITLE>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

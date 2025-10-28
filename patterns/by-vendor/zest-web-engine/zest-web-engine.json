@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "/cgi\\-bin/web\\.asp\\?title"
+      "pattern": "/cgi\\-bin/web\\.asp\\?title",
+      "version_group": 0
     },
     {
       "name": "Zest-Web-Engine Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ the\\ <a\\ href='http://www\\.zest\\-leisure\\.com/'>Zest\\ Web\\ Engine</a>"
+      "pattern": "Powered\\ by\\ the\\ <a\\ href='http://www\\.zest\\-leisure\\.com/'>Zest\\ Web\\ Engine</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

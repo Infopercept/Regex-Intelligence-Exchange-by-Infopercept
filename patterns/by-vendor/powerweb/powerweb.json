@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^PowerWeb",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^PowerWeb"
+      "pattern": "^PowerWeb",
+      "version_group": 0
     },
     {
       "name": "PowerWeb Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^PowerWeb/([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

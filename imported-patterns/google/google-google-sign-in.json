@@ -1,0 +1,131 @@
+{
+  "vendor": "Google",
+  "vendor_id": "google",
+  "product": "Google Sign-in",
+  "product_id": "google-google-sign-in",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Google Sign-in HTML Detection",
+      "pattern": "<meta[^>]*google-signin-client_id",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Sign-in from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "google-sign-in"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Google Sign-in HTML Detection",
+      "pattern": "<meta[^>]*google-signin-scope",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Sign-in from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "google-sign-in"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Google Sign-in HTML Detection",
+      "pattern": "<iframe[^>]*accounts\\.google\\.com/o/oauth2",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Sign-in from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "google-sign-in"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Google Sign-in HTML Detection",
+      "pattern": "<a[^>]*accounts\\.google\\.com/o/oauth2",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Sign-in from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "google-sign-in"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Google Sign-in Script Detection",
+      "pattern": "apis\\.google\\.com/js/platform\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Sign-in from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "google-sign-in"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Google Sign-in Script Detection",
+      "pattern": "accounts\\.google\\.com/gsi/client",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Sign-in from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "google-sign-in"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

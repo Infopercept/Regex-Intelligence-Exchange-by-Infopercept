@@ -1,0 +1,51 @@
+{
+  "vendor": "mod_rack",
+  "vendor_id": "mod_rack",
+  "product": "mod_rack",
+  "product_id": "mod_rack-mod_rack",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "mod_rack Header Detection",
+      "pattern": "Server: mod_rack(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects mod_rack from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "mod_rack"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "mod_rack Header Detection",
+      "pattern": "X-Powered-By: mod_rack(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects mod_rack from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "mod_rack"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

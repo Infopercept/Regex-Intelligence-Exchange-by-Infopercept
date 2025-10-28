@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<TITLE>MyWebFTP</TITLE>"
+      "pattern": "<TITLE>MyWebFTP</TITLE>",
+      "version_group": 0
     },
     {
       "name": "MyWebFTP Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<FORM\\ METHOD=post\\ NAME=\"mwForm\"\\ ENCTYPE=\"multipart/form\\-data\"\\ ACTION=\""
+      "pattern": "<FORM\\ METHOD=post\\ NAME=\"mwForm\"\\ ENCTYPE=\"multipart/form\\-data\"\\ ACTION=\"",
+      "version_group": 0
     },
     {
       "name": "MyWebFTP Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<LINK\\ REL=\"stylesheet\"\\ TYPE=\"text/css\"\\ HREF=\\\\"
+      "pattern": "<LINK\\ REL=\"stylesheet\"\\ TYPE=\"text/css\"\\ HREF=\\\\",
+      "version_group": 0
     },
     {
       "name": "MyWebFTP Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<SCRIPT\\ LANGUAGE=JAVASCRIPT\\ SRC=\\\\"
+      "pattern": "<SCRIPT\\ LANGUAGE=JAVASCRIPT\\ SRC=\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

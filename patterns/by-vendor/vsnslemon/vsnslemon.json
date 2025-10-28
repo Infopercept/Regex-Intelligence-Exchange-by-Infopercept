@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<p>Powered\\ by\\ <abbr\\ title=\"very\\ simple\\ news\\ system\">"
+      "pattern": "<p>Powered\\ by\\ <abbr\\ title=\"very\\ simple\\ news\\ system\">",
+      "version_group": 0
     },
     {
       "name": "VSNSLemon Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a[^>]+title=\"Blog powered by VSNS Lemon\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a[^>]+title=\"Blog powered by VSNS Lemon\">"
+      "pattern": "<a[^>]+title=\"Blog powered by VSNS Lemon\">",
+      "version_group": 0
     },
     {
       "name": "VSNSLemon Pattern",
@@ -56,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"vsns-(inner|container)\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div id=\"vsns-(inner|container)\">"
+      "pattern": "<div id=\"vsns-(inner|container)\">",
+      "version_group": 0
     },
     {
       "name": "VSNSLemon Pattern",
@@ -72,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img[^>]+alt=\"VSNS Lemon\"[^>]+title=\"Blog powered by VSNS Lemon\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<img[^>]+alt=\"VSNS Lemon\"[^>]+title=\"Blog powered by VSNS Lemon\""
+      "pattern": "<img[^>]+alt=\"VSNS Lemon\"[^>]+title=\"Blog powered by VSNS Lemon\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

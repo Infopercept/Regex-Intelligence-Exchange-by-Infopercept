@@ -1,0 +1,51 @@
+{
+  "vendor": "Ember.js",
+  "vendor_id": "ember.js",
+  "product": "Ember.js",
+  "product_id": "ember.js-emberjs",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Ember.js JavaScript Detection",
+      "pattern": "window\\.Ember|Ember\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Ember.js from JavaScript variable 'Ember'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "ember.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Ember.js JavaScript Detection",
+      "pattern": "window\\.Ember\\.VERSION|Ember\\.VERSION\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Ember.js from JavaScript variable 'Ember.VERSION'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "ember.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://www\\.discorganizer\\.org\">DORG</a>"
+      "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://www\\.discorganizer\\.org\">DORG</a>",
+      "version_group": 0
     },
     {
       "name": "DORG Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>DORG\\ \\-\\ Disc\\ Organization\\ System</title>"
+      "pattern": "<title>DORG\\ \\-\\ Disc\\ Organization\\ System</title>",
+      "version_group": 0
     },
     {
       "name": "DORG Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<title>DORG\\ \\-\\ admin\\ panel</title>"
+      "pattern": "<title>DORG\\ \\-\\ admin\\ panel</title>",
+      "version_group": 0
     },
     {
       "name": "DORG Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"description\"\\ content=\"this\\ is\\ the\\ administration\\ panel\\ of\\ the\\ DORG\\ system\"\\ />"
+      "pattern": "<meta\\ name=\"description\"\\ content=\"this\\ is\\ the\\ administration\\ panel\\ of\\ the\\ DORG\\ system\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

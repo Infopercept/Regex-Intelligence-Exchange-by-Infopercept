@@ -1,0 +1,31 @@
+{
+  "vendor": "CompaqHTTPServer",
+  "vendor_id": "compaqhttpserver",
+  "product": "CompaqHTTPServer",
+  "product_id": "compaqhttpserver-compaqhttpserver",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CompaqHTTPServer Header Detection",
+      "pattern": "Server: CompaqHTTPServer/?([\\d\\.]+)?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CompaqHTTPServer from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "compaqhttpserver"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

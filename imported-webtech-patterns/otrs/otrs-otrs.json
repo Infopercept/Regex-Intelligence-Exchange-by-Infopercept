@@ -1,0 +1,51 @@
+{
+  "vendor": "otrs",
+  "vendor_id": "otrs",
+  "product": "otrs",
+  "product_id": "otrs-otrs",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "otrs HTML Detection",
+      "pattern": "<!--\\s+OTRS: Copyright \\d+-\\d+, OTRS AG",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects otrs from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "otrs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "otrs Script Detection",
+      "pattern": "^/otrs-web/js/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects otrs from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "otrs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

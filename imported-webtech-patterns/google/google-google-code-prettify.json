@@ -1,0 +1,31 @@
+{
+  "vendor": "Google",
+  "vendor_id": "google",
+  "product": "Google Code Prettify",
+  "product_id": "google-google-code-prettify",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Google Code Prettify JavaScript Detection",
+      "pattern": "window\\.prettyPrint|prettyPrint\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Code Prettify from JavaScript variable 'prettyPrint'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "google-code-prettify"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

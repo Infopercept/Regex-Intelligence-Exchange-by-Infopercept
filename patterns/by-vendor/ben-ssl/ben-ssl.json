@@ -29,5 +29,6 @@
       "pattern": "Server: Ben-SSL/([\\d\\.]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

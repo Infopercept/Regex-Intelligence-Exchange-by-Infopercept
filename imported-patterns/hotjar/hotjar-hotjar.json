@@ -1,0 +1,31 @@
+{
+  "vendor": "Hotjar",
+  "vendor_id": "hotjar",
+  "product": "Hotjar",
+  "product_id": "hotjar-hotjar",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Hotjar Script Detection",
+      "pattern": "//static\\.hotjar\\.com/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Hotjar from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "hotjar"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

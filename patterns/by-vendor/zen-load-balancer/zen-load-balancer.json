@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "Basic\\ realm=\"Zen\\ Load\\ Balancer\""
+      "pattern": "Basic\\ realm=\"Zen\\ Load\\ Balancer\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

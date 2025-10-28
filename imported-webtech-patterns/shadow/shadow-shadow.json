@@ -1,0 +1,31 @@
+{
+  "vendor": "Shadow",
+  "vendor_id": "shadow",
+  "product": "Shadow",
+  "product_id": "shadow-shadow",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Shadow Header Detection",
+      "pattern": "X-Powered-By: ShadowFramework",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Shadow from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "shadow"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

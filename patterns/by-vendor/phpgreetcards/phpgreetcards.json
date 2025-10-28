@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<td\\ align=\"right\"><font\\ color=\"\\#b8c2cc\">Powered\\ by\\ <a\\ href=\"http://www\\.w2b\\.ru/webapplications/index\\.php\"\\ target=\"_blank\">phpGreetCards</a>,\\ "
+      "pattern": "<td\\ align=\"right\"><font\\ color=\"\\#b8c2cc\">Powered\\ by\\ <a\\ href=\"http://www\\.w2b\\.ru/webapplications/index\\.php\"\\ target=\"_blank\">phpGreetCards</a>,\\ ",
+      "version_group": 0
     },
     {
       "name": "phpGreetCards Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<td\\ align=\"right\"><font\\ color=\"\\#b8c2cc\">Powered\\ by\\ <a\\ href=\"http://www\\.w2bpm\\.com/index\\.php\\?cat=phpGreetCards\"\\ target=\"_blank\">phpGreetCards</a>,\\ "
+      "pattern": "<td\\ align=\"right\"><font\\ color=\"\\#b8c2cc\">Powered\\ by\\ <a\\ href=\"http://www\\.w2bpm\\.com/index\\.php\\?cat=phpGreetCards\"\\ target=\"_blank\">phpGreetCards</a>,\\ ",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

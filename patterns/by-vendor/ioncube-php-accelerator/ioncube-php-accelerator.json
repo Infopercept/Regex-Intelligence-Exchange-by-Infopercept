@@ -29,5 +29,6 @@
       "pattern": "x-accelerated-by: ^[\\s]*PHPA/([^\\r^\\n]*)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

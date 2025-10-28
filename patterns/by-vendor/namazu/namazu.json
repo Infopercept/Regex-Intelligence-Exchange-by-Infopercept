@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "This search system is powered by[s]+<strong><a href=\"http://www.namazu.org/\">Namazu</a></strong>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "This search system is powered by[\\s]+<strong><a href=\"http://www\\.namazu\\.org/\">Namazu</a></strong>"
+      "pattern": "This search system is powered by[\\s]+<strong><a href=\"http://www\\.namazu\\.org/\">Namazu</a></strong>",
+      "version_group": 0
     },
     {
       "name": "Namazu Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.namazu.(org|cc)/[^\"]*\" target=\"_blank\">(N|n)amazu</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <a href=\"http://www\\.namazu\\.(org|cc)/[^\"]*\" target=\"_blank\">(N|n)amazu</a>"
+      "pattern": "Powered by <a href=\"http://www\\.namazu\\.(org|cc)/[^\"]*\" target=\"_blank\">(N|n)amazu</a>",
+      "version_group": 0
     },
     {
       "name": "Namazu Pattern",
@@ -50,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p><strong> Total <!-- HIT -->[d]+<!-- HIT --> documents matching your query.</strong></p>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<p><strong> Total <!-- HIT -->[\\d]+<!-- HIT --> documents matching your query.</strong></p>"
+      "pattern": "<p><strong> Total <!-- HIT -->[\\d]+<!-- HIT --> documents matching your query.</strong></p>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

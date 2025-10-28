@@ -1,0 +1,71 @@
+{
+  "vendor": "Moment.js",
+  "vendor_id": "moment.js",
+  "product": "Moment.js",
+  "product_id": "moment.js-momentjs",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Moment.js Script Detection",
+      "pattern": "moment(?:\\.min)?\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Moment.js from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "moment.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Moment.js JavaScript Detection",
+      "pattern": "window\\.moment|moment\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Moment.js from JavaScript variable 'moment'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "moment.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Moment.js JavaScript Detection",
+      "pattern": "window\\.moment\\.version|moment\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Moment.js from JavaScript variable 'moment.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "moment.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

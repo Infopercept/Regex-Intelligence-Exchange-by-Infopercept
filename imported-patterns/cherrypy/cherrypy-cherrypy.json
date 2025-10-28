@@ -1,0 +1,31 @@
+{
+  "vendor": "CherryPy",
+  "vendor_id": "cherrypy",
+  "product": "CherryPy",
+  "product_id": "cherrypy-cherrypy",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CherryPy Header Detection",
+      "pattern": "Server: CherryPy(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CherryPy from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "cherrypy"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

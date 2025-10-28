@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://mercurial\\.selenic\\.com/\"\\ title=\"Mercurial\"\\ style=\"float:\\ right;\">Mercurial</a>"
+      "pattern": "<a\\ href=\"http://mercurial\\.selenic\\.com/\"\\ title=\"Mercurial\"\\ style=\"float:\\ right;\">Mercurial</a>",
+      "version_group": 0
     },
     {
       "name": "Mercurial Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"powered-by\">[s]+<p><a href=\"http://mercurial.selenic.com/\" title=\"Mercurial\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div id=\"powered-by\">[\\s]+<p><a href=\"http://mercurial\\.selenic\\.com/\" title=\"Mercurial\">"
+      "pattern": "<div id=\"powered-by\">[\\s]+<p><a href=\"http://mercurial\\.selenic\\.com/\" title=\"Mercurial\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

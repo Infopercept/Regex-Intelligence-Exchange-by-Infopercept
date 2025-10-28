@@ -1,0 +1,31 @@
+{
+  "vendor": "MyBB",
+  "vendor_id": "mybb",
+  "product": "MyBB",
+  "product_id": "mybb-mybb",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MyBB HTML Detection",
+      "pattern": "(?:<script [^>]+\\s+<!--\\s+lang\\.no_new_posts|<a[^>]* title=\"Powered By MyBB)",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MyBB from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "mybb"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

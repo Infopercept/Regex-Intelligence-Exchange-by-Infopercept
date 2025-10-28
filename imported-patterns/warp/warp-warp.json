@@ -1,0 +1,31 @@
+{
+  "vendor": "Warp",
+  "vendor_id": "warp",
+  "product": "Warp",
+  "product_id": "warp-warp",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Warp Header Detection",
+      "pattern": "Server: ^Warp/(\\d+(?:\\.\\d+)+)?$",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Warp from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "warp"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

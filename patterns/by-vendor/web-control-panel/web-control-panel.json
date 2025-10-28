@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<td><img\\ src=\"/images/wcpe\\.gif\"\\ width=600\\ height=57\\ border=0></td>"
+      "pattern": "<td><img\\ src=\"/images/wcpe\\.gif\"\\ width=600\\ height=57\\ border=0></td>",
+      "version_group": 0
     },
     {
       "name": "Web-Control-Panel Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<td\\ valign=\"top\"><a\\ href=\"/cgi\\-bin/webmail\\?noframes=1\"><img\\ src=\"images/"
+      "pattern": "<td\\ valign=\"top\"><a\\ href=\"/cgi\\-bin/webmail\\?noframes=1\"><img\\ src=\"images/",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

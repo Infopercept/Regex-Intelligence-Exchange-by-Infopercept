@@ -1,0 +1,111 @@
+{
+  "vendor": "AngularJS",
+  "vendor_id": "angularjs",
+  "product": "AngularJS",
+  "product_id": "angularjs-angularjs",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AngularJS HTML Detection",
+      "pattern": "<(?:div|html)[^>]+ng-app=",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AngularJS from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "angularjs"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AngularJS HTML Detection",
+      "pattern": "<ng-app",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AngularJS from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "angularjs"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AngularJS Script Detection",
+      "pattern": "angular[.-]([\\d.]*\\d)[^/]*\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AngularJS from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "angularjs"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AngularJS Script Detection",
+      "pattern": "/([\\d.]+(?:-?rc[.\\d]*)*)/angular(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AngularJS from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "angularjs"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AngularJS Script Detection",
+      "pattern": "\\bangular.{0,32}\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AngularJS from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "angularjs"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

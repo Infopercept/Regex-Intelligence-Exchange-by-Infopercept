@@ -49,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<A\\ HREF=\"http://jetty\\.mortbay\\.org\"><IMG\\ SRC=\"jetty_banner\\.gif\"></A>"
+      "pattern": "<A\\ HREF=\"http://jetty\\.mortbay\\.org\"><IMG\\ SRC=\"jetty_banner\\.gif\"></A>",
+      "version_group": 0
     },
     {
       "name": "Jetty Pattern",
@@ -71,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<p><i><small><a\\ href=\"http://jetty\\.mortbay\\.org\">Powered\\ by\\ Jetty://</a></small></i></p>"
+      "pattern": "<p><i><small><a\\ href=\"http://jetty\\.mortbay\\.org\">Powered\\ by\\ Jetty://</a></small></i></p>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

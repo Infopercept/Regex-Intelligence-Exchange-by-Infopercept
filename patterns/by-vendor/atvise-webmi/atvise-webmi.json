@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^atvise$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^atvise$"
+      "pattern": "^atvise$",
+      "version_group": 0
     },
     {
       "name": "Atvise-webMI Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<td><noscript>N/A</noscript><script\\ type=\"text/javascript\"><!\\-\\-"
+      "pattern": "<td><noscript>N/A</noscript><script\\ type=\"text/javascript\"><!\\-\\-",
+      "version_group": 0
     },
     {
       "name": "Atvise-webMI Pattern",
@@ -64,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<li\\ class=\"btn\"><a\\ class=\"button\"\\ style=\"left:93%;\"\\ href=\"javascript:void\\(0\\)\"\\ target=\"mainframe\"\\ id=\"alarmlistbutton\"><img\\ height=\"30\"\\ width=\"47\"\\ src=\"buttonc\\.gif\"\\ alt=\"\"\\ /></a></li>"
+      "pattern": "<li\\ class=\"btn\"><a\\ class=\"button\"\\ style=\"left:93%;\"\\ href=\"javascript:void\\(0\\)\"\\ target=\"mainframe\"\\ id=\"alarmlistbutton\"><img\\ height=\"30\"\\ width=\"47\"\\ src=\"buttonc\\.gif\"\\ alt=\"\"\\ /></a></li>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

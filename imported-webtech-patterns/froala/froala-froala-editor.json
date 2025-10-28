@@ -1,0 +1,31 @@
+{
+  "vendor": "Froala",
+  "vendor_id": "froala",
+  "product": "Froala Editor",
+  "product_id": "froala-froala-editor",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Froala Editor HTML Detection",
+      "pattern": "<[^>]+class=\"[^\"]*(?:fr-view|fr-box)",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Froala Editor from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "froala-editor"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

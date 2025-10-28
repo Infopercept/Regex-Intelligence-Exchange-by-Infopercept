@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<HEAD><TITLE>Welcome\\ to\\ NetShelter</TITLE></HEAD>"
+      "pattern": "<HEAD><TITLE>Welcome\\ to\\ NetShelter</TITLE></HEAD>",
+      "version_group": 0
     },
     {
       "name": "NetShelter-VPN Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^NetShelter/VPN$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^NetShelter/VPN$"
+      "pattern": "^NetShelter/VPN$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

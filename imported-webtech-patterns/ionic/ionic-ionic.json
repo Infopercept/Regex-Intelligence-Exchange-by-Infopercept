@@ -1,0 +1,51 @@
+{
+  "vendor": "Ionic",
+  "vendor_id": "ionic",
+  "product": "Ionic",
+  "product_id": "ionic-ionic",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Ionic JavaScript Detection",
+      "pattern": "window\\.Ionic\\.config|Ionic\\.config\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Ionic from JavaScript variable 'Ionic.config'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "ionic"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Ionic JavaScript Detection",
+      "pattern": "window\\.Ionic\\.version|Ionic\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Ionic from JavaScript variable 'Ionic.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "ionic"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

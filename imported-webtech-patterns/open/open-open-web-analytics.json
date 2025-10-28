@@ -1,0 +1,91 @@
+{
+  "vendor": "Open",
+  "vendor_id": "open",
+  "product": "Open Web Analytics",
+  "product_id": "open-open-web-analytics",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Open Web Analytics HTML Detection",
+      "pattern": "<!-- (?:Start|End) Open Web Analytics Tracker -->",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Open Web Analytics from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "open-web-analytics"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Open Web Analytics JavaScript Detection",
+      "pattern": "window\\.OWA\\.config\\.baseUrl|OWA\\.config\\.baseUrl\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Open Web Analytics from JavaScript variable 'OWA.config.baseUrl'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "open-web-analytics"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Open Web Analytics JavaScript Detection",
+      "pattern": "window\\.owa_baseUrl|owa_baseUrl\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Open Web Analytics from JavaScript variable 'owa_baseUrl'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "open-web-analytics"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Open Web Analytics JavaScript Detection",
+      "pattern": "window\\.owa_cmds|owa_cmds\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Open Web Analytics from JavaScript variable 'owa_cmds'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "open-web-analytics"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

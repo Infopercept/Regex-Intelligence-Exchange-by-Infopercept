@@ -1,0 +1,31 @@
+{
+  "vendor": "Pushnami",
+  "vendor_id": "pushnami",
+  "product": "Pushnami",
+  "product_id": "pushnami-pushnami",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Pushnami Script Detection",
+      "pattern": "api\\.pushnami\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Pushnami from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "pushnami"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

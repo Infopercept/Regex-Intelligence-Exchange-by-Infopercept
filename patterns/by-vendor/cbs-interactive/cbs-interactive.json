@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script[^>]+ src=\"http://dw.com.com/js/dw.js\"></script>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script[^>]+ src=\"http://dw\\.com\\.com/js/dw\\.js\"></script>"
+      "pattern": "<script[^>]+ src=\"http://dw\\.com\\.com/js/dw\\.js\"></script>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

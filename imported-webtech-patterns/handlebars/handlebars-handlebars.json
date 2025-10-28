@@ -1,0 +1,91 @@
+{
+  "vendor": "Handlebars",
+  "vendor_id": "handlebars",
+  "product": "Handlebars",
+  "product_id": "handlebars-handlebars",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Handlebars HTML Detection",
+      "pattern": "<[^>]*type=[^>]text/x-handlebars-template",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Handlebars from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "handlebars"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Handlebars Script Detection",
+      "pattern": "handlebars(?:\\.runtime)?(?:-v([\\d.]+?))?(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Handlebars from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "handlebars"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Handlebars JavaScript Detection",
+      "pattern": "window\\.Handlebars|Handlebars\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Handlebars from JavaScript variable 'Handlebars'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "handlebars"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Handlebars JavaScript Detection",
+      "pattern": "window\\.Handlebars\\.VERSION|Handlebars\\.VERSION\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Handlebars from JavaScript variable 'Handlebars.VERSION'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "handlebars"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by[s]+<a[^>]+href=\"http://www.kscripts.com/(scripts.html#ksearch)?\"[^>]*>KSearch</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by[\\s]+<a[^>]+href=\"http://www\\.kscripts\\.com/(scripts\\.html#ksearch)?\"[^>]*>KSearch</a>"
+      "pattern": "Powered by[\\s]+<a[^>]+href=\"http://www\\.kscripts\\.com/(scripts\\.html#ksearch)?\"[^>]*>KSearch</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

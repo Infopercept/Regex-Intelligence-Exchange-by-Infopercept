@@ -1,0 +1,91 @@
+{
+  "vendor": "Prebid",
+  "vendor_id": "prebid",
+  "product": "Prebid",
+  "product_id": "prebid-prebid",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Prebid Script Detection",
+      "pattern": "/prebid\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Prebid from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "prebid"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Prebid Script Detection",
+      "pattern": "adnxs\\.com/[^\"]*(?:prebid|/pb\\.js)",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Prebid from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "prebid"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Prebid JavaScript Detection",
+      "pattern": "window\\.PREBID_TIMEOUT|PREBID_TIMEOUT\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Prebid from JavaScript variable 'PREBID_TIMEOUT'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "prebid"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Prebid JavaScript Detection",
+      "pattern": "window\\.pbjs|pbjs\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Prebid from JavaScript variable 'pbjs'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "prebid"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

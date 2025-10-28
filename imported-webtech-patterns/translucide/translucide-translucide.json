@@ -1,0 +1,31 @@
+{
+  "vendor": "Translucide",
+  "vendor_id": "translucide",
+  "product": "Translucide",
+  "product_id": "translucide-translucide",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Translucide Script Detection",
+      "pattern": "lucide\\.init(?:\\.min)?\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Translucide from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "translucide"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

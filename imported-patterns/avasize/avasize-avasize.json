@@ -1,0 +1,31 @@
+{
+  "vendor": "Avasize",
+  "vendor_id": "avasize",
+  "product": "Avasize",
+  "product_id": "avasize-avasize",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Avasize Script Detection",
+      "pattern": "^https?://cdn\\.avasize\\.com/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Avasize from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "avasize"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<td\\ class=listtitle\\ colspan=2>Please\\ enter\\ your\\ Username\\ and\\ Password</td></tr>"
+      "pattern": "<td\\ class=listtitle\\ colspan=2>Please\\ enter\\ your\\ Username\\ and\\ Password</td></tr>",
+      "version_group": 0
     },
     {
       "name": "DirectAdmin Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>DirectAdmin\\ Login</title>"
+      "pattern": "<title>DirectAdmin\\ Login</title>",
+      "version_group": 0
     },
     {
       "name": "DirectAdmin Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "onload=\\\\"
+      "pattern": "onload=\\\\",
+      "version_group": 0
     },
     {
       "name": "DirectAdmin Pattern",
@@ -95,5 +98,6 @@
       "pattern": "Server: ^DirectAdmin Daemon v([^\\s]+) Registered to ",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

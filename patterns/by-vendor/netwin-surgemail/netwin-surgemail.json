@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Start\\ of\\ index\\.htm\\ \\-\\-><!\\-\\-\\ delayed\\ after\\ doctype\\-\\->"
+      "pattern": "<!\\-\\-\\ Start\\ of\\ index\\.htm\\ \\-\\-><!\\-\\-\\ delayed\\ after\\ doctype\\-\\->",
+      "version_group": 0
     },
     {
       "name": "NetWin-Surgemail Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>SurgeMail\\ Welcome\\ Page</title>"
+      "pattern": "<title>SurgeMail\\ Welcome\\ Page</title>",
+      "version_group": 0
     },
     {
       "name": "NetWin-Surgemail Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"GENERATOR\"\\ content=\"Mozilla/4\\.75\\ \\[en\\]\\ \\(Windows\\ NT\\ 5\\.0;\\ U\\)\\ \\[Netscape\\]\">"
+      "pattern": "<meta\\ name=\"GENERATOR\"\\ content=\"Mozilla/4\\.75\\ \\[en\\]\\ \\(Windows\\ NT\\ 5\\.0;\\ U\\)\\ \\[Netscape\\]\">",
+      "version_group": 0
     },
     {
       "name": "NetWin-Surgemail Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "/surgeweb\"\\ target=\"client\"><input\\ type=\"button\"\\ name=\"\"\\ value=\"Secure\\ WebMail\\ 2\\.0\\ Login\"\\ onmouseover=\"MO\\(event\\)\"\\ onmouseout=\"MU\\(event\\)\"\\ onclick=\"MC3\\(event\\)\"\\ class=spbutton></a></td>"
+      "pattern": "/surgeweb\"\\ target=\"client\"><input\\ type=\"button\"\\ name=\"\"\\ value=\"Secure\\ WebMail\\ 2\\.0\\ Login\"\\ onmouseover=\"MO\\(event\\)\"\\ onmouseout=\"MU\\(event\\)\"\\ onclick=\"MC3\\(event\\)\"\\ class=spbutton></a></td>",
+      "version_group": 0
     },
     {
       "name": "NetWin-Surgemail Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"/cgi/user\\.cgi\">User\\ account\\ self\\ management</a>\\ \\-\\ <font\\ class=\"small_font\">users\\ and\\ domain\\ administrators\\ can\\ modify\\ passwords,\\ forwarding,\\ create\\ new\\ accounts</font></blockquote>"
+      "pattern": "<a\\ href=\"/cgi/user\\.cgi\">User\\ account\\ self\\ management</a>\\ \\-\\ <font\\ class=\"small_font\">users\\ and\\ domain\\ administrators\\ can\\ modify\\ passwords,\\ forwarding,\\ create\\ new\\ accounts</font></blockquote>",
+      "version_group": 0
     },
     {
       "name": "NetWin-Surgemail Pattern",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<td\\ colspan=\"2\"\\ class=\"about_wrapper\"><img\\ src=\"/web/redline\\.gif\"><br><a\\ class=\"about_link\"\\ href=\"/about_mail\\.htm\">about\\ SurgeMail</a></td>"
+      "pattern": "<td\\ colspan=\"2\"\\ class=\"about_wrapper\"><img\\ src=\"/web/redline\\.gif\"><br><a\\ class=\"about_link\"\\ href=\"/about_mail\\.htm\">about\\ SurgeMail</a></td>",
+      "version_group": 0
     },
     {
       "name": "NetWin-Surgemail Pattern",
@@ -158,7 +164,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Start\\ of\\ na_login\\.htm\\ \\-\\-><!\\-\\-\\ delayed\\ after\\ doctype\\-\\->"
+      "pattern": "<!\\-\\-\\ Start\\ of\\ na_login\\.htm\\ \\-\\-><!\\-\\-\\ delayed\\ after\\ doctype\\-\\->",
+      "version_group": 0
     },
     {
       "name": "NetWin-Surgemail Pattern",
@@ -180,7 +187,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-<body\\ bgcolor=\"\\#FFFFFF\"\\ onload=\"window\\.focus\\(\\);document\\.main\\.username\\.focus\\(\\);\">\\-\\->"
+      "pattern": "<!\\-\\-<body\\ bgcolor=\"\\#FFFFFF\"\\ onload=\"window\\.focus\\(\\);document\\.main\\.username\\.focus\\(\\);\">\\-\\->",
+      "version_group": 0
     },
     {
       "name": "NetWin-Surgemail Pattern",
@@ -202,7 +210,8 @@
           }
         ]
       },
-      "pattern": "<a\\ class=\"about_mail\"\\ target=\"_top\"\\ href=\"/about_mail\\.htm\">about\\ SurgeMail\\ </a></font>\\ </td>"
+      "pattern": "<a\\ class=\"about_mail\"\\ target=\"_top\"\\ href=\"/about_mail\\.htm\">about\\ SurgeMail\\ </a></font>\\ </td>",
+      "version_group": 0
     },
     {
       "name": "NetWin-Surgemail Pattern",
@@ -224,7 +233,9 @@
           }
         ]
       },
-      "pattern": "<form\\ action=\"/scripts/webmail\\.exe\"\\ method=\"post\"\\ name=\"reloginform\">"
+      "pattern": "<form\\ action=\"/scripts/webmail\\.exe\"\\ method=\"post\"\\ name=\"reloginform\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

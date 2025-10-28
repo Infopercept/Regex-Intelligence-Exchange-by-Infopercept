@@ -29,5 +29,6 @@
       "pattern": "Server: ^RCTTools \\(SecureSOHO Web configuration Tools\\) v([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

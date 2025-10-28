@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"sphinxsidebar\">[s]+<div class=\"sphinxsidebarwrapper\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div class=\"sphinxsidebar\">[\\s]+<div class=\"sphinxsidebarwrapper\">"
+      "pattern": "<div class=\"sphinxsidebar\">[\\s]+<div class=\"sphinxsidebarwrapper\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

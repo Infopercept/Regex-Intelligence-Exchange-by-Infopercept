@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "(iTools",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "\\(iTools"
+      "pattern": "\\(iTools",
+      "version_group": 0
     },
     {
       "name": "Tenon-iTools Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: \\(iTools ([\\d\\.]+)[\\)]?/Mac OS X\\)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

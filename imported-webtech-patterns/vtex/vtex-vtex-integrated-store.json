@@ -1,0 +1,31 @@
+{
+  "vendor": "VTEX",
+  "vendor_id": "vtex",
+  "product": "VTEX Integrated Store",
+  "product_id": "vtex-vtex-integrated-store",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VTEX Integrated Store Header Detection",
+      "pattern": "X-Powered-By: vtex-integrated-store",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects VTEX Integrated Store from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "vtex-integrated-store"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

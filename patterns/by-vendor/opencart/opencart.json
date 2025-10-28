@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--s+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!--\\s+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation\\."
+      "pattern": "<!--\\s+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation\\.",
+      "version_group": 0
     },
     {
       "name": "OpenCart Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"powered\">Powered By <a href=\"http://www.opencart.com\"( title=\"OpenCart\")?>OpenCart</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div id=\"powered\">Powered By <a href=\"http://www\\.opencart\\.com\"( title=\"OpenCart\")?>OpenCart</a>"
+      "pattern": "<div id=\"powered\">Powered By <a href=\"http://www\\.opencart\\.com\"( title=\"OpenCart\")?>OpenCart</a>",
+      "version_group": 0
     },
     {
       "name": "OpenCart Pattern",
@@ -58,7 +72,9 @@
           }
         ]
       },
-      "pattern": "/admin/index\\.php\\?route=common/login\"\\ method=\"post\"\\ enctype=\"multipart/form\\-data\"\\ id=\"form\">"
+      "pattern": "/admin/index\\.php\\?route=common/login\"\\ method=\"post\"\\ enctype=\"multipart/form\\-data\"\\ id=\"form\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

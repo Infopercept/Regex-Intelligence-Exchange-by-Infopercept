@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ part\\ below\\ is\\ not\\ css\\ valid\\.\\ remove\\ it\\ if\\ you\\ want\\ this\\ document\\ to\\ be\\ css\\ valid\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ part\\ below\\ is\\ not\\ css\\ valid\\.\\ remove\\ it\\ if\\ you\\ want\\ this\\ document\\ to\\ be\\ css\\ valid\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "HostBill Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "</div><br/><center>Powered\\ by\\ <a\\ href=\"http://hostbillapp\\.com\"\\ target=\"_blank\"><strong>HostBill</strong></a></center><br/></div>"
+      "pattern": "</div><br/><center>Powered\\ by\\ <a\\ href=\"http://hostbillapp\\.com\"\\ target=\"_blank\"><strong>HostBill</strong></a></center><br/></div>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

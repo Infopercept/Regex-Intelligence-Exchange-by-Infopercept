@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>MyZone</title>.*www.netcomm.com.au",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>MyZone</title>.*www\\.netcomm\\.com\\.au"
+      "pattern": "<title>MyZone</title>.*www\\.netcomm\\.com\\.au",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

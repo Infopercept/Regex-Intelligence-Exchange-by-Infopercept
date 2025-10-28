@@ -1,0 +1,31 @@
+{
+  "vendor": "Ionicons",
+  "vendor_id": "ionicons",
+  "product": "Ionicons",
+  "product_id": "ionicons-ionicons",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Ionicons HTML Detection",
+      "pattern": "<link[^>]* href=[^>]+ionicons(?:\\.min)?\\.css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Ionicons from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "ionicons"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

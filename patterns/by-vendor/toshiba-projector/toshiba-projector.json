@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^TOSHIBA-Projector$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^TOSHIBA-Projector$"
+      "pattern": "^TOSHIBA-Projector$",
+      "version_group": 0
     },
     {
       "name": "Toshiba-Projector Pattern",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<TD\\ class=\"f12w\"\\ width=\"190\"><A\\ href=\"http://multimedia\\.projector\\-toshiba\\.com/\"\\ target=\"_blank\">TOSHIBA\\ Projector\\ Website</A></TD>"
+      "pattern": "<TD\\ class=\"f12w\"\\ width=\"190\"><A\\ href=\"http://multimedia\\.projector\\-toshiba\\.com/\"\\ target=\"_blank\">TOSHIBA\\ Projector\\ Website</A></TD>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

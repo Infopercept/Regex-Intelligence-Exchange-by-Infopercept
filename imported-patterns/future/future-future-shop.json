@@ -1,0 +1,31 @@
+{
+  "vendor": "Future",
+  "vendor_id": "future",
+  "product": "Future Shop",
+  "product_id": "future-future-shop",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Future Shop Script Detection",
+      "pattern": "future-shop.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Future Shop from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "future-shop"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

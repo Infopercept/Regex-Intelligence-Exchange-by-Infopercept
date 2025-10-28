@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^HeiTel GmbH Web Server",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^HeiTel GmbH Web Server"
+      "pattern": "^HeiTel GmbH Web Server",
+      "version_group": 0
     },
     {
       "name": "HeiTel-Digital-Video-Device Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^HeiTel GmbH Web Server \\[V([\\d\\.]+)/V([\\d\\.]+)/V([\\d\\.]+)\\]$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

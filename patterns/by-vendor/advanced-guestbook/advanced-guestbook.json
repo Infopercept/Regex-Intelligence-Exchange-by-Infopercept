@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Thank\\ you\\ for\\ stopping\\ by\\ my\\ site\\.\\ Here\\ you\\ can\\ leave\\ your\\ mark\\."
+      "pattern": "Thank\\ you\\ for\\ stopping\\ by\\ my\\ site\\.\\ Here\\ you\\ can\\ leave\\ your\\ mark\\.",
+      "version_group": 0
     },
     {
       "name": "powered by",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<b>Advanced Guestbook 2.2<br>s+Powered by PHP",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<b>Advanced Guestbook 2.2<br>\\s+Powered by PHP"
+      "pattern": "<b>Advanced Guestbook 2.2<br>\\s+Powered by PHP",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

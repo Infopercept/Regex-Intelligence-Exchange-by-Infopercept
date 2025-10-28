@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ openEngine\\ Comment\\ START\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ openEngine\\ Comment\\ START\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "openEngine Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--[if lte? IE 7]>[s]+<script src=\"system/([^/^>]+/)*script/IE7/ie7-standard-p.js\" type=\"text/javascript\"></script>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!--\\[if lte? IE 7\\]>[\\s]+<script src=\"system/([^/^>]+/)*script/IE7/ie7-standard-p\\.js\" type=\"text/javascript\"></script>"
+      "pattern": "<!--\\[if lte? IE 7\\]>[\\s]+<script src=\"system/([^/^>]+/)*script/IE7/ie7-standard-p\\.js\" type=\"text/javascript\"></script>",
+      "version_group": 0
     },
     {
       "name": "openEngine Pattern",
@@ -56,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.openengine.de\" target=\"_blank\"><img src=\"system/([^/^>]+/)*/img/oes_logo.png\" alt=\"openEngine Homepage\"></a></p>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"http://www\\.openengine\\.de\" target=\"_blank\"><img src=\"system/([^/^>]+/)*/img/oes_logo\\.png\" alt=\"openEngine Homepage\"></a></p>"
+      "pattern": "<a href=\"http://www\\.openengine\\.de\" target=\"_blank\"><img src=\"system/([^/^>]+/)*/img/oes_logo\\.png\" alt=\"openEngine Homepage\"></a></p>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

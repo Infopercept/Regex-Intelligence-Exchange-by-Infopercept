@@ -1,0 +1,31 @@
+{
+  "vendor": "UserRules",
+  "vendor_id": "userrules",
+  "product": "UserRules",
+  "product_id": "userrules-userrules",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "UserRules JavaScript Detection",
+      "pattern": "window\\._usrp|_usrp\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects UserRules from JavaScript variable '_usrp'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "userrules"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

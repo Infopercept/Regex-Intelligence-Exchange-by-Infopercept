@@ -1,0 +1,31 @@
+{
+  "vendor": "ColorMeShop",
+  "vendor_id": "colormeshop",
+  "product": "ColorMeShop",
+  "product_id": "colormeshop-colormeshop",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ColorMeShop JavaScript Detection",
+      "pattern": "window\\.Colorme|Colorme\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ColorMeShop from JavaScript variable 'Colorme'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "colormeshop"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

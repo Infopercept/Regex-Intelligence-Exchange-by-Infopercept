@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"mmcategorytree\">"
+      "pattern": "<div\\ id=\"mmcategorytree\">",
+      "version_group": 0
     },
     {
       "name": "MivaMerchant Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "htscallerid=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "htscallerid="
+      "pattern": "htscallerid=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -29,5 +29,6 @@
       "pattern": "Server: ^NetCache appliance \\(NetApp/([^\\)]+)\\)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

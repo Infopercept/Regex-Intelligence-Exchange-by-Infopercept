@@ -1,0 +1,51 @@
+{
+  "vendor": "Apache",
+  "vendor_id": "apache",
+  "product": "Apache Tomcat",
+  "product_id": "apache-apache-tomcat",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Apache Tomcat Header Detection",
+      "pattern": "Server: ^Apache-Coyote",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Apache Tomcat from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "apache-tomcat"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Apache Tomcat Header Detection",
+      "pattern": "X-Powered-By: \\bTomcat\\b(?:-([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Apache Tomcat from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "apache-tomcat"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "TivoWebPlus",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "TivoWebPlus"
+      "pattern": "TivoWebPlus",
+      "version_group": 0
     },
     {
       "name": "TivoWebPlus Pattern",
@@ -45,5 +52,6 @@
       "pattern": "www-authenticate: ^Basic realm=['\"]TivoWebPlus - v([^'^\"]+)['\"]$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

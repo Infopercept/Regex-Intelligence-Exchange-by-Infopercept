@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body[^>]+id=\"lia-body\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<body[^>]+id=\"lia-body\""
+      "pattern": "<body[^>]+id=\"lia-body\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

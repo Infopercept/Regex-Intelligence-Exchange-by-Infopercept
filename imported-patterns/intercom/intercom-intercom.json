@@ -1,0 +1,31 @@
+{
+  "vendor": "Intercom",
+  "vendor_id": "intercom",
+  "product": "Intercom",
+  "product_id": "intercom-intercom",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Intercom Script Detection",
+      "pattern": "(?:api\\.intercom\\.io/api|static\\.intercomcdn\\.com/intercom\\.v1)",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Intercom from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "intercom"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

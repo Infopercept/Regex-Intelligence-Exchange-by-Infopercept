@@ -1,0 +1,31 @@
+{
+  "vendor": "VirtueMart",
+  "vendor_id": "virtuemart",
+  "product": "VirtueMart",
+  "product_id": "virtuemart-virtuemart",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VirtueMart HTML Detection",
+      "pattern": "<div id=\"vmMainPage",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects VirtueMart from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "virtuemart"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

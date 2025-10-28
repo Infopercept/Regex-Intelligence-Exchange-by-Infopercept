@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Web/2 ",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Web/2 "
+      "pattern": "^Web/2 ",
+      "version_group": 0
     },
     {
       "name": "Web2 Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Web/2 v([^\\r^\\n]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,71 @@
+{
+  "vendor": "PHPDebugBar",
+  "vendor_id": "phpdebugbar",
+  "product": "PHPDebugBar",
+  "product_id": "phpdebugbar-phpdebugbar",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PHPDebugBar Script Detection",
+      "pattern": "debugbar.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PHPDebugBar from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "phpdebugbar"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "PHPDebugBar JavaScript Detection",
+      "pattern": "window\\.PhpDebugBar|PhpDebugBar\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PHPDebugBar from JavaScript variable 'PhpDebugBar'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "phpdebugbar"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "PHPDebugBar JavaScript Detection",
+      "pattern": "window\\.phpdebugbar|phpdebugbar\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PHPDebugBar from JavaScript variable 'phpdebugbar'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "phpdebugbar"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

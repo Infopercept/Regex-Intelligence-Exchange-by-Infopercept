@@ -21,12 +21,13 @@
         ],
         "test_cases": [
           {
-            "input": "<!-- // All source code on this site \u00a9 2007 BM Scripts unless otherwise stated - All Rights Reserved // -->",
+            "input": "<!-- // All source code on this site © 2007 BM Scripts unless otherwise stated - All Rights Reserved // -->",
             "expected_version": "unknown"
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ //\\ All\\ source\\ code\\ on\\ this\\ site\\ \u00a9\\ 2007\\ BM\\ Scripts\\ unless\\ otherwise\\ stated\\ \\-\\ All\\ Rights\\ Reserved\\ //\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ //\\ All\\ source\\ code\\ on\\ this\\ site\\ ©\\ 2007\\ BM\\ Scripts\\ unless\\ otherwise\\ stated\\ \\-\\ All\\ Rights\\ Reserved\\ //\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "BM-Classifieds Pattern",
@@ -43,12 +44,13 @@
         ],
         "test_cases": [
           {
-            "input": "<!-- // All source code on this site \u00a9 2007 BM Scripts unless otherwise noted - All Rights Reserved // -->",
+            "input": "<!-- // All source code on this site © 2007 BM Scripts unless otherwise noted - All Rights Reserved // -->",
             "expected_version": "unknown"
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ //\\ All\\ source\\ code\\ on\\ this\\ site\\ \u00a9\\ 2007\\ BM\\ Scripts\\ unless\\ otherwise\\ noted\\ \\-\\ All\\ Rights\\ Reserved\\ //\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ //\\ All\\ source\\ code\\ on\\ this\\ site\\ ©\\ 2007\\ BM\\ Scripts\\ unless\\ otherwise\\ noted\\ \\-\\ All\\ Rights\\ Reserved\\ //\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "BM-Classifieds Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t<!\\-\\-\\ START\\ HEADER\\ TABLE\\ \\-\\ HOLDS\\ GRAPHIC\\ AND\\ SITE\\ NAME\\ \\-\\->"
+      "pattern": "\\\t\\\t<!\\-\\-\\ START\\ HEADER\\ TABLE\\ \\-\\ HOLDS\\ GRAPHIC\\ AND\\ SITE\\ NAME\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "BM-Classifieds Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t<!\\-\\-\\ START\\ MAIN\\ TABLE\\ \\-\\ HOLDS\\ CATEGORIES,\\ MENU,\\ ETC\\.\\ \\-\\->"
+      "pattern": "\\\t\\\t<!\\-\\-\\ START\\ MAIN\\ TABLE\\ \\-\\ HOLDS\\ CATEGORIES,\\ MENU,\\ ETC\\.\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "BM-Classifieds Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "\\\t<p\\ class='credits'><a\\ href='http://www\\.bmscripts\\.com'>Powered\\ by\\ BM\\ Classifieds</a><br\\ /></p>"
+      "pattern": "\\\t<p\\ class='credits'><a\\ href='http://www\\.bmscripts\\.com'>Powered\\ by\\ BM\\ Classifieds</a><br\\ /></p>",
+      "version_group": 0
     },
     {
       "name": "BM-Classifieds Pattern",
@@ -136,7 +141,9 @@
           }
         ]
       },
-      "pattern": "\\\t<p\\ class='credits'>Powered\\ by\\ BM\\ Classifieds<br\\ /></p>"
+      "pattern": "\\\t<p\\ class='credits'>Powered\\ by\\ BM\\ Classifieds<br\\ /></p>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

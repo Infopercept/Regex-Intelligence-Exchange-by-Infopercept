@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>MRTG Index Page</TITLE>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<TITLE>MRTG Index Page</TITLE>"
+      "pattern": "<TITLE>MRTG Index Page</TITLE>",
+      "version_group": 0
     },
     {
       "name": "Logo in footer",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "HREF=\"http://oss.oetiker.ch/mrtg/\"><IMG[s]*BORDER=0 SRC=\"mrtg-l.png\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "HREF=\"http://oss.oetiker.ch/mrtg/\"><IMG[\\s]*BORDER=0 SRC=\"mrtg-l.png\""
+      "pattern": "HREF=\"http://oss.oetiker.ch/mrtg/\"><IMG[\\s]*BORDER=0 SRC=\"mrtg-l.png\"",
+      "version_group": 0
     },
     {
       "name": "Logo in footer2",
@@ -50,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "HREF=\"http://www.ee.ethz.ch/~oetiker/webtools/mrtg/\">.*src=mrtg-l.png alt=MRTG",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "HREF=\"http://www.ee.ethz.ch/~oetiker/webtools/mrtg/\">.*src=mrtg-l.png alt=MRTG"
+      "pattern": "HREF=\"http://www.ee.ethz.ch/~oetiker/webtools/mrtg/\">.*src=mrtg-l.png alt=MRTG",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.aardvarktopsitesphp.com[^>]*>[^A]*Aardvark Topsites PHP",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <a href=\"http://www.aardvarktopsitesphp.com[^>]*>[^A]*Aardvark Topsites PHP"
+      "pattern": "Powered by <a href=\"http://www.aardvarktopsitesphp.com[^>]*>[^A]*Aardvark Topsites PHP",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

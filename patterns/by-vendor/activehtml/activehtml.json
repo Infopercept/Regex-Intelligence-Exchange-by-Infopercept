@@ -52,5 +52,6 @@
       "pattern": "x-powered-by: seliSoft ActiveHTML/([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

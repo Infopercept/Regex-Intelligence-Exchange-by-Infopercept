@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.netartmedia\\.net/mall\">iBoutique\\.MALL</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.netartmedia\\.net/mall\">iBoutique\\.MALL</a>",
+      "version_group": 0
     },
     {
       "name": "PHP-Mall Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<td\\ align=\"right\"><input\\ type=password\\ class=\"login_form_text_field\"\\ name=\"Password\"></td>"
+      "pattern": "<td\\ align=\"right\"><input\\ type=password\\ class=\"login_form_text_field\"\\ name=\"Password\"></td>",
+      "version_group": 0
     },
     {
       "name": "PHP-Mall Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.netartmedia\\.net/mall\"\\ target=\"_blank\">PHP\\ Mall</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.netartmedia\\.net/mall\"\\ target=\"_blank\">PHP\\ Mall</a>",
+      "version_group": 0
     },
     {
       "name": "PHP-Mall Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<span\\ class=\"price_style\"><span\\ class=price_style>"
+      "pattern": "<span\\ class=\"price_style\"><span\\ class=price_style>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

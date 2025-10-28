@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<h2>OpenLookup\\ Node\\ Status</h2>"
+      "pattern": "<h2>OpenLookup\\ Node\\ Status</h2>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

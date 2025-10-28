@@ -1,0 +1,31 @@
+{
+  "vendor": "Botble",
+  "vendor_id": "botble",
+  "product": "Botble CMS",
+  "product_id": "botble-botble-cms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Botble CMS Header Detection",
+      "pattern": "CMS-Version: ^(.+)$\\;confidence:0",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Botble CMS from CMS-Version header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "botble-cms"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

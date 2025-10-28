@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^ManagedFusion (rewriter; reverse-proxy; +http://managedfusion.com/)$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^ManagedFusion \\(rewriter; reverse-proxy; +http://managedfusion\\.com/\\)$"
+      "pattern": "^ManagedFusion \\(rewriter; reverse-proxy; +http://managedfusion\\.com/\\)$",
+      "version_group": 0
     },
     {
       "name": "Managed-Fusion-Url-Rewriter Pattern",
@@ -45,5 +52,6 @@
       "pattern": "x-managedfusion-rewriter-version: ^(.+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

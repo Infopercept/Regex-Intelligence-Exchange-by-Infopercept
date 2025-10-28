@@ -1,0 +1,51 @@
+{
+  "vendor": "LogRocket",
+  "vendor_id": "logrocket",
+  "product": "LogRocket",
+  "product_id": "logrocket-logrocket",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "LogRocket Script Detection",
+      "pattern": "cdn\\.logrocket\\.(com|io)",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects LogRocket from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "logrocket"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "LogRocket Script Detection",
+      "pattern": "cdn\\.lr-ingest\\.io",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects LogRocket from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "logrocket"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

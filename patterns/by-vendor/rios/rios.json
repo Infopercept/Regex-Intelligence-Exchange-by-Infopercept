@@ -29,5 +29,6 @@
       "pattern": "x-rbt-optimized-by: \\(RiOS ([^\\s]+)\\)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

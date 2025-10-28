@@ -1,0 +1,71 @@
+{
+  "vendor": "particles.js",
+  "vendor_id": "particles.js",
+  "product": "particles.js",
+  "product_id": "particles.js-particlesjs",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "particles.js HTML Detection",
+      "pattern": "<div id=\"particles-js\">",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects particles.js from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "particles.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "particles.js Script Detection",
+      "pattern": "/particles(?:\\.min)?\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects particles.js from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "particles.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "particles.js JavaScript Detection",
+      "pattern": "window\\.particlesJS|particlesJS\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects particles.js from JavaScript variable 'particlesJS'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "particles.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

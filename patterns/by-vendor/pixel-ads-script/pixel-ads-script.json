@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"index\\.php\\?magnify=1\">Magnifier\\ On</a></div>"
+      "pattern": "<a\\ href=\"index\\.php\\?magnify=1\">Magnifier\\ On</a></div>",
+      "version_group": 0
     },
     {
       "name": "Pixel-Ads-Script Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"index\\.php\\?magnify=1\">Zoom\\ On</a></div>"
+      "pattern": "<a\\ href=\"index\\.php\\?magnify=1\">Zoom\\ On</a></div>",
+      "version_group": 0
     },
     {
       "name": "Pixel-Ads-Script Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ <title>Pixel\\ Ads\\ Script</title>"
+      "pattern": "\\ \\ <title>Pixel\\ Ads\\ Script</title>",
+      "version_group": 0
     },
     {
       "name": "Pixel-Ads-Script Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ <title>Scrap\\ Pixels\\ \\-\\ Pixel\\ List</title>"
+      "pattern": "\\ \\ <title>Scrap\\ Pixels\\ \\-\\ Pixel\\ List</title>",
+      "version_group": 0
     },
     {
       "name": "Pixel-Ads-Script Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ <title>Pixel\\ Ads\\ Script\\ Administration\\ \\-\\ Administrator\\ Login</title>"
+      "pattern": "\\ \\ <title>Pixel\\ Ads\\ Script\\ Administration\\ \\-\\ Administrator\\ Login</title>",
+      "version_group": 0
     },
     {
       "name": "Pixel-Ads-Script Pattern",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <td\\ width=\"850\"\\ class=\"sitetitle\">Pixel\\ Ads\\ Script"
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <td\\ width=\"850\"\\ class=\"sitetitle\">Pixel\\ Ads\\ Script",
+      "version_group": 0
     },
     {
       "name": "Pixel-Ads-Script Pattern",
@@ -150,9 +156,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "          <td width=\"150\" class=\"statsbox\" bgcolor=\"#FFFFFF\"><strong>Pixels Sold:</strong> [d,]+<br>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "          <td width=\"150\" class=\"statsbox\" bgcolor=\"#FFFFFF\"><strong>Pixels Sold:</strong> [\\d\\,]+<br>"
+      "pattern": "          <td width=\"150\" class=\"statsbox\" bgcolor=\"#FFFFFF\"><strong>Pixels Sold:</strong> [\\d\\,]+<br>",
+      "version_group": 0
     },
     {
       "name": "Pixel-Ads-Script Pattern",
@@ -174,7 +187,9 @@
           }
         ]
       },
-      "pattern": "\\ href=\"http://www\\.pixel\\-ads\\-script\\.com\">Powered\\ by:\\ Pixel\\-Ads\\-Script\\.Com</a></div>"
+      "pattern": "\\ href=\"http://www\\.pixel\\-ads\\-script\\.com\">Powered\\ by:\\ Pixel\\-Ads\\-Script\\.Com</a></div>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

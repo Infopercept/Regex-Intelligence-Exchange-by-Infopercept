@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "\\|\\ <A\\ href=\"mysql\\.cgi\\?do=top_level_op\\&data_source=\\&action=create_db\">Create</A>"
+      "pattern": "\\|\\ <A\\ href=\"mysql\\.cgi\\?do=top_level_op\\&data_source=\\&action=create_db\">Create</A>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "database-engine"
 }

@@ -1,0 +1,111 @@
+{
+  "vendor": "Zipkin",
+  "vendor_id": "zipkin",
+  "product": "Zipkin",
+  "product_id": "zipkin-zipkin",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Zipkin Header Detection",
+      "pattern": "X-B3-Flags: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Zipkin from X-B3-Flags header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "zipkin"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Zipkin Header Detection",
+      "pattern": "X-B3-ParentSpanId: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Zipkin from X-B3-ParentSpanId header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "zipkin"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Zipkin Header Detection",
+      "pattern": "X-B3-Sampled: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Zipkin from X-B3-Sampled header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "zipkin"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Zipkin Header Detection",
+      "pattern": "X-B3-SpanId: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Zipkin from X-B3-SpanId header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "zipkin"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Zipkin Header Detection",
+      "pattern": "X-B3-TraceId: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Zipkin from X-B3-TraceId header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "zipkin"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^AOLserver$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^AOLserver$"
+      "pattern": "^AOLserver$",
+      "version_group": 0
     },
     {
       "name": "AOLserver Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^AOLserver/([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

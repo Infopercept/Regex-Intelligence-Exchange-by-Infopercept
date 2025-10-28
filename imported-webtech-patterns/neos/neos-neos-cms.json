@@ -1,0 +1,31 @@
+{
+  "vendor": "Neos",
+  "vendor_id": "neos",
+  "product": "Neos CMS",
+  "product_id": "neos-neos-cms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Neos CMS Header Detection",
+      "pattern": "X-Flow-Powered: Neos/?(.+)?$",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Neos CMS from X-Flow-Powered header",
+        "tags": [
+          "webtech",
+          "header",
+          "neos-cms"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

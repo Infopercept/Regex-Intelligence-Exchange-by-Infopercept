@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>WebDVR</title>"
+      "pattern": "<title>WebDVR</title>",
+      "version_group": 0
     },
     {
       "name": "WebDVR Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<TITLE>WEBDVR</TITLE>"
+      "pattern": "<TITLE>WEBDVR</TITLE>",
+      "version_group": 0
     },
     {
       "name": "WebDVR Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\talert\\(\"Direct\\ Draw\\ Overlay\\ Mode:\\ It\\ is\\ faster\\ than\\ GDI\\ but\\ only\\ available\\ on\\ ATI\\ Video\\ Card\\ and\\ requires\\ Direct\\ 7\\ or\\ above\\.\\\\nIf\\ you\\ have\\ other\\ video\\ cards\\ than\\ ATI,\\ you\\ shouldn\\\\"
+      "pattern": "\\\t\\\talert\\(\"Direct\\ Draw\\ Overlay\\ Mode:\\ It\\ is\\ faster\\ than\\ GDI\\ but\\ only\\ available\\ on\\ ATI\\ Video\\ Card\\ and\\ requires\\ Direct\\ 7\\ or\\ above\\.\\\\nIf\\ you\\ have\\ other\\ video\\ cards\\ than\\ ATI,\\ you\\ shouldn\\\\",
+      "version_group": 0
     },
     {
       "name": "WebDVR Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\talert\\(\"DirectDraw\\ Video\\ acceleration\\ will\\ be\\ enabled\\ if\\ your\\ VGA\\ card\\ supports\\ Microsoft\\ DirectX\\ 8\\.1\\ or\\ later\\.\"\\);"
+      "pattern": "\\\t\\\talert\\(\"DirectDraw\\ Video\\ acceleration\\ will\\ be\\ enabled\\ if\\ your\\ VGA\\ card\\ supports\\ Microsoft\\ DirectX\\ 8\\.1\\ or\\ later\\.\"\\);",
+      "version_group": 0
     },
     {
       "name": "WebDVR Pattern",
@@ -114,7 +118,9 @@
           }
         ]
       },
-      "pattern": "\\\t\\\twindow\\.location=\"webdvr\\.html\";"
+      "pattern": "\\\t\\\twindow\\.location=\"webdvr\\.html\";",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

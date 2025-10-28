@@ -1,0 +1,51 @@
+{
+  "vendor": "tailwindcss",
+  "vendor_id": "tailwindcss",
+  "product": "tailwindcss",
+  "product_id": "tailwindcss-tailwindcss",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "tailwindcss HTML Detection",
+      "pattern": "<link[^>]+?href=\"[^\"]+tailwindcss[@|/][a-z]+/tailwind(?:.min)?.css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects tailwindcss from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "tailwindcss"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "tailwindcss HTML Detection",
+      "pattern": "<link[^>]+?href=\"[^\"]+tailwindcss[@|/]([0-9.]+)(?:/[a-z]+)?/[tailwind|base|components|utilities](?:.min)?.css",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects tailwindcss from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "tailwindcss"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

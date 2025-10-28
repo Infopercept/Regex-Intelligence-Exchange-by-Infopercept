@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^HTTP_ME/d.d Tencent/HTTP_Magic_Expression$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^HTTP_ME/\\d\\.\\d Tencent/HTTP_Magic_Expression$"
+      "pattern": "^HTTP_ME/\\d\\.\\d Tencent/HTTP_Magic_Expression$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,91 @@
+{
+  "vendor": "jQuery",
+  "vendor_id": "jquery",
+  "product": "jQuery Migrate",
+  "product_id": "jquery-jquery-migrate",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "jQuery Migrate Script Detection",
+      "pattern": "jquery[.-]migrate(?:-([\\d.]+))?(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))??\\1:\\2",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects jQuery Migrate from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "jquery-migrate"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "jQuery Migrate JavaScript Detection",
+      "pattern": "window\\.jQuery\\.migrateVersion|jQuery\\.migrateVersion\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects jQuery Migrate from JavaScript variable 'jQuery.migrateVersion'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "jquery-migrate"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "jQuery Migrate JavaScript Detection",
+      "pattern": "window\\.jQuery\\.migrateWarnings|jQuery\\.migrateWarnings\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects jQuery Migrate from JavaScript variable 'jQuery.migrateWarnings'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "jquery-migrate"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "jQuery Migrate JavaScript Detection",
+      "pattern": "window\\.jqueryMigrate|jqueryMigrate\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects jQuery Migrate from JavaScript variable 'jqueryMigrate'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "jquery-migrate"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<HEAD><TITLE>F\\*EX\\ \\-\\ File\\ EXchange</TITLE></HEAD>"
+      "pattern": "<HEAD><TITLE>F\\*EX\\ \\-\\ File\\ EXchange</TITLE></HEAD>",
+      "version_group": 0
     },
     {
       "name": "FEX Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<h1>F\\*EX\\ \\-\\ Frams'\\ Fast\\ File\\ EXchange"
+      "pattern": "<h1>F\\*EX\\ \\-\\ Frams'\\ Fast\\ File\\ EXchange",
+      "version_group": 0
     },
     {
       "name": "FEX Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"mailto:[^\"]+\">fexmaster</a></address>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"mailto:[^\"]+\">fexmaster</a></address>"
+      "pattern": "<a href=\"mailto:[^\"]+\">fexmaster</a></address>",
+      "version_group": 0
     },
     {
       "name": "FEX Pattern",
@@ -78,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^fexsrv$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^fexsrv$"
+      "pattern": "^fexsrv$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

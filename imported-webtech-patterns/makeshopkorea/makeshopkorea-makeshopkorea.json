@@ -1,0 +1,51 @@
+{
+  "vendor": "MakeShopKorea",
+  "vendor_id": "makeshopkorea",
+  "product": "MakeShopKorea",
+  "product_id": "makeshopkorea-makeshopkorea",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MakeShopKorea JavaScript Detection",
+      "pattern": "window\\.Makeshop|Makeshop\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MakeShopKorea from JavaScript variable 'Makeshop'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "makeshopkorea"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "MakeShopKorea JavaScript Detection",
+      "pattern": "window\\.MakeshopLogUniqueId|MakeshopLogUniqueId\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MakeShopKorea from JavaScript variable 'MakeshopLogUniqueId'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "makeshopkorea"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

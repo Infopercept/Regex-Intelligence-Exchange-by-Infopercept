@@ -1,0 +1,51 @@
+{
+  "vendor": "SunOS",
+  "vendor_id": "sunos",
+  "product": "SunOS",
+  "product_id": "sunos-sunos",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SunOS Header Detection",
+      "pattern": "Server: SunOS( [\\d\\.]+)?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SunOS from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "sunos"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "SunOS Header Detection",
+      "pattern": "Servlet-engine: SunOS( [\\d\\.]+)?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SunOS from Servlet-engine header",
+        "tags": [
+          "webtech",
+          "header",
+          "sunos"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

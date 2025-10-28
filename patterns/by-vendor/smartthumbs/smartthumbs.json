@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "POWERED[s]+BY[s]+<a href=\"http://www.smart-scripts.com\">SMART THUMBS</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "POWERED[\\s]+BY[\\s]+<a href=\"http://www.smart-scripts.com\">SMART THUMBS</a>"
+      "pattern": "POWERED[\\s]+BY[\\s]+<a href=\"http://www.smart-scripts.com\">SMART THUMBS</a>",
+      "version_group": 0
     },
     {
       "name": "SmartThumbs Pattern",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "POWERED\\ BY<span>\\ <a\\ href=\"http://www\\.thumbsrotator\\.com\"><b><span\\ style=\"font\\-size:\\ 11px;\\ font\\-family:\\ Verdana,\\ Arial;\">SMART\\ THUMBS</span>"
+      "pattern": "POWERED\\ BY<span>\\ <a\\ href=\"http://www\\.thumbsrotator\\.com\"><b><span\\ style=\"font\\-size:\\ 11px;\\ font\\-family:\\ Verdana,\\ Arial;\">SMART\\ THUMBS</span>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ href=\"pics/blogengine\\.ico\"\\ type=\"image/x\\-icon\"\\ />"
+      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ href=\"pics/blogengine\\.ico\"\\ type=\"image/x\\-icon\"\\ />",
+      "version_group": 0
     },
     {
       "name": "BlogEngine_NET Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by[rns]*<a href=\"http://www.dotnetblogengine.net[/]?\"[^>]*>BlogEngine.NET</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by[\\r\\n\\s]*<a href=\"http://www.dotnetblogengine.net[/]?\"[^>]*>BlogEngine.NET</a>"
+      "pattern": "Powered by[\\r\\n\\s]*<a href=\"http://www.dotnetblogengine.net[/]?\"[^>]*>BlogEngine.NET</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,51 @@
+{
+  "vendor": "LiveStreet",
+  "vendor_id": "livestreet",
+  "product": "LiveStreet CMS",
+  "product_id": "livestreet-livestreet-cms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "LiveStreet CMS Header Detection",
+      "pattern": "X-Powered-By: LiveStreet CMS",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects LiveStreet CMS from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "livestreet-cms"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "LiveStreet CMS JavaScript Detection",
+      "pattern": "window\\.LIVESTREET_SECURITY_KEY|LIVESTREET_SECURITY_KEY\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects LiveStreet CMS from JavaScript variable 'LIVESTREET_SECURITY_KEY'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "livestreet-cms"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

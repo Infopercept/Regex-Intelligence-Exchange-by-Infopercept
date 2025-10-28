@@ -1,0 +1,31 @@
+{
+  "vendor": "Quill",
+  "vendor_id": "quill",
+  "product": "Quill",
+  "product_id": "quill-quill",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Quill JavaScript Detection",
+      "pattern": "window\\.Quill|Quill\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Quill from JavaScript variable 'Quill'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "quill"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

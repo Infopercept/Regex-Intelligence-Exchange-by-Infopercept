@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "\\ href=\"http://www\\.inoutscripts\\.com/\\?r=13\">Powered\\ by\\ Inoutscripts</a>"
+      "pattern": "\\ href=\"http://www\\.inoutscripts\\.com/\\?r=13\">Powered\\ by\\ Inoutscripts</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

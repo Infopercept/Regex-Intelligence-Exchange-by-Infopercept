@@ -1,0 +1,71 @@
+{
+  "vendor": "YUI",
+  "vendor_id": "yui",
+  "product": "YUI",
+  "product_id": "yui-yui",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "YUI Script Detection",
+      "pattern": "(?:/yui/|yui\\.yahooapis\\.com)",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects YUI from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "yui"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "YUI JavaScript Detection",
+      "pattern": "window\\.YAHOO\\.VERSION|YAHOO\\.VERSION\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects YUI from JavaScript variable 'YAHOO.VERSION'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "yui"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "YUI JavaScript Detection",
+      "pattern": "window\\.YUI\\.version|YUI\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects YUI from JavaScript variable 'YUI.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "yui"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

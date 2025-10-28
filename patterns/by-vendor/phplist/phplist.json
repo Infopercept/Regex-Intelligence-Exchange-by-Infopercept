@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<html><head><title>Nothing\\ here</title></head><body>"
+      "pattern": "<html><head><title>Nothing\\ here</title></head><body>",
+      "version_group": 0
     },
     {
       "name": "phplist Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<p>You\\ probably\\ want\\ to\\ be\\ <a\\ href=\"\\.\\./\">here</a>\\ or\\ <a\\ href=\"admin/\">here</a>\\.</p>"
+      "pattern": "<p>You\\ probably\\ want\\ to\\ be\\ <a\\ href=\"\\.\\./\">here</a>\\ or\\ <a\\ href=\"admin/\">here</a>\\.</p>",
+      "version_group": 0
     },
     {
       "name": "phplist Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"Author\"\\ content=\"Michiel\\ Dethmers\\ \\-\\ http://www\\.phplist\\.com\"\\ />"
+      "pattern": "<meta\\ name=\"Author\"\\ content=\"Michiel\\ Dethmers\\ \\-\\ http://www\\.phplist\\.com\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

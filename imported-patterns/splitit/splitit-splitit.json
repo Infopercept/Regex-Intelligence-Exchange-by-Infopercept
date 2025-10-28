@@ -1,0 +1,31 @@
+{
+  "vendor": "SplitIt",
+  "vendor_id": "splitit",
+  "product": "SplitIt",
+  "product_id": "splitit-splitit",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SplitIt Script Detection",
+      "pattern": "checkout\\.production\\.splitit\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SplitIt from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "splitit"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

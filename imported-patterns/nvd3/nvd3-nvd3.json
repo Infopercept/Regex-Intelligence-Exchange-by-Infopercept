@@ -1,0 +1,51 @@
+{
+  "vendor": "NVD3",
+  "vendor_id": "nvd3",
+  "product": "NVD3",
+  "product_id": "nvd3-nvd3",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "NVD3 HTML Detection",
+      "pattern": "<link[^>]* href=[^>]+nv\\.d3(?:\\.min)?\\.css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects NVD3 from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "nvd3"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "NVD3 Script Detection",
+      "pattern": "nv\\.d3(?:\\.min)?\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects NVD3 from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "nvd3"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

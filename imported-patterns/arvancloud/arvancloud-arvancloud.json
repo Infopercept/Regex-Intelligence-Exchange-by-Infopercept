@@ -1,0 +1,31 @@
+{
+  "vendor": "ArvanCloud",
+  "vendor_id": "arvancloud",
+  "product": "ArvanCloud",
+  "product_id": "arvancloud-arvancloud",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ArvanCloud Header Detection",
+      "pattern": "AR-PoweredBy: Arvan Cloud \\(arvancloud\\.com\\)",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ArvanCloud from AR-PoweredBy header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "arvancloud"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

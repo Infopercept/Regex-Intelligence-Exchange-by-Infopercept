@@ -1,0 +1,51 @@
+{
+  "vendor": "SUSE",
+  "vendor_id": "suse",
+  "product": "SUSE",
+  "product_id": "suse-suse",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SUSE Header Detection",
+      "pattern": "Server: SUSE(?:/?\\s?-?([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SUSE from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "suse"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "SUSE Header Detection",
+      "pattern": "X-Powered-By: SUSE(?:/?\\s?-?([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SUSE from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "suse"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

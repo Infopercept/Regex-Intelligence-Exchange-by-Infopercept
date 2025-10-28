@@ -1,0 +1,71 @@
+{
+  "vendor": "Bootstrap",
+  "vendor_id": "bootstrap",
+  "product": "Bootstrap",
+  "product_id": "bootstrap-bootstrap",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Bootstrap HTML Detection",
+      "pattern": "<style>\\s+/\\*!\\s+\\* Bootstrap v(\\d\\.\\d\\.\\d)",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bootstrap from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "bootstrap"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Bootstrap HTML Detection",
+      "pattern": "<link[^>]* href=[^>]*?bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>]*?(?:\\.min)?\\.css",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bootstrap from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "bootstrap"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Bootstrap Script Detection",
+      "pattern": "bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>]*?(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bootstrap from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "bootstrap"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

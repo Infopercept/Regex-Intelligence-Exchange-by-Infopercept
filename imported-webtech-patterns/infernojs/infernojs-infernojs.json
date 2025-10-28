@@ -1,0 +1,51 @@
+{
+  "vendor": "InfernoJS",
+  "vendor_id": "infernojs",
+  "product": "InfernoJS",
+  "product_id": "infernojs-infernojs",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "InfernoJS JavaScript Detection",
+      "pattern": "window\\.Inferno|Inferno\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects InfernoJS from JavaScript variable 'Inferno'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "infernojs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "InfernoJS JavaScript Detection",
+      "pattern": "window\\.Inferno\\.version|Inferno\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects InfernoJS from JavaScript variable 'Inferno.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "infernojs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

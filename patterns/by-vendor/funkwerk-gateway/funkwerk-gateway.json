@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^fec/[d.]+ (Funkwerk BOSS)$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^fec/[\\d\\.]+ \\(Funkwerk BOSS\\)$"
+      "pattern": "^fec/[\\d\\.]+ \\(Funkwerk BOSS\\)$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

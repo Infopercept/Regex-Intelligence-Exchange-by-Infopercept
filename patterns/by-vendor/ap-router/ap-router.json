@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<frame\\ marginwidth=\"5\"\\ marginheight=\"5\"\\ src=\"menu_empty\\.html\"\\ name=\"menu\"\\ noresize\\ scrolling=\"auto\"\\ frameborder=\"0\">"
+      "pattern": "<frame\\ marginwidth=\"5\"\\ marginheight=\"5\"\\ src=\"menu_empty\\.html\"\\ name=\"menu\"\\ noresize\\ scrolling=\"auto\"\\ frameborder=\"0\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

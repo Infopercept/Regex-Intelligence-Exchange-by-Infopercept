@@ -1,0 +1,51 @@
+{
+  "vendor": "Revslider",
+  "vendor_id": "revslider",
+  "product": "Revslider",
+  "product_id": "revslider-revslider",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Revslider HTML Detection",
+      "pattern": "<link[^>]* href=[\\'\"][^']+revslider[/\\w-]+\\.css\\?ver=([0-9.]+)[\\'\"]",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Revslider from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "revslider"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Revslider Script Detection",
+      "pattern": "/revslider/[/\\w-]+/js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Revslider from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "revslider"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

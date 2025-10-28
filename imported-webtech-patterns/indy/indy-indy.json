@@ -1,0 +1,31 @@
+{
+  "vendor": "Indy",
+  "vendor_id": "indy",
+  "product": "Indy",
+  "product_id": "indy-indy",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Indy Header Detection",
+      "pattern": "Server: Indy(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Indy from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "indy"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

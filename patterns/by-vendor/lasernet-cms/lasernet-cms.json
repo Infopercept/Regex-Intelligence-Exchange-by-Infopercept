@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<font size=\"1\" face=\"Verdana, Arial, Helvetica, sans-serif\">Powered by</font></font>[s]+<a href=\"http://lasernet.gr\"><font size=\"1\" face=\"Verdana, Arial, Helvetica, sans-serif\">Lasernet</font></a>[s]+</td>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<font size=\"1\" face=\"Verdana, Arial, Helvetica, sans-serif\">Powered by</font></font>[\\s]+<a href=\"http://lasernet\\.gr\"><font size=\"1\" face=\"Verdana, Arial, Helvetica, sans-serif\">Lasernet</font></a>[\\s]+</td>"
+      "pattern": "<font size=\"1\" face=\"Verdana, Arial, Helvetica, sans-serif\">Powered by</font></font>[\\s]+<a href=\"http://lasernet\\.gr\"><font size=\"1\" face=\"Verdana, Arial, Helvetica, sans-serif\">Lasernet</font></a>[\\s]+</td>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

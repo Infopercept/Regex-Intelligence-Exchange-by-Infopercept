@@ -1,0 +1,31 @@
+{
+  "vendor": "Taggbox",
+  "vendor_id": "taggbox",
+  "product": "Taggbox",
+  "product_id": "taggbox-taggbox",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Taggbox Script Detection",
+      "pattern": "web\\.taggbox\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Taggbox from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "taggbox"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

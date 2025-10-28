@@ -1,0 +1,51 @@
+{
+  "vendor": "Veoxa",
+  "vendor_id": "veoxa",
+  "product": "Veoxa",
+  "product_id": "veoxa-veoxa",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Veoxa HTML Detection",
+      "pattern": "<img [^>]*src=\"[^\"]+tracking\\.veoxa\\.com",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Veoxa from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "veoxa"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Veoxa Script Detection",
+      "pattern": "tracking\\.veoxa\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Veoxa from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "veoxa"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "vendor": "comScore",
+  "vendor_id": "comscore",
+  "product": "comScore",
+  "product_id": "comscore-comscore",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "comScore HTML Detection",
+      "pattern": "<iframe[^>]* (?:id=\"comscore\"|scr=[^>]+comscore)|\\.scorecardresearch\\.com/beacon\\.js|COMSCORE\\.beacon",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects comScore from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "comscore"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "comScore Script Detection",
+      "pattern": "\\.scorecardresearch\\.com/beacon\\.js|COMSCORE\\.beacon",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects comScore from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "comscore"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "comScore JavaScript Detection",
+      "pattern": "window\\.COMSCORE|COMSCORE\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects comScore from JavaScript variable 'COMSCORE'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "comscore"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "comScore JavaScript Detection",
+      "pattern": "window\\._COMSCORE|_COMSCORE\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects comScore from JavaScript variable '_COMSCORE'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "comscore"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

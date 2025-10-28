@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<TITLE>SpeedStream\\ Router\\ Management\\ Interface</TITLE>"
+      "pattern": "<TITLE>SpeedStream\\ Router\\ Management\\ Interface</TITLE>",
+      "version_group": 0
     },
     {
       "name": "Siemens-SpeedStream-Router Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Copyright(C) [0-9]+ Siemens Subscriber Networks -->",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!-- Copyright(C) [0-9]+ Siemens Subscriber Networks -->"
+      "pattern": "<!-- Copyright(C) [0-9]+ Siemens Subscriber Networks -->",
+      "version_group": 0
     },
     {
       "name": "Siemens-SpeedStream-Router Pattern",
@@ -64,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<FRAME\\ SRC=\"pflogin\\.htm\"\\ NAME=\"rightFrame\""
+      "pattern": "<FRAME\\ SRC=\"pflogin\\.htm\"\\ NAME=\"rightFrame\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

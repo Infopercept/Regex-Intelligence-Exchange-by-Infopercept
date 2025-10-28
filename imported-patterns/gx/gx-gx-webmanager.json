@@ -1,0 +1,51 @@
+{
+  "vendor": "GX",
+  "vendor_id": "gx",
+  "product": "GX WebManager",
+  "product_id": "gx-gx-webmanager",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "GX WebManager HTML Detection",
+      "pattern": "<!--\\s+Powered by GX",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GX WebManager from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "gx-webmanager"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "GX WebManager Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']GX WebManager(?: ([\\d.]+))?[\"']",
+      "version_group": 1,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GX WebManager from meta tag with name 'generator'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "gx-webmanager"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

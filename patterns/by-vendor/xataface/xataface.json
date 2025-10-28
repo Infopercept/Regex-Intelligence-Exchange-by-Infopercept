@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ custom\\ javascripts\\ can\\ go\\ in\\ slot\\ \"custom_javascripts\"\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ custom\\ javascripts\\ can\\ go\\ in\\ slot\\ \"custom_javascripts\"\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Xataface Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Place\\ any\\ other\\ items\\ in\\ the\\ head\\ of\\ the\\ document\\ by\\ filling\\ the\\ \"head_slot\"\\ slot\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Place\\ any\\ other\\ items\\ in\\ the\\ head\\ of\\ the\\ document\\ by\\ filling\\ the\\ \"head_slot\"\\ slot\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,51 @@
+{
+  "vendor": "GitHub",
+  "vendor_id": "github",
+  "product": "GitHub Pages",
+  "product_id": "github-github-pages",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "GitHub Pages Header Detection",
+      "pattern": "Server: ^GitHub\\.com$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GitHub Pages from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "github-pages"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "GitHub Pages Header Detection",
+      "pattern": "X-GitHub-Request-Id: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GitHub Pages from X-GitHub-Request-Id header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "github-pages"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

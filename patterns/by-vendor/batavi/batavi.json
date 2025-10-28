@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"Batavi\\.org\\ \\-\\ Open\\ Source\\ E\\-Commerce\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"Batavi\\.org\\ \\-\\ Open\\ Source\\ E\\-Commerce\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Batavi Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Batavi e-commerce",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Batavi e\\-commerce"
+      "pattern": "Batavi e\\-commerce",
+      "version_group": 0
     },
     {
       "name": "Batavi Pattern",
@@ -56,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "frontsid=[^;]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "frontsid=[^;]+;"
+      "pattern": "frontsid=[^;]+;",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"author\"\\ content=\"Cr8Soft\"\\ />"
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Cr8Soft\"\\ />",
+      "version_group": 0
     },
     {
       "name": "PHPCityportal Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<center><a\\ href=\"http://phpcityportal\\.com\">Powered\\ by\\ PHPCityPortal\\.com</a></center><p>"
+      "pattern": "<center><a\\ href=\"http://phpcityportal\\.com\">Powered\\ by\\ PHPCityPortal\\.com</a></center><p>",
+      "version_group": 0
     },
     {
       "name": "PHPCityportal Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<center><a\\ href=\"http://www\\.phpcityportal\\.com/index\\.php\">Powered\\ by\\ PHPCityPortal\\.com</a></center>"
+      "pattern": "<center><a\\ href=\"http://www\\.phpcityportal\\.com/index\\.php\">Powered\\ by\\ PHPCityPortal\\.com</a></center>",
+      "version_group": 0
     },
     {
       "name": "PHPCityportal Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<form\\ id=\"frm_login_left\"\\ name=\"frm_login_left\"\\ action=\"includes/check_user\\.php\"\\ method=\"post\">"
+      "pattern": "<form\\ id=\"frm_login_left\"\\ name=\"frm_login_left\"\\ action=\"includes/check_user\\.php\"\\ method=\"post\">",
+      "version_group": 0
     },
     {
       "name": "PHPCityportal Pattern",
@@ -114,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<form\\ id=\"frm_login_left\"\\ name=\"frm_login_left\"\\ action=\"includes/check_user\\.php\\.inc\"\\ method=\"post\">"
+      "pattern": "<form\\ id=\"frm_login_left\"\\ name=\"frm_login_left\"\\ action=\"includes/check_user\\.php\\.inc\"\\ method=\"post\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

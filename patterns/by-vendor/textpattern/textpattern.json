@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\"[^>]+content=\"textpattern\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\\\"generator\\\"[^>]+content=\\\"textpattern\" />"
+      "pattern": "<meta name=\\\"generator\\\"[^>]+content=\\\"textpattern\" />",
+      "version_group": 0
     },
     {
       "name": "jquery.js",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script[^>]+src=\"[^\"]+textpattern/jquery.js[^\"]*\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script[^>]+src=\"[^\"]+textpattern/jquery.js[^\"]*\">"
+      "pattern": "<script[^>]+src=\"[^\"]+textpattern/jquery.js[^\"]*\">",
+      "version_group": 0
     },
     {
       "name": "css.php",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link[^>]+href=\"[^\"]+textpattern/css.php[^\"]*\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link[^>]+href=\\\"[^\"]+textpattern/css.php[^\"]*\" />"
+      "pattern": "<link[^>]+href=\\\"[^\"]+textpattern/css.php[^\"]*\" />",
+      "version_group": 0
     },
     {
       "name": "/textpattern",
@@ -74,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<td\\ id=\"view\\-site\"\\ class=\"tabdown\">"
+      "pattern": "<td\\ id=\"view\\-site\"\\ class=\"tabdown\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

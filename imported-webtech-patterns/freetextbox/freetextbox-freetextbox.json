@@ -1,0 +1,71 @@
+{
+  "vendor": "FreeTextBox",
+  "vendor_id": "freetextbox",
+  "product": "FreeTextBox",
+  "product_id": "freetextbox-freetextbox",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FreeTextBox HTML Detection",
+      "pattern": "/<!--\\s*\\*\\s*FreeTextBox v\\d+ \\(([.\\d]+)(?:(?:.|\\n)+?<!--\\s*\\*\\s*License Type: (Distribution|Professional)License)?/i \\2",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects FreeTextBox from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "freetextbox"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "FreeTextBox JavaScript Detection",
+      "pattern": "window\\.FTB_API|FTB_API\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects FreeTextBox from JavaScript variable 'FTB_API'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "freetextbox"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "FreeTextBox JavaScript Detection",
+      "pattern": "window\\.FTB_AddEvent|FTB_AddEvent\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects FreeTextBox from JavaScript variable 'FTB_AddEvent'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "freetextbox"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

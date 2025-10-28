@@ -1,0 +1,31 @@
+{
+  "vendor": "SPDY",
+  "vendor_id": "spdy",
+  "product": "SPDY",
+  "product_id": "spdy-spdy",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SPDY Header Detection",
+      "pattern": "X-Firefox-Spdy: \\d\\.\\d",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SPDY from X-Firefox-Spdy header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "spdy"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

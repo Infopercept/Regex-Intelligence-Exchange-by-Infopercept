@@ -1,0 +1,51 @@
+{
+  "vendor": "Dynatrace",
+  "vendor_id": "dynatrace",
+  "product": "Dynatrace",
+  "product_id": "dynatrace-dynatrace",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Dynatrace Header Detection",
+      "pattern": "X-dynaTrace-JS-Agent: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Dynatrace from X-dynaTrace-JS-Agent header",
+        "tags": [
+          "webtech",
+          "header",
+          "dynatrace"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Dynatrace Script Detection",
+      "pattern": "dtagent.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Dynatrace from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "dynatrace"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

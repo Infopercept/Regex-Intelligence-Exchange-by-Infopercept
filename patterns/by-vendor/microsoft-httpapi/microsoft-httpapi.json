@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Microsoft-HTTPAPI",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Microsoft-HTTPAPI"
+      "pattern": "Microsoft-HTTPAPI",
+      "version_group": 0
     },
     {
       "name": "Microsoft-HTTPAPI Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: Microsoft-HTTPAPI/(.+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

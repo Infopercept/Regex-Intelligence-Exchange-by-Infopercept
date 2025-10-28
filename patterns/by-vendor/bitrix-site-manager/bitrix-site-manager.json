@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^policyref=\"/bitrix/p3p.xml\", CP=\"NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA\"$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^policyref=\"/bitrix/p3p\\.xml\", CP=\"NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA\"$"
+      "pattern": "^policyref=\"/bitrix/p3p\\.xml\", CP=\"NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA\"$",
+      "version_group": 0
     },
     {
       "name": "BITRIX_SM_SALE_UID Cookie",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "BITRIX_SM_SALE_UID=[d]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "BITRIX_SM_SALE_UID=[\\d]+;"
+      "pattern": "BITRIX_SM_SALE_UID=[\\d]+;",
+      "version_group": 0
     },
     {
       "name": "BITRIX_SM_GUEST_ID Cookie",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "BITRIX_SM_GUEST_ID=[d]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "BITRIX_SM_GUEST_ID=[\\d]+;"
+      "pattern": "BITRIX_SM_GUEST_ID=[\\d]+;",
+      "version_group": 0
     },
     {
       "name": "BITRIX_SM_LAST_VISIT Cookie",
@@ -66,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "BITRIX_SM_LAST_VISIT=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "BITRIX_SM_LAST_VISIT="
+      "pattern": "BITRIX_SM_LAST_VISIT=",
+      "version_group": 0
     },
     {
       "name": "BITRIX_SM_BANNERS Cookie",
@@ -82,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "BITRIX_SM_BANNERS=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "BITRIX_SM_BANNERS="
+      "pattern": "BITRIX_SM_BANNERS=",
+      "version_group": 0
     },
     {
       "name": "X-Powered-CMS Header",
@@ -98,9 +133,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Bitrix Site Manager (",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Bitrix Site Manager \\("
+      "pattern": "^Bitrix Site Manager \\(",
+      "version_group": 0
     },
     {
       "name": "B-Powered-By Header",
@@ -114,9 +156,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Bitrix SM (",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Bitrix SM \\("
+      "pattern": "^Bitrix SM \\(",
+      "version_group": 0
     },
     {
       "name": "B-Powered-By Header",
@@ -141,5 +190,6 @@
       "pattern": "b-powered-by: ^Bitrix SM/([\\d\\.]+) \\(",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

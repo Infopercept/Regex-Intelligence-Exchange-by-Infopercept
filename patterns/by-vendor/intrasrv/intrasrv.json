@@ -29,5 +29,6 @@
       "pattern": "Server: ^intrasrv ([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

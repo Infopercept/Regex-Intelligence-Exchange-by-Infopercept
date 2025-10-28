@@ -1,0 +1,31 @@
+{
+  "vendor": "Gravatar",
+  "vendor_id": "gravatar",
+  "product": "Gravatar",
+  "product_id": "gravatar-gravatar",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Gravatar HTML Detection",
+      "pattern": "<[^>]+gravatar\\.com/avatar/",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Gravatar from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "gravatar"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

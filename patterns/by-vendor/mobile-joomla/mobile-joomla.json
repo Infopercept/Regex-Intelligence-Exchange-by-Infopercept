@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "mjmarkup=deleted;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "mjmarkup=deleted;"
+      "pattern": "mjmarkup=deleted;",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

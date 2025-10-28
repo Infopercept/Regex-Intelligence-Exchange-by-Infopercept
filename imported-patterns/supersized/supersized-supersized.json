@@ -1,0 +1,31 @@
+{
+  "vendor": "Supersized",
+  "vendor_id": "supersized",
+  "product": "Supersized",
+  "product_id": "supersized-supersized",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Supersized Script Detection",
+      "pattern": "supersized(?:\\.([\\d.]*[\\d]))?.*\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Supersized from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "supersized"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "vendor": "Web2py",
+  "vendor_id": "web2py",
+  "product": "Web2py",
+  "product_id": "web2py-web2py",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Web2py Header Detection",
+      "pattern": "X-Powered-By: web2py",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Web2py from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "web2py"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Web2py Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']^Web2py[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Web2py from meta tag with name 'generator'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "web2py"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Web2py Script Detection",
+      "pattern": "web2py\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Web2py from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "web2py"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

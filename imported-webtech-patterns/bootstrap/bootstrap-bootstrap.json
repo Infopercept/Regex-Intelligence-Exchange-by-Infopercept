@@ -1,0 +1,191 @@
+{
+  "vendor": "Bootstrap",
+  "vendor_id": "bootstrap",
+  "product": "Bootstrap",
+  "product_id": "bootstrap-bootstrap",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Bootstrap HTML Detection",
+      "pattern": "<style>/\\*!\\* Bootstrap v(\\d\\.\\d\\.\\d)",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bootstrap from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "bootstrap"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Bootstrap HTML Detection",
+      "pattern": "<link[^>]+?href=[^\"]/css/([\\d.]+)/bootstrap\\.(?:min\\.)?css",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bootstrap from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "bootstrap"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Bootstrap HTML Detection",
+      "pattern": "<link[^>]+?href=\"[^\"]*bootstrap(?:\\.min)?\\.css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bootstrap from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "bootstrap"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Bootstrap HTML Detection",
+      "pattern": "<div[^>]+class=\"[^\"]*glyphicon glyphicon-",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bootstrap from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "bootstrap"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Bootstrap Script Detection",
+      "pattern": "twitter\\.github\\.com/bootstrap",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bootstrap from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "bootstrap"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Bootstrap Script Detection",
+      "pattern": "bootstrap[.-]([\\d.]*\\d)[^/]*\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bootstrap from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "bootstrap"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Bootstrap Script Detection",
+      "pattern": "(?:/([\\d.]+))?(?:/js)?/bootstrap(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bootstrap from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "bootstrap"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Bootstrap JavaScript Detection",
+      "pattern": "window\\.bootstrap\\.Alert\\.VERSION|bootstrap\\.Alert\\.VERSION\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bootstrap from JavaScript variable 'bootstrap.Alert.VERSION'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "bootstrap"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Bootstrap JavaScript Detection",
+      "pattern": "window\\.jQuery\\.fn\\.tooltip\\.Constructor\\.VERSION|jQuery\\.fn\\.tooltip\\.Constructor\\.VERSION\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bootstrap from JavaScript variable 'jQuery.fn.tooltip.Constructor.VERSION'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "bootstrap"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

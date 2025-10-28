@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ Newscoop,\\ the\\ open\\ content\\ management\\ system\\ for\\ professional\\ journalists\\.<br\\ />"
+      "pattern": "Powered\\ by\\ Newscoop,\\ the\\ open\\ content\\ management\\ system\\ for\\ professional\\ journalists\\.<br\\ />",
+      "version_group": 0
     },
     {
       "name": "Newscoop Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://newscoop\\.sourcefabric\\.org/\"\\ target=\"_blank\">Newscoop</a>,\\ the\\ open\\ content\\ management\\ system\\ for\\ professional\\ journalists\\."
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://newscoop\\.sourcefabric\\.org/\"\\ target=\"_blank\">Newscoop</a>,\\ the\\ open\\ content\\ management\\ system\\ for\\ professional\\ journalists\\.",
+      "version_group": 0
     },
     {
       "name": "Newscoop Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"Newscoop\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"Newscoop\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

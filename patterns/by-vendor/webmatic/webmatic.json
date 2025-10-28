@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "Powered\\&nbsp;by\\&nbsp;<a\\ href=\"http://www\\.webmatic\\.it\">Webmatic</a>"
+      "pattern": "Powered\\&nbsp;by\\&nbsp;<a\\ href=\"http://www\\.webmatic\\.it\">Webmatic</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

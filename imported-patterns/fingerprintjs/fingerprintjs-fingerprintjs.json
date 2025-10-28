@@ -1,0 +1,51 @@
+{
+  "vendor": "FingerprintJS",
+  "vendor_id": "fingerprintjs",
+  "product": "FingerprintJS",
+  "product_id": "fingerprintjs-fingerprintjs",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FingerprintJS Script Detection",
+      "pattern": "fingerprint(\\d)?(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects FingerprintJS from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "fingerprintjs"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "FingerprintJS Script Detection",
+      "pattern": "/fingerprintjs@(\\d)",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects FingerprintJS from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "fingerprintjs"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

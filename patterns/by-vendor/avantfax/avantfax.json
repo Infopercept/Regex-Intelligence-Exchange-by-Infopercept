@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"description\"\\ content=\"Web\\ 2\\.0\\ HylaFAX\\ management\"\\ />"
+      "pattern": "<meta\\ name=\"description\"\\ content=\"Web\\ 2\\.0\\ HylaFAX\\ management\"\\ />",
+      "version_group": 0
     },
     {
       "name": "AvantFAX Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "</label><br\\ /><br\\ /><input\\ type=\"password\"\\ name=\"password\"\\ id=\"password\"\\ style=\"width:\\ 12em\"\\ maxlength=\"15\"\\ /></p><br\\ />"
+      "pattern": "</label><br\\ /><br\\ /><input\\ type=\"password\"\\ name=\"password\"\\ id=\"password\"\\ style=\"width:\\ 12em\"\\ maxlength=\"15\"\\ /></p><br\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

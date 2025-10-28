@@ -1,0 +1,31 @@
+{
+  "vendor": "Storeden",
+  "vendor_id": "storeden",
+  "product": "Storeden",
+  "product_id": "storeden-storeden",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Storeden Header Detection",
+      "pattern": "X-Powered-By: Storeden",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Storeden from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "storeden"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

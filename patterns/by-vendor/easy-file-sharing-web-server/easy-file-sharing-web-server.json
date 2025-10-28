@@ -29,5 +29,6 @@
       "pattern": "Server: ^Easy File Sharing Web Server v(.+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

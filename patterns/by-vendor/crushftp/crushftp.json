@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<script\\ type=\"text/javascript\"\\ src=\"crushftp_functions\\.js\"></script>"
+      "pattern": "<script\\ type=\"text/javascript\"\\ src=\"crushftp_functions\\.js\"></script>",
+      "version_group": 0
     },
     {
       "name": "CrushFTP Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^CrushFTP ",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^CrushFTP "
+      "pattern": "^CrushFTP ",
+      "version_group": 0
     },
     {
       "name": "CrushFTP Pattern",
@@ -79,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^CrushAuth=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^CrushAuth="
+      "pattern": "^CrushAuth=",
+      "version_group": 0
     },
     {
       "name": "WWW-Authenticate",
@@ -106,5 +121,6 @@
       "pattern": "www-authenticate: ^Basic realm=\"CrushFTP Server Version ([\\d\\.]+)\"$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

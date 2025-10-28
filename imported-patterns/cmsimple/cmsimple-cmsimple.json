@@ -1,0 +1,31 @@
+{
+  "vendor": "CMSimple",
+  "vendor_id": "cmsimple",
+  "product": "CMSimple",
+  "product_id": "cmsimple-cmsimple",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CMSimple Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']CMSimple( [\\d.]+)?[\"']",
+      "version_group": 1,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CMSimple from meta tag with name 'generator'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "cmsimple"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

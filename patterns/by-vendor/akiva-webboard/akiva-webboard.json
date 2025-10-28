@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ \\-\\-\\-\\ AKIVA\\ COPYRIGHT\\ NOTICE\\ \\-\\-\\-\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ \\-\\-\\-\\ AKIVA\\ COPYRIGHT\\ NOTICE\\ \\-\\-\\-\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Akiva-WebBoard Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Under\\ the\\ terms\\ of\\ the\\ WebBoard\\ License\\ Agreement\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Under\\ the\\ terms\\ of\\ the\\ WebBoard\\ License\\ Agreement\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Akiva-WebBoard Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ wbmain\\ 8/22/2005\\ 11:11AM\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ wbmain\\ 8/22/2005\\ 11:11AM\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Akiva-WebBoard Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"images/branding\\-bottom\\.gif\"\\ width=\"46\"\\ height=\"44\"\\ alt=\"Powered\\ by\\ WebBoard\">"
+      "pattern": "<img\\ src=\"images/branding\\-bottom\\.gif\"\\ width=\"46\"\\ height=\"44\"\\ alt=\"Powered\\ by\\ WebBoard\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

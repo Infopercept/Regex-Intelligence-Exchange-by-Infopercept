@@ -1,0 +1,51 @@
+{
+  "vendor": "Danneo",
+  "vendor_id": "danneo",
+  "product": "Danneo CMS",
+  "product_id": "danneo-danneo-cms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Danneo CMS Header Detection",
+      "pattern": "X-Powered-By: CMS Danneo ([\\d.]+)",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Danneo CMS from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "danneo-cms"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Danneo CMS Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']Danneo CMS ([\\d.]+)[\"']",
+      "version_group": 1,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Danneo CMS from meta tag with name 'generator'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "danneo-cms"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

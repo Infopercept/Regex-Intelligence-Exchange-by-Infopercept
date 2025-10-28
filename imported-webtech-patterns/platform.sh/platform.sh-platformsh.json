@@ -1,0 +1,91 @@
+{
+  "vendor": "Platform.sh",
+  "vendor_id": "platform.sh",
+  "product": "Platform.sh",
+  "product_id": "platform.sh-platformsh",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Platform.sh Header Detection",
+      "pattern": "x-platform-cluster: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Platform.sh from x-platform-cluster header",
+        "tags": [
+          "webtech",
+          "header",
+          "platform.sh"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Platform.sh Header Detection",
+      "pattern": "x-platform-processor: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Platform.sh from x-platform-processor header",
+        "tags": [
+          "webtech",
+          "header",
+          "platform.sh"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Platform.sh Header Detection",
+      "pattern": "x-platform-router: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Platform.sh from x-platform-router header",
+        "tags": [
+          "webtech",
+          "header",
+          "platform.sh"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Platform.sh Header Detection",
+      "pattern": "x-platform-server: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Platform.sh from x-platform-server header",
+        "tags": [
+          "webtech",
+          "header",
+          "platform.sh"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

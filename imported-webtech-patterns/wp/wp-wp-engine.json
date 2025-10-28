@@ -1,0 +1,31 @@
+{
+  "vendor": "WP",
+  "vendor_id": "wp",
+  "product": "WP Engine",
+  "product_id": "wp-wp-engine",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WP Engine Header Detection",
+      "pattern": "wpe-backend: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects WP Engine from wpe-backend header",
+        "tags": [
+          "webtech",
+          "header",
+          "wp-engine"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

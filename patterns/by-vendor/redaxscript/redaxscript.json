@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://redaxscript\\.com\">Redaxscript</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://redaxscript\\.com\">Redaxscript</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

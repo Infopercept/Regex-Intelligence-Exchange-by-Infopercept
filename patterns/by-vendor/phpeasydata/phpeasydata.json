@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id='phpeasydata_container'\\ \\ >"
+      "pattern": "<div\\ id='phpeasydata_container'\\ \\ >",
+      "version_group": 0
     },
     {
       "name": "PHPEasyData Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "\\ \\ <head><title>PhpEasyData\\ login\\ page</title>"
+      "pattern": "\\ \\ <head><title>PhpEasyData\\ login\\ page</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

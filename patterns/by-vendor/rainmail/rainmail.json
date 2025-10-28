@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<form\\ action='/cgi\\-bin/openwebmail/openwebmail\\.pl'"
+      "pattern": "<form\\ action='/cgi\\-bin/openwebmail/openwebmail\\.pl'",
+      "version_group": 0
     },
     {
       "name": "Rainmail Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ \\ SCRIPT\\ CONFIGURATION\\ SECTION\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ \\ SCRIPT\\ CONFIGURATION\\ SECTION\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Rainmail Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<TD\\ width=50%><font\\ color=\"ffffff\"\\ size=\"1\"face=\"Verdana,\\ Helvetica\">Rainmail\\ is\\ a\\ product\\ of\\ :</font>"
+      "pattern": "<TD\\ width=50%><font\\ color=\"ffffff\"\\ size=\"1\"face=\"Verdana,\\ Helvetica\">Rainmail\\ is\\ a\\ product\\ of\\ :</font>",
+      "version_group": 0
     },
     {
       "name": "Rainmail Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<div\\ align=\"center\">\\.:\\ <b>Rainmail\\ Intranet\\ Login\\ </b>\\ :\\.</div>"
+      "pattern": "<div\\ align=\"center\">\\.:\\ <b>Rainmail\\ Intranet\\ Login\\ </b>\\ :\\.</div>",
+      "version_group": 0
     },
     {
       "name": "Rainmail Pattern",
@@ -114,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<TD><font\\ color=\"ffffff\"\\ size=\"1\"face=\"Verdana,\\ Arial,\\ Helvetica,\\ sans\\-serif\">Rainmail\\ is\\ a\\ product\\ of\\ :</font></TD>"
+      "pattern": "<TD><font\\ color=\"ffffff\"\\ size=\"1\"face=\"Verdana,\\ Arial,\\ Helvetica,\\ sans\\-serif\">Rainmail\\ is\\ a\\ product\\ of\\ :</font></TD>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

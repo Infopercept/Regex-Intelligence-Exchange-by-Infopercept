@@ -1,0 +1,51 @@
+{
+  "vendor": "VTEX",
+  "vendor_id": "vtex",
+  "product": "VTEX",
+  "product_id": "vtex-vtex",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "VTEX Header Detection",
+      "pattern": "Server: ^VTEX IO$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects VTEX from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "vtex"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "VTEX Header Detection",
+      "pattern": "powered: vtex",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects VTEX from powered header",
+        "tags": [
+          "webtech",
+          "header",
+          "vtex"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"run_cronjobs\"\\ style=\"visibility:\\ hidden;\\ display:\\ none;\">"
+      "pattern": "<div\\ id=\"run_cronjobs\"\\ style=\"visibility:\\ hidden;\\ display:\\ none;\">",
+      "version_group": 0
     },
     {
       "name": "NukeViet-CMS Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form class=\"loginform\" method=\"post\" action=\"[^\"^>]*/admin/index.php\" onsubmit=\"return nv_checkadminlogin_submit();\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<form class=\"loginform\" method=\"post\" action=\"[^\"^>]*/admin/index\\.php\" onsubmit=\"return nv_checkadminlogin_submit\\(\\);\">"
+      "pattern": "<form class=\"loginform\" method=\"post\" action=\"[^\"^>]*/admin/index\\.php\" onsubmit=\"return nv_checkadminlogin_submit\\(\\);\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

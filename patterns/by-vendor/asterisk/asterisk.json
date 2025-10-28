@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Your browser should automatically go to the configuration page.[s]+<br>[s]+Or you can <a href=\"config/cfgbasic.html\">click here</a>[s]+<br>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Your browser should automatically go to the configuration page\\.[\\s]+<br>[\\s]+Or you can <a href=\"config/cfgbasic\\.html\">click here</a>[\\s]+<br>"
+      "pattern": "Your browser should automatically go to the configuration page\\.[\\s]+<br>[\\s]+Or you can <a href=\"config/cfgbasic\\.html\">click here</a>[\\s]+<br>",
+      "version_group": 0
     },
     {
       "name": "Asterisk Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Asterisk/",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Asterisk/"
+      "pattern": "^Asterisk/",
+      "version_group": 0
     },
     {
       "name": "Asterisk Pattern",
@@ -73,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--[s]+* Asterisk-GUI -[s]+an Asterisk configuration interface",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!--[\\s]+\\* Asterisk-GUI -[\\s]+an Asterisk configuration interface"
+      "pattern": "<!--[\\s]+\\* Asterisk-GUI -[\\s]+an Asterisk configuration interface",
+      "version_group": 0
     },
     {
       "name": "Asterisk Pattern",
@@ -97,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<link\\ href=\"stylesheets/cfgbasic\\.css\"\\ media=\"all\"\\ rel=\"Stylesheet\"\\ type=\"text/css\"\\ />"
+      "pattern": "<link\\ href=\"stylesheets/cfgbasic\\.css\"\\ media=\"all\"\\ rel=\"Stylesheet\"\\ type=\"text/css\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Asterisk Pattern",
@@ -119,7 +141,9 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"ACTIVE_CONTENT\"><noscript>You\\ need\\ to\\ enable\\ Javascript\\ in\\ your\\ browser\\ !!</noscript></div>"
+      "pattern": "<div\\ id=\"ACTIVE_CONTENT\"><noscript>You\\ need\\ to\\ enable\\ Javascript\\ in\\ your\\ browser\\ !!</noscript></div>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

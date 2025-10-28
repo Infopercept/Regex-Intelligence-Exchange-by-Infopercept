@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.ecomenterprises\\.com\"\\ target=\"_blank\"\\ class=\"small_text\">WebPress</a><SUP><FONT\\ SIZE=\"\\-5\">TM</FONT></SUP></td>"
+      "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.ecomenterprises\\.com\"\\ target=\"_blank\"\\ class=\"small_text\">WebPress</a><SUP><FONT\\ SIZE=\"\\-5\">TM</FONT></SUP></td>",
+      "version_group": 0
     },
     {
       "name": "WebPress Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://goywp\\.com\"\\ id=\"webpresslink\">WebPress</a><br></p></td>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://goywp\\.com\"\\ id=\"webpresslink\">WebPress</a><br></p></td>",
+      "version_group": 0
     },
     {
       "name": "WebPress Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ </font><font\\ size=\"1\"\\ color=\"\\#000000\"\\ face=\"Arial\">YWP</font>"
+      "pattern": "Powered\\ by\\ </font><font\\ size=\"1\"\\ color=\"\\#000000\"\\ face=\"Arial\">YWP</font>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

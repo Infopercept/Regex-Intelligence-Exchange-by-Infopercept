@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Safedog",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Safedog"
+      "pattern": "^Safedog",
+      "version_group": 0
     },
     {
       "name": "safedog-flow-item Cookie",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "safedog\\-flow\\-item="
+      "pattern": "safedog\\-flow\\-item=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

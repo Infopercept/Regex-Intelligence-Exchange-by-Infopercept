@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<td\\ colspan=\"2\"><center><img\\ src=\"/statistics/plugins/op5gui/op5_statistics\\.gif\"\\ border=\"0\"\\ alt=\"\"></center></td>"
+      "pattern": "<td\\ colspan=\"2\"><center><img\\ src=\"/statistics/plugins/op5gui/op5_statistics\\.gif\"\\ border=\"0\"\\ alt=\"\"></center></td>",
+      "version_group": 0
     },
     {
       "name": "Op5-Statistics Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<title>Login\\ to\\ op5\\ Statistics</title>"
+      "pattern": "<title>Login\\ to\\ op5\\ Statistics</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>\\ AlienVault\\ \\-\\ Open\\ Source\\ SIM\\ </title>"
+      "pattern": "<title>\\ AlienVault\\ \\-\\ Open\\ Source\\ SIM\\ </title>",
+      "version_group": 0
     },
     {
       "name": "OSSIM Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<table\\ align=\"center\"\\ style=\"padding:1px;background\\-color:\\#f2f2f2;border\\-color:\\#aaaaaa\"\\ class=nobborder><tr><td\\ class=\"nobborder\">"
+      "pattern": "<table\\ align=\"center\"\\ style=\"padding:1px;background\\-color:\\#f2f2f2;border\\-color:\\#aaaaaa\"\\ class=nobborder><tr><td\\ class=\"nobborder\">",
+      "version_group": 0
     },
     {
       "name": "OSSIM Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<table\\ align=\"center\"\\ cellspacing=4\\ cellpadding=2\\ style=\"background\\-color:\\#eeeeee;border\\-color:\\#dedede\">"
+      "pattern": "<table\\ align=\"center\"\\ cellspacing=4\\ cellpadding=2\\ style=\"background\\-color:\\#eeeeee;border\\-color:\\#dedede\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

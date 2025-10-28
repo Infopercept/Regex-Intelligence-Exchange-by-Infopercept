@@ -1,0 +1,71 @@
+{
+  "vendor": "Volusion",
+  "vendor_id": "volusion",
+  "product": "Volusion (V1)",
+  "product_id": "volusion-volusion-(v1)",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Volusion (V1) HTML Detection",
+      "pattern": "<link [^>]*href=\"[^\"]*/vspfiles/",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Volusion (V1) from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "volusion-(v1)"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Volusion (V1) Script Detection",
+      "pattern": "/volusion\\.js(?:\\?([\\d.]*))?",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Volusion (V1) from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "volusion-(v1)"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Volusion (V1) JavaScript Detection",
+      "pattern": "window\\.volusion|volusion\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Volusion (V1) from JavaScript variable 'volusion'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "volusion-(v1)"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

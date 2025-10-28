@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>M2Soft\\ Report\\ Designer\\ Server</title>"
+      "pattern": "<title>M2Soft\\ Report\\ Designer\\ Server</title>",
+      "version_group": 0
     },
     {
       "name": "M2Soft-RDServer Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^FALSE$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^FALSE$"
+      "pattern": "^FALSE$",
+      "version_group": 0
     },
     {
       "name": "M2Soft-RDServer Pattern",
@@ -67,5 +75,6 @@
       "pattern": "Server: ^RDServer/([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

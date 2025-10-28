@@ -1,0 +1,51 @@
+{
+  "vendor": "FWP",
+  "vendor_id": "fwp",
+  "product": "FWP",
+  "product_id": "fwp-fwp",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FWP HTML Detection",
+      "pattern": "<!--\\s+FwP Systems",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects FWP from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "fwp"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "FWP Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']FWP Shop[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects FWP from meta tag with name 'generator'",
+        "tags": [
+          "webtech",
+          "meta",
+          "fwp"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

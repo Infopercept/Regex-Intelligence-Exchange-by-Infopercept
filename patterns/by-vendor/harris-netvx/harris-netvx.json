@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"\"\\ onclick=\\\\"
+      "pattern": "<a\\ href=\"\"\\ onclick=\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

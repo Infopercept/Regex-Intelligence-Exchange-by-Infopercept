@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<link\\ rel='stylesheet'\\ type='text/css'\\ href='css/lightneasy\\.css'\\ />"
+      "pattern": "<link\\ rel='stylesheet'\\ type='text/css'\\ href='css/lightneasy\\.css'\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

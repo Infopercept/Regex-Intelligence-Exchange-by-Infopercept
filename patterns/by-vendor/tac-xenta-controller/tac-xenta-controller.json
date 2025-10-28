@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<html><body><script>var\\ url=\"https://\"\\+location\\.hostname\\+\"/www/index/Slogin\\.html\";location\\.href=url;</script></body></html>"
+      "pattern": "<html><body><script>var\\ url=\"https://\"\\+location\\.hostname\\+\"/www/index/Slogin\\.html\";location\\.href=url;</script></body></html>",
+      "version_group": 0
     },
     {
       "name": "TAC-Xenta-Controller Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^TAC/Xenta",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^TAC/Xenta"
+      "pattern": "^TAC/Xenta",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ \\#\\ START\\ HEDARE\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ \\#\\ START\\ HEDARE\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Traidnt-UP Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<font\\ color='\\#000080'><a\\ href='http://traidnt\\.net'\\ target='_blank'>"
+      "pattern": "<font\\ color='\\#000080'><a\\ href='http://traidnt\\.net'\\ target='_blank'>",
+      "version_group": 0
     },
     {
       "name": "Traidnt-UP Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t\\\t<span\\ style='text\\-decoration:\\ none'><font\\ color='\\#000000'>Traidnt\\&nbsp;UP</font></span></a></font></span></b>"
+      "pattern": "\\\t\\\t\\\t<span\\ style='text\\-decoration:\\ none'><font\\ color='\\#000000'>Traidnt\\&nbsp;UP</font></span></a></font></span></b>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,71 @@
+{
+  "vendor": "Marionette.js",
+  "vendor_id": "marionette.js",
+  "product": "Marionette.js",
+  "product_id": "marionette.js-marionettejs",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Marionette.js Script Detection",
+      "pattern": "backbone\\.marionette.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Marionette.js from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "marionette.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Marionette.js JavaScript Detection",
+      "pattern": "window\\.Marionette|Marionette\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Marionette.js from JavaScript variable 'Marionette'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "marionette.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Marionette.js JavaScript Detection",
+      "pattern": "window\\.Marionette\\.VERSION|Marionette\\.VERSION\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Marionette.js from JavaScript variable 'Marionette.VERSION'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "marionette.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

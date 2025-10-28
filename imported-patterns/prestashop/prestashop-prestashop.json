@@ -1,0 +1,111 @@
+{
+  "vendor": "PrestaShop",
+  "vendor_id": "prestashop",
+  "product": "PrestaShop",
+  "product_id": "prestashop-prestashop",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PrestaShop Header Detection",
+      "pattern": "Powered-By: ^Prestashop$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PrestaShop from Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "prestashop"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "PrestaShop HTML Detection",
+      "pattern": "Powered by <a\\s+[^>]+>PrestaShop",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PrestaShop from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "prestashop"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "PrestaShop HTML Detection",
+      "pattern": "<!-- /Block [a-z ]+ module (?:HEADER|TOP)?\\s?-->",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PrestaShop from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "prestashop"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "PrestaShop HTML Detection",
+      "pattern": "<!-- /Module Block [a-z ]+ -->",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PrestaShop from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "prestashop"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "PrestaShop Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']PrestaShop[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PrestaShop from meta tag with name 'generator'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "prestashop"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

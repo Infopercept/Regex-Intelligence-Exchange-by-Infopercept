@@ -1,0 +1,71 @@
+{
+  "vendor": "Chartbeat",
+  "vendor_id": "chartbeat",
+  "product": "Chartbeat",
+  "product_id": "chartbeat-chartbeat",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Chartbeat Script Detection",
+      "pattern": "chartbeat\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Chartbeat from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "chartbeat"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Chartbeat JavaScript Detection",
+      "pattern": "window\\._sf_async_config|_sf_async_config\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Chartbeat from JavaScript variable '_sf_async_config'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "chartbeat"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Chartbeat JavaScript Detection",
+      "pattern": "window\\._sf_endpt|_sf_endpt\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Chartbeat from JavaScript variable '_sf_endpt'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "chartbeat"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

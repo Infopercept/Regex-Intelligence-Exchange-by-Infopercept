@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<TITLE>AXIS\\ Video\\ Server</TITLE>"
+      "pattern": "<TITLE>AXIS\\ Video\\ Server</TITLE>",
+      "version_group": 0
     },
     {
       "name": "Axis-Network-Camera Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<FRAME\\ NAME=\"WhatEver\"\\ SRC=\"/incl/whatever\\.shtml\"\\ SCROLLING=NO\\ MARGINGHEIGHT=0\\ MARGINWIDTH=0>"
+      "pattern": "<FRAME\\ NAME=\"WhatEver\"\\ SRC=\"/incl/whatever\\.shtml\"\\ SCROLLING=NO\\ MARGINGHEIGHT=0\\ MARGINWIDTH=0>",
+      "version_group": 0
     },
     {
       "name": "Axis-Network-Camera Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "\\\t<FRAME\\ NAME=\"Trash\"\\ SRC=\"/view/trash\\.shtml\"\\ SCROLLING=NO\\ MARGINGHEIGHT=0\\ MARGINWIDTH=0>"
+      "pattern": "\\\t<FRAME\\ NAME=\"Trash\"\\ SRC=\"/view/trash\\.shtml\"\\ SCROLLING=NO\\ MARGINGHEIGHT=0\\ MARGINWIDTH=0>",
+      "version_group": 0
     },
     {
       "name": "Axis-Network-Camera Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ \\ \\ <FRAME\\ NAME=\"Temp\"\\ SRC=\"/view/temp\\.shtml\"\\ SCROLLING=NO\\ MARGINGHEIGHT=0\\ MARGINWIDTH=0>"
+      "pattern": "\\ \\ \\ \\ \\ \\ <FRAME\\ NAME=\"Temp\"\\ SRC=\"/view/temp\\.shtml\"\\ SCROLLING=NO\\ MARGINGHEIGHT=0\\ MARGINWIDTH=0>",
+      "version_group": 0
     },
     {
       "name": "Axis-Network-Camera Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "Your\\ browser\\ has\\ JavaScript\\ turned\\ off\\.<br>For\\ the\\ user\\ interface\\ to\\ work\\ effectively,\\ you\\ must\\ enable\\ JavaScript\\ in\\ your\\ browser\\ and\\ reload/refresh\\ this\\ page\\."
+      "pattern": "Your\\ browser\\ has\\ JavaScript\\ turned\\ off\\.<br>For\\ the\\ user\\ interface\\ to\\ work\\ effectively,\\ you\\ must\\ enable\\ JavaScript\\ in\\ your\\ browser\\ and\\ reload/refresh\\ this\\ page\\.",
+      "version_group": 0
     },
     {
       "name": "Axis-Network-Camera Pattern",
@@ -136,7 +141,9 @@
           }
         ]
       },
-      "pattern": "<img\\ SRC=\"/pics/AxisLogo\\.gif\"\\ WIDTH=\"95\"\\ HEIGHT=\"40\"\\ BORDER=\"0\"\\ ALIGN=\"right\"\\ ALT=\""
+      "pattern": "<img\\ SRC=\"/pics/AxisLogo\\.gif\"\\ WIDTH=\"95\"\\ HEIGHT=\"40\"\\ BORDER=\"0\"\\ ALIGN=\"right\"\\ ALT=\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

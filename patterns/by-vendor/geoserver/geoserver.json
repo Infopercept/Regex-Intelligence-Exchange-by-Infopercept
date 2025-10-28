@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ href=\"resources/org\\.geoserver\\.web\\.GeoServerBasePage/favicon\\.ico\"/>"
+      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ href=\"resources/org\\.geoserver\\.web\\.GeoServerBasePage/favicon\\.ico\"/>",
+      "version_group": 0
     },
     {
       "name": "GeoServer Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<link\\ href=\"resources/org\\.geoserver\\.web\\.GeoServerBasePage/favicon\\.ico\"\\ rel=\"shortcut\\ icon\"/>"
+      "pattern": "<link\\ href=\"resources/org\\.geoserver\\.web\\.GeoServerBasePage/favicon\\.ico\"\\ rel=\"shortcut\\ icon\"/>",
+      "version_group": 0
     },
     {
       "name": "GeoServer Pattern",
@@ -62,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body>[s]+<p><b>Redirecting to the actual home page.</b></p>[s]+<p>If you're stuck here, it means you don't have javascript[s]+enabled. Javascript is required to actually use the GeoServer admin console.</p>[s]+</body>[s]+</html>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<body>[\\s]+<p><b>Redirecting to the actual home page\\.</b></p>[\\s]+<p>If you're stuck here, it means you don't have javascript[\\s]+enabled\\. Javascript is required to actually use the GeoServer admin console.</p>[\\s]+</body>[\\s]+</html>"
+      "pattern": "<body>[\\s]+<p><b>Redirecting to the actual home page\\.</b></p>[\\s]+<p>If you're stuck here, it means you don't have javascript[\\s]+enabled\\. Javascript is required to actually use the GeoServer admin console.</p>[\\s]+</body>[\\s]+</html>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

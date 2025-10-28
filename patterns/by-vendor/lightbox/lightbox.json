@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script [^>]*(lightbox[^>]*.js)[^>]*",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script [^>]*(lightbox[^>]*.js)[^>]*"
+      "pattern": "<script [^>]*(lightbox[^>]*.js)[^>]*",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

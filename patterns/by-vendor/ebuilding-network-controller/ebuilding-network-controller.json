@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>eBuilding\\ Web</title>"
+      "pattern": "<title>eBuilding\\ Web</title>",
+      "version_group": 0
     },
     {
       "name": "eBuilding-Network-Controller Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<HTML><HEAD><TITLE>eBuilding\\ Network\\ Controller</TITLE><LINK\\ title=global_style\\ "
+      "pattern": "<HTML><HEAD><TITLE>eBuilding\\ Network\\ Controller</TITLE><LINK\\ title=global_style\\ ",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

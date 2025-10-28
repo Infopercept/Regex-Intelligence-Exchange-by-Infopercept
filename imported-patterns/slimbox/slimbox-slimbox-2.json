@@ -1,0 +1,51 @@
+{
+  "vendor": "Slimbox",
+  "vendor_id": "slimbox",
+  "product": "Slimbox 2",
+  "product_id": "slimbox-slimbox-2",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Slimbox 2 HTML Detection",
+      "pattern": "<link [^>]*href=\"[^/]*slimbox2(?:-rtl)?\\.css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Slimbox 2 from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "slimbox-2"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Slimbox 2 Script Detection",
+      "pattern": "slimbox2\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Slimbox 2 from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "slimbox-2"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

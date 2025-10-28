@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--n\tThis OnlineStore is brought to you by XT-Commerce, Community made shoppingn\tXTC is a free open source e-Commerce Systemn\tcreated by Mario Zanier & Guido Winger and licensed under GNU/GPL.n\tInformation and contribution at http://www.xt-commerce.comn-->",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!--\\n\tThis OnlineStore is brought to you by XT-Commerce, Community made shopping\\n\tXTC is a free open source e-Commerce System\\n\tcreated by Mario Zanier & Guido Winger and licensed under GNU/GPL.\\n\tInformation and contribution at http://www.xt-commerce.com\\n-->"
+      "pattern": "<!--\\n\tThis OnlineStore is brought to you by XT-Commerce, Community made shopping\\n\tXTC is a free open source e-Commerce System\\n\tcreated by Mario Zanier & Guido Winger and licensed under GNU/GPL.\\n\tInformation and contribution at http://www.xt-commerce.com\\n-->",
+      "version_group": 0
     },
     {
       "name": "xt-Commerce Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"\\(c\\)\\ by\\ xtcModified\\ ,\\ http://www\\.xtc\\-modified\\.org\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"\\(c\\)\\ by\\ xtcModified\\ ,\\ http://www\\.xtc\\-modified\\.org\"\\ />",
+      "version_group": 0
     },
     {
       "name": "xt-Commerce Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"\\(c\\)\\ by\\ xtcModified\\ \\-\\-\\-\\-\\-\\ http://www\\.xtc\\-modified\\.org\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"\\(c\\)\\ by\\ xtcModified\\ \\-\\-\\-\\-\\-\\ http://www\\.xtc\\-modified\\.org\"\\ />",
+      "version_group": 0
     },
     {
       "name": "xt-Commerce Pattern",
@@ -78,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"copyright\"><a rel=\"follow\" href=\"http://[^>^\"]*/ecombase.php\" title=\"eComBASE licence\">eComBASE<",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div class=\"copyright\"><a rel=\"follow\" href=\"http://[^>^\"]*/ecombase.php\" title=\"eComBASE licence\">eComBASE<\\"
+      "pattern": "<div class=\"copyright\"><a rel=\"follow\" href=\"http://[^>^\"]*/ecombase.php\" title=\"eComBASE licence\">eComBASE<\\",
+      "version_group": 0
     },
     {
       "name": "xt-Commerce Pattern",
@@ -102,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<div\\ class=\"copyright\"><a\\ href=\"http://www\\.xtc\\-modified\\.org\"\\ target=\"_blank\">xtcModified</a>"
+      "pattern": "<div\\ class=\"copyright\"><a\\ href=\"http://www\\.xtc\\-modified\\.org\"\\ target=\"_blank\">xtcModified</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

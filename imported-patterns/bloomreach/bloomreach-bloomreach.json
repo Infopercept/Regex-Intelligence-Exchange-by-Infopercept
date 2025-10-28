@@ -1,0 +1,31 @@
+{
+  "vendor": "Bloomreach",
+  "vendor_id": "bloomreach",
+  "product": "Bloomreach",
+  "product_id": "bloomreach-bloomreach",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Bloomreach HTML Detection",
+      "pattern": "<[^>]+/binaries/(?:[^/]+/)*content/gallery/",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bloomreach from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "bloomreach"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

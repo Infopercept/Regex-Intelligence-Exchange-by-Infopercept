@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.OpenConf\\.org\"\\ target=\"_blank\">OpenConf</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.OpenConf\\.org\"\\ target=\"_blank\">OpenConf</a>",
+      "version_group": 0
     },
     {
       "name": "OpenConf Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "OPENCONF=[^;]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "OPENCONF=[^;]+;"
+      "pattern": "OPENCONF=[^;]+;",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

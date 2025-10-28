@@ -1,0 +1,91 @@
+{
+  "vendor": "CloudFlare",
+  "vendor_id": "cloudflare",
+  "product": "CloudFlare",
+  "product_id": "cloudflare-cloudflare",
+  "category": "web",
+  "subcategory": "cdn",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CloudFlare Header Detection",
+      "pattern": "Server: ^cloudflare$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CloudFlare from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "cloudflare"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "CloudFlare Header Detection",
+      "pattern": "cf-cache-status: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CloudFlare from cf-cache-status header",
+        "tags": [
+          "webtech",
+          "header",
+          "cloudflare"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "CloudFlare Header Detection",
+      "pattern": "cf-ray: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CloudFlare from cf-ray header",
+        "tags": [
+          "webtech",
+          "header",
+          "cloudflare"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "CloudFlare JavaScript Detection",
+      "pattern": "window\\.CloudFlare|CloudFlare\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CloudFlare from JavaScript variable 'CloudFlare'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "cloudflare"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

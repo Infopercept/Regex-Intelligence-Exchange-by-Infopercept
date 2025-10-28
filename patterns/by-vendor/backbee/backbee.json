@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"bb5\\-site\\-wrapper\">"
+      "pattern": "<div\\ id=\"bb5\\-site\\-wrapper\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

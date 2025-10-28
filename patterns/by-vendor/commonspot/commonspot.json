@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta[^>]+name=\"Generator\"[^>]+content=\"CommonSpot[^\"]+\"[^>]*/>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta[^>]+name=\"Generator\"[^>]+content=\"CommonSpot[^\"]+\"[^>]*/>"
+      "pattern": "<meta[^>]+name=\"Generator\"[^>]+content=\"CommonSpot[^\"]+\"[^>]*/>",
+      "version_group": 0
     },
     {
       "name": "CommonSpot Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img[^>]+src=\"[^\"]+commonspot[^\"]+\"[^>]*/>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<img[^>]+src=\"[^\"]+commonspot[^\"]+\"[^>]*/>"
+      "pattern": "<img[^>]+src=\"[^\"]+commonspot[^\"]+\"[^>]*/>",
+      "version_group": 0
     },
     {
       "name": "CommonSpot Pattern",
@@ -50,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link[^>]+href=\"[^\"]commonspot/commonspot.css\"[^>]+/>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link[^>]+href=\"[^\"]commonspot/commonspot\\.css\"[^>]+/>"
+      "pattern": "<link[^>]+href=\"[^\"]commonspot/commonspot\\.css\"[^>]+/>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

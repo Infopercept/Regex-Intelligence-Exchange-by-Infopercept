@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Phion",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Phion"
+      "pattern": "^Phion",
+      "version_group": 0
     },
     {
       "name": "Phion-Firewall Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Phion/(.+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

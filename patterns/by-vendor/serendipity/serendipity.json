@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://www\\.s9y\\.org\"\\ target=\"_blank\">Serendipity</a>"
+      "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://www\\.s9y\\.org\"\\ target=\"_blank\">Serendipity</a>",
+      "version_group": 0
     },
     {
       "name": "Serendipity Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<div\\ class=\"copyright\">Powered\\ by\\ <a\\ href=\"http://www\\.s9y\\.org\"\\ title=\"a\\ PHP\\ Weblog/Blog\\ software\">Serendipity</a>"
+      "pattern": "<div\\ class=\"copyright\">Powered\\ by\\ <a\\ href=\"http://www\\.s9y\\.org\"\\ title=\"a\\ PHP\\ Weblog/Blog\\ software\">Serendipity</a>",
+      "version_group": 0
     },
     {
       "name": "Serendipity Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "serendipity_entry_body"
+      "pattern": "serendipity_entry_body",
+      "version_group": 0
     },
     {
       "name": "Serendipity Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "serendipity_entry_author_Admin"
+      "pattern": "serendipity_entry_author_Admin",
+      "version_group": 0
     },
     {
       "name": "Serendipity Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "serendipity_entryFooter"
+      "pattern": "serendipity_entryFooter",
+      "version_group": 0
     },
     {
       "name": "Serendipity Pattern",
@@ -136,7 +141,9 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"serendipityLeftSideBar\">"
+      "pattern": "<div\\ id=\"serendipityLeftSideBar\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

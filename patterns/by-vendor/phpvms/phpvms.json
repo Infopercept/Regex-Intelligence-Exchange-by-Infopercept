@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ class=\"jqmWindow\"\\ id=\"jqmdialog\"></div>"
+      "pattern": "<div\\ class=\"jqmWindow\"\\ id=\"jqmdialog\"></div>",
+      "version_group": 0
     },
     {
       "name": "phpVMS Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Please retain this!! It's part of the phpVMS license. You must display a[s]+\"powered by phpVMS\" somewhere on your page. Thanks! -->",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!-- Please retain this!! It's part of the phpVMS license\\. You must display a[\\s]+\"powered by phpVMS\" somewhere on your page\\. Thanks! -->"
+      "pattern": "<!-- Please retain this!! It's part of the phpVMS license\\. You must display a[\\s]+\"powered by phpVMS\" somewhere on your page\\. Thanks! -->",
+      "version_group": 0
     },
     {
       "name": "phpVMS Pattern",
@@ -64,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.phpvms\\.net\"\\ target=\"_blank\">powered\\ by\\ phpVMS</a>"
+      "pattern": "<a\\ href=\"http://www\\.phpvms\\.net\"\\ target=\"_blank\">powered\\ by\\ phpVMS</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

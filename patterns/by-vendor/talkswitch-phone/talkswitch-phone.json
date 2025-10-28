@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^TalkSwitch",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^TalkSwitch"
+      "pattern": "^TalkSwitch",
+      "version_group": 0
     },
     {
       "name": "TalkSwitch-Phone Pattern",
@@ -57,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Digest realm=\"Your TalkSwitch System\"$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Digest realm=\"Your TalkSwitch System\"$"
+      "pattern": "^Digest realm=\"Your TalkSwitch System\"$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

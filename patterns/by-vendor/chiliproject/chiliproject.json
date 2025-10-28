@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"https://www\\.chiliproject\\.org/\">ChiliProject</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"https://www\\.chiliproject\\.org/\">ChiliProject</a>",
+      "version_group": 0
     },
     {
       "name": "ChiliProject Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"description\"\\ content=\"ChiliProject\"\\ />"
+      "pattern": "<meta\\ name=\"description\"\\ content=\"ChiliProject\"\\ />",
+      "version_group": 0
     },
     {
       "name": "ChiliProject Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ page\\ specific\\ tags\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ page\\ specific\\ tags\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "ChiliProject Pattern",
@@ -84,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "_chiliproject_session=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "_chiliproject_session="
+      "pattern": "_chiliproject_session=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

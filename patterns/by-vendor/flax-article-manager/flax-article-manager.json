@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "/images/flaxweb_newsletter_bg\\.gif\"\\ bgcolor=\"\\#FFFFFF\"\\ valign=\"top\">\\ "
+      "pattern": "/images/flaxweb_newsletter_bg\\.gif\"\\ bgcolor=\"\\#FFFFFF\"\\ valign=\"top\">\\ ",
+      "version_group": 0
     },
     {
       "name": "Flax-Article-Manager Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<b><a\\ href=\"http://www\\.flaxweb\\.com/products/articles\"><font\\ color=\"\\#666666\">Article\\ "
+      "pattern": "<b><a\\ href=\"http://www\\.flaxweb\\.com/products/articles\"><font\\ color=\"\\#666666\">Article\\ ",
+      "version_group": 0
     },
     {
       "name": "Flax-Article-Manager Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<title>Flax\\ Article\\ CMS\\ Administration\\ Panel</title>"
+      "pattern": "<title>Flax\\ Article\\ CMS\\ Administration\\ Panel</title>",
+      "version_group": 0
     },
     {
       "name": "Flax-Article-Manager Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "recent\\ updates\\ for\\ Flax\\ Article\\ Manager</font></b></a></div>"
+      "pattern": "recent\\ updates\\ for\\ Flax\\ Article\\ Manager</font></b></a></div>",
+      "version_group": 0
     },
     {
       "name": "Flax-Article-Manager Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<td\\ width=67%><font\\ color=\\#FFFFFF><a\\ href=admin\\.php\\ class=htext>Flax\\ "
+      "pattern": "<td\\ width=67%><font\\ color=\\#FFFFFF><a\\ href=admin\\.php\\ class=htext>Flax\\ ",
+      "version_group": 0
     },
     {
       "name": "Flax-Article-Manager Pattern",
@@ -136,7 +141,9 @@
           }
         ]
       },
-      "pattern": "<td><a\\ href=\"http://www\\.flaxweb\\.com/products/articles\">For\\ more\\ details\\ about\\ Flax\\ article\\ manager\\ \\(CMS\\)\\ please\\ click\\ "
+      "pattern": "<td><a\\ href=\"http://www\\.flaxweb\\.com/products/articles\">For\\ more\\ details\\ about\\ Flax\\ article\\ manager\\ \\(CMS\\)\\ please\\ click\\ ",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

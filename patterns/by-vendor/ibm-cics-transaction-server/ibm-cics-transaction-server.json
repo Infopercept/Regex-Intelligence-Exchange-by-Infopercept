@@ -41,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^IBM_CICS_Transaction_Server",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^IBM_CICS_Transaction_Server"
+      "pattern": "^IBM_CICS_Transaction_Server",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

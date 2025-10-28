@@ -1,0 +1,71 @@
+{
+  "vendor": "Asciinema",
+  "vendor_id": "asciinema",
+  "product": "Asciinema",
+  "product_id": "asciinema-asciinema",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Asciinema HTML Detection",
+      "pattern": "<asciinema-player",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Asciinema from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "asciinema"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Asciinema Script Detection",
+      "pattern": "asciinema\\.org/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Asciinema from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "asciinema"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Asciinema JavaScript Detection",
+      "pattern": "window\\.asciinema|asciinema\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Asciinema from JavaScript variable 'asciinema'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "asciinema"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

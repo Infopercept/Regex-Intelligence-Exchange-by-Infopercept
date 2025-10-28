@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script [^>]*bootstrap",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script [^>]*bootstrap"
+      "pattern": "<script [^>]*bootstrap",
+      "version_group": 0
     },
     {
       "name": "Bootstrap Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link [^>]*bootstrap",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link [^>]*bootstrap"
+      "pattern": "<link [^>]*bootstrap",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

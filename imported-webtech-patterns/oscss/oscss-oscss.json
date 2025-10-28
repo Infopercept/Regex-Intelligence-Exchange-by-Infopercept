@@ -1,0 +1,31 @@
+{
+  "vendor": "osCSS",
+  "vendor_id": "oscss",
+  "product": "osCSS",
+  "product_id": "oscss-oscss",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "osCSS HTML Detection",
+      "pattern": "<body onload=\"window\\.defaultStatus='oscss templates';\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects osCSS from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "oscss"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

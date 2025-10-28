@@ -1,0 +1,51 @@
+{
+  "vendor": "Nginx",
+  "vendor_id": "nginx",
+  "product": "Nginx",
+  "product_id": "nginx-nginx",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Nginx Header Detection",
+      "pattern": "Server: nginx(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Nginx from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "nginx"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Nginx Header Detection",
+      "pattern": "X-Fastcgi-Cache: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Nginx from X-Fastcgi-Cache header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "nginx"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "\\&nbsp;\\|\\ ::::::::::\\&nbsp;<a\\ href=\"http://www\\.digitart\\.net\"\\ target=\"_blank\"\\ style=\"text\\-decoration:none\"><b>MyShell</b>\\ \\&copy;2001\\ Digitart\\ Producciones</a>"
+      "pattern": "\\&nbsp;\\|\\ ::::::::::\\&nbsp;<a\\ href=\"http://www\\.digitart\\.net\"\\ target=\"_blank\"\\ style=\"text\\-decoration:none\"><b>MyShell</b>\\ \\&copy;2001\\ Digitart\\ Producciones</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

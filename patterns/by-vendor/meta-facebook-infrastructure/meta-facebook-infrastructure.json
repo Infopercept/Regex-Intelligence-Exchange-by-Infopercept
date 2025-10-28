@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^proxygen-bolt",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^proxygen-bolt"
+      "pattern": "^proxygen-bolt",
+      "version_group": 0
     },
     {
       "name": "Facebook OG Meta Tag",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta property=\"og:site_name\"[^>]*content=\"Facebook\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta property=\"og:site_name\"[^>]*content=\"Facebook\""
+      "pattern": "<meta property=\"og:site_name\"[^>]*content=\"Facebook\"",
+      "version_group": 0
     },
     {
       "name": "Instagram OG Meta Tag",
@@ -50,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta property=\"og:site_name\"[^>]*content=\"Instagram\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta property=\"og:site_name\"[^>]*content=\"Instagram\""
+      "pattern": "<meta property=\"og:site_name\"[^>]*content=\"Instagram\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.tribune\\.com/\"\\ target=\"_parent\">A\\ Tribune\\ Newspaper\\ website</a>"
+      "pattern": "<a\\ href=\"http://www\\.tribune\\.com/\"\\ target=\"_parent\">A\\ Tribune\\ Newspaper\\ website</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

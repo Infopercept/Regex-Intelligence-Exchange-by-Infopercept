@@ -1,0 +1,31 @@
+{
+  "vendor": "thttpd",
+  "vendor_id": "thttpd",
+  "product": "thttpd",
+  "product_id": "thttpd-thttpd",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "thttpd Header Detection",
+      "pattern": "Server: \\bthttpd(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects thttpd from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "thttpd"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

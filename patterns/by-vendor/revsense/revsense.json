@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t\\\t\\\t<li><a\\ href=\"http://www\\.revsense\\.com\\.au/\"><strong>RevSense</strong>\\ \\-\\ Powered\\ by\\ RevSense\\ Ads</a></li>"
+      "pattern": "\\\t\\\t\\\t\\\t<li><a\\ href=\"http://www\\.revsense\\.com\\.au/\"><strong>RevSense</strong>\\ \\-\\ Powered\\ by\\ RevSense\\ Ads</a></li>",
+      "version_group": 0
     },
     {
       "name": "RevSense Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\\t<!\\-\\-\\ You\\ cannot\\ remove\\ this\\ powered\\ by\\ link\\ without\\ receiving\\ permission\\ from\\ W3matter\\.com\\ \\-\\->"
+      "pattern": "\\\t<!\\-\\-\\ You\\ cannot\\ remove\\ this\\ powered\\ by\\ link\\ without\\ receiving\\ permission\\ from\\ W3matter\\.com\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "RevSense Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<font size=1><a>Powered by Revsense &trade;<",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "\t<font size=1><a>Powered by Revsense &trade;<\\"
+      "pattern": "\t<font size=1><a>Powered by Revsense &trade;<\\",
+      "version_group": 0
     },
     {
       "name": "RevSense Pattern",
@@ -78,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<font size=1><a href=\"http://www.w3matter.com\">Powered by Revsense &trade;<",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "\t<font size=1><a href=\"http://www.w3matter.com\">Powered by Revsense &trade;<\\"
+      "pattern": "\t<font size=1><a href=\"http://www.w3matter.com\">Powered by Revsense &trade;<\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "Braintree",
+  "vendor_id": "braintree",
+  "product": "Braintree",
+  "product_id": "braintree-braintree",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Braintree Script Detection",
+      "pattern": "js\\.braintreegateway\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Braintree from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "braintree"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "vendor": "Vercel",
+  "vendor_id": "vercel",
+  "product": "Vercel",
+  "product_id": "vercel-vercel",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Vercel Header Detection",
+      "pattern": "server: ^now$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Vercel from server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "vercel"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Vercel Header Detection",
+      "pattern": "x-now-trace: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Vercel from x-now-trace header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "vercel"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Vercel Header Detection",
+      "pattern": "x-vercel-cache: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Vercel from x-vercel-cache header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "vercel"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Vercel Header Detection",
+      "pattern": "x-vercel-id: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Vercel from x-vercel-id header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "vercel"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

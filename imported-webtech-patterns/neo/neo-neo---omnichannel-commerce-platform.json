@@ -1,0 +1,31 @@
+{
+  "vendor": "NEO",
+  "vendor_id": "neo",
+  "product": "NEO - Omnichannel Commerce Platform",
+  "product_id": "neo-neo---omnichannel-commerce-platform",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "NEO - Omnichannel Commerce Platform Header Detection",
+      "pattern": "powered: jet-neo",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects NEO - Omnichannel Commerce Platform from powered header",
+        "tags": [
+          "webtech",
+          "header",
+          "neo---omnichannel-commerce-platform"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

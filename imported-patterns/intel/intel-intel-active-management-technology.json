@@ -1,0 +1,31 @@
+{
+  "vendor": "Intel",
+  "vendor_id": "intel",
+  "product": "Intel Active Management Technology",
+  "product_id": "intel-intel-active-management-technology",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Intel Active Management Technology Header Detection",
+      "pattern": "Server: Intel\\(R\\) Active Management Technology(?: ([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Intel Active Management Technology from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "intel-active-management-technology"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

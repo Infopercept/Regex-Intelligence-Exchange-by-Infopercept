@@ -1,0 +1,51 @@
+{
+  "vendor": "Flickity",
+  "vendor_id": "flickity",
+  "product": "Flickity",
+  "product_id": "flickity-flickity",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Flickity Script Detection",
+      "pattern": "/flickity(?:\\.pkgd)?(?:\\.min)?\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Flickity from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "flickity"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Flickity JavaScript Detection",
+      "pattern": "window\\.Flickity|Flickity\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Flickity from JavaScript variable 'Flickity'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "flickity"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

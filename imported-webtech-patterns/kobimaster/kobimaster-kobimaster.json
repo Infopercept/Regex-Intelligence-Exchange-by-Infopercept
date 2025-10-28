@@ -1,0 +1,51 @@
+{
+  "vendor": "KobiMaster",
+  "vendor_id": "kobimaster",
+  "product": "KobiMaster",
+  "product_id": "kobimaster-kobimaster",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "KobiMaster JavaScript Detection",
+      "pattern": "window\\.kmGetSession|kmGetSession\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects KobiMaster from JavaScript variable 'kmGetSession'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "kobimaster"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "KobiMaster JavaScript Detection",
+      "pattern": "window\\.kmPageInfo|kmPageInfo\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects KobiMaster from JavaScript variable 'kmPageInfo'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "kobimaster"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vendor": "UserVoice",
+  "vendor_id": "uservoice",
+  "product": "UserVoice",
+  "product_id": "uservoice-uservoice",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "UserVoice JavaScript Detection",
+      "pattern": "window\\.UserVoice|UserVoice\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects UserVoice from JavaScript variable 'UserVoice'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "uservoice"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

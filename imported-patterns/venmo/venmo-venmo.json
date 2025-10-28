@@ -1,0 +1,31 @@
+{
+  "vendor": "Venmo",
+  "vendor_id": "venmo",
+  "product": "Venmo",
+  "product_id": "venmo-venmo",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Venmo HTML Detection",
+      "pattern": "<[^>]+aria-labelledby=\"pi-venmo",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Venmo from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "venmo"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Coppermine\\ Photo\\ Gallery\\ \\-\\ Home</title>"
+      "pattern": "<title>Coppermine\\ Photo\\ Gallery\\ \\-\\ Home</title>",
+      "version_group": 0
     },
     {
       "name": "Coppermine Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Coppermine version: ([0-9.]+)[ n]*$Revision",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Coppermine version: ([0-9\\.]+)[ \\n]*\\$Revision"
+      "pattern": "Coppermine version: ([0-9\\.]+)[ \\n]*\\$Revision",
+      "version_group": 0
     },
     {
       "name": "Coppermine Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ BEGIN\\ album_list\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ BEGIN\\ album_list\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "powered by link",
@@ -78,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://(coppermine-gallery.net|coppermine.sf.net|coppermine.sourceforge.net)/\" [^>]+>Coppermine Photo Gallery</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <a href=\"http://(coppermine-gallery.net|coppermine.sf.net|coppermine.sourceforge.net)/\" [^>]+>Coppermine Photo Gallery</a>"
+      "pattern": "Powered by <a href=\"http://(coppermine-gallery.net|coppermine.sf.net|coppermine.sourceforge.net)/\" [^>]+>Coppermine Photo Gallery</a>",
+      "version_group": 0
     },
     {
       "name": "Coppermine Pattern",
@@ -94,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--Coppermine Photo Gallery ([d.]+)[^>]+-->",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!--Coppermine Photo Gallery ([\\d\\.]+)[^>]+-->"
+      "pattern": "<!--Coppermine Photo Gallery ([\\d\\.]+)[^>]+-->",
+      "version_group": 0
     },
     {
       "name": "displayimage.php url",
@@ -110,9 +133,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"[^\"]*/displayimage.php?album=[a-z0-9]+&pos=\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"[^\"]*/displayimage.php\\?album=[a-z0-9]+&pos=\">"
+      "pattern": "<a href=\"[^\"]*/displayimage.php\\?album=[a-z0-9]+&pos=\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

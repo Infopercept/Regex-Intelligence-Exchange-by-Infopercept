@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"Piwigo\\ \\(aka\\ PWG\\),\\ see\\ piwigo\\.org\">"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"Piwigo\\ \\(aka\\ PWG\\),\\ see\\ piwigo\\.org\">",
+      "version_group": 0
     },
     {
       "name": "Piwigo Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"Piwigo,\\ piwigo\\.org\">"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"Piwigo,\\ piwigo\\.org\">",
+      "version_group": 0
     },
     {
       "name": "Piwigo Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"copyright\">s+<a name=\"EoP\"></a>s+<!-- End of Page -->",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div id=\"copyright\">\\s+<a name=\"EoP\"></a>\\s+<!-- End of Page -->"
+      "pattern": "<div id=\"copyright\">\\s+<a name=\"EoP\"></a>\\s+<!-- End of Page -->",
+      "version_group": 0
     },
     {
       "name": "Piwigo Pattern",
@@ -78,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered bys+<a href=\"http://piwigo.org\" class=\"Piwigo\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by\\s+<a href=\"http://piwigo\\.org\" class=\"Piwigo\">"
+      "pattern": "Powered by\\s+<a href=\"http://piwigo\\.org\" class=\"Piwigo\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

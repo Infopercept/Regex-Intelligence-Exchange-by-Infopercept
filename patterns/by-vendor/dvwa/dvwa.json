@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t<title>Damn\\ Vulnerable\\ Web\\ App\\ \\(DVWA\\)\\ \\-\\ Login</title>"
+      "pattern": "\\\t\\\t<title>Damn\\ Vulnerable\\ Web\\ App\\ \\(DVWA\\)\\ \\-\\ Login</title>",
+      "version_group": 0
     },
     {
       "name": "DVWA Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"[^\"]*dvwa/css/login.css\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"[^\"]*dvwa/css/login.css\" />"
+      "pattern": "\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"[^\"]*dvwa/css/login.css\" />",
+      "version_group": 0
     },
     {
       "name": "DVWA Pattern",
@@ -64,7 +72,9 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t\\\t<p><label\\ for=\"pass\">Password</label><input\\ type=\"password\"\\ AUTOCOMPLETE=\"off\"\\ size=\"20\"\\ name=\"password\"></p><br\\ />"
+      "pattern": "\\\t\\\t\\\t<p><label\\ for=\"pass\">Password</label><input\\ type=\"password\"\\ AUTOCOMPLETE=\"off\"\\ size=\"20\"\\ name=\"password\"></p><br\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

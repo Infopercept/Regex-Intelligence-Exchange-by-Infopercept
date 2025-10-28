@@ -1,0 +1,31 @@
+{
+  "vendor": "BigDump",
+  "vendor_id": "bigdump",
+  "product": "BigDump",
+  "product_id": "bigdump-bigdump",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BigDump HTML Detection",
+      "pattern": "<!-- <h1>BigDump: Staggered MySQL Dump Importer ver\\. ([\\d.b]+)",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects BigDump from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "bigdump"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

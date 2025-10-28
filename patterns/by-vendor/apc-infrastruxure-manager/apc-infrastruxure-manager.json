@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>APC\\ \\|\\ InfraStruXure\\ Manager</title>"
+      "pattern": "<title>APC\\ \\|\\ InfraStruXure\\ Manager</title>",
+      "version_group": 0
     },
     {
       "name": "APC-InfraStruXure-Manager Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<td\\ align=\"center\"\\ width=\"725\"\\ height=\"72\"><img\\ src=\"images/ldrISX\\.jpg\"\\ alt=\"ISX\\ Manager\"\\ align=\"left\"\\ border=\"0\"/></td>"
+      "pattern": "<td\\ align=\"center\"\\ width=\"725\"\\ height=\"72\"><img\\ src=\"images/ldrISX\\.jpg\"\\ alt=\"ISX\\ Manager\"\\ align=\"left\"\\ border=\"0\"/></td>",
+      "version_group": 0
     },
     {
       "name": "APC-InfraStruXure-Manager Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<td><img\\ src=\"images/Xlogo_Layer\\-1\\.gif\"\\ height=\"327\"\\ width=\"342\"\\ align=\"left\"/></td>"
+      "pattern": "<td><img\\ src=\"images/Xlogo_Layer\\-1\\.gif\"\\ height=\"327\"\\ width=\"342\"\\ align=\"left\"/></td>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

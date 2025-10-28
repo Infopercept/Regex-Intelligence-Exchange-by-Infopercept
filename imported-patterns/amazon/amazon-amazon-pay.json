@@ -1,0 +1,71 @@
+{
+  "vendor": "Amazon",
+  "vendor_id": "amazon",
+  "product": "Amazon Pay",
+  "product_id": "amazon-amazon-pay",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Amazon Pay HTML Detection",
+      "pattern": "<meta id=\"amazon-payments",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Amazon Pay from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "amazon-pay"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Amazon Pay Script Detection",
+      "pattern": "/amazonpayments(?:\\.min)?\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Amazon Pay from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "amazon-pay"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Amazon Pay Script Detection",
+      "pattern": "static-[^.]\\.payments-amazon\\.com/OffAmazonPayments",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Amazon Pay from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "amazon-pay"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>docBuilder\\ \\-\\ phpDocumentor\\ web\\ interface</title>"
+      "pattern": "<title>docBuilder\\ \\-\\ phpDocumentor\\ web\\ interface</title>",
+      "version_group": 0
     },
     {
       "name": "phpDocumentor Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"Description\"\\ content=\"Frameset\\ for\\ phpDcoumentor\\ docBuilder\\ web\\ interface\">"
+      "pattern": "<meta\\ name=\"Description\"\\ content=\"Frameset\\ for\\ phpDcoumentor\\ docBuilder\\ web\\ interface\">",
+      "version_group": 0
     },
     {
       "name": "phpDocumentor Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"Description\"\\ content=\"Frameset\\ for\\ phpDocumentor\\ docBuilder\\ web\\ interface\">"
+      "pattern": "<meta\\ name=\"Description\"\\ content=\"Frameset\\ for\\ phpDocumentor\\ docBuilder\\ web\\ interface\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

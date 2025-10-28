@@ -1,0 +1,71 @@
+{
+  "vendor": "Highlight.js",
+  "vendor_id": "highlight.js",
+  "product": "Highlight.js",
+  "product_id": "highlight.js-highlightjs",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Highlight.js Script Detection",
+      "pattern": "/(?:([\\d.])+/)?highlight(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Highlight.js from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "highlight.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Highlight.js JavaScript Detection",
+      "pattern": "window\\.hljs\\.highlightBlock|hljs\\.highlightBlock\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Highlight.js from JavaScript variable 'hljs.highlightBlock'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "highlight.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Highlight.js JavaScript Detection",
+      "pattern": "window\\.hljs\\.listLanguages|hljs\\.listLanguages\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Highlight.js from JavaScript variable 'hljs.listLanguages'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "highlight.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

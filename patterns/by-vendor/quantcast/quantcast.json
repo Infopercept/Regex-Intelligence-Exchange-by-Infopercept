@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script[^>]+src=[\"']http://edge.quantserve.com/quant.js[\"']",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script[^>]+src=[\"']http://edge.quantserve.com/quant.js[\"']"
+      "pattern": "<script[^>]+src=[\"']http://edge.quantserve.com/quant.js[\"']",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

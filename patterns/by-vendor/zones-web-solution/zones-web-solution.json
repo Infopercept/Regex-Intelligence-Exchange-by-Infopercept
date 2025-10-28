@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"author\"\\ content=\"Vikas\\ Madaan\\ \\(http://madaan\\.zones\\.in\\)\\ \\-\\ Zones\\ Web\\ Solution\\ \\(www\\.zones\\.in\\),\\ Visit\\ http://www\\.zones\\.in\\ for\\ more\\ info\">"
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Vikas\\ Madaan\\ \\(http://madaan\\.zones\\.in\\)\\ \\-\\ Zones\\ Web\\ Solution\\ \\(www\\.zones\\.in\\),\\ Visit\\ http://www\\.zones\\.in\\ for\\ more\\ info\">",
+      "version_group": 0
     },
     {
       "name": "Zones-Web-Solution Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<br>Powered\\ by\\ :\\ <a\\ href=\"http://www\\.zones\\.in\"\\ target=\"_blank\">Zones\\ Web\\ Solution</a>\\ \\&amp;"
+      "pattern": "<br>Powered\\ by\\ :\\ <a\\ href=\"http://www\\.zones\\.in\"\\ target=\"_blank\">Zones\\ Web\\ Solution</a>\\ \\&amp;",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

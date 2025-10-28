@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^RemotelyAnywhere",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^RemotelyAnywhere"
+      "pattern": "^RemotelyAnywhere",
+      "version_group": 0
     },
     {
       "name": "RemotelyAnywhere Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^RemotelyAnywhere/([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

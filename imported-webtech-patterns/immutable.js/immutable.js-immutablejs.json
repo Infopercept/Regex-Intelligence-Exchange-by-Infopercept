@@ -1,0 +1,71 @@
+{
+  "vendor": "Immutable.js",
+  "vendor_id": "immutable.js",
+  "product": "Immutable.js",
+  "product_id": "immutable.js-immutablejs",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Immutable.js Script Detection",
+      "pattern": "^immutable\\.(?:min\\.)?js$",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Immutable.js from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "immutable.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Immutable.js JavaScript Detection",
+      "pattern": "window\\.Immutable|Immutable\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Immutable.js from JavaScript variable 'Immutable'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "immutable.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Immutable.js JavaScript Detection",
+      "pattern": "window\\.Immutable\\.version|Immutable\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Immutable.js from JavaScript variable 'Immutable.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "immutable.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

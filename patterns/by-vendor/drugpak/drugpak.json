@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<LINK\\ REL=StyleSheet\\ HREF=\"<\\#imagepath>/<\\#_style1\\ default=dpstyle\\.css>\"\\ TYPE=\"text/css\"\\ MEDIA=screen>"
+      "pattern": "<LINK\\ REL=StyleSheet\\ HREF=\"<\\#imagepath>/<\\#_style1\\ default=dpstyle\\.css>\"\\ TYPE=\"text/css\"\\ MEDIA=screen>",
+      "version_group": 0
     },
     {
       "name": "DrugPak Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-Assist\\ making\\ SSL\\ connection\\-\\->"
+      "pattern": "<!\\-\\-Assist\\ making\\ SSL\\ connection\\-\\->",
+      "version_group": 0
     },
     {
       "name": "DrugPak Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<hr>Powered\\ by\\ DrugPak</body>"
+      "pattern": "<hr>Powered\\ by\\ DrugPak</body>",
+      "version_group": 0
     },
     {
       "name": "DrugPak Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<LINK\\ REL=StyleSheet\\ HREF=\"/dplimg/DPSTYLE\\.CSS\"\\ TYPE=\"text/css\"\\ media=\"all\">"
+      "pattern": "<LINK\\ REL=StyleSheet\\ HREF=\"/dplimg/DPSTYLE\\.CSS\"\\ TYPE=\"text/css\"\\ media=\"all\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

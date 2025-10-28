@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\(Powered\\ by\\ Invision\\ Power\\ Board\\)</title>"
+      "pattern": "\\(Powered\\ by\\ Invision\\ Power\\ Board\\)</title>",
+      "version_group": 0
     },
     {
       "name": "InvisionPowerBoard Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "index\\.php\\?app=core\\&amp;module=global\\&amp;section=rss\\&amp;type=forums\\&amp;id="
+      "pattern": "index\\.php\\?app=core\\&amp;module=global\\&amp;section=rss\\&amp;type=forums\\&amp;id=",
+      "version_group": 0
     },
     {
       "name": "InvisionPowerBoard Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href='\\#j_content'\\ title='Jump\\ to\\ content'\\ accesskey='m'>Jump\\ to\\ content</a>"
+      "pattern": "<a\\ href='\\#j_content'\\ title='Jump\\ to\\ content'\\ accesskey='m'>Jump\\ to\\ content</a>",
+      "version_group": 0
     },
     {
       "name": "InvisionPowerBoard Pattern",
@@ -84,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script [^>]+src='[^']+/ipb.js",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script [^>]+src='[^']+/ipb\\.js"
+      "pattern": "<script [^>]+src='[^']+/ipb\\.js",
+      "version_group": 0
     },
     {
       "name": "InvisionPowerBoard Pattern",
@@ -100,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script [^>]*src='[^']+/ipb_global.js'>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script [^>]*src='[^']+/ipb_global\\.js'>"
+      "pattern": "<script [^>]*src='[^']+/ipb_global\\.js'>",
+      "version_group": 0
     },
     {
       "name": "InvisionPowerBoard Pattern",
@@ -124,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"ipbwrapper\">"
+      "pattern": "<div\\ id=\"ipbwrapper\">",
+      "version_group": 0
     },
     {
       "name": "InvisionPowerBoard Pattern",
@@ -138,9 +156,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div [^>]*class='copyright'>Powered by <[^>]+>Invision Power Board</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div [^>]*class='copyright'>Powered by <[^>]+>Invision Power Board</a>"
+      "pattern": "<div [^>]*class='copyright'>Powered by <[^>]+>Invision Power Board</a>",
+      "version_group": 0
     },
     {
       "name": "InvisionPowerBoard Pattern",
@@ -154,9 +179,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"text/javascript\" src='[^']*ips_xmlhttprequest.js'></script>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script type=\"text/javascript\" src='[^']*ips_xmlhttprequest\\.js'></script>"
+      "pattern": "<script type=\"text/javascript\" src='[^']*ips_xmlhttprequest\\.js'></script>",
+      "version_group": 0
     },
     {
       "name": "InvisionPowerBoard Pattern",
@@ -178,7 +210,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ By\\ <a\\ href='http://www\\.invisionboard\\.com'\\ style='text\\-decoration:none'\\ target='_blank'>IP\\.Board</a>"
+      "pattern": "Powered\\ By\\ <a\\ href='http://www\\.invisionboard\\.com'\\ style='text\\-decoration:none'\\ target='_blank'>IP\\.Board</a>",
+      "version_group": 0
     },
     {
       "name": "InvisionPowerBoard Pattern",
@@ -192,9 +225,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "&copy; [0-9]+ &nbsp;<a href='http://www.invisionpower.com'[^>]*>IPS, Inc<",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "&copy; [0-9]+ &nbsp;<a href='http://www\\.invisionpower\\.com'[^>]*>IPS, Inc<"
+      "pattern": "&copy; [0-9]+ &nbsp;<a href='http://www\\.invisionpower\\.com'[^>]*>IPS, Inc<",
+      "version_group": 0
     },
     {
       "name": "InvisionPowerBoard Pattern",
@@ -208,9 +248,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "&copy; [0-9]+ &nbsp;<a href='http://www.invisionpower.com'[^>]*>IPS, <abbr title='Incorporated'>Inc</abbr><",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "&copy; [0-9]+ &nbsp;<a href='http://www\\.invisionpower\\.com'[^>]*>IPS, <abbr title='Incorporated'>Inc</abbr><"
+      "pattern": "&copy; [0-9]+ &nbsp;<a href='http://www\\.invisionpower\\.com'[^>]*>IPS, <abbr title='Incorporated'>Inc</abbr><",
+      "version_group": 0
     },
     {
       "name": "InvisionPowerBoard Pattern",
@@ -224,9 +271,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"[^\"]+index.php?s=[a-z0-9]+&amp;act=Login&amp;CODE=[0-9]+\">Log In</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"[^\"]+index\\.php\\?s=[a-z0-9]+&amp;act=Login&amp;CODE=[0-9]+\">Log In</a>"
+      "pattern": "<a href=\"[^\"]+index\\.php\\?s=[a-z0-9]+&amp;act=Login&amp;CODE=[0-9]+\">Log In</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

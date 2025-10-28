@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src='[/]*images/palogo_gr_17.gif' height=23 alt='powered by PortalApp' align=['|\"]*[center|middle]+['|\"]*></A>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<img src='[/]*images/palogo_gr_17.gif' height=23 alt='powered by PortalApp' align=[\\'|\\\"]*[center|middle]+[\\'|\\\"]*></A>"
+      "pattern": "<img src='[/]*images/palogo_gr_17.gif' height=23 alt='powered by PortalApp' align=[\\'|\\\"]*[center|middle]+[\\'|\\\"]*></A>",
+      "version_group": 0
     },
     {
       "name": "PortalApp Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=['|\"]*generator['|\"]* content=['|\"]*aspapp.com['|\"]*[ /]*>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=[\\'|\\\"]*generator[\\'|\\\"]* content=[\\'|\\\"]*aspapp.com[\\'|\\\"]*[\\ /]*>"
+      "pattern": "<meta name=[\\'|\\\"]*generator[\\'|\\\"]* content=[\\'|\\\"]*aspapp.com[\\'|\\\"]*[\\ /]*>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

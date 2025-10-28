@@ -1,0 +1,71 @@
+{
+  "vendor": "A-Frame",
+  "vendor_id": "a-frame",
+  "product": "A-Frame",
+  "product_id": "a-frame-a-frame",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "A-Frame HTML Detection",
+      "pattern": "<a-scene[^<>]*>",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects A-Frame from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "a-frame"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "A-Frame Script Detection",
+      "pattern": "/?([\\d.]+)?/aframe(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects A-Frame from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "a-frame"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "A-Frame JavaScript Detection",
+      "pattern": "window\\.AFRAME\\.version|AFRAME\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects A-Frame from JavaScript variable 'AFRAME.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "a-frame"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

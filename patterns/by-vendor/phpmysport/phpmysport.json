@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ phpMySport\\ <a\\ href=\"http://phpmysport\\.sourceforge\\.net\"\\ title=\"phpMySport\">"
+      "pattern": "Powered\\ by\\ phpMySport\\ <a\\ href=\"http://phpmysport\\.sourceforge\\.net\"\\ title=\"phpMySport\">",
+      "version_group": 0
     },
     {
       "name": "phpMySport Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://phpmysport\\.sourceforge\\.net\"\\ title=\"phpMySport\">"
+      "pattern": "<a\\ href=\"http://phpmysport\\.sourceforge\\.net\"\\ title=\"phpMySport\">",
+      "version_group": 0
     },
     {
       "name": "phpMySport Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"footer\">R\\&eacute;alisation\\ phpMySport"
+      "pattern": "<div\\ id=\"footer\">R\\&eacute;alisation\\ phpMySport",
+      "version_group": 0
     },
     {
       "name": "phpMySport Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "/tpl_image/by_phpmysport\\.gif\"\\ border=\"0\""
+      "pattern": "/tpl_image/by_phpmysport\\.gif\"\\ border=\"0\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

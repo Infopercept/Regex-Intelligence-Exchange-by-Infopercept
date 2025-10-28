@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Resin",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Resin"
+      "pattern": "^Resin",
+      "version_group": 0
     },
     {
       "name": "Resin Pattern",
@@ -68,5 +75,6 @@
       "pattern": "Server: [\\s]+Resin/([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

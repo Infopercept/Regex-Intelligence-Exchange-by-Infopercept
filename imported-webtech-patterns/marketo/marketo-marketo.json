@@ -1,0 +1,51 @@
+{
+  "vendor": "Marketo",
+  "vendor_id": "marketo",
+  "product": "Marketo",
+  "product_id": "marketo-marketo",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Marketo Script Detection",
+      "pattern": "munchkin\\.marketo\\.net/munchkin\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Marketo from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "marketo"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Marketo JavaScript Detection",
+      "pattern": "window\\.Munchkin|Munchkin\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Marketo from JavaScript variable 'Munchkin'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "marketo"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

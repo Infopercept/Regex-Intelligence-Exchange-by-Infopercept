@@ -29,5 +29,6 @@
       "pattern": "Server: ^Intrinsyc deviceWEB v([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

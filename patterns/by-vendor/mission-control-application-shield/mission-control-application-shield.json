@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<img\\ id=\"logo\"\\ src=\"/srm\\-error\\-pages/images/logo\\.gif\"\\ alt=\"mission\\ control\\ application\\ shield\"\\ ></td><td><p\\ class=\"notification\">Notification</p></td>"
+      "pattern": "<img\\ id=\"logo\"\\ src=\"/srm\\-error\\-pages/images/logo\\.gif\"\\ alt=\"mission\\ control\\ application\\ shield\"\\ ></td><td><p\\ class=\"notification\">Notification</p></td>",
+      "version_group": 0
     },
     {
       "name": "Mission-Control-Application-Shield Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Mission Control Application Shield$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Mission Control Application Shield$"
+      "pattern": "^Mission Control Application Shield$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

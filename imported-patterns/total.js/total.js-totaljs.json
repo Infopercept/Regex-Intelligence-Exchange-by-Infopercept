@@ -1,0 +1,31 @@
+{
+  "vendor": "total.js",
+  "vendor_id": "total.js",
+  "product": "total.js",
+  "product_id": "total.js-totaljs",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "total.js Header Detection",
+      "pattern": "X-Powered-By: ^total\\.js",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects total.js from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "total.js"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

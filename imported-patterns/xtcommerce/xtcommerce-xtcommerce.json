@@ -1,0 +1,51 @@
+{
+  "vendor": "xtCommerce",
+  "vendor_id": "xtcommerce",
+  "product": "xtCommerce",
+  "product_id": "xtcommerce-xtcommerce",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "xtCommerce HTML Detection",
+      "pattern": "<div class=\"copyright\">[^<]+<a[^>]+>xt:Commerce",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects xtCommerce from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "xtcommerce"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "xtCommerce Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']xt:Commerce[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects xtCommerce from meta tag with name 'generator'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "xtcommerce"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

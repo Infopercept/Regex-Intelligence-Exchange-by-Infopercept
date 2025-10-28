@@ -1,0 +1,31 @@
+{
+  "vendor": "WPCacheOn",
+  "vendor_id": "wpcacheon",
+  "product": "WPCacheOn",
+  "product_id": "wpcacheon-wpcacheon",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WPCacheOn Header Detection",
+      "pattern": "x-powered-by: ^Optimized by WPCacheOn",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects WPCacheOn from x-powered-by header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "wpcacheon"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

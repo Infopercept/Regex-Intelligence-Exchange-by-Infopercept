@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^KM-MFP-http",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^KM-MFP-http"
+      "pattern": "^KM-MFP-http",
+      "version_group": 0
     },
     {
       "name": "Kyocera-Printer Pattern",
@@ -114,5 +121,6 @@
       "pattern": "Server: ^NetworkScanner WebServer Ver([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

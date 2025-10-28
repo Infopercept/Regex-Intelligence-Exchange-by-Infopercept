@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^TeleFinder",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^TeleFinder"
+      "pattern": "^TeleFinder",
+      "version_group": 0
     },
     {
       "name": "TeleFinder Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^TeleFinder/([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

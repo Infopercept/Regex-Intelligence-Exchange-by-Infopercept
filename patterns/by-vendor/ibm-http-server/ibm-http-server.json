@@ -64,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^[s]*IBM_HTTP_Server",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^[\\s]*IBM_HTTP_Server"
+      "pattern": "^[\\s]*IBM_HTTP_Server",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

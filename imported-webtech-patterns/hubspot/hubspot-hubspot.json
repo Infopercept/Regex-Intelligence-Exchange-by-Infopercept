@@ -1,0 +1,71 @@
+{
+  "vendor": "HubSpot",
+  "vendor_id": "hubspot",
+  "product": "HubSpot",
+  "product_id": "hubspot-hubspot",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "HubSpot HTML Detection",
+      "pattern": "<!-- Start of Async HubSpot",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects HubSpot from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "hubspot"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "HubSpot JavaScript Detection",
+      "pattern": "window\\._hsq|_hsq\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects HubSpot from JavaScript variable '_hsq'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "hubspot"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "HubSpot JavaScript Detection",
+      "pattern": "window\\.hubspot|hubspot\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects HubSpot from JavaScript variable 'hubspot'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "hubspot"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

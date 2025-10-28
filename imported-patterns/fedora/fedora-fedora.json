@@ -1,0 +1,31 @@
+{
+  "vendor": "Fedora",
+  "vendor_id": "fedora",
+  "product": "Fedora",
+  "product_id": "fedora-fedora",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Fedora Header Detection",
+      "pattern": "Server: Fedora",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Fedora from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "fedora"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

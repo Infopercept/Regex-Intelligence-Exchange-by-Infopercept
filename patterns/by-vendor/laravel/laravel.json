@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^laravel_session",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^laravel_session"
+      "pattern": "^laravel_session",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

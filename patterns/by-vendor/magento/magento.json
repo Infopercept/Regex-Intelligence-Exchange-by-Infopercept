@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "images/logo\\.gif\"\\ alt=\"Magento\\ Commerce\"\\ /></a></h1>"
+      "pattern": "images/logo\\.gif\"\\ alt=\"Magento\\ Commerce\"\\ /></a></h1>",
+      "version_group": 0
     },
     {
       "name": "Meta keywords",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"keywords\"\\ content=\"Magento,\\ Varien,\\ E\\-commerce\"\\ />"
+      "pattern": "<meta\\ name=\"keywords\"\\ content=\"Magento,\\ Varien,\\ E\\-commerce\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Magento Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "var\\ searchForm\\ =\\ new\\ Varien\\.searchForm\\('search_mini_form',\\ 'search',\\ '"
+      "pattern": "var\\ searchForm\\ =\\ new\\ Varien\\.searchForm\\('search_mini_form',\\ 'search',\\ '",
+      "version_group": 0
     },
     {
       "name": "Magento Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": ",mage/cookies\\.js\"\\ ></script>"
+      "pattern": ",mage/cookies\\.js\"\\ ></script>",
+      "version_group": 0
     },
     {
       "name": "JavaScript disabled warning",
@@ -106,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"noscript-notice\" class=\"magento-notice\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div id=\"noscript-notice\" class=\"magento-notice\">"
+      "pattern": "<div id=\"noscript-notice\" class=\"magento-notice\">",
+      "version_group": 0
     },
     {
       "name": "Magento Pattern",
@@ -130,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<title>Log\\ into\\ Magento\\ Admin\\ Page</title>"
+      "pattern": "<title>Log\\ into\\ Magento\\ Admin\\ Page</title>",
+      "version_group": 0
     },
     {
       "name": "cookie called magento",
@@ -144,9 +156,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^magento=[0-9a-f]+",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^magento=[0-9a-f]+"
+      "pattern": "^magento=[0-9a-f]+",
+      "version_group": 0
     },
     {
       "name": "cookie called frontend",
@@ -160,9 +179,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^frontend=[0-9a-z]+",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^frontend=[0-9a-z]+"
+      "pattern": "^frontend=[0-9a-z]+",
+      "version_group": 0
     },
     {
       "name": "cookie called CUSTOMER",
@@ -176,9 +202,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^CUSTOMER",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^CUSTOMER"
+      "pattern": "^CUSTOMER",
+      "version_group": 0
     },
     {
       "name": "Magento Pattern",
@@ -200,7 +233,9 @@
           }
         ]
       },
-      "pattern": "<script\\ type=\"text/x\\-magento\\-init\">"
+      "pattern": "<script\\ type=\"text/x\\-magento\\-init\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

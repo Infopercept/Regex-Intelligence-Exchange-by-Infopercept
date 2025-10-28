@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"Generator\"\\ content=\"Powered\\ by\\ Jcow\"\\ />"
+      "pattern": "<meta\\ name=\"Generator\"\\ content=\"Powered\\ by\\ Jcow\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Jcow Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ do\\ NOT\\ remove\\ the\\ Jcow\\ Attribution\\ Information\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ do\\ NOT\\ remove\\ the\\ Jcow\\ Attribution\\ Information\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Jcow Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ jcow\\ branding\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ jcow\\ branding\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Jcow Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ end\\ jcow_application_box\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ end\\ jcow_application_box\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

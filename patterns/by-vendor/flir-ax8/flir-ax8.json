@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<p\\ style=\"display:\\ inline\\-block\"\\ id=\"login\\-title\">FLIR\\ AX8"
+      "pattern": "<p\\ style=\"display:\\ inline\\-block\"\\ id=\"login\\-title\">FLIR\\ AX8",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

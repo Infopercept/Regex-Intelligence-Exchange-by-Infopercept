@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"footer\"><div style=\"float: left;\">Powered by <a href=\"http://(tpiha.kset.org|www.micro-cms.com)/\">Micro CMS</a> | <a href=\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div class=\"footer\"><div style=\"float: left;\">Powered by <a href=\"http://(tpiha.kset.org|www.micro-cms.com)/\">Micro CMS</a> \\| <a href=\""
+      "pattern": "<div class=\"footer\"><div style=\"float: left;\">Powered by <a href=\"http://(tpiha.kset.org|www.micro-cms.com)/\">Micro CMS</a> \\| <a href=\"",
+      "version_group": 0
     },
     {
       "name": "Micro-CMS Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <strong><a\\ href=\"http://microcms\\.kset\\.org/\">Micro\\ CMS</a></strong><br\\ />"
+      "pattern": "Powered\\ by\\ <strong><a\\ href=\"http://microcms\\.kset\\.org/\">Micro\\ CMS</a></strong><br\\ />",
+      "version_group": 0
     },
     {
       "name": "Micro-CMS Pattern",
@@ -64,7 +72,9 @@
           }
         ]
       },
-      "pattern": "\"\\ method=\"post\"onsubmit=\""
+      "pattern": "\"\\ method=\"post\"onsubmit=\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

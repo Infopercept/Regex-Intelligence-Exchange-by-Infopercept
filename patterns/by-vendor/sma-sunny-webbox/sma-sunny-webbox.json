@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Sunny WebBox</title>[s]+</head>[s]+<frameset rows=\"75,*,22\" frameborder=\"no\" border=\"2\" framespacing=\"0\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>Sunny WebBox</title>[\\s]+</head>[\\s]+<frameset rows=\"75,\\*,22\" frameborder=\"no\" border=\"2\" framespacing=\"0\">"
+      "pattern": "<title>Sunny WebBox</title>[\\s]+</head>[\\s]+<frameset rows=\"75,\\*,22\" frameborder=\"no\" border=\"2\" framespacing=\"0\">",
+      "version_group": 0
     },
     {
       "name": "SMA-Sunny-WebBox Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta http-equiv=\"refresh\" content=\"0; URL=/culture/index.dml\">[s]+<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">[s]+<title>SMA Sunny Webbox</title>[s]+<link rel=\"SHORTCUT ICON\" href=\"../img/favicon.ico\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta http-equiv=\"refresh\" content=\"0; URL=/culture/index\\.dml\">[\\s]+<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">[\\s]+<title>SMA Sunny Webbox</title>[\\s]+<link rel=\"SHORTCUT ICON\" href=\"\\.\\./img/favicon\\.ico\">"
+      "pattern": "<meta http-equiv=\"refresh\" content=\"0; URL=/culture/index\\.dml\">[\\s]+<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">[\\s]+<title>SMA Sunny Webbox</title>[\\s]+<link rel=\"SHORTCUT ICON\" href=\"\\.\\./img/favicon\\.ico\">",
+      "version_group": 0
     },
     {
       "name": "SMA-Sunny-WebBox Pattern",
@@ -50,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^(WebBox-20|Sunny WebBox)$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^(WebBox-20|Sunny WebBox)$"
+      "pattern": "^(WebBox-20|Sunny WebBox)$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

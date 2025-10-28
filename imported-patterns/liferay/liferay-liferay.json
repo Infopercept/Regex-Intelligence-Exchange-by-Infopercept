@@ -1,0 +1,31 @@
+{
+  "vendor": "Liferay",
+  "vendor_id": "liferay",
+  "product": "Liferay",
+  "product_id": "liferay-liferay",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Liferay Header Detection",
+      "pattern": "Liferay-Portal: [a-z\\s]+([\\d.]+)",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Liferay from Liferay-Portal header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "liferay"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

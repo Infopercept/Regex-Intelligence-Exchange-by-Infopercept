@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://(www.)?tangocms.org\" title=\"(Open Source CMS|TangoCMS)\">TangoCMS</a>.",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <a href=\"http://(www\\.)?tangocms\\.org\" title=\"(Open Source CMS|TangoCMS)\">TangoCMS</a>\\."
+      "pattern": "Powered by <a href=\"http://(www\\.)?tangocms\\.org\" title=\"(Open Source CMS|TangoCMS)\">TangoCMS</a>\\.",
+      "version_group": 0
     },
     {
       "name": "TangoCMS Pattern",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<input\\ type=\"checkbox\"\\ id=\"sessionRemember\"\\ name=\"session\\[remember\\]\"\\ value=\"1\"\\ checked=\"checked\">\\ <label\\ class=\"horizontal\"\\ for=\"sessionRemember\">Remember\\ me\\?</label>"
+      "pattern": "<input\\ type=\"checkbox\"\\ id=\"sessionRemember\"\\ name=\"session\\[remember\\]\"\\ value=\"1\"\\ checked=\"checked\">\\ <label\\ class=\"horizontal\"\\ for=\"sessionRemember\">Remember\\ me\\?</label>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

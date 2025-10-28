@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ type=\"image/x\\-icon\"\\ href=\"/zport/dmd/favicon\\.ico\"\\ />"
+      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ type=\"image/x\\-icon\"\\ href=\"/zport/dmd/favicon\\.ico\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^OwnServer",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^OwnServer"
+      "pattern": "^OwnServer",
+      "version_group": 0
     },
     {
       "name": "OwnServer Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^OwnServer([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "Paper.js",
+  "vendor_id": "paper.js",
+  "product": "Paper.js",
+  "product_id": "paper.js-paperjs",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Paper.js JavaScript Detection",
+      "pattern": "window\\.paper\\.version|paper\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Paper.js from JavaScript variable 'paper.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "paper.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

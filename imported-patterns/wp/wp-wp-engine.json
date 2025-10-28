@@ -1,0 +1,91 @@
+{
+  "vendor": "WP",
+  "vendor_id": "wp",
+  "product": "WP Engine",
+  "product_id": "wp-wp-engine",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WP Engine Header Detection",
+      "pattern": "X-Pass-Why: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects WP Engine from X-Pass-Why header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "wp-engine"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "WP Engine Header Detection",
+      "pattern": "X-Powered-By: WP Engine",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects WP Engine from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "wp-engine"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "WP Engine Header Detection",
+      "pattern": "X-WPE-Loopback-Upstream-Addr: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects WP Engine from X-WPE-Loopback-Upstream-Addr header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "wp-engine"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "WP Engine Header Detection",
+      "pattern": "wpe-backend: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects WP Engine from wpe-backend header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "wp-engine"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

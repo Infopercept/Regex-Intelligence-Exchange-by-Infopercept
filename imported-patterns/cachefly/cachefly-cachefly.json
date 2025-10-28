@@ -1,0 +1,71 @@
+{
+  "vendor": "CacheFly",
+  "vendor_id": "cachefly",
+  "product": "CacheFly",
+  "product_id": "cachefly-cachefly",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CacheFly Header Detection",
+      "pattern": "Server: ^CFS ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CacheFly from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "cachefly"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "CacheFly Header Detection",
+      "pattern": "X-CF1: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CacheFly from X-CF1 header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "cachefly"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "CacheFly Header Detection",
+      "pattern": "X-CF2: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CacheFly from X-CF2 header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "cachefly"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

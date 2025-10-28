@@ -1,0 +1,31 @@
+{
+  "vendor": "Windows",
+  "vendor_id": "windows",
+  "product": "Windows CE",
+  "product_id": "windows-windows-ce",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Windows CE Header Detection",
+      "pattern": "Server: \\bWinCE\\b",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Windows CE from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "windows-ce"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

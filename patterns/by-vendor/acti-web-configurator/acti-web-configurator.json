@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form name=\"frm(LOGIN|Config)\" method=\"POST\" enctype=\"multipart/form-data\" action=\"videoconfiguration.cgi\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<form name=\"frm(LOGIN|Config)\" method=\"POST\" enctype=\"multipart/form-data\" action=\"videoconfiguration\\.cgi\">"
+      "pattern": "<form name=\"frm(LOGIN|Config)\" method=\"POST\" enctype=\"multipart/form-data\" action=\"videoconfiguration\\.cgi\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

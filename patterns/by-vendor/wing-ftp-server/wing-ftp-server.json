@@ -49,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<p>JavaScript\\ is\\ a\\ scripting\\ language\\ that\\ works\\ with\\ your\\ browser\\ to\\ create\\ interactive\\ elements\\ in\\ web\\ pages\\.\\ The\\ web\\ client\\ depend\\ on\\ JavaScript\\ to\\ function\\ properly\\.\\ </p>"
+      "pattern": "<p>JavaScript\\ is\\ a\\ scripting\\ language\\ that\\ works\\ with\\ your\\ browser\\ to\\ create\\ interactive\\ elements\\ in\\ web\\ pages\\.\\ The\\ web\\ client\\ depend\\ on\\ JavaScript\\ to\\ function\\ properly\\.\\ </p>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

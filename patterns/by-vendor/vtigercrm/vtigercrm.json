@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\\\\"
+      "pattern": "<img\\ src=\\\\",
+      "version_group": 0
     },
     {
       "name": "html body favicon",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "/vtigercrm_icon\\.ico\">"
+      "pattern": "/vtigercrm_icon\\.ico\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

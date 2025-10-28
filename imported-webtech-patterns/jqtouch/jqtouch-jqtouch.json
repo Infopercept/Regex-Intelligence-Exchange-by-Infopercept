@@ -1,0 +1,51 @@
+{
+  "vendor": "jQTouch",
+  "vendor_id": "jqtouch",
+  "product": "jQTouch",
+  "product_id": "jqtouch-jqtouch",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "jQTouch Script Detection",
+      "pattern": "jqtouch.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects jQTouch from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "jqtouch"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "jQTouch JavaScript Detection",
+      "pattern": "window\\.jQT|jQT\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects jQTouch from JavaScript variable 'jQT'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "jqtouch"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "vendor": "phpwind",
+  "vendor_id": "phpwind",
+  "product": "phpwind",
+  "product_id": "phpwind-phpwind",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "phpwind HTML Detection",
+      "pattern": "(?:Powered|Code) by <a href=\"[^\"]+phpwind\\.net",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects phpwind from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "phpwind"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "phpwind Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']^phpwind(?: v([0-9-]+))?[\"']",
+      "version_group": 1,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects phpwind from meta tag with name 'generator'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "phpwind"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "vendor": "Jimdo",
+  "vendor_id": "jimdo",
+  "product": "Jimdo",
+  "product_id": "jimdo-jimdo",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Jimdo Header Detection",
+      "pattern": "X-Jimdo-Instance: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Jimdo from X-Jimdo-Instance header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "jimdo"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Jimdo Header Detection",
+      "pattern": "X-Jimdo-Wid: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Jimdo from X-Jimdo-Wid header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "jimdo"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

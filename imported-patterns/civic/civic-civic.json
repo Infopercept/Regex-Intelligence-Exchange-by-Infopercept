@@ -1,0 +1,31 @@
+{
+  "vendor": "CIVIC",
+  "vendor_id": "civic",
+  "product": "CIVIC",
+  "product_id": "civic-civic",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CIVIC Script Detection",
+      "pattern": "cc\\.cdn\\.civiccomputing\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CIVIC from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "civic"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

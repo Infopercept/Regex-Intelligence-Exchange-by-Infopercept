@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "b(href|src)s*=s*[\"'][^>]*url.php?type=bar&dimension=[^s^&]+&data_type=[^s^&]+&file_path=[^&]+&group_col=[^s^&]+&series_col=[^s^&]+&output_type=[^s^&]+",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "\\b(href|src)\\s*=\\s*[\"'][^>]*url\\.php\\?type=bar&dimension=[^\\s^&]+&data_type=[^\\s^&]+&file_path=[^&]+&group_col=[^\\s^&]+&series_col=[^\\s^&]+&output_type=[^\\s^&]+"
+      "pattern": "\\b(href|src)\\s*=\\s*[\"'][^>]*url\\.php\\?type=bar&dimension=[^\\s^&]+&data_type=[^\\s^&]+&file_path=[^&]+&group_col=[^\\s^&]+&series_col=[^\\s^&]+&output_type=[^\\s^&]+",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

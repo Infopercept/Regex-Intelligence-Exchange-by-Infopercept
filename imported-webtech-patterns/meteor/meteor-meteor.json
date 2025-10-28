@@ -1,0 +1,71 @@
+{
+  "vendor": "Meteor",
+  "vendor_id": "meteor",
+  "product": "Meteor",
+  "product_id": "meteor-meteor",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Meteor HTML Detection",
+      "pattern": "<link[^>]+__meteor-css__",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Meteor from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "meteor"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Meteor JavaScript Detection",
+      "pattern": "window\\.Meteor|Meteor\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Meteor from JavaScript variable 'Meteor'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "meteor"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Meteor JavaScript Detection",
+      "pattern": "window\\.Meteor\\.release|Meteor\\.release\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Meteor from JavaScript variable 'Meteor.release'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "meteor"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

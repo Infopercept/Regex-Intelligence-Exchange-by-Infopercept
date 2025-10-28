@@ -1,0 +1,31 @@
+{
+  "vendor": "Epom",
+  "vendor_id": "epom",
+  "product": "Epom",
+  "product_id": "epom-epom",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Epom JavaScript Detection",
+      "pattern": "window\\.epomCustomParams|epomCustomParams\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Epom from JavaScript variable 'epomCustomParams'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "epom"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

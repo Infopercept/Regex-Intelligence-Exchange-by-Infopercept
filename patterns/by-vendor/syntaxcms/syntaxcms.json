@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.syntaxcms\\.org\">SyntaxCMS</a></div>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.syntaxcms\\.org\">SyntaxCMS</a></div>",
+      "version_group": 0
     },
     {
       "name": "syntaxCMS Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "powered\\ by\\ <a\\ href=\"http://www\\.syntaxcms\\.org/\"\\ title=\"SyntaxCMS\">SyntaxCMS</a></div>"
+      "pattern": "powered\\ by\\ <a\\ href=\"http://www\\.syntaxcms\\.org/\"\\ title=\"SyntaxCMS\">SyntaxCMS</a></div>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

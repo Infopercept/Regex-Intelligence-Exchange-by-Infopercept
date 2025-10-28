@@ -1,0 +1,91 @@
+{
+  "vendor": "Gemius",
+  "vendor_id": "gemius",
+  "product": "Gemius",
+  "product_id": "gemius-gemius",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Gemius HTML Detection",
+      "pattern": "<a [^>]*onclick=\"gemius_hit",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Gemius from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "gemius"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Gemius Script Detection",
+      "pattern": "hit\\.gemius\\.pl/xgemius\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Gemius from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "gemius"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Gemius Script Detection",
+      "pattern": "hit\\.gemius\\.pl\\;confidence:80",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Gemius from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "gemius"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Gemius Script Detection",
+      "pattern": "xgemius\\.js\\;confidence:30",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Gemius from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "gemius"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

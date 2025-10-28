@@ -1,0 +1,31 @@
+{
+  "vendor": "Google",
+  "vendor_id": "google",
+  "product": "Google App Engine",
+  "product_id": "google-google-app-engine",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Google App Engine Header Detection",
+      "pattern": "Server: Google Frontend",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google App Engine from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "google-app-engine"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

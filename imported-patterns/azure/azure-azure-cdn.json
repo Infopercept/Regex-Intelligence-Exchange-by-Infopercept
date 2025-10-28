@@ -1,0 +1,51 @@
+{
+  "vendor": "Azure",
+  "vendor_id": "azure",
+  "product": "Azure CDN",
+  "product_id": "azure-azure-cdn",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Azure CDN Header Detection",
+      "pattern": "X-EC-Debug: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Azure CDN from X-EC-Debug header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "azure-cdn"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Azure CDN Header Detection",
+      "pattern": "server: ^(?:ECAcc|ECS|ECD)",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Azure CDN from server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "azure-cdn"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

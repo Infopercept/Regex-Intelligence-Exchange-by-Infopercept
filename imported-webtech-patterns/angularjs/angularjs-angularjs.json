@@ -1,0 +1,151 @@
+{
+  "vendor": "AngularJS",
+  "vendor_id": "angularjs",
+  "product": "AngularJS",
+  "product_id": "angularjs-angularjs",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AngularJS HTML Detection",
+      "pattern": "<(?:div|html)[^>]+ng-app=",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AngularJS from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "angularjs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AngularJS HTML Detection",
+      "pattern": "<ng-app",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AngularJS from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "angularjs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AngularJS Script Detection",
+      "pattern": "angular[.-]([\\d.]*\\d)[^/]*\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AngularJS from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "angularjs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AngularJS Script Detection",
+      "pattern": "/([\\d.]+(?:-?rc[.\\d]*)*)/angular(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AngularJS from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "angularjs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AngularJS Script Detection",
+      "pattern": "angular.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AngularJS from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "angularjs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AngularJS JavaScript Detection",
+      "pattern": "window\\.angular|angular\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AngularJS from JavaScript variable 'angular'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "angularjs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AngularJS JavaScript Detection",
+      "pattern": "window\\.angular\\.version\\.full|angular\\.version\\.full\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AngularJS from JavaScript variable 'angular.version.full'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "angularjs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

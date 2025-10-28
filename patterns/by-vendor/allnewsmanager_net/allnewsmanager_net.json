@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "(kujeme|Powered by) <a id=\"[^\"]+\" href=\"http://www.allnewsmanager.net\">AllNewsManager.NET</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "(kujeme|Powered by) <a id=\"[^\"]+\" href=\"http://www.allnewsmanager.net\">AllNewsManager.NET</a>"
+      "pattern": "(kujeme|Powered by) <a id=\"[^\"]+\" href=\"http://www.allnewsmanager.net\">AllNewsManager.NET</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

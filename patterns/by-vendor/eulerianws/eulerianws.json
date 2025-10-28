@@ -29,5 +29,6 @@
       "pattern": "Server: ^[\\s]*EulerianWS/([^\\s^\\r^\\n]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

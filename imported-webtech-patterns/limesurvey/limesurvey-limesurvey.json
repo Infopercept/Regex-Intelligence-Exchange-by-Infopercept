@@ -1,0 +1,31 @@
+{
+  "vendor": "LimeSurvey",
+  "vendor_id": "limesurvey",
+  "product": "LimeSurvey",
+  "product_id": "limesurvey-limesurvey",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "LimeSurvey Header Detection",
+      "pattern": "generator: LimeSurvey",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects LimeSurvey from generator header",
+        "tags": [
+          "webtech",
+          "header",
+          "limesurvey"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

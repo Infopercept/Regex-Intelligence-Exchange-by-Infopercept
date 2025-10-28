@@ -1,0 +1,31 @@
+{
+  "vendor": "EPages",
+  "vendor_id": "epages",
+  "product": "EPages",
+  "product_id": "epages-epages",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "EPages Header Detection",
+      "pattern": "X-epages-RequestId: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects EPages from X-epages-RequestId header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "epages"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "ObSSOCookie=[^;]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "ObSSOCookie=[^;]+;"
+      "pattern": "ObSSOCookie=[^;]+;",
+      "version_group": 0
     },
     {
       "name": "Oracle-Access-Manager Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "obrareq.cgi",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "obrareq\\.cgi"
+      "pattern": "obrareq\\.cgi",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link id=\"ctl00_hlnk[^\"]+\" rel=\"stylesheet\" type=\"text/css\"[^>]+href=\"[^\"]*/Site/Resources/css/(layout|styles).css\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link id=\"ctl00_hlnk[^\"]+\" rel=\"stylesheet\" type=\"text/css\"[^>]+href=\"[^\"]*/Site/Resources/css/(layout|styles).css\" />"
+      "pattern": "<link id=\"ctl00_hlnk[^\"]+\" rel=\"stylesheet\" type=\"text/css\"[^>]+href=\"[^\"]*/Site/Resources/css/(layout|styles).css\" />",
+      "version_group": 0
     },
     {
       "name": "ReFlex-CMS Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "var\\ Page_Validators\\ =\\ \\ new\\ Array\\(document\\.getElementById\\(\"ctl00_cphMain_rfvUserName\"\\),\\ document\\.getElementById\\(\"ctl00_cphMain_rfvUserPassword\"\\)\\);"
+      "pattern": "var\\ Page_Validators\\ =\\ \\ new\\ Array\\(document\\.getElementById\\(\"ctl00_cphMain_rfvUserName\"\\),\\ document\\.getElementById\\(\"ctl00_cphMain_rfvUserPassword\"\\)\\);",
+      "version_group": 0
     },
     {
       "name": "ReFlex-CMS Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"Resources/images/reflex\\.png\"\\ alt=\"ReFlex\\ Administration\"\\ />"
+      "pattern": "<img\\ src=\"Resources/images/reflex\\.png\"\\ alt=\"ReFlex\\ Administration\"\\ />",
+      "version_group": 0
     },
     {
       "name": "ReFlex-CMS Pattern",
@@ -86,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<script\\ defer\\ type=\"text/javascript\"\\ src=\"Resources/js/pngfix\\.js\"></script>"
+      "pattern": "<script\\ defer\\ type=\"text/javascript\"\\ src=\"Resources/js/pngfix\\.js\"></script>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

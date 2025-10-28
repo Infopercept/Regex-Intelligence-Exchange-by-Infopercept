@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-Powered\\ by\\ nopCommerce\\ \\-\\ http://www\\.nopCommerce\\.com\\-\\->"
+      "pattern": "<!\\-\\-Powered\\ by\\ nopCommerce\\ \\-\\ http://www\\.nopCommerce\\.com\\-\\->",
+      "version_group": 0
     },
     {
       "name": "nopCommerce Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.nopcommerce\\.com/\">nopCommerce</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.nopcommerce\\.com/\">nopCommerce</a>",
+      "version_group": 0
     },
     {
       "name": "nopCommerce Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.nopcommerce\\.com\"\\ target=\"_blank\">nopCommerce</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.nopcommerce\\.com\"\\ target=\"_blank\">nopCommerce</a>",
+      "version_group": 0
     },
     {
       "name": "nopCommerce Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<input\\ type=\"submit\"\\ name=\"LoginForm\\$LoginButton\"\\ value=\"Log\\ in\"\\ onclick=\"javascript:WebForm_DoPostBackWithOptions\\(new\\ WebForm_PostBackOptions\\(\\&quot;LoginForm\\$LoginButton\\&quot;,\\ \\&quot;\\&quot;,\\ true,\\ \\&quot;LoginForm\\&quot;,\\ \\&quot;\\&quot;,\\ false,\\ false\\)\\)\"\\ id=\"LoginForm_LoginButton\"\\ class=\"adminButtonBlue\"\\ />"
+      "pattern": "<input\\ type=\"submit\"\\ name=\"LoginForm\\$LoginButton\"\\ value=\"Log\\ in\"\\ onclick=\"javascript:WebForm_DoPostBackWithOptions\\(new\\ WebForm_PostBackOptions\\(\\&quot;LoginForm\\$LoginButton\\&quot;,\\ \\&quot;\\&quot;,\\ true,\\ \\&quot;LoginForm\\&quot;,\\ \\&quot;\\&quot;,\\ false,\\ false\\)\\)\"\\ id=\"LoginForm_LoginButton\"\\ class=\"adminButtonBlue\"\\ />",
+      "version_group": 0
     },
     {
       "name": "nopCommerce Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<input\\ id=\"LoginForm_RememberMe\"\\ type=\"checkbox\"\\ name=\"LoginForm\\$RememberMe\"\\ checked=\"checked\"\\ /><label\\ for=\"LoginForm_RememberMe\">Remember\\ me</label>"
+      "pattern": "<input\\ id=\"LoginForm_RememberMe\"\\ type=\"checkbox\"\\ name=\"LoginForm\\$RememberMe\"\\ checked=\"checked\"\\ /><label\\ for=\"LoginForm_RememberMe\">Remember\\ me</label>",
+      "version_group": 0
     },
     {
       "name": "nopCommerce Pattern",
@@ -136,7 +141,9 @@
           }
         ]
       },
-      "pattern": "var\\ LoginForm_UserNameOrEmailRequired\\ =\\ document\\.all\\ \\?\\ document\\.all\\[\"LoginForm_UserNameOrEmailRequired\"\\]\\ :\\ document\\.getElementById\\(\"LoginForm_UserNameOrEmailRequired\"\\);"
+      "pattern": "var\\ LoginForm_UserNameOrEmailRequired\\ =\\ document\\.all\\ \\?\\ document\\.all\\[\"LoginForm_UserNameOrEmailRequired\"\\]\\ :\\ document\\.getElementById\\(\"LoginForm_UserNameOrEmailRequired\"\\);",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

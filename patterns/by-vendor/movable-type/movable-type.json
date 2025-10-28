@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"text/javascript\" src=\"[^\"]+mt(-site)?.js\"></script>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script type=\"text/javascript\" src=\"[^\"]+mt(-site)?\\.js\"></script>"
+      "pattern": "<script type=\"text/javascript\" src=\"[^\"]+mt(-site)?\\.js\"></script>",
+      "version_group": 0
     },
     {
       "name": "mt-tags|mt-tb|mt-cp|mt-search|mt-user-login|mt-recommend cgi",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\"[^\"]+/mt-(tags|tb|cp|search|user-login|recommend).[f]?cgi[^\"]*\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "\"[^\"]+/mt-(tags|tb|cp|search|user-login|recommend)\\.[f]?cgi[^\"]*\""
+      "pattern": "\"[^\"]+/mt-(tags|tb|cp|search|user-login|recommend)\\.[f]?cgi[^\"]*\"",
+      "version_group": 0
     },
     {
       "name": "meta generator tag",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"http://www.movabletype.org/\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\"generator\" content=\"http://www\\.movabletype\\.org/\" />"
+      "pattern": "<meta name=\"generator\" content=\"http://www\\.movabletype\\.org/\" />",
+      "version_group": 0
     },
     {
       "name": "Movable-Type Pattern",
@@ -74,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<title>Movable\\ Type\\ System\\ Check\\ \\[mt\\-check\\.cgi\\]</title>"
+      "pattern": "<title>Movable\\ Type\\ System\\ Check\\ \\[mt\\-check\\.cgi\\]</title>",
+      "version_group": 0
     },
     {
       "name": "Powered by link",
@@ -88,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://sixapart.com\">Powered by Movable Type</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"http://sixapart\\.com\">Powered by Movable Type</a>"
+      "pattern": "<a href=\"http://sixapart\\.com\">Powered by Movable Type</a>",
+      "version_group": 0
     },
     {
       "name": "Powered by link",
@@ -104,9 +133,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.movabletype.com/\"[^>]*>Movable Type</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <a href=\"http://www\\.movabletype\\.com/\"[^>]*>Movable Type</a>"
+      "pattern": "Powered by <a href=\"http://www\\.movabletype\\.com/\"[^>]*>Movable Type</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

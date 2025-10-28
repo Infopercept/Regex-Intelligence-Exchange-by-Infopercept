@@ -1,0 +1,31 @@
+{
+  "vendor": "IBM",
+  "vendor_id": "ibm",
+  "product": "IBM WebSphere Commerce",
+  "product_id": "ibm-ibm-websphere-commerce",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "IBM WebSphere Commerce HTML Detection",
+      "pattern": "<(?:a|link|script)[^>]*(?:href|src)=\".*(?:/wcsstore/|webapp/wcs)",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects IBM WebSphere Commerce from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "ibm-websphere-commerce"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

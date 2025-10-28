@@ -1,0 +1,31 @@
+{
+  "vendor": "Axios",
+  "vendor_id": "axios",
+  "product": "Axios",
+  "product_id": "axios-axios",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Axios Script Detection",
+      "pattern": "/axios(@|/)([\\d.]+)(?:/[a-z]+)?/axios(?:.min)?\\.js",
+      "version_group": 2,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Axios from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "axios"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

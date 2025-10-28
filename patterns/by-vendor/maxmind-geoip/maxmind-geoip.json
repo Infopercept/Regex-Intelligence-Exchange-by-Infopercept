@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"(JavaScript|text/javascript)\" src=\"(http://)?j.maxmind.com/app/(country|geoip).js\"></script>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script type=\"(JavaScript|text/javascript)\" src=\"(http://)?j\\.maxmind\\.com/app/(country|geoip)\\.js\"></script>"
+      "pattern": "<script type=\"(JavaScript|text/javascript)\" src=\"(http://)?j\\.maxmind\\.com/app/(country|geoip)\\.js\"></script>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

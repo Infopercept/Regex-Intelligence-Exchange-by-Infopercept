@@ -1,0 +1,111 @@
+{
+  "vendor": "Salesforce",
+  "vendor_id": "salesforce",
+  "product": "Salesforce",
+  "product_id": "salesforce-salesforce",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Salesforce HTML Detection",
+      "pattern": "<[^>]+=\"brandQuaternaryFgrs\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Salesforce from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "salesforce"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Salesforce JavaScript Detection",
+      "pattern": "window\\.SFDCApp|SFDCApp\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Salesforce from JavaScript variable 'SFDCApp'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "salesforce"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Salesforce JavaScript Detection",
+      "pattern": "window\\.SFDCCmp|SFDCCmp\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Salesforce from JavaScript variable 'SFDCCmp'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "salesforce"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Salesforce JavaScript Detection",
+      "pattern": "window\\.SFDCPage|SFDCPage\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Salesforce from JavaScript variable 'SFDCPage'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "salesforce"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Salesforce JavaScript Detection",
+      "pattern": "window\\.SFDCSessionVars|SFDCSessionVars\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Salesforce from JavaScript variable 'SFDCSessionVars'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "salesforce"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

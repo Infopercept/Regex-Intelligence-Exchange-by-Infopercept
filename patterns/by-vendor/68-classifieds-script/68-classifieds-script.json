@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.68classifieds\\.com\">68\\ Classifieds\\ Script</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.68classifieds\\.com\">68\\ Classifieds\\ Script</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

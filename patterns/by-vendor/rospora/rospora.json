@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"Shortcut\\ Icon\"\\ href=\"img/wowlogoanim\\.gif\"\\ type=\"image/gif\">"
+      "pattern": "<link\\ rel=\"Shortcut\\ Icon\"\\ href=\"img/wowlogoanim\\.gif\"\\ type=\"image/gif\">",
+      "version_group": 0
     },
     {
       "name": "RoSpora Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<li>This\\ server\\ supports\\ only\\ 2\\.2\\.3\\ clients<br><li>1x\\ Quest\\ XP\\ ,\\ 1x\\ Kill\\ XP\\ ,\\ 1x\\ Discovery\\ XP"
+      "pattern": "<li>This\\ server\\ supports\\ only\\ 2\\.2\\.3\\ clients<br><li>1x\\ Quest\\ XP\\ ,\\ 1x\\ Kill\\ XP\\ ,\\ 1x\\ Discovery\\ XP",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

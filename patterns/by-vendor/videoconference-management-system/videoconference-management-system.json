@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ NAME=\"AUTHOR\"\\ CONTENT=\"TANDBERG\\ ASA\\ \\(http://www\\.tandberg\\.net\\)\">"
+      "pattern": "<meta\\ NAME=\"AUTHOR\"\\ CONTENT=\"TANDBERG\\ ASA\\ \\(http://www\\.tandberg\\.net\\)\">",
+      "version_group": 0
     },
     {
       "name": "Videoconference-Management-System Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "content=\"TANDBERG\\ is\\ a\\ leading\\ global\\ provider\\ of\\ videoconferencing\\ solutions\\.\\ The\\ company\\ designs,\\ develops\\ and\\ manufactures\\ videoconferencing\\ systems\\ and\\ offers\\ sales,\\ support\\ and\\ value\\-added\\ services\\ in\\ more\\ than\\ 50\\ countries\\ worldwide\\.\">"
+      "pattern": "content=\"TANDBERG\\ is\\ a\\ leading\\ global\\ provider\\ of\\ videoconferencing\\ solutions\\.\\ The\\ company\\ designs,\\ develops\\ and\\ manufactures\\ videoconferencing\\ systems\\ and\\ offers\\ sales,\\ support\\ and\\ value\\-added\\ services\\ in\\ more\\ than\\ 50\\ countries\\ worldwide\\.\">",
+      "version_group": 0
     },
     {
       "name": "Videoconference-Management-System Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<title>TANDBERG</title>"
+      "pattern": "<title>TANDBERG</title>",
+      "version_group": 0
     },
     {
       "name": "Videoconference-Management-System Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t<frame\\ src=\"framemiddle\\.htm\"\\ name=\"No\\ Name\"\\ noresize\\ marginheight=\"0\">"
+      "pattern": "\\\t\\\t<frame\\ src=\"framemiddle\\.htm\"\\ name=\"No\\ Name\"\\ noresize\\ marginheight=\"0\">",
+      "version_group": 0
     },
     {
       "name": "Videoconference-Management-System Pattern",
@@ -114,7 +118,9 @@
           }
         ]
       },
-      "pattern": "\\\t<title>Middle\\ frame\\ of\\ Videoconference\\ Management\\ System</title>"
+      "pattern": "\\\t<title>Middle\\ frame\\ of\\ Videoconference\\ Management\\ System</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

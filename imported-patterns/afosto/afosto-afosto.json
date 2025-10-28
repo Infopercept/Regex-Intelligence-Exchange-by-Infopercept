@@ -1,0 +1,31 @@
+{
+  "vendor": "Afosto",
+  "vendor_id": "afosto",
+  "product": "Afosto",
+  "product_id": "afosto-afosto",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Afosto Header Detection",
+      "pattern": "X-Powered-By: Afosto SaaS BV",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Afosto from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "afosto"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

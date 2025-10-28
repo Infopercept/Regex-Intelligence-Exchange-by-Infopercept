@@ -1,0 +1,31 @@
+{
+  "vendor": "Acquia",
+  "vendor_id": "acquia",
+  "product": "Acquia Cloud",
+  "product_id": "acquia-acquia-cloud",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Acquia Cloud Header Detection",
+      "pattern": "X-AH-Environment: ^\\w+$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Acquia Cloud from X-AH-Environment header",
+        "tags": [
+          "webtech",
+          "header",
+          "acquia-cloud"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

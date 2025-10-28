@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Monkey",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Monkey"
+      "pattern": "^Monkey",
+      "version_group": 0
     },
     {
       "name": "Monkey Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Monkey/([\\d\\.]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

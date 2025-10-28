@@ -1,0 +1,51 @@
+{
+  "vendor": "Pantheon",
+  "vendor_id": "pantheon",
+  "product": "Pantheon",
+  "product_id": "pantheon-pantheon",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Pantheon Header Detection",
+      "pattern": "x-pantheon-styx-hostname: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Pantheon from x-pantheon-styx-hostname header",
+        "tags": [
+          "webtech",
+          "header",
+          "pantheon"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Pantheon Header Detection",
+      "pattern": "Server: ^Pantheon",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Pantheon from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "pantheon"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

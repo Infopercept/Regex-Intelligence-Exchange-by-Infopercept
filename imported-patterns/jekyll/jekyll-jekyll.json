@@ -1,0 +1,91 @@
+{
+  "vendor": "Jekyll",
+  "vendor_id": "jekyll",
+  "product": "Jekyll",
+  "product_id": "jekyll-jekyll",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Jekyll HTML Detection",
+      "pattern": "Powered by <a href=\"https?://jekyllrb\\.com\"[^>]*>Jekyll</",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Jekyll from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "jekyll"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Jekyll HTML Detection",
+      "pattern": "<!-- Created with Jekyll Now -",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Jekyll from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "jekyll"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Jekyll HTML Detection",
+      "pattern": "<!-- Begin Jekyll SEO tag",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Jekyll from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "jekyll"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Jekyll Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']Jekyll (v[\\d.]+)?[\"']",
+      "version_group": 1,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Jekyll from meta tag with name 'generator'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "jekyll"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

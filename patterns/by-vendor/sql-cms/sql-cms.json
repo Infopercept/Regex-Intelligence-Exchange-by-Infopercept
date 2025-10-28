@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<script\\ type=\"text/javascript\">var\\ LoginAttempts=0;</script><link\\ href=\"CSS/styles/default\\.css\"\\ type=\"text/css\"\\ rel=\"stylesheet\"\\ /></head>"
+      "pattern": "<script\\ type=\"text/javascript\">var\\ LoginAttempts=0;</script><link\\ href=\"CSS/styles/default\\.css\"\\ type=\"text/css\"\\ rel=\"stylesheet\"\\ /></head>",
+      "version_group": 0
     },
     {
       "name": "SQL-CMS Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<tr><td>Language</td><td><select\\ id=\"ddlLanguage\"\\ onchange=\"location\\.href=\\\\"
+      "pattern": "<tr><td>Language</td><td><select\\ id=\"ddlLanguage\"\\ onchange=\"location\\.href=\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

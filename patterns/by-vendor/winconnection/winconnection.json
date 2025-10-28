@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Winconnection ",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Winconnection "
+      "pattern": "^Winconnection ",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

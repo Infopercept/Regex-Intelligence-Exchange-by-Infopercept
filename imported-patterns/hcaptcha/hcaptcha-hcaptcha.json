@@ -1,0 +1,51 @@
+{
+  "vendor": "hCaptcha",
+  "vendor_id": "hcaptcha",
+  "product": "hCaptcha",
+  "product_id": "hcaptcha-hcaptcha",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "hCaptcha HTML Detection",
+      "pattern": "<style[^>]+[^<]+#cf-hcaptcha-container[^<]+</style>",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects hCaptcha from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "hcaptcha"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "hCaptcha Script Detection",
+      "pattern": "https://hcaptcha.com/([\\d]+?)/api.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects hCaptcha from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "hcaptcha"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

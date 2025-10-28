@@ -1,0 +1,71 @@
+{
+  "vendor": "ShinyStat",
+  "vendor_id": "shinystat",
+  "product": "ShinyStat",
+  "product_id": "shinystat-shinystat",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ShinyStat HTML Detection",
+      "pattern": "<img[^>]*\\s+src=['\"]?https?://www\\.shinystat\\.com/cgi-bin/shinystat\\.cgi\\?[^'\"\\s>]*['\"\\s/>]",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ShinyStat from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "shinystat"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "ShinyStat Script Detection",
+      "pattern": "^https?://codice(?:business|ssl|pro|isp)?\\.shinystat\\.com/cgi-bin/getcod\\.cgi",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ShinyStat from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "shinystat"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "ShinyStat JavaScript Detection",
+      "pattern": "window\\.SSsdk|SSsdk\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ShinyStat from JavaScript variable 'SSsdk'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "shinystat"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

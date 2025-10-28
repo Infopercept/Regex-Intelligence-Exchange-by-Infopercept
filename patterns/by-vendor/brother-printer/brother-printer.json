@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<FRAME\\ SRC=\"/printer/inc_head\\.html\"\\ NAME=\"header\"\\ NORESIZE\\ SCROLLING=\"no\">"
+      "pattern": "<FRAME\\ SRC=\"/printer/inc_head\\.html\"\\ NAME=\"header\"\\ NORESIZE\\ SCROLLING=\"no\">",
+      "version_group": 0
     },
     {
       "name": "Brother-Printer Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<IMG\\ src=\"/common/image/HL4040CN\\.gif\"\\ border=0>"
+      "pattern": "<IMG\\ src=\"/common/image/HL4040CN\\.gif\"\\ border=0>",
+      "version_group": 0
     },
     {
       "name": "Brother-Printer Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<IMG\\ src=\"/common/image/HL4040CDN\\.gif\"\\ border=0>"
+      "pattern": "<IMG\\ src=\"/common/image/HL4040CDN\\.gif\"\\ border=0>",
+      "version_group": 0
     },
     {
       "name": "Brother-Printer Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<IMG\\ src=\"/common/image/HL4050CDN\\.gif\"\\ border=0>"
+      "pattern": "<IMG\\ src=\"/common/image/HL4050CDN\\.gif\"\\ border=0>",
+      "version_group": 0
     },
     {
       "name": "Brother-Printer Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<IMG\\ src=\"/common/image/HL4070CDW\\.gif\"\\ border=0>"
+      "pattern": "<IMG\\ src=\"/common/image/HL4070CDW\\.gif\"\\ border=0>",
+      "version_group": 0
     },
     {
       "name": "Brother-Printer Pattern",
@@ -139,5 +144,6 @@
       "pattern": "Server: ^[Dd]ebut/([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"/stylesheet\\.css\"\\ type=\"text/css\"\\ title=\"AutoIndex\\ Default\"\\ />"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"/stylesheet\\.css\"\\ type=\"text/css\"\\ title=\"AutoIndex\\ Default\"\\ />",
+      "version_group": 0
     },
     {
       "name": "AutoIndex-PHP-Script Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<link\\ href=\"\\./templates/default/default\\.css\"\\ rel=\"stylesheet\"\\ title=\"AutoIndex\\ Default\"\\ type=\"text/css\"\\ />"
+      "pattern": "<link\\ href=\"\\./templates/default/default\\.css\"\\ rel=\"stylesheet\"\\ title=\"AutoIndex\\ Default\"\\ type=\"text/css\"\\ />",
+      "version_group": 0
     },
     {
       "name": "AutoIndex-PHP-Script Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<link\\ href=\"\\./templates/default/alternate\\.css\"\\ rel=\"alternate\\ stylesheet\"\\ title=\"AutoIndex\\ Alternate\"\\ type=\"text/css\"\\ />"
+      "pattern": "<link\\ href=\"\\./templates/default/alternate\\.css\"\\ rel=\"alternate\\ stylesheet\"\\ title=\"AutoIndex\\ Alternate\"\\ type=\"text/css\"\\ />",
+      "version_group": 0
     },
     {
       "name": "AutoIndex-PHP-Script Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<div\\ class=\"small\"\\ style=\"text\\-align:\\ right;\">Powered\\ by\\ <a\\ class=\"default_a\"\\ href=\"autoindex\\.sourceforge\\.net/\">AutoIndex\\ PHP\\ Script</a></div>"
+      "pattern": "<div\\ class=\"small\"\\ style=\"text\\-align:\\ right;\">Powered\\ by\\ <a\\ class=\"default_a\"\\ href=\"autoindex\\.sourceforge\\.net/\">AutoIndex\\ PHP\\ Script</a></div>",
+      "version_group": 0
     },
     {
       "name": "AutoIndex-PHP-Script Pattern",
@@ -114,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<div\\ class=\"autoindex_small\"\\ style=\"text\\-align:\\ right;\">Powered\\ by\\ <a\\ class=\"autoindex_a\"\\ href=\"autoindex\\.sourceforge\\.net/\"\\ target=\"_blank\">AutoIndex\\ PHP\\ Script</a></div>"
+      "pattern": "<div\\ class=\"autoindex_small\"\\ style=\"text\\-align:\\ right;\">Powered\\ by\\ <a\\ class=\"autoindex_a\"\\ href=\"autoindex\\.sourceforge\\.net/\"\\ target=\"_blank\">AutoIndex\\ PHP\\ Script</a></div>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

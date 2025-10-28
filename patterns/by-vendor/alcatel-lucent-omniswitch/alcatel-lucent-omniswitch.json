@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Webview\\ Logon\\ Page</title>"
+      "pattern": "<title>Webview\\ Logon\\ Page</title>",
+      "version_group": 0
     },
     {
       "name": "Alcatel-Lucent-Omniswitch Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "document\\.write\\(errMsg==\"\"\\?\"\\&nbsp;\":\\(\"<u>Error</u>\\&nbsp;\\-\\&nbsp;\"\\ \\+\\ errMsg\\)\\);"
+      "pattern": "document\\.write\\(errMsg==\"\"\\?\"\\&nbsp;\":\\(\"<u>Error</u>\\&nbsp;\\-\\&nbsp;\"\\ \\+\\ errMsg\\)\\);",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

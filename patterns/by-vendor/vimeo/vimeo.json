@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<(param|object|embed) [^>]+vimeo.com/moogaloop",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<(param|object|embed) [^>]+vimeo\\.com/moogaloop"
+      "pattern": "<(param|object|embed) [^>]+vimeo\\.com/moogaloop",
+      "version_group": 0
     },
     {
       "name": "Vimeo Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<iframe [^>]*src=['\"]https?://player.vimeo.com/video/",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<iframe [^>]*src=['\"]https?://player\\.vimeo\\.com/video/"
+      "pattern": "<iframe [^>]*src=['\"]https?://player\\.vimeo\\.com/video/",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,51 @@
+{
+  "vendor": "NodeBB",
+  "vendor_id": "nodebb",
+  "product": "NodeBB",
+  "product_id": "nodebb-nodebb",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "NodeBB Header Detection",
+      "pattern": "X-Powered-By: ^NodeBB$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects NodeBB from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "nodebb"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "NodeBB Script Detection",
+      "pattern": "^/nodebb\\.min\\.js\\?",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects NodeBB from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "nodebb"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

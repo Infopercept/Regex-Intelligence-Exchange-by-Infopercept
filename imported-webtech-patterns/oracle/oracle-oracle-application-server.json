@@ -1,0 +1,31 @@
+{
+  "vendor": "Oracle",
+  "vendor_id": "oracle",
+  "product": "Oracle Application Server",
+  "product_id": "oracle-oracle-application-server",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Oracle Application Server Header Detection",
+      "pattern": "Server: Oracle[- ]Application[- ]Server(?: Containers for J2EE)?(?:[- ](\\d[\\da-z./]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Oracle Application Server from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "oracle-application-server"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/demandware.store/",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "/demandware.store/"
+      "pattern": "/demandware.store/",
+      "version_group": 0
     },
     {
       "name": "cqcid cookie",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "cqcid",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "cqcid"
+      "pattern": "cqcid",
+      "version_group": 0
     },
     {
       "name": "dwac_ cookie",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "dwac_",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "dwac_"
+      "pattern": "dwac_",
+      "version_group": 0
     },
     {
       "name": "dwac_ cookie",
@@ -66,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "dwac_",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "dwac_"
+      "pattern": "dwac_",
+      "version_group": 0
     },
     {
       "name": "dwsid cookie",
@@ -82,9 +110,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "dwsid",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "dwsid"
+      "pattern": "dwsid",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

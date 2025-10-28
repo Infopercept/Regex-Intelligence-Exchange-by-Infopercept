@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"\\?img=pear\"\\ width=\"104\"\\ height=\"50\"\\ vspace=\"2\"\\ hspace=\"5\"\\ alt=\"PEAR\">"
+      "pattern": "<img\\ src=\"\\?img=pear\"\\ width=\"104\"\\ height=\"50\"\\ vspace=\"2\"\\ hspace=\"5\"\\ alt=\"PEAR\">",
+      "version_group": 0
     },
     {
       "name": "Webbased-PEAR-Package-Manager Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<b>Warning:</b>\\ This\\ package\\ management\\ website\\ is\\ <b>not\\ protected</b>\\ with\\ a\\ password,\\ this\\ is\\ a\\ MAJOR\\ security\\ risk\\.\\ Please\\ read\\ the\\ <a\\ href=\"\\?command=doc\\-show\\&pkg=pear\\.php\\.net/PEAR_Frontend_Web\\&file=README\"\\ class=\"green\">README</a>\\."
+      "pattern": "<b>Warning:</b>\\ This\\ package\\ management\\ website\\ is\\ <b>not\\ protected</b>\\ with\\ a\\ password,\\ this\\ is\\ a\\ MAJOR\\ security\\ risk\\.\\ Please\\ read\\ the\\ <a\\ href=\"\\?command=doc\\-show\\&pkg=pear\\.php\\.net/PEAR_Frontend_Web\\&file=README\"\\ class=\"green\">README</a>\\.",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

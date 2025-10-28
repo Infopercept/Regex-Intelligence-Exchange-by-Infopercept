@@ -1,0 +1,51 @@
+{
+  "vendor": "Google",
+  "vendor_id": "google",
+  "product": "Google PageSpeed",
+  "product_id": "google-google-pagespeed",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Google PageSpeed Header Detection",
+      "pattern": "X-Mod-Pagespeed: ([\\d.]+)",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google PageSpeed from X-Mod-Pagespeed header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "google-pagespeed"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Google PageSpeed Header Detection",
+      "pattern": "X-Page-Speed: (.+)",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google PageSpeed from X-Page-Speed header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "google-pagespeed"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

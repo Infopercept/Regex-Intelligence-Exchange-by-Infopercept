@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.hulihanapplications\\.com/projects/diamondlist\"><b>DiamondList</b>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.hulihanapplications\\.com/projects/diamondlist\"><b>DiamondList</b>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

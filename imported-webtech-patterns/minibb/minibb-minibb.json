@@ -1,0 +1,31 @@
+{
+  "vendor": "MiniBB",
+  "vendor_id": "minibb",
+  "product": "MiniBB",
+  "product_id": "minibb-minibb",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MiniBB HTML Detection",
+      "pattern": "<a href=\"[^\"]+minibb[^<]+</a>[^<]+\\n<!--End of copyright link",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MiniBB from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "minibb"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

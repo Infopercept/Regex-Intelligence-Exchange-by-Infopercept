@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^AppleIDiskServer",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^AppleIDiskServer"
+      "pattern": "^AppleIDiskServer",
+      "version_group": 0
     },
     {
       "name": "AppleIDiskServer Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^AppleIDiskServer[\\.|-][A-Z\\d]+$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

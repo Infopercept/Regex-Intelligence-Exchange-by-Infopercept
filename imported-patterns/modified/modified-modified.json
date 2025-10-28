@@ -1,0 +1,31 @@
+{
+  "vendor": "Modified",
+  "vendor_id": "modified",
+  "product": "Modified",
+  "product_id": "modified-modified",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Modified Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']\\(c\\) by modified eCommerce Shopsoftware ------ http://www\\.modified-shop\\.org[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Modified from meta tag with name 'generator'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "modified"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

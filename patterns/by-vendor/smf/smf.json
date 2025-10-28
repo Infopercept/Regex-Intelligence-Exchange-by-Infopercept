@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.simplemachines\\.org/about/copyright\\.php\"\\ title=\"Free\\ Forum\\ Software\"\\ target=\"_blank\""
+      "pattern": "<a\\ href=\"http://www\\.simplemachines\\.org/about/copyright\\.php\"\\ title=\"Free\\ Forum\\ Software\"\\ target=\"_blank\"",
+      "version_group": 0
     },
     {
       "name": "javascript",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "document\\.getElementById\\(\"upshrink\"\\)\\.src\\ =\\ smf_images_url\\ \\+\\ "
+      "pattern": "document\\.getElementById\\(\"upshrink\"\\)\\.src\\ =\\ smf_images_url\\ \\+\\ ",
+      "version_group": 0
     },
     {
       "name": "smflogo gif",
@@ -62,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img class=\"floatright\" id=\"smflogo\" src=\"[^\"]*/images/smflogo.gif\" alt=\"Simple Machines Forum\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<img class=\"floatright\" id=\"smflogo\" src=\"[^\"]*/images/smflogo.gif\" alt=\"Simple Machines Forum\" />"
+      "pattern": "<img class=\"floatright\" id=\"smflogo\" src=\"[^\"]*/images/smflogo.gif\" alt=\"Simple Machines Forum\" />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

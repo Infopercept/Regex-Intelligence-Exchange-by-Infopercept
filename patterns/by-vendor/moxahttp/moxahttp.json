@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^MoxaHttp",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^MoxaHttp"
+      "pattern": "^MoxaHttp",
+      "version_group": 0
     },
     {
       "name": "MoxaHttp Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^MoxaHttp/([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

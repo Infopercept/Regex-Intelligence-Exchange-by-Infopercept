@@ -1,0 +1,51 @@
+{
+  "vendor": "Google",
+  "vendor_id": "google",
+  "product": "Google Maps",
+  "product_id": "google-google-maps",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Google Maps Script Detection",
+      "pattern": "(?:maps\\.google\\.com/maps\\?file=api(?:&v=([\\d.]+))?|maps\\.google\\.com/maps/api/staticmap)API v\\1",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Maps from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "google-maps"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Google Maps Script Detection",
+      "pattern": "//maps\\.google(?:apis)?\\.com/maps/api/js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Maps from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "google-maps"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "vendor": "CS",
+  "vendor_id": "cs",
+  "product": "CS Cart",
+  "product_id": "cs-cs-cart",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CS Cart HTML Detection",
+      "pattern": "&nbsp;Powered by (?:<a href=[^>]+cs-cart\\.com|CS-Cart)",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CS Cart from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "cs-cart"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "CS Cart HTML Detection",
+      "pattern": "\\.cm-noscript[^>]+</style>",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CS Cart from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "cs-cart"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "CS Cart JavaScript Detection",
+      "pattern": "window\\.fn_compare_strings|fn_compare_strings\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CS Cart from JavaScript variable 'fn_compare_strings'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "cs-cart"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

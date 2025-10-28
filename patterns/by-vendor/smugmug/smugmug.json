@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^SmugMug",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^SmugMug"
+      "pattern": "^SmugMug",
+      "version_group": 0
     },
     {
       "name": "SmugMug Pattern",
@@ -45,5 +52,6 @@
       "pattern": "x-powered-by: ^SmugMug/([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

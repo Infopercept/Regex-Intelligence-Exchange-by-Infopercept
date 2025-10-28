@@ -64,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Error parsing (.+) on line [d]+$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Error parsing (.+) on line [\\d]+$"
+      "pattern": "^Error parsing (.+) on line [\\d]+$",
+      "version_group": 0
     },
     {
       "name": "File extension",
@@ -80,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^(php|phtml|php3|php4|php5|phps)$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^(php|phtml|php3|php4|php5|phps)$"
+      "pattern": "^(php|phtml|php3|php4|php5|phps)$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -49,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<br><small>Powered\\ by\\ <a\\ href=\"http://www\\.aidex\\.de/software/webserver/\"\\ target=\"_blank\">AIDeX\\ Webserver</a></small></div></div><br><br><br>"
+      "pattern": "<br><small>Powered\\ by\\ <a\\ href=\"http://www\\.aidex\\.de/software/webserver/\"\\ target=\"_blank\">AIDeX\\ Webserver</a></small></div></div><br><br><br>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

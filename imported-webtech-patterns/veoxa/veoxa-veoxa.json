@@ -1,0 +1,71 @@
+{
+  "vendor": "Veoxa",
+  "vendor_id": "veoxa",
+  "product": "Veoxa",
+  "product_id": "veoxa-veoxa",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Veoxa HTML Detection",
+      "pattern": "<img [^>]*src=\"[^\"]+tracking\\.veoxa\\.com",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Veoxa from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "veoxa"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Veoxa Script Detection",
+      "pattern": "tracking\\.veoxa\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Veoxa from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "veoxa"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Veoxa JavaScript Detection",
+      "pattern": "window\\.VuVeoxaContent|VuVeoxaContent\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Veoxa from JavaScript variable 'VuVeoxaContent'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "veoxa"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

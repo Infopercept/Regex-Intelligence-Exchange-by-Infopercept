@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Barracuda\\ Spam\\ \\&\\ Virus\\ Firewall:\\ Welcome</title>"
+      "pattern": "<title>Barracuda\\ Spam\\ \\&\\ Virus\\ Firewall:\\ Welcome</title>",
+      "version_group": 0
     },
     {
       "name": "Barracuda-Spam-Firewall Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>Barracuda\\ Spam\\ Firewall:\\ Welcome</title><link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/barracuda\\.css\">"
+      "pattern": "<title>Barracuda\\ Spam\\ Firewall:\\ Welcome</title><link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/barracuda\\.css\">",
+      "version_group": 0
     },
     {
       "name": "Barracuda-Spam-Firewall Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<tr><td\\ valign=top\\ width=680\\ bgcolor=\"\\#ffffff\"\\ nowrap><table\\ summary\\ =\"Logo\\ Row\"\\ cellspacing=0\\ cellpadding=0\\ border=0><tr><td><a\\ href=\"http://www\\.barracudanetworks\\.com\\?track=asg\"\\ class=transbutton><img\\ src=\""
+      "pattern": "<tr><td\\ valign=top\\ width=680\\ bgcolor=\"\\#ffffff\"\\ nowrap><table\\ summary\\ =\"Logo\\ Row\"\\ cellspacing=0\\ cellpadding=0\\ border=0><tr><td><a\\ href=\"http://www\\.barracudanetworks\\.com\\?track=asg\"\\ class=transbutton><img\\ src=\"",
+      "version_group": 0
     },
     {
       "name": "Barracuda-Spam-Firewall Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.barracudanetworks\\.com\\?track=asg\"><img\\ src=\"/images/powered_by\\.gif\"\\ border=0"
+      "pattern": "<a\\ href=\"http://www\\.barracudanetworks\\.com\\?track=asg\"><img\\ src=\"/images/powered_by\\.gif\"\\ border=0",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

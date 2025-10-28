@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"InfiNet\\ Wireless\\ Company\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"InfiNet\\ Wireless\\ Company\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Infinet-Wireless-WANFleX-Router Pattern",
@@ -51,5 +52,6 @@
       "pattern": "Server: ^WANFlex HTTP Daemon v([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

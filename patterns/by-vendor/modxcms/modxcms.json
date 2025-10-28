@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"ModX"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"ModX",
+      "version_group": 0
     },
     {
       "name": "ModxCMS Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<script\\ type=\"text/javascript\">var\\ MODX_MEDIA_PATH"
+      "pattern": "<script\\ type=\"text/javascript\">var\\ MODX_MEDIA_PATH",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

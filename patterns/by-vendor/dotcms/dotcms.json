@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img[^>]+src=\"[^\"]*/dotAsset/",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<img[^>]+src=\"[^\"]*/dotAsset/"
+      "pattern": "<img[^>]+src=\"[^\"]*/dotAsset/",
+      "version_group": 0
     },
     {
       "name": "DotCMS Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link[^>]+href=\"[^\"]*/dotAsset/",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link[^>]+href=\"[^\"]*/dotAsset/"
+      "pattern": "<link[^>]+href=\"[^\"]*/dotAsset/",
+      "version_group": 0
     },
     {
       "name": "DotCMS Pattern",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a[^>]+href=\"[^h][^\"]*index.dot",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a[^>]+href=\"[^h][^\"]*index\\.dot"
+      "pattern": "<a[^>]+href=\"[^h][^\"]*index\\.dot",
+      "version_group": 0
     },
     {
       "name": "dotcms cookie",
@@ -66,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "dotcms",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "dotcms"
+      "pattern": "dotcms",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

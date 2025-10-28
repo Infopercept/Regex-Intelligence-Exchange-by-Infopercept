@@ -1,0 +1,31 @@
+{
+  "vendor": "Akamai",
+  "vendor_id": "akamai",
+  "product": "Akamai",
+  "product_id": "akamai-akamai",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Akamai Header Detection",
+      "pattern": "X-Akamai-Transformed: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Akamai from X-Akamai-Transformed header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "akamai"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

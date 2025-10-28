@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<TD\\ class=\"mastheadIcon\"><img\\ src=\"signin_logo\\.gif\"\\ border=\"0\"\\ alt=\"HP\"></TD>"
+      "pattern": "<TD\\ class=\"mastheadIcon\"><img\\ src=\"signin_logo\\.gif\"\\ border=\"0\"\\ alt=\"HP\"></TD>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -122,6 +122,12 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\"[^\"]+/wp-content/[^\"]+\"",
+            "expected_version": "unknown"
+          }
         ]
       }
     },

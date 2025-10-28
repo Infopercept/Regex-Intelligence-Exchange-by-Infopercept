@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Tine\\ 2\\.0\\ static\\ files\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Tine\\ 2\\.0\\ static\\ files\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Tine-2 Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Tine\\ 2\\.0\\ setup\\ static\\ files\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Tine\\ 2\\.0\\ setup\\ static\\ files\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Tine-2 Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by:\\ <a\\ target=\"_blank\"\\ href=\"http://www\\.tine20\\.org/\">Tine\\ 2\\.0</a></div>"
+      "pattern": "Powered\\ by:\\ <a\\ target=\"_blank\"\\ href=\"http://www\\.tine20\\.org/\">Tine\\ 2\\.0</a></div>",
+      "version_group": 0
     },
     {
       "name": "Tine-2 Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<noscript><p>You\\ need\\ to\\ enable\\ javascript\\ to\\ use\\ <a\\ href=\"http://www\\.tine20\\.org/\"\\ title=\"online\\ open\\ source\\ groupware\\ and\\ crm\">Tine\\ 2\\.0</a></p></noscript>"
+      "pattern": "<noscript><p>You\\ need\\ to\\ enable\\ javascript\\ to\\ use\\ <a\\ href=\"http://www\\.tine20\\.org/\"\\ title=\"online\\ open\\ source\\ groupware\\ and\\ crm\">Tine\\ 2\\.0</a></p></noscript>",
+      "version_group": 0
     },
     {
       "name": "Tine-2 Pattern",
@@ -114,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<noscript>You\\ need\\ to\\ enable\\ javascript\\ to\\ use\\ <a\\ href=\"http://www\\.tine20\\.org\">Tine\\ 2\\.0\\ setup\\ or\\ use\\ the\\ CLI\\ setup</a></noscript>"
+      "pattern": "<noscript>You\\ need\\ to\\ enable\\ javascript\\ to\\ use\\ <a\\ href=\"http://www\\.tine20\\.org\">Tine\\ 2\\.0\\ setup\\ or\\ use\\ the\\ CLI\\ setup</a></noscript>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

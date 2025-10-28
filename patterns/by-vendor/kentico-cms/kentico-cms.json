@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "2fCMSAdministration.aspx\" id=\"form1\" class=\"logon-page\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "2fCMSAdministration.aspx\" id=\"form1\" class=\"logon-page\""
+      "pattern": "2fCMSAdministration.aspx\" id=\"form1\" class=\"logon-page\"",
+      "version_group": 0
     },
     {
       "name": "CMSCsrfCookie cookie",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "CMSCsrfCookie",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "CMSCsrfCookie"
+      "pattern": "CMSCsrfCookie",
+      "version_group": 0
     },
     {
       "name": "CMSCurrentTheme cookie",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "CMSCurrentTheme",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "CMSCurrentTheme"
+      "pattern": "CMSCurrentTheme",
+      "version_group": 0
     },
     {
       "name": "CMSPreferredCulture cookie",
@@ -66,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "CMSPreferredCulture",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "CMSPreferredCulture"
+      "pattern": "CMSPreferredCulture",
+      "version_group": 0
     },
     {
       "name": "CMSCsrfCookie cookie",
@@ -82,9 +110,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "CMSCsrfCookie",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "CMSCsrfCookie"
+      "pattern": "CMSCsrfCookie",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

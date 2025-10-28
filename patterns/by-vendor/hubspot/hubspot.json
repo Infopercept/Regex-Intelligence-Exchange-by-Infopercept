@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "hsPagesViewedThisSession",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "hsPagesViewedThisSession"
+      "pattern": "hsPagesViewedThisSession",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

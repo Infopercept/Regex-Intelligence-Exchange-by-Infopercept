@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Synchronet BBS",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Synchronet BBS"
+      "pattern": "^Synchronet BBS",
+      "version_group": 0
     },
     {
       "name": "Synchronet-BBS Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Synchronet BBS for .+ Version ([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

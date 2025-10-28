@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<html>[s]+<head>[s]+<title>[s]+Sphider installation script.[s]+</title>[s]+<LINK REL=STYLESHEET HREF=\"admin.css\" TYPE=\"text/css\">[s]+</head>[s]+<body>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<html>[\\s]+<head>[\\s]+<title>[\\s]+Sphider installation script\\.[\\s]+</title>[\\s]+<LINK REL=STYLESHEET HREF=\"admin\\.css\" TYPE=\"text/css\">[\\s]+</head>[\\s]+<body>"
+      "pattern": "<html>[\\s]+<head>[\\s]+<title>[\\s]+Sphider installation script\\.[\\s]+</title>[\\s]+<LINK REL=STYLESHEET HREF=\"admin\\.css\" TYPE=\"text/css\">[\\s]+</head>[\\s]+<body>",
+      "version_group": 0
     },
     {
       "name": "Sphider Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Sphider Admin Login</title>[s]+<LINK REL=STYLESHEET HREF=\"admin.css\" TYPE=\"text/css\">[s]+</head>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>Sphider Admin Login</title>[\\s]+<LINK REL=STYLESHEET HREF=\"admin\\.css\" TYPE=\"text/css\">[\\s]+</head>"
+      "pattern": "<title>Sphider Admin Login</title>[\\s]+<LINK REL=STYLESHEET HREF=\"admin\\.css\" TYPE=\"text/css\">[\\s]+</head>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

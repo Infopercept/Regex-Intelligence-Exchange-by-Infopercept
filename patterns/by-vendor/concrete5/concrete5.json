@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "bvar CCM_DISPATCHER_FILENAME ?=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "\\bvar CCM_DISPATCHER_FILENAME ?="
+      "pattern": "\\bvar CCM_DISPATCHER_FILENAME ?=",
+      "version_group": 0
     },
     {
       "name": "CONCRETE5 cookie",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^CONCRETE5=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^CONCRETE5="
+      "pattern": "^CONCRETE5=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "Craft",
+  "vendor_id": "craft",
+  "product": "Craft Commerce",
+  "product_id": "craft-craft-commerce",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Craft Commerce Header Detection",
+      "pattern": "X-Powered-By: \\bCraft Commerce\\b",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Craft Commerce from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "craft-commerce"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

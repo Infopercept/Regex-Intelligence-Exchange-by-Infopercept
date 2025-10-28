@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ DO\\ NOT\\ EDIT\\ ABOVE\\ THIS\\ LINE\\ UNLESS\\ YOU\\ KNOW\\ WHAT\\ YOU\\ ARE\\ DOIN\\ \\-\\ END\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ DO\\ NOT\\ EDIT\\ ABOVE\\ THIS\\ LINE\\ UNLESS\\ YOU\\ KNOW\\ WHAT\\ YOU\\ ARE\\ DOIN\\ \\-\\ END\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Elite-Gaming-Ladders Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Do\\ Not\\ Edit\\ Below\\ This\\ Line\\ Unless\\ You\\ Know\\ What\\ You're\\ Doing\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Do\\ Not\\ Edit\\ Below\\ This\\ Line\\ Unless\\ You\\ Know\\ What\\ You're\\ Doing\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Elite-Gaming-Ladders Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ EGL\\ INFORMATION\\ \\-\\ BLOCK\\ END\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ EGL\\ INFORMATION\\ \\-\\ BLOCK\\ END\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Elite-Gaming-Ladders Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ DESIGNER\\ AND\\ POWERED\\ BY\\ \\-\\ START\\ \\ \\-\\ You\\ must\\ leave\\ this\\ Copyright\\ link\\ back\\ to\\ Elite\\ Ladders\\ in\\ place\\ othersise\\ your\\ license\\ will\\ be\\ revoked\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ DESIGNER\\ AND\\ POWERED\\ BY\\ \\-\\ START\\ \\ \\-\\ You\\ must\\ leave\\ this\\ Copyright\\ link\\ back\\ to\\ Elite\\ Ladders\\ in\\ place\\ othersise\\ your\\ license\\ will\\ be\\ revoked\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Elite-Gaming-Ladders Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Copyright\\ \\-\\ Removing\\ this\\ link\\ back\\ to\\ Elite\\ Ladders\\ without\\ permission\\ will\\ result\\ in\\ suspension\\ of\\ your\\ license\\ \\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Copyright\\ \\-\\ Removing\\ this\\ link\\ back\\ to\\ Elite\\ Ladders\\ without\\ permission\\ will\\ result\\ in\\ suspension\\ of\\ your\\ license\\ \\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Elite-Gaming-Ladders Pattern",
@@ -128,9 +133,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<b><span style=\"color:#013171;\">Design By: </span> Soulast<span style=\"color:#013171;\"> | Powered [bB]y: </span>[s]?<a href=\"http://(www.)?eliteladders.com\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<b><span style=\"color:#013171;\">Design By: </span> Soulast<span style=\"color:#013171;\"> \\| Powered [bB]y: </span>[\\s]?<a href=\"http://(www\\.)?eliteladders\\.com\""
+      "pattern": "<b><span style=\"color:#013171;\">Design By: </span> Soulast<span style=\"color:#013171;\"> \\| Powered [bB]y: </span>[\\s]?<a href=\"http://(www\\.)?eliteladders\\.com\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

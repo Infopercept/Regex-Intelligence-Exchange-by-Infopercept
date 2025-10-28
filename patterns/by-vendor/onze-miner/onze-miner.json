@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"transcriber\\.css\"\\ type=\"text/css\">"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"transcriber\\.css\"\\ type=\"text/css\">",
+      "version_group": 0
     },
     {
       "name": "ONZE-Miner Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://onzeminer\\.sourceforge\\.net\">ONZE\\ Miner</a>\\ is\\ free\\ software\\ distributed\\ under\\ the\\ terms\\ of\\ the\\ <a\\ href=\"/miner/gpl\\.txt\"\\ target=\"license\">GNU\\ General\\ Public\\ License</a>"
+      "pattern": "<a\\ href=\"http://onzeminer\\.sourceforge\\.net\">ONZE\\ Miner</a>\\ is\\ free\\ software\\ distributed\\ under\\ the\\ terms\\ of\\ the\\ <a\\ href=\"/miner/gpl\\.txt\"\\ target=\"license\">GNU\\ General\\ Public\\ License</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

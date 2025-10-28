@@ -1,0 +1,31 @@
+{
+  "vendor": "Woltlab",
+  "vendor_id": "woltlab",
+  "product": "Woltlab Community Framework",
+  "product_id": "woltlab-woltlab-community-framework",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Woltlab Community Framework Script Detection",
+      "pattern": "WCF\\..*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Woltlab Community Framework from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "woltlab-community-framework"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

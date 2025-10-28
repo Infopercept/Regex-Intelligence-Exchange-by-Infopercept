@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<tr><td></td><td\\ colspan=\"2\"><h2>Survey\\ List</h2></td></tr>"
+      "pattern": "<tr><td></td><td\\ colspan=\"2\"><h2>Survey\\ List</h2></td></tr>",
+      "version_group": 0
     },
     {
       "name": "phpQuestionnaire Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\\t<tr><td\\ colspan=\"2\"><hr\\ size=\"1\"\\ noshade\\ /></td></tr><tr><td\\ colspan=\"2\">Currently\\ no\\ available\\ surveys\\.</td></tr>\\\t</table>"
+      "pattern": "\\\t<tr><td\\ colspan=\"2\"><hr\\ size=\"1\"\\ noshade\\ /></td></tr><tr><td\\ colspan=\"2\">Currently\\ no\\ available\\ surveys\\.</td></tr>\\\t</table>",
+      "version_group": 0
     },
     {
       "name": "phpQuestionnaire Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t\\\t<td\\ align=\"right\">powered\\ by\\ <a\\ href=\"http://www\\.chumpsoft\\.com\">phpQuestionnaire</a></td>"
+      "pattern": "\\\t\\\t\\\t<td\\ align=\"right\">powered\\ by\\ <a\\ href=\"http://www\\.chumpsoft\\.com\">phpQuestionnaire</a></td>",
+      "version_group": 0
     },
     {
       "name": "phpQuestionnaire Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t\\\t<td\\ align=\"right\">powered\\ by\\ phpQuestionnaire</td>"
+      "pattern": "\\\t\\\t\\\t<td\\ align=\"right\">powered\\ by\\ phpQuestionnaire</td>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

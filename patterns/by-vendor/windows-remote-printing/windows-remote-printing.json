@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<frame src=\"ipp_000[d].asp?eprinter=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<frame src=\"ipp_000[\\d]\\.asp\\?eprinter="
+      "pattern": "<frame src=\"ipp_000[\\d]\\.asp\\?eprinter=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

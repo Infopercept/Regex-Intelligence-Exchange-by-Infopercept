@@ -1,0 +1,31 @@
+{
+  "vendor": "Amazon",
+  "vendor_id": "amazon",
+  "product": "Amazon S3",
+  "product_id": "amazon-amazon-s3",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Amazon S3 Header Detection",
+      "pattern": "server: ^AmazonS3$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Amazon S3 from server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "amazon-s3"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

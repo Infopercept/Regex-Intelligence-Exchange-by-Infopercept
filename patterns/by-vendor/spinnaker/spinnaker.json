@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Spinnaker",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Spinnaker"
+      "pattern": "^Spinnaker",
+      "version_group": 0
     },
     {
       "name": "Spinnaker Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Spinnaker/([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

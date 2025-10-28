@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by[:]? <a href=\"http://www.zylone.com[/]*[^>]+>Zylone IT",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by[:]? <a href=\"http://www.zylone.com[/]*[^>]+>Zylone IT"
+      "pattern": "Powered by[:]? <a href=\"http://www.zylone.com[/]*[^>]+>Zylone IT",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

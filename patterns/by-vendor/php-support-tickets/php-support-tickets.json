@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>PHP\\ Support\\ Tickets\\ ::\\ Login</title>"
+      "pattern": "<title>PHP\\ Support\\ Tickets\\ ::\\ Login</title>",
+      "version_group": 0
     },
     {
       "name": "PHP-Support-Tickets Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"copyright\"\\ \\ \\ content=\"Triangle\\ Solutions\\ Ltd\"\\ />"
+      "pattern": "<meta\\ name=\"copyright\"\\ \\ \\ content=\"Triangle\\ Solutions\\ Ltd\"\\ />",
+      "version_group": 0
     },
     {
       "name": "PHP-Support-Tickets Pattern",
@@ -62,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--<td class=\"boxborder list-menu\" width=\"10%\"><a href=\"javascript:popwindow('help.php#userpage','top=150,left=300,width=400,height=400,buttons=no,scrollbars=YES,location=no,menubar=no,resizable=no,status=no,directories=no,toolbar=no')\" title=\"Help popup\">Help</a></td>-->",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!--<td class=\"boxborder list-menu\" width=\"10%\"><a href=\"javascript:popwindow\\('help\\.php#userpage','top=150,left=300,width=400,height=400,buttons=no,scrollbars=YES,location=no,menubar=no,resizable=no,status=no,directories=no,toolbar=no'\\)\" title=\"Help popup\">Help</a></td>-->"
+      "pattern": "<!--<td class=\"boxborder list-menu\" width=\"10%\"><a href=\"javascript:popwindow\\('help\\.php#userpage','top=150,left=300,width=400,height=400,buttons=no,scrollbars=YES,location=no,menubar=no,resizable=no,status=no,directories=no,toolbar=no'\\)\" title=\"Help popup\">Help</a></td>-->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

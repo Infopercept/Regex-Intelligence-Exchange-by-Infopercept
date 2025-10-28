@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ <meta\\ name=\"generator\"\\ content=\"Seagull\\ Framework\"\\ />"
+      "pattern": "\\ \\ \\ \\ <meta\\ name=\"generator\"\\ content=\"Seagull\\ Framework\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Seagull-PHP-Framework Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "    Powered by <a href=\"http://seagullproject.org[/]*\" title=\"Seagull framework homepage\">Seagull PHP Framework</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "    Powered by <a href=\"http://seagullproject.org[/]*\" title=\"Seagull framework homepage\">Seagull PHP Framework</a>"
+      "pattern": "    Powered by <a href=\"http://seagullproject.org[/]*\" title=\"Seagull framework homepage\">Seagull PHP Framework</a>",
+      "version_group": 0
     },
     {
       "name": "Seagull-PHP-Framework Pattern",
@@ -56,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "        var SGL_JS_SESSID[s]*=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "        var SGL_JS_SESSID[\\s]*="
+      "pattern": "        var SGL_JS_SESSID[\\s]*=",
+      "version_group": 0
     },
     {
       "name": "Seagull-PHP-Framework Pattern",
@@ -72,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"help\" href=\"http://trac.seagullproject.org[/]*\" title=\"Seagull Documentation.\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link rel=\"help\" href=\"http://trac.seagullproject.org[/]*\" title=\"Seagull Documentation.\" />"
+      "pattern": "<link rel=\"help\" href=\"http://trac.seagullproject.org[/]*\" title=\"Seagull Documentation.\" />",
+      "version_group": 0
     },
     {
       "name": "Seagull-PHP-Framework Pattern",
@@ -96,7 +118,9 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ <title>Seagull\\ Framework\\ ::\\ Installation</title>\\ \\ \\ \\ \\ \\ \\ \\ <meta\\ http\\-equiv=\"Content\\-Type\"\\ content=\"text/html;\\ charset=iso\\-8859\\-15\"\\ />"
+      "pattern": "\\ \\ \\ \\ <title>Seagull\\ Framework\\ ::\\ Installation</title>\\ \\ \\ \\ \\ \\ \\ \\ <meta\\ http\\-equiv=\"Content\\-Type\"\\ content=\"text/html;\\ charset=iso\\-8859\\-15\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<td\\ align='right'\\ class='tbl1\\ profile_user_level'><!\\-\\-profile_user_level\\-\\->"
+      "pattern": "<td\\ align='right'\\ class='tbl1\\ profile_user_level'><!\\-\\-profile_user_level\\-\\->",
+      "version_group": 0
     },
     {
       "name": "PHP-Fusion Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<td\\ align='right'\\ class='profile_user_level\\ tbl1'><!\\-\\-profile_user_level\\-\\->"
+      "pattern": "<td\\ align='right'\\ class='profile_user_level\\ tbl1'><!\\-\\-profile_user_level\\-\\->",
+      "version_group": 0
     },
     {
       "name": "PHP-Fusion Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "class='tbl\\ profile_user_avatar'><!\\-\\-profile_user_avatar\\-\\-><img\\ src='images/avatars/"
+      "pattern": "class='tbl\\ profile_user_avatar'><!\\-\\-profile_user_avatar\\-\\-><img\\ src='images/avatars/",
+      "version_group": 0
     },
     {
       "name": "PHP-Fusion Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<td\\ align='right'\\ class='tbl1\\ profile_user_name'><!\\-\\-profile_user_name\\-\\->"
+      "pattern": "<td\\ align='right'\\ class='tbl1\\ profile_user_name'><!\\-\\-profile_user_name\\-\\->",
+      "version_group": 0
     },
     {
       "name": "PHP-Fusion Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<td\\ align='right'\\ class='profile_user_name\\ tbl1'><!\\-\\-profile_user_name\\-\\->"
+      "pattern": "<td\\ align='right'\\ class='profile_user_name\\ tbl1'><!\\-\\-profile_user_name\\-\\->",
+      "version_group": 0
     },
     {
       "name": "PHP-Fusion Pattern",
@@ -128,9 +133,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--counter-->[d,]+ unique visits<",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!--counter-->[\\d,]+ unique visits<"
+      "pattern": "<!--counter-->[\\d,]+ unique visits<",
+      "version_group": 0
     },
     {
       "name": "fusion_visited Cookie",
@@ -144,9 +156,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "fusion_visited=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "fusion_visited="
+      "pattern": "fusion_visited=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

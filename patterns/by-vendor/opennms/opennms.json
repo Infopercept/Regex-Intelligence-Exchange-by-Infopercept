@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<h1 id=\"headerlogo\"><a href=\"[^\"]*index.jsp\"><img src=\"[^\"]*images/logo.png\" alt=\"OpenNMS Web Console Home\"/></a></h1>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<h1 id=\"headerlogo\"><a href=\"[^\"]*index\\.jsp\"><img src=\"[^\"]*images/logo\\.png\" alt=\"OpenNMS Web Console Home\"/></a></h1>"
+      "pattern": "<h1 id=\"headerlogo\"><a href=\"[^\"]*index\\.jsp\"><img src=\"[^\"]*images/logo\\.png\" alt=\"OpenNMS Web Console Home\"/></a></h1>",
+      "version_group": 0
     },
     {
       "name": "OpenNMS Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p><input type=\"checkbox\" name=\"_(spring|acegi)_security_remember_me\"> Don't ask for my password for two weeks</p>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<p><input type=\"checkbox\" name=\"_(spring|acegi)_security_remember_me\"> Don't ask for my password for two weeks</p>"
+      "pattern": "<p><input type=\"checkbox\" name=\"_(spring|acegi)_security_remember_me\"> Don't ask for my password for two weeks</p>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

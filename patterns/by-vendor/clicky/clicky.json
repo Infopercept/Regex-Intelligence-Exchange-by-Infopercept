@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script[^>]+src=[\"'](https?:)?//static.getclicky.com",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script[^>]+src=[\"'](https?:)?//static\\.getclicky\\.com"
+      "pattern": "<script[^>]+src=[\"'](https?:)?//static\\.getclicky\\.com",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

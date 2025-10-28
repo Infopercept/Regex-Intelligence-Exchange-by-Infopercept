@@ -1,0 +1,51 @@
+{
+  "vendor": "user.com",
+  "vendor_id": "user.com",
+  "product": "user.com",
+  "product_id": "user.com-usercom",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "user.com HTML Detection",
+      "pattern": "<div[^>]+/id=\"ue_widget\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects user.com from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "user.com"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "user.com JavaScript Detection",
+      "pattern": "window\\.UserEngage|UserEngage\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects user.com from JavaScript variable 'UserEngage'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "user.com"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

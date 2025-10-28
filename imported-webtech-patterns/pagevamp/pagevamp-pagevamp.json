@@ -1,0 +1,51 @@
+{
+  "vendor": "Pagevamp",
+  "vendor_id": "pagevamp",
+  "product": "Pagevamp",
+  "product_id": "pagevamp-pagevamp",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Pagevamp Header Detection",
+      "pattern": "X-ServedBy: pagevamp",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Pagevamp from X-ServedBy header",
+        "tags": [
+          "webtech",
+          "header",
+          "pagevamp"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Pagevamp JavaScript Detection",
+      "pattern": "window\\.Pagevamp|Pagevamp\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Pagevamp from JavaScript variable 'Pagevamp'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "pagevamp"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

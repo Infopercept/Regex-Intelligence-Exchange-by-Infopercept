@@ -29,5 +29,6 @@
       "pattern": "a-powered-by: ^ABO\\.CMS( E-commerce| Corporative)? ([\\d\\.]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

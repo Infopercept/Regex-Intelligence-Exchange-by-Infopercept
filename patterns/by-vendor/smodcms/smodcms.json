@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"Generator\"\\ content=\"SmodCMS\"\\ />"
+      "pattern": "<meta\\ name=\"Generator\"\\ content=\"SmodCMS\"\\ />",
+      "version_group": 0
     },
     {
       "name": "SmodCMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"Authoring_Tool\"\\ content=\"SmodCMS\\ //\\ www\\.smod\\.pl\"\\ />"
+      "pattern": "<meta\\ name=\"Authoring_Tool\"\\ content=\"SmodCMS\\ //\\ www\\.smod\\.pl\"\\ />",
+      "version_group": 0
     },
     {
       "name": "SmodCMS Pattern",
@@ -62,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "[P|p]+owered by <a href=\"http://www.smod.pl[/]+\"[^>]+>SmodCMS[s]*</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "[P|p]+owered by <a href=\"http://www.smod.pl[/]+\"[^>]+>SmodCMS[\\s]*</a>"
+      "pattern": "[P|p]+owered by <a href=\"http://www.smod.pl[/]+\"[^>]+>SmodCMS[\\s]*</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

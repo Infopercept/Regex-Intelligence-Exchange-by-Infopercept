@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<input\\ type=\"hidden\"\\ name=\"AUTHRULE_NAME\"\\ id=\"AUTHRULE_NAME\"\\ value=\"Authenticator\">"
+      "pattern": "<input\\ type=\"hidden\"\\ name=\"AUTHRULE_NAME\"\\ id=\"AUTHRULE_NAME\"\\ value=\"Authenticator\">",
+      "version_group": 0
     },
     {
       "name": "ManageEngine-DeviceExpert Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<SCRIPT\\ language=\"javascript\"\\ src=\"/javascript/deviceexpert\\.js\"></SCRIPT>"
+      "pattern": "<SCRIPT\\ language=\"javascript\"\\ src=\"/javascript/deviceexpert\\.js\"></SCRIPT>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "DoubleClick",
+  "vendor_id": "doubleclick",
+  "product": "DoubleClick Campaign Manager (DCM)",
+  "product_id": "doubleclick-doubleclick-campaign-manager-(dcm)",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DoubleClick Campaign Manager (DCM) Script Detection",
+      "pattern": "2mdn\\.net",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DoubleClick Campaign Manager (DCM) from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "doubleclick-campaign-manager-(dcm)"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

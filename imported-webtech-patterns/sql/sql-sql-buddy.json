@@ -1,0 +1,31 @@
+{
+  "vendor": "SQL",
+  "vendor_id": "sql",
+  "product": "SQL Buddy",
+  "product_id": "sql-sql-buddy",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SQL Buddy HTML Detection",
+      "pattern": "(?:<title>SQL Buddy</title>|<[^>]+onclick=\"sideMainClick\\(\"home\\.php)",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SQL Buddy from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "sql-buddy"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

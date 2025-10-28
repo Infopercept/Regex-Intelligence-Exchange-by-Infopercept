@@ -1,0 +1,31 @@
+{
+  "vendor": "LabVIEW",
+  "vendor_id": "labview",
+  "product": "LabVIEW",
+  "product_id": "labview-labview",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "LabVIEW Header Detection",
+      "pattern": "Server: LabVIEW(?:/([\\d\\.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects LabVIEW from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "labview"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

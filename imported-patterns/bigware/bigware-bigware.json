@@ -1,0 +1,31 @@
+{
+  "vendor": "Bigware",
+  "vendor_id": "bigware",
+  "product": "Bigware",
+  "product_id": "bigware-bigware",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Bigware HTML Detection",
+      "pattern": "(?:Diese <a href=[^>]+bigware\\.de|<a href=[^>]+/main_bigware_\\d+\\.php)",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bigware from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "bigware"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

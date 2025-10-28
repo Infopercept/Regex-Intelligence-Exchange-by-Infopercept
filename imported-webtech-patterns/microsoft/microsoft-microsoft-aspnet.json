@@ -1,0 +1,71 @@
+{
+  "vendor": "Microsoft",
+  "vendor_id": "microsoft",
+  "product": "Microsoft ASP.NET",
+  "product_id": "microsoft-microsoft-aspnet",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Microsoft ASP.NET Header Detection",
+      "pattern": "X-AspNet-Version: (.+)",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Microsoft ASP.NET from X-AspNet-Version header",
+        "tags": [
+          "webtech",
+          "header",
+          "microsoft-asp.net"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Microsoft ASP.NET Header Detection",
+      "pattern": "X-Powered-By: ^ASP\\.NET",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Microsoft ASP.NET from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "microsoft-asp.net"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Microsoft ASP.NET HTML Detection",
+      "pattern": "<input[^>]+name=\"__VIEWSTATE",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Microsoft ASP.NET from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "microsoft-asp.net"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

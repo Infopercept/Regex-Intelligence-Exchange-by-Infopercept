@@ -1,0 +1,31 @@
+{
+  "vendor": "Taiga",
+  "vendor_id": "taiga",
+  "product": "Taiga",
+  "product_id": "taiga-taiga",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Taiga JavaScript Detection",
+      "pattern": "window\\.taigaConfig|taigaConfig\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Taiga from JavaScript variable 'taigaConfig'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "taiga"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

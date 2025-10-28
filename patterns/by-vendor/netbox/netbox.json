@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^NetBox",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^NetBox"
+      "pattern": "^NetBox",
+      "version_group": 0
     },
     {
       "name": "NetBox Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^NetBox Version (.+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

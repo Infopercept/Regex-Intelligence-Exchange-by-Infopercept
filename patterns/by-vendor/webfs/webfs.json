@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^webfs/",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^webfs/"
+      "pattern": "^webfs/",
+      "version_group": 0
     },
     {
       "name": "webfs Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^webfs/([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

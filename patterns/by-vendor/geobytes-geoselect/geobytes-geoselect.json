@@ -41,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Geobytes-GeoSelect",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Geobytes-GeoSelect"
+      "pattern": "Geobytes-GeoSelect",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

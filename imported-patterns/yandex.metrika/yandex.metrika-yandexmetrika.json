@@ -1,0 +1,51 @@
+{
+  "vendor": "Yandex.Metrika",
+  "vendor_id": "yandex.metrika",
+  "product": "Yandex.Metrika",
+  "product_id": "yandex.metrika-yandexmetrika",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Yandex.Metrika Script Detection",
+      "pattern": "mc\\.yandex\\.ru/metrika/(?:tag|watch)\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Yandex.Metrika from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "yandex.metrika"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Yandex.Metrika Script Detection",
+      "pattern": "cdn\\.jsdelivr\\.net/npm/yandex\\-metrica\\-watch/watch\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Yandex.Metrika from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "yandex.metrika"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

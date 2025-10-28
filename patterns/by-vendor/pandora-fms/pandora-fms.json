@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Pandora\\ FMS\\ \\-\\ the\\ Flexible\\ Monitoring\\ System</title>"
+      "pattern": "<title>Pandora\\ FMS\\ \\-\\ the\\ Flexible\\ Monitoring\\ System</title>",
+      "version_group": 0
     },
     {
       "name": "Pandora-FMS Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"alternate\"\\ href=\"operation/events/events_rss\\.php\"\\ title=\"Pandora\\ RSS\\ Feed\"\\ type=\"application/rss\\+xml\"\\ />"
+      "pattern": "<link\\ rel=\"alternate\"\\ href=\"operation/events/events_rss\\.php\"\\ title=\"Pandora\\ RSS\\ Feed\"\\ type=\"application/rss\\+xml\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

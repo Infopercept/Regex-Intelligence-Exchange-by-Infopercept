@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"gridsite\\-admin\\.cgi\\?cmd=history\\&amp;file=index\\.html\">View\\&nbsp;page\\&nbsp;history</a>"
+      "pattern": "<a\\ href=\"gridsite\\-admin\\.cgi\\?cmd=history\\&amp;file=index\\.html\">View\\&nbsp;page\\&nbsp;history</a>",
+      "version_group": 0
     },
     {
       "name": "GridSite Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"gridsite\\-admin\\.cgi\\?cmd=print\\&amp;file=index\\.html\">Print\\&nbsp;View</a>"
+      "pattern": "<a\\ href=\"gridsite\\-admin\\.cgi\\?cmd=print\\&amp;file=index\\.html\">Print\\&nbsp;View</a>",
+      "version_group": 0
     },
     {
       "name": "GridSite Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ start\\ of\\ gridsitefoot\\.txt\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ start\\ of\\ gridsitefoot\\.txt\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

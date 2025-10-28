@@ -1,0 +1,91 @@
+{
+  "vendor": "Google",
+  "vendor_id": "google",
+  "product": "Google AdSense",
+  "product_id": "google-google-adsense",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Google AdSense Script Detection",
+      "pattern": "googlesyndication\\.com/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google AdSense from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "google-adsense"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Google AdSense Script Detection",
+      "pattern": "ad\\.ca\\.doubleclick\\.net",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google AdSense from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "google-adsense"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Google AdSense Script Detection",
+      "pattern": "2mdn\\.net",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google AdSense from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "google-adsense"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Google AdSense Script Detection",
+      "pattern": "ad\\.ca\\.doubleclick\\.net",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google AdSense from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "google-adsense"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

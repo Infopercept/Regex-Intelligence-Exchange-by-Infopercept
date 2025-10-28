@@ -1,0 +1,31 @@
+{
+  "vendor": "Includable",
+  "vendor_id": "includable",
+  "product": "Includable",
+  "product_id": "includable-includable",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Includable Header Detection",
+      "pattern": "X-Includable-Version: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Includable from X-Includable-Version header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "includable"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

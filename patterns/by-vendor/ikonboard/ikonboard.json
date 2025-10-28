@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ iB\\ Copyright\\ Information\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ iB\\ Copyright\\ Information\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Ikonboard Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "</td></tr></table><center><hr><p>[^<]+ [P|p]owered by Ikonboard<br>http://www.ikonboard.com<br>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "</td></tr></table><center><hr><p>[^<]+ [P|p]owered by Ikonboard<br>http://www.ikonboard.com<br>"
+      "pattern": "</td></tr></table><center><hr><p>[^<]+ [P|p]owered by Ikonboard<br>http://www.ikonboard.com<br>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

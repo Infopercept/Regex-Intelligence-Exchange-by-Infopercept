@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<A\\ class=\"tab\"\\ HREF=\"/cgi\\-bin/query\\.cgi\\?\\.page=advquery\">Advanced\\ Query</A>"
+      "pattern": "<A\\ class=\"tab\"\\ HREF=\"/cgi\\-bin/query\\.cgi\\?\\.page=advquery\">Advanced\\ Query</A>",
+      "version_group": 0
     },
     {
       "name": "BitKeeper Pattern",
@@ -51,5 +52,6 @@
       "pattern": "Server: ^bkhttp/([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

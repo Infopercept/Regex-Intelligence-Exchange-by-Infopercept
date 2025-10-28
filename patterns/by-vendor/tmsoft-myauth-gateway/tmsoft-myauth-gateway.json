@@ -52,5 +52,6 @@
       "pattern": "x-manager-by: MyAuth Gateway ([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

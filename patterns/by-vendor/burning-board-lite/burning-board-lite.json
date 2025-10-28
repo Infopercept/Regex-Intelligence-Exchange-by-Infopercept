@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.woltlab.de[^>]*>Burning Board[s]*</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <a href=\"http://www.woltlab.de[^>]*>Burning Board[\\s]*</a>"
+      "pattern": "Powered by <a href=\"http://www.woltlab.de[^>]*>Burning Board[\\s]*</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

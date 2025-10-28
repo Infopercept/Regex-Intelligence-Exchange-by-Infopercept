@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"DataLife\\ Engine\\ \\(http://dle\\-news\\.ru\\)\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"DataLife\\ Engine\\ \\(http://dle\\-news\\.ru\\)\"\\ />",
+      "version_group": 0
     },
     {
       "name": "DataLife-Engine Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"DataLife\\ Engine\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"DataLife\\ Engine\"\\ />",
+      "version_group": 0
     },
     {
       "name": "DataLife-Engine Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"DataLife\\ Engine\\ Nulled\\ by\\ M\\.I\\.D\\-Team\\ \\(http://www\\.mid\\-team\\.ws\\)\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"DataLife\\ Engine\\ Nulled\\ by\\ M\\.I\\.D\\-Team\\ \\(http://www\\.mid\\-team\\.ws\\)\"\\ />",
+      "version_group": 0
     },
     {
       "name": "DataLife-Engine Pattern",
@@ -84,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script language=\"javascript\" type=\"text/javascript\">[s]+<!--[s]+var dle_root       = '[^']+';[s]+var dle_admin      = '[^']*';[s]+var dle_login_hash = '[^']*';[s]+(var dle_group      = [d]+;[s]+)?var dle_skin       = '[^']*';[s]+var dle_wysiwyg    = '[^']*';[s]+var quick_wysiwyg  = '[^']*';[s]+",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script language=\"javascript\" type=\"text/javascript\">[\\s]+<!--[\\s]+var dle_root       = '[^']+';[\\s]+var dle_admin      = '[^']*';[\\s]+var dle_login_hash = '[^']*';[\\s]+(var dle_group      = [\\d]+;[\\s]+)?var dle_skin       = '[^']*';[\\s]+var dle_wysiwyg    = '[^']*';[\\s]+var quick_wysiwyg  = '[^']*';[\\s]+"
+      "pattern": "<script language=\"javascript\" type=\"text/javascript\">[\\s]+<!--[\\s]+var dle_root       = '[^']+';[\\s]+var dle_admin      = '[^']*';[\\s]+var dle_login_hash = '[^']*';[\\s]+(var dle_group      = [\\d]+;[\\s]+)?var dle_skin       = '[^']*';[\\s]+var dle_wysiwyg    = '[^']*';[\\s]+var quick_wysiwyg  = '[^']*';[\\s]+",
+      "version_group": 0
     },
     {
       "name": "DataLife-Engine Pattern",
@@ -100,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "dle_hash=[^;]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "dle_hash=[^;]+;"
+      "pattern": "dle_hash=[^;]+;",
+      "version_group": 0
     },
     {
       "name": "DataLife-Engine Pattern",
@@ -116,9 +133,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "dle_password=[^;]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "dle_password=[^;]+;"
+      "pattern": "dle_password=[^;]+;",
+      "version_group": 0
     },
     {
       "name": "DataLife-Engine Pattern",
@@ -132,9 +156,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "dle_user_id=[^;]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "dle_user_id=[^;]+;"
+      "pattern": "dle_user_id=[^;]+;",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

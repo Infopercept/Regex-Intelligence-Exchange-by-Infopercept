@@ -1,0 +1,71 @@
+{
+  "vendor": "WP",
+  "vendor_id": "wp",
+  "product": "WP Rocket",
+  "product_id": "wp-wp-rocket",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WP Rocket Header Detection",
+      "pattern": "X-Powered-By: WP Rocket(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects WP Rocket from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "wp-rocket"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "WP Rocket Header Detection",
+      "pattern": "X-Rocket-Nginx-Bypass: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects WP Rocket from X-Rocket-Nginx-Bypass header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "wp-rocket"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "WP Rocket HTML Detection",
+      "pattern": "<!--[^>]+WP Rocket",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects WP Rocket from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "wp-rocket"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

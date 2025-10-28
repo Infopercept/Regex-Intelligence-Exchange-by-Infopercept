@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<TITLE>Puridiom,\\ Enabling\\ Self\\-Service\\ Procurement</TITLE>"
+      "pattern": "<TITLE>Puridiom,\\ Enabling\\ Self\\-Service\\ Procurement</TITLE>",
+      "version_group": 0
     },
     {
       "name": "Puridiom Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<TITLE>Puridiom\\ Xpress,\\ Enabling\\ Self\\-Service\\ Procurement</TITLE>"
+      "pattern": "<TITLE>Puridiom\\ Xpress,\\ Enabling\\ Self\\-Service\\ Procurement</TITLE>",
+      "version_group": 0
     },
     {
       "name": "Puridiom Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<iframe\\ id=\"getInfoFrame\"\\ name=\"getInfoFrame\"\\ src=\"/puridiom/system/processing\\.jsp\""
+      "pattern": "<iframe\\ id=\"getInfoFrame\"\\ name=\"getInfoFrame\"\\ src=\"/puridiom/system/processing\\.jsp\"",
+      "version_group": 0
     },
     {
       "name": "Puridiom Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<tr><td\\ width=100%\\ align=center\\ valign=top><br><b>Loading\\ Page\\.\\.\\.\\ Please\\ wait\\.</b><br><br><br><img\\ src=\"/puridiom"
+      "pattern": "<tr><td\\ width=100%\\ align=center\\ valign=top><br><b>Loading\\ Page\\.\\.\\.\\ Please\\ wait\\.</b><br><br><br><img\\ src=\"/puridiom",
+      "version_group": 0
     },
     {
       "name": "Puridiom Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<META\\ NAME=\"Description\"\\ Content=\"/puridiom/system/header\\.jsp\">"
+      "pattern": "<META\\ NAME=\"Description\"\\ Content=\"/puridiom/system/header\\.jsp\">",
+      "version_group": 0
     },
     {
       "name": "Puridiom Pattern",
@@ -136,7 +141,9 @@
           }
         ]
       },
-      "pattern": "<META\\ NAME=\"Description\"\\ Content=\"/puridiomx/system/header\\.jsp\">"
+      "pattern": "<META\\ NAME=\"Description\"\\ Content=\"/puridiomx/system/header\\.jsp\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

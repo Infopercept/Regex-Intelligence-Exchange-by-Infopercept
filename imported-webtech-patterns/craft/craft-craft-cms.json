@@ -1,0 +1,31 @@
+{
+  "vendor": "Craft",
+  "vendor_id": "craft",
+  "product": "Craft CMS",
+  "product_id": "craft-craft-cms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Craft CMS Header Detection",
+      "pattern": "X-Powered-By: \\bCraft CMS\\b",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Craft CMS from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "craft-cms"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

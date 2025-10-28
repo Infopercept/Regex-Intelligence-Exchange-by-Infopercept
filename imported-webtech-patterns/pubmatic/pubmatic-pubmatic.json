@@ -1,0 +1,31 @@
+{
+  "vendor": "PubMatic",
+  "vendor_id": "pubmatic",
+  "product": "PubMatic",
+  "product_id": "pubmatic-pubmatic",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PubMatic Script Detection",
+      "pattern": "https?://[^/]*\\.pubmatic\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PubMatic from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "pubmatic"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

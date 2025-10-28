@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^[d.]+$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^[\\d\\.]+$"
+      "pattern": "^[\\d\\.]+$",
+      "version_group": 0
     },
     {
       "name": "HighWire-Press Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^detect-robot:",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^detect-robot:"
+      "pattern": "^detect-robot:",
+      "version_group": 0
     },
     {
       "name": "HighWire-Press Pattern",
@@ -50,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^.+$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^.+$"
+      "pattern": "^.+$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

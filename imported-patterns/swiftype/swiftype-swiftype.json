@@ -1,0 +1,31 @@
+{
+  "vendor": "Swiftype",
+  "vendor_id": "swiftype",
+  "product": "Swiftype",
+  "product_id": "swiftype-swiftype",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Swiftype Script Detection",
+      "pattern": "swiftype\\.com/embed\\.js$",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Swiftype from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "swiftype"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<td\\ valign=\"top\"\\ width=\"18px\"><a\\ href=\"/Reports/Pages/Folder\\.aspx\\?ItemPath="
+      "pattern": "<td\\ valign=\"top\"\\ width=\"18px\"><a\\ href=\"/Reports/Pages/Folder\\.aspx\\?ItemPath=",
+      "version_group": 0
     },
     {
       "name": "Microsoft-SQL-Server-Report-Manager Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<link\\ href=\"/Reports/styles/ReportingServices\\.css\"type=\"text/css\"\\ rel=\"stylesheet\">"
+      "pattern": "<link\\ href=\"/Reports/styles/ReportingServices\\.css\"type=\"text/css\"\\ rel=\"stylesheet\">",
+      "version_group": 0
     },
     {
       "name": "Microsoft-SQL-Server-Report-Manager Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<script\\ language=\"JScript\"\\ type=\"text/Javascript\"\\ src=\"/Reports/js/ReportingServices\\.js\"></script>"
+      "pattern": "<script\\ language=\"JScript\"\\ type=\"text/Javascript\"\\ src=\"/Reports/js/ReportingServices\\.js\"></script>",
+      "version_group": 0
     },
     {
       "name": "Microsoft-SQL-Server-Report-Manager Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"mailto:rcwebhlp@microsoft\\.com\">Send\\ feedback</a>\\ to\\ \"rcwebhlp@microsoft\\.com\"\\ \\|\\ <a\\ href=\"index\\.htm\"\\ target=\"_top\">Launch\\ Help\\ in\\ Frameset</a>"
+      "pattern": "<a\\ href=\"mailto:rcwebhlp@microsoft\\.com\">Send\\ feedback</a>\\ to\\ \"rcwebhlp@microsoft\\.com\"\\ \\|\\ <a\\ href=\"index\\.htm\"\\ target=\"_top\">Launch\\ Help\\ in\\ Frameset</a>",
+      "version_group": 0
     },
     {
       "name": "Microsoft-SQL-Server-Report-Manager Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<body\\ topmargin=0\\ id=\"bodyID\"\\ class\\ =\\ \"dtBODY\"><LINK\\ REL=\"stylesheet\"\\ TYPE=\"text/css\"\\ HREF=\"sql\\.css\">"
+      "pattern": "<body\\ topmargin=0\\ id=\"bodyID\"\\ class\\ =\\ \"dtBODY\"><LINK\\ REL=\"stylesheet\"\\ TYPE=\"text/css\"\\ HREF=\"sql\\.css\">",
+      "version_group": 0
     },
     {
       "name": "Microsoft-SQL-Server-Report-Manager Pattern",
@@ -128,9 +133,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/Reports/Pages/Folder.aspx",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "/Reports/Pages/Folder\\.aspx"
+      "pattern": "/Reports/Pages/Folder\\.aspx",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

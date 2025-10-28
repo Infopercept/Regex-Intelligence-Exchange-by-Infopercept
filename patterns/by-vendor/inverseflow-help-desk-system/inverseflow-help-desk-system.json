@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<table\\ width=\"100%\"\\ bgcolor=\"\\#FFAD4D\"\\ border=\"0\"><tr><td><div\\ class=\"infobar_01\">"
+      "pattern": "<table\\ width=\"100%\"\\ bgcolor=\"\\#FFAD4D\"\\ border=\"0\"><tr><td><div\\ class=\"infobar_01\">",
+      "version_group": 0
     },
     {
       "name": "InverseFlow-Help-Desk-System Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<div\\ class=\"normal\">To\\ view\\ a\\ ticket,\\ please\\ enter\\ your\\ email\\ address\\ and\\ ticket\\ ID\\.\\ \\ If\\ you\\ forgot\\ your\\ ticket\\ ID,\\ you\\ can\\ use\\ the\\ <a\\ href=\"ticket\\.php\\?cmd=lost\">ticket\\ lookup</a>\\.</div>"
+      "pattern": "<div\\ class=\"normal\">To\\ view\\ a\\ ticket,\\ please\\ enter\\ your\\ email\\ address\\ and\\ ticket\\ ID\\.\\ \\ If\\ you\\ forgot\\ your\\ ticket\\ ID,\\ you\\ can\\ use\\ the\\ <a\\ href=\"ticket\\.php\\?cmd=lost\">ticket\\ lookup</a>\\.</div>",
+      "version_group": 0
     },
     {
       "name": "InverseFlow-Help-Desk-System Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"normal\">[^<]+<a href=\"ticket.php?cmd=lost\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div class=\"normal\">[^<]+<a href=\"ticket\\.php\\?cmd=lost\">"
+      "pattern": "<div class=\"normal\">[^<]+<a href=\"ticket\\.php\\?cmd=lost\">",
+      "version_group": 0
     },
     {
       "name": "InverseFlow-Help-Desk-System Pattern",
@@ -86,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<form\\ action=\"ticketview\\.php\"\\ method=\"get\">"
+      "pattern": "<form\\ action=\"ticketview\\.php\"\\ method=\"get\">",
+      "version_group": 0
     },
     {
       "name": "InverseFlow-Help-Desk-System Pattern",
@@ -100,9 +110,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form action=\"ticket.php\" method=\"get\">[s]+<input type=\"hidden\" name=\"cmd\" value=\"lost\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<form action=\"ticket\\.php\" method=\"get\">[\\s]+<input type=\"hidden\" name=\"cmd\" value=\"lost\" />"
+      "pattern": "<form action=\"ticket\\.php\" method=\"get\">[\\s]+<input type=\"hidden\" name=\"cmd\" value=\"lost\" />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

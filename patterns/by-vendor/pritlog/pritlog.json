@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<em\\ id=\"jserror\">Please\\ enable\\ Javascript\\ for\\ full\\ functionality\\.</em>"
+      "pattern": "<em\\ id=\"jserror\">Please\\ enable\\ Javascript\\ for\\ full\\ functionality\\.</em>",
+      "version_group": 0
     },
     {
       "name": "PRITLOG Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://pritlog\\.com/\">Pritlog</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://pritlog\\.com/\">Pritlog</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

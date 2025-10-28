@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "ARRAffinity",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "ARRAffinity"
+      "pattern": "ARRAffinity",
+      "version_group": 0
     },
     {
       "name": "WAWebSiteSID cookie",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "WAWebSiteSID",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "WAWebSiteSID"
+      "pattern": "WAWebSiteSID",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "incap_ses_",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "incap_ses_"
+      "pattern": "incap_ses_",
+      "version_group": 0
     },
     {
       "name": "Set-cookie Header",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "incap_visid_83_",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "incap_visid_83_"
+      "pattern": "incap_visid_83_",
+      "version_group": 0
     },
     {
       "name": "visid_incap_ cookie",
@@ -50,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^visid_incap_",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^visid_incap_"
+      "pattern": "^visid_incap_",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

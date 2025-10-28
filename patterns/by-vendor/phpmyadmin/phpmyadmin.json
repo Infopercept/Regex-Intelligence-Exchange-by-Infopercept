@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"\\./themes/original/img/logo_right\\.png\"\\ id=\"imLogo\"\\ name=\"imLogo\"\\ alt=\"phpMyAdmin\"\\ border=\"0\"\\ /></a>"
+      "pattern": "<img\\ src=\"\\./themes/original/img/logo_right\\.png\"\\ id=\"imLogo\"\\ name=\"imLogo\"\\ alt=\"phpMyAdmin\"\\ border=\"0\"\\ /></a>",
+      "version_group": 0
     },
     {
       "name": "phpMyAdmin Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form method=\"post\" action=\"index.php\" target=\"_(top|parent)\"><input type=\"hidden\" name=\"phpMyAdmin\" value=\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<form method=\"post\" action=\"index\\.php\" target=\"_(top|parent)\"><input type=\"hidden\" name=\"phpMyAdmin\" value=\""
+      "pattern": "<form method=\"post\" action=\"index\\.php\" target=\"_(top|parent)\"><input type=\"hidden\" name=\"phpMyAdmin\" value=\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

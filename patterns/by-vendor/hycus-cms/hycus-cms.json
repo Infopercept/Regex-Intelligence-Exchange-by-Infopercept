@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"Hycus\\ \\-\\ Open\\ Source\\ PHP\\ Based\\ Content\\ Management\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"Hycus\\ \\-\\ Open\\ Source\\ PHP\\ Based\\ Content\\ Management\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Hycus-CMS Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.hycus\\.com\"\\ target=\"_blank\"\\ >Hycus\\-CMS</a>\\.\\ Developed\\ By\\ <a\\ href=\"http://www\\.hycus\\.com\"\\ target=\"_blank\"\\ >Hycus\\ Team</a>\\."
+      "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.hycus\\.com\"\\ target=\"_blank\"\\ >Hycus\\-CMS</a>\\.\\ Developed\\ By\\ <a\\ href=\"http://www\\.hycus\\.com\"\\ target=\"_blank\"\\ >Hycus\\ Team</a>\\.",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

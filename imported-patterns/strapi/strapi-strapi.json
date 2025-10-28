@@ -1,0 +1,31 @@
+{
+  "vendor": "Strapi",
+  "vendor_id": "strapi",
+  "product": "Strapi",
+  "product_id": "strapi-strapi",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Strapi Header Detection",
+      "pattern": "X-Powered-By: ^Strapi",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Strapi from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "strapi"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

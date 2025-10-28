@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<td\\ align=right><a\\ href='links_view\\.php'><font\\ class='menu_top'><b><u>My\\ Last\\ Viewed</u></b></font></a>\\&nbsp;\\&nbsp;<a\\ href='alert\\.php\\?action=register'><font\\ class='menu_top'><b><u>Get\\ e\\-mail\\ alerts</u></b></font></a>\\&nbsp;\\&nbsp;"
+      "pattern": "<td\\ align=right><a\\ href='links_view\\.php'><font\\ class='menu_top'><b><u>My\\ Last\\ Viewed</u></b></font></a>\\&nbsp;\\&nbsp;<a\\ href='alert\\.php\\?action=register'><font\\ class='menu_top'><b><u>Get\\ e\\-mail\\ alerts</u></b></font></a>\\&nbsp;\\&nbsp;",
+      "version_group": 0
     },
     {
       "name": "MYRE-PHP Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ BEGIN:\\ MENU\\ FOOTER\\ don't\\ change\\ anything\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ BEGIN:\\ MENU\\ FOOTER\\ don't\\ change\\ anything\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -29,5 +29,6 @@
       "pattern": "Server: ^Play! Framework;(\\d[^\\s^;]+;[^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

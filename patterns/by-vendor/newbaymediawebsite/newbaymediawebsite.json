@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "nice-menu-menu-newbay-media-websites",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "nice-menu-menu-newbay-media-websites"
+      "pattern": "nice-menu-menu-newbay-media-websites",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

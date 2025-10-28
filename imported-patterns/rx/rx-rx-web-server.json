@@ -1,0 +1,31 @@
+{
+  "vendor": "RX",
+  "vendor_id": "rx",
+  "product": "RX Web Server",
+  "product_id": "rx-rx-web-server",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "RX Web Server Header Detection",
+      "pattern": "X-Powered-By: RX-WEB",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects RX Web Server from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "rx-web-server"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

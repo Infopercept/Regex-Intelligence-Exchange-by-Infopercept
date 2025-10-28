@@ -1,0 +1,71 @@
+{
+  "vendor": "MochiKit",
+  "vendor_id": "mochikit",
+  "product": "MochiKit",
+  "product_id": "mochikit-mochikit",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MochiKit Script Detection",
+      "pattern": "MochiKit(?:\\.min)?\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MochiKit from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "mochikit"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "MochiKit JavaScript Detection",
+      "pattern": "window\\.MochiKit|MochiKit\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MochiKit from JavaScript variable 'MochiKit'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "mochikit"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "MochiKit JavaScript Detection",
+      "pattern": "window\\.MochiKit\\.MochiKit\\.VERSION|MochiKit\\.MochiKit\\.VERSION\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MochiKit from JavaScript variable 'MochiKit.MochiKit.VERSION'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "mochikit"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

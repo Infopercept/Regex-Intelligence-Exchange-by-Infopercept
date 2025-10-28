@@ -1,0 +1,91 @@
+{
+  "vendor": "GOV.UK",
+  "vendor_id": "gov.uk",
+  "product": "GOV.UK Frontend",
+  "product_id": "gov.uk-govuk-frontend",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "GOV.UK Frontend HTML Detection",
+      "pattern": "<link[^>]* href=[^>]*?govuk-frontend(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>]*?(?:\\.min)?\\.css",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GOV.UK Frontend from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "gov.uk-frontend"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "GOV.UK Frontend HTML Detection",
+      "pattern": "<body[^>]+govuk-template__body\\;confidence:80",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GOV.UK Frontend from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "gov.uk-frontend"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "GOV.UK Frontend HTML Detection",
+      "pattern": "<a[^>]+govuk-link\\;confidence:10",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GOV.UK Frontend from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "gov.uk-frontend"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "GOV.UK Frontend Script Detection",
+      "pattern": "govuk-frontend(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>]*?(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GOV.UK Frontend from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "gov.uk-frontend"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

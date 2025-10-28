@@ -1,0 +1,31 @@
+{
+  "vendor": "Nepso",
+  "vendor_id": "nepso",
+  "product": "Nepso",
+  "product_id": "nepso-nepso",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Nepso Header Detection",
+      "pattern": "X-Powered-CMS: Nepso",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Nepso from X-Powered-CMS header",
+        "tags": [
+          "webtech",
+          "header",
+          "nepso"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

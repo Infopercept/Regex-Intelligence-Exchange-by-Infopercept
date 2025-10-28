@@ -1,0 +1,31 @@
+{
+  "vendor": "Kinsta",
+  "vendor_id": "kinsta",
+  "product": "Kinsta",
+  "product_id": "kinsta-kinsta",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Kinsta Header Detection",
+      "pattern": "x-kinsta-cache: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Kinsta from x-kinsta-cache header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "kinsta"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

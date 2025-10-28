@@ -52,5 +52,6 @@
       "pattern": "Server: ^Oracle Application Server/1[01]g \\(([^\\s^\\)]+)\\)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

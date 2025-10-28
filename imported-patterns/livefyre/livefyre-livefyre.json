@@ -1,0 +1,51 @@
+{
+  "vendor": "Livefyre",
+  "vendor_id": "livefyre",
+  "product": "Livefyre",
+  "product_id": "livefyre-livefyre",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Livefyre HTML Detection",
+      "pattern": "<[^>]+(?:id|class)=\"livefyre",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Livefyre from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "livefyre"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Livefyre Script Detection",
+      "pattern": "livefyre_init\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Livefyre from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "livefyre"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>The\\ Taurus\\ Server\\ Appliance</title>"
+      "pattern": "<title>The\\ Taurus\\ Server\\ Appliance</title>",
+      "version_group": 0
     },
     {
       "name": "Taurus-Server-Appliance Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<b><font\\ color=\\#FFFFFF>Welcome\\ to\\ Taurus\\ </font></b>"
+      "pattern": "<b><font\\ color=\\#FFFFFF>Welcome\\ to\\ Taurus\\ </font></b>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

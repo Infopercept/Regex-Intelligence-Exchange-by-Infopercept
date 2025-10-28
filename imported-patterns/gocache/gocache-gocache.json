@@ -1,0 +1,51 @@
+{
+  "vendor": "GoCache",
+  "vendor_id": "gocache",
+  "product": "GoCache",
+  "product_id": "gocache-gocache",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "GoCache Header Detection",
+      "pattern": "Server: ^gocache$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GoCache from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "gocache"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "GoCache Header Detection",
+      "pattern": "X-GoCache-CacheStatus: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GoCache from X-GoCache-CacheStatus header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "gocache"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

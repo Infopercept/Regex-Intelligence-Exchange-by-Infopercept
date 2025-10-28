@@ -1,0 +1,31 @@
+{
+  "vendor": "Jetshop",
+  "vendor_id": "jetshop",
+  "product": "Jetshop",
+  "product_id": "jetshop-jetshop",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Jetshop HTML Detection",
+      "pattern": "<(?:div|aside) id=\"jetshop-branding\">",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Jetshop from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "jetshop"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

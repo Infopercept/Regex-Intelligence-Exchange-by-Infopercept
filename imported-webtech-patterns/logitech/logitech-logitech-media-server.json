@@ -1,0 +1,31 @@
+{
+  "vendor": "Logitech",
+  "vendor_id": "logitech",
+  "product": "Logitech Media Server",
+  "product_id": "logitech-logitech-media-server",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Logitech Media Server Header Detection",
+      "pattern": "Server: Logitech Media Server(?: \\(([\\d\\.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Logitech Media Server from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "logitech-media-server"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "vendor": "Zanox",
+  "vendor_id": "zanox",
+  "product": "Zanox",
+  "product_id": "zanox-zanox",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Zanox HTML Detection",
+      "pattern": "<img [^>]*src=\"[^\"]+ad\\.zanox\\.com",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Zanox from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "zanox"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Zanox Script Detection",
+      "pattern": "zanox\\.com/scripts/zanox\\.js$",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Zanox from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "zanox"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Zanox JavaScript Detection",
+      "pattern": "window\\.zanox|zanox\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Zanox from JavaScript variable 'zanox'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "zanox"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<form\\ class=\"nquser\"\\ action=\"nquser\\.php\"\\ method=\"post\">"
+      "pattern": "<form\\ class=\"nquser\"\\ action=\"nquser\\.php\"\\ method=\"post\">",
+      "version_group": 0
     },
     {
       "name": "Netquery Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"nquser\\.php\\?querytype=countries\"><img\\ class=\"gobuttonup\""
+      "pattern": "<a\\ href=\"nquser\\.php\\?querytype=countries\"><img\\ class=\"gobuttonup\"",
+      "version_group": 0
     },
     {
       "name": "Netquery Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<legend>NQ\\ User\\ Interface</legend>"
+      "pattern": "<legend>NQ\\ User\\ Interface</legend>",
+      "version_group": 0
     },
     {
       "name": "Netquery Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<br\\ /><a\\ href=\"nquser\\.php\\?formtype=countries\">Top\\ Countries"
+      "pattern": "<br\\ /><a\\ href=\"nquser\\.php\\?formtype=countries\">Top\\ Countries",
+      "version_group": 0
     },
     {
       "name": "Netquery Pattern",
@@ -114,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"nqadmin\\.php\"><img\\ class=\"gobutton\"\\ src=\"images/btn_adm\\.gif\"\\ alt=\"Administration\"\\ /></a>"
+      "pattern": "<a\\ href=\"nqadmin\\.php\"><img\\ class=\"gobutton\"\\ src=\"images/btn_adm\\.gif\"\\ alt=\"Administration\"\\ /></a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

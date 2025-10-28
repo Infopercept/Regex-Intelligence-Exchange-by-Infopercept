@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Jeus WebContainer",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Jeus WebContainer"
+      "pattern": "^Jeus WebContainer",
+      "version_group": 0
     },
     {
       "name": "JEUS Pattern",
@@ -68,5 +75,6 @@
       "pattern": "Server: ^Jeus WebContainer/JEUS (.+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

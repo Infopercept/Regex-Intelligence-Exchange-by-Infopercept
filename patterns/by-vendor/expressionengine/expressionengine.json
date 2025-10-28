@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "owered by <a href=\"http://expressionengine.com/\">ExpressionEngine</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "owered by <a href=\"http://expressionengine.com/\">ExpressionEngine</a>"
+      "pattern": "owered by <a href=\"http://expressionengine.com/\">ExpressionEngine</a>",
+      "version_group": 0
     },
     {
       "name": "exp_last_visit cookie",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^exp_last_visit",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^exp_last_visit"
+      "pattern": "^exp_last_visit",
+      "version_group": 0
     },
     {
       "name": "exp_last_activity cookie",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^exp_last_activity",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^exp_last_activity"
+      "pattern": "^exp_last_activity",
+      "version_group": 0
     },
     {
       "name": "exp_tracker cookie",
@@ -66,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^exp_tracker",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^exp_tracker"
+      "pattern": "^exp_tracker",
+      "version_group": 0
     },
     {
       "name": "exp_csrf_token cookie",
@@ -82,9 +110,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^exp_csrf_token",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^exp_csrf_token"
+      "pattern": "^exp_csrf_token",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

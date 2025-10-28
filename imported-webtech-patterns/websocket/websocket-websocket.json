@@ -1,0 +1,51 @@
+{
+  "vendor": "Websocket",
+  "vendor_id": "websocket",
+  "product": "Websocket",
+  "product_id": "websocket-websocket",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Websocket HTML Detection",
+      "pattern": "<link[^>]+rel=[\"']web-socket[\"']",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Websocket from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "websocket"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Websocket HTML Detection",
+      "pattern": "<(?:link|a)[^>]+href=[\"']wss?://",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Websocket from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "websocket"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

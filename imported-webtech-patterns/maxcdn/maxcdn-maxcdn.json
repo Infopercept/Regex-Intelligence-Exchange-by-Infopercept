@@ -1,0 +1,51 @@
+{
+  "vendor": "MaxCDN",
+  "vendor_id": "maxcdn",
+  "product": "MaxCDN",
+  "product_id": "maxcdn-maxcdn",
+  "category": "web",
+  "subcategory": "cdn",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MaxCDN Header Detection",
+      "pattern": "Server: ^NetDNA",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MaxCDN from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "maxcdn"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "MaxCDN Header Detection",
+      "pattern": "X-CDN-Forward: ^maxcdn$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MaxCDN from X-CDN-Forward header",
+        "tags": [
+          "webtech",
+          "header",
+          "maxcdn"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

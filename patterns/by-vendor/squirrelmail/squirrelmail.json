@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>SquirrelMail\\ \\-\\ Login</title>"
+      "pattern": "<title>SquirrelMail\\ \\-\\ Login</title>",
+      "version_group": 0
     },
     {
       "name": "js function",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "function\\ squirrelmail_loginpage_onload\\(\\)"
+      "pattern": "function\\ squirrelmail_loginpage_onload\\(\\)",
+      "version_group": 0
     },
     {
       "name": "css comment",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "/\\*\\ avoid\\ stupid\\ IE6\\ bug\\ with\\ frames\\ and\\ scrollbars\\ \\*/"
+      "pattern": "/\\*\\ avoid\\ stupid\\ IE6\\ bug\\ with\\ frames\\ and\\ scrollbars\\ \\*/",
+      "version_group": 0
     },
     {
       "name": "SquirrelMail Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<b>SquirrelMail\\ Login</b>"
+      "pattern": "<b>SquirrelMail\\ Login</b>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

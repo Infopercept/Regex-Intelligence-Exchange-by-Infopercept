@@ -1,0 +1,71 @@
+{
+  "vendor": "INFOnline",
+  "vendor_id": "infonline",
+  "product": "INFOnline",
+  "product_id": "infonline-infonline",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "INFOnline Script Detection",
+      "pattern": "^https?://(?:[^/]+\\.)?i(?:oam|v)wbox\\.de/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects INFOnline from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "infonline"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "INFOnline JavaScript Detection",
+      "pattern": "window\\.iam_data|iam_data\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects INFOnline from JavaScript variable 'iam_data'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "infonline"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "INFOnline JavaScript Detection",
+      "pattern": "window\\.szmvars|szmvars\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects INFOnline from JavaScript variable 'szmvars'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "infonline"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

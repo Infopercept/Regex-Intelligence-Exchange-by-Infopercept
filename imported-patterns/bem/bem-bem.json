@@ -1,0 +1,31 @@
+{
+  "vendor": "BEM",
+  "vendor_id": "bem",
+  "product": "BEM",
+  "product_id": "bem-bem",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BEM HTML Detection",
+      "pattern": "<[^>]+data-bem",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects BEM from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "bem"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

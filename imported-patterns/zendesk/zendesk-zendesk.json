@@ -1,0 +1,31 @@
+{
+  "vendor": "Zendesk",
+  "vendor_id": "zendesk",
+  "product": "Zendesk",
+  "product_id": "zendesk-zendesk",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Zendesk Header Detection",
+      "pattern": "x-zendesk-user-id: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Zendesk from x-zendesk-user-id header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "zendesk"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vendor": "Sails.js",
+  "vendor_id": "sails.js",
+  "product": "Sails.js",
+  "product_id": "sails.js-sailsjs",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Sails.js Header Detection",
+      "pattern": "X-Powered-By: ^Sails(?:$|[^a-z0-9])",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Sails.js from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "sails.js"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^UserLand Frontier",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^UserLand Frontier"
+      "pattern": "^UserLand Frontier",
+      "version_group": 0
     },
     {
       "name": "UserLand-Frontier Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^UserLand Frontier/([^-]+)-(.+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

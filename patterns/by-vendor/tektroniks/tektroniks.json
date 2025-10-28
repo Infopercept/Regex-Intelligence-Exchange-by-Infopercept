@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<p>Transfering\\ you\\ to\\ login\\ page\\ in\\ 2\\ seconds\\.\\.\\.</p>"
+      "pattern": "<p>Transfering\\ you\\ to\\ login\\ page\\ in\\ 2\\ seconds\\.\\.\\.</p>",
+      "version_group": 0
     },
     {
       "name": "Tektroniks Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<td\\ width=\"100\"><label\\ id=\"AU_LOGIN_ID_label\"\\ for=\"AU_LOGIN_ID\"\\ dataType=\"\"\\ required=\"true\">User\\ Name:</label></td>"
+      "pattern": "<td\\ width=\"100\"><label\\ id=\"AU_LOGIN_ID_label\"\\ for=\"AU_LOGIN_ID\"\\ dataType=\"\"\\ required=\"true\">User\\ Name:</label></td>",
+      "version_group": 0
     },
     {
       "name": "Tektroniks Pattern",
@@ -93,7 +95,9 @@
           }
         ]
       },
-      "pattern": "Basic\\ realm=\"Tektroniks\""
+      "pattern": "Basic\\ realm=\"Tektroniks\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

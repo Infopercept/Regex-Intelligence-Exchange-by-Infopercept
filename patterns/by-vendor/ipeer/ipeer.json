@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<h1\\ align=\"center\"><span\\ class=\"footer\">Powered\\ by\\ iPeer\\ and\\ TeamMaker\\ \\-\\ Created\\ by\\ UBC\\ and\\ Rose\\-Hulman</span></h1>"
+      "pattern": "<h1\\ align=\"center\"><span\\ class=\"footer\">Powered\\ by\\ iPeer\\ and\\ TeamMaker\\ \\-\\ Created\\ by\\ UBC\\ and\\ Rose\\-Hulman</span></h1>",
+      "version_group": 0
     },
     {
       "name": "iPeer Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "IPEER=[^;]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "IPEER=[^;]+;"
+      "pattern": "IPEER=[^;]+;",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

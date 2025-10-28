@@ -1,0 +1,71 @@
+{
+  "vendor": "Fat",
+  "vendor_id": "fat",
+  "product": "Fat Zebra",
+  "product_id": "fat-fat-zebra",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Fat Zebra HTML Detection",
+      "pattern": "<(?:iframe|img|form)[^>]+paynow\\.pmnts\\.io",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Fat Zebra from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "fat-zebra"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Fat Zebra HTML Detection",
+      "pattern": "<(?:iframe)[^>]+FatZebraFrame",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Fat Zebra from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "fat-zebra"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Fat Zebra Script Detection",
+      "pattern": "paynow\\.pmnts\\.io",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Fat Zebra from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "fat-zebra"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

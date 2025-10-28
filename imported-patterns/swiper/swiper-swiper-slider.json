@@ -1,0 +1,51 @@
+{
+  "vendor": "Swiper",
+  "vendor_id": "swiper",
+  "product": "Swiper Slider",
+  "product_id": "swiper-swiper-slider",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Swiper Slider HTML Detection",
+      "pattern": "<[^>]+=swiper-container",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Swiper Slider from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "swiper-slider"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Swiper Slider Script Detection",
+      "pattern": "swiper(?:\\.min)?\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Swiper Slider from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "swiper-slider"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

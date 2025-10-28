@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Sun\\ StorageTek\\ NAS\\ OS\\ Web\\ Admin</title>"
+      "pattern": "<title>Sun\\ StorageTek\\ NAS\\ OS\\ Web\\ Admin</title>",
+      "version_group": 0
     },
     {
       "name": "StorageTek-NAS Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^StorageTek-HTTPD",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^StorageTek-HTTPD"
+      "pattern": "^StorageTek-HTTPD",
+      "version_group": 0
     },
     {
       "name": "StorageTek-NAS Pattern",
@@ -67,5 +75,6 @@
       "pattern": "Server: ^StorageTek-HTTPD/([^\\s]+) \\([^\\s]+ NAS\\)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

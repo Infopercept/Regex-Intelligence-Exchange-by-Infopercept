@@ -1,0 +1,31 @@
+{
+  "vendor": "Booksy",
+  "vendor_id": "booksy",
+  "product": "Booksy",
+  "product_id": "booksy-booksy",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Booksy Script Detection",
+      "pattern": "booksy\\.com/widget/code\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Booksy from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "booksy"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

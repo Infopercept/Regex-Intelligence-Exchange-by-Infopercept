@@ -1,0 +1,31 @@
+{
+  "vendor": "Google",
+  "vendor_id": "google",
+  "product": "Google Web Server",
+  "product_id": "google-google-web-server",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Google Web Server Header Detection",
+      "pattern": "Server: gws",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Web Server from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "google-web-server"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

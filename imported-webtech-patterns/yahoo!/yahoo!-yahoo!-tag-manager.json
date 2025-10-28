@@ -1,0 +1,51 @@
+{
+  "vendor": "Yahoo!",
+  "vendor_id": "yahoo!",
+  "product": "Yahoo! Tag Manager",
+  "product_id": "yahoo!-yahoo!-tag-manager",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Yahoo! Tag Manager HTML Detection",
+      "pattern": "<!-- (?:End )?Yahoo! Tag Manager -->",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Yahoo! Tag Manager from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "yahoo!-tag-manager"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Yahoo! Tag Manager Script Detection",
+      "pattern": "b\\.yjtag\\.jp/iframe",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Yahoo! Tag Manager from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "yahoo!-tag-manager"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Header\\ end\\ and\\ right\\ block\\ start\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Header\\ end\\ and\\ right\\ block\\ start\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "AM4SS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ By\\ <a\\ href=\"http://am4ss\\.com\"><font\\ color=\"\\#FF000\">AM4SS</font></a>"
+      "pattern": "Powered\\ By\\ <a\\ href=\"http://am4ss\\.com\"><font\\ color=\"\\#FF000\">AM4SS</font></a>",
+      "version_group": 0
     },
     {
       "name": "AM4SS Pattern",
@@ -62,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"templates/[^/]+/am4ss.css\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link rel=\"stylesheet\" type=\"text/css\" href=\"templates/[^/]+/am4ss\\.css\" />"
+      "pattern": "<link rel=\"stylesheet\" type=\"text/css\" href=\"templates/[^/]+/am4ss\\.css\" />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

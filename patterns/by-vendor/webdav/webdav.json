@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "[^r^n]*DAV/",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "[^\\r^\\n]*DAV/"
+      "pattern": "[^\\r^\\n]*DAV/",
+      "version_group": 0
     },
     {
       "name": "WebDAV Pattern",
@@ -57,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^[s]*DAV",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^[\\s]*DAV"
+      "pattern": "^[\\s]*DAV",
+      "version_group": 0
     },
     {
       "name": "WebDAV Pattern",
@@ -84,5 +98,6 @@
       "pattern": "dav: [\\s]*1,2,<http://([^>]+)>",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

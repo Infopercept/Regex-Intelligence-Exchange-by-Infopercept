@@ -29,5 +29,6 @@
       "pattern": "Server: ^David-WebBox/([^\\s]+ \\([^\\)]+\\))$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

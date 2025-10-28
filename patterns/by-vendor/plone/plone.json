@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"[^>]*http://plone.org\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\"generator\" content=\"[^>]*http://plone.org\" />"
+      "pattern": "<meta name=\"generator\" content=\"[^>]*http://plone.org\" />",
+      "version_group": 0
     },
     {
       "name": "plone css",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "(@import url|text/css)[^>]*portal_css/.*plone.*css()|\")",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "(@import url|text/css)[^>]*portal_css/.*plone.*css(\\)|\")"
+      "pattern": "(@import url|text/css)[^>]*portal_css/.*plone.*css(\\)|\")",
+      "version_group": 0
     },
     {
       "name": "plone javascript",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "src=\"[^\"]*ploneScripts[0-9]+.js\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "src=\"[^\"]*ploneScripts[0-9]+.js\""
+      "pattern": "src=\"[^\"]*ploneScripts[0-9]+.js\"",
+      "version_group": 0
     },
     {
       "name": "Plone Pattern",
@@ -74,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<div\\ class=\"visualIcon\\ contenttype\\-plone\\-site\">"
+      "pattern": "<div\\ class=\"visualIcon\\ contenttype\\-plone\\-site\">",
+      "version_group": 0
     },
     {
       "name": "div tag, visual-portal-wrapper",
@@ -96,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"visual\\-portal\\-wrapper\">"
+      "pattern": "<div\\ id=\"visual\\-portal\\-wrapper\">",
+      "version_group": 0
     },
     {
       "name": "X-Caching-Rule-Id: plone-content-types",
@@ -110,9 +133,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "plone-content-types",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "plone-content-types"
+      "pattern": "plone-content-types",
+      "version_group": 0
     },
     {
       "name": "X-Cache-Rule: plone-content-types",
@@ -126,9 +156,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "plone-content-types",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "plone-content-types"
+      "pattern": "plone-content-types",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

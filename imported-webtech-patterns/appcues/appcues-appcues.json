@@ -1,0 +1,31 @@
+{
+  "vendor": "Appcues",
+  "vendor_id": "appcues",
+  "product": "Appcues",
+  "product_id": "appcues-appcues",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Appcues Script Detection",
+      "pattern": "fast\\.appcues.com*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Appcues from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "appcues"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

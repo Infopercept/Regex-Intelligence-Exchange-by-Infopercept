@@ -1,0 +1,31 @@
+{
+  "vendor": "Sitecore",
+  "vendor_id": "sitecore",
+  "product": "Sitecore",
+  "product_id": "sitecore-sitecore",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Sitecore HTML Detection",
+      "pattern": "<img[^>]+src=\"[^>]*/~/media/[^>]+\\.ashx",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Sitecore from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "sitecore"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

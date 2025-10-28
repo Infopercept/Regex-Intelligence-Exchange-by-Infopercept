@@ -1,0 +1,31 @@
+{
+  "vendor": "Navegg",
+  "vendor_id": "navegg",
+  "product": "Navegg",
+  "product_id": "navegg-navegg",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Navegg Script Detection",
+      "pattern": "tag\\.navdmp\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Navegg from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "navegg"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

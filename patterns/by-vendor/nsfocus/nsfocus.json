@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^NSFocus",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^NSFocus"
+      "pattern": "^NSFocus",
+      "version_group": 0
     },
     {
       "name": "NSFocus Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^NSFocus/([^\\s]+) \\( NSFOCUS \\)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,71 @@
+{
+  "vendor": "OroCommerce",
+  "vendor_id": "orocommerce",
+  "product": "OroCommerce",
+  "product_id": "orocommerce-orocommerce",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OroCommerce HTML Detection",
+      "pattern": "<script [^>]+data-requiremodule=\"oro/",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects OroCommerce from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "orocommerce"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "OroCommerce HTML Detection",
+      "pattern": "<script [^>]+data-requiremodule=\"oroui/",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects OroCommerce from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "orocommerce"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "OroCommerce Script Detection",
+      "pattern": "oro\\.min\\.js\\?version=([\\d.]+)",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects OroCommerce from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "orocommerce"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

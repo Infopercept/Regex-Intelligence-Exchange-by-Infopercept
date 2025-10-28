@@ -1,0 +1,31 @@
+{
+  "vendor": "SWFObject",
+  "vendor_id": "swfobject",
+  "product": "SWFObject",
+  "product_id": "swfobject-swfobject",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SWFObject Script Detection",
+      "pattern": "swfobject.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SWFObject from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "swfobject"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

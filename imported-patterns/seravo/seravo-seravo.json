@@ -1,0 +1,31 @@
+{
+  "vendor": "Seravo",
+  "vendor_id": "seravo",
+  "product": "Seravo",
+  "product_id": "seravo-seravo",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Seravo Header Detection",
+      "pattern": "x-powered-by: ^Seravo",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Seravo from x-powered-by header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "seravo"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

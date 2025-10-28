@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "[pP]owered by <a href=\"http://www.websitebaker2?.org\"( target=\"_blank\")?>WebsiteBaker</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "[pP]owered by <a href=\"http://www\\.websitebaker2?\\.org\"( target=\"_blank\")?>WebsiteBaker</a>"
+      "pattern": "[pP]owered by <a href=\"http://www\\.websitebaker2?\\.org\"( target=\"_blank\")?>WebsiteBaker</a>",
+      "version_group": 0
     },
     {
       "name": "WebsiteBaker-CMS Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "wb_session_id=[^;]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "wb_session_id=[^;]+;"
+      "pattern": "wb_session_id=[^;]+;",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

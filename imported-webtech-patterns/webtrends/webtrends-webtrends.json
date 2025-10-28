@@ -1,0 +1,71 @@
+{
+  "vendor": "Webtrends",
+  "vendor_id": "webtrends",
+  "product": "Webtrends",
+  "product_id": "webtrends-webtrends",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Webtrends HTML Detection",
+      "pattern": "<img[^>]+id=\"DCSIMG\"[^>]+webtrends",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Webtrends from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "webtrends"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Webtrends JavaScript Detection",
+      "pattern": "window\\.WTOptimize|WTOptimize\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Webtrends from JavaScript variable 'WTOptimize'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "webtrends"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Webtrends JavaScript Detection",
+      "pattern": "window\\.WebTrends|WebTrends\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Webtrends from JavaScript variable 'WebTrends'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "webtrends"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Copyright (c) [d]+ - [d]+ Citrix Systems, Inc. All Rights Reserved.",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Copyright \\(c\\) [\\d]+ - [\\d]+ Citrix Systems, Inc. All Rights Reserved."
+      "pattern": "Copyright \\(c\\) [\\d]+ - [\\d]+ Citrix Systems, Inc. All Rights Reserved.",
+      "version_group": 0
     },
     {
       "name": "Citrix-Metaframe Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "window\\.location=\"/Citrix/MetaFrame\";"
+      "pattern": "window\\.location=\"/Citrix/MetaFrame\";",
+      "version_group": 0
     },
     {
       "name": "Citrix-Metaframe Pattern",
@@ -64,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<title>MetaFrame\\ Presentation\\ Server\\ Log\\ In</title>"
+      "pattern": "<title>MetaFrame\\ Presentation\\ Server\\ Log\\ In</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

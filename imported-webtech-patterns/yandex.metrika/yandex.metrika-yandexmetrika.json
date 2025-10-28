@@ -1,0 +1,71 @@
+{
+  "vendor": "Yandex.Metrika",
+  "vendor_id": "yandex.metrika",
+  "product": "Yandex.Metrika",
+  "product_id": "yandex.metrika-yandexmetrika",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Yandex.Metrika Script Detection",
+      "pattern": "mc\\.yandex\\.ru/metrika/watch\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Yandex.Metrika from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "yandex.metrika"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Yandex.Metrika Script Detection",
+      "pattern": "cdn\\.jsdelivr\\.net/npm/yandex-metrica-watch/watch\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Yandex.Metrika from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "yandex.metrika"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Yandex.Metrika JavaScript Detection",
+      "pattern": "window\\.yandex_metrika|yandex_metrika\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Yandex.Metrika from JavaScript variable 'yandex_metrika'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "yandex.metrika"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

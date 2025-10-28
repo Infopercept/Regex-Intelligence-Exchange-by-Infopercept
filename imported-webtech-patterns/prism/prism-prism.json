@@ -1,0 +1,51 @@
+{
+  "vendor": "Prism",
+  "vendor_id": "prism",
+  "product": "Prism",
+  "product_id": "prism-prism",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Prism Script Detection",
+      "pattern": "prism\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Prism from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "prism"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Prism JavaScript Detection",
+      "pattern": "window\\.Prism|Prism\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Prism from JavaScript variable 'Prism'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "prism"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

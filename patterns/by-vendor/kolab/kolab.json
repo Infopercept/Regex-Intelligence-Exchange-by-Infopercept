@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"toptitle\">Kolab\\ Groupware\\ login</div>"
+      "pattern": "<div\\ id=\"toptitle\">Kolab\\ Groupware\\ login</div>",
+      "version_group": 0
     },
     {
       "name": "Kolab Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"description\"\\ content=\"Kolab\\ Administration\\ Webinterface\"\\ />"
+      "pattern": "<meta\\ name=\"description\"\\ content=\"Kolab\\ Administration\\ Webinterface\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Kolab Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<title>Kolab\\ Groupware\\ login</title>"
+      "pattern": "<title>Kolab\\ Groupware\\ login</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

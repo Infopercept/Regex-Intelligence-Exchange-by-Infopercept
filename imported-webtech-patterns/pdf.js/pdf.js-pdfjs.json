@@ -1,0 +1,71 @@
+{
+  "vendor": "PDF.js",
+  "vendor_id": "pdf.js",
+  "product": "PDF.js",
+  "product_id": "pdf.js-pdfjs",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PDF.js HTML Detection",
+      "pattern": "</div>\\s*<!-- outerContainer -->\\s*<div\\s*id=\"printContainer\"></div>",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PDF.js from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "pdf.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "PDF.js JavaScript Detection",
+      "pattern": "window\\.PDFJS|PDFJS\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PDF.js from JavaScript variable 'PDFJS'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "pdf.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "PDF.js JavaScript Detection",
+      "pattern": "window\\.PDFJS\\.version|PDFJS\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PDF.js from JavaScript variable 'PDFJS.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "pdf.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

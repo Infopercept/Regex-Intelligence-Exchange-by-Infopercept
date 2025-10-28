@@ -1,0 +1,51 @@
+{
+  "vendor": "Apigee",
+  "vendor_id": "apigee",
+  "product": "Apigee",
+  "product_id": "apigee-apigee",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Apigee HTML Detection",
+      "pattern": "<script>[^>]{0,50}script src=[^>]/profiles/apigee",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Apigee from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "apigee"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Apigee Script Detection",
+      "pattern": "/profiles/apigee",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Apigee from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "apigee"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

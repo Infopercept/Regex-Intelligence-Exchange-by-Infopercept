@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "[^r^n]*SVN",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "[^\\r^\\n]*SVN"
+      "pattern": "[^\\r^\\n]*SVN",
+      "version_group": 0
     },
     {
       "name": "SVN Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: [^\\r^\\n]*SVN/([^\\r^\\n^\\s]*)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,51 @@
+{
+  "vendor": "Material",
+  "vendor_id": "material",
+  "product": "Material Design Lite",
+  "product_id": "material-material-design-lite",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Material Design Lite HTML Detection",
+      "pattern": "<link[^>]* href=\"[^\"]*material(?:\\.[\\w]+-[\\w]+)?(?:\\.min)?\\.css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Material Design Lite from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "material-design-lite"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Material Design Lite Script Detection",
+      "pattern": "(?:/([\\d.]+))?/material(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Material Design Lite from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "material-design-lite"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

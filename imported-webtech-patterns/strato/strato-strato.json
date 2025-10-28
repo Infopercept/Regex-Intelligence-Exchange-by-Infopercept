@@ -1,0 +1,31 @@
+{
+  "vendor": "Strato",
+  "vendor_id": "strato",
+  "product": "Strato",
+  "product_id": "strato-strato",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Strato HTML Detection",
+      "pattern": "<a href=\"http://www\\.strato\\.de/\" target=\"_blank\">",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Strato from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "strato"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

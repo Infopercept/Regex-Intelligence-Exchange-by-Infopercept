@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"(g|G)enerator\" content=\"(E|e)dito( CMS)? - www.edito.pl\"[s]*/?>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\"(g|G)enerator\" content=\"(E|e)dito( CMS)? - www\\.edito\\.pl\"[\\s]*/?>"
+      "pattern": "<meta name=\"(g|G)enerator\" content=\"(E|e)dito( CMS)? - www\\.edito\\.pl\"[\\s]*/?>",
+      "version_group": 0
     },
     {
       "name": "Edito-CMS Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by[s]*:?[s]+<a[^>]+href=\"http://www.edito.pl[/]?\"[^>]+title=\"Edito CMS\"[^>]*>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by[\\s]*:?[\\s]+<a[^>]+href=\"http://www.edito.pl[/]?\"[^>]+title=\"Edito CMS\"[^>]*>"
+      "pattern": "Powered by[\\s]*:?[\\s]+<a[^>]+href=\"http://www.edito.pl[/]?\"[^>]+title=\"Edito CMS\"[^>]*>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

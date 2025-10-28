@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.(acclipse|acclipseweb).(co.nz|com.au)[/]?(for_Businesses)?\" target=\"_blank\"( class=\"poweredbylink\")?>(Software solutions for accountants|Web design New Zealand|Web design Australia)</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"http://www\\.(acclipse|acclipseweb)\\.(co\\.nz|com\\.au)[/]?(for_Businesses)?\" target=\"_blank\"( class=\"poweredbylink\")?>(Software solutions for accountants|Web design New Zealand|Web design Australia)</a>"
+      "pattern": "<a href=\"http://www\\.(acclipse|acclipseweb)\\.(co\\.nz|com\\.au)[/]?(for_Businesses)?\" target=\"_blank\"( class=\"poweredbylink\")?>(Software solutions for accountants|Web design New Zealand|Web design Australia)</a>",
+      "version_group": 0
     },
     {
       "name": "Website powered by",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Website\\ powered\\ by\\ <A\\ href=\\\\"
+      "pattern": "Website\\ powered\\ by\\ <A\\ href=\\\\",
+      "version_group": 0
     },
     {
       "name": "acclipse link with uppercase A href",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<A\\ href=\\\\"
+      "pattern": "<A\\ href=\\\\",
+      "version_group": 0
     },
     {
       "name": "https://secure.acclipse.com link",
@@ -78,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "https://secure.acclipse(web)?.com/[^/]*/index.cfm",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "https://secure\\.acclipse(web)?\\.com/[^/]*/index\\.cfm"
+      "pattern": "https://secure\\.acclipse(web)?\\.com/[^/]*/index\\.cfm",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

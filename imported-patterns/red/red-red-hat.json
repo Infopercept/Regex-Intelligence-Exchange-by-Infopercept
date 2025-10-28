@@ -1,0 +1,51 @@
+{
+  "vendor": "Red",
+  "vendor_id": "red",
+  "product": "Red Hat",
+  "product_id": "red-red-hat",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Red Hat Header Detection",
+      "pattern": "Server: Red Hat",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Red Hat from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "red-hat"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Red Hat Header Detection",
+      "pattern": "X-Powered-By: Red Hat",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Red Hat from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "red-hat"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

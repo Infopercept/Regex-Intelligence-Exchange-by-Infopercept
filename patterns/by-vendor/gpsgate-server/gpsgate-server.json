@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<input\\ name=\"LoginControl\\$TextBoxPassword\"\\ type=\"password\"\\ id=\"LoginControl_TextBoxPassword\"\\ tabindex=\"2\"\\ class=\"form\"\\ onfocus=\"document\\.getElementById\\(\\\\"
+      "pattern": "<input\\ name=\"LoginControl\\$TextBoxPassword\"\\ type=\"password\"\\ id=\"LoginControl_TextBoxPassword\"\\ tabindex=\"2\"\\ class=\"form\"\\ onfocus=\"document\\.getElementById\\(\\\\",
+      "version_group": 0
     },
     {
       "name": "GpsGate-Server Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<head><title>r?ntGpsGate Server - Loginr?n</title></head>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<head><title>\\r?\\n\\tGpsGate Server - Login\\r?\\n</title></head>"
+      "pattern": "<head><title>\\r?\\n\\tGpsGate Server - Login\\r?\\n</title></head>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

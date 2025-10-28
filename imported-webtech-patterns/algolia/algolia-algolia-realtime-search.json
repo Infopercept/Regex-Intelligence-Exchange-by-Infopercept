@@ -1,0 +1,51 @@
+{
+  "vendor": "Algolia",
+  "vendor_id": "algolia",
+  "product": "Algolia Realtime Search",
+  "product_id": "algolia-algolia-realtime-search",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Algolia Realtime Search JavaScript Detection",
+      "pattern": "window\\.AlgoliaSearch|AlgoliaSearch\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Algolia Realtime Search from JavaScript variable 'AlgoliaSearch'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "algolia-realtime-search"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Algolia Realtime Search JavaScript Detection",
+      "pattern": "window\\.algoliasearch\\.version|algoliasearch\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Algolia Realtime Search from JavaScript variable 'algoliasearch.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "algolia-realtime-search"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

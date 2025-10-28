@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "href=\"http://www\\.sitefinity\\.com\"\\ class=\"poweredBySitefinity\"\\ title=\"Sitefinity\\ ASP\\.NET\\ CMS\">Powered\\ by\\ Sitefinity\\ ASP\\.NET\\ CMS</a></p>"
+      "pattern": "href=\"http://www\\.sitefinity\\.com\"\\ class=\"poweredBySitefinity\"\\ title=\"Sitefinity\\ ASP\\.NET\\ CMS\">Powered\\ by\\ Sitefinity\\ ASP\\.NET\\ CMS</a></p>",
+      "version_group": 0
     },
     {
       "name": "Sitefinity Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "title=\"Sitefinity\\ ASP\\.NET\\ CMS\"\\ class=\"poweredBySitefinity\"\\ href=\"http://www\\.sitefinity\\.com\">Powered\\ by\\ Sitefinity\\ ASP\\.NET\\ CMS</a></p>"
+      "pattern": "title=\"Sitefinity\\ ASP\\.NET\\ CMS\"\\ class=\"poweredBySitefinity\"\\ href=\"http://www\\.sitefinity\\.com\">Powered\\ by\\ Sitefinity\\ ASP\\.NET\\ CMS</a></p>",
+      "version_group": 0
     },
     {
       "name": "Sitefinity Pattern",
@@ -62,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"/[Ss]ite[Ff]inity/WebsiteTemplates/",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link href=\"/[Ss]ite[Ff]inity/WebsiteTemplates/"
+      "pattern": "<link href=\"/[Ss]ite[Ff]inity/WebsiteTemplates/",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

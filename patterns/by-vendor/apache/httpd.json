@@ -32,7 +32,9 @@
           "severity": "low",
           "cvss_score": 0.0,
           "cwe_ids": [],
-          "affected_versions": ["2.4.0-2.4.99"],
+          "affected_versions": [
+            "2.4.0-2.4.99"
+          ],
           "remediation": "Keep Apache HTTPD updated to the latest stable version",
           "source": "WhatWeb",
           "license": "MIT",
@@ -71,7 +73,9 @@
           "severity": "low",
           "cvss_score": 0.0,
           "cwe_ids": [],
-          "affected_versions": ["2.2.0-2.2.99"],
+          "affected_versions": [
+            "2.2.0-2.2.99"
+          ],
           "remediation": "Keep Apache HTTPD updated to the latest stable version",
           "source": "WhatWeb",
           "license": "MIT",

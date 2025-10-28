@@ -1,0 +1,31 @@
+{
+  "vendor": "Po.st",
+  "vendor_id": "po.st",
+  "product": "Po.st",
+  "product_id": "po.st-post",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Po.st JavaScript Detection",
+      "pattern": "window\\.pwidget_config|pwidget_config\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Po.st from JavaScript variable 'pwidget_config'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "po.st"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^(Kerio_|WebSTAR|4D_WebStar)",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^(Kerio_|WebSTAR|4D_WebStar)"
+      "pattern": "^(Kerio_|WebSTAR|4D_WebStar)",
+      "version_group": 0
     },
     {
       "name": "Kerio-WebSTAR Pattern",
@@ -114,5 +121,6 @@
       "pattern": "Server: ^4D_WebStar_[A-Z]/([\\d\\.]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

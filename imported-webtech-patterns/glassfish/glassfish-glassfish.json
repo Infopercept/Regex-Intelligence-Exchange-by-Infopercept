@@ -1,0 +1,31 @@
+{
+  "vendor": "GlassFish",
+  "vendor_id": "glassfish",
+  "product": "GlassFish",
+  "product_id": "glassfish-glassfish",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "GlassFish Header Detection",
+      "pattern": "Server: GlassFish(?: Server)?(?: Open Source Edition)?(?: ?/?([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GlassFish from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "glassfish"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

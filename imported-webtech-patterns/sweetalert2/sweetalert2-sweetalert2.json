@@ -1,0 +1,71 @@
+{
+  "vendor": "SweetAlert2",
+  "vendor_id": "sweetalert2",
+  "product": "SweetAlert2",
+  "product_id": "sweetalert2-sweetalert2",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SweetAlert2 HTML Detection",
+      "pattern": "<link[^>]+?href=\"[^\"]+sweetalert2(?:\\.min)?\\.css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SweetAlert2 from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "sweetalert2"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "SweetAlert2 Script Detection",
+      "pattern": "sweetalert2(?:\\.all)?(?:\\.min)?\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SweetAlert2 from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "sweetalert2"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "SweetAlert2 JavaScript Detection",
+      "pattern": "window\\.Sweetalert2|Sweetalert2\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SweetAlert2 from JavaScript variable 'Sweetalert2'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "sweetalert2"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

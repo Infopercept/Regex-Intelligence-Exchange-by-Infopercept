@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": ".*Phusion_Passenger",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": ".*Phusion_Passenger"
+      "pattern": ".*Phusion_Passenger",
+      "version_group": 0
     },
     {
       "name": "Passenger Pattern",
@@ -68,5 +75,6 @@
       "pattern": "x-powered-by: Phusion Passenger \\(mod_rails/mod_rack\\) ([\\d\\.]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\ \\-\\ Powered\\ by\\ CCMS</title>"
+      "pattern": "\\ \\-\\ Powered\\ by\\ CCMS</title>",
+      "version_group": 0
     },
     {
       "name": "Custom-CMS Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"CustomCMS\\ Gaming\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"CustomCMS\\ Gaming\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

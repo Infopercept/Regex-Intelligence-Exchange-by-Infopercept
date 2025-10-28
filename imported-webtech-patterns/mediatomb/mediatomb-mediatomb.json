@@ -1,0 +1,31 @@
+{
+  "vendor": "MediaTomb",
+  "vendor_id": "mediatomb",
+  "product": "MediaTomb",
+  "product_id": "mediatomb-mediatomb",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MediaTomb Header Detection",
+      "pattern": "Server: MediaTomb(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MediaTomb from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "mediatomb"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

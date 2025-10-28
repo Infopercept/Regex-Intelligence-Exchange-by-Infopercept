@@ -1,0 +1,31 @@
+{
+  "vendor": "AOLserver",
+  "vendor_id": "aolserver",
+  "product": "AOLserver",
+  "product_id": "aolserver-aolserver",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AOLserver Header Detection",
+      "pattern": "Server: AOLserver/?([\\d.]+)?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AOLserver from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "aolserver"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

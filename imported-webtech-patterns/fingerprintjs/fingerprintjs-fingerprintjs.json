@@ -1,0 +1,91 @@
+{
+  "vendor": "Fingerprintjs",
+  "vendor_id": "fingerprintjs",
+  "product": "Fingerprintjs",
+  "product_id": "fingerprintjs-fingerprintjs",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Fingerprintjs Script Detection",
+      "pattern": "fingerprint(\\d)?(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Fingerprintjs from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "fingerprintjs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Fingerprintjs JavaScript Detection",
+      "pattern": "window\\.Fingerprint|Fingerprint\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Fingerprintjs from JavaScript variable 'Fingerprint'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "fingerprintjs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Fingerprintjs JavaScript Detection",
+      "pattern": "window\\.Fingerprint2|Fingerprint2\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Fingerprintjs from JavaScript variable 'Fingerprint2'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "fingerprintjs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Fingerprintjs JavaScript Detection",
+      "pattern": "window\\.Fingerprint2\\.VERSION|Fingerprint2\\.VERSION\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Fingerprintjs from JavaScript variable 'Fingerprint2.VERSION'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "fingerprintjs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

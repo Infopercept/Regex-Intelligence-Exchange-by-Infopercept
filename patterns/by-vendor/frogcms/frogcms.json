@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "(Powered by|Running|Propulsé par)[^<]*<a href=\"http://www.madebyfrog.com/\"[^>]*>Frog CMS",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "(Powered by|Running|Propuls\u00e9 par)[^<]*<a href=\"http://www.madebyfrog.com/\"[^>]*>Frog CMS"
+      "pattern": "(Powered by|Running|Propulsé par)[^<]*<a href=\"http://www.madebyfrog.com/\"[^>]*>Frog CMS",
+      "version_group": 0
     },
     {
       "name": "default rss feed",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"alternate\"\\ type=\"application/rss\\+xml\"\\ title=\"Frog\\ Default\\ RSS\\ Feed\""
+      "pattern": "<link\\ rel=\"alternate\"\\ type=\"application/rss\\+xml\"\\ title=\"Frog\\ Default\\ RSS\\ Feed\"",
+      "version_group": 0
     },
     {
       "name": "FrogCMS Pattern",
@@ -56,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<[^>]+\"/frog/plugins/",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<[^>]+\"/frog/plugins/"
+      "pattern": "<[^>]+\"/frog/plugins/",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

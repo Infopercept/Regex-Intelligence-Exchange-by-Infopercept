@@ -29,5 +29,6 @@
       "pattern": "Server: ^Alpha Five( Application Server)?/([\\d\\.]+ Build/[\\d\\-]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

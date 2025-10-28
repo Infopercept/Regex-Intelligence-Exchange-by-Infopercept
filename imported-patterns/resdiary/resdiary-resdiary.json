@@ -1,0 +1,31 @@
+{
+  "vendor": "ResDiary",
+  "vendor_id": "resdiary",
+  "product": "ResDiary",
+  "product_id": "resdiary-resdiary",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ResDiary Script Detection",
+      "pattern": "\\.resdiary\\.\\w+/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ResDiary from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "resdiary"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

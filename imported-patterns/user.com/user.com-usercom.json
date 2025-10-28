@@ -1,0 +1,31 @@
+{
+  "vendor": "user.com",
+  "vendor_id": "user.com",
+  "product": "user.com",
+  "product_id": "user.com-usercom",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "user.com HTML Detection",
+      "pattern": "<div[^>]+/id=\"ue_widget\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects user.com from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "user.com"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

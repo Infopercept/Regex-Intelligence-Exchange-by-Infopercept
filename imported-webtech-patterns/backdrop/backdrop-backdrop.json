@@ -1,0 +1,51 @@
+{
+  "vendor": "Backdrop",
+  "vendor_id": "backdrop",
+  "product": "Backdrop",
+  "product_id": "backdrop-backdrop",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Backdrop Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']Backdrop CMS(?: (\\d))?[\"']",
+      "version_group": 1,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Backdrop from meta tag with name 'generator'",
+        "tags": [
+          "webtech",
+          "meta",
+          "backdrop"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Backdrop JavaScript Detection",
+      "pattern": "window\\.Backdrop|Backdrop\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Backdrop from JavaScript variable 'Backdrop'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "backdrop"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

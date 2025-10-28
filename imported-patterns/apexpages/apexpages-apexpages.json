@@ -1,0 +1,31 @@
+{
+  "vendor": "ApexPages",
+  "vendor_id": "apexpages",
+  "product": "ApexPages",
+  "product_id": "apexpages-apexpages",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ApexPages Header Detection",
+      "pattern": "X-Powered-By: Salesforce\\.com ApexPages",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ApexPages from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "apexpages"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

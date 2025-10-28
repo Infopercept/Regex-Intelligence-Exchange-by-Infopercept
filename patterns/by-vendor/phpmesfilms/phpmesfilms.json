@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t<title>PhpMesFilms\\ \\-\\ Administration</title>"
+      "pattern": "\\\t\\\t<title>PhpMesFilms\\ \\-\\ Administration</title>",
+      "version_group": 0
     },
     {
       "name": "PhpMesFilms Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t<title>PhpMesFilms\\ \\-\\ Liste</title>"
+      "pattern": "\\\t\\\t<title>PhpMesFilms\\ \\-\\ Liste</title>",
+      "version_group": 0
     },
     {
       "name": "PhpMesFilms Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t<title>PhpMesFilms\\ \\-\\ Fiche\\ film</title>"
+      "pattern": "\\\t\\\t<title>PhpMesFilms\\ \\-\\ Fiche\\ film</title>",
+      "version_group": 0
     },
     {
       "name": "PhpMesFilms Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t\\\t\\\tpowered\\ by\\ <a\\ href=\"http://phpmesfilms\\.dyndns\\.org/\">PhpMesFilms</a>"
+      "pattern": "\\\t\\\t\\\t\\\tpowered\\ by\\ <a\\ href=\"http://phpmesfilms\\.dyndns\\.org/\">PhpMesFilms</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

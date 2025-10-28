@@ -1,0 +1,31 @@
+{
+  "vendor": "Commerce",
+  "vendor_id": "commerce",
+  "product": "Commerce Server",
+  "product_id": "commerce-commerce-server",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Commerce Server Header Detection",
+      "pattern": "COMMERCE-SERVER-SOFTWARE: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Commerce Server from COMMERCE-SERVER-SOFTWARE header",
+        "tags": [
+          "webtech",
+          "header",
+          "commerce-server"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

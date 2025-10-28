@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "title=\"Customer\\ Feedback\\ Software,\\ Community\\ Support\\ System\"\\ target=\"_blank\"\\ href=\"http://www\\.useresponse\\.com\"\\ class=\"popup\\-logo\">"
+      "pattern": "title=\"Customer\\ Feedback\\ Software,\\ Community\\ Support\\ System\"\\ target=\"_blank\"\\ href=\"http://www\\.useresponse\\.com\"\\ class=\"popup\\-logo\">",
+      "version_group": 0
     },
     {
       "name": "UseResponse Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- DO NOT MODIFY (ABOVE|BELOW) THIS LINE UNLESS PURCHASED BRANDING REMOVAL -->",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!-- DO NOT MODIFY (ABOVE|BELOW) THIS LINE UNLESS PURCHASED BRANDING REMOVAL -->"
+      "pattern": "<!-- DO NOT MODIFY (ABOVE|BELOW) THIS LINE UNLESS PURCHASED BRANDING REMOVAL -->",
+      "version_group": 0
     },
     {
       "name": "UseResponse Pattern",
@@ -64,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<form\\ id=\"system\\-form\\-registration\"\\ enctype=\"application/x\\-www\\-form\\-urlencoded\"\\ class=\"system\\-form\\-registration\"\\ accept\\-charset=\"utf\\-8\""
+      "pattern": "<form\\ id=\"system\\-form\\-registration\"\\ enctype=\"application/x\\-www\\-form\\-urlencoded\"\\ class=\"system\\-form\\-registration\"\\ accept\\-charset=\"utf\\-8\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

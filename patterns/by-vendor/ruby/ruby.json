@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Ruby",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Ruby"
+      "pattern": "Ruby",
+      "version_group": 0
     },
     {
       "name": "Ruby Pattern",
@@ -57,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^WEBrick",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^WEBrick"
+      "pattern": "^WEBrick",
+      "version_group": 0
     },
     {
       "name": "File extension",
@@ -73,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^(rb|rhtml)$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^(rb|rhtml)$"
+      "pattern": "^(rb|rhtml)$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"unknowns\\.php\"\\ title=\"List\\ unknown\\ end\\ devices\\ and\\ print/edit/delete\\ them\">Find\\ unknowns</a><br/>"
+      "pattern": "<a\\ href=\"unknowns\\.php\"\\ title=\"List\\ unknown\\ end\\ devices\\ and\\ print/edit/delete\\ them\">Find\\ unknowns</a><br/>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

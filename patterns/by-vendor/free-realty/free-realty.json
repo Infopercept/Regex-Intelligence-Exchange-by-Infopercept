@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<font\\ class=\"foot\">This\\ tool\\ is\\ Open\\ Source\\ and\\ released\\ under\\ the\\ <a\\ href=\"http://www\\.gnu\\.org/copyleft/gpl\\.html\">GPL</a></font>"
+      "pattern": "<font\\ class=\"foot\">This\\ tool\\ is\\ Open\\ Source\\ and\\ released\\ under\\ the\\ <a\\ href=\"http://www\\.gnu\\.org/copyleft/gpl\\.html\">GPL</a></font>",
+      "version_group": 0
     },
     {
       "name": "Free-Realty Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ THUS\\ ENDETH\\ THE\\ MAIN\\ CONTENT\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ THUS\\ ENDETH\\ THE\\ MAIN\\ CONTENT\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Free-Realty Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ HERE\\ BEGINNETH\\ THE\\ FOOTER\\ \\-\\-><div\\ class=\"foot\">"
+      "pattern": "<!\\-\\-\\ HERE\\ BEGINNETH\\ THE\\ FOOTER\\ \\-\\-><div\\ class=\"foot\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

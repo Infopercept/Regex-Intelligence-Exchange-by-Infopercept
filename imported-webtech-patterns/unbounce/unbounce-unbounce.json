@@ -1,0 +1,51 @@
+{
+  "vendor": "Unbounce",
+  "vendor_id": "unbounce",
+  "product": "Unbounce",
+  "product_id": "unbounce-unbounce",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Unbounce Header Detection",
+      "pattern": "X-Unbounce-PageId: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Unbounce from X-Unbounce-PageId header",
+        "tags": [
+          "webtech",
+          "header",
+          "unbounce"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Unbounce Script Detection",
+      "pattern": "ubembed\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Unbounce from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "unbounce"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

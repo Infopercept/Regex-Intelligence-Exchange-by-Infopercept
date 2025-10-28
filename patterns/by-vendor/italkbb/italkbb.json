@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<P align=center><FONT size=5>welcome to phone settings</FONT></P><FORM action=/a ",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<P align=center><FONT size=5>welcome to phone settings</FONT></P><FORM action=/a "
+      "pattern": "<P align=center><FONT size=5>welcome to phone settings</FONT></P><FORM action=/a ",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

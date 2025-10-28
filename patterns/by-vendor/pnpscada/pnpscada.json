@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<TITLE>Welcome\\ to\\ Plug\\ and\\ Play\\ Scada</TITLE>"
+      "pattern": "<TITLE>Welcome\\ to\\ Plug\\ and\\ Play\\ Scada</TITLE>",
+      "version_group": 0
     },
     {
       "name": "PnPSCADA Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<TITLE>Login\\ \\-\\ PnPSCADA</TITLE>"
+      "pattern": "<TITLE>Login\\ \\-\\ PnPSCADA</TITLE>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

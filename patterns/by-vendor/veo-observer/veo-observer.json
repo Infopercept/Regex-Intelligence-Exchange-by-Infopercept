@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Veo\\ Observer\\ XT</title>"
+      "pattern": "<title>Veo\\ Observer\\ XT</title>",
+      "version_group": 0
     },
     {
       "name": "Veo-Observer Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ <frame\\ src=\"/en/sitemonitor\\.html\"\\ name=\"sitecheck\"\\ scrolling=\"NO\"\\ noresize>"
+      "pattern": "\\ \\ <frame\\ src=\"/en/sitemonitor\\.html\"\\ name=\"sitecheck\"\\ scrolling=\"NO\"\\ noresize>",
+      "version_group": 0
     },
     {
       "name": "Veo-Observer Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t<title>Veo\\ Observer\\ Web\\ Client</title>"
+      "pattern": "\\\t\\\t<title>Veo\\ Observer\\ Web\\ Client</title>",
+      "version_group": 0
     },
     {
       "name": "Veo-Observer Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t<object\\ classid=\"clsid:0957C19A\\-D854\\-482A\\-A4F9\\-18856C723D7D\"\\ id=\"VeoNetCamAcx\"\\ width=\"0\"\\ height=\"0\"\\ codebase=\"XNC600NetCam\\.cab\\#version"
+      "pattern": "\\\t\\\t<object\\ classid=\"clsid:0957C19A\\-D854\\-482A\\-A4F9\\-18856C723D7D\"\\ id=\"VeoNetCamAcx\"\\ width=\"0\"\\ height=\"0\"\\ codebase=\"XNC600NetCam\\.cab\\#version",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

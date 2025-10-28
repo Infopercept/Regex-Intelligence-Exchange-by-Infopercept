@@ -1,0 +1,91 @@
+{
+  "vendor": "Statcounter",
+  "vendor_id": "statcounter",
+  "product": "Statcounter",
+  "product_id": "statcounter-statcounter",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Statcounter Script Detection",
+      "pattern": "statcounter\\.com/counter/counter",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Statcounter from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "statcounter"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Statcounter JavaScript Detection",
+      "pattern": "window\\._statcounter|_statcounter\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Statcounter from JavaScript variable '_statcounter'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "statcounter"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Statcounter JavaScript Detection",
+      "pattern": "window\\.sc_project|sc_project\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Statcounter from JavaScript variable 'sc_project'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "statcounter"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Statcounter JavaScript Detection",
+      "pattern": "window\\.sc_security|sc_security\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Statcounter from JavaScript variable 'sc_security'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "statcounter"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

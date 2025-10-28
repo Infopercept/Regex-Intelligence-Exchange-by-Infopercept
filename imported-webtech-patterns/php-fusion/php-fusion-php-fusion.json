@@ -1,0 +1,51 @@
+{
+  "vendor": "PHP-Fusion",
+  "vendor_id": "php-fusion",
+  "product": "PHP-Fusion",
+  "product_id": "php-fusion-php-fusion",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PHP-Fusion Header Detection",
+      "pattern": "X-Powered-By: PHP-Fusion (.+)$",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PHP-Fusion from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "php-fusion"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "PHP-Fusion HTML Detection",
+      "pattern": "Powered by <a href=\"[^>]+php-fusion",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PHP-Fusion from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "php-fusion"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

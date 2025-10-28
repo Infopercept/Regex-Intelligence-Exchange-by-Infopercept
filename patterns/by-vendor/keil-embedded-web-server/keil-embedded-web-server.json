@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<head><title>Keil\\ Embedded\\ WEB\\ Server</title></head><body><h2>HTTP\\ 1\\.0\\ 401\\ Error\\.\\ Unauthorized\\ Access</h2>You\\ are\\ not\\ authorized\\ to\\ access\\ this\\ server\\.<hr>"
+      "pattern": "<head><title>Keil\\ Embedded\\ WEB\\ Server</title></head><body><h2>HTTP\\ 1\\.0\\ 401\\ Error\\.\\ Unauthorized\\ Access</h2>You\\ are\\ not\\ authorized\\ to\\ access\\ this\\ server\\.<hr>",
+      "version_group": 0
     },
     {
       "name": "Keil-Embedded-WEB-Server Pattern",
@@ -63,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Keil-EWEB",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Keil-EWEB"
+      "pattern": "^Keil-EWEB",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

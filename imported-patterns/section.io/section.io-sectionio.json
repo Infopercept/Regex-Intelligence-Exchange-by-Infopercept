@@ -1,0 +1,71 @@
+{
+  "vendor": "Section.io",
+  "vendor_id": "section.io",
+  "product": "Section.io",
+  "product_id": "section.io-sectionio",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Section.io Header Detection",
+      "pattern": "section-io-id: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Section.io from section-io-id header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "section.io"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Section.io Header Detection",
+      "pattern": "section-io-origin-status: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Section.io from section-io-origin-status header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "section.io"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Section.io Header Detection",
+      "pattern": "section-io-origin-time-seconds: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Section.io from section-io-origin-time-seconds header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "section.io"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

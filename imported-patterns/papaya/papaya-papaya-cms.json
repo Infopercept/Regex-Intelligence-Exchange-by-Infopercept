@@ -1,0 +1,31 @@
+{
+  "vendor": "papaya",
+  "vendor_id": "papaya",
+  "product": "papaya CMS",
+  "product_id": "papaya-papaya-cms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "papaya CMS HTML Detection",
+      "pattern": "<link[^>]*/papaya-themes/",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects papaya CMS from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "papaya-cms"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Start\\ Acidcat\\ CMS\\ footer\\ information\\.\\ Note:\\ this\\ code\\ is\\ not\\ to\\ be\\ edited\\ or\\ removed\\ in\\ the\\ free\\ version\\.\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Start\\ Acidcat\\ CMS\\ footer\\ information\\.\\ Note:\\ this\\ code\\ is\\ not\\ to\\ be\\ edited\\ or\\ removed\\ in\\ the\\ free\\ version\\.\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Acidcat-CMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<tr><td\\ colspan=\"2\"\\ valign=\"top\"\\ class=\"ac_menuleftbg\"\\ ><table\\ width=\"100%\"\\ cellspacing=\"0\"\\ border=\"0\"><tr>"
+      "pattern": "<tr><td\\ colspan=\"2\"\\ valign=\"top\"\\ class=\"ac_menuleftbg\"\\ ><table\\ width=\"100%\"\\ cellspacing=\"0\"\\ border=\"0\"><tr>",
+      "version_group": 0
     },
     {
       "name": "Acidcat-CMS Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<tr><td\\ colspan=\"2\"\\ valign=\"top\"\\ class=\"ac_menuleftbg\"\\ ><table\\ cellspacing=\"0\"\\ border=\"0\"><tr>"
+      "pattern": "<tr><td\\ colspan=\"2\"\\ valign=\"top\"\\ class=\"ac_menuleftbg\"\\ ><table\\ cellspacing=\"0\"\\ border=\"0\"><tr>",
+      "version_group": 0
     },
     {
       "name": "Acidcat-CMS Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<td\\ class=\"ac_footer_menu\">\\&nbsp;<br\\ /><br\\ /></td></tr></table></td>"
+      "pattern": "<td\\ class=\"ac_footer_menu\">\\&nbsp;<br\\ /><br\\ /></td></tr></table></td>",
+      "version_group": 0
     },
     {
       "name": "Acidcat-CMS Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<td\\ class=\"ac_footer_menu\">\\&nbsp;<br\\ /></td></tr></table></td>"
+      "pattern": "<td\\ class=\"ac_footer_menu\">\\&nbsp;<br\\ /></td></tr></table></td>",
+      "version_group": 0
     },
     {
       "name": "Acidcat-CMS Pattern",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<table\\ cellspacing=\"0\"\\ class=\"ac_admin_main\">"
+      "pattern": "<table\\ cellspacing=\"0\"\\ class=\"ac_admin_main\">",
+      "version_group": 0
     },
     {
       "name": "Acidcat-CMS Pattern",
@@ -158,7 +164,8 @@
           }
         ]
       },
-      "pattern": "<link\\ href=\"admin/css/admin_import\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ />"
+      "pattern": "<link\\ href=\"admin/css/admin_import\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Acidcat-CMS Pattern",
@@ -180,7 +187,9 @@
           }
         ]
       },
-      "pattern": "<br><center><table\\ border=1\\ class=errorTable><tr><td\\ class='login_view'><img\\ src=images/acidcat_logo\\.gif><td\\ colspan=1\\ class='login_view'><b>Acidcat\\ CMS\\ Error"
+      "pattern": "<br><center><table\\ border=1\\ class=errorTable><tr><td\\ class='login_view'><img\\ src=images/acidcat_logo\\.gif><td\\ colspan=1\\ class='login_view'><b>Acidcat\\ CMS\\ Error",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

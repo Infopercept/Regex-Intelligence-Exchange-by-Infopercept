@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"author\" content=\"[^\"]+--Powered by MetInfo\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\"author\" content=\"[^\"]+--Powered by MetInfo\">"
+      "pattern": "<meta name=\"author\" content=\"[^\"]+--Powered by MetInfo\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

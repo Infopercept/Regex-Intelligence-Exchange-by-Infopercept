@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img[^>]*src=\"wow_ss.php?realm=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<img[^>]*src=\"wow_ss.php\\?realm="
+      "pattern": "<img[^>]*src=\"wow_ss.php\\?realm=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

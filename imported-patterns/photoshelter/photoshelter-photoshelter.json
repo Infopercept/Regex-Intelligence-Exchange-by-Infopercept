@@ -1,0 +1,51 @@
+{
+  "vendor": "PhotoShelter",
+  "vendor_id": "photoshelter",
+  "product": "PhotoShelter",
+  "product_id": "photoshelter-photoshelter",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PhotoShelter HTML Detection",
+      "pattern": "<!--\\s+#+ Powered by the PhotoShelter Beam platform",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PhotoShelter from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "photoshelter"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "PhotoShelter HTML Detection",
+      "pattern": "<link[^>]+c\\.photoshelter\\.com",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PhotoShelter from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "photoshelter"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

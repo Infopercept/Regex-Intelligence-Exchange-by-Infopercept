@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<title>AChecker\\ :\\ ATRC\\ Accessibility\\ Checker:\\ </title>"
+      "pattern": "<title>AChecker\\ :\\ ATRC\\ Accessibility\\ Checker:\\ </title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

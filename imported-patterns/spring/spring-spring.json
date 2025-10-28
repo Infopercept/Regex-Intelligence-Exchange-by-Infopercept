@@ -1,0 +1,31 @@
+{
+  "vendor": "Spring",
+  "vendor_id": "spring",
+  "product": "Spring",
+  "product_id": "spring-spring",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Spring Header Detection",
+      "pattern": "X-Application-Context: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Spring from X-Application-Context header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "spring"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

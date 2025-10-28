@@ -1,0 +1,51 @@
+{
+  "vendor": "Adverticum",
+  "vendor_id": "adverticum",
+  "product": "Adverticum",
+  "product_id": "adverticum-adverticum",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Adverticum HTML Detection",
+      "pattern": "<div (?:id=\"[a-zA-Z0-9_]*\" )?class=\"goAdverticum\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Adverticum from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "adverticum"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Adverticum Script Detection",
+      "pattern": "(?:ad\\.)?adverticum\\.net/g3\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Adverticum from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "adverticum"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

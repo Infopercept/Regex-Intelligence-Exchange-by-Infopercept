@@ -1,0 +1,91 @@
+{
+  "vendor": "1C-Bitrix",
+  "vendor_id": "1c-bitrix",
+  "product": "1C-Bitrix",
+  "product_id": "1c-bitrix-1c-bitrix",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "1C-Bitrix Header Detection",
+      "pattern": "Set-Cookie: BITRIX_",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects 1C-Bitrix from Set-Cookie header",
+        "tags": [
+          "webtech",
+          "header",
+          "1c-bitrix"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "1C-Bitrix Header Detection",
+      "pattern": "X-Powered-CMS: Bitrix Site Manager",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects 1C-Bitrix from X-Powered-CMS header",
+        "tags": [
+          "webtech",
+          "header",
+          "1c-bitrix"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "1C-Bitrix HTML Detection",
+      "pattern": "(?:<link[^>]+components/bitrix|(?:src|href)=\"/bitrix/(?:js|templates))",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects 1C-Bitrix from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "1c-bitrix"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "1C-Bitrix Script Detection",
+      "pattern": "1c-bitrix",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects 1C-Bitrix from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "1c-bitrix"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

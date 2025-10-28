@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id='masthead'><h1\\ id='apptitle'><span>SiT!\\ Support\\ Incident\\ Tracker</span></h1></div>"
+      "pattern": "<div\\ id='masthead'><h1\\ id='apptitle'><span>SiT!\\ Support\\ Incident\\ Tracker</span></h1></div>",
+      "version_group": 0
     },
     {
       "name": "Support-Incident-Tracker Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<div\\ class='windowtitle'>SiT!\\ \\-\\ Login</div>"
+      "pattern": "<div\\ class='windowtitle'>SiT!\\ \\-\\ Login</div>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered [Bb]y:? <a href=\"http://www.pligg.com/?\"( target=\"_blank\")?>(Powered By )?Pligg( CMS)?</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered [Bb]y:? <a href=\"http://www.pligg.com/?\"( target=\"_blank\")?>(Powered By )?Pligg( CMS)?</a>"
+      "pattern": "Powered [Bb]y:? <a href=\"http://www.pligg.com/?\"( target=\"_blank\")?>(Powered By )?Pligg( CMS)?</a>",
+      "version_group": 0
     },
     {
       "name": "Pligg-CMS Pattern",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "jQuery\\.jTwitter\\('pligg',\\ function\\ \\(userdata\\)\\ \\{"
+      "pattern": "jQuery\\.jTwitter\\('pligg',\\ function\\ \\(userdata\\)\\ \\{",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

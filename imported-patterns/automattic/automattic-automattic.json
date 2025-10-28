@@ -1,0 +1,31 @@
+{
+  "vendor": "Automattic",
+  "vendor_id": "automattic",
+  "product": "Automattic",
+  "product_id": "automattic-automattic",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Automattic Header Detection",
+      "pattern": "X-Hacker: (?:automattic\\.com/jobs|wpvip\\.com/careers)",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Automattic from X-Hacker header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "automattic"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

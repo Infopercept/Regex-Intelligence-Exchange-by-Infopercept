@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<p\\ align=\"left\"><select\\ id=\"mylist\"\\ name=\"mylist\"\\ onchange\\ =\\ \"go\\(\\)\"\\ style=\"font\\-family:"
+      "pattern": "<p\\ align=\"left\"><select\\ id=\"mylist\"\\ name=\"mylist\"\\ onchange\\ =\\ \"go\\(\\)\"\\ style=\"font\\-family:",
+      "version_group": 0
     },
     {
       "name": "Pre-Printing-Press Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<input\\ id=\"ib_attrib_disk_quantity\\-2\"\\ type=\"radio\"\\ onClick=\"showsubcat\\(this\\.value\\)\"\\ value=\"olduser\"\\ name=\"allusers\"\\ />"
+      "pattern": "<input\\ id=\"ib_attrib_disk_quantity\\-2\"\\ type=\"radio\"\\ onClick=\"showsubcat\\(this\\.value\\)\"\\ value=\"olduser\"\\ name=\"allusers\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Pre-Printing-Press Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<div\\ align=\"center\">\\&copy;\\ Copyright\\ PreProjects\\.com\\ All\\ Rights\\ Reserved</div>"
+      "pattern": "<div\\ align=\"center\">\\&copy;\\ Copyright\\ PreProjects\\.com\\ All\\ Rights\\ Reserved</div>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

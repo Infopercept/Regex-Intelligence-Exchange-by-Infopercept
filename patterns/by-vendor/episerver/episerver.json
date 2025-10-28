@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\\\\"
+      "pattern": "<meta\\ name=\\\\",
+      "version_group": 0
     },
     {
       "name": "EPiServer comment",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ EPiServer\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ EPiServer\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "EPiServer Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "src=\"/Util/javascript/episerverscriptmanager\\.js\""
+      "pattern": "src=\"/Util/javascript/episerverscriptmanager\\.js\"",
+      "version_group": 0
     },
     {
       "name": "EPiServer Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<h1>Log\\ in\\ to\\ EPiServer\\ CMS\\ 6"
+      "pattern": "<h1>Log\\ in\\ to\\ EPiServer\\ CMS\\ 6",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

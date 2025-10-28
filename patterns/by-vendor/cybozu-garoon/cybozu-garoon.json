@@ -29,5 +29,6 @@
       "pattern": "Server: ^Cybozu-WS/([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

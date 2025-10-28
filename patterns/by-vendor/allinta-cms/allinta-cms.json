@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<link rel=\"stylesheet\" href=\"css/wizard/t[0-9_]+.css\" type=\"text/css\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "\t<link rel=\"stylesheet\" href=\"css/wizard/t[0-9_]+.css\" type=\"text/css\">"
+      "pattern": "\t<link rel=\"stylesheet\" href=\"css/wizard/t[0-9_]+.css\" type=\"text/css\">",
+      "version_group": 0
     },
     {
       "name": "Allinta-CMS Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t<link href=\"css/wizard/t[0-9_]+.css\" rel=\"stylesheet\" type=\"text/css\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "\t<link href=\"css/wizard/t[0-9_]+.css\" rel=\"stylesheet\" type=\"text/css\">"
+      "pattern": "\t<link href=\"css/wizard/t[0-9_]+.css\" rel=\"stylesheet\" type=\"text/css\">",
+      "version_group": 0
     },
     {
       "name": "Allinta-CMS Pattern",
@@ -58,7 +72,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t<td\\ align=\"right\"\\ class=\"footerText\">Powered\\ by\\ allinta\\ CMS</td>"
+      "pattern": "\\\t\\\t<td\\ align=\"right\"\\ class=\"footerText\">Powered\\ by\\ allinta\\ CMS</td>",
+      "version_group": 0
     },
     {
       "name": "Allinta-CMS Pattern",
@@ -72,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"img/wizard/t[0-9_]+/powered_allinta.gif\"[^>]*alt=\"Powered by Allinta CMS\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<img src=\"img/wizard/t[0-9_]+/powered_allinta.gif\"[^>]*alt=\"Powered by Allinta CMS\""
+      "pattern": "<img src=\"img/wizard/t[0-9_]+/powered_allinta.gif\"[^>]*alt=\"Powered by Allinta CMS\"",
+      "version_group": 0
     },
     {
       "name": "Allinta-CMS Pattern",
@@ -88,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img contenteditable=\"inherit\" start=\"fileopen\" height=\"[0-9]+\" src=\"img/powered_allinta.gif\" width=\"[0-9]+\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<img contenteditable=\"inherit\" start=\"fileopen\" height=\"[0-9]+\" src=\"img/powered_allinta.gif\" width=\"[0-9]+\" />"
+      "pattern": "<img contenteditable=\"inherit\" start=\"fileopen\" height=\"[0-9]+\" src=\"img/powered_allinta.gif\" width=\"[0-9]+\" />",
+      "version_group": 0
     },
     {
       "name": "Allinta-CMS Pattern",
@@ -112,7 +141,9 @@
           }
         ]
       },
-      "pattern": "<title>allinta\\.com\\-\\ aCMS\\ Content\\ Manager</title>"
+      "pattern": "<title>allinta\\.com\\-\\ aCMS\\ Content\\ Manager</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

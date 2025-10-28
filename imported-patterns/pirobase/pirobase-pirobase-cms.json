@@ -1,0 +1,51 @@
+{
+  "vendor": "pirobase",
+  "vendor_id": "pirobase",
+  "product": "pirobase CMS",
+  "product_id": "pirobase-pirobase-cms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "pirobase CMS HTML Detection",
+      "pattern": "<(?:script|link)[^>]/site/[a-z0-9/._-]+/resourceCached/[a-z0-9/._-]+",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects pirobase CMS from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "pirobase-cms"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "pirobase CMS HTML Detection",
+      "pattern": "<input[^>]+cbi:///cms/",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects pirobase CMS from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "pirobase-cms"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

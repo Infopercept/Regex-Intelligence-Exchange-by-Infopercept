@@ -1,0 +1,31 @@
+{
+  "vendor": "Sulu",
+  "vendor_id": "sulu",
+  "product": "Sulu",
+  "product_id": "sulu-sulu",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Sulu Header Detection",
+      "pattern": "X-Generator: Sulu/?(.+)?$",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Sulu from X-Generator header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "sulu"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

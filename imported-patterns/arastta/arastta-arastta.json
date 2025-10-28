@@ -1,0 +1,91 @@
+{
+  "vendor": "Arastta",
+  "vendor_id": "arastta",
+  "product": "Arastta",
+  "product_id": "arastta-arastta",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Arastta Header Detection",
+      "pattern": "Arastta: ^(.+)$",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Arastta from Arastta header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "arastta"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Arastta Header Detection",
+      "pattern": "X-Arastta: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Arastta from X-Arastta header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "arastta"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Arastta HTML Detection",
+      "pattern": "Powered by <a [^>]*href=\"https?://(?:www\\.)?arastta\\.org[^>]+>Arastta",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Arastta from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "arastta"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Arastta Script Detection",
+      "pattern": "arastta\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Arastta from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "arastta"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "vendor": "Scientific",
+  "vendor_id": "scientific",
+  "product": "Scientific Linux",
+  "product_id": "scientific-scientific-linux",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Scientific Linux Header Detection",
+      "pattern": "Server: Scientific Linux",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Scientific Linux from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "scientific-linux"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Scientific Linux Header Detection",
+      "pattern": "X-Powered-By: Scientific Linux",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Scientific Linux from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "scientific-linux"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

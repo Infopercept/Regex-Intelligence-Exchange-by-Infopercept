@@ -1,0 +1,31 @@
+{
+  "vendor": "Yoast",
+  "vendor_id": "yoast",
+  "product": "Yoast SEO",
+  "product_id": "yoast-yoast-seo",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Yoast SEO HTML Detection",
+      "pattern": "<!-- This site is optimized with the Yoast (?:WordPress )?SEO plugin v([\\d.]+) -",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Yoast SEO from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "yoast-seo"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

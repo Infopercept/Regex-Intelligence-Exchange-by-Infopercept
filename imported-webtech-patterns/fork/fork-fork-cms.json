@@ -1,0 +1,31 @@
+{
+  "vendor": "Fork",
+  "vendor_id": "fork",
+  "product": "Fork CMS",
+  "product_id": "fork-fork-cms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Fork CMS Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']^Fork CMS$[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Fork CMS from meta tag with name 'generator'",
+        "tags": [
+          "webtech",
+          "meta",
+          "fork-cms"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

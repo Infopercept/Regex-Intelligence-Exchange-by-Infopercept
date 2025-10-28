@@ -1,0 +1,31 @@
+{
+  "vendor": "UserGuiding",
+  "vendor_id": "userguiding",
+  "product": "UserGuiding",
+  "product_id": "userguiding-userguiding",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "UserGuiding Script Detection",
+      "pattern": "static\\.userguiding*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects UserGuiding from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "userguiding"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

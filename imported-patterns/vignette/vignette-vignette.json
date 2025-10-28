@@ -1,0 +1,31 @@
+{
+  "vendor": "Vignette",
+  "vendor_id": "vignette",
+  "product": "Vignette",
+  "product_id": "vignette-vignette",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Vignette HTML Detection",
+      "pattern": "<[^>]+=\"vgn-?ext",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Vignette from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "vignette"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

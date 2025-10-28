@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Zeus$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Zeus$"
+      "pattern": "^Zeus$",
+      "version_group": 0
     },
     {
       "name": "Zeus-Web-Server Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Zeus/(([\\d]+)(\\.|_)([\\d]+))$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

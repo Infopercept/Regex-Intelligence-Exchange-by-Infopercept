@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Jigsaw",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Jigsaw"
+      "pattern": "^Jigsaw",
+      "version_group": 0
     },
     {
       "name": "Jigsaw Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Jigsaw/([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

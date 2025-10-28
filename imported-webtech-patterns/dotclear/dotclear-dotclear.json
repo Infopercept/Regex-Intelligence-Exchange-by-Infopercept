@@ -1,0 +1,31 @@
+{
+  "vendor": "Dotclear",
+  "vendor_id": "dotclear",
+  "product": "Dotclear",
+  "product_id": "dotclear-dotclear",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Dotclear Header Detection",
+      "pattern": "X-Dotclear-Static-Cache: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Dotclear from X-Dotclear-Static-Cache header",
+        "tags": [
+          "webtech",
+          "header",
+          "dotclear"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

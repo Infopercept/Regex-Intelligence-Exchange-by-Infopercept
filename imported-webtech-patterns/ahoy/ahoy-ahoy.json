@@ -1,0 +1,31 @@
+{
+  "vendor": "Ahoy",
+  "vendor_id": "ahoy",
+  "product": "Ahoy",
+  "product_id": "ahoy-ahoy",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Ahoy JavaScript Detection",
+      "pattern": "window\\.ahoy|ahoy\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Ahoy from JavaScript variable 'ahoy'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "ahoy"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

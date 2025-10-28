@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "by\\ <a\\ class=\"softbiz\"\\ href=\"http://www\\.softbizscripts\\.com\"\\ target=\"_blank\">Softbiz\\ Scripts</a></font></font>"
+      "pattern": "by\\ <a\\ class=\"softbiz\"\\ href=\"http://www\\.softbizscripts\\.com\"\\ target=\"_blank\">Softbiz\\ Scripts</a></font></font>",
+      "version_group": 0
     },
     {
       "name": "Softbiz-Freelancers-Script Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "by\\ <a\\ class=\"softbiz\"\\ href=\"http://www\\.softbizscripts\\.com\"\\ target=\"_blank\">SoftbizScripts</a></font></font>"
+      "pattern": "by\\ <a\\ class=\"softbiz\"\\ href=\"http://www\\.softbizscripts\\.com\"\\ target=\"_blank\">SoftbizScripts</a></font></font>",
+      "version_group": 0
     },
     {
       "name": "Softbiz-Freelancers-Script Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <div\\ align=\"center\"><font\\ size=\"3\"><strong>Softbiz\\ SEO\\ Freelancers\\ Script</strong><br>"
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <div\\ align=\"center\"><font\\ size=\"3\"><strong>Softbiz\\ SEO\\ Freelancers\\ Script</strong><br>",
+      "version_group": 0
     },
     {
       "name": "Softbiz-Freelancers-Script Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<div\\ align=\"right\"><!\\-\\-\\ \\-\\-><font\\ style=\"font\\-family:\\ Arial,\\ Helvetica,\\ sans\\-serif;font\\-size:\\ 12px;font\\-style:\\ normal;color:\\ \\#009900;font\\-weight:\\ bold;\">Powered\\ By\\ <a\\ href=\"http://www\\.softbizscripts\\.com/freelancers\\-script\\-features\\.php\"\\ style=\"font\\-family:\\ Arial,\\ Helvetica,\\ sans\\-serif;font\\-size:\\ 12px;font\\-style:\\ normal;color:\\ \\#0099FF;font\\-weight:\\ normal;\"\\ title=\"Softbiz\\ Freelancers\\ Script\"\\ target=\"_blank\"\\ >Freelancers\\ script</a></font></div>"
+      "pattern": "<div\\ align=\"right\"><!\\-\\-\\ \\-\\-><font\\ style=\"font\\-family:\\ Arial,\\ Helvetica,\\ sans\\-serif;font\\-size:\\ 12px;font\\-style:\\ normal;color:\\ \\#009900;font\\-weight:\\ bold;\">Powered\\ By\\ <a\\ href=\"http://www\\.softbizscripts\\.com/freelancers\\-script\\-features\\.php\"\\ style=\"font\\-family:\\ Arial,\\ Helvetica,\\ sans\\-serif;font\\-size:\\ 12px;font\\-style:\\ normal;color:\\ \\#0099FF;font\\-weight:\\ normal;\"\\ title=\"Softbiz\\ Freelancers\\ Script\"\\ target=\"_blank\"\\ >Freelancers\\ script</a></font></div>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

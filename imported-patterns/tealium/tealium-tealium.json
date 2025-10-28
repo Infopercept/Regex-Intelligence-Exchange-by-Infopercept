@@ -1,0 +1,51 @@
+{
+  "vendor": "Tealium",
+  "vendor_id": "tealium",
+  "product": "Tealium",
+  "product_id": "tealium-tealium",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Tealium Script Detection",
+      "pattern": "^(?:https?:)?//tags\\.tiqcdn\\.com/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Tealium from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "tealium"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Tealium Script Detection",
+      "pattern": "/tealium/utag\\.js$",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Tealium from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "tealium"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

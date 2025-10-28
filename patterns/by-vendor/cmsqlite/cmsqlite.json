@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"cmsqliteFooter\"><span\\ id=\"anchorFooter\"><a\\ href=\"http://www\\.cmsqlite\\.net\"\\ target=\"_blank\">powered\\ by\\ CMSQLite</a></span></div></body></html>"
+      "pattern": "<div\\ id=\"cmsqliteFooter\"><span\\ id=\"anchorFooter\"><a\\ href=\"http://www\\.cmsqlite\\.net\"\\ target=\"_blank\">powered\\ by\\ CMSQLite</a></span></div></body></html>",
+      "version_group": 0
     },
     {
       "name": "CMSQLite Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"www\\.CMSQLite\\.net\\ by\\ www\\.Netzabdruck\\.de\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"www\\.CMSQLite\\.net\\ by\\ www\\.Netzabdruck\\.de\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td (width=\"160\"|rowspan=\"2\")><iframe allowtransparency=\"yes\" frameborder=\"0\" height=\"100%\" width=\"100%\" scrolling=\"auto\" title=\"(frmcontent|frmlist)\" name=\"(frmcontent|frmlist)\" src=\"albumlist.php?album=[^\"]*\"></iframe></td>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<td (width=\"160\"|rowspan=\"2\")><iframe allowtransparency=\"yes\" frameborder=\"0\" height=\"100%\" width=\"100%\" scrolling=\"auto\" title=\"(frmcontent|frmlist)\" name=\"(frmcontent|frmlist)\" src=\"albumlist.php\\?album=[^\"]*\"></iframe></td>"
+      "pattern": "<td (width=\"160\"|rowspan=\"2\")><iframe allowtransparency=\"yes\" frameborder=\"0\" height=\"100%\" width=\"100%\" scrolling=\"auto\" title=\"(frmcontent|frmlist)\" name=\"(frmcontent|frmlist)\" src=\"albumlist.php\\?album=[^\"]*\"></iframe></td>",
+      "version_group": 0
     },
     {
       "name": "Imageview Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"author\"\\ content=\"Jorge\\ Schrauwen\"\\ />"
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Jorge\\ Schrauwen\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Imageview Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<frame\\ src=\"preload\\.php\"\\ name=\"frImageview\"\\ id=\"frImageview\"\\ />"
+      "pattern": "<frame\\ src=\"preload\\.php\"\\ name=\"frImageview\"\\ id=\"frImageview\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Imageview Pattern",
@@ -86,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<frame\\ src=\"about:blank\"\\ name=\"iHistoryRecorder\"\\ id=\"iHistoryRecorder\"\\ />"
+      "pattern": "<frame\\ src=\"about:blank\"\\ name=\"iHistoryRecorder\"\\ id=\"iHistoryRecorder\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Imageview Pattern",
@@ -108,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"Developer\"\\ href=\"http://www\\.blackdot\\.be\"\\ title=\"Blackdot\\.be\"\\ />"
+      "pattern": "<link\\ rel=\"Developer\"\\ href=\"http://www\\.blackdot\\.be\"\\ title=\"Blackdot\\.be\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

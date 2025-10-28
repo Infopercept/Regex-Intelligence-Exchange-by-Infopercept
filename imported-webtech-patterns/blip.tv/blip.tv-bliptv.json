@@ -1,0 +1,31 @@
+{
+  "vendor": "Blip.tv",
+  "vendor_id": "blip.tv",
+  "product": "Blip.tv",
+  "product_id": "blip.tv-bliptv",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Blip.tv HTML Detection",
+      "pattern": "<(?:param|embed|iframe)[^>]+blip\\.tv/play",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Blip.tv from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "blip.tv"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

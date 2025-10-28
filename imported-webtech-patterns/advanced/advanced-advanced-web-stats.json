@@ -1,0 +1,31 @@
+{
+  "vendor": "Advanced",
+  "vendor_id": "advanced",
+  "product": "Advanced Web Stats",
+  "product_id": "advanced-advanced-web-stats",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Advanced Web Stats HTML Detection",
+      "pattern": "aws\\.src = [^<]+caphyon-analytics",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Advanced Web Stats from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "advanced-web-stats"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "vendor": "decimal.js",
+  "vendor_id": "decimal.js",
+  "product": "decimal.js",
+  "product_id": "decimal.js-decimaljs",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "decimal.js Script Detection",
+      "pattern": "decimal[.-]([\\d.]*\\d+)(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects decimal.js from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "decimal.js"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "decimal.js Script Detection",
+      "pattern": "/([\\d.]*\\d+)/decimal(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects decimal.js from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "decimal.js"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "decimal.js Script Detection",
+      "pattern": "decimal(?:\\.min)?\\.js(?:\\?ver(?:sion)?=([\\d.]*\\d+))?",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects decimal.js from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "decimal.js"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

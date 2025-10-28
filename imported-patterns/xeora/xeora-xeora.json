@@ -1,0 +1,91 @@
+{
+  "vendor": "Xeora",
+  "vendor_id": "xeora",
+  "product": "Xeora",
+  "product_id": "xeora-xeora",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Xeora Header Detection",
+      "pattern": "Server: XeoraEngine",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Xeora from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "xeora"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Xeora Header Detection",
+      "pattern": "X-Powered-By: XeoraCube",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Xeora from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "xeora"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Xeora HTML Detection",
+      "pattern": "<input type=\"hidden\" name=\"_sys_bind_\\d+\" id=\"_sys_bind_\\d+\" />",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Xeora from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "xeora"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Xeora Script Detection",
+      "pattern": "/_bi_sps_v.+\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Xeora from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "xeora"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Simple\\ Forum\\ PHP\\ script\\ \\-\\ Administration</title>"
+      "pattern": "<title>Simple\\ Forum\\ PHP\\ script\\ \\-\\ Administration</title>",
+      "version_group": 0
     },
     {
       "name": "Simple-Forum-PHP Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<td\\ class=\"userpassfield\"><input\\ type=\"submit\"\\ name=\"button\"\\ value=\"Login\"\\ class=\"loginButon\"\\ /></td>"
+      "pattern": "<td\\ class=\"userpassfield\"><input\\ type=\"submit\"\\ name=\"button\"\\ value=\"Login\"\\ class=\"loginButon\"\\ /></td>",
+      "version_group": 0
     },
     {
       "name": "Simple-Forum-PHP Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "\\.php\\?act=new\\\\"
+      "pattern": "\\.php\\?act=new\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "SnapEngage",
+  "vendor_id": "snapengage",
+  "product": "SnapEngage",
+  "product_id": "snapengage-snapengage",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SnapEngage HTML Detection",
+      "pattern": "<!-- begin SnapEngage",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SnapEngage from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "snapengage"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

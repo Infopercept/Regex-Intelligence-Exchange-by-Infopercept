@@ -1,0 +1,51 @@
+{
+  "vendor": "HCL",
+  "vendor_id": "hcl",
+  "product": "HCL Digital Experience",
+  "product_id": "hcl-hcl-digital-experience",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "HCL Digital Experience Header Detection",
+      "pattern": "IBM-Web2-Location: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects HCL Digital Experience from IBM-Web2-Location header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "hcl-digital-experience"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "HCL Digital Experience Header Detection",
+      "pattern": "Itx-Generated-Timestamp: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects HCL Digital Experience from Itx-Generated-Timestamp header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "hcl-digital-experience"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

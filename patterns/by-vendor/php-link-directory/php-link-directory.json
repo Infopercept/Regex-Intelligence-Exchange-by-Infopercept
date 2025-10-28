@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.phplinkdirectory.com[^>]*Phplinkdirectory",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"http://www.phplinkdirectory.com[^>]*Phplinkdirectory"
+      "pattern": "<a href=\"http://www.phplinkdirectory.com[^>]*Phplinkdirectory",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

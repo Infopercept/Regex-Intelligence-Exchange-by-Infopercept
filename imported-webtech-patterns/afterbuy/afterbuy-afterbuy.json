@@ -1,0 +1,51 @@
+{
+  "vendor": "AfterBuy",
+  "vendor_id": "afterbuy",
+  "product": "AfterBuy",
+  "product_id": "afterbuy-afterbuy",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AfterBuy HTML Detection",
+      "pattern": "<dd>This OnlineStore is brought to you by ViA-Online GmbH Afterbuy\\. Information and contribution at https://www\\.afterbuy\\.de</dd>",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AfterBuy from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "afterbuy"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AfterBuy Script Detection",
+      "pattern": "shop-static\\.afterbuy\\.de",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AfterBuy from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "afterbuy"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

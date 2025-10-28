@@ -1,0 +1,31 @@
+{
+  "vendor": "jQuery",
+  "vendor_id": "jquery",
+  "product": "jQuery Mobile",
+  "product_id": "jquery-jquery-mobile",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "jQuery Mobile Script Detection",
+      "pattern": "jquery[.-]mobile(?:-([\\d.]))?(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))??\\1:\\2",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects jQuery Mobile from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "jquery-mobile"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

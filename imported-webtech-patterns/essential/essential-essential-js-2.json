@@ -1,0 +1,51 @@
+{
+  "vendor": "Essential",
+  "vendor_id": "essential",
+  "product": "Essential JS 2",
+  "product_id": "essential-essential-js-2",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Essential JS 2 HTML Detection",
+      "pattern": "<[^<]* class=\"[^<]*\be-control\b[^-][^<]*\be-lib\b[^>]*\"[^>]*>",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Essential JS 2 from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "essential-js-2"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Essential JS 2 JavaScript Detection",
+      "pattern": "window\\.ej\\.base|ej\\.base\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Essential JS 2 from JavaScript variable 'ej.base'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "essential-js-2"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

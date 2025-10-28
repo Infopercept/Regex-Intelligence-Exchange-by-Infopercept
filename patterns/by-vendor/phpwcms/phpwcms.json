@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\\tphpwcms\\ is\\ copyright\\ 2003\\-2010\\ of\\ Oliver\\ Georgi\\.\\ Extensions\\ are\\ copyright\\ of"
+      "pattern": "\\\tphpwcms\\ is\\ copyright\\ 2003\\-2010\\ of\\ Oliver\\ Georgi\\.\\ Extensions\\ are\\ copyright\\ of",
+      "version_group": 0
     },
     {
       "name": "phpwcms Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "\\\tcreated\\ by\\ Oliver\\ Georgi\\ \\(oliver\\ at\\ phpwcms\\ dot\\ de\\)\\ and\\ licensed\\ under\\ GNU/GPL\\."
+      "pattern": "\\\tcreated\\ by\\ Oliver\\ Georgi\\ \\(oliver\\ at\\ phpwcms\\ dot\\ de\\)\\ and\\ licensed\\ under\\ GNU/GPL\\.",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

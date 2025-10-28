@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "var\\ _TrackerMain_GTVTSeries\\ =\\ \"GT\\ Series\\\\\\\\\\\\\\\\VT\\ Series\";"
+      "pattern": "var\\ _TrackerMain_GTVTSeries\\ =\\ \"GT\\ Series\\\\\\\\\\\\\\\\VT\\ Series\";",
+      "version_group": 0
     },
     {
       "name": "MeiTrack Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<form\\ name=\"form1\"\\ method=\"post\"\\ action=\"trackerlogin\\.aspx\"\\ id=\"form1\">"
+      "pattern": "<form\\ name=\"form1\"\\ method=\"post\"\\ action=\"trackerlogin\\.aspx\"\\ id=\"form1\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

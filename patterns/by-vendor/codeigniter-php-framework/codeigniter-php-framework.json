@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "The\\ URI\\ you\\ submitted\\ has\\ disallowed\\ characters\\."
+      "pattern": "The\\ URI\\ you\\ submitted\\ has\\ disallowed\\ characters\\.",
+      "version_group": 0
     },
     {
       "name": "ci_session cookie",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "ci_session",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "ci_session"
+      "pattern": "ci_session",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

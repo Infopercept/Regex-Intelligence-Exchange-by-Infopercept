@@ -1,0 +1,31 @@
+{
+  "vendor": "Mura",
+  "vendor_id": "mura",
+  "product": "Mura CMS",
+  "product_id": "mura-mura-cms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mura CMS Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']Mura CMS ([\\d]+)[\"']",
+      "version_group": 1,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Mura CMS from meta tag with name 'generator'",
+        "tags": [
+          "webtech",
+          "meta",
+          "mura-cms"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^GlassFish",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^GlassFish"
+      "pattern": "^GlassFish",
+      "version_group": 0
     },
     {
       "name": "Sun-GlassFish Pattern",
@@ -91,5 +98,6 @@
       "pattern": "Server: Sun GlassFish Enterprise Server v(.+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "CrossBox",
+  "vendor_id": "crossbox",
+  "product": "CrossBox",
+  "product_id": "crossbox-crossbox",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CrossBox Header Detection",
+      "pattern": "server: CBX-WS",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CrossBox from server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "crossbox"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

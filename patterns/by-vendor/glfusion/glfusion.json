@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div (class|id)=\"gl_moomenu1\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div (class|id)=\"gl_moomenu1\">"
+      "pattern": "<div (class|id)=\"gl_moomenu1\">",
+      "version_group": 0
     },
     {
       "name": "glFusion Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<ul\\ class=\"gl_moomenu1\">"
+      "pattern": "<ul\\ class=\"gl_moomenu1\">",
+      "version_group": 0
     },
     {
       "name": "glFusion Pattern",
@@ -56,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Page created in [d.]+ seconds( |&nbsp;)by <a href=\"http://www.glfusion.org/\"[^>]*>glFusion</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Page created in [\\d\\.]+ seconds( |&nbsp;)by <a href=\"http://www.glfusion.org/\"[^>]*>glFusion</a>"
+      "pattern": "Page created in [\\d\\.]+ seconds( |&nbsp;)by <a href=\"http://www.glfusion.org/\"[^>]*>glFusion</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

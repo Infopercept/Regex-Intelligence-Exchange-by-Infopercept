@@ -1,0 +1,31 @@
+{
+  "vendor": "SiteGround",
+  "vendor_id": "siteground",
+  "product": "SiteGround",
+  "product_id": "siteground-siteground",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SiteGround Header Detection",
+      "pattern": "host-header: 192fc2e7e50945beb8231a492d6a8024|b7440e60b07ee7b8044761568fab26e8|624d5be7be38418a3e2a818cc8b7029b|6b7412fb82ca5edfd0917e3957f05d89",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SiteGround from host-header header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "siteground"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

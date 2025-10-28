@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>RoundCube\\ Webmail\\ ::\\ Welcome\\ to\\ RoundCube\\ Webmail</title>"
+      "pattern": "<title>RoundCube\\ Webmail\\ ::\\ Welcome\\ to\\ RoundCube\\ Webmail</title>",
+      "version_group": 0
     },
     {
       "name": "RoundCube Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "var\\ rcmail\\ =\\ new\\ rcube_webmail\\(\\);"
+      "pattern": "var\\ rcmail\\ =\\ new\\ rcube_webmail\\(\\);",
+      "version_group": 0
     },
     {
       "name": "RoundCube Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<input\\ name=\"_user\"\\ id=\"rcmloginuser\""
+      "pattern": "<input\\ name=\"_user\"\\ id=\"rcmloginuser\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

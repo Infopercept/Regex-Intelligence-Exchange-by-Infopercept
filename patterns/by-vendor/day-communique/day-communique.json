@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Communique",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Communique"
+      "pattern": "^Communique",
+      "version_group": 0
     },
     {
       "name": "Day-Communique Pattern",
@@ -68,5 +75,6 @@
       "pattern": "Server: Communique/([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

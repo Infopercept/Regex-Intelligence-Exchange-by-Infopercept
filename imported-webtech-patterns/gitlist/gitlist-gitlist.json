@@ -1,0 +1,31 @@
+{
+  "vendor": "gitlist",
+  "vendor_id": "gitlist",
+  "product": "gitlist",
+  "product_id": "gitlist-gitlist",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "gitlist HTML Detection",
+      "pattern": "<p>Powered by <a[^>]+>GitList ([\\d.]+)",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects gitlist from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "gitlist"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

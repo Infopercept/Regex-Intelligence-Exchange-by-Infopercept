@@ -1,0 +1,31 @@
+{
+  "vendor": "Olark",
+  "vendor_id": "olark",
+  "product": "Olark",
+  "product_id": "olark-olark",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Olark Script Detection",
+      "pattern": "^https?://static\\.olark\\.com/jsclient/loader1\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Olark from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "olark"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "vendor": "InProces",
+  "vendor_id": "inproces",
+  "product": "InProces",
+  "product_id": "inproces-inproces",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "InProces HTML Detection",
+      "pattern": "<!-- CSS InProces Portaal default -->",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects InProces from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "inproces"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "InProces Script Detection",
+      "pattern": "brein/inproces/website/websitefuncties\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects InProces from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "inproces"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

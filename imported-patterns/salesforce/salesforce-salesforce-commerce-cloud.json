@@ -1,0 +1,71 @@
+{
+  "vendor": "Salesforce",
+  "vendor_id": "salesforce",
+  "product": "Salesforce Commerce Cloud",
+  "product_id": "salesforce-salesforce-commerce-cloud",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Salesforce Commerce Cloud Header Detection",
+      "pattern": "Server: Demandware eCommerce Server",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Salesforce Commerce Cloud from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "salesforce-commerce-cloud"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Salesforce Commerce Cloud HTML Detection",
+      "pattern": "<[^>]+demandware\\.edgesuite",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Salesforce Commerce Cloud from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "salesforce-commerce-cloud"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Salesforce Commerce Cloud Script Detection",
+      "pattern": "/demandware\\.static/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Salesforce Commerce Cloud from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "salesforce-commerce-cloud"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

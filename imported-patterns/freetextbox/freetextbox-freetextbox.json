@@ -1,0 +1,31 @@
+{
+  "vendor": "FreeTextBox",
+  "vendor_id": "freetextbox",
+  "product": "FreeTextBox",
+  "product_id": "freetextbox-freetextbox",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FreeTextBox HTML Detection",
+      "pattern": "<!-- \\* FreeTextBox v\\d \\((\\d+\\.\\d+\\.\\d+)",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects FreeTextBox from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "freetextbox"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

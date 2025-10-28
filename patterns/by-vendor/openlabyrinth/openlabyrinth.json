@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "/images/openlabyrinth\\-logo\\.jpg\"\\ alt=\"Labyrinth\\ Identity\"\\ border=\"0\"\\ width=\"150\"\\ height=\"150\"></a>"
+      "pattern": "/images/openlabyrinth\\-logo\\.jpg\"\\ alt=\"Labyrinth\\ Identity\"\\ border=\"0\"\\ width=\"150\"\\ height=\"150\"></a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

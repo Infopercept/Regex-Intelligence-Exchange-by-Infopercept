@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script [^>]*src=[\"'][^>]*mint/?js",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script [^>]*src=[\"'][^>]*mint/\\?js"
+      "pattern": "<script [^>]*src=[\"'][^>]*mint/\\?js",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "\\{\"retval\":false,\"error_"
+      "pattern": "\\{\"retval\":false,\"error_",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

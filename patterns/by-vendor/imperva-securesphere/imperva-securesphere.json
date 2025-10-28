@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>SecureSphere\\ \\-\\ Default</title>"
+      "pattern": "<title>SecureSphere\\ \\-\\ Default</title>",
+      "version_group": 0
     },
     {
       "name": "HTML Body",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<td><font\\ class=\"gray\\-text\\-small\">SecureSphere\\ includes\\ software\\ developed\\ by\\ Oracle\\ Corporation\\.</font></td></tr>"
+      "pattern": "<td><font\\ class=\"gray\\-text\\-small\">SecureSphere\\ includes\\ software\\ developed\\ by\\ Oracle\\ Corporation\\.</font></td></tr>",
+      "version_group": 0
     },
     {
       "name": "HTML Body",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "src=\"/SecureSphere/scripts/infra/ActiveRequests\\.js\">"
+      "pattern": "src=\"/SecureSphere/scripts/infra/ActiveRequests\\.js\">",
+      "version_group": 0
     },
     {
       "name": "HTML Body",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "src=\"/SecureSphere/scripts/infra/Mprv\\.js\"></script>"
+      "pattern": "src=\"/SecureSphere/scripts/infra/Mprv\\.js\"></script>",
+      "version_group": 0
     },
     {
       "name": "HTML Body",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "src=\"/SecureSphere/scripts/infra/SessionUtils\\.js\">"
+      "pattern": "src=\"/SecureSphere/scripts/infra/SessionUtils\\.js\">",
+      "version_group": 0
     },
     {
       "name": "Location Header",
@@ -128,9 +133,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "SecureSphere/secsphLogin.jsp",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "SecureSphere/secsphLogin\\.jsp"
+      "pattern": "SecureSphere/secsphLogin\\.jsp",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

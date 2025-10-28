@@ -1,0 +1,31 @@
+{
+  "vendor": "CouchDB",
+  "vendor_id": "couchdb",
+  "product": "CouchDB",
+  "product_id": "couchdb-couchdb",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CouchDB Header Detection",
+      "pattern": "Server: CouchDB/([\\d.]+)",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CouchDB from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "couchdb"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

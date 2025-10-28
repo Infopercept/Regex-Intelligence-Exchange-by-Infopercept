@@ -1,0 +1,51 @@
+{
+  "vendor": "Popper",
+  "vendor_id": "popper",
+  "product": "Popper",
+  "product_id": "popper-popper",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Popper HTML Detection",
+      "pattern": "<script [^>]*src=\"[^\"]*/popper\\.js/([0-9.]+)",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Popper from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "popper"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Popper Script Detection",
+      "pattern": "/popper\\.js/([0-9.]+)",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Popper from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "popper"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

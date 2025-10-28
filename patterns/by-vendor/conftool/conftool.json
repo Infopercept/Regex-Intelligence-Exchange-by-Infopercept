@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<h2\\ align=center>ConfTool\\ Conference\\ Administration</h2>"
+      "pattern": "<h2\\ align=center>ConfTool\\ Conference\\ Administration</h2>",
+      "version_group": 0
     },
     {
       "name": "ConfTool Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<td\\ class=\"td_dlg_input\"\\ width=67%\\ align=left><input\\ type=text\\ name=\\\\"
+      "pattern": "<td\\ class=\"td_dlg_input\"\\ width=67%\\ align=left><input\\ type=text\\ name=\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

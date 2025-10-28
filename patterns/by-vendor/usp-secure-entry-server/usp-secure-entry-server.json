@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Secure Entry Server$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Secure Entry Server$"
+      "pattern": "^Secure Entry Server$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

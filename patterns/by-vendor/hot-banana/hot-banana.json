@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t\\\t\\\t\\\tvar\\ hbac_regFileTypes\\ =\\ new\\ RegExp\\(\"\\\\s\\*\\.\\(pdf\\|swf\\|gif\\|jpg\\|jpeg\\|jpe\\|xls\\|ppt\\|doc\\|mp3\\|txt\\|wav\\)\"\\);"
+      "pattern": "\\\t\\\t\\\t\\\t\\\tvar\\ hbac_regFileTypes\\ =\\ new\\ RegExp\\(\"\\\\s\\*\\.\\(pdf\\|swf\\|gif\\|jpg\\|jpeg\\|jpe\\|xls\\|ppt\\|doc\\|mp3\\|txt\\|wav\\)\"\\);",
+      "version_group": 0
     },
     {
       "name": "Hot-Banana Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<div\\ align=\"right\"><img\\ src=\"Images/hblogo\\.gif\"\\ width=\"49\"\\ height=\"28\"\\ border=\"0\"\\ alt=\"Powered\\ By\\ Hot\\ Banana\"\\ /></div>"
+      "pattern": "<div\\ align=\"right\"><img\\ src=\"Images/hblogo\\.gif\"\\ width=\"49\"\\ height=\"28\"\\ border=\"0\"\\ alt=\"Powered\\ By\\ Hot\\ Banana\"\\ /></div>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

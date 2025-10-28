@@ -1,0 +1,31 @@
+{
+  "vendor": "Xitami",
+  "vendor_id": "xitami",
+  "product": "Xitami",
+  "product_id": "xitami-xitami",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Xitami Header Detection",
+      "pattern": "Server: Xitami(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Xitami from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "xitami"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

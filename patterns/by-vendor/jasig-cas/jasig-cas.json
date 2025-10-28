@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>CAS\\ \\&\\#8211;\\ Central\\ Authentication\\ Service</title>"
+      "pattern": "<title>CAS\\ \\&\\#8211;\\ Central\\ Authentication\\ Service</title>",
+      "version_group": 0
     },
     {
       "name": "Jasig-CAS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Congratulations\\ on\\ bringing\\ CAS\\ online!\\ \\ The\\ default\\ authentication\\ handler\\ authenticates\\ where\\ usernames\\ equal\\ passwords:\\ go\\ ahead,\\ try\\ it\\ out\\.\\ \\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Congratulations\\ on\\ bringing\\ CAS\\ online!\\ \\ The\\ default\\ authentication\\ handler\\ authenticates\\ where\\ usernames\\ equal\\ passwords:\\ go\\ ahead,\\ try\\ it\\ out\\.\\ \\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Jasig-CAS Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://www\\.jasig\\.org/cas\">Jasig\\ Central\\ Authentication\\ Service</a></p>"
+      "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://www\\.jasig\\.org/cas\">Jasig\\ Central\\ Authentication\\ Service</a></p>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

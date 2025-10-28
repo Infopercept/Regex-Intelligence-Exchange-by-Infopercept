@@ -1,0 +1,31 @@
+{
+  "vendor": "OpenLayers",
+  "vendor_id": "openlayers",
+  "product": "OpenLayers",
+  "product_id": "openlayers-openlayers",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OpenLayers Script Detection",
+      "pattern": "openlayers",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects OpenLayers from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "openlayers"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

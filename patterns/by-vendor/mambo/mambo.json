@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Generator\" content=\"Mambo - Copyright 2000 - [0-9]+ Miro International Pty Ltd.  All rights reserved.\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\"Generator\" content=\"Mambo - Copyright 2000 - [0-9]+ Miro International Pty Ltd.  All rights reserved.\" />"
+      "pattern": "<meta name=\"Generator\" content=\"Mambo - Copyright 2000 - [0-9]+ Miro International Pty Ltd.  All rights reserved.\" />",
+      "version_group": 0
     },
     {
       "name": "Mambo Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\" content=\"Mambo - the dynamic portal engine and content management system\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\"description\" content=\"Mambo - the dynamic portal engine and content management system\" />"
+      "pattern": "<meta name=\"description\" content=\"Mambo - the dynamic portal engine and content management system\" />",
+      "version_group": 0
     },
     {
       "name": "Mambo Pattern",
@@ -58,7 +72,8 @@
           }
         ]
       },
-      "pattern": "Mambo\\ is\\ OSI\\ Certified\\ Open\\ Source\\ Software,\\ released\\ under\\ the\\ GNU\\ General\\ Public\\ License"
+      "pattern": "Mambo\\ is\\ OSI\\ Certified\\ Open\\ Source\\ Software,\\ released\\ under\\ the\\ GNU\\ General\\ Public\\ License",
+      "version_group": 0
     },
     {
       "name": "Mambo Pattern",
@@ -72,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "(<name>Mambo Admin</name>|<authorUrl>http://www.mambo-foundation.org</authorUrl>)",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "(<name>Mambo Admin</name>|<authorUrl>http://www\\.mambo\\-foundation\\.org</authorUrl>)"
+      "pattern": "(<name>Mambo Admin</name>|<authorUrl>http://www\\.mambo\\-foundation\\.org</authorUrl>)",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

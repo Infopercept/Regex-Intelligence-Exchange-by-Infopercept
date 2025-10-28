@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script language=\"Javascript\" type=\"text/javascript\" src=\"(../|./)?hesk_javascript.js\"></script>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script language=\"Javascript\" type=\"text/javascript\" src=\"(\\.\\./|\\./)?hesk_javascript\\.js\"></script>"
+      "pattern": "<script language=\"Javascript\" type=\"text/javascript\" src=\"(\\.\\./|\\./)?hesk_javascript\\.js\"></script>",
+      "version_group": 0
     },
     {
       "name": "HESK Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"(./)?hesk_style.css\" type=\"text/css\" rel=\"stylesheet\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link href=\"(\\./)?hesk_style\\.css\" type=\"text/css\" rel=\"stylesheet\""
+      "pattern": "<link href=\"(\\./)?hesk_style\\.css\" type=\"text/css\" rel=\"stylesheet\"",
+      "version_group": 0
     },
     {
       "name": "HESK Pattern",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"(./)?hesk_style.css\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link rel=\"stylesheet\" type=\"text/css\" href=\"(\\./)?hesk_style\\.css\""
+      "pattern": "<link rel=\"stylesheet\" type=\"text/css\" href=\"(\\./)?hesk_style\\.css\"",
+      "version_group": 0
     },
     {
       "name": "HESK Pattern",
@@ -74,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<body\\ onload=\"javascript:var\\ i=new\\ Image\\(\\);i\\.src=\\\\"
+      "pattern": "<body\\ onload=\"javascript:var\\ i=new\\ Image\\(\\);i\\.src=\\\\",
+      "version_group": 0
     },
     {
       "name": "HESK Pattern",
@@ -96,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"img/loading\\.gif\"\\ width=\"24\"\\ height=\"24\"\\ alt=\"\"\\ border=\"0\"\\ style=\"vertical\\-align:text\\-bottom\"\\ />\\ <i>Loading\\ knowledgebase\\ suggestions\\.\\.\\.</i>"
+      "pattern": "<img\\ src=\"img/loading\\.gif\"\\ width=\"24\"\\ height=\"24\"\\ alt=\"\"\\ border=\"0\"\\ style=\"vertical\\-align:text\\-bottom\"\\ />\\ <i>Loading\\ knowledgebase\\ suggestions\\.\\.\\.</i>",
+      "version_group": 0
     },
     {
       "name": "HESK Pattern",
@@ -118,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ START\\ KNOWLEDGEBASE\\ SUGGEST\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ START\\ KNOWLEDGEBASE\\ SUGGEST\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "HESK Pattern",
@@ -140,7 +164,8 @@
           }
         ]
       },
-      "pattern": "<p\\ style=\"text\\-align:center\"><a\\ href=\"admin/\"\\ class=\"smaller\">Go\\ to\\ Administration\\ Panel</a></p>"
+      "pattern": "<p\\ style=\"text\\-align:center\"><a\\ href=\"admin/\"\\ class=\"smaller\">Go\\ to\\ Administration\\ Panel</a></p>",
+      "version_group": 0
     },
     {
       "name": "HESK Pattern",
@@ -154,9 +179,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<p style=\"text-align:center\"><span class=\"smaller\">Powered by <a href=\"http://www.hesk.com\" class=\"smaller\"( target=\"_blank\")? title=\"Free Help Desk Software HESK\">Help Desk Software</a> HESK&trade;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<p style=\"text-align:center\"><span class=\"smaller\">Powered by <a href=\"http://www\\.hesk\\.com\" class=\"smaller\"( target=\"_blank\")? title=\"Free Help Desk Software HESK\">Help Desk Software</a> HESK&trade;"
+      "pattern": "<p style=\"text-align:center\"><span class=\"smaller\">Powered by <a href=\"http://www\\.hesk\\.com\" class=\"smaller\"( target=\"_blank\")? title=\"Free Help Desk Software HESK\">Help Desk Software</a> HESK&trade;",
+      "version_group": 0
     },
     {
       "name": "HESK Pattern",
@@ -178,7 +210,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.phpjunkyard\\.com/free\\-helpdesk\\-software\\.php\"\\ class=\"smaller\"\\ target=\"_blank\">Help\\ desk\\ software</a>\\ HESK<sup>TM</sup></span>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.phpjunkyard\\.com/free\\-helpdesk\\-software\\.php\"\\ class=\"smaller\"\\ target=\"_blank\">Help\\ desk\\ software</a>\\ HESK<sup>TM</sup></span>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

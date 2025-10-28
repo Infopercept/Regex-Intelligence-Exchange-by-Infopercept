@@ -1,0 +1,51 @@
+{
+  "vendor": "Phusion",
+  "vendor_id": "phusion",
+  "product": "Phusion Passenger",
+  "product_id": "phusion-phusion-passenger",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Phusion Passenger Header Detection",
+      "pattern": "Server: Phusion Passenger ([\\d.]+)",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Phusion Passenger from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "phusion-passenger"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Phusion Passenger Header Detection",
+      "pattern": "X-Powered-By: Phusion Passenger ?([\\d.]+)?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Phusion Passenger from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "phusion-passenger"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

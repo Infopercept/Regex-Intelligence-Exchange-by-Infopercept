@@ -1,0 +1,31 @@
+{
+  "vendor": "Perl",
+  "vendor_id": "perl",
+  "product": "Perl",
+  "product_id": "perl-perl",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Perl Header Detection",
+      "pattern": "Server: \\bPerl\\b(?: ?/?v?([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Perl from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "perl"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

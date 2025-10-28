@@ -1,0 +1,31 @@
+{
+  "vendor": "Mastodon",
+  "vendor_id": "mastodon",
+  "product": "Mastodon",
+  "product_id": "mastodon-mastodon",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mastodon Header Detection",
+      "pattern": "Server: ^Mastodon$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Mastodon from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "mastodon"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

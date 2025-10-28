@@ -1,0 +1,51 @@
+{
+  "vendor": "MoinMoin",
+  "vendor_id": "moinmoin",
+  "product": "MoinMoin",
+  "product_id": "moinmoin-moinmoin",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MoinMoin Script Detection",
+      "pattern": "moin(?:_static(\\d)(\\d)(\\d)|.+)/common/js/common\\.js.\\2.\\3",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MoinMoin from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "moinmoin"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "MoinMoin JavaScript Detection",
+      "pattern": "window\\.show_switch2gui|show_switch2gui\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MoinMoin from JavaScript variable 'show_switch2gui'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "moinmoin"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<DIV\\ id=\"overDiv\"\\ style=\"position:absolute;\\ visibility:hidden;\\ z\\-index:104;\"></DIV>"
+      "pattern": "<DIV\\ id=\"overDiv\"\\ style=\"position:absolute;\\ visibility:hidden;\\ z\\-index:104;\"></DIV>",
+      "version_group": 0
     },
     {
       "name": "Netsweeper Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"overDiv\"\\ style=\"position:absolute;\\ visibility:hidden;\\ z\\-index:104;\"></div>"
+      "pattern": "<div\\ id=\"overDiv\"\\ style=\"position:absolute;\\ visibility:hidden;\\ z\\-index:104;\"></div>",
+      "version_group": 0
     },
     {
       "name": "Netsweeper Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Body\\ of\\ content\\ starts\\ here\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Body\\ of\\ content\\ starts\\ here\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Netsweeper Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<BR><SPAN\\ class='netsweepersmbtextatbottomofloginscreen'>"
+      "pattern": "<BR><SPAN\\ class='netsweepersmbtextatbottomofloginscreen'>",
+      "version_group": 0
     },
     {
       "name": "Netsweeper Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<br><span\\ class='netsweepersmbtextatbottomofloginscreen'>"
+      "pattern": "<br><span\\ class='netsweepersmbtextatbottomofloginscreen'>",
+      "version_group": 0
     },
     {
       "name": "Netsweeper Pattern",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ full_page_header\\.html\\ START\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ full_page_header\\.html\\ START\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Netsweeper Pattern",
@@ -158,7 +164,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ full_page_footer\\.html\\ START\\-\\->"
+      "pattern": "<!\\-\\-\\ full_page_footer\\.html\\ START\\-\\->",
+      "version_group": 0
     },
     {
       "name": "Netsweeper Pattern",
@@ -180,7 +187,8 @@
           }
         ]
       },
-      "pattern": "<a\\ target=_parent\\ href=\"\\.\\./\"\\ >Please\\ click\\ <u>here</u>\\ to\\ continue\\.</a>"
+      "pattern": "<a\\ target=_parent\\ href=\"\\.\\./\"\\ >Please\\ click\\ <u>here</u>\\ to\\ continue\\.</a>",
+      "version_group": 0
     },
     {
       "name": "Netsweeper Pattern",
@@ -202,7 +210,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.poweredbynetsweeper\\.com\"><img\\ src=\"http://www\\.poweredbynetsweeper\\.com/images/deny/global/poweredbynetsweeper\\.gif\"\\ border=\"0\"\\ alt=\"\"\\ align=\"top\"\\ /></a></td>"
+      "pattern": "<a\\ href=\"http://www\\.poweredbynetsweeper\\.com\"><img\\ src=\"http://www\\.poweredbynetsweeper\\.com/images/deny/global/poweredbynetsweeper\\.gif\"\\ border=\"0\"\\ alt=\"\"\\ align=\"top\"\\ /></a></td>",
+      "version_group": 0
     },
     {
       "name": "Netsweeper Pattern",
@@ -224,7 +233,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.poweredbynetsweeper\\.com\"><img\\ align=top\\ border=0\\ src=\"http://www\\.poweredbynetsweeper\\.com/images/deny/global/poweredbynetsweeper\\.gif\"></a>"
+      "pattern": "<a\\ href=\"http://www\\.poweredbynetsweeper\\.com\"><img\\ align=top\\ border=0\\ src=\"http://www\\.poweredbynetsweeper\\.com/images/deny/global/poweredbynetsweeper\\.gif\"></a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

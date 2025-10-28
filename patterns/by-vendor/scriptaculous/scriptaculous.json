@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script [^>]*(scriptaculous[^>]*.js)[^>]*",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script [^>]*(scriptaculous[^>]*.js)[^>]*"
+      "pattern": "<script [^>]*(scriptaculous[^>]*.js)[^>]*",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

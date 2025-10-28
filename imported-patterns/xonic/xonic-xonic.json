@@ -1,0 +1,71 @@
+{
+  "vendor": "Xonic",
+  "vendor_id": "xonic",
+  "product": "Xonic",
+  "product_id": "xonic-xonic",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Xonic HTML Detection",
+      "pattern": "Powered by <a href=\"http://www\\.xonic-solutions\\.de/index\\.php\" target=\"_blank\">xonic-solutions Shopsoftware</a>",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Xonic from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "xonic"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Xonic Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']keywords[\"'][^>]+content=[\"']xonic-solutions[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Xonic from meta tag with name 'keywords'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "xonic"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Xonic Script Detection",
+      "pattern": "core/jslib/jquery\\.xonic\\.js\\.php",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Xonic from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "xonic"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "eval\\(\"page\"\\ \\+\\ id\\ \\+\\ \"\\ =\\ window\\.open\\(URL,\\ \\\\"
+      "pattern": "eval\\(\"page\"\\ \\+\\ id\\ \\+\\ \"\\ =\\ window\\.open\\(URL,\\ \\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

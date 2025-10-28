@@ -1,0 +1,31 @@
+{
+  "vendor": "Dynamic",
+  "vendor_id": "dynamic",
+  "product": "Dynamic Yield",
+  "product_id": "dynamic-dynamic-yield",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Dynamic Yield Script Detection",
+      "pattern": "cdn\\.dynamicyield\\.\\w+/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Dynamic Yield from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "dynamic-yield"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

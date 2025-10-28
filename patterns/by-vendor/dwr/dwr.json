@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "/dwr/engine\\.js\\\\"
+      "pattern": "/dwr/engine\\.js\\\\",
+      "version_group": 0
     },
     {
       "name": "HTML Body",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "/dwr/engine\\.js\">"
+      "pattern": "/dwr/engine\\.js\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

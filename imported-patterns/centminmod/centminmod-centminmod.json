@@ -1,0 +1,31 @@
+{
+  "vendor": "Centminmod",
+  "vendor_id": "centminmod",
+  "product": "Centminmod",
+  "product_id": "centminmod-centminmod",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Centminmod Header Detection",
+      "pattern": "X-Powered-By: centminmod",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Centminmod from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "centminmod"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

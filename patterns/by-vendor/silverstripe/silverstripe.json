@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\"[^>]*content=\"SilverStripe",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\"generator\"[^>]*content=\"SilverStripe"
+      "pattern": "<meta name=\"generator\"[^>]*content=\"SilverStripe",
+      "version_group": 0
     },
     {
       "name": "layout, typography, form css files",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link[^>]*stylesheet[^>]*layout.css[^>]*>[^<]*<link[^>]*stylesheet[^>]*typography.css[^>]*>[^<]*<link[^>]*stylesheet[^>]*form.css[^>]*>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link[^>]*stylesheet[^>]*layout.css[^>]*>[^<]*<link[^>]*stylesheet[^>]*typography.css[^>]*>[^<]*<link[^>]*stylesheet[^>]*form.css[^>]*>"
+      "pattern": "<link[^>]*stylesheet[^>]*layout.css[^>]*>[^<]*<link[^>]*stylesheet[^>]*typography.css[^>]*>[^<]*<link[^>]*stylesheet[^>]*form.css[^>]*>",
+      "version_group": 0
     },
     {
       "name": "SilverStripe Pattern",
@@ -50,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"/assets/[^/]+/_resampled/[^\"]+.jpg\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<img src=\"/assets/[^/]+/_resampled/[^\"]+.jpg\""
+      "pattern": "<img src=\"/assets/[^/]+/_resampled/[^\"]+.jpg\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

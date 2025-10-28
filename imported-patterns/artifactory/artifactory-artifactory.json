@@ -1,0 +1,51 @@
+{
+  "vendor": "Artifactory",
+  "vendor_id": "artifactory",
+  "product": "Artifactory",
+  "product_id": "artifactory-artifactory",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Artifactory HTML Detection",
+      "pattern": "<span class=\"version\">Artifactory(?: Pro)?(?: Power Pack)?(?: ([\\d.]+))?",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Artifactory from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "artifactory"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Artifactory Script Detection",
+      "pattern": "wicket/resource/org\\.artifactory\\.",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Artifactory from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "artifactory"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

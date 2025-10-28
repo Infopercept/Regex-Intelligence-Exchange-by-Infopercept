@@ -1,0 +1,31 @@
+{
+  "vendor": "Whooshkaa",
+  "vendor_id": "whooshkaa",
+  "product": "Whooshkaa",
+  "product_id": "whooshkaa-whooshkaa",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Whooshkaa HTML Detection",
+      "pattern": "<iframe src=\"[^>]+whooshkaa\\.com",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Whooshkaa from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "whooshkaa"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

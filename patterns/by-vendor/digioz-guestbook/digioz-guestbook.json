@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ NOTE:\\ PLEASE\\ DO\\ NOT\\ REMOVE\\ THE\\ BELLOW\\ 3\\ LINES\\ FROM\\ YOUR\\ HEADER\\ FILE\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ NOTE:\\ PLEASE\\ DO\\ NOT\\ REMOVE\\ THE\\ BELLOW\\ 3\\ LINES\\ FROM\\ YOUR\\ HEADER\\ FILE\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "DigiOz-Guestbook Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ NOTE:\\ PLEASE\\ DO\\ NOT\\ REMOVE\\ THE\\ ABOVE\\ 3\\ LINES\\ FROM\\ YOUR\\ HEADER\\ FILE\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ NOTE:\\ PLEASE\\ DO\\ NOT\\ REMOVE\\ THE\\ ABOVE\\ 3\\ LINES\\ FROM\\ YOUR\\ HEADER\\ FILE\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

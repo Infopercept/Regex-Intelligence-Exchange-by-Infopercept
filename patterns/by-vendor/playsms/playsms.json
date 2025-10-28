@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"wraplogin\">[s]+<table width=\"100%\" height=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div id=\"wraplogin\">[\\s]+<table width=\"100%\" height=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">"
+      "pattern": "<div id=\"wraplogin\">[\\s]+<table width=\"100%\" height=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">",
+      "version_group": 0
     },
     {
       "name": "playSMS Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--td background=\"https?://[^>^\"]+/plugin/themes/km2/images/header-4.png\"-->",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!--td background=\"https?://[^>^\"]+/plugin/themes/km2/images/header-4\\.png\"-->"
+      "pattern": "<!--td background=\"https?://[^>^\"]+/plugin/themes/km2/images/header-4\\.png\"-->",
+      "version_group": 0
     },
     {
       "name": "playSMS Pattern",
@@ -58,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href='index\\.php\\?app=page\\&inc=register'>Register\\ an\\ account</a>"
+      "pattern": "<a\\ href='index\\.php\\?app=page\\&inc=register'>Register\\ an\\ account</a>",
+      "version_group": 0
     },
     {
       "name": "playSMS Pattern",
@@ -80,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href='index\\.php\\?app=page\\&inc=forgot'>Forgot\\ password</a>"
+      "pattern": "<a\\ href='index\\.php\\?app=page\\&inc=forgot'>Forgot\\ password</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

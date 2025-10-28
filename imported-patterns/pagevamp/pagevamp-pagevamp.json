@@ -1,0 +1,31 @@
+{
+  "vendor": "Pagevamp",
+  "vendor_id": "pagevamp",
+  "product": "Pagevamp",
+  "product_id": "pagevamp-pagevamp",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Pagevamp Header Detection",
+      "pattern": "X-ServedBy: pagevamp",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Pagevamp from X-ServedBy header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "pagevamp"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

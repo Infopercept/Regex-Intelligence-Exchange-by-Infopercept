@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^(https?://[^/]+)?/eproc/app",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^(https?://[^/]+)?/eproc/app"
+      "pattern": "^(https?://[^/]+)?/eproc/app",
+      "version_group": 0
     },
     {
       "name": "LPSE Pattern",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/eproc/assets/application\\.css\"/>"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/eproc/assets/application\\.css\"/>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

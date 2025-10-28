@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<iframe src=\"https?://[^/]+/keep_alive.php\" height=\"1\" width=\"1\" style=\"display: none;\">keep alive</iframe>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<iframe src=\"https?://[^/]+/keep_alive\\.php\" height=\"1\" width=\"1\" style=\"display: none;\">keep alive</iframe>"
+      "pattern": "<iframe src=\"https?://[^/]+/keep_alive\\.php\" height=\"1\" width=\"1\" style=\"display: none;\">keep alive</iframe>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

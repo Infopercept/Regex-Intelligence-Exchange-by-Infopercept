@@ -1,0 +1,71 @@
+{
+  "vendor": "CKEditor",
+  "vendor_id": "ckeditor",
+  "product": "CKEditor",
+  "product_id": "ckeditor-ckeditor",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CKEditor JavaScript Detection",
+      "pattern": "window\\.CKEDITOR|CKEDITOR\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CKEditor from JavaScript variable 'CKEDITOR'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "ckeditor"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "CKEditor JavaScript Detection",
+      "pattern": "window\\.CKEDITOR\\.version|CKEDITOR\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CKEditor from JavaScript variable 'CKEDITOR.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "ckeditor"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "CKEditor JavaScript Detection",
+      "pattern": "window\\.CKEDITOR_BASEPATH|CKEDITOR_BASEPATH\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CKEditor from JavaScript variable 'CKEDITOR_BASEPATH'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "ckeditor"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

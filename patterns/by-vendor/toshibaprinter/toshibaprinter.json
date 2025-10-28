@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<TITLE\\ CLASS=\"clsTitle1\">TopAccess</title>"
+      "pattern": "<TITLE\\ CLASS=\"clsTitle1\">TopAccess</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

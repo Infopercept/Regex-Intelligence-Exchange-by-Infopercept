@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ content='blogger'\\ name='generator'/>"
+      "pattern": "<meta\\ content='blogger'\\ name='generator'/>",
+      "version_group": 0
     },
     {
       "name": "Powered by link",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.blogger.com\"><img [^>]* alt=\"Powered by Blogger\"></a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"http://www.blogger.com\"><img [^>]* alt=\"Powered by Blogger\"></a>"
+      "pattern": "<a href=\"http://www.blogger.com\"><img [^>]* alt=\"Powered by Blogger\"></a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

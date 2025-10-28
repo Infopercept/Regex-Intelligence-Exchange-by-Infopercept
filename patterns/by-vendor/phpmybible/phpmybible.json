@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ class='randomverse'>"
+      "pattern": "<div\\ class='randomverse'>",
+      "version_group": 0
     },
     {
       "name": "phpMyBible Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<div\\ class='fleft'><div\\ class='chaphead'>"
+      "pattern": "<div\\ class='fleft'><div\\ class='chaphead'>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

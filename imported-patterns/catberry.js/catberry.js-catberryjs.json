@@ -1,0 +1,31 @@
+{
+  "vendor": "Catberry.js",
+  "vendor_id": "catberry.js",
+  "product": "Catberry.js",
+  "product_id": "catberry.js-catberryjs",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Catberry.js Header Detection",
+      "pattern": "X-Powered-By: Catberry",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Catberry.js from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "catberry.js"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

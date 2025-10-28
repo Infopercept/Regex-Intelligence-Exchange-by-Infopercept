@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<a\\ id=\"poweredby\"\\ href=\"http://craftcms\\.com/\"\\ title=\"Powered\\ by\\ Craft\\ CMS\">"
+      "pattern": "<a\\ id=\"poweredby\"\\ href=\"http://craftcms\\.com/\"\\ title=\"Powered\\ by\\ Craft\\ CMS\">",
+      "version_group": 0
     },
     {
       "name": "CraftSessionId cookie",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "CraftSessionId",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "CraftSessionId"
+      "pattern": "CraftSessionId",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

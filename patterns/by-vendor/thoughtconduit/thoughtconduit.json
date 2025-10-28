@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<html><body>There\\ has\\ been\\ an\\ error</body></html>"
+      "pattern": "<html><body>There\\ has\\ been\\ an\\ error</body></html>",
+      "version_group": 0
     },
     {
       "name": "ThoughtConduit Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<html><head><title>Error</title></head><body>Your\\ request\\ produced\\ an\\ error\\.</body></html>"
+      "pattern": "<html><head><title>Error</title></head><body>Your\\ request\\ produced\\ an\\ error\\.</body></html>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "_white\\-space:pre;\\ \\ \\ /\\*\\ IE\\ only\\ hack\\ to\\ re\\-specify\\ in\\ addition\\ to\\ word\\-wrap\\ \\ \\*/"
+      "pattern": "_white\\-space:pre;\\ \\ \\ /\\*\\ IE\\ only\\ hack\\ to\\ re\\-specify\\ in\\ addition\\ to\\ word\\-wrap\\ \\ \\*/",
+      "version_group": 0
     },
     {
       "name": "LISTSERV Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "alt=\"Powered\\ by\\ the\\ LISTSERV\\ Email\\ List\\ Manager\"\\ title=\"Powered\\ by\\ the\\ LISTSERV\\ Email\\ List\\ Manager\"\\ border=\"0\"></a>"
+      "pattern": "alt=\"Powered\\ by\\ the\\ LISTSERV\\ Email\\ List\\ Manager\"\\ title=\"Powered\\ by\\ the\\ LISTSERV\\ Email\\ List\\ Manager\"\\ border=\"0\"></a>",
+      "version_group": 0
     },
     {
       "name": "LISTSERV Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<TITLE>LISTSERV\\ \\-\\ Redirecting\\ \\.\\.\\.</TITLE>"
+      "pattern": "<TITLE>LISTSERV\\ \\-\\ Redirecting\\ \\.\\.\\.</TITLE>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

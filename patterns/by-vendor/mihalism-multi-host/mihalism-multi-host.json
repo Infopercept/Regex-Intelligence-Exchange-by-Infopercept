@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.mihalism\\.com/product/mmh/\">Mihalism\\ Multi\\ Host</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.mihalism\\.com/product/mmh/\">Mihalism\\ Multi\\ Host</a>",
+      "version_group": 0
     },
     {
       "name": "Mihalism-Multi-Host Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Powered by Mihalism Multi Host - Copyright (c) [d, ]+ Mihalism Technologies (www.mihalism.net) -->",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!-- Powered by Mihalism Multi Host - Copyright \\(c\\) [\\d\\,\\ ]+ Mihalism Technologies \\(www.mihalism.net\\) -->"
+      "pattern": "<!-- Powered by Mihalism Multi Host - Copyright \\(c\\) [\\d\\,\\ ]+ Mihalism Technologies \\(www.mihalism.net\\) -->",
+      "version_group": 0
     },
     {
       "name": "Mihalism-Multi-Host Pattern",
@@ -56,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- Powered by Mihalism Multi Host - Copyright (c) [d, ]+ Mihalism, Inc. (www.mihalism.com) -->",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!-- Powered by Mihalism Multi Host - Copyright \\(c\\) [\\d\\,\\ ]+ Mihalism, Inc. \\(www.mihalism.com\\) -->"
+      "pattern": "<!-- Powered by Mihalism Multi Host - Copyright \\(c\\) [\\d\\,\\ ]+ Mihalism, Inc. \\(www.mihalism.com\\) -->",
+      "version_group": 0
     },
     {
       "name": "Mihalism-Multi-Host Pattern",
@@ -80,7 +95,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t\\\t\\\t\\\t<title>Fatal\\ Error\\ \\(Powered\\ by\\ Mihalism\\ Multi\\ Host\\)</title>"
+      "pattern": "\\\t\\\t\\\t\\\t\\\t<title>Fatal\\ Error\\ \\(Powered\\ by\\ Mihalism\\ Multi\\ Host\\)</title>",
+      "version_group": 0
     },
     {
       "name": "Mihalism-Multi-Host Pattern",
@@ -102,7 +118,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t\\\t\\\t\\\t<title>MySQL\\ Error\\ \\(Powered\\ by\\ Mihalism\\ Multi\\ Host\\)</title>"
+      "pattern": "\\\t\\\t\\\t\\\t\\\t<title>MySQL\\ Error\\ \\(Powered\\ by\\ Mihalism\\ Multi\\ Host\\)</title>",
+      "version_group": 0
     },
     {
       "name": "Mihalism-Multi-Host Pattern",
@@ -119,12 +136,13 @@
         ],
         "test_cases": [
           {
-            "input": "    <title>Mihalism Multi Host \u00bb Installation</title>",
+            "input": "    <title>Mihalism Multi Host » Installation</title>",
             "expected_version": "unknown"
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ <title>Mihalism\\ Multi\\ Host\\ \u00bb\\ Installation</title>"
+      "pattern": "\\ \\ \\ \\ <title>Mihalism\\ Multi\\ Host\\ »\\ Installation</title>",
+      "version_group": 0
     },
     {
       "name": "Mihalism-Multi-Host Pattern",
@@ -146,7 +164,9 @@
           }
         ]
       },
-      "pattern": "<b\\ style=\"color:\\ \\#F00;\">Warning:</b>\\ Using\\ this\\ installer\\ will\\ erase\\ any\\ already\\ existing\\ Mihalism\\ Multi\\ Host\\ installation\\."
+      "pattern": "<b\\ style=\"color:\\ \\#F00;\">Warning:</b>\\ Using\\ this\\ installer\\ will\\ erase\\ any\\ already\\ existing\\ Mihalism\\ Multi\\ Host\\ installation\\.",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

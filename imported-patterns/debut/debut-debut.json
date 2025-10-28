@@ -1,0 +1,31 @@
+{
+  "vendor": "debut",
+  "vendor_id": "debut",
+  "product": "debut",
+  "product_id": "debut-debut",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "debut Header Detection",
+      "pattern": "Server: debut/?([\\d\\.]+)?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects debut from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "debut"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

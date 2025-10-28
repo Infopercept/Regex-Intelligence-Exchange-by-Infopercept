@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<TITLE>Ganglia::\\ Cluster\\ Report</TITLE>"
+      "pattern": "<TITLE>Ganglia::\\ Cluster\\ Report</TITLE>",
+      "version_group": 0
     },
     {
       "name": "Ganglia Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\(Nodes\\ colored\\ by\\ 1\\-minute\\ load\\)\\ \\|\\ <A\\ HREF=\"\\./node_legend\\.html\">Legend</A>"
+      "pattern": "\\(Nodes\\ colored\\ by\\ 1\\-minute\\ load\\)\\ \\|\\ <A\\ HREF=\"\\./node_legend\\.html\">Legend</A>",
+      "version_group": 0
     },
     {
       "name": "Ganglia Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<B>Metric</B>\\&nbsp;\\&nbsp;<SELECT\\ NAME=\"m\"\\ OnChange=\"ganglia_form\\.submit\\(\\);\">"
+      "pattern": "<B>Metric</B>\\&nbsp;\\&nbsp;<SELECT\\ NAME=\"m\"\\ OnChange=\"ganglia_form\\.submit\\(\\);\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

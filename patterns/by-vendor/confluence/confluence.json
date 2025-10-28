@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ id=\"confluence\\-context\\-path\"\\ name=\"confluence\\-context\\-path\"\\ content=\"\">"
+      "pattern": "<meta\\ id=\"confluence\\-context\\-path\"\\ name=\"confluence\\-context\\-path\"\\ content=\"\">",
+      "version_group": 0
     },
     {
       "name": "Confluence Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<li\\ class=\"noprint\"><a\\ href=\"http://www\\.atlassian\\.com/software/confluence\"\\ class=\"hover\\-footer\\-link\">Atlassian\\ Confluence</a>"
+      "pattern": "<li\\ class=\"noprint\"><a\\ href=\"http://www\\.atlassian\\.com/software/confluence\"\\ class=\"hover\\-footer\\-link\">Atlassian\\ Confluence</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

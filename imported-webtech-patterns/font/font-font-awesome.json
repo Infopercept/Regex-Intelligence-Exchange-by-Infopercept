@@ -1,0 +1,51 @@
+{
+  "vendor": "Font",
+  "vendor_id": "font",
+  "product": "Font Awesome",
+  "product_id": "font-font-awesome",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Font Awesome HTML Detection",
+      "pattern": "<link[^>]* href=[^>]+(?:([\\d.]+)/)?(?:css/)?font-awesome(?:\\.min)?\\.css",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Font Awesome from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "font-awesome"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Font Awesome HTML Detection",
+      "pattern": "<script[^>]* src=[^>]+fontawesome(?:\\.js)?",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Font Awesome from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "font-awesome"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

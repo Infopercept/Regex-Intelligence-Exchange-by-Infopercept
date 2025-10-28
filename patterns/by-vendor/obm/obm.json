@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body>[s]+[s]+<p id=\"aliasource\">[s]+<a href=\"http://www.obm.org\">OBM.org</a>[s]+</p>[s]+<h1>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<body>[\\s]+[\\s]+<p id=\"aliasource\">[\\s]+<a href=\"http://www\\.obm\\.org\">OBM\\.org</a>[\\s]+</p>[\\s]+<h1>"
+      "pattern": "<body>[\\s]+[\\s]+<p id=\"aliasource\">[\\s]+<a href=\"http://www\\.obm\\.org\">OBM\\.org</a>[\\s]+</p>[\\s]+<h1>",
+      "version_group": 0
     },
     {
       "name": "OBM Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "OBM_Session=[s]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "OBM_Session=[\\s]+;"
+      "pattern": "OBM_Session=[\\s]+;",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

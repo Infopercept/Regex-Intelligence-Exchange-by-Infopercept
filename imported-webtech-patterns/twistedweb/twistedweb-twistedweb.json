@@ -1,0 +1,31 @@
+{
+  "vendor": "TwistedWeb",
+  "vendor_id": "twistedweb",
+  "product": "TwistedWeb",
+  "product_id": "twistedweb-twistedweb",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TwistedWeb Header Detection",
+      "pattern": "Server: TwistedWeb(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects TwistedWeb from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "twistedweb"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

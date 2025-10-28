@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<form\\ method=\"post\"\\ name=\"myform2\"\\ action=\"index\\.php\\?cmd=11\">"
+      "pattern": "<form\\ method=\"post\"\\ name=\"myform2\"\\ action=\"index\\.php\\?cmd=11\">",
+      "version_group": 0
     },
     {
       "name": "Auxilium-PetRatePro Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<p\\ class=\"text\"><b>Leader\\ Of\\ The\\ Pack\\ \\(Top\\ 10\\ Pets\\)</b><br><br>"
+      "pattern": "<p\\ class=\"text\"><b>Leader\\ Of\\ The\\ Pack\\ \\(Top\\ 10\\ Pets\\)</b><br><br>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

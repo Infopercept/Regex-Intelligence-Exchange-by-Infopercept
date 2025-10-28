@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Please\\ don't\\ remove\\ next\\ line\\.\\ Thank\\ You!\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Please\\ don't\\ remove\\ next\\ line\\.\\ Thank\\ You!\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "PCPIN-Chat Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.pcpin\\.com\"\\ style=\"font\\-size:10;\\ color:\\#990000;\"\\ target=\"_blank\">Powered\\ by\\ PCPIN\\.com</a>"
+      "pattern": "<a\\ href=\"http://www\\.pcpin\\.com\"\\ style=\"font\\-size:10;\\ color:\\#990000;\"\\ target=\"_blank\">Powered\\ by\\ PCPIN\\.com</a>",
+      "version_group": 0
     },
     {
       "name": "PCPIN-Chat Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.pcpin\\.com/\"\\ target=\"_blank\"\\ title=\"Powered\\ by\\ PCPIN\\ Chat\">PCPIN\\ Chat</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.pcpin\\.com/\"\\ target=\"_blank\"\\ title=\"Powered\\ by\\ PCPIN\\ Chat\">PCPIN\\ Chat</a>",
+      "version_group": 0
     },
     {
       "name": "PCPIN-Chat Pattern",
@@ -84,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<INPUT type=\"submit\" class=\"buttons\" value=\"[^\"]+\" onClicK=\"document.loginform.register.value=0; document.loginform.lostpassword.value=0\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<INPUT type=\"submit\" class=\"buttons\" value=\"[^\"]+\" onClicK=\"document.loginform.register.value=0; document.loginform.lostpassword.value=0\">"
+      "pattern": "<INPUT type=\"submit\" class=\"buttons\" value=\"[^\"]+\" onClicK=\"document.loginform.register.value=0; document.loginform.lostpassword.value=0\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

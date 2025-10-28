@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ This\\ is\\ all\\ just\\ a\\ super\\-duper\\ redirect\\ to\\ the\\ Welcome\\ page"
+      "pattern": "<!\\-\\-\\ This\\ is\\ all\\ just\\ a\\ super\\-duper\\ redirect\\ to\\ the\\ Welcome\\ page",
+      "version_group": 0
     },
     {
       "name": "Novell-Open-Enterprise-Server Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>Home\\ \\-\\ Novell\\ Open\\ Enterprise\\ Server\\ 2</title>"
+      "pattern": "<title>Home\\ \\-\\ Novell\\ Open\\ Enterprise\\ Server\\ 2</title>",
+      "version_group": 0
     },
     {
       "name": "Novell-Open-Enterprise-Server Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<script\\ type=\"text/javascript\"\\ src=\"/welcome/inc/flashobj\\.js\"></script>\\ <!\\-\\-\\ required\\ for\\ javascript\\ banners\\ from\\ Novell\\.com\\ \\-\\->"
+      "pattern": "<script\\ type=\"text/javascript\"\\ src=\"/welcome/inc/flashobj\\.js\"></script>\\ <!\\-\\-\\ required\\ for\\ javascript\\ banners\\ from\\ Novell\\.com\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

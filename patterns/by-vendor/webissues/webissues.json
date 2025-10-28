@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<div><input\\ type=\"hidden\"\\ name=\"__formId\"\\ id=\"field\\-login\\-__formId\"\\ value=\"login\"\\ />"
+      "pattern": "<div><input\\ type=\"hidden\"\\ name=\"__formId\"\\ id=\"field\\-login\\-__formId\"\\ value=\"login\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

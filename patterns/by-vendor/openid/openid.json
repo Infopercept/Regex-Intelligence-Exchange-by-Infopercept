@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link [^>]*rel=['\"](openid.server|openid.delegate)['\"][^>]*>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link [^>]*rel=['\"](openid\\.server|openid\\.delegate)['\"][^>]*>"
+      "pattern": "<link [^>]*rel=['\"](openid\\.server|openid\\.delegate)['\"][^>]*>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

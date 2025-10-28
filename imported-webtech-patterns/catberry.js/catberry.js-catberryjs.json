@@ -1,0 +1,71 @@
+{
+  "vendor": "Catberry.js",
+  "vendor_id": "catberry.js",
+  "product": "Catberry.js",
+  "product_id": "catberry.js-catberryjs",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Catberry.js Header Detection",
+      "pattern": "X-Powered-By: Catberry",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Catberry.js from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "catberry.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Catberry.js JavaScript Detection",
+      "pattern": "window\\.catberry|catberry\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Catberry.js from JavaScript variable 'catberry'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "catberry.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Catberry.js JavaScript Detection",
+      "pattern": "window\\.catberry\\.version|catberry\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Catberry.js from JavaScript variable 'catberry.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "catberry.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

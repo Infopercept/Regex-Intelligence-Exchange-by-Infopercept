@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "This\\ site\\ is\\ completely\\ powered\\ by\\ the\\ Squarespace\\ platform\\."
+      "pattern": "This\\ site\\ is\\ completely\\ powered\\ by\\ the\\ Squarespace\\ platform\\.",
+      "version_group": 0
     },
     {
       "name": "WebPersCookie cookie",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^WebPersCookie",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^WebPersCookie"
+      "pattern": "^WebPersCookie",
+      "version_group": 0
     },
     {
       "name": "SS_MID cookie",
@@ -56,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^SS_MID",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^SS_MID"
+      "pattern": "^SS_MID",
+      "version_group": 0
     },
     {
       "name": "ss_sd cookie",
@@ -72,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^ss_sd",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^ss_sd"
+      "pattern": "^ss_sd",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

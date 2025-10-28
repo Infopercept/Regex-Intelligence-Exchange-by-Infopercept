@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id='cgit'><table\\ id='header'>"
+      "pattern": "<div\\ id='cgit'><table\\ id='header'>",
+      "version_group": 0
     },
     {
       "name": "cgit Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel='stylesheet'\\ type='text/css'\\ href='/cgit\\.css'/>"
+      "pattern": "<link\\ rel='stylesheet'\\ type='text/css'\\ href='/cgit\\.css'/>",
+      "version_group": 0
     },
     {
       "name": "meta generator",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ name='generator'\\ content='cgit\\ v\\(\\[\\^\\\\s\\]\\+\\)'\\\\/>"
+      "pattern": "<meta\\ name='generator'\\ content='cgit\\ v\\(\\[\\^\\\\s\\]\\+\\)'\\\\/>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

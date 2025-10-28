@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.helloecho.com/go/?[^\"]*\" target=\"_blank\">powered by echo</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"http://www\\.helloecho\\.com/go/\\?[^\"]*\" target=\"_blank\">powered by echo</a>"
+      "pattern": "<a href=\"http://www\\.helloecho\\.com/go/\\?[^\"]*\" target=\"_blank\">powered by echo</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

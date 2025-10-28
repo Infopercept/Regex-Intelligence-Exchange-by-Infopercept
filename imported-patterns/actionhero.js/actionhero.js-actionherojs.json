@@ -1,0 +1,51 @@
+{
+  "vendor": "actionhero.js",
+  "vendor_id": "actionhero.js",
+  "product": "actionhero.js",
+  "product_id": "actionhero.js-actionherojs",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "actionhero.js Header Detection",
+      "pattern": "X-Powered-By: actionhero API",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects actionhero.js from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "actionhero.js"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "actionhero.js Script Detection",
+      "pattern": "actionheroClient\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects actionhero.js from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "actionhero.js"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

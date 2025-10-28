@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^FileMakerPro",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^FileMakerPro"
+      "pattern": "^FileMakerPro",
+      "version_group": 0
     },
     {
       "name": "FileMakerPro Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^FileMakerPro/([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

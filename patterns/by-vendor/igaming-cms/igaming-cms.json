@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ iGaming\\ CMS\\ is\\ free\\ software,\\ please\\ do\\ not\\ remove\\ the\\ copyright\\ message\\.\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ iGaming\\ CMS\\ is\\ free\\ software,\\ please\\ do\\ not\\ remove\\ the\\ copyright\\ message\\.\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "iGaming-CMS Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.igamingcms\\.com/\"\\ target=\"_blank\">iGaming\\ CMS</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.igamingcms\\.com/\"\\ target=\"_blank\">iGaming\\ CMS</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

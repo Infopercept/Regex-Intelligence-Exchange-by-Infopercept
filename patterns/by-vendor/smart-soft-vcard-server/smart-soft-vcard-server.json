@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Error</title></head><body><h1>403\\ \\-\\ Directory\\ browsing\\ not\\ allowed</h1><hr>SMART\\-SOFT\\ VCard\\ HTTP/SSL\\ server"
+      "pattern": "<title>Error</title></head><body><h1>403\\ \\-\\ Directory\\ browsing\\ not\\ allowed</h1><hr>SMART\\-SOFT\\ VCard\\ HTTP/SSL\\ server",
+      "version_group": 0
     },
     {
       "name": "SMART-SOFT-VCard-Server Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^SMART-SOFT VCard",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^SMART-SOFT VCard"
+      "pattern": "^SMART-SOFT VCard",
+      "version_group": 0
     },
     {
       "name": "SMART-SOFT-VCard-Server Pattern",
@@ -79,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Directory%20browsing%20not%20allowed$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Directory%20browsing%20not%20allowed$"
+      "pattern": "^Directory%20browsing%20not%20allowed$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

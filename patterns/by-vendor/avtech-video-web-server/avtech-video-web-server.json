@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>\\-\\-\\-\\ VIDEO\\ WEB\\ SERVER\\ \\-\\-\\-</title>"
+      "pattern": "<title>\\-\\-\\-\\ VIDEO\\ WEB\\ SERVER\\ \\-\\-\\-</title>",
+      "version_group": 0
     },
     {
       "name": "AVTech-Video-Web-Server Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<input\\ type=\"button\"\\ name=\"Download\"\\ value=\"Download\\ AP\"\\ class=\"button\"\\ onClick=\"MM_goToURL\\(\\\\"
+      "pattern": "<input\\ type=\"button\"\\ name=\"Download\"\\ value=\"Download\\ AP\"\\ class=\"button\"\\ onClick=\"MM_goToURL\\(\\\\",
+      "version_group": 0
     },
     {
       "name": "AVTech-Video-Web-Server Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<input\\ type=\"submit\"\\ name=\"Download\"\\ value=\"Download\\ AP\"\\ class=\"button\"\\ onClick=\"MM_goToURL\\(\\\\"
+      "pattern": "<input\\ type=\"submit\"\\ name=\"Download\"\\ value=\"Download\\ AP\"\\ class=\"button\"\\ onClick=\"MM_goToURL\\(\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

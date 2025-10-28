@@ -1,0 +1,71 @@
+{
+  "vendor": "Volusion",
+  "vendor_id": "volusion",
+  "product": "Volusion",
+  "product_id": "volusion-volusion",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Volusion HTML Detection",
+      "pattern": "<link [^>]*href=\"[^\"]*/vspfiles/1",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Volusion from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "volusion"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Volusion HTML Detection",
+      "pattern": "<body [^>]*data-vn-page-name2",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Volusion from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "volusion"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Volusion Script Detection",
+      "pattern": "/volusion\\.js(?:\\?([\\d.]*))?",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Volusion from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "volusion"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

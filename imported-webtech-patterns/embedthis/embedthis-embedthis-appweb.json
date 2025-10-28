@@ -1,0 +1,31 @@
+{
+  "vendor": "EmbedThis",
+  "vendor_id": "embedthis",
+  "product": "EmbedThis Appweb",
+  "product_id": "embedthis-embedthis-appweb",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "EmbedThis Appweb Header Detection",
+      "pattern": "Server: Mbedthis-Appweb(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects EmbedThis Appweb from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "embedthis-appweb"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

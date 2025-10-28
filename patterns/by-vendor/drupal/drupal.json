@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"text/javascript\" src=\"[^\"]*/misc/drupal.js[^\"]*\"></script>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script type=\"text/javascript\" src=\"[^\\\"]*/misc/drupal.js[^\\\"]*\"></script>"
+      "pattern": "<script type=\"text/javascript\" src=\"[^\\\"]*/misc/drupal.js[^\\\"]*\"></script>",
+      "version_group": 0
     },
     {
       "name": "Drupal Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<[^>]+alt=\"Powered by Drupal, an open source content management system\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<[^>]+alt=\"Powered by Drupal, an open source content management system\""
+      "pattern": "<[^>]+alt=\"Powered by Drupal, an open source content management system\"",
+      "version_group": 0
     },
     {
       "name": "Drupal Pattern",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "@import \"[^\"]*/misc/drupal.css\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "@import \"[^\\\"]*/misc/drupal.css\""
+      "pattern": "@import \"[^\\\"]*/misc/drupal.css\"",
+      "version_group": 0
     },
     {
       "name": "Drupal Pattern",
@@ -74,7 +95,8 @@
           }
         ]
       },
-      "pattern": "jQuery\\.extend\\(Drupal\\.settings,"
+      "pattern": "jQuery\\.extend\\(Drupal\\.settings,",
+      "version_group": 0
     },
     {
       "name": "Drupal Pattern",
@@ -96,7 +118,8 @@
           }
         ]
       },
-      "pattern": "Drupal\\.extend\\("
+      "pattern": "Drupal\\.extend\\(",
+      "version_group": 0
     },
     {
       "name": "Mobile Plugin Cookie",
@@ -110,9 +133,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "mobileplugin_group=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "mobileplugin_group="
+      "pattern": "mobileplugin_group=",
+      "version_group": 0
     },
     {
       "name": "Drupal Pattern",
@@ -126,9 +156,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "(HIT|MISS)",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "(HIT|MISS)"
+      "pattern": "(HIT|MISS)",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

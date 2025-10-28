@@ -1,0 +1,171 @@
+{
+  "vendor": "Adcash",
+  "vendor_id": "adcash",
+  "product": "Adcash",
+  "product_id": "adcash-adcash",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Adcash Script Detection",
+      "pattern": "^[^/]*//(?:[^/]+\\.)?adcash\\.com/(?:script|ad)/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Adcash from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "adcash"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Adcash JavaScript Detection",
+      "pattern": "window\\.SuLoaded|SuLoaded\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Adcash from JavaScript variable 'SuLoaded'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "adcash"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Adcash JavaScript Detection",
+      "pattern": "window\\.SuUrl|SuUrl\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Adcash from JavaScript variable 'SuUrl'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "adcash"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Adcash JavaScript Detection",
+      "pattern": "window\\.ac_bgclick_URL|ac_bgclick_URL\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Adcash from JavaScript variable 'ac_bgclick_URL'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "adcash"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Adcash JavaScript Detection",
+      "pattern": "window\\.ct_nOpp|ct_nOpp\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Adcash from JavaScript variable 'ct_nOpp'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "adcash"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Adcash JavaScript Detection",
+      "pattern": "window\\.ct_nSuUrl|ct_nSuUrl\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Adcash from JavaScript variable 'ct_nSuUrl'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "adcash"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Adcash JavaScript Detection",
+      "pattern": "window\\.ct_siteunder|ct_siteunder\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Adcash from JavaScript variable 'ct_siteunder'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "adcash"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Adcash JavaScript Detection",
+      "pattern": "window\\.ct_tag|ct_tag\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Adcash from JavaScript variable 'ct_tag'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "adcash"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

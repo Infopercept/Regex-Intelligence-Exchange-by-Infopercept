@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<span\\ id=\"howto\">For\\ guidance\\ on\\ using\\ ATutor\\ see\\ the\\ official"
+      "pattern": "<span\\ id=\"howto\">For\\ guidance\\ on\\ using\\ ATutor\\ see\\ the\\ official",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

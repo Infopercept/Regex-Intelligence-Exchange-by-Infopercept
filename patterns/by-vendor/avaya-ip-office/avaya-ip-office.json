@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<html><head><title>IP\\ Office\\ System\\ Status</title><style"
+      "pattern": "<html><head><title>IP\\ Office\\ System\\ Status</title><style",
+      "version_group": 0
     },
     {
       "name": "Avaya-IP-Office Pattern",
@@ -51,5 +52,6 @@
       "pattern": "Server: ^IPOffice/([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

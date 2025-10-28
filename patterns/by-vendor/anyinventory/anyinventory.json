@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t<title>anyInventory:\\ Top</title>"
+      "pattern": "\\\t\\\t<title>anyInventory:\\ Top</title>",
+      "version_group": 0
     },
     {
       "name": "anyInventory Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t\t\t you have inventoried <b>[0-9]*</b>  items with <a href=\"http://anyinventory.sourceforge.net/\">anyInventory, the most flexible and powerful web-based inventory system</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "\t\t\t\t\t you have inventoried <b>[0-9]*</b>  items with <a href=\"http://anyinventory.sourceforge.net/\">anyInventory, the most flexible and powerful web-based inventory system</a>"
+      "pattern": "\t\t\t\t\t you have inventoried <b>[0-9]*</b>  items with <a href=\"http://anyinventory.sourceforge.net/\">anyInventory, the most flexible and powerful web-based inventory system</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

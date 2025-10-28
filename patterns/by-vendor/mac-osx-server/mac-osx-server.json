@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Mac\\ OS\\ X\\ Server</title>"
+      "pattern": "<title>Mac\\ OS\\ X\\ Server</title>",
+      "version_group": 0
     },
     {
       "name": "Mac-OSX-Server Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<iframe\\ id=\"webmail_frame\"\\ src=\"/webmail/src/\"><!\\-\\-\\ this\\ frame\\ will\\ enable\\ the\\ webmail\\ link\\ if\\ webmail\\ is\\ active\\ \\-\\-></iframe>"
+      "pattern": "<iframe\\ id=\"webmail_frame\"\\ src=\"/webmail/src/\"><!\\-\\-\\ this\\ frame\\ will\\ enable\\ the\\ webmail\\ link\\ if\\ webmail\\ is\\ active\\ \\-\\-></iframe>",
+      "version_group": 0
     },
     {
       "name": "Mac-OSX-Server Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ media=\"screen,\\ projection\"\\ href=\"/collaboration/css/required_compressed\\.css\">"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ media=\"screen,\\ projection\"\\ href=\"/collaboration/css/required_compressed\\.css\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

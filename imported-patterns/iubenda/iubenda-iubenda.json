@@ -1,0 +1,31 @@
+{
+  "vendor": "Iubenda",
+  "vendor_id": "iubenda",
+  "product": "Iubenda",
+  "product_id": "iubenda-iubenda",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Iubenda Script Detection",
+      "pattern": "iubenda\\.com/cookie-solution/confs/js/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Iubenda from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "iubenda"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

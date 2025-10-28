@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "BIGIP",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "BIGIP"
+      "pattern": "BIGIP",
+      "version_group": 0
     },
     {
       "name": "CEBrowser cookie",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "CEBrowser",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "CEBrowser"
+      "pattern": "CEBrowser",
+      "version_group": 0
     },
     {
       "name": "ceSessionUID cookie",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "ceSessionUID",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "ceSessionUID"
+      "pattern": "ceSessionUID",
+      "version_group": 0
     },
     {
       "name": "LoadingAsMobile cookie",
@@ -66,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "LoadingAsMobile",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "LoadingAsMobile"
+      "pattern": "LoadingAsMobile",
+      "version_group": 0
     },
     {
       "name": "_SitePath cookie",
@@ -82,9 +110,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "_SitePath",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "_SitePath"
+      "pattern": "_SitePath",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "OpenResty",
+  "vendor_id": "openresty",
+  "product": "OpenResty",
+  "product_id": "openresty-openresty",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OpenResty Header Detection",
+      "pattern": "Server: openresty(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects OpenResty from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "openresty"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

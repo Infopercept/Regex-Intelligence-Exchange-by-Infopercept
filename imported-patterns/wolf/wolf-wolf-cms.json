@@ -1,0 +1,31 @@
+{
+  "vendor": "Wolf",
+  "vendor_id": "wolf",
+  "product": "Wolf CMS",
+  "product_id": "wolf-wolf-cms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Wolf CMS HTML Detection",
+      "pattern": "(?:<a href=\"[^>]+wolfcms\\.org[^>]+>Wolf CMS(?:</a>)? inside|Thank you for using <a[^>]+>Wolf CMS)",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Wolf CMS from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "wolf-cms"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

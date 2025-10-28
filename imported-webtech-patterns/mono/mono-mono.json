@@ -1,0 +1,31 @@
+{
+  "vendor": "Mono",
+  "vendor_id": "mono",
+  "product": "Mono",
+  "product_id": "mono-mono",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mono Header Detection",
+      "pattern": "X-Powered-By: Mono",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Mono from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "mono"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://compmaster\\.prv\\.pl\"\\ target=\"_blank\">powered\\ by\\ F3Site</a></span>"
+      "pattern": "<a\\ href=\"http://compmaster\\.prv\\.pl\"\\ target=\"_blank\">powered\\ by\\ F3Site</a></span>",
+      "version_group": 0
     },
     {
       "name": "F3Site Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by[^>]*<a[^>]*href=\"http://compmaster.prv.pl[^>]*>F3Site[^>]*</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by[^>]*<a[^>]*href=\"http://compmaster.prv.pl[^>]*>F3Site[^>]*</a>"
+      "pattern": "Powered by[^>]*<a[^>]*href=\"http://compmaster.prv.pl[^>]*>F3Site[^>]*</a>",
+      "version_group": 0
     },
     {
       "name": "F3Site Pattern",
@@ -56,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by[^>]*<a[^>]*href=\"http://dhost.info/compmaste[^>]*>F3Site[^<]*</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by[^>]*<a[^>]*href=\"http://dhost.info/compmaste[^>]*>F3Site[^<]*</a>"
+      "pattern": "Powered by[^>]*<a[^>]*href=\"http://dhost.info/compmaste[^>]*>F3Site[^<]*</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

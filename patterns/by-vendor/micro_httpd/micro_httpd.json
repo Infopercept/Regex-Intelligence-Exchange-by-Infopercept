@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "micro_httpd",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "micro_httpd"
+      "pattern": "micro_httpd",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

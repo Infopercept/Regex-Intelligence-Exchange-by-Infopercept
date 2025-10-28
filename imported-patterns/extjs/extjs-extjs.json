@@ -1,0 +1,31 @@
+{
+  "vendor": "ExtJS",
+  "vendor_id": "extjs",
+  "product": "ExtJS",
+  "product_id": "extjs-extjs",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ExtJS Script Detection",
+      "pattern": "ext-base\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ExtJS from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "extjs"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "vendor": "eWAY",
+  "vendor_id": "eway",
+  "product": "eWAY Payments",
+  "product_id": "eway-eway-payments",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "eWAY Payments HTML Detection",
+      "pattern": "<img [^>]*src=\"[^/]*//[^/]*eway\\.com",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects eWAY Payments from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "eway-payments"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "eWAY Payments Script Detection",
+      "pattern": "secure\\.ewaypayments\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects eWAY Payments from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "eway-payments"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

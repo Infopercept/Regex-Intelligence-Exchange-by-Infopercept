@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Netscape-Enterprise",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Netscape-Enterprise"
+      "pattern": "^Netscape-Enterprise",
+      "version_group": 0
     },
     {
       "name": "Netscape-Enterprise Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Netscape-Enterprise/(.+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

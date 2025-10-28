@@ -29,5 +29,6 @@
       "pattern": "Server: ^Http explorer ([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

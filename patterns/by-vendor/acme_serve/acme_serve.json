@@ -21,13 +21,14 @@
         ],
         "test_cases": [
           {
-            "input": "Server: ^Acme\\.Serve\\",
-            "expected_version": "8.5"
+            "input": "Server: Acme.Serve",
+            "expected_version": "Acme.Serve"
           }
         ]
       },
-      "pattern": "Server: ^Acme\\.Serve\\",
-      "version_group": 1
+      "pattern": "Acme\\.Serve",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

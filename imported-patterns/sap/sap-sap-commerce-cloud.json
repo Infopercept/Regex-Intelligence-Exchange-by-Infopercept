@@ -1,0 +1,51 @@
+{
+  "vendor": "SAP",
+  "vendor_id": "sap",
+  "product": "SAP Commerce Cloud",
+  "product_id": "sap-sap-commerce-cloud",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SAP Commerce Cloud HTML Detection",
+      "pattern": "<[^>]+/(?:sys_master|hybr|_ui/(?:.*responsive/)?(?:desktop|common(?:/images|/img|/css|ico)?))/",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SAP Commerce Cloud from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "sap-commerce-cloud"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "SAP Commerce Cloud HTML Detection",
+      "pattern": "<script[^>].*hybris.*.js",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SAP Commerce Cloud from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "sap-commerce-cloud"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

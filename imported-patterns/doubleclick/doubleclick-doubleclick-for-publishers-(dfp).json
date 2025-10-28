@@ -1,0 +1,31 @@
+{
+  "vendor": "DoubleClick",
+  "vendor_id": "doubleclick",
+  "product": "DoubleClick for Publishers (DFP)",
+  "product_id": "doubleclick-doubleclick-for-publishers-(dfp)",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DoubleClick for Publishers (DFP) Script Detection",
+      "pattern": "googletagservices\\.com/tag/js/gpt(?:_mobile)?\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DoubleClick for Publishers (DFP) from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "doubleclick-for-publishers-(dfp)"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

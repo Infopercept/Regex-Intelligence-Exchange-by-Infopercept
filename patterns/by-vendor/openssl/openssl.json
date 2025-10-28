@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "OpenSSL",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "OpenSSL"
+      "pattern": "OpenSSL",
+      "version_group": 0
     },
     {
       "name": "OpenSSL Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: [^\\r^\\n]*OpenSSL/([^\\s^\\r^\\n]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

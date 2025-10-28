@@ -1,0 +1,31 @@
+{
+  "vendor": "script.aculo.us",
+  "vendor_id": "script.aculo.us",
+  "product": "script.aculo.us",
+  "product_id": "script.aculo.us-scriptaculous",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "script.aculo.us Script Detection",
+      "pattern": "/(?:scriptaculous|protoaculous)(?:\\.js|/)",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects script.aculo.us from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "script.aculo.us"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

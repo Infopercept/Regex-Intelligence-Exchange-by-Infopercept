@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ This\\ page\\ was\\ generated\\ by\\ esoTalk\\ \\(http://esotalk\\.com\\)\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ This\\ page\\ was\\ generated\\ by\\ esoTalk\\ \\(http://esotalk\\.com\\)\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "esoTalk Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ The\\ following\\ text\\ constitutes\\ a\\ copyright\\ notification\\ and,\\ under\\ the\\ terms\\ of\\ the\\ GNU\\ GPL\\ \\(see\\ LICENSE\\),\\ may\\ neither\\ be\\ removed\\ nor\\ altered\\ in\\ any\\ way\\ which\\ makes\\ it\\ invisible,\\ affects\\ the\\ hyperlink,\\ or\\ changes\\ the\\ text\\ \"Powered\\ by\\ esoTalk\"\\.\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ The\\ following\\ text\\ constitutes\\ a\\ copyright\\ notification\\ and,\\ under\\ the\\ terms\\ of\\ the\\ GNU\\ GPL\\ \\(see\\ LICENSE\\),\\ may\\ neither\\ be\\ removed\\ nor\\ altered\\ in\\ any\\ way\\ which\\ makes\\ it\\ invisible,\\ affects\\ the\\ hyperlink,\\ or\\ changes\\ the\\ text\\ \"Powered\\ by\\ esoTalk\"\\.\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "esoTalk Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href='http://esotalk\\.com/'>esoTalk</a>\\&trade;"
+      "pattern": "Powered\\ by\\ <a\\ href='http://esotalk\\.com/'>esoTalk</a>\\&trade;",
+      "version_group": 0
     },
     {
       "name": "esoTalk Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<ul><li><a\\ href='http://esotalk\\.com'>Donate\\ to\\ esoTalk</a></li></ul><p\\ id='copyright'>"
+      "pattern": "<ul><li><a\\ href='http://esotalk\\.com'>Donate\\ to\\ esoTalk</a></li></ul><p\\ id='copyright'>",
+      "version_group": 0
     },
     {
       "name": "esoTalk Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<title>esoTalk\\ Installer</title>"
+      "pattern": "<title>esoTalk\\ Installer</title>",
+      "version_group": 0
     },
     {
       "name": "esoTalk Pattern",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<p>If\\ you\\ run\\ into\\ any\\ other\\ problems\\ or\\ just\\ want\\ some\\ help\\ with\\ the\\ installation,\\ feel\\ free\\ to\\ ask\\ for\\ assistance\\ at\\ the\\ <a\\ href='http://forum\\.esotalk\\.com/'>esoTalk\\ support\\ forum</a>\\ where\\ a\\ bunch\\ of\\ friendly\\ people\\ will\\ be\\ happy\\ to\\ help\\ you\\ out\\.</p>"
+      "pattern": "<p>If\\ you\\ run\\ into\\ any\\ other\\ problems\\ or\\ just\\ want\\ some\\ help\\ with\\ the\\ installation,\\ feel\\ free\\ to\\ ask\\ for\\ assistance\\ at\\ the\\ <a\\ href='http://forum\\.esotalk\\.com/'>esoTalk\\ support\\ forum</a>\\ where\\ a\\ bunch\\ of\\ friendly\\ people\\ will\\ be\\ happy\\ to\\ help\\ you\\ out\\.</p>",
+      "version_group": 0
     },
     {
       "name": "esoTalk Pattern",
@@ -158,7 +164,9 @@
           }
         ]
       },
-      "pattern": "<script\\ type='text/javascript'\\ src='\\.\\./js/esotalk\\.js'></script>"
+      "pattern": "<script\\ type='text/javascript'\\ src='\\.\\./js/esotalk\\.js'></script>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

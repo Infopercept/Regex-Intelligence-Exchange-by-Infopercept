@@ -1,0 +1,51 @@
+{
+  "vendor": "mod_wsgi",
+  "vendor_id": "mod_wsgi",
+  "product": "mod_wsgi",
+  "product_id": "mod_wsgi-mod_wsgi",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "mod_wsgi Header Detection",
+      "pattern": "Server: mod_wsgi(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects mod_wsgi from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "mod_wsgi"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "mod_wsgi Header Detection",
+      "pattern": "X-Powered-By: mod_wsgi(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects mod_wsgi from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "mod_wsgi"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

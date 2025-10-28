@@ -1,0 +1,31 @@
+{
+  "vendor": "shoperfa",
+  "vendor_id": "shoperfa",
+  "product": "shoperfa",
+  "product_id": "shoperfa-shoperfa",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "shoperfa Header Detection",
+      "pattern": "X-Powered-By: ^Shoperfa$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects shoperfa from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "shoperfa"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

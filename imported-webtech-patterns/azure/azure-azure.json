@@ -1,0 +1,91 @@
+{
+  "vendor": "Azure",
+  "vendor_id": "azure",
+  "product": "Azure",
+  "product_id": "azure-azure",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Azure Header Detection",
+      "pattern": "azure-regionname: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Azure from azure-regionname header",
+        "tags": [
+          "webtech",
+          "header",
+          "azure"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Azure Header Detection",
+      "pattern": "azure-sitename: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Azure from azure-sitename header",
+        "tags": [
+          "webtech",
+          "header",
+          "azure"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Azure Header Detection",
+      "pattern": "azure-slotname: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Azure from azure-slotname header",
+        "tags": [
+          "webtech",
+          "header",
+          "azure"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Azure Header Detection",
+      "pattern": "azure-version: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Azure from azure-version header",
+        "tags": [
+          "webtech",
+          "header",
+          "azure"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

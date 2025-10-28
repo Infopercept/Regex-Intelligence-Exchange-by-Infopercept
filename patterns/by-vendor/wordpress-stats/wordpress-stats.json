@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script src=\"https?://(ssl-)?stats.wordpress.com/[^\"]+\" type=\"text/javascript\"></script>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script src=\"https?://(ssl-)?stats\\.wordpress\\.com/[^\"]+\" type=\"text/javascript\"></script>"
+      "pattern": "<script src=\"https?://(ssl-)?stats\\.wordpress\\.com/[^\"]+\" type=\"text/javascript\"></script>",
+      "version_group": 0
     },
     {
       "name": "WordPress-Stats Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<noscript><img src=\"https?://stats.wordpress.com/b.gif?v=noscript\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<noscript><img src=\"https?://stats\\.wordpress\\.com/b\\.gif\\?v=noscript\""
+      "pattern": "<noscript><img src=\"https?://stats\\.wordpress\\.com/b\\.gif\\?v=noscript\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

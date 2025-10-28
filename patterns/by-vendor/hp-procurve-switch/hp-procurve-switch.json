@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^eHTTP",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^eHTTP"
+      "pattern": "^eHTTP",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ <title>Admin\\ \\-\\ Quick\\.Cms\\ \\-\\ simple\\ content\\ management\\ system</title>"
+      "pattern": "\\ \\ <title>Admin\\ \\-\\ Quick\\.Cms\\ \\-\\ simple\\ content\\ management\\ system</title>",
+      "version_group": 0
     },
     {
       "name": "Quick_Cms Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ var\\ cfLangNoWord\\ \\ \\ \\ \\ \\ =\\ \"Please\\ fill\\ in\\ all\\ required\\ fields\";"
+      "pattern": "\\ \\ \\ \\ var\\ cfLangNoWord\\ \\ \\ \\ \\ \\ =\\ \"Please\\ fill\\ in\\ all\\ required\\ fields\";",
+      "version_group": 0
     },
     {
       "name": "Quick_Cms Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ \\ \\ <div\\ class=\"foot\"\\ id=\"powered\"><a\\ href=\"http://opensolution\\.org/\">Powered\\ by\\ <strong>Quick\\.Cms</strong></a></div>"
+      "pattern": "\\ \\ \\ \\ \\ \\ <div\\ class=\"foot\"\\ id=\"powered\"><a\\ href=\"http://opensolution\\.org/\">Powered\\ by\\ <strong>Quick\\.Cms</strong></a></div>",
+      "version_group": 0
     },
     {
       "name": "Quick_Cms Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ LICENSE\\ REQUIREMENTS\\ \\-\\ DONT\\ DELETE/HIDE\\ LINK\\ \"powered\\ by\\ Quick\\.Cms\"\\ TO\\ www\\.OpenSolution\\.org"
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ LICENSE\\ REQUIREMENTS\\ \\-\\ DONT\\ DELETE/HIDE\\ LINK\\ \"powered\\ by\\ Quick\\.Cms\"\\ TO\\ www\\.OpenSolution\\.org",
+      "version_group": 0
     },
     {
       "name": "Quick_Cms Pattern",
@@ -114,7 +118,9 @@
           }
         ]
       },
-      "pattern": "\\ \\ <meta\\ name=\"Author\"\\ content=\"OpenSolution\\.org\"\\ />"
+      "pattern": "\\ \\ <meta\\ name=\"Author\"\\ content=\"OpenSolution\\.org\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

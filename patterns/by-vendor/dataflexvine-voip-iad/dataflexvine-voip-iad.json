@@ -29,5 +29,6 @@
       "pattern": "Server: DataflexViNE-Webserver/([\\d\\.]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

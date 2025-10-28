@@ -1,0 +1,51 @@
+{
+  "vendor": "Lagoon",
+  "vendor_id": "lagoon",
+  "product": "Lagoon",
+  "product_id": "lagoon-lagoon",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Lagoon Header Detection",
+      "pattern": "X-LAGOON: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Lagoon from X-LAGOON header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "lagoon"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Lagoon Header Detection",
+      "pattern": "x-lagoon: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Lagoon from x-lagoon header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "lagoon"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

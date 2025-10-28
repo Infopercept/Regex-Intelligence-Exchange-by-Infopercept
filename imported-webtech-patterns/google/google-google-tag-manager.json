@@ -1,0 +1,91 @@
+{
+  "vendor": "Google",
+  "vendor_id": "google",
+  "product": "Google Tag Manager",
+  "product_id": "google-google-tag-manager",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Google Tag Manager HTML Detection",
+      "pattern": "googletagmanager\\.com/ns\\.html[^>]+></iframe>",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Tag Manager from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "google-tag-manager"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Google Tag Manager HTML Detection",
+      "pattern": "<!-- (?:End )?Google Tag Manager -->",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Tag Manager from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "google-tag-manager"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Google Tag Manager JavaScript Detection",
+      "pattern": "window\\.google_tag_manager|google_tag_manager\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Tag Manager from JavaScript variable 'google_tag_manager'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "google-tag-manager"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Google Tag Manager JavaScript Detection",
+      "pattern": "window\\.googletag|googletag\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Tag Manager from JavaScript variable 'googletag'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "google-tag-manager"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

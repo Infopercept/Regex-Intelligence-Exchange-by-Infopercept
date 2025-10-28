@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Web\\ Server"
+      "pattern": "Web\\ Server",
+      "version_group": 0
     },
     {
       "name": "title",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>Dell\\ OpenManage\\ Switch\\ Administrator</title>"
+      "pattern": "<title>Dell\\ OpenManage\\ Switch\\ Administrator</title>",
+      "version_group": 0
     },
     {
       "name": "redirect",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "window\\.top\\.location\\.href\\ =\\ \\\\"
+      "pattern": "window\\.top\\.location\\.href\\ =\\ \\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

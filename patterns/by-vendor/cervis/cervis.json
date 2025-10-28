@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.cervistech\\.com\"\\ target=\"_blank\"><img\\ src=\"/acts/images/cervis_logo_sm\\.png\"\\ align=\\\\"
+      "pattern": "<a\\ href=\"http://www\\.cervistech\\.com\"\\ target=\"_blank\"><img\\ src=\"/acts/images/cervis_logo_sm\\.png\"\\ align=\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

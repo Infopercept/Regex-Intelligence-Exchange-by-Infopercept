@@ -1,0 +1,51 @@
+{
+  "vendor": "FareHarbor",
+  "vendor_id": "fareharbor",
+  "product": "FareHarbor",
+  "product_id": "fareharbor-fareharbor",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FareHarbor HTML Detection",
+      "pattern": "<iframe[^>]+fareharbor",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects FareHarbor from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "fareharbor"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "FareHarbor Script Detection",
+      "pattern": "fareharbor\\.com/embeds/api/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects FareHarbor from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "fareharbor"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

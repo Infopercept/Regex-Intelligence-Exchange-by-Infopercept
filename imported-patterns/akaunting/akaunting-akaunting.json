@@ -1,0 +1,71 @@
+{
+  "vendor": "Akaunting",
+  "vendor_id": "akaunting",
+  "product": "Akaunting",
+  "product_id": "akaunting-akaunting",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Akaunting Header Detection",
+      "pattern": "X-Akaunting: ^Free Accounting Software$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Akaunting from X-Akaunting header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "akaunting"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Akaunting HTML Detection",
+      "pattern": "<link[^>]+akaunting-green\\.css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Akaunting from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "akaunting"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Akaunting HTML Detection",
+      "pattern": "Powered By Akaunting: <a [^>]*href=\"https?://(?:www\\.)?akaunting\\.com[^>]+>",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Akaunting from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "akaunting"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vendor": "Allegro",
+  "vendor_id": "allegro",
+  "product": "Allegro RomPager",
+  "product_id": "allegro-allegro-rompager",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Allegro RomPager Header Detection",
+      "pattern": "Server: Allegro-Software-RomPager(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Allegro RomPager from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "allegro-rompager"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

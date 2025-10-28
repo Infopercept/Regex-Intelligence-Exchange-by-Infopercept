@@ -1,0 +1,31 @@
+{
+  "vendor": "BaseHTTP",
+  "vendor_id": "basehttp",
+  "product": "BaseHTTP",
+  "product_id": "basehttp-basehttp",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BaseHTTP Header Detection",
+      "pattern": "Server: BaseHTTP/?([\\d\\.]+)?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects BaseHTTP from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "basehttp"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

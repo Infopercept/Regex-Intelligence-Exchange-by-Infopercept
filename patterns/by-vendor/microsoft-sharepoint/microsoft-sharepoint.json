@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<noscript><div\\ class='noindex'>You\\ may\\ be\\ trying\\ to\\ access\\ this\\ site\\ from\\ a\\ secured\\ browser\\ on\\ the\\ server\\.\\ Please\\ enable\\ scripts\\ and\\ reload\\ this\\ page\\.</div></noscript>"
+      "pattern": "<noscript><div\\ class='noindex'>You\\ may\\ be\\ trying\\ to\\ access\\ this\\ site\\ from\\ a\\ secured\\ browser\\ on\\ the\\ server\\.\\ Please\\ enable\\ scripts\\ and\\ reload\\ this\\ page\\.</div></noscript>",
+      "version_group": 0
     },
     {
       "name": "Microsoft-Sharepoint Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<noscript><div\\ class='noindex'>Please\\ enable\\ scripts\\ and\\ reload\\ this\\ page\\.\\ If\\ your\\ browser\\ does\\ not\\ support\\ script,\\ then\\ you\\ can\\ visit\\ the\\ minimal\\ version\\ of\\ this\\ site\\ at\\ <a\\ href="
+      "pattern": "<noscript><div\\ class='noindex'>Please\\ enable\\ scripts\\ and\\ reload\\ this\\ page\\.\\ If\\ your\\ browser\\ does\\ not\\ support\\ script,\\ then\\ you\\ can\\ visit\\ the\\ minimal\\ version\\ of\\ this\\ site\\ at\\ <a\\ href=",
+      "version_group": 0
     },
     {
       "name": "Microsoft-Sharepoint Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"CollaborationServer\"\\ content=\"SharePoint\\ Team\\ Web\\ Site\"\\ />"
+      "pattern": "<meta\\ name=\"CollaborationServer\"\\ content=\"SharePoint\\ Team\\ Web\\ Site\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Microsoft-Sharepoint Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<input\\ type=\"hidden\"\\ name=\"MSOWebPartPage_PostbackSource\"\\ id=\"MSOWebPartPage_PostbackSource\"\\ value="
+      "pattern": "<input\\ type=\"hidden\"\\ name=\"MSOWebPartPage_PostbackSource\"\\ id=\"MSOWebPartPage_PostbackSource\"\\ value=",
+      "version_group": 0
     },
     {
       "name": "Microsoft-Sharepoint Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"GENERATOR\"\\ content=\"Microsoft\\ SharePoint\"\\ />"
+      "pattern": "<meta\\ name=\"GENERATOR\"\\ content=\"Microsoft\\ SharePoint\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Microsoft-Sharepoint Pattern",
@@ -136,7 +141,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"progid\"\\ content=\"SharePoint\\.WebPartPage\\.Document\"\\ />"
+      "pattern": "<meta\\ name=\"progid\"\\ content=\"SharePoint\\.WebPartPage\\.Document\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

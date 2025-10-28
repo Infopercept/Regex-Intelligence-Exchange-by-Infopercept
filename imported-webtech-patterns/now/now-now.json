@@ -1,0 +1,91 @@
+{
+  "vendor": "Now",
+  "vendor_id": "now",
+  "product": "Now",
+  "product_id": "now-now",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Now Header Detection",
+      "pattern": "server: ^now$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Now from server header",
+        "tags": [
+          "webtech",
+          "header",
+          "now"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Now Header Detection",
+      "pattern": "x-now-trace: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Now from x-now-trace header",
+        "tags": [
+          "webtech",
+          "header",
+          "now"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Now Header Detection",
+      "pattern": "x-now-id: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Now from x-now-id header",
+        "tags": [
+          "webtech",
+          "header",
+          "now"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Now Header Detection",
+      "pattern": "x-now-cache: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Now from x-now-cache header",
+        "tags": [
+          "webtech",
+          "header",
+          "now"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

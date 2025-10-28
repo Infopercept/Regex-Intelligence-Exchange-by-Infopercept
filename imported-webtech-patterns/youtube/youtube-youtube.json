@@ -1,0 +1,31 @@
+{
+  "vendor": "YouTube",
+  "vendor_id": "youtube",
+  "product": "YouTube",
+  "product_id": "youtube-youtube",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "YouTube HTML Detection",
+      "pattern": "<(?:param|embed|iframe)[^>]+youtube(?:-nocookie)?\\.com/(?:v|embed)",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects YouTube from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "youtube"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

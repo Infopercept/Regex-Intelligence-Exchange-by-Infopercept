@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>MailSite\\ Express</title>"
+      "pattern": "<title>MailSite\\ Express</title>",
+      "version_group": 0
     },
     {
       "name": "MailSiteExpress Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<font face=\"arial\" size=\"1\">MailSite Express <br> version [0-9.]+</font>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<font face=\"arial\" size=\"1\">MailSite Express <br> version [0-9\\.]+</font>"
+      "pattern": "<font face=\"arial\" size=\"1\">MailSite Express <br> version [0-9\\.]+</font>",
+      "version_group": 0
     },
     {
       "name": "MailSiteExpress Pattern",
@@ -56,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- This software is copyright [0-9 ,.]+ Rockliffe systems, Inc. -->",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!-- This software is copyright [0-9 ,\\.]+ Rockliffe systems, Inc. -->"
+      "pattern": "<!-- This software is copyright [0-9 ,\\.]+ Rockliffe systems, Inc. -->",
+      "version_group": 0
     },
     {
       "name": "MailSiteExpress Pattern",
@@ -80,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<b>MailSite\\ <em>Express</em>\\ Login</b>"
+      "pattern": "<b>MailSite\\ <em>Express</em>\\ Login</b>",
+      "version_group": 0
     },
     {
       "name": "MailSiteExpress Pattern",
@@ -102,7 +118,9 @@
           }
         ]
       },
-      "pattern": "onSubmit=\"OpenExpress\\(document\\.ExpressLogin\\)\""
+      "pattern": "onSubmit=\"OpenExpress\\(document\\.ExpressLogin\\)\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

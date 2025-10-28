@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "_wixAB3",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "_wixAB3"
+      "pattern": "_wixAB3",
+      "version_group": 0
     },
     {
       "name": "hs cookie",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^hss",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^hs\\s"
+      "pattern": "^hs\\s",
+      "version_group": 0
     },
     {
       "name": "svSession cookie",
@@ -50,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "svSession",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "svSession"
+      "pattern": "svSession",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

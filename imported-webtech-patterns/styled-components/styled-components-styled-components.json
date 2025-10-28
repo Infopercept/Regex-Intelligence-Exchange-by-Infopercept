@@ -1,0 +1,91 @@
+{
+  "vendor": "styled-components",
+  "vendor_id": "styled-components",
+  "product": "styled-components",
+  "product_id": "styled-components-styled-components",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "styled-components HTML Detection",
+      "pattern": "<style[^>]*data-styled(?:-components)?[\\s\"]",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects styled-components from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "styled-components"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "styled-components HTML Detection",
+      "pattern": "<style[^>]+data-styled-version=\"([0-9]+)\"",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects styled-components from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "styled-components"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "styled-components HTML Detection",
+      "pattern": "<[^>]+sc-component-id: sc-",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects styled-components from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "styled-components"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "styled-components JavaScript Detection",
+      "pattern": "window\\.styled|styled\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects styled-components from JavaScript variable 'styled'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "styled-components"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

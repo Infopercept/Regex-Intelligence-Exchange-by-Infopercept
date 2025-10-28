@@ -29,5 +29,6 @@
       "pattern": "Server: ^Dart WebServer Tool/([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

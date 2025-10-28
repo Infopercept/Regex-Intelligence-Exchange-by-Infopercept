@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<td\\ bgcolor=\"\\#cccccc\"\\ colspan=2\\ align=\"center\"><input\\ type=\"button\"\\ name=\"goto\"\\ value=\"Log\\ On\"\\ onClick=\"encode_submit\\(this\\.form\\)\">"
+      "pattern": "<td\\ bgcolor=\"\\#cccccc\"\\ colspan=2\\ align=\"center\"><input\\ type=\"button\"\\ name=\"goto\"\\ value=\"Log\\ On\"\\ onClick=\"encode_submit\\(this\\.form\\)\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

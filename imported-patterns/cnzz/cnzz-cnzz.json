@@ -1,0 +1,31 @@
+{
+  "vendor": "CNZZ",
+  "vendor_id": "cnzz",
+  "product": "CNZZ",
+  "product_id": "cnzz-cnzz",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CNZZ Script Detection",
+      "pattern": "//[^./]+\\.cnzz\\.com/(?:z_stat.php|core)\\?",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CNZZ from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "cnzz"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<BR>Generated\\ by\\ <A\\ HREF=\"http://www\\.quux\\.org/devel/gopher/pygopherd\">PyGopherd</A>"
+      "pattern": "<BR>Generated\\ by\\ <A\\ HREF=\"http://www\\.quux\\.org/devel/gopher/pygopherd\">PyGopherd</A>",
+      "version_group": 0
     },
     {
       "name": "Pygopherd Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HTML><HEAD><TITLE>Selector Not Found</TITLE>[s]+<H1>Selector Not Found</H1>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<HTML><HEAD><TITLE>Selector Not Found</TITLE>[\\s]+<H1>Selector Not Found</H1>"
+      "pattern": "<HTML><HEAD><TITLE>Selector Not Found</TITLE>[\\s]+<H1>Selector Not Found</H1>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

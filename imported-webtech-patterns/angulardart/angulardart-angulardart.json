@@ -1,0 +1,31 @@
+{
+  "vendor": "AngularDart",
+  "vendor_id": "angulardart",
+  "product": "AngularDart",
+  "product_id": "angulardart-angulardart",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AngularDart JavaScript Detection",
+      "pattern": "window\\.ngTestabilityRegistries|ngTestabilityRegistries\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AngularDart from JavaScript variable 'ngTestabilityRegistries'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "angulardart"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\\t<title>Symphony\\ \\|\\ Login</title>"
+      "pattern": "\\\t<title>Symphony\\ \\|\\ Login</title>",
+      "version_group": 0
     },
     {
       "name": "Symphony-CMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"Symphony\\ CMS\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"Symphony\\ CMS\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Symphony-CMS Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a[^>]+href=\"http://www.symphony-cms.com[/]?\">Symphony CMS</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <a[^>]+href=\"http://www.symphony-cms.com[/]?\">Symphony CMS</a>"
+      "pattern": "Powered by <a[^>]+href=\"http://www.symphony-cms.com[/]?\">Symphony CMS</a>",
+      "version_group": 0
     },
     {
       "name": "Symphony-CMS Pattern",
@@ -78,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a[^>]+href=\"http://symphony-cms.com[/]?\">Symphony CMS</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <a[^>]+href=\"http://symphony-cms.com[/]?\">Symphony CMS</a>"
+      "pattern": "Powered by <a[^>]+href=\"http://symphony-cms.com[/]?\">Symphony CMS</a>",
+      "version_group": 0
     },
     {
       "name": "Symphony-CMS Pattern",
@@ -102,7 +118,8 @@
           }
         ]
       },
-      "pattern": "powered\\ by\\ <a\\ href=\"http://www\\.symphony21\\.com\">SYMPHONY</a>\\."
+      "pattern": "powered\\ by\\ <a\\ href=\"http://www\\.symphony21\\.com\">SYMPHONY</a>\\.",
+      "version_group": 0
     },
     {
       "name": "Symphony-CMS Pattern",
@@ -124,7 +141,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://symphony21\\.com/\">Symphony</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://symphony21\\.com/\">Symphony</a>",
+      "version_group": 0
     },
     {
       "name": "Symphony-CMS Pattern",
@@ -146,7 +164,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ class=\"symphony\"\\ href=\"http://symphony21\\.com/\">Symphony</a>"
+      "pattern": "Powered\\ by\\ <a\\ class=\"symphony\"\\ href=\"http://symphony21\\.com/\">Symphony</a>",
+      "version_group": 0
     },
     {
       "name": "Symphony-CMS Pattern",
@@ -168,7 +187,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ class=\"symphony\"\\ href=\"http://symphony\\-cms\\.com/\">Symphony</a>"
+      "pattern": "Powered\\ by\\ <a\\ class=\"symphony\"\\ href=\"http://symphony\\-cms\\.com/\">Symphony</a>",
+      "version_group": 0
     },
     {
       "name": "Symphony-CMS Pattern",
@@ -190,7 +210,8 @@
           }
         ]
       },
-      "pattern": "Site\\ powered\\ by\\ <a\\ href=\"http://www\\.symphony\\-cms\\.com\"\\ class=\"external\">Symphony</a>"
+      "pattern": "Site\\ powered\\ by\\ <a\\ href=\"http://www\\.symphony\\-cms\\.com\"\\ class=\"external\">Symphony</a>",
+      "version_group": 0
     },
     {
       "name": "Symphony-CMS Pattern",
@@ -212,7 +233,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://symphony\\-cms\\.com/\"\\ rel=\"external\">Symphony</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://symphony\\-cms\\.com/\"\\ rel=\"external\">Symphony</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

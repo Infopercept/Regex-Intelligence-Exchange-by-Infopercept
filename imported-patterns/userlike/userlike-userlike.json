@@ -1,0 +1,51 @@
+{
+  "vendor": "UserLike",
+  "vendor_id": "userlike",
+  "product": "UserLike",
+  "product_id": "userlike-userlike",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "UserLike Script Detection",
+      "pattern": "userlike\\.min\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects UserLike from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "userlike"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "UserLike Script Detection",
+      "pattern": "userlikelib\\.min\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects UserLike from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "userlike"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

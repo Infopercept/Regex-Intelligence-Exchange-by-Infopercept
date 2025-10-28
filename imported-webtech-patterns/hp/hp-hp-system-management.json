@@ -1,0 +1,31 @@
+{
+  "vendor": "HP",
+  "vendor_id": "hp",
+  "product": "HP System Management",
+  "product_id": "hp-hp-system-management",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "HP System Management Header Detection",
+      "pattern": "Server: HP System Management",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects HP System Management from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "hp-system-management"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

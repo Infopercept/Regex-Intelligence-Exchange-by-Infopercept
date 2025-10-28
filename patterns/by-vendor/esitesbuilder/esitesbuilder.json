@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ created\\ by\\ XTLabs,\\ Inc\\.\\ http://www\\.xt\\-labs\\.com\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ created\\ by\\ XTLabs,\\ Inc\\.\\ http://www\\.xt\\-labs\\.com\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "eSitesBuilder Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a [^href]+href=\"http://[www.]*esitesbuilder.com\">Powered by eSitesBuilder</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a [^href]+href=\"http://[www\\.]*esitesbuilder.com\">Powered by eSitesBuilder</a>"
+      "pattern": "<a [^href]+href=\"http://[www\\.]*esitesbuilder.com\">Powered by eSitesBuilder</a>",
+      "version_group": 0
     },
     {
       "name": "eSitesBuilder Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.esitesbuilder\\.com/\"\\ target=\"_blank\"\\ alt=\"website\\ builder\">eSitesBuilder</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.esitesbuilder\\.com/\"\\ target=\"_blank\"\\ alt=\"website\\ builder\">eSitesBuilder</a>",
+      "version_group": 0
     },
     {
       "name": "eSitesBuilder Pattern",
@@ -86,7 +95,8 @@
           }
         ]
       },
-      "pattern": "All\\ rights\\ reserved\\.\\ Powered\\ by\\ eSitesBuilder"
+      "pattern": "All\\ rights\\ reserved\\.\\ Powered\\ by\\ eSitesBuilder",
+      "version_group": 0
     },
     {
       "name": "eSitesBuilder Pattern",
@@ -100,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by[&nbsp;]*[s]*<a [^href]+href=\"http://[www.]*esitesbuilder.com\">eSitesBuilder</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by[&nbsp;]*[\\s]*<a [^href]+href=\"http://[www\\.]*esitesbuilder.com\">eSitesBuilder</a>"
+      "pattern": "Powered by[&nbsp;]*[\\s]*<a [^href]+href=\"http://[www\\.]*esitesbuilder.com\">eSitesBuilder</a>",
+      "version_group": 0
     },
     {
       "name": "eSitesBuilder Pattern",
@@ -124,7 +141,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.esitesbuilder\\.com/\"\\ target=\"_blank\"\\ alt=\"website\\ builder\">eSitesBuilder</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.esitesbuilder\\.com/\"\\ target=\"_blank\"\\ alt=\"website\\ builder\">eSitesBuilder</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "org.apache.struts.action.LOCALE=[^s]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "org\\.apache\\.struts\\.action\\.LOCALE=[^\\s]+;"
+      "pattern": "org\\.apache\\.struts\\.action\\.LOCALE=[^\\s]+;",
+      "version_group": 0
     },
     {
       "name": "Apache-Struts Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "org.apache.struts.[^s]+=[^s]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "org\\.apache\\.struts\\.[^\\s]+=[^\\s]+;"
+      "pattern": "org\\.apache\\.struts\\.[^\\s]+=[^\\s]+;",
+      "version_group": 0
     },
     {
       "name": "Apache-Struts Pattern",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<as+href=[^>]+org.apache.struts",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a\\s+href=[^>]+org.apache.struts"
+      "pattern": "<a\\s+href=[^>]+org.apache.struts",
+      "version_group": 0
     },
     {
       "name": "Apache-Struts Pattern",
@@ -74,7 +95,8 @@
           }
         ]
       },
-      "pattern": "org\\.apache\\.struts2"
+      "pattern": "org\\.apache\\.struts2",
+      "version_group": 0
     },
     {
       "name": "Apache-Struts Pattern",
@@ -96,7 +118,8 @@
           }
         ]
       },
-      "pattern": "org\\.apache\\.struts\\."
+      "pattern": "org\\.apache\\.struts\\.",
+      "version_group": 0
     },
     {
       "name": "Apache-Struts Pattern",
@@ -110,9 +133,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Development mode, or devMode, enables extras+debugging behaviors and reports to assist developers.  To disable this mode, set:s+<pre>s+  struts.devMode=false",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Development mode, or devMode, enables extra\\s+debugging behaviors and reports to assist developers.  To disable this mode, set:\\s+<pre>\\s+  struts.devMode=false"
+      "pattern": "Development mode, or devMode, enables extra\\s+debugging behaviors and reports to assist developers.  To disable this mode, set:\\s+<pre>\\s+  struts.devMode=false",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

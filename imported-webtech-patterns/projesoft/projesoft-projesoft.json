@@ -1,0 +1,31 @@
+{
+  "vendor": "Projesoft",
+  "vendor_id": "projesoft",
+  "product": "Projesoft",
+  "product_id": "projesoft-projesoft",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Projesoft Script Detection",
+      "pattern": "projesoft\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Projesoft from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "projesoft"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vendor": "Fireblade",
+  "vendor_id": "fireblade",
+  "product": "Fireblade",
+  "product_id": "fireblade-fireblade",
+  "category": "web",
+  "subcategory": "cdn",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Fireblade Header Detection",
+      "pattern": "Server: fbs",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Fireblade from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "fireblade"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

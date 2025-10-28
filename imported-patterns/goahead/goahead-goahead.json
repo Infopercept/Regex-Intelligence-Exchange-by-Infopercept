@@ -1,0 +1,31 @@
+{
+  "vendor": "GoAhead",
+  "vendor_id": "goahead",
+  "product": "GoAhead",
+  "product_id": "goahead-goahead",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "GoAhead Header Detection",
+      "pattern": "Server: GoAhead",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GoAhead from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "goahead"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

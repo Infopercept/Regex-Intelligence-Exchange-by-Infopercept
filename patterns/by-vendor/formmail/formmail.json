@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "This\\ form\\ was\\ suplied\\ by\\ <A\\ href=\"http://www\\.worldwidemart\\.com/scripts/formmail\\.shtml\""
+      "pattern": "This\\ form\\ was\\ suplied\\ by\\ <A\\ href=\"http://www\\.worldwidemart\\.com/scripts/formmail\\.shtml\"",
+      "version_group": 0
     },
     {
       "name": "FormMail Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.worldwidemart\\.com/scripts/formmail\\.shtml\">FormMail</a>"
+      "pattern": "<a\\ href=\"http://www\\.worldwidemart\\.com/scripts/formmail\\.shtml\">FormMail</a>",
+      "version_group": 0
     },
     {
       "name": "copyright",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "&copy; 19[d]+ -[d]+ Matt Wright<BR>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "&copy; 19[\\d]+ -[\\d]+ Matt Wright<BR>"
+      "pattern": "&copy; 19[\\d]+ -[\\d]+ Matt Wright<BR>",
+      "version_group": 0
     },
     {
       "name": "FormMail Pattern",
@@ -86,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<title>FormMail\\ "
+      "pattern": "<title>FormMail\\ ",
+      "version_group": 0
     },
     {
       "name": "FormMail Pattern",
@@ -108,7 +118,8 @@
           }
         ]
       },
-      "pattern": "A\\ Free\\ Product\\ of\\ <a\\ href=\"http://www\\.worldwidemart\\.com/scripts/\">Matt\\\\"
+      "pattern": "A\\ Free\\ Product\\ of\\ <a\\ href=\"http://www\\.worldwidemart\\.com/scripts/\">Matt\\\\",
+      "version_group": 0
     },
     {
       "name": "FormMail Pattern",
@@ -130,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<tr><th><font\\ size=\\+2>FormMail</font></th></tr>"
+      "pattern": "<tr><th><font\\ size=\\+2>FormMail</font></th></tr>",
+      "version_group": 0
     },
     {
       "name": "FormMail Pattern",
@@ -144,10 +156,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Copyright 1995 - 2001 Matt Wright<br>[s]+Version 1.9",
+            "expected_version": "unknown"
+          }
         ]
       },
       "pattern": "Copyright 1995 - 2001 Matt Wright<br>[\\s]+Version 1.9",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

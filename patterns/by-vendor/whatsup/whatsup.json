@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^WhatsUp",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^WhatsUp"
+      "pattern": "^WhatsUp",
+      "version_group": 0
     },
     {
       "name": "WhatsUp Pattern",
@@ -57,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Basic realm=\"WhatsUp[s]?Gold\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Basic realm=\"WhatsUp[\\s]?Gold\""
+      "pattern": "^Basic realm=\"WhatsUp[\\s]?Gold\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

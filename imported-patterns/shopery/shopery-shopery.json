@@ -1,0 +1,31 @@
+{
+  "vendor": "Shopery",
+  "vendor_id": "shopery",
+  "product": "Shopery",
+  "product_id": "shopery-shopery",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Shopery Header Detection",
+      "pattern": "X-Shopery: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Shopery from X-Shopery header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "shopery"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

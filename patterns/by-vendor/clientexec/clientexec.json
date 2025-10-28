@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ These\\ should\\ not\\ have\\ debug\\ at\\ the\\ end\\ for\\ production\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ These\\ should\\ not\\ have\\ debug\\ at\\ the\\ end\\ for\\ production\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "ClientExec Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>Support\\ Center\\ \\-\\ Powered\\ By\\ ClientExec</title>"
+      "pattern": "<title>Support\\ Center\\ \\-\\ Powered\\ By\\ ClientExec</title>",
+      "version_group": 0
     },
     {
       "name": "ClientExec Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<form\\ action=\"index\\.php\\?fuse=admin\\&amp;action=Login\\&amp;public=1\"\\ method=\"post\""
+      "pattern": "<form\\ action=\"index\\.php\\?fuse=admin\\&amp;action=Login\\&amp;public=1\"\\ method=\"post\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

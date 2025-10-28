@@ -1,0 +1,51 @@
+{
+  "vendor": "Haddock",
+  "vendor_id": "haddock",
+  "product": "Haddock",
+  "product_id": "haddock-haddock",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Haddock HTML Detection",
+      "pattern": "<p>Produced by <a href=\"http://www\\.haskell\\.org/haddock/\">Haddock</a> version ([0-9.]+)</p>",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Haddock from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "haddock"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Haddock Script Detection",
+      "pattern": "haddock-util\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Haddock from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "haddock"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

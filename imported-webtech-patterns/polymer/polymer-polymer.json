@@ -1,0 +1,71 @@
+{
+  "vendor": "Polymer",
+  "vendor_id": "polymer",
+  "product": "Polymer",
+  "product_id": "polymer-polymer",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Polymer HTML Detection",
+      "pattern": "(?:<polymer-[^>]+|<link[^>]+rel=\"import\"[^>]+/polymer\\.html\")",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Polymer from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "polymer"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Polymer Script Detection",
+      "pattern": "polymer\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Polymer from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "polymer"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Polymer JavaScript Detection",
+      "pattern": "window\\.Polymer\\.version|Polymer\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Polymer from JavaScript variable 'Polymer.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "polymer"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

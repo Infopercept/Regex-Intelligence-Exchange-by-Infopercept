@@ -1,0 +1,31 @@
+{
+  "vendor": "Yieldlab",
+  "vendor_id": "yieldlab",
+  "product": "Yieldlab",
+  "product_id": "yieldlab-yieldlab",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Yieldlab Script Detection",
+      "pattern": "^https?://(?:[^/]+\\.)?yieldlab\\.net/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Yieldlab from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "yieldlab"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

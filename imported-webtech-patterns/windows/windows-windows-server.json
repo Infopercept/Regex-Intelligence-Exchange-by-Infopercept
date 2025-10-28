@@ -1,0 +1,31 @@
+{
+  "vendor": "Windows",
+  "vendor_id": "windows",
+  "product": "Windows Server",
+  "product_id": "windows-windows-server",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Windows Server Header Detection",
+      "pattern": "Server: Win32|Win64",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Windows Server from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "windows-server"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

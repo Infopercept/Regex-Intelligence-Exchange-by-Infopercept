@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "powered by <a HREF=\"http://www.ispconfig.org\">ISPConfig</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "powered by <a HREF=\"http://www.ispconfig.org\">ISPConfig</a>"
+      "pattern": "powered by <a HREF=\"http://www.ispconfig.org\">ISPConfig</a>",
+      "version_group": 0
     },
     {
       "name": "ISPConfig Pattern",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "This\\ IP\\ address\\ is\\ shared\\.\\ For\\ access\\ to\\ the\\ web\\ site\\ which\\ you\\ look\\ for,\\ enter\\ its\\ address\\ instead\\ of\\ its\\ IP\\."
+      "pattern": "This\\ IP\\ address\\ is\\ shared\\.\\ For\\ access\\ to\\ the\\ web\\ site\\ which\\ you\\ look\\ for,\\ enter\\ its\\ address\\ instead\\ of\\ its\\ IP\\.",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

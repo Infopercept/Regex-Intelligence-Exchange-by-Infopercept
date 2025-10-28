@@ -1,0 +1,31 @@
+{
+  "vendor": "Drupal",
+  "vendor_id": "drupal",
+  "product": "Drupal Commerce",
+  "product_id": "drupal-drupal-commerce",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Drupal Commerce HTML Detection",
+      "pattern": "<[^>]+(?:id=\"block[_-]commerce[_-]cart[_-]cart|class=\"commerce[_-]product[_-]field)",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Drupal Commerce from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "drupal-commerce"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

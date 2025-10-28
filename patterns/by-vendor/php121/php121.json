@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>PHP121\\ \\-\\ Please\\ login\\ or\\ register</title>"
+      "pattern": "<title>PHP121\\ \\-\\ Please\\ login\\ or\\ register</title>",
+      "version_group": 0
     },
     {
       "name": "PHP121 Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<title>PHP121\\ \\-\\ New\\ User</title>"
+      "pattern": "<title>PHP121\\ \\-\\ New\\ User</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

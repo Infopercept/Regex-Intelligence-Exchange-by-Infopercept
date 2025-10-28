@@ -1,0 +1,51 @@
+{
+  "vendor": "SublimeVideo",
+  "vendor_id": "sublimevideo",
+  "product": "SublimeVideo",
+  "product_id": "sublimevideo-sublimevideo",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SublimeVideo Script Detection",
+      "pattern": "cdn\\.sublimevideo\\.net/js/[a-z\\d]+\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SublimeVideo from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "sublimevideo"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "SublimeVideo JavaScript Detection",
+      "pattern": "window\\.sublimevideo|sublimevideo\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SublimeVideo from JavaScript variable 'sublimevideo'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "sublimevideo"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

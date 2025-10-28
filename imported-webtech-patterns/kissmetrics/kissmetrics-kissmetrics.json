@@ -1,0 +1,31 @@
+{
+  "vendor": "KISSmetrics",
+  "vendor_id": "kissmetrics",
+  "product": "KISSmetrics",
+  "product_id": "kissmetrics-kissmetrics",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "KISSmetrics JavaScript Detection",
+      "pattern": "window\\.KM_COOKIE_DOMAIN|KM_COOKIE_DOMAIN\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects KISSmetrics from JavaScript variable 'KM_COOKIE_DOMAIN'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "kissmetrics"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "vendor": "Swiftlet",
+  "vendor_id": "swiftlet",
+  "product": "Swiftlet",
+  "product_id": "swiftlet-swiftlet",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Swiftlet Header Detection",
+      "pattern": "X-Generator: Swiftlet",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Swiftlet from X-Generator header",
+        "tags": [
+          "webtech",
+          "header",
+          "swiftlet"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Swiftlet Header Detection",
+      "pattern": "X-Powered-By: Swiftlet",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Swiftlet from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "swiftlet"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Swiftlet Header Detection",
+      "pattern": "X-Swiftlet-Cache: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Swiftlet from X-Swiftlet-Cache header",
+        "tags": [
+          "webtech",
+          "header",
+          "swiftlet"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Swiftlet HTML Detection",
+      "pattern": "Powered by <a href=\"[^>]+Swiftlet",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Swiftlet from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "swiftlet"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Swiftlet Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']Swiftlet[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Swiftlet from meta tag with name 'generator'",
+        "tags": [
+          "webtech",
+          "meta",
+          "swiftlet"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

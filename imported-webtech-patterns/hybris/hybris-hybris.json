@@ -1,0 +1,31 @@
+{
+  "vendor": "Hybris",
+  "vendor_id": "hybris",
+  "product": "Hybris",
+  "product_id": "hybris-hybris",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Hybris HTML Detection",
+      "pattern": "<[^>]+/(?:sys_master|hybr|_ui/(?:responsive/)?(?:desktop|common(?:/images|/img)?))/",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Hybris from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "hybris"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

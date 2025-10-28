@@ -1,0 +1,31 @@
+{
+  "vendor": "Select2",
+  "vendor_id": "select2",
+  "product": "Select2",
+  "product_id": "select2-select2",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Select2 Script Detection",
+      "pattern": "select2(?:\\.min|\\.full)?\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Select2 from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "select2"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

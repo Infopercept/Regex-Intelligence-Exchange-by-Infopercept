@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ <h1><b>CaLogic\\ Calendars\\ Demo\\ \\-\\ Login</b></h1>"
+      "pattern": "\\ \\ \\ \\ <h1><b>CaLogic\\ Calendars\\ Demo\\ \\-\\ Login</b></h1>",
+      "version_group": 0
     },
     {
       "name": "CaLogic-Calendars Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Change\\ for\\ 1\\.2\\.2\\ :\\ the\\ logon\\ form\\ MUST\\ use\\ the\\ post\\ method\\ for\\ security\\ reasons!!!"
+      "pattern": "Change\\ for\\ 1\\.2\\.2\\ :\\ the\\ logon\\ form\\ MUST\\ use\\ the\\ post\\ method\\ for\\ security\\ reasons!!!",
+      "version_group": 0
     },
     {
       "name": "CaLogic-Calendars Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "This\\ is\\ your\\ Timezone\\ Offset\\ from\\ GMT\\ and\\ is\\ shown\\ in\\ hours\\.\\ It\\ is\\ based\\ on\\ your\\ computers\\ time\\ and\\ country\\ settings\\.\\ The\\ Timezone\\ Offset\\ is\\ needed\\ in\\ order\\ to\\ show\\ the\\ correct\\ date\\ and\\ time\\ and\\ to\\ ensure\\ that\\ your\\ reminders\\ get\\ sent\\ on\\ time\\.<br>If\\ the\\ Timezone\\ Offset\\ is\\ not\\ correct,\\ then\\ your\\ computers\\ time\\ settings\\ are\\ wrong\\.\\ You\\ should\\ not\\ adjust\\ the\\ Timezone\\ Offset,\\ but\\ rather\\ correct\\ your\\ computers\\ time\\ settings\\."
+      "pattern": "This\\ is\\ your\\ Timezone\\ Offset\\ from\\ GMT\\ and\\ is\\ shown\\ in\\ hours\\.\\ It\\ is\\ based\\ on\\ your\\ computers\\ time\\ and\\ country\\ settings\\.\\ The\\ Timezone\\ Offset\\ is\\ needed\\ in\\ order\\ to\\ show\\ the\\ correct\\ date\\ and\\ time\\ and\\ to\\ ensure\\ that\\ your\\ reminders\\ get\\ sent\\ on\\ time\\.<br>If\\ the\\ Timezone\\ Offset\\ is\\ not\\ correct,\\ then\\ your\\ computers\\ time\\ settings\\ are\\ wrong\\.\\ You\\ should\\ not\\ adjust\\ the\\ Timezone\\ Offset,\\ but\\ rather\\ correct\\ your\\ computers\\ time\\ settings\\.",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

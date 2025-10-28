@@ -1,0 +1,31 @@
+{
+  "vendor": "Neos",
+  "vendor_id": "neos",
+  "product": "Neos Flow",
+  "product_id": "neos-neos-flow",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Neos Flow Header Detection",
+      "pattern": "X-Flow-Powered: Flow/?(.+)?$",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Neos Flow from X-Flow-Powered header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "neos-flow"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

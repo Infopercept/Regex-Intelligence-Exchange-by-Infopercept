@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Administration\\ \\&\\#149;\\ Webseitenname</title>"
+      "pattern": "<title>Administration\\ \\&\\#149;\\ Webseitenname</title>",
+      "version_group": 0
     },
     {
       "name": "CitusCMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Powered\\ by\\ CitusCMS\\ \\-\\ http://www\\.citus\\-cms\\.org\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Powered\\ by\\ CitusCMS\\ \\-\\ http://www\\.citus\\-cms\\.org\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "CitusCMS Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.citus\\-cms\\.org\"\\ target=\"_blank\"\\ title=\"Powered\\ by\\ CitusCMS\"><strong>CitusCMS</strong></a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.citus\\-cms\\.org\"\\ target=\"_blank\"\\ title=\"Powered\\ by\\ CitusCMS\"><strong>CitusCMS</strong></a>",
+      "version_group": 0
     },
     {
       "name": "CitusCMS Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"CitusCMS\\ \\-\\ http://www\\.citus\\-cms\\.org\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"CitusCMS\\ \\-\\ http://www\\.citus\\-cms\\.org\"\\ />",
+      "version_group": 0
     },
     {
       "name": "CitusCMS Pattern",
@@ -114,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"CitusCMS\\ \\[http://www\\.citus\\-cms\\.org\\]\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"CitusCMS\\ \\[http://www\\.citus\\-cms\\.org\\]\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

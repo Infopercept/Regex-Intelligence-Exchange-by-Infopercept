@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a[^>]+href=\"http://jammcms.jamm-media.de?ref=[^>]+>powered by JAMM CMS",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a[^>]+href=\"http://jammcms\\.jamm-media\\.de\\?ref=[^>]+>powered by JAMM CMS"
+      "pattern": "<a[^>]+href=\"http://jammcms\\.jamm-media\\.de\\?ref=[^>]+>powered by JAMM CMS",
+      "version_group": 0
     },
     {
       "name": "JAMM-CMS Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<META\\ NAME='Author'\\ CONTENT='JAMM\\ MEDIA\\ Technologies\\ Team\\ 2005'>"
+      "pattern": "<META\\ NAME='Author'\\ CONTENT='JAMM\\ MEDIA\\ Technologies\\ Team\\ 2005'>",
+      "version_group": 0
     },
     {
       "name": "JAMM-CMS Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<META\\ NAME=\\ \\ \\ 'author'\\ CONTENT='JAMM\\ MEDIA\\ Team\\ 2001'>"
+      "pattern": "<META\\ NAME=\\ \\ \\ 'author'\\ CONTENT='JAMM\\ MEDIA\\ Team\\ 2001'>",
+      "version_group": 0
     },
     {
       "name": "JAMM-CMS Pattern",
@@ -86,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\-\\ Content\\ Management\\ System\\ JAMM\\ CMS\\ OWEN\\ \\-\\ Visit\\ www\\.jamm\\-media\\.de\\ for\\ more\\ informations\\ \\-\\->"
+      "pattern": "<!\\-\\-\\-\\ Content\\ Management\\ System\\ JAMM\\ CMS\\ OWEN\\ \\-\\ Visit\\ www\\.jamm\\-media\\.de\\ for\\ more\\ informations\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

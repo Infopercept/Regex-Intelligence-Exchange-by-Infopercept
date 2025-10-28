@@ -1,0 +1,31 @@
+{
+  "vendor": "FluxBB",
+  "vendor_id": "fluxbb",
+  "product": "FluxBB",
+  "product_id": "fluxbb-fluxbb",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FluxBB HTML Detection",
+      "pattern": "<p id=\"poweredby\">[^<]+<a href=\"https?://fluxbb\\.org/\">",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects FluxBB from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "fluxbb"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

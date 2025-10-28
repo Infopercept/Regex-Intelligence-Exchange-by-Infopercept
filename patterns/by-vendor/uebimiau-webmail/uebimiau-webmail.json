@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Uebimiau\\ \\(\\ Installer\\ \\)</title>"
+      "pattern": "<title>Uebimiau\\ \\(\\ Installer\\ \\)</title>",
+      "version_group": 0
     },
     {
       "name": "Uebimiau-Webmail Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<p>You\\ are\\ about\\ to\\ re\\-install\\ Uebimiau\\ Webmail\\ on\\ you\\ system\\.<br>Thanks\\ to\\ log\\ with\\ your\\ UebiMiau\\ Admin\\ ID\\ and\\ password\\ to\\ continue\\.</p>"
+      "pattern": "<p>You\\ are\\ about\\ to\\ re\\-install\\ Uebimiau\\ Webmail\\ on\\ you\\ system\\.<br>Thanks\\ to\\ log\\ with\\ your\\ UebiMiau\\ Admin\\ ID\\ and\\ password\\ to\\ continue\\.</p>",
+      "version_group": 0
     },
     {
       "name": "Uebimiau-Webmail Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<script\\ type=\"text/javascript\"\\ src=\"themes/default/js/webmail\\.js\"></script>"
+      "pattern": "<script\\ type=\"text/javascript\"\\ src=\"themes/default/js/webmail\\.js\"></script>",
+      "version_group": 0
     },
     {
       "name": "Uebimiau-Webmail Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"keywords\"\\ content=\"uebimiau,tdah,uebimiau,webmail,email,mail,client,application,pop3,php,open\\ \\ \\ \\ \\ source,free,sourceforge,development\"\\ />"
+      "pattern": "<meta\\ name=\"keywords\"\\ content=\"uebimiau,tdah,uebimiau,webmail,email,mail,client,application,pop3,php,open\\ \\ \\ \\ \\ source,free,sourceforge,development\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,51 @@
+{
+  "vendor": "ReDoc",
+  "vendor_id": "redoc",
+  "product": "ReDoc",
+  "product_id": "redoc-redoc",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ReDoc HTML Detection",
+      "pattern": "<redoc ",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ReDoc from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "redoc"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "ReDoc Script Detection",
+      "pattern": "/redoc\\.(?:min\\.)?js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ReDoc from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "redoc"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

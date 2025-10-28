@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<center><font\\ size=\"3\"\\ face=\"monospace\">\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\ Epic\\ Web\\ Honeypot\\ \\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*</font></center>"
+      "pattern": "<center><font\\ size=\"3\"\\ face=\"monospace\">\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\ Epic\\ Web\\ Honeypot\\ \\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*</font></center>",
+      "version_group": 0
     },
     {
       "name": "Epic-Web-Honeypot Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Added\\ OS\\ fingerprints\\ \\-\\ creds\\ \\-\\ nmap\\ and\\ honeyd\\ nmap\\.prints\\ file!\\-\\->"
+      "pattern": "<!\\-\\-\\ Added\\ OS\\ fingerprints\\ \\-\\ creds\\ \\-\\ nmap\\ and\\ honeyd\\ nmap\\.prints\\ file!\\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

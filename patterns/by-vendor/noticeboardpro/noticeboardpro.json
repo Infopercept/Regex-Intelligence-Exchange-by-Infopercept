@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<A\\ HREF=\"registerOutline\\.php\"\\ CLASS=\"Xref\"\\ style=\"margin\\-right:10\">\\[Register\\]</A>"
+      "pattern": "<A\\ HREF=\"registerOutline\\.php\"\\ CLASS=\"Xref\"\\ style=\"margin\\-right:10\">\\[Register\\]</A>",
+      "version_group": 0
     },
     {
       "name": "NoticeBoardPro Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<A\\ HREF=\"loginOutline\\.php\"\\ CLASS=\"Xref\"\\ style=\"margin\\-left:165;\\ margin\\-right:10\">\\[Sign\\ In\\]</A>"
+      "pattern": "<A\\ HREF=\"loginOutline\\.php\"\\ CLASS=\"Xref\"\\ style=\"margin\\-left:165;\\ margin\\-right:10\">\\[Sign\\ In\\]</A>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

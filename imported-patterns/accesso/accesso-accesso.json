@@ -1,0 +1,31 @@
+{
+  "vendor": "Accesso",
+  "vendor_id": "accesso",
+  "product": "Accesso",
+  "product_id": "accesso-accesso",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Accesso Script Detection",
+      "pattern": "/embed/accesso\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Accesso from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "accesso"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

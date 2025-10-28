@@ -49,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ this\\ tag\\ to\\ be\\ replaced\\ with\\ autogen\\ stuff\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ this\\ tag\\ to\\ be\\ replaced\\ with\\ autogen\\ stuff\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "FatWire-Content-Server Pattern",
@@ -71,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<h1>FatWire\\ Corporation<br\\ />\\&nbsp;Content\\ Server</h1>"
+      "pattern": "<h1>FatWire\\ Corporation<br\\ />\\&nbsp;Content\\ Server</h1>",
+      "version_group": 0
     },
     {
       "name": "FatWire-Content-Server Pattern",
@@ -93,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<b>Open\\ Market,\\ Inc\\.<br>\\&nbsp;ContentServer</b><hr>"
+      "pattern": "<b>Open\\ Market,\\ Inc\\.<br>\\&nbsp;ContentServer</b><hr>",
+      "version_group": 0
     },
     {
       "name": "FatWire-Content-Server Pattern",
@@ -115,7 +118,9 @@
           }
         ]
       },
-      "pattern": "An\\ error\\ occurred\\ during\\ processing\\.\\ Check\\ the\\ info\\ log\\.<br"
+      "pattern": "An\\ error\\ occurred\\ during\\ processing\\.\\ Check\\ the\\ info\\ log\\.<br",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "Appointy",
+  "vendor_id": "appointy",
+  "product": "Appointy",
+  "product_id": "appointy-appointy",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Appointy HTML Detection",
+      "pattern": "<iframe[^>]+src=\"?https://[\\w\\d\\-]+\\.appointy\\.com",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Appointy from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "appointy"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<td><font\\ face=tahoma\\ size=\"2\">Display\\ a\\ view\\ of\\ the\\ HMI\\\\"
+      "pattern": "<td><font\\ face=tahoma\\ size=\"2\">Display\\ a\\ view\\ of\\ the\\ HMI\\\\",
+      "version_group": 0
     },
     {
       "name": "Red-Lion-HMI Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<p><font\\ face=tahoma\\ size=1>Powered\\ by\\ <a\\ href=http://www\\.redlion\\.net>Red\\ Lion</a>\\.</font></p>"
+      "pattern": "<p><font\\ face=tahoma\\ size=1>Powered\\ by\\ <a\\ href=http://www\\.redlion\\.net>Red\\ Lion</a>\\.</font></p>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

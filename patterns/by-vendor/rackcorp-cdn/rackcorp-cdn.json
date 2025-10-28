@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^[s]*rackcorpcdn",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^[\\s]*rackcorpcdn"
+      "pattern": "^[\\s]*rackcorpcdn",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Varnish$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Varnish$"
+      "pattern": "^Varnish$",
+      "version_group": 0
     },
     {
       "name": "ENUnique cookie",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "ENUnique",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "ENUnique"
+      "pattern": "ENUnique",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\\t<title>DVIP</title>"
+      "pattern": "\\\t<title>DVIP</title>",
+      "version_group": 0
     },
     {
       "name": "Dedicated-Micros-Device Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^ADH-Web$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^ADH-Web$"
+      "pattern": "^ADH-Web$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

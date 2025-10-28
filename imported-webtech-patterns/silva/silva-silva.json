@@ -1,0 +1,31 @@
+{
+  "vendor": "Silva",
+  "vendor_id": "silva",
+  "product": "Silva",
+  "product_id": "silva-silva",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Silva Header Detection",
+      "pattern": "X-Powered-By: SilvaCMS",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Silva from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "silva"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

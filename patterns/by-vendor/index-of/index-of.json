@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Index\\ of\\ /"
+      "pattern": "<title>Index\\ of\\ /",
+      "version_group": 0
     },
     {
       "name": "Index-Of Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"\\?C=N;O=D\">Name</a></th><th><a\\ href=\"\\?C=M;O=A\">Last\\ modified</a>"
+      "pattern": "<a\\ href=\"\\?C=N;O=D\">Name</a></th><th><a\\ href=\"\\?C=M;O=A\">Last\\ modified</a>",
+      "version_group": 0
     },
     {
       "name": "Index-Of Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"?C=N;O=D\">Name</a>[s]*<a href=\"?C=M;O=A\">Last modified</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"\\?C=N;O=D\">Name</a>[\\s]*<a href=\"\\?C=M;O=A\">Last modified</a>"
+      "pattern": "<a href=\"\\?C=N;O=D\">Name</a>[\\s]*<a href=\"\\?C=M;O=A\">Last modified</a>",
+      "version_group": 0
     },
     {
       "name": "Index-Of Pattern",
@@ -78,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<pre>Name[s]+Last modified[s]+Size[s]+<hr>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<pre>Name[\\s]+Last modified[\\s]+Size[\\s]+<hr>"
+      "pattern": "<pre>Name[\\s]+Last modified[\\s]+Size[\\s]+<hr>",
+      "version_group": 0
     },
     {
       "name": "Index-Of Pattern",
@@ -94,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<A HREF=\"?N=D\">Name</A>[s]+<A HREF=\"?M=A\">Last modified</A>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<A HREF=\"\\?N=D\">Name</A>[\\s]+<A HREF=\"\\?M=A\">Last modified</A>"
+      "pattern": "<A HREF=\"\\?N=D\">Name</A>[\\s]+<A HREF=\"\\?M=A\">Last modified</A>",
+      "version_group": 0
     },
     {
       "name": "minimal apache listing",
@@ -110,9 +133,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Index of /[^<]*</title>[s]*</head>[s]*<body>[s]*<h1>Index of ",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>Index of /[^<]*</title>[\\s]*</head>[\\s]*<body>[\\s]*<h1>Index of "
+      "pattern": "<title>Index of /[^<]*</title>[\\s]*</head>[\\s]*<body>[\\s]*<h1>Index of ",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

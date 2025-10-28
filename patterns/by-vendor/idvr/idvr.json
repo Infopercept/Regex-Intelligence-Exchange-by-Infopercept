@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>iDVR</title>"
+      "pattern": "<title>iDVR</title>",
+      "version_group": 0
     },
     {
       "name": "iDVR Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t  \t'\t  codebase=\"http://' + szDomainFull + '",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "\t  \t'\t  codebase=\"http://' + szDomainFull + '\\"
+      "pattern": "\t  \t'\t  codebase=\"http://' + szDomainFull + '\\",
+      "version_group": 0
     },
     {
       "name": "iDVR Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t\\\\"
+      "pattern": "\\\t\\\t\\\\",
+      "version_group": 0
     },
     {
       "name": "iDVR Pattern",
@@ -78,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\tmonitorDiv.innerHTML = \"<object id='monitorObject' style='display:none' classid='clsid:574B47E8-A366-4AB9-B2EA-57F145CA3780' codebase='lib",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "\t\tmonitorDiv.innerHTML = \"<object id='monitorObject' style='display:none' classid='clsid:574B47E8-A366-4AB9-B2EA-57F145CA3780' codebase='lib\\"
+      "pattern": "\t\tmonitorDiv.innerHTML = \"<object id='monitorObject' style='display:none' classid='clsid:574B47E8-A366-4AB9-B2EA-57F145CA3780' codebase='lib\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

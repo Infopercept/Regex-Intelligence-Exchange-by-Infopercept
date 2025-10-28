@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ include\\ the\\ timesheet\\ face\\ up\\ until\\ the\\ heading\\ start\\ section\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ include\\ the\\ timesheet\\ face\\ up\\ until\\ the\\ heading\\ start\\ section\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Timesheet-NG Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<td><img\\ class=\"login_image\"\\ src=\"images/spacer\\.gif\"></td>"
+      "pattern": "<td><img\\ class=\"login_image\"\\ src=\"images/spacer\\.gif\"></td>",
+      "version_group": 0
     },
     {
       "name": "Timesheet-NG Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<META\\ name=\"description\"\\ content=\"Timesheet\\ Next\\ Gen\">"
+      "pattern": "<META\\ name=\"description\"\\ content=\"Timesheet\\ Next\\ Gen\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

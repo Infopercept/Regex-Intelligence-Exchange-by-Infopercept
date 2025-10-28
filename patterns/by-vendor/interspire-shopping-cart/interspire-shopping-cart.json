@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\\t<meta\\ name=\"generator\"\\ content=\"Interspire\\ Shopping\\ Cart\"\\ />"
+      "pattern": "\\\t<meta\\ name=\"generator\"\\ content=\"Interspire\\ Shopping\\ Cart\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Interspire-Shopping-Cart Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "\t\t\t\tPowered by <a href=\"http://www.interspire.com/shoppingcart[/]*\" target=\"_blank\" class=\"PoweredBy\">Interspire Shopping Cart</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "\t\t\t\tPowered by <a href=\"http://www.interspire.com/shoppingcart[/]*\" target=\"_blank\" class=\"PoweredBy\">Interspire Shopping Cart</a>"
+      "pattern": "\t\t\t\tPowered by <a href=\"http://www.interspire.com/shoppingcart[/]*\" target=\"_blank\" class=\"PoweredBy\">Interspire Shopping Cart</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

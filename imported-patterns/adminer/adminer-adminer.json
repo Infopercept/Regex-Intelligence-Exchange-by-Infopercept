@@ -1,0 +1,51 @@
+{
+  "vendor": "Adminer",
+  "vendor_id": "adminer",
+  "product": "Adminer",
+  "product_id": "adminer-adminer",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Adminer HTML Detection",
+      "pattern": "Adminer</a> <span class=\"version\">([\\d.]+)</span>",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Adminer from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "adminer"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Adminer HTML Detection",
+      "pattern": "onclick=\"bodyClick\\(event\\);\" onload=\"verifyVersion\\('([\\d.]+)'\\);\">",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Adminer from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "adminer"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

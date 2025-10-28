@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ class=\"disclaimer\">This\\ is\\ a\\ classified\\ area\\.\\ Access\\ is\\ permitted\\ only\\ to\\ authorized\\ personnel\\.\\ Any\\ violation\\ will\\ be\\ prosecuted\\ according\\ to\\ the\\ national\\ and\\ international\\ laws\\.</div>"
+      "pattern": "<div\\ class=\"disclaimer\">This\\ is\\ a\\ classified\\ area\\.\\ Access\\ is\\ permitted\\ only\\ to\\ authorized\\ personnel\\.\\ Any\\ violation\\ will\\ be\\ prosecuted\\ according\\ to\\ the\\ national\\ and\\ international\\ laws\\.</div>",
+      "version_group": 0
     },
     {
       "name": "LetoDMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "letoDMS\\ free\\ document\\ management\\ system\\ \\-\\ www\\.letodms\\.com</div></body>"
+      "pattern": "letoDMS\\ free\\ document\\ management\\ system\\ \\-\\ www\\.letodms\\.com</div></body>",
+      "version_group": 0
     },
     {
       "name": "LetoDMS Pattern",
@@ -62,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "out/out.ViewFolder.php",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "out/out\\.ViewFolder\\.php"
+      "pattern": "out/out\\.ViewFolder\\.php",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

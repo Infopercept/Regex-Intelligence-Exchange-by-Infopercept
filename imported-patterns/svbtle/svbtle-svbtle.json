@@ -1,0 +1,31 @@
+{
+  "vendor": "Svbtle",
+  "vendor_id": "svbtle",
+  "product": "Svbtle",
+  "product_id": "svbtle-svbtle",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Svbtle Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']^Svbtle\\.com$[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Svbtle from meta tag with name 'generator'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "svbtle"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vendor": "Resy",
+  "vendor_id": "resy",
+  "product": "Resy",
+  "product_id": "resy-resy",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Resy Script Detection",
+      "pattern": "widgets\\.resy\\.\\w+",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Resy from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "resy"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

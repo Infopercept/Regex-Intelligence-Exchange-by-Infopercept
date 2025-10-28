@@ -29,5 +29,6 @@
       "pattern": "x-powered-by: UrlRewriter\\.NET ([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

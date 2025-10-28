@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^SNARE/([d.]+)$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^SNARE/([\\d\\.]+)$"
+      "pattern": "^SNARE/([\\d\\.]+)$",
+      "version_group": 0
     },
     {
       "name": "Snare Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Digest realm=\"SNARE\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Digest realm=\"SNARE\""
+      "pattern": "Digest realm=\"SNARE\"",
+      "version_group": 0
     },
     {
       "name": "Snare Pattern",
@@ -58,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<ADDRESS>Snare\\ Server\\ Remote\\ Control\\ facility</ADDRESS>"
+      "pattern": "<ADDRESS>Snare\\ Server\\ Remote\\ Control\\ facility</ADDRESS>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,51 @@
+{
+  "vendor": "Sucuri",
+  "vendor_id": "sucuri",
+  "product": "Sucuri",
+  "product_id": "sucuri-sucuri",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Sucuri Header Detection",
+      "pattern": "x-sucuri-cache:: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Sucuri from x-sucuri-cache: header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "sucuri"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Sucuri Header Detection",
+      "pattern": "x-sucuri-id: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Sucuri from x-sucuri-id header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "sucuri"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

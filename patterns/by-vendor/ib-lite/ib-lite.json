@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<tr\\ class=\"w_r\"><td\\ class=\"w_n\">Access\\ code</td><td\\ width=\"140\"\\ class=\"w_v\"><input\\ id=\"psw_id\"\\ type=\"password\"\\ maxLength=\"15\"\\ size=\"20\"\\ name=\"q\"\\ value=\"\"></td></tr>"
+      "pattern": "<tr\\ class=\"w_r\"><td\\ class=\"w_n\">Access\\ code</td><td\\ width=\"140\"\\ class=\"w_v\"><input\\ id=\"psw_id\"\\ type=\"password\"\\ maxLength=\"15\"\\ size=\"20\"\\ name=\"q\"\\ value=\"\"></td></tr>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

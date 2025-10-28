@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>mnoGoSearch:",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>mnoGoSearch:"
+      "pattern": "<title>mnoGoSearch:",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

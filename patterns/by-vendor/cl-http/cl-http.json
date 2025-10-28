@@ -29,5 +29,6 @@
       "pattern": "Server: ^CL-HTTP/([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

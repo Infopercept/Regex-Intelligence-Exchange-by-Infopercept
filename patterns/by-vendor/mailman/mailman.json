@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td><a[^>]+href=\"[^\"]+/listinfo/[^\"]+\"><strong>[^<]+</strong></a></td>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<td><a[^>]+href=\"[^\"]+/listinfo/[^\"]+\"><strong>[^<]+</strong></a></td>"
+      "pattern": "<td><a[^>]+href=\"[^\"]+/listinfo/[^\"]+\"><strong>[^<]+</strong></a></td>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

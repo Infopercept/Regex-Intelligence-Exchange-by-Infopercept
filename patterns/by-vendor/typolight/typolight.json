@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"system/typolight\\.css\"\\ type=\"text/css\"\\ media=\"screen\"\\ />"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"system/typolight\\.css\"\\ type=\"text/css\"\\ media=\"screen\"\\ />",
+      "version_group": 0
     },
     {
       "name": "TypoLight Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "This\\ website\\ is\\ powered\\ by\\ TYPOlight\\ Open\\ Source\\ CMS\\ ::\\ Licensed\\ under\\ GNU/LGPL"
+      "pattern": "This\\ website\\ is\\ powered\\ by\\ TYPOlight\\ Open\\ Source\\ CMS\\ ::\\ Licensed\\ under\\ GNU/LGPL",
+      "version_group": 0
     },
     {
       "name": "TypoLight Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ indexer::continue\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ indexer::continue\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

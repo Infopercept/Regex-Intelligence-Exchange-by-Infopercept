@@ -1,0 +1,31 @@
+{
+  "vendor": "WebAssembly",
+  "vendor_id": "webassembly",
+  "product": "WebAssembly",
+  "product_id": "webassembly-webassembly",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WebAssembly Header Detection",
+      "pattern": "Content-Type: application/wasm",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects WebAssembly from Content-Type header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "webassembly"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

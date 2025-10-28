@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\\t<title>PG\\ Real\\ Estate\\ Solution"
+      "pattern": "\\\t<title>PG\\ Real\\ Estate\\ Solution",
+      "version_group": 0
     },
     {
       "name": "PG-Real-Estate-Solution Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href='http://www\\.realtysoft\\.pro/realestate/'\\ title='real\\ estate\\ web\\ site\\ design,\\ real\\ estate\\ listing\\ software'>PG\\ Real\\ Estate\\ Solution\\ \\-\\ real\\ estate\\ web\\ site\\ design</a>"
+      "pattern": "Powered\\ by\\ <a\\ href='http://www\\.realtysoft\\.pro/realestate/'\\ title='real\\ estate\\ web\\ site\\ design,\\ real\\ estate\\ listing\\ software'>PG\\ Real\\ Estate\\ Solution\\ \\-\\ real\\ estate\\ web\\ site\\ design</a>",
+      "version_group": 0
     },
     {
       "name": "PG-Real-Estate-Solution Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.realtysoft\\.pro/realestate/\"\\ title=\"real\\ estate\\ web\\ site\\ design,\\ real\\ estate\\ listing\\ software\">PG\\ Real\\ Estate\\ Solution\\ \\-\\ real\\ estate\\ web\\ site\\ design</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.realtysoft\\.pro/realestate/\"\\ title=\"real\\ estate\\ web\\ site\\ design,\\ real\\ estate\\ listing\\ software\">PG\\ Real\\ Estate\\ Solution\\ \\-\\ real\\ estate\\ web\\ site\\ design</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

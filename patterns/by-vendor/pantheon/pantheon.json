@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "HTTP/1.[01] 404 Unknown site!",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "HTTP/1\\.[01] 404 Unknown site\\!"
+      "pattern": "HTTP/1\\.[01] 404 Unknown site\\!",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

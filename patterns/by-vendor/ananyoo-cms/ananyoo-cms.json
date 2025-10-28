@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"copyright\"\\ content=\"Copyright\\ 2003\\-2008,\\ Ananyoo\\ CMS,\\ a\\ Anblik\\.com\\ Project\\.\"\\ />"
+      "pattern": "<meta\\ name=\"copyright\"\\ content=\"Copyright\\ 2003\\-2008,\\ Ananyoo\\ CMS,\\ a\\ Anblik\\.com\\ Project\\.\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Ananyoo-CMS Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"http://www\\.ananyoo\\.com\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"http://www\\.ananyoo\\.com\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

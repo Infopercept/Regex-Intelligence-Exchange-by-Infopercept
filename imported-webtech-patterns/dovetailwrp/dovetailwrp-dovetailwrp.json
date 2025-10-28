@@ -1,0 +1,51 @@
+{
+  "vendor": "DovetailWRP",
+  "vendor_id": "dovetailwrp",
+  "product": "DovetailWRP",
+  "product_id": "dovetailwrp-dovetailwrp",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DovetailWRP HTML Detection",
+      "pattern": "<link[^>]* href=\"/DovetailWRP/",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DovetailWRP from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "dovetailwrp"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "DovetailWRP Script Detection",
+      "pattern": "/DovetailWRP/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DovetailWRP from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "dovetailwrp"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

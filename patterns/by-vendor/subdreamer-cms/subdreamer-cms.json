@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.subdreamer\\.com\"\\ target=\"_blank\"\\ class=\"copyright\">Website\\ powered\\ by\\ Subdreamer\\ CMS</a>"
+      "pattern": "<a\\ href=\"http://www\\.subdreamer\\.com\"\\ target=\"_blank\"\\ class=\"copyright\">Website\\ powered\\ by\\ Subdreamer\\ CMS</a>",
+      "version_group": 0
     },
     {
       "name": "powered by text #2",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.subdreamer.com[/]*\" title=\"Website powered by Subdreamer[ CMS]*\">Website powered by Subdreamer[ CMS]*</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"http://www.subdreamer.com[/]*\" title=\"Website powered by Subdreamer[\\ CMS]*\">Website powered by Subdreamer[\\ CMS]*</a>"
+      "pattern": "<a href=\"http://www.subdreamer.com[/]*\" title=\"Website powered by Subdreamer[\\ CMS]*\">Website powered by Subdreamer[\\ CMS]*</a>",
+      "version_group": 0
     },
     {
       "name": "login page text",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"copyright\">Powered\\ by\\ <b>Subdreamer\\ CMS</b></div>"
+      "pattern": "<div\\ id=\"copyright\">Powered\\ by\\ <b>Subdreamer\\ CMS</b></div>",
+      "version_group": 0
     },
     {
       "name": "old login page text",
@@ -86,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<td\\ class=\"logintitle\"\\ height=\"18\">Subdreamer\\ Admin\\ Panel</td>"
+      "pattern": "<td\\ class=\"logintitle\"\\ height=\"18\">Subdreamer\\ Admin\\ Panel</td>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

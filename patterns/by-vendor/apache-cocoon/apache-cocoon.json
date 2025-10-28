@@ -29,5 +29,6 @@
       "pattern": "x-cocoon-version: ^(.*)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

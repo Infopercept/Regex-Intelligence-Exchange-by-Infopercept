@@ -1,0 +1,31 @@
+{
+  "vendor": "ClearSale",
+  "vendor_id": "clearsale",
+  "product": "ClearSale",
+  "product_id": "clearsale-clearsale",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ClearSale Script Detection",
+      "pattern": "device\\.clearsale\\.com\\.br",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ClearSale from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "clearsale"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

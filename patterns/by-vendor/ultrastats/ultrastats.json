@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<DIV\\ align=center>Powered\\ by\\ Ultrastats"
+      "pattern": "<DIV\\ align=center>Powered\\ by\\ Ultrastats",
+      "version_group": 0
     },
     {
       "name": "Ultrastats Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"\\./images/main/ultrastatslogo\\.png\"\\ width=\"300\"\\ height=\"200\"\\ name=\"ultrastats_logo\"\\ align=\"center\">"
+      "pattern": "<img\\ src=\"\\./images/main/ultrastatslogo\\.png\"\\ width=\"300\"\\ height=\"200\"\\ name=\"ultrastats_logo\"\\ align=\"center\">",
+      "version_group": 0
     },
     {
       "name": "Ultrastats Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Ultrastats :: [^<]+</title>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>Ultrastats :: [^<]+</title>"
+      "pattern": "<title>Ultrastats :: [^<]+</title>",
+      "version_group": 0
     },
     {
       "name": "Ultrastats Pattern",
@@ -86,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<title>UltraStats\\ ::\\ Critical\\ Error\\ occured</title>"
+      "pattern": "<title>UltraStats\\ ::\\ Critical\\ Error\\ occured</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "Starlet",
+  "vendor_id": "starlet",
+  "product": "Starlet",
+  "product_id": "starlet-starlet",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Starlet Header Detection",
+      "pattern": "Server: ^Plack::Handler::Starlet",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Starlet from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "starlet"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

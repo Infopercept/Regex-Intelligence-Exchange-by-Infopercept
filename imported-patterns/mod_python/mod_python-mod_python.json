@@ -1,0 +1,31 @@
+{
+  "vendor": "mod_python",
+  "vendor_id": "mod_python",
+  "product": "mod_python",
+  "product_id": "mod_python-mod_python",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "mod_python Header Detection",
+      "pattern": "Server: mod_python(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects mod_python from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "mod_python"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

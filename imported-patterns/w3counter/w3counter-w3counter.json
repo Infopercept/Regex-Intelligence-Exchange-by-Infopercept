@@ -1,0 +1,31 @@
+{
+  "vendor": "W3Counter",
+  "vendor_id": "w3counter",
+  "product": "W3Counter",
+  "product_id": "w3counter-w3counter",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "W3Counter Script Detection",
+      "pattern": "w3counter\\.com/tracker\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects W3Counter from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "w3counter"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

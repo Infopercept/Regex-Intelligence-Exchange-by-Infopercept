@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<script\\ type=\"text/javascript\">document\\.write\\(\"<title>\"\\ \\+\\ ID_VC_Welcome\\ \\+\\ \"</title>\"\\);</script>"
+      "pattern": "<script\\ type=\"text/javascript\">document\\.write\\(\"<title>\"\\ \\+\\ ID_VC_Welcome\\ \\+\\ \"</title>\"\\);</script>",
+      "version_group": 0
     },
     {
       "name": "VMware-VirtualCenter Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"description\"\\ content=\"VMware\\ vSphere\\ is\\ virtual\\ infrastructure\\ software\\ for\\ partitioning,\\ consolidating\\ and\\ managing\\ systems\\ in\\ mission\\-critical\\ environments\\.\\ VMware\\ ESX\\ Server\\ provides\\ a\\ highly\\ scalable\\ platform\\ with\\ advanced\\ resource\\ management\\ capabilities,\\ which\\ can\\ be\\ managed\\ by\\ vSphere\\.\">"
+      "pattern": "<meta\\ name=\"description\"\\ content=\"VMware\\ vSphere\\ is\\ virtual\\ infrastructure\\ software\\ for\\ partitioning,\\ consolidating\\ and\\ managing\\ systems\\ in\\ mission\\-critical\\ environments\\.\\ VMware\\ ESX\\ Server\\ provides\\ a\\ highly\\ scalable\\ platform\\ with\\ advanced\\ resource\\ management\\ capabilities,\\ which\\ can\\ be\\ managed\\ by\\ vSphere\\.\">",
+      "version_group": 0
     },
     {
       "name": "VMware-VirtualCenter Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<title>VMware\\ Virtual\\ Infrastructure\\ Web\\ Access</title>"
+      "pattern": "<title>VMware\\ Virtual\\ Infrastructure\\ Web\\ Access</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

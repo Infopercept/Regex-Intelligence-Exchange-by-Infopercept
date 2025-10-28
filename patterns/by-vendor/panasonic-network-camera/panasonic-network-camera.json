@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<HEAD><TITLE>WJ\\-NT104\\ MAIN\\ PAGE</TITLE></HEAD>"
+      "pattern": "<HEAD><TITLE>WJ\\-NT104\\ MAIN\\ PAGE</TITLE></HEAD>",
+      "version_group": 0
     },
     {
       "name": "Panasonic-Network-Camera Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ \\ \\ <FONT\\ FACE=\"Arial\"\\ STYLE=\"font\\-size:\\ 24px\"\\ COLOR=\"\\#ffffff\"><B>Network\\ Camera</B></FONT>"
+      "pattern": "\\ \\ \\ \\ \\ \\ <FONT\\ FACE=\"Arial\"\\ STYLE=\"font\\-size:\\ 24px\"\\ COLOR=\"\\#ffffff\"><B>Network\\ Camera</B></FONT>",
+      "version_group": 0
     },
     {
       "name": "Panasonic-Network-Camera Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<BODY BACKGROUND=\"image/Hcm1[0]?.gif\" \t\t[t]?BGCOLOR=\"#efefef\" TEXT=\"#000000\" LINK=\"#000000\" \t\t\tVLINK=\"#000000\" ALINK=\"#000000\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<BODY BACKGROUND=\"image/Hcm1[0]?\\.gif\" \t\t[\\t]?BGCOLOR=\"#efefef\" TEXT=\"#000000\" LINK=\"#000000\" \t\t\tVLINK=\"#000000\" ALINK=\"#000000\">"
+      "pattern": "<BODY BACKGROUND=\"image/Hcm1[0]?\\.gif\" \t\t[\\t]?BGCOLOR=\"#efefef\" TEXT=\"#000000\" LINK=\"#000000\" \t\t\tVLINK=\"#000000\" ALINK=\"#000000\">",
+      "version_group": 0
     },
     {
       "name": "Panasonic-Network-Camera Pattern",
@@ -78,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<FRAME name=bar src=\"CgiTagMenu?page=[^&]+&Language=[d]+\" scrolling=no NORESIZE>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<FRAME name=bar src=\"CgiTagMenu\\?page=[^&]+&Language=[\\d]+\" scrolling=no NORESIZE>"
+      "pattern": "<FRAME name=bar src=\"CgiTagMenu\\?page=[^&]+&Language=[\\d]+\" scrolling=no NORESIZE>",
+      "version_group": 0
     },
     {
       "name": "Panasonic-Network-Camera Pattern",
@@ -102,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<META\\ name=\"copyright\"\\ content=\"Copyright\\ \\(C\\)\\ 2003\\ Matsushita\\ Electric\\ Industrial\\ Co\\.,\\ Ltd\\.\\ All\\ rights\\ reserved\\.\">"
+      "pattern": "<META\\ name=\"copyright\"\\ content=\"Copyright\\ \\(C\\)\\ 2003\\ Matsushita\\ Electric\\ Industrial\\ Co\\.,\\ Ltd\\.\\ All\\ rights\\ reserved\\.\">",
+      "version_group": 0
     },
     {
       "name": "Panasonic-Network-Camera Pattern",
@@ -124,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<TITLE>Digital\\ Disk\\ Recorder\\ WJ\\-HD220\\ CONTROL\\ MAIN\\ PAGE</TITLE>"
+      "pattern": "<TITLE>Digital\\ Disk\\ Recorder\\ WJ\\-HD220\\ CONTROL\\ MAIN\\ PAGE</TITLE>",
+      "version_group": 0
     },
     {
       "name": "Panasonic-Network-Camera Pattern",
@@ -146,7 +164,8 @@
           }
         ]
       },
-      "pattern": "<TITLE>WJ\\-HD200\\ DigitalDiskRecorder\\ CONTROL\\ MAIN\\ PAGE</TITLE>"
+      "pattern": "<TITLE>WJ\\-HD200\\ DigitalDiskRecorder\\ CONTROL\\ MAIN\\ PAGE</TITLE>",
+      "version_group": 0
     },
     {
       "name": "Panasonic-Network-Camera Pattern",
@@ -168,7 +187,9 @@
           }
         ]
       },
-      "pattern": "window\\.location\\.replace\\(\"/view/idconv\\.cgi\\?UID=%i\\&FILE=/hdrindex\\.html\\&PAGE=\"\\+myDate\\.getTime\\(\\)\\);"
+      "pattern": "window\\.location\\.replace\\(\"/view/idconv\\.cgi\\?UID=%i\\&FILE=/hdrindex\\.html\\&PAGE=\"\\+myDate\\.getTime\\(\\)\\);",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "Pygments",
+  "vendor_id": "pygments",
+  "product": "Pygments",
+  "product_id": "pygments-pygments",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Pygments HTML Detection",
+      "pattern": "<link[^>]+pygments\\.css[\"']",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Pygments from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "pygments"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

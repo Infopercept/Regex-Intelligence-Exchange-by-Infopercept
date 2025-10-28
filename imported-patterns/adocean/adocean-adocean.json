@@ -1,0 +1,51 @@
+{
+  "vendor": "AdOcean",
+  "vendor_id": "adocean",
+  "product": "AdOcean",
+  "product_id": "adocean-adocean",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AdOcean Script Detection",
+      "pattern": "adocean\\.pl/files/js/ado\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AdOcean from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "adocean"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AdOcean Script Detection",
+      "pattern": "adocean\\.pl\\;confidence:80",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AdOcean from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "adocean"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

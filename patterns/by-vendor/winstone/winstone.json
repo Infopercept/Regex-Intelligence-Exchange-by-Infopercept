@@ -52,5 +52,6 @@
       "pattern": "x-powered-by: Servlet/[^\\s]+ \\(Winstone/([^\\)]+)\\)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

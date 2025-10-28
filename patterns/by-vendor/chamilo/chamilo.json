@@ -49,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<link\\ href=\"http://www\\.chamilo\\.org/documentation\\.php\"\\ rel=\"Help\"\\ />"
+      "pattern": "<link\\ href=\"http://www\\.chamilo\\.org/documentation\\.php\"\\ rel=\"Help\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Chamilo Pattern",
@@ -63,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Generator\" content=\"Chamilo ([d.]+)\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\"Generator\" content=\"Chamilo ([\\d\\.]+)\">"
+      "pattern": "<meta name=\"Generator\" content=\"Chamilo ([\\d\\.]+)\">",
+      "version_group": 0
     },
     {
       "name": "Chamilo Pattern",
@@ -87,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ end\\ of\\ \\#main\"\\ started\\ at\\ the\\ end\\ of\\ banner\\.inc\\.php\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ end\\ of\\ \\#main\"\\ started\\ at\\ the\\ end\\ of\\ banner\\.inc\\.php\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

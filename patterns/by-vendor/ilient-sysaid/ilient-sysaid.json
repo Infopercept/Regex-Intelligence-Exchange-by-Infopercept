@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "</a><u\\ class=\"LookLikeLink\"><span\\ class=\"LookLikeLink\">\\ by\\ SysAid</span></u>"
+      "pattern": "</a><u\\ class=\"LookLikeLink\"><span\\ class=\"LookLikeLink\">\\ by\\ SysAid</span></u>",
+      "version_group": 0
     },
     {
       "name": "Ilient-SysAid Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<p><a\\ href=\"http://www\\.ilient\\.com\">Help\\ Desk\\ Software\\ by\\ Ilient</a></p>"
+      "pattern": "<p><a\\ href=\"http://www\\.ilient\\.com\">Help\\ Desk\\ Software\\ by\\ Ilient</a></p>",
+      "version_group": 0
     },
     {
       "name": "Ilient-SysAid Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<p><a\\ href=\"http://www\\.ilient\\.com\">Help\\ Desk\\ Software\\ by\\ SysAid</a></p>"
+      "pattern": "<p><a\\ href=\"http://www\\.ilient\\.com\">Help\\ Desk\\ Software\\ by\\ SysAid</a></p>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

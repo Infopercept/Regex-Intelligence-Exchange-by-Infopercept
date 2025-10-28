@@ -1,0 +1,51 @@
+{
+  "vendor": "JS",
+  "vendor_id": "js",
+  "product": "JS Charts",
+  "product_id": "js-js-charts",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "JS Charts Script Detection",
+      "pattern": "jscharts.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects JS Charts from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "js-charts"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "JS Charts JavaScript Detection",
+      "pattern": "window\\.JSChart|JSChart\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects JS Charts from JavaScript variable 'JSChart'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "js-charts"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

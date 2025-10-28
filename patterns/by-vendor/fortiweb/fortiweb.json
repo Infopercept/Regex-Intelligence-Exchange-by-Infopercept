@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^FortiWeb$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^FortiWeb$"
+      "pattern": "^FortiWeb$",
+      "version_group": 0
     },
     {
       "name": "FortiWeb Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^FortiWeb-([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

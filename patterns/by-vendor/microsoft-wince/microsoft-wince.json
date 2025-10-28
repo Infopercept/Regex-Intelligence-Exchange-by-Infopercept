@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Microsoft-WinCE",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Microsoft-WinCE"
+      "pattern": "^Microsoft-WinCE",
+      "version_group": 0
     },
     {
       "name": "Microsoft-WinCE Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Microsoft-WinCE/([\\S]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

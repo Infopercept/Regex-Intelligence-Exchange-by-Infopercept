@@ -1,0 +1,71 @@
+{
+  "vendor": "Chitika",
+  "vendor_id": "chitika",
+  "product": "Chitika",
+  "product_id": "chitika-chitika",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Chitika Script Detection",
+      "pattern": "scripts\\.chitika\\.net/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Chitika from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "chitika"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Chitika JavaScript Detection",
+      "pattern": "window\\.ch_client|ch_client\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Chitika from JavaScript variable 'ch_client'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "chitika"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Chitika JavaScript Detection",
+      "pattern": "window\\.ch_color_site_link|ch_color_site_link\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Chitika from JavaScript variable 'ch_color_site_link'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "chitika"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

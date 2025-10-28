@@ -1,0 +1,31 @@
+{
+  "vendor": "Ruby",
+  "vendor_id": "ruby",
+  "product": "Ruby",
+  "product_id": "ruby-ruby",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Ruby Header Detection",
+      "pattern": "Server: (?:Mongrel|WEBrick|Ruby)",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Ruby from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "ruby"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

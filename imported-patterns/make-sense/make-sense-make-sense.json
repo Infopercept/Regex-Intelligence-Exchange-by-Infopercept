@@ -1,0 +1,31 @@
+{
+  "vendor": "Make-Sense",
+  "vendor_id": "make-sense",
+  "product": "Make-Sense",
+  "product_id": "make-sense-make-sense",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Make-Sense Script Detection",
+      "pattern": "mk-sense\\.com/aweb\\?license",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Make-Sense from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "make-sense"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

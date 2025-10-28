@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^GoServe",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^GoServe"
+      "pattern": "^GoServe",
+      "version_group": 0
     },
     {
       "name": "GoServe Pattern",
@@ -68,5 +75,6 @@
       "pattern": "Server: ^GoServe for OS/2, version ([^\\s^;]+); SRE-http [\\d\\.]+$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

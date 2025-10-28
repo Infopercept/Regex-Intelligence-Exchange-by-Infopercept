@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\"[^>]*content=\"PrestaShop",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\"generator\"[^>]*content=\"PrestaShop"
+      "pattern": "<meta name=\"generator\"[^>]*content=\"PrestaShop",
+      "version_group": 0
     },
     {
       "name": "PrestaShop-Powered meta description",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\"[^>]*content=\"par PrestaShop",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\"description\"[^>]*content=\"par PrestaShop"
+      "pattern": "<meta name=\"description\"[^>]*content=\"par PrestaShop",
+      "version_group": 0
     },
     {
       "name": "PrestaShop-Powered meta description",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"description\"[^>]*content=\"Shop powered by PrestaShop",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\"description\"[^>]*content=\"Shop powered by PrestaShop"
+      "pattern": "<meta name=\"description\"[^>]*content=\"Shop powered by PrestaShop",
+      "version_group": 0
     },
     {
       "name": "html comment",
@@ -66,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- /Block permanent links module HEADER -->",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!-- /Block permanent links module HEADER -->"
+      "pattern": "<!-- /Block permanent links module HEADER -->",
+      "version_group": 0
     },
     {
       "name": "PrestaShop cookie",
@@ -82,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "PrestaShop",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "PrestaShop"
+      "pattern": "PrestaShop",
+      "version_group": 0
     },
     {
       "name": "PrestaShop-Powered meta description (FR)",
@@ -106,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\\\\"
+      "pattern": "<meta\\ name=\\\\",
+      "version_group": 0
     },
     {
       "name": "PrestaShop-Powered meta description (EN)",
@@ -128,7 +164,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\\\\"
+      "pattern": "<meta\\ name=\\\\",
+      "version_group": 0
     },
     {
       "name": "PrestaShop-Powered meta generator",
@@ -150,7 +187,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\\\\"
+      "pattern": "<meta\\ name=\\\\",
+      "version_group": 0
     },
     {
       "name": "PrestaShop Pattern",
@@ -172,7 +210,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ /Block\\ permanent\\ links\\ module\\ HEADER\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ /Block\\ permanent\\ links\\ module\\ HEADER\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

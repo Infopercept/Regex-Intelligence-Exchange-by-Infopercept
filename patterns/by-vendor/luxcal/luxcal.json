@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"description\"\\ content=\"LuxCal\\ web\\ calendar\\ \\-\\ a\\ LuxSoft\\ product\"\\ />"
+      "pattern": "<meta\\ name=\"description\"\\ content=\"LuxCal\\ web\\ calendar\\ \\-\\ a\\ LuxSoft\\ product\"\\ />",
+      "version_group": 0
     },
     {
       "name": "LuxCal Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ href=\"lcal\\.ico\"\\ />"
+      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ href=\"lcal\\.ico\"\\ />",
+      "version_group": 0
     },
     {
       "name": "LuxCal Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"author\"\\ content=\"Roel\\ Buining\"\\ />"
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Roel\\ Buining\"\\ />",
+      "version_group": 0
     },
     {
       "name": "LuxCal Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<span\\ class=\\\\"
+      "pattern": "<span\\ class=\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

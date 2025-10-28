@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Sophos Email Appliance$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Sophos Email Appliance$"
+      "pattern": "^Sophos Email Appliance$",
+      "version_group": 0
     },
     {
       "name": "Sophos-Email-Appliance Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<td\\ class=\"logincontent\"\\ valign=\"top\"><a\\ href=\"http://www\\.sophos\\.com\"><img\\ src=\"images/logo_sophos\\.gif\"\\ border=\"0\"\\ alt=\"Email\\ Appliance\"></a></td>"
+      "pattern": "<td\\ class=\"logincontent\"\\ valign=\"top\"><a\\ href=\"http://www\\.sophos\\.com\"><img\\ src=\"images/logo_sophos\\.gif\"\\ border=\"0\"\\ alt=\"Email\\ Appliance\"></a></td>",
+      "version_group": 0
     },
     {
       "name": "Sophos-Email-Appliance Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<title>Sophos\\ Email\\ Appliance</title>"
+      "pattern": "<title>Sophos\\ Email\\ Appliance</title>",
+      "version_group": 0
     },
     {
       "name": "Sophos-Email-Appliance Pattern",
@@ -86,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ end\\ main\\ content\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ end\\ main\\ content\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

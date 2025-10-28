@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://gitorious.org\"><img alt=\"Poweredby\" src=\"/images/../img/poweredby.png?[d]+\" title=\"Powered by Gitorious\" /></a></div>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"http://gitorious\\.org\"><img alt=\"Poweredby\" src=\"/images/\\.\\./img/poweredby\\.png\\?[\\d]+\" title=\"Powered by Gitorious\" /></a></div>"
+      "pattern": "<a href=\"http://gitorious\\.org\"><img alt=\"Poweredby\" src=\"/images/\\.\\./img/poweredby\\.png\\?[\\d]+\" title=\"Powered by Gitorious\" /></a></div>",
+      "version_group": 0
     },
     {
       "name": "Gitorious Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "_gitorious_sess=[^-]+--[^;]+; domain=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "_gitorious_sess=[^-]+--[^;]+; domain="
+      "pattern": "_gitorious_sess=[^-]+--[^;]+; domain=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

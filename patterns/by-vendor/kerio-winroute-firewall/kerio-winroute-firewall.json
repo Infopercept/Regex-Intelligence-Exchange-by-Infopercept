@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Kerio WinRoute Firewall Embedded Web Server$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Kerio WinRoute Firewall Embedded Web Server$"
+      "pattern": "^Kerio WinRoute Firewall Embedded Web Server$",
+      "version_group": 0
     },
     {
       "name": "Kerio-WinRoute-Firewall Pattern",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ HTTP\\-EQUIV=\"Refresh\"\\ content=\"0;URL=/internal/ntlm/dologin\\.php\\?internal=0\">\\\t<title>Kerio\\ WinRoute\\ Firewall\\ \\-\\ Login\\ Page\\ \\-\\ Kerio\\ WinRoute\\ Firewall</title>"
+      "pattern": "<meta\\ HTTP\\-EQUIV=\"Refresh\"\\ content=\"0;URL=/internal/ntlm/dologin\\.php\\?internal=0\">\\\t<title>Kerio\\ WinRoute\\ Firewall\\ \\-\\ Login\\ Page\\ \\-\\ Kerio\\ WinRoute\\ Firewall</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

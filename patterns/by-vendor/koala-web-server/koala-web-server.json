@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Koala Web Server",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Koala Web Server"
+      "pattern": "^Koala Web Server",
+      "version_group": 0
     },
     {
       "name": "Koala-Web-Server Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Koala Web Server/([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<title>VMware\\ Horizon</title>"
+      "pattern": "<title>VMware\\ Horizon</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

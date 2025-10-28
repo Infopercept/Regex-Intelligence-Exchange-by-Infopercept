@@ -1,0 +1,31 @@
+{
+  "vendor": "Transifex",
+  "vendor_id": "transifex",
+  "product": "Transifex",
+  "product_id": "transifex-transifex",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Transifex JavaScript Detection",
+      "pattern": "window\\.Transifex\\.live\\.lib_version|Transifex\\.live\\.lib_version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Transifex from JavaScript variable 'Transifex.live.lib_version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "transifex"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^IWeb/([^s]+)",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^IWeb/([^\\s]+)"
+      "pattern": "^IWeb/([^\\s]+)",
+      "version_group": 0
     },
     {
       "name": "VisionWEB Pattern",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<b>CIEFFE\\ srl</b>\\ \\-\\ \"We\\ power\\ Your\\ eyes\"<br"
+      "pattern": "<b>CIEFFE\\ srl</b>\\ \\-\\ \"We\\ power\\ Your\\ eyes\"<br",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

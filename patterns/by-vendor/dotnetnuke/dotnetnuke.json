@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "src=\"[^\"]*/portals/_default/(containers|skins)",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "src=\"[^\"]*/portals/_default/(containers|skins)"
+      "pattern": "src=\"[^\"]*/portals/_default/(containers|skins)",
+      "version_group": 0
     },
     {
       "name": "DotNetNuke Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ id=\"MetaGenerator\"\\ name=\"GENERATOR\"\\ content=\"DotNetNuke\\ \"\\ />"
+      "pattern": "<meta\\ id=\"MetaGenerator\"\\ name=\"GENERATOR\"\\ content=\"DotNetNuke\\ \"\\ />",
+      "version_group": 0
     },
     {
       "name": "VIEWSTATE contains DotNetNuke",
@@ -56,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "__VIEWSTATE\" value=\"[^\"]*RG90TmV0TnVrZ|RvdE5ldE51a2|3ROZXROdWtl",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "__VIEWSTATE\" value=\"[^\"]*RG90TmV0TnVrZ|RvdE5ldE51a2|3ROZXROdWtl"
+      "pattern": "__VIEWSTATE\" value=\"[^\"]*RG90TmV0TnVrZ|RvdE5ldE51a2|3ROZXROdWtl",
+      "version_group": 0
     },
     {
       "name": "DotNetNuke Pattern",
@@ -80,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"dnn_ctr"
+      "pattern": "<div\\ id=\"dnn_ctr",
+      "version_group": 0
     },
     {
       "name": "DotNetNuke Pattern",
@@ -102,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"dnn_"
+      "pattern": "<div\\ id=\"dnn_",
+      "version_group": 0
     },
     {
       "name": "DotNetNuke Pattern",
@@ -124,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<input\\ name=\"__dnnVariable\"\\ type=\"hidden\"\\ id=\"__dnnVariable\""
+      "pattern": "<input\\ name=\"__dnnVariable\"\\ type=\"hidden\"\\ id=\"__dnnVariable\"",
+      "version_group": 0
     },
     {
       "name": "DotNetNukeAnonymous Cookie",
@@ -138,9 +156,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "DotNetNukeAnonymous=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "DotNetNukeAnonymous="
+      "pattern": "DotNetNukeAnonymous=",
+      "version_group": 0
     },
     {
       "name": "dnn_IsMobile cookie",
@@ -154,9 +179,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "dnn_IsMobile",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "dnn_IsMobile"
+      "pattern": "dnn_IsMobile",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

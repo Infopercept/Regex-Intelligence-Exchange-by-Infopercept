@@ -41,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "MJNIOHTTPDSESSIONID=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "MJNIOHTTPDSESSIONID="
+      "pattern": "MJNIOHTTPDSESSIONID=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

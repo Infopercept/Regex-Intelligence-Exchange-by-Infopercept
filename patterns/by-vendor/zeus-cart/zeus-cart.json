@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"images/warning\\.gif\">Warning:\\ Installation\\ directory\\ exists\\ ZEUSCART\\ ROOT\\ DIRECTORY/install\\.\\ Please\\ remove/rename\\ this\\ directory\\ for\\ security\\ reasons\\."
+      "pattern": "<img\\ src=\"images/warning\\.gif\">Warning:\\ Installation\\ directory\\ exists\\ ZEUSCART\\ ROOT\\ DIRECTORY/install\\.\\ Please\\ remove/rename\\ this\\ directory\\ for\\ security\\ reasons\\.",
+      "version_group": 0
     },
     {
       "name": "Zeus-Cart Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.ajsquare\\.com/products/ecom/\"\\ style=\"color:\\#716f6f;\"\\ target=\"_blank\">ZeusCart</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.ajsquare\\.com/products/ecom/\"\\ style=\"color:\\#716f6f;\"\\ target=\"_blank\">ZeusCart</a>",
+      "version_group": 0
     },
     {
       "name": "Zeus-Cart Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<title>::\\ Zeuscart\\ Admin\\ Panel</title>"
+      "pattern": "<title>::\\ Zeuscart\\ Admin\\ Panel</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

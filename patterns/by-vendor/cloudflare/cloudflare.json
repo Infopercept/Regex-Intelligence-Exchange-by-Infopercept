@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<iframe\\ frameborder=\"0\"\\ width=\"100%\"\\ height=\"100%\"\\ src=\"http://anti\\-virus\\.cloudflare\\.com/cdn\\-cgi/anti\\-virus\\-challenge\\?h="
+      "pattern": "<iframe\\ frameborder=\"0\"\\ width=\"100%\"\\ height=\"100%\"\\ src=\"http://anti\\-virus\\.cloudflare\\.com/cdn\\-cgi/anti\\-virus\\-challenge\\?h=",
+      "version_group": 0
     },
     {
       "name": "footer",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\&nbsp;\\&nbsp;Performance\\ \\&amp;\\ Security\\ by\\ <a\\ id=\"FooterCloudFlare\"\\ href=\"https://www\\.cloudflare\\.com\"\\ target=\"_blank\">CloudFlare</a>"
+      "pattern": "\\&nbsp;\\&nbsp;Performance\\ \\&amp;\\ Security\\ by\\ <a\\ id=\"FooterCloudFlare\"\\ href=\"https://www\\.cloudflare\\.com\"\\ target=\"_blank\">CloudFlare</a>",
+      "version_group": 0
     },
     {
       "name": "server header",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "cloudflare-nginx",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "cloudflare\\-nginx"
+      "pattern": "cloudflare\\-nginx",
+      "version_group": 0
     },
     {
       "name": "__cfduid cookie",
@@ -78,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "__cfduid",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "__cfduid"
+      "pattern": "__cfduid",
+      "version_group": 0
     },
     {
       "name": "email address protection",
@@ -94,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/cdn-cgi/l",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "/cdn-cgi/l\\"
+      "pattern": "/cdn-cgi/l\\",
+      "version_group": 0
     },
     {
       "name": "CloudFlare Zone",
@@ -110,9 +133,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "cloudflare",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "cloudflare"
+      "pattern": "cloudflare",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

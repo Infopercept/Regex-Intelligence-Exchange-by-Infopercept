@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"dota\\ OpenStats\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"dota\\ OpenStats\"\\ />",
+      "version_group": 0
     },
     {
       "name": "DotA-OpenStats Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"copyright\"\\ content=\"openstats\\.iz\\.rs\"\\ />"
+      "pattern": "<meta\\ name=\"copyright\"\\ content=\"openstats\\.iz\\.rs\"\\ />",
+      "version_group": 0
     },
     {
       "name": "DotA-OpenStats Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<img\\ alt=''\\ width='16'\\ height='16'\\ style='vertical\\-align:middle'\\ src='\\./style/dota/img/logo\\.png'\\ />"
+      "pattern": "<img\\ alt=''\\ width='16'\\ height='16'\\ style='vertical\\-align:middle'\\ src='\\./style/dota/img/logo\\.png'\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

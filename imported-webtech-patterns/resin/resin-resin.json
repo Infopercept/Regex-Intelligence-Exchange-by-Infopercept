@@ -1,0 +1,31 @@
+{
+  "vendor": "Resin",
+  "vendor_id": "resin",
+  "product": "Resin",
+  "product_id": "resin-resin",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Resin Header Detection",
+      "pattern": "Server: ^Resin(?:/(\\S*))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Resin from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "resin"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

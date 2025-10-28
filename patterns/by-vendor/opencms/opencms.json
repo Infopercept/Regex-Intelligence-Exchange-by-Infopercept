@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\"[^>]+content=\"OpenCms\"( /)?>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\"generator\"[^>]+content=\"OpenCms\"( /)?>"
+      "pattern": "<meta name=\"generator\"[^>]+content=\"OpenCms\"( /)?>",
+      "version_group": 0
     },
     {
       "name": "OpenCms Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<(link|img)[^>]+(href|src)=\"[^\"^:]*/(opencms|export)/(sites|system)/[^\"]+\"[^>]*>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<(link|img)[^>]+(href|src)=\"[^\"^:]*/(opencms|export)/(sites|system)/[^\"]+\"[^>]*>"
+      "pattern": "<(link|img)[^>]+(href|src)=\"[^\"^:]*/(opencms|export)/(sites|system)/[^\"]+\"[^>]*>",
+      "version_group": 0
     },
     {
       "name": "OpenCms Pattern",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<(link|img)[^>]+(href|src)=\"[^\"^:]*/opencms/[^\"]+\"[^>]*>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<(link|img)[^>]+(href|src)=\"[^\"^:]*/opencms/[^\"]+\"[^>]*>"
+      "pattern": "<(link|img)[^>]+(href|src)=\"[^\"^:]*/opencms/[^\"]+\"[^>]*>",
+      "version_group": 0
     },
     {
       "name": "OpenCms Pattern",
@@ -66,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^OpenCms",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^OpenCms"
+      "pattern": "^OpenCms",
+      "version_group": 0
     },
     {
       "name": "OpenCms Pattern",
@@ -93,5 +121,6 @@
       "pattern": "Server: ^OpenCms/([a-z\\d\\.]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

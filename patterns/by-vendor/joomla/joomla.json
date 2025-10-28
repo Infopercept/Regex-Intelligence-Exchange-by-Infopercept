@@ -18,6 +18,12 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Generator\" content=\"Joomla! - Copyright (C) 200[0-9] - 200[0-9] Open Source Matters. All rights reserved.\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
       "pattern": "<meta name=\"Generator\" content=\"Joomla! - Copyright \\(C\\) 200[0-9] - 200[0-9] Open Source Matters. All rights reserved.\" />",
@@ -43,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.joomla\\.org\">Joomla!</a>\\."
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.joomla\\.org\">Joomla!</a>\\.",
+      "version_group": 0
     },
     {
       "name": "admin page",
@@ -57,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"joomla\"><img src=\"[^\"]*/images/header_text.png\" alt=\"Joomla! Logo\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div id=\"joomla\"><img src=\"[^\"]*/images/header_text.png\" alt=\"Joomla! Logo\""
+      "pattern": "<div id=\"joomla\"><img src=\"[^\"]*/images/header_text.png\" alt=\"Joomla! Logo\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

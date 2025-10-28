@@ -1,0 +1,51 @@
+{
+  "vendor": "List.js",
+  "vendor_id": "list.js",
+  "product": "List.js",
+  "product_id": "list.js-listjs",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "List.js Script Detection",
+      "pattern": "^list\\.(?:min\\.)?js$",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects List.js from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "list.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "List.js JavaScript Detection",
+      "pattern": "window\\.List|List\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects List.js from JavaScript variable 'List'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "list.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

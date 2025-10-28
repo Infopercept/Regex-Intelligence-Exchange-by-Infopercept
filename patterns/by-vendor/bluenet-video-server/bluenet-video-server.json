@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "window\\.location\\.href='/cgi\\-bin/client_execute\\.cgi\\?tUD=0';"
+      "pattern": "window\\.location\\.href='/cgi\\-bin/client_execute\\.cgi\\?tUD=0';",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

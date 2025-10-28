@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "tengine",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "tengine"
+      "pattern": "tengine",
+      "version_group": 0
     },
     {
       "name": "Aliyun CDN",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "aliyun|alicdn",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "aliyun|alicdn"
+      "pattern": "aliyun|alicdn",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

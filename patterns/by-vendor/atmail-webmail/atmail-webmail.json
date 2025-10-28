@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Acceder\\ a\\ UOWebmail</title>"
+      "pattern": "<title>Acceder\\ a\\ UOWebmail</title>",
+      "version_group": 0
     },
     {
       "name": "Atmail-WebMail Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href='http://atmail\\.com/webmail\\-client/'\\ title='Webmail\\ client'\\ target='_blank'>Powered\\ by\\ Atmail\\ Webmail\\ UO</a>"
+      "pattern": "<a\\ href='http://atmail\\.com/webmail\\-client/'\\ title='Webmail\\ client'\\ target='_blank'>Powered\\ by\\ Atmail\\ Webmail\\ UO</a>",
+      "version_group": 0
     },
     {
       "name": "Atmail-WebMail Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.atmail.com[/]*\" target=\"_blank\">Powered by Atmail[s]*</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"http://www.atmail.com[/]*\" target=\"_blank\">Powered by Atmail[\\s]*</a>"
+      "pattern": "<a href=\"http://www.atmail.com[/]*\" target=\"_blank\">Powered by Atmail[\\s]*</a>",
+      "version_group": 0
     },
     {
       "name": "Atmail-WebMail Pattern",
@@ -86,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<td\\ class=\"more\"><a\\ href=\"javascript:ExpandOptions\\(\\)\"><img\\ src=\"imgs/login\\-more\\.gif\"\\ alt=\"more\"\\ border=\"none\"></a></td>"
+      "pattern": "<td\\ class=\"more\"><a\\ href=\"javascript:ExpandOptions\\(\\)\"><img\\ src=\"imgs/login\\-more\\.gif\"\\ alt=\"more\"\\ border=\"none\"></a></td>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

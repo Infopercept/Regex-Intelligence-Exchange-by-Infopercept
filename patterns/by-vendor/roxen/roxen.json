@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Roxen$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Roxen$"
+      "pattern": "^Roxen$",
+      "version_group": 0
     },
     {
       "name": "Roxen Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Roxen/([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -29,5 +29,6 @@
       "pattern": "Server: ^Techno Vision Security System Ver. ([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

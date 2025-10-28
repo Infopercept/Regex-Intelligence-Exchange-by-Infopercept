@@ -1,0 +1,31 @@
+{
+  "vendor": "Shopcada",
+  "vendor_id": "shopcada",
+  "product": "Shopcada",
+  "product_id": "shopcada-shopcada",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Shopcada JavaScript Detection",
+      "pattern": "window\\.Shopcada|Shopcada\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Shopcada from JavaScript variable 'Shopcada'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "shopcada"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

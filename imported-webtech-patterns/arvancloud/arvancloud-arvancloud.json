@@ -1,0 +1,51 @@
+{
+  "vendor": "ArvanCloud",
+  "vendor_id": "arvancloud",
+  "product": "ArvanCloud",
+  "product_id": "arvancloud-arvancloud",
+  "category": "web",
+  "subcategory": "cdn",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ArvanCloud Header Detection",
+      "pattern": "AR-PoweredBy: Arvan Cloud \\(arvancloud\\.com\\)",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ArvanCloud from AR-PoweredBy header",
+        "tags": [
+          "webtech",
+          "header",
+          "arvancloud"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "ArvanCloud JavaScript Detection",
+      "pattern": "window\\.ArvanCloud|ArvanCloud\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ArvanCloud from JavaScript variable 'ArvanCloud'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "arvancloud"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

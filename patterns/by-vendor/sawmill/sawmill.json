@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr><td>Username:</td><td>Administrator<input type=\"hidden\" name=\"cgionly_authentication_username\" value=\"([^\"]+)\"></td></tr>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<tr><td>Username:</td><td>Administrator<input type=\"hidden\" name=\"cgionly_authentication_username\" value=\"([^\\\"]+)\"></td></tr>"
+      "pattern": "<tr><td>Username:</td><td>Administrator<input type=\"hidden\" name=\"cgionly_authentication_username\" value=\"([^\\\"]+)\"></td></tr>",
+      "version_group": 0
     },
     {
       "name": "Sawmill Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<td><input\\ id=\"password\"\\ class=\"username\\-psw\\ text\"\\ type=\"password\"\\ value=\"\"\\ /><div\\ id=\"password:error\"\\ class=\"form\\-error\"></div></td>"
+      "pattern": "<td><input\\ id=\"password\"\\ class=\"username\\-psw\\ text\"\\ type=\"password\"\\ value=\"\"\\ /><div\\ id=\"password:error\"\\ class=\"form\\-error\"></div></td>",
+      "version_group": 0
     },
     {
       "name": "Sawmill Pattern",
@@ -67,5 +75,6 @@
       "pattern": "Server: ^Sawmill/([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,131 @@
+{
+  "vendor": "Bugzilla",
+  "vendor_id": "bugzilla",
+  "product": "Bugzilla",
+  "product_id": "bugzilla-bugzilla",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Bugzilla HTML Detection",
+      "pattern": "href=\"enter_bug\\.cgi\">",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bugzilla from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "bugzilla"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Bugzilla HTML Detection",
+      "pattern": "<main id=\"bugzilla-body\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bugzilla from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "bugzilla"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Bugzilla HTML Detection",
+      "pattern": "<a href=\"https?://www\\.bugzilla\\.org/docs/([0-9.]+)/[^>]+>Help<",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bugzilla from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "bugzilla"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Bugzilla HTML Detection",
+      "pattern": "<span id=\"information\" class=\"header_addl_info\">version ([\\d.]+)<",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bugzilla from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "bugzilla"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Bugzilla Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']Bugzilla ?([\\d.]+)?[\"']",
+      "version_group": 1,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bugzilla from meta tag with name 'generator'",
+        "tags": [
+          "webtech",
+          "meta",
+          "bugzilla"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Bugzilla JavaScript Detection",
+      "pattern": "window\\.BUGZILLA|BUGZILLA\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bugzilla from JavaScript variable 'BUGZILLA'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "bugzilla"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

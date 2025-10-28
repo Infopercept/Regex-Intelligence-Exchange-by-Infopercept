@@ -1,0 +1,31 @@
+{
+  "vendor": "FancyBox",
+  "vendor_id": "fancybox",
+  "product": "FancyBox",
+  "product_id": "fancybox-fancybox",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FancyBox Script Detection",
+      "pattern": "jquery\\.fancybox(?:\\.pack|\\.min)?\\.js(?:\\?v=([\\d.]+))?$",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects FancyBox from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "fancybox"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

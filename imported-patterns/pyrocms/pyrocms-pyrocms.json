@@ -1,0 +1,31 @@
+{
+  "vendor": "PyroCMS",
+  "vendor_id": "pyrocms",
+  "product": "PyroCMS",
+  "product_id": "pyrocms-pyrocms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PyroCMS Header Detection",
+      "pattern": "X-Streams-Distribution: PyroCMS",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PyroCMS from X-Streams-Distribution header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "pyrocms"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

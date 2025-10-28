@@ -1,0 +1,31 @@
+{
+  "vendor": "Rocket",
+  "vendor_id": "rocket",
+  "product": "Rocket",
+  "product_id": "rocket-rocket",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Rocket Header Detection",
+      "pattern": "x-powered-by: ^Rocket=https://rocketcms.io/",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Rocket from x-powered-by header",
+        "tags": [
+          "webtech",
+          "header",
+          "rocket"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

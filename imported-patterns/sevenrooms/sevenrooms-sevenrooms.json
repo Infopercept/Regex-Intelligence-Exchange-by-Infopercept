@@ -1,0 +1,31 @@
+{
+  "vendor": "SevenRooms",
+  "vendor_id": "sevenrooms",
+  "product": "SevenRooms",
+  "product_id": "sevenrooms-sevenrooms",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SevenRooms Script Detection",
+      "pattern": "sevenrooms\\.\\w+/widget/embed\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SevenRooms from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "sevenrooms"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Trend Micro$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Trend Micro$"
+      "pattern": "^Trend Micro$",
+      "version_group": 0
     },
     {
       "name": "Trend-Micro Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Trend Micro ([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

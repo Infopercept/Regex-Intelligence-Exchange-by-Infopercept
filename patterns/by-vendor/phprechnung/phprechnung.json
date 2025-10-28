@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<a\\ class='slink'\\ title='phpInvoice\\ Home'\\ href='http://www\\.ecorak\\.de/phpRechnung/'\\ target='_blank'>"
+      "pattern": "<a\\ class='slink'\\ title='phpInvoice\\ Home'\\ href='http://www\\.ecorak\\.de/phpRechnung/'\\ target='_blank'>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

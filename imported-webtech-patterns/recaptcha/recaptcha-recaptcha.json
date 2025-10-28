@@ -1,0 +1,171 @@
+{
+  "vendor": "reCAPTCHA",
+  "vendor_id": "recaptcha",
+  "product": "reCAPTCHA",
+  "product_id": "recaptcha-recaptcha",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "reCAPTCHA HTML Detection",
+      "pattern": "<div[^>]+id=\"recaptcha_image",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects reCAPTCHA from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "recaptcha"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "reCAPTCHA HTML Detection",
+      "pattern": "<link[^>]+recaptcha",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects reCAPTCHA from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "recaptcha"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "reCAPTCHA HTML Detection",
+      "pattern": "<div[^>]+class=\"g-recaptcha\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects reCAPTCHA from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "recaptcha"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "reCAPTCHA Script Detection",
+      "pattern": "api-secure\\.recaptcha\\.net",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects reCAPTCHA from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "recaptcha"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "reCAPTCHA Script Detection",
+      "pattern": "recaptcha_ajax\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects reCAPTCHA from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "recaptcha"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "reCAPTCHA Script Detection",
+      "pattern": "/recaptcha/api\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects reCAPTCHA from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "recaptcha"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "reCAPTCHA JavaScript Detection",
+      "pattern": "window\\.Recaptcha|Recaptcha\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects reCAPTCHA from JavaScript variable 'Recaptcha'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "recaptcha"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "reCAPTCHA JavaScript Detection",
+      "pattern": "window\\.recaptcha|recaptcha\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects reCAPTCHA from JavaScript variable 'recaptcha'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "recaptcha"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ AtomicCms\\ <a\\ href=\"http://atomiccms\\.com/\"\\ target=\"_blank\">content\\ management"
+      "pattern": "Powered\\ by\\ AtomicCms\\ <a\\ href=\"http://atomiccms\\.com/\"\\ target=\"_blank\">content\\ management",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

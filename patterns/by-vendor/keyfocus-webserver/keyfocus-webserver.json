@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^KFWebServer$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^KFWebServer$"
+      "pattern": "^KFWebServer$",
+      "version_group": 0
     },
     {
       "name": "KeyFocus-WebServer Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^KFWebServer/([\\d\\.]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

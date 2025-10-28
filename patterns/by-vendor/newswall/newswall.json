@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"screen\"><noscript><p class=\"js\">s*There's no newswall without javascript - please activate...s*</p></noscript></div>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div id=\"screen\"><noscript><p class=\"js\">\\s*There's no newswall without javascript - please activate\\.\\.\\.\\s*</p></noscript></div>"
+      "pattern": "<div id=\"screen\"><noscript><p class=\"js\">\\s*There's no newswall without javascript - please activate\\.\\.\\.\\s*</p></noscript></div>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

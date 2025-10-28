@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.syndeocms.org[/]?\" target=\"_blank\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <a href=\"http://www.syndeocms.org[/]?\" target=\"_blank\">"
+      "pattern": "Powered by <a href=\"http://www.syndeocms.org[/]?\" target=\"_blank\">",
+      "version_group": 0
     },
     {
       "name": "SyndeoCMS Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.syndeocms.org[/]?\" title=\"SyndeoCMS\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <a href=\"http://www.syndeocms.org[/]?\" title=\"SyndeoCMS\">"
+      "pattern": "Powered by <a href=\"http://www.syndeocms.org[/]?\" title=\"SyndeoCMS\">",
+      "version_group": 0
     },
     {
       "name": "SyndeoCMS Pattern",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.syndeocms.org[/]?\"[^>]*>SyndeoCMS</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <a href=\"http://www.syndeocms.org[/]?\"[^>]*>SyndeoCMS</a>"
+      "pattern": "Powered by <a href=\"http://www.syndeocms.org[/]?\"[^>]*>SyndeoCMS</a>",
+      "version_group": 0
     },
     {
       "name": "SyndeoCMS Pattern",
@@ -66,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Site created with <a href=\"http://www.syndeocms.org[/]?\">SyndeoCMS</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Site created with <a href=\"http://www.syndeocms.org[/]?\">SyndeoCMS</a>"
+      "pattern": "Site created with <a href=\"http://www.syndeocms.org[/]?\">SyndeoCMS</a>",
+      "version_group": 0
     },
     {
       "name": "SyndeoCMS Pattern",
@@ -90,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Please\\ don't\\ remove\\ my\\ credits!\\ I\\ worked\\ hard\\ to\\ create\\ this\\ theme\\ and\\ distribute\\ it\\ freely\\.\\ Thanks!\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Please\\ don't\\ remove\\ my\\ credits!\\ I\\ worked\\ hard\\ to\\ create\\ this\\ theme\\ and\\ distribute\\ it\\ freely\\.\\ Thanks!\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

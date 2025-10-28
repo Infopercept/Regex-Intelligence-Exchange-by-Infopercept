@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<META NAME=\"COPYRIGHT\" CONTENT=\"Copyright[^>]*by Arab[s]*Portal\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<META NAME=\"COPYRIGHT\" CONTENT=\"Copyright[^\\>]*by Arab[\\s]*Portal\""
+      "pattern": "<META NAME=\"COPYRIGHT\" CONTENT=\"Copyright[^\\>]*by Arab[\\s]*Portal\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

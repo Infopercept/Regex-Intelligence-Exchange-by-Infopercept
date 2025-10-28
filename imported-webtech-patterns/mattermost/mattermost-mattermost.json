@@ -1,0 +1,111 @@
+{
+  "vendor": "Mattermost",
+  "vendor_id": "mattermost",
+  "product": "Mattermost",
+  "product_id": "mattermost-mattermost",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mattermost HTML Detection",
+      "pattern": "<noscript> To use Mattermost, please enable JavaScript\\. </noscript>",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Mattermost from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "mattermost"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Mattermost JavaScript Detection",
+      "pattern": "window\\.mm_config|mm_config\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Mattermost from JavaScript variable 'mm_config'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "mattermost"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Mattermost JavaScript Detection",
+      "pattern": "window\\.mm_current_user_id|mm_current_user_id\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Mattermost from JavaScript variable 'mm_current_user_id'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "mattermost"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Mattermost JavaScript Detection",
+      "pattern": "window\\.mm_license|mm_license\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Mattermost from JavaScript variable 'mm_license'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "mattermost"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Mattermost JavaScript Detection",
+      "pattern": "window\\.mm_user|mm_user\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Mattermost from JavaScript variable 'mm_user'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "mattermost"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

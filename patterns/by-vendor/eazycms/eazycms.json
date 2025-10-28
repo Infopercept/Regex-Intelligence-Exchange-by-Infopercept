@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "powered\\ by\\ <a\\ href=\"http://www\\.eazycms\\.com\"\\ target=\"_blank\">eazyCMS</a>"
+      "pattern": "powered\\ by\\ <a\\ href=\"http://www\\.eazycms\\.com\"\\ target=\"_blank\">eazyCMS</a>",
+      "version_group": 0
     },
     {
       "name": "EazyCMS Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a [^href]+href=\"http://www.eazyCMS.com[/]*\"[^>]*>powered by eazyCMS</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a [^href]+href=\"http://www.eazyCMS.com[/]*\"[^>]*>powered by eazyCMS</a>"
+      "pattern": "<a [^href]+href=\"http://www.eazyCMS.com[/]*\"[^>]*>powered by eazyCMS</a>",
+      "version_group": 0
     },
     {
       "name": "EazyCMS Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.eazycms\\.com\">eazyCMS</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.eazycms\\.com\">eazyCMS</a>",
+      "version_group": 0
     },
     {
       "name": "EazyCMS Pattern",
@@ -86,7 +95,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ title=\"eazyCMS\\ ::\\ The\\ eazy\\-to\\-use\\ Content\\ Management\\ System,\\ maintain\\ your\\ website\\ from\\ anywhere\\ in\\ the\\ world\\ via\\ a\\ web\\ browser!\"\\ href=\"http://www\\.eazycms\\.com\"\\ target=\"eazycms\">eazyCMS</a>"
+      "pattern": "Powered\\ by\\ <a\\ title=\"eazyCMS\\ ::\\ The\\ eazy\\-to\\-use\\ Content\\ Management\\ System,\\ maintain\\ your\\ website\\ from\\ anywhere\\ in\\ the\\ world\\ via\\ a\\ web\\ browser!\"\\ href=\"http://www\\.eazycms\\.com\"\\ target=\"eazycms\">eazyCMS</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

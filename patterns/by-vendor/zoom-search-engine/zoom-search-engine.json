@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<center><p><small>Search\\ powered\\ by\\ <a\\ href=\"http://www\\.wrensoft\\.com/zoom/\"\\ target=\"_blank\"><b>Zoom\\ Search\\ Engine</b></a></small></p></center>"
+      "pattern": "<center><p><small>Search\\ powered\\ by\\ <a\\ href=\"http://www\\.wrensoft\\.com/zoom/\"\\ target=\"_blank\"><b>Zoom\\ Search\\ Engine</b></a></small></p></center>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

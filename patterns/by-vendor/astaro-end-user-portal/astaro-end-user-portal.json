@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<script\\ src=\"eup/eup_50_change_password\\.js\"\\ type=\"text/JavaScript\"></script>"
+      "pattern": "<script\\ src=\"eup/eup_50_change_password\\.js\"\\ type=\"text/JavaScript\"></script>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"BXR::Web\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"BXR::Web\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,71 @@
+{
+  "vendor": "Socket.io",
+  "vendor_id": "socket.io",
+  "product": "Socket.io",
+  "product_id": "socket.io-socketio",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Socket.io Script Detection",
+      "pattern": "socket\\.io.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Socket.io from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "socket.io"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Socket.io JavaScript Detection",
+      "pattern": "window\\.io\\.Socket|io\\.Socket\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Socket.io from JavaScript variable 'io.Socket'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "socket.io"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Socket.io JavaScript Detection",
+      "pattern": "window\\.io\\.version|io\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Socket.io from JavaScript variable 'io.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "socket.io"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Ipswitch-IMail",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Ipswitch-IMail"
+      "pattern": "^Ipswitch-IMail",
+      "version_group": 0
     },
     {
       "name": "Ipswitch-IMail Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Ipswitch-IMail/([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

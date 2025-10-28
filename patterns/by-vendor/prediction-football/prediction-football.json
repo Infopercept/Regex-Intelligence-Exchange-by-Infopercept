@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Show\\ the\\ different\\ leagues\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Show\\ the\\ different\\ leagues\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Prediction-Football Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Show\\ the\\ league\\ ID\\ if\\ there\\ is\\ more\\ than\\ one\\.\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Show\\ the\\ league\\ ID\\ if\\ there\\ is\\ more\\ than\\ one\\.\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Prediction-Football Pattern",
@@ -62,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- The display of powered by prediction football must not be removed without explicit permission.[s]+Unauthorized removal or modification of the powered by prediction football will require that[s]+the associated payment is made. -->",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!-- The display of powered by prediction football must not be removed without explicit permission\\.[\\s]+Unauthorized removal or modification of the powered by prediction football will require that[\\s]+the associated payment is made\\. -->"
+      "pattern": "<!-- The display of powered by prediction football must not be removed without explicit permission\\.[\\s]+Unauthorized removal or modification of the powered by prediction football will require that[\\s]+the associated payment is made\\. -->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

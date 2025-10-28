@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ Powered\\ by\\ cpCommerce"
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ Powered\\ by\\ cpCommerce",
+      "version_group": 0
     },
     {
       "name": "cpCommerce Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ <title>cpCommerce\\ by\\ Matthew\\ Wilkin</title>"
+      "pattern": "\\ \\ \\ \\ <title>cpCommerce\\ by\\ Matthew\\ Wilkin</title>",
+      "version_group": 0
     },
     {
       "name": "cpCommerce Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://cpcommerce\\.cpradio\\.org/\"\\ target=\"_blank\">cpCommerce</a>\\."
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://cpcommerce\\.cpradio\\.org/\"\\ target=\"_blank\">cpCommerce</a>\\.",
+      "version_group": 0
     },
     {
       "name": "cpCommerce Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://cpcommerce\\.org/\"\\ target=\"_blank\">cpCommerce</a>\\."
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://cpcommerce\\.org/\"\\ target=\"_blank\">cpCommerce</a>\\.",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

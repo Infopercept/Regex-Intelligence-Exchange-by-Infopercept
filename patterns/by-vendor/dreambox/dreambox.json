@@ -41,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^TwistedWeb",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^TwistedWeb"
+      "pattern": "^TwistedWeb",
+      "version_group": 0
     },
     {
       "name": "Dreambox Pattern",
@@ -68,5 +75,6 @@
       "pattern": "Server: ^TwistedWeb/([\\d\\.]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

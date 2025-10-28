@@ -1,0 +1,31 @@
+{
+  "vendor": "AppDynamics",
+  "vendor_id": "appdynamics",
+  "product": "AppDynamics",
+  "product_id": "appdynamics-appdynamics",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AppDynamics Script Detection",
+      "pattern": "adrum",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AppDynamics from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "appdynamics"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

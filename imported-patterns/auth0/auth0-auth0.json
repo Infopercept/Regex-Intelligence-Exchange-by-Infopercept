@@ -1,0 +1,51 @@
+{
+  "vendor": "Auth0",
+  "vendor_id": "auth0",
+  "product": "Auth0",
+  "product_id": "auth0-auth0",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Auth0 Script Detection",
+      "pattern": "/auth0(?:-js)?/([\\d.]+)/auth0(?:.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Auth0 from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "auth0"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Auth0 Script Detection",
+      "pattern": "/auth0-js@([\\d.]+)/([a-z]+)/auth0\\.min\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Auth0 from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "auth0"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

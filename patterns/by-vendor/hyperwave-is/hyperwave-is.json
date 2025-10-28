@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Hyperwave-",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Hyperwave-"
+      "pattern": "^Hyperwave-",
+      "version_group": 0
     },
     {
       "name": "Hyperwave-IS Pattern",
@@ -68,5 +75,6 @@
       "pattern": "Server: ^Hyperwave-Information-Server/([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

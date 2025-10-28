@@ -1,0 +1,31 @@
+{
+  "vendor": "Sqreen",
+  "vendor_id": "sqreen",
+  "product": "Sqreen",
+  "product_id": "sqreen-sqreen",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Sqreen Header Detection",
+      "pattern": "X-Protected-By: ^Sqreen$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Sqreen from X-Protected-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "sqreen"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

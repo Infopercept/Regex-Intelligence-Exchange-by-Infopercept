@@ -1,0 +1,31 @@
+{
+  "vendor": "PlatformOS",
+  "vendor_id": "platformos",
+  "product": "PlatformOS",
+  "product_id": "platformos-platformos",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PlatformOS Header Detection",
+      "pattern": "x-powered-by: ^platformOS$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PlatformOS from x-powered-by header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "platformos"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

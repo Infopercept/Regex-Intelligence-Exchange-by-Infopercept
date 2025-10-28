@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "vti_title:SR\\|Web\\ Settings\\ for\\ Active\\ Server\\ Pages"
+      "pattern": "vti_title:SR\\|Web\\ Settings\\ for\\ Active\\ Server\\ Pages",
+      "version_group": 0
     },
     {
       "name": "ASP_NET Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "This\\ error\\ page\\ might\\ contain\\ sensitive\\ information\\ because\\ ASP\\.NET\\ is\\ configured\\ to\\ show\\ verbose\\ error\\ messages"
+      "pattern": "This\\ error\\ page\\ might\\ contain\\ sensitive\\ information\\ because\\ ASP\\.NET\\ is\\ configured\\ to\\ show\\ verbose\\ error\\ messages",
+      "version_group": 0
     },
     {
       "name": "ASP_NET Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "name=\"__VIEWSTATEENCRYPTED\"\\ id=\"__VIEWSTATEENCRYPTED\""
+      "pattern": "name=\"__VIEWSTATEENCRYPTED\"\\ id=\"__VIEWSTATEENCRYPTED\"",
+      "version_group": 0
     },
     {
       "name": "x-powered-by HTTP header",
@@ -84,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "asp.net",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "asp\\.net"
+      "pattern": "asp\\.net",
+      "version_group": 0
     },
     {
       "name": "X-AspNet-Version HTTP header",
@@ -123,9 +133,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^anonymousID=[^;]+; expires=[^;]+; path=[^;]+; HttpOnly",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^anonymousID=[^;]+; expires=[^;]+; path=[^;]+; HttpOnly"
+      "pattern": "^anonymousID=[^;]+; expires=[^;]+; path=[^;]+; HttpOnly",
+      "version_group": 0
     },
     {
       "name": "ASP_NET Pattern",
@@ -139,9 +156,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^chkvalues=[^;]+; expires=[^;]+; path=[^;]+; HttpOnly",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^chkvalues=[^;]+; expires=[^;]+; path=[^;]+; HttpOnly"
+      "pattern": "^chkvalues=[^;]+; expires=[^;]+; path=[^;]+; HttpOnly",
+      "version_group": 0
     },
     {
       "name": "__RequestVerificationToken cookie",
@@ -155,9 +179,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^__RequestVerificationToken",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^__RequestVerificationToken"
+      "pattern": "^__RequestVerificationToken",
+      "version_group": 0
     },
     {
       "name": ".ASPXANONYMOUS cookie",
@@ -171,9 +202,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^.ASPXANONYMOUS",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^.ASPXANONYMOUS"
+      "pattern": "^.ASPXANONYMOUS",
+      "version_group": 0
     },
     {
       "name": "ASP.NET_SessionId cookie",
@@ -187,9 +225,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^ASP.NET_SessionId",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^ASP.NET_SessionId"
+      "pattern": "^ASP.NET_SessionId",
+      "version_group": 0
     },
     {
       "name": "ASPSESSIONID cookie",
@@ -203,9 +248,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^ASPSESSIONID",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^ASPSESSIONID"
+      "pattern": "^ASPSESSIONID",
+      "version_group": 0
     },
     {
       "name": "ASP_NET Pattern",
@@ -227,7 +279,8 @@
           }
         ]
       },
-      "pattern": "<input\\ type=\"hidden\"\\ name=\"__VIEWSTATE\"\\ id=\"__VIEWSTATE\""
+      "pattern": "<input\\ type=\"hidden\"\\ name=\"__VIEWSTATE\"\\ id=\"__VIEWSTATE\"",
+      "version_group": 0
     },
     {
       "name": "File extension",
@@ -241,9 +294,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^(asp|aspx|ashx)$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^(asp|aspx|ashx)$"
+      "pattern": "^(asp|aspx|ashx)$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

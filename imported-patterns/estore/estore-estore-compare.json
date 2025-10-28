@@ -1,0 +1,31 @@
+{
+  "vendor": "Estore",
+  "vendor_id": "estore",
+  "product": "Estore Compare",
+  "product_id": "estore-estore-compare",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Estore Compare Script Detection",
+      "pattern": "cdn\\d+\\.estore\\.jp/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Estore Compare from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "estore-compare"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

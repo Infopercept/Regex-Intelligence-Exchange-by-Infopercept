@@ -1,0 +1,51 @@
+{
+  "vendor": "Mono.net",
+  "vendor_id": "mono.net",
+  "product": "Mono.net",
+  "product_id": "mono.net-mononet",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mono.net Script Detection",
+      "pattern": "monotracker(?:\\.min)?\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Mono.net from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "mono.net"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Mono.net JavaScript Detection",
+      "pattern": "window\\._monoTracker|_monoTracker\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Mono.net from JavaScript variable '_monoTracker'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "mono.net"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

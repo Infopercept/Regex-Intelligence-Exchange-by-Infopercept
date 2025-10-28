@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"Generator\"\\ content=\"Open\\-Realty\"\\ />"
+      "pattern": "<meta\\ name=\"Generator\"\\ content=\"Open\\-Realty\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Open-Realty Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.open\\-realty\\.org\"><b>Open\\-Realty</b></a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.open\\-realty\\.org\"><b>Open\\-Realty</b></a>",
+      "version_group": 0
     },
     {
       "name": "Open-Realty Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://open\\-realty\\.org\"\\ title=\"Open\\-Realty\\&reg;\"\\ rel=\"external\">Open\\-Realty</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://open\\-realty\\.org\"\\ title=\"Open\\-Realty\\&reg;\"\\ rel=\"external\">Open\\-Realty</a>",
+      "version_group": 0
     },
     {
       "name": "Open-Realty Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-Open\\-Realty\\ is\\ distributed\\ by\\ Transparent\\ Technologies\\ and\\ is\\ Licensed\\ under\\ the\\ Open\\-Realty\\ License\\.\\ See\\ http://www\\.open\\-realty\\.org/license_info\\.html\\ for\\ more\\ information\\.\\-\\->"
+      "pattern": "<!\\-\\-Open\\-Realty\\ is\\ distributed\\ by\\ Transparent\\ Technologies\\ and\\ is\\ Licensed\\ under\\ the\\ Open\\-Realty\\ License\\.\\ See\\ http://www\\.open\\-realty\\.org/license_info\\.html\\ for\\ more\\ information\\.\\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

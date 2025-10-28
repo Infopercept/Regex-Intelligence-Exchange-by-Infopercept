@@ -1,0 +1,51 @@
+{
+  "vendor": "Inspectlet",
+  "vendor_id": "inspectlet",
+  "product": "Inspectlet",
+  "product_id": "inspectlet-inspectlet",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Inspectlet HTML Detection",
+      "pattern": "<!-- (?:Begin|End) Inspectlet Embed Code -->",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Inspectlet from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "inspectlet"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Inspectlet Script Detection",
+      "pattern": "cdn\\.inspectlet\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Inspectlet from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "inspectlet"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

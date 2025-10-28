@@ -1,0 +1,31 @@
+{
+  "vendor": "Webs",
+  "vendor_id": "webs",
+  "product": "Webs",
+  "product_id": "webs-webs",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Webs Header Detection",
+      "pattern": "Server: Webs\\.com/?([\\d\\.]+)?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Webs from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "webs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

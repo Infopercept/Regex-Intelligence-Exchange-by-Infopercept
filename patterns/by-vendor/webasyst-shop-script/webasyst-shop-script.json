@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ WebAsyst\\ Shop\\-Script\\ <a\\ href=\"http://www\\.shop\\-script\\.com/\"\\ style=\"font\\-weight:\\ normal\">shopping\\ cart\\ software</a>"
+      "pattern": "Powered\\ by\\ WebAsyst\\ Shop\\-Script\\ <a\\ href=\"http://www\\.shop\\-script\\.com/\"\\ style=\"font\\-weight:\\ normal\">shopping\\ cart\\ software</a>",
+      "version_group": 0
     },
     {
       "name": "WebAsyst-Shop-Script Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.shop\\-script\\.com\"\\ style=\"font\\-weight:\\ bold;\"\\ target=\"_blank\">WebAsyst\\ Shop\\-Script</a>\\ \\-\\ <a\\ href=\"http://www\\.shop\\-script\\.com/\"\\ style=\"font\\-weight:\\ normal;\"\\ target=\"_blank\">shopping\\ cart\\ software</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.shop\\-script\\.com\"\\ style=\"font\\-weight:\\ bold;\"\\ target=\"_blank\">WebAsyst\\ Shop\\-Script</a>\\ \\-\\ <a\\ href=\"http://www\\.shop\\-script\\.com/\"\\ style=\"font\\-weight:\\ normal;\"\\ target=\"_blank\">shopping\\ cart\\ software</a>",
+      "version_group": 0
     },
     {
       "name": "WebAsyst-Shop-Script Pattern",
@@ -62,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "[s]+var WAROOT_URL = '[^']+';//ok",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "[\\s]+var WAROOT_URL = '[^\\']+';//ok"
+      "pattern": "[\\s]+var WAROOT_URL = '[^\\']+';//ok",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

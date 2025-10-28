@@ -1,0 +1,31 @@
+{
+  "vendor": "lighttpd",
+  "vendor_id": "lighttpd",
+  "product": "lighttpd",
+  "product_id": "lighttpd-lighttpd",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "lighttpd Header Detection",
+      "pattern": "Server: lighttpd(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects lighttpd from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "lighttpd"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ If\\ you\\ have\\ your\\ own\\ stylesheet\\ for\\ HTML\\ elements,\\ you\\ can\\ remove\\ the\\ cerberus\\-html\\.css\\ link\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ If\\ you\\ have\\ your\\ own\\ stylesheet\\ for\\ HTML\\ elements,\\ you\\ can\\ remove\\ the\\ cerberus\\-html\\.css\\ link\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Cerberus-Helpdesk Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<td\\ width=\"519\"\\ class=\"kb_most_viewed_articles\">Most\\ Viewed\\ Knowledgebase\\ Articles</td>"
+      "pattern": "<td\\ width=\"519\"\\ class=\"kb_most_viewed_articles\">Most\\ Viewed\\ Knowledgebase\\ Articles</td>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

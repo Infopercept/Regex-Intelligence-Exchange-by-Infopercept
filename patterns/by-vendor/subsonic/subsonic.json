@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<input\\ type=\"checkbox\"\\ name=\"_acegi_security_remember_me\"\\ id=\"remember\"\\ class=\"checkbox\"\\ tabindex=\"3\">"
+      "pattern": "<input\\ type=\"checkbox\"\\ name=\"_acegi_security_remember_me\"\\ id=\"remember\"\\ class=\"checkbox\"\\ tabindex=\"3\">",
+      "version_group": 0
     },
     {
       "name": "Subsonic Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<form\\ action=\"/j_acegi_security_check\"\\ method=\"POST\">"
+      "pattern": "<form\\ action=\"/j_acegi_security_check\"\\ method=\"POST\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

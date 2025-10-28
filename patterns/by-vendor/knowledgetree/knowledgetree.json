@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ <title>Dashboard\\ \\|\\ KnowledgeTree</title>"
+      "pattern": "\\ \\ \\ \\ <title>Dashboard\\ \\|\\ KnowledgeTree</title>",
+      "version_group": 0
     },
     {
       "name": "KnowledgeTree Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ <title>Login\\ \\|\\ KnowledgeTree</title>"
+      "pattern": "\\ \\ \\ \\ <title>Login\\ \\|\\ KnowledgeTree</title>",
+      "version_group": 0
     },
     {
       "name": "KnowledgeTree Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "/resources/powered\\-by\\-kt\\.png\"\\ border=\"0\"\\ alt=\"Powered\\ by\\ KnowledgeTree\"\\ title=\"Powered\\ by\\ KnowledgeTree\"/></a>"
+      "pattern": "/resources/powered\\-by\\-kt\\.png\"\\ border=\"0\"\\ alt=\"Powered\\ by\\ KnowledgeTree\"\\ title=\"Powered\\ by\\ KnowledgeTree\"/></a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

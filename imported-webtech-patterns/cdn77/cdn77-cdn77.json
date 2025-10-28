@@ -1,0 +1,31 @@
+{
+  "vendor": "CDN77",
+  "vendor_id": "cdn77",
+  "product": "CDN77",
+  "product_id": "cdn77-cdn77",
+  "category": "web",
+  "subcategory": "cdn",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CDN77 Header Detection",
+      "pattern": "Server: ^CDN77-Turbo$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CDN77 from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "cdn77"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

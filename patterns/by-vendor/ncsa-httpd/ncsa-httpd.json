@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^NCSA",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^NCSA"
+      "pattern": "^NCSA",
+      "version_group": 0
     },
     {
       "name": "NCSA-HTTPd Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^NCSA/([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

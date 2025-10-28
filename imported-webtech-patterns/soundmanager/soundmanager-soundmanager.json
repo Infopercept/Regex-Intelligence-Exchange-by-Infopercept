@@ -1,0 +1,71 @@
+{
+  "vendor": "SoundManager",
+  "vendor_id": "soundmanager",
+  "product": "SoundManager",
+  "product_id": "soundmanager-soundmanager",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SoundManager JavaScript Detection",
+      "pattern": "window\\.BaconPlayer|BaconPlayer\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SoundManager from JavaScript variable 'BaconPlayer'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "soundmanager"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "SoundManager JavaScript Detection",
+      "pattern": "window\\.SoundManager|SoundManager\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SoundManager from JavaScript variable 'SoundManager'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "soundmanager"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "SoundManager JavaScript Detection",
+      "pattern": "window\\.soundManager\\.version|soundManager\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SoundManager from JavaScript variable 'soundManager.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "soundmanager"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

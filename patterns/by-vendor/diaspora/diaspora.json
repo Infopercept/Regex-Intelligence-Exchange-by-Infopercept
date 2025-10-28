@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "_diaspora_session=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "_diaspora_session="
+      "pattern": "_diaspora_session=",
+      "version_group": 0
     },
     {
       "name": "Diaspora Pattern",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<input\\ name=\"user\\[remember_me\\]\"\\ type=\"hidden\"\\ value=\"0\"\\ /><input\\ id=\"user_remember_me\"\\ name=\"user\\[remember_me\\]\"\\ type=\"checkbox\"\\ value=\"1\"\\ />"
+      "pattern": "<input\\ name=\"user\\[remember_me\\]\"\\ type=\"hidden\"\\ value=\"0\"\\ /><input\\ id=\"user_remember_me\"\\ name=\"user\\[remember_me\\]\"\\ type=\"checkbox\"\\ value=\"1\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

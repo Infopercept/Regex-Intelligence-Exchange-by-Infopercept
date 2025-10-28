@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "DRWEB_PERSONAL_OFFICE=[^;]*;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "DRWEB_PERSONAL_OFFICE=[^;]*;"
+      "pattern": "DRWEB_PERSONAL_OFFICE=[^;]*;",
+      "version_group": 0
     },
     {
       "name": "Dr-Web-Anti-Virus Pattern",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"logo\"\\ class=\"logo\"><img\\ src=\"/avdesk/includes/system/templates/images/logo_en\\.png\"\\ alt=\"\"\\ /></div>"
+      "pattern": "<div\\ id=\"logo\"\\ class=\"logo\"><img\\ src=\"/avdesk/includes/system/templates/images/logo_en\\.png\"\\ alt=\"\"\\ /></div>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

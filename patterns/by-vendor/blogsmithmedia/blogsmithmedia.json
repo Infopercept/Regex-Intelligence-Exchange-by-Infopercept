@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script [^>]*\"http://www.blogsmithmedia.com",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script [^>]*\\\"http://www.blogsmithmedia.com"
+      "pattern": "<script [^>]*\\\"http://www.blogsmithmedia.com",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

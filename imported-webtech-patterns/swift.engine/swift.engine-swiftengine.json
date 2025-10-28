@@ -1,0 +1,31 @@
+{
+  "vendor": "swift.engine",
+  "vendor_id": "swift.engine",
+  "product": "swift.engine",
+  "product_id": "swift.engine-swiftengine",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "swift.engine Header Detection",
+      "pattern": "X-Powered-By: swift\\.engine",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects swift.engine from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "swift.engine"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

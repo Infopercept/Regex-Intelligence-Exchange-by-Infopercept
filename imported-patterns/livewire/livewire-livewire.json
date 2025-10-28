@@ -1,0 +1,51 @@
+{
+  "vendor": "Livewire",
+  "vendor_id": "livewire",
+  "product": "Livewire",
+  "product_id": "livewire-livewire",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Livewire HTML Detection",
+      "pattern": "<[^>]{1,512}\\bwire:",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Livewire from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "livewire"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Livewire Script Detection",
+      "pattern": "livewire(?:\\.min)?\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Livewire from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "livewire"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

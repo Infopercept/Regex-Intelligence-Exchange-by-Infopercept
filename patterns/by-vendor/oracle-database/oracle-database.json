@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Oracle XML DB/Oracle Database$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Oracle XML DB/Oracle Database$"
+      "pattern": "^Oracle XML DB/Oracle Database$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "database-engine"
 }

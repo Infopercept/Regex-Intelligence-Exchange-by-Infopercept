@@ -29,5 +29,6 @@
       "pattern": "Server: ^IBM Internet Connection Server/([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

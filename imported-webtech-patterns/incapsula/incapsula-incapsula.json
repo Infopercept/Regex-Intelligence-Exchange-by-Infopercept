@@ -1,0 +1,31 @@
+{
+  "vendor": "Incapsula",
+  "vendor_id": "incapsula",
+  "product": "Incapsula",
+  "product_id": "incapsula-incapsula",
+  "category": "web",
+  "subcategory": "cdn",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Incapsula Header Detection",
+      "pattern": "X-CDN: Incapsula",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Incapsula from X-CDN header",
+        "tags": [
+          "webtech",
+          "header",
+          "incapsula"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

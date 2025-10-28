@@ -1,0 +1,31 @@
+{
+  "vendor": "Liquid",
+  "vendor_id": "liquid",
+  "product": "Liquid Web",
+  "product_id": "liquid-liquid-web",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Liquid Web Header Detection",
+      "pattern": "x-lw-cache: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Liquid Web from x-lw-cache header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "liquid-web"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>osTicket Installer</title>[s]+<link rel=\"stylesheet\" href=\"style.css\" media=\"screen\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>osTicket Installer</title>[\\s]+<link rel=\"stylesheet\" href=\"style\\.css\" media=\"screen\">"
+      "pattern": "<title>osTicket Installer</title>[\\s]+<link rel=\"stylesheet\" href=\"style\\.css\" media=\"screen\">",
+      "version_group": 0
     },
     {
       "name": "osTicket Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a id=\"powered_by\" href=\"http://osticket.com\"><img src=\"./images/poweredby.jpg\" width=\"126\" height=\"23\" alt=\"Powered by osTicket\"></a></div>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a id=\"powered_by\" href=\"http://osticket\\.com\"><img src=\"\\./images/poweredby\\.jpg\" width=\"126\" height=\"23\" alt=\"Powered by osTicket\"></a></div>"
+      "pattern": "<a id=\"powered_by\" href=\"http://osticket\\.com\"><img src=\"\\./images/poweredby\\.jpg\" width=\"126\" height=\"23\" alt=\"Powered by osTicket\"></a></div>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

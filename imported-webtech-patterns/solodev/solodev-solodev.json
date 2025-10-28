@@ -1,0 +1,51 @@
+{
+  "vendor": "Solodev",
+  "vendor_id": "solodev",
+  "product": "Solodev",
+  "product_id": "solodev-solodev",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Solodev Header Detection",
+      "pattern": "solodev_session: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Solodev from solodev_session header",
+        "tags": [
+          "webtech",
+          "header",
+          "solodev"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Solodev HTML Detection",
+      "pattern": "<div class=[\"']dynamicDiv[\"'] id=[\"']dd\\.\\d\\.\\d(?:\\.\\d)?[\"']>",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Solodev from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "solodev"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

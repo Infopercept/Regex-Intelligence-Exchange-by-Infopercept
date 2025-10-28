@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by phpShop",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by phpShop"
+      "pattern": "Powered by phpShop",
+      "version_group": 0
     },
     {
       "name": "PHPShop Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.phpshop.org\"[^>]*>phpShop</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <a href=\"http://www.phpshop.org\"[^>]*>phpShop</a>"
+      "pattern": "Powered by <a href=\"http://www.phpshop.org\"[^>]*>phpShop</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

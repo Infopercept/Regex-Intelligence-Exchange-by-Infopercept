@@ -1,0 +1,31 @@
+{
+  "vendor": "Backtory",
+  "vendor_id": "backtory",
+  "product": "Backtory",
+  "product_id": "backtory-backtory",
+  "category": "web",
+  "subcategory": "cdn",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Backtory Header Detection",
+      "pattern": "X-Powered-By: Backtory",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Backtory from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "backtory"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

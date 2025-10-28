@@ -1,0 +1,51 @@
+{
+  "vendor": "RD",
+  "vendor_id": "rd",
+  "product": "RD Station",
+  "product_id": "rd-rd-station",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "RD Station Script Detection",
+      "pattern": "d335luupugsy2\\.cloudfront\\.net/js/loader-scripts/.*-loader\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects RD Station from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "rd-station"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "RD Station JavaScript Detection",
+      "pattern": "window\\.RDStation|RDStation\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects RD Station from JavaScript variable 'RDStation'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "rd-station"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

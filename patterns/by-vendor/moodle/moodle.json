@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a title=\"Moodle[^\"]+\" href=\"http://moodle.org/\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a title=\"Moodle[^\"]+\" href=\"http://moodle\\.org/\">"
+      "pattern": "<a title=\"Moodle[^\"]+\" href=\"http://moodle\\.org/\">",
+      "version_group": 0
     },
     {
       "name": "moodle logo.gif",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img style=\"width:100px;height:30px\" src=\"[^\"]+/moodlelogo.gif\" alt=\"moodlelogo\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<img style=\"width:100px;height:30px\" src=\"[^\"]+/moodlelogo\\.gif\" alt=\"moodlelogo\" />"
+      "pattern": "<img style=\"width:100px;height:30px\" src=\"[^\"]+/moodlelogo\\.gif\" alt=\"moodlelogo\" />",
+      "version_group": 0
     },
     {
       "name": "MoodleSession Cookie",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "MoodleSession=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "MoodleSession="
+      "pattern": "MoodleSession=",
+      "version_group": 0
     },
     {
       "name": "MOODLEID_ Cookie",
@@ -66,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "MOODLEID_[^s^=]*=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "MOODLEID_[^\\s^=]*="
+      "pattern": "MOODLEID_[^\\s^=]*=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

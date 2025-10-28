@@ -1,0 +1,31 @@
+{
+  "vendor": "Visa",
+  "vendor_id": "visa",
+  "product": "Visa",
+  "product_id": "visa-visa",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Visa HTML Detection",
+      "pattern": "<[^>]+aria-labelledby=\"pi-visa",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Visa from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "visa"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

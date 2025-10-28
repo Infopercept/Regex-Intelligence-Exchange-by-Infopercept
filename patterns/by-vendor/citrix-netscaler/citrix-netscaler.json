@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "NS-CACHE",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "NS\\-CACHE"
+      "pattern": "NS\\-CACHE",
+      "version_group": 0
     },
     {
       "name": "NSC_ cookie",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^NSC_",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^NSC_"
+      "pattern": "^NSC_",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

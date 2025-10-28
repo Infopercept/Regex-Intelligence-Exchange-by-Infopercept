@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "lighttpd",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "lighttpd"
+      "pattern": "lighttpd",
+      "version_group": 0
     },
     {
       "name": "lighttpd Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^[\\s]*lighttpd/([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<object[^>]+application/x-shockwave-flash[^>]+>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<object[^>]+application/x-shockwave-flash[^>]+>"
+      "pattern": "<object[^>]+application/x-shockwave-flash[^>]+>",
+      "version_group": 0
     },
     {
       "name": "Adobe-Flash Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<embed[^>]+src[s]*=[s]*[\"']?[^s^'^\"^>]+",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<embed[^>]+src[\\s]*=[\\s]*[\"']?[^\\s^'^\"^>]+"
+      "pattern": "<embed[^>]+src[\\s]*=[\\s]*[\"']?[^\\s^'^\"^>]+",
+      "version_group": 0
     },
     {
       "name": "Adobe-Flash Pattern",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "new[s]+FlashObject[s]*([s]*['\"]?[^'^\"]+",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "new[\\s]+FlashObject[\\s]*\\([\\s]*['\"]?[^'^\"]+"
+      "pattern": "new[\\s]+FlashObject[\\s]*\\([\\s]*['\"]?[^'^\"]+",
+      "version_group": 0
     },
     {
       "name": "Adobe-Flash Pattern",
@@ -66,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "new[s]+SWFObject[s]*([s]*['\"]?[^'^\"]+",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "new[\\s]+SWFObject[\\s]*\\([\\s]*['\"]?[^'^\"]+"
+      "pattern": "new[\\s]+SWFObject[\\s]*\\([\\s]*['\"]?[^'^\"]+",
+      "version_group": 0
     },
     {
       "name": "Adobe-Flash Pattern",
@@ -82,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": ".embedSWF[s]*([s]*[\"']?[^'^\"]+",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "\\.embedSWF[\\s]*\\([\\s]*[\"']?[^'^\"]+"
+      "pattern": "\\.embedSWF[\\s]*\\([\\s]*[\"']?[^'^\"]+",
+      "version_group": 0
     },
     {
       "name": "File extension",
@@ -98,9 +133,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^(fla|flv|swf|swt|swc)$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^(fla|flv|swf|swt|swc)$"
+      "pattern": "^(fla|flv|swf|swt|swc)$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

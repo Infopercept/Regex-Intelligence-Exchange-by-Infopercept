@@ -1,0 +1,71 @@
+{
+  "vendor": "Microsoft",
+  "vendor_id": "microsoft",
+  "product": "Microsoft Publisher",
+  "product_id": "microsoft-microsoft-publisher",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Microsoft Publisher HTML Detection",
+      "pattern": "(?:<html [^>]*xmlns:w=\"urn:schemas-microsoft-com:office:publisher\"|<!--[if pub]><xml>)",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Microsoft Publisher from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "microsoft-publisher"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Microsoft Publisher Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']ProgId[\"'][^>]+content=[\"']^Publisher\\.[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Microsoft Publisher from meta tag with name 'ProgId'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "microsoft-publisher"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Microsoft Publisher Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']Microsoft Publisher( [\\d.]+)?[\"']",
+      "version_group": 1,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Microsoft Publisher from meta tag with name 'generator'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "microsoft-publisher"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

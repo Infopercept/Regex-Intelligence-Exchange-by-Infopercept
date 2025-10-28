@@ -1,0 +1,31 @@
+{
+  "vendor": "T-Soft",
+  "vendor_id": "t-soft",
+  "product": "T-Soft",
+  "product_id": "t-soft-t-soft",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "T-Soft HTML Detection",
+      "pattern": "<a href=\"http://www\\.tsoft\\.com\\.tr\" target=\"_blank\" title=\"T-Soft E-ticaret Sistemleri\">",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects T-Soft from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "t-soft"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

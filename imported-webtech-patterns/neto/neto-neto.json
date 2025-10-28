@@ -1,0 +1,51 @@
+{
+  "vendor": "Neto",
+  "vendor_id": "neto",
+  "product": "Neto",
+  "product_id": "neto-neto",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Neto Script Detection",
+      "pattern": "jquery\\.neto.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Neto from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "neto"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Neto JavaScript Detection",
+      "pattern": "window\\.NETO|NETO\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Neto from JavaScript variable 'NETO'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "neto"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

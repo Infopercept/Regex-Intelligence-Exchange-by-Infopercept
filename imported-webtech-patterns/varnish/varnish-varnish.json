@@ -1,0 +1,131 @@
+{
+  "vendor": "Varnish",
+  "vendor_id": "varnish",
+  "product": "Varnish",
+  "product_id": "varnish-varnish",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Varnish Header Detection",
+      "pattern": "Via: varnish(?: \\(Varnish/([\\d.]+)\\))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Varnish from Via header",
+        "tags": [
+          "webtech",
+          "header",
+          "varnish"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Varnish Header Detection",
+      "pattern": "X-Varnish: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Varnish from X-Varnish header",
+        "tags": [
+          "webtech",
+          "header",
+          "varnish"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Varnish Header Detection",
+      "pattern": "X-Varnish-Action: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Varnish from X-Varnish-Action header",
+        "tags": [
+          "webtech",
+          "header",
+          "varnish"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Varnish Header Detection",
+      "pattern": "X-Varnish-Age: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Varnish from X-Varnish-Age header",
+        "tags": [
+          "webtech",
+          "header",
+          "varnish"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Varnish Header Detection",
+      "pattern": "X-Varnish-Cache: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Varnish from X-Varnish-Cache header",
+        "tags": [
+          "webtech",
+          "header",
+          "varnish"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Varnish Header Detection",
+      "pattern": "X-Varnish-Hostname: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Varnish from X-Varnish-Hostname header",
+        "tags": [
+          "webtech",
+          "header",
+          "varnish"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

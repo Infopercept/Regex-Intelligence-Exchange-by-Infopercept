@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>[^powered]+powered by Plogger Gallery</title>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>[^powered]+powered by Plogger Gallery</title>"
+      "pattern": "<title>[^powered]+powered by Plogger Gallery</title>",
+      "version_group": 0
     },
     {
       "name": "Plogger Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a[ title=\"Powered by Plogger\"]* href=\"http://www.plogger.org/\">Powered by Plogger[!]*</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a[\\ title=\"Powered by Plogger\"]* href=\"http://www.plogger.org/\">Powered by Plogger[!]*</a>"
+      "pattern": "<a[\\ title=\"Powered by Plogger\"]* href=\"http://www.plogger.org/\">Powered by Plogger[!]*</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

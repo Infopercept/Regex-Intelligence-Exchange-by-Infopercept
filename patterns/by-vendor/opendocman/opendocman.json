@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<td\\ align=\"left\"><img\\ src=\"images/logo\\.gif\"\\ alt=\"Site\\ Logo\"\\ border=0></td>"
+      "pattern": "<td\\ align=\"left\"><img\\ src=\"images/logo\\.gif\"\\ alt=\"Site\\ Logo\"\\ border=0></td>",
+      "version_group": 0
     },
     {
       "name": "OpenDocMan Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td valign=\"top\">s+Welcome to OpenDocMan.?s+<p>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<td valign=\"top\">\\s+Welcome to OpenDocMan\\.?\\s+<p>"
+      "pattern": "<td valign=\"top\">\\s+Welcome to OpenDocMan\\.?\\s+<p>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

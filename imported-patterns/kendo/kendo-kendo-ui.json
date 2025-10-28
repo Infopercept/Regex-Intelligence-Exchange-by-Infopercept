@@ -1,0 +1,31 @@
+{
+  "vendor": "Kendo",
+  "vendor_id": "kendo",
+  "product": "Kendo UI",
+  "product_id": "kendo-kendo-ui",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Kendo UI HTML Detection",
+      "pattern": "<link[^>]*\\s+href=[^>]*styles/kendo\\.common(?:\\.min)?\\.css[^>]*/>",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Kendo UI from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "kendo-ui"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

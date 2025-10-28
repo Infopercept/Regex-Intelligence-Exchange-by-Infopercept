@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "//\\ image\\ is\\ NOT\\ CACHED\\ \\(Netscape\\ problem\\)\\.\\ \\ keep\\ this\\ or\\ bad\\ things\\ could\\ happen"
+      "pattern": "//\\ image\\ is\\ NOT\\ CACHED\\ \\(Netscape\\ problem\\)\\.\\ \\ keep\\ this\\ or\\ bad\\ things\\ could\\ happen",
+      "version_group": 0
     },
     {
       "name": "PHP-Live Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ copyright\\ OSI\\ Codes\\ Inc\\.\\ http://www\\.osicodes\\.com\\ \\[DO\\ NOT\\ DELETE\\]\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ copyright\\ OSI\\ Codes\\ Inc\\.\\ http://www\\.osicodes\\.com\\ \\[DO\\ NOT\\ DELETE\\]\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "PHP-Live Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ copyright\\ OSI\\ Codes,\\ http://www\\.osicodes\\.com\\ \\[DO\\ NOT\\ DELETE\\]\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ copyright\\ OSI\\ Codes,\\ http://www\\.osicodes\\.com\\ \\[DO\\ NOT\\ DELETE\\]\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "PHP-Live Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ BEGIN\\ PHP\\ Live!\\ Code,\\ copyright\\ 2001\\ OSI\\ Codes\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ BEGIN\\ PHP\\ Live!\\ Code,\\ copyright\\ 2001\\ OSI\\ Codes\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "PHP-Live Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ END\\ PHP\\ Live!\\ Code,\\ copyright\\ 2001\\ OSI\\ Codes\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ END\\ PHP\\ Live!\\ Code,\\ copyright\\ 2001\\ OSI\\ Codes\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "PHP-Live Pattern",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<title>\\ Knowledge\\ BASE\\ \\(FAQ\\)\\ </title>"
+      "pattern": "<title>\\ Knowledge\\ BASE\\ \\(FAQ\\)\\ </title>",
+      "version_group": 0
     },
     {
       "name": "PHP-Live Pattern",
@@ -158,7 +164,9 @@
           }
         ]
       },
-      "pattern": "<font\\ color=\"\\#FF0000\">\\[Configuration\\ Error:\\ config\\ files\\ not\\ found!\\]\\ Exiting"
+      "pattern": "<font\\ color=\"\\#FF0000\">\\[Configuration\\ Error:\\ config\\ files\\ not\\ found!\\]\\ Exiting",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

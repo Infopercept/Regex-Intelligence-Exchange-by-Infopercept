@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"MKPortal\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"MKPortal\"\\ />",
+      "version_group": 0
     },
     {
       "name": "MKPortal Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\|\\ \\ \\ Cascading\\ Style\\ Sheet\\ for\\ MKportal\\ \"Forum\"\\ Portal\\ Template"
+      "pattern": "\\|\\ \\ \\ Cascading\\ Style\\ Sheet\\ for\\ MKportal\\ \"Forum\"\\ Portal\\ Template",
+      "version_group": 0
     },
     {
       "name": "MKPortal Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ end\\ close\\ portal\\ body\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ end\\ close\\ portal\\ body\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

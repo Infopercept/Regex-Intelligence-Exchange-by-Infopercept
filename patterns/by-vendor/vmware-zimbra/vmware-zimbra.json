@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"description\"\\ content=\"Zimbra\\ provides\\ open\\ source\\ server\\ and\\ client\\ software\\ for\\ messaging\\ and\\ collaboration\\.\\ To\\ find\\ out\\ more\\ visit\\ http://www\\.zimbra\\.com\\.\">"
+      "pattern": "<meta\\ name=\"description\"\\ content=\"Zimbra\\ provides\\ open\\ source\\ server\\ and\\ client\\ software\\ for\\ messaging\\ and\\ collaboration\\.\\ To\\ find\\ out\\ more\\ visit\\ http://www\\.zimbra\\.com\\.\">",
+      "version_group": 0
     },
     {
       "name": "VMware-Zimbra Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-div\\ id=\"ZLoginAppName\">Web\\ Client</div\\-\\->"
+      "pattern": "<!\\-\\-div\\ id=\"ZLoginAppName\">Web\\ Client</div\\-\\->",
+      "version_group": 0
     },
     {
       "name": "VMware-Zimbra Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<title>Zimbra\\ Web\\ Client\\ Log\\ In</title>"
+      "pattern": "<title>Zimbra\\ Web\\ Client\\ Log\\ In</title>",
+      "version_group": 0
     },
     {
       "name": "VMware-Zimbra Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<h1><a\\ href=\"http://www\\.zimbra\\.com/\"\\ id=\"bannerLink\"\\ target=\"_new\">"
+      "pattern": "<h1><a\\ href=\"http://www\\.zimbra\\.com/\"\\ id=\"bannerLink\"\\ target=\"_new\">",
+      "version_group": 0
     },
     {
       "name": "VMware-Zimbra Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<td><input\\ id=\"password\"\\ class=\"zLoginField\"\\ name=\"password\"\\ type=\"password\"\\ value=\"\"\\ size=\"40\"/></td>"
+      "pattern": "<td><input\\ id=\"password\"\\ class=\"zLoginField\"\\ name=\"password\"\\ type=\"password\"\\ value=\"\"\\ size=\"40\"/></td>",
+      "version_group": 0
     },
     {
       "name": "VMware-Zimbra Pattern",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"ZLoginWhatsThis\"\\ class=\"ZLoginInfoMessage\"\\ style=\"display:none;\"><center\\ style=\"margin\\-bottom:3px;\"><b>Client\\ Types:</b></center>"
+      "pattern": "<div\\ id=\"ZLoginWhatsThis\"\\ class=\"ZLoginInfoMessage\"\\ style=\"display:none;\"><center\\ style=\"margin\\-bottom:3px;\"><b>Client\\ Types:</b></center>",
+      "version_group": 0
     },
     {
       "name": "VMware-Zimbra Pattern",
@@ -158,7 +164,9 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"ZLoginNotice\"\\ class=\"legalNotice\\-small\"><a\\ target=\"_new\"\\ href=\"http://www\\.zimbra\\.com\">Zimbra</a>\\ ::\\ the\\ leader\\ in\\ open\\ source\\ messaging\\ and\\ collaboration\\ ::"
+      "pattern": "<div\\ id=\"ZLoginNotice\"\\ class=\"legalNotice\\-small\"><a\\ target=\"_new\"\\ href=\"http://www\\.zimbra\\.com\">Zimbra</a>\\ ::\\ the\\ leader\\ in\\ open\\ source\\ messaging\\ and\\ collaboration\\ ::",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

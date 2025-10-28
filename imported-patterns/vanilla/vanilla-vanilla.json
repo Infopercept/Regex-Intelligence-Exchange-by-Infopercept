@@ -1,0 +1,51 @@
+{
+  "vendor": "Vanilla",
+  "vendor_id": "vanilla",
+  "product": "Vanilla",
+  "product_id": "vanilla-vanilla",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Vanilla Header Detection",
+      "pattern": "X-Powered-By: Vanilla",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Vanilla from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "vanilla"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Vanilla HTML Detection",
+      "pattern": "<body id=\"(?:DiscussionsPage|vanilla)",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Vanilla from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "vanilla"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

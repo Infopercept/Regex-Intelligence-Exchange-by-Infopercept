@@ -1,0 +1,31 @@
+{
+  "vendor": "Wink",
+  "vendor_id": "wink",
+  "product": "Wink",
+  "product_id": "wink-wink",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Wink Script Detection",
+      "pattern": "(?:_base/js/base|wink).*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Wink from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "wink"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

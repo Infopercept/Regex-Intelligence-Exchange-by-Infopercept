@@ -1,0 +1,51 @@
+{
+  "vendor": "Google",
+  "vendor_id": "google",
+  "product": "Google Pay",
+  "product_id": "google-google-pay",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Google Pay HTML Detection",
+      "pattern": "<[^>]+aria-labelledby=\"pi-google_pay",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Pay from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "google-pay"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Google Pay Script Detection",
+      "pattern": "pay\\.google\\.com/([a-z/]+)/pay\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Pay from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "google-pay"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

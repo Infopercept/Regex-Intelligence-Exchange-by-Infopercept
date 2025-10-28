@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>[^(]+(Powered by Kleeja)</title>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>[^\\(]+\\(Powered by Kleeja\\)</title>"
+      "pattern": "<title>[^\\(]+\\(Powered by Kleeja\\)</title>",
+      "version_group": 0
     },
     {
       "name": "Kleeja Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"copyrights\"\\ content=\"Powered\\ by\\ Kleeja\\ ::\\ kleeja\\.com\"\\ />"
+      "pattern": "<meta\\ name=\"copyrights\"\\ content=\"Powered\\ by\\ Kleeja\\ ::\\ kleeja\\.com\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Kleeja Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"Description\"\\ content=\"Powered\\ by\\ Kleeja\\ ::\\ kleeja\\.com\"\\ />"
+      "pattern": "<meta\\ name=\"Description\"\\ content=\"Powered\\ by\\ Kleeja\\ ::\\ kleeja\\.com\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Kleeja Pattern",
@@ -86,7 +95,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.kleeja\\.com/\"\\ target=\"_blank\">Kleeja</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.kleeja\\.com/\"\\ target=\"_blank\">Kleeja</a>",
+      "version_group": 0
     },
     {
       "name": "Kleeja Pattern",
@@ -108,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ IF\\ REMOVE:\\ Pay\\ for\\ a\\ license\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ IF\\ REMOVE:\\ Pay\\ for\\ a\\ license\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Kleeja Pattern",
@@ -130,7 +141,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ IF\\ REMOVE:\\ Pay\\ for\\ a\\ license\\ \\-\\ see\\ http://www\\.kleeja\\.com\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ IF\\ REMOVE:\\ Pay\\ for\\ a\\ license\\ \\-\\ see\\ http://www\\.kleeja\\.com\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

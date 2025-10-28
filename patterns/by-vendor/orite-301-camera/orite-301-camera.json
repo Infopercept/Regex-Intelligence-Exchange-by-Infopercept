@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\\t<TITLE>ORITE\\ Audio\\ IP\\-Camera\\ IC\\-301\\ </TITLE>"
+      "pattern": "\\\t<TITLE>ORITE\\ Audio\\ IP\\-Camera\\ IC\\-301\\ </TITLE>",
+      "version_group": 0
     },
     {
       "name": "ORITE-301-Camera Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<TITLE>Orite\\ IC301</TITLE>"
+      "pattern": "<TITLE>Orite\\ IC301</TITLE>",
+      "version_group": 0
     },
     {
       "name": "ORITE-301-Camera Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "\\\tvar\\ s=\\\\"
+      "pattern": "\\\tvar\\ s=\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

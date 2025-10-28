@@ -1,0 +1,31 @@
+{
+  "vendor": "RackCache",
+  "vendor_id": "rackcache",
+  "product": "RackCache",
+  "product_id": "rackcache-rackcache",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "RackCache Header Detection",
+      "pattern": "X-Rack-Cache: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects RackCache from X-Rack-Cache header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "rackcache"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

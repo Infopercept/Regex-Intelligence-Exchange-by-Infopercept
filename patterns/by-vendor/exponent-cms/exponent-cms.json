@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"Generator\"\\ content=\"Exponent\\ Content\\ Management\\ System"
+      "pattern": "<meta\\ name=\"Generator\"\\ content=\"Exponent\\ Content\\ Management\\ System",
+      "version_group": 0
     },
     {
       "name": "Exponent-CMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.exponentcms\\.org\">Exponent\\ CMS</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.exponentcms\\.org\">Exponent\\ CMS</a>",
+      "version_group": 0
     },
     {
       "name": "Exponent-CMS Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.exponentcms\\.org\">Powered\\ by\\ Exponent\\ CMS</a>"
+      "pattern": "<a\\ href=\"http://www\\.exponentcms\\.org\">Powered\\ by\\ Exponent\\ CMS</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

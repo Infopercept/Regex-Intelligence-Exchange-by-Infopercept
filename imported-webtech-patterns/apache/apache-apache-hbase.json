@@ -1,0 +1,31 @@
+{
+  "vendor": "Apache",
+  "vendor_id": "apache",
+  "product": "Apache HBase",
+  "product_id": "apache-apache-hbase",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Apache HBase HTML Detection",
+      "pattern": "<style[^>]+static/hbase",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Apache HBase from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "apache-hbase"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

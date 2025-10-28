@@ -1,0 +1,131 @@
+{
+  "vendor": "React",
+  "vendor_id": "react",
+  "product": "React",
+  "product_id": "react-react",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "React HTML Detection",
+      "pattern": "<[^>]+data-react",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects React from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "react"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "React Script Detection",
+      "pattern": "react(?:-with-addons)?[.-]([\\d.]*\\d)[^/]*\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects React from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "react"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "React Script Detection",
+      "pattern": "/([\\d.]+)/react(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects React from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "react"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "React Script Detection",
+      "pattern": "react.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects React from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "react"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "React JavaScript Detection",
+      "pattern": "window\\.React\\.version|React\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects React from JavaScript variable 'React.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "react"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "React JavaScript Detection",
+      "pattern": "window\\.react\\.version|react\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects React from JavaScript variable 'react.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "react"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

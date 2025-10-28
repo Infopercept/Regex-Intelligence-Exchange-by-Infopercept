@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^hcb_web",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^hcb_web"
+      "pattern": "^hcb_web",
+      "version_group": 0
     },
     {
       "name": "Home-Control-Box Pattern",
@@ -65,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<frame\\ frameborder=\"0\"\\ name=\"MGUI\"\\ src=\"myhcb_gui\\.html\"\\ scrolling=\"no\""
+      "pattern": "<frame\\ frameborder=\"0\"\\ name=\"MGUI\"\\ src=\"myhcb_gui\\.html\"\\ scrolling=\"no\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

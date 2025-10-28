@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Webduino$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Webduino$"
+      "pattern": "^Webduino$",
+      "version_group": 0
     },
     {
       "name": "Webduino Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Webduino/([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

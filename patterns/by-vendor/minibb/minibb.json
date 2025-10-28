@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<td\\ class=\"tbTransparent\\ txtR\"><!\\-\\-miniBB\\ Copyright\\ link\\.\\ You\\ are\\ not\\ allowed\\ to\\ remove\\ it\\ if\\ you\\ have\\ not\\ purchased\\ the\\ Commercial\\ License\\.\\ Refer\\ to\\ COPYING\\ file\\ for\\ more\\-\\->"
+      "pattern": "<td\\ class=\"tbTransparent\\ txtR\"><!\\-\\-miniBB\\ Copyright\\ link\\.\\ You\\ are\\ not\\ allowed\\ to\\ remove\\ it\\ if\\ you\\ have\\ not\\ purchased\\ the\\ Commercial\\ License\\.\\ Refer\\ to\\ COPYING\\ file\\ for\\ more\\-\\->",
+      "version_group": 0
     },
     {
       "name": "MiniBB Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a[^>]+href=\"http:/",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <a[^>]+href=\"http:/\\"
+      "pattern": "Powered by <a[^>]+href=\"http:/\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

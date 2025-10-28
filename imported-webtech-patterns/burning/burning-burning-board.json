@@ -1,0 +1,31 @@
+{
+  "vendor": "Burning",
+  "vendor_id": "burning",
+  "product": "Burning Board",
+  "product_id": "burning-burning-board",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Burning Board HTML Detection",
+      "pattern": "<a href=\"[^>]+woltlab\\.com[^<]+<strong>Burning Board",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Burning Board from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "burning-board"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

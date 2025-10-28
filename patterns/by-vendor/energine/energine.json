@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"text/javascript\" src=\"[^\"]*scripts/Energine.js\"></script>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script type=\"text/javascript\" src=\"[^\"]*scripts/Energine.js\"></script>"
+      "pattern": "<script type=\"text/javascript\" src=\"[^\"]*scripts/Energine.js\"></script>",
+      "version_group": 0
     },
     {
       "name": "Energine Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"[^\"]*stylesheets/energine.css\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link rel=\"stylesheet\" type=\"text/css\" href=\"[^\"]*stylesheets/energine.css\" />"
+      "pattern": "<link rel=\"stylesheet\" type=\"text/css\" href=\"[^\"]*stylesheets/energine.css\" />",
+      "version_group": 0
     },
     {
       "name": "Energine Pattern",
@@ -58,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"footer\"><span\\ class=\"copyright\">Powered\\ by\\ <a\\ href=\"http://energine\\.org\">Energine</a><br/>"
+      "pattern": "<div\\ id=\"footer\"><span\\ class=\"copyright\">Powered\\ by\\ <a\\ href=\"http://energine\\.org\">Energine</a><br/>",
+      "version_group": 0
     },
     {
       "name": "Energine Pattern",
@@ -80,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<span\\ class=\"copyright\">Powered\\ by\\ <a\\ href=\\ \"http://energine\\.org/\">Energine</a></span>"
+      "pattern": "<span\\ class=\"copyright\">Powered\\ by\\ <a\\ href=\\ \"http://energine\\.org/\">Energine</a></span>",
+      "version_group": 0
     },
     {
       "name": "Energine Pattern",
@@ -102,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"footer\">Powered\\ by\\ Energine\\.</div>"
+      "pattern": "<div\\ id=\"footer\">Powered\\ by\\ Energine\\.</div>",
+      "version_group": 0
     },
     {
       "name": "Energine Pattern",
@@ -124,7 +141,9 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"footer\">Powered\\ by\\ <a\\ href=\"http://energine\\.org\">Energine</a>"
+      "pattern": "<div\\ id=\"footer\">Powered\\ by\\ <a\\ href=\"http://energine\\.org\">Energine</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "(Basic|Digest) realm=\"SpeedTouch",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "(Basic|Digest) realm=\"SpeedTouch"
+      "pattern": "(Basic|Digest) realm=\"SpeedTouch",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

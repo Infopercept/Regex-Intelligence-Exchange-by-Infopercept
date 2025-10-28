@@ -1,0 +1,31 @@
+{
+  "vendor": "enduro.js",
+  "vendor_id": "enduro.js",
+  "product": "enduro.js",
+  "product_id": "enduro.js-endurojs",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "enduro.js Header Detection",
+      "pattern": "X-Powered-By: ^enduro\\.js$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects enduro.js from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "enduro.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

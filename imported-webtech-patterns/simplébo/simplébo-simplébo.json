@@ -1,0 +1,31 @@
+{
+  "vendor": "Simplébo",
+  "vendor_id": "simplébo",
+  "product": "Simplébo",
+  "product_id": "simplébo-simplébo",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Simplébo Header Detection",
+      "pattern": "X-ServedBy: simplebo",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Simplébo from X-ServedBy header",
+        "tags": [
+          "webtech",
+          "header",
+          "simplébo"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

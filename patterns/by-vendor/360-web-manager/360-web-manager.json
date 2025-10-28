@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "360WebManager Software :: administrador contenidos web",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "360WebManager Software :: administrador contenidos web"
+      "pattern": "360WebManager Software :: administrador contenidos web",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

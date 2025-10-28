@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"Generator\"\\ content=\"Saman\\ Information\\ Structure\"\\ />"
+      "pattern": "<meta\\ name=\"Generator\"\\ content=\"Saman\\ Information\\ Structure\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Saman-Portal Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script  type=\"text/javascript\" language=\"JavaScript\">[s]+var sisTHEMEPATH_HTTP = \"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script  type=\"text/javascript\" language=\"JavaScript\">[\\s]+var sisTHEMEPATH_HTTP = \""
+      "pattern": "<script  type=\"text/javascript\" language=\"JavaScript\">[\\s]+var sisTHEMEPATH_HTTP = \"",
+      "version_group": 0
     },
     {
       "name": "Saman-Portal Pattern",
@@ -56,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "sisRapid Framework",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "sisRapid Framework"
+      "pattern": "sisRapid Framework",
+      "version_group": 0
     },
     {
       "name": "Saman-Portal Pattern",
@@ -72,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "SAMANPORTALSID=[^;]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "SAMANPORTALSID=[^;]+;"
+      "pattern": "SAMANPORTALSID=[^;]+;",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

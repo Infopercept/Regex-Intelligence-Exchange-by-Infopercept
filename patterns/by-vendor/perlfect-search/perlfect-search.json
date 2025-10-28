@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ the\\ following\\ meta\\ tag\\ is\\ important\\ to\\ avoid\\ cross\\ site\\ scripting\\ attacks:\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ the\\ following\\ meta\\ tag\\ is\\ important\\ to\\ avoid\\ cross\\ site\\ scripting\\ attacks:\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

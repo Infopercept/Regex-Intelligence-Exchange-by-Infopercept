@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\\tpowered\\ by\\ <a\\ href=\"http://FrozenPepper\\.de\">chillyCMS</a>\\."
+      "pattern": "\\\tpowered\\ by\\ <a\\ href=\"http://FrozenPepper\\.de\">chillyCMS</a>\\.",
+      "version_group": 0
     },
     {
       "name": "chillyCMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\\t<p>\\&copy;2010\\ <a\\ href=\"\">demo\\.opensourcecms\\.com</a>,"
+      "pattern": "\\\t<p>\\&copy;2010\\ <a\\ href=\"\">demo\\.opensourcecms\\.com</a>,",
+      "version_group": 0
     },
     {
       "name": "chillyCMS Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "\\\t<p>\\&copy;2010\\ <a\\ href=\"\">chillycms\\.bplaced\\.net</a>,"
+      "pattern": "\\\t<p>\\&copy;2010\\ <a\\ href=\"\">chillycms\\.bplaced\\.net</a>,",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

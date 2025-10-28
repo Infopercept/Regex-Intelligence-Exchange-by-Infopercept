@@ -29,5 +29,6 @@
       "pattern": "Server: ^VPON Server/([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

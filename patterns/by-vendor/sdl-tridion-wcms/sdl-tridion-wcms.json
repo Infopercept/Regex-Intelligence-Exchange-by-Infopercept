@@ -29,5 +29,6 @@
       "pattern": "product-version: ^(.+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

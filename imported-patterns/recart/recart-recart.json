@@ -1,0 +1,31 @@
+{
+  "vendor": "Recart",
+  "vendor_id": "recart",
+  "product": "Recart",
+  "product_id": "recart-recart",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Recart Script Detection",
+      "pattern": "api\\.recart\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Recart from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "recart"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

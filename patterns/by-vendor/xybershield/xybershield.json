@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "XyberShieldSession=[^s]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "XyberShieldSession=[^\\s]+;"
+      "pattern": "XyberShieldSession=[^\\s]+;",
+      "version_group": 0
     },
     {
       "name": "XyberShield Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "XyberShieldStatus=[^s]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "XyberShieldStatus=[^\\s]+;"
+      "pattern": "XyberShieldStatus=[^\\s]+;",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "MobX",
+  "vendor_id": "mobx",
+  "product": "MobX",
+  "product_id": "mobx-mobx",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MobX Script Detection",
+      "pattern": "(?:/([\\d\\.]+))?/mobx(?:\\.[a-z]+){0,2}\\.js(?:$|\\?)",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MobX from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "mobx"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

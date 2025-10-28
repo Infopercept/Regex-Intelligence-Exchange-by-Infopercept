@@ -1,0 +1,31 @@
+{
+  "vendor": "EasyEngine",
+  "vendor_id": "easyengine",
+  "product": "EasyEngine",
+  "product_id": "easyengine-easyengine",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "EasyEngine Header Detection",
+      "pattern": "x-powered-by: ^EasyEngine (.*)$",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects EasyEngine from x-powered-by header",
+        "tags": [
+          "webtech",
+          "header",
+          "easyengine"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

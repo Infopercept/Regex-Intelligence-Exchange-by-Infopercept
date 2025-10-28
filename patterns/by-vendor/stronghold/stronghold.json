@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Stronghold$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Stronghold$"
+      "pattern": "^Stronghold$",
+      "version_group": 0
     },
     {
       "name": "Stronghold Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Stronghold/([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "Google",
+  "vendor_id": "google",
+  "product": "Google Cloud",
+  "product_id": "google-google-cloud",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Google Cloud Header Detection",
+      "pattern": "Via: ^1\\.1 google$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Cloud from Via header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "google-cloud"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

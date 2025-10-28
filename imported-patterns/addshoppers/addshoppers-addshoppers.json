@@ -1,0 +1,31 @@
+{
+  "vendor": "AddShoppers",
+  "vendor_id": "addshoppers",
+  "product": "AddShoppers",
+  "product_id": "addshoppers-addshoppers",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AddShoppers Script Detection",
+      "pattern": "cdn\\.shop\\.pe/widget/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AddShoppers from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "addshoppers"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

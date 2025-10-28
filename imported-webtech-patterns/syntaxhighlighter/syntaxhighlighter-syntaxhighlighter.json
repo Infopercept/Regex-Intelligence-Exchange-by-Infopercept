@@ -1,0 +1,51 @@
+{
+  "vendor": "SyntaxHighlighter",
+  "vendor_id": "syntaxhighlighter",
+  "product": "SyntaxHighlighter",
+  "product_id": "syntaxhighlighter-syntaxhighlighter",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SyntaxHighlighter HTML Detection",
+      "pattern": "<(?:script|link)[^>]*sh(?:Core|Brush|ThemeDefault)",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SyntaxHighlighter from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "syntaxhighlighter"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "SyntaxHighlighter JavaScript Detection",
+      "pattern": "window\\.SyntaxHighlighter|SyntaxHighlighter\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SyntaxHighlighter from JavaScript variable 'SyntaxHighlighter'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "syntaxhighlighter"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

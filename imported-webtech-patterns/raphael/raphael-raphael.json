@@ -1,0 +1,51 @@
+{
+  "vendor": "Raphael",
+  "vendor_id": "raphael",
+  "product": "Raphael",
+  "product_id": "raphael-raphael",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Raphael Script Detection",
+      "pattern": "raphael(?:-([\\d.]+))?(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Raphael from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "raphael"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Raphael JavaScript Detection",
+      "pattern": "window\\.Raphael\\.version|Raphael\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Raphael from JavaScript variable 'Raphael.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "raphael"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

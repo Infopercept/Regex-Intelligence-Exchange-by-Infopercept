@@ -1,0 +1,31 @@
+{
+  "vendor": "Strikingly",
+  "vendor_id": "strikingly",
+  "product": "Strikingly",
+  "product_id": "strikingly-strikingly",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Strikingly HTML Detection",
+      "pattern": "<!-- Powered by Strikingly\\.com",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Strikingly from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "strikingly"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>NetGear\\ Print\\ Server\\ Setup</title>"
+      "pattern": "<title>NetGear\\ Print\\ Server\\ Setup</title>",
+      "version_group": 0
     },
     {
       "name": "NetGear-Print-Server Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<p>To\\ provide\\ an\\ enhanced\\ user\\ interface,\\ this\\ Print\\ Server\\ uses\\ JavaScript\\ extensively\\."
+      "pattern": "<p>To\\ provide\\ an\\ enhanced\\ user\\ interface,\\ this\\ Print\\ Server\\ uses\\ JavaScript\\ extensively\\.",
+      "version_group": 0
     },
     {
       "name": "NetGear-Print-Server Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<title>NETGEAR\\ Print\\ Server\\ </title>"
+      "pattern": "<title>NETGEAR\\ Print\\ Server\\ </title>",
+      "version_group": 0
     },
     {
       "name": "NetGear-Print-Server Pattern",
@@ -95,5 +98,6 @@
       "pattern": "Server: ^PRINT_SERVER WEB ([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

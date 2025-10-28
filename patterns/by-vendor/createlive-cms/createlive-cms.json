@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Kill=kill=(Yes|No)",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Kill=kill=(Yes|No)"
+      "pattern": "Kill=kill=(Yes|No)",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

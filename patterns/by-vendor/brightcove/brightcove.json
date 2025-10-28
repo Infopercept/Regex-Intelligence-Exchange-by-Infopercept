@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "goku.brightcove.com|admin.brightcove.com/js",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "goku\\.brightcove\\.com|admin\\.brightcove\\.com/js"
+      "pattern": "goku\\.brightcove\\.com|admin\\.brightcove\\.com/js",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

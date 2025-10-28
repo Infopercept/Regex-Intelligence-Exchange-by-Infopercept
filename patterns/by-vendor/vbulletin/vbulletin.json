@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"vBulletin",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\"generator\" content=\"vBulletin"
+      "pattern": "<meta name=\"generator\" content=\"vBulletin",
+      "version_group": 0
     },
     {
       "name": "VBulletin Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "* vBulletin [0-9a-z.]+ CSS",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "\\* vBulletin [0-9a-z.]+ CSS"
+      "pattern": "\\* vBulletin [0-9a-z.]+ CSS",
+      "version_group": 0
     },
     {
       "name": "vbulletin_global.js",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"text/javascript\" src=\"[a-z0-9./]*vbulletin_global.js",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script type=\"text/javascript\" src=\"[a-z0-9./]*vbulletin_global.js"
+      "pattern": "<script type=\"text/javascript\" src=\"[a-z0-9./]*vbulletin_global.js",
+      "version_group": 0
     },
     {
       "name": "VBulletin Pattern",
@@ -74,7 +95,8 @@
           }
         ]
       },
-      "pattern": "vb_bullet\\.gif\""
+      "pattern": "vb_bullet\\.gif\"",
+      "version_group": 0
     },
     {
       "name": "VBulletin Pattern",
@@ -88,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by(:)? vBulletin(&reg;)? Version",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by(:)? vBulletin(&reg;)? Version"
+      "pattern": "Powered by(:)? vBulletin(&reg;)? Version",
+      "version_group": 0
     },
     {
       "name": "VBulletin Pattern",
@@ -104,9 +133,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Copyright &copy;2000 - [0-9]+, Jelsoft Enterprises Ltd.",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Copyright &copy;2000 - [0-9]+, Jelsoft Enterprises Ltd."
+      "pattern": "Copyright &copy;2000 - [0-9]+, Jelsoft Enterprises Ltd.",
+      "version_group": 0
     },
     {
       "name": "bblastactivity cookie",
@@ -120,9 +156,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "bblastactivity",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "bblastactivity"
+      "pattern": "bblastactivity",
+      "version_group": 0
     },
     {
       "name": "bblastvisit cookie",
@@ -136,9 +179,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "bblastvisit",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "bblastvisit"
+      "pattern": "bblastvisit",
+      "version_group": 0
     },
     {
       "name": "bbsessionhash cookie",
@@ -152,9 +202,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "bbsessionhash",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "bbsessionhash"
+      "pattern": "bbsessionhash",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

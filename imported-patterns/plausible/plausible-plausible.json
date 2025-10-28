@@ -1,0 +1,31 @@
+{
+  "vendor": "Plausible",
+  "vendor_id": "plausible",
+  "product": "Plausible",
+  "product_id": "plausible-plausible",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Plausible Script Detection",
+      "pattern": "plausible\\.io/js/plausible\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Plausible from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "plausible"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

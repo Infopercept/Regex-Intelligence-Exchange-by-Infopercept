@@ -1,0 +1,51 @@
+{
+  "vendor": "Etherpad",
+  "vendor_id": "etherpad",
+  "product": "Etherpad",
+  "product_id": "etherpad-etherpad",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Etherpad Header Detection",
+      "pattern": "Server: ^Etherpad",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Etherpad from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "etherpad"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Etherpad Script Detection",
+      "pattern": "/ep_etherpad-lite/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Etherpad from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "etherpad"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

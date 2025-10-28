@@ -1,0 +1,51 @@
+{
+  "vendor": "GrowingIO",
+  "vendor_id": "growingio",
+  "product": "GrowingIO",
+  "product_id": "growingio-growingio",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "GrowingIO Script Detection",
+      "pattern": "assets\\.growingio\\.com/([\\d.]+)/gio.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GrowingIO from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "growingio"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "GrowingIO JavaScript Detection",
+      "pattern": "window\\.gio|gio\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GrowingIO from JavaScript variable 'gio'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "growingio"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

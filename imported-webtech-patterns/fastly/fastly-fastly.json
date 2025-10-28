@@ -1,0 +1,91 @@
+{
+  "vendor": "Fastly",
+  "vendor_id": "fastly",
+  "product": "Fastly",
+  "product_id": "fastly-fastly",
+  "category": "web",
+  "subcategory": "cdn",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Fastly Header Detection",
+      "pattern": "Fastly-Debug-Digest: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Fastly from Fastly-Debug-Digest header",
+        "tags": [
+          "webtech",
+          "header",
+          "fastly"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Fastly Header Detection",
+      "pattern": "Vary: Fastly-SSL",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Fastly from Vary header",
+        "tags": [
+          "webtech",
+          "header",
+          "fastly"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Fastly Header Detection",
+      "pattern": "x-via-fastly:: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Fastly from x-via-fastly: header",
+        "tags": [
+          "webtech",
+          "header",
+          "fastly"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Fastly Header Detection",
+      "pattern": "X-Fastly-Request-ID: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Fastly from X-Fastly-Request-ID header",
+        "tags": [
+          "webtech",
+          "header",
+          "fastly"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

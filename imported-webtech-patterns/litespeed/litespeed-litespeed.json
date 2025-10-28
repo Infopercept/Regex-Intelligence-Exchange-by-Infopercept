@@ -1,0 +1,31 @@
+{
+  "vendor": "LiteSpeed",
+  "vendor_id": "litespeed",
+  "product": "LiteSpeed",
+  "product_id": "litespeed-litespeed",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "LiteSpeed Header Detection",
+      "pattern": "Server: ^LiteSpeed$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects LiteSpeed from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "litespeed"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

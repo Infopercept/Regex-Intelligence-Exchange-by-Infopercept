@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\\t<title>xGB</title>"
+      "pattern": "\\\t<title>xGB</title>",
+      "version_group": 0
     },
     {
       "name": "xGB Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ start\\ xGB\\ dynamic\\ content\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ start\\ xGB\\ dynamic\\ content\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "xGB Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "powered\\ by\\ <a\\ href='http://www\\.x\\-gfx\\.de'\\ target='blank'\\ title='Script\\ by\\ x\\-gfx\\.de'>xGB"
+      "pattern": "powered\\ by\\ <a\\ href='http://www\\.x\\-gfx\\.de'\\ target='blank'\\ title='Script\\ by\\ x\\-gfx\\.de'>xGB",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

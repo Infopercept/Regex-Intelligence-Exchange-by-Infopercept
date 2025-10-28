@@ -1,0 +1,111 @@
+{
+  "vendor": "Elementor",
+  "vendor_id": "elementor",
+  "product": "Elementor",
+  "product_id": "elementor-elementor",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Elementor HTML Detection",
+      "pattern": "<div class=(?:\"|')[^\"']*elementor",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Elementor from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "elementor"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Elementor HTML Detection",
+      "pattern": "<section class=(?:\"|')[^\"']*elementor",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Elementor from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "elementor"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Elementor HTML Detection",
+      "pattern": "<link [^>]*href=(?:\"|')[^\"']*elementor/assets",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Elementor from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "elementor"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Elementor HTML Detection",
+      "pattern": "<link [^>]*href=(?:\"|')[^\"']*uploads/elementor/css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Elementor from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "elementor"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Elementor Script Detection",
+      "pattern": "elementor/assets/js/[^/]+\\.js\\?ver=([\\d.]+)$",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Elementor from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "elementor"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

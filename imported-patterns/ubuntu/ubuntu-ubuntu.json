@@ -1,0 +1,51 @@
+{
+  "vendor": "Ubuntu",
+  "vendor_id": "ubuntu",
+  "product": "Ubuntu",
+  "product_id": "ubuntu-ubuntu",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Ubuntu Header Detection",
+      "pattern": "Server: Ubuntu",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Ubuntu from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "ubuntu"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Ubuntu Header Detection",
+      "pattern": "X-Powered-By: Ubuntu",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Ubuntu from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "ubuntu"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

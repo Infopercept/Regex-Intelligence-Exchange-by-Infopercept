@@ -1,0 +1,71 @@
+{
+  "vendor": "Swell",
+  "vendor_id": "swell",
+  "product": "Swell",
+  "product_id": "swell-swell",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Swell HTML Detection",
+      "pattern": "<[^>]*swell\\.is",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Swell from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "swell"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Swell HTML Detection",
+      "pattern": "<[^>]*swell\\.store",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Swell from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "swell"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Swell HTML Detection",
+      "pattern": "<[^>]*schema\\.io",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Swell from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "swell"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

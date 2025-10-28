@@ -1,0 +1,51 @@
+{
+  "vendor": "Debian",
+  "vendor_id": "debian",
+  "product": "Debian",
+  "product_id": "debian-debian",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Debian Header Detection",
+      "pattern": "Server: Debian",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Debian from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "debian"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Debian Header Detection",
+      "pattern": "X-Powered-By: (?:Debian|dotdeb|(potato|woody|sarge|etch|lenny|squeeze|wheezy|jessie|stretch|buster|sid))",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Debian from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "debian"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

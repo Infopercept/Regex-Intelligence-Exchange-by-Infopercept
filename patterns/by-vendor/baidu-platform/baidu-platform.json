@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^BFE",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^BFE"
+      "pattern": "^BFE",
+      "version_group": 0
     },
     {
       "name": "Baidu-powered",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^BD",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^BD"
+      "pattern": "^BD",
+      "version_group": 0
     },
     {
       "name": "Baidu Static Resource",
@@ -50,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"dns-prefetch\" href=\"//s[0-9].bdstatic.com\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link rel=\"dns-prefetch\" href=\"//s[0-9]\\.bdstatic\\.com\">"
+      "pattern": "<link rel=\"dns-prefetch\" href=\"//s[0-9]\\.bdstatic\\.com\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

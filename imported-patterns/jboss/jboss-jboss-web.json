@@ -1,0 +1,31 @@
+{
+  "vendor": "JBoss",
+  "vendor_id": "jboss",
+  "product": "JBoss Web",
+  "product_id": "jboss-jboss-web",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "JBoss Web Header Detection",
+      "pattern": "X-Powered-By: JBossWeb(?:-([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects JBoss Web from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "jboss-web"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

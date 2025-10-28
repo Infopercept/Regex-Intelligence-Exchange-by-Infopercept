@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"/images/arubalogo.gif\" width=\"200\" height=\"51\"[s]+alt=\"Aruba( Wireless)? Networks\" title=\"Aruba( Wireless)? Networks\"/>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<img src=\"/images/arubalogo\\.gif\" width=\"200\" height=\"51\"[\\s]+alt=\"Aruba( Wireless)? Networks\" title=\"Aruba( Wireless)? Networks\"/>"
+      "pattern": "<img src=\"/images/arubalogo\\.gif\" width=\"200\" height=\"51\"[\\s]+alt=\"Aruba( Wireless)? Networks\" title=\"Aruba( Wireless)? Networks\"/>",
+      "version_group": 0
     },
     {
       "name": "Aruba-Device Pattern",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<form\\ id=\"login\\-form\"\\ method=\"post\"\\ autocomplete=\"off\"\\ action=\"/screens/wms/wms\\.login\">"
+      "pattern": "<form\\ id=\"login\\-form\"\\ method=\"post\"\\ autocomplete=\"off\"\\ action=\"/screens/wms/wms\\.login\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "Oracle",
+  "vendor_id": "oracle",
+  "product": "Oracle Web Cache",
+  "product_id": "oracle-oracle-web-cache",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Oracle Web Cache Header Detection",
+      "pattern": "Server: Oracle(?:AS)?[- ]Web[- ]Cache(?:[- /]([\\da-z./]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Oracle Web Cache from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "oracle-web-cache"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

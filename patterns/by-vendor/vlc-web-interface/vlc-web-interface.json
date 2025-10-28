@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>VLC\\ media\\ player\\ \\-\\ Web\\ Interface</title>"
+      "pattern": "<title>VLC\\ media\\ player\\ \\-\\ Web\\ Interface</title>",
+      "version_group": 0
     },
     {
       "name": "VLC-Web-Interface Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>VLC\\ media\\ player\\ \\-\\ Web\\ Interface\\ \\-\\ Mosaic\\ Wizard</title>"
+      "pattern": "<title>VLC\\ media\\ player\\ \\-\\ Web\\ Interface\\ \\-\\ Mosaic\\ Wizard</title>",
+      "version_group": 0
     },
     {
       "name": "VLC-Web-Interface Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<title>VLC\\ media\\ player\\ \\-\\ Web\\ Interface\\ with\\ Flash\\ Viewer</title>"
+      "pattern": "<title>VLC\\ media\\ player\\ \\-\\ Web\\ Interface\\ with\\ Flash\\ Viewer</title>",
+      "version_group": 0
     },
     {
       "name": "VLC-Web-Interface Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<title>VLC\\ media\\ player\\ \\-\\ Web\\ Interface\\ \\-\\ VLM</title>"
+      "pattern": "<title>VLC\\ media\\ player\\ \\-\\ Web\\ Interface\\ \\-\\ VLM</title>",
+      "version_group": 0
     },
     {
       "name": "VLC-Web-Interface Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ do\\ we\\ need\\ to\\ browse\\ in\\ order\\ to\\ setup\\ a\\ mosaic\\ \\?\\ for\\ the\\ background\\ image\\ maybe\\ \\.\\.\\.\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ do\\ we\\ need\\ to\\ browse\\ in\\ order\\ to\\ setup\\ a\\ mosaic\\ \\?\\ for\\ the\\ background\\ image\\ maybe\\ \\.\\.\\.\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "VLC-Web-Interface Pattern",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<input\\ type=\"checkbox\"\\ id=\"vlm_schedule_repeat\"\\ onchange=\"toggle_schedule_repeat\\(\\);update_vlm_add_schedule\\(\\);\"\\ />"
+      "pattern": "<input\\ type=\"checkbox\"\\ id=\"vlm_schedule_repeat\"\\ onchange=\"toggle_schedule_repeat\\(\\);update_vlm_add_schedule\\(\\);\"\\ />",
+      "version_group": 0
     },
     {
       "name": "VLC-Web-Interface Pattern",
@@ -158,7 +164,9 @@
           }
         ]
       },
-      "pattern": "<input\\ type=\"text\"\\ name=\"sout_mrl\"\\ id=\"sout_mrl\"\\ size=\"60\"\\ onkeypress=\"if\\(\\ event\\.keyCode\\ ==\\ 13\\ \\)\\ vlm_output_change\\(\\);\"/>"
+      "pattern": "<input\\ type=\"text\"\\ name=\"sout_mrl\"\\ id=\"sout_mrl\"\\ size=\"60\"\\ onkeypress=\"if\\(\\ event\\.keyCode\\ ==\\ 13\\ \\)\\ vlm_output_change\\(\\);\"/>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

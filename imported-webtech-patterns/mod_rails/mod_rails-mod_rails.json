@@ -1,0 +1,51 @@
+{
+  "vendor": "mod_rails",
+  "vendor_id": "mod_rails",
+  "product": "mod_rails",
+  "product_id": "mod_rails-mod_rails",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "mod_rails Header Detection",
+      "pattern": "Server: mod_rails(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects mod_rails from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "mod_rails"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "mod_rails Header Detection",
+      "pattern": "X-Powered-By: mod_rails(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects mod_rails from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "mod_rails"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

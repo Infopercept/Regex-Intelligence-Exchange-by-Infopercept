@@ -1,0 +1,31 @@
+{
+  "vendor": "Oracle",
+  "vendor_id": "oracle",
+  "product": "Oracle HTTP Server",
+  "product_id": "oracle-oracle-http-server",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Oracle HTTP Server Header Detection",
+      "pattern": "Server: Oracle-HTTP-Server(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Oracle HTTP Server from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "oracle-http-server"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

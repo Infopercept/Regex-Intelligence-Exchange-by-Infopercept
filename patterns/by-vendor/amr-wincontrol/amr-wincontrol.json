@@ -29,5 +29,6 @@
       "pattern": "Server: AMR_WinControl[_0-9]*/([\\d\\.]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

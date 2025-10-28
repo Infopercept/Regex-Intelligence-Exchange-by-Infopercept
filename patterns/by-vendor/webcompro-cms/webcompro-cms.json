@@ -41,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"WEBCOMpro CMS ([^s]+) . Patrick Heyer, www.webcompro-cms.com\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\"generator\" content=\"WEBCOMpro CMS ([^\\s]+) . Patrick Heyer, www\\.webcompro-cms\\.com\">"
+      "pattern": "<meta name=\"generator\" content=\"WEBCOMpro CMS ([^\\s]+) . Patrick Heyer, www\\.webcompro-cms\\.com\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "YUI",
+  "vendor_id": "yui",
+  "product": "YUI Doc",
+  "product_id": "yui-yui-doc",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "YUI Doc HTML Detection",
+      "pattern": "(?:<html[^>]* yuilibrary\\.com/rdf/[\\d.]+/yui\\.rdf|<body[^>]+class=\"yui3-skin-sam)",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects YUI Doc from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "yui-doc"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

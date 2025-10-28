@@ -1,0 +1,51 @@
+{
+  "vendor": "Heap",
+  "vendor_id": "heap",
+  "product": "Heap",
+  "product_id": "heap-heap",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Heap Script Detection",
+      "pattern": "heap-\\d+\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Heap from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "heap"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Heap JavaScript Detection",
+      "pattern": "window\\.heap|heap\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Heap from JavaScript variable 'heap'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "heap"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

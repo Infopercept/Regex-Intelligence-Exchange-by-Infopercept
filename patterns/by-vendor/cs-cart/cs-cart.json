@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\\ttext_required_group_product:\\ 'Please\\ select\\ a\\ product\\ for\\ the\\ required\\ group\\ \\[group_name\\]',"
+      "pattern": "\\\ttext_required_group_product:\\ 'Please\\ select\\ a\\ product\\ for\\ the\\ required\\ group\\ \\[group_name\\]',",
+      "version_group": 0
     },
     {
       "name": "CS-Cart Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.cs-cart.com\" target=\"_blank\"[^>]+>CS-Cart - Shopping Cart Software</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <a href=\"http://www.cs-cart.com\" target=\"_blank\"[^>]+>CS-Cart - Shopping Cart Software</a>"
+      "pattern": "Powered by <a href=\"http://www.cs-cart.com\" target=\"_blank\"[^>]+>CS-Cart - Shopping Cart Software</a>",
+      "version_group": 0
     },
     {
       "name": "CS-Cart Pattern",
@@ -64,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<title>CS\\-Cart\\.\\ Powerful\\ PHP\\ shopping\\ cart\\ software</title>"
+      "pattern": "<title>CS\\-Cart\\.\\ Powerful\\ PHP\\ shopping\\ cart\\ software</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

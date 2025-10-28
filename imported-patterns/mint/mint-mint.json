@@ -1,0 +1,31 @@
+{
+  "vendor": "Mint",
+  "vendor_id": "mint",
+  "product": "Mint",
+  "product_id": "mint-mint",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mint Script Detection",
+      "pattern": "mint/\\?js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Mint from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "mint"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

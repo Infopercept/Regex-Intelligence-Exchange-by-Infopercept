@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "ddcaffinitygroup",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "ddcaffinitygroup"
+      "pattern": "ddcaffinitygroup",
+      "version_group": 0
     },
     {
       "name": "ddcpoolid cookie",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "ddcpoolid",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "ddcpoolid"
+      "pattern": "ddcpoolid",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

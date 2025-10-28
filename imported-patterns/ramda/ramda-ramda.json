@@ -1,0 +1,31 @@
+{
+  "vendor": "Ramda",
+  "vendor_id": "ramda",
+  "product": "Ramda",
+  "product_id": "ramda-ramda",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Ramda Script Detection",
+      "pattern": "ramda.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Ramda from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "ramda"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^ZOT-PS-",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^ZOT-PS-"
+      "pattern": "^ZOT-PS-",
+      "version_group": 0
     },
     {
       "name": "Zero-One-Technology-Print-Server Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^ZOT-PS-[\\d]+/(.+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

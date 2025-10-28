@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<html><head><title>Ethernet\\ Network\\ Attached\\ Storage\\ \\ Utility</title>"
+      "pattern": "<html><head><title>Ethernet\\ Network\\ Attached\\ Storage\\ \\ Utility</title>",
+      "version_group": 0
     },
     {
       "name": "Linksys-NAS Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "\\\t<td\\ nowrap\\ colspan=\"3\"><img\\ src=\"Admin_top\\.JPG\"\\ width=\"750\"\\ height=\"52\"\\ alt=\"\"\\ border=\"0\"\\ hspace=\"0\"\\ vspace=\"0\"></td>"
+      "pattern": "\\\t<td\\ nowrap\\ colspan=\"3\"><img\\ src=\"Admin_top\\.JPG\"\\ width=\"750\"\\ height=\"52\"\\ alt=\"\"\\ border=\"0\"\\ hspace=\"0\"\\ vspace=\"0\"></td>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ NAME=\"Author\"\\ CONTENT=\"Bab\\.Stats\\ Team\">"
+      "pattern": "<meta\\ NAME=\"Author\"\\ CONTENT=\"Bab\\.Stats\\ Team\">",
+      "version_group": 0
     },
     {
       "name": "BAB_Stats Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>[^:]+ :: [^:]+ :: Powered by BAB.stats</title>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>[^:]+ :: [^:]+ :: Powered by BAB.stats</title>"
+      "pattern": "<title>[^:]+ :: [^:]+ :: Powered by BAB.stats</title>",
+      "version_group": 0
     },
     {
       "name": "BAB_Stats Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ NAME=\"Author\"\\ CONTENT=\"Tomas\\ Stucinskas\\ a\\.k\\.a\\ Baboon\">"
+      "pattern": "<meta\\ NAME=\"Author\"\\ CONTENT=\"Tomas\\ Stucinskas\\ a\\.k\\.a\\ Baboon\">",
+      "version_group": 0
     },
     {
       "name": "BAB_Stats Pattern",
@@ -86,7 +95,8 @@
           }
         ]
       },
-      "pattern": "\\ \\-\\ Powered\\ by\\ BAB\\.stats\\ Chronos</title>"
+      "pattern": "\\ \\-\\ Powered\\ by\\ BAB\\.stats\\ Chronos</title>",
+      "version_group": 0
     },
     {
       "name": "BAB_Stats Pattern",
@@ -108,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ AUTHOR\\ :\\ Tomas\\ Stucinskas\\ a\\.k\\.a\\ Baboon\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ AUTHOR\\ :\\ Tomas\\ Stucinskas\\ a\\.k\\.a\\ Baboon\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

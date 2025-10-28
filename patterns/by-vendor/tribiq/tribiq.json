@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://tribiq\\.com/\"\\ target=\"_blank\">Tribiq\\ CMS</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://tribiq\\.com/\"\\ target=\"_blank\">Tribiq\\ CMS</a>",
+      "version_group": 0
     },
     {
       "name": "Tribiq Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Designed\\ \\&amp;\\ Powered\\ by\\ <a\\ alt=\"Tribiq\\ CMS\"\\ target=\"_blank\"\\ title=\"Tribiq\\ CMS\"\\ href=\"http://www\\.tribiq\\.com\">Tribiq\\ CMS</a>"
+      "pattern": "Designed\\ \\&amp;\\ Powered\\ by\\ <a\\ alt=\"Tribiq\\ CMS\"\\ target=\"_blank\"\\ title=\"Tribiq\\ CMS\"\\ href=\"http://www\\.tribiq\\.com\">Tribiq\\ CMS</a>",
+      "version_group": 0
     },
     {
       "name": "Tribiq Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Designed &amp; Powered by <a href=\"http://www.tribiq.com[/]*[^>]+>Tribiq CMS</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Designed &amp; Powered by <a href=\"http://www.tribiq.com[/]*[^>]+>Tribiq CMS</a>"
+      "pattern": "Designed &amp; Powered by <a href=\"http://www.tribiq.com[/]*[^>]+>Tribiq CMS</a>",
+      "version_group": 0
     },
     {
       "name": "Tribiq Pattern",
@@ -86,7 +95,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://tribiq\\.com\"\\ title=\"TRIBiQ\\ Content\\ Management\\ System\"\\ target=\"_blank\">Tribiq</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://tribiq\\.com\"\\ title=\"TRIBiQ\\ Content\\ Management\\ System\"\\ target=\"_blank\">Tribiq</a>",
+      "version_group": 0
     },
     {
       "name": "Tribiq Pattern",
@@ -108,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://tribiq\\.com\">Powered\\ by\\ Tribiq\\ CMS</a>"
+      "pattern": "<a\\ href=\"http://tribiq\\.com\">Powered\\ by\\ Tribiq\\ CMS</a>",
+      "version_group": 0
     },
     {
       "name": "Tribiq Pattern",
@@ -130,7 +141,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://tribiq\\.com\"\\ target=\"_blank\">TRIBiQ</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://tribiq\\.com\"\\ target=\"_blank\">TRIBiQ</a>",
+      "version_group": 0
     },
     {
       "name": "Tribiq Pattern",
@@ -152,7 +164,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t\\\t\\\t\\\tdocument\\.location\\.href\\ =\\ \"adminlogin\\.php\\?sk=\"\\ \\+\\ \\(hash\\?\\ hash\\ :\\ \"tribiq__content\"\\);"
+      "pattern": "\\\t\\\t\\\t\\\t\\\tdocument\\.location\\.href\\ =\\ \"adminlogin\\.php\\?sk=\"\\ \\+\\ \\(hash\\?\\ hash\\ :\\ \"tribiq__content\"\\);",
+      "version_group": 0
     },
     {
       "name": "Tribiq Pattern",
@@ -174,7 +187,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t\\\t\\\t<p><a\\ href=\"adminlogin\\.php\">Please\\ log\\ in</a></p>"
+      "pattern": "\\\t\\\t\\\t\\\t<p><a\\ href=\"adminlogin\\.php\">Please\\ log\\ in</a></p>",
+      "version_group": 0
     },
     {
       "name": "Tribiq Pattern",
@@ -196,7 +210,9 @@
           }
         ]
       },
-      "pattern": "<title>Tribiq\\ CMS\\ Administrator\\ Login</title>"
+      "pattern": "<title>Tribiq\\ CMS\\ Administrator\\ Login</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

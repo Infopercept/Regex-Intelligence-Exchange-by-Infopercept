@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://drupal.org\"><img src=\"[/a-zA-Z0-9-_+]*/misc/powered-blue-80x15.png\" alt=\"Powered by Pressflow, an open source content management system\" title=\"Powered by Pressflow, an open source content management system\" width=\"80\" height=\"15\" /></a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"http://drupal.org\"><img src=\"[/a-zA-Z0-9\\-\\_+]*/misc/powered-blue-80x15.png\" alt=\"Powered by Pressflow, an open source content management system\" title=\"Powered by Pressflow, an open source content management system\" width=\"80\" height=\"15\" /></a>"
+      "pattern": "<a href=\"http://drupal.org\"><img src=\"[/a-zA-Z0-9\\-\\_+]*/misc/powered-blue-80x15.png\" alt=\"Powered by Pressflow, an open source content management system\" title=\"Powered by Pressflow, an open source content management system\" width=\"80\" height=\"15\" /></a>",
+      "version_group": 0
     },
     {
       "name": "Pressflow Pattern",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<title>Drupal\\ already\\ installed\\ \\|\\ Pressflow</title>"
+      "pattern": "<title>Drupal\\ already\\ installed\\ \\|\\ Pressflow</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

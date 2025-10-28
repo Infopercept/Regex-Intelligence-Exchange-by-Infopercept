@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ DO\\ NOT\\ REMOVE\\ OR\\ EDIT\\ THIS\\ LINE,\\ DOING\\ SO\\ WILL\\ RESULT\\ IN\\ COPYRIGHT\\ VIOLATIONS\\ UNLESS\\ YOU\\ PURCHASED\\ \"POWERED\\ BY\"\\ REMOVAL\\ OPTION\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ DO\\ NOT\\ REMOVE\\ OR\\ EDIT\\ THIS\\ LINE,\\ DOING\\ SO\\ WILL\\ RESULT\\ IN\\ COPYRIGHT\\ VIOLATIONS\\ UNLESS\\ YOU\\ PURCHASED\\ \"POWERED\\ BY\"\\ REMOVAL\\ OPTION\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Esvon-Classifieds Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by Esvon <a href='http://www.esvon.com/pg/products/p_classifieds/' target=\"_blank\"[^>]+>Classifieds</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by Esvon <a href='http://www.esvon.com/pg/products/p_classifieds/' target=\"_blank\"[^>]+>Classifieds</a>"
+      "pattern": "Powered by Esvon <a href='http://www.esvon.com/pg/products/p_classifieds/' target=\"_blank\"[^>]+>Classifieds</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

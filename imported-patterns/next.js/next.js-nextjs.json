@@ -1,0 +1,31 @@
+{
+  "vendor": "Next.js",
+  "vendor_id": "next.js",
+  "product": "Next.js",
+  "product_id": "next.js-nextjs",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Next.js Header Detection",
+      "pattern": "x-powered-by: ^Next\\.js ?([0-9.]+)?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Next.js from x-powered-by header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "next.js"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

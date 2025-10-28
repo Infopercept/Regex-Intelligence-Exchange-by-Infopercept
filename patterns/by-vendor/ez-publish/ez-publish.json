@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>eZ\\ publish\\ administration</title>"
+      "pattern": "<title>eZ\\ publish\\ administration</title>",
+      "version_group": 0
     },
     {
       "name": "eZ-Publish Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/admin/templates/ezpublish/style\\.css\"\\ />"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/admin/templates/ezpublish/style\\.css\"\\ />",
+      "version_group": 0
     },
     {
       "name": "eZ-Publish Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "topmargin=\\\\"
+      "pattern": "topmargin=\\\\",
+      "version_group": 0
     },
     {
       "name": "eZ-Publish Pattern",
@@ -84,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^eZ [p|P]ublish",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^eZ [p|P]ublish"
+      "pattern": "^eZ [p|P]ublish",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

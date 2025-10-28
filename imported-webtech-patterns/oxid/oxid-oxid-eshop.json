@@ -1,0 +1,131 @@
+{
+  "vendor": "OXID",
+  "vendor_id": "oxid",
+  "product": "OXID eShop",
+  "product_id": "oxid-oxid-eshop",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OXID eShop HTML Detection",
+      "pattern": "<!--[^-]*OXID eShop",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects OXID eShop from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "oxid-eshop"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "OXID eShop JavaScript Detection",
+      "pattern": "window\\.oxCookieNote|oxCookieNote\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects OXID eShop from JavaScript variable 'oxCookieNote'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "oxid-eshop"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "OXID eShop JavaScript Detection",
+      "pattern": "window\\.oxInputValidator|oxInputValidator\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects OXID eShop from JavaScript variable 'oxInputValidator'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "oxid-eshop"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "OXID eShop JavaScript Detection",
+      "pattern": "window\\.oxLoginBox|oxLoginBox\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects OXID eShop from JavaScript variable 'oxLoginBox'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "oxid-eshop"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "OXID eShop JavaScript Detection",
+      "pattern": "window\\.oxModalPopup|oxModalPopup\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects OXID eShop from JavaScript variable 'oxModalPopup'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "oxid-eshop"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "OXID eShop JavaScript Detection",
+      "pattern": "window\\.oxTopMenu|oxTopMenu\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects OXID eShop from JavaScript variable 'oxTopMenu'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "oxid-eshop"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

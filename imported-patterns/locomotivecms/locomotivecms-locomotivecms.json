@@ -1,0 +1,31 @@
+{
+  "vendor": "LocomotiveCMS",
+  "vendor_id": "locomotivecms",
+  "product": "LocomotiveCMS",
+  "product_id": "locomotivecms-locomotivecms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "LocomotiveCMS HTML Detection",
+      "pattern": "<link[^>]*/sites/[a-z\\d]{24}/theme/stylesheets",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects LocomotiveCMS from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "locomotivecms"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

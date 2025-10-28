@@ -1,0 +1,111 @@
+{
+  "vendor": "BuySellAds",
+  "vendor_id": "buysellads",
+  "product": "BuySellAds",
+  "product_id": "buysellads-buysellads",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BuySellAds Script Detection",
+      "pattern": "^https?://s\\d\\.buysellads\\.com/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects BuySellAds from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "buysellads"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "BuySellAds JavaScript Detection",
+      "pattern": "window\\._bsa|_bsa\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects BuySellAds from JavaScript variable '_bsa'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "buysellads"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "BuySellAds JavaScript Detection",
+      "pattern": "window\\._bsaPRO|_bsaPRO\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects BuySellAds from JavaScript variable '_bsaPRO'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "buysellads"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "BuySellAds JavaScript Detection",
+      "pattern": "window\\._bsap|_bsap\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects BuySellAds from JavaScript variable '_bsap'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "buysellads"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "BuySellAds JavaScript Detection",
+      "pattern": "window\\._bsap_serving_callback|_bsap_serving_callback\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects BuySellAds from JavaScript variable '_bsap_serving_callback'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "buysellads"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

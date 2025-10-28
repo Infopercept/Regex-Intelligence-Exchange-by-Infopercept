@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\\\\"
+      "pattern": "Powered\\ by\\ <a\\ href=\\\\",
+      "version_group": 0
     },
     {
       "name": "phpMyTourney Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "ERROR\\ :\\ page\\ not\\ properly\\ called"
+      "pattern": "ERROR\\ :\\ page\\ not\\ properly\\ called",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

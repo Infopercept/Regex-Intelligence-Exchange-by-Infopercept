@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-User\\ is\\ member\\ of\\ the\\ following\\ groups:\\ \\ \\-\\->"
+      "pattern": "<!\\-\\-User\\ is\\ member\\ of\\ the\\ following\\ groups:\\ \\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "BrowserCMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<li\\ class=\"bmcms\"><a\\ href=\"http://www\\.browsercms\\.com/index\\.ww\"\\ title=\"BrowserCMS\\ 2\\.0\"\\ target=\"_blank\"><span>Powered\\ by\\ BrowserCMS\\ 2\\.0</span></a></li>"
+      "pattern": "<li\\ class=\"bmcms\"><a\\ href=\"http://www\\.browsercms\\.com/index\\.ww\"\\ title=\"BrowserCMS\\ 2\\.0\"\\ target=\"_blank\"><span>Powered\\ by\\ BrowserCMS\\ 2\\.0</span></a></li>",
+      "version_group": 0
     },
     {
       "name": "BrowserCMS Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.browsercms.com[/]*\"[^>]+>BrowserCMS</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <a href=\"http://www.browsercms.com[/]*\"[^>]+>BrowserCMS</a>"
+      "pattern": "Powered by <a href=\"http://www.browsercms.com[/]*\"[^>]+>BrowserCMS</a>",
+      "version_group": 0
     },
     {
       "name": "BrowserCMS Pattern",
@@ -78,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.browsercms.com[/]*\"[^>]+title=\"Powered by BrowserCMS\"[^>]+",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"http://www.browsercms.com[/]*\"[^>]+title=\"Powered by BrowserCMS\"[^>]+"
+      "pattern": "<a href=\"http://www.browsercms.com[/]*\"[^>]+title=\"Powered by BrowserCMS\"[^>]+",
+      "version_group": 0
     },
     {
       "name": "BrowserCMS Pattern",
@@ -94,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.browsercms.com[^>]+><img[^>]*src=\"/site/images[^>]+ onmouseover=\"this.src='/site/images[^>]+onmouseout=\"this.src='/site/images[^>]+alt=\"Powered by BrowserCMS\"[^>]*></a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"http://www.browsercms.com[^>]+><img[^>]*src=\"/site/images[^>]+ onmouseover=\"this.src='/site/images[^>]+onmouseout=\"this.src='/site/images[^>]+alt=\"Powered by BrowserCMS\"[^>]*></a>"
+      "pattern": "<a href=\"http://www.browsercms.com[^>]+><img[^>]*src=\"/site/images[^>]+ onmouseover=\"this.src='/site/images[^>]+onmouseout=\"this.src='/site/images[^>]+alt=\"Powered by BrowserCMS\"[^>]*></a>",
+      "version_group": 0
     },
     {
       "name": "BrowserCMS Pattern",
@@ -118,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<form\\ method=\"POST\"\\ action=\"/portlets/login/do\\-login\\.jsp\"\\ name=\"security\">"
+      "pattern": "<form\\ method=\"POST\"\\ action=\"/portlets/login/do\\-login\\.jsp\"\\ name=\"security\">",
+      "version_group": 0
     },
     {
       "name": "BrowserCMS Pattern",
@@ -132,9 +156,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"hidden\" name=\"success_uri\" value=\"[^>]*/page.ww?name=[^>]*&section=[^>]*\"/>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<input type=\"hidden\" name=\"success_uri\" value=\"[^>]*/page.ww\\?name=[^>]*\\&section=[^>]*\"/>"
+      "pattern": "<input type=\"hidden\" name=\"success_uri\" value=\"[^>]*/page.ww\\?name=[^>]*\\&section=[^>]*\"/>",
+      "version_group": 0
     },
     {
       "name": "BrowserCMS Pattern",
@@ -148,9 +179,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"hidden\" name=\"failure_uri\" value=\"[^>]*/page.ww?name=[^>]*&section=[^>]*\"/>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<input type=\"hidden\" name=\"failure_uri\" value=\"[^>]*/page.ww\\?name=[^>]*\\&section=[^>]*\"/>"
+      "pattern": "<input type=\"hidden\" name=\"failure_uri\" value=\"[^>]*/page.ww\\?name=[^>]*\\&section=[^>]*\"/>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "IIS",
+  "vendor_id": "iis",
+  "product": "IIS",
+  "product_id": "iis-iis",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "IIS Header Detection",
+      "pattern": "Server: ^(?:Microsoft-)?IIS(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects IIS from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "iis"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

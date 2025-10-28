@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^InterVations NaviCOPA",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^InterVations NaviCOPA"
+      "pattern": "^InterVations NaviCOPA",
+      "version_group": 0
     },
     {
       "name": "NaviCopaSession Cookie",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^NaviCopaSession",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^NaviCopaSession"
+      "pattern": "^NaviCopaSession",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

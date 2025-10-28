@@ -1,0 +1,31 @@
+{
+  "vendor": "webpack",
+  "vendor_id": "webpack",
+  "product": "webpack",
+  "product_id": "webpack-webpack",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "webpack JavaScript Detection",
+      "pattern": "window\\.webpackJsonp|webpackJsonp\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects webpack from JavaScript variable 'webpackJsonp'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "webpack"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

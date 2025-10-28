@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ class\\ =\\ \"a07\"\\ href=\"http://www\\.imgallery\\.zor\\.pl\"><b>IMGallery</b></a>\\ \\&copy;\\ Dariusz\\ Niemiec"
+      "pattern": "Powered\\ by\\ <a\\ class\\ =\\ \"a07\"\\ href=\"http://www\\.imgallery\\.zor\\.pl\"><b>IMGallery</b></a>\\ \\&copy;\\ Dariusz\\ Niemiec",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

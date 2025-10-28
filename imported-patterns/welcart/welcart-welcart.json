@@ -1,0 +1,71 @@
+{
+  "vendor": "Welcart",
+  "vendor_id": "welcart",
+  "product": "Welcart",
+  "product_id": "welcart-welcart",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Welcart HTML Detection",
+      "pattern": "<link[^>]+?href=\"[^\"]+usces_default(?:\\.min)?\\.css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Welcart from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "welcart"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Welcart HTML Detection",
+      "pattern": "<!-- Welcart version : v([\\d.]+)",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Welcart from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "welcart"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Welcart Script Detection",
+      "pattern": "uscesL10n",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Welcart from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "welcart"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

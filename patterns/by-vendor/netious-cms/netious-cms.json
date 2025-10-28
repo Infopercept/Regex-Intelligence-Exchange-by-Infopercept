@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\&nbsp;\\ \\&nbsp;\\ Powered\\ by\\ <a\\ href=\"http://www\\.netious\\.com\"\\ title=\"Netious\\.com\\ \\-\\ free\\ scripts,\\ CMS\\-based\\ internet\\ services,\\ RSS\\ editors\">netious\\.com</a>"
+      "pattern": "\\&nbsp;\\ \\&nbsp;\\ Powered\\ by\\ <a\\ href=\"http://www\\.netious\\.com\"\\ title=\"Netious\\.com\\ \\-\\ free\\ scripts,\\ CMS\\-based\\ internet\\ services,\\ RSS\\ editors\">netious\\.com</a>",
+      "version_group": 0
     },
     {
       "name": "Netious-CMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\&nbsp;\\ \\&nbsp;\\ Powered\\ by\\ <a\\ href=\"http://www\\.netious\\.com\"\\ title=\"Netious\\.com\\ \\-\\ free\\ scripts,\\ CMS\\-based\\ services,\\ RSS\\ editors\">netious\\.com</a>"
+      "pattern": "\\&nbsp;\\ \\&nbsp;\\ Powered\\ by\\ <a\\ href=\"http://www\\.netious\\.com\"\\ title=\"Netious\\.com\\ \\-\\ free\\ scripts,\\ CMS\\-based\\ services,\\ RSS\\ editors\">netious\\.com</a>",
+      "version_group": 0
     },
     {
       "name": "Netious-CMS Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<center><a\\ href=\"\\.\\./\"\\ title=\"Home\\ page\"><b\\ class=visible>Go\\ back\\ to\\ the\\ home\\ page\\ of\\ the\\ service</b></a></center>"
+      "pattern": "<center><a\\ href=\"\\.\\./\"\\ title=\"Home\\ page\"><b\\ class=visible>Go\\ back\\ to\\ the\\ home\\ page\\ of\\ the\\ service</b></a></center>",
+      "version_group": 0
     },
     {
       "name": "Netious-CMS Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<title>CMS\\ \\-\\ powered\\ by\\ netious\\.com</title>"
+      "pattern": "<title>CMS\\ \\-\\ powered\\ by\\ netious\\.com</title>",
+      "version_group": 0
     },
     {
       "name": "Netious-CMS Pattern",
@@ -114,7 +118,9 @@
           }
         ]
       },
-      "pattern": "\\&nbsp;\\ \\&nbsp;\\ Powered\\ by\\ <a\\ href=\"http://pl\\.netious\\.com\"\\ title=\"Netious\\.com\\ \\-\\ Polska\\.\\ Darmowe\\ strony\\ internetowe\\ z\\ CMS\\.\">netious\\.com</a>"
+      "pattern": "\\&nbsp;\\ \\&nbsp;\\ Powered\\ by\\ <a\\ href=\"http://pl\\.netious\\.com\"\\ title=\"Netious\\.com\\ \\-\\ Polska\\.\\ Darmowe\\ strony\\ internetowe\\ z\\ CMS\\.\">netious\\.com</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

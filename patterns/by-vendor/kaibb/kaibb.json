@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ THIS\\ MUST\\ REMAIN\\ INTACT\\ AND\\ SHOWN\\ ON\\ ALL\\ PAGES\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ THIS\\ MUST\\ REMAIN\\ INTACT\\ AND\\ SHOWN\\ ON\\ ALL\\ PAGES\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "KaiBB Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"Description\"\\ http\\-equiv=\"Description\"\\ content=\"Forum\\ powered\\ by\\ KaiBB\\ \\-\\ Powered\\ by\\ KaiBB\"\\ />"
+      "pattern": "<meta\\ name=\"Description\"\\ http\\-equiv=\"Description\"\\ content=\"Forum\\ powered\\ by\\ KaiBB\\ \\-\\ Powered\\ by\\ KaiBB\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

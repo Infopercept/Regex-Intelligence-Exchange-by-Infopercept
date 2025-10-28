@@ -1,0 +1,31 @@
+{
+  "vendor": "HHVM",
+  "vendor_id": "hhvm",
+  "product": "HHVM",
+  "product_id": "hhvm-hhvm",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "HHVM Header Detection",
+      "pattern": "X-Powered-By: HHVM/?([\\d.]+)?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects HHVM from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "hhvm"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

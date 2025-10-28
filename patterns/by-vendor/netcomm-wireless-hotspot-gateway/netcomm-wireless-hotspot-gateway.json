@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "if (now < 946685000 )[s]+{[s]+alert(\"Warning! The system time is wrong and may cause the inaccuracy of authentication and billing. Please refer to the user manual to set up the correct system time.\");",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "if \\(now < 946685000 \\)[\\s]+\\{[\\s]+alert\\(\"Warning! The system time is wrong and may cause the inaccuracy of authentication and billing\\. Please refer to the user manual to set up the correct system time\\.\"\\);"
+      "pattern": "if \\(now < 946685000 \\)[\\s]+\\{[\\s]+alert\\(\"Warning! The system time is wrong and may cause the inaccuracy of authentication and billing\\. Please refer to the user manual to set up the correct system time\\.\"\\);",
+      "version_group": 0
     },
     {
       "name": "NetComm-Wireless-HotSpot-Gateway Pattern",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<td\\ colspan=\"8\"\\ align=\"center\"\\ background=\"imgs_login/login_r6_c7\\.gif\"><font\\ class=\"loginmsg\"><strong>Welcome\\ To\\ Administrator\\ Login\\ Page<br>\\ Please\\ Enter\\ Your\\ User\\ Name\\ and\\ Password\\ To\\ Sign\\ In\\.</strong></font>\\&nbsp;</td>"
+      "pattern": "<td\\ colspan=\"8\"\\ align=\"center\"\\ background=\"imgs_login/login_r6_c7\\.gif\"><font\\ class=\"loginmsg\"><strong>Welcome\\ To\\ Administrator\\ Login\\ Page<br>\\ Please\\ Enter\\ Your\\ User\\ Name\\ and\\ Password\\ To\\ Sign\\ In\\.</strong></font>\\&nbsp;</td>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

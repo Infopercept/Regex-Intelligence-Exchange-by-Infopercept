@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<body\\ onLoad=\"init_page\\(\\)\"\\ name=\"muster_login\"\\ >"
+      "pattern": "<body\\ onLoad=\"init_page\\(\\)\"\\ name=\"muster_login\"\\ >",
+      "version_group": 0
     },
     {
       "name": "Muster-Render-Farm Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<applet\\ code=\"FileFolderSelector\\.class\"\\ archive=\"FileFolderSelector\\.jar\"\\ CODEBASE=\"js\"\\ id=\"FileSelector\"\\ name=\"FileSelector\"\\ width=\"1\"\\ height=\"1\">"
+      "pattern": "<applet\\ code=\"FileFolderSelector\\.class\"\\ archive=\"FileFolderSelector\\.jar\"\\ CODEBASE=\"js\"\\ id=\"FileSelector\"\\ name=\"FileSelector\"\\ width=\"1\"\\ height=\"1\">",
+      "version_group": 0
     },
     {
       "name": "Muster-Render-Farm Pattern",
@@ -73,5 +75,6 @@
       "pattern": "Server: ^cias-muster([\\d])$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

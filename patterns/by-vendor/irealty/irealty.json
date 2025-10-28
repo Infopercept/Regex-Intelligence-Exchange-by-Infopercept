@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.irealty\\.com/\"\\ title=\"iRealty\">\\ iRealty\\ </a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.irealty\\.com/\"\\ title=\"iRealty\">\\ iRealty\\ </a>",
+      "version_group": 0
     },
     {
       "name": "iRealty Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<a\\ target=\"_blank\"\\ href=\"http://www\\.irealtysoft\\.com/\">\\-\\ Powered\\ by\\ iRealty</a>"
+      "pattern": "<a\\ target=\"_blank\"\\ href=\"http://www\\.irealtysoft\\.com/\">\\-\\ Powered\\ by\\ iRealty</a>",
+      "version_group": 0
     },
     {
       "name": "iRealty Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ target=\"_blank\"\\ title=\"iRealty\\ \\&mdash;\\ Real\\ Estate\\ Listing\\ Software\"\\ href=\"http://www\\.irealtysoft\\.com/\">iRealty</a>,"
+      "pattern": "Powered\\ by\\ <a\\ target=\"_blank\"\\ title=\"iRealty\\ \\&mdash;\\ Real\\ Estate\\ Listing\\ Software\"\\ href=\"http://www\\.irealtysoft\\.com/\">iRealty</a>,",
+      "version_group": 0
     },
     {
       "name": "iRealty Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ target=\"_blank\"\\ title=\"iRealty\\ \\&mdash;\\ Real\\ Estate\\ Listing\\ Software\"\\ href=\"http://www\\.worksforweb\\.com/products/iRealty/\">iRealty</a>,"
+      "pattern": "Powered\\ by\\ <a\\ target=\"_blank\"\\ title=\"iRealty\\ \\&mdash;\\ Real\\ Estate\\ Listing\\ Software\"\\ href=\"http://www\\.worksforweb\\.com/products/iRealty/\">iRealty</a>,",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

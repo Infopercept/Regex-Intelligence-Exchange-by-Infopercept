@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<link\\ href=\\\\"
+      "pattern": "<link\\ href=\\\\",
+      "version_group": 0
     },
     {
       "name": "Weibo OG Meta Tag",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta property=\"og:site_name\"[^>]*content=\"[^\"]*微博",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta property=\"og:site_name\"[^>]*content=\"[^\"]*\u5fae\u535a"
+      "pattern": "<meta property=\"og:site_name\"[^>]*content=\"[^\"]*微博",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

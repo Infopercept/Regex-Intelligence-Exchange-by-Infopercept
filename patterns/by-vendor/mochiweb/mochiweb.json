@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^MochiWeb",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^MochiWeb"
+      "pattern": "^MochiWeb",
+      "version_group": 0
     },
     {
       "name": "MochiWeb Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^MochiWeb/([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

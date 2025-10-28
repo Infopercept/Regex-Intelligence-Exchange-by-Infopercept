@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<small[^>]+>Credits to Pramode &amp; Checkmate &amp; Kloon</small><br",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<small[^>]+>Credits to Pramode &amp; Checkmate &amp; Kloon</small><br"
+      "pattern": "<small[^>]+>Credits to Pramode &amp; Checkmate &amp; Kloon</small><br",
+      "version_group": 0
     },
     {
       "name": "Rapidleech Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<small[^>]+>Credits to Pramode &amp; Checkmate &amp; Kloon. Mod by: MsNeil &amp; Idoenk</small><br",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<small[^>]+>Credits to Pramode &amp; Checkmate &amp; Kloon. Mod by: MsNeil &amp; Idoenk</small><br"
+      "pattern": "<small[^>]+>Credits to Pramode &amp; Checkmate &amp; Kloon. Mod by: MsNeil &amp; Idoenk</small><br",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

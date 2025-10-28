@@ -1,0 +1,31 @@
+{
+  "vendor": "DatoCMS",
+  "vendor_id": "datocms",
+  "product": "DatoCMS",
+  "product_id": "datocms-datocms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DatoCMS HTML Detection",
+      "pattern": "<[^>]+https://www\\.datocms-assets\\.com",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DatoCMS from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "datocms"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

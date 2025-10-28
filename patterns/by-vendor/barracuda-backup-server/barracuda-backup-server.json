@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"logo\\-wrapper\"><a\\ id=\"logo\"\\ href=\"http://www\\.barracudanetworks\\.com/ns/\\?a=backup_localui\">Barracuda\\ Networks</a></div>"
+      "pattern": "<div\\ id=\"logo\\-wrapper\"><a\\ id=\"logo\"\\ href=\"http://www\\.barracudanetworks\\.com/ns/\\?a=backup_localui\">Barracuda\\ Networks</a></div>",
+      "version_group": 0
     },
     {
       "name": "Barracuda-Backup-Server Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "BACKUP_LOCAL_LOCALE=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "BACKUP_LOCAL_LOCALE="
+      "pattern": "BACKUP_LOCAL_LOCALE=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

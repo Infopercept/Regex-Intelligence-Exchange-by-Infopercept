@@ -1,0 +1,51 @@
+{
+  "vendor": "Mojolicious",
+  "vendor_id": "mojolicious",
+  "product": "Mojolicious",
+  "product_id": "mojolicious-mojolicious",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mojolicious Header Detection",
+      "pattern": "server: ^mojolicious",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Mojolicious from server header",
+        "tags": [
+          "webtech",
+          "header",
+          "mojolicious"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Mojolicious Header Detection",
+      "pattern": "x-powered-by: mojolicious",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Mojolicious from x-powered-by header",
+        "tags": [
+          "webtech",
+          "header",
+          "mojolicious"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

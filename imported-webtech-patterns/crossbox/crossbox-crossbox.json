@@ -1,0 +1,31 @@
+{
+  "vendor": "CrossBox",
+  "vendor_id": "crossbox",
+  "product": "CrossBox",
+  "product_id": "crossbox-crossbox",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CrossBox HTML Detection",
+      "pattern": "<span class=\"product-name-loading\">CrossBox Premium Webmail",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CrossBox from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "crossbox"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

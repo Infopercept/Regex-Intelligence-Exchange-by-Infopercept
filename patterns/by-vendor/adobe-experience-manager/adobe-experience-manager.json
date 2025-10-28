@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"[^\"]*parbase",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div class=\\\"[^\\\"]*parbase"
+      "pattern": "<div class=\\\"[^\\\"]*parbase",
+      "version_group": 0
     },
     {
       "name": "div data-component-path jcr",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div[^>]+data-component-path=\"[^\"+]jcr:",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div[^>]+data-component-path=\\\"[^\\\"+]jcr:"
+      "pattern": "<div[^>]+data-component-path=\\\"[^\\\"+]jcr:",
+      "version_group": 0
     },
     {
       "name": "div class aem-Grid",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"[^\"]*aem-Grid",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div class=\\\"[^\\\"]*aem-Grid"
+      "pattern": "<div class=\\\"[^\\\"]*aem-Grid",
+      "version_group": 0
     },
     {
       "name": "/etc/designs/",
@@ -66,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"text/javascript\" src=\"/etc/designs/",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script type=\"text/javascript\" src=\"/etc/designs/"
+      "pattern": "<script type=\"text/javascript\" src=\"/etc/designs/",
+      "version_group": 0
     },
     {
       "name": "/etc/clientlibs/",
@@ -82,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"text/javascript\" src=\"/etc/clientlibs/",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script type=\"text/javascript\" src=\"/etc/clientlibs/"
+      "pattern": "<script type=\"text/javascript\" src=\"/etc/clientlibs/",
+      "version_group": 0
     },
     {
       "name": "/etc.clientlibs/",
@@ -98,9 +133,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"text/javascript\" src=\"/etc.clientlibs/",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script type=\"text/javascript\" src=\"/etc\\.clientlibs/"
+      "pattern": "<script type=\"text/javascript\" src=\"/etc\\.clientlibs/",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<frame\\ name=\"Banner\"\\ scrolling=\"no\"\\ noresize\\ target=\"Inhalt\"\\ src=\"head\\.htm\">"
+      "pattern": "<frame\\ name=\"Banner\"\\ scrolling=\"no\"\\ noresize\\ target=\"Inhalt\"\\ src=\"head\\.htm\">",
+      "version_group": 0
     },
     {
       "name": "TRENDnet-Print-Server Pattern",
@@ -51,5 +52,6 @@
       "pattern": "Server: ^PRINT_SERVER WEB ([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

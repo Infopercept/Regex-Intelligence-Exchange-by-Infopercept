@@ -1,0 +1,31 @@
+{
+  "vendor": "WordPress",
+  "vendor_id": "wordpress",
+  "product": "WordPress VIP",
+  "product_id": "wordpress-wordpress-vip",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WordPress VIP Header Detection",
+      "pattern": "x-powered-by: ^WordPress\\.com VIP",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects WordPress VIP from x-powered-by header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "wordpress-vip"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

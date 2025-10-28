@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<META name=[\"']*generator[\"']* content=[\"']*CMScontrol eContent[\"']*>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<META name=[\\\"\\']*generator[\\\"\\']* content=[\\\"\\']*CMScontrol eContent[\\\"\\']*>"
+      "pattern": "<META name=[\\\"\\']*generator[\\\"\\']* content=[\\\"\\']*CMScontrol eContent[\\\"\\']*>",
+      "version_group": 0
     },
     {
       "name": "CMScontrol Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<META name=[\"']*formatter[\"']* content=[\"']*CMScontrol eContent[\"']*>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<META name=[\\\"\\']*formatter[\\\"\\']* content=[\\\"\\']*CMScontrol eContent[\\\"\\']*>"
+      "pattern": "<META name=[\\\"\\']*formatter[\\\"\\']* content=[\\\"\\']*CMScontrol eContent[\\\"\\']*>",
+      "version_group": 0
     },
     {
       "name": "CMScontrol Pattern",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<META name=[\"']*abstract[\"']* content=[\"']*CMScontrol[\"']*>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<META name=[\\\"\\']*abstract[\\\"\\']* content=[\\\"\\']*CMScontrol[\\\"\\']*>"
+      "pattern": "<META name=[\\\"\\']*abstract[\\\"\\']* content=[\\\"\\']*CMScontrol[\\\"\\']*>",
+      "version_group": 0
     },
     {
       "name": "CMScontrol Pattern",
@@ -74,7 +95,8 @@
           }
         ]
       },
-      "pattern": "document\\.write\\(\"<ME\"\\+\"TA\\ ht\"\\+\"tp\\-eq\"\\+\"uiv=\\\\\"REF\"\\+\"RESH\\\\\"\\ con\"\\+\"tent=\\\\\"1\\.00;\\ u\"\\+\"rl=\"\\+\"index\"\\+\"\\.\"\\+\"ph\"\\+\"p\\\\\">\"\\);"
+      "pattern": "document\\.write\\(\"<ME\"\\+\"TA\\ ht\"\\+\"tp\\-eq\"\\+\"uiv=\\\\\"REF\"\\+\"RESH\\\\\"\\ con\"\\+\"tent=\\\\\"1\\.00;\\ u\"\\+\"rl=\"\\+\"index\"\\+\"\\.\"\\+\"ph\"\\+\"p\\\\\">\"\\);",
+      "version_group": 0
     },
     {
       "name": "CMScontrol Pattern",
@@ -88,10 +110,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<META NAME=[\"']*generator[\"']* CONTENT=[\"']*CMScontrol rel 3.x[\"']*>",
+            "expected_version": "unknown"
+          }
         ]
       },
       "pattern": "<META NAME=[\\\"\\']*generator[\\\"\\']* CONTENT=[\\\"\\']*CMScontrol rel 3.x[\\\"\\']*>",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

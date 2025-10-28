@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<select\\ class=\"PythonSelect\"\\ name=\"s_Dealer_Radius\">"
+      "pattern": "<select\\ class=\"PythonSelect\"\\ name=\"s_Dealer_Radius\">",
+      "version_group": 0
     },
     {
       "name": "phpDealerLocator Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "</td></tr></table><b>Database\\ error:</b>\\ Invalid\\ SQL:\\ SELECT\\ Cat_Text\\ FROM\\ \\(\\ dealer_category_matrix\\ RIGHT\\ JOIN\\ dealers\\ ON\\ dealers\\.Dealer_ID\\ =\\ dealer_category_matrix\\.DCM_Dealer_ID\\ \\)\\ RIGHT\\ JOIN\\ category\\ ON\\ dealer_category_matrix\\.DCM_Cat_ID\\ =\\ category\\.Cat_ID\\ WHERE\\ Dealer_ID\\ =\\ \\ AND\\ \\(Dealer_Publish\\ =\\ 'Y'\\)\\ AND\\ \\(Dealer_Approved\\ =\\ 'Y'\\)<br>"
+      "pattern": "</td></tr></table><b>Database\\ error:</b>\\ Invalid\\ SQL:\\ SELECT\\ Cat_Text\\ FROM\\ \\(\\ dealer_category_matrix\\ RIGHT\\ JOIN\\ dealers\\ ON\\ dealers\\.Dealer_ID\\ =\\ dealer_category_matrix\\.DCM_Dealer_ID\\ \\)\\ RIGHT\\ JOIN\\ category\\ ON\\ dealer_category_matrix\\.DCM_Cat_ID\\ =\\ category\\.Cat_ID\\ WHERE\\ Dealer_ID\\ =\\ \\ AND\\ \\(Dealer_Publish\\ =\\ 'Y'\\)\\ AND\\ \\(Dealer_Approved\\ =\\ 'Y'\\)<br>",
+      "version_group": 0
     },
     {
       "name": "phpDealerLocator Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<td><label\\ for=\"Dealer_Radiuss_Dealer_Zip\">Zipcode/Postal\\ Code</label></td>"
+      "pattern": "<td><label\\ for=\"Dealer_Radiuss_Dealer_Zip\">Zipcode/Postal\\ Code</label></td>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

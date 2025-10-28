@@ -1,0 +1,51 @@
+{
+  "vendor": "Moguta.CMS",
+  "vendor_id": "moguta.cms",
+  "product": "Moguta.CMS",
+  "product_id": "moguta.cms-mogutacms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Moguta.CMS HTML Detection",
+      "pattern": "<link[^>]+href=[\"'][^\"]+mg-(?:core|plugins|templates)/",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Moguta.CMS from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "moguta.cms"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Moguta.CMS Script Detection",
+      "pattern": "mg-(?:core|plugins|templates)/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Moguta.CMS from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "moguta.cms"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

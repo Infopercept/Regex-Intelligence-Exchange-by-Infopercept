@@ -52,5 +52,6 @@
       "pattern": "Server: ArGoSoft Mail Server Pro for WinNT/2000/XP, Version [\\d\\.]+ \\(([\\d\\.]+)\\)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

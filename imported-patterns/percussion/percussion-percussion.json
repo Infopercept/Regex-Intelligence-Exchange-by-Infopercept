@@ -1,0 +1,51 @@
+{
+  "vendor": "Percussion",
+  "vendor_id": "percussion",
+  "product": "Percussion",
+  "product_id": "percussion-percussion",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Percussion HTML Detection",
+      "pattern": "<[^>]+class=\"perc-region\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Percussion from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "percussion"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Percussion Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"'](?:Percussion|Rhythmyx)[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Percussion from meta tag with name 'generator'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "percussion"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

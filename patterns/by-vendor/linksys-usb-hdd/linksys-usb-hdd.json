@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<title>Network\\ Storage\\ Link\\ for\\ USB\\ 2\\.0\\ Disks</title>"
+      "pattern": "<title>Network\\ Storage\\ Link\\ for\\ USB\\ 2\\.0\\ Disks</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

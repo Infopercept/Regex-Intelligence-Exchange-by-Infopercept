@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<p><b>Error</b>:\\ Unable\\ to\\ read\\ the\\ configuration\\ file:\\ 'config\\-itop\\.php'\\.\\ Please\\ check\\ the\\ access\\ rights\\ on\\ this\\ file\\.</p>"
+      "pattern": "<p><b>Error</b>:\\ Unable\\ to\\ read\\ the\\ configuration\\ file:\\ 'config\\-itop\\.php'\\.\\ Please\\ check\\ the\\ access\\ rights\\ on\\ this\\ file\\.</p>",
+      "version_group": 0
     },
     {
       "name": "iTop Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<p><b>Security\\ Warning</b>:\\ the\\ configuration\\ file\\ 'config\\-itop\\.php'\\ should\\ be\\ read\\-only\\.</p><p>Please\\ modify\\ the\\ access\\ rights\\ to\\ this\\ file\\.</p>"
+      "pattern": "<p><b>Security\\ Warning</b>:\\ the\\ configuration\\ file\\ 'config\\-itop\\.php'\\ should\\ be\\ read\\-only\\.</p><p>Please\\ modify\\ the\\ access\\ rights\\ to\\ this\\ file\\.</p>",
+      "version_group": 0
     },
     {
       "name": "iTop Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<title>iTop\\ Login</title>"
+      "pattern": "<title>iTop\\ Login</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

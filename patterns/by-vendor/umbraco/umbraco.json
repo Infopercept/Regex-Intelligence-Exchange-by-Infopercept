@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"umbraco\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"umbraco\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Umbraco Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by[^<]*<a[s]+href=\"http://[www.]*umbraco.org[^>]*>Umbraco</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by[^<]*<a[\\s]+href=\"http://[www.]*umbraco.org[^>]*>Umbraco</a>"
+      "pattern": "Powered by[^<]*<a[\\s]+href=\"http://[www.]*umbraco.org[^>]*>Umbraco</a>",
+      "version_group": 0
     },
     {
       "name": "Umbraco Pattern",
@@ -79,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"stylesheet\"[^>]*href=\"/css/umbraco-starterkit-style.css\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link rel=\"stylesheet\"[^>]*href=\"/css/umbraco-starterkit-style\\.css\""
+      "pattern": "<link rel=\"stylesheet\"[^>]*href=\"/css/umbraco-starterkit-style\\.css\"",
+      "version_group": 0
     },
     {
       "name": "Umbraco Pattern",
@@ -95,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script src=\"/scripts/umbraco-starterkit-app.js\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script src=\"/scripts/umbraco-starterkit-app.js\""
+      "pattern": "<script src=\"/scripts/umbraco-starterkit-app.js\"",
+      "version_group": 0
     },
     {
       "name": "Admin Page",
@@ -119,7 +141,9 @@
           }
         ]
       },
-      "pattern": "<p>For\\ full\\ functionality\\ of\\ Umbraco\\ CMS\\ it\\ is\\ necessary\\ to\\ enable\\ JavaScript\\.</p>"
+      "pattern": "<p>For\\ full\\ functionality\\ of\\ Umbraco\\ CMS\\ it\\ is\\ necessary\\ to\\ enable\\ JavaScript\\.</p>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

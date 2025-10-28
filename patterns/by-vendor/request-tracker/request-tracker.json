@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"/NoAuth/webrtfm\\.css\"\\ type=\"text/css\"\\ />"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"/NoAuth/webrtfm\\.css\"\\ type=\"text/css\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Request-Tracker Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"/RTIR/NoAuth/webrtir\\.css\"\\ type=\"text/css\">"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"/RTIR/NoAuth/webrtir\\.css\"\\ type=\"text/css\">",
+      "version_group": 0
     },
     {
       "name": "Request-Tracker Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ href=\"/NoAuth/images//favicon\\.png\"\\ type=\"image/png\"\\ />"
+      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ href=\"/NoAuth/images//favicon\\.png\"\\ type=\"image/png\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Request-Tracker Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ href=\"/NoAuth/images/favicon\\.png\"\\ type=\"image/png\"\\ />"
+      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ href=\"/NoAuth/images/favicon\\.png\"\\ type=\"image/png\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Request-Tracker Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"/NoAuth/css/print\\.css\"\\ type=\"text/css\"\\ media=\"print\"\\ />"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"/NoAuth/css/print\\.css\"\\ type=\"text/css\"\\ media=\"print\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Request-Tracker Pattern",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<p\\ id=\"bpscredits\">"
+      "pattern": "<p\\ id=\"bpscredits\">",
+      "version_group": 0
     },
     {
       "name": "Request-Tracker Pattern",
@@ -150,9 +156,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span class=\"rtname\">RT for ([^<]+)</span>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<span class=\"rtname\">RT for ([^<]+)</span>"
+      "pattern": "<span class=\"rtname\">RT for ([^<]+)</span>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

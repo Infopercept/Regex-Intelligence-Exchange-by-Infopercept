@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<META\\ Name=\"Description\"\\ Content=\"UniMep\\ Station\\ Controller\">"
+      "pattern": "<META\\ Name=\"Description\"\\ Content=\"UniMep\\ Station\\ Controller\">",
+      "version_group": 0
     },
     {
       "name": "Unimep-Station-Controller Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<center><a\\ href=\"cgi\\-bin/usc\\.ver\\.cgi\">USC\\&nbsp;Version</a>"
+      "pattern": "<center><a\\ href=\"cgi\\-bin/usc\\.ver\\.cgi\">USC\\&nbsp;Version</a>",
+      "version_group": 0
     },
     {
       "name": "Unimep-Station-Controller Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"cgi\\-bin/log\\.log\\.cgi\"\\ target=\"_blank\">Log1\\.cgi</a>\\&nbsp;<a\\ href=\"/Log\\.log\"\\ target=\"_blank\">Log1\\.log</a>"
+      "pattern": "<a\\ href=\"cgi\\-bin/log\\.log\\.cgi\"\\ target=\"_blank\">Log1\\.cgi</a>\\&nbsp;<a\\ href=\"/Log\\.log\"\\ target=\"_blank\">Log1\\.log</a>",
+      "version_group": 0
     },
     {
       "name": "Unimep-Station-Controller Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<input\\ type='button'\\ value='Cashier'\\ onclick=\\\\"
+      "pattern": "<input\\ type='button'\\ value='Cashier'\\ onclick=\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

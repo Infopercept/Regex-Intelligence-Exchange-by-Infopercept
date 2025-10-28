@@ -41,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^http://meta.wildfirehq.org/Protocol/",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^http://meta\\.wildfirehq\\.org/Protocol/"
+      "pattern": "^http://meta\\.wildfirehq\\.org/Protocol/",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

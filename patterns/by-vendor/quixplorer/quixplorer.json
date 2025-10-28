@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<A\\ class=\"title\"\\ href=\"http://quixplorer\\.sourceforge\\.net\"\\ target=\"_blank\">QuiXplorer</A>\\ \\-\\ <A\\ href=\"http://quix\\.tk\"\\ target=\"_blank\">the\\ QuiX\\ project</A></SMALL>"
+      "pattern": "<A\\ class=\"title\"\\ href=\"http://quixplorer\\.sourceforge\\.net\"\\ target=\"_blank\">QuiXplorer</A>\\ \\-\\ <A\\ href=\"http://quix\\.tk\"\\ target=\"_blank\">the\\ QuiX\\ project</A></SMALL>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

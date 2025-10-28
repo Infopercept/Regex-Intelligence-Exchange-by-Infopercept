@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"index\\.php\\?action=viewbox\\&amp;box=0\">"
+      "pattern": "<a\\ href=\"index\\.php\\?action=viewbox\\&amp;box=0\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

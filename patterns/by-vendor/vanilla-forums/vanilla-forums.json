@@ -41,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Vanilla=deleted; expires=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Vanilla=deleted; expires="
+      "pattern": "Vanilla=deleted; expires=",
+      "version_group": 0
     },
     {
       "name": "Vanilla-Forums Pattern",
@@ -57,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body id=[\"'](DiscussionsPage|vanilla)",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<body id=[\"'](DiscussionsPage|vanilla)"
+      "pattern": "<body id=[\"'](DiscussionsPage|vanilla)",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

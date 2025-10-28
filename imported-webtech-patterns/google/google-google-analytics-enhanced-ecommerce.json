@@ -1,0 +1,51 @@
+{
+  "vendor": "Google",
+  "vendor_id": "google",
+  "product": "Google Analytics Enhanced eCommerce",
+  "product_id": "google-google-analytics-enhanced-ecommerce",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Google Analytics Enhanced eCommerce Script Detection",
+      "pattern": "google-analytics\\.com/plugins/ua/(?:ec|ecommerce)\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Analytics Enhanced eCommerce from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "google-analytics-enhanced-ecommerce"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Google Analytics Enhanced eCommerce JavaScript Detection",
+      "pattern": "window\\.gaplugins\\.EC|gaplugins\\.EC\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Analytics Enhanced eCommerce from JavaScript variable 'gaplugins.EC'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "google-analytics-enhanced-ecommerce"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered [b|B]+y <a href=\"http://www.[starltd.net|s4u.co.il]+[/]*\">Star Network[ and Promotion LTD|&amp; Promotion LTD]*</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered [b|B]+y <a href=\"http://www.[starltd.net|s4u.co.il]+[/]*\">Star Network[\\ and\\ Promotion\\ LTD|\\&amp\\;\\ Promotion\\ LTD]*</a>"
+      "pattern": "Powered [b|B]+y <a href=\"http://www.[starltd.net|s4u.co.il]+[/]*\">Star Network[\\ and\\ Promotion\\ LTD|\\&amp\\;\\ Promotion\\ LTD]*</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

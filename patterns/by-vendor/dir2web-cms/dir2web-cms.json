@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<link\\ href=\"default/styles/d2w_object_page\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ media=\"screen\"\\ /></head>"
+      "pattern": "<link\\ href=\"default/styles/d2w_object_page\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ media=\"screen\"\\ /></head>",
+      "version_group": 0
     },
     {
       "name": "dir2web-CMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<div\\ class=\"d2w\\-back_link\"\\ id=\"start\">"
+      "pattern": "<div\\ class=\"d2w\\-back_link\"\\ id=\"start\">",
+      "version_group": 0
     },
     {
       "name": "dir2web-CMS Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"_themes\\\\/d2w\\\\d\\\\/images\\\\/logo_hp\\\\\\.jpg\"\\ title=\"dir2web\\ \\\\d\\ logo\"\\ alt=\"dir2web\\ \\\\d\\ logo\"/>"
+      "pattern": "<img\\ src=\"_themes\\\\/d2w\\\\d\\\\/images\\\\/logo_hp\\\\\\.jpg\"\\ title=\"dir2web\\ \\\\d\\ logo\"\\ alt=\"dir2web\\ \\\\d\\ logo\"/>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

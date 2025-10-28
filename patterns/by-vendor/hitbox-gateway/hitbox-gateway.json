@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Hitbox Gateway",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Hitbox Gateway"
+      "pattern": "^Hitbox Gateway",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

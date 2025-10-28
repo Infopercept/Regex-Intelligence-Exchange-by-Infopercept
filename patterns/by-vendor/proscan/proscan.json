@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^ProScan",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^ProScan"
+      "pattern": "^ProScan",
+      "version_group": 0
     },
     {
       "name": "ProScan Pattern",
@@ -57,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^ProScan",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^ProScan"
+      "pattern": "^ProScan",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

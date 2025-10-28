@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link id='scrutStyle' rel=\"stylesheet\" href=\"/css/classic.css",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link id='scrutStyle' rel=\"stylesheet\" href=\"/css/classic\\.css"
+      "pattern": "<link id='scrutStyle' rel=\"stylesheet\" href=\"/css/classic\\.css",
+      "version_group": 0
     },
     {
       "name": "Scrutinizer Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id='testAlertHdrMsg'>For the best Scrutinizer experience possible, please address the issues below:</div>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div id='testAlertHdrMsg'>For the best Scrutinizer experience possible, please address the issues below:</div>"
+      "pattern": "<div id='testAlertHdrMsg'>For the best Scrutinizer experience possible, please address the issues below:</div>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

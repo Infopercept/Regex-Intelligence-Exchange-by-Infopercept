@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<span\\ class=\"basePowered\">Powered\\ by\\ <a\\ href=\"http://www\\.edirectory\\.com\"\\ target=\"_blank\">eDirectory\\&trade;</a>\\.</span>"
+      "pattern": "<span\\ class=\"basePowered\">Powered\\ by\\ <a\\ href=\"http://www\\.edirectory\\.com\"\\ target=\"_blank\">eDirectory\\&trade;</a>\\.</span>",
+      "version_group": 0
     },
     {
       "name": "eDirectory Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": " class=\"basePowered\">Powered by <a href=\"[^\"]+\" target=\"_blank\">eDirectory&trade;[s]?</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": " class=\"basePowered\">Powered by <a href=\"[^\"]+\" target=\"_blank\">eDirectory&trade;[\\s]?</a>"
+      "pattern": " class=\"basePowered\">Powered by <a href=\"[^\"]+\" target=\"_blank\">eDirectory&trade;[\\s]?</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "printFSC\\(\\\\"
+      "pattern": "printFSC\\(\\\\",
+      "version_group": 0
     },
     {
       "name": "Proliphix-Thermostat Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "\\ \\-\\ Status\\ \\&amp;\\ Control</title>"
+      "pattern": "\\ \\-\\ Status\\ \\&amp;\\ Control</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

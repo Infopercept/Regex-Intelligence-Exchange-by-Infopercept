@@ -1,0 +1,31 @@
+{
+  "vendor": "F5",
+  "vendor_id": "f5",
+  "product": "F5 BigIP",
+  "product_id": "f5-f5-bigip",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "F5 BigIP Header Detection",
+      "pattern": "server: ^big-?ip$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects F5 BigIP from server header",
+        "tags": [
+          "webtech",
+          "header",
+          "f5-bigip"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

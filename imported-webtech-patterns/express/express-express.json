@@ -1,0 +1,31 @@
+{
+  "vendor": "Express",
+  "vendor_id": "express",
+  "product": "Express",
+  "product_id": "express-express",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Express Header Detection",
+      "pattern": "X-Powered-By: ^Express$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Express from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "express"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

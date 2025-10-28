@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Login\\ to\\ Cacti</title>"
+      "pattern": "<title>Login\\ to\\ Cacti</title>",
+      "version_group": 0
     },
     {
       "name": "Cacti Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<body\\ bgcolor=\"\\#FFFFFF\"\\ onload=\"document\\.login\\.login_username\\.focus\\(\\)\">"
+      "pattern": "<body\\ bgcolor=\"\\#FFFFFF\"\\ onload=\"document\\.login\\.login_username\\.focus\\(\\)\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

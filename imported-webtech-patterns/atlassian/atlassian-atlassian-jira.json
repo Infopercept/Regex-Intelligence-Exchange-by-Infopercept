@@ -1,0 +1,91 @@
+{
+  "vendor": "Atlassian",
+  "vendor_id": "atlassian",
+  "product": "Atlassian Jira",
+  "product_id": "atlassian-atlassian-jira",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Atlassian Jira HTML Detection",
+      "pattern": "Powered by\\s+<a href=[^>]+atlassian\\.com/(?:software/jira|jira-bug-tracking/)[^>]+>Atlassian\\s+JIRA(?:[^v]*v(?:ersion: )?(\\d+\\.\\d+(?:\\.\\d+)?))?",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Atlassian Jira from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "atlassian-jira"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Atlassian Jira Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']ajs-version-number[\"'][^>]+content=[\"']^(.+)$[\"']",
+      "version_group": 1,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Atlassian Jira from meta tag with name 'ajs-version-number'",
+        "tags": [
+          "webtech",
+          "meta",
+          "atlassian-jira"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Atlassian Jira Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']application-name[\"'][^>]+content=[\"']JIRA[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Atlassian Jira from meta tag with name 'application-name'",
+        "tags": [
+          "webtech",
+          "meta",
+          "atlassian-jira"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Atlassian Jira JavaScript Detection",
+      "pattern": "window\\.jira|jira\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Atlassian Jira from JavaScript variable 'jira'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "atlassian-jira"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

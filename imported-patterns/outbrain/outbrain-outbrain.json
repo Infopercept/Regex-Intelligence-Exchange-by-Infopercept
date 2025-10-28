@@ -1,0 +1,31 @@
+{
+  "vendor": "Outbrain",
+  "vendor_id": "outbrain",
+  "product": "Outbrain",
+  "product_id": "outbrain-outbrain",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Outbrain Script Detection",
+      "pattern": "widgets\\.outbrain\\.com/outbrain\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Outbrain from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "outbrain"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

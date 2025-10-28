@@ -1,0 +1,31 @@
+{
+  "vendor": "Combeenation",
+  "vendor_id": "combeenation",
+  "product": "Combeenation",
+  "product_id": "combeenation-combeenation",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Combeenation HTML Detection",
+      "pattern": "<iframe[^>]+src=\"[^>]+portal\\.combeenation\\.com",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Combeenation from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "combeenation"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

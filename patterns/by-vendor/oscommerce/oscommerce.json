@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "The\\ Exchange\\ Project\\ \\-\\ Community\\ Made\\ Shopping!"
+      "pattern": "The\\ Exchange\\ Project\\ \\-\\ Community\\ Made\\ Shopping!",
+      "version_group": 0
     },
     {
       "name": "OSCommerce Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<td\\ class=\"messageStackWarning\"><img\\ src=\"images/icons/warning\\.gif\""
+      "pattern": "<td\\ class=\"messageStackWarning\"><img\\ src=\"images/icons/warning\\.gif\"",
+      "version_group": 0
     },
     {
       "name": "OSCommerce Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.oscommerce\\.com\"\\ target=\"_blank\">osCommerce</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.oscommerce\\.com\"\\ target=\"_blank\">osCommerce</a>",
+      "version_group": 0
     },
     {
       "name": "OSCommerce Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "cookie_test=please_accept_for_session;"
+      "pattern": "cookie_test=please_accept_for_session;",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

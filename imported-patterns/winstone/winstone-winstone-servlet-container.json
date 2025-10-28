@@ -1,0 +1,51 @@
+{
+  "vendor": "Winstone",
+  "vendor_id": "winstone",
+  "product": "Winstone Servlet Container",
+  "product_id": "winstone-winstone-servlet-container",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Winstone Servlet Container Header Detection",
+      "pattern": "Server: Winstone Servlet (?:Container|Engine) v?([\\d.]+)?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Winstone Servlet Container from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "winstone-servlet-container"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Winstone Servlet Container Header Detection",
+      "pattern": "X-Powered-By: Winstone(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Winstone Servlet Container from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "winstone-servlet-container"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

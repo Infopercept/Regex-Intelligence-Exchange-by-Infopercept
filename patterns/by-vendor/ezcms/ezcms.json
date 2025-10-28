@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ <td\\ align=\"right\"><a\\ href=\"http://www\\.ezwebsites\\.com\\.au\"\\ class=\"credits\">Site\\ Powered\\ by\\ EZCMS</a></td>"
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ <td\\ align=\"right\"><a\\ href=\"http://www\\.ezwebsites\\.com\\.au\"\\ class=\"credits\">Site\\ Powered\\ by\\ EZCMS</a></td>",
+      "version_group": 0
     },
     {
       "name": "EZCMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ \\ \\ <td\\ width=\"100%\"\\ align=\"left\"\\ valign=\"bottom\"\\ background=\"images/headerbg\\.png\"><div\\ align=\"right\"><img\\ src=\"images/headerright\\.png\"\\ border=\"0\"></div></td>"
+      "pattern": "\\ \\ \\ \\ \\ \\ <td\\ width=\"100%\"\\ align=\"left\"\\ valign=\"bottom\"\\ background=\"images/headerbg\\.png\"><div\\ align=\"right\"><img\\ src=\"images/headerright\\.png\"\\ border=\"0\"></div></td>",
+      "version_group": 0
     },
     {
       "name": "EZCMS Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<title>EZCMS\\ Content\\ Management\\ System</title>"
+      "pattern": "<title>EZCMS\\ Content\\ Management\\ System</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

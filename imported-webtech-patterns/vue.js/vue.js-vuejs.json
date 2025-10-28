@@ -1,0 +1,91 @@
+{
+  "vendor": "Vue.js",
+  "vendor_id": "vue.js",
+  "product": "Vue.js",
+  "product_id": "vue.js-vuejs",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Vue.js HTML Detection",
+      "pattern": "<[^>]+data-v(?:ue)-",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Vue.js from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "vue.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Vue.js Script Detection",
+      "pattern": "vue[.-]([\\d.]*\\d)[^/]*\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Vue.js from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "vue.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Vue.js Script Detection",
+      "pattern": "(?:/([\\d.]+))?/vue(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Vue.js from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "vue.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Vue.js JavaScript Detection",
+      "pattern": "window\\.Vue\\.version|Vue\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Vue.js from JavaScript variable 'Vue.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "vue.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

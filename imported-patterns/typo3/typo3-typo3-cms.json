@@ -1,0 +1,111 @@
+{
+  "vendor": "TYPO3",
+  "vendor_id": "typo3",
+  "product": "TYPO3 CMS",
+  "product_id": "typo3-typo3-cms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TYPO3 CMS HTML Detection",
+      "pattern": "<link[^>]+ href=\"/?typo3(?:conf|temp)/",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects TYPO3 CMS from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "typo3-cms"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "TYPO3 CMS HTML Detection",
+      "pattern": "<img[^>]+ src=\"/?typo3(?:conf|temp)/",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects TYPO3 CMS from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "typo3-cms"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "TYPO3 CMS HTML Detection",
+      "pattern": "<!--\n\tThis website is powered by TYPO3",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects TYPO3 CMS from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "typo3-cms"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "TYPO3 CMS Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']TYPO3\\s+(?:CMS\\s+)?(?:[\\d.]+)?(?:\\s+CMS)?[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects TYPO3 CMS from meta tag with name 'generator'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "typo3-cms"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "TYPO3 CMS Script Detection",
+      "pattern": "^/?typo3(?:conf|temp)/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects TYPO3 CMS from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "typo3-cms"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

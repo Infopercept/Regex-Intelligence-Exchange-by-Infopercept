@@ -1,0 +1,31 @@
+{
+  "vendor": "Scholica",
+  "vendor_id": "scholica",
+  "product": "Scholica",
+  "product_id": "scholica-scholica",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Scholica Header Detection",
+      "pattern": "X-Scholica-Version: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Scholica from X-Scholica-Version header",
+        "tags": [
+          "webtech",
+          "header",
+          "scholica"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

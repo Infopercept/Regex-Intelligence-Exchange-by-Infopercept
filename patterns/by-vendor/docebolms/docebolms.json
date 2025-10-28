@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.docebo\\.com/\\?versions\"\\ onclick=\"window\\.open\\(this\\.href\\);\\ return\\ false;\">Docebo\\ <sup>\\&reg;</sup></a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.docebo\\.com/\\?versions\"\\ onclick=\"window\\.open\\(this\\.href\\);\\ return\\ false;\">Docebo\\ <sup>\\&reg;</sup></a>",
+      "version_group": 0
     },
     {
       "name": "DoceboLMS Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"powered\"><a href=\"http://www.docebo.com/?[a-z]+\" target=\"_blank\" alt=\"Powered by Docebo .\" title=\"Powered by Docebo .\">Powered by Docebo .</a></div>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div class=\"powered\"><a href=\"http://www.docebo.com/\\?[a-z]+\" target=\"_blank\" alt=\"Powered by Docebo .\" title=\"Powered by Docebo .\">Powered by Docebo .</a></div>"
+      "pattern": "<div class=\"powered\"><a href=\"http://www.docebo.com/\\?[a-z]+\" target=\"_blank\" alt=\"Powered by Docebo .\" title=\"Powered by Docebo .\">Powered by Docebo .</a></div>",
+      "version_group": 0
     },
     {
       "name": "DoceboLMS Pattern",
@@ -64,7 +72,9 @@
           }
         ]
       },
-      "pattern": "lang_setup\\.setBody\\(\"<ul\\ class=\\\\\"link_list_inline\\\\\"\\ id=\\\\\"language_selection\\\\\"><li><a\\ class=\\\\\"lang\\-sprite\\ lang_"
+      "pattern": "lang_setup\\.setBody\\(\"<ul\\ class=\\\\\"link_list_inline\\\\\"\\ id=\\\\\"language_selection\\\\\"><li><a\\ class=\\\\\"lang\\-sprite\\ lang_",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

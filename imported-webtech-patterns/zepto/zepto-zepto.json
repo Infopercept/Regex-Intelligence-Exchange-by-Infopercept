@@ -1,0 +1,51 @@
+{
+  "vendor": "Zepto",
+  "vendor_id": "zepto",
+  "product": "Zepto",
+  "product_id": "zepto-zepto",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Zepto Script Detection",
+      "pattern": "zepto.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Zepto from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "zepto"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Zepto JavaScript Detection",
+      "pattern": "window\\.Zepto|Zepto\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Zepto from JavaScript variable 'Zepto'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "zepto"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

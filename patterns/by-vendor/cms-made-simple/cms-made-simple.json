@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^CMSSESSID",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^CMSSESSID"
+      "pattern": "^CMSSESSID",
+      "version_group": 0
     },
     {
       "name": "Meta generator",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"Generator\"\\ content=\"CMS\\ Made\\ Simple"
+      "pattern": "<meta\\ name=\"Generator\"\\ content=\"CMS\\ Made\\ Simple",
+      "version_group": 0
     },
     {
       "name": "Admin Login Title",
@@ -64,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<title>Login\\ to\\ CMS\\ Made\\ Simple</title>"
+      "pattern": "<title>Login\\ to\\ CMS\\ Made\\ Simple</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

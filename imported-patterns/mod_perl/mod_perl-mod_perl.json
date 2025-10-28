@@ -1,0 +1,31 @@
+{
+  "vendor": "mod_perl",
+  "vendor_id": "mod_perl",
+  "product": "mod_perl",
+  "product_id": "mod_perl-mod_perl",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "mod_perl Header Detection",
+      "pattern": "Server: mod_perl(?:/([\\d\\.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects mod_perl from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "mod_perl"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

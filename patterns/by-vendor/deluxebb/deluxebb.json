@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|[rns]+| This forum is coded by and          |[rns]+| copyrighted to Frank Nissel         |",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!-- \\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|[\\r\\n\\s]+\\| This forum is coded by and          \\|[\\r\\n\\s]+\\| copyrighted to Frank Nissel         \\|"
+      "pattern": "<!-- \\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|[\\r\\n\\s]+\\| This forum is coded by and          \\|[\\r\\n\\s]+\\| copyrighted to Frank Nissel         \\|",
+      "version_group": 0
     },
     {
       "name": "DeluxeBB Pattern",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"description\"\\ content=\"powered\\ by\\ DeluxeBB\\ \\-\\ www\\.deluxebb\\.com\"\\ />"
+      "pattern": "<meta\\ name=\"description\"\\ content=\"powered\\ by\\ DeluxeBB\\ \\-\\ www\\.deluxebb\\.com\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

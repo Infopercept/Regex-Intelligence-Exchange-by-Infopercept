@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Forum\\ Gateway\\ \\-\\ Powered\\ by\\ DnP\\ Firewall</title>"
+      "pattern": "<title>Forum\\ Gateway\\ \\-\\ Powered\\ by\\ DnP\\ Firewall</title>",
+      "version_group": 0
     },
     {
       "name": "DnP-Firewall Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\\t<form\\ name=dnp_firewall\\ method=get\\ action=dnp_fw\\.php"
+      "pattern": "\\\t<form\\ name=dnp_firewall\\ method=get\\ action=dnp_fw\\.php",
+      "version_group": 0
     },
     {
       "name": "DnP-Firewall Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<input\\ type=submit\\ value=\"\\ \"\\ alt=\"Click\\ to\\ continue\\ to\\ your\\ destination\"\\ style=\"background\\-image:url\\(default\\.jpg\\);\\ height:444px;\\ width:635px;\\ cursor:pointer;\\ border\\-width:0px;\">\\ "
+      "pattern": "<input\\ type=submit\\ value=\"\\ \"\\ alt=\"Click\\ to\\ continue\\ to\\ your\\ destination\"\\ style=\"background\\-image:url\\(default\\.jpg\\);\\ height:444px;\\ width:635px;\\ cursor:pointer;\\ border\\-width:0px;\">\\ ",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

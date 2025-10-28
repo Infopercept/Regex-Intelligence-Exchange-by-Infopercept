@@ -1,0 +1,31 @@
+{
+  "vendor": "Akka",
+  "vendor_id": "akka",
+  "product": "Akka HTTP",
+  "product_id": "akka-akka-http",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Akka HTTP Header Detection",
+      "pattern": "Server: akka-http(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Akka HTTP from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "akka-http"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

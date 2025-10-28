@@ -1,0 +1,31 @@
+{
+  "vendor": "libwww-perl-daemon",
+  "vendor_id": "libwww-perl-daemon",
+  "product": "libwww-perl-daemon",
+  "product_id": "libwww-perl-daemon-libwww-perl-daemon",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "libwww-perl-daemon Header Detection",
+      "pattern": "Server: libwww-perl-daemon(?:/([\\d\\.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects libwww-perl-daemon from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "libwww-perl-daemon"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

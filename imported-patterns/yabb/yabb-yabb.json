@@ -1,0 +1,31 @@
+{
+  "vendor": "YaBB",
+  "vendor_id": "yabb",
+  "product": "YaBB",
+  "product_id": "yabb-yabb",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "YaBB HTML Detection",
+      "pattern": "Powered by <a href=\"[^>]+yabbforum",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects YaBB from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "yabb"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<li\\ class=\"selected\"><a\\ href=\"zoph\\.php\">home</a></li><li\\ ><a\\ href=\"albums\\.php\">albums</a></li><li\\ ><a\\ href=\"categories\\.php\">categories</a></li><li\\ >"
+      "pattern": "<li\\ class=\"selected\"><a\\ href=\"zoph\\.php\">home</a></li><li\\ ><a\\ href=\"albums\\.php\">albums</a></li><li\\ ><a\\ href=\"categories\\.php\">categories</a></li><li\\ >",
+      "version_group": 0
     },
     {
       "name": "Zoph Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<title>Zoph\\ \\-\\ Home</title>"
+      "pattern": "<title>Zoph\\ \\-\\ Home</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

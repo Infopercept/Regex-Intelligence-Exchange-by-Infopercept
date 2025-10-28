@@ -1,0 +1,71 @@
+{
+  "vendor": "OpenCms",
+  "vendor_id": "opencms",
+  "product": "OpenCms",
+  "product_id": "opencms-opencms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OpenCms Header Detection",
+      "pattern": "Server: OpenCms",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects OpenCms from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "opencms"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "OpenCms HTML Detection",
+      "pattern": "<link href=\"/opencms/",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects OpenCms from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "opencms"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "OpenCms Script Detection",
+      "pattern": "opencms",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects OpenCms from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "opencms"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

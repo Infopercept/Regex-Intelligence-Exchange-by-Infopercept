@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ ==================\\ This\\ site\\ is\\ powered\\ by:\\ ====================\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ ==================\\ This\\ site\\ is\\ powered\\ by:\\ ====================\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Fidion-CMS Pattern",
@@ -43,12 +44,13 @@
         ],
         "test_cases": [
           {
-            "input": "<!-- | fCMS by fidion GmbH, W\u00fcg.         http://www.fidion.de  | -->",
+            "input": "<!-- | fCMS by fidion GmbH, Wüg.         http://www.fidion.de  | -->",
             "expected_version": "unknown"
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ \\|\\ fCMS\\ by\\ fidion\\ GmbH,\\ W\u00fcg\\.\\ \\ \\ \\ \\ \\ \\ \\ \\ http://www\\.fidion\\.de\\ \\ \\|\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ \\|\\ fCMS\\ by\\ fidion\\ GmbH,\\ Wüg\\.\\ \\ \\ \\ \\ \\ \\ \\ \\ http://www\\.fidion\\.de\\ \\ \\|\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Fidion-CMS Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ fCMS\\-Template\\ head\\.tpl\\ begins\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ fCMS\\-Template\\ head\\.tpl\\ begins\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

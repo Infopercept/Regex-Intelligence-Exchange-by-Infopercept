@@ -1,0 +1,51 @@
+{
+  "vendor": "CentOS",
+  "vendor_id": "centos",
+  "product": "CentOS",
+  "product_id": "centos-centos",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CentOS Header Detection",
+      "pattern": "Server: CentOS",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CentOS from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "centos"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "CentOS Header Detection",
+      "pattern": "X-Powered-By: CentOS",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CentOS from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "centos"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

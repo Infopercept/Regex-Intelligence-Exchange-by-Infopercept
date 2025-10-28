@@ -1,0 +1,51 @@
+{
+  "vendor": "Google",
+  "vendor_id": "google",
+  "product": "Google Charts",
+  "product_id": "google-google-charts",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Google Charts JavaScript Detection",
+      "pattern": "window\\.__googleVisualizationAbstractRendererElementsCount__|__googleVisualizationAbstractRendererElementsCount__\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Charts from JavaScript variable '__googleVisualizationAbstractRendererElementsCount__'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "google-charts"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Google Charts JavaScript Detection",
+      "pattern": "window\\.__gvizguard__|__gvizguard__\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Google Charts from JavaScript variable '__gvizguard__'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "google-charts"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

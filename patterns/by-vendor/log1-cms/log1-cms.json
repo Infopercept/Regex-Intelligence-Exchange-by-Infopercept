@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ http\\-equiv=\"Generator\"\\ content=\"log1_cms\"\\ />"
+      "pattern": "<meta\\ http\\-equiv=\"Generator\"\\ content=\"log1_cms\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Log1-CMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ please\\ do\\ not\\ deleate\\ info\\ below,\\ thank\\ you\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ please\\ do\\ not\\ deleate\\ info\\ below,\\ thank\\ you\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Log1-CMS Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://log1cms\\.sourceforge\\.net\"\\ target=\"_blank\">\\ Log1\\ CMS</a></p>"
+      "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://log1cms\\.sourceforge\\.net\"\\ target=\"_blank\">\\ Log1\\ CMS</a></p>",
+      "version_group": 0
     },
     {
       "name": "Log1-CMS Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<title>log1\\ cms:\\ Login\\ as\\ Admin\\ to</title>"
+      "pattern": "<title>log1\\ cms:\\ Login\\ as\\ Admin\\ to</title>",
+      "version_group": 0
     },
     {
       "name": "Log1-CMS Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<link\\ href=\"engine/styles/login\\.css\\.php\"\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ />"
+      "pattern": "<link\\ href=\"engine/styles/login\\.css\\.php\"\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Log1-CMS Pattern",
@@ -136,7 +141,9 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"engine/images/logo\\.gif\"\\ alt=\"log1\\ CMS\\ logo\"/>"
+      "pattern": "<img\\ src=\"engine/images/logo\\.gif\"\\ alt=\"log1\\ CMS\\ logo\"/>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

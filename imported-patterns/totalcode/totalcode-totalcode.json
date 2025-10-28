@@ -1,0 +1,31 @@
+{
+  "vendor": "TotalCode",
+  "vendor_id": "totalcode",
+  "product": "TotalCode",
+  "product_id": "totalcode-totalcode",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TotalCode Header Detection",
+      "pattern": "X-Powered-By: ^TotalCode$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects TotalCode from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "totalcode"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

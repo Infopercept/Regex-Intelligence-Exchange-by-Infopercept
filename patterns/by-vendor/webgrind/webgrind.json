@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<span\\ id=\"invocation_sum\"></span>\\ different\\ functions\\ called\\ in\\ <span\\ id=\"runtime_sum\"></span>\\ milliseconds\\ \\(<span\\ id=\"runs\"></span>\\ runs,\\ <span\\ id=\"shown_sum\"></span>\\ shown\\)"
+      "pattern": "<span\\ id=\"invocation_sum\"></span>\\ different\\ functions\\ called\\ in\\ <span\\ id=\"runtime_sum\"></span>\\ milliseconds\\ \\(<span\\ id=\"runs\"></span>\\ runs,\\ <span\\ id=\"shown_sum\"></span>\\ shown\\)",
+      "version_group": 0
     },
     {
       "name": "Webgrind Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<img\\ class=\"list_reload\"\\ src=\"img/reload\\.png\"\\ onclick=\"reloadFilelist\\(\\)\">"
+      "pattern": "<img\\ class=\"list_reload\"\\ src=\"img/reload\\.png\"\\ onclick=\"reloadFilelist\\(\\)\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

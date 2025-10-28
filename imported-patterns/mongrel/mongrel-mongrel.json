@@ -1,0 +1,31 @@
+{
+  "vendor": "Mongrel",
+  "vendor_id": "mongrel",
+  "product": "Mongrel",
+  "product_id": "mongrel-mongrel",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mongrel Header Detection",
+      "pattern": "Server: Mongrel",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Mongrel from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "mongrel"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vendor": "WebAR",
+  "vendor_id": "webar",
+  "product": "WebAR",
+  "product_id": "webar-webar",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WebAR HTML Detection",
+      "pattern": "<model-viewer",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects WebAR from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "webar"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

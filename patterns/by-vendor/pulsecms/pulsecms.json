@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"img/new\\-logo\\.png\"\\ alt=\"Pulse\\ CMS\">"
+      "pattern": "<img\\ src=\"img/new\\-logo\\.png\"\\ alt=\"Pulse\\ CMS\">",
+      "version_group": 0
     },
     {
       "name": "PulseCMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<input\\ type=\"password\"\\ size=\"27\"\\ name=\"mpass_pass\">"
+      "pattern": "<input\\ type=\"password\"\\ size=\"27\"\\ name=\"mpass_pass\">",
+      "version_group": 0
     },
     {
       "name": "PulseCMS Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<title>Pulse\\ Content\\ Manager</title>"
+      "pattern": "<title>Pulse\\ Content\\ Manager</title>",
+      "version_group": 0
     },
     {
       "name": "PulseCMS Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<body\\ id=\"login\\-page\"\\ onload=\"document\\.login\\.mpass_pass\\.focus\\(\\)\">"
+      "pattern": "<body\\ id=\"login\\-page\"\\ onload=\"document\\.login\\.mpass_pass\\.focus\\(\\)\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

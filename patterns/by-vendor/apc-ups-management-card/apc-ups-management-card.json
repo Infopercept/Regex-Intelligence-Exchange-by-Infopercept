@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<td\\ class=\"apclogo\"><a\\ href=\"http://www\\.apc\\.com\"><img\\ src=\"images/smapc\\.gif\"\\ alt=\"APC\\ Website\"\\ width=\"59\"\\ height=\"17\"\\ border=\"0\"\\ align=\"top\"\\ /></a>\\&nbsp;\\&nbsp;</td>"
+      "pattern": "<td\\ class=\"apclogo\"><a\\ href=\"http://www\\.apc\\.com\"><img\\ src=\"images/smapc\\.gif\"\\ alt=\"APC\\ Website\"\\ width=\"59\"\\ height=\"17\"\\ border=\"0\"\\ align=\"top\"\\ /></a>\\&nbsp;\\&nbsp;</td>",
+      "version_group": 0
     },
     {
       "name": "APC-UPS-Management-Card Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<td>This\\ object\\ on\\ the\\&nbsp;APC\\ Management\\ Web\\ Server\\&nbsp;is\\ protected\\ and\\ requires\\ a\\ secure\\ socket\\ connection\\.<br\\ /><br\\ /><br\\ /><br\\ /><A\\ HREF=\"https://"
+      "pattern": "<td>This\\ object\\ on\\ the\\&nbsp;APC\\ Management\\ Web\\ Server\\&nbsp;is\\ protected\\ and\\ requires\\ a\\ secure\\ socket\\ connection\\.<br\\ /><br\\ /><br\\ /><br\\ /><A\\ HREF=\"https://",
+      "version_group": 0
     },
     {
       "name": "WWW-Authenticate realm",
@@ -62,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Basic realm=\"APC Management Card\"$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Basic realm=\"APC Management Card\"$"
+      "pattern": "^Basic realm=\"APC Management Card\"$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

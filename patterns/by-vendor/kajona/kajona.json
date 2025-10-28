@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"Kajona., www.kajona.de\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\"generator\" content=\"Kajona., www\\.kajona\\.de\" />"
+      "pattern": "<meta name=\"generator\" content=\"Kajona., www\\.kajona\\.de\" />",
+      "version_group": 0
     },
     {
       "name": "Kajona Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--s+Website powered by Kajona. Open Source Content Management Framework",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!--\\s+Website powered by Kajona. Open Source Content Management Framework"
+      "pattern": "<!--\\s+Website powered by Kajona. Open Source Content Management Framework",
+      "version_group": 0
     },
     {
       "name": "Kajona Pattern",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script type=\"text/javascript\">KAJONA_(DEBUG|WEBPATH) = ",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script type=\"text/javascript\">KAJONA_(DEBUG|WEBPATH) = "
+      "pattern": "<script type=\"text/javascript\">KAJONA_(DEBUG|WEBPATH) = ",
+      "version_group": 0
     },
     {
       "name": "Kajona Pattern",
@@ -74,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<div\\ class=\"left\">powered\\ by\\ Kajona</div>"
+      "pattern": "<div\\ class=\"left\">powered\\ by\\ Kajona</div>",
+      "version_group": 0
     },
     {
       "name": "Kajona Pattern",
@@ -96,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"footerContainer\">powered\\ by\\ <a\\ href=\"http://www\\.kajona\\.de\"\\ target=\"_blank\"\\ title=\"Kajona"
+      "pattern": "<div\\ id=\"footerContainer\">powered\\ by\\ <a\\ href=\"http://www\\.kajona\\.de\"\\ target=\"_blank\"\\ title=\"Kajona",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

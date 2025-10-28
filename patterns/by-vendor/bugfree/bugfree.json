@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<select\\ name=\\\\"
+      "pattern": "<select\\ name=\\\\",
+      "version_group": 0
     },
     {
       "name": "BugFree Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"Image/login_bg_left\\.gif\"\\ class=\"loginBgImage\"/>"
+      "pattern": "<img\\ src=\"Image/login_bg_left\\.gif\"\\ class=\"loginBgImage\"/>",
+      "version_group": 0
     },
     {
       "name": "BugFree Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<td><input\\ type=\"password\"\\ name=\"BugUserPWD\"\\ class=\"MyInput\"></td>"
+      "pattern": "<td><input\\ type=\"password\"\\ name=\"BugUserPWD\"\\ class=\"MyInput\"></td>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

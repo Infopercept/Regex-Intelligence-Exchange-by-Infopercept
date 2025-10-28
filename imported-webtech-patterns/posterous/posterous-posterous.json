@@ -1,0 +1,51 @@
+{
+  "vendor": "Posterous",
+  "vendor_id": "posterous",
+  "product": "Posterous",
+  "product_id": "posterous-posterous",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Posterous HTML Detection",
+      "pattern": "<div class=\"posterous",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Posterous from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "posterous"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Posterous JavaScript Detection",
+      "pattern": "window\\.Posterous|Posterous\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Posterous from JavaScript variable 'Posterous'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "posterous"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

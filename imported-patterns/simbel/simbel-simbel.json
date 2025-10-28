@@ -1,0 +1,31 @@
+{
+  "vendor": "Simbel",
+  "vendor_id": "simbel",
+  "product": "Simbel",
+  "product_id": "simbel-simbel",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Simbel Header Detection",
+      "pattern": "powered: simbel",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Simbel from powered header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "simbel"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

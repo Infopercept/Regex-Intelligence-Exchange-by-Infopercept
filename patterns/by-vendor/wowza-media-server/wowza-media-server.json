@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "realm=\"Wowza\\ Media\\ Systems\""
+      "pattern": "realm=\"Wowza\\ Media\\ Systems\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

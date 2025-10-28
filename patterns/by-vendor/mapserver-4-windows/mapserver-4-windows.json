@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<title>MS4W\\ \\-\\ MapServer\\ 4\\ Windows</title>"
+      "pattern": "<title>MS4W\\ \\-\\ MapServer\\ 4\\ Windows</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

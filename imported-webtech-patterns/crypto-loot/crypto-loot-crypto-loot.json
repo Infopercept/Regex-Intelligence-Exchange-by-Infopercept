@@ -1,0 +1,131 @@
+{
+  "vendor": "Crypto-Loot",
+  "vendor_id": "crypto-loot",
+  "product": "Crypto-Loot",
+  "product_id": "crypto-loot-crypto-loot",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Crypto-Loot Script Detection",
+      "pattern": "^/crypto-loot\\.com/lib/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Crypto-Loot from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "crypto-loot"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Crypto-Loot Script Detection",
+      "pattern": "^/webmine\\.pro/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Crypto-Loot from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "crypto-loot"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Crypto-Loot Script Detection",
+      "pattern": "^/cryptoloot\\.pro/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Crypto-Loot from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "crypto-loot"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Crypto-Loot Script Detection",
+      "pattern": "/crlt\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Crypto-Loot from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "crypto-loot"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Crypto-Loot JavaScript Detection",
+      "pattern": "window\\.CRLT\\.CONFIG\\.ASMJS_NAME|CRLT\\.CONFIG\\.ASMJS_NAME\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Crypto-Loot from JavaScript variable 'CRLT.CONFIG.ASMJS_NAME'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "crypto-loot"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Crypto-Loot JavaScript Detection",
+      "pattern": "window\\.CryptoLoot|CryptoLoot\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Crypto-Loot from JavaScript variable 'CryptoLoot'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "crypto-loot"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

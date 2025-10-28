@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<frame\\ name=\"viewer_bottom\"\\ src=\"viewer_bottom\\.php\\?file="
+      "pattern": "<frame\\ name=\"viewer_bottom\"\\ src=\"viewer_bottom\\.php\\?file=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

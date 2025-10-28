@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^SonicWALL SSL-VPN Web Server.?$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^SonicWALL SSL-VPN Web Server\\.?$"
+      "pattern": "^SonicWALL SSL-VPN Web Server\\.?$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

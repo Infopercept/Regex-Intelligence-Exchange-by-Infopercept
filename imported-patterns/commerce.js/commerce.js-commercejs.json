@@ -1,0 +1,91 @@
+{
+  "vendor": "Commerce.js",
+  "vendor_id": "commerce.js",
+  "product": "Commerce.js",
+  "product_id": "commerce.js-commercejs",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Commerce.js Header Detection",
+      "pattern": "Chec-Version: .*",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Commerce.js from Chec-Version header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "commerce.js"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Commerce.js Header Detection",
+      "pattern": "X-Support: support@commercejs\\.com",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Commerce.js from X-Support header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "commerce.js"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Commerce.js Script Detection",
+      "pattern": "https?:/cdn\\.chec\\.io/v(\\d+)/commerce\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Commerce.js from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "commerce.js"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Commerce.js Script Detection",
+      "pattern": "chec/commerce\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Commerce.js from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "commerce.js"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

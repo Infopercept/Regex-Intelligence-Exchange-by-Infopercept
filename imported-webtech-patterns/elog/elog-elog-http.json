@@ -1,0 +1,31 @@
+{
+  "vendor": "ELOG",
+  "vendor_id": "elog",
+  "product": "ELOG HTTP",
+  "product_id": "elog-elog-http",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ELOG HTTP Header Detection",
+      "pattern": "Server: ELOG HTTP ?([\\d.-]+)?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ELOG HTTP from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "elog-http"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

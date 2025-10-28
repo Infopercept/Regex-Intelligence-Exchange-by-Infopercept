@@ -1,0 +1,151 @@
+{
+  "vendor": "MailChimp",
+  "vendor_id": "mailchimp",
+  "product": "MailChimp",
+  "product_id": "mailchimp-mailchimp",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MailChimp HTML Detection",
+      "pattern": "<form [^>]*data-mailchimp-url",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MailChimp from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "mailchimp"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "MailChimp HTML Detection",
+      "pattern": "<form [^>]*id=\"mc-embedded-subscribe-form\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MailChimp from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "mailchimp"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "MailChimp HTML Detection",
+      "pattern": "<form [^>]*name=\"mc-embedded-subscribe-form\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MailChimp from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "mailchimp"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "MailChimp HTML Detection",
+      "pattern": "<input [^>]*id=\"mc-email\"\\;confidence:20",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MailChimp from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "mailchimp"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "MailChimp HTML Detection",
+      "pattern": "<!-- Begin MailChimp Signup Form -->",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MailChimp from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "mailchimp"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "MailChimp Script Detection",
+      "pattern": "s3\\.amazonaws\\.com/downloads\\.mailchimp\\.com/js/mc-validate\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MailChimp from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "mailchimp"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "MailChimp Script Detection",
+      "pattern": "cdn-images\\.mailchimp\\.com/[^>]*\\.css",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MailChimp from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "mailchimp"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

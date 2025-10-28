@@ -1,0 +1,51 @@
+{
+  "vendor": "amCharts",
+  "vendor_id": "amcharts",
+  "product": "amCharts",
+  "product_id": "amcharts-amcharts",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "amCharts HTML Detection",
+      "pattern": "<svg[^>]*><desc>JavaScript chart by amCharts ([\\d.]*)",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects amCharts from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "amcharts"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "amCharts Script Detection",
+      "pattern": "amcharts.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects amCharts from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "amcharts"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vendor": "OneAPM",
+  "vendor_id": "oneapm",
+  "product": "OneAPM",
+  "product_id": "oneapm-oneapm",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OneAPM JavaScript Detection",
+      "pattern": "window\\.BWEUM|BWEUM\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects OneAPM from JavaScript variable 'BWEUM'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "oneapm"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

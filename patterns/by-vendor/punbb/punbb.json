@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ forum_debug\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ forum_debug\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "PunBB Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"brd\\-index\"\\ class=\"brd\\-page\\ basic\\-page\">"
+      "pattern": "<div\\ id=\"brd\\-index\"\\ class=\"brd\\-page\\ basic\\-page\">",
+      "version_group": 0
     },
     {
       "name": "PunBB Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<p\\ id=\"copyright\">Powered\\ by\\ <strong><a\\ href=\"http://punbb\\.informer\\.com/\">PunBB</a></strong>,\\ supported\\ by\\ <strong><a\\ href=\"http://www\\.informer\\.com/\">Informer\\ Technologies,\\ Inc</a></strong>\\.</p>"
+      "pattern": "<p\\ id=\"copyright\">Powered\\ by\\ <strong><a\\ href=\"http://punbb\\.informer\\.com/\">PunBB</a></strong>,\\ supported\\ by\\ <strong><a\\ href=\"http://www\\.informer\\.com/\">Informer\\ Technologies,\\ Inc</a></strong>\\.</p>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

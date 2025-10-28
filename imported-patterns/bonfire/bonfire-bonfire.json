@@ -1,0 +1,31 @@
+{
+  "vendor": "Bonfire",
+  "vendor_id": "bonfire",
+  "product": "Bonfire",
+  "product_id": "bonfire-bonfire",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Bonfire HTML Detection",
+      "pattern": "Powered by <a[^>]+href=\"https?://(?:www\\.)?cibonfire\\.com[^>]*>Bonfire v([^<]+)",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bonfire from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "bonfire"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

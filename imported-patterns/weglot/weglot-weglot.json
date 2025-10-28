@@ -1,0 +1,71 @@
+{
+  "vendor": "Weglot",
+  "vendor_id": "weglot",
+  "product": "Weglot",
+  "product_id": "weglot-weglot",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Weglot Header Detection",
+      "pattern": "Weglot-Translated: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Weglot from Weglot-Translated header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "weglot"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Weglot Script Detection",
+      "pattern": "cdn\\.weglot\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Weglot from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "weglot"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Weglot Script Detection",
+      "pattern": "wp-content/plugins/weglot",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Weglot from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "weglot"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

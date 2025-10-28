@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ <td\\ width=\"10%\"><div\\ align=\"right\"><a\\ href=\"http://www\\.vertigostudios\\.com\"\\ target=\"_blank\"><img\\ src=\"images/vs_white\\.gif\"\\ alt=\"Made\\ in\\ Vertigo\\ Studios\"\\ width=\"48\"\\ height=\"21\"\\ hspace=\"3\"\\ vspace=\"3\"\\ border=\"0\"\\ /></a></div></td>"
+      "pattern": "\\ \\ \\ \\ <td\\ width=\"10%\"><div\\ align=\"right\"><a\\ href=\"http://www\\.vertigostudios\\.com\"\\ target=\"_blank\"><img\\ src=\"images/vs_white\\.gif\"\\ alt=\"Made\\ in\\ Vertigo\\ Studios\"\\ width=\"48\"\\ height=\"21\"\\ hspace=\"3\"\\ vspace=\"3\"\\ border=\"0\"\\ /></a></div></td>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

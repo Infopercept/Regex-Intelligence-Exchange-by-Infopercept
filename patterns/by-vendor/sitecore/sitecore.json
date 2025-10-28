@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^SC_ANALYTICS_",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^SC_ANALYTICS_"
+      "pattern": "^SC_ANALYTICS_",
+      "version_group": 0
     },
     {
       "name": "sc_expview cookie",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^sc_expview",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^sc_expview"
+      "pattern": "^sc_expview",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

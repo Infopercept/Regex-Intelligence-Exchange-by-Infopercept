@@ -1,0 +1,31 @@
+{
+  "vendor": "Quantcast",
+  "vendor_id": "quantcast",
+  "product": "Quantcast Choice",
+  "product_id": "quantcast-quantcast-choice",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Quantcast Choice Script Detection",
+      "pattern": "quantcast\\.mgr\\.consensu\\.org",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Quantcast Choice from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "quantcast-choice"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

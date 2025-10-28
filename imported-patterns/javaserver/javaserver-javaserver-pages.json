@@ -1,0 +1,31 @@
+{
+  "vendor": "JavaServer",
+  "vendor_id": "javaserver",
+  "product": "JavaServer Pages",
+  "product_id": "javaserver-javaserver-pages",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "JavaServer Pages Header Detection",
+      "pattern": "X-Powered-By: JSP(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects JavaServer Pages from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "javaserver-pages"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

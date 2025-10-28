@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^NLSD3",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^NLSD3"
+      "pattern": "^NLSD3",
+      "version_group": 0
     },
     {
       "name": "NS_ROUTING_VERSION cookie",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^NS_ROUTING_VERSION",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^NS_ROUTING_VERSION"
+      "pattern": "^NS_ROUTING_VERSION",
+      "version_group": 0
     },
     {
       "name": "NS_VER cookie",
@@ -50,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^NS_VER",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^NS_VER"
+      "pattern": "^NS_VER",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

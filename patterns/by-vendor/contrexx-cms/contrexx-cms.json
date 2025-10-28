@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\ \\-\\ powered\\ by\\ Contrexx\\ \\ \\ Web\\ Content\\ Management\\ System</title>"
+      "pattern": "\\ \\-\\ powered\\ by\\ Contrexx\\ \\ \\ Web\\ Content\\ Management\\ System</title>",
+      "version_group": 0
     },
     {
       "name": "Contrexx-CMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<p\\ id=\"powered\"><a\\ href=\"http://www\\.contrexx\\.com/\"\\ title=\"Powered\\ by\\ Contrexx\\&reg;\\ Software\">Powered\\ by\\ Contrexx\\&reg;\\ Software</a>"
+      "pattern": "<p\\ id=\"powered\"><a\\ href=\"http://www\\.contrexx\\.com/\"\\ title=\"Powered\\ by\\ Contrexx\\&reg;\\ Software\">Powered\\ by\\ Contrexx\\&reg;\\ Software</a>",
+      "version_group": 0
     },
     {
       "name": "Contrexx-CMS Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<div\\ class=\"footer_right\">Powered\\ by\\ <a\\ href=\"http://www\\.contrexx\\.com\">Contrexx\\ Software</a></div>"
+      "pattern": "<div\\ class=\"footer_right\">Powered\\ by\\ <a\\ href=\"http://www\\.contrexx\\.com\">Contrexx\\ Software</a></div>",
+      "version_group": 0
     },
     {
       "name": "Contrexx-CMS Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"Contrexx\\ \\ \\ Web\\ Content\\ Management\\ System\"/>"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"Contrexx\\ \\ \\ Web\\ Content\\ Management\\ System\"/>",
+      "version_group": 0
     },
     {
       "name": "Contrexx-CMS Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<style\\ type=\"text/css\">@import\\ url\\(core_modules/frontendEditing/css/style\\.css\\)\\ all;</style>"
+      "pattern": "<style\\ type=\"text/css\">@import\\ url\\(core_modules/frontendEditing/css/style\\.css\\)\\ all;</style>",
+      "version_group": 0
     },
     {
       "name": "Contrexx-CMS Pattern",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<title>Contrexx\\ Administration\\ Console</title>"
+      "pattern": "<title>Contrexx\\ Administration\\ Console</title>",
+      "version_group": 0
     },
     {
       "name": "Contrexx-CMS Pattern",
@@ -158,7 +164,9 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t<td><input\\ type=\"submit\"\\ tabindex=\"4\"\\ name=\"submit_button\"\\ value=\"Anmelden\"\\ onclick=\"if\\(this\\.disabled\\ \\|\\|\\ typeof\\(this\\.disabled\\)==\\\\"
+      "pattern": "\\\t\\\t<td><input\\ type=\"submit\"\\ tabindex=\"4\"\\ name=\"submit_button\"\\ value=\"Anmelden\"\\ onclick=\"if\\(this\\.disabled\\ \\|\\|\\ typeof\\(this\\.disabled\\)==\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

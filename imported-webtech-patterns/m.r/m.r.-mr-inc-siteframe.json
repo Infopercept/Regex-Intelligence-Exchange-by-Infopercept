@@ -1,0 +1,31 @@
+{
+  "vendor": "M.R.",
+  "vendor_id": "m.r.",
+  "product": "M.R. Inc SiteFrame",
+  "product_id": "m.r.-mr-inc-siteframe",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "M.R. Inc SiteFrame Header Detection",
+      "pattern": "Powered-By: M\\.R\\. Inc SiteFrame",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects M.R. Inc SiteFrame from Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "m.r.-inc-siteframe"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

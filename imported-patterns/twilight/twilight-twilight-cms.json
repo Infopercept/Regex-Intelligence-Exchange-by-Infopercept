@@ -1,0 +1,31 @@
+{
+  "vendor": "Twilight",
+  "vendor_id": "twilight",
+  "product": "Twilight CMS",
+  "product_id": "twilight-twilight-cms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Twilight CMS Header Detection",
+      "pattern": "X-Powered-CMS: Twilight CMS",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Twilight CMS from X-Powered-CMS header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "twilight-cms"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

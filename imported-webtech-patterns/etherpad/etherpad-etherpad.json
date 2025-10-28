@@ -1,0 +1,91 @@
+{
+  "vendor": "Etherpad",
+  "vendor_id": "etherpad",
+  "product": "Etherpad",
+  "product_id": "etherpad-etherpad",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Etherpad Header Detection",
+      "pattern": "Server: ^Etherpad",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Etherpad from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "etherpad"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Etherpad Script Detection",
+      "pattern": "/ep_etherpad-lite/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Etherpad from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "etherpad"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Etherpad JavaScript Detection",
+      "pattern": "window\\.padeditbar|padeditbar\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Etherpad from JavaScript variable 'padeditbar'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "etherpad"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Etherpad JavaScript Detection",
+      "pattern": "window\\.padimpexp|padimpexp\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Etherpad from JavaScript variable 'padimpexp'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "etherpad"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -156,6 +156,12 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Server: Apache",
+            "expected_version": "unknown"
+          }
         ]
       },
       "pattern": "^Apache",
@@ -176,12 +182,12 @@
         ],
         "test_cases": [
           {
-            "input": "Server: ^Apache/8.5",
+            "input": "Server: Apache/8.5",
             "expected_version": "8.5"
           }
         ]
       },
-      "pattern": "Server: ^Apache/([\\d\\.]+)",
+      "pattern": "Server: Apache/([\\d\\.]+)",
       "version_group": 1
     },
     {
@@ -196,6 +202,12 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "NOYB",
+            "expected_version": "unknown"
+          }
         ]
       },
       "pattern": "^NOYB$",
@@ -213,6 +225,12 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Basic realm=\"htaccess password prompt\"",
+            "expected_version": "unknown"
+          }
         ]
       },
       "pattern": "Basic realm=\"htaccess password prompt\"",

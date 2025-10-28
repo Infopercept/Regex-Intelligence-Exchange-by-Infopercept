@@ -1,0 +1,31 @@
+{
+  "vendor": "JET",
+  "vendor_id": "jet",
+  "product": "JET Enterprise",
+  "product_id": "jet-jet-enterprise",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "JET Enterprise Header Detection",
+      "pattern": "powered: jet-enterprise",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects JET Enterprise from powered header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "jet-enterprise"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

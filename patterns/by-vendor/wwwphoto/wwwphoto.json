@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t<meta\\ name=\"generator\"\\ content=\"WWWPhoto\\ cvshead\">\\ <!\\-\\-\\ leave\\ this\\ for\\ stats\\ \\-\\->"
+      "pattern": "\\\t\\\t<meta\\ name=\"generator\"\\ content=\"WWWPhoto\\ cvshead\">\\ <!\\-\\-\\ leave\\ this\\ for\\ stats\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "WWWPhoto Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.pburkhalter\\.net/wwwphoto\\.php\">powered\\ by\\ wwwphoto\\-cvshead</a>"
+      "pattern": "<a\\ href=\"http://www\\.pburkhalter\\.net/wwwphoto\\.php\">powered\\ by\\ wwwphoto\\-cvshead</a>",
+      "version_group": 0
     },
     {
       "name": "WWWPhoto Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "http_navbar\\.open\\('get','navbar\\.rpc\\.php\\?user='\\+GLOBAL_USER\\+'\\&tag='\\+GLOBAL_TAG\\+'\\&id='\\+GLOBAL_ID\\+'\\&marked='\\+marked\\+'\\&timestamp='\\+new\\ Date\\(\\)\\.getTime\\(\\)\\);"
+      "pattern": "http_navbar\\.open\\('get','navbar\\.rpc\\.php\\?user='\\+GLOBAL_USER\\+'\\&tag='\\+GLOBAL_TAG\\+'\\&id='\\+GLOBAL_ID\\+'\\&marked='\\+marked\\+'\\&timestamp='\\+new\\ Date\\(\\)\\.getTime\\(\\)\\);",
+      "version_group": 0
     },
     {
       "name": "WWWPhoto Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ sorry\\ joshua,\\ one\\ little,\\ small\\ table\\ is\\ a\\ must\\ have\\ :\\-\\)\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ sorry\\ joshua,\\ one\\ little,\\ small\\ table\\ is\\ a\\ must\\ have\\ :\\-\\)\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

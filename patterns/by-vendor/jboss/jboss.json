@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Welcome to JBoss AS</title>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>Welcome to JBoss AS</title>"
+      "pattern": "<title>Welcome to JBoss AS</title>",
+      "version_group": 0
     },
     {
       "name": "link to Administration Console",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"/admin-console/\">Administration Console</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\\\"/admin-console/\\\">Administration Console</a>"
+      "pattern": "<a href=\\\"/admin-console/\\\">Administration Console</a>",
+      "version_group": 0
     },
     {
       "name": "link to Web Console",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"/web-console/\">Jboss Web Console</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\\\"/web-console/\\\">Jboss Web Console</a>"
+      "pattern": "<a href=\\\"/web-console/\\\">Jboss Web Console</a>",
+      "version_group": 0
     },
     {
       "name": "link to JMX Console",
@@ -66,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"/jmx-console/\">JMX Console</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\\\"/jmx-console/\\\">JMX Console</a>"
+      "pattern": "<a href=\\\"/jmx-console/\\\">JMX Console</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

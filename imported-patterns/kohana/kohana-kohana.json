@@ -1,0 +1,31 @@
+{
+  "vendor": "Kohana",
+  "vendor_id": "kohana",
+  "product": "Kohana",
+  "product_id": "kohana-kohana",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Kohana Header Detection",
+      "pattern": "X-Powered-By: Kohana Framework ([\\d.]+)",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Kohana from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "kohana"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vendor": "WP-Statistics",
+  "vendor_id": "wp-statistics",
+  "product": "WP-Statistics",
+  "product_id": "wp-statistics-wp-statistics",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WP-Statistics HTML Detection",
+      "pattern": "<!-- Analytics by WP-Statistics v([\\d.]+) -",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects WP-Statistics from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "wp-statistics"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

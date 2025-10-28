@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<title>Login\\ To\\ eSyndiCat\\ Admin\\ Panel</title>"
+      "pattern": "<title>Login\\ To\\ eSyndiCat\\ Admin\\ Panel</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

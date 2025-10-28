@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<noscript>[s]*<iframe src=\"http://www.google.com/recaptcha/api/noscript?k=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<noscript>[\\s]*<iframe src=\"http://www\\.google\\.com/recaptcha/api/noscript\\?k="
+      "pattern": "<noscript>[\\s]*<iframe src=\"http://www\\.google\\.com/recaptcha/api/noscript\\?k=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

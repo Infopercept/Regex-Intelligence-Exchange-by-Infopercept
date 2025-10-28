@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "powered by <A HREF=\"http://www.(scivox.net|clanavl.com)/vsp/\">vsp stats processor</A>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "powered by <A HREF=\"http://www.(scivox.net|clanavl.com)/vsp/\">vsp stats processor</A>"
+      "pattern": "powered by <A HREF=\"http://www.(scivox.net|clanavl.com)/vsp/\">vsp stats processor</A>",
+      "version_group": 0
     },
     {
       "name": "VSP-Stats-Processor Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\&nbsp;theme:bismarck\\ by\\ <A\\ HREF=\"\\#\"\\ TITLE=\"myrddin8\\ <AT>\\ gmail\\ <DOT>\\ com\">myrddin</A>\\&nbsp;"
+      "pattern": "\\&nbsp;theme:bismarck\\ by\\ <A\\ HREF=\"\\#\"\\ TITLE=\"myrddin8\\ <AT>\\ gmail\\ <DOT>\\ com\">myrddin</A>\\&nbsp;",
+      "version_group": 0
     },
     {
       "name": "VSP-Stats-Processor Pattern",
@@ -56,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>vsp ((map|award|game|player) stats)</TITLE>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<TITLE>vsp \\((map|award|game|player) stats\\)</TITLE>"
+      "pattern": "<TITLE>vsp \\((map|award|game|player) stats\\)</TITLE>",
+      "version_group": 0
     },
     {
       "name": "VSP-Stats-Processor Pattern",
@@ -80,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<BODY>error:\\ cannot\\ establish\\ database\\ connection\\ or\\ database\\ database_name\\ does\\ not\\ exist"
+      "pattern": "<BODY>error:\\ cannot\\ establish\\ database\\ connection\\ or\\ database\\ database_name\\ does\\ not\\ exist",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

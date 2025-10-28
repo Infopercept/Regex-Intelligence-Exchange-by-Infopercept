@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<tr><td\\ class=\"menuitem\"\\ colspan=\"2\">\\&nbsp;\\-\\&nbsp;<a\\ class=\"menulink\"\\ HREF=\"\\?target="
+      "pattern": "<tr><td\\ class=\"menuitem\"\\ colspan=\"2\">\\&nbsp;\\-\\&nbsp;<a\\ class=\"menulink\"\\ HREF=\"\\?target=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

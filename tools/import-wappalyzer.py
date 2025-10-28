@@ -23,7 +23,22 @@ def load_wappalyzer_technologies(file_path):
     """
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
-            return json.load(f)
+            data = json.load(f)
+        
+        # The new format has technologies under a "technologies" key
+        # But our file seems to have them at the root level
+        # Let's check if it's the new format or old format
+        if isinstance(data, dict) and 'technologies' in data:
+            return data['technologies']
+        elif isinstance(data, dict):
+            # Remove the $schema entry if it exists
+            if '$schema' in data:
+                del data['$schema']
+            if 'categories' in data:
+                del data['categories']
+            return data
+        else:
+            return {}
     except Exception as e:
         print(f"Error loading Wappalyzer technologies: {e}")
         return {}
@@ -73,8 +88,9 @@ def convert_wappalyzer_category(wappalyzer_category):
         '11': ('cms', 'cms-platform'),     # Blogs
         '12': ('framework', 'frontend-framework'),  # JavaScript Frameworks
         '18': ('framework', 'web-framework'),       # Web Frameworks
-        '57': ('web', 'web-server'),       # Web Servers
-        '59': ('framework', 'web-framework')        # Programming Languages (treated as frameworks)
+        '22': ('web', 'web-server'),       # Web Servers
+        '27': ('framework', 'web-framework'),        # Programming Languages (treated as frameworks)
+        '59': ('framework', 'frontend-framework')   # JavaScript libraries
     }
     
     if isinstance(wappalyzer_category, int) or (isinstance(wappalyzer_category, str) and wappalyzer_category.isdigit()):
@@ -97,6 +113,8 @@ def convert_wappalyzer_pattern(wappalyzer_pattern):
     pattern = wappalyzer_pattern
     pattern = re.sub(r'\\;version:\\\d+', '', pattern)
     pattern = re.sub(r'\\;version:', '', pattern)
+    pattern = re.sub(r';version:\\\d+', '', pattern)
+    pattern = re.sub(r';version:', '', pattern)
     
     # Unescape forward slashes that Wappalyzer escapes
     pattern = pattern.replace('\\/', '/')
@@ -118,6 +136,11 @@ def extract_version_group(wappalyzer_pattern):
     match = re.search(r'\\;version:\\(\d+)', wappalyzer_pattern)
     if match:
         return int(match.group(1))
+    
+    match = re.search(r';version:\\(\d+)', wappalyzer_pattern)
+    if match:
+        return int(match.group(1))
+        
     return 0
 
 
@@ -165,6 +188,27 @@ def create_pattern_structure(tech_name, tech_data):
                     "license": "MIT"
                 }
             })
+        elif isinstance(header_value, list):
+            for header_val in header_value:
+                if isinstance(header_val, str):
+                    pattern = f"{header_name}: {convert_wappalyzer_pattern(header_val)}"
+                    version_group = extract_version_group(header_val)
+                    header_patterns.append({
+                        "name": f"{tech_name} Header Detection",
+                        "pattern": pattern,
+                        "version_group": version_group,
+                        "priority": 150,
+                        "confidence": 0.8,
+                        "metadata": {
+                            "author": "Wappalyzer Import",
+                            "created_at": "2025-01-01",
+                            "updated_at": "2025-01-01",
+                            "description": f"Detects {tech_name} from {header_name} header",
+                            "tags": ["wappalyzer", "header", tech_name.lower().replace(' ', '-')],
+                            "source": "Wappalyzer",
+                            "license": "MIT"
+                        }
+                    })
     
     # Process HTML patterns
     html_patterns = []
@@ -215,9 +259,56 @@ def create_pattern_structure(tech_name, tech_data):
                     "license": "MIT"
                 }
             })
+        elif isinstance(meta_content, list):
+            for meta_val in meta_content:
+                if isinstance(meta_val, str):
+                    pattern = f'<meta[^>]+name=["\']{meta_name}["\'][^>]+content=["\']{convert_wappalyzer_pattern(meta_val)}["\']'
+                    version_group = extract_version_group(meta_val)
+                    meta_patterns.append({
+                        "name": f"{tech_name} Meta Tag Detection",
+                        "pattern": pattern,
+                        "version_group": version_group,
+                        "priority": 120,
+                        "confidence": 0.75,
+                        "metadata": {
+                            "author": "Wappalyzer Import",
+                            "created_at": "2025-01-01",
+                            "updated_at": "2025-01-01",
+                            "description": f"Detects {tech_name} from meta tag with name '{meta_name}'",
+                            "tags": ["wappalyzer", "meta", tech_name.lower().replace(' ', '-')],
+                            "source": "Wappalyzer",
+                            "license": "MIT"
+                        }
+                    })
+    
+    # Process scripts
+    script_patterns = []
+    scripts = tech_data.get('scripts', [])
+    if isinstance(scripts, str):
+        scripts = [scripts]
+    
+    for script_pattern in scripts:
+        pattern = convert_wappalyzer_pattern(script_pattern)
+        version_group = extract_version_group(script_pattern)
+        script_patterns.append({
+            "name": f"{tech_name} Script Detection",
+            "pattern": pattern,
+            "version_group": version_group,
+            "priority": 130,
+            "confidence": 0.7,
+            "metadata": {
+                "author": "Wappalyzer Import",
+                "created_at": "2025-01-01",
+                "updated_at": "2025-01-01",
+                "description": f"Detects {tech_name} from script tags",
+                "tags": ["wappalyzer", "script", tech_name.lower().replace(' ', '-')],
+                "source": "Wappalyzer",
+                "license": "MIT"
+            }
+        })
     
     # Combine all patterns
-    all_patterns = header_patterns + html_patterns + meta_patterns
+    all_patterns = header_patterns + html_patterns + meta_patterns + script_patterns
     
     # Create the technology structure
     vendor_name = tech_name.split()[0] if ' ' in tech_name else tech_name
@@ -247,8 +338,13 @@ def import_wappalyzer_technologies(wappalyzer_data, output_dir):
     os.makedirs(output_dir, exist_ok=True)
     
     # Process each technology
+    count = 0
     for tech_name, tech_data in wappalyzer_data.items():
         try:
+            # Skip non-dict entries
+            if not isinstance(tech_data, dict):
+                continue
+                
             # Create our pattern structure
             pattern_structure = create_pattern_structure(tech_name, tech_data)
             
@@ -267,9 +363,12 @@ def import_wappalyzer_technologies(wappalyzer_data, output_dir):
                     json.dump(pattern_structure, f, indent=2, ensure_ascii=False)
                 
                 print(f"Imported {tech_name} -> {filepath}")
+                count += 1
             
         except Exception as e:
             print(f"Error processing {tech_name}: {e}")
+    
+    print(f"Imported {count} technologies")
 
 
 def main():

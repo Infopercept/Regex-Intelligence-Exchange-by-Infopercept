@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<frame\\ name=\"main\"\\ src=\"capexmain_middle\\.htm\"\\ scrolling=\"no\"\\ target=\"_top\">"
+      "pattern": "<frame\\ name=\"main\"\\ src=\"capexmain_middle\\.htm\"\\ scrolling=\"no\"\\ target=\"_top\">",
+      "version_group": 0
     },
     {
       "name": "cApexWEB Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Change\\ Company\\ \\&\\ Address\\ Line\\ ,\\ Enter\\ First\\ Line\\ for\\ Company\\ Name\\ and\\ 2nd\\ Line\\ of\\ Address\\ \\-\\-\\->"
+      "pattern": "<!\\-\\-\\ Change\\ Company\\ \\&\\ Address\\ Line\\ ,\\ Enter\\ First\\ Line\\ for\\ Company\\ Name\\ and\\ 2nd\\ Line\\ of\\ Address\\ \\-\\-\\->",
+      "version_group": 0
     },
     {
       "name": "cApexWEB Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<td><form\\ method=\"post\"\\ name=\"parentpage\"\\ action=\"\\.\\./servlet/capexweb\\.parentvalidatepassword\">"
+      "pattern": "<td><form\\ method=\"post\"\\ name=\"parentpage\"\\ action=\"\\.\\./servlet/capexweb\\.parentvalidatepassword\">",
+      "version_group": 0
     },
     {
       "name": "cApexWEB Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<form\\ method=\"post\"\\ action=\"\\.\\./servlet/capexweb\\.parentvalidatepassword\">"
+      "pattern": "<form\\ method=\"post\"\\ action=\"\\.\\./servlet/capexweb\\.parentvalidatepassword\">",
+      "version_group": 0
     },
     {
       "name": "cApexWEB Pattern",
@@ -114,7 +118,9 @@
           }
         ]
       },
-      "pattern": "var\\ winPop\\ =\\ window\\.open\\(\"\\.\\./servlet/capexweb\\.parentvalidatepassword\\?dfuserid=\"\\+dfuserid\\.value\\+\"\\&dfpassword=\"\\+dfpassword\\.value\\+\"\\&dfparentip=\"\\+dfparentip\\.value\\+\"\\&dfparentdb=\"\\+dfparentdb\\.value\\+\"\\&dfcode=\"\\+dfcode\\.value\\+\"\",\"mywin\",\"width=550,height=550,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,fullscreen=yes\"\\);"
+      "pattern": "var\\ winPop\\ =\\ window\\.open\\(\"\\.\\./servlet/capexweb\\.parentvalidatepassword\\?dfuserid=\"\\+dfuserid\\.value\\+\"\\&dfpassword=\"\\+dfpassword\\.value\\+\"\\&dfparentip=\"\\+dfparentip\\.value\\+\"\\&dfparentdb=\"\\+dfparentdb\\.value\\+\"\\&dfcode=\"\\+dfcode\\.value\\+\"\",\"mywin\",\"width=550,height=550,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,fullscreen=yes\"\\);",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

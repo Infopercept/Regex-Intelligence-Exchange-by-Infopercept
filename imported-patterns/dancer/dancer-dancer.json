@@ -1,0 +1,51 @@
+{
+  "vendor": "Dancer",
+  "vendor_id": "dancer",
+  "product": "Dancer",
+  "product_id": "dancer-dancer",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Dancer Header Detection",
+      "pattern": "Server: Perl Dancer ([\\d.]+)",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Dancer from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "dancer"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Dancer Header Detection",
+      "pattern": "X-Powered-By: Perl Dancer ([\\d.]+)",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Dancer from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "dancer"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

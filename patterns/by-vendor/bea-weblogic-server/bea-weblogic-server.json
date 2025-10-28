@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Default\\ BEA\\ WebLogic\\ Server\\ Web\\ Server\\ Index\\ Page</title>"
+      "pattern": "<title>Default\\ BEA\\ WebLogic\\ Server\\ Web\\ Server\\ Index\\ Page</title>",
+      "version_group": 0
     },
     {
       "name": "BEA-WebLogic-Server Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<TITLE>Default\\ BEA\\ WebLogic\\ Server\\ Web\\ Server\\ Index\\ Page</TITLE>"
+      "pattern": "<TITLE>Default\\ BEA\\ WebLogic\\ Server\\ Web\\ Server\\ Index\\ Page</TITLE>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

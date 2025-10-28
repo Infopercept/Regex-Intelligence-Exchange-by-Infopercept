@@ -1,0 +1,31 @@
+{
+  "vendor": "Mastercard",
+  "vendor_id": "mastercard",
+  "product": "Mastercard",
+  "product_id": "mastercard-mastercard",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mastercard HTML Detection",
+      "pattern": "<[^>]+aria-labelledby=\"pi-mastercard",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Mastercard from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "mastercard"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

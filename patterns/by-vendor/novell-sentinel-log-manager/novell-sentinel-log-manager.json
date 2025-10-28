@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<p\\ class=\"content\">Novell\\ Sentinel\\ Log\\ Manager\\ supports\\ Firefox\\ 3\\ \\(works\\ best\\ on\\ 3\\.6\\)\\ and\\ Internet\\ Explorer\\ 8\\ \\(works\\ best\\ on\\ 8\\.0\\)</p>"
+      "pattern": "<p\\ class=\"content\">Novell\\ Sentinel\\ Log\\ Manager\\ supports\\ Firefox\\ 3\\ \\(works\\ best\\ on\\ 3\\.6\\)\\ and\\ Internet\\ Explorer\\ 8\\ \\(works\\ best\\ on\\ 8\\.0\\)</p>",
+      "version_group": 0
     },
     {
       "name": "Novell-Sentinel-Log-Manager Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<META\\ HTTP\\-EQUIV=\"refresh\"\\ CONTENT=\"0;URL=/novelllogmanager\">"
+      "pattern": "<META\\ HTTP\\-EQUIV=\"refresh\"\\ CONTENT=\"0;URL=/novelllogmanager\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

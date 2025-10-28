@@ -1,0 +1,31 @@
+{
+  "vendor": "Blade",
+  "vendor_id": "blade",
+  "product": "Blade",
+  "product_id": "blade-blade",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Blade Header Detection",
+      "pattern": "X-Powered-By: blade-([\\w.]+)?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Blade from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "blade"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

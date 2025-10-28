@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"description\"\\ content=\"Orbis\\ CMS\\ is\\ a\\ simple\\ and\\ stylish\\ management\\ solution\\ for\\ small\\ websites\\.\"\\ />"
+      "pattern": "<meta\\ name=\"description\"\\ content=\"Orbis\\ CMS\\ is\\ a\\ simple\\ and\\ stylish\\ management\\ solution\\ for\\ small\\ websites\\.\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Orbis-CMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"login_poweredby\">Powered\\ by\\ Orbis\\ CMS</div>"
+      "pattern": "<div\\ id=\"login_poweredby\">Powered\\ by\\ Orbis\\ CMS</div>",
+      "version_group": 0
     },
     {
       "name": "Orbis-CMS Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<title>Orbis\\ CMS\\ \\&gt;\\ Login</title>"
+      "pattern": "<title>Orbis\\ CMS\\ \\&gt;\\ Login</title>",
+      "version_group": 0
     },
     {
       "name": "Orbis-CMS Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Give\\ feedback\\ if\\ user\\ enters\\ incorrect\\ password\\ \\(GET\\ value\\ \"e=2\\)\\ or\\ logged\\ out\\ \\(GET\\ value\\ \"e=3\"\\)\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Give\\ feedback\\ if\\ user\\ enters\\ incorrect\\ password\\ \\(GET\\ value\\ \"e=2\\)\\ or\\ logged\\ out\\ \\(GET\\ value\\ \"e=3\"\\)\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

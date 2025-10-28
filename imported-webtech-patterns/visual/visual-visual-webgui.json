@@ -1,0 +1,71 @@
+{
+  "vendor": "Visual",
+  "vendor_id": "visual",
+  "product": "Visual WebGUI",
+  "product_id": "visual-visual-webgui",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Visual WebGUI Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']^Visual WebGUI[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Visual WebGUI from meta tag with name 'generator'",
+        "tags": [
+          "webtech",
+          "meta",
+          "visual-webgui"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Visual WebGUI Script Detection",
+      "pattern": "\\.js\\.wgx$",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Visual WebGUI from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "visual-webgui"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Visual WebGUI JavaScript Detection",
+      "pattern": "window\\.VWGEventArgs|VWGEventArgs\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Visual WebGUI from JavaScript variable 'VWGEventArgs'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "visual-webgui"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

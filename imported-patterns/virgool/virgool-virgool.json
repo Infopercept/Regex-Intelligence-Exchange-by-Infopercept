@@ -1,0 +1,31 @@
+{
+  "vendor": "Virgool",
+  "vendor_id": "virgool",
+  "product": "Virgool",
+  "product_id": "virgool-virgool",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Virgool Header Detection",
+      "pattern": "X-Powered-By: ^Virgool$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Virgool from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "virgool"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

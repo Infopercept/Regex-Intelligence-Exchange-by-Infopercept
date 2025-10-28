@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^nginx$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^nginx$"
+      "pattern": "^nginx$",
+      "version_group": 0
     },
     {
       "name": "nginx Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^nginx/([^\\s]+).*$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

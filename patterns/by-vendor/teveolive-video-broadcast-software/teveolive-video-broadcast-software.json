@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"images/vidioscene\\.jpg\"\\ border=0\\ width=\"61\"\\ height=\"30\"></a>\\ "
+      "pattern": "<img\\ src=\"images/vidioscene\\.jpg\"\\ border=0\\ width=\"61\"\\ height=\"30\"></a>\\ ",
+      "version_group": 0
     },
     {
       "name": "TeveoLive-Video-Broadcast-Software Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^TeveoLive HTTP Server$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^TeveoLive HTTP Server$"
+      "pattern": "^TeveoLive HTTP Server$",
+      "version_group": 0
     },
     {
       "name": "TeveoLive-Video-Broadcast-Software Pattern",
@@ -56,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^d+$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^\\d+$"
+      "pattern": "^\\d+$",
+      "version_group": 0
     },
     {
       "name": "TeveoLive-Video-Broadcast-Software Pattern",
@@ -72,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^d+$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^\\d+$"
+      "pattern": "^\\d+$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

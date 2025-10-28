@@ -1,0 +1,31 @@
+{
+  "vendor": "ExpertRec",
+  "vendor_id": "expertrec",
+  "product": "ExpertRec",
+  "product_id": "expertrec-expertrec",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ExpertRec Script Detection",
+      "pattern": "cse\\.expertrec\\.com/api/js/ci_common\\.js\\?id=.*$",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ExpertRec from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "expertrec"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<body\\ class=\"owaLgnBdy\">"
+      "pattern": "<body\\ class=\"owaLgnBdy\">",
+      "version_group": 0
     },
     {
       "name": "Outlook-Web-App Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ OwaPage\\ =\\ ASP\\.auth_logon_aspx\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ OwaPage\\ =\\ ASP\\.auth_logon_aspx\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Outlook-Web-App Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<FORM action=\"(/CookieAuth.dll?Logon|/exchweb/bin/auth/owaauth.dll)\" method=\"POST\" name=\"logonForm\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<FORM action=\"(/CookieAuth\\.dll\\?Logon|/exchweb/bin/auth/owaauth\\.dll)\" method=\"POST\" name=\"logonForm\""
+      "pattern": "<FORM action=\"(/CookieAuth\\.dll\\?Logon|/exchweb/bin/auth/owaauth\\.dll)\" method=\"POST\" name=\"logonForm\"",
+      "version_group": 0
     },
     {
       "name": "html body",
@@ -86,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<TR><TD><P\\ style=\"color:red\">You\\ could\\ not\\ be\\ logged\\ on\\ to"
+      "pattern": "<TR><TD><P\\ style=\"color:red\">You\\ could\\ not\\ be\\ logged\\ on\\ to",
+      "version_group": 0
     },
     {
       "name": "html body",
@@ -108,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<TR><TD><P\\ style=\"color:red\">You\\ could\\ not\\ be\\ logged\\ on\\ to"
+      "pattern": "<TR><TD><P\\ style=\"color:red\">You\\ could\\ not\\ be\\ logged\\ on\\ to",
+      "version_group": 0
     },
     {
       "name": "html title",
@@ -130,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<TITLE>Microsoft\\ Outlook\\ Web\\ Access</TITLE>"
+      "pattern": "<TITLE>Microsoft\\ Outlook\\ Web\\ Access</TITLE>",
+      "version_group": 0
     },
     {
       "name": "Outlook-Web-App Pattern",
@@ -152,7 +164,9 @@
           }
         ]
       },
-      "pattern": "<td\\ style=\"width:100%\">To\\ use\\ Outlook\\ Web\\ App,\\ browser\\ settings\\ must\\ allow\\ scripts\\ to\\ run\\.\\ For\\ information\\ about\\ how\\ to\\ allow\\ scripts,\\ consult\\ the\\ Help\\ for\\ your\\ browser\\.\\ If\\ your\\ browser\\ doesn\\\\"
+      "pattern": "<td\\ style=\"width:100%\">To\\ use\\ Outlook\\ Web\\ App,\\ browser\\ settings\\ must\\ allow\\ scripts\\ to\\ run\\.\\ For\\ information\\ about\\ how\\ to\\ allow\\ scripts,\\ consult\\ the\\ Help\\ for\\ your\\ browser\\.\\ If\\ your\\ browser\\ doesn\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

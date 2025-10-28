@@ -1,0 +1,71 @@
+{
+  "vendor": "xCharts",
+  "vendor_id": "xcharts",
+  "product": "xCharts",
+  "product_id": "xcharts-xcharts",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "xCharts HTML Detection",
+      "pattern": "<link[^>]* href=\"[^\"]*xcharts(?:\\.min)?\\.css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects xCharts from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "xcharts"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "xCharts Script Detection",
+      "pattern": "xcharts\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects xCharts from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "xcharts"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "xCharts JavaScript Detection",
+      "pattern": "window\\.xChart|xChart\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects xCharts from JavaScript variable 'xChart'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "xcharts"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<span\\ \\ style=\"font\\-size:12px\"><a\\ href=\"http://www\\.VidiScript\\.com\"><b>Free\\ Open\\ Source\\ Video\\ Script</b></a>\\&nbsp;Powered\\ By\\&nbsp;<a\\ href=\"http://www\\.VidiScript\\.com\"><b>VidiScript\\.com</b></a>\\ \\|\\ \\ \\ \\ <b>"
+      "pattern": "<span\\ \\ style=\"font\\-size:12px\"><a\\ href=\"http://www\\.VidiScript\\.com\"><b>Free\\ Open\\ Source\\ Video\\ Script</b></a>\\&nbsp;Powered\\ By\\&nbsp;<a\\ href=\"http://www\\.VidiScript\\.com\"><b>VidiScript\\.com</b></a>\\ \\|\\ \\ \\ \\ <b>",
+      "version_group": 0
     },
     {
       "name": "VidiScript Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href='http://www\\.VidiScript\\.com'><b>Free\\ Video\\ Script</b></a>\\&nbsp;Powered\\ By\\&nbsp;<a\\ href='http://www\\.VidiScript\\.com'><b>VidiScript\\.com</b></a>"
+      "pattern": "<a\\ href='http://www\\.VidiScript\\.com'><b>Free\\ Video\\ Script</b></a>\\&nbsp;Powered\\ By\\&nbsp;<a\\ href='http://www\\.VidiScript\\.com'><b>VidiScript\\.com</b></a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

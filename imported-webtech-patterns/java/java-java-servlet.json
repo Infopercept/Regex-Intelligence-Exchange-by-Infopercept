@@ -1,0 +1,31 @@
+{
+  "vendor": "Java",
+  "vendor_id": "java",
+  "product": "Java Servlet",
+  "product_id": "java-java-servlet",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Java Servlet Header Detection",
+      "pattern": "X-Powered-By: Servlet(?:.([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Java Servlet from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "java-servlet"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

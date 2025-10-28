@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"miootOnOffDiv\"\\ class=\"online\">"
+      "pattern": "<div\\ id=\"miootOnOffDiv\"\\ class=\"online\">",
+      "version_group": 0
     },
     {
       "name": "Mioot-Live-Chat Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"miootOnOffDiv\"\\ style=\"display:inline;\">"
+      "pattern": "<div\\ id=\"miootOnOffDiv\"\\ style=\"display:inline;\">",
+      "version_group": 0
     },
     {
       "name": "Mioot-Live-Chat Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"miootOnOffDiv\">"
+      "pattern": "<div\\ id=\"miootOnOffDiv\">",
+      "version_group": 0
     },
     {
       "name": "Mioot-Live-Chat Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"miootOnOffDiv\""
+      "pattern": "<div\\ id=\"miootOnOffDiv\"",
+      "version_group": 0
     },
     {
       "name": "Mioot-Live-Chat Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Start\\ LIVE\\ CHAT\\ image\\ tag,\\ for\\ details\\ visit\\ www\\.mioot\\.com\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Start\\ LIVE\\ CHAT\\ image\\ tag,\\ for\\ details\\ visit\\ www\\.mioot\\.com\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Mioot-Live-Chat Pattern",
@@ -136,7 +141,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"javascript:OnOffImage\\(\\\\"
+      "pattern": "<a\\ href=\"javascript:OnOffImage\\(\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

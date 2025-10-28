@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Grandstream\\ Device\\ Configuration</title>"
+      "pattern": "<title>Grandstream\\ Device\\ Configuration</title>",
+      "version_group": 0
     },
     {
       "name": "Grandstream-Phone Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "All\\ Rights\\ Reserved\\ Grandstream\\ Networks,\\ Inc\\."
+      "pattern": "All\\ Rights\\ Reserved\\ Grandstream\\ Networks,\\ Inc\\.",
+      "version_group": 0
     },
     {
       "name": "Grandstream-Phone Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Grandstream",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Grandstream"
+      "pattern": "^Grandstream",
+      "version_group": 0
     },
     {
       "name": "Grandstream-Phone Pattern",
@@ -112,5 +121,6 @@
       "pattern": "Server: ^Grandstream/([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

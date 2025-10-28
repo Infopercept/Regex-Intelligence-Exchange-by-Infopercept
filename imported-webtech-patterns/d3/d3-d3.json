@@ -1,0 +1,51 @@
+{
+  "vendor": "D3",
+  "vendor_id": "d3",
+  "product": "D3",
+  "product_id": "d3-d3",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "D3 Script Detection",
+      "pattern": "/d3(?:\\. v\\d+)?(?:\\.min)?\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects D3 from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "d3"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "D3 JavaScript Detection",
+      "pattern": "window\\.d3\\.version|d3\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects D3 from JavaScript variable 'd3.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "d3"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

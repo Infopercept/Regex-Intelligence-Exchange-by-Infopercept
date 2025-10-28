@@ -1,0 +1,31 @@
+{
+  "vendor": "Rakuten",
+  "vendor_id": "rakuten",
+  "product": "Rakuten Digital Commerce",
+  "product_id": "rakuten-rakuten-digital-commerce",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Rakuten Digital Commerce JavaScript Detection",
+      "pattern": "window\\.RakutenApplication|RakutenApplication\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Rakuten Digital Commerce from JavaScript variable 'RakutenApplication'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "rakuten-digital-commerce"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

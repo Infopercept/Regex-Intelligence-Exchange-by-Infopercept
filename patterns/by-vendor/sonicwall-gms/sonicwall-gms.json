@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>SonicWALL\\ GMS\\ Login</title>"
+      "pattern": "<title>SonicWALL\\ GMS\\ Login</title>",
+      "version_group": 0
     },
     {
       "name": "SonicWALL-GMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>SonicWALL\\ GMS\\ Login\\ Screen</title>"
+      "pattern": "<title>SonicWALL\\ GMS\\ Login\\ Screen</title>",
+      "version_group": 0
     },
     {
       "name": "SonicWALL-GMS Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<body\\ background=\"images/gray_waves\\.back\\.gif\"\\ leftmargin=\"0\"\\ topmargin=\"0\"\\ marginwidth=\"0\"\\ marginheight=\"0\"\\ onLoad=\"onLoadFunc\\(\\)\">"
+      "pattern": "<body\\ background=\"images/gray_waves\\.back\\.gif\"\\ leftmargin=\"0\"\\ topmargin=\"0\"\\ marginwidth=\"0\"\\ marginheight=\"0\"\\ onLoad=\"onLoadFunc\\(\\)\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,51 @@
+{
+  "vendor": "Envoy",
+  "vendor_id": "envoy",
+  "product": "Envoy",
+  "product_id": "envoy-envoy",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Envoy Header Detection",
+      "pattern": "Server: ^envoy$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Envoy from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "envoy"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Envoy Header Detection",
+      "pattern": "x-envoy-upstream-service-time: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Envoy from x-envoy-upstream-service-time header",
+        "tags": [
+          "webtech",
+          "header",
+          "envoy"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

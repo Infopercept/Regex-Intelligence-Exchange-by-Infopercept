@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>LK\\ IHC\\ controller\\ forside</title>"
+      "pattern": "<title>LK\\ IHC\\ controller\\ forside</title>",
+      "version_group": 0
     },
     {
       "name": "LK-IHC-Controller Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<table\\ width=\"640\"\\ height=\"480\"\\ border=\"0\"\\ cellspacing=\"0\"\\ cellpadding=\"0\"\\ \\ background=\"images/bg_image_LK\\.jpg\">"
+      "pattern": "<table\\ width=\"640\"\\ height=\"480\"\\ border=\"0\"\\ cellspacing=\"0\"\\ cellpadding=\"0\"\\ \\ background=\"images/bg_image_LK\\.jpg\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

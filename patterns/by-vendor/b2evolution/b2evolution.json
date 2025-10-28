@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "rsc/img/powered-by-b2evolution-150t.gif\" alt=\"Powered by b2evolution\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "rsc/img/powered-by-b2evolution-150t.gif\" alt=\"Powered by b2evolution\""
+      "pattern": "rsc/img/powered-by-b2evolution-150t.gif\" alt=\"Powered by b2evolution\"",
+      "version_group": 0
     },
     {
       "name": "b2evolution Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://b2evolution.net[/]*\"[^>]+>b2evolution</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <a href=\"http://b2evolution.net[/]*\"[^>]+>b2evolution</a>"
+      "pattern": "Powered by <a href=\"http://b2evolution.net[/]*\"[^>]+>b2evolution</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

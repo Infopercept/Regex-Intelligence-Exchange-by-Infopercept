@@ -1,0 +1,71 @@
+{
+  "vendor": "DoubleClick",
+  "vendor_id": "doubleclick",
+  "product": "DoubleClick Ad Exchange (AdX)",
+  "product_id": "doubleclick-doubleclick-ad-exchange-(adx)",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DoubleClick Ad Exchange (AdX) Script Detection",
+      "pattern": "googlesyndication\\.com/pagead/show_ads\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DoubleClick Ad Exchange (AdX) from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "doubleclick-ad-exchange-(adx)"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "DoubleClick Ad Exchange (AdX) Script Detection",
+      "pattern": "tpc\\.googlesyndication\\.com/safeframe",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DoubleClick Ad Exchange (AdX) from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "doubleclick-ad-exchange-(adx)"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "DoubleClick Ad Exchange (AdX) Script Detection",
+      "pattern": "googlesyndication\\.com.*abg\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DoubleClick Ad Exchange (AdX) from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "doubleclick-ad-exchange-(adx)"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

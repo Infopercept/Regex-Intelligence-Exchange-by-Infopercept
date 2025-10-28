@@ -1,0 +1,71 @@
+{
+  "vendor": "jQuery",
+  "vendor_id": "jquery",
+  "product": "jQuery",
+  "product_id": "jquery-jquery",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "jQuery Script Detection",
+      "pattern": "jquery[.-]([\\d.]*\\d)[^/]*\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects jQuery from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "jquery"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "jQuery Script Detection",
+      "pattern": "/([\\d.]+)/jquery(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects jQuery from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "jquery"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "jQuery Script Detection",
+      "pattern": "jquery.*\\.js(?:\\?ver(?:sion)?=([\\d.]+))?",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects jQuery from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "jquery"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

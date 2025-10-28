@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<(param|embed) [^>]*youtube.com/v",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<(param|embed) [^>]*youtube\\.com/v"
+      "pattern": "<(param|embed) [^>]*youtube\\.com/v",
+      "version_group": 0
     },
     {
       "name": "YouTube Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<iframe\\ class=\"youtube\\-player\""
+      "pattern": "<iframe\\ class=\"youtube\\-player\"",
+      "version_group": 0
     },
     {
       "name": "YouTube Pattern",
@@ -56,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<iframe [^>]*src=['\"]https?://(www.)?youtube.com/embed/",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<iframe [^>]*src=['\"]https?://(www\\.)?youtube\\.com/embed/"
+      "pattern": "<iframe [^>]*src=['\"]https?://(www\\.)?youtube\\.com/embed/",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

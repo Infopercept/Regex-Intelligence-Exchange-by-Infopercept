@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "If\\ you\\ see\\ this\\ page,\\ the\\ OpenResty\\ web\\ platform\\ is\\ successfully\\ installed\\ and\\ working"
+      "pattern": "If\\ you\\ see\\ this\\ page,\\ the\\ OpenResty\\ web\\ platform\\ is\\ successfully\\ installed\\ and\\ working",
+      "version_group": 0
     },
     {
       "name": "OpenResty Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<hr><center>openresty</center>s*</body>s*</html>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<hr><center>openresty</center>\\s*</body>\\s*</html>"
+      "pattern": "<hr><center>openresty</center>\\s*</body>\\s*</html>",
+      "version_group": 0
     },
     {
       "name": "OpenResty Pattern",
@@ -67,5 +75,6 @@
       "pattern": "Server: ^openresty/(.*)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

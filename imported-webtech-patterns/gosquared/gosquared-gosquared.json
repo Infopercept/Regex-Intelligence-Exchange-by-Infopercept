@@ -1,0 +1,31 @@
+{
+  "vendor": "GoSquared",
+  "vendor_id": "gosquared",
+  "product": "GoSquared",
+  "product_id": "gosquared-gosquared",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "GoSquared JavaScript Detection",
+      "pattern": "window\\._gs|_gs\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GoSquared from JavaScript variable '_gs'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "gosquared"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

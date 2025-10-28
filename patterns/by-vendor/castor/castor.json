@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<html><head><title>CAStor\\ Node\\ Status</title></head><body><h2>CAStor\\ Node\\ IP"
+      "pattern": "<html><head><title>CAStor\\ Node\\ Status</title></head><body><h2>CAStor\\ Node\\ IP",
+      "version_group": 0
     },
     {
       "name": "CAStor Pattern",
@@ -63,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^[d]+$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^[\\d]+$"
+      "pattern": "^[\\d]+$",
+      "version_group": 0
     },
     {
       "name": "CAStor Pattern",
@@ -79,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^[d]+$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^[\\d]+$"
+      "pattern": "^[\\d]+$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

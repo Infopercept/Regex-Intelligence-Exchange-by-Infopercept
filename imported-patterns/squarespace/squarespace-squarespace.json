@@ -1,0 +1,51 @@
+{
+  "vendor": "Squarespace",
+  "vendor_id": "squarespace",
+  "product": "Squarespace",
+  "product_id": "squarespace-squarespace",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Squarespace Header Detection",
+      "pattern": "X-ServedBy: squarespace",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Squarespace from X-ServedBy header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "squarespace"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Squarespace HTML Detection",
+      "pattern": "<!-- This is Squarespace\\. -->",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Squarespace from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "squarespace"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

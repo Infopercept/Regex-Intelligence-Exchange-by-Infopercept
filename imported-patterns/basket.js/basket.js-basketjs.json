@@ -1,0 +1,31 @@
+{
+  "vendor": "basket.js",
+  "vendor_id": "basket.js",
+  "product": "basket.js",
+  "product_id": "basket.js-basketjs",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "basket.js Script Detection",
+      "pattern": "basket.*\\.js\\;confidence:10",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects basket.js from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "basket.js"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

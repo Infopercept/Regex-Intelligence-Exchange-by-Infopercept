@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"wiki\"\\ content=\"xwiki\"/>"
+      "pattern": "<meta\\ name=\"wiki\"\\ content=\"xwiki\"/>",
+      "version_group": 0
     },
     {
       "name": "XWiki Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"xwikilicence\">"
+      "pattern": "<div\\ id=\"xwikilicence\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

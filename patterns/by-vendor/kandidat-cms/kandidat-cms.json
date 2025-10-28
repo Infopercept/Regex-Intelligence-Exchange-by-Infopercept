@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by[ ]?[:]? <a href=\"http://www.kan-studio.ru[/]?\">Kandidat CMS</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by[\\ ]?[:]? <a href=\"http://www.kan-studio.ru[/]?\">Kandidat CMS</a>"
+      "pattern": "Powered by[\\ ]?[:]? <a href=\"http://www.kan-studio.ru[/]?\">Kandidat CMS</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

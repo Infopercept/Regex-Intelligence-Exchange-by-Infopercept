@@ -1,0 +1,71 @@
+{
+  "vendor": "Atlassian",
+  "vendor_id": "atlassian",
+  "product": "Atlassian Statuspage",
+  "product_id": "atlassian-atlassian-statuspage",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Atlassian Statuspage Header Detection",
+      "pattern": "X-StatusPage-Skip-Logging: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Atlassian Statuspage from X-StatusPage-Skip-Logging header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "atlassian-statuspage"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Atlassian Statuspage Header Detection",
+      "pattern": "X-StatusPage-Version: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Atlassian Statuspage from X-StatusPage-Version header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "atlassian-statuspage"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Atlassian Statuspage HTML Detection",
+      "pattern": "<a[^>]*href=\"https?://(?:www\\.)?statuspage\\.io/powered-by[^>]+>",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Atlassian Statuspage from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "atlassian-statuspage"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

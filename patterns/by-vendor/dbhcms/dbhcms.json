@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<a\\ target=\"_blank\"\\ href=\"http://www\\.drbenhur\\.com/\"\\ class=\"copyright\">\\ powered\\ by\\ DBHcms\\ </a>"
+      "pattern": "<a\\ target=\"_blank\"\\ href=\"http://www\\.drbenhur\\.com/\"\\ class=\"copyright\">\\ powered\\ by\\ DBHcms\\ </a>",
+      "version_group": 0
     },
     {
       "name": "DBHcms Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--[s]+Please leave this link on your website, it will help a lot for the DBHcms to get well-known.",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!--[\\s]+Please leave this link on your website, it will help a lot for the DBHcms to get well-known."
+      "pattern": "<!--[\\s]+Please leave this link on your website, it will help a lot for the DBHcms to get well-known.",
+      "version_group": 0
     },
     {
       "name": "DBHcms Pattern",
@@ -56,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--[s]+Change the copyright but please leave a link \"powered by DBHcms\" to http://www.drbenhur.com[s]",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!--[\\s]+Change the copyright but please leave a link \"powered by DBHcms\" to http://www.drbenhur.com[\\s]"
+      "pattern": "<!--[\\s]+Change the copyright but please leave a link \"powered by DBHcms\" to http://www.drbenhur.com[\\s]",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

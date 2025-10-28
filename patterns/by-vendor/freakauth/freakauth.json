@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>FreakAuth &raquo; [^<]+</title>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>FreakAuth &raquo; [^<]+</title>"
+      "pattern": "<title>FreakAuth &raquo; [^<]+</title>",
+      "version_group": 0
     },
     {
       "name": "FreakAuth Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Welcome on board ! / <a href=\"http[^\"]+\">Login</a>\t\t</div>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Welcome on board ! / <a href=\"http[^\"]+\">Login</a>\t\t</div>"
+      "pattern": "Welcome on board ! / <a href=\"http[^\"]+\">Login</a>\t\t</div>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

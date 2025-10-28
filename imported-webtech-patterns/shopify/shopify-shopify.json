@@ -1,0 +1,91 @@
+{
+  "vendor": "Shopify",
+  "vendor_id": "shopify",
+  "product": "Shopify",
+  "product_id": "shopify-shopify",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Shopify Header Detection",
+      "pattern": "x-shopid: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Shopify from x-shopid header",
+        "tags": [
+          "webtech",
+          "header",
+          "shopify"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Shopify Header Detection",
+      "pattern": "x-shopify-stage: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Shopify from x-shopify-stage header",
+        "tags": [
+          "webtech",
+          "header",
+          "shopify"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Shopify HTML Detection",
+      "pattern": "<link[^>]+=['\"]//cdn\\.shopify\\.com",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Shopify from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "shopify"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Shopify JavaScript Detection",
+      "pattern": "window\\.Shopify|Shopify\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Shopify from JavaScript variable 'Shopify'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "shopify"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

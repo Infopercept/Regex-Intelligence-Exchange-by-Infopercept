@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.geeklog\\.net/\">Geeklog</a>"
+      "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.geeklog\\.net/\">Geeklog</a>",
+      "version_group": 0
     },
     {
       "name": "GeekLog Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ By\\ <a\\ class=\"footer\"\\ href=\"http://www\\.geeklog\\.net/\">GeekLog</a>"
+      "pattern": "Powered\\ By\\ <a\\ class=\"footer\"\\ href=\"http://www\\.geeklog\\.net/\">GeekLog</a>",
+      "version_group": 0
     },
     {
       "name": "GeekLog Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-If\\ you\\ want\\ the\\ splash,\\ uncomment\\ the\\ last\\ line\\.\\ If\\ you\\ want\\ no\\ splash,\\ make\\ sure\\ it\\ is\\ commented\\ out\\.\\-\\->"
+      "pattern": "<!\\-\\-If\\ you\\ want\\ the\\ splash,\\ uncomment\\ the\\ last\\ line\\.\\ If\\ you\\ want\\ no\\ splash,\\ make\\ sure\\ it\\ is\\ commented\\ out\\.\\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

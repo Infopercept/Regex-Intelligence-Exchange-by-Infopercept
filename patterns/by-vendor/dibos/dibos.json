@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>DiBos - Login</title>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>DiBos - Login</title>"
+      "pattern": "<title>DiBos - Login</title>",
+      "version_group": 0
     },
     {
       "name": "DiBos Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"STYLESHEET\"\\ type=\"text/css\"\\ href=\"style/bovisnt\\.css\"></link>"
+      "pattern": "<link\\ rel=\"STYLESHEET\"\\ type=\"text/css\"\\ href=\"style/bovisnt\\.css\"></link>",
+      "version_group": 0
     },
     {
       "name": "DiBos Pattern",
@@ -64,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<h2>Object\\ moved\\ to\\ <a\\ href=\"/Error\\.aspx\\?error=wrongbrowser\">here</a>\\.</h2>"
+      "pattern": "<h2>Object\\ moved\\ to\\ <a\\ href=\"/Error\\.aspx\\?error=wrongbrowser\">here</a>\\.</h2>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

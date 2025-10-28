@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ HP\\ Virtual\\ Connect\\ Manager\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\-\\->"
+      "pattern": "<!\\-\\-\\ HP\\ Virtual\\ Connect\\ Manager\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "HP-Virtual-Connect-Manager Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<h2><img\\ src=\"\\./images/progress_bar_large\\.gif\"></h2><br\\ />Loading,\\ please\\ wait\\.\\.\\."
+      "pattern": "<h2><img\\ src=\"\\./images/progress_bar_large\\.gif\"></h2><br\\ />Loading,\\ please\\ wait\\.\\.\\.",
+      "version_group": 0
     },
     {
       "name": "HP-Virtual-Connect-Manager Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<title>HP\\ Virtual\\ Connect\\ Manager</title>"
+      "pattern": "<title>HP\\ Virtual\\ Connect\\ Manager</title>",
+      "version_group": 0
     },
     {
       "name": "HP-Virtual-Connect-Manager Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<frame\\ id='MX_HIDDEN'\\ name='MX_HIDDEN'\\ src=\\\\"
+      "pattern": "<frame\\ id='MX_HIDDEN'\\ name='MX_HIDDEN'\\ src=\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

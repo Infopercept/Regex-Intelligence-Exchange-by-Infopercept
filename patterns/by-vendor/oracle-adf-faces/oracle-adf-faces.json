@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"Oracle\\ ADF\\ Faces\">"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"Oracle\\ ADF\\ Faces\">",
+      "version_group": 0
     },
     {
       "name": "Oracle-ADF-Faces Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<script>var\\ _AdfWindowOpenError='A\\ popup\\ window\\ blocker\\ has\\ been\\ detected\\ in\\ your\\ browser\\.\\ Popup\\ blockers\\ interfere\\ with\\ the\\ operation\\ of\\ this\\ application\\.\\ Please\\ disable\\ your\\ popup\\ blocker\\ or\\ allow\\ popups\\ from\\ this\\ site\\.';</script>"
+      "pattern": "<script>var\\ _AdfWindowOpenError='A\\ popup\\ window\\ blocker\\ has\\ been\\ detected\\ in\\ your\\ browser\\.\\ Popup\\ blockers\\ interfere\\ with\\ the\\ operation\\ of\\ this\\ application\\.\\ Please\\ disable\\ your\\ popup\\ blocker\\ or\\ allow\\ popups\\ from\\ this\\ site\\.';</script>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

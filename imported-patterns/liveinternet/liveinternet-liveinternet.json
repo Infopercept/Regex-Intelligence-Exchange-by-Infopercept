@@ -1,0 +1,111 @@
+{
+  "vendor": "Liveinternet",
+  "vendor_id": "liveinternet",
+  "product": "Liveinternet",
+  "product_id": "liveinternet-liveinternet",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Liveinternet HTML Detection",
+      "pattern": "<script[^<>]*>[^]{0,128}?src\\s*=\\s*['\"]//counter\\.yadro\\.ru/hit(?:;\\S+)?\\?(?:t\\d+\\.\\d+;)?r",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Liveinternet from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "liveinternet"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Liveinternet HTML Detection",
+      "pattern": "<!--LiveInternet counter-->",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Liveinternet from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "liveinternet"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Liveinternet HTML Detection",
+      "pattern": "<!--/LiveInternet-->",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Liveinternet from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "liveinternet"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Liveinternet HTML Detection",
+      "pattern": "<a href=\"http://www\\.liveinternet\\.ru/click\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Liveinternet from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "liveinternet"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Liveinternet Script Detection",
+      "pattern": "/js/al/common\\.js\\?[0-9_]+",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Liveinternet from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "liveinternet"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

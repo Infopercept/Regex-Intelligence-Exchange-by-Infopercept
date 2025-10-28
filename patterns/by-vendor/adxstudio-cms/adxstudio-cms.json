@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "anonprofile",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "anonprofile"
+      "pattern": "anonprofile",
+      "version_group": 0
     },
     {
       "name": "adxstudio-cms Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "/PoweredByADX\\.gif"
+      "pattern": "/PoweredByADX\\.gif",
+      "version_group": 0
     },
     {
       "name": "adxstudio-cms Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "alt=\"Powered\\ by\\ Adxstudio\""
+      "pattern": "alt=\"Powered\\ by\\ Adxstudio\"",
+      "version_group": 0
     },
     {
       "name": "adxstudio-cms Pattern",
@@ -86,7 +95,9 @@
           }
         ]
       },
-      "pattern": "/poweredbyadx\\.png"
+      "pattern": "/poweredbyadx\\.png",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

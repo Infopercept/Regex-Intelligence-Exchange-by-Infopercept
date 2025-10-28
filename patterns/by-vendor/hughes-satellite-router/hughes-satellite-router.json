@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<frame\\ src=/fs/dynaform/dw_logo\\.html\\ scrolling=no\\ marginheight=0\\ marginwidth=0\\ NORESIZE>"
+      "pattern": "<frame\\ src=/fs/dynaform/dw_logo\\.html\\ scrolling=no\\ marginheight=0\\ marginwidth=0\\ NORESIZE>",
+      "version_group": 0
     },
     {
       "name": "Hughes-Satellite-Router Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Basic realm=\"HUGHES Terminal\"$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Basic realm=\"HUGHES Terminal\"$"
+      "pattern": "^Basic realm=\"HUGHES Terminal\"$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

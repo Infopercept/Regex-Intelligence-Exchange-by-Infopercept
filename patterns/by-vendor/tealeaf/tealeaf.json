@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^TLTSID",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^TLTSID"
+      "pattern": "^TLTSID",
+      "version_group": 0
     },
     {
       "name": "TLTUID cookie",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^TLTUID",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^TLTUID"
+      "pattern": "^TLTUID",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

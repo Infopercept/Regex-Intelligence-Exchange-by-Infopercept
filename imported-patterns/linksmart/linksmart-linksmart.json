@@ -1,0 +1,31 @@
+{
+  "vendor": "LinkSmart",
+  "vendor_id": "linksmart",
+  "product": "LinkSmart",
+  "product_id": "linksmart-linksmart",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "LinkSmart Script Detection",
+      "pattern": "^https?://cdn\\.linksmart\\.com/linksmart_([\\d.]+?)(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects LinkSmart from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "linksmart"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

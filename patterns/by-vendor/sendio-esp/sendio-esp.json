@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<frameset\\ id=\"icetopframeset\"\\ name=\"icetopframeset\"\\ rows=\"28,\\*,20,0,0,0\""
+      "pattern": "<frameset\\ id=\"icetopframeset\"\\ name=\"icetopframeset\"\\ rows=\"28,\\*,20,0,0,0\"",
+      "version_group": 0
     },
     {
       "name": "Sendio-ESP Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/sendio/ice/css/nice\\.css\"\\ />"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/sendio/ice/css/nice\\.css\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

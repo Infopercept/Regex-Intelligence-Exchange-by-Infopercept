@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "SWIFT_client"
+      "pattern": "SWIFT_client",
+      "version_group": 0
     },
     {
       "name": "Kayako-SupportSuite Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\ \\-\\ Powered\\ By\\ Kayako\\ eSupport</title>"
+      "pattern": "\\ \\-\\ Powered\\ By\\ Kayako\\ eSupport</title>",
+      "version_group": 0
     },
     {
       "name": "Kayako-SupportSuite Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span class=\"smalltext\"><font color=\"#333333\">Powered by e(Support|SupportSuite)<br",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<span class=\"smalltext\"><font color=\"#333333\">Powered by e(Support|SupportSuite)<br\\"
+      "pattern": "<span class=\"smalltext\"><font color=\"#333333\">Powered by e(Support|SupportSuite)<br\\",
+      "version_group": 0
     },
     {
       "name": "Kayako-SupportSuite Pattern",
@@ -86,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"bottomfooter\"\\ class=\"bottomfooterpadding\"><a\\ href=\"http://www\\.kayako\\.com\"\\ target=\"_blank\"\\ class=\"bottomfooterlink\">Help\\ Desk\\ Software\""
+      "pattern": "<div\\ id=\"bottomfooter\"\\ class=\"bottomfooterpadding\"><a\\ href=\"http://www\\.kayako\\.com\"\\ target=\"_blank\"\\ class=\"bottomfooterlink\">Help\\ Desk\\ Software\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

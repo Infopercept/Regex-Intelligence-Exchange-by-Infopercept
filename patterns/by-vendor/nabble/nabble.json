@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ class=\"nabble\"\\ id=\"nabble\">"
+      "pattern": "<div\\ class=\"nabble\"\\ id=\"nabble\">",
+      "version_group": 0
     },
     {
       "name": "Nabble Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.nabble\\.com/\"\\ target=\"_top\"\\ title=\"Free\\ forum\\ and\\ other\\ embeddable\\ web\\ apps\">Nabble</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.nabble\\.com/\"\\ target=\"_top\"\\ title=\"Free\\ forum\\ and\\ other\\ embeddable\\ web\\ apps\">Nabble</a>",
+      "version_group": 0
     },
     {
       "name": "Nabble Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<table\\ class=\"footer\\-table\\ shaded\\-bg\\-color\">"
+      "pattern": "<table\\ class=\"footer\\-table\\ shaded\\-bg\\-color\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<BR><A\\ HREF=forgot\\.php\\?Submit2=1\\&email=>Forgot\\ your\\ password</A>\\?"
+      "pattern": "<BR><A\\ HREF=forgot\\.php\\?Submit2=1\\&email=>Forgot\\ your\\ password</A>\\?",
+      "version_group": 0
     },
     {
       "name": "Digital-Scribe Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<IMG\\ SRC=/DigitalScribe/images/logosmall\\.gif\\ width=158\\ height=63\\ alt=\"Digital\\ Scribe\\ Logo\"\\ border=0></a>"
+      "pattern": "<IMG\\ SRC=/DigitalScribe/images/logosmall\\.gif\\ width=158\\ height=63\\ alt=\"Digital\\ Scribe\\ Logo\"\\ border=0></a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

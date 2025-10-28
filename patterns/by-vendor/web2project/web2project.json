@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>web2Project\\ Development\\ ::\\ web2Project\\ Login</title>"
+      "pattern": "<title>web2Project\\ Development\\ ::\\ web2Project\\ Login</title>",
+      "version_group": 0
     },
     {
       "name": "web2Project Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "</head><body>Fatal\\ Error\\.\\ You\\ haven't\\ created\\ a\\ config\\ file\\ yet\\.<br/><a\\ href="
+      "pattern": "</head><body>Fatal\\ Error\\.\\ You\\ haven't\\ created\\ a\\ config\\ file\\ yet\\.<br/><a\\ href=",
+      "version_group": 0
     },
     {
       "name": "web2Project Pattern",
@@ -62,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "web2project=[^;]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "web2project=[^;]+;"
+      "pattern": "web2project=[^;]+;",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

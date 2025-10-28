@@ -1,0 +1,31 @@
+{
+  "vendor": "JBoss",
+  "vendor_id": "jboss",
+  "product": "JBoss Application Server",
+  "product_id": "jboss-jboss-application-server",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "JBoss Application Server Header Detection",
+      "pattern": "X-Powered-By: JBoss(?:-([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects JBoss Application Server from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "jboss-application-server"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

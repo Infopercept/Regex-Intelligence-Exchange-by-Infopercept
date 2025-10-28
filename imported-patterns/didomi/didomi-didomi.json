@@ -1,0 +1,31 @@
+{
+  "vendor": "Didomi",
+  "vendor_id": "didomi",
+  "product": "Didomi",
+  "product_id": "didomi-didomi",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Didomi Script Detection",
+      "pattern": "sdk\\.privacy-center\\.org/.*/loader\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Didomi from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "didomi"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

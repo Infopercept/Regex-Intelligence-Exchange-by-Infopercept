@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\\t<meta\\ name=\"generator\"\\ content=\"DT\\ Centrepiece\\ \\-\\ www\\.dt\\.net\\.nz/centrepiece/\"\\ />"
+      "pattern": "\\\t<meta\\ name=\"generator\"\\ content=\"DT\\ Centrepiece\\ \\-\\ www\\.dt\\.net\\.nz/centrepiece/\"\\ />",
+      "version_group": 0
     },
     {
       "name": "DT-Centrepiece Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.dt\\.net\\.nz/centrepiece/\"\\ target=\"_blank\">Powered\\ By\\ DT\\ Centrepiece</a>"
+      "pattern": "<a\\ href=\"http://www\\.dt\\.net\\.nz/centrepiece/\"\\ target=\"_blank\">Powered\\ By\\ DT\\ Centrepiece</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

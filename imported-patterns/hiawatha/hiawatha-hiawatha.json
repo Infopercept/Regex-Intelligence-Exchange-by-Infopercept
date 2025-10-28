@@ -1,0 +1,31 @@
+{
+  "vendor": "Hiawatha",
+  "vendor_id": "hiawatha",
+  "product": "Hiawatha",
+  "product_id": "hiawatha-hiawatha",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Hiawatha Header Detection",
+      "pattern": "Server: Hiawatha v([\\d.]+)",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Hiawatha from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "hiawatha"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "bb2_screener_",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "bb2_screener_"
+      "pattern": "bb2_screener_",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

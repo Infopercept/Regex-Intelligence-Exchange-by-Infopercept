@@ -1,0 +1,111 @@
+{
+  "vendor": "Flywheel",
+  "vendor_id": "flywheel",
+  "product": "Flywheel",
+  "product_id": "flywheel-flywheel",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Flywheel Header Detection",
+      "pattern": "x-fw-hash: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Flywheel from x-fw-hash header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "flywheel"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Flywheel Header Detection",
+      "pattern": "x-fw-serve: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Flywheel from x-fw-serve header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "flywheel"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Flywheel Header Detection",
+      "pattern": "x-fw-server: ^Flywheel(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Flywheel from x-fw-server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "flywheel"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Flywheel Header Detection",
+      "pattern": "x-fw-static: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Flywheel from x-fw-static header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "flywheel"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Flywheel Header Detection",
+      "pattern": "x-fw-type: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Flywheel from x-fw-type header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "flywheel"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

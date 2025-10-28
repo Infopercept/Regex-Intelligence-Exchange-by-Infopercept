@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<head><title>NBX\\ NetSet</title>"
+      "pattern": "<head><title>NBX\\ NetSet</title>",
+      "version_group": 0
     },
     {
       "name": "3COM-NBX Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<HEAD><TITLE>NBX\\ NetSet</TITLE>"
+      "pattern": "<HEAD><TITLE>NBX\\ NetSet</TITLE>",
+      "version_group": 0
     },
     {
       "name": "3COM-NBX Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ \\(c\\)\\ Copyright,\\ 3Com\\ Corporation\\ or\\ its\\ subsidiaries,\\ 2004\\.\\ \\ All\\ Rights\\ Reserved\\.\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ \\(c\\)\\ Copyright,\\ 3Com\\ Corporation\\ or\\ its\\ subsidiaries,\\ 2004\\.\\ \\ All\\ Rights\\ Reserved\\.\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "3COM-NBX Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Gregory\\ Brucato\\ \\ 4/22/98\\ \\ NBX\\ Corporation\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Gregory\\ Brucato\\ \\ 4/22/98\\ \\ NBX\\ Corporation\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "3COM-NBX Pattern",
@@ -114,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<span\\ class=\"splashTitleIPTelephony\">\\&nbsp;3Com<SUP><span\\ class=\"splashTitleNBXReg\">\\&reg;</span></SUP>\\ IP\\ Telephony\\ Solution</span>"
+      "pattern": "<span\\ class=\"splashTitleIPTelephony\">\\&nbsp;3Com<SUP><span\\ class=\"splashTitleNBXReg\">\\&reg;</span></SUP>\\ IP\\ Telephony\\ Solution</span>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

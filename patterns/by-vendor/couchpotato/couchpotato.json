@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<html><body><h1>Error\\ 401\\ Unauthorized</h1>Something\\ unexpected\\ has\\ happened\\.</body></html>"
+      "pattern": "<html><body><h1>Error\\ 401\\ Unauthorized</h1>Something\\ unexpected\\ has\\ happened\\.</body></html>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

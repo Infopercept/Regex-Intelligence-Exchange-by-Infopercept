@@ -1,0 +1,31 @@
+{
+  "vendor": "Auth0",
+  "vendor_id": "auth0",
+  "product": "Auth0 Lock",
+  "product_id": "auth0-auth0-lock",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Auth0 Lock Script Detection",
+      "pattern": "/lock/([\\d.]+)/lock(?:.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Auth0 Lock from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "auth0-lock"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

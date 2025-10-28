@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<p\\ class=\"admin\">Powered\\ by\\ <a\\ href=\"http://pithcms\\.altervista\\.org/index\\.php\\?pagina=data/info\\.php\">PithCMS</a>"
+      "pattern": "<p\\ class=\"admin\">Powered\\ by\\ <a\\ href=\"http://pithcms\\.altervista\\.org/index\\.php\\?pagina=data/info\\.php\">PithCMS</a>",
+      "version_group": 0
     },
     {
       "name": "PithCMS Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "/icons/admin48\\.png\"><br\\ />Welcome\\ Admin\\.<br\\ /><br\\ />"
+      "pattern": "/icons/admin48\\.png\"><br\\ />Welcome\\ Admin\\.<br\\ /><br\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

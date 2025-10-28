@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<a\\ class=\"pageupLink\"\\ href=\"http://www\\.pageuppeople\\.com\"\\ target=\"self\">Powered\\ by\\ PageUp\\ People</a>"
+      "pattern": "<a\\ class=\"pageupLink\"\\ href=\"http://www\\.pageuppeople\\.com\"\\ target=\"self\">Powered\\ by\\ PageUp\\ People</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

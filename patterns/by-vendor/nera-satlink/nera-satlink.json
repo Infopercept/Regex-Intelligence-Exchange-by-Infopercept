@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Basic realm=\"SatLink Terminal\"$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Basic realm=\"SatLink Terminal\"$"
+      "pattern": "^Basic realm=\"SatLink Terminal\"$",
+      "version_group": 0
     },
     {
       "name": "Nera-SatLink Pattern",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<FORM\\ ID\\ =\"statussatellite\"\\ name\\ =\\ \"statussatellite\"\\ method\\ =\\ \"GET\"\\ action\\ =\\ \"\">"
+      "pattern": "<FORM\\ ID\\ =\"statussatellite\"\\ name\\ =\\ \"statussatellite\"\\ method\\ =\\ \"GET\"\\ action\\ =\\ \"\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

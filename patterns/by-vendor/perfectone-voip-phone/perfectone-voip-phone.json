@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<body\\ OnLoad=\"JavaScript:document\\.loginform\\.user\\.focus\\(\\);\">"
+      "pattern": "<body\\ OnLoad=\"JavaScript:document\\.loginform\\.user\\.focus\\(\\);\">",
+      "version_group": 0
     },
     {
       "name": "Perfectone-VOIP-Phone Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<p\\ style=\"margin\\-top:\\ 5px\"><font\\ face=\"Arial\"><input\\ type=submit\\ value=\\\\"
+      "pattern": "<p\\ style=\"margin\\-top:\\ 5px\"><font\\ face=\"Arial\"><input\\ type=submit\\ value=\\\\",
+      "version_group": 0
     },
     {
       "name": "Perfectone-VOIP-Phone Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<font\\ face=\"Arial\"\\ color=\"\\#FFFFFF\"><b>Login\\ VoIP</b></font></i></td>\\ </tr>"
+      "pattern": "<font\\ face=\"Arial\"\\ color=\"\\#FFFFFF\"><b>Login\\ VoIP</b></font></i></td>\\ </tr>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

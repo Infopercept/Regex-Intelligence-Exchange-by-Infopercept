@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ var\\ myspecs\\ =\\ \"\\\\"
+      "pattern": "\\ \\ \\ \\ var\\ myspecs\\ =\\ \"\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

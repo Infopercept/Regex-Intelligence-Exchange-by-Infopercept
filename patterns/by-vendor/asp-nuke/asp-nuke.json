@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\\\\"
+      "pattern": "<meta\\ name=\\\\",
+      "version_group": 0
     },
     {
       "name": "ASP-Nuke Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\\\\"
+      "pattern": "<meta\\ name=\\\\",
+      "version_group": 0
     },
     {
       "name": "ASP-Nuke Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\\\\"
+      "pattern": "<meta\\ name=\\\\",
+      "version_group": 0
     },
     {
       "name": "ASP-Nuke Pattern",
@@ -84,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"/gotoURL.asp?url=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"/gotoURL.asp\\?url="
+      "pattern": "<a href=\"/gotoURL.asp\\?url=",
+      "version_group": 0
     },
     {
       "name": "ASP-Nuke Pattern",
@@ -108,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\\\\"
+      "pattern": "<a\\ href=\\\\",
+      "version_group": 0
     },
     {
       "name": "ASP-Nuke Pattern",
@@ -122,9 +133,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"Shortcut Icon\" href=\"[^>]*aspnuke.ico\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link rel=\"Shortcut Icon\" href=\"[^>]*aspnuke.ico\">"
+      "pattern": "<link rel=\"Shortcut Icon\" href=\"[^>]*aspnuke.ico\">",
+      "version_group": 0
     },
     {
       "name": "ASP-Nuke Pattern",
@@ -138,9 +156,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.aspnuke.it\" target=\"_blank\">ASP-Nuke [0-9.]*</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"http://www.aspnuke.it\" target=\"_blank\">ASP-Nuke [0-9\\.]*</a>"
+      "pattern": "<a href=\"http://www.aspnuke.it\" target=\"_blank\">ASP-Nuke [0-9\\.]*</a>",
+      "version_group": 0
     },
     {
       "name": "ASP-Nuke Pattern",
@@ -154,9 +179,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form name='Authentication' method='post' action='[^']*/authent.asp'>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<form name='Authentication' method='post' action='[^']*/authent.asp'>"
+      "pattern": "<form name='Authentication' method='post' action='[^']*/authent.asp'>",
+      "version_group": 0
     },
     {
       "name": "ASP-Nuke Pattern",
@@ -178,7 +210,8 @@
           }
         ]
       },
-      "pattern": "Designed\\ with\\ <a\\ href=\\\\"
+      "pattern": "Designed\\ with\\ <a\\ href=\\\\",
+      "version_group": 0
     },
     {
       "name": "ASP-Nuke Pattern",
@@ -200,7 +233,8 @@
           }
         ]
       },
-      "pattern": "<br>Designed\\ with\\ ASP\\-Nuke\\ v1\\.1\\+"
+      "pattern": "<br>Designed\\ with\\ ASP\\-Nuke\\ v1\\.1\\+",
+      "version_group": 0
     },
     {
       "name": "P3P Privacy Headers",
@@ -222,7 +256,9 @@
           }
         ]
       },
-      "pattern": "CP=\\\\"
+      "pattern": "CP=\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

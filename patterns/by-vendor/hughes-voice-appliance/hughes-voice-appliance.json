@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<HTML><HEAD></HEAD><BODY\\ onload=\"window\\.location=\\\\"
+      "pattern": "<HTML><HEAD></HEAD><BODY\\ onload=\"window\\.location=\\\\",
+      "version_group": 0
     },
     {
       "name": "Hughes-Voice-Appliance Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<head><title>HughesNet\\ Appliance\\ Control\\ Center</title></head>"
+      "pattern": "<head><title>HughesNet\\ Appliance\\ Control\\ Center</title></head>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

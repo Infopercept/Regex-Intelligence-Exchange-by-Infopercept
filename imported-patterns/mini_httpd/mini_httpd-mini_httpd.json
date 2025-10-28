@@ -1,0 +1,31 @@
+{
+  "vendor": "mini_httpd",
+  "vendor_id": "mini_httpd",
+  "product": "mini_httpd",
+  "product_id": "mini_httpd-mini_httpd",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "mini_httpd Header Detection",
+      "pattern": "Server: mini_httpd(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects mini_httpd from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "mini_httpd"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

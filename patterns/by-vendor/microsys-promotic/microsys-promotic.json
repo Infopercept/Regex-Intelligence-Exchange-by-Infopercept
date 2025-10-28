@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Promotic$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Promotic$"
+      "pattern": "^Promotic$",
+      "version_group": 0
     },
     {
       "name": "Microsys-PROMOTIC Pattern",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<html><head><title>PROMOTIC\\ Redirection</title></head>"
+      "pattern": "<html><head><title>PROMOTIC\\ Redirection</title></head>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Don't\\ contain\\ any\\ text\\ node\\ to\\ avoid\\ IE\\ insertBefore\\ bug\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Don't\\ contain\\ any\\ text\\ node\\ to\\ avoid\\ IE\\ insertBefore\\ bug\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "SYNO.SDS.Session JavaScript",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<script\\ type=\"text/javascript\">SYNO\\.SDS\\.Session\\ =\\ \\{"
+      "pattern": "<script\\ type=\"text/javascript\">SYNO\\.SDS\\.Session\\ =\\ \\{",
+      "version_group": 0
     },
     {
       "name": "Login Form HTML",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"sds\\-login\\-dialog\\-form\"\\ style=\"position:\\ absolute;\\ top:\\ \\-10000px;\\ left:\\ \\-10000px;\"><form\\ id=\"login\\-form\"\\ class=\"x\\-plain\\-body\"\\ method=\"POST\"\\ action=\"login\\.cgi\"\\ target=\"login_iframe\""
+      "pattern": "<div\\ id=\"sds\\-login\\-dialog\\-form\"\\ style=\"position:\\ absolute;\\ top:\\ \\-10000px;\\ left:\\ \\-10000px;\"><form\\ id=\"login\\-form\"\\ class=\"x\\-plain\\-body\"\\ method=\"POST\"\\ action=\"login\\.cgi\"\\ target=\"login_iframe\"",
+      "version_group": 0
     },
     {
       "name": "Stauts Header",
@@ -84,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^30[12] Moved",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^30[12] Moved"
+      "pattern": "^30[12] Moved",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

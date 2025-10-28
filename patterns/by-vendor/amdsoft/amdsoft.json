@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "style=\"color: aliceblue\"><span style=\"color: gray\">Powereds+by</span> </span><a href=\"http://www.iranfairit.com\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "style=\"color: aliceblue\"><span style=\"color: gray\">Powered\\s+by</span> </span><a href=\"http://www\\.iranfairit\\.com\">"
+      "pattern": "style=\"color: aliceblue\"><span style=\"color: gray\">Powered\\s+by</span> </span><a href=\"http://www\\.iranfairit\\.com\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

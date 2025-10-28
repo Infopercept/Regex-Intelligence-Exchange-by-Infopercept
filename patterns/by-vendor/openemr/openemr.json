@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<body ONLOAD=\"javascript:top.location.href='interface/login/login_frame.php(?site=default)?';\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<body ONLOAD=\"javascript:top\\.location\\.href='interface/login/login_frame\\.php(\\?site=default)?';\">"
+      "pattern": "<body ONLOAD=\"javascript:top\\.location\\.href='interface/login/login_frame\\.php(\\?site=default)?';\">",
+      "version_group": 0
     },
     {
       "name": "OpenEMR Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--<frame src=\"/[^/]+/interface/login/filler.php\" name=\"Filler Bottom\" scrolling=\"no\" noresize frameborder=\"NO\">-->",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!--<frame src=\"/[^/]+/interface/login/filler\\.php\" name=\"Filler Bottom\" scrolling=\"no\" noresize frameborder=\"NO\">-->"
+      "pattern": "<!--<frame src=\"/[^/]+/interface/login/filler\\.php\" name=\"Filler Bottom\" scrolling=\"no\" noresize frameborder=\"NO\">-->",
+      "version_group": 0
     },
     {
       "name": "OpenEMR Pattern",
@@ -50,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "OpenEMR=[^s]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "OpenEMR=[^\\s]+;"
+      "pattern": "OpenEMR=[^\\s]+;",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

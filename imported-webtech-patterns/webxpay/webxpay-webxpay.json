@@ -1,0 +1,51 @@
+{
+  "vendor": "WEBXPAY",
+  "vendor_id": "webxpay",
+  "product": "WEBXPAY",
+  "product_id": "webxpay-webxpay",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WEBXPAY HTML Detection",
+      "pattern": "Powered by <a href=\"https://www\\.webxpay\\.com\">WEBXPAY<",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects WEBXPAY from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "webxpay"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "WEBXPAY JavaScript Detection",
+      "pattern": "window\\.WEBXPAY|WEBXPAY\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects WEBXPAY from JavaScript variable 'WEBXPAY'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "webxpay"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

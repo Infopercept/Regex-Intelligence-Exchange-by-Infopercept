@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "_pyrocms_",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "_pyrocms_"
+      "pattern": "_pyrocms_",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

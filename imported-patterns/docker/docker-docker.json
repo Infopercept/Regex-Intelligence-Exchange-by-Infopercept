@@ -1,0 +1,31 @@
+{
+  "vendor": "Docker",
+  "vendor_id": "docker",
+  "product": "Docker",
+  "product_id": "docker-docker",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Docker HTML Detection",
+      "pattern": "<!-- This comment is expected by the docker HEALTHCHECK  -->",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Docker from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "docker"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

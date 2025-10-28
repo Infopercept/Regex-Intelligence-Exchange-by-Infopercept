@@ -1,0 +1,71 @@
+{
+  "vendor": "MooTools",
+  "vendor_id": "mootools",
+  "product": "MooTools",
+  "product_id": "mootools-mootools",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MooTools Script Detection",
+      "pattern": "mootools.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MooTools from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "mootools"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "MooTools JavaScript Detection",
+      "pattern": "window\\.MooTools|MooTools\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MooTools from JavaScript variable 'MooTools'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "mootools"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "MooTools JavaScript Detection",
+      "pattern": "window\\.MooTools\\.version|MooTools\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MooTools from JavaScript variable 'MooTools.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "mootools"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

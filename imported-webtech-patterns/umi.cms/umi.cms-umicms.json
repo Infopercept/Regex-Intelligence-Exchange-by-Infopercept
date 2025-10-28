@@ -1,0 +1,31 @@
+{
+  "vendor": "UMI.CMS",
+  "vendor_id": "umi.cms",
+  "product": "UMI.CMS",
+  "product_id": "umi.cms-umicms",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "UMI.CMS Header Detection",
+      "pattern": "X-Generated-By: UMI\\.CMS",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects UMI.CMS from X-Generated-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "umi.cms"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

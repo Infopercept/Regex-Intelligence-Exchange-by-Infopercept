@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Pi3Web",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Pi3Web"
+      "pattern": "^Pi3Web",
+      "version_group": 0
     },
     {
       "name": "Pi3Web Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Pi3Web/([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

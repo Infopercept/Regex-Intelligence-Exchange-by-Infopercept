@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Epiware\\ \\-\\ Project\\ and\\ Document\\ Management\\ \\ </title>"
+      "pattern": "<title>Epiware\\ \\-\\ Project\\ and\\ Document\\ Management\\ \\ </title>",
+      "version_group": 0
     },
     {
       "name": "Epiware Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"jsWarning\" class=\"javascript_warning\">s+This web-site requires javascript.s+Please enable javascript to access this web-site.s+</div>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div id=\"jsWarning\" class=\"javascript_warning\">\\s+This web-site requires javascript\\.\\s+Please enable javascript to access this web-site\\.\\s+</div>"
+      "pattern": "<div id=\"jsWarning\" class=\"javascript_warning\">\\s+This web-site requires javascript\\.\\s+Please enable javascript to access this web-site\\.\\s+</div>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

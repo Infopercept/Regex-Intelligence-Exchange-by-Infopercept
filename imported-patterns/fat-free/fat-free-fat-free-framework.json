@@ -1,0 +1,31 @@
+{
+  "vendor": "Fat-Free",
+  "vendor_id": "fat-free",
+  "product": "Fat-Free Framework",
+  "product_id": "fat-free-fat-free-framework",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Fat-Free Framework Header Detection",
+      "pattern": "X-Powered-By: ^Fat-Free Framework$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Fat-Free Framework from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "fat-free-framework"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

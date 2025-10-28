@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<img\\ id=\"CtlLogin1_Login1_imgCompanyOwnLogo\"\\ src=\"Images/TopHeader\\.jpg\"\\ alt=\"CompanyLogo\"\\ style=\"height:50px;border\\-width:0px;\"\\ /></td>"
+      "pattern": "<img\\ id=\"CtlLogin1_Login1_imgCompanyOwnLogo\"\\ src=\"Images/TopHeader\\.jpg\"\\ alt=\"CompanyLogo\"\\ style=\"height:50px;border\\-width:0px;\"\\ /></td>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"Generator\" content=\"Saurus CMS\"[ /]*>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\"Generator\" content=\"Saurus CMS\"[\\ /]*>"
+      "pattern": "<meta name=\"Generator\" content=\"Saurus CMS\"[\\ /]*>",
+      "version_group": 0
     },
     {
       "name": "default favicon html",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ type=\"image/x\\-icon\"\\ href=\"/extensions/saurus4/images/favicon\\.ico\">"
+      "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ type=\"image/x\\-icon\"\\ href=\"/extensions/saurus4/images/favicon\\.ico\">",
+      "version_group": 0
     },
     {
       "name": "meta powered by",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"Powered_by\"\\ content=\"Saurus\\ CMS\">"
+      "pattern": "<meta\\ name=\"Powered_by\"\\ content=\"Saurus\\ CMS\">",
+      "version_group": 0
     },
     {
       "name": "powered by default",
@@ -86,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<p>Saiti\\ jooksutab\\ <a\\ title=\"Sisuhaldustarkvara\"\\ target=\"_blank\"\\ href=\"http://www\\.saurus\\.ee\">Saurus\\ CMS</a>\\ \\|\\ <a\\ title=\"Sisukaart\"\\ href=\"\\?op=sitemap\">Sisukaart</a></p>"
+      "pattern": "<p>Saiti\\ jooksutab\\ <a\\ title=\"Sisuhaldustarkvara\"\\ target=\"_blank\"\\ href=\"http://www\\.saurus\\.ee\">Saurus\\ CMS</a>\\ \\|\\ <a\\ title=\"Sisukaart\"\\ href=\"\\?op=sitemap\">Sisukaart</a></p>",
+      "version_group": 0
     },
     {
       "name": "powered by english",
@@ -108,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://www\\.saurus\\.info\"\\ target=\"_blank\"\\ title=\"Sisuhaldustarkvara\">Saurus\\ CMS</a>\\ \\|\\ <a\\ href=\"\\?op=sitemap\"\\ title=\"Sisukaart\">Sitemap</a></p>"
+      "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://www\\.saurus\\.info\"\\ target=\"_blank\"\\ title=\"Sisuhaldustarkvara\">Saurus\\ CMS</a>\\ \\|\\ <a\\ href=\"\\?op=sitemap\"\\ title=\"Sisukaart\">Sitemap</a></p>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

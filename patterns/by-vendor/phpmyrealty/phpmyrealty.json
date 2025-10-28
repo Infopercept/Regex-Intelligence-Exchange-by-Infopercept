@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Main\\ Content\\ table\\ :\\ stop\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Main\\ Content\\ table\\ :\\ stop\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "phpMyRealty Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.phpmyrealty\\.com\"\\ target=\"_blank\"\\ style=\"font\\-size:\\ 12px;\\ font\\-family:\\ arial\">phpMyRealty\\ Professional</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.phpmyrealty\\.com\"\\ target=\"_blank\"\\ style=\"font\\-size:\\ 12px;\\ font\\-family:\\ arial\">phpMyRealty\\ Professional</a>",
+      "version_group": 0
     },
     {
       "name": "phpMyRealty Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<span\\ class=\"table_header_text\">\\ \\&nbsp;Administrator\\ Control\\ Panel</span>"
+      "pattern": "<span\\ class=\"table_header_text\">\\ \\&nbsp;Administrator\\ Control\\ Panel</span>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

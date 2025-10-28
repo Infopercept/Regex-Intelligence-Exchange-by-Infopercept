@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^WebSocket$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^WebSocket$"
+      "pattern": "^WebSocket$",
+      "version_group": 0
     },
     {
       "name": "WebSocket Pattern",
@@ -45,5 +52,6 @@
       "pattern": "sec-websocket-version-server: (.+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "Tessitura",
+  "vendor_id": "tessitura",
+  "product": "Tessitura",
+  "product_id": "tessitura-tessitura",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Tessitura HTML Detection",
+      "pattern": "<!--[^>]+Tessitura Version: (\\d*\\.\\d*\\.\\d*)?",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Tessitura from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "tessitura"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://envezion\\.com/\">envezion\\~MEDIA</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://envezion\\.com/\">envezion\\~MEDIA</a>",
+      "version_group": 0
     },
     {
       "name": "envezion~media Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://envezion\\.com/\"><strong>envezion\\~MEDIA</strong></a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://envezion\\.com/\"><strong>envezion\\~MEDIA</strong></a>",
+      "version_group": 0
     },
     {
       "name": "envezion~media Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.envezion\\.com\"\\ target=\"_blank\"><strong>\\ envezion\\~media</strong></a><br\\ />"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.envezion\\.com\"\\ target=\"_blank\"><strong>\\ envezion\\~media</strong></a><br\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

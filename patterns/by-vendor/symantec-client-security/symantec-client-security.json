@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Symantec\\ Client\\ Security\\ Web\\ Based\\ Installation\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Symantec\\ Client\\ Security\\ Web\\ Based\\ Installation\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

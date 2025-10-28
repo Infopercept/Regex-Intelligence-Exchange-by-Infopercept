@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<HTML><HEAD>[s]*<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; CHARSET=UTF-8\">[s]*<TITLE>Print server homepage</TITLE>[s]*</HEAD>[s]*<FRAMESET COLS=\"200",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<HTML><HEAD>[\\s]*<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; CHARSET=UTF-8\">[\\s]*<TITLE>Print server homepage</TITLE>[\\s]*</HEAD>[\\s]*<FRAMESET COLS=\"200"
+      "pattern": "<HTML><HEAD>[\\s]*<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; CHARSET=UTF-8\">[\\s]*<TITLE>Print server homepage</TITLE>[\\s]*</HEAD>[\\s]*<FRAMESET COLS=\"200",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

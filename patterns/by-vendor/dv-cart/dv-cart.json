@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"KT_tngdeverror\"><label>Message:</label><div>You\\ must\\ have\\ the\\ proper\\ credentials\\ to\\ access\\ this\\ page\\.\\ Please\\ login\\.</div></div>"
+      "pattern": "<div\\ id=\"KT_tngdeverror\"><label>Message:</label><div>You\\ must\\ have\\ the\\ proper\\ credentials\\ to\\ access\\ this\\ page\\.\\ Please\\ login\\.</div></div>",
+      "version_group": 0
     },
     {
       "name": "DV-Cart Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<table\\ cellpadding=\"2\"\\ cellspacing=\"0\"\\ class=\"KT_tngtable\">"
+      "pattern": "<table\\ cellpadding=\"2\"\\ cellspacing=\"0\"\\ class=\"KT_tngtable\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

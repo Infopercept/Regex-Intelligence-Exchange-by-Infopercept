@@ -1,0 +1,51 @@
+{
+  "vendor": "Fact",
+  "vendor_id": "fact",
+  "product": "Fact Finder",
+  "product_id": "fact-fact-finder",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Fact Finder HTML Detection",
+      "pattern": "<!-- Factfinder",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Fact Finder from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "fact-finder"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Fact Finder Script Detection",
+      "pattern": "Suggest\\.ff",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Fact Finder from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "fact-finder"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "vendor": "osCommerce",
+  "vendor_id": "oscommerce",
+  "product": "osCommerce",
+  "product_id": "oscommerce-oscommerce",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "osCommerce HTML Detection",
+      "pattern": "<br />Powered by <a href=\"https?://www\\.oscommerce\\.com",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects osCommerce from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "oscommerce"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "osCommerce HTML Detection",
+      "pattern": "<(?:input|a)[^>]+name=\"osCsid\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects osCommerce from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "oscommerce"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "osCommerce HTML Detection",
+      "pattern": "<(?:tr|td|table)class=\"[^\"]*infoBoxHeading",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects osCommerce from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "oscommerce"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Powered\\ by\\ XMB\\ "
+      "pattern": "<!\\-\\-\\ Powered\\ by\\ XMB\\ ",
+      "version_group": 0
     },
     {
       "name": "eXtreme-Message-Board Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ The\\ XMB\\ Group\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ The\\ XMB\\ Group\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

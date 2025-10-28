@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<LINK\\ REL=StyleSheet\\ HREF='\\.\\./include/therp\\.css'\\ TYPE='text/css'><script>"
+      "pattern": "<LINK\\ REL=StyleSheet\\ HREF='\\.\\./include/therp\\.css'\\ TYPE='text/css'><script>",
+      "version_group": 0
     },
     {
       "name": "th-ERP Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<title>thERP\\ \\-\\ Login</title>"
+      "pattern": "<title>thERP\\ \\-\\ Login</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

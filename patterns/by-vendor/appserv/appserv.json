@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<font\\ color=\"\\#000080\"\\ class=\"headd\">\\&nbsp;\\&nbsp;\\&nbsp;<img\\ src=\"appserv/softicon\\.gif\""
+      "pattern": "<font\\ color=\"\\#000080\"\\ class=\"headd\">\\&nbsp;\\&nbsp;\\&nbsp;<img\\ src=\"appserv/softicon\\.gif\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

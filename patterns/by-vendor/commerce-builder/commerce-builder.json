@@ -29,5 +29,6 @@
       "pattern": "Server: ^Commerce-Builder/([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

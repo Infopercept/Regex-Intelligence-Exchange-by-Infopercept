@@ -1,0 +1,51 @@
+{
+  "vendor": "AT",
+  "vendor_id": "at",
+  "product": "AT Internet Analyzer",
+  "product_id": "at-at-internet-analyzer",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AT Internet Analyzer JavaScript Detection",
+      "pattern": "window\\.ATInternet|ATInternet\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AT Internet Analyzer from JavaScript variable 'ATInternet'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "at-internet-analyzer"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AT Internet Analyzer JavaScript Detection",
+      "pattern": "window\\.xtsite|xtsite\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AT Internet Analyzer from JavaScript variable 'xtsite'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "at-internet-analyzer"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

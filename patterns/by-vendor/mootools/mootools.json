@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^// Load your build at: http://mootools.net/core/",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^// Load your build at: http://mootools.net/core/"
+      "pattern": "^// Load your build at: http://mootools.net/core/",
+      "version_group": 0
     },
     {
       "name": "MooTools Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^//MooTools More, <http://mootools.net/more>. Copyright (c) 2006-2008 Valerio Proietti, <http://mad4milk.net>, MIT Style License.",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^//MooTools More, <http://mootools.net/more>. Copyright \\(c\\) 2006-2008 Valerio Proietti, <http://mad4milk.net>, MIT Style License."
+      "pattern": "^//MooTools More, <http://mootools.net/more>. Copyright \\(c\\) 2006-2008 Valerio Proietti, <http://mad4milk.net>, MIT Style License.",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

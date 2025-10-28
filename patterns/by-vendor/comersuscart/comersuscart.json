@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta NAME=\"DESCRIPTION\" CONTENT=\"Powered by Comersus http://www.comersus.com\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta NAME=\"DESCRIPTION\" CONTENT=\"Powered by Comersus http://www.comersus.com\">"
+      "pattern": "<meta NAME=\"DESCRIPTION\" CONTENT=\"Powered by Comersus http://www.comersus.com\">",
+      "version_group": 0
     },
     {
       "name": "ComersusCart Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>[^<]*Powered by Comersus ASP Shopping Cart Open Source[^<]*</title>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>[^<]*Powered by Comersus ASP Shopping Cart Open Source[^<]*</title>"
+      "pattern": "<title>[^<]*Powered by Comersus ASP Shopping Cart Open Source[^<]*</title>",
+      "version_group": 0
     },
     {
       "name": "ComersusCart Pattern",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"[^\"]*comersus_showCart.asp\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"[^\"]*comersus_showCart.asp\">"
+      "pattern": "<a href=\"[^\"]*comersus_showCart.asp\">",
+      "version_group": 0
     },
     {
       "name": "ComersusCart Pattern",
@@ -66,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <[^>]*>Comersus</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <[^>]*>Comersus</a>"
+      "pattern": "Powered by <[^>]*>Comersus</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

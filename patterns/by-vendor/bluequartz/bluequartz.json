@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<BODY\\ BGCOLOR=\"\\#FFFFFF\"\\ onLoad=\"focuslogin\\(\\)\"\\ onResize=\"if\\(navigator\\.appName\\ ==\\ \\\\"
+      "pattern": "<BODY\\ BGCOLOR=\"\\#FFFFFF\"\\ onLoad=\"focuslogin\\(\\)\"\\ onResize=\"if\\(navigator\\.appName\\ ==\\ \\\\",
+      "version_group": 0
     },
     {
       "name": "BlueQuartz Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "EVEN IF SUN HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.[n][n]You acknowledge that  this software is not designed or intended for use in the design, construction, operation or maintenance of any nuclear facility.[n]-->",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "EVEN IF SUN HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES\\.[\\n][\\n]You acknowledge that  this software is not designed or intended for use in the design, construction, operation or maintenance of any nuclear facility.[\\n]-->"
+      "pattern": "EVEN IF SUN HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES\\.[\\n][\\n]You acknowledge that  this software is not designed or intended for use in the design, construction, operation or maintenance of any nuclear facility.[\\n]-->",
+      "version_group": 0
     },
     {
       "name": "BlueQuartz Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<META\\ NAME=\"Copyright\"\\ VALUE=\"Copyright\\ \\(C\\)\\ 2000,\\ Cobalt\\ Networks,\\ Inc\\.\\ \\ All\\ rights\\ reserved\\.\">"
+      "pattern": "<META\\ NAME=\"Copyright\"\\ VALUE=\"Copyright\\ \\(C\\)\\ 2000,\\ Cobalt\\ Networks,\\ Inc\\.\\ \\ All\\ rights\\ reserved\\.\">",
+      "version_group": 0
     },
     {
       "name": "BlueQuartz Pattern",
@@ -86,7 +95,8 @@
           }
         ]
       },
-      "pattern": "var\\ url\\ =\\ \"/login\\.php\\?expired=true\\&target=\"\\+escape\\(pathname\\+top\\.location\\.search\\+top\\.location\\.hash\\);"
+      "pattern": "var\\ url\\ =\\ \"/login\\.php\\?expired=true\\&target=\"\\+escape\\(pathname\\+top\\.location\\.search\\+top\\.location\\.hash\\);",
+      "version_group": 0
     },
     {
       "name": "BlueQuartz Pattern",
@@ -100,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<P ALIGN=\"CENTER\"><FONT SIZE=\"5\" COLOR=\"#000099\" FACE=\"HELVETICA, ARIAL\"><B>Welcome to the Web Site of [^s^<]+</B></FONT>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<P ALIGN=\"CENTER\"><FONT SIZE=\"5\" COLOR=\"#000099\" FACE=\"HELVETICA, ARIAL\"><B>Welcome to the Web Site of [^\\s^<]+</B></FONT>"
+      "pattern": "<P ALIGN=\"CENTER\"><FONT SIZE=\"5\" COLOR=\"#000099\" FACE=\"HELVETICA, ARIAL\"><B>Welcome to the Web Site of [^\\s^<]+</B></FONT>",
+      "version_group": 0
     },
     {
       "name": "BlueQuartz Pattern",
@@ -124,7 +141,9 @@
           }
         ]
       },
-      "pattern": "<BODY\\ onLoad=\\\\"
+      "pattern": "<BODY\\ onLoad=\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

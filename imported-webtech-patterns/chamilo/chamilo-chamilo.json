@@ -1,0 +1,71 @@
+{
+  "vendor": "Chamilo",
+  "vendor_id": "chamilo",
+  "product": "Chamilo",
+  "product_id": "chamilo-chamilo",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Chamilo Header Detection",
+      "pattern": "X-Powered-By: Chamilo ([\\d.]+)",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Chamilo from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "chamilo"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Chamilo HTML Detection",
+      "pattern": "\">Chamilo ([\\d.]+)</a>",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Chamilo from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "chamilo"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Chamilo Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']Chamilo ([\\d.]+)[\"']",
+      "version_group": 1,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Chamilo from meta tag with name 'generator'",
+        "tags": [
+          "webtech",
+          "meta",
+          "chamilo"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

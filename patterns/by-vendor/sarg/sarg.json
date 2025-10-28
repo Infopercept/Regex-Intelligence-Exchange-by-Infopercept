@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Squid\\ User's\\ Access\\ Report</title>"
+      "pattern": "<title>Squid\\ User's\\ Access\\ Report</title>",
+      "version_group": 0
     },
     {
       "name": "SARG Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<tr><th\\ class=\"logo\"><a\\ href=\"http://sarg\\.sourceforge\\.net\"><img\\ src=\"\\./images/sarg\\.png\"\\ border=\"0\"\\ align=\"absmiddle\"\\ title=\"SARG,\\ Squid\\ Analysis\\ Report\\ Generator\\.\\ Logo\\ by\\ Osamu\\ Matsuzaki\"></a>\\&nbsp;<font\\ class=\"logo\">Squid\\ Analysis\\ Report\\ Generator</font></th></tr>"
+      "pattern": "<tr><th\\ class=\"logo\"><a\\ href=\"http://sarg\\.sourceforge\\.net\"><img\\ src=\"\\./images/sarg\\.png\"\\ border=\"0\"\\ align=\"absmiddle\"\\ title=\"SARG,\\ Squid\\ Analysis\\ Report\\ Generator\\.\\ Logo\\ by\\ Osamu\\ Matsuzaki\"></a>\\&nbsp;<font\\ class=\"logo\">Squid\\ Analysis\\ Report\\ Generator</font></th></tr>",
+      "version_group": 0
     },
     {
       "name": "SARG Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<tr><th\\ class=\"logo\"><a\\ href=\"http://sarg\\.sourceforge\\.net\"><img\\ src=\"\\.\\./images/sarg\\.png\"\\ border=\"0\"\\ align=\"absmiddle\"\\ title=\"SARG,\\ Squid\\ Analysis\\ Report\\ Generator\\.\\ Logo\\ by\\ Osamu\\ Matsuzaki\"></a>\\&nbsp;<font\\ class=\"logo\">Squid\\ Analysis\\ Report\\ Generator</font></th></tr>"
+      "pattern": "<tr><th\\ class=\"logo\"><a\\ href=\"http://sarg\\.sourceforge\\.net\"><img\\ src=\"\\.\\./images/sarg\\.png\"\\ border=\"0\"\\ align=\"absmiddle\"\\ title=\"SARG,\\ Squid\\ Analysis\\ Report\\ Generator\\.\\ Logo\\ by\\ Osamu\\ Matsuzaki\"></a>\\&nbsp;<font\\ class=\"logo\">Squid\\ Analysis\\ Report\\ Generator</font></th></tr>",
+      "version_group": 0
     },
     {
       "name": "SARG Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<tr><th><a\\ href=\"http://sarg\\.sourceforge\\.net\"><img\\ src=\"\\./images/sarg\\.png\"\\ title=\"SARG,\\ Squid\\ Analysis\\ Report\\ Generator\\.\\ Logo\\ by\\ Osamu\\ Matsuzaki\"\\ alt=\"Sarg\"></a>\\&nbsp;Squid\\ Analysis\\ Report\\ Generator</th></tr>"
+      "pattern": "<tr><th><a\\ href=\"http://sarg\\.sourceforge\\.net\"><img\\ src=\"\\./images/sarg\\.png\"\\ title=\"SARG,\\ Squid\\ Analysis\\ Report\\ Generator\\.\\ Logo\\ by\\ Osamu\\ Matsuzaki\"\\ alt=\"Sarg\"></a>\\&nbsp;Squid\\ Analysis\\ Report\\ Generator</th></tr>",
+      "version_group": 0
     },
     {
       "name": "SARG Pattern",
@@ -106,9 +110,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr><th (align=\"center\" )?class=\"title(_c)?\">Squid User Access Reports?</th></tr>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<tr><th (align=\"center\" )?class=\"title(_c)?\">Squid User Access Reports?</th></tr>"
+      "pattern": "<tr><th (align=\"center\" )?class=\"title(_c)?\">Squid User Access Reports?</th></tr>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

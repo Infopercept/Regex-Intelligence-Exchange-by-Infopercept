@@ -1,0 +1,31 @@
+{
+  "vendor": "Mean.io",
+  "vendor_id": "mean.io",
+  "product": "Mean.io",
+  "product_id": "mean.io-meanio",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mean.io Header Detection",
+      "pattern": "X-Powered-CMS: Mean\\.io",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Mean.io from X-Powered-CMS header",
+        "tags": [
+          "webtech",
+          "header",
+          "mean.io"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

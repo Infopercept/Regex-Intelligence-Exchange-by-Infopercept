@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^SWSessionID",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^SWSessionID"
+      "pattern": "^SWSessionID",
+      "version_group": 0
     },
     {
       "name": "PSDB cookie",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^PSDB",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^PSDB"
+      "pattern": "^PSDB",
+      "version_group": 0
     },
     {
       "name": "PSN cookie",
@@ -50,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^PSN",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^PSN"
+      "pattern": "^PSN",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

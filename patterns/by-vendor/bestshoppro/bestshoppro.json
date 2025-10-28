@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<td\\ width=300\\ height=18\\ colspan=2\\ align=center\\ class=tdn><b>Logowanie</b></td></tr>"
+      "pattern": "<td\\ width=300\\ height=18\\ colspan=2\\ align=center\\ class=tdn><b>Logowanie</b></td></tr>",
+      "version_group": 0
     },
     {
       "name": "BestShopPro Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ content=\"www\\.bst\\.pl\"\\ name=\"author\"/>"
+      "pattern": "<meta\\ content=\"www\\.bst\\.pl\"\\ name=\"author\"/>",
+      "version_group": 0
     },
     {
       "name": "BestShopPro Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<META\\ CONTENT=\"www\\.bst\\.pl\"\\ NAME=AUTHOR>"
+      "pattern": "<META\\ CONTENT=\"www\\.bst\\.pl\"\\ NAME=AUTHOR>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

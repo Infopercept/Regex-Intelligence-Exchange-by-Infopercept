@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Start\\ Escenic\\ Analysis\\ Engine\\ client\\ script\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Start\\ Escenic\\ Analysis\\ Engine\\ client\\ script\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Escenic Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"author\"\\ content=\"Escenic\\ AS\"/>"
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Escenic\\ AS\"/>",
+      "version_group": 0
     },
     {
       "name": "Escenic Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form action=\"/sok/\" id=\"[^\"]+\" method=\"get\" accept-charset=\"utf-8\"[^>]*>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<form action=\"/sok/\" id=\"[^\"]+\" method=\"get\" accept-charset=\"utf-8\"[^>]*>"
+      "pattern": "<form action=\"/sok/\" id=\"[^\"]+\" method=\"get\" accept-charset=\"utf-8\"[^>]*>",
+      "version_group": 0
     },
     {
       "name": "Escenic Pattern",
@@ -78,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img[^>]+src=\"[^\"^>]+/archive",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<img[^>]+src=\"[^\"^>]+/archive\\"
+      "pattern": "<img[^>]+src=\"[^\"^>]+/archive\\",
+      "version_group": 0
     },
     {
       "name": "Escenic Pattern",
@@ -94,9 +110,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a[^>]+href=\"[^\"^>]+",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a[^>]+href=\"[^\"^>]+\\"
+      "pattern": "<a[^>]+href=\"[^\"^>]+\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

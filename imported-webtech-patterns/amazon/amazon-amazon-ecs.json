@@ -1,0 +1,31 @@
+{
+  "vendor": "Amazon",
+  "vendor_id": "amazon",
+  "product": "Amazon ECS",
+  "product_id": "amazon-amazon-ecs",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Amazon ECS Header Detection",
+      "pattern": "Server: ^ECS",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Amazon ECS from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "amazon-ecs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

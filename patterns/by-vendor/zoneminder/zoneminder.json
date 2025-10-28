@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<tr><td\\ colspan=\"2\"\\ class=\"smallhead\"\\ align=\"center\">ZoneMinder\\ Login</td></tr>"
+      "pattern": "<tr><td\\ colspan=\"2\"\\ class=\"smallhead\"\\ align=\"center\">ZoneMinder\\ Login</td></tr>",
+      "version_group": 0
     },
     {
       "name": "ZoneMinder Pattern",
@@ -63,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "ZMSESSID=[^;]+",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "ZMSESSID=[^;]+"
+      "pattern": "ZMSESSID=[^;]+",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

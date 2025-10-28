@@ -1,0 +1,51 @@
+{
+  "vendor": "Optimizely",
+  "vendor_id": "optimizely",
+  "product": "Optimizely",
+  "product_id": "optimizely-optimizely",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Optimizely Script Detection",
+      "pattern": "optimizely\\.com.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Optimizely from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "optimizely"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Optimizely JavaScript Detection",
+      "pattern": "window\\.optimizely|optimizely\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Optimizely from JavaScript variable 'optimizely'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "optimizely"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

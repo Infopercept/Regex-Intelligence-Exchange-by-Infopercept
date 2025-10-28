@@ -1,0 +1,131 @@
+{
+  "vendor": "Cart",
+  "vendor_id": "cart",
+  "product": "Cart Functionality",
+  "product_id": "cart-cart-functionality",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Cart Functionality HTML Detection",
+      "pattern": "<a[^>]*href=[^>]*/Cart",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Cart Functionality from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "cart-functionality"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Cart Functionality HTML Detection",
+      "pattern": "<a[^>]*href=[^>]*/Basket",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Cart Functionality from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "cart-functionality"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Cart Functionality HTML Detection",
+      "pattern": "<a[^>]*href=[^>]*/Trolley",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Cart Functionality from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "cart-functionality"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Cart Functionality HTML Detection",
+      "pattern": "<a[^>]*href=[^>]*/Bag",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Cart Functionality from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "cart-functionality"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Cart Functionality HTML Detection",
+      "pattern": "<a[^>]*href=[^>]*/ShoppingBag",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Cart Functionality from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "cart-functionality"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Cart Functionality HTML Detection",
+      "pattern": "<a[^>]*href=[^>]*/Checkout",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Cart Functionality from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "cart-functionality"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

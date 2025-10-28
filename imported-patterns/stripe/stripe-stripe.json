@@ -1,0 +1,51 @@
+{
+  "vendor": "Stripe",
+  "vendor_id": "stripe",
+  "product": "Stripe",
+  "product_id": "stripe-stripe",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Stripe HTML Detection",
+      "pattern": "<input[^>]+data-stripe",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Stripe from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "stripe"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Stripe Script Detection",
+      "pattern": "js\\.stripe\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Stripe from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "stripe"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

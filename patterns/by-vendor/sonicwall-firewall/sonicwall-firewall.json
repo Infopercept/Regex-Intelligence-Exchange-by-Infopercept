@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^SonicWALL$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^SonicWALL$"
+      "pattern": "^SonicWALL$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

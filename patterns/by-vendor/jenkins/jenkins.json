@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script>var isRunAsTest=false; var rootURL=\"[^\"]*\";</script>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script>var isRunAsTest=false; var rootURL=\"[^\"]*\";</script>"
+      "pattern": "<script>var isRunAsTest=false; var rootURL=\"[^\"]*\";</script>",
+      "version_group": 0
     },
     {
       "name": "Jenkins Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^.*$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^.*$"
+      "pattern": "^.*$",
+      "version_group": 0
     },
     {
       "name": "Jenkins Pattern",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^.*$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^.*$"
+      "pattern": "^.*$",
+      "version_group": 0
     },
     {
       "name": "Jenkins Pattern",
@@ -66,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^.*$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^.*$"
+      "pattern": "^.*$",
+      "version_group": 0
     },
     {
       "name": "Jenkins Pattern",
@@ -105,9 +133,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^.*$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^.*$"
+      "pattern": "^.*$",
+      "version_group": 0
     },
     {
       "name": "Jenkins Pattern",
@@ -121,9 +156,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^.*$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^.*$"
+      "pattern": "^.*$",
+      "version_group": 0
     },
     {
       "name": "Jenkins Pattern",
@@ -137,9 +179,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^.*$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^.*$"
+      "pattern": "^.*$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

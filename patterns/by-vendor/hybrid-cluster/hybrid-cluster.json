@@ -29,5 +29,6 @@
       "pattern": "Server: ^Hybrid Cluster/([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<title>Login\\ \\-\\ eXtplorer</title>"
+      "pattern": "<title>Login\\ \\-\\ eXtplorer</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<img\\ border=0\\ src=\"http://www\\.globaldawin\\.com/capcds/refresh\\.gif\"\\ width=\"13\"\\ height=\"16\""
+      "pattern": "<img\\ border=0\\ src=\"http://www\\.globaldawin\\.com/capcds/refresh\\.gif\"\\ width=\"13\"\\ height=\"16\"",
+      "version_group": 0
     },
     {
       "name": "SmartCDS Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^smartcds",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^smartcds"
+      "pattern": "^smartcds",
+      "version_group": 0
     },
     {
       "name": "SmartCDS Pattern",
@@ -90,5 +98,6 @@
       "pattern": "smartcds: ^Version:([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

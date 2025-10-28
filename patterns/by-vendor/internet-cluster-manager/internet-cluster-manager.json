@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Internet Cluster Manager",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Internet Cluster Manager"
+      "pattern": "^Internet Cluster Manager",
+      "version_group": 0
     },
     {
       "name": "Internet-Cluster-Manager Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Internet Cluster Manager Ver\\. ([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

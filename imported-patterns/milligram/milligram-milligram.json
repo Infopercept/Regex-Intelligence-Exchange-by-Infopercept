@@ -1,0 +1,31 @@
+{
+  "vendor": "Milligram",
+  "vendor_id": "milligram",
+  "product": "Milligram",
+  "product_id": "milligram-milligram",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Milligram HTML Detection",
+      "pattern": "<link[^>]+?href=\"[^\"]+milligram(?:\\.min)?\\.css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Milligram from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "milligram"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

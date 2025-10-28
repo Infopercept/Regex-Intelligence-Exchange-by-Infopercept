@@ -41,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^CommunityServer-UserCookie[d.]+",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^CommunityServer-UserCookie[\\d\\.]+"
+      "pattern": "^CommunityServer-UserCookie[\\d\\.]+",
+      "version_group": 0
     },
     {
       "name": "Cookies",
@@ -57,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^CommunityServer-LastVisitUpdated-[d.]+",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^CommunityServer-LastVisitUpdated-[\\d\\.]+"
+      "pattern": "^CommunityServer-LastVisitUpdated-[\\d\\.]+",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

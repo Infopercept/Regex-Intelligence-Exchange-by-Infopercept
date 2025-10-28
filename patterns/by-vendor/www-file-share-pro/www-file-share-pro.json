@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<td\\ height=\"27\"><a\\ href=\"http://www\\.lionmax\\.com\"\\ target=\"_blank\">Powered\\ by\\ LionMax\\ Software</a></td>"
+      "pattern": "<td\\ height=\"27\"><a\\ href=\"http://www\\.lionmax\\.com\"\\ target=\"_blank\">Powered\\ by\\ LionMax\\ Software</a></td>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

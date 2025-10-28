@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<head\\ profile=\"http://www\\.quescom\\.com\">"
+      "pattern": "<head\\ profile=\"http://www\\.quescom\\.com\">",
+      "version_group": 0
     },
     {
       "name": "QuesCom-Qportal Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<FRAME\\ src=\"/cticall/cticall_close\\.asp\"\\ name=\"cticlose\"\\ frameborder=\"no\"\\ scrolling=\"no\"\\ marginwidth=\"0\"\\ marginheight=\"0\">"
+      "pattern": "<FRAME\\ src=\"/cticall/cticall_close\\.asp\"\\ name=\"cticlose\"\\ frameborder=\"no\"\\ scrolling=\"no\"\\ marginwidth=\"0\"\\ marginheight=\"0\">",
+      "version_group": 0
     },
     {
       "name": "QuesCom-Qportal Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<link\\ href=\"/qpuser\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\">"
+      "pattern": "<link\\ href=\"/qpuser\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

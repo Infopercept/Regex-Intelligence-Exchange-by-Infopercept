@@ -1,0 +1,51 @@
+{
+  "vendor": "amCharts",
+  "vendor_id": "amcharts",
+  "product": "amCharts",
+  "product_id": "amcharts-amcharts",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "amCharts Script Detection",
+      "pattern": "amcharts.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects amCharts from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "amcharts"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "amCharts JavaScript Detection",
+      "pattern": "window\\.AmCharts|AmCharts\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects amCharts from JavaScript variable 'AmCharts'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "amcharts"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

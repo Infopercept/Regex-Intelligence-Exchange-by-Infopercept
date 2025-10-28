@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.source-worx.de[^>]+>powered[s]+by sX-Shop</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"http://www.source-worx.de[^>]+>powered[\\s]+by sX-Shop</a>"
+      "pattern": "<a href=\"http://www.source-worx.de[^>]+>powered[\\s]+by sX-Shop</a>",
+      "version_group": 0
     },
     {
       "name": "sX-Shop Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"author\"\\ content=\"Source\\ WorX\\ \\-\\ Software\\ Development\">"
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Source\\ WorX\\ \\-\\ Software\\ Development\">",
+      "version_group": 0
     },
     {
       "name": "sX-Shop Pattern",
@@ -64,7 +72,9 @@
           }
         ]
       },
-      "pattern": "alert\\(\"Ihr\\ Suchbegriff\\ muss\\ mind\\.\\ aus\\ 3\\ Zeichen\\ bestehen\\.\"\\);"
+      "pattern": "alert\\(\"Ihr\\ Suchbegriff\\ muss\\ mind\\.\\ aus\\ 3\\ Zeichen\\ bestehen\\.\"\\);",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"loginWindow\"\\ class=\"\\ clearfix\">"
+      "pattern": "<div\\ id=\"loginWindow\"\\ class=\"\\ clearfix\">",
+      "version_group": 0
     },
     {
       "name": "Ionize-CMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"content\"\\ class=\"content\"\\ onKeyPress=\"javascript:doSubmit\\(event\\);\">"
+      "pattern": "<div\\ id=\"content\"\\ class=\"content\"\\ onKeyPress=\"javascript:doSubmit\\(event\\);\">",
+      "version_group": 0
     },
     {
       "name": "Ionize-CMS Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<p\\ class=\"note\">view\\ :\\ <b>default/article</b></p>"
+      "pattern": "<p\\ class=\"note\">view\\ :\\ <b>default/article</b></p>",
+      "version_group": 0
     },
     {
       "name": "Ionize-CMS Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<p\\ class=\"article\\-date\">07\\.09\\.2010</p>"
+      "pattern": "<p\\ class=\"article\\-date\">07\\.09\\.2010</p>",
+      "version_group": 0
     },
     {
       "name": "Ionize-CMS Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"description\"\\ content=\"HandMade,\\ an\\ Ionize\\ theme\"\\ />"
+      "pattern": "<meta\\ name=\"description\"\\ content=\"HandMade,\\ an\\ Ionize\\ theme\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Ionize-CMS Pattern",
@@ -128,9 +133,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!--[s]+Displays the Google code defined in Ionize's Advanced settings panel[s]+-->",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!--[\\s]+Displays the Google code defined in Ionize's Advanced settings panel[\\s]+-->"
+      "pattern": "<!--[\\s]+Displays the Google code defined in Ionize's Advanced settings panel[\\s]+-->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

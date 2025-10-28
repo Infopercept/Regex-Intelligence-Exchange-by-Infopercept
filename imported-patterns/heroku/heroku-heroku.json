@@ -1,0 +1,31 @@
+{
+  "vendor": "Heroku",
+  "vendor_id": "heroku",
+  "product": "Heroku",
+  "product_id": "heroku-heroku",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Heroku Header Detection",
+      "pattern": "Via: [\\d.-]+ vegur$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Heroku from Via header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "heroku"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

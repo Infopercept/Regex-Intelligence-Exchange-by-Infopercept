@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "_redmine_session=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "_redmine_session="
+      "pattern": "_redmine_session=",
+      "version_group": 0
     },
     {
       "name": "Redmine Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"description\"\\ content=\"Redmine\"\\ />"
+      "pattern": "<meta\\ name=\"description\"\\ content=\"Redmine\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Redmine Pattern",
@@ -64,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<title>redMine\\ 404\\ error</title>"
+      "pattern": "<title>redMine\\ 404\\ error</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

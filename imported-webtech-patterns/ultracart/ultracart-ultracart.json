@@ -1,0 +1,71 @@
+{
+  "vendor": "UltraCart",
+  "vendor_id": "ultracart",
+  "product": "UltraCart",
+  "product_id": "ultracart-ultracart",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "UltraCart HTML Detection",
+      "pattern": "<form [^>]*action=\"[^\"]*/cgi-bin/UCEditor\\?(?:[^\"]*&)?merchantId=[^\"]",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects UltraCart from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "ultracart"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "UltraCart Script Detection",
+      "pattern": "cgi-bin/UCJavaScript\\?",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects UltraCart from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "ultracart"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "UltraCart JavaScript Detection",
+      "pattern": "window\\.ucCatalog|ucCatalog\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects UltraCart from JavaScript variable 'ucCatalog'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "ultracart"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

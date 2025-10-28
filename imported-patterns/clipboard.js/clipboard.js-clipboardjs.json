@@ -1,0 +1,31 @@
+{
+  "vendor": "Clipboard.js",
+  "vendor_id": "clipboard.js",
+  "product": "Clipboard.js",
+  "product_id": "clipboard.js-clipboardjs",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Clipboard.js Script Detection",
+      "pattern": "clipboard(?:-([\\d.]+))?(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Clipboard.js from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "clipboard.js"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vendor": "AOS",
+  "vendor_id": "aos",
+  "product": "AOS",
+  "product_id": "aos-aos",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AOS Script Detection",
+      "pattern": "unpkg\\.com/aos@(next)/dist/aos\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AOS from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "aos"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

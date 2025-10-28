@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ //\\ These\\ vars\\ will\\ be\\ filled\\ in\\ by\\ i\\-Catcher\\ Console"
+      "pattern": "\\ \\ \\ //\\ These\\ vars\\ will\\ be\\ filled\\ in\\ by\\ i\\-Catcher\\ Console",
+      "version_group": 0
     },
     {
       "name": "i-Catcher-Console Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "\\ <title>i\\-Catcher\\ Console\\ \\-\\ Live\\ view</title>"
+      "pattern": "\\ <title>i\\-Catcher\\ Console\\ \\-\\ Live\\ view</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

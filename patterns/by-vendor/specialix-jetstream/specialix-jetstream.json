@@ -29,5 +29,6 @@
       "pattern": "Server: ^Specialix JETSTREAM ([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

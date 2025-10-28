@@ -1,0 +1,51 @@
+{
+  "vendor": "Disqus",
+  "vendor_id": "disqus",
+  "product": "Disqus",
+  "product_id": "disqus-disqus",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Disqus HTML Detection",
+      "pattern": "<div[^>]+id=\"disqus_thread\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Disqus from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "disqus"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Disqus Script Detection",
+      "pattern": "disqus_url",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Disqus from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "disqus"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

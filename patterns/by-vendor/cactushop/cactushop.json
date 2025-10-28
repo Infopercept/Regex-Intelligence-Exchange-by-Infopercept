@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<select\\ name=\"numCurrencyID\"\\ class=\"currencymenu\"\\ onchange=\"javascript:document\\.getElementById\\(\\\\"
+      "pattern": "<select\\ name=\"numCurrencyID\"\\ class=\"currencymenu\"\\ onchange=\"javascript:document\\.getElementById\\(\\\\",
+      "version_group": 0
     },
     {
       "name": "CactuShop Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<!-- MYDEVLICNUM -->",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<!-- MYDEVLICNUM -->"
+      "pattern": "<!-- MYDEVLICNUM -->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

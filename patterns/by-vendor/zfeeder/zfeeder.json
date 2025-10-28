@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<span\\ style=\"font\\-family:\\ Verdana,\\ Arial,\\ Helvetica,\\ sans\\-serif;\\ font\\-size:\\ xx\\-small;\">powered\\ by\\ <a\\ href=\"http://zvonnews\\.sourceforge\\.net\">zFeeder</a></span>"
+      "pattern": "<span\\ style=\"font\\-family:\\ Verdana,\\ Arial,\\ Helvetica,\\ sans\\-serif;\\ font\\-size:\\ xx\\-small;\">powered\\ by\\ <a\\ href=\"http://zvonnews\\.sourceforge\\.net\">zFeeder</a></span>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

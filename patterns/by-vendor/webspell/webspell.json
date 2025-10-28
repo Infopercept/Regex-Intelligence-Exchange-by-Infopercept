@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"webSPELL\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"webSPELL\"\\ />",
+      "version_group": 0
     },
     {
       "name": "webSPELL Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "ws_session=[a-zd]+;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "ws_session=[a-z\\d]+;"
+      "pattern": "ws_session=[a-z\\d]+;",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

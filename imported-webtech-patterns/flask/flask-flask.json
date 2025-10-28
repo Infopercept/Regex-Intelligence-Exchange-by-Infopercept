@@ -1,0 +1,31 @@
+{
+  "vendor": "Flask",
+  "vendor_id": "flask",
+  "product": "Flask",
+  "product_id": "flask-flask",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Flask Header Detection",
+      "pattern": "Server: Werkzeug/?([\\d\\.]+)?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Flask from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "flask"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

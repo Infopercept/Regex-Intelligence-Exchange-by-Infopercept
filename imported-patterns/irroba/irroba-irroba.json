@@ -1,0 +1,31 @@
+{
+  "vendor": "Irroba",
+  "vendor_id": "irroba",
+  "product": "Irroba",
+  "product_id": "irroba-irroba",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Irroba HTML Detection",
+      "pattern": "<a[^>]*href=\"https://www\\.irroba\\.com\\.br",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Irroba from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "irroba"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

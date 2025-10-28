@@ -1,0 +1,31 @@
+{
+  "vendor": "MiniServ",
+  "vendor_id": "miniserv",
+  "product": "MiniServ",
+  "product_id": "miniserv-miniserv",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MiniServ Header Detection",
+      "pattern": "Server: MiniServ/?([\\d\\.]+)?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MiniServ from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "miniserv"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

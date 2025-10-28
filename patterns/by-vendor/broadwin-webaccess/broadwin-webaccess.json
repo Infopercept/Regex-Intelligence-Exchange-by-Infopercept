@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<frame\\ marginheight=\"0\"\\ marginwidth=\"0\"\\ name=\"rightRunFrame\"\\ noresize\\ src=\"bwRunRight\\.asp\">"
+      "pattern": "<frame\\ marginheight=\"0\"\\ marginwidth=\"0\"\\ name=\"rightRunFrame\"\\ noresize\\ src=\"bwRunRight\\.asp\">",
+      "version_group": 0
     },
     {
       "name": "BroadWin-WebAccess Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<html><!\\-\\-\\ \\#BeginTemplate\\ \"/Templates/bw_templete1\\.dwt\"\\ \\-\\->"
+      "pattern": "<html><!\\-\\-\\ \\#BeginTemplate\\ \"/Templates/bw_templete1\\.dwt\"\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "BroadWin-WebAccess Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<title>Operator\\ Manual</title>"
+      "pattern": "<title>Operator\\ Manual</title>",
+      "version_group": 0
     },
     {
       "name": "BroadWin-WebAccess Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<form\\ name=\"login\"\\ action=\"/broadweb/user/signin\\.asp\"\\ method=\"post\"\\ onSubmit=\"return\\ validateUserName\\(\\)\">"
+      "pattern": "<form\\ name=\"login\"\\ action=\"/broadweb/user/signin\\.asp\"\\ method=\"post\"\\ onSubmit=\"return\\ validateUserName\\(\\)\">",
+      "version_group": 0
     },
     {
       "name": "BroadWin-WebAccess Pattern",
@@ -114,7 +118,9 @@
           }
         ]
       },
-      "pattern": "window\\.top\\.location\\.replace\\(\"/broadweb/bwroot\\.asp\\?username=admin\"\\);"
+      "pattern": "window\\.top\\.location\\.replace\\(\"/broadweb/bwroot\\.asp\\?username=admin\"\\);",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^tivo-httpd",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^tivo-httpd"
+      "pattern": "^tivo-httpd",
+      "version_group": 0
     },
     {
       "name": "TiVo Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^tivo-httpd-[\\d]+:(.+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "dps_site_id",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "dps_site_id"
+      "pattern": "dps_site_id",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

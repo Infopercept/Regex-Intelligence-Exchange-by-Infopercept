@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ use\\ the\\ default\\ style\\ sheet\\ only\\.\\.\\.\\.\\ we\\ do\\ not\\ know\\ the\\ users\\ locale\\ at\\ this\\ time\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ use\\ the\\ default\\ style\\ sheet\\ only\\.\\.\\.\\.\\ we\\ do\\ not\\ know\\ the\\ users\\ locale\\ at\\ this\\ time\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Oracle-Primerva Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"img/process_meter\\.gif\"\\ border=0\\ id=\"progressimage\"><br><br>Loading\\ Java\\ Plugin\\ and\\ Security\\ Certificate"
+      "pattern": "<img\\ src=\"img/process_meter\\.gif\"\\ border=0\\ id=\"progressimage\"><br><br>Loading\\ Java\\ Plugin\\ and\\ Security\\ Certificate",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

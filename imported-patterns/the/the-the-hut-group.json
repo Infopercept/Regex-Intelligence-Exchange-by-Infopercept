@@ -1,0 +1,31 @@
+{
+  "vendor": "The",
+  "vendor_id": "the",
+  "product": "The Hut Group",
+  "product_id": "the-the-hut-group",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "The Hut Group Script Detection",
+      "pattern": "THEHUT-.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects The Hut Group from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "the-hut-group"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

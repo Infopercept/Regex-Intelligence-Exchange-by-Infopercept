@@ -1,0 +1,71 @@
+{
+  "vendor": "RxJS",
+  "vendor_id": "rxjs",
+  "product": "RxJS",
+  "product_id": "rxjs-rxjs",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "RxJS Script Detection",
+      "pattern": "rx(?:\\.\\w+)?(?:\\.compat|\\.global)?(?:\\.min)?\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects RxJS from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "rxjs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "RxJS JavaScript Detection",
+      "pattern": "window\\.Rx\\.CompositeDisposable|Rx\\.CompositeDisposable\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects RxJS from JavaScript variable 'Rx.CompositeDisposable'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "rxjs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "RxJS JavaScript Detection",
+      "pattern": "window\\.Rx\\.Symbol|Rx\\.Symbol\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects RxJS from JavaScript variable 'Rx.Symbol'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "rxjs"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

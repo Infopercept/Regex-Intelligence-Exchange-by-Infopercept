@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "\\*\\ \\ by\\ samy\\ kamkar\\ :\\ code@samy\\.pl\\ :\\ http://samy\\.pl"
+      "pattern": "\\*\\ \\ by\\ samy\\ kamkar\\ :\\ code@samy\\.pl\\ :\\ http://samy\\.pl",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ align=\"center\"\\ class=\"weatimages_toppest_navig\"\\ style=\"text\\-decoration:underline;\">"
+      "pattern": "<div\\ align=\"center\"\\ class=\"weatimages_toppest_navig\"\\ style=\"text\\-decoration:underline;\">",
+      "version_group": 0
     },
     {
       "name": "Weatimages Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"Generator\"\\ content=\"Weatimages\"/>"
+      "pattern": "<meta\\ name=\"Generator\"\\ content=\"Weatimages\"/>",
+      "version_group": 0
     },
     {
       "name": "Weatimages Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://nazarkin\\.name/projects/weatimages/\">Weatimages</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://nazarkin\\.name/projects/weatimages/\">Weatimages</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

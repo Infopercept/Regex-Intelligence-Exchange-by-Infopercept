@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<link\\ href=\"http://www\\.claroline\\.net/documentation\\.htm\"\\ rel=\"Help\"\\ />"
+      "pattern": "<link\\ href=\"http://www\\.claroline\\.net/documentation\\.htm\"\\ rel=\"Help\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Claroline Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<link\\ href=\"http://www\\.claroline\\.net/credits\\.htm\"\\ rel=\"Author\"\\ />"
+      "pattern": "<link\\ href=\"http://www\\.claroline\\.net/credits\\.htm\"\\ rel=\"Author\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Claroline Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<link\\ href=\"http://www\\.claroline\\.net\"\\ rel=\"Copyright\"\\ />"
+      "pattern": "<link\\ href=\"http://www\\.claroline\\.net\"\\ rel=\"Copyright\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

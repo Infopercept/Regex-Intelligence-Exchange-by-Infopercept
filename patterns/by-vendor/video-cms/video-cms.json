@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<p\\ style=\"color:\\#aaaaaa;text\\-align:center\">Powered\\ by\\ <a\\ style=\"color:\\#aaaaaa\"\\ href=\"http://www\\.codemight\\.com\"\\ target=\"_blank\">Video\\ CMS</a><br\\ /><br\\ /></p></body>"
+      "pattern": "<p\\ style=\"color:\\#aaaaaa;text\\-align:center\">Powered\\ by\\ <a\\ style=\"color:\\#aaaaaa\"\\ href=\"http://www\\.codemight\\.com\"\\ target=\"_blank\">Video\\ CMS</a><br\\ /><br\\ /></p></body>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

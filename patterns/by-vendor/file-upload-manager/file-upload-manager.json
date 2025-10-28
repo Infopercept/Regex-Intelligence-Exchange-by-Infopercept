@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>File\\ Upload\\ Manager</title>"
+      "pattern": "<title>File\\ Upload\\ Manager</title>",
+      "version_group": 0
     },
     {
       "name": "File-Upload-Manager Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Copyright\\ \\(c\\)\\ 2003\\ thepeak\\.\\ Get\\ your\\ own\\ copy\\ of\\ this\\ free\\ PHP\\ script\\ from\\ www\\.mtnpeak\\.net\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Copyright\\ \\(c\\)\\ 2003\\ thepeak\\.\\ Get\\ your\\ own\\ copy\\ of\\ this\\ free\\ PHP\\ script\\ from\\ www\\.mtnpeak\\.net\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "File-Upload-Manager Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.mtnpeak\\.net\"\\ style=\"text\\-decoration:\\ none;\\ color:\\ \\#C0C0C0;\\ font\\-size:\\ 9px;\\ cursor:\\ default\";>\\&copy;\\ thepeak</a>"
+      "pattern": "<a\\ href=\"http://www\\.mtnpeak\\.net\"\\ style=\"text\\-decoration:\\ none;\\ color:\\ \\#C0C0C0;\\ font\\-size:\\ 9px;\\ cursor:\\ default\";>\\&copy;\\ thepeak</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

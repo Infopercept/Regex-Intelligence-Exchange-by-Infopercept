@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Calypso\\ ION\\-8r\\ Device</title>"
+      "pattern": "<title>Calypso\\ ION\\-8r\\ Device</title>",
+      "version_group": 0
     },
     {
       "name": "Calypso-ION-8r-Device Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<li><a\\ href=\"/A/cfg/entercmd\\.stm\">Enter\\ Command</a></li>"
+      "pattern": "<li><a\\ href=\"/A/cfg/entercmd\\.stm\">Enter\\ Command</a></li>",
+      "version_group": 0
     },
     {
       "name": "Calypso-ION-8r-Device Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "Calypso\\ ION8r\\ Device"
+      "pattern": "Calypso\\ ION8r\\ Device",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

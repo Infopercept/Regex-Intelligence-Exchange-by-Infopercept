@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "par\\ <a\\ href=\"http://pluxml\\.org\">Pluxml</a></p>"
+      "pattern": "par\\ <a\\ href=\"http://pluxml\\.org\">Pluxml</a></p>",
+      "version_group": 0
     },
     {
       "name": "PluXml Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://pluxml.org",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <a href=\"http://pluxml\\.org"
+      "pattern": "Powered by <a href=\"http://pluxml\\.org",
+      "version_group": 0
     },
     {
       "name": "PluXml Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<title>PluXml\\ \\-\\ Page\\ d'authentification</title>"
+      "pattern": "<title>PluXml\\ \\-\\ Page\\ d'authentification</title>",
+      "version_group": 0
     },
     {
       "name": "PluXml Pattern",
@@ -86,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<p\\ class=\"auth_return\"><a\\ href=\"\\.\\./\\.\\./\">Retour\\ au\\ site</a>"
+      "pattern": "<p\\ class=\"auth_return\"><a\\ href=\"\\.\\./\\.\\./\">Retour\\ au\\ site</a>",
+      "version_group": 0
     },
     {
       "name": "PluXml Pattern",
@@ -108,7 +118,8 @@
           }
         ]
       },
-      "pattern": "G\\&eacute;n\\&eacute;r\\&eacute;\\ par\\ <a\\ href=\"http://pluxml\\.org\"\\ title=\"Blog\\ ou\\ Cms\\ sans\\ base\\ de\\ donn\\&eacute;es\">PluXml</a>"
+      "pattern": "G\\&eacute;n\\&eacute;r\\&eacute;\\ par\\ <a\\ href=\"http://pluxml\\.org\"\\ title=\"Blog\\ ou\\ Cms\\ sans\\ base\\ de\\ donn\\&eacute;es\">PluXml</a>",
+      "version_group": 0
     },
     {
       "name": "PluXml Pattern",
@@ -130,7 +141,9 @@
           }
         ]
       },
-      "pattern": "G\\&eacute;n\\&eacute;r\\&eacute;\\ par\\ <a\\ href=\"http://pluxml\\.org\">PluXml</a></p>"
+      "pattern": "G\\&eacute;n\\&eacute;r\\&eacute;\\ par\\ <a\\ href=\"http://pluxml\\.org\">PluXml</a></p>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

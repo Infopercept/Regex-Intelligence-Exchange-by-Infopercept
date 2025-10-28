@@ -1,0 +1,31 @@
+{
+  "vendor": "KineticJS",
+  "vendor_id": "kineticjs",
+  "product": "KineticJS",
+  "product_id": "kineticjs-kineticjs",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "KineticJS Script Detection",
+      "pattern": "kinetic(?:-v?([\\d.]+))?(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects KineticJS from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "kineticjs"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

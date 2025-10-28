@@ -1,0 +1,31 @@
+{
+  "vendor": "Jetty",
+  "vendor_id": "jetty",
+  "product": "Jetty",
+  "product_id": "jetty-jetty",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Jetty Header Detection",
+      "pattern": "Server: Jetty(?:\\(([\\d\\.]*\\d+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Jetty from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "jetty"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

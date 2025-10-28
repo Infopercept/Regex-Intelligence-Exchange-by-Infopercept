@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<DIV align=\"center\" CLASS=\"copy\">Powered by[s]+<A HREF=\"http://www.icewarp.com/\" target=\"_blank\" CLASS=\"copylink\">IceWarp Software</A> <A HREF=\"http://(www.)?icewarp.com/Products/Merak_Email_Server_Software/\" target=\"_blank\" CLASS=\"copylink\">Merak Email Server</A><BR>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<DIV align=\"center\" CLASS=\"copy\">Powered by[\\s]+<A HREF=\"http://www.icewarp.com/\" target=\"_blank\" CLASS=\"copylink\">IceWarp Software</A> <A HREF=\"http://(www\\.)?icewarp\\.com/Products/Merak_Email_Server_Software/\" target=\"_blank\" CLASS=\"copylink\">Merak Email Server</A><BR>"
+      "pattern": "<DIV align=\"center\" CLASS=\"copy\">Powered by[\\s]+<A HREF=\"http://www.icewarp.com/\" target=\"_blank\" CLASS=\"copylink\">IceWarp Software</A> <A HREF=\"http://(www\\.)?icewarp\\.com/Products/Merak_Email_Server_Software/\" target=\"_blank\" CLASS=\"copylink\">Merak Email Server</A><BR>",
+      "version_group": 0
     },
     {
       "name": "IceWarp-Email-Server Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<noscript>Please,\\ enable\\ <strong>JavaScript</strong>\\ for\\ this\\ site\\ and\\ if\\ such\\ option\\ is\\ not\\ available,\\ download\\ the\\ latest\\ <a\\ href=\"http://www\\.microsoft\\.com/windows/downloads/ie/getitnow\\.mspx\">Internet\\ Explorer</a>\\ or\\ <a\\ href=\"http://www\\.getfirefox\\.com\">Mozilla\\ FireFox</a>\\.</noscript>"
+      "pattern": "<noscript>Please,\\ enable\\ <strong>JavaScript</strong>\\ for\\ this\\ site\\ and\\ if\\ such\\ option\\ is\\ not\\ available,\\ download\\ the\\ latest\\ <a\\ href=\"http://www\\.microsoft\\.com/windows/downloads/ie/getitnow\\.mspx\">Internet\\ Explorer</a>\\ or\\ <a\\ href=\"http://www\\.getfirefox\\.com\">Mozilla\\ FireFox</a>\\.</noscript>",
+      "version_group": 0
     },
     {
       "name": "IceWarp-Email-Server Pattern",
@@ -64,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<span\\ id=\"cipher\"><input\\ type=\"checkbox\"\\ name=\"xcipher\"\\ value=\"1\"\\ >Encrypted\\ login</span>"
+      "pattern": "<span\\ id=\"cipher\"><input\\ type=\"checkbox\"\\ name=\"xcipher\"\\ value=\"1\"\\ >Encrypted\\ login</span>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

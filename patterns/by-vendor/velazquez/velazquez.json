@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Velazquez",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Velazquez"
+      "pattern": "^Velazquez",
+      "version_group": 0
     },
     {
       "name": "Velazquez Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Velazquez ([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

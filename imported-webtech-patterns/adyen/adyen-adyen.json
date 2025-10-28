@@ -1,0 +1,31 @@
+{
+  "vendor": "Adyen",
+  "vendor_id": "adyen",
+  "product": "Adyen",
+  "product_id": "adyen-adyen",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Adyen JavaScript Detection",
+      "pattern": "window\\.adyen\\.encrypt\\.version|adyen\\.encrypt\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Adyen from JavaScript variable 'adyen.encrypt.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "adyen"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

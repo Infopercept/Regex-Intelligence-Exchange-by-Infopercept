@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-Modify\\ by\\ wangxiangguang\\ 2006\\-9\\-29\\ for\\ BYDD15857\\ Begin\\ \\-\\->"
+      "pattern": "<!\\-\\-Modify\\ by\\ wangxiangguang\\ 2006\\-9\\-29\\ for\\ BYDD15857\\ Begin\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Huawei-Firewall Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-Modify\\ by\\ wangxiangguang\\ 2006\\-9\\-29\\ for\\ BYDD15857\\ End\\ \\-\\->"
+      "pattern": "<!\\-\\-Modify\\ by\\ wangxiangguang\\ 2006\\-9\\-29\\ for\\ BYDD15857\\ End\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Huawei-Firewall Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<input\\ type=\"text\"\\ onpaste=\"checkPaste\\(this,\\\\"
+      "pattern": "<input\\ type=\"text\"\\ onpaste=\"checkPaste\\(this,\\\\",
+      "version_group": 0
     },
     {
       "name": "Huawei-Firewall Pattern",
@@ -95,5 +98,6 @@
       "pattern": "Server: ^Eudemon Server ([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

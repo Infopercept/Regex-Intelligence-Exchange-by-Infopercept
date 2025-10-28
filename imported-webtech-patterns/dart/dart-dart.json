@@ -1,0 +1,111 @@
+{
+  "vendor": "Dart",
+  "vendor_id": "dart",
+  "product": "Dart",
+  "product_id": "dart-dart",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Dart HTML Detection",
+      "pattern": "/(?:<script)[^>]+(?:type=\"application/dart\")/",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Dart from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "dart"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Dart Script Detection",
+      "pattern": "/(?:\\.)?(?:dart)(?:\\.js)?/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Dart from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "dart"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Dart Script Detection",
+      "pattern": "packages/browser/dart\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Dart from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "dart"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Dart JavaScript Detection",
+      "pattern": "window\\.___dart__\\$dart_dartObject_ZxYxX_0_|___dart__\\$dart_dartObject_ZxYxX_0_\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Dart from JavaScript variable '___dart__$dart_dartObject_ZxYxX_0_'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "dart"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Dart JavaScript Detection",
+      "pattern": "window\\.___dart_dispatch_record_ZxYxX_0_|___dart_dispatch_record_ZxYxX_0_\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Dart from JavaScript variable '___dart_dispatch_record_ZxYxX_0_'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "dart"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

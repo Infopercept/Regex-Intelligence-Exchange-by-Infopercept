@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>AContent:\\ Learning\\ Content\\ Repository:"
+      "pattern": "<title>AContent:\\ Learning\\ Content\\ Repository:",
+      "version_group": 0
     },
     {
       "name": "AContent Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<dt><span\\ class=\"required\"\\ title=\"Required\\ Field\">\\*</span><label\\ for=\"login\">Login\\ Name\\ or\\ Email</label></dt>"
+      "pattern": "<dt><span\\ class=\"required\"\\ title=\"Required\\ Field\">\\*</span><label\\ for=\"login\">Login\\ Name\\ or\\ Email</label></dt>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

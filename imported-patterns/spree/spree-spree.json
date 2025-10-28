@@ -1,0 +1,31 @@
+{
+  "vendor": "Spree",
+  "vendor_id": "spree",
+  "product": "Spree",
+  "product_id": "spree-spree",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Spree HTML Detection",
+      "pattern": "(?:<link[^>]*/assets/store/all-[a-z\\d]{32}\\.css[^>]+>|<script>\\s*Spree\\.(?:routes|translations|api_key))",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Spree from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "spree"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

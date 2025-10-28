@@ -1,0 +1,71 @@
+{
+  "vendor": "ZURB",
+  "vendor_id": "zurb",
+  "product": "ZURB Foundation",
+  "product_id": "zurb-zurb-foundation",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ZURB Foundation HTML Detection",
+      "pattern": "<link[^>]+foundation[^>\"]+css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ZURB Foundation from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "zurb-foundation"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "ZURB Foundation HTML Detection",
+      "pattern": "<div [^>]*class=\"[^\"]*(?:small|medium|large)-\\d{1,2} columns",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ZURB Foundation from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "zurb-foundation"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "ZURB Foundation JavaScript Detection",
+      "pattern": "window\\.Foundation\\.version|Foundation\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ZURB Foundation from JavaScript variable 'Foundation.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "zurb-foundation"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

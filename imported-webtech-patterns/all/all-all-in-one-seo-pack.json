@@ -1,0 +1,31 @@
+{
+  "vendor": "All",
+  "vendor_id": "all",
+  "product": "All in One SEO Pack",
+  "product_id": "all-all-in-one-seo-pack",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "All in One SEO Pack HTML Detection",
+      "pattern": "<!-- All in One SEO Pack ([\\d.]+) ",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects All in One SEO Pack from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "all-in-one-seo-pack"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

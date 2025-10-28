@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<input\\ type=\"submit\"\\ name=\"submit\"\\ value=\"Connect\\ to\\ Octopussy\"></td>"
+      "pattern": "<input\\ type=\"submit\"\\ name=\"submit\"\\ value=\"Connect\\ to\\ Octopussy\"></td>",
+      "version_group": 0
     },
     {
       "name": "Octopussy Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<img\\ border=\"0\"\\ src=\"IMG/octo_login1\\.png\"\\ alt=\"Octopussy\\ Logo\"></td>"
+      "pattern": "<img\\ border=\"0\"\\ src=\"IMG/octo_login1\\.png\"\\ alt=\"Octopussy\\ Logo\"></td>",
+      "version_group": 0
     },
     {
       "name": "Octopussy Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<title>Octopussy\\ Login</title>"
+      "pattern": "<title>Octopussy\\ Login</title>",
+      "version_group": 0
     },
     {
       "name": "Octopussy Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"icon\"\\ type=\"image/gif\"\\ href=\"IMG/octopussy\\.gif\">"
+      "pattern": "<link\\ rel=\"icon\"\\ type=\"image/gif\"\\ href=\"IMG/octopussy\\.gif\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

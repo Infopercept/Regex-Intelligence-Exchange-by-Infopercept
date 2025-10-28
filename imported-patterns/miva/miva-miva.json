@@ -1,0 +1,51 @@
+{
+  "vendor": "Miva",
+  "vendor_id": "miva",
+  "product": "Miva",
+  "product_id": "miva-miva",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Miva Header Detection",
+      "pattern": "content-disposition: filename=(?:mvga\\.js|MivaEvents\\.js)",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Miva from content-disposition header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "miva"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Miva Script Detection",
+      "pattern": "mvga\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Miva from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "miva"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

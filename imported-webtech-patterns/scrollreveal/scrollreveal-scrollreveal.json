@@ -1,0 +1,71 @@
+{
+  "vendor": "scrollreveal",
+  "vendor_id": "scrollreveal",
+  "product": "scrollreveal",
+  "product_id": "scrollreveal-scrollreveal",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "scrollreveal HTML Detection",
+      "pattern": "<[^>]+data-sr(?:-id)",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects scrollreveal from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "scrollreveal"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "scrollreveal Script Detection",
+      "pattern": "scrollreveal(?:\\.min)(?:\\.js)",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects scrollreveal from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "scrollreveal"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "scrollreveal JavaScript Detection",
+      "pattern": "window\\.ScrollReveal\\(\\)\\.version|ScrollReveal\\(\\)\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects scrollreveal from JavaScript variable 'ScrollReveal().version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "scrollreveal"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

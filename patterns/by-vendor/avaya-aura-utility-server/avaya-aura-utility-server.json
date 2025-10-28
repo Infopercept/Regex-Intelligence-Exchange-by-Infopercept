@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<span\\ class=\"vmsTitle\">Avaya\\ Aura\\&\\#8482;\\&nbsp;Utility\\ Server</span>"
+      "pattern": "<span\\ class=\"vmsTitle\">Avaya\\ Aura\\&\\#8482;\\&nbsp;Utility\\ Server</span>",
+      "version_group": 0
     },
     {
       "name": "Avaya-Aura-Utility-Server Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"topBar\"><div\\ id=\"topBarLeft\"><a\\ href=\"\\#\"\\ class=\"helpAndExit\"\\ onclick=\"window\\.open\\(\\\\"
+      "pattern": "<div\\ id=\"topBar\"><div\\ id=\"topBarLeft\"><a\\ href=\"\\#\"\\ class=\"helpAndExit\"\\ onclick=\"window\\.open\\(\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

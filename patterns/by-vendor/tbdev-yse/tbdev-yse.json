@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ ///////\\ Top\\ Navigation\\ Menu\\ for\\ unregistered\\-\\->"
+      "pattern": "<!\\-\\-\\ ///////\\ Top\\ Navigation\\ Menu\\ for\\ unregistered\\-\\->",
+      "version_group": 0
     },
     {
       "name": "TBDev-YSE Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ ///////////\\ here\\ we\\ go,\\ with\\ the\\ menu\\ ////////////\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ ///////////\\ here\\ we\\ go,\\ with\\ the\\ menu\\ ////////////\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

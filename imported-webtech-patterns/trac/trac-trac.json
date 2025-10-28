@@ -1,0 +1,51 @@
+{
+  "vendor": "Trac",
+  "vendor_id": "trac",
+  "product": "Trac",
+  "product_id": "trac-trac",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Trac HTML Detection",
+      "pattern": "<a id=\"tracpowered",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Trac from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "trac"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Trac HTML Detection",
+      "pattern": "Powered by <a href=\"[^\"]*\"><strong>Trac(?:[ /]([\\d.]+))?",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Trac from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "trac"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

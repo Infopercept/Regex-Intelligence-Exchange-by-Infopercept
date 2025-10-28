@@ -1,0 +1,31 @@
+{
+  "vendor": "DataLife",
+  "vendor_id": "datalife",
+  "product": "DataLife Engine",
+  "product_id": "datalife-datalife-engine",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DataLife Engine Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']DataLife Engine[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DataLife Engine from meta tag with name 'generator'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "datalife-engine"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

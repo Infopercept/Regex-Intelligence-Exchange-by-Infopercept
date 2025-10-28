@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ top\\.opener\\.location\\.href=\"/\\?login=\";"
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ top\\.opener\\.location\\.href=\"/\\?login=\";",
+      "version_group": 0
     },
     {
       "name": "Axigen-Mail-Server Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<div>Powered\\ by\\ <a\\ href=\"http://www\\.axigen\\.com\"\\ target=\"_blank\"\\ class=\"gray\">Axigen\\ Mail\\ Server</a></div>"
+      "pattern": "<div>Powered\\ by\\ <a\\ href=\"http://www\\.axigen\\.com\"\\ target=\"_blank\"\\ class=\"gray\">Axigen\\ Mail\\ Server</a></div>",
+      "version_group": 0
     },
     {
       "name": "Axigen-Mail-Server Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.axigen\\.com/\"\\ target=\"_blank\">Axigen\\ Mail\\ Server</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.axigen\\.com/\"\\ target=\"_blank\">Axigen\\ Mail\\ Server</a>",
+      "version_group": 0
     },
     {
       "name": "Axigen-Mail-Server Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<div\\ class=\"nojsContainer\"><h1>In\\ order\\ to\\ access\\ AXIGEN\\ Webmail,\\ <br\\ />you\\ must\\ enable\\ Javascript\\ in\\ your\\ browser!</h1></div>"
+      "pattern": "<div\\ class=\"nojsContainer\"><h1>In\\ order\\ to\\ access\\ AXIGEN\\ Webmail,\\ <br\\ />you\\ must\\ enable\\ Javascript\\ in\\ your\\ browser!</h1></div>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

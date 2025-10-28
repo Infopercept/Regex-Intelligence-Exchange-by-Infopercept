@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.netartmedia\\.net/realestate\"\\ target=\"_blank\">Real\\ Estate\\ Portal</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.netartmedia\\.net/realestate\"\\ target=\"_blank\">Real\\ Estate\\ Portal</a>",
+      "version_group": 0
     },
     {
       "name": "NetArtMedia-Real-Estate-Portal Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.netartmedia\\.net/realestate\">Real\\ Estate\\ Portal</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.netartmedia\\.net/realestate\">Real\\ Estate\\ Portal</a>",
+      "version_group": 0
     },
     {
       "name": "NetArtMedia-Real-Estate-Portal Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t\\\tdocument\\.form1\\.property_type\\.options\\[i\\]\\ =\\ new\\ Option\\(CurrentModels\\[i\\],\\ CurrentModels\\[i\\],\\ 0,\\ 0\\);"
+      "pattern": "\\\t\\\t\\\tdocument\\.form1\\.property_type\\.options\\[i\\]\\ =\\ new\\ Option\\(CurrentModels\\[i\\],\\ CurrentModels\\[i\\],\\ 0,\\ 0\\);",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

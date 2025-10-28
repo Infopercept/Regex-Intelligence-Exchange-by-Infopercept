@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ class=\"menu\\-caption\">Kills\\ \\&amp;\\ losses</div>"
+      "pattern": "<div\\ class=\"menu\\-caption\">Kills\\ \\&amp;\\ losses</div>",
+      "version_group": 0
     },
     {
       "name": "EDK Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<tr\\ class=\"kb\\-table\\-row\\-even\">"
+      "pattern": "<tr\\ class=\"kb\\-table\\-row\\-even\">",
+      "version_group": 0
     },
     {
       "name": "EDK Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "\\&amp;scl_id=39\">Industrial\\ Command\\ Ship</a></b></td>"
+      "pattern": "\\&amp;scl_id=39\">Industrial\\ Command\\ Ship</a></b></td>",
+      "version_group": 0
     },
     {
       "name": "EDK Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ /killlistable\\.tpl\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ /killlistable\\.tpl\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

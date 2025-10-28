@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>NetCam Live Image[ Popup]*</title>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>NetCam Live Image[\\ Popup]*</title>"
+      "pattern": "<title>NetCam Live Image[\\ Popup]*</title>",
+      "version_group": 0
     },
     {
       "name": "StarDot-NetCam Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<applet code=\"CaptureClient.class\" width=\"[d]+\" height=\"[d]+\" alt=\"NetCam Live [Stream|Image]+\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<applet code=\"CaptureClient.class\" width=\"[\\d]+\" height=\"[\\d]+\" alt=\"NetCam Live [Stream|Image]+\">"
+      "pattern": "<applet code=\"CaptureClient.class\" width=\"[\\d]+\" height=\"[\\d]+\" alt=\"NetCam Live [Stream|Image]+\">",
+      "version_group": 0
     },
     {
       "name": "StarDot-NetCam Pattern",
@@ -50,6 +64,12 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>NetCamXL Live Image[ Popup]*</title>",
+            "expected_version": "unknown"
+          }
         ]
       },
       "pattern": "<title>NetCamXL Live Image[\\ Popup]*</title>",
@@ -67,10 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<applet code=\"CaptureClient.class\" width=\"[d]+\" height=\"[d]+\" alt=\"NetCamXL Live [Stream|Image]+\">",
+            "expected_version": "unknown"
+          }
         ]
       },
       "pattern": "<applet code=\"CaptureClient.class\" width=\"[\\d]+\" height=\"[\\d]+\" alt=\"NetCamXL Live [Stream|Image]+\">",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

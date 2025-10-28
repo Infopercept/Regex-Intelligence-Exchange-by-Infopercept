@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>Apache Tomcat</title>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>Apache Tomcat</title>"
+      "pattern": "<title>Apache Tomcat</title>",
+      "version_group": 0
     },
     {
       "name": "catalina home",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "CATALINA_HOME/webapps/ROOT/index.html",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "CATALINA_HOME/webapps/ROOT/index\\.html"
+      "pattern": "CATALINA_HOME/webapps/ROOT/index\\.html",
+      "version_group": 0
     },
     {
       "name": "Java Stack Trace Error",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "org.apache.tomcat..*java.lang.Thread.run",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "org\\.apache\\.tomcat\\..*java\\.lang\\.Thread\\.run"
+      "pattern": "org\\.apache\\.tomcat\\..*java\\.lang\\.Thread\\.run",
+      "version_group": 0
     },
     {
       "name": "Tomcat admin /manager/status",
@@ -74,7 +95,9 @@
           }
         ]
       },
-      "pattern": "tomcat"
+      "pattern": "tomcat",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

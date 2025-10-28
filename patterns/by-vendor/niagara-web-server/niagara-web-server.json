@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Niagara Web Server",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Niagara Web Server"
+      "pattern": "Niagara Web Server",
+      "version_group": 0
     },
     {
       "name": "Niagara-Web-Server Pattern",
@@ -68,5 +75,6 @@
       "pattern": "niagara-release: ^(.*)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

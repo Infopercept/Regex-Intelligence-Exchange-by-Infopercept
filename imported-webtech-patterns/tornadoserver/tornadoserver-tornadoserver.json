@@ -1,0 +1,31 @@
+{
+  "vendor": "TornadoServer",
+  "vendor_id": "tornadoserver",
+  "product": "TornadoServer",
+  "product_id": "tornadoserver-tornadoserver",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TornadoServer Header Detection",
+      "pattern": "Server: TornadoServer(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects TornadoServer from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "tornadoserver"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

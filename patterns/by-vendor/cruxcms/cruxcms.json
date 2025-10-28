@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<font\\ color=\"\\#666666\"><center>Powered\\ by\\ <a\\ href=\"http://www\\.cruxcms\\.co\\.uk\">Crux\\ CMS</a></center>\\ </font>"
+      "pattern": "<font\\ color=\"\\#666666\"><center>Powered\\ by\\ <a\\ href=\"http://www\\.cruxcms\\.co\\.uk\">Crux\\ CMS</a></center>\\ </font>",
+      "version_group": 0
     },
     {
       "name": "CruxCMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<font\\ color=\"\\#666666\"><center>Powered\\ by\\ <a\\ href=\"http://www\\.cruxsoftware\\.co\\.uk\">Crux\\ CMS</a></center>\\ </font>"
+      "pattern": "<font\\ color=\"\\#666666\"><center>Powered\\ by\\ <a\\ href=\"http://www\\.cruxsoftware\\.co\\.uk\">Crux\\ CMS</a></center>\\ </font>",
+      "version_group": 0
     },
     {
       "name": "CruxCMS Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"Generator\"\\ content=\"Created\\ by\\ CruxCMS\\ http://www\\.cruxsoftware\\.co\\.uk\">"
+      "pattern": "<meta\\ name=\"Generator\"\\ content=\"Created\\ by\\ CruxCMS\\ http://www\\.cruxsoftware\\.co\\.uk\">",
+      "version_group": 0
     },
     {
       "name": "CruxCMS Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"Generator\"\\ content=\"Created\\ by\\ Crux\\ CMS\\ http://www\\.cruxcms\\.co\\.uk\">"
+      "pattern": "<meta\\ name=\"Generator\"\\ content=\"Created\\ by\\ Crux\\ CMS\\ http://www\\.cruxcms\\.co\\.uk\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

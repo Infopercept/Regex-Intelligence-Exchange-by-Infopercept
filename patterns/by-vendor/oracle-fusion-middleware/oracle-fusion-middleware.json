@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Welcome\\ to\\ Oracle\\ Fusion\\ Middleware</title>"
+      "pattern": "<title>Welcome\\ to\\ Oracle\\ Fusion\\ Middleware</title>",
+      "version_group": 0
     },
     {
       "name": "Oracle-Fusion-Middleware Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<link\\ href=\"css/fmw_bottom_area\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\">"
+      "pattern": "<link\\ href=\"css/fmw_bottom_area\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\">",
+      "version_group": 0
     },
     {
       "name": "Oracle-Fusion-Middleware Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Oracle-Fusion-Middleware",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Oracle-Fusion-Middleware"
+      "pattern": "^Oracle-Fusion-Middleware",
+      "version_group": 0
     },
     {
       "name": "Oracle-Fusion-Middleware Pattern",
@@ -89,5 +98,6 @@
       "pattern": "Server: ^Oracle-Fusion-Middleware/([^\\s]+ \\([^\\)]+\\))",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script [^>]*src=[\"']http://cf.kampyle.com/k_button.js[\"'][^>]*>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script [^>]*src=[\"']http://cf\\.kampyle\\.com/k_button\\.js[\"'][^>]*>"
+      "pattern": "<script [^>]*src=[\"']http://cf\\.kampyle\\.com/k_button\\.js[\"'][^>]*>",
+      "version_group": 0
     },
     {
       "name": "Kampyle Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-Start\\ Kampyle\\ Feedback\\ Form\\ Button\\-\\->"
+      "pattern": "<!\\-\\-Start\\ Kampyle\\ Feedback\\ Form\\ Button\\-\\->",
+      "version_group": 0
     },
     {
       "name": "Kampyle Pattern",
@@ -64,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-End\\ Kampyle\\ Feedback\\ Form\\ Button\\-\\->"
+      "pattern": "<!\\-\\-End\\ Kampyle\\ Feedback\\ Form\\ Button\\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

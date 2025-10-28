@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Xitami$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Xitami$"
+      "pattern": "^Xitami$",
+      "version_group": 0
     },
     {
       "name": "Xitami Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Xitami/([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

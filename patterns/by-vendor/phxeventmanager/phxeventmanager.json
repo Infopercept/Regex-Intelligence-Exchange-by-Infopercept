@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<td><div\\ class=\"minicalmonth\"><a\\ href=\"/\\?y="
+      "pattern": "<td><div\\ class=\"minicalmonth\"><a\\ href=\"/\\?y=",
+      "version_group": 0
     },
     {
       "name": "phxEventManager Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<script\\ type=\"text/javascript\"\\ src=\"pem\\-includes/xajax/xajax_js/xajax_core\\.js\"></script>"
+      "pattern": "<script\\ type=\"text/javascript\"\\ src=\"pem\\-includes/xajax/xajax_js/xajax_core\\.js\"></script>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,51 @@
+{
+  "vendor": "Semantic",
+  "vendor_id": "semantic",
+  "product": "Semantic UI",
+  "product_id": "semantic-semantic-ui",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Semantic UI HTML Detection",
+      "pattern": "<link[^>]+semantic(?:\\.min)\\.css\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Semantic UI from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "semantic-ui"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Semantic UI Script Detection",
+      "pattern": "/semantic(?:-([\\d.]+))?(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Semantic UI from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "semantic-ui"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

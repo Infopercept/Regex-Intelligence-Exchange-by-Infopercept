@@ -1,0 +1,51 @@
+{
+  "vendor": "Proximis",
+  "vendor_id": "proximis",
+  "product": "Proximis Unified Commerce",
+  "product_id": "proximis-proximis-unified-commerce",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Proximis Unified Commerce HTML Detection",
+      "pattern": "<html[^>]+data-ng-app=\"RbsChangeApp\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Proximis Unified Commerce from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "proximis-unified-commerce"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Proximis Unified Commerce Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']Proximis Unified Commerce[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Proximis Unified Commerce from meta tag with name 'generator'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "proximis-unified-commerce"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

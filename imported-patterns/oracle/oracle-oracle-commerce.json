@@ -1,0 +1,51 @@
+{
+  "vendor": "Oracle",
+  "vendor_id": "oracle",
+  "product": "Oracle Commerce",
+  "product_id": "oracle-oracle-commerce",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Oracle Commerce Header Detection",
+      "pattern": "X-ATG-Version: (?:ATGPlatform/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Oracle Commerce from X-ATG-Version header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "oracle-commerce"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Oracle Commerce HTML Detection",
+      "pattern": "<[^>]+_dyncharset",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Oracle Commerce from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "oracle-commerce"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

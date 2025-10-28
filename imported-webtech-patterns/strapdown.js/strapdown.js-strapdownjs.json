@@ -1,0 +1,31 @@
+{
+  "vendor": "Strapdown.js",
+  "vendor_id": "strapdown.js",
+  "product": "Strapdown.js",
+  "product_id": "strapdown.js-strapdownjs",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Strapdown.js Script Detection",
+      "pattern": "strapdown\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Strapdown.js from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "strapdown.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

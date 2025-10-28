@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^WSGIServer/[^s]+ Python/[^s]+$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^WSGIServer/[^\\s]+ Python/[^\\s]+$"
+      "pattern": "^WSGIServer/[^\\s]+ Python/[^\\s]+$",
+      "version_group": 0
     },
     {
       "name": "Django Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div id=\"explanation\">[s]+<p>[s]+You're seeing this error because you have <code>DEBUG = True</code> in[s]+your[s]+Django settings file",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div id=\"explanation\">[\\s]+<p>[\\s]+You're seeing this error because you have <code>DEBUG = True</code> in[\\s]+your[\\s]+Django settings file"
+      "pattern": "<div id=\"explanation\">[\\s]+<p>[\\s]+You're seeing this error because you have <code>DEBUG = True</code> in[\\s]+your[\\s]+Django settings file",
+      "version_group": 0
     },
     {
       "name": "Django Pattern",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"robots\" content=\"NONE,NOARCHIVE\"><title>Welcome to Django</title>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\"robots\" content=\"NONE,NOARCHIVE\"><title>Welcome to Django</title>"
+      "pattern": "<meta name=\"robots\" content=\"NONE,NOARCHIVE\"><title>Welcome to Django</title>",
+      "version_group": 0
     },
     {
       "name": "Django Pattern",
@@ -66,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form action=\"/admin",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<form action=\"/admin\\"
+      "pattern": "<form action=\"/admin\\",
+      "version_group": 0
     },
     {
       "name": "Django Pattern",
@@ -90,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<input\\ type=\"hidden\"\\ name=\"this_is_the_login_form\"\\ value=\"1\"\\ />"
+      "pattern": "<input\\ type=\"hidden\"\\ name=\"this_is_the_login_form\"\\ value=\"1\"\\ />",
+      "version_group": 0
     },
     {
       "name": "csrftoken cookie",
@@ -104,9 +133,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "csrftoken",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "csrftoken"
+      "pattern": "csrftoken",
+      "version_group": 0
     },
     {
       "name": "django_ cookie",
@@ -120,9 +156,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "django_",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "django_"
+      "pattern": "django_",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

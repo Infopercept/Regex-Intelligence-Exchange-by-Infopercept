@@ -1,0 +1,71 @@
+{
+  "vendor": "Kibana",
+  "vendor_id": "kibana",
+  "product": "Kibana",
+  "product_id": "kibana-kibana",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Kibana Header Detection",
+      "pattern": "kbn-name: kibana",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Kibana from kbn-name header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "kibana"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Kibana Header Detection",
+      "pattern": "kbn-version: ^([\\d.]+)$",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Kibana from kbn-version header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "kibana"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Kibana HTML Detection",
+      "pattern": "<title>Kibana</title>",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Kibana from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "kibana"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

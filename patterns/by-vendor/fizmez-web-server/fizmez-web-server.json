@@ -18,6 +18,12 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Fizmez/0.0.1",
+            "expected_version": "unknown"
+          }
         ]
       },
       "pattern": "^Fizmez/0\\.0\\.1",
@@ -46,5 +52,6 @@
       "pattern": "Server: ^Fizmez/([1-9]+\\.[\\d\\.]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

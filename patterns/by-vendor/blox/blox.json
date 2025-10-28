@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "BLOX CMS version: [d.]+",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "BLOX CMS version: [\\d.]+"
+      "pattern": "BLOX CMS version: [\\d.]+",
+      "version_group": 0
     },
     {
       "name": "TNNoMobile cookie",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^TNNoMobile",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^TNNoMobile"
+      "pattern": "^TNNoMobile",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

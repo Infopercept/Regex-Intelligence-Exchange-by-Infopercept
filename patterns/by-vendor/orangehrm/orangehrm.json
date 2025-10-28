@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<input\\ type=\"hidden\"\\ name=\"hdnUserTimeZoneOffset\"\\ id=\"hdnUserTimeZoneOffset\"\\ value=\"0\"\\ />"
+      "pattern": "<input\\ type=\"hidden\"\\ name=\"hdnUserTimeZoneOffset\"\\ id=\"hdnUserTimeZoneOffset\"\\ value=\"0\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

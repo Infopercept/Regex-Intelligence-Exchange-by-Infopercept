@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "_sling_skey=[^;]+",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "_sling_skey=[^;]+"
+      "pattern": "_sling_skey=[^;]+",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

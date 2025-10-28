@@ -1,0 +1,31 @@
+{
+  "vendor": "mod_auth_pam",
+  "vendor_id": "mod_auth_pam",
+  "product": "mod_auth_pam",
+  "product_id": "mod_auth_pam-mod_auth_pam",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "mod_auth_pam Header Detection",
+      "pattern": "Server: mod_auth_pam(?:/([\\d\\.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects mod_auth_pam from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "mod_auth_pam"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vendor": "WebSite",
+  "vendor_id": "website",
+  "product": "WebSite X5",
+  "product_id": "website-website-x5",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WebSite X5 Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']Incomedia WebSite X5 (\\w+ [\\d.]+)[\"']",
+      "version_group": 1,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects WebSite X5 from meta tag with name 'generator'",
+        "tags": [
+          "webtech",
+          "meta",
+          "website-x5"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

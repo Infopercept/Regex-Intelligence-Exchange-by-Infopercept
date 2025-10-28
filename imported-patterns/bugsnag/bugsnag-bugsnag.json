@@ -1,0 +1,31 @@
+{
+  "vendor": "BugSnag",
+  "vendor_id": "bugsnag",
+  "product": "BugSnag",
+  "product_id": "bugsnag-bugsnag",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "BugSnag Script Detection",
+      "pattern": "/bugsnag.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects BugSnag from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "bugsnag"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

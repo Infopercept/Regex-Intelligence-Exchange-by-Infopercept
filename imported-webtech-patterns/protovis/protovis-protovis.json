@@ -1,0 +1,51 @@
+{
+  "vendor": "Protovis",
+  "vendor_id": "protovis",
+  "product": "Protovis",
+  "product_id": "protovis-protovis",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Protovis Script Detection",
+      "pattern": "protovis.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Protovis from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "protovis"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Protovis JavaScript Detection",
+      "pattern": "window\\.protovis|protovis\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Protovis from JavaScript variable 'protovis'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "protovis"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

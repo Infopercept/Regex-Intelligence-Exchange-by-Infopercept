@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^WebKnight",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^WebKnight"
+      "pattern": "^WebKnight",
+      "version_group": 0
     },
     {
       "name": "WebKnight Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^WebKnight/(.+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "UNIX",
+  "vendor_id": "unix",
+  "product": "UNIX",
+  "product_id": "unix-unix",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "UNIX Header Detection",
+      "pattern": "Server: Unix",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects UNIX from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "unix"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

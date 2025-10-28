@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link rel=\"shortcut icon\" href=\"/(intranet|opac)-tmpl/[^/]+",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link rel=\"shortcut icon\" href=\"/(intranet|opac)-tmpl/[^/]+\\"
+      "pattern": "<link rel=\"shortcut icon\" href=\"/(intranet|opac)-tmpl/[^/]+\\",
+      "version_group": 0
     },
     {
       "name": "Koha Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"hidden\" name=\"koha_login_context\" value=\"(opac|intranet)\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<input type=\"hidden\" name=\"koha_login_context\" value=\"(opac|intranet)\" />"
+      "pattern": "<input type=\"hidden\" name=\"koha_login_context\" value=\"(opac|intranet)\" />",
+      "version_group": 0
     },
     {
       "name": "Koha Pattern",
@@ -58,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/intranet\\-tmpl/prog/en/lib/jquery/plugins/ui\\.tabs\\.css\"\\ />"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/intranet\\-tmpl/prog/en/lib/jquery/plugins/ui\\.tabs\\.css\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Koha Pattern",
@@ -80,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/opac\\-tmpl/prog/en/lib/jquery/plugins/ui\\.tabs\\.css\"\\ />"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/opac\\-tmpl/prog/en/lib/jquery/plugins/ui\\.tabs\\.css\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Koha Pattern",
@@ -102,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<li><a\\ href=\"/cgi\\-bin/koha/lostpassword\\.pl\"\\ title=\"Password\\ Lost\\ and\\ Found\">Lost\\ your\\ password\\?</a></li>"
+      "pattern": "<li><a\\ href=\"/cgi\\-bin/koha/lostpassword\\.pl\"\\ title=\"Password\\ Lost\\ and\\ Found\">Lost\\ your\\ password\\?</a></li>",
+      "version_group": 0
     },
     {
       "name": "Koha Pattern",
@@ -124,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ login\\ prompt\\ time\\-\\->"
+      "pattern": "<!\\-\\-\\ login\\ prompt\\ time\\-\\->",
+      "version_group": 0
     },
     {
       "name": "Koha Pattern",
@@ -146,7 +164,9 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"help\"><span\\ class=\"loggedin\">You\\ are\\ not\\ logged\\ in\\ \\|\\ </span><a\\ href=\"/cgi\\-bin/koha/help\\.pl\"\\ onclick=\"Help\\(\\);\\ return\\ false;\">\\[\\ \\?\\ \\]</a></div>"
+      "pattern": "<div\\ id=\"help\"><span\\ class=\"loggedin\">You\\ are\\ not\\ logged\\ in\\ \\|\\ </span><a\\ href=\"/cgi\\-bin/koha/help\\.pl\"\\ onclick=\"Help\\(\\);\\ return\\ false;\">\\[\\ \\?\\ \\]</a></div>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

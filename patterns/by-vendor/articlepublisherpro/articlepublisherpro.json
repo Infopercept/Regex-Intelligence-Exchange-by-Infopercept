@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<script>location\\.replace\\(\"\\./admin\\.php\\?showlogin\"\\);</script>"
+      "pattern": "<script>location\\.replace\\(\"\\./admin\\.php\\?showlogin\"\\);</script>",
+      "version_group": 0
     },
     {
       "name": "ArticlePublisherPRO Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>Article\\ Publisher\\ PRO\\ Administrator\\ Control\\ Panel</title>"
+      "pattern": "<title>Article\\ Publisher\\ PRO\\ Administrator\\ Control\\ Panel</title>",
+      "version_group": 0
     },
     {
       "name": "ArticlePublisherPRO Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"/images/logo_app\\.gif\"></div></td><td\\ width=\"60%\"><div\\ id=\"title\"\\ class=\"column\">Admin\\ Control\\ Panel</div></td>"
+      "pattern": "<img\\ src=\"/images/logo_app\\.gif\"></div></td><td\\ width=\"60%\"><div\\ id=\"title\"\\ class=\"column\">Admin\\ Control\\ Panel</div></td>",
+      "version_group": 0
     },
     {
       "name": "ArticlePublisherPRO Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t<form\\ name=fl\\ method=post\\ action=admin\\.php\\?login>"
+      "pattern": "\\\t\\\t<form\\ name=fl\\ method=post\\ action=admin\\.php\\?login>",
+      "version_group": 0
     },
     {
       "name": "ArticlePublisherPRO Pattern",
@@ -114,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<br><br><center><b>Please\\ use\\ a\\ proper\\ method\\ to\\ browse\\ article\\(s\\)\\ \\-\\ The\\ method\\ you\\ are\\ using\\ is\\ not\\ allowed\\.\\.\\.</b></center>"
+      "pattern": "<br><br><center><b>Please\\ use\\ a\\ proper\\ method\\ to\\ browse\\ article\\(s\\)\\ \\-\\ The\\ method\\ you\\ are\\ using\\ is\\ not\\ allowed\\.\\.\\.</b></center>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

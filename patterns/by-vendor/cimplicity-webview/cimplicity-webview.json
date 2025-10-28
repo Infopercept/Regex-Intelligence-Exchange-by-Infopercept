@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<TITLE>CIMPLICITY\\ WebView</TITLE>"
+      "pattern": "<TITLE>CIMPLICITY\\ WebView</TITLE>",
+      "version_group": 0
     },
     {
       "name": "Cimplicity-WebView Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<APPLET\\ NAME=\"ProwlerClientAppletObject\"\\ ARCHIVE=\"/ProwlerClient\\.jar\"\\ "
+      "pattern": "<APPLET\\ NAME=\"ProwlerClientAppletObject\"\\ ARCHIVE=\"/ProwlerClient\\.jar\"\\ ",
+      "version_group": 0
     },
     {
       "name": "Cimplicity-WebView Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^CIMPLICITY-HttpSvr",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^CIMPLICITY-HttpSvr"
+      "pattern": "^CIMPLICITY-HttpSvr",
+      "version_group": 0
     },
     {
       "name": "Cimplicity-WebView Pattern",
@@ -89,5 +98,6 @@
       "pattern": "Server: ^CIMPLICITY-HttpSvr/([\\d\\.]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

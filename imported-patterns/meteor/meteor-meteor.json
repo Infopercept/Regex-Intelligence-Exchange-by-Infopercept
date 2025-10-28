@@ -1,0 +1,31 @@
+{
+  "vendor": "Meteor",
+  "vendor_id": "meteor",
+  "product": "Meteor",
+  "product_id": "meteor-meteor",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Meteor HTML Detection",
+      "pattern": "<link[^>]+__meteor-css__",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Meteor from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "meteor"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

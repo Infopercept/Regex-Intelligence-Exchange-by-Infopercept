@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Netscape-FastTrack",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Netscape-FastTrack"
+      "pattern": "^Netscape-FastTrack",
+      "version_group": 0
     },
     {
       "name": "Netscape-FastTrack Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Netscape-FastTrack/(.+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>WSN\\ Directory\\ Admin\\ Login</title>"
+      "pattern": "<title>WSN\\ Directory\\ Admin\\ Login</title>",
+      "version_group": 0
     },
     {
       "name": "WSN-Directory Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>WSN\\ Directory\\ Administration\\ Panel</title>"
+      "pattern": "<title>WSN\\ Directory\\ Administration\\ Panel</title>",
+      "version_group": 0
     },
     {
       "name": "WSN-Directory Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ place\\ any\\ jquery\\-dependent\\ script\\ tags\\ that\\ need\\ to\\ be\\ before\\ the\\ /head\\ tag\\ in\\ here\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ place\\ any\\ jquery\\-dependent\\ script\\ tags\\ that\\ need\\ to\\ be\\ before\\ the\\ /head\\ tag\\ in\\ here\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "WSN-Directory Pattern",
@@ -84,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div class=\"boxtitle\" on[c|C]lick=\"minmax('[a-z]+box')\"><img src=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div class=\"boxtitle\" on[c|C]lick=\"minmax\\('[a-z]+box'\\)\"><img src="
+      "pattern": "<div class=\"boxtitle\" on[c|C]lick=\"minmax\\('[a-z]+box'\\)\"><img src=",
+      "version_group": 0
     },
     {
       "name": "WSN-Directory Pattern",
@@ -108,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<textarea\\ readonly\\ rows=\"20\"\\ cols=\"75\">WSN\\ Directory\\ License\\ Agreement"
+      "pattern": "<textarea\\ readonly\\ rows=\"20\"\\ cols=\"75\">WSN\\ Directory\\ License\\ Agreement",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

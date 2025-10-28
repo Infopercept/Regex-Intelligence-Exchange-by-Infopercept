@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script[^>]+src=[\"'][^>]+/minify.php?[a-z]+=[^>]+[\"']",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script[^>]+src=[\"'][^>]+/minify.php\\?[a-z]+=[^>]+[\"']"
+      "pattern": "<script[^>]+src=[\"'][^>]+/minify.php\\?[a-z]+=[^>]+[\"']",
+      "version_group": 0
     },
     {
       "name": "script tag /min/g=",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script[^>]+src=[\"'][^>]*/min/g=[^>]+[\"']",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script[^>]+src=[\"'][^>]*/min/g=[^>]+[\"']"
+      "pattern": "<script[^>]+src=[\"'][^>]*/min/g=[^>]+[\"']",
+      "version_group": 0
     },
     {
       "name": "script tag /min/js?",
@@ -50,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script[^>]+src=[\"'][^>]*/min/js?[^>]+[\"']",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script[^>]+src=[\"'][^>]*/min/js\\?[^>]+[\"']"
+      "pattern": "<script[^>]+src=[\"'][^>]*/min/js\\?[^>]+[\"']",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>EvoCam( d)*</title>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>EvoCam( \\d)*</title>"
+      "pattern": "<title>EvoCam( \\d)*</title>",
+      "version_group": 0
     },
     {
       "name": "Evo-Cam Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<TITLE>EvoCam( Java| JavaScript)? Example Page</TITLE>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<TITLE>EvoCam( Java| JavaScript)? Example Page</TITLE>"
+      "pattern": "<TITLE>EvoCam( Java| JavaScript)? Example Page</TITLE>",
+      "version_group": 0
     },
     {
       "name": "Evo-Cam Pattern",
@@ -58,7 +72,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <A\\ HREF=\"http://www\\.evological\\.com/evocam\\.html\">EvoCam</A>"
+      "pattern": "Powered\\ by\\ <A\\ HREF=\"http://www\\.evological\\.com/evocam\\.html\">EvoCam</A>",
+      "version_group": 0
     },
     {
       "name": "Evo-Cam Pattern",
@@ -72,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<applet archive=\"evocam.jar\" code=\"com.evological.evocam.class\"",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<applet archive=\"evocam.jar\" code=\"com.evological.evocam.class\""
+      "pattern": "<applet archive=\"evocam.jar\" code=\"com.evological.evocam.class\"",
+      "version_group": 0
     },
     {
       "name": "Evo-Cam Pattern",
@@ -88,9 +110,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<param name=\"archive\" value=\"evocam.jar\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<param name=\"archive\" value=\"evocam.jar\">"
+      "pattern": "<param name=\"archive\" value=\"evocam.jar\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

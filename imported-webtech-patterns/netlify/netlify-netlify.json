@@ -1,0 +1,51 @@
+{
+  "vendor": "Netlify",
+  "vendor_id": "netlify",
+  "product": "Netlify",
+  "product_id": "netlify-netlify",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Netlify Header Detection",
+      "pattern": "X-NF-Request-ID: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Netlify from X-NF-Request-ID header",
+        "tags": [
+          "webtech",
+          "header",
+          "netlify"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Netlify Header Detection",
+      "pattern": "Server: ^Netlify",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Netlify from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "netlify"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

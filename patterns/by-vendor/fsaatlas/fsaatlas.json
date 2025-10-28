@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<form\\ action=\"LoginFinish\\.asp\"\\ method=\"post\"\\ name=\"MainForm\">"
+      "pattern": "<form\\ action=\"LoginFinish\\.asp\"\\ method=\"post\"\\ name=\"MainForm\">",
+      "version_group": 0
     },
     {
       "name": "fsaATLAS Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ AP\\ \\-\\ 06/02/2009\\ \\-\\ Defect\\ 1533\\ \\-\\ Campus\\ DataLink\\ Link\\ not\\ appearing\\ at\\ the\\ top\\ navigation\\ bar\\-\\->"
+      "pattern": "<!\\-\\-\\ AP\\ \\-\\ 06/02/2009\\ \\-\\ Defect\\ 1533\\ \\-\\ Campus\\ DataLink\\ Link\\ not\\ appearing\\ at\\ the\\ top\\ navigation\\ bar\\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,51 @@
+{
+  "vendor": "prettyPhoto",
+  "vendor_id": "prettyphoto",
+  "product": "prettyPhoto",
+  "product_id": "prettyphoto-prettyphoto",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "prettyPhoto HTML Detection",
+      "pattern": "(?:<link [^>]*href=\"[^\"]*prettyPhoto(?:\\.min)?\\.css|<a [^>]*rel=\"prettyPhoto)",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects prettyPhoto from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "prettyphoto"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "prettyPhoto Script Detection",
+      "pattern": "jquery\\.prettyPhoto\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects prettyPhoto from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "prettyphoto"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

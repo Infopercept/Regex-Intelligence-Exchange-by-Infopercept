@@ -1,0 +1,31 @@
+{
+  "vendor": "ClickFunnels",
+  "vendor_id": "clickfunnels",
+  "product": "ClickFunnels",
+  "product_id": "clickfunnels-clickfunnels",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "ClickFunnels HTML Detection",
+      "pattern": "<meta property=\"cf:app_domain\" content=\"app\\.clickfunnels\\.com\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects ClickFunnels from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "clickfunnels"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

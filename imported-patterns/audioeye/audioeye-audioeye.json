@@ -1,0 +1,51 @@
+{
+  "vendor": "AudioEye",
+  "vendor_id": "audioeye",
+  "product": "AudioEye",
+  "product_id": "audioeye-audioeye",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AudioEye HTML Detection",
+      "pattern": "<iframe[^>]*audioeye\\.com/frame/cookieStorage",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AudioEye from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "audioeye"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AudioEye Script Detection",
+      "pattern": "audioeye\\.com/ae\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AudioEye from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "audioeye"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -29,5 +29,6 @@
       "pattern": "Server: ^Cdn Cache Server V([\\d\\.]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

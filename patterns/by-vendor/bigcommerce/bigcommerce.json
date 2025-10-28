@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/iselector.css",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "/iselector.css"
+      "pattern": "/iselector.css",
+      "version_group": 0
     },
     {
       "name": "BigCommerce Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "config.ShopPath = ",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "config.ShopPath = "
+      "pattern": "config.ShopPath = ",
+      "version_group": 0
     },
     {
       "name": "BigCommerce Pattern",
@@ -50,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "config.AppPath = ",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "config.AppPath = "
+      "pattern": "config.AppPath = ",
+      "version_group": 0
     },
     {
       "name": "fornax_anonymousId cookie",
@@ -66,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^fornax_anonymousId",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^fornax_anonymousId"
+      "pattern": "^fornax_anonymousId",
+      "version_group": 0
     },
     {
       "name": "RECENTLY_VIEWED_PRODUCTS cookie",
@@ -82,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^RECENTLY_VIEWED_PRODUCTS",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^RECENTLY_VIEWED_PRODUCTS"
+      "pattern": "^RECENTLY_VIEWED_PRODUCTS",
+      "version_group": 0
     },
     {
       "name": "SHOP_SESSION_TOKEN cookie",
@@ -98,9 +133,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^SHOP_SESSION_TOKEN",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^SHOP_SESSION_TOKEN"
+      "pattern": "^SHOP_SESSION_TOKEN",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

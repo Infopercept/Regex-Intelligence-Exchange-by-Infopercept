@@ -1,0 +1,51 @@
+{
+  "vendor": "Comandia",
+  "vendor_id": "comandia",
+  "product": "Comandia",
+  "product_id": "comandia-comandia",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Comandia HTML Detection",
+      "pattern": "<link[^>]+=['\"]//cdn\\.mycomandia\\.com",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Comandia from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "comandia"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Comandia JavaScript Detection",
+      "pattern": "window\\.Comandia|Comandia\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Comandia from JavaScript variable 'Comandia'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "comandia"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

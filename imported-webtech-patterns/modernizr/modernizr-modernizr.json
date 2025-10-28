@@ -1,0 +1,51 @@
+{
+  "vendor": "Modernizr",
+  "vendor_id": "modernizr",
+  "product": "Modernizr",
+  "product_id": "modernizr-modernizr",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Modernizr Script Detection",
+      "pattern": "([\\d.]+)?/modernizr(?:.([\\d.]+))?.*\\.js?\\1:\\2",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Modernizr from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "modernizr"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Modernizr JavaScript Detection",
+      "pattern": "window\\.Modernizr\\._version|Modernizr\\._version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Modernizr from JavaScript variable 'Modernizr._version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "modernizr"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

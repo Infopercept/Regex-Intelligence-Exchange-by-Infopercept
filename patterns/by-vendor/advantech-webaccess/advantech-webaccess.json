@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<html><!\\-\\-\\ \\#BeginTemplate\\ \"/Templates/bw_templete1\\.dwt\"\\ \\-\\->"
+      "pattern": "<html><!\\-\\-\\ \\#BeginTemplate\\ \"/Templates/bw_templete1\\.dwt\"\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Advantech-WebAccess Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"/broadweb/WebAccessClientSetup\\.exe\">"
+      "pattern": "<a\\ href=\"/broadweb/WebAccessClientSetup\\.exe\">",
+      "version_group": 0
     },
     {
       "name": "Advantech-WebAccess Pattern",
@@ -62,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "./broadWeb/bwviewpg.asp?proj=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "\\./broadWeb/bwviewpg\\.asp\\?proj="
+      "pattern": "\\./broadWeb/bwviewpg\\.asp\\?proj=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

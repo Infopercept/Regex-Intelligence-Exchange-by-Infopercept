@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.impresspages\\.org\">ImpressPages\\ CMS</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.impresspages\\.org\">ImpressPages\\ CMS</a>",
+      "version_group": 0
     },
     {
       "name": "ImpressPages-CMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<h1\\ class=\"ipWidgetTitleHeading\">ImpressPages\\ CMS\\ successfully\\ installed</h1>"
+      "pattern": "<h1\\ class=\"ipWidgetTitleHeading\">ImpressPages\\ CMS\\ successfully\\ installed</h1>",
+      "version_group": 0
     },
     {
       "name": "ImpressPages-CMS Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ common\\ functions\\ used\\ by\\ various\\ modules\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ common\\ functions\\ used\\ by\\ various\\ modules\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "ImpressPages-CMS Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<script\\ type=\"text/javascript\">if\\(parent\\.header\\ \\&\\&\\ parent\\.content\\)parent\\.window\\.top\\.location=\\\\"
+      "pattern": "<script\\ type=\"text/javascript\">if\\(parent\\.header\\ \\&\\&\\ parent\\.content\\)parent\\.window\\.top\\.location=\\\\",
+      "version_group": 0
     },
     {
       "name": "ImpressPages-CMS Pattern",
@@ -114,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<span\\ id=\"modCommunityNewsletterError\"\\ class=\"error\">Incorrect\\ e\\-mail\\ address</span>"
+      "pattern": "<span\\ id=\"modCommunityNewsletterError\"\\ class=\"error\">Incorrect\\ e\\-mail\\ address</span>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

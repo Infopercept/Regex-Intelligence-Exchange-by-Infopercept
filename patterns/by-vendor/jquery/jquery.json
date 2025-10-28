@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script [^>]*jquery",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script [^>]*jquery"
+      "pattern": "<script [^>]*jquery",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

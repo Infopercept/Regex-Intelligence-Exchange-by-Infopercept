@@ -1,0 +1,71 @@
+{
+  "vendor": "borderfree",
+  "vendor_id": "borderfree",
+  "product": "borderfree",
+  "product_id": "borderfree-borderfree",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "borderfree Script Detection",
+      "pattern": "global\\.prd\\.borderfree\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects borderfree from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "borderfree"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "borderfree Script Detection",
+      "pattern": "wm\\.prd\\.borderfree\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects borderfree from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "borderfree"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "borderfree Script Detection",
+      "pattern": "bfx\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects borderfree from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "borderfree"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

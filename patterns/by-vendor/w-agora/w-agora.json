@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<CAPTION><B>System\\ Administrator's\\ Informations\\ \\(login\\ :\\ <u>admin</u>\\)</B></CAPTION>"
+      "pattern": "<CAPTION><B>System\\ Administrator's\\ Informations\\ \\(login\\ :\\ <u>admin</u>\\)</B></CAPTION>",
+      "version_group": 0
     },
     {
       "name": "w-agora Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<table\\ border\\ bgcolor=\"\\#eeeeee\"\\ align=\"center\"\\ cellspacing=0\\ cellpadding=5\\ width=400><tr><td\\ align=center><font\\ face=\"Arial,\\ Verdana\"\\ color=\"\\#FF2020\">Cannot\\ access\\ configuration\\ file:\\ \\./conf/site_agora\\.php3</td></tr></table>"
+      "pattern": "<table\\ border\\ bgcolor=\"\\#eeeeee\"\\ align=\"center\"\\ cellspacing=0\\ cellpadding=5\\ width=400><tr><td\\ align=center><font\\ face=\"Arial,\\ Verdana\"\\ color=\"\\#FF2020\">Cannot\\ access\\ configuration\\ file:\\ \\./conf/site_agora\\.php3</td></tr></table>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

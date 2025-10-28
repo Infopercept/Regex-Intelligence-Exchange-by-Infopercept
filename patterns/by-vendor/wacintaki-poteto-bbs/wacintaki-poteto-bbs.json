@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<div align=\"center\">OekakiPoteto v([^s]+) by <a href=\"http://suteki.nu\">RanmaGuy</a> and <a href=\"http://www.cellosoft.com\">Marcello</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<div align=\"center\">OekakiPoteto v([^\\s]+) by <a href=\"http://suteki\\.nu\">RanmaGuy</a> and <a href=\"http://www\\.cellosoft\\.com\">Marcello</a>"
+      "pattern": "<div align=\"center\">OekakiPoteto v([^\\s]+) by <a href=\"http://suteki\\.nu\">RanmaGuy</a> and <a href=\"http://www\\.cellosoft\\.com\">Marcello</a>",
+      "version_group": 0
     },
     {
       "name": "Wacintaki-Poteto-BBS Pattern",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "OekakiPoteto\\ 5\\.x\\ by\\ <a\\ href=\"http://www\\.suteki\\.nu\">RanmaGuy</a>\\ and\\ <a\\ href=\"http://www\\.cellosoft\\.com\">Marcello</a><br\\ />"
+      "pattern": "OekakiPoteto\\ 5\\.x\\ by\\ <a\\ href=\"http://www\\.suteki\\.nu\">RanmaGuy</a>\\ and\\ <a\\ href=\"http://www\\.cellosoft\\.com\">Marcello</a><br\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

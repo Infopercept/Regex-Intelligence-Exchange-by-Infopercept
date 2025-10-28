@@ -1,0 +1,31 @@
+{
+  "vendor": "Webtrekk",
+  "vendor_id": "webtrekk",
+  "product": "Webtrekk",
+  "product_id": "webtrekk-webtrekk",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Webtrekk JavaScript Detection",
+      "pattern": "window\\.webtrekk|webtrekk\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Webtrekk from JavaScript variable 'webtrekk'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "webtrekk"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

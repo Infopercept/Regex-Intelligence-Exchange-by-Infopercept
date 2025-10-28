@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link type=\"text/css\" href=\"[^\"]+/stylesheets/load/vamcart.css\" rel=\"stylesheet\"  media=\"screen\"/>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link type=\"text/css\" href=\"[^\"]+/stylesheets/load/vamcart\\.css\" rel=\"stylesheet\"  media=\"screen\"/>"
+      "pattern": "<link type=\"text/css\" href=\"[^\"]+/stylesheets/load/vamcart\\.css\" rel=\"stylesheet\"  media=\"screen\"/>",
+      "version_group": 0
     },
     {
       "name": "VamCart Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Powered\\ by:\\ VamCart\\ \\(http://vamcart\\.com\\)\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Powered\\ by:\\ VamCart\\ \\(http://vamcart\\.com\\)\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "VamCart Pattern",
@@ -64,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<p><a\\ href=\"http://vamcart\\.com/\">PHP\\ Shopping\\ Cart</a>\\ <a\\ href=\"http://vamcart\\.com/\">VamCart</a></p>"
+      "pattern": "<p><a\\ href=\"http://vamcart\\.com/\">PHP\\ Shopping\\ Cart</a>\\ <a\\ href=\"http://vamcart\\.com/\">VamCart</a></p>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

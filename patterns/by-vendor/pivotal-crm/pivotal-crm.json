@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "\\&lt;script\\ language=\\&quot;javascript\\&quot;\\ src=\\&quot;javascript/utils\\.js\\&quot;\\&gt;\\&lt;/script\\&gt;\\&lt;script\\ language=\\&quot;javascript\\&quot;\\ src=\\&quot;javascript/navigation\\.js\\&quot;\\&gt;\\&lt;/script\\&gt;\\&lt;script\\ language=\\&quot;javascript\\&quot;\\&gt;"
+      "pattern": "\\&lt;script\\ language=\\&quot;javascript\\&quot;\\ src=\\&quot;javascript/utils\\.js\\&quot;\\&gt;\\&lt;/script\\&gt;\\&lt;script\\ language=\\&quot;javascript\\&quot;\\ src=\\&quot;javascript/navigation\\.js\\&quot;\\&gt;\\&lt;/script\\&gt;\\&lt;script\\ language=\\&quot;javascript\\&quot;\\&gt;",
+      "version_group": 0
     },
     {
       "name": "Pivotal-CRM Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<frame\\ name=\"hidden\"\\ src=\"xmlloader\\.asp\\?type=portal\"\\ marginwidth=\"0\"\\ marginheight=\"0\"\\ scrolling=\"no\"\\ noresize>"
+      "pattern": "<frame\\ name=\"hidden\"\\ src=\"xmlloader\\.asp\\?type=portal\"\\ marginwidth=\"0\"\\ marginheight=\"0\"\\ scrolling=\"no\"\\ noresize>",
+      "version_group": 0
     },
     {
       "name": "Pivotal-CRM Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<frame\\ name=\"hidden\"\\ title=\"Hidden\"\\ src=\"xmlloader\\.asp\\?type=portal\"\\ marginwidth=\"0\"\\ marginheight=\"0\"\\ scrolling=\"no\"\\ noresize>"
+      "pattern": "<frame\\ name=\"hidden\"\\ title=\"Hidden\"\\ src=\"xmlloader\\.asp\\?type=portal\"\\ marginwidth=\"0\"\\ marginheight=\"0\"\\ scrolling=\"no\"\\ noresize>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Optional:\\ If\\ browser\\ does\\ not\\ support\\ Javascript,\\ load\\ URL\\ xyz\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Optional:\\ If\\ browser\\ does\\ not\\ support\\ Javascript,\\ load\\ URL\\ xyz\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "USP-Secure-Login-Service Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ SLS\\ JavaScripts\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ SLS\\ JavaScripts\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "USP-Secure-Login-Service Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<form\\ action=\"auth\"\\ method=\"post\"\\ name=\"LoginForm\"\\ onsubmit=\"return\\ checkFormSubmit\\(\\);\"\\ >"
+      "pattern": "<form\\ action=\"auth\"\\ method=\"post\"\\ name=\"LoginForm\"\\ onsubmit=\"return\\ checkFormSubmit\\(\\);\"\\ >",
+      "version_group": 0
     },
     {
       "name": "USP-Secure-Login-Service Pattern",
@@ -84,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input name=\"currentRequestedPage\" type=\"hidden\" value=\"[^\"]+\" /></form>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<input name=\"currentRequestedPage\" type=\"hidden\" value=\"[^\"]+\" /></form>"
+      "pattern": "<input name=\"currentRequestedPage\" type=\"hidden\" value=\"[^\"]+\" /></form>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

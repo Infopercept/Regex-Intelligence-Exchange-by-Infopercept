@@ -1,0 +1,91 @@
+{
+  "vendor": "AD",
+  "vendor_id": "ad",
+  "product": "AD EBiS",
+  "product_id": "ad-ad-ebis",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AD EBiS HTML Detection",
+      "pattern": "<!-- EBiS contents tag",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AD EBiS from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "ad-ebis"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AD EBiS HTML Detection",
+      "pattern": "<!--EBiS tag",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AD EBiS from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "ad-ebis"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AD EBiS HTML Detection",
+      "pattern": "<!-- Tag EBiS",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AD EBiS from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "ad-ebis"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AD EBiS HTML Detection",
+      "pattern": "<!-- EBiS common tag",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AD EBiS from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "ad-ebis"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

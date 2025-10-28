@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "logging\\ level\\ warnings\\ stm"
+      "pattern": "logging\\ level\\ warnings\\ stm",
+      "version_group": 0
     },
     {
       "name": "Aruba-Mobility-Controller-Config-File Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "packet\\-capture\\-defaults\\ tcp\\ disable\\ udp\\ disable\\ sysmsg\\ disable\\ other\\ disable"
+      "pattern": "packet\\-capture\\-defaults\\ tcp\\ disable\\ udp\\ disable\\ sysmsg\\ disable\\ other\\ disable",
+      "version_group": 0
     },
     {
       "name": "Aruba-Mobility-Controller-Config-File Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "ids\\-policy\\ rate\\-frame\\-type\\-param\\ disassoc\\ node\\-time\\-interval"
+      "pattern": "ids\\-policy\\ rate\\-frame\\-type\\-param\\ disassoc\\ node\\-time\\-interval",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

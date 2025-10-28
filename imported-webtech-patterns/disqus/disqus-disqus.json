@@ -1,0 +1,111 @@
+{
+  "vendor": "Disqus",
+  "vendor_id": "disqus",
+  "product": "Disqus",
+  "product_id": "disqus-disqus",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Disqus HTML Detection",
+      "pattern": "<div[^>]+id=\"disqus_thread\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Disqus from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "disqus"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Disqus Script Detection",
+      "pattern": "disqus_url",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Disqus from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "disqus"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Disqus JavaScript Detection",
+      "pattern": "window\\.DISQUS|DISQUS\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Disqus from JavaScript variable 'DISQUS'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "disqus"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Disqus JavaScript Detection",
+      "pattern": "window\\.disqus_shortname|disqus_shortname\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Disqus from JavaScript variable 'disqus_shortname'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "disqus"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Disqus JavaScript Detection",
+      "pattern": "window\\.disqus_url|disqus_url\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Disqus from JavaScript variable 'disqus_url'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "disqus"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

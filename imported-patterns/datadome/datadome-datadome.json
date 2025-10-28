@@ -1,0 +1,91 @@
+{
+  "vendor": "Datadome",
+  "vendor_id": "datadome",
+  "product": "Datadome",
+  "product_id": "datadome-datadome",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Datadome Header Detection",
+      "pattern": "Server: ^DataDome$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Datadome from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "datadome"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Datadome Header Detection",
+      "pattern": "X-DataDome: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Datadome from X-DataDome header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "datadome"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Datadome Header Detection",
+      "pattern": "X-DataDome-CID: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Datadome from X-DataDome-CID header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "datadome"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Datadome Script Detection",
+      "pattern": "^https://ct\\.datadome\\.co/[a-z]\\.js$",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Datadome from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "datadome"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

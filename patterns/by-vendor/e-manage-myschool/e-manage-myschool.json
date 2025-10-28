@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<TD\\ \\ height=36\\ \\ class=text\\ align=center\\ \\ height=100%>Copyrights\\ "
+      "pattern": "<TD\\ \\ height=36\\ \\ class=text\\ align=center\\ \\ height=100%>Copyrights\\ ",
+      "version_group": 0
     },
     {
       "name": "E-Manage-MySchool Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<td\\ style='cursor:pointer'\\ HEIGHT=25z>\\&nbsp;<img\\ id='vfolder_1'\\ src='styles/"
+      "pattern": "<td\\ style='cursor:pointer'\\ HEIGHT=25z>\\&nbsp;<img\\ id='vfolder_1'\\ src='styles/",
+      "version_group": 0
     },
     {
       "name": "E-Manage-MySchool Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<input\\ \\ type='password'\\ name='Sub_Password'\\ "
+      "pattern": "<input\\ \\ type='password'\\ name='Sub_Password'\\ ",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

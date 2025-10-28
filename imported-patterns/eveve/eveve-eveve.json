@@ -1,0 +1,31 @@
+{
+  "vendor": "Eveve",
+  "vendor_id": "eveve",
+  "product": "Eveve",
+  "product_id": "eveve-eveve",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Eveve HTML Detection",
+      "pattern": "<iframe[^>]*[\\w]+\\.eveve\\.com",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Eveve from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "eveve"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

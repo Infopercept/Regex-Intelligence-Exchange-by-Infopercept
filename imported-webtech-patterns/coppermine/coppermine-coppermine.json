@@ -1,0 +1,31 @@
+{
+  "vendor": "Coppermine",
+  "vendor_id": "coppermine",
+  "product": "Coppermine",
+  "product_id": "coppermine-coppermine",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Coppermine HTML Detection",
+      "pattern": "<!--Coppermine Photo Gallery ([\\d.]+)",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Coppermine from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "coppermine"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

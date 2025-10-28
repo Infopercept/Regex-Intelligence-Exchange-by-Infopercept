@@ -1,0 +1,31 @@
+{
+  "vendor": "Apache",
+  "vendor_id": "apache",
+  "product": "Apache",
+  "product_id": "apache-apache",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Apache Header Detection",
+      "pattern": "Server: (?:Apache(?:$|/([\\d.]+)|[^/-])|(?:^|\\b)HTTPD)",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Apache from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "apache"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

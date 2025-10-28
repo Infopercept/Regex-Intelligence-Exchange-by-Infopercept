@@ -1,0 +1,51 @@
+{
+  "vendor": "Oracle",
+  "vendor_id": "oracle",
+  "product": "Oracle Commerce Cloud",
+  "product_id": "oracle-oracle-commerce-cloud",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Oracle Commerce Cloud Header Detection",
+      "pattern": "OracleCommerceCloud-Version: ^(.+)$",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Oracle Commerce Cloud from OracleCommerceCloud-Version header",
+        "tags": [
+          "webtech",
+          "header",
+          "oracle-commerce-cloud"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Oracle Commerce Cloud HTML Detection",
+      "pattern": "<[^>]+id=\"oracle-cc\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Oracle Commerce Cloud from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "oracle-commerce-cloud"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

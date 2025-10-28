@@ -49,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/dsview/scheme\\-1\\.css\"\\ title=\"Default\"\\ />"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/dsview/scheme\\-1\\.css\"\\ title=\"Default\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Avocent-DSView Pattern",
@@ -71,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<form\\ name=\"loginForm\"\\ method=\"post\"\\ action=\"/dsview/protected/login\\.do\"\\ class=\"form\\-block\"><span\\ id=\\\\"
+      "pattern": "<form\\ name=\"loginForm\"\\ method=\"post\"\\ action=\"/dsview/protected/login\\.do\"\\ class=\"form\\-block\"><span\\ id=\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

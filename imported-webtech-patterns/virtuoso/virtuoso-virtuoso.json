@@ -1,0 +1,71 @@
+{
+  "vendor": "Virtuoso",
+  "vendor_id": "virtuoso",
+  "product": "Virtuoso",
+  "product_id": "virtuoso-virtuoso",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Virtuoso Header Detection",
+      "pattern": "Server: Virtuoso/?([0-9.]+)?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Virtuoso from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "virtuoso"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Virtuoso Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']Copyright[\"'][^>]+content=[\"']^Copyright &copy; \\d{4} OpenLink Software[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Virtuoso from meta tag with name 'Copyright'",
+        "tags": [
+          "webtech",
+          "meta",
+          "virtuoso"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Virtuoso Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']Keywords[\"'][^>]+content=[\"']^OpenLink Virtuoso Sparql[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Virtuoso from meta tag with name 'Keywords'",
+        "tags": [
+          "webtech",
+          "meta",
+          "virtuoso"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

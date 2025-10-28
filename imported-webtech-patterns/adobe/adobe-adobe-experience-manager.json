@@ -1,0 +1,131 @@
+{
+  "vendor": "Adobe",
+  "vendor_id": "adobe",
+  "product": "Adobe Experience Manager",
+  "product_id": "adobe-adobe-experience-manager",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Adobe Experience Manager HTML Detection",
+      "pattern": "<div class=\"[^\"]*parbase",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Adobe Experience Manager from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "adobe-experience-manager"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Adobe Experience Manager HTML Detection",
+      "pattern": "<div[^>]+data-component-path=\"[^\"+]jcr:",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Adobe Experience Manager from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "adobe-experience-manager"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Adobe Experience Manager HTML Detection",
+      "pattern": "<div class=\"[^\"]*aem-Grid",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Adobe Experience Manager from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "adobe-experience-manager"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Adobe Experience Manager Script Detection",
+      "pattern": "/etc/designs/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Adobe Experience Manager from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "adobe-experience-manager"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Adobe Experience Manager Script Detection",
+      "pattern": "/etc/clientlibs/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Adobe Experience Manager from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "adobe-experience-manager"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Adobe Experience Manager Script Detection",
+      "pattern": "/etc.clientlibs/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Adobe Experience Manager from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "adobe-experience-manager"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

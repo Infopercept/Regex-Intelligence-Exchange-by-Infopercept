@@ -1,0 +1,71 @@
+{
+  "vendor": "XenForo",
+  "vendor_id": "xenforo",
+  "product": "XenForo",
+  "product_id": "xenforo-xenforo",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "XenForo HTML Detection",
+      "pattern": "(?:jQuery\\.extend\\(true, XenForo|Forum software by XenForo™|<!--XF:branding|<html[^>]+id=\"XenForo\")",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects XenForo from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "xenforo"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "XenForo HTML Detection",
+      "pattern": "<html id=\"XF\" ",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects XenForo from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "xenforo"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "XenForo JavaScript Detection",
+      "pattern": "window\\.XF\\.GuestUsername|XF\\.GuestUsername\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects XenForo from JavaScript variable 'XF.GuestUsername'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "xenforo"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

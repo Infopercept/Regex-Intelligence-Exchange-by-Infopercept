@@ -1,0 +1,31 @@
+{
+  "vendor": "Microsoft",
+  "vendor_id": "microsoft",
+  "product": "Microsoft HTTPAPI",
+  "product_id": "microsoft-microsoft-httpapi",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Microsoft HTTPAPI Header Detection",
+      "pattern": "Server: Microsoft-HTTPAPI(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Microsoft HTTPAPI from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "microsoft-httpapi"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

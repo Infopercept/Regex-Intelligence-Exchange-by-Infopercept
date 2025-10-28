@@ -1,0 +1,31 @@
+{
+  "vendor": "Less",
+  "vendor_id": "less",
+  "product": "Less",
+  "product_id": "less-less",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Less HTML Detection",
+      "pattern": "<link[^>]+ rel=\"stylesheet/less\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Less from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "less"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

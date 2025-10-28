@@ -29,5 +29,6 @@
       "pattern": "Server: ^WebSEAL/([^\\s]+ \\(Build \\d+\\))",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

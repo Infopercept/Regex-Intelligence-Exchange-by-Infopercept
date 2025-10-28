@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Cisco\\ Systems,\\ Inc\\.\\ Network\\ Access</title>"
+      "pattern": "<title>Cisco\\ Systems,\\ Inc\\.\\ Network\\ Access</title>",
+      "version_group": 0
     },
     {
       "name": "Cisco-Adaptive-Security-Appliance Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Adaptive Security Appliance HTTP/1.1$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Adaptive Security Appliance HTTP/1\\.1$"
+      "pattern": "^Adaptive Security Appliance HTTP/1\\.1$",
+      "version_group": 0
     },
     {
       "name": "Cisco-Adaptive-Security-Appliance Pattern",
@@ -56,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<FORM ACTION=\"/netaccess/redirect.html\">s+<INPUT type=hidden name=sid VALUE=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<FORM ACTION=\"/netaccess/redirect\\.html\">\\s+<INPUT type=hidden name=sid VALUE="
+      "pattern": "<FORM ACTION=\"/netaccess/redirect\\.html\">\\s+<INPUT type=hidden name=sid VALUE=",
+      "version_group": 0
     },
     {
       "name": "Cisco-Adaptive-Security-Appliance Pattern",
@@ -72,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "document.location.replace(['\"]/+CSCOE+/logon.html(?:?[^'\"]*)?['\"])",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "document\\.location\\.replace\\(['\"]/\\+CSCOE\\+/logon\\.html(?:\\?[^'\"]*)?['\"]\\)"
+      "pattern": "document\\.location\\.replace\\(['\"]/\\+CSCOE\\+/logon\\.html(?:\\?[^'\"]*)?['\"]\\)",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

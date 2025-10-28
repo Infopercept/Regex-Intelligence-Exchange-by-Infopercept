@@ -1,0 +1,31 @@
+{
+  "vendor": "Apache",
+  "vendor_id": "apache",
+  "product": "Apache Wicket",
+  "product_id": "apache-apache-wicket",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Apache Wicket JavaScript Detection",
+      "pattern": "window\\.Wicket|Wicket\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Apache Wicket from JavaScript variable 'Wicket'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "apache-wicket"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

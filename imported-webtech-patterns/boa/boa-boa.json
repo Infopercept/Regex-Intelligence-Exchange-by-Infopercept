@@ -1,0 +1,31 @@
+{
+  "vendor": "Boa",
+  "vendor_id": "boa",
+  "product": "Boa",
+  "product_id": "boa-boa",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Boa Header Detection",
+      "pattern": "Server: Boa/?([\\d\\.a-z]+)?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Boa from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "boa"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

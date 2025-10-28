@@ -1,0 +1,51 @@
+{
+  "vendor": "Apache",
+  "vendor_id": "apache",
+  "product": "Apache JSPWiki",
+  "product_id": "apache-apache-jspwiki",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Apache JSPWiki HTML Detection",
+      "pattern": "<html[^>]* xmlns:jspwiki=",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Apache JSPWiki from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "apache-jspwiki"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Apache JSPWiki Script Detection",
+      "pattern": "jspwiki",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Apache JSPWiki from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "apache-jspwiki"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

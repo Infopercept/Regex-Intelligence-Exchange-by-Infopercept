@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "[s]*mhttpd",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "[\\s]*mhttpd"
+      "pattern": "[\\s]*mhttpd",
+      "version_group": 0
     },
     {
       "name": "MHttpd Pattern",
@@ -91,5 +98,6 @@
       "pattern": "meta-html-engine: [\\s]*MHttpd/([\\d\\.]+) \\([^\\;]+; [^\\;]+; Meta-HTML/[\\d\\.]+\\)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

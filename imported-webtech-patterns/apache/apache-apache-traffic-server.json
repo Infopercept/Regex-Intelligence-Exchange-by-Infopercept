@@ -1,0 +1,31 @@
+{
+  "vendor": "Apache",
+  "vendor_id": "apache",
+  "product": "Apache Traffic Server",
+  "product_id": "apache-apache-traffic-server",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Apache Traffic Server Header Detection",
+      "pattern": "Server: ATS/?([\\d.]+)?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Apache Traffic Server from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "apache-traffic-server"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

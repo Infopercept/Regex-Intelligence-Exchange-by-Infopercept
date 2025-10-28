@@ -1,0 +1,31 @@
+{
+  "vendor": "Tealeaf",
+  "vendor_id": "tealeaf",
+  "product": "Tealeaf",
+  "product_id": "tealeaf-tealeaf",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Tealeaf JavaScript Detection",
+      "pattern": "window\\.TeaLeaf|TeaLeaf\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Tealeaf from JavaScript variable 'TeaLeaf'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "tealeaf"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

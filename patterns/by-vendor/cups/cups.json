@@ -41,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^TLS/1.0,HTTP/1.1$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^TLS/1\\.0,HTTP/1\\.1$"
+      "pattern": "^TLS/1\\.0,HTTP/1\\.1$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>ClanSphere\\ \\-\\ News</title>"
+      "pattern": "<title>ClanSphere\\ \\-\\ News</title>",
+      "version_group": 0
     },
     {
       "name": "ClanSphere Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"ClanSphere\"\\ />"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"ClanSphere\"\\ />",
+      "version_group": 0
     },
     {
       "name": "ClanSphere Pattern",
@@ -62,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by <a href=\"http://www.csphere.eu[^>]+>Clansphere[ CSP]*",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by <a href=\"http://www.csphere.eu[^>]+>Clansphere[\\ CSP]*"
+      "pattern": "Powered by <a href=\"http://www.csphere.eu[^>]+>Clansphere[\\ CSP]*",
+      "version_group": 0
     },
     {
       "name": "ClanSphere Pattern",
@@ -78,9 +87,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"[/]*index.php?mod=clansphere&amp;action=about[^>]+>Powered by Clansphere[ CSP]*",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"[/]*index.php\\?mod=clansphere&amp;action=about[^>]+>Powered by Clansphere[\\ CSP]*"
+      "pattern": "<a href=\"[/]*index.php\\?mod=clansphere&amp;action=about[^>]+>Powered by Clansphere[\\ CSP]*",
+      "version_group": 0
     },
     {
       "name": "ClanSphere Pattern",
@@ -94,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"[/]*index.php?mod=clansphere&amp;action=about[^>]+>Clansphere[ CSP]*",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"[/]*index.php\\?mod=clansphere&amp;action=about[^>]+>Clansphere[\\ CSP]*"
+      "pattern": "<a href=\"[/]*index.php\\?mod=clansphere&amp;action=about[^>]+>Clansphere[\\ CSP]*",
+      "version_group": 0
     },
     {
       "name": "ClanSphere Pattern",
@@ -110,9 +133,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "powered by <a href=\"http://www.clansphere.net[^>]+>ClanSphere Project</a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "powered by <a href=\"http://www.clansphere.net[^>]+>ClanSphere Project</a>"
+      "pattern": "powered by <a href=\"http://www.clansphere.net[^>]+>ClanSphere Project</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

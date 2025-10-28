@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^wn_cg",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^wn_cg"
+      "pattern": "^wn_cg",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

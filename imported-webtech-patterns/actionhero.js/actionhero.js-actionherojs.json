@@ -1,0 +1,71 @@
+{
+  "vendor": "actionhero.js",
+  "vendor_id": "actionhero.js",
+  "product": "actionhero.js",
+  "product_id": "actionhero.js-actionherojs",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "actionhero.js Header Detection",
+      "pattern": "X-Powered-By: actionhero API",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects actionhero.js from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "actionhero.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "actionhero.js Script Detection",
+      "pattern": "actionheroClient\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects actionhero.js from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "actionhero.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "actionhero.js JavaScript Detection",
+      "pattern": "window\\.actionheroClient|actionheroClient\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects actionhero.js from JavaScript variable 'actionheroClient'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "actionhero.js"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

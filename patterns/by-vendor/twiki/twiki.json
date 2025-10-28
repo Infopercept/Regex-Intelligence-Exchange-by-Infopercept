@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Welcome\\ to\\ TWiki\\ \\-\\ A\\ Web\\-based\\ Collaboration\\ Platform</title>"
+      "pattern": "<title>Welcome\\ to\\ TWiki\\ \\-\\ A\\ Web\\-based\\ Collaboration\\ Platform</title>",
+      "version_group": 0
     },
     {
       "name": "powered by text",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span class=\"twikiRight\"> <a href=\"http://twiki.org/\"><img src=\"[a-zA-Z0-9.-/+_]+\" alt=\"This site is powered by the TWiki collaboration platform\" width=\"[0-9]+\" height=\"[0-9]+\" title=\"This site is powered by the TWiki collaboration platform\" border=\"0\" /></a></span>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<span class=\"twikiRight\"> <a href=\"http://twiki.org/\"><img src=\"[a-zA-Z0-9\\.\\-\\/\\+_]+\" alt=\"This site is powered by the TWiki collaboration platform\" width=\"[0-9]+\" height=\"[0-9]+\" title=\"This site is powered by the TWiki collaboration platform\" border=\"0\" /></a></span>"
+      "pattern": "<span class=\"twikiRight\"> <a href=\"http://twiki.org/\"><img src=\"[a-zA-Z0-9\\.\\-\\/\\+_]+\" alt=\"This site is powered by the TWiki collaboration platform\" width=\"[0-9]+\" height=\"[0-9]+\" title=\"This site is powered by the TWiki collaboration platform\" border=\"0\" /></a></span>",
+      "version_group": 0
     },
     {
       "name": "alternate powered by text",
@@ -56,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<span class=\"twikiRight\"> This Wiki powered by TWiki <a href=\"http://twiki.org/\"><img src=\"[a-zA-Z0-9.-/+_]+\" alt=\"This Wiki is powered by the TWiki collaboration platform\" width=\"[0-9]+\" height=\"[0-9]+\" title=\"This wiki is powered by the TWiki collaboration platform\" border=\"0\" /></a></span>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<span class=\"twikiRight\"> This Wiki powered by TWiki <a href=\"http://twiki.org/\"><img src=\"[a-zA-Z0-9\\.\\-\\/\\+_]+\" alt=\"This Wiki is powered by the TWiki collaboration platform\" width=\"[0-9]+\" height=\"[0-9]+\" title=\"This wiki is powered by the TWiki collaboration platform\" border=\"0\" /></a></span>"
+      "pattern": "<span class=\"twikiRight\"> This Wiki powered by TWiki <a href=\"http://twiki.org/\"><img src=\"[a-zA-Z0-9\\.\\-\\/\\+_]+\" alt=\"This Wiki is powered by the TWiki collaboration platform\" width=\"[0-9]+\" height=\"[0-9]+\" title=\"This wiki is powered by the TWiki collaboration platform\" border=\"0\" /></a></span>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

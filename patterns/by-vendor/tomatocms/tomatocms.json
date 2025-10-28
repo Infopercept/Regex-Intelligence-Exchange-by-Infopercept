@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.tomatocms\\.com\"\\ title=\"Powered\\ by\\ TomatoCMS\"\\ target=\"_blank\">"
+      "pattern": "<a\\ href=\"http://www\\.tomatocms\\.com\"\\ title=\"Powered\\ by\\ TomatoCMS\"\\ target=\"_blank\">",
+      "version_group": 0
     },
     {
       "name": "TomatoCMS Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\\tTomato\\.Core\\.Widget\\.Loader\\.baseUrl\\ =\\ 'http://"
+      "pattern": "\\\tTomato\\.Core\\.Widget\\.Loader\\.baseUrl\\ =\\ 'http://",
+      "version_group": 0
     },
     {
       "name": "TomatoCMS Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t\\\t\\\t\\\t<h1>TomatoCMS\\ Install\\ Wizard</h1>"
+      "pattern": "\\\t\\\t\\\t\\\t\\\t<h1>TomatoCMS\\ Install\\ Wizard</h1>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

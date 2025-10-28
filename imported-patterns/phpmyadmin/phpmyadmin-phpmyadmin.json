@@ -1,0 +1,51 @@
+{
+  "vendor": "phpMyAdmin",
+  "vendor_id": "phpmyadmin",
+  "product": "phpMyAdmin",
+  "product_id": "phpmyadmin-phpmyadmin",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "phpMyAdmin HTML Detection",
+      "pattern": "!\\[CDATA\\[[^<]*PMA_VERSION:\\\"([\\d.]+)",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects phpMyAdmin from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "phpmyadmin"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "phpMyAdmin HTML Detection",
+      "pattern": "(?: \\| phpMyAdmin ([\\d.]+)</title>|PMA_sendHeaderLocation\\(|<link [^>]*href=\"[^\"]*phpmyadmin\\.css\\.php)",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects phpMyAdmin from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "phpmyadmin"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

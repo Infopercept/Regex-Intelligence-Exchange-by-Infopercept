@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://(sendcard.sf.net|www.sendcard.org)/\"( title=\"download your own PHP e-card script\")?><img src=\"poweredbysendcard102x47.gif\"[^>]+alt=\"Powered by sendcard - an advanced PHP e-card program\"[^>]*></a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"http://(sendcard.sf.net|www.sendcard.org)/\"( title=\"download your own PHP e-card script\")?><img src=\"poweredbysendcard102x47.gif\"[^>]+alt=\"Powered by sendcard - an advanced PHP e-card program\"[^>]*></a>"
+      "pattern": "<a href=\"http://(sendcard.sf.net|www.sendcard.org)/\"( title=\"download your own PHP e-card script\")?><img src=\"poweredbysendcard102x47.gif\"[^>]+alt=\"Powered by sendcard - an advanced PHP e-card program\"[^>]*></a>",
+      "version_group": 0
     },
     {
       "name": "Sendcard Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<img src=\"poweredbysendcard102x47.gif\"[^>]+alt=\"Powered by sendcard - an advanced PHP e-card program\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<img src=\"poweredbysendcard102x47.gif\"[^>]+alt=\"Powered by sendcard - an advanced PHP e-card program\">"
+      "pattern": "<img src=\"poweredbysendcard102x47.gif\"[^>]+alt=\"Powered by sendcard - an advanced PHP e-card program\">",
+      "version_group": 0
     },
     {
       "name": "Sendcard Pattern",
@@ -58,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ The\\ following\\ line\\ should\\ allow\\ me\\ to\\ search\\ on\\ google\\ and\\ find\\ sendcard\\ installations\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ The\\ following\\ line\\ should\\ allow\\ me\\ to\\ search\\ on\\ google\\ and\\ find\\ sendcard\\ installations\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Sendcard Pattern",
@@ -80,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<div\\ style=\"display:\\ none;\\ color:\\ White;\">scscsc320</div>"
+      "pattern": "<div\\ style=\"display:\\ none;\\ color:\\ White;\">scscsc320</div>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

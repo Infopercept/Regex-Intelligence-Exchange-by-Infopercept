@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Begin\\ MyConnection\\ Server\\ applet\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Begin\\ MyConnection\\ Server\\ applet\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Visualware-MyConnection-Server Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Visualware MyConnection Server",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Visualware MyConnection Server"
+      "pattern": "^Visualware MyConnection Server",
+      "version_group": 0
     },
     {
       "name": "Visualware-MyConnection-Server Pattern",
@@ -67,5 +75,6 @@
       "pattern": "Server: ^Visualware MyConnection Server [^\\d]+ (\\d\\.[^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

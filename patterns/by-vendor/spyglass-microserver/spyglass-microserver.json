@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Spyglass_MicroServer",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Spyglass_MicroServer"
+      "pattern": "^Spyglass_MicroServer",
+      "version_group": 0
     },
     {
       "name": "Spyglass-MicroServer Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Spyglass_MicroServer/(.+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

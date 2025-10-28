@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Karrigell",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Karrigell"
+      "pattern": "^Karrigell",
+      "version_group": 0
     },
     {
       "name": "Karrigell Pattern",
@@ -68,5 +75,6 @@
       "pattern": "Server: ^Karrigell ([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

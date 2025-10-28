@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ content=\"Apache\\ Forrest\"\\ name=\"Generator\""
+      "pattern": "<meta\\ content=\"Apache\\ Forrest\"\\ name=\"Generator\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Viking",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Viking"
+      "pattern": "^Viking",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,51 @@
+{
+  "vendor": "Haravan",
+  "vendor_id": "haravan",
+  "product": "Haravan",
+  "product_id": "haravan-haravan",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Haravan Script Detection",
+      "pattern": "haravan.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Haravan from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "haravan"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Haravan JavaScript Detection",
+      "pattern": "window\\.Haravan|Haravan\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Haravan from JavaScript variable 'Haravan'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "haravan"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

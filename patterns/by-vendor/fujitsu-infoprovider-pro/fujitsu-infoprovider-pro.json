@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Fujitsu-InfoProvider-Pro",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Fujitsu-InfoProvider-Pro"
+      "pattern": "Fujitsu-InfoProvider-Pro",
+      "version_group": 0
     },
     {
       "name": "Fujitsu-InfoProvider-Pro Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: Fujitsu-InfoProvider-Pro/[V]?([^ ]+) ",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>WebGuard\\ Login</title>"
+      "pattern": "<title>WebGuard\\ Login</title>",
+      "version_group": 0
     },
     {
       "name": "WebGuard Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<body\\ leftmargin=\"0\"\\ topmargin=\"0\"\\ marginwidth=\"0\"\\ marginheight=\"0\"\\ onLoad=\"GetInfo\\(\\)\"\\ onResize=\"fit_center\\(\\)\">"
+      "pattern": "<body\\ leftmargin=\"0\"\\ topmargin=\"0\"\\ marginwidth=\"0\"\\ marginheight=\"0\"\\ onLoad=\"GetInfo\\(\\)\"\\ onResize=\"fit_center\\(\\)\">",
+      "version_group": 0
     },
     {
       "name": "WebGuard Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<table\\ id=loginback\\ border=\"0\"\\ cellpadding=\"0\"\\ cellspacing=\"0\"\\ background=\"images/login_venus_back\\.gif\"\\ width=480\\ height=175\\ style=\\\\"
+      "pattern": "<table\\ id=loginback\\ border=\"0\"\\ cellpadding=\"0\"\\ cellspacing=\"0\"\\ background=\"images/login_venus_back\\.gif\"\\ width=480\\ height=175\\ style=\\\\",
+      "version_group": 0
     },
     {
       "name": "WebGuard Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<td\\ align=\"left\"\\ valign=\"middle\"><input\\ name=\"login_passwd\"\\ type=\"password\"\\ class=\"noborder\"\\ size=\"26\"></td>"
+      "pattern": "<td\\ align=\"left\"\\ valign=\"middle\"><input\\ name=\"login_passwd\"\\ type=\"password\"\\ class=\"noborder\"\\ size=\"26\"></td>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

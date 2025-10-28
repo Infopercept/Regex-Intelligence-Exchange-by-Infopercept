@@ -1,0 +1,71 @@
+{
+  "vendor": "MathJax",
+  "vendor_id": "mathjax",
+  "product": "MathJax",
+  "product_id": "mathjax-mathjax",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MathJax Script Detection",
+      "pattern": "([\\d.]+)?/mathjax\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MathJax from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "mathjax"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "MathJax JavaScript Detection",
+      "pattern": "window\\.MathJax|MathJax\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MathJax from JavaScript variable 'MathJax'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "mathjax"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "MathJax JavaScript Detection",
+      "pattern": "window\\.MathJax\\.version|MathJax\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MathJax from JavaScript variable 'MathJax.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "mathjax"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

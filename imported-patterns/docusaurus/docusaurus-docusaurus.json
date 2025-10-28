@@ -1,0 +1,31 @@
+{
+  "vendor": "Docusaurus",
+  "vendor_id": "docusaurus",
+  "product": "Docusaurus",
+  "product_id": "docusaurus-docusaurus",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Docusaurus Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']^Docusaurus$[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Docusaurus from meta tag with name 'generator'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "docusaurus"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "SCRIPT_NAME=/fcgi\\-bin/echo"
+      "pattern": "SCRIPT_NAME=/fcgi\\-bin/echo",
+      "version_group": 0
     },
     {
       "name": "FastCGI-echo Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>FastCGI\\ echo</title><h1>FastCGI\\ echo</h1>"
+      "pattern": "<title>FastCGI\\ echo</title><h1>FastCGI\\ echo</h1>",
+      "version_group": 0
     },
     {
       "name": "FastCGI-echo Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "REQUEST_URI=/fcgi\\-bin/echo"
+      "pattern": "REQUEST_URI=/fcgi\\-bin/echo",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "DHTMLX",
+  "vendor_id": "dhtmlx",
+  "product": "DHTMLX",
+  "product_id": "dhtmlx-dhtmlx",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DHTMLX Script Detection",
+      "pattern": "dhtmlxcommon\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DHTMLX from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "dhtmlx"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "vendor": "K2",
+  "vendor_id": "k2",
+  "product": "K2",
+  "product_id": "k2-k2",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "K2 HTML Detection",
+      "pattern": "<!--(?: JoomlaWorks \"K2\"| Start K2)",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects K2 from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "k2"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "K2 JavaScript Detection",
+      "pattern": "window\\.K2RatingURL|K2RatingURL\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects K2 from JavaScript variable 'K2RatingURL'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "k2"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<html><body>Access\\ denied\\.\\ \\ Please\\ consult\\ the\\ http\\-access\\ directive\\ in\\ the\\ User's\\ Guide\\ for\\ more\\ information\\.</body></html>"
+      "pattern": "<html><body>Access\\ denied\\.\\ \\ Please\\ consult\\ the\\ http\\-access\\ directive\\ in\\ the\\ User's\\ Guide\\ for\\ more\\ information\\.</body></html>",
+      "version_group": 0
     },
     {
       "name": "PowerMTA Pattern",
@@ -40,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Basic realm=\"PowerMTA\"$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Basic realm=\"PowerMTA\"$"
+      "pattern": "^Basic realm=\"PowerMTA\"$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

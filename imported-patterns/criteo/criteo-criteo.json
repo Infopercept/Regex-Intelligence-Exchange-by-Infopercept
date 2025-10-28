@@ -1,0 +1,51 @@
+{
+  "vendor": "Criteo",
+  "vendor_id": "criteo",
+  "product": "Criteo",
+  "product_id": "criteo-criteo",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Criteo Script Detection",
+      "pattern": "//(?:cas\\.criteo\\.com|(?:[^/]\\.)?criteo\\.net)/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Criteo from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "criteo"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Criteo Script Detection",
+      "pattern": "//static\\.criteo\\.net/js/ld/ld\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Criteo from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "criteo"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

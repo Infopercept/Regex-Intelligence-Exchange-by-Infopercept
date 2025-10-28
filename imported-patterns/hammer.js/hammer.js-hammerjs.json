@@ -1,0 +1,31 @@
+{
+  "vendor": "Hammer.js",
+  "vendor_id": "hammer.js",
+  "product": "Hammer.js",
+  "product_id": "hammer.js-hammerjs",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Hammer.js Script Detection",
+      "pattern": "hammer(?:\\.min)?\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Hammer.js from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "hammer.js"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

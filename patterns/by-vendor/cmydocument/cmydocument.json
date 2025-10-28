@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<link\\ href=\"CmyDocument\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\">"
+      "pattern": "<link\\ href=\"CmyDocument\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\">",
+      "version_group": 0
     },
     {
       "name": "CmyDocument Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<link\\ href=\"CmyDocument2\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\">"
+      "pattern": "<link\\ href=\"CmyDocument2\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\">",
+      "version_group": 0
     },
     {
       "name": "CmyDocument Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"CmyDocument\\.css\">"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"CmyDocument\\.css\">",
+      "version_group": 0
     },
     {
       "name": "CmyDocument Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"SHORTCUT\\ ICON\"\\ href=\"icon_cmydoc\\.ico\">"
+      "pattern": "<link\\ rel=\"SHORTCUT\\ ICON\"\\ href=\"icon_cmydoc\\.ico\">",
+      "version_group": 0
     },
     {
       "name": "CmyDocument Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ footer\\ \\(begin\\)\\ \\-\\-><!\\-\\-\\ \\*\\*\\*\\ Note:\\ Only\\ licensed\\ users\\ are\\ allowed\\ to\\ remove\\ or\\ change\\ the\\ following\\ copyright\\ statement\\.\\ \\*\\*\\*\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ footer\\ \\(begin\\)\\ \\-\\-><!\\-\\-\\ \\*\\*\\*\\ Note:\\ Only\\ licensed\\ users\\ are\\ allowed\\ to\\ remove\\ or\\ change\\ the\\ following\\ copyright\\ statement\\.\\ \\*\\*\\*\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "CmyDocument Pattern",
@@ -128,9 +133,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td style=\"white-space: nowrap;\"><span class=\"aspmaker\"><a href=\"myDocview.asp?(myDocID|ID)=[d]+\">View</a></span></td>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<td style=\"white-space: nowrap;\"><span class=\"aspmaker\"><a href=\"myDocview\\.asp\\?(myDocID|ID)=[\\d]+\">View</a></span></td>"
+      "pattern": "<td style=\"white-space: nowrap;\"><span class=\"aspmaker\"><a href=\"myDocview\\.asp\\?(myDocID|ID)=[\\d]+\">View</a></span></td>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

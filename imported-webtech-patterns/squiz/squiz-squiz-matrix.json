@@ -1,0 +1,71 @@
+{
+  "vendor": "Squiz",
+  "vendor_id": "squiz",
+  "product": "Squiz Matrix",
+  "product_id": "squiz-squiz-matrix",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Squiz Matrix Header Detection",
+      "pattern": "X-Powered-By: Squiz Matrix",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Squiz Matrix from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "squiz-matrix"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Squiz Matrix HTML Detection",
+      "pattern": "<!--\\s+Running (?:MySource|Squiz) Matrix",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Squiz Matrix from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "squiz-matrix"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Squiz Matrix Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']Squiz Matrix[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Squiz Matrix from meta tag with name 'generator'",
+        "tags": [
+          "webtech",
+          "meta",
+          "squiz-matrix"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

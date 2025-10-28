@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Welcome\\ to\\ Windows\\ Small\\ Business\\ Server\\ 2003</title>"
+      "pattern": "<title>Welcome\\ to\\ Windows\\ Small\\ Business\\ Server\\ 2003</title>",
+      "version_group": 0
     },
     {
       "name": "Microsoft-Windows-Business-Server Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>Welcome\\ to\\ Windows\\ Small\\ Business\\ Server\\ 2008</title>"
+      "pattern": "<title>Welcome\\ to\\ Windows\\ Small\\ Business\\ Server\\ 2008</title>",
+      "version_group": 0
     },
     {
       "name": "Microsoft-Windows-Business-Server Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<TD\\ id=\"Remote_Link\"\\ class=\"linkHeader\"><A\\ HREF=\"/Remote\">Remote\\ Web\\ Workplace</A></TD>"
+      "pattern": "<TD\\ id=\"Remote_Link\"\\ class=\"linkHeader\"><A\\ HREF=\"/Remote\">Remote\\ Web\\ Workplace</A></TD>",
+      "version_group": 0
     },
     {
       "name": "Microsoft-Windows-Business-Server Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<IMG\\ alt=\"\"\\ src=\"images/sbslogo\\.gif\"\\ border=\"0\"\\ width=\"200\"\\ height=\"55\">"
+      "pattern": "<IMG\\ alt=\"\"\\ src=\"images/sbslogo\\.gif\"\\ border=\"0\"\\ width=\"200\"\\ height=\"55\">",
+      "version_group": 0
     },
     {
       "name": "Microsoft-Windows-Business-Server Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "</title><link\\ href=\"signinStyle\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ />"
+      "pattern": "</title><link\\ href=\"signinStyle\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Microsoft-Windows-Business-Server Pattern",
@@ -128,9 +133,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<form name=\"form1\" method=\"post\" action=\"logon.aspx?ReturnUrl=%2f[^\"]\" id=\"form1\" autocomplete=\"OFF\" onsubmit=\"OnUserNameFocus();\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<form name=\"form1\" method=\"post\" action=\"logon\\.aspx\\?ReturnUrl=%2f[^\"]\" id=\"form1\" autocomplete=\"OFF\" onsubmit=\"OnUserNameFocus\\(\\);\">"
+      "pattern": "<form name=\"form1\" method=\"post\" action=\"logon\\.aspx\\?ReturnUrl=%2f[^\"]\" id=\"form1\" autocomplete=\"OFF\" onsubmit=\"OnUserNameFocus\\(\\);\">",
+      "version_group": 0
     },
     {
       "name": "Microsoft-Windows-Business-Server Pattern",
@@ -152,7 +164,8 @@
           }
         ]
       },
-      "pattern": "<input\\ id=\"rememberMe\"\\ type=\"checkbox\"\\ name=\"rememberMe\"\\ tabindex=\"3\"\\ /><label\\ for=\"rememberMe\">Remember\\ me\\ on\\ this\\ computer</label>"
+      "pattern": "<input\\ id=\"rememberMe\"\\ type=\"checkbox\"\\ name=\"rememberMe\"\\ tabindex=\"3\"\\ /><label\\ for=\"rememberMe\">Remember\\ me\\ on\\ this\\ computer</label>",
+      "version_group": 0
     },
     {
       "name": "Microsoft-Windows-Business-Server Pattern",
@@ -174,7 +187,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"copyright\"\\ content=\"Copyright\\ \\(c\\)\\ Microsoft\\ Corporation\\.\\ \\ All\\ rights\\ reserved\\.\"\\ />"
+      "pattern": "<meta\\ name=\"copyright\"\\ content=\"Copyright\\ \\(c\\)\\ Microsoft\\ Corporation\\.\\ \\ All\\ rights\\ reserved\\.\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Microsoft-Windows-Business-Server Pattern",
@@ -196,7 +210,9 @@
           }
         ]
       },
-      "pattern": "<head\\ id=\"Head1\"><meta\\ http\\-equiv=\"Content\\-Type\"\\ content=\"text/html;\\ charset=utf\\-8\"\\ /><title>"
+      "pattern": "<head\\ id=\"Head1\"><meta\\ http\\-equiv=\"Content\\-Type\"\\ content=\"text/html;\\ charset=utf\\-8\"\\ /><title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

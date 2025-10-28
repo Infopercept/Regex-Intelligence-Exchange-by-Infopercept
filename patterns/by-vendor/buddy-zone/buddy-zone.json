@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.vastal\\.com\"\\ class=\"bottom\">Buddy\\ Zone</a>"
+      "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.vastal\\.com\"\\ class=\"bottom\">Buddy\\ Zone</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

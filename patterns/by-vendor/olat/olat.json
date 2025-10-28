@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"DC\\.creator\"\\ content=\"University\\ of\\ Zurich\\ \\-\\ http://www\\.uzh\\.ch\"\\ />"
+      "pattern": "<meta\\ name=\"DC\\.creator\"\\ content=\"University\\ of\\ Zurich\\ \\-\\ http://www\\.uzh\\.ch\"\\ />",
+      "version_group": 0
     },
     {
       "name": "OLAT Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"DC\\.subject\"\\ content=\"OLAT\\ \\-\\ Online\\ Learning\\ And\\ Training\\ \\-\\ Your\\ Open\\ Source\\ Learning\\ Management\\ System\"\\ />"
+      "pattern": "<meta\\ name=\"DC\\.subject\"\\ content=\"OLAT\\ \\-\\ Online\\ Learning\\ And\\ Training\\ \\-\\ Your\\ Open\\ Source\\ Learning\\ Management\\ System\"\\ />",
+      "version_group": 0
     },
     {
       "name": "OLAT Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"DC\\.contributor\"\\ content=\"see\\ http://www\\.olat\\.org/website/en/html/download_license\\.html\"\\ />"
+      "pattern": "<meta\\ name=\"DC\\.contributor\"\\ content=\"see\\ http://www\\.olat\\.org/website/en/html/download_license\\.html\"\\ />",
+      "version_group": 0
     },
     {
       "name": "OLAT Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<title>OLAT\\ \\-\\ Online\\ Learning\\ And\\ Training</title></head>"
+      "pattern": "<title>OLAT\\ \\-\\ Online\\ Learning\\ And\\ Training</title></head>",
+      "version_group": 0
     },
     {
       "name": "OLAT Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<title>OLAT\\ \\-\\ Online\\ Learning\\ And\\ Training\\ </title>"
+      "pattern": "<title>OLAT\\ \\-\\ Online\\ Learning\\ And\\ Training\\ </title>",
+      "version_group": 0
     },
     {
       "name": "OLAT Pattern",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<body\\ onload=\"b_start\\(\\);\"\\ id=\"b_body\"\\ class=\"b_lang_en\">"
+      "pattern": "<body\\ onload=\"b_start\\(\\);\"\\ id=\"b_body\"\\ class=\"b_lang_en\">",
+      "version_group": 0
     },
     {
       "name": "OLAT Pattern",
@@ -158,7 +164,8 @@
           }
         ]
       },
-      "pattern": "<body\\ onload=\"b_start\\(\\);\"\\ id=\"b_body\">"
+      "pattern": "<body\\ onload=\"b_start\\(\\);\"\\ id=\"b_body\">",
+      "version_group": 0
     },
     {
       "name": "OLAT Pattern",
@@ -180,7 +187,8 @@
           }
         ]
       },
-      "pattern": "<body\\ onload=\"o2start\\(\\);\"\\ class=\"o_body\">"
+      "pattern": "<body\\ onload=\"o2start\\(\\);\"\\ class=\"o_body\">",
+      "version_group": 0
     },
     {
       "name": "OLAT Pattern",
@@ -202,7 +210,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ START\\ olatContentPanel\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ START\\ olatContentPanel\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "OLAT Pattern",
@@ -224,7 +233,9 @@
           }
         ]
       },
-      "pattern": "<a\\ accesskey=\"2\"\\ href=\"\\#content\"\\ title=\"Go\\ to\\ \"Content\"\"></a>"
+      "pattern": "<a\\ accesskey=\"2\"\\ href=\"\\#content\"\\ title=\"Go\\ to\\ \"Content\"\"></a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

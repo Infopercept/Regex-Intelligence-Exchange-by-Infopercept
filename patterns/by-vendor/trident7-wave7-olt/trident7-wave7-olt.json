@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<TITLE>Trident7\\ System\\ Login</TITLE>"
+      "pattern": "<TITLE>Trident7\\ System\\ Login</TITLE>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "style=\"color:gray;font-size:smaller\">Powered by <a href=\"http://www.outshine.com/phportfolio/\"[^>]*>PHPortfolio</a>.",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "style=\"color:gray;font-size:smaller\">Powered by <a href=\"http://www\\.outshine\\.com/phportfolio/\"[^>]*>PHPortfolio</a>\\."
+      "pattern": "style=\"color:gray;font-size:smaller\">Powered by <a href=\"http://www\\.outshine\\.com/phportfolio/\"[^>]*>PHPortfolio</a>\\.",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

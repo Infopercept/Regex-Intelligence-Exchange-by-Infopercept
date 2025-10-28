@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>DUclassified[sd.]*</title>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>DUclassified[\\s\\d\\.]*</title>"
+      "pattern": "<title>DUclassified[\\s\\d\\.]*</title>",
+      "version_group": 0
     },
     {
       "name": "assets/DUclassified.css",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link[^>]href=\"[^\"]*assets/DUclassified.css\"[^>]+>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link[^>]href=\"[^\"]*assets/DUclassified.css\"[^>]+>"
+      "pattern": "<link[^>]href=\"[^\"]*assets/DUclassified.css\"[^>]+>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

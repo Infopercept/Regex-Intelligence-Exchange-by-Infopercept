@@ -1,0 +1,51 @@
+{
+  "vendor": "Apple",
+  "vendor_id": "apple",
+  "product": "Apple Pay",
+  "product_id": "apple-apple-pay",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Apple Pay HTML Detection",
+      "pattern": "<[^>]+aria-labelledby=\"pi-apple_pay",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Apple Pay from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "apple-pay"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Apple Pay HTML Detection",
+      "pattern": "<script id=\"apple-pay",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Apple Pay from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "apple-pay"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

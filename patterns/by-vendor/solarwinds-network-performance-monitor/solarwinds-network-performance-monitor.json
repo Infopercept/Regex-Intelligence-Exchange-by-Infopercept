@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<b>Cannot\\ access\\ main\\ SQL\\ Server\\ database\\.</b><br><br><b>Connection</b>"
+      "pattern": "<b>Cannot\\ access\\ main\\ SQL\\ Server\\ database\\.</b><br><br><b>Connection</b>",
+      "version_group": 0
     },
     {
       "name": "SolarWinds-Network-Performance-Monitor Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<TITLE>SolarWinds\\ Network\\ Management</TITLE>"
+      "pattern": "<TITLE>SolarWinds\\ Network\\ Management</TITLE>",
+      "version_group": 0
     },
     {
       "name": "SolarWinds-Network-Performance-Monitor Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<TD\\ Class=PageHeader>Network\\ Performance\\ Monitor</TD>"
+      "pattern": "<TD\\ Class=PageHeader>Network\\ Performance\\ Monitor</TD>",
+      "version_group": 0
     },
     {
       "name": "SolarWinds-Network-Performance-Monitor Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/SolarWinds\\.css\">"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/SolarWinds\\.css\">",
+      "version_group": 0
     },
     {
       "name": "SolarWinds-Network-Performance-Monitor Pattern",
@@ -106,9 +110,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>[rn]*\tOrion Network Performance Monitor[rn]*</title>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>[\\r\\n]*\tOrion Network Performance Monitor[\\r\\n]*</title>"
+      "pattern": "<title>[\\r\\n]*\tOrion Network Performance Monitor[\\r\\n]*</title>",
+      "version_group": 0
     },
     {
       "name": "SolarWinds-Network-Performance-Monitor Pattern",
@@ -130,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/SolarWinds\\.css\"\\ />"
+      "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/SolarWinds\\.css\"\\ />",
+      "version_group": 0
     },
     {
       "name": "SolarWinds-Network-Performance-Monitor Pattern",
@@ -152,7 +164,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Stylesheets\\ left\\ here\\ to\\ support\\ legacy\\ resources\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Stylesheets\\ left\\ here\\ to\\ support\\ legacy\\ resources\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "SolarWinds-Network-Performance-Monitor Pattern",
@@ -174,7 +187,8 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"/NetPerfMon/images/SolarWinds\\.Logo\\.gif\"\\ alt=\"Site\\ Logo\"/>"
+      "pattern": "<img\\ src=\"/NetPerfMon/images/SolarWinds\\.Logo\\.gif\"\\ alt=\"Site\\ Logo\"/>",
+      "version_group": 0
     },
     {
       "name": "SolarWinds-Network-Performance-Monitor Pattern",
@@ -196,7 +210,8 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"\\.\\./NetPerfMon/images/SolarWinds\\.Logo\\.jpg\"\\ border=0>"
+      "pattern": "<img\\ src=\"\\.\\./NetPerfMon/images/SolarWinds\\.Logo\\.jpg\"\\ border=0>",
+      "version_group": 0
     },
     {
       "name": "SolarWinds-Network-Performance-Monitor Pattern",
@@ -218,7 +233,8 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"/NetPerfMon/images/SolarWinds\\.Logo\\.jpg\"\\ border=0>"
+      "pattern": "<img\\ src=\"/NetPerfMon/images/SolarWinds\\.Logo\\.jpg\"\\ border=0>",
+      "version_group": 0
     },
     {
       "name": "SolarWinds-Network-Performance-Monitor Pattern",
@@ -240,7 +256,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"/Login\\.asp\"><u><b>Retry\\ Login<b><u></a>"
+      "pattern": "<a\\ href=\"/Login\\.asp\"><u><b>Retry\\ Login<b><u></a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,31 @@
+{
+  "vendor": "gRPC",
+  "vendor_id": "grpc",
+  "product": "gRPC",
+  "product_id": "grpc-grpc",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "gRPC Header Detection",
+      "pattern": "Content-Type: ^application/grpc",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects gRPC from Content-Type header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "grpc"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

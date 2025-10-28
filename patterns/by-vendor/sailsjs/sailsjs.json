@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^sails.sid",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^sails.sid"
+      "pattern": "^sails.sid",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"skyx_status\">SkyX\\ status:\\ enhancing</div>"
+      "pattern": "<div\\ id=\"skyx_status\">SkyX\\ status:\\ enhancing</div>",
+      "version_group": 0
     },
     {
       "name": "SkyX Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<script\\ language=\"javascript\"\\ type=\"text/javascript\"\\ src=\"/skyxgui\\.js\"></script>"
+      "pattern": "<script\\ language=\"javascript\"\\ type=\"text/javascript\"\\ src=\"/skyxgui\\.js\"></script>",
+      "version_group": 0
     },
     {
       "name": "SkyX Pattern",
@@ -73,5 +75,6 @@
       "pattern": "Server: ^SkyX HTTPS ([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

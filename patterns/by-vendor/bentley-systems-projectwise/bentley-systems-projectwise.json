@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "</title><meta\\ http\\-equiv=\"X\\-UA\\-Compatible\"\\ content=\"IE=8\"\\ /><link\\ rel=\"shortcut\\ icon\"\\ href=\"ProjectWise\\.ico\"\\ />"
+      "pattern": "</title><meta\\ http\\-equiv=\"X\\-UA\\-Compatible\"\\ content=\"IE=8\"\\ /><link\\ rel=\"shortcut\\ icon\"\\ href=\"ProjectWise\\.ico\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Bentley-Systems-ProjectWise Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<title>s+ProjectWise Web Servers+</title>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<title>\\s+ProjectWise Web Server\\s+</title>"
+      "pattern": "<title>\\s+ProjectWise Web Server\\s+</title>",
+      "version_group": 0
     },
     {
       "name": "Bentley-Systems-ProjectWise Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Initially\\ invisible\\ login\\ form\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Initially\\ invisible\\ login\\ form\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Bentley-Systems-ProjectWise Pattern",
@@ -78,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Bentley.WebSession=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Bentley.WebSession="
+      "pattern": "Bentley.WebSession=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

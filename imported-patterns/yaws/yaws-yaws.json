@@ -1,0 +1,31 @@
+{
+  "vendor": "Yaws",
+  "vendor_id": "yaws",
+  "product": "Yaws",
+  "product_id": "yaws-yaws",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Yaws Header Detection",
+      "pattern": "Server: Yaws(?: ([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Yaws from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "yaws"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

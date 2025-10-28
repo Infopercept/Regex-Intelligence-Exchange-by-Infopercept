@@ -1,0 +1,91 @@
+{
+  "vendor": "Synology",
+  "vendor_id": "synology",
+  "product": "Synology DiskStation",
+  "product_id": "synology-synology-diskstation",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Synology DiskStation HTML Detection",
+      "pattern": "<noscript><div class='syno-no-script'",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Synology DiskStation from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "synology-diskstation"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Synology DiskStation Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']application-name[\"'][^>]+content=[\"']Synology DiskStation[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Synology DiskStation from meta tag with name 'application-name'",
+        "tags": [
+          "webtech",
+          "meta",
+          "synology-diskstation"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Synology DiskStation Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']description[\"'][^>]+content=[\"']^DiskStation provides a full-featured network attached storage[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Synology DiskStation from meta tag with name 'description'",
+        "tags": [
+          "webtech",
+          "meta",
+          "synology-diskstation"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Synology DiskStation Script Detection",
+      "pattern": "webapi/entry\\.cgi\\?api=SYNO\\.(?:Core|Filestation)\\.Desktop\\.",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Synology DiskStation from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "synology-diskstation"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^WebHare Application Portal",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^WebHare Application Portal"
+      "pattern": "^WebHare Application Portal",
+      "version_group": 0
     },
     {
       "name": "WebHare-Application-Portal Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^WebHare Application Portal v([\\d\\.]+) Webserver$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

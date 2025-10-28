@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"author\"\\ content=\"Axentra\">"
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Axentra\">",
+      "version_group": 0
     },
     {
       "name": "Axentra-HipServ Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title\\ id=\"document_title\">Axentra\\ ::\\ Digital\\ Home/SOHO\\ Software\\ Platform\\ for\\ Internet\\ Gateway\\ and\\ NAS\\ Devices</title>"
+      "pattern": "<title\\ id=\"document_title\">Axentra\\ ::\\ Digital\\ Home/SOHO\\ Software\\ Platform\\ for\\ Internet\\ Gateway\\ and\\ NAS\\ Devices</title>",
+      "version_group": 0
     },
     {
       "name": "HOMEBASEID Cookie",
@@ -62,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "HOMEBASEID=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "HOMEBASEID="
+      "pattern": "HOMEBASEID=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

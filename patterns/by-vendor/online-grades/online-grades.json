@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<small><br\\ /><em>Disclaimer</em>:\\ \\ If\\ you\\ handed\\ in\\ an\\ assignment\\ or\\ took\\ a\\ test\\ today,\\ don't\\ expect\\ the\\ grade\\ to\\ be\\ online\\ immediately\\.\\ \\ Teachers\\ only\\ update\\ their\\ grade\\ books\\ as\\ needed\\.</small><ul><li>"
+      "pattern": "<small><br\\ /><em>Disclaimer</em>:\\ \\ If\\ you\\ handed\\ in\\ an\\ assignment\\ or\\ took\\ a\\ test\\ today,\\ don't\\ expect\\ the\\ grade\\ to\\ be\\ online\\ immediately\\.\\ \\ Teachers\\ only\\ update\\ their\\ grade\\ books\\ as\\ needed\\.</small><ul><li>",
+      "version_group": 0
     },
     {
       "name": "Online-Grades Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"author\"\\ content=\"Online\\ Grade\\ Posting\\ System\\ \\-\\-\\ http://www\\.onlinegrades\\.org\"\\ />"
+      "pattern": "<meta\\ name=\"author\"\\ content=\"Online\\ Grade\\ Posting\\ System\\ \\-\\-\\ http://www\\.onlinegrades\\.org\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Online-Grades Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ YOU\\ CAN\\ SAFELY\\ REMOVE\\ OR\\ CHANGE\\ ANYTHING\\ BETWEEN\\ THIS\\ SECTION\\ OF\\ COMENTED\\ CODE\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ YOU\\ CAN\\ SAFELY\\ REMOVE\\ OR\\ CHANGE\\ ANYTHING\\ BETWEEN\\ THIS\\ SECTION\\ OF\\ COMENTED\\ CODE\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Online-Grades Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ STOP\\ REMOVING\\ LINES\\ HERE\\ IF\\ REMOVING/CHANGING\\ THE\\ FOOTER\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ STOP\\ REMOVING\\ LINES\\ HERE\\ IF\\ REMOVING/CHANGING\\ THE\\ FOOTER\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Online-Grades Pattern",
@@ -106,9 +110,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<a href=\"http://www.onlinegrades.org\"><img src=\"[^\"^>]+/images/og.png\"[^>]+alt=\"Powered by Online Grades\"[^>]*></a>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<a href=\"http://www.onlinegrades.org\"><img src=\"[^\"^>]+/images/og.png\"[^>]+alt=\"Powered by Online Grades\"[^>]*></a>"
+      "pattern": "<a href=\"http://www.onlinegrades.org\"><img src=\"[^\"^>]+/images/og.png\"[^>]+alt=\"Powered by Online Grades\"[^>]*></a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

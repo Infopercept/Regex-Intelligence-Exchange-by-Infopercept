@@ -1,0 +1,31 @@
+{
+  "vendor": "CodeIgniter",
+  "vendor_id": "codeigniter",
+  "product": "CodeIgniter",
+  "product_id": "codeigniter-codeigniter",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "CodeIgniter HTML Detection",
+      "pattern": "<input[^>]+name=\"ci_csrf_token\"2+",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects CodeIgniter from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "codeigniter"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

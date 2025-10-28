@@ -1,0 +1,131 @@
+{
+  "vendor": "GOV.UK",
+  "vendor_id": "gov.uk",
+  "product": "GOV.UK Template",
+  "product_id": "gov.uk-govuk-template",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "GOV.UK Template HTML Detection",
+      "pattern": "<link[^>]+govuk-template[^>\"]+css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GOV.UK Template from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "gov.uk-template"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "GOV.UK Template HTML Detection",
+      "pattern": "<link[^>]+govuk-template-print[^>\"]+css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GOV.UK Template from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "gov.uk-template"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "GOV.UK Template HTML Detection",
+      "pattern": "<link[^>]+govuk-template-ie6[^>\"]+css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GOV.UK Template from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "gov.uk-template"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "GOV.UK Template HTML Detection",
+      "pattern": "<link[^>]+govuk-template-ie7[^>\"]+css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GOV.UK Template from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "gov.uk-template"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "GOV.UK Template HTML Detection",
+      "pattern": "<link[^>]+govuk-template-ie8[^>\"]+css",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GOV.UK Template from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "gov.uk-template"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "GOV.UK Template Script Detection",
+      "pattern": "govuk-template\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GOV.UK Template from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "gov.uk-template"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vendor": "mod_jk",
+  "vendor_id": "mod_jk",
+  "product": "mod_jk",
+  "product_id": "mod_jk-mod_jk",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "mod_jk Header Detection",
+      "pattern": "Server: mod_jk(?:/([\\d\\.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects mod_jk from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "mod_jk"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

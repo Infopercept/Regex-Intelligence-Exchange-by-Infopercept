@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "'><font\\ face=fixedsys\\ size=\\+2>\\*</font></a><font\\ size=5><b>Index\\ of</b></font>"
+      "pattern": "'><font\\ face=fixedsys\\ size=\\+2>\\*</font></a><font\\ size=5><b>Index\\ of</b></font>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

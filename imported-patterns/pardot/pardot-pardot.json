@@ -1,0 +1,71 @@
+{
+  "vendor": "Pardot",
+  "vendor_id": "pardot",
+  "product": "Pardot",
+  "product_id": "pardot-pardot",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Pardot Header Detection",
+      "pattern": "X-Pardot-LB: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Pardot from X-Pardot-LB header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "pardot"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Pardot Header Detection",
+      "pattern": "X-Pardot-Route: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Pardot from X-Pardot-Route header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "pardot"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Pardot Header Detection",
+      "pattern": "X-Pardot-Rsp: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Pardot from X-Pardot-Rsp header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "pardot"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

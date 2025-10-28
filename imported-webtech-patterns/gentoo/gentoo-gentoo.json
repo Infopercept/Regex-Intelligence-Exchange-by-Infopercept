@@ -1,0 +1,31 @@
+{
+  "vendor": "Gentoo",
+  "vendor_id": "gentoo",
+  "product": "Gentoo",
+  "product_id": "gentoo-gentoo",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Gentoo Header Detection",
+      "pattern": "X-Powered-By: gentoo",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Gentoo from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "gentoo"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

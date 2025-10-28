@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "sfcurl=deleted;",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "sfcurl=deleted;"
+      "pattern": "sfcurl=deleted;",
+      "version_group": 0
     },
     {
       "name": "Accellion-Secure-File-Transfer Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "/courier/[d]+@/mail_user_login.html?$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "/courier/[\\d]+@/mail_user_login\\.html\\?$"
+      "pattern": "/courier/[\\d]+@/mail_user_login\\.html\\?$",
+      "version_group": 0
     },
     {
       "name": "Accellion-Secure-File-Transfer Pattern",
@@ -58,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<form\\ name=\"form1\"\\ method=\"post\"\\ action=\"mail_user_login_exec\\.html\"\\ onsubmit=\"document\\.form1\\.submit\\.disabled=true;\">"
+      "pattern": "<form\\ name=\"form1\"\\ method=\"post\"\\ action=\"mail_user_login_exec\\.html\"\\ onsubmit=\"document\\.form1\\.submit\\.disabled=true;\">",
+      "version_group": 0
     },
     {
       "name": "Accellion-Secure-File-Transfer Pattern",
@@ -72,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"custom_template/[d]+/wcStyle.css\" type=\"?text/css\"? rel=\"?stylesheet\"?>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link href=\"custom_template/[\\d]+/wcStyle\\.css\" type=\"?text/css\"? rel=\"?stylesheet\"?>"
+      "pattern": "<link href=\"custom_template/[\\d]+/wcStyle\\.css\" type=\"?text/css\"? rel=\"?stylesheet\"?>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

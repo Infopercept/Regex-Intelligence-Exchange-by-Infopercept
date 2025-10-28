@@ -1,0 +1,51 @@
+{
+  "vendor": "AT",
+  "vendor_id": "at",
+  "product": "AT Internet XiTi",
+  "product_id": "at-at-internet-xiti",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AT Internet XiTi Script Detection",
+      "pattern": "xiti\\.com/hit\\.xiti",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AT Internet XiTi from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "at-internet-xiti"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AT Internet XiTi JavaScript Detection",
+      "pattern": "window\\.xt_click|xt_click\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AT Internet XiTi from JavaScript variable 'xt_click'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "at-internet-xiti"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

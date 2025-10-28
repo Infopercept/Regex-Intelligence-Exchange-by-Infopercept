@@ -1,0 +1,31 @@
+{
+  "vendor": "Prism",
+  "vendor_id": "prism",
+  "product": "Prism",
+  "product_id": "prism-prism",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Prism Script Detection",
+      "pattern": "prism\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Prism from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "prism"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

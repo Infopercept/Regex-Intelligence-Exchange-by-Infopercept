@@ -1,0 +1,31 @@
+{
+  "vendor": "Zeuscart",
+  "vendor_id": "zeuscart",
+  "product": "Zeuscart",
+  "product_id": "zeuscart-zeuscart",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Zeuscart HTML Detection",
+      "pattern": "<form name=\"product\" method=\"post\" action=\"[^\"]+\\?do=addtocart&prodid=\\d+\"(?!</form>.)+<input type=\"hidden\" name=\"addtocart\" value=\"\\d+\">",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Zeuscart from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "zeuscart"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

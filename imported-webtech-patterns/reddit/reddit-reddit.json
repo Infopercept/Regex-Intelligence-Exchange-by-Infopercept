@@ -1,0 +1,51 @@
+{
+  "vendor": "Reddit",
+  "vendor_id": "reddit",
+  "product": "Reddit",
+  "product_id": "reddit-reddit",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Reddit HTML Detection",
+      "pattern": "(?:<a[^>]+Powered by Reddit|powered by <a[^>]+>reddit<)",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Reddit from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "reddit"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Reddit JavaScript Detection",
+      "pattern": "window\\.reddit|reddit\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Reddit from JavaScript variable 'reddit'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "reddit"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

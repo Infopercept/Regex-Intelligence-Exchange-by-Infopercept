@@ -1,0 +1,71 @@
+{
+  "vendor": "AdRoll",
+  "vendor_id": "adroll",
+  "product": "AdRoll",
+  "product_id": "adroll-adroll",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AdRoll Script Detection",
+      "pattern": "(?:a|s)\\.adroll\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AdRoll from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "adroll"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AdRoll JavaScript Detection",
+      "pattern": "window\\.adroll_adv_id|adroll_adv_id\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AdRoll from JavaScript variable 'adroll_adv_id'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "adroll"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "AdRoll JavaScript Detection",
+      "pattern": "window\\.adroll_pix_id|adroll_pix_id\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects AdRoll from JavaScript variable 'adroll_pix_id'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "adroll"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

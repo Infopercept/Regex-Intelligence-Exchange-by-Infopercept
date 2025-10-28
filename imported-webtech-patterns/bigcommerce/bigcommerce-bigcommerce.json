@@ -1,0 +1,51 @@
+{
+  "vendor": "Bigcommerce",
+  "vendor_id": "bigcommerce",
+  "product": "Bigcommerce",
+  "product_id": "bigcommerce-bigcommerce",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Bigcommerce HTML Detection",
+      "pattern": "<link href=[^>]+cdn\\d+\\.bigcommerce\\.com/",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bigcommerce from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "bigcommerce"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Bigcommerce Script Detection",
+      "pattern": "cdn\\d+\\.bigcommerce\\.com/",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Bigcommerce from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "bigcommerce"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

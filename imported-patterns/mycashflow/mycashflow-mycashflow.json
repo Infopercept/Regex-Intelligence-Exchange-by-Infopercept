@@ -1,0 +1,31 @@
+{
+  "vendor": "MyCashFlow",
+  "vendor_id": "mycashflow",
+  "product": "MyCashFlow",
+  "product_id": "mycashflow-mycashflow",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "MyCashFlow Header Detection",
+      "pattern": "X-MCF-ID: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects MyCashFlow from X-MCF-ID header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "mycashflow"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

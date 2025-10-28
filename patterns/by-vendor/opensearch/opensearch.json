@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link[^>]+type=[\"']?application/opensearchdescription+xml['\"]?[^>]*>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link[^>]+type=[\"']?application/opensearchdescription\\+xml['\"]?[^>]*>"
+      "pattern": "<link[^>]+type=[\"']?application/opensearchdescription\\+xml['\"]?[^>]*>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

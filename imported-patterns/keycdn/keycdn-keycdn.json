@@ -1,0 +1,31 @@
+{
+  "vendor": "KeyCDN",
+  "vendor_id": "keycdn",
+  "product": "KeyCDN",
+  "product_id": "keycdn-keycdn",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "KeyCDN Header Detection",
+      "pattern": "Server: ^keycdn-engine$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects KeyCDN from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "keycdn"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

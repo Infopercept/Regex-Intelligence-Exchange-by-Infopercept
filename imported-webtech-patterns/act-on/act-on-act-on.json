@@ -1,0 +1,31 @@
+{
+  "vendor": "Act-On",
+  "vendor_id": "act-on",
+  "product": "Act-On",
+  "product_id": "act-on-act-on",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Act-On JavaScript Detection",
+      "pattern": "window\\.ActOn|ActOn\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Act-On from JavaScript variable 'ActOn'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "act-on"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

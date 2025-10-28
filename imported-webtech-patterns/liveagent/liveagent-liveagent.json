@@ -1,0 +1,31 @@
+{
+  "vendor": "LiveAgent",
+  "vendor_id": "liveagent",
+  "product": "LiveAgent",
+  "product_id": "liveagent-liveagent",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "LiveAgent JavaScript Detection",
+      "pattern": "window\\.LiveAgent|LiveAgent\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects LiveAgent from JavaScript variable 'LiveAgent'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "liveagent"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

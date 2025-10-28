@@ -1,0 +1,31 @@
+{
+  "vendor": "Thelia",
+  "vendor_id": "thelia",
+  "product": "Thelia",
+  "product_id": "thelia-thelia",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Thelia HTML Detection",
+      "pattern": "<(?:link|style|script)[^>]+/assets/frontOffice/",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Thelia from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "thelia"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

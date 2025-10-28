@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "href=\"http://www.advance.net/advancedigitalUserAgreementPP/#opt_out.*Ad Choices",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "href=\"http://www.advance.net/advancedigitalUserAgreementPP/#opt_out.*Ad Choices"
+      "pattern": "href=\"http://www.advance.net/advancedigitalUserAgreementPP/#opt_out.*Ad Choices",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

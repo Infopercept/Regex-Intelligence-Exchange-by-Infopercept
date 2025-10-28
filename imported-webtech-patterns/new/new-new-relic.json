@@ -1,0 +1,51 @@
+{
+  "vendor": "New",
+  "vendor_id": "new",
+  "product": "New Relic",
+  "product_id": "new-new-relic",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "New Relic JavaScript Detection",
+      "pattern": "window\\.NREUM|NREUM\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects New Relic from JavaScript variable 'NREUM'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "new-relic"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "New Relic JavaScript Detection",
+      "pattern": "window\\.newrelic|newrelic\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects New Relic from JavaScript variable 'newrelic'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "new-relic"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

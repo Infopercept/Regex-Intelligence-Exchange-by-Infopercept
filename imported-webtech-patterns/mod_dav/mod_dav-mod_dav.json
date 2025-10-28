@@ -1,0 +1,31 @@
+{
+  "vendor": "mod_dav",
+  "vendor_id": "mod_dav",
+  "product": "mod_dav",
+  "product_id": "mod_dav-mod_dav",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "mod_dav Header Detection",
+      "pattern": "Server: \\b(?:mod_)?DAV\\b(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects mod_dav from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "mod_dav"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

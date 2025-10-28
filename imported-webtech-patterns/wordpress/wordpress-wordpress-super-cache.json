@@ -1,0 +1,51 @@
+{
+  "vendor": "WordPress",
+  "vendor_id": "wordpress",
+  "product": "WordPress Super Cache",
+  "product_id": "wordpress-wordpress-super-cache",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WordPress Super Cache Header Detection",
+      "pattern": "WP-Super-Cache: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects WordPress Super Cache from WP-Super-Cache header",
+        "tags": [
+          "webtech",
+          "header",
+          "wordpress-super-cache"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "WordPress Super Cache HTML Detection",
+      "pattern": "<!--[^>]+WP-Super-Cache",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects WordPress Super Cache from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "wordpress-super-cache"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

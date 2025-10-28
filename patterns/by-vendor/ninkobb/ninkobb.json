@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link href=\"[^\"]*/assets/css/ninko.css\" rel=\"stylesheet\" type=\"text/css\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link href=\"[^\"]*/assets/css/ninko.css\" rel=\"stylesheet\" type=\"text/css\" />"
+      "pattern": "<link href=\"[^\"]*/assets/css/ninko.css\" rel=\"stylesheet\" type=\"text/css\" />",
+      "version_group": 0
     },
     {
       "name": "NinkoBB Pattern",
@@ -42,7 +49,9 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href=\"http://ninkobb\\.com\">NinkoBB</a>"
+      "pattern": "Powered\\ by\\ <a\\ href=\"http://ninkobb\\.com\">NinkoBB</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -41,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^FPWS",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^FPWS"
+      "pattern": "^FPWS",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<tr><td><h3>Administration\\ Login<hr\\ size=1/></h3><form\\ action='login\\.php'\\ method='post'><table\\ border=0\\ cellpadding=2><tr><td>Username</td><td><input\\ type='text'\\ name='Username'\\ required='yes'\\ validate='text'\\ message='Enter\\ Admin\\ Username\\.'></td></tr><tr><td>Password</td><td><input\\ type='password'\\ name='Password'\\ required='yes'\\ validate='text'\\ message='Enter\\ Admin\\ Password\\.'></td></tr><td\\ valign='top'>Image\\ Verification</td>"
+      "pattern": "<tr><td><h3>Administration\\ Login<hr\\ size=1/></h3><form\\ action='login\\.php'\\ method='post'><table\\ border=0\\ cellpadding=2><tr><td>Username</td><td><input\\ type='text'\\ name='Username'\\ required='yes'\\ validate='text'\\ message='Enter\\ Admin\\ Username\\.'></td></tr><tr><td>Password</td><td><input\\ type='password'\\ name='Password'\\ required='yes'\\ validate='text'\\ message='Enter\\ Admin\\ Password\\.'></td></tr><td\\ valign='top'>Image\\ Verification</td>",
+      "version_group": 0
     },
     {
       "name": "The-PHP-Real-Estate-Script Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<tr><td><h3>Administration\\ Login<hr\\ size=1/></h3><form\\ action='login\\.php'\\ method='post'><table\\ border=0\\ cellpadding=2><tr><td>Username</td><td><input\\ type='text'\\ name='Username'\\ required='yes'\\ value='admin'\\ validate='text'\\ message='Enter\\ Admin\\ Username\\.'></td></tr><tr><td>Password</td><td><input\\ type='password'\\ name='Password'\\ required='yes'\\ validate='text'\\ value='admin'\\ message='Enter\\ Admin\\ Password\\.'></td></tr><td\\ valign='top'>Image\\ Verification</td>"
+      "pattern": "<tr><td><h3>Administration\\ Login<hr\\ size=1/></h3><form\\ action='login\\.php'\\ method='post'><table\\ border=0\\ cellpadding=2><tr><td>Username</td><td><input\\ type='text'\\ name='Username'\\ required='yes'\\ value='admin'\\ validate='text'\\ message='Enter\\ Admin\\ Username\\.'></td></tr><tr><td>Password</td><td><input\\ type='password'\\ name='Password'\\ required='yes'\\ validate='text'\\ value='admin'\\ message='Enter\\ Admin\\ Password\\.'></td></tr><td\\ valign='top'>Image\\ Verification</td>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

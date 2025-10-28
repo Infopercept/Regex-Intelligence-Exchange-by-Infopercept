@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Crystal2 BalancerServer",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Crystal2 BalancerServer"
+      "pattern": "^Crystal2 BalancerServer",
+      "version_group": 0
     },
     {
       "name": "Parallel-Crystal-Load-Balancer Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Crystal2 BalancerServer ([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

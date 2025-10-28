@@ -1,0 +1,71 @@
+{
+  "vendor": "Snipcart",
+  "vendor_id": "snipcart",
+  "product": "Snipcart",
+  "product_id": "snipcart-snipcart",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Snipcart HTML Detection",
+      "pattern": "<link [^>]*href=\".*snipcart\\.css\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Snipcart from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "snipcart"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Snipcart HTML Detection",
+      "pattern": "<div [^>]*id=\".*snipcart.*\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Snipcart from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "snipcart"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Snipcart Script Detection",
+      "pattern": "https://cdn\\.snipcart\\.com/themes/v([\\w.]+)/default/snipcart\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Snipcart from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "snipcart"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "vendor": "Raspbian",
+  "vendor_id": "raspbian",
+  "product": "Raspbian",
+  "product_id": "raspbian-raspbian",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Raspbian Header Detection",
+      "pattern": "Server: Raspbian",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Raspbian from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "raspbian"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Raspbian Header Detection",
+      "pattern": "X-Powered-By: Raspbian",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Raspbian from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "raspbian"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

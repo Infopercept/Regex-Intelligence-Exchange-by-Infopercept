@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^RAC_ONE_HTTP ([d.]+)$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^RAC_ONE_HTTP ([\\d\\.]+)$"
+      "pattern": "^RAC_ONE_HTTP ([\\d\\.]+)$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

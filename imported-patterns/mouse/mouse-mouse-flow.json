@@ -1,0 +1,31 @@
+{
+  "vendor": "Mouse",
+  "vendor_id": "mouse",
+  "product": "Mouse Flow",
+  "product_id": "mouse-mouse-flow",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Mouse Flow Script Detection",
+      "pattern": "cdn\\.mouseflow\\.com",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Mouse Flow from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "mouse-flow"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

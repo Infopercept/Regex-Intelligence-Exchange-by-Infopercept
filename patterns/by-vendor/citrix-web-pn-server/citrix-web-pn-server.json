@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Citrix Web PN Server$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Citrix Web PN Server$"
+      "pattern": "^Citrix Web PN Server$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

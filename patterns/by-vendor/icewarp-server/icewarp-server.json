@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^IceWarp",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^IceWarp"
+      "pattern": "^IceWarp",
+      "version_group": 0
     },
     {
       "name": "IceWarp-Server Pattern",
@@ -68,5 +75,6 @@
       "pattern": "Server: ^IceWarp WebSrv/(.+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

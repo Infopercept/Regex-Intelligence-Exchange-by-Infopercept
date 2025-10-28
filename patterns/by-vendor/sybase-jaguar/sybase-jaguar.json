@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^Jaguar Server Version",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^Jaguar Server Version"
+      "pattern": "^Jaguar Server Version",
+      "version_group": 0
     },
     {
       "name": "Sybase-Jaguar Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^Jaguar Server Version ([\\d\\.]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

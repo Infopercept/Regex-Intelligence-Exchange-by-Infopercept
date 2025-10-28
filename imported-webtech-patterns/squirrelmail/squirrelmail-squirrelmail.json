@@ -1,0 +1,51 @@
+{
+  "vendor": "SquirrelMail",
+  "vendor_id": "squirrelmail",
+  "product": "SquirrelMail",
+  "product_id": "squirrelmail-squirrelmail",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SquirrelMail HTML Detection",
+      "pattern": "<small>SquirrelMail version ([.\\d]+)[^<]*<br ",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SquirrelMail from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "squirrelmail"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "SquirrelMail JavaScript Detection",
+      "pattern": "window\\.squirrelmail_loginpage_onload|squirrelmail_loginpage_onload\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SquirrelMail from JavaScript variable 'squirrelmail_loginpage_onload'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "squirrelmail"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

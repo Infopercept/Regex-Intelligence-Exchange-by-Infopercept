@@ -1,0 +1,51 @@
+{
+  "vendor": "Darwin",
+  "vendor_id": "darwin",
+  "product": "Darwin",
+  "product_id": "darwin-darwin",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Darwin Header Detection",
+      "pattern": "Server: Darwin",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Darwin from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "darwin"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Darwin Header Detection",
+      "pattern": "X-Powered-By: Darwin",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Darwin from X-Powered-By header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "darwin"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

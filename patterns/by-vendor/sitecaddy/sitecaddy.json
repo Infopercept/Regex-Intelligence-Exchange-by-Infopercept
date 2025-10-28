@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ SECTION:\\ bottom\\ branding\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ SECTION:\\ bottom\\ branding\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "SiteCaddy Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ write\\ title\\ and\\ meta\\ tags\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ write\\ title\\ and\\ meta\\ tags\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "SiteCaddy Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<ul\\ class=\"siteCaddyMenu\\ menuLevel0\\ bottomNav\"\\ id=\"primaryNav\">"
+      "pattern": "<ul\\ class=\"siteCaddyMenu\\ menuLevel0\\ bottomNav\"\\ id=\"primaryNav\">",
+      "version_group": 0
     },
     {
       "name": "SiteCaddy Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://www\\.sitecaddy\\.com\"\\ title=\"Powered\\ by\\ SiteCaddy\\.com\">"
+      "pattern": "<a\\ href=\"http://www\\.sitecaddy\\.com\"\\ title=\"Powered\\ by\\ SiteCaddy\\.com\">",
+      "version_group": 0
     },
     {
       "name": "SiteCaddy Pattern",
@@ -114,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"/mysitecaddy/assets3/common/images/poweredbysitecaddy\\.gif\"\\ alt=\"Powered\\ by\\ SiteCaddy\\.com\">"
+      "pattern": "<img\\ src=\"/mysitecaddy/assets3/common/images/poweredbysitecaddy\\.gif\"\\ alt=\"Powered\\ by\\ SiteCaddy\\.com\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

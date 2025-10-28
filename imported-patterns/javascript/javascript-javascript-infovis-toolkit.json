@@ -1,0 +1,31 @@
+{
+  "vendor": "JavaScript",
+  "vendor_id": "javascript",
+  "product": "JavaScript Infovis Toolkit",
+  "product_id": "javascript-javascript-infovis-toolkit",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "JavaScript Infovis Toolkit Script Detection",
+      "pattern": "jit(?:-yc)?\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects JavaScript Infovis Toolkit from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "javascript-infovis-toolkit"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

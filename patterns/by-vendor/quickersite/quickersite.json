@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta content=\"QuickerSite CMS - visit www.quickersite.com\" name=\"generator\" />",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta content=\"QuickerSite CMS - visit www.quickersite.com\" name=\"generator\" />"
+      "pattern": "<meta content=\"QuickerSite CMS - visit www.quickersite.com\" name=\"generator\" />",
+      "version_group": 0
     },
     {
       "name": "QuickerSite Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"QuickerSite CMS - visit www.quickersite.com\">",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta name=\"generator\" content=\"QuickerSite CMS - visit www.quickersite.com\">"
+      "pattern": "<meta name=\"generator\" content=\"QuickerSite CMS - visit www.quickersite.com\">",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

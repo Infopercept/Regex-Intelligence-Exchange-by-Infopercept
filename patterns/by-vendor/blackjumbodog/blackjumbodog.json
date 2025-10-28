@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^BlackJumboDog$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^BlackJumboDog$"
+      "pattern": "^BlackJumboDog$",
+      "version_group": 0
     },
     {
       "name": "BlackJumboDog Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^BlackJumboDog Version (.+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

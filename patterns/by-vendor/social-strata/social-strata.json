@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href=\"http://socialstrata\\.com/landing/goto\\.php\\?a=eve\"\\ target=\"_blank\">Powered\\ by\\ Social\\ Strata</a>"
+      "pattern": "<a\\ href=\"http://socialstrata\\.com/landing/goto\\.php\\?a=eve\"\\ target=\"_blank\">Powered\\ by\\ Social\\ Strata</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

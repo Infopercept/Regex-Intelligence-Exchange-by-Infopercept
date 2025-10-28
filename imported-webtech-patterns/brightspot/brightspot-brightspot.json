@@ -1,0 +1,31 @@
+{
+  "vendor": "Brightspot",
+  "vendor_id": "brightspot",
+  "product": "Brightspot",
+  "product_id": "brightspot-brightspot",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Brightspot Header Detection",
+      "pattern": "X-Powered-By: ^Brightspot$",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Brightspot from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "brightspot"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

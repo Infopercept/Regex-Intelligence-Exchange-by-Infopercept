@@ -1,0 +1,31 @@
+{
+  "vendor": "parcel",
+  "vendor_id": "parcel",
+  "product": "parcel",
+  "product_id": "parcel-parcel",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "parcel JavaScript Detection",
+      "pattern": "window\\.parcelRequire|parcelRequire\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects parcel from JavaScript variable 'parcelRequire'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "parcel"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

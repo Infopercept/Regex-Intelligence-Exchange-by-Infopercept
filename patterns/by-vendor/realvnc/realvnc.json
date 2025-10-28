@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^RealVNC",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^RealVNC"
+      "pattern": "^RealVNC",
+      "version_group": 0
     },
     {
       "name": "RealVNC Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^RealVNC/(.+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

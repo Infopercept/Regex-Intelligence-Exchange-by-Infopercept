@@ -1,0 +1,31 @@
+{
+  "vendor": "FreeBSD",
+  "vendor_id": "freebsd",
+  "product": "FreeBSD",
+  "product_id": "freebsd-freebsd",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "FreeBSD Header Detection",
+      "pattern": "Server: FreeBSD(?: ([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects FreeBSD from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "freebsd"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

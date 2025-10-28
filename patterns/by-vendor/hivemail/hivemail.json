@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Database\\ Error\\ in\\ HiveMail\\&trade;</title>"
+      "pattern": "<title>Database\\ Error\\ in\\ HiveMail\\&trade;</title>",
+      "version_group": 0
     },
     {
       "name": "HiveMail Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<input\\ type=\"text\"\\ class=\"validate\\[ajax\\[ajaxUserCall\\]\\]\\ input\"\\ name=\"answer\"\\ id=\"answer\"\\ />"
+      "pattern": "<input\\ type=\"text\"\\ class=\"validate\\[ajax\\[ajaxUserCall\\]\\]\\ input\"\\ name=\"answer\"\\ id=\"answer\"\\ />",
+      "version_group": 0
     },
     {
       "name": "HiveMail Pattern",
@@ -62,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "hivesession=",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "hivesession="
+      "pattern": "hivesession=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

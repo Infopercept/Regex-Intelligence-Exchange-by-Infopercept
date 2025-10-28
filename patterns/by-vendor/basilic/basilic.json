@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Powered\\ by\\ <a\\ href='http://artis\\.imag\\.fr/Software/Basilic/'>Basilic</a></p>"
+      "pattern": "Powered\\ by\\ <a\\ href='http://artis\\.imag\\.fr/Software/Basilic/'>Basilic</a></p>",
+      "version_group": 0
     },
     {
       "name": "Basilic Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<a\\ href='http://artis\\.imag\\.fr/Software/Basilic'>Powered\\ by\\ Basilic</a></span>"
+      "pattern": "<a\\ href='http://artis\\.imag\\.fr/Software/Basilic'>Powered\\ by\\ Basilic</a></span>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<TITLE>Network\\ Camera\\ VB\\-C50i/VB\\-C50iR</TITLE>"
+      "pattern": "<TITLE>Network\\ Camera\\ VB\\-C50i/VB\\-C50iR</TITLE>",
+      "version_group": 0
     },
     {
       "name": "Canon-Network-Camera Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<param\\ name=cabbase\\\tvalue=\"LiveApplet\\.cab\">"
+      "pattern": "<param\\ name=cabbase\\\tvalue=\"LiveApplet\\.cab\">",
+      "version_group": 0
     },
     {
       "name": "Canon-Network-Camera Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<title>LiveApplet</title>"
+      "pattern": "<title>LiveApplet</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

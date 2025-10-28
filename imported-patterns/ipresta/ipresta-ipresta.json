@@ -1,0 +1,31 @@
+{
+  "vendor": "iPresta",
+  "vendor_id": "ipresta",
+  "product": "iPresta",
+  "product_id": "ipresta-ipresta",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "iPresta Meta Tag Detection",
+      "pattern": "<meta[^>]+name=[\"']designer[\"'][^>]+content=[\"']iPresta[\"']",
+      "version_group": 0,
+      "priority": 120,
+      "confidence": 0.75,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects iPresta from meta tag with name 'designer'",
+        "tags": [
+          "wappalyzer",
+          "meta",
+          "ipresta"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

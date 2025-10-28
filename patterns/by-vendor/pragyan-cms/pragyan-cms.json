@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "powered\\ by\\ <a\\ href=\"http://sourceforge\\.net/projects/pragyan\">Pragyan\\ CMS</a>"
+      "pattern": "powered\\ by\\ <a\\ href=\"http://sourceforge\\.net/projects/pragyan\">Pragyan\\ CMS</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

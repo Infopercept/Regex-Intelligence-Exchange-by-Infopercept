@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>WebEye\\ User\\ Login</title>"
+      "pattern": "<title>WebEye\\ User\\ Login</title>",
+      "version_group": 0
     },
     {
       "name": "WebEye-Network-Camera Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<title>WebEye\\ Java\\ Applet\\ Page</title>"
+      "pattern": "<title>WebEye\\ Java\\ Applet\\ Page</title>",
+      "version_group": 0
     },
     {
       "name": "WebEye-Network-Camera Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<title>WebEye\\ Index\\ Page</title>"
+      "pattern": "<title>WebEye\\ Index\\ Page</title>",
+      "version_group": 0
     },
     {
       "name": "WebEye-Network-Camera Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"Author\"\\ content=\"WebGateInc\">"
+      "pattern": "<meta\\ name=\"Author\"\\ content=\"WebGateInc\">",
+      "version_group": 0
     },
     {
       "name": "WebEye-Network-Camera Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"WebGateInc\">"
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"WebGateInc\">",
+      "version_group": 0
     },
     {
       "name": "WebEye-Network-Camera Pattern",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "<p>Click\\ <a\\ href=\"\\./login\\.ml\\?FORM_METHOD=get\">here</a>\\ if\\ you\\ have\\ a\\ problem\\ to\\ login\\ \\.\\.\\."
+      "pattern": "<p>Click\\ <a\\ href=\"\\./login\\.ml\\?FORM_METHOD=get\">here</a>\\ if\\ you\\ have\\ a\\ problem\\ to\\ login\\ \\.\\.\\.",
+      "version_group": 0
     },
     {
       "name": "WebEye-Network-Camera Pattern",
@@ -158,7 +164,9 @@
           }
         ]
       },
-      "pattern": "\\\t\\\t\\\t\\ \\ <applet\\ archive=\"/wg_jwebeye\\.jar\"\\ code=WebEyeApplet\\.class\\ codebase=\\.\\ width=720\\ height=773>\\ \\\\\\\\"
+      "pattern": "\\\t\\\t\\\t\\ \\ <applet\\ archive=\"/wg_jwebeye\\.jar\"\\ code=WebEyeApplet\\.class\\ codebase=\\.\\ width=720\\ height=773>\\ \\\\\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

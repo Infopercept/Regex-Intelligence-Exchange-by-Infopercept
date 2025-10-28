@@ -1,0 +1,31 @@
+{
+  "vendor": "G-WAN",
+  "vendor_id": "g-wan",
+  "product": "G-WAN",
+  "product_id": "g-wan-g-wan",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "G-WAN Header Detection",
+      "pattern": "Server: G-WAN",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects G-WAN from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "g-wan"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

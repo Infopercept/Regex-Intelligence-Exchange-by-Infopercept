@@ -1,0 +1,31 @@
+{
+  "vendor": "Venda",
+  "vendor_id": "venda",
+  "product": "Venda",
+  "product_id": "venda-venda",
+  "category": "cms",
+  "subcategory": "ecommerce",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Venda Header Detection",
+      "pattern": "X-venda-hitid: ",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Venda from X-venda-hitid header",
+        "tags": [
+          "webtech",
+          "header",
+          "venda"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

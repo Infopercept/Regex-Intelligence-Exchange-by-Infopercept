@@ -1,0 +1,71 @@
+{
+  "vendor": "Angular",
+  "vendor_id": "angular",
+  "product": "Angular",
+  "product_id": "angular-angular",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Angular HTML Detection",
+      "pattern": "<[^>]+ ng-version=\"([\\d.]+)\"",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Angular from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "angular"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Angular JavaScript Detection",
+      "pattern": "window\\.ng\\.coreTokens|ng\\.coreTokens\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Angular from JavaScript variable 'ng.coreTokens'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "angular"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Angular JavaScript Detection",
+      "pattern": "window\\.ng\\.probe|ng\\.probe\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Angular from JavaScript variable 'ng.probe'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "angular"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

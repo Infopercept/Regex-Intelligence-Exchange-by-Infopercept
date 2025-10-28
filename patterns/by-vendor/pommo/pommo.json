@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "Page\\ fueled\\ by\\ <a\\ href=\"http://www\\.pommo\\.org/\">poMMo</a>\\ mailing\\ management\\ software"
+      "pattern": "Page\\ fueled\\ by\\ <a\\ href=\"http://www\\.pommo\\.org/\">poMMo</a>\\ mailing\\ management\\ software",
+      "version_group": 0
     },
     {
       "name": "poMMo Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "Page\\ fueled\\ by\\ <a\\ href=\"http://pommo\\.sourceforge\\.net/\">poMMo</a>\\ mailing\\ management\\ software"
+      "pattern": "Page\\ fueled\\ by\\ <a\\ href=\"http://pommo\\.sourceforge\\.net/\">poMMo</a>\\ mailing\\ management\\ software",
+      "version_group": 0
     },
     {
       "name": "poMMo Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<title>\\.\\ \\.\\.poMMo\\.\\.\\ \\.</title>"
+      "pattern": "<title>\\.\\ \\.\\.poMMo\\.\\.\\ \\.</title>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

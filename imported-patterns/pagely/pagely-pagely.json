@@ -1,0 +1,31 @@
+{
+  "vendor": "Pagely",
+  "vendor_id": "pagely",
+  "product": "Pagely",
+  "product_id": "pagely-pagely",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Pagely Header Detection",
+      "pattern": "Server: ^Pagely",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Pagely from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "pagely"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

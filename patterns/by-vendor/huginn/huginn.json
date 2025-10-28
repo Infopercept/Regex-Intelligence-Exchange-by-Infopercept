@@ -26,7 +26,9 @@
           }
         ]
       },
-      "pattern": "<a\\ tabindex=\"\\-1\"\\ href=\"https://github\\.com/huginn/huginn\">About</a>"
+      "pattern": "<a\\ tabindex=\"\\-1\"\\ href=\"https://github\\.com/huginn/huginn\">About</a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

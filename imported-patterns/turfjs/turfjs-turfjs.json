@@ -1,0 +1,31 @@
+{
+  "vendor": "TurfJS",
+  "vendor_id": "turfjs",
+  "product": "TurfJS",
+  "product_id": "turfjs-turfjs",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "TurfJS Script Detection",
+      "pattern": "(turf@[\\d.]+)?/?turf\\.min\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects TurfJS from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "turfjs"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

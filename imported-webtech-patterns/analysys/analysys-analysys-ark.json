@@ -1,0 +1,51 @@
+{
+  "vendor": "Analysys",
+  "vendor_id": "analysys",
+  "product": "Analysys Ark",
+  "product_id": "analysys-analysys-ark",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Analysys Ark Script Detection",
+      "pattern": "AnalysysFangzhou_JS_SDK\\.min\\.js\\?v=([\\d.]+)",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Analysys Ark from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "analysys-ark"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Analysys Ark JavaScript Detection",
+      "pattern": "window\\.AnalysysAgent|AnalysysAgent\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Analysys Ark from JavaScript variable 'AnalysysAgent'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "analysys-ark"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

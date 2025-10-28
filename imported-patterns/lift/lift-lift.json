@@ -1,0 +1,31 @@
+{
+  "vendor": "Lift",
+  "vendor_id": "lift",
+  "product": "Lift",
+  "product_id": "lift-lift",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Lift Header Detection",
+      "pattern": "X-Lift-Version: (.+)",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Lift from X-Lift-Version header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "lift"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

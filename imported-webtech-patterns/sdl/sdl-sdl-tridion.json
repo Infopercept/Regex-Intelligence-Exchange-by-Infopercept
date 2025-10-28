@@ -1,0 +1,31 @@
+{
+  "vendor": "SDL",
+  "vendor_id": "sdl",
+  "product": "SDL Tridion",
+  "product_id": "sdl-sdl-tridion",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SDL Tridion HTML Detection",
+      "pattern": "<img[^>]+_tcm\\d{2,3}-\\d{6}\\.",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects SDL Tridion from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "sdl-tridion"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

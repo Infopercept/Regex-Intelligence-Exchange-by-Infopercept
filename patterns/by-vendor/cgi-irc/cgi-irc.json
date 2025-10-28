@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>CGI:IRC\\ Login</title>"
+      "pattern": "<title>CGI:IRC\\ Login</title>",
+      "version_group": 0
     },
     {
       "name": "CGI:IRC Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<body\\ bgcolor=\"\\#ffffff\"\\ text=\"\\#000000\"\\ onload=\"setcharset\\(\\);\">"
+      "pattern": "<body\\ bgcolor=\"\\#ffffff\"\\ text=\"\\#000000\"\\ onload=\"setcharset\\(\\);\">",
+      "version_group": 0
     },
     {
       "name": "CGI:IRC Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<form\\ method=\"post\"\\ action=\"irc\\.cgi\"\\ name=\"loginform\"\\ onsubmit=\"setjs\\(\\)\">"
+      "pattern": "<form\\ method=\"post\"\\ action=\"irc\\.cgi\"\\ name=\"loginform\"\\ onsubmit=\"setjs\\(\\)\">",
+      "version_group": 0
     },
     {
       "name": "CGI:IRC Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<small><a\\ href=\"irc\\.cgi\\?adv=1\">Advanced\\.\\.</a></small>"
+      "pattern": "<small><a\\ href=\"irc\\.cgi\\?adv=1\">Advanced\\.\\.</a></small>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"hidden\" name=\"DIRINFO\" value=\"s+Directory of archive:/",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<input type=\"hidden\" name=\"DIRINFO\" value=\"\\s+Directory of archive:/"
+      "pattern": "<input type=\"hidden\" name=\"DIRINFO\" value=\"\\s+Directory of archive:/",
+      "version_group": 0
     },
     {
       "name": "Cisco-IOS Pattern",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<input type=\"hidden\" name=\"DIRINFO\" value=\"s*(Command authorization failed|% Authorization failed)",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<input type=\"hidden\" name=\"DIRINFO\" value=\"\\s*(Command authorization failed|% Authorization failed)"
+      "pattern": "<input type=\"hidden\" name=\"DIRINFO\" value=\"\\s*(Command authorization failed|% Authorization failed)",
+      "version_group": 0
     },
     {
       "name": "Cisco-IOS Pattern",
@@ -50,9 +64,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^cisco-IOS",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^cisco-IOS"
+      "pattern": "^cisco-IOS",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

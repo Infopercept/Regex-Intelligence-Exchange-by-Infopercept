@@ -1,0 +1,51 @@
+{
+  "vendor": "UIKit",
+  "vendor_id": "uikit",
+  "product": "UIKit",
+  "product_id": "uikit-uikit",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "UIKit HTML Detection",
+      "pattern": "<[^>]+class=\"[^\"]*(?:uk-container|uk-section)",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects UIKit from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "uikit"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "UIKit Script Detection",
+      "pattern": "uikit.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects UIKit from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "uikit"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

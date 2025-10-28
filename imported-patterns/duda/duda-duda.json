@@ -1,0 +1,31 @@
+{
+  "vendor": "Duda",
+  "vendor_id": "duda",
+  "product": "Duda",
+  "product_id": "duda-duda",
+  "category": "cms",
+  "subcategory": "cms-platform",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Duda HTML Detection",
+      "pattern": "<div[^>]*id=\"P6iryBW0Wu\"",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Duda from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "duda"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

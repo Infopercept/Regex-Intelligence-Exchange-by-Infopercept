@@ -1,0 +1,71 @@
+{
+  "vendor": "GoStats",
+  "vendor_id": "gostats",
+  "product": "GoStats",
+  "product_id": "gostats-gostats",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "GoStats JavaScript Detection",
+      "pattern": "window\\._goStatsRun|_goStatsRun\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GoStats from JavaScript variable '_goStatsRun'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "gostats"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "GoStats JavaScript Detection",
+      "pattern": "window\\._go_track_src|_go_track_src\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GoStats from JavaScript variable '_go_track_src'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "gostats"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "GoStats JavaScript Detection",
+      "pattern": "window\\.go_msie|go_msie\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects GoStats from JavaScript variable 'go_msie'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "gostats"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

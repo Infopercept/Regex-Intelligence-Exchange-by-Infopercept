@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^RemObjects DXSock Web Server",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^RemObjects DXSock Web Server"
+      "pattern": "^RemObjects DXSock Web Server",
+      "version_group": 0
     },
     {
       "name": "DXSock Pattern",
@@ -34,9 +41,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^RemObjects SDK$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^RemObjects SDK$"
+      "pattern": "^RemObjects SDK$",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

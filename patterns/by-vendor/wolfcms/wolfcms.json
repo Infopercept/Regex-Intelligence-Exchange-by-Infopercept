@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "href=\"http://www.wolfcms.org/\" title=\"Wolf CMS\" rel=\"noreferrer\">Wolf CMS</a>[s]+Inside.",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "href=\"http://www.wolfcms.org/\" title=\"Wolf CMS\" rel=\"noreferrer\">Wolf CMS</a>[\\s]+Inside."
+      "pattern": "href=\"http://www.wolfcms.org/\" title=\"Wolf CMS\" rel=\"noreferrer\">Wolf CMS</a>[\\s]+Inside.",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }

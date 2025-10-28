@@ -1,0 +1,91 @@
+{
+  "vendor": "DreamWeaver",
+  "vendor_id": "dreamweaver",
+  "product": "DreamWeaver",
+  "product_id": "dreamweaver-dreamweaver",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "DreamWeaver HTML Detection",
+      "pattern": "<!--[^>]*(?:InstanceBeginEditable|Dreamweaver([^>]+)target|DWLayoutDefaultTable)",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DreamWeaver from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "dreamweaver"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "DreamWeaver JavaScript Detection",
+      "pattern": "window\\.MM_showMenu|MM_showMenu\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DreamWeaver from JavaScript variable 'MM_showMenu'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "dreamweaver"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "DreamWeaver JavaScript Detection",
+      "pattern": "window\\.MM_preloadImages|MM_preloadImages\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DreamWeaver from JavaScript variable 'MM_preloadImages'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "dreamweaver"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "DreamWeaver JavaScript Detection",
+      "pattern": "window\\.MM_showHideLayers|MM_showHideLayers\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects DreamWeaver from JavaScript variable 'MM_showHideLayers'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "dreamweaver"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

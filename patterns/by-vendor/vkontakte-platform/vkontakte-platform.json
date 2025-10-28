@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^kittenx",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^kittenx"
+      "pattern": "^kittenx",
+      "version_group": 0
     },
     {
       "name": "VK API Script",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script[^>]*src=\"//vk.com/js/api/openapi.js",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script[^>]*src=\"//vk\\.com/js/api/openapi\\.js"
+      "pattern": "<script[^>]*src=\"//vk\\.com/js/api/openapi\\.js",
+      "version_group": 0
     },
     {
       "name": "VK OG Meta Tag",
@@ -58,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<meta\\ property=\\\\"
+      "pattern": "<meta\\ property=\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

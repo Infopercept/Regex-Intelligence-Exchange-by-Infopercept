@@ -29,5 +29,6 @@
       "pattern": "x-mobilized-by: ^BAAP Mobile Version ([^\\s]+)$",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

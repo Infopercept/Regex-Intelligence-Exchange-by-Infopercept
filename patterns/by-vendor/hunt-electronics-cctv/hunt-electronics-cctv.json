@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<body\\ bgcolor=\"white\"\\ text=\"black\"\\ link=\"blue\"\\ vlink=\"purple\"\\ alink=\"red\"\\ leftmargin=\"0\"\\ marginwidth=\"0\"\\ topmargin=\"0\"\\ marginheight=\"0\"\\ OnLoad=\"preload_img\\(false,\\ \\\\"
+      "pattern": "<body\\ bgcolor=\"white\"\\ text=\"black\"\\ link=\"blue\"\\ vlink=\"purple\"\\ alink=\"red\"\\ leftmargin=\"0\"\\ marginwidth=\"0\"\\ topmargin=\"0\"\\ marginheight=\"0\"\\ OnLoad=\"preload_img\\(false,\\ \\\\",
+      "version_group": 0
     },
     {
       "name": "Hunt-Electronics-CCTV Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ //login\\.action\\ =\\ \"\\./webviewer\\.php\"\\ ;"
+      "pattern": "\\ \\ \\ //login\\.action\\ =\\ \"\\./webviewer\\.php\"\\ ;",
+      "version_group": 0
     },
     {
       "name": "Hunt-Electronics-CCTV Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <!\\-\\-<p>If\\ ActiveX\\ control\\ can\\\\"
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <!\\-\\-<p>If\\ ActiveX\\ control\\ can\\\\",
+      "version_group": 0
     },
     {
       "name": "Hunt-Electronics-CCTV Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <!\\-\\-<p>If\\ ActiveX\\ control\\ can\\\\"
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <!\\-\\-<p>If\\ ActiveX\\ control\\ can\\\\",
+      "version_group": 0
     },
     {
       "name": "Hunt-Electronics-CCTV Pattern",
@@ -114,7 +118,9 @@
           }
         ]
       },
-      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <!\\-\\-<p>If\\ ActiveX\\ control\\ can\\\\"
+      "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <!\\-\\-<p>If\\ ActiveX\\ control\\ can\\\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

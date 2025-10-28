@@ -1,0 +1,31 @@
+{
+  "vendor": "OpenBSD",
+  "vendor_id": "openbsd",
+  "product": "OpenBSD httpd",
+  "product_id": "openbsd-openbsd-httpd",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "OpenBSD httpd Header Detection",
+      "pattern": "Server: ^OpenBSD httpd",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects OpenBSD httpd from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "openbsd-httpd"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

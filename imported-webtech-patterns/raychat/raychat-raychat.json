@@ -1,0 +1,51 @@
+{
+  "vendor": "Raychat",
+  "vendor_id": "raychat",
+  "product": "Raychat",
+  "product_id": "raychat-raychat",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Raychat Script Detection",
+      "pattern": "app\\.raychat\\.io/scripts/js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Raychat from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "raychat"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Raychat JavaScript Detection",
+      "pattern": "window\\.Raychat|Raychat\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Raychat from JavaScript variable 'Raychat'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "raychat"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

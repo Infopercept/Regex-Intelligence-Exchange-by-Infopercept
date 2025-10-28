@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ SQLiteFunctionProperties\\.class\\.php\\ :\\ propView\\(\\)\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ SQLiteFunctionProperties\\.class\\.php\\ :\\ propView\\(\\)\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "SQLiteManager Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ common\\.lib\\.php\\ :\\ displayMenuTitle\\(\\)\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ common\\.lib\\.php\\ :\\ displayMenuTitle\\(\\)\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "SQLiteManager Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<td\\ style=\"white\\-space:\\ nowrap\">\\\t<form\\ name=\"database\"\\ action=\"main\\.php\"\\ enctype=\"multipart/form\\-data\"\\ method=\"POST\"\\ onSubmit=\"checkPath\\(\\);\"\\ target=\"main\">"
+      "pattern": "<td\\ style=\"white\\-space:\\ nowrap\">\\\t<form\\ name=\"database\"\\ action=\"main\\.php\"\\ enctype=\"multipart/form\\-data\"\\ method=\"POST\"\\ onSubmit=\"checkPath\\(\\);\"\\ target=\"main\">",
+      "version_group": 0
     },
     {
       "name": "SQLiteManager Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "<h2\\ class=\"sqlmVersion\">Database\\ :\\ <a\\ href=\"main\\.php\\?dbsel="
+      "pattern": "<h2\\ class=\"sqlmVersion\">Database\\ :\\ <a\\ href=\"main\\.php\\?dbsel=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

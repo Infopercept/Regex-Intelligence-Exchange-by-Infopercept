@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^SAP (Web|NetWeaver)",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^SAP (Web|NetWeaver)"
+      "pattern": "^SAP (Web|NetWeaver)",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

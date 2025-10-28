@@ -1,0 +1,71 @@
+{
+  "vendor": "YouTrack",
+  "vendor_id": "youtrack",
+  "product": "YouTrack",
+  "product_id": "youtrack-youtrack",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "YouTrack HTML Detection",
+      "pattern": "no-title=\"YouTrack\">",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects YouTrack from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "youtrack"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "YouTrack HTML Detection",
+      "pattern": "data-reactid=\"[^\"]+\">youTrack ([0-9.]+)<",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects YouTrack from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "youtrack"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "YouTrack HTML Detection",
+      "pattern": "type=\"application/opensearchdescription\\+xml\" title=\"YouTrack\"/>",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects YouTrack from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "youtrack"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

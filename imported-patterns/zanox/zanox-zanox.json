@@ -1,0 +1,51 @@
+{
+  "vendor": "Zanox",
+  "vendor_id": "zanox",
+  "product": "Zanox",
+  "product_id": "zanox-zanox",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Zanox HTML Detection",
+      "pattern": "<img [^>]*src=\"[^\"]+ad\\.zanox\\.com",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Zanox from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "zanox"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Zanox Script Detection",
+      "pattern": "zanox\\.com/scripts/zanox\\.js$",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Zanox from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "zanox"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

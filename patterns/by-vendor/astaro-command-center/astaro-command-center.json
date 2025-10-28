@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<script\\ src=\"wfe/acc/js/acc_aggregated_reporting\\.js\\?t="
+      "pattern": "<script\\ src=\"wfe/acc/js/acc_aggregated_reporting\\.js\\?t=",
+      "version_group": 0
     },
     {
       "name": "Astaro-Command-Center Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<script\\ src=\"wfe/asg/js/_variables_from_backend\\.js\\?t="
+      "pattern": "<script\\ src=\"wfe/asg/js/_variables_from_backend\\.js\\?t=",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

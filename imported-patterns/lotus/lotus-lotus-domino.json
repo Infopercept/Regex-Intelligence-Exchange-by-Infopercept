@@ -1,0 +1,31 @@
+{
+  "vendor": "Lotus",
+  "vendor_id": "lotus",
+  "product": "Lotus Domino",
+  "product_id": "lotus-lotus-domino",
+  "category": "web",
+  "subcategory": "web-server",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Lotus Domino Header Detection",
+      "pattern": "Server: Lotus-Domino",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Lotus Domino from Server header",
+        "tags": [
+          "wappalyzer",
+          "header",
+          "lotus-domino"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

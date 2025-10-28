@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "&copy; 2000-20[0-9]+ <a href=\"http://snom.com\">snom AG</a><br>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "&copy; 2000-20[0-9]+ <a href=\"http://snom.com\">snom AG</a><br>"
+      "pattern": "&copy; 2000-20[0-9]+ <a href=\"http://snom.com\">snom AG</a><br>",
+      "version_group": 0
     },
     {
       "name": "link to manual1",
@@ -34,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<tr><td class=\"flyoutLink\" colspan=\"2\"><b><a href=http://(wiki|www).snom.com",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<tr><td class=\"flyoutLink\" colspan=\"2\"><b><a href=http://(wiki|www).snom.com"
+      "pattern": "<tr><td class=\"flyoutLink\" colspan=\"2\"><b><a href=http://(wiki|www).snom.com",
+      "version_group": 0
     },
     {
       "name": "SnomPhone Pattern",
@@ -58,7 +72,8 @@
           }
         ]
       },
-      "pattern": "You\\ can\\ enter\\ a\\ simple\\ telephone\\ number\\ \\(e\\.g\\.\\ 0114930398330\\)\\ or\\ URI\\ like\\ info@snom\\.com\\."
+      "pattern": "You\\ can\\ enter\\ a\\ simple\\ telephone\\ number\\ \\(e\\.g\\.\\ 0114930398330\\)\\ or\\ URI\\ like\\ info@snom\\.com\\.",
+      "version_group": 0
     },
     {
       "name": "SnomPhone Pattern",
@@ -72,9 +87,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<td[^>]+>Welcome to Your Phone!</td>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<td[^>]+>Welcome to Your Phone!</td>"
+      "pattern": "<td[^>]+>Welcome to Your Phone!</td>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

@@ -1,0 +1,91 @@
+{
+  "vendor": "XRegExp",
+  "vendor_id": "xregexp",
+  "product": "XRegExp",
+  "product_id": "xregexp-xregexp",
+  "category": "framework",
+  "subcategory": "frontend-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "XRegExp Script Detection",
+      "pattern": "xregexp[.-]([\\d.]*\\d)[^/]*\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects XRegExp from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "xregexp"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "XRegExp Script Detection",
+      "pattern": "/([\\d.]+)/xregexp(?:\\.min)?\\.js",
+      "version_group": 1,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects XRegExp from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "xregexp"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "XRegExp Script Detection",
+      "pattern": "xregexp.*\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects XRegExp from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "xregexp"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "XRegExp JavaScript Detection",
+      "pattern": "window\\.XRegExp\\.version|XRegExp\\.version\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects XRegExp from JavaScript variable 'XRegExp.version'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "xregexp"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

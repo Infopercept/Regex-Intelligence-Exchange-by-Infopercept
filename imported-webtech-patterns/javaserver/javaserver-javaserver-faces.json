@@ -1,0 +1,31 @@
+{
+  "vendor": "JavaServer",
+  "vendor_id": "javaserver",
+  "product": "JavaServer Faces",
+  "product_id": "javaserver-javaserver-faces",
+  "category": "framework",
+  "subcategory": "web-framework",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "JavaServer Faces Header Detection",
+      "pattern": "X-Powered-By: JSF(?:/([\\d.]+))?",
+      "version_group": 1,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects JavaServer Faces from X-Powered-By header",
+        "tags": [
+          "webtech",
+          "header",
+          "javaserver-faces"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

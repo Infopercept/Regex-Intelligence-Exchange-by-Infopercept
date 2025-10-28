@@ -18,9 +18,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script [^>]*src=[\"'][^>]*modernizr[^>]*.js",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script [^>]*src=[\"'][^>]*modernizr[^>]*\\.js"
+      "pattern": "<script [^>]*src=[\"'][^>]*modernizr[^>]*\\.js",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

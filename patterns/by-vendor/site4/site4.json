@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>SITE4\\.dk\\ Site4\\ Setup\\ Error\\.\\.</title>"
+      "pattern": "<title>SITE4\\.dk\\ Site4\\ Setup\\ Error\\.\\.</title>",
+      "version_group": 0
     },
     {
       "name": "Site4 Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<img\\ src=\"http://www\\.site4\\.dk/images/site4logo\\.jpg\">\\\n"
+      "pattern": "<img\\ src=\"http://www\\.site4\\.dk/images/site4logo\\.jpg\">\\\n",
+      "version_group": 0
     },
     {
       "name": "Site4 Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<div\\ class=\"caption\"\\ align=\"center\"><b>A\\ Site4\\ event\\ or\\ error\\ occured\\.\\.</b></div></td>"
+      "pattern": "<div\\ class=\"caption\"\\ align=\"center\"><b>A\\ Site4\\ event\\ or\\ error\\ occured\\.\\.</b></div></td>",
+      "version_group": 0
     },
     {
       "name": "Site4 Pattern",
@@ -92,7 +95,9 @@
           }
         ]
       },
-      "pattern": "To\\ read\\ more\\ about\\ SITE4\\.dk\\ please\\ <a\\ class=\"smalltext\"\\ style=\"text\\-decoration:none;\"\\ href=\"http://www\\.site4\\.dk\"><b>click\\ here</b></a>"
+      "pattern": "To\\ read\\ more\\ about\\ SITE4\\.dk\\ please\\ <a\\ class=\"smalltext\"\\ style=\"text\\-decoration:none;\"\\ href=\"http://www\\.site4\\.dk\"><b>click\\ here</b></a>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

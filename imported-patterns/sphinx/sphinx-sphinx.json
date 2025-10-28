@@ -1,0 +1,31 @@
+{
+  "vendor": "Sphinx",
+  "vendor_id": "sphinx",
+  "product": "Sphinx",
+  "product_id": "sphinx-sphinx",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Sphinx HTML Detection",
+      "pattern": "Created using <a href=\"https?://(?:www\\.)?sphinx-doc\\.org/\">Sphinx</a> ([0-9.]+)\\.",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Sphinx from HTML content",
+        "tags": [
+          "wappalyzer",
+          "html",
+          "sphinx"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

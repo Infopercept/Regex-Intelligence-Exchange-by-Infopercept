@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<HTML><BODY\\ bgcolor=\"\\#FFFFFF\"><SCRIPT\\ language=\"javascript1\\.2\">\\ top\\.location\\ =\\ \"/\";\\ </SCRIPT>\\ </BODY>\\ </HTML>"
+      "pattern": "<HTML><BODY\\ bgcolor=\"\\#FFFFFF\"><SCRIPT\\ language=\"javascript1\\.2\">\\ top\\.location\\ =\\ \"/\";\\ </SCRIPT>\\ </BODY>\\ </HTML>",
+      "version_group": 0
     },
     {
       "name": "IBM-Remote-Supervisor-Adapter Pattern",
@@ -40,9 +41,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<FRAME scrolling=\"no\" src=\"/private",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<FRAME scrolling=\"no\" src=\"/private\\"
+      "pattern": "<FRAME scrolling=\"no\" src=\"/private\\",
+      "version_group": 0
     },
     {
       "name": "IBM-Remote-Supervisor-Adapter Pattern",
@@ -56,9 +64,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<FRAME src=\"/private",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<FRAME src=\"/private\\"
+      "pattern": "<FRAME src=\"/private\\",
+      "version_group": 0
     },
     {
       "name": "IBM-Remote-Supervisor-Adapter Pattern",
@@ -80,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<IMG\\ SRC=\"banner\\.jpg\"\\ WIDTH=110\\ HEIGHT=53\\ ALT=\"banner\"\\ >"
+      "pattern": "<IMG\\ SRC=\"banner\\.jpg\"\\ WIDTH=110\\ HEIGHT=53\\ ALT=\"banner\"\\ >",
+      "version_group": 0
     },
     {
       "name": "IBM-Remote-Supervisor-Adapter Pattern",
@@ -94,9 +110,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "https?://[^/]+/private",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "https?://[^/]+/private\\"
+      "pattern": "https?://[^/]+/private\\",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

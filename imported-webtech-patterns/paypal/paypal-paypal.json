@@ -1,0 +1,71 @@
+{
+  "vendor": "PayPal",
+  "vendor_id": "paypal",
+  "product": "PayPal",
+  "product_id": "paypal-paypal",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "PayPal HTML Detection",
+      "pattern": "<input[^>]+_s-xclick",
+      "version_group": 0,
+      "priority": 100,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PayPal from HTML content",
+        "tags": [
+          "webtech",
+          "html",
+          "paypal"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "PayPal Script Detection",
+      "pattern": "paypalobjects\\.com/js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PayPal from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "paypal"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "PayPal JavaScript Detection",
+      "pattern": "window\\.PAYPAL|PAYPAL\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects PayPal from JavaScript variable 'PAYPAL'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "paypal"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

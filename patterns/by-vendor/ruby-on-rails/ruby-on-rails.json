@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ This\\ file\\ lives\\ in\\ public/404\\.html\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ This\\ file\\ lives\\ in\\ public/404\\.html\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Ruby-on-Rails Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ This\\ file\\ lives\\ in\\ public/422\\.html\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ This\\ file\\ lives\\ in\\ public/422\\.html\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Ruby-on-Rails Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ This\\ file\\ lives\\ in\\ public/500\\.html\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ This\\ file\\ lives\\ in\\ public/500\\.html\\ \\-\\->",
+      "version_group": 0
     },
     {
       "name": "Ruby-on-Rails Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "//\\ This\\ file\\ is\\ automatically\\ included\\ by\\ javascript_include_tag\\ :defaults"
+      "pattern": "//\\ This\\ file\\ is\\ automatically\\ included\\ by\\ javascript_include_tag\\ :defaults",
+      "version_group": 0
     },
     {
       "name": "Ruby-on-Rails Pattern",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<title>The\\ page\\ you\\ were\\ looking\\ for\\ doesn't\\ exist\\ \\(404\\)</title>"
+      "pattern": "<title>The\\ page\\ you\\ were\\ looking\\ for\\ doesn't\\ exist\\ \\(404\\)</title>",
+      "version_group": 0
     },
     {
       "name": "Ruby-on-Rails Pattern",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "\\#errorExplanation\\ h2\\ \\{"
+      "pattern": "\\#errorExplanation\\ h2\\ \\{",
+      "version_group": 0
     },
     {
       "name": "Ruby-on-Rails Pattern",
@@ -150,9 +156,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<link[^>]*href=\"[^\"]*/assets",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<link[^>]*href=\"[^\"]*/assets\\"
+      "pattern": "<link[^>]*href=\"[^\"]*/assets\\",
+      "version_group": 0
     },
     {
       "name": "Ruby-on-Rails Pattern",
@@ -166,9 +179,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<script[^>]*/assets",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<script[^>]*/assets\\"
+      "pattern": "<script[^>]*/assets\\",
+      "version_group": 0
     },
     {
       "name": "Ruby-on-Rails Pattern",
@@ -182,9 +202,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta content=\"authenticity_token\" name=\"csrf-param\"s?",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "<meta content=\"authenticity_token\" name=\"csrf-param\"\\s?\\"
+      "pattern": "<meta content=\"authenticity_token\" name=\"csrf-param\"\\s?\\",
+      "version_group": 0
     },
     {
       "name": "Ruby-on-Rails Pattern",
@@ -206,7 +233,8 @@
           }
         ]
       },
-      "pattern": "<h3><a\\ href=\"rails/info/properties\"\\ onclick=\"about\\(\\);\\ return\\ false\">About\\ your\\ application\\&rsquo;s\\ environment</a></h3>"
+      "pattern": "<h3><a\\ href=\"rails/info/properties\"\\ onclick=\"about\\(\\);\\ return\\ false\">About\\ your\\ application\\&rsquo;s\\ environment</a></h3>",
+      "version_group": 0
     },
     {
       "name": "Ruby-on-Rails Pattern",
@@ -228,7 +256,8 @@
           }
         ]
       },
-      "pattern": "<p>Run\\ <tt>rake\\ db:migrate</tt>\\ to\\ create\\ your\\ database\\.\\ If\\ you're\\ not\\ using\\ SQLite\\ \\(the\\ default\\),\\ edit\\ <tt>config/database\\.yml</tt>\\ with\\ your\\ username\\ and\\ password\\.</p>"
+      "pattern": "<p>Run\\ <tt>rake\\ db:migrate</tt>\\ to\\ create\\ your\\ database\\.\\ If\\ you're\\ not\\ using\\ SQLite\\ \\(the\\ default\\),\\ edit\\ <tt>config/database\\.yml</tt>\\ with\\ your\\ username\\ and\\ password\\.</p>",
+      "version_group": 0
     },
     {
       "name": "Ruby-on-Rails Pattern",
@@ -250,7 +279,8 @@
           }
         ]
       },
-      "pattern": "<title>Action\\ Controller:\\ Exception\\ caught</title>"
+      "pattern": "<title>Action\\ Controller:\\ Exception\\ caught</title>",
+      "version_group": 0
     },
     {
       "name": "Ruby-on-Rails Pattern",
@@ -272,7 +302,8 @@
           }
         ]
       },
-      "pattern": "<div\\ id=\"session_dump\"\\ style=\"display:none\"><pre\\ class=\\\\"
+      "pattern": "<div\\ id=\"session_dump\"\\ style=\"display:none\"><pre\\ class=\\\\",
+      "version_group": 0
     },
     {
       "name": "request_method cookie",
@@ -286,9 +317,17 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^request_method",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^request_method"
+      "pattern": "^request_method",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

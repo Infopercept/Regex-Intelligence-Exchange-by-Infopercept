@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"StyleSheet\"\\ href=\"/bds/stylesheets/fds\\.css\"\\ type=\"text/css\">"
+      "pattern": "<link\\ rel=\"StyleSheet\"\\ href=\"/bds/stylesheets/fds\\.css\"\\ type=\"text/css\">",
+      "version_group": 0
     },
     {
       "name": "Biscom-Delivery-Server Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<script\\ src=\"/bds/includes/fdsJavascript\\.do\"\\ type=\"text/javascript\"></script>"
+      "pattern": "<script\\ src=\"/bds/includes/fdsJavascript\\.do\"\\ type=\"text/javascript\"></script>",
+      "version_group": 0
     },
     {
       "name": "Biscom-Delivery-Server Pattern",
@@ -70,7 +72,9 @@
           }
         ]
       },
-      "pattern": "<link\\ rel=\"ICON\"\\ href=\"/bds/images/icons/favicon\\.ico\"\\ />"
+      "pattern": "<link\\ rel=\"ICON\"\\ href=\"/bds/images/icons/favicon\\.ico\"\\ />",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

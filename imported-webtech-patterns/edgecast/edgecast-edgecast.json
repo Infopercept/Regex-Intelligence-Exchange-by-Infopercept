@@ -1,0 +1,31 @@
+{
+  "vendor": "EdgeCast",
+  "vendor_id": "edgecast",
+  "product": "EdgeCast",
+  "product_id": "edgecast-edgecast",
+  "category": "web",
+  "subcategory": "cdn",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "EdgeCast Header Detection",
+      "pattern": "Server: ^ECD\\s\\(\\S+\\)",
+      "version_group": 0,
+      "priority": 150,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects EdgeCast from Server header",
+        "tags": [
+          "webtech",
+          "header",
+          "edgecast"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vendor": "Paddle",
+  "vendor_id": "paddle",
+  "product": "Paddle",
+  "product_id": "paddle-paddle",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Paddle Script Detection",
+      "pattern": "cdn\\.paddle\\.com/paddle/paddle\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "Wappalyzer Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Paddle from script tags",
+        "tags": [
+          "wappalyzer",
+          "script",
+          "paddle"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT"
+      }
+    }
+  ]
+}

@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<strong><font\\ color=\"\\#FF0000\">Warning!\\ This\\ heldesk\\ requires\\ a\\ browser\\ with\\ javascript\\ "
+      "pattern": "<strong><font\\ color=\"\\#FF0000\">Warning!\\ This\\ heldesk\\ requires\\ a\\ browser\\ with\\ javascript\\ ",
+      "version_group": 0
     },
     {
       "name": "Isolsoft-Support-Center Pattern",
@@ -48,7 +49,9 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-\\ Copyright\\ Line:\\ Unauthorized\\ removal\\ can\\ void\\ license\\ \\-\\->"
+      "pattern": "<!\\-\\-\\ Copyright\\ Line:\\ Unauthorized\\ removal\\ can\\ void\\ license\\ \\-\\->",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

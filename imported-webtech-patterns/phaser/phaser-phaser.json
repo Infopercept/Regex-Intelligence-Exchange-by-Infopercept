@@ -1,0 +1,51 @@
+{
+  "vendor": "Phaser",
+  "vendor_id": "phaser",
+  "product": "Phaser",
+  "product_id": "phaser-phaser",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Phaser JavaScript Detection",
+      "pattern": "window\\.Phaser|Phaser\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Phaser from JavaScript variable 'Phaser'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "phaser"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Phaser JavaScript Detection",
+      "pattern": "window\\.Phaser\\.VERSION|Phaser\\.VERSION\\s*=",
+      "version_group": 1,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Phaser from JavaScript variable 'Phaser.VERSION'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "phaser"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

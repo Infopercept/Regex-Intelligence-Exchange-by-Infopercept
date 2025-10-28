@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "^thttpd$",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "^thttpd$"
+      "pattern": "^thttpd$",
+      "version_group": 0
     },
     {
       "name": "thttpd Pattern",
@@ -45,5 +52,6 @@
       "pattern": "Server: ^thttpd/([^\\s]+)",
       "version_group": 1
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

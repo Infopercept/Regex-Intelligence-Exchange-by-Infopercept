@@ -1,0 +1,111 @@
+{
+  "vendor": "Eloqua",
+  "vendor_id": "eloqua",
+  "product": "Eloqua",
+  "product_id": "eloqua-eloqua",
+  "category": "web",
+  "subcategory": "web-application",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Eloqua Script Detection",
+      "pattern": "elqCfg\\.js",
+      "version_group": 0,
+      "priority": 130,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Eloqua from script tags",
+        "tags": [
+          "webtech",
+          "script",
+          "eloqua"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Eloqua JavaScript Detection",
+      "pattern": "window\\.elqCurESite|elqCurESite\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Eloqua from JavaScript variable 'elqCurESite'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "eloqua"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Eloqua JavaScript Detection",
+      "pattern": "window\\.elqLoad|elqLoad\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Eloqua from JavaScript variable 'elqLoad'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "eloqua"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Eloqua JavaScript Detection",
+      "pattern": "window\\.elqSiteID|elqSiteID\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Eloqua from JavaScript variable 'elqSiteID'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "eloqua"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "Eloqua JavaScript Detection",
+      "pattern": "window\\.elq_global|elq_global\\s*=",
+      "version_group": 0,
+      "priority": 140,
+      "confidence": 0.7,
+      "metadata": {
+        "author": "WebTech Import",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Eloqua from JavaScript variable 'elq_global'",
+        "tags": [
+          "webtech",
+          "javascript",
+          "eloqua"
+        ],
+        "source": "WebTech",
+        "license": "MIT"
+      }
+    }
+  ]
+}

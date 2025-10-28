@@ -18,9 +18,16 @@
         "tags": [
           "whatweb",
           "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "Powered by Teledata<br>n<center>Best viewed in IE6.</center>",
+            "expected_version": "unknown"
+          }
         ]
       },
-      "pattern": "Powered by Teledata<br>\\n<center>Best viewed in IE6\\.</center>"
+      "pattern": "Powered by Teledata<br>\\n<center>Best viewed in IE6\\.</center>",
+      "version_group": 0
     },
     {
       "name": "Tele-Data-CMS Pattern",
@@ -42,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<input\\ name=\"txthomepassword\"\\ type=\"password\"\\ \\ size=\"22\"\\ id=\"txthomepassword\"\\ maxlength=\"200\"\\ />"
+      "pattern": "<input\\ name=\"txthomepassword\"\\ type=\"password\"\\ \\ size=\"22\"\\ id=\"txthomepassword\"\\ maxlength=\"200\"\\ />",
+      "version_group": 0
     },
     {
       "name": "Tele-Data-CMS Pattern",
@@ -64,7 +72,8 @@
           }
         ]
       },
-      "pattern": "align=center\\ class=\"tdi\\-errormessage\"\\ style=\"height:\\ 25px\"><script\\ type=\"text/javascript\">showerror\\(\\);</script></td>"
+      "pattern": "align=center\\ class=\"tdi\\-errormessage\"\\ style=\"height:\\ 25px\"><script\\ type=\"text/javascript\">showerror\\(\\);</script></td>",
+      "version_group": 0
     },
     {
       "name": "Tele-Data-CMS Pattern",
@@ -86,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<!\\-\\-To\\ reduce\\ the\\ gap\\ between\\ banner\\ and\\ content\\ the\\ below\\ if\\ condition\\ is\\ added\\-\\->"
+      "pattern": "<!\\-\\-To\\ reduce\\ the\\ gap\\ between\\ banner\\ and\\ content\\ the\\ below\\ if\\ condition\\ is\\ added\\-\\->",
+      "version_group": 0
     },
     {
       "name": "Tele-Data-CMS Pattern",
@@ -108,7 +118,9 @@
           }
         ]
       },
-      "pattern": "<iframe\\ onload=\"postload\\(0\\);\"\\ scrolling=\"no\"\\ style=\"position:absolute;top:0;left:0;height:0;width:0;\"\\ id=\"fraLH\"\\ name=\"fraLH\"\\ src=\"default\\.aspx\"\\ frameborder=\"0\"\\ marginheight=\"0\"\\ marginwidth=\"0\"></iframe>"
+      "pattern": "<iframe\\ onload=\"postload\\(0\\);\"\\ scrolling=\"no\"\\ style=\"position:absolute;top:0;left:0;height:0;width:0;\"\\ id=\"fraLH\"\\ name=\"fraLH\"\\ src=\"default\\.aspx\"\\ frameborder=\"0\"\\ marginheight=\"0\"\\ marginwidth=\"0\"></iframe>",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "cms-platform"
 }
