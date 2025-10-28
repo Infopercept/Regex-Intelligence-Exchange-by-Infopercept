@@ -22,6 +22,18 @@ def validate_new_pattern(file_path):
                 print(f"Error: Missing required field '{field}'")
                 return False
         
+        # Check that category is one of the allowed values
+        allowed_categories = ['web', 'cms', 'database', 'framework', 'messaging', 'networking', 'os']
+        if data['category'] not in allowed_categories:
+            print(f"Error: Invalid category '{data['category']}'. Must be one of {allowed_categories}")
+            return False
+        
+        # Check for subcategory field (optional but recommended)
+        if 'subcategory' in data:
+            if not isinstance(data['subcategory'], str):
+                print(f"Error: subcategory must be a string")
+                return False
+        
         # Check versions structure
         if 'versions' in data:
             if not isinstance(data['versions'], dict):
@@ -106,6 +118,53 @@ def validate_pattern_structure(pattern):
         if not isinstance(pattern['metadata']['tags'], list):
             print(f"Error: metadata.tags must be an array")
             return False
+        
+        # Validate optional metadata fields if present
+        optional_fields = {
+            'references': list,
+            'severity': str,
+            'cvss_score': (int, float),
+            'cwe_ids': list,
+            'affected_versions': list,
+            'remediation': str,
+            'source': str,
+            'license': str
+        }
+        
+        for field, expected_type in optional_fields.items():
+            if field in pattern['metadata']:
+                if not isinstance(pattern['metadata'][field], expected_type):
+                    print(f"Error: metadata.{field} must be of type {expected_type}")
+                    return False
+        
+        # Validate severity if present
+        if 'severity' in pattern['metadata']:
+            allowed_severities = ['low', 'medium', 'high', 'critical']
+            if pattern['metadata']['severity'] not in allowed_severities:
+                print(f"Error: metadata.severity must be one of {allowed_severities}")
+                return False
+        
+        # Validate CVSS score if present
+        if 'cvss_score' in pattern['metadata']:
+            score = pattern['metadata']['cvss_score']
+            if not isinstance(score, (int, float)) or score < 0.0 or score > 10.0:
+                print(f"Error: metadata.cvss_score must be a number between 0.0 and 10.0")
+                return False
+        
+        # Validate references if present
+        if 'references' in pattern['metadata']:
+            if not isinstance(pattern['metadata']['references'], list):
+                print(f"Error: metadata.references must be an array")
+                return False
+            
+            for ref in pattern['metadata']['references']:
+                if not isinstance(ref, dict):
+                    print(f"Error: Each reference must be an object")
+                    return False
+                
+                if 'title' not in ref or 'url' not in ref:
+                    print(f"Error: References must have 'title' and 'url' fields")
+                    return False
         
         # Validate test_cases if present
         if 'test_cases' in pattern['metadata']:

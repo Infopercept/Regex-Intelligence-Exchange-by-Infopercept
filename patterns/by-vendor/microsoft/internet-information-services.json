@@ -4,11 +4,13 @@
   "product": "Internet Information Services",
   "product_id": "microsoft-internet-information-services",
   "category": "web",
+  "subcategory": "web-server",
   "versions": {},
   "all_versions": [
     {
       "name": "Microsoft IIS Web Server",
       "category": "web",
+      "subcategory": "web-server",
       "pattern": "Server: Microsoft-IIS/([\\d.]+)",
       "vendor": "Microsoft",
       "product": "Internet Information Services",

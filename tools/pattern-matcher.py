@@ -9,6 +9,9 @@ import re
 import sys
 from pathlib import Path
 
+# Import our version utilities
+from version_utils import extract_and_normalize_version
+
 
 def load_patterns(patterns_dir, vendor=None, product=None):
     """Load patterns from the new by-vendor structure"""
@@ -78,7 +81,8 @@ def extract_patterns(data):
             'version_group': pattern_data.get('version_group', 0),
             'priority': pattern_data.get('priority', 0),
             'confidence': pattern_data.get('confidence', 0.0),
-            'category': data.get('category', 'Unknown')
+            'category': data.get('category', 'Unknown'),
+            'subcategory': data.get('subcategory', 'Unknown')
         })
     
     # Extract version-specific patterns
@@ -94,6 +98,7 @@ def extract_patterns(data):
                 'priority': pattern_data.get('priority', 0),
                 'confidence': pattern_data.get('confidence', 0.0),
                 'category': data.get('category', 'Unknown'),
+                'subcategory': data.get('subcategory', 'Unknown'),
                 'version_range': version_range
             })
     
@@ -110,10 +115,12 @@ def match_patterns(patterns, text):
             match = regex.search(text)
             
             if match:
-                # Extract version if version_group is specified
+                # Extract and normalize version if version_group is specified
                 version = None
+                normalized_version = None
                 if pattern_data['version_group'] > 0 and pattern_data['version_group'] <= len(match.groups()):
                     version = match.group(pattern_data['version_group'])
+                    normalized_version = extract_and_normalize_version(match, pattern_data['version_group'])
                 
                 results.append({
                     'vendor': pattern_data['vendor'],
@@ -121,9 +128,11 @@ def match_patterns(patterns, text):
                     'name': pattern_data['name'],
                     'matched_text': match.group(0),
                     'version': version,
+                    'normalized_version': normalized_version,
                     'priority': pattern_data['priority'],
                     'confidence': pattern_data['confidence'],
-                    'category': pattern_data['category']
+                    'category': pattern_data['category'],
+                    'subcategory': pattern_data['subcategory']
                 })
         except re.error as e:
             print(f"Invalid regex pattern: {pattern_data['pattern']} - {e}")
@@ -170,10 +179,13 @@ def main():
             print(f"Pattern: {result['name']}")
             print(f"Matched: {result['matched_text']}")
             if result['version']:
-                print(f"Version: {result['version']}")
+                print(f"Raw Version: {result['version']}")
+            if result['normalized_version']:
+                print(f"Normalized Version: {result['normalized_version']}")
             print(f"Priority: {result['priority']}")
             print(f"Confidence: {result['confidence']:.2f}")
             print(f"Category: {result['category']}")
+            print(f"Subcategory: {result['subcategory']}")
     else:
         print("\nNo matching patterns found.")
 

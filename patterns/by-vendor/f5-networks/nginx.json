@@ -4,11 +4,13 @@
   "product": "NGINX",
   "product_id": "f5-networks-nginx",
   "category": "web",
+  "subcategory": "web-server",
   "versions": {},
   "all_versions": [
     {
       "name": "NGINX Web Server",
       "category": "web",
+      "subcategory": "web-server",
       "pattern": "Server: nginx/([\\d.]+)",
       "vendor": "F5 Networks",
       "product": "NGINX",

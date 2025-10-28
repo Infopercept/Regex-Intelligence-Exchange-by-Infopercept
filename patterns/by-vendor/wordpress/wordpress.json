@@ -2,12 +2,47 @@
   "vendor": "WordPress",
   "vendor_id": "wordpress",
   "product": "WordPress",
-  "product_id": "wordpress",
+  "product_id": "wordpress-wordpress",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
+      "name": "WordPress CMS",
+      "category": "cms",
+      "subcategory": "cms-platform",
+      "pattern": "X-Powered-By: WP [vV]?(\\d+\\.\\d+\\.\\d+)",
+      "vendor": "WordPress",
+      "product": "WordPress",
+      "version_group": 1,
+      "priority": 180,
+      "confidence": 0.9,
+      "metadata": {
+        "author": "Security Scanner Team",
+        "created_at": "2024-01-01T00:00:00",
+        "updated_at": "2024-01-01T00:00:00",
+        "description": "Detects WordPress CMS version from X-Powered-By header.",
+        "tags": [
+          "cms",
+          "wordpress",
+          "blog"
+        ],
+        "test_cases": [
+          {
+            "input": "X-Powered-By: WP 6.1.1",
+            "expected_version": "6.1.1"
+          },
+          {
+            "input": "X-Powered-By: WP v6.1.1",
+            "expected_version": "6.1.1"
+          }
+        ]
+      }
+    },
+    {
       "name": "WordPress Pattern",
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"WordPress\\.com\"\\ />",
+      "version_group": 0,
       "priority": 100,
       "confidence": 0.8,
       "metadata": {
@@ -25,11 +60,12 @@
             "expected_version": "unknown"
           }
         ]
-      },
-      "pattern": "<meta\\ name=\"generator\"\\ content=\"WordPress\\.com\"\\ />"
+      }
     },
     {
       "name": "powered by link",
+      "pattern": "<a\\ href=\"http://www\\.wordpress\\.com\">Powered\\ by\\ WordPress</a>",
+      "version_group": 0,
       "priority": 100,
       "confidence": 0.8,
       "metadata": {
@@ -47,11 +83,12 @@
             "expected_version": "unknown"
           }
         ]
-      },
-      "pattern": "<a\\ href=\"http://www\\.wordpress\\.com\">Powered\\ by\\ WordPress</a>"
+      }
     },
     {
       "name": "REST API link",
+      "pattern": "<link\\ rel='https://api\\.w\\.org/'",
+      "version_group": 0,
       "priority": 100,
       "confidence": 0.8,
       "metadata": {
@@ -69,11 +106,12 @@
             "expected_version": "unknown"
           }
         ]
-      },
-      "pattern": "<link\\ rel='https://api\\.w\\.org/'"
+      }
     },
     {
       "name": "wp-content",
+      "pattern": "\"[^\"]+/wp-content/[^\"]+\"",
+      "version_group": 0,
       "priority": 75,
       "confidence": 0.75,
       "metadata": {
@@ -85,11 +123,12 @@
           "whatweb",
           "extracted"
         ]
-      },
-      "pattern": "\"[^\"]+/wp-content/[^\"]+\""
+      }
     },
     {
       "name": "WordPress Pattern",
+      "pattern": "<a\\ title=\"Powered\\ by\\ WordPress\"\\ href=\"http://wordpress\\.org/\">",
+      "version_group": 0,
       "priority": 100,
       "confidence": 0.8,
       "metadata": {
@@ -107,11 +146,12 @@
             "expected_version": "unknown"
           }
         ]
-      },
-      "pattern": "<a\\ title=\"Powered\\ by\\ WordPress\"\\ href=\"http://wordpress\\.org/\">"
+      }
     },
     {
       "name": "wp3 login page",
+      "pattern": "<a\\ href=\"http://wordpress\\.org/\"\\ title=\"Powered\\ by\\ WordPress\">",
+      "version_group": 0,
       "priority": 100,
       "confidence": 0.8,
       "metadata": {
@@ -129,11 +169,12 @@
             "expected_version": "unknown"
           }
         ]
-      },
-      "pattern": "<a\\ href=\"http://wordpress\\.org/\"\\ title=\"Powered\\ by\\ WordPress\">"
+      }
     },
     {
       "name": "WordPress Pattern",
+      "pattern": "action=lostpassword",
+      "version_group": 0,
       "priority": 100,
       "confidence": 0.8,
       "metadata": {
@@ -151,8 +192,7 @@
             "expected_version": "unknown"
           }
         ]
-      },
-      "pattern": "action=lostpassword"
+      }
     }
   ]
 }

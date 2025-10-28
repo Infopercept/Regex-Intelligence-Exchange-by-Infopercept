@@ -26,7 +26,8 @@
           }
         ]
       },
-      "pattern": "<title>Test\\ Page\\ for\\ Apache\\ Installation</title>"
+      "pattern": "<title>Test\\ Page\\ for\\ Apache\\ Installation</title>",
+      "version_group": 0
     },
     {
       "name": "Apache Pattern",
@@ -48,7 +49,8 @@
           }
         ]
       },
-      "pattern": "<TITLE>Test\\ Page\\ for\\ the\\ SSL/TLS\\-aware\\ Apache\\ Installation\\ on\\ Web\\ Site</TITLE>"
+      "pattern": "<TITLE>Test\\ Page\\ for\\ the\\ SSL/TLS\\-aware\\ Apache\\ Installation\\ on\\ Web\\ Site</TITLE>",
+      "version_group": 0
     },
     {
       "name": "Apache Pattern",
@@ -70,7 +72,8 @@
           }
         ]
       },
-      "pattern": "<html><body><h1>It\\ works!</h1></body></html>"
+      "pattern": "<html><body><h1>It\\ works!</h1></body></html>",
+      "version_group": 0
     },
     {
       "name": "Apache Pattern",
@@ -92,7 +95,8 @@
           }
         ]
       },
-      "pattern": "<html>Apache\\ is\\ functioning\\ normally</html>"
+      "pattern": "<html>Apache\\ is\\ functioning\\ normally</html>",
+      "version_group": 0
     },
     {
       "name": "This IP is being shared among many domains.",
@@ -114,7 +118,8 @@
           }
         ]
       },
-      "pattern": "<body><center>This\\ IP\\ is\\ being\\ shared\\ among\\ many\\ domains\\.<br>\\\\nTo\\ view\\ the\\ domain\\ you\\ are\\ looking\\ for,\\ simply\\ enter\\ the\\ domain\\ name\\ in\\ the\\ location\\ bar\\ of\\ your\\ web\\ browser\\.<br>"
+      "pattern": "<body><center>This\\ IP\\ is\\ being\\ shared\\ among\\ many\\ domains\\.<br>\\\\nTo\\ view\\ the\\ domain\\ you\\ are\\ looking\\ for,\\ simply\\ enter\\ the\\ domain\\ name\\ in\\ the\\ location\\ bar\\ of\\ your\\ web\\ browser\\.<br>",
+      "version_group": 0
     },
     {
       "name": "Apache Pattern",
@@ -136,7 +141,8 @@
           }
         ]
       },
-      "pattern": "Apache\\ is\\ working\\ on\\ your\\ cPanel<sup>\\&reg;</sup>\\ and\\ WHM\\&\\#8482;\\ Server"
+      "pattern": "Apache\\ is\\ working\\ on\\ your\\ cPanel<sup>\\&reg;</sup>\\ and\\ WHM\\&\\#8482;\\ Server",
+      "version_group": 0
     },
     {
       "name": "HTTP Server Header",
@@ -152,7 +158,8 @@
           "extracted"
         ]
       },
-      "pattern": "^Apache"
+      "pattern": "^Apache",
+      "version_group": 0
     },
     {
       "name": "HTTP Server Header",
@@ -191,7 +198,8 @@
           "extracted"
         ]
       },
-      "pattern": "^NOYB$"
+      "pattern": "^NOYB$",
+      "version_group": 0
     },
     {
       "name": "htacess WWW-Authenticate realm",
@@ -207,7 +215,9 @@
           "extracted"
         ]
       },
-      "pattern": "Basic realm=\"htaccess password prompt\""
+      "pattern": "Basic realm=\"htaccess password prompt\"",
+      "version_group": 0
     }
-  ]
+  ],
+  "subcategory": "web-application"
 }

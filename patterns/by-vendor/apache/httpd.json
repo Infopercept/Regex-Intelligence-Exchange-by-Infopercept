@@ -4,6 +4,7 @@
   "product": "HTTPD",
   "product_id": "apache-httpd",
   "category": "web",
+  "subcategory": "web-server",
   "versions": {
     "2.4.x": [
       {
@@ -22,6 +23,19 @@
             "apache",
             "webserver"
           ],
+          "references": [
+            {
+              "title": "Apache HTTP Server Documentation",
+              "url": "https://httpd.apache.org/docs/"
+            }
+          ],
+          "severity": "low",
+          "cvss_score": 0.0,
+          "cwe_ids": [],
+          "affected_versions": ["2.4.0-2.4.99"],
+          "remediation": "Keep Apache HTTPD updated to the latest stable version",
+          "source": "WhatWeb",
+          "license": "MIT",
           "test_cases": [
             {
               "input": "Server: Apache/2.4.41 (Ubuntu)",
@@ -48,6 +62,19 @@
             "apache",
             "webserver"
           ],
+          "references": [
+            {
+              "title": "Apache HTTP Server Documentation",
+              "url": "https://httpd.apache.org/docs/2.2/"
+            }
+          ],
+          "severity": "low",
+          "cvss_score": 0.0,
+          "cwe_ids": [],
+          "affected_versions": ["2.2.0-2.2.99"],
+          "remediation": "Keep Apache HTTPD updated to the latest stable version",
+          "source": "WhatWeb",
+          "license": "MIT",
           "test_cases": [
             {
               "input": "Server: Apache/2.2.34 (Unix)",
@@ -75,6 +102,19 @@
           "apache",
           "webserver"
         ],
+        "references": [
+          {
+            "title": "Apache HTTP Server Documentation",
+            "url": "https://httpd.apache.org/docs/"
+          }
+        ],
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep Apache HTTPD updated to the latest stable version",
+        "source": "WhatWeb",
+        "license": "MIT",
         "test_cases": [
           {
             "input": "Server: Apache/2.4.41 (Ubuntu)",
@@ -90,6 +130,7 @@
     {
       "name": "Apache HTTPD Server",
       "category": "web",
+      "subcategory": "web-server",
       "pattern": "Server: Apache/([\\d.]+)",
       "vendor": "Apache",
       "product": "HTTPD",
@@ -106,6 +147,19 @@
           "apache",
           "webserver"
         ],
+        "references": [
+          {
+            "title": "Apache HTTP Server Documentation",
+            "url": "https://httpd.apache.org/docs/"
+          }
+        ],
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep Apache HTTPD updated to the latest stable version",
+        "source": "WhatWeb",
+        "license": "MIT",
         "test_cases": [
           {
             "input": "Server: Apache/2.4.41 (Ubuntu)",

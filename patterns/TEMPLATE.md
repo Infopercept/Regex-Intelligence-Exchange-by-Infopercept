@@ -9,6 +9,7 @@ Use this template when creating new pattern files for the database.
   "product": "Product Name",
   "product_id": "vendor-id-product-id",
   "category": "product-category",
+  "subcategory": "product-subcategory",
   "versions": {
     "version-range": [
       {
@@ -23,6 +24,19 @@ Use this template when creating new pattern files for the database.
           "updated_at": "YYYY-MM-DD",
           "description": "Pattern description",
           "tags": ["tag1", "tag2"],
+          "references": [
+            {
+              "title": "Reference Title",
+              "url": "https://example.com/reference"
+            }
+          ],
+          "severity": "medium",
+          "cvss_score": 0.0,
+          "cwe_ids": ["CWE-XXX"],
+          "affected_versions": ["1.0.0-2.0.0"],
+          "remediation": "Remediation steps",
+          "source": "WhatWeb",
+          "license": "MIT",
           "test_cases": [
             {
               "input": "Test input",
@@ -46,6 +60,19 @@ Use this template when creating new pattern files for the database.
         "updated_at": "YYYY-MM-DD",
         "description": "Generic pattern description",
         "tags": ["tag1", "tag2"],
+        "references": [
+          {
+            "title": "Reference Title",
+            "url": "https://example.com/reference"
+          }
+        ],
+        "severity": "medium",
+        "cvss_score": 0.0,
+        "cwe_ids": ["CWE-XXX"],
+        "affected_versions": ["1.0.0-2.0.0"],
+        "remediation": "Remediation steps",
+        "source": "WhatWeb",
+        "license": "MIT",
         "test_cases": [
           {
             "input": "Test input",
@@ -64,7 +91,8 @@ Use this template when creating new pattern files for the database.
 - `vendor_id`: A normalized identifier for the vendor
 - `product`: The specific product name
 - `product_id`: A normalized identifier for the product
-- `category`: Product category (web, database, networking, etc.)
+- `category`: Product category (web, cms, database, framework, messaging, networking, os)
+- `subcategory`: Product subcategory for more granular classification (web-server, cms-platform, database-engine, etc.)
 - `versions`: Object containing version-specific patterns
   - Keys are version ranges (e.g., "2.4.x")
   - Values are arrays of patterns for that version range
@@ -78,6 +106,23 @@ Each pattern contains:
 - `confidence`: Confidence level (0.0-1.0) in accuracy
 - `metadata`: Additional information about the pattern
 
+### Metadata Fields
+
+- `author`: The person or team who created the pattern
+- `created_at`: Date when the pattern was created (YYYY-MM-DD)
+- `updated_at`: Date when the pattern was last updated (YYYY-MM-DD)
+- `description`: Detailed description of what the pattern detects
+- `tags`: Array of tags for categorization and searching
+- `references`: Array of references to documentation, advisories, or related resources
+- `severity`: Security severity level (low, medium, high, critical)
+- `cvss_score`: Common Vulnerability Scoring System score (0.0-10.0)
+- `cwe_ids`: Array of Common Weakness Enumeration IDs
+- `affected_versions`: Array of version ranges that are affected
+- `remediation`: Steps to remediate issues detected by this pattern
+- `source`: Source of the pattern (WhatWeb, manual, etc.)
+- `license`: License under which the pattern is provided
+- `test_cases`: Array of test cases for validating the pattern
+
 ## Example Pattern
 
 ```json
@@ -87,6 +132,7 @@ Each pattern contains:
   "product": "HTTPD",
   "product_id": "apache-httpd",
   "category": "web",
+  "subcategory": "web-server",
   "versions": {
     "2.4.x": [
       {
@@ -101,6 +147,19 @@ Each pattern contains:
           "updated_at": "2024-01-01",
           "description": "Detects Apache HTTPD 2.4.x version from HTTP server banner",
           "tags": ["http", "apache", "webserver"],
+          "references": [
+            {
+              "title": "Apache HTTP Server Documentation",
+              "url": "https://httpd.apache.org/docs/"
+            }
+          ],
+          "severity": "low",
+          "cvss_score": 0.0,
+          "cwe_ids": [],
+          "affected_versions": ["2.4.0-2.4.99"],
+          "remediation": "Keep Apache HTTPD updated to the latest stable version",
+          "source": "WhatWeb",
+          "license": "MIT",
           "test_cases": [
             {
               "input": "Server: Apache/2.4.41 (Ubuntu)",
@@ -124,6 +183,19 @@ Each pattern contains:
         "updated_at": "2024-01-01",
         "description": "Generic pattern for Apache HTTPD version detection",
         "tags": ["http", "apache", "webserver"],
+        "references": [
+          {
+            "title": "Apache HTTP Server Documentation",
+            "url": "https://httpd.apache.org/docs/"
+          }
+        ],
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep Apache HTTPD updated to the latest stable version",
+        "source": "WhatWeb",
+        "license": "MIT",
         "test_cases": [
           {
             "input": "Server: Apache/2.4.41 (Ubuntu)",
@@ -134,4 +206,3 @@ Each pattern contains:
     }
   ]
 }
-```
