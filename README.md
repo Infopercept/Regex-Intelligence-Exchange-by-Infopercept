@@ -64,8 +64,10 @@ The `tools/` directory contains utilities for pattern development and management
 - `generate-pattern-summary.py` - Generate pattern summary reports
 
 ### Integration Tools
-- `import-wappalyzer.py` - Import patterns from Wappalyzer
-- `import-webtech.py` - Import patterns from WebTech
+- `import-wappalyzer.py` - Import patterns from Wappalyzer (now skips existing patterns)
+- `import-webtech.py` - Import patterns from WebTech (now skips existing patterns)
+- `check-duplicates.py` - Check for duplicate patterns based on content similarity
+- `merge-patterns.py` - Merge patterns from different sources intelligently
 
 ## Getting Started
 
@@ -99,6 +101,20 @@ We welcome contributions from the community:
 4. **Test your patterns**:
    ```bash
    python tools/test-patterns.py patterns/by-vendor/my-vendor/my-product.json
+   ```
+
+## Duplicate Management
+
+To prevent duplicate entries when importing patterns from external sources:
+
+1. **Import scripts now check for existing patterns** and skip importing if a pattern with the same product ID already exists
+2. **Use the duplicate checker** to identify potential duplicates:
+   ```bash
+   python tools/check-duplicates.py
+   ```
+3. **Use the merge tool** to intelligently combine patterns from different sources:
+   ```bash
+   python tools/merge-patterns.py <import-directory> <target-directory>
    ```
 
 ## Quality Assurance

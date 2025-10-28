@@ -339,6 +339,7 @@ def import_wappalyzer_technologies(wappalyzer_data, output_dir):
     
     # Process each technology
     count = 0
+    skipped = 0
     for tech_name, tech_data in wappalyzer_data.items():
         try:
             # Skip non-dict entries
@@ -355,10 +356,17 @@ def import_wappalyzer_technologies(wappalyzer_data, output_dir):
                 vendor_dir = os.path.join(output_dir, vendor_id)
                 os.makedirs(vendor_dir, exist_ok=True)
                 
-                # Save pattern file
+                # Check if pattern already exists
                 filename = f"{pattern_structure['product_id']}.json"
                 filepath = os.path.join(vendor_dir, filename)
                 
+                # Check if file already exists
+                if os.path.exists(filepath):
+                    print(f"Skipping {tech_name} - already exists at {filepath}")
+                    skipped += 1
+                    continue
+                
+                # Save pattern file
                 with open(filepath, 'w', encoding='utf-8') as f:
                     json.dump(pattern_structure, f, indent=2, ensure_ascii=False)
                 
@@ -368,7 +376,7 @@ def import_wappalyzer_technologies(wappalyzer_data, output_dir):
         except Exception as e:
             print(f"Error processing {tech_name}: {e}")
     
-    print(f"Imported {count} technologies")
+    print(f"Imported {count} technologies, skipped {skipped} existing technologies")
 
 
 def main():

@@ -127,9 +127,24 @@ python tools/test-patterns.py imported-patterns/vendor/product.json
 
 4. Move validated patterns to the main patterns directory
 
+### Duplicate Management
+
+To prevent duplicate entries when importing patterns from external sources:
+
+1. **Import scripts now check for existing patterns** and skip importing if a pattern with the same product ID already exists
+2. **Use the duplicate checker** to identify potential duplicates:
+   ```bash
+   python tools/check-duplicates.py
+   ```
+3. **Use the merge tool** to intelligently combine patterns from different sources:
+   ```bash
+   python tools/merge-patterns.py <import-directory> <target-directory>
+   ```
+
 ### Supported Import Sources
 
 - **Wappalyzer**: Technology definitions in JSON format
+- **WebTech**: Technology definitions in JSON format
 - **WhatWeb**: Ruby plugin files (future enhancement)
 - **Custom**: Any JSON format that can be converted
 

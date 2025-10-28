@@ -135,6 +135,20 @@ python tools/validate-all-patterns.py
 python tools/monitor-quality.py
 ```
 
+## Duplicate Management
+
+To prevent duplicate entries when importing patterns from external sources:
+
+1. **Import scripts now check for existing patterns** and skip importing if a pattern with the same product ID already exists
+2. **Use the duplicate checker** to identify potential duplicates:
+   ```bash
+   python tools/check-duplicates.py
+   ```
+3. **Use the merge tool** to intelligently combine patterns from different sources:
+   ```bash
+   python tools/merge-patterns.py <import-directory> <target-directory>
+   ```
+
 ## Development Workflow
 
 1. Fork the repository
@@ -234,10 +248,13 @@ We provide several tools to help with pattern development:
 - `update-patterns.py`: Update existing patterns to enhanced structure
 - `generate-pattern-summary.py`: Generate pattern summary reports
 - `search-patterns.py`: Search patterns by various criteria
+- `add-test-cases.py`: Automatically add test cases to patterns
 
 ### Integration Tools
-- `import-wappalyzer.py`: Import patterns from Wappalyzer
-- `import-webtech.py`: Import patterns from WebTech
+- `import-wappalyzer.py`: Import patterns from Wappalyzer (now skips existing patterns)
+- `import-webtech.py`: Import patterns from WebTech (now skips existing patterns)
+- `check-duplicates.py`: Check for duplicate patterns based on content similarity
+- `merge-patterns.py`: Merge patterns from different sources intelligently
 
 ## Community Resources
 

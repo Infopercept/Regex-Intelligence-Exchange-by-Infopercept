@@ -1,76 +1,67 @@
 # Tools
 
-This directory contains utility scripts for working with the pattern database.
+This directory contains various tools for managing and enhancing the Regex Intelligence Exchange patterns.
 
-## Validation Tools
+## Import Tools
 
-### validate-new-pattern.py
-
-Validates a pattern file in the new by-vendor format.
-
-Usage:
-```bash
-python validate-new-pattern.py ../patterns/by-vendor/apache/httpd.json
-```
-
-## Pattern Discovery Tools
-
-### list-vendors-products.py
-
-Lists all vendors and products in the new by-vendor structure.
+### import-wappalyzer.py
+Imports technology patterns from Wappalyzer's technology definitions.
 
 Usage:
 ```bash
-python list-vendors-products.py
+python import-wappalyzer.py <wappalyzer-json-file> <output-directory>
 ```
 
-### search-patterns.py
-
-Searches for patterns by vendor or product name in the new by-vendor structure.
+### import-webtech.py
+Imports technology patterns from WebTech's technology definitions.
 
 Usage:
 ```bash
-python search-patterns.py <search-term>
+python import-webtech.py <webtech-json-file> <output-directory>
 ```
 
-## Summary Tools
+Note: These import scripts now check for existing patterns and will skip importing if a pattern with the same product ID already exists.
 
-### generate-pattern-summary.py
+## Duplicate Management Tools
 
-Generates a summary report of all patterns in the database.
+### check-duplicates.py
+Checks the repository for duplicate patterns based on content similarity.
 
 Usage:
 ```bash
-python generate-pattern-summary.py
+python check-duplicates.py
 ```
 
-## Tool Requirements
+### merge-patterns.py
+Merges patterns from different sources, intelligently handling duplicates by combining metadata, test cases, and selecting the best values for confidence and priority.
 
-All tools are written in Python and require:
-- Python 3.6 or higher
+Usage:
+```bash
+python merge-patterns.py <import-directory> <target-directory>
+```
 
-No additional Python packages are required for the validation tools.
+## Pattern Management Tools
 
-## Contributing to Tools
+### add-test-cases.py
+Automatically adds test cases to patterns that are missing them.
 
-When adding new tools or modifying existing ones:
+Usage:
+```bash
+python add-test-cases.py
+```
 
-1. Ensure the tool is well-documented with usage examples
-2. Include error handling for common failure cases
-3. Follow Python best practices and coding standards
-4. Test the tool thoroughly before submitting
-5. Update this README with information about new tools
+### update-patterns.py
+Updates existing patterns to conform to the enhanced structure.
 
-## Tool Descriptions
+Usage:
+```bash
+python update-patterns.py
+```
 
-### Pattern Validation
+### validate-patterns.py
+Validates all patterns in the repository for structural integrity and test coverage.
 
-The validation tools check:
-
-1. JSON schema compliance
-2. Regex pattern compilation
-3. Test case execution
-4. Metadata completeness
-5. Priority and confidence score ranges
-
-These tools help ensure that all patterns in the database meet our quality standards and function correctly.
+Usage:
+```bash
+python validate-patterns.py
+```

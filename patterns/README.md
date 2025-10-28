@@ -24,6 +24,20 @@ All patterns are validated using our [pattern validation tool](../tools/validate
 
 Patterns that don't pass validation will not be accepted.
 
+## Duplicate Management
+
+To prevent duplicate entries:
+
+1. **Import scripts now check for existing patterns** and skip importing if a pattern with the same product ID already exists
+2. **Use the duplicate checker** to identify potential duplicates:
+   ```bash
+   python ../tools/check-duplicates.py
+   ```
+3. **Use the merge tool** to intelligently combine patterns from different sources:
+   ```bash
+   python ../tools/merge-patterns.py <import-directory> <target-directory>
+   ```
+
 ## License
 
 This pattern database is provided under the MIT License. See [LICENSE](../LICENSE) file in the root directory for more information.

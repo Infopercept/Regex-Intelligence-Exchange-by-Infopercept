@@ -50,6 +50,7 @@ Each product file contains all patterns for that product:
   "product": "Product Name",
   "product_id": "vendor-id-product-id",
   "category": "product-category",
+  "subcategory": "product-subcategory",
   "versions": {
     "version-range": [
       {
@@ -64,6 +65,19 @@ Each product file contains all patterns for that product:
           "updated_at": "YYYY-MM-DD",
           "description": "Pattern description",
           "tags": ["tag1", "tag2"],
+          "references": [
+            {
+              "title": "Reference Title",
+              "url": "https://example.com/reference"
+            }
+          ],
+          "severity": "medium",
+          "cvss_score": 0.0,
+          "cwe_ids": ["CWE-XXX"],
+          "affected_versions": ["1.0.0-2.0.0"],
+          "remediation": "Remediation steps",
+          "source": "WhatWeb",
+          "license": "MIT",
           "test_cases": [
             {
               "input": "Test input",
@@ -87,6 +101,19 @@ Each product file contains all patterns for that product:
         "updated_at": "YYYY-MM-DD",
         "description": "Generic pattern description",
         "tags": ["tag1", "tag2"],
+        "references": [
+          {
+            "title": "Reference Title",
+            "url": "https://example.com/reference"
+          }
+        ],
+        "severity": "medium",
+        "cvss_score": 0.0,
+        "cwe_ids": ["CWE-XXX"],
+        "affected_versions": ["1.0.0-2.0.0"],
+        "remediation": "Remediation steps",
+        "source": "WhatWeb",
+        "license": "MIT",
         "test_cases": [
           {
             "input": "Test input",
@@ -129,6 +156,20 @@ The traditional structure organizes patterns by category.
    python tools/validate-pattern.py patterns/[category]/[product-name].json
    ```
 
+## Duplicate Management
+
+To prevent duplicate entries when importing patterns from external sources:
+
+1. **Import scripts now check for existing patterns** and skip importing if a pattern with the same product ID already exists
+2. **Use the duplicate checker** to identify potential duplicates:
+   ```bash
+   python tools/check-duplicates.py
+   ```
+3. **Use the merge tool** to intelligently combine patterns from different sources:
+   ```bash
+   python tools/merge-patterns.py <import-directory> <target-directory>
+   ```
+
 ## Tools
 
 ### Validation Tools
@@ -136,16 +177,27 @@ The traditional structure organizes patterns by category.
 - `validate-pattern.py`: Validates patterns in the traditional structure
 - `validate-new-pattern.py`: Validates patterns in the new structure
 - `validate-all-patterns.py`: Validates all patterns in the traditional structure
+- `validate-imported-patterns.py`: Validates Wappalyzer imported patterns
+- `validate-webtech-patterns.py`: Validates WebTech imported patterns
 
 ### Migration Tools
 
 - `migrate-patterns.py`: Converts traditional structure to new structure
+- `update-patterns.py`: Updates existing patterns to enhanced structure
 
 ### Utility Tools
 
 - `list-vendors-products.py`: Lists all vendors and products in the new structure
 - `search-patterns.py`: Searches for patterns by vendor or product name
 - `compare-structures.py`: Compares pattern counts between structures
+- `add-test-cases.py`: Automatically adds test cases to patterns
+- `check-duplicates.py`: Checks for duplicate patterns
+- `merge-patterns.py`: Merges patterns from different sources
+
+### Integration Tools
+
+- `import-wappalyzer.py`: Imports patterns from Wappalyzer (now skips existing patterns)
+- `import-webtech.py`: Imports patterns from WebTech (now skips existing patterns)
 
 ## Best Practices
 
@@ -157,6 +209,7 @@ The traditional structure organizes patterns by category.
 4. **Provide clear, descriptive names** for patterns
 5. **Include relevant tags** to help with discovery
 6. **Validate patterns** before submitting
+7. **Check for duplicates** before importing external patterns
 
 ## Example Workflow
 
@@ -174,4 +227,9 @@ The traditional structure organizes patterns by category.
 
 4. **Test your regex** with sample inputs to ensure it works correctly
 
-5. **Submit a pull request** with your changes
+5. **Check for duplicates** if importing from external sources:
+   ```bash
+   python tools/check-duplicates.py
+   ```
+
+6. **Submit a pull request** with your changes
