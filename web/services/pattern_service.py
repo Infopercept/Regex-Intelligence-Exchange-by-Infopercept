@@ -15,6 +15,8 @@ DATABASE_SERVICE_AVAILABLE = False
 DatabasePatternService = None
 
 try:
+    import sqlalchemy
+    # Try to import database service
     from services.db_pattern_service import DatabasePatternService as _DatabasePatternService
     DatabasePatternService = _DatabasePatternService
     DATABASE_SERVICE_AVAILABLE = True

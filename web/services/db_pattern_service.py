@@ -8,14 +8,16 @@ from typing import List, Optional
 from models.pattern import Pattern
 from utils.logging import log_manager
 
-# Try to import database components, but make it optional
-DATABASE_AVAILABLE = False
+# Database service is only available if SQLAlchemy is installed
+DATABASE_SERVICE_AVAILABLE = False
 DatabaseManager = None
 
 try:
+    import sqlalchemy
+    # Try to import our database models
     from models.database import DatabaseManager as _DatabaseManager, PatternModel
     DatabaseManager = _DatabaseManager
-    DATABASE_AVAILABLE = True
+    DATABASE_SERVICE_AVAILABLE = True
 except ImportError:
     log_manager.warning("Database components not available, using file-based storage only")
 
@@ -23,15 +25,15 @@ class DatabasePatternService:
     """Service for managing patterns stored in a database."""
     
     def __init__(self, database_url: str = 'sqlite:///patterns.db'):
-        if not DATABASE_AVAILABLE:
+        if not DATABASE_SERVICE_AVAILABLE or not DatabaseManager:
             raise ImportError("Database components not available")
             
-        self.db_manager = DatabaseManager(database_url) if DatabaseManager else None
+        self.db_manager = DatabaseManager(database_url)
         log_manager.info("Database pattern service initialized")
     
     def get_all_patterns(self) -> List[Pattern]:
         """Get all patterns from the database."""
-        if not DATABASE_AVAILABLE or not self.db_manager:
+        if not DATABASE_SERVICE_AVAILABLE or not self.db_manager:
             return []
             
         try:
@@ -59,7 +61,7 @@ class DatabasePatternService:
     
     def get_pattern_by_id(self, vendor_id: str, product_id: str) -> Optional[Pattern]:
         """Get a specific pattern by vendor and product ID."""
-        if not DATABASE_AVAILABLE or not self.db_manager:
+        if not DATABASE_SERVICE_AVAILABLE or not self.db_manager:
             return None
             
         try:
@@ -86,7 +88,7 @@ class DatabasePatternService:
     
     def search_patterns(self, query: str = '', category: str = '', vendor: str = '') -> List[Pattern]:
         """Search patterns in the database."""
-        if not DATABASE_AVAILABLE or not self.db_manager:
+        if not DATABASE_SERVICE_AVAILABLE or not self.db_manager:
             return []
             
         try:
@@ -121,7 +123,7 @@ class DatabasePatternService:
                 self.categories = categories or {}
                 self.subcategories = subcategories or {}
         
-        if not DATABASE_AVAILABLE or not self.db_manager:
+        if not DATABASE_SERVICE_AVAILABLE or not self.db_manager:
             # Return a dummy statistics object
             return Stats()
             

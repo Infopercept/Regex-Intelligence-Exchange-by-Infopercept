@@ -3,6 +3,9 @@ Database models for Regex Intelligence Exchange.
 Only imported when SQLAlchemy is available.
 """
 
+# This file should only be imported when SQLAlchemy is available
+# The import statements are kept here but the file should only be imported conditionally
+
 from sqlalchemy import Column, Integer, String, Text, DateTime, ForeignKey, Index
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
