@@ -104,13 +104,20 @@ cd web
 # Install dependencies
 pip install -r requirements.txt
 
+# (Optional) Install PostgreSQL support
+# pip install psycopg2-binary
+
 # (Optional) Migrate patterns to database
 python scripts/migrate_all_patterns.py
+
+# (Optional) Enable database mode
+export USE_DATABASE=true
 
 # Start the web application
 python run.py
 
 # Access the web interface at http://localhost:5000
+# Access the API documentation at http://localhost:5001/api/docs/
 ```
 
 ## RESTful API
@@ -201,6 +208,9 @@ cd web
 # Install dependencies
 pip install -r requirements.txt
 
+# (Optional) Install PostgreSQL support
+# pip install psycopg2-binary
+
 # (Optional) Migrate patterns to database
 python scripts/migrate_all_patterns.py
 
@@ -211,6 +221,7 @@ export USE_DATABASE=true
 python run.py
 
 # Access the web interface at http://localhost:5000
+# Access the API documentation at http://localhost:5001/api/docs/
 ```
 
 ### For API Users
@@ -222,6 +233,9 @@ cd web
 # Install dependencies
 pip install -r requirements.txt
 
+# (Optional) Install PostgreSQL support
+# pip install psycopg2-binary
+
 # (Optional) Migrate patterns to database
 python scripts/migrate_all_patterns.py
 
@@ -232,7 +246,20 @@ export USE_DATABASE=true
 python run.py --mode api
 
 # Access API endpoints at http://localhost:5001/api/v1/
+# Access API documentation at http://localhost:5001/api/docs/
 ```
+
+### Production Deployment
+
+For production deployment, see the detailed [Production Setup Guide](PRODUCTION_SETUP.md).
+
+Key production considerations:
+- Use a production WSGI server like Gunicorn or uWSGI
+- Configure a reverse proxy like Nginx or Apache
+- Enable Redis for caching (recommended)
+- Use PostgreSQL for database storage (recommended for production)
+- Configure proper SSL/TLS certificates
+- Set up process management with systemd or similar
 
 ### For Contributors
 
