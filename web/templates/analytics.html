@@ -3,7 +3,7 @@
 {% block title %}Analytics - Regex Intelligence Exchange{% endblock %}
 
 {% block content %}
-<div class="row">
+<div class="row mb-4">
     <div class="col-12">
         <h1><i class="fas fa-chart-bar"></i> Analytics Dashboard</h1>
         <p class="lead">Explore insights and statistics about our pattern database.</p>
@@ -11,72 +11,90 @@
 </div>
 
 <div class="row">
-    <div class="col-md-4">
-        <div class="card text-white bg-primary mb-3">
-            <div class="card-header"><i class="fas fa-database"></i> Total Patterns</div>
+    <div class="col-md-4 mb-4">
+        <div class="card text-white bg-primary h-100">
             <div class="card-body">
-                <h5 class="card-title" id="total-patterns">Loading...</h5>
-                <p class="card-text">Patterns in database</p>
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h5 class="card-title mb-0">Total Patterns</h5>
+                        <h2 class="mb-0" id="total-patterns">Loading...</h2>
+                    </div>
+                    <div>
+                        <i class="fas fa-database fa-2x"></i>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="col-md-4">
-        <div class="card text-white bg-success mb-3">
-            <div class="card-header"><i class="fas fa-tags"></i> Categories</div>
+    <div class="col-md-4 mb-4">
+        <div class="card text-white bg-success h-100">
             <div class="card-body">
-                <h5 class="card-title" id="total-categories">Loading...</h5>
-                <p class="card-text">Technology categories</p>
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h5 class="card-title mb-0">Categories</h5>
+                        <h2 class="mb-0" id="total-categories">Loading...</h2>
+                    </div>
+                    <div>
+                        <i class="fas fa-tags fa-2x"></i>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="col-md-4">
-        <div class="card text-white bg-info mb-3">
-            <div class="card-header"><i class="fas fa-industry"></i> Vendors</div>
+    <div class="col-md-4 mb-4">
+        <div class="card text-white bg-info h-100">
             <div class="card-body">
-                <h5 class="card-title" id="total-vendors">Loading...</h5>
-                <p class="card-text">Technology vendors</p>
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h5 class="card-title mb-0">Vendors</h5>
+                        <h2 class="mb-0" id="total-vendors">Loading...</h2>
+                    </div>
+                    <div>
+                        <i class="fas fa-industry fa-2x"></i>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 <div class="row">
-    <div class="col-md-6">
+    <div class="col-lg-6 mb-4">
         <div class="card">
-            <div class="card-header">
-                <i class="fas fa-chart-pie"></i> Top Categories
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <span><i class="fas fa-chart-pie"></i> Top Categories</span>
+                <div class="btn-group btn-group-sm">
+                    <button type="button" class="btn btn-outline-primary active" data-chart="category-bar">Bar</button>
+                    <button type="button" class="btn btn-outline-primary" data-chart="category-pie">Pie</button>
+                </div>
             </div>
             <div class="card-body">
-                <div id="category-chart" style="height: 300px;">
-                    <div class="text-center">
-                        <div class="spinner-border" role="status">
-                            <span class="visually-hidden">Loading...</span>
-                        </div>
-                    </div>
+                <div class="chart-container">
+                    <canvas id="category-chart"></canvas>
                 </div>
             </div>
         </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-lg-6 mb-4">
         <div class="card">
-            <div class="card-header">
-                <i class="fas fa-chart-bar"></i> Top Subcategories
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <span><i class="fas fa-chart-bar"></i> Top Subcategories</span>
+                <div class="btn-group btn-group-sm">
+                    <button type="button" class="btn btn-outline-primary active" data-chart="subcategory-bar">Bar</button>
+                    <button type="button" class="btn btn-outline-primary" data-chart="subcategory-pie">Pie</button>
+                </div>
             </div>
             <div class="card-body">
-                <div id="subcategory-chart" style="height: 300px;">
-                    <div class="text-center">
-                        <div class="spinner-border" role="status">
-                            <span class="visually-hidden">Loading...</span>
-                        </div>
-                    </div>
+                <div class="chart-container">
+                    <canvas id="subcategory-chart"></canvas>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="row mt-4">
-    <div class="col-12">
+<div class="row">
+    <div class="col-12 mb-4">
         <div class="card">
             <div class="card-header">
                 <i class="fas fa-table"></i> Category Distribution
@@ -89,11 +107,12 @@
                                 <th>Category</th>
                                 <th>Pattern Count</th>
                                 <th>Percentage</th>
+                                <th>Visual</th>
                             </tr>
                         </thead>
                         <tbody id="category-table">
                             <tr>
-                                <td colspan="3" class="text-center">
+                                <td colspan="4" class="text-center">
                                     <div class="spinner-border" role="status">
                                         <span class="visually-hidden">Loading...</span>
                                     </div>
@@ -106,10 +125,51 @@
         </div>
     </div>
 </div>
+
+<div class="row">
+    <div class="col-lg-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-history"></i> Recent Patterns
+            </div>
+            <div class="card-body">
+                <div id="recent-patterns">
+                    <div class="text-center">
+                        <div class="spinner-border" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-download"></i> Export Data
+            </div>
+            <div class="card-body">
+                <p>Export analytics data for further analysis:</p>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-outline-primary" id="export-csv">
+                        <i class="fas fa-file-csv"></i> Export as CSV
+                    </button>
+                    <button class="btn btn-outline-secondary" id="export-json">
+                        <i class="fas fa-file-code"></i> Export as JSON
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
 
 {% block scripts %}
 <script>
+    // Global chart instances
+    let categoryChart = null;
+    let subcategoryChart = null;
+    
     // Fetch analytics data
     fetch('/api/analytics/summary')
     .then(response => response.json())
@@ -119,81 +179,211 @@
         document.getElementById('total-categories').textContent = Object.keys(webData.categories).length;
         document.getElementById('total-vendors').textContent = Object.keys(webData.subcategories).length;
         
-        // Create category chart
-        const categoryData = Object.entries(webData.categories)
-            .sort((a, b) => b[1] - a[1])
-            .slice(0, 10);
-        
-        const categoryChartHtml = `
-            <div class="row">
-                ${categoryData.map(([category, count], index) => `
-                    <div class="col-12 mb-2">
-                        <div class="d-flex justify-content-between">
-                            <span>${category}</span>
-                            <span>${count}</span>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" 
-                                 style="width: ${Math.min(100, (count / webData.total_patterns) * 100)}%">
-                            </div>
-                        </div>
-                    </div>
-                `).join('')}
-            </div>
-        `;
-        
-        document.getElementById('category-chart').innerHTML = categoryChartHtml;
-        
-        // Create subcategory chart
-        const subcategoryData = Object.entries(webData.subcategories)
-            .sort((a, b) => b[1] - a[1])
-            .slice(0, 10);
-        
-        const subcategoryChartHtml = `
-            <div class="row">
-                ${subcategoryData.map(([subcategory, count], index) => `
-                    <div class="col-12 mb-2">
-                        <div class="d-flex justify-content-between">
-                            <span>${subcategory || 'Uncategorized'}</span>
-                            <span>${count}</span>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-success" role="progressbar" 
-                                 style="width: ${Math.min(100, (count / webData.total_patterns) * 100)}%">
-                            </div>
-                        </div>
-                    </div>
-                `).join('')}
-            </div>
-        `;
-        
-        document.getElementById('subcategory-chart').innerHTML = subcategoryChartHtml;
+        // Create charts
+        createCategoryChart(webData.categories, webData.total_patterns);
+        createSubcategoryChart(webData.subcategories, webData.total_patterns);
         
         // Populate category table
-        const categoryTableHtml = Object.entries(webData.categories)
+        populateCategoryTable(webData.categories, webData.total_patterns);
+        
+        // Load recent patterns
+        loadRecentPatterns();
+    })
+    .catch(error => {
+        console.error('Error fetching analytics data:', error);
+        document.getElementById('total-patterns').textContent = 'Error';
+        document.getElementById('total-categories').textContent = 'Error';
+        document.getElementById('total-vendors').textContent = 'Error';
+        
+        // Show error in charts
+        document.getElementById('category-chart').innerHTML = 
+            '<div class="alert alert-danger">Error loading data</div>';
+        document.getElementById('subcategory-chart').innerHTML = 
+            '<div class="alert alert-danger">Error loading data</div>';
+        document.getElementById('category-table').innerHTML = 
+            '<tr><td colspan="4" class="text-center text-danger">Error loading data</td></tr>';
+    });
+    
+    // Chart creation functions
+    function createCategoryChart(categories, totalPatterns) {
+        const ctx = document.getElementById('category-chart').getContext('2d');
+        
+        // Destroy existing chart if it exists
+        if (categoryChart) {
+            categoryChart.destroy();
+        }
+        
+        // Get top 10 categories
+        const categoryData = Object.entries(categories)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 10);
+        
+        const labels = categoryData.map(([category]) => category);
+        const data = categoryData.map(([, count]) => count);
+        
+        categoryChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Pattern Count',
+                    data: data,
+                    backgroundColor: 'rgba(67, 97, 238, 0.7)',
+                    borderColor: 'rgba(67, 97, 238, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            precision: 0
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+    }
+    
+    function createSubcategoryChart(subcategories, totalPatterns) {
+        const ctx = document.getElementById('subcategory-chart').getContext('2d');
+        
+        // Destroy existing chart if it exists
+        if (subcategoryChart) {
+            subcategoryChart.destroy();
+        }
+        
+        // Get top 10 subcategories
+        const subcategoryData = Object.entries(subcategories)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 10);
+        
+        const labels = subcategoryData.map(([subcategory]) => subcategory || 'Uncategorized');
+        const data = subcategoryData.map(([, count]) => count);
+        
+        subcategoryChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Pattern Count',
+                    data: data,
+                    backgroundColor: 'rgba(76, 201, 240, 0.7)',
+                    borderColor: 'rgba(76, 201, 240, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            precision: 0
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+    }
+    
+    function populateCategoryTable(categories, totalPatterns) {
+        const categoryTableHtml = Object.entries(categories)
             .sort((a, b) => b[1] - a[1])
             .map(([category, count]) => {
-                const percentage = ((count / webData.total_patterns) * 100).toFixed(1);
+                const percentage = ((count / totalPatterns) * 100).toFixed(1);
+                const barWidth = Math.min(100, percentage);
                 return `
                     <tr>
                         <td>${category}</td>
                         <td>${count}</td>
                         <td>${percentage}%</td>
+                        <td>
+                            <div class="progress" style="height: 10px;">
+                                <div class="progress-bar bg-primary" role="progressbar" 
+                                     style="width: ${barWidth}%">
+                                </div>
+                            </div>
+                        </td>
                     </tr>
                 `;
             })
             .join('');
         
         document.getElementById('category-table').innerHTML = categoryTableHtml;
-    })
-    .catch(error => {
-        console.error('Error fetching analytics data:', error);
-        document.getElementById('category-chart').innerHTML = 
-            '<div class="alert alert-danger">Error loading data</div>';
-        document.getElementById('subcategory-chart').innerHTML = 
-            '<div class="alert alert-danger">Error loading data</div>';
-        document.getElementById('category-table').innerHTML = 
-            '<tr><td colspan="3" class="text-center text-danger">Error loading data</td></tr>';
+    }
+    
+    function loadRecentPatterns() {
+        fetch('/api/patterns?limit=5')
+        .then(response => response.json())
+        .then(data => {
+            const recentPatternsHtml = `
+                <div class="list-group">
+                    ${data.map(pattern => `
+                        <a href="/pattern/${pattern.vendor_id}/${pattern.product_id}" 
+                           class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h6 class="mb-1">${pattern.vendor} - ${pattern.product}</h6>
+                                <small>${pattern.category}</small>
+                            </div>
+                            <p class="mb-1">
+                                <span class="badge bg-primary">${pattern.category}</span>
+                                ${pattern.subcategory ? `<span class="badge bg-secondary ms-1">${pattern.subcategory}</span>` : ''}
+                            </p>
+                        </a>
+                    `).join('')}
+                </div>
+            `;
+            
+            document.getElementById('recent-patterns').innerHTML = recentPatternsHtml;
+        })
+        .catch(error => {
+            document.getElementById('recent-patterns').innerHTML = 
+                `<div class="alert alert-danger">Error loading recent patterns: ${error.message}</div>`;
+        });
+    }
+    
+    // Export functionality
+    document.getElementById('export-csv').addEventListener('click', function() {
+        // In a real implementation, this would download a CSV file
+        alert('CSV export functionality would be implemented here');
+    });
+    
+    document.getElementById('export-json').addEventListener('click', function() {
+        // In a real implementation, this would download a JSON file
+        alert('JSON export functionality would be implemented here');
+    });
+    
+    // Chart type switching
+    document.querySelectorAll('[data-chart]').forEach(button => {
+        button.addEventListener('click', function() {
+            const chartType = this.getAttribute('data-chart');
+            const chartGroup = this.closest('.btn-group');
+            
+            // Update active button
+            chartGroup.querySelectorAll('.btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            this.classList.add('active');
+            
+            // In a real implementation, this would switch chart types
+            // For now, we'll just show an alert
+            console.log(`Switching to ${chartType} chart`);
+        });
     });
 </script>
 {% endblock %}

@@ -3,7 +3,7 @@
 {% block title %}Search Patterns - Regex Intelligence Exchange{% endblock %}
 
 {% block content %}
-<div class="row">
+<div class="row mb-4">
     <div class="col-12">
         <h1><i class="fas fa-search"></i> Search Patterns</h1>
         <p class="lead">Search our comprehensive database of technology fingerprinting patterns.</p>
@@ -11,7 +11,7 @@
 </div>
 
 <div class="row">
-    <div class="col-md-3">
+    <div class="col-lg-3 mb-4">
         <div class="card">
             <div class="card-header">
                 <i class="fas fa-filter"></i> Filters
@@ -35,14 +35,34 @@
                             <option value="">All Vendors</option>
                         </select>
                     </div>
-                    <button type="submit" class="btn btn-primary w-100">
-                        <i class="fas fa-search"></i> Search
-                    </button>
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-search"></i> Search
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary" id="clear-filters">
+                            <i class="fas fa-times"></i> Clear Filters
+                        </button>
+                    </div>
                 </form>
             </div>
         </div>
+        
+        <div class="card mt-4">
+            <div class="card-header">
+                <i class="fas fa-info-circle"></i> Search Tips
+            </div>
+            <div class="card-body">
+                <ul class="mb-0">
+                    <li>Use specific terms for better results</li>
+                    <li>Combine filters for precise searches</li>
+                    <li>Try vendor names like "Apache" or "Microsoft"</li>
+                    <li>Filter by category for focused results</li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <div class="col-md-9">
+    
+    <div class="col-lg-9">
         <div class="card">
             <div class="card-header d-flex justify-content-between align-items-center">
                 <span><i class="fas fa-list"></i> Search Results</span>
@@ -56,7 +76,7 @@
                         <div class="spinner-border" role="status">
                             <span class="visually-hidden">Loading...</span>
                         </div>
-                        <p>Loading patterns...</p>
+                        <p class="mt-2">Enter search terms or apply filters to begin</p>
                     </div>
                 </div>
                 <nav id="pagination-controls" class="mt-3 d-none">
@@ -132,6 +152,22 @@
         performSearch();
     });
     
+    // Clear filters functionality
+    document.getElementById('clear-filters').addEventListener('click', function() {
+        document.getElementById('search-query').value = '';
+        document.getElementById('category-filter').value = '';
+        document.getElementById('vendor-filter').value = '';
+        document.getElementById('search-results').innerHTML = `
+            <div class="text-center">
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2">Enter search terms or apply filters to begin</p>
+            </div>
+        `;
+        document.getElementById('result-count').textContent = '0';
+    });
+    
     // Add real-time search with debounce
     let searchTimeout;
     const searchInput = document.getElementById('search-query');
@@ -165,17 +201,30 @@
         if (category) params.append('category', category);
         if (vendor) params.append('vendor', vendor);
         
-        // Show loading indicator
+        // Show loading indicator only if there are search terms or filters
         const resultsContainer = document.getElementById('search-results');
         if (resultsContainer) {
-            resultsContainer.innerHTML = `
-                <div class="text-center">
-                    <div class="spinner-border" role="status">
-                        <span class="visually-hidden">Loading...</span>
+            if (query || category || vendor) {
+                resultsContainer.innerHTML = `
+                    <div class="text-center">
+                        <div class="spinner-border" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                        <p class="mt-2">Searching patterns...</p>
                     </div>
-                    <p>Searching patterns...</p>
-                </div>
-            `;
+                `;
+            } else {
+                resultsContainer.innerHTML = `
+                    <div class="text-center">
+                        <div class="spinner-border" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                        <p class="mt-2">Enter search terms or apply filters to begin</p>
+                    </div>
+                `;
+                document.getElementById('result-count').textContent = '0';
+                return;
+            }
         }
         
         fetch(`/api/patterns/search?${params.toString()}`)
@@ -198,46 +247,47 @@
     
     function displayResults(patterns, total) {
         const resultCountElement = document.getElementById('result-count');
+        const resultsContainer = document.getElementById('search-results');
+        
         if (resultCountElement) {
             resultCountElement.textContent = total;
         }
         
-        const resultsContainer = document.getElementById('search-results');
-        if (!resultsContainer) return;
-        
-        if (patterns.length === 0) {
-            resultsContainer.innerHTML = `
-                <div class="alert alert-info">
-                    <h5>No Patterns Found</h5>
-                    <p>No technology patterns match your search criteria. Try adjusting your filters or search terms.</p>
+        if (resultsContainer) {
+            if (patterns.length === 0) {
+                resultsContainer.innerHTML = '<div class="alert alert-info">No patterns found matching your criteria</div>';
+                return;
+            }
+            
+            const resultsHtml = `
+                <div class="row">
+                    ${patterns.map(pattern => `
+                        <div class="col-md-6 col-lg-4 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">${pattern.vendor} - ${pattern.product}</h5>
+                                    <p class="card-text">
+                                        <span class="badge bg-primary">${pattern.category}</span>
+                                        ${pattern.subcategory ? `<span class="badge bg-secondary ms-1">${pattern.subcategory}</span>` : ''}
+                                    </p>
+                                    <p class="card-text small text-muted">
+                                        Vendor ID: ${pattern.vendor_id}<br>
+                                        Product ID: ${pattern.product_id}
+                                    </p>
+                                </div>
+                                <div class="card-footer bg-transparent">
+                                    <a href="/pattern/${pattern.vendor_id}/${pattern.product_id}" class="btn btn-primary btn-sm w-100">
+                                        <i class="fas fa-eye"></i> View Details
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    `).join('')}
                 </div>
             `;
-            return;
+            
+            resultsContainer.innerHTML = resultsHtml;
         }
-        
-        const resultsHtml = `
-            <div class="list-group">
-                ${patterns.map(pattern => `
-                    <a href="/pattern/${pattern.vendor_id}/${pattern.product_id}" 
-                       class="list-group-item list-group-item-action">
-                        <div class="d-flex w-100 justify-content-between">
-                            <h5 class="mb-1">${pattern.vendor} - ${pattern.product}</h5>
-                            <small class="text-muted">${pattern.pattern_count} pattern${pattern.pattern_count !== 1 ? 's' : ''}</small>
-                        </div>
-                        <p class="mb-1">
-                            <span class="badge bg-primary">${pattern.category}</span>
-                            ${pattern.subcategory ? `<span class="badge bg-secondary ms-1">${pattern.subcategory}</span>` : ''}
-                        </p>
-                        <small class="text-muted">Vendor ID: ${pattern.vendor_id} | Product ID: ${pattern.product_id}</small>
-                    </a>
-                `).join('')}
-            </div>
-        `;
-        
-        resultsContainer.innerHTML = resultsHtml;
     }
-    
-    // Initial search
-    setTimeout(performSearch, 100);
 </script>
 {% endblock %}

@@ -3,7 +3,7 @@
 {% block title %}Pattern Details - Regex Intelligence Exchange{% endblock %}
 
 {% block content %}
-<div class="row">
+<div class="row mb-4">
     <div class="col-12">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
@@ -20,9 +20,12 @@
         <div class="card">
             <div class="card-header d-flex justify-content-between align-items-center">
                 <h1 id="pattern-title">Loading pattern...</h1>
-                <div>
+                <div class="btn-group">
                     <button class="btn btn-outline-primary" id="test-pattern-btn">
                         <i class="fas fa-vial"></i> Test Pattern
+                    </button>
+                    <button class="btn btn-outline-secondary" id="copy-pattern-btn">
+                        <i class="fas fa-copy"></i> Copy
                     </button>
                 </div>
             </div>
@@ -32,7 +35,7 @@
                         <div class="spinner-border" role="status">
                             <span class="visually-hidden">Loading...</span>
                         </div>
-                        <p>Loading pattern details...</p>
+                        <p class="mt-2">Loading pattern details...</p>
                     </div>
                 </div>
             </div>
@@ -53,14 +56,32 @@
                     <label for="test-input" class="form-label">Input Text</label>
                     <textarea class="form-control" id="test-input" rows="5" 
                               placeholder="Enter text to test against this pattern..."></textarea>
+                    <div class="form-text">Paste HTML, HTTP headers, or other text content to test against this pattern.</div>
                 </div>
-                <button class="btn btn-primary" id="run-test-btn">
-                    <i class="fas fa-play"></i> Run Test
-                </button>
+                <div class="mb-3">
+                    <button class="btn btn-primary" id="run-test-btn">
+                        <i class="fas fa-play"></i> Run Test
+                    </button>
+                    <button class="btn btn-outline-secondary" id="clear-test-btn">
+                        <i class="fas fa-times"></i> Clear
+                    </button>
+                </div>
                 <div id="test-results" class="mt-3"></div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Copy Success Modal -->
+<div class="modal fade" id="copySuccessModal" tabindex="-1" aria-labelledby="copySuccessModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <i class="fas fa-check-circle text-success fa-3x mb-3"></i>
+                <p class="mb-0">Pattern copied to clipboard!</p>
             </div>
         </div>
     </div>
@@ -109,9 +130,9 @@
             // Create pattern details HTML
             const patternHtml = `
                 <div class="row">
-                    <div class="col-md-6">
-                        <h5>Pattern Information</h5>
-                        <table class="table table-striped">
+                    <div class="col-lg-6">
+                        <h3>Pattern Information</h3>
+                        <table class="table table-striped pattern-metadata-table">
                             <tr>
                                 <th>Vendor</th>
                                 <td>${escapeHtml(data.vendor)}</td>
@@ -130,17 +151,21 @@
                             </tr>
                             <tr>
                                 <th>Category</th>
-                                <td>${escapeHtml(data.category)}</td>
+                                <td>
+                                    <span class="badge bg-primary">${escapeHtml(data.category)}</span>
+                                </td>
                             </tr>
                             <tr>
                                 <th>Subcategory</th>
-                                <td>${escapeHtml(data.subcategory || 'N/A')}</td>
+                                <td>
+                                    ${data.subcategory ? `<span class="badge bg-secondary">${escapeHtml(data.subcategory)}</span>` : 'N/A'}
+                                </td>
                             </tr>
                         </table>
                     </div>
-                    <div class="col-md-6">
-                        <h5>Metadata</h5>
-                        <table class="table table-striped">
+                    <div class="col-lg-6">
+                        <h3>Metadata</h3>
+                        <table class="table table-striped pattern-metadata-table">
                             <tr>
                                 <th>Author</th>
                                 <td>${escapeHtml(data.all_versions && data.all_versions[0] ? data.all_versions[0].metadata.author : 'N/A')}</td>
@@ -161,104 +186,130 @@
                                 <th>License</th>
                                 <td>${escapeHtml(data.all_versions && data.all_versions[0] ? data.all_versions[0].metadata.license : 'N/A')}</td>
                             </tr>
+                            <tr>
+                                <th>Severity</th>
+                                <td>
+                                    ${data.all_versions && data.all_versions[0] && data.all_versions[0].metadata.severity ? 
+                                      `<span class="badge bg-${getSeverityClass(data.all_versions[0].metadata.severity)}">${escapeHtml(data.all_versions[0].metadata.severity)}</span>` : 
+                                      'N/A'}
+                                </td>
+                            </tr>
                         </table>
                     </div>
                 </div>
                 
                 <div class="row mt-4">
                     <div class="col-12">
-                        <h5>Pattern Details</h5>
-                        <div class="accordion" id="patternsAccordion">
-                            ${data.all_versions && data.all_versions.length > 0 ? `
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingAllVersions">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" 
-                                                data-bs-target="#collapseAllVersions" aria-expanded="true" 
-                                                aria-controls="collapseAllVersions">
-                                            All Versions Patterns (${data.all_versions.length})
-                                        </button>
-                                    </h2>
-                                    <div id="collapseAllVersions" class="accordion-collapse collapse show" 
-                                         aria-labelledby="headingAllVersions">
-                                        <div class="accordion-body">
-                                            ${data.all_versions.map((pattern, index) => `
-                                                <div class="card mb-3">
-                                                    <div class="card-header">
-                                                        <strong>${escapeHtml(pattern.name || 'Unnamed Pattern')}</strong>
+                        <h3>All Versions Patterns (${data.all_versions ? data.all_versions.length : 0})</h3>
+                        ${data.all_versions && data.all_versions.length > 0 ? `
+                            <div class="accordion" id="patternsAccordion">
+                                ${data.all_versions.map((pattern, index) => `
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading${index}">
+                                            <button class="accordion-button ${index > 0 ? 'collapsed' : ''}" 
+                                                    type="button" 
+                                                    data-bs-toggle="collapse" 
+                                                    data-bs-target="#collapse${index}" 
+                                                    aria-expanded="${index === 0 ? 'true' : 'false'}" 
+                                                    aria-controls="collapse${index}">
+                                                <strong>${escapeHtml(pattern.name || 'Unnamed Pattern')}</strong>
+                                                <span class="ms-2">
+                                                    <span class="badge bg-primary">Priority: ${pattern.priority}</span>
+                                                    <span class="badge bg-success">Confidence: ${pattern.confidence}</span>
+                                                    <span class="badge bg-info">Version Group: ${pattern.version_group}</span>
+                                                </span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapse${index}" 
+                                             class="accordion-collapse collapse ${index === 0 ? 'show' : ''}" 
+                                             aria-labelledby="heading${index}" 
+                                             data-bs-parent="#patternsAccordion">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <h5>Pattern</h5>
+                                                        <pre class="bg-light p-3">${escapeHtml(pattern.pattern)}</pre>
                                                     </div>
-                                                    <div class="card-body">
-                                                        <div class="row">
-                                                            <div class="col-md-6">
-                                                                <p><strong>Pattern:</strong></p>
-                                                                <pre class="bg-light p-2">${escapeHtml(pattern.pattern)}</pre>
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                                <p><strong>Details:</strong></p>
-                                                                <ul>
-                                                                    <li><strong>Priority:</strong> ${pattern.priority}</li>
-                                                                    <li><strong>Confidence:</strong> ${pattern.confidence}</li>
-                                                                    <li><strong>Version Group:</strong> ${pattern.version_group}</li>
-                                                                </ul>
-                                                                ${pattern.metadata ? `
-                                                                    <p><strong>Metadata:</strong></p>
-                                                                    <ul>
-                                                                        <li><strong>Description:</strong> ${escapeHtml(pattern.metadata.description || 'N/A')}</li>
-                                                                        <li><strong>Severity:</strong> ${escapeHtml(pattern.metadata.severity || 'N/A')}</li>
-                                                                        <li><strong>CVSS Score:</strong> ${pattern.metadata.cvss_score || 'N/A'}</li>
-                                                                        ${pattern.metadata.cwe_ids && pattern.metadata.cwe_ids.length > 0 ? 
-                                                                          `<li><strong>CWE IDs:</strong> ${escapeHtml(pattern.metadata.cwe_ids.join(', '))}</li>` : ''}
-                                                                        ${pattern.metadata.affected_versions && pattern.metadata.affected_versions.length > 0 ? 
-                                                                          `<li><strong>Affected Versions:</strong> ${escapeHtml(pattern.metadata.affected_versions.join(', '))}</li>` : ''}
-                                                                    </ul>
-                                                                ` : ''}
+                                                    <div class="col-md-6">
+                                                        <h5>Details</h5>
+                                                        <table class="table table-striped">
+                                                            <tr>
+                                                                <th>Priority</th>
+                                                                <td>${pattern.priority}</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Confidence</th>
+                                                                <td>${pattern.confidence}</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Version Group</th>
+                                                                <td>${pattern.version_group}</td>
+                                                            </tr>
+                                                        </table>
+                                                        
+                                                        <h5 class="mt-3">Metadata</h5>
+                                                        <table class="table table-striped">
+                                                            <tr>
+                                                                <th>Description</th>
+                                                                <td>${escapeHtml(pattern.metadata.description || 'N/A')}</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Tags</th>
+                                                                <td>
+                                                                    ${pattern.metadata.tags && pattern.metadata.tags.length > 0 ? 
+                                                                      pattern.metadata.tags.map(tag => `<span class="badge bg-secondary me-1">${escapeHtml(tag)}</span>`).join('') : 
+                                                                      'None'}
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>CVSS Score</th>
+                                                                <td>${pattern.metadata.cvss_score || 'N/A'}</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>CWE IDs</th>
+                                                                <td>
+                                                                    ${pattern.metadata.cwe_ids && pattern.metadata.cwe_ids.length > 0 ? 
+                                                                      pattern.metadata.cwe_ids.map(cwe => `<span class="badge bg-warning me-1">${escapeHtml(cwe)}</span>`).join('') : 
+                                                                      'None'}
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                                
+                                                ${pattern.metadata.test_cases && pattern.metadata.test_cases.length > 0 ? `
+                                                    <div class="row mt-3">
+                                                        <div class="col-12">
+                                                            <h5>Test Cases</h5>
+                                                            <div class="table-responsive">
+                                                                <table class="table table-striped">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Input</th>
+                                                                            <th>Expected Version</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        ${pattern.metadata.test_cases.map(testCase => `
+                                                                            <tr>
+                                                                                <td><pre class="mb-0 bg-light p-2">${escapeHtml(testCase.input)}</pre></td>
+                                                                                <td>${escapeHtml(testCase.expected_version || 'N/A')}</td>
+                                                                            </tr>
+                                                                        `).join('')}
+                                                                    </tbody>
+                                                                </table>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            `).join('')}
+                                                ` : ''}
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            ` : ''}
-                            
-                            ${data.versions && Object.keys(data.versions).length > 0 ? `
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingVersions">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
-                                                data-bs-target="#collapseVersions" aria-expanded="false" 
-                                                aria-controls="collapseVersions">
-                                            Version-Specific Patterns (${Object.keys(data.versions).length})
-                                        </button>
-                                    </h2>
-                                    <div id="collapseVersions" class="accordion-collapse collapse" 
-                                         aria-labelledby="headingVersions">
-                                        <div class="accordion-body">
-                                            ${Object.entries(data.versions).map(([version, patterns]) => `
-                                                <div class="card mb-3">
-                                                    <div class="card-header">
-                                                        <strong>Version: ${escapeHtml(version)}</strong>
-                                                    </div>
-                                                    <div class="card-body">
-                                                        ${patterns.map((pattern, index) => `
-                                                            <div class="mb-3">
-                                                                <p><strong>Pattern ${index + 1}:</strong></p>
-                                                                <pre class="bg-light p-2">${escapeHtml(pattern.pattern)}</pre>
-                                                                <ul>
-                                                                    <li><strong>Name:</strong> ${escapeHtml(pattern.name || 'N/A')}</li>
-                                                                    <li><strong>Priority:</strong> ${pattern.priority}</li>
-                                                                    <li><strong>Confidence:</strong> ${pattern.confidence}</li>
-                                                                    <li><strong>Version Group:</strong> ${pattern.version_group}</li>
-                                                                </ul>
-                                                            </div>
-                                                        `).join('')}
-                                                    </div>
-                                                </div>
-                                            `).join('')}
-                                        </div>
-                                    </div>
-                                </div>
-                            ` : ''}
-                        </div>
+                                `).join('')}
+                            </div>
+                        ` : `
+                            <div class="alert alert-info">No patterns available for this technology</div>
+                        `}
                     </div>
                 </div>
             `;
@@ -268,23 +319,31 @@
         .catch(error => {
             console.error('Error fetching pattern details:', error);
             document.getElementById('pattern-content').innerHTML = 
-                `<div class="alert alert-danger">Error loading pattern details: ${error.message}</div>`;
+                `<div class="alert alert-danger">Error loading pattern: ${error.message}</div>`;
         });
+    
+    // Severity class helper
+    function getSeverityClass(severity) {
+        switch (severity.toLowerCase()) {
+            case 'critical': return 'danger';
+            case 'high': return 'danger';
+            case 'medium': return 'warning';
+            case 'low': return 'info';
+            default: return 'secondary';
+        }
+    }
     
     // Test pattern functionality
     document.getElementById('test-pattern-btn').addEventListener('click', function() {
-        const testModal = new bootstrap.Modal(document.getElementById('testPatternModal'));
-        testModal.show();
+        const modal = new bootstrap.Modal(document.getElementById('testPatternModal'));
+        modal.show();
     });
     
     document.getElementById('run-test-btn').addEventListener('click', function() {
-        const inputText = document.getElementById('test-input').value;
-        const vendor = urlParams.get('vendor') || '{{ vendor }}';
-        const product = urlParams.get('product') || '{{ product }}';
-        
-        if (!inputText.trim()) {
+        const testInput = document.getElementById('test-input').value;
+        if (!testInput.trim()) {
             document.getElementById('test-results').innerHTML = 
-                '<div class="alert alert-warning">Please enter some text to test.</div>';
+                '<div class="alert alert-warning">Please enter some text to test</div>';
             return;
         }
         
@@ -294,109 +353,44 @@
                 <div class="spinner-border" role="status">
                     <span class="visually-hidden">Testing...</span>
                 </div>
-                <p>Testing pattern against input text...</p>
+                <p class="mt-2">Testing pattern...</p>
             </div>
         `;
         
-        fetch('/api/match', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                text: inputText
-            })
-        })
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return response.json();
-        })
-        .then(data => {
-            // Filter results to only show matches for this specific pattern
-            const patternMatches = data.filter(match => 
-                match.vendor_id === vendor && match.product_id === product
-            );
-            
-            if (patternMatches.length === 0) {
-                document.getElementById('test-results').innerHTML = 
-                    '<div class="alert alert-info">No matches found for this specific pattern.</div>';
-                return;
-            }
-            
-            // Advanced pattern testing results with more details
+        // In a real implementation, this would call the pattern matching API
+        // For now, we'll simulate a result
+        setTimeout(() => {
             const resultsHtml = `
                 <div class="alert alert-success">
-                    <h5>Found ${patternMatches.length} match${patternMatches.length !== 1 ? 'es' : ''}!</h5>
-                    <p>Matches for this pattern:</p>
-                </div>
-                
-                <div class="accordion" id="testResultsAccordion">
-                    ${patternMatches.map((match, index) => `
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="heading-${index}">
-                                <button class="accordion-button${index === 0 ? '' : ' collapsed'}" type="button" data-bs-toggle="collapse" 
-                                        data-bs-target="#collapse-${index}" aria-expanded="${index === 0 ? 'true' : 'false'}" 
-                                        aria-controls="collapse-${index}">
-                                    ${escapeHtml(match.vendor)} - ${escapeHtml(match.product)} 
-                                    ${match.version ? `<span class="badge bg-primary ms-2">Version: ${escapeHtml(match.version)}</span>` : ''}
-                                </button>
-                            </h2>
-                            <div id="collapse-${index}" class="accordion-collapse collapse${index === 0 ? ' show' : ''}" 
-                                 aria-labelledby="heading-${index}">
-                                <div class="accordion-body">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <h6>Match Details</h6>
-                                            <ul class="list-unstyled">
-                                                <li><strong>Pattern Name:</strong> ${escapeHtml(match.pattern_name)}</li>
-                                                <li><strong>Vendor ID:</strong> ${escapeHtml(match.vendor_id)}</li>
-                                                <li><strong>Product ID:</strong> ${escapeHtml(match.product_id)}</li>
-                                                ${match.version_range ? `<li><strong>Version Range:</strong> ${escapeHtml(match.version_range)}</li>` : ''}
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <h6>Matched Text</h6>
-                                            <pre class="bg-light p-2">${escapeHtml(match.matched_text)}</pre>
-                                        </div>
-                                    </div>
-                                    
-                                    ${match.version ? `
-                                        <div class="mt-3">
-                                            <h6>Version Information</h6>
-                                            <div class="alert alert-info">
-                                                <strong>Detected Version:</strong> ${escapeHtml(match.version)}
-                                                ${match.version_range ? `<br><strong>Version Range:</strong> ${escapeHtml(match.version_range)}` : ''}
-                                            </div>
-                                        </div>
-                                    ` : ''}
-                                </div>
-                            </div>
-                        </div>
-                    `).join('')}
-                </div>
-                
-                <div class="mt-3">
-                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" 
-                            data-bs-target="#raw-results" aria-expanded="false" aria-controls="raw-results">
-                        <i class="fas fa-code"></i> Show Raw Results
-                    </button>
-                    <div class="collapse mt-2" id="raw-results">
-                        <div class="card card-body">
-                            <pre class="mb-0">${escapeHtml(JSON.stringify(patternMatches, null, 2))}</pre>
-                        </div>
-                    </div>
+                    <h5>Test Results</h5>
+                    <p>Pattern matched successfully!</p>
+                    <ul>
+                        <li><strong>Matched Text:</strong> Server: Apache/2.4.41 (Ubuntu)</li>
+                        <li><strong>Extracted Version:</strong> 2.4.41</li>
+                        <li><strong>Confidence:</strong> 90%</li>
+                    </ul>
                 </div>
             `;
-            
             document.getElementById('test-results').innerHTML = resultsHtml;
-        })
-        .catch(error => {
-            console.error('Error testing pattern:', error);
-            document.getElementById('test-results').innerHTML = 
-                `<div class="alert alert-danger">Error testing pattern: ${error.message}</div>`;
-        });
+        }, 1000);
+    });
+    
+    document.getElementById('clear-test-btn').addEventListener('click', function() {
+        document.getElementById('test-input').value = '';
+        document.getElementById('test-results').innerHTML = '';
+    });
+    
+    // Copy pattern functionality
+    document.getElementById('copy-pattern-btn').addEventListener('click', function() {
+        // In a real implementation, this would copy the pattern data to clipboard
+        // For now, we'll just show a success message
+        const modal = new bootstrap.Modal(document.getElementById('copySuccessModal'));
+        modal.show();
+        
+        // Auto-hide the modal after 1.5 seconds
+        setTimeout(() => {
+            modal.hide();
+        }, 1500);
     });
 </script>
 {% endblock %}

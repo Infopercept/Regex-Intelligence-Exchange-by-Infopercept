@@ -1,0 +1,355 @@
+{% extends "base.html" %}
+
+{% block title %}Pattern Editor - Regex Intelligence Exchange{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <h1><i class="fas fa-edit"></i> Pattern Editor</h1>
+        <p class="lead">Create and edit technology fingerprinting patterns.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-8">
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-file-code"></i> Pattern Definition
+            </div>
+            <div class="card-body">
+                <form id="pattern-form">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="vendor" class="form-label">Vendor</label>
+                            <input type="text" class="form-control" id="vendor" placeholder="Enter vendor name">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="vendor-id" class="form-label">Vendor ID</label>
+                            <input type="text" class="form-control" id="vendor-id" placeholder="Enter vendor ID">
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="product" class="form-label">Product</label>
+                            <input type="text" class="form-control" id="product" placeholder="Enter product name">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="product-id" class="form-label">Product ID</label>
+                            <input type="text" class="form-control" id="product-id" placeholder="Enter product ID">
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="category" class="form-label">Category</label>
+                            <select class="form-select" id="category">
+                                <option value="">Select category</option>
+                                <option value="web">Web</option>
+                                <option value="security">Security</option>
+                                <option value="database">Database</option>
+                                <option value="os">Operating System</option>
+                                <option value="framework">Framework</option>
+                                <option value="cms">CMS</option>
+                                <option value="ecommerce">E-commerce</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="subcategory" class="form-label">Subcategory</label>
+                            <input type="text" class="form-control" id="subcategory" placeholder="Enter subcategory">
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Description</label>
+                        <textarea class="form-control" id="description" rows="3" placeholder="Enter pattern description"></textarea>
+                    </div>
+                    
+                    <div class="card mt-4">
+                        <div class="card-header">
+                            <i class="fas fa-list"></i> Pattern Versions
+                        </div>
+                        <div class="card-body">
+                            <div id="pattern-versions">
+                                <div class="pattern-version mb-4 p-3 border rounded">
+                                    <h5>Pattern Version 1</h5>
+                                    <div class="mb-3">
+                                        <label for="pattern-name-1" class="form-label">Pattern Name</label>
+                                        <input type="text" class="form-control" id="pattern-name-1" placeholder="Enter pattern name">
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label for="pattern-regex-1" class="form-label">Regex Pattern</label>
+                                        <textarea class="form-control" id="pattern-regex-1" rows="3" placeholder="Enter regex pattern"></textarea>
+                                        <div class="form-text">Use proper regex syntax. Capture groups for version extraction should be specified.</div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-4 mb-3">
+                                            <label for="priority-1" class="form-label">Priority</label>
+                                            <input type="number" class="form-control" id="priority-1" value="100" min="0" max="1000">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <label for="confidence-1" class="form-label">Confidence</label>
+                                            <input type="number" class="form-control" id="confidence-1" value="0.8" min="0" max="1" step="0.1">
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <label for="version-group-1" class="form-label">Version Group</label>
+                                            <input type="number" class="form-control" id="version-group-1" value="0" min="0">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label for="tags-1" class="form-label">Tags</label>
+                                        <input type="text" class="form-control" id="tags-1" placeholder="Enter tags separated by commas">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <button type="button" class="btn btn-outline-primary" id="add-version">
+                                <i class="fas fa-plus"></i> Add Version
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-save"></i> Save Pattern
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary" id="validate-pattern">
+                            <i class="fas fa-check-circle"></i> Validate
+                        </button>
+                        <button type="button" class="btn btn-outline-info" id="test-pattern">
+                            <i class="fas fa-vial"></i> Test
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-lg-4">
+        <div class="card mb-4">
+            <div class="card-header">
+                <i class="fas fa-info-circle"></i> Editor Help
+            </div>
+            <div class="card-body">
+                <h6>Pattern Structure</h6>
+                <ul>
+                    <li>Vendor and Product identify the technology</li>
+                    <li>Category and Subcategory classify the technology</li>
+                    <li>Each pattern can have multiple versions</li>
+                    <li>Priority determines matching order (higher first)</li>
+                    <li>Confidence indicates match reliability (0.0-1.0)</li>
+                    <li>Version Group identifies capture group for version extraction</li>
+                </ul>
+                
+                <h6>Regex Guidelines</h6>
+                <ul>
+                    <li>Use proper regex syntax</li>
+                    <li>Escape special characters when needed</li>
+                    <li>Use capture groups for version extraction</li>
+                    <li>Test patterns thoroughly</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-history"></i> Recent Edits
+            </div>
+            <div class="card-body">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h6 class="mb-1">Apache HTTPD</h6>
+                            <small>2 minutes ago</small>
+                        </div>
+                        <p class="mb-1">Updated version patterns</p>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h6 class="mb-1">Nginx</h6>
+                            <small>1 hour ago</small>
+                        </div>
+                        <p class="mb-1">Added new pattern version</p>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h6 class="mb-1">WordPress</h6>
+                            <small>3 hours ago</small>
+                        </div>
+                        <p class="mb-1">Created new pattern</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Test Pattern Modal -->
+<div class="modal fade" id="testPatternModal" tabindex="-1" aria-labelledby="testPatternModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="testPatternModalLabel">Test Pattern</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label for="test-input" class="form-label">Input Text</label>
+                    <textarea class="form-control" id="test-input" rows="5" 
+                              placeholder="Enter text to test against this pattern..."></textarea>
+                </div>
+                <button class="btn btn-primary" id="run-test-btn">
+                    <i class="fas fa-play"></i> Run Test
+                </button>
+                <div id="test-results" class="mt-3"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    // Pattern version counter
+    let versionCounter = 1;
+    
+    // Add version functionality
+    document.getElementById('add-version').addEventListener('click', function() {
+        versionCounter++;
+        
+        const versionHtml = `
+            <div class="pattern-version mb-4 p-3 border rounded" id="version-${versionCounter}">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h5>Pattern Version ${versionCounter}</h5>
+                    <button type="button" class="btn btn-sm btn-outline-danger remove-version" data-version="${versionCounter}">
+                        <i class="fas fa-trash"></i> Remove
+                    </button>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="pattern-name-${versionCounter}" class="form-label">Pattern Name</label>
+                    <input type="text" class="form-control" id="pattern-name-${versionCounter}" placeholder="Enter pattern name">
+                </div>
+                
+                <div class="mb-3">
+                    <label for="pattern-regex-${versionCounter}" class="form-label">Regex Pattern</label>
+                    <textarea class="form-control" id="pattern-regex-${versionCounter}" rows="3" placeholder="Enter regex pattern"></textarea>
+                    <div class="form-text">Use proper regex syntax. Capture groups for version extraction should be specified.</div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <label for="priority-${versionCounter}" class="form-label">Priority</label>
+                        <input type="number" class="form-control" id="priority-${versionCounter}" value="100" min="0" max="1000">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="confidence-${versionCounter}" class="form-label">Confidence</label>
+                        <input type="number" class="form-control" id="confidence-${versionCounter}" value="0.8" min="0" max="1" step="0.1">
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="version-group-${versionCounter}" class="form-label">Version Group</label>
+                        <input type="number" class="form-control" id="version-group-${versionCounter}" value="0" min="0">
+                    </div>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="tags-${versionCounter}" class="form-label">Tags</label>
+                    <input type="text" class="form-control" id="tags-${versionCounter}" placeholder="Enter tags separated by commas">
+                </div>
+            </div>
+        `;
+        
+        document.getElementById('pattern-versions').insertAdjacentHTML('beforeend', versionHtml);
+        
+        // Add event listener to remove button
+        document.querySelector(`.remove-version[data-version="${versionCounter}"]`).addEventListener('click', function() {
+            document.getElementById(`version-${versionCounter}`).remove();
+        });
+    });
+    
+    // Remove version functionality (for existing versions)
+    document.querySelectorAll('.remove-version').forEach(button => {
+        button.addEventListener('click', function() {
+            const versionId = this.getAttribute('data-version');
+            document.getElementById(`version-${versionId}`).remove();
+        });
+    });
+    
+    // Form submission
+    document.getElementById('pattern-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        showNotification('Pattern saved successfully!', 'success');
+    });
+    
+    // Validate pattern
+    document.getElementById('validate-pattern').addEventListener('click', function() {
+        showNotification('Pattern validation passed!', 'success');
+    });
+    
+    // Test pattern
+    document.getElementById('test-pattern').addEventListener('click', function() {
+        const modal = new bootstrap.Modal(document.getElementById('testPatternModal'));
+        modal.show();
+    });
+    
+    // Run test
+    document.getElementById('run-test-btn').addEventListener('click', function() {
+        const testInput = document.getElementById('test-input').value;
+        if (!testInput.trim()) {
+            document.getElementById('test-results').innerHTML = 
+                '<div class="alert alert-warning">Please enter some text to test</div>';
+            return;
+        }
+        
+        // Show loading indicator
+        document.getElementById('test-results').innerHTML = `
+            <div class="text-center">
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Testing...</span>
+                </div>
+                <p class="mt-2">Testing pattern...</p>
+            </div>
+        `;
+        
+        // In a real implementation, this would call the pattern matching API
+        // For now, we'll simulate a result
+        setTimeout(() => {
+            const resultsHtml = `
+                <div class="alert alert-success">
+                    <h5>Test Results</h5>
+                    <p>Pattern matched successfully!</p>
+                    <ul>
+                        <li><strong>Matched Text:</strong> Server: Apache/2.4.41 (Ubuntu)</li>
+                        <li><strong>Extracted Version:</strong> 2.4.41</li>
+                        <li><strong>Confidence:</strong> 90%</li>
+                    </ul>
+                </div>
+            `;
+            document.getElementById('test-results').innerHTML = resultsHtml;
+        }, 1000);
+    });
+    
+    // Utility function for notifications
+    function showNotification(message, type = 'info') {
+        // Create notification element
+        const alertHtml = `
+            <div class="alert alert-${type} alert-dismissible fade show" role="alert">
+                ${message}
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        `;
+        
+        // Add to page
+        const container = document.querySelector('.container-fluid');
+        if (container) {
+            container.insertAdjacentHTML('afterbegin', alertHtml);
+        }
+    }
+</script>
+{% endblock %}

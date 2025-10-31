@@ -16,7 +16,6 @@ from services.pattern_service import pattern_service
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'tools'))
 
 # Import our utilities
-import importlib.util
 tools_dir = os.path.join(os.path.dirname(__file__), '..', '..', 'tools')
 
 # Import version utilities
@@ -39,6 +38,13 @@ def index():
     # Log the request
     log_request_info(request, 200)
     return render_template('index.html')
+
+@main.route('/editor')
+def pattern_editor():
+    """Pattern editor page"""
+    # Log the request
+    log_request_info(request, 200)
+    return render_template('pattern_editor.html')
 
 @main.route('/api/patterns')
 def api_patterns():
