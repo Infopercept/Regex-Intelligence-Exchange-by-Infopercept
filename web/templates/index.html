@@ -1,0 +1,271 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - Regex Intelligence Exchange{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <h1><i class="fas fa-tachometer-alt"></i> Dashboard</h1>
+        <p class="lead">Welcome to the Regex Intelligence Exchange dashboard. Explore our comprehensive pattern database.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-header bg-primary text-white">
+                <i class="fas fa-database"></i> Pattern Database
+            </div>
+            <div class="card-body">
+                <h2 class="card-title text-center" id="total-patterns">Loading...</h2>
+                <p class="card-text text-center">Total technology patterns in our database</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-header bg-success text-white">
+                <i class="fas fa-tags"></i> Categories
+            </div>
+            <div class="card-body">
+                <h2 class="card-title text-center" id="total-categories">Loading...</h2>
+                <p class="card-text text-center">Different technology categories</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-header bg-info text-white">
+                <i class="fas fa-industry"></i> Vendors
+            </div>
+            <div class="card-body">
+                <h2 class="card-title text-center" id="total-vendors">Loading...</h2>
+                <p class="card-text text-center">Technology vendors covered</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-chart-pie"></i> Category Distribution
+            </div>
+            <div class="card-body">
+                <div id="category-chart">
+                    <div class="text-center">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                        <p class="mt-2">Loading category distribution...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-search"></i> Quick Search
+            </div>
+            <div class="card-body">
+                <form id="quick-search-form">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="quick-search-input" placeholder="Search for patterns by vendor, product, or category...">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="fas fa-search"></i> Search
+                        </button>
+                    </div>
+                </form>
+                <div id="quick-search-results" class="mt-3"></div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+// Quick search functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const quickSearchForm = document.getElementById('quick-search-form');
+    if (quickSearchForm) {
+        quickSearchForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const query = document.getElementById('quick-search-input').value;
+            
+            if (query.trim() === '') {
+                document.getElementById('quick-search-results').innerHTML = '';
+                return;
+            }
+            
+            // Show loading indicator
+            document.getElementById('quick-search-results').innerHTML = `
+                <div class="text-center">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Searching...</span>
+                    </div>
+                    <p class="mt-2">Searching patterns...</p>
+                </div>
+            `;
+            
+            // Use the correct web app endpoint
+            fetch(`/api/patterns/search?q=${encodeURIComponent(query)}`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Limit to 5 results for quick search
+                    const limitedData = data.slice(0, 5);
+                    
+                    if (limitedData.length === 0) {
+                        document.getElementById('quick-search-results').innerHTML = 
+                            '<div class="alert alert-info">No patterns found</div>';
+                        return;
+                    }
+                    
+                    const resultsHtml = `
+                        <div class="list-group">
+                            ${limitedData.map(pattern => `
+                                <a href="/pattern/${pattern.vendor_id}/${pattern.product_id}" 
+                                   class="list-group-item list-group-item-action">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h6 class="mb-1">${pattern.vendor} - ${pattern.product}</h6>
+                                        <small>${pattern.category}</small>
+                                    </div>
+                                    <p class="mb-1">
+                                        <span class="badge bg-primary">${pattern.category}</span>
+                                        ${pattern.subcategory ? `<span class="badge bg-secondary ms-1">${pattern.subcategory}</span>` : ''}
+                                    </p>
+                                    <small>Vendor ID: ${pattern.vendor_id} | Product ID: ${pattern.product_id}</small>
+                                </a>
+                            `).join('')}
+                            ${data.length > 5 ? `<div class="list-group-item text-center bg-light">
+                                <a href="/search?q=${encodeURIComponent(query)}">View all ${data.length} results</a>
+                            </div>` : ''}
+                        </div>
+                    `;
+                    
+                    document.getElementById('quick-search-results').innerHTML = resultsHtml;
+                })
+                .catch(error => {
+                    console.error('Error searching patterns:', error);
+                    document.getElementById('quick-search-results').innerHTML = 
+                        `<div class="alert alert-danger">Error searching patterns: ${error.message}</div>`;
+                });
+        });
+        
+        // Add real-time search with debounce
+        let searchTimeout;
+        const searchInput = document.getElementById('quick-search-input');
+        if (searchInput) {
+            searchInput.addEventListener('input', function() {
+                clearTimeout(searchTimeout);
+                searchTimeout = setTimeout(function() {
+                    // Auto-submit the form when user types (with debounce)
+                    if (searchInput.value.trim() !== '') {
+                        quickSearchForm.dispatchEvent(new Event('submit'));
+                    } else {
+                        document.getElementById('quick-search-results').innerHTML = '';
+                    }
+                }, 300); // 300ms debounce
+            });
+        }
+    }
+    
+    // Load dashboard data
+    loadDashboardData();
+});
+
+// Dashboard functionality
+function loadDashboardData() {
+    // Fetch dashboard data
+    fetch('/api/analytics/summary')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            document.getElementById('total-patterns').textContent = data.total_patterns;
+            document.getElementById('total-categories').textContent = Object.keys(data.categories).length;
+            document.getElementById('total-vendors').textContent = Object.keys(data.subcategories).length;
+            
+            // Create category chart
+            createCategoryChart(data.categories, data.total_patterns);
+        })
+        .catch(error => {
+            console.error('Error fetching dashboard data:', error);
+            showNotification('Error loading dashboard data', 'danger');
+        });
+}
+
+function createCategoryChart(categories, totalPatterns) {
+    const categoryData = Object.entries(categories)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 10);
+    
+    const chartContainer = document.getElementById('category-chart');
+    if (!chartContainer) return;
+    
+    const chartHtml = `
+        <div class="row">
+            ${categoryData.map(([category, count]) => `
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" 
+                             style="width: ${Math.min(100, (count / totalPatterns) * 100)}%">
+                        </div>
+                    </div>
+                    <div class="text-center small mt-1">
+                        <strong>${category}</strong><br>
+                        ${count} patterns
+                    </div>
+                </div>
+            `).join('')}
+        </div>
+    `;
+    
+    chartContainer.innerHTML = chartHtml;
+}
+
+// Utility function for showing notifications
+function showNotification(message, type = 'info') {
+    // Remove any existing notifications
+    const existingAlert = document.querySelector('.alert-fixed-top');
+    if (existingAlert) {
+        existingAlert.remove();
+    }
+    
+    const alertHtml = `
+        <div class="alert alert-${type} alert-dismissible fade show alert-fixed-top" role="alert">
+            ${message}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    `;
+    
+    // Insert at the top of the container
+    const container = document.querySelector('.container-fluid');
+    if (container) {
+        container.insertAdjacentHTML('afterbegin', alertHtml);
+        
+        // Auto-dismiss after 5 seconds
+        setTimeout(() => {
+            const alert = document.querySelector('.alert-fixed-top');
+            if (alert) {
+                const bsAlert = new bootstrap.Alert(alert);
+                bsAlert.close();
+            }
+        }, 5000);
+    }
+}
+</script>
+{% endblock %}

@@ -1,0 +1,199 @@
+{% extends "base.html" %}
+
+{% block title %}Analytics - Regex Intelligence Exchange{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <h1><i class="fas fa-chart-bar"></i> Analytics Dashboard</h1>
+        <p class="lead">Explore insights and statistics about our pattern database.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card text-white bg-primary mb-3">
+            <div class="card-header"><i class="fas fa-database"></i> Total Patterns</div>
+            <div class="card-body">
+                <h5 class="card-title" id="total-patterns">Loading...</h5>
+                <p class="card-text">Patterns in database</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white bg-success mb-3">
+            <div class="card-header"><i class="fas fa-tags"></i> Categories</div>
+            <div class="card-body">
+                <h5 class="card-title" id="total-categories">Loading...</h5>
+                <p class="card-text">Technology categories</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white bg-info mb-3">
+            <div class="card-header"><i class="fas fa-industry"></i> Vendors</div>
+            <div class="card-body">
+                <h5 class="card-title" id="total-vendors">Loading...</h5>
+                <p class="card-text">Technology vendors</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-chart-pie"></i> Top Categories
+            </div>
+            <div class="card-body">
+                <div id="category-chart" style="height: 300px;">
+                    <div class="text-center">
+                        <div class="spinner-border" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-chart-bar"></i> Top Subcategories
+            </div>
+            <div class="card-body">
+                <div id="subcategory-chart" style="height: 300px;">
+                    <div class="text-center">
+                        <div class="spinner-border" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-table"></i> Category Distribution
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>Pattern Count</th>
+                                <th>Percentage</th>
+                            </tr>
+                        </thead>
+                        <tbody id="category-table">
+                            <tr>
+                                <td colspan="3" class="text-center">
+                                    <div class="spinner-border" role="status">
+                                        <span class="visually-hidden">Loading...</span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    // Fetch analytics data
+    fetch('/api/analytics/summary')
+    .then(response => response.json())
+    .then(webData => {
+        // Update summary cards
+        document.getElementById('total-patterns').textContent = webData.total_patterns;
+        document.getElementById('total-categories').textContent = Object.keys(webData.categories).length;
+        document.getElementById('total-vendors').textContent = Object.keys(webData.subcategories).length;
+        
+        // Create category chart
+        const categoryData = Object.entries(webData.categories)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 10);
+        
+        const categoryChartHtml = `
+            <div class="row">
+                ${categoryData.map(([category, count], index) => `
+                    <div class="col-12 mb-2">
+                        <div class="d-flex justify-content-between">
+                            <span>${category}</span>
+                            <span>${count}</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" 
+                                 style="width: ${Math.min(100, (count / webData.total_patterns) * 100)}%">
+                            </div>
+                        </div>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+        
+        document.getElementById('category-chart').innerHTML = categoryChartHtml;
+        
+        // Create subcategory chart
+        const subcategoryData = Object.entries(webData.subcategories)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 10);
+        
+        const subcategoryChartHtml = `
+            <div class="row">
+                ${subcategoryData.map(([subcategory, count], index) => `
+                    <div class="col-12 mb-2">
+                        <div class="d-flex justify-content-between">
+                            <span>${subcategory || 'Uncategorized'}</span>
+                            <span>${count}</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" 
+                                 style="width: ${Math.min(100, (count / webData.total_patterns) * 100)}%">
+                            </div>
+                        </div>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+        
+        document.getElementById('subcategory-chart').innerHTML = subcategoryChartHtml;
+        
+        // Populate category table
+        const categoryTableHtml = Object.entries(webData.categories)
+            .sort((a, b) => b[1] - a[1])
+            .map(([category, count]) => {
+                const percentage = ((count / webData.total_patterns) * 100).toFixed(1);
+                return `
+                    <tr>
+                        <td>${category}</td>
+                        <td>${count}</td>
+                        <td>${percentage}%</td>
+                    </tr>
+                `;
+            })
+            .join('');
+        
+        document.getElementById('category-table').innerHTML = categoryTableHtml;
+    })
+    .catch(error => {
+        console.error('Error fetching analytics data:', error);
+        document.getElementById('category-chart').innerHTML = 
+            '<div class="alert alert-danger">Error loading data</div>';
+        document.getElementById('subcategory-chart').innerHTML = 
+            '<div class="alert alert-danger">Error loading data</div>';
+        document.getElementById('category-table').innerHTML = 
+            '<tr><td colspan="3" class="text-center text-danger">Error loading data</td></tr>';
+    });
+</script>
+{% endblock %}
