@@ -8,7 +8,7 @@
 
 The Regex Intelligence Exchange is a comprehensive repository of regex patterns for technology fingerprinting. Originally derived from the WhatWeb project, this enhanced database provides accurate detection of web technologies, software versions, and security-related information.
 
-The project now includes both a **web-based interface** for non-technical users and a **RESTful API** for integration with other security tools.
+The project now includes both a **web-based interface** for non-technical users and a **RESTful API** for integration with other security tools. It also features a **database-backed storage system** for improved performance and scalability.
 
 ## Repository Structure
 
@@ -19,6 +19,11 @@ Regex-Intelligence-Exchange/
 ├── imported-webtech-patterns/ # WebTech imported patterns (1,081 files)
 ├── tools/                    # Tools for pattern development and management
 ├── web/                      # Web interface and RESTful API
+│   ├── models/               # Data models (file-based and database)
+│   ├── services/             # Business logic services
+│   ├── utils/                # Utility functions
+│   ├── scripts/              # Migration and utility scripts
+│   └── ...
 ├── data/                     # Supporting data files
 ├── docs/                     # Documentation
 └── README.md                 # This file
@@ -46,6 +51,37 @@ The core pattern database organized by vendor containing 1,577 technology detect
 - Multiple detection methods
 - Standardized format
 
+## Database Migration
+
+The project now supports database-backed storage for improved performance and scalability:
+
+### Migration Process
+To migrate existing file-based patterns to the database:
+```bash
+cd web
+python scripts/migrate_all_patterns.py
+```
+
+### Database Configuration
+Configure your database connection in the environment:
+```bash
+# For PostgreSQL
+export DATABASE_URL=postgresql://user:password@localhost/regex_exchange
+
+# For SQLite (development)
+export DATABASE_URL=sqlite:///patterns.db
+
+# Enable database mode
+export USE_DATABASE=true
+```
+
+### Switching Between Storage Modes
+The application can operate in two modes:
+1. **File-based mode** (default) - Reads patterns directly from JSON files
+2. **Database mode** - Reads patterns from a database for better performance
+
+To switch to database mode, set the `USE_DATABASE` environment variable to `true`.
+
 ## Web Interface
 
 The project now includes a user-friendly web interface built with Flask:
@@ -57,6 +93,8 @@ The project now includes a user-friendly web interface built with Flask:
 - **Analytics dashboard** with visualizations
 - **Pattern detail pages** with comprehensive information
 - **Responsive design** that works on desktop and mobile devices
+- **Enhanced security** with CSRF protection and rate limiting
+- **Improved caching** with Redis support
 
 ### Access
 ```bash
@@ -64,13 +102,13 @@ The project now includes a user-friendly web interface built with Flask:
 cd web
 
 # Install dependencies
-python setup.py
+pip install -r requirements.txt
+
+# (Optional) Migrate patterns to database
+python scripts/migrate_all_patterns.py
 
 # Start the web application
-python -m app.app
-
-# Start the RESTful API (in a separate terminal)
-python -m api.app
+python run.py
 
 # Access the web interface at http://localhost:5000
 ```
@@ -161,13 +199,16 @@ with open('patterns/by-vendor/apache/apache.json', 'r') as f:
 cd web
 
 # Install dependencies
-python setup.py
+pip install -r requirements.txt
+
+# (Optional) Migrate patterns to database
+python scripts/migrate_all_patterns.py
+
+# (Optional) Enable database mode
+export USE_DATABASE=true
 
 # Start the web application
-python -m app.app
-
-# Start the RESTful API (in a separate terminal)
-python -m api.app
+python run.py
 
 # Access the web interface at http://localhost:5000
 ```
@@ -175,9 +216,20 @@ python -m api.app
 ### For API Users
 
 ```bash
-# Start only the API
+# Navigate to the web directory
 cd web
-python -m api.app
+
+# Install dependencies
+pip install -r requirements.txt
+
+# (Optional) Migrate patterns to database
+python scripts/migrate_all_patterns.py
+
+# (Optional) Enable database mode
+export USE_DATABASE=true
+
+# Start only the API
+python run.py --mode api
 
 # Access API endpoints at http://localhost:5001/api/v1/
 ```

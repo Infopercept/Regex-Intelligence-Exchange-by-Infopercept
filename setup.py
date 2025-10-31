@@ -24,7 +24,10 @@ def install_dependencies():
     
     # Required packages
     required_packages = [
-        "packaging"
+        "packaging",
+        "sqlalchemy",
+        "psycopg2-binary",
+        "redis"
     ]
     
     for package in required_packages:
@@ -51,7 +54,8 @@ def validate_setup():
     required_dirs = [
         "patterns",
         "tools",
-        "tests"
+        "tests",
+        "web"
     ]
     
     for dir_name in required_dirs:
@@ -63,7 +67,9 @@ def validate_setup():
     required_files = [
         "tools/version_utils.py",
         "tools/enhanced-validation.py",
-        "tools/test-patterns.py"
+        "tools/test-patterns.py",
+        "web/models/database.py",
+        "web/scripts/migrate_all_patterns.py"
     ]
     
     for file_path in required_files:
@@ -125,7 +131,13 @@ def create_sample_config():
         "default_category": "web",
         "performance": {
             "cache_enabled": True,
-            "precompile_patterns": True
+            "precompile_patterns": True,
+            "database_backend": "sqlite"  # Options: sqlite, postgresql
+        },
+        "database": {
+            "url": "sqlite:///patterns.db",
+            "pool_size": 10,
+            "max_overflow": 20
         }
     }
     
@@ -166,6 +178,10 @@ Usage:
 
   # Optimize patterns
   python tools/optimize-patterns.py
+
+  # Migrate patterns to database
+  cd web
+  python scripts/migrate_all_patterns.py
 
 For more information, see the README.md file.
 """)

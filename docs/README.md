@@ -15,6 +15,32 @@ Our database now includes:
 - **Web-based interface** for non-technical users
 - **RESTful API** for integration with security tools
 
+## Documentation
+
+This directory contains comprehensive documentation for the Regex Intelligence Exchange project.
+
+## Available Documentation
+
+- [Architecture](ARCHITECTURE.md) - Technical architecture and design decisions
+- [API Documentation](api_comprehensive.md) - Complete API reference with endpoints, parameters, and examples
+- [Deployment Guide](deployment_guide.md) - Instructions for deploying the web interface
+- [Development Guide](development.md) - Information for developers contributing to the project
+- [Usage Guide](USAGE_GUIDE.md) - Instructions for using the pattern database
+- [Web Interface Guide](web-interface.md) - Documentation for the web-based interface
+- [Automatic Updates](automatic-updates.md) - Information about automatic pattern updates
+
+## Getting Started
+
+See [API Documentation](api_comprehensive.md) for detailed information about endpoints and usage.
+
+For deployment instructions, see [Deployment Guide](deployment_guide.md).
+
+## Additional Resources
+
+- [Project README](../README.md) - Main project overview
+- [Pattern Database](../patterns/README.md) - Information about the pattern database
+- [Tools](../tools/README.md) - Documentation for available tools
+
 ## Getting Started
 
 If you're new to the Regex Intelligence Exchange by Infopercept, start here:
