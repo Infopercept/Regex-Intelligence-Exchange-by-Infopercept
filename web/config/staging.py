@@ -11,8 +11,9 @@ class StagingConfig:
     DEBUG = False
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'staging-secret-key-change-in-production'
     
-    # Database settings (if applicable)
-    DATABASE_URL = os.environ.get('DATABASE_URL') or 'sqlite:///staging.db'
+    # Database settings
+    DATABASE_URL = os.environ.get('DATABASE_URL') or 'postgresql://user:password@localhost/regex_exchange_staging'
+    USE_DATABASE = os.environ.get('USE_DATABASE', 'false').lower() == 'true'
     
     # API settings
     API_TITLE = "Regex Intelligence Exchange API - Staging"

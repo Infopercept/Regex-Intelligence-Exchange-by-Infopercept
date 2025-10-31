@@ -3,8 +3,11 @@ Security utilities for Regex Intelligence Exchange.
 """
 
 import re
+import hashlib
+import secrets
+import time
 from functools import wraps
-from flask import request, jsonify, current_app
+from flask import request, jsonify, current_app, session
 from werkzeug.exceptions import Forbidden
 
 class SecurityManager:
@@ -14,6 +17,9 @@ class SecurityManager:
         # Define safe patterns for input validation
         self.safe_pattern = re.compile(r'^[a-zA-Z0-9\-_\.]+$')
         self.safe_text_pattern = re.compile(r'^[a-zA-Z0-9\-_\.\/\s\(\)\[\]\{\}\<\>\:\;\,\!\?\@\#\$\%\^\&\*\+\=\~]+$')
+        
+        # Rate limiting storage (in production, use Redis)
+        self.rate_limits = {}
     
     def sanitize_input(self, input_string):
         """Sanitize user input to prevent injection attacks."""
@@ -36,15 +42,50 @@ class SecurityManager:
             return True
         return bool(self.safe_text_pattern.match(str(query)))
     
+    def generate_csrf_token(self):
+        """Generate a CSRF token."""
+        return secrets.token_hex(16)
+    
+    def validate_csrf_token(self, token):
+        """Validate a CSRF token."""
+        if 'csrf_token' not in session:
+            return False
+        return secrets.compare_digest(session['csrf_token'], token)
+    
     def rate_limit(self, max_requests=100, window_seconds=3600):
         """Decorator to implement rate limiting."""
         def decorator(f):
             @wraps(f)
             def decorated_function(*args, **kwargs):
-                # This is a simplified rate limiter
-                # In production, you would use Redis or similar
+                # Get client IP
                 client_ip = request.remote_addr
-                # Implementation would go here
+                
+                # Create a unique key for this endpoint and IP
+                key = f"{client_ip}:{request.endpoint}"
+                
+                current_time = time.time()
+                
+                # Initialize rate limit data for this key if it doesn't exist
+                if key not in self.rate_limits:
+                    self.rate_limits[key] = {
+                        'count': 0,
+                        'first_request_time': current_time
+                    }
+                
+                # Reset count if window has expired
+                if current_time - self.rate_limits[key]['first_request_time'] > window_seconds:
+                    self.rate_limits[key] = {
+                        'count': 0,
+                        'first_request_time': current_time
+                    }
+                
+                # Increment request count
+                self.rate_limits[key]['count'] += 1
+                
+                # Check if limit exceeded
+                if self.rate_limits[key]['count'] > max_requests:
+                    return jsonify({'error': 'Rate limit exceeded'}), 429
+                
                 return f(*args, **kwargs)
             return decorated_function
         return decorator
@@ -57,6 +98,46 @@ class SecurityManager:
                 return jsonify({'error': 'HTTPS required'}), 403
             return f(*args, **kwargs)
         return decorated_function
+    
+    def sanitize_json_input(self, data):
+        """Sanitize JSON input data."""
+        if isinstance(data, dict):
+            sanitized = {}
+            for key, value in data.items():
+                sanitized_key = self.sanitize_input(key)
+                sanitized_value = self.sanitize_json_input(value)
+                sanitized[sanitized_key] = sanitized_value
+            return sanitized
+        elif isinstance(data, list):
+            return [self.sanitize_json_input(item) for item in data]
+        elif isinstance(data, str):
+            return self.sanitize_input(data)
+        else:
+            return data
+    
+    def hash_password(self, password):
+        """Hash a password using SHA-256 with salt."""
+        salt = secrets.token_hex(16)
+        hashed = hashlib.sha256((password + salt).encode()).hexdigest()
+        return f"{hashed}:{salt}"
+    
+    def verify_password(self, password, hashed_password):
+        """Verify a password against a hashed password."""
+        if ':' not in hashed_password:
+            return False
+        
+        hashed, salt = hashed_password.split(':')
+        return hashlib.sha256((password + salt).encode()).hexdigest() == hashed
+    
+    def validate_api_key(self, api_key):
+        """Validate an API key (placeholder implementation)."""
+        # In a real implementation, you would check against a database of valid API keys
+        # For now, we'll just check if it's a valid hex string
+        try:
+            bytes.fromhex(api_key)
+            return len(api_key) == 32  # 16 bytes = 32 hex characters
+        except ValueError:
+            return False
 
 # Global security manager
 security_manager = SecurityManager()
@@ -116,3 +197,21 @@ def validate_search_input(f):
 def require_https(f):
     """Decorator to require HTTPS connections."""
     return security_manager.require_https(f)
+
+def require_api_key(f):
+    """Decorator to require API key authentication."""
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        api_key = request.headers.get('X-API-Key')
+        if not api_key:
+            return jsonify({'error': 'API key required'}), 401
+        
+        if not security_manager.validate_api_key(api_key):
+            return jsonify({'error': 'Invalid API key'}), 401
+        
+        return f(*args, **kwargs)
+    return decorated_function
+
+def rate_limit(max_requests=100, window_seconds=3600):
+    """Decorator to implement rate limiting."""
+    return security_manager.rate_limit(max_requests, window_seconds)

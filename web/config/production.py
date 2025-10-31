@@ -11,8 +11,8 @@ class ProductionConfig:
     DEBUG = False
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'prod-secret-key-change-in-production'
     
-    # Database settings (if applicable)
-    DATABASE_URL = os.environ.get('DATABASE_URL') or 'sqlite:///prod.db'
+    # Database settings
+    DATABASE_URL = os.environ.get('DATABASE_URL') or 'postgresql://user:password@localhost/regex_exchange'
     
     # API settings
     API_TITLE = "Regex Intelligence Exchange API"

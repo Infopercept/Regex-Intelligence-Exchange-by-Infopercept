@@ -6,10 +6,10 @@ This directory contains documentation for the web interface and RESTful API of t
 
 ## Documentation Files
 
-- [API Documentation](api.md) - Complete API reference with endpoints, parameters, and examples
+- [API Documentation](api_comprehensive.md) - Complete API reference with endpoints, parameters, and examples
 - [Web Interface Guide](web-interface.md) - User guide for the web interface
 - [Development Guide](development.md) - Guide for developers working on the web interface
-- [Deployment Guide](deployment.md) - Instructions for deploying the web interface
+- [Deployment Guide](deployment_guide.md) - Instructions for deploying the web interface
 
 ## Web Interface
 
@@ -42,7 +42,7 @@ The RESTful API provides programmatic access to the pattern database and pattern
 
 The RESTful API is available at `http://localhost:5001/api/v1` when running locally.
 
-See [API Documentation](api.md) for detailed information about endpoints and usage.
+See [API Documentation](api_comprehensive.md) for detailed information about endpoints and usage.
 
 ## Development
 
@@ -50,4 +50,4 @@ For developers working on the web interface, see [Development Guide](development
 
 ## Deployment
 
-For deployment instructions, see [Deployment Guide](deployment.md).
+For deployment instructions, see [Deployment Guide](deployment_guide.md).

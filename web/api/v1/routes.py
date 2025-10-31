@@ -165,7 +165,11 @@ class PatternDetail(Resource):
             api.abort(404, "Pattern not found")
         
         # Return pattern without sensitive metadata
-        return pattern.to_dict()
+        if pattern is not None and hasattr(pattern, 'to_dict'):
+            return pattern.to_dict()
+        else:
+            # This should not happen, but provide a fallback
+            api.abort(500, "Error processing pattern data")
 
 @api.route('/match')
 class PatternMatch(Resource):

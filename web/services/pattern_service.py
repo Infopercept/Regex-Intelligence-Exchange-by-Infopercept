@@ -10,19 +10,40 @@ from models.pattern import Pattern, PatternSearchResult, PatternMatch, CategoryS
 from utils.logging import log_manager
 from utils.cache import pattern_cache
 
+# Import the database service
+try:
+    from services.db_pattern_service import DatabasePatternService
+    DATABASE_AVAILABLE = True
+except ImportError:
+    DATABASE_AVAILABLE = False
+    DatabasePatternService = None
+
 class PatternService:
     """Service for managing patterns."""
     
-    def __init__(self, patterns_dir: Optional[str] = None):
-        self.patterns_dir = patterns_dir or os.path.join(
-            os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
-            '..', 'patterns', 'by-vendor'
-        )
-        self._patterns_cache: Dict[str, Pattern] = {}
-        self._loaded = False
+    def __init__(self, patterns_dir: Optional[str] = None, use_database: bool = False):
+        self.use_database = use_database and DATABASE_AVAILABLE
+        
+        if self.use_database and DatabasePatternService:
+            # Use database service
+            database_url = os.environ.get('DATABASE_URL')
+            self.db_service = DatabasePatternService(database_url)
+            log_manager.info("Using database pattern service")
+        else:
+            # Use file-based service
+            self.patterns_dir = patterns_dir or os.path.join(
+                os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
+                '..', 'patterns', 'by-vendor'
+            )
+            self._patterns_cache: Dict[str, Pattern] = {}
+            self._loaded = False
+            log_manager.info("Using file-based pattern service")
     
     def load_patterns(self) -> List[Pattern]:
         """Load all pattern files into memory."""
+        if self.use_database and hasattr(self, 'db_service'):
+            return self.db_service.get_all_patterns()
+        
         # Check if patterns are cached
         cached_patterns = pattern_cache.get_patterns()
         if cached_patterns and not pattern_cache.is_expired():
@@ -63,6 +84,9 @@ class PatternService:
     
     def get_pattern_by_id(self, vendor_id: str, product_id: str) -> Optional[Pattern]:
         """Get a specific pattern by vendor and product ID."""
+        if self.use_database and hasattr(self, 'db_service'):
+            return self.db_service.get_pattern_by_id(vendor_id, product_id)
+        
         if not self._loaded:
             self.load_patterns()
         
@@ -71,6 +95,9 @@ class PatternService:
     
     def search_patterns(self, query: str = '', category: str = '', vendor: str = '') -> PatternSearchResult:
         """Search patterns with optional filtering."""
+        if self.use_database and hasattr(self, 'db_service'):
+            return self.db_service.search_patterns(query, category, vendor)
+        
         patterns = self.get_all_patterns()
         
         # Filter patterns
@@ -102,6 +129,9 @@ class PatternService:
     
     def match_patterns(self, input_text: str) -> List[PatternMatch]:
         """Match patterns against input text."""
+        if self.use_database and hasattr(self, 'db_service'):
+            return self.db_service.match_patterns(input_text)
+        
         patterns = self.get_all_patterns()
         matches = []
         
@@ -168,6 +198,9 @@ class PatternService:
     
     def get_categories(self) -> List[str]:
         """Get all available categories."""
+        if self.use_database and hasattr(self, 'db_service'):
+            return self.db_service.get_categories()
+        
         # Check cache first
         cached_categories = pattern_cache.get_categories()
         if cached_categories is not None:
@@ -188,6 +221,9 @@ class PatternService:
     
     def get_vendors(self) -> List[str]:
         """Get all available vendors."""
+        if self.use_database and hasattr(self, 'db_service'):
+            return self.db_service.get_vendors()
+        
         # Check cache first
         cached_vendors = pattern_cache.get_vendors()
         if cached_vendors is not None:
@@ -208,6 +244,9 @@ class PatternService:
     
     def get_statistics(self) -> CategoryStats:
         """Get database statistics."""
+        if self.use_database and hasattr(self, 'db_service'):
+            return self.db_service.get_statistics()
+        
         # Check cache first
         cached_stats = pattern_cache.get_stats()
         if cached_stats is not None:
@@ -241,6 +280,11 @@ class PatternService:
     
     def reload_patterns(self) -> None:
         """Reload all patterns from disk."""
+        if self.use_database and hasattr(self, 'db_service'):
+            # For database, we might want to refresh connections or clear caches
+            log_manager.info("Database patterns reloaded")
+            return
+        
         self._loaded = False
         self._patterns_cache = {}
         
@@ -250,5 +294,6 @@ class PatternService:
         self.load_patterns()
         log_manager.info("Patterns reloaded from disk")
 
-# Global pattern service instance
-pattern_service = PatternService()
+# Global pattern service instance - will use database if configured
+use_database = os.environ.get('USE_DATABASE', 'false').lower() == 'true'
+pattern_service = PatternService(use_database=use_database)

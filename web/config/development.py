@@ -11,8 +11,9 @@ class DevelopmentConfig:
     DEBUG = True
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'dev-secret-key'
     
-    # Database settings (if applicable)
+    # Database settings
     DATABASE_URL = os.environ.get('DATABASE_URL') or 'sqlite:///dev.db'
+    USE_DATABASE = os.environ.get('USE_DATABASE', 'false').lower() == 'true'
     
     # API settings
     API_TITLE = "Regex Intelligence Exchange API"
