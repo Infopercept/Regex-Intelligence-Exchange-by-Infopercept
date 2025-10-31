@@ -10,6 +10,10 @@ import sys
 from pathlib import Path
 from datetime import datetime
 
+# Import version utilities
+sys.path.append(os.path.dirname(__file__))
+import version_utils
+
 
 def find_pattern_files(root_dir):
     """Find all pattern files in the repository."""
@@ -174,7 +178,7 @@ def validate_metadata(metadata, pattern_id):
 
 
 def run_test_cases(pattern, file_path):
-    """Run test cases for a pattern."""
+    """Run test cases for a pattern with enhanced version extraction."""
     if 'metadata' not in pattern or 'test_cases' not in pattern['metadata']:
         return True, "No test cases to run"
     
@@ -194,18 +198,45 @@ def run_test_cases(pattern, file_path):
             
             match = regex.search(input_text)
             if match:
+                # Extract version using enhanced version extraction
                 if pattern['version_group'] > 0 and pattern['version_group'] <= len(match.groups()):
-                    actual_version = match.group(pattern['version_group'])
+                    raw_version = match.group(pattern['version_group'])
+                    actual_version = version_utils.normalize_version(raw_version)
                 else:
+                    # If no version group or invalid group, use the full match
                     actual_version = match.group(0)
+                    # Try to normalize if it looks like a version
+                    if re.search(r'\d', actual_version):
+                        normalized = version_utils.normalize_version(actual_version)
+                        if normalized:
+                            actual_version = normalized
                 
-                if expected_version == "unknown" or actual_version == expected_version:
+                # Compare versions using enhanced comparison
+                if expected_version == "unknown":
+                    # For "unknown" expected version, any match is considered a pass
                     passed_tests += 1
+                elif actual_version is None and expected_version is None:
+                    # Both are None, consider it a pass
+                    passed_tests += 1
+                elif actual_version is not None and expected_version is not None:
+                    # Both are not None, compare them
+                    if actual_version == expected_version:
+                        passed_tests += 1
+                    else:
+                        # Try normalized comparison
+                        normalized_actual = version_utils.normalize_version(actual_version)
+                        normalized_expected = version_utils.normalize_version(expected_version)
+                        if normalized_actual == normalized_expected:
+                            passed_tests += 1
+                        else:
+                            failed_tests += 1
+                            print(f"  Test case {i+1} failed: expected '{expected_version}' (normalized: {normalized_expected}), got '{actual_version}' (normalized: {normalized_actual})")
                 else:
+                    # One is None and the other is not
                     failed_tests += 1
                     print(f"  Test case {i+1} failed: expected '{expected_version}', got '{actual_version}'")
             else:
-                if expected_version == "unknown":
+                if expected_version == "unknown" or expected_version is None:
                     passed_tests += 1
                 else:
                     failed_tests += 1
