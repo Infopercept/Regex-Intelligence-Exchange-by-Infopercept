@@ -8,6 +8,8 @@
 
 The Regex Intelligence Exchange is a comprehensive repository of regex patterns for technology fingerprinting. Originally derived from the WhatWeb project, this enhanced database provides accurate detection of web technologies, software versions, and security-related information.
 
+The project now includes both a **web-based interface** for non-technical users and a **RESTful API** for integration with other security tools.
+
 ## Repository Structure
 
 ```
@@ -16,6 +18,7 @@ Regex-Intelligence-Exchange/
 ├── imported-patterns/        # Wappalyzer imported patterns (1,243 files)
 ├── imported-webtech-patterns/ # WebTech imported patterns (1,081 files)
 ├── tools/                    # Tools for pattern development and management
+├── web/                      # Web interface and RESTful API
 ├── data/                     # Supporting data files
 ├── docs/                     # Documentation
 └── README.md                 # This file
@@ -43,6 +46,62 @@ The core pattern database organized by vendor containing 1,577 technology detect
 - Multiple detection methods
 - Standardized format
 
+## Web Interface
+
+The project now includes a user-friendly web interface built with Flask:
+
+### Features
+- **Dashboard** with pattern overview and statistics
+- **Search functionality** with advanced filtering by category, vendor, and keywords
+- **Pattern matcher** for testing patterns against custom text
+- **Analytics dashboard** with visualizations
+- **Pattern detail pages** with comprehensive information
+- **Responsive design** that works on desktop and mobile devices
+
+### Access
+```bash
+# Navigate to the web directory
+cd web
+
+# Install dependencies
+python setup.py
+
+# Start the web application
+python -m app.app
+
+# Start the RESTful API (in a separate terminal)
+python -m api.app
+
+# Access the web interface at http://localhost:5000
+```
+
+## RESTful API
+
+The project includes a comprehensive RESTful API for integration with other security tools:
+
+### Endpoints
+- `GET /api/v1/patterns` - Get all patterns with filtering and pagination
+- `GET /api/v1/patterns/<vendor>/<product>` - Get specific pattern details
+- `POST /api/v1/match` - Match patterns against input text
+- `GET /api/v1/categories` - Get all available categories
+- `GET /api/v1/vendors` - Get all available vendors
+- `GET /api/v1/stats` - Get database statistics
+- `GET /api/v1/health` - Health check endpoint
+
+### Usage
+```bash
+# Get all patterns
+curl http://localhost:5001/api/v1/patterns
+
+# Search for patterns
+curl "http://localhost:5001/api/v1/patterns?category=web&limit=10"
+
+# Match patterns against text
+curl -X POST http://localhost:5001/api/v1/match \
+  -H "Content-Type: application/json" \
+  -d '{"text": "Server: Apache/2.4.41 (Ubuntu)"}'
+```
+
 ## Tools
 
 The `tools/` directory contains utilities for pattern development and management:
@@ -69,6 +128,13 @@ The `tools/` directory contains utilities for pattern development and management
 - `check-duplicates.py` - Check for duplicate patterns based on content similarity
 - `merge-patterns.py` - Merge patterns from different sources intelligently
 
+### Advanced Tools
+- `ai-pattern-generator.py` - AI-powered pattern generation
+- `threat-intel-integration.py` - Threat intelligence integration
+- `advanced-analytics.py` - Advanced analytics and reporting
+- `realtime-detection.py` - Real-time pattern detection
+- `pattern-composition.py` - Pattern composition engine
+
 ## Getting Started
 
 ### For Users
@@ -86,6 +152,34 @@ ls patterns/by-vendor/
 import json
 with open('patterns/by-vendor/apache/apache.json', 'r') as f:
     pattern_data = json.load(f)
+```
+
+### For Web Interface Users
+
+```bash
+# Navigate to the web directory
+cd web
+
+# Install dependencies
+python setup.py
+
+# Start the web application
+python -m app.app
+
+# Start the RESTful API (in a separate terminal)
+python -m api.app
+
+# Access the web interface at http://localhost:5000
+```
+
+### For API Users
+
+```bash
+# Start only the API
+cd web
+python -m api.app
+
+# Access API endpoints at http://localhost:5001/api/v1/
 ```
 
 ### For Contributors
