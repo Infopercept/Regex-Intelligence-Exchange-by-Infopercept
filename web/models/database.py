@@ -4,15 +4,20 @@ Database models for Regex Intelligence Exchange.
 
 # Provide simple dummy implementations
 class PatternModel:
-    pass
+    def __init__(self, **kwargs):
+        for key, value in kwargs.items():
+            setattr(self, key, value)
 
 class PatternVersionModel:
-    pass
+    def __init__(self, **kwargs):
+        for key, value in kwargs.items():
+            setattr(self, key, value)
 
 class DatabaseManager:
     def __init__(self, database_url='sqlite:///patterns.db'):
         self.engine = None
         self.Session = None
+        self.database_url = database_url
     
     def get_session(self):
         return None

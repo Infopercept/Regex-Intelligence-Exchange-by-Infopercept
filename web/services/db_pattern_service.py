@@ -12,28 +12,50 @@ from utils.logging import log_manager
 DATABASE_SERVICE_AVAILABLE = False
 DatabaseManager = None
 
-try:
-    import sqlalchemy
-    # Try to import our database models
-    from models.database import DatabaseManager as _DatabaseManager, PatternModel
-    DatabaseManager = _DatabaseManager
-    DATABASE_SERVICE_AVAILABLE = True
-except ImportError:
-    log_manager.warning("Database components not available, using file-based storage only")
+# Try to import SQLAlchemy and database components, but make it completely optional
+# We do this inside a function to avoid module-level import issues
+def init_database_components():
+    global DATABASE_SERVICE_AVAILABLE, DatabaseManager
+    try:
+        import sqlalchemy
+        # Try to import our database models
+        from models.database import DatabaseManager as _DatabaseManager, PatternModel
+        DatabaseManager = _DatabaseManager
+        DATABASE_SERVICE_AVAILABLE = True
+        log_manager.info("Database components available")
+        return True
+    except ImportError as e:
+        log_manager.warning(f"Database components not available, using file-based storage only: {e}")
+        return False
+    except Exception as e:
+        log_manager.warning(f"Database components not available due to error, using file-based storage only: {e}")
+        return False
+
+# Initialize database components
+init_database_components()
 
 class DatabasePatternService:
     """Service for managing patterns stored in a database."""
     
     def __init__(self, database_url: str = 'sqlite:///patterns.db'):
-        if not DATABASE_SERVICE_AVAILABLE or not DatabaseManager:
-            raise ImportError("Database components not available")
-            
-        self.db_manager = DatabaseManager(database_url)
-        log_manager.info("Database pattern service initialized")
+        self.db_manager = None
+        if DATABASE_SERVICE_AVAILABLE and DatabaseManager:
+            try:
+                self.db_manager = DatabaseManager(database_url)
+                log_manager.info("Database pattern service initialized")
+            except Exception as e:
+                log_manager.error(f"Failed to initialize database service: {e}")
+                self.db_manager = None
+        else:
+            log_manager.warning("Database service not available")
+    
+    def is_available(self) -> bool:
+        """Check if database service is available and properly initialized."""
+        return self.db_manager is not None
     
     def get_all_patterns(self) -> List[Pattern]:
         """Get all patterns from the database."""
-        if not DATABASE_SERVICE_AVAILABLE or not self.db_manager:
+        if not self.is_available() or self.db_manager is None:
             return []
             
         try:
@@ -43,12 +65,12 @@ class DatabasePatternService:
             for db_pattern in db_patterns:
                 # Convert database pattern to our Pattern model
                 pattern = Pattern(
-                    vendor=db_pattern.vendor,
-                    vendor_id=db_pattern.vendor_id,
-                    product=db_pattern.product,
-                    product_id=db_pattern.product_id,
-                    category=db_pattern.category,
-                    subcategory=db_pattern.subcategory or '',
+                    vendor=getattr(db_pattern, 'vendor', ''),
+                    vendor_id=getattr(db_pattern, 'vendor_id', ''),
+                    product=getattr(db_pattern, 'product', ''),
+                    product_id=getattr(db_pattern, 'product_id', ''),
+                    category=getattr(db_pattern, 'category', ''),
+                    subcategory=getattr(db_pattern, 'subcategory', '') or '',
                     versions={},  # This would need to be populated from PatternVersionModel
                     all_versions=[]  # This would need to be populated from PatternVersionModel
                 )
@@ -61,7 +83,7 @@ class DatabasePatternService:
     
     def get_pattern_by_id(self, vendor_id: str, product_id: str) -> Optional[Pattern]:
         """Get a specific pattern by vendor and product ID."""
-        if not DATABASE_SERVICE_AVAILABLE or not self.db_manager:
+        if not self.is_available() or self.db_manager is None:
             return None
             
         try:
@@ -71,12 +93,12 @@ class DatabasePatternService:
             
             # Convert database pattern to our Pattern model
             pattern = Pattern(
-                vendor=db_pattern.vendor,
-                vendor_id=db_pattern.vendor_id,
-                product=db_pattern.product,
-                product_id=db_pattern.product_id,
-                category=db_pattern.category,
-                subcategory=db_pattern.subcategory or '',
+                vendor=getattr(db_pattern, 'vendor', ''),
+                vendor_id=getattr(db_pattern, 'vendor_id', ''),
+                product=getattr(db_pattern, 'product', ''),
+                product_id=getattr(db_pattern, 'product_id', ''),
+                category=getattr(db_pattern, 'category', ''),
+                subcategory=getattr(db_pattern, 'subcategory', '') or '',
                 versions={},  # This would need to be populated from PatternVersionModel
                 all_versions=[]  # This would need to be populated from PatternVersionModel
             )
@@ -88,7 +110,7 @@ class DatabasePatternService:
     
     def search_patterns(self, query: str = '', category: str = '', vendor: str = '') -> List[Pattern]:
         """Search patterns in the database."""
-        if not DATABASE_SERVICE_AVAILABLE or not self.db_manager:
+        if not self.is_available() or self.db_manager is None:
             return []
             
         try:
@@ -98,12 +120,12 @@ class DatabasePatternService:
             for db_pattern in db_patterns:
                 # Convert database pattern to our Pattern model
                 pattern = Pattern(
-                    vendor=db_pattern.vendor,
-                    vendor_id=db_pattern.vendor_id,
-                    product=db_pattern.product,
-                    product_id=db_pattern.product_id,
-                    category=db_pattern.category,
-                    subcategory=db_pattern.subcategory or '',
+                    vendor=getattr(db_pattern, 'vendor', ''),
+                    vendor_id=getattr(db_pattern, 'vendor_id', ''),
+                    product=getattr(db_pattern, 'product', ''),
+                    product_id=getattr(db_pattern, 'product_id', ''),
+                    category=getattr(db_pattern, 'category', ''),
+                    subcategory=getattr(db_pattern, 'subcategory', '') or '',
                     versions={},  # This would need to be populated from PatternVersionModel
                     all_versions=[]  # This would need to be populated from PatternVersionModel
                 )
@@ -123,7 +145,7 @@ class DatabasePatternService:
                 self.categories = categories or {}
                 self.subcategories = subcategories or {}
         
-        if not DATABASE_SERVICE_AVAILABLE or not self.db_manager:
+        if not self.is_available() or self.db_manager is None:
             # Return a dummy statistics object
             return Stats()
             
@@ -136,17 +158,20 @@ class DatabasePatternService:
             
             for pattern in db_patterns:
                 # Count categories
-                if pattern.category in categories:
-                    categories[pattern.category] += 1
-                else:
-                    categories[pattern.category] = 1
+                category = getattr(pattern, 'category', '')
+                if category:
+                    if category in categories:
+                        categories[category] += 1
+                    else:
+                        categories[category] = 1
                 
                 # Count subcategories
-                if pattern.subcategory:
-                    if pattern.subcategory in subcategories:
-                        subcategories[pattern.subcategory] += 1
+                subcategory = getattr(pattern, 'subcategory', '')
+                if subcategory:
+                    if subcategory in subcategories:
+                        subcategories[subcategory] += 1
                     else:
-                        subcategories[pattern.subcategory] = 1
+                        subcategories[subcategory] = 1
             
             return Stats(len(db_patterns), categories, subcategories)
         except Exception as e:

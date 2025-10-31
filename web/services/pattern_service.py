@@ -14,14 +14,20 @@ from utils.logging import log_manager
 DATABASE_SERVICE_AVAILABLE = False
 DatabasePatternService = None
 
-try:
-    import sqlalchemy
-    # Try to import database service
-    from services.db_pattern_service import DatabasePatternService as _DatabasePatternService
-    DatabasePatternService = _DatabasePatternService
-    DATABASE_SERVICE_AVAILABLE = True
-except ImportError:
-    log_manager.warning("Database pattern service not available, using file-based storage only")
+# Only try to import SQLAlchemy when needed, not at module level
+def init_database_service():
+    global DATABASE_SERVICE_AVAILABLE, DatabasePatternService
+    try:
+        # Try to import database service conditionally
+        from services.db_pattern_service import DatabasePatternService as _DatabasePatternService
+        DatabasePatternService = _DatabasePatternService
+        DATABASE_SERVICE_AVAILABLE = True
+        log_manager.info("Database pattern service available")
+    except ImportError:
+        log_manager.warning("Database pattern service not available, using file-based storage only")
+
+# Initialize database service
+init_database_service()
 
 class PatternService:
     """Service for managing technology fingerprinting patterns."""
@@ -35,7 +41,12 @@ class PatternService:
                 # Use database service
                 database_url = os.environ.get('DATABASE_URL', 'sqlite:///patterns.db')
                 self.db_service = DatabasePatternService(database_url)
-                log_manager.info("Using database pattern service")
+                # Check if database service is actually available
+                if hasattr(self.db_service, 'is_available') and self.db_service.is_available():
+                    log_manager.info("Using database pattern service")
+                else:
+                    self.use_database = False
+                    self.db_service = None
             except Exception as e:
                 log_manager.error(f"Failed to initialize database service: {e}")
                 self.use_database = False
@@ -158,6 +169,7 @@ class PatternService:
                         self.total_patterns = total_patterns
                         self.categories = categories
                         self.subcategories = subcategories
+                        self.last_updated = ""
                 
                 self.stats = Stats(len(self.patterns), categories, subcategories)
             
