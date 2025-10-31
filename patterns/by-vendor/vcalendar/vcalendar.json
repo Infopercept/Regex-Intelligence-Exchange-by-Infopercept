@@ -4,6 +4,7 @@
   "product": "VCalendar",
   "product_id": "vcalendar",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by <a href=\"http://www.vcalendar.org\">VCalendar</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.vcalendar\\.org\">VCalendar</a>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<link href=\"Styles/Basic/Style.css\" type=\"text/css\" rel=\"stylesheet\"></head>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ href=\"Styles/Basic/Style\\.css\"\\ type=\"text/css\"\\ rel=\"stylesheet\"></head>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

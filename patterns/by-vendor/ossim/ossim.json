@@ -4,6 +4,7 @@
   "product": "OSSIM",
   "product_id": "ossim",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title> AlienVault - Open Source SIM </title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>\\ AlienVault\\ \\-\\ Open\\ Source\\ SIM\\ </title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<table align=\"center\" style=\"padding:1px;background-color:#f2f2f2;border-color:#aaaaaa\" class=nobborder><tr><td class=\"nobborder\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<table\\ align=\"center\"\\ style=\"padding:1px;background\\-color:\\#f2f2f2;border\\-color:\\#aaaaaa\"\\ class=nobborder><tr><td\\ class=\"nobborder\">",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<table align=\"center\" cellspacing=4 cellpadding=2 style=\"background-color:#eeeeee;border-color:#dedede\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<table\\ align=\"center\"\\ cellspacing=4\\ cellpadding=2\\ style=\"background\\-color:\\#eeeeee;border\\-color:\\#dedede\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

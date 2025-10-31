@@ -4,6 +4,7 @@
   "product": "Taurus-Server-Appliance",
   "product_id": "taurus-server-appliance",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>The Taurus Server Appliance</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>The\\ Taurus\\ Server\\ Appliance</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<b><font color=#FFFFFF>Welcome to Taurus </font></b>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<b><font\\ color=\\#FFFFFF>Welcome\\ to\\ Taurus\\ </font></b>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

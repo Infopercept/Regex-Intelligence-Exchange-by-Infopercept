@@ -4,6 +4,7 @@
   "product": "SonicWALL-Firewall",
   "product_id": "sonicwall-firewall",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^SonicWALL$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^SonicWALL$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Ultrastats",
   "product_id": "ultrastats",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<DIV align=center>Powered by Ultrastats",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<DIV\\ align=center>Powered\\ by\\ Ultrastats",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<img src=\"./images/main/ultrastatslogo.png\" width=\"300\" height=\"200\" name=\"ultrastats_logo\" align=\"center\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"\\./images/main/ultrastatslogo\\.png\"\\ width=\"300\"\\ height=\"200\"\\ name=\"ultrastats_logo\"\\ align=\"center\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<title>Ultrastats :: [^<]+</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Ultrastats :: [^<]+</title>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<title>UltraStats :: Critical Error occured</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>UltraStats\\ ::\\ Critical\\ Error\\ occured</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

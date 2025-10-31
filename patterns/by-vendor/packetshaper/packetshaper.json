@@ -4,6 +4,7 @@
   "product": "PacketShaper",
   "product_id": "packetshaper",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>PacketShaper Customer Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>PacketShaper\\ Customer\\ Login</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<SCRIPT LANGUAGE=JavaScript SRC=\"/libmd5.js\"></SCRIPT>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<SCRIPT\\ LANGUAGE=JavaScript\\ SRC=\"/libmd5\\.js\"></SCRIPT>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Open-Xchange",
   "product_id": "open-xchange",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<noscript><div class=\"noscriptmsg\">You need to enable JavaScript to access the Open-Xchange Server.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<noscript><div\\ class=\"noscriptmsg\">You\\ need\\ to\\ enable\\ JavaScript\\ to\\ access\\ the\\ Open\\-Xchange\\ Server\\.",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<td class=\"browserchecktextnormal\" id=\"browserchecktext_id\">You need to enable JavaScript to access the Open-Xchange Server.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ class=\"browserchecktextnormal\"\\ id=\"browserchecktext_id\">You\\ need\\ to\\ enable\\ JavaScript\\ to\\ access\\ the\\ Open\\-Xchange\\ Server\\.",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "^https?://[^/]+/ox6/ox\\.html$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^https?://[^/]+/ox6/ox\\.html$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

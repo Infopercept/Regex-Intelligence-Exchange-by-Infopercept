@@ -4,6 +4,7 @@
   "product": "Zoom-Search-Engine",
   "product_id": "zoom-search-engine",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<center><p><small>Search powered by <a href=\"http://www.wrensoft.com/zoom/\" target=\"_blank\"><b>Zoom Search Engine</b></a></small></p></center>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<center><p><small>Search\\ powered\\ by\\ <a\\ href=\"http://www\\.wrensoft\\.com/zoom/\"\\ target=\"_blank\"><b>Zoom\\ Search\\ Engine</b></a></small></p></center>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

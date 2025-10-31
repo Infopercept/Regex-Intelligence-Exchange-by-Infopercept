@@ -4,6 +4,7 @@
   "product": "HP-LaserJet-Printer",
   "product_id": "hp-laserjet-printer",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<img src=\"images/logo.gif\" alt=\"Click this Hewlett-Packard logo to open a new browser window, which takes you to the external HP.com Web site.\" /></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"images/logo\\.gif\"\\ alt=\"Click\\ this\\ Hewlett\\-Packard\\ logo\\ to\\ open\\ a\\ new\\ browser\\ window,\\ which\\ takes\\ you\\ to\\ the\\ external\\ HP\\.com\\ Web\\ site\\.\"\\ /></a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<a href=\"#skipnavigation\" title=\"Jump to main content. Please activate this if you would like to skip the navigation and jump directly to the main content.\"></a><a href=\"http://www.hp.com\" onclick=\"target = new Date().valueOf().toString(); if (window.open) window.open(\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"\\#skipnavigation\"\\ title=\"Jump\\ to\\ main\\ content\\.\\ Please\\ activate\\ this\\ if\\ you\\ would\\ like\\ to\\ skip\\ the\\ navigation\\ and\\ jump\\ directly\\ to\\ the\\ main\\ content\\.\"></a><a\\ href=\"http://www\\.hp\\.com\"\\ onclick=\"target\\ =\\ new\\ Date\\(\\)\\.valueOf\\(\\)\\.toString\\(\\);\\ if\\ \\(window\\.open\\)\\ window\\.open\\(\\\\",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "HP 9250C Digital Sender Series</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "HP\\ 9250C\\ Digital\\ Sender\\ Series</title>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "hp 9200C Digital Sender</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "hp\\ 9200C\\ Digital\\ Sender</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

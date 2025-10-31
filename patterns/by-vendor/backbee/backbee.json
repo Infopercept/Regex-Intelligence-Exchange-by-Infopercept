@@ -4,6 +4,7 @@
   "product": "BackBee",
   "product_id": "backbee",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<div id=\"bb5-site-wrapper\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"bb5\\-site\\-wrapper\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

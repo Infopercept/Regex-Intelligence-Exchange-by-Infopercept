@@ -4,6 +4,7 @@
   "product": "Xeneo-Web-Server",
   "product_id": "xeneo-web-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^Xeneo/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Xeneo/([^\\s]+)$",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "^Xeneo$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Xeneo$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

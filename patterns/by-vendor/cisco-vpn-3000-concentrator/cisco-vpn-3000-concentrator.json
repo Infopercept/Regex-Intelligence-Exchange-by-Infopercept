@@ -4,6 +4,7 @@
   "product": "Cisco-VPN-3000-Concentrator",
   "product_id": "cisco-vpn-3000-concentrator",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Cisco Systems, Inc. VPN 3000 Concentrator ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Cisco\\ Systems,\\ Inc\\.\\ VPN\\ 3000\\ Concentrator\\ ",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<p>You are using an old browser or have disabled JavaScript. You <b>must</b> use version 4 or higher of Netscape Navigator/Communicator or version 4 or higher of Microsoft Internet Explorer with JavaScript enabled.</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p>You\\ are\\ using\\ an\\ old\\ browser\\ or\\ have\\ disabled\\ JavaScript\\.\\ You\\ <b>must</b>\\ use\\ version\\ 4\\ or\\ higher\\ of\\ Netscape\\ Navigator/Communicator\\ or\\ version\\ 4\\ or\\ higher\\ of\\ Microsoft\\ Internet\\ Explorer\\ with\\ JavaScript\\ enabled\\.</p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "SmartCDS",
   "product_id": "smartcds",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<img border=0 src=\"http://www.globaldawin.com/capcds/refresh.gif\" width=\"13\" height=\"16\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ border=0\\ src=\"http://www\\.globaldawin\\.com/capcds/refresh\\.gif\"\\ width=\"13\"\\ height=\"16\"",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "^smartcds",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^smartcds",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "Server: ^smartcds/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^smartcds/([^\\s]+)",
       "version_group": 1
@@ -93,11 +97,11 @@
             "input": "smartcds: ^Version:([^\\s]+)$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "smartcds: ^Version:([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

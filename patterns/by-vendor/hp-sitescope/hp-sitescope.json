@@ -4,6 +4,7 @@
   "product": "HP-SiteScope",
   "product_id": "hp-sitescope",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<center><H2>SiteScope Login</H2></center><hr>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<center><H2>SiteScope\\ Login</H2></center><hr>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

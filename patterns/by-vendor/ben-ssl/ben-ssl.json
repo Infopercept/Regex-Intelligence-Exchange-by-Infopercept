@@ -4,6 +4,7 @@
   "product": "Ben-SSL",
   "product_id": "ben-ssl",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: Ben-SSL/8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: Ben-SSL/([\\d\\.]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

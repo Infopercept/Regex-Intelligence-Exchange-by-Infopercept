@@ -4,6 +4,7 @@
   "product": "X10media-Torrent-Search-Engine",
   "product_id": "x10media-torrent-search-engine",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "This search engine is in no way intended for illegal downloads.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "This\\ search\\ engine\\ is\\ in\\ no\\ way\\ intended\\ for\\ illegal\\ downloads\\.",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "\t<meta name=\"copyright\" content=\"X10Media\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<meta\\ name=\"copyright\"\\ content=\"X10Media\"/>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "\t<meta name=\"contributor\" content=\"X10Media\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<meta\\ name=\"contributor\"\\ content=\"X10Media\"/>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<title>Torrent Search Engine Script</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Torrent\\ Search\\ Engine\\ Script</title>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "Powered by <a href=\"http://www.x10media.com/torrent-search-engine-script/\" target=\"_blank\">x10media Torrent Search Engine Script</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.x10media\\.com/torrent\\-search\\-engine\\-script/\"\\ target=\"_blank\">x10media\\ Torrent\\ Search\\ Engine\\ Script</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

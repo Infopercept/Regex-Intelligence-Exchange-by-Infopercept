@@ -4,14 +4,12 @@
   "product": "Argocd",
   "product_id": "argoproj-argocd",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
       "name": "Argo CD",
-      "category": "web",
       "pattern": "\"Version\":\"v([\\d\\.]+)",
-      "vendor": "Argoproj",
-      "product": "Argocd",
       "version_group": 1,
       "priority": 150,
       "confidence": 0.85,
@@ -35,9 +33,9 @@
             "input": "{\"Version\":\"v2.6.5\",\"BuildDate\":\"...\",\"GitCommit\":\"...\"}",
             "expected_version": "2.6.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

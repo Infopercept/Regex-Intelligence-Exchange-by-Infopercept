@@ -4,6 +4,7 @@
   "product": "BXR",
   "product_id": "bxr",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<meta name=\"generator\" content=\"BXR::Web\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"BXR::Web\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

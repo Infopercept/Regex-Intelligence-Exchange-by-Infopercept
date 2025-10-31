@@ -4,6 +4,7 @@
   "product": "imperva-securesphere",
   "product_id": "imperva-securesphere",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>SecureSphere - Default</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>SecureSphere\\ \\-\\ Default</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<td><font class=\"gray-text-small\">SecureSphere includes software developed by Oracle Corporation.</font></td></tr>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><font\\ class=\"gray\\-text\\-small\">SecureSphere\\ includes\\ software\\ developed\\ by\\ Oracle\\ Corporation\\.</font></td></tr>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "src=\"/SecureSphere/scripts/infra/ActiveRequests.js\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "src=\"/SecureSphere/scripts/infra/ActiveRequests\\.js\">",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "src=\"/SecureSphere/scripts/infra/Mprv.js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "src=\"/SecureSphere/scripts/infra/Mprv\\.js\"></script>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "src=\"/SecureSphere/scripts/infra/SessionUtils.js\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "src=\"/SecureSphere/scripts/infra/SessionUtils\\.js\">",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "SecureSphere/secsphLogin.jsp",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "SecureSphere/secsphLogin\\.jsp",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

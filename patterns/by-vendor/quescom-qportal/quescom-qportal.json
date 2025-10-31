@@ -4,6 +4,7 @@
   "product": "QuesCom-Qportal",
   "product_id": "quescom-qportal",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<head profile=\"http://www.quescom.com\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<head\\ profile=\"http://www\\.quescom\\.com\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<FRAME src=\"/cticall/cticall_close.asp\" name=\"cticlose\" frameborder=\"no\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<FRAME\\ src=\"/cticall/cticall_close\\.asp\"\\ name=\"cticlose\"\\ frameborder=\"no\"\\ scrolling=\"no\"\\ marginwidth=\"0\"\\ marginheight=\"0\">",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<link href=\"/qpuser.css\" rel=\"stylesheet\" type=\"text/css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ href=\"/qpuser\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

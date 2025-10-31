@@ -4,6 +4,7 @@
   "product": "Weatimages",
   "product_id": "weatimages",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div align=\"center\" class=\"weatimages_toppest_navig\" style=\"text-decoration:underline;\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ align=\"center\"\\ class=\"weatimages_toppest_navig\"\\ style=\"text\\-decoration:underline;\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"Generator\" content=\"Weatimages\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"Generator\"\\ content=\"Weatimages\"/>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "Powered by <a href=\"http://nazarkin.name/projects/weatimages/\">Weatimages</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://nazarkin\\.name/projects/weatimages/\">Weatimages</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

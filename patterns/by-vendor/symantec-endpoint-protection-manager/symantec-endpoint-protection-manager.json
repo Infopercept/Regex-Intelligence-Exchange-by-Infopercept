@@ -4,6 +4,7 @@
   "product": "Symantec-Endpoint-Protection-Manager",
   "product_id": "symantec-endpoint-protection-manager",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<tr><td align=\"left\" style=\"font-family:Arial; font-size:18pt\"><b>Symantec Endpoint Protection Manager<br>Web Access</b></td></tr>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr><td\\ align=\"left\"\\ style=\"font\\-family:Arial;\\ font\\-size:18pt\"><b>Symantec\\ Endpoint\\ Protection\\ Manager<br>Web\\ Access</b></td></tr>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!-- Now, if it is IE on Windows platform, we check to see which version of JWS is installed -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Now,\\ if\\ it\\ is\\ IE\\ on\\ Windows\\ platform,\\ we\\ check\\ to\\ see\\ which\\ version\\ of\\ JWS\\ is\\ installed\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,14 +4,12 @@
   "product": "Sami FTP Server",
   "product_id": "karjasoft-sami-ftp-server",
   "category": "networking",
+  "subcategory": "router",
   "versions": {},
   "all_versions": [
     {
       "name": "Sami FTP Server",
-      "category": "networking",
       "pattern": "Sami FTP Server [vV]([\\d\\.]+)",
-      "vendor": "Karjasoft",
-      "product": "Sami FTP Server",
       "version_group": 1,
       "priority": 150,
       "confidence": 0.85,
@@ -34,9 +32,9 @@
             "input": "220 KarjaSoft Sami FTP Server v3.1.0 ready.",
             "expected_version": "3.1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
-  ],
-  "subcategory": "router"
+  ]
 }

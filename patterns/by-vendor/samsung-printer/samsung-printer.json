@@ -4,6 +4,7 @@
   "product": "Samsung-Printer",
   "product_id": "samsung-printer",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "var debugMode = (\"$$GSI_TCPIP_IP_ADDR$$\".indexOf(\".\")",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "var\\ debugMode\\ =\\ \\(\"\\$\\$GSI_TCPIP_IP_ADDR\\$\\$\"\\.indexOf\\(\"\\.\"\\)",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

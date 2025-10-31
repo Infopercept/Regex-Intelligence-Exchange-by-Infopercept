@@ -4,6 +4,7 @@
   "product": "Sophos-Email-Appliance",
   "product_id": "sophos-email-appliance",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Sophos Email Appliance$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Sophos Email Appliance$",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<td class=\"logincontent\" valign=\"top\"><a href=\"http://www.sophos.com\"><img src=\"images/logo_sophos.gif\" border=\"0\" alt=\"Email Appliance\"></a></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ class=\"logincontent\"\\ valign=\"top\"><a\\ href=\"http://www\\.sophos\\.com\"><img\\ src=\"images/logo_sophos\\.gif\"\\ border=\"0\"\\ alt=\"Email\\ Appliance\"></a></td>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<title>Sophos Email Appliance</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Sophos\\ Email\\ Appliance</title>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<!-- end main content -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ end\\ main\\ content\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

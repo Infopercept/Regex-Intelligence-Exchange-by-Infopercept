@@ -4,6 +4,7 @@
   "product": "NoticeBoardPro",
   "product_id": "noticeboardpro",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<A HREF=\"registerOutline.php\" CLASS=\"Xref\" style=\"margin-right:10\">[Register]</A>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<A\\ HREF=\"registerOutline\\.php\"\\ CLASS=\"Xref\"\\ style=\"margin\\-right:10\">\\[Register\\]</A>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<A HREF=\"loginOutline.php\" CLASS=\"Xref\" style=\"margin-left:165; margin-right:10\">[Sign In]</A>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<A\\ HREF=\"loginOutline\\.php\"\\ CLASS=\"Xref\"\\ style=\"margin\\-left:165;\\ margin\\-right:10\">\\[Sign\\ In\\]</A>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

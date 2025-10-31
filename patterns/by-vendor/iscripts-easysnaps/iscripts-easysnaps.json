@@ -4,6 +4,7 @@
   "product": "iScripts-EasySnaps",
   "product_id": "iscripts-easysnaps",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "          <td height=\"25\" align=\"center\" bgcolor=\"#000000\">Powered by <a href=\"http://www.iscripts.com/gallery/\" target=\"_blank\">iScripts EasySnaps</a>. A premium product from <a href=\"http://www.iscripts.com/\" target=\"_blank\">iScripts.com</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <td\\ height=\"25\"\\ align=\"center\"\\ bgcolor=\"\\#000000\">Powered\\ by\\ <a\\ href=\"http://www\\.iscripts\\.com/gallery/\"\\ target=\"_blank\">iScripts\\ EasySnaps</a>\\.\\ A\\ premium\\ product\\ from\\ <a\\ href=\"http://www\\.iscripts\\.com/\"\\ target=\"_blank\">iScripts\\.com</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

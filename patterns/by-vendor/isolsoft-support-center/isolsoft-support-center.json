@@ -4,6 +4,7 @@
   "product": "Isolsoft-Support-Center",
   "product_id": "isolsoft-support-center",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<strong><font color=\"#FF0000\">Warning! This heldesk requires a browser with javascript ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<strong><font\\ color=\"\\#FF0000\">Warning!\\ This\\ heldesk\\ requires\\ a\\ browser\\ with\\ javascript\\ ",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!-- Copyright Line: Unauthorized removal can void license -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Copyright\\ Line:\\ Unauthorized\\ removal\\ can\\ void\\ license\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

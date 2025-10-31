@@ -4,6 +4,7 @@
   "product": "xproxy",
   "product_id": "xproxy",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^xproxy",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^xproxy",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^xproxy/([^\\(]+)\\([\\d]+\\)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^xproxy/([^\\(]+)\\([\\d]+\\)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

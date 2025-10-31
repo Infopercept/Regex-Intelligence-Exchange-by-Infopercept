@@ -4,6 +4,7 @@
   "product": "Pre-Printing-Press",
   "product_id": "pre-printing-press",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<p align=\"left\"><select id=\"mylist\" name=\"mylist\" onchange = \"go()\" style=\"font-family:",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ align=\"left\"><select\\ id=\"mylist\"\\ name=\"mylist\"\\ onchange\\ =\\ \"go\\(\\)\"\\ style=\"font\\-family:",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<input id=\"ib_attrib_disk_quantity-2\" type=\"radio\" onClick=\"showsubcat(this.value)\" value=\"olduser\" name=\"allusers\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ id=\"ib_attrib_disk_quantity\\-2\"\\ type=\"radio\"\\ onClick=\"showsubcat\\(this\\.value\\)\"\\ value=\"olduser\"\\ name=\"allusers\"\\ />",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<div align=\"center\">&copy; Copyright PreProjects.com All Rights Reserved</div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ align=\"center\">\\&copy;\\ Copyright\\ PreProjects\\.com\\ All\\ Rights\\ Reserved</div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

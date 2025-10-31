@@ -4,6 +4,7 @@
   "product": "Unimep-Station-Controller",
   "product_id": "unimep-station-controller",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<META Name=\"Description\" Content=\"UniMep Station Controller\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<META\\ Name=\"Description\"\\ Content=\"UniMep\\ Station\\ Controller\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<center><a href=\"cgi-bin/usc.ver.cgi\">USC&nbsp;Version</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<center><a\\ href=\"cgi\\-bin/usc\\.ver\\.cgi\">USC\\&nbsp;Version</a>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<a href=\"cgi-bin/log.log.cgi\" target=\"_blank\">Log1.cgi</a>&nbsp;<a href=\"/Log.log\" target=\"_blank\">Log1.log</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"cgi\\-bin/log\\.log\\.cgi\"\\ target=\"_blank\">Log1\\.cgi</a>\\&nbsp;<a\\ href=\"/Log\\.log\"\\ target=\"_blank\">Log1\\.log</a>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<input type='button' value='Cashier' onclick=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ type='button'\\ value='Cashier'\\ onclick=\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

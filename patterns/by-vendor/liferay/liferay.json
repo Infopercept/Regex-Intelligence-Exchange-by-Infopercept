@@ -4,6 +4,7 @@
   "product": "Liferay",
   "product_id": "liferay",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by Liferay Portal",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ Liferay\\ Portal",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<![CDATA[*/Liferay.Util.addInputFocus();/*]]>*",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\[CDATA\\[\\*/Liferay\\.Util\\.addInputFocus\\(\\);/\\*\\]\\]>\\*",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "liferay-portal: ^Liferay Portal (.+ Edition) (.+)$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "liferay-portal: ^Liferay Portal (.+ Edition) (.+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

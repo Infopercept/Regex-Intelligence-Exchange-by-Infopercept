@@ -4,6 +4,7 @@
   "product": "VSP-Stats-Processor",
   "product_id": "vsp-stats-processor",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "powered by <A HREF=\"http://www.(scivox.net|clanavl.com)/vsp/\">vsp stats processor</A>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "powered by <A HREF=\"http://www.(scivox.net|clanavl.com)/vsp/\">vsp stats processor</A>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "&nbsp;theme:bismarck by <A HREF=\"#\" TITLE=\"myrddin8 <AT> gmail <DOT> com\">myrddin</A>&nbsp;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\&nbsp;theme:bismarck\\ by\\ <A\\ HREF=\"\\#\"\\ TITLE=\"myrddin8\\ <AT>\\ gmail\\ <DOT>\\ com\">myrddin</A>\\&nbsp;",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<TITLE>vsp ((map|award|game|player) stats)</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>vsp \\((map|award|game|player) stats\\)</TITLE>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<BODY>error: cannot establish database connection or database database_name does not exist",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<BODY>error:\\ cannot\\ establish\\ database\\ connection\\ or\\ database\\ database_name\\ does\\ not\\ exist",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

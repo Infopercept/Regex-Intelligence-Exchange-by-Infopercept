@@ -4,6 +4,7 @@
   "product": "E-Manage-MySchool",
   "product_id": "e-manage-myschool",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<TD  height=36  class=text align=center  height=100%>Copyrights ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TD\\ \\ height=36\\ \\ class=text\\ align=center\\ \\ height=100%>Copyrights\\ ",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<td style='cursor:pointer' HEIGHT=25z>&nbsp;<img id='vfolder_1' src='styles/",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ style='cursor:pointer'\\ HEIGHT=25z>\\&nbsp;<img\\ id='vfolder_1'\\ src='styles/",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<input  type='password' name='Sub_Password' ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ \\ type='password'\\ name='Sub_Password'\\ ",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

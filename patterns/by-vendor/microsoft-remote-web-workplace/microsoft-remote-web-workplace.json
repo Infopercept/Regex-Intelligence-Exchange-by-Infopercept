@@ -4,6 +4,7 @@
   "product": "Microsoft-Remote-Web-Workplace",
   "product_id": "microsoft-remote-web-workplace",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "</title><link href=\"signinStyle.css\" rel=\"stylesheet\" type=\"text/css\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "</title><link\\ href=\"signinStyle\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<form name=\"form1\" method=\"post\" action=\"logon.aspx?ReturnUrl=%2f[^\"]\" id=\"form1\" autocomplete=\"OFF\" onsubmit=\"OnUserNameFocus();\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form name=\"form1\" method=\"post\" action=\"logon\\.aspx\\?ReturnUrl=%2f[^\"]\" id=\"form1\" autocomplete=\"OFF\" onsubmit=\"OnUserNameFocus\\(\\);\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<input id=\"rememberMe\" type=\"checkbox\" name=\"rememberMe\" tabindex=\"3\" /><label for=\"rememberMe\">Remember me on this computer</label>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ id=\"rememberMe\"\\ type=\"checkbox\"\\ name=\"rememberMe\"\\ tabindex=\"3\"\\ /><label\\ for=\"rememberMe\">Remember\\ me\\ on\\ this\\ computer</label>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<meta name=\"copyright\" content=\"Copyright (c) Microsoft Corporation.  All rights reserved.\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"copyright\"\\ content=\"Copyright\\ \\(c\\)\\ Microsoft\\ Corporation\\.\\ \\ All\\ rights\\ reserved\\.\"\\ />",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<head id=\"Head1\"><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<head\\ id=\"Head1\"><meta\\ http\\-equiv=\"Content\\-Type\"\\ content=\"text/html;\\ charset=utf\\-8\"\\ /><title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

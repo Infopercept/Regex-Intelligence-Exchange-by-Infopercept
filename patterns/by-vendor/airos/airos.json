@@ -4,6 +4,7 @@
   "product": "AirOS",
   "product_id": "airos",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "cache_images(['main_top.png', 'main.png', 'link.png', 'net.png', '4dv.png', 'srv.png', 'system.png', 'border.gif', 'spectr.gif']);",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "cache_images\\(\\['main_top\\.png',\\ 'main\\.png',\\ 'link\\.png',\\ 'net\\.png',\\ '4dv\\.png',\\ 'srv\\.png',\\ 'system\\.png',\\ 'border\\.gif',\\ 'spectr\\.gif'\\]\\);",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "WebGuard",
   "product_id": "webguard",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>WebGuard Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>WebGuard\\ Login</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<body leftmargin=\"0\" topmargin=\"0\" marginwidth=\"0\" marginheight=\"0\" onLoad=\"GetInfo()\" onResize=\"fit_center()\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ leftmargin=\"0\"\\ topmargin=\"0\"\\ marginwidth=\"0\"\\ marginheight=\"0\"\\ onLoad=\"GetInfo\\(\\)\"\\ onResize=\"fit_center\\(\\)\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<table id=loginback border=\"0\" cellpadding=\"0\" cellspacing=\"0\" background=\"images/login_venus_back.gif\" width=480 height=175 style=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<table\\ id=loginback\\ border=\"0\"\\ cellpadding=\"0\"\\ cellspacing=\"0\"\\ background=\"images/login_venus_back\\.gif\"\\ width=480\\ height=175\\ style=\\\\",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<td align=\"left\" valign=\"middle\"><input name=\"login_passwd\" type=\"password\" class=\"noborder\" size=\"26\"></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ align=\"left\"\\ valign=\"middle\"><input\\ name=\"login_passwd\"\\ type=\"password\"\\ class=\"noborder\"\\ size=\"26\"></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

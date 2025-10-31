@@ -4,6 +4,7 @@
   "product": "reCAPTCHA",
   "product_id": "recaptcha",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<noscript>[s]*<iframe src=\"http://www.google.com/recaptcha/api/noscript?k=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<noscript>[\\s]*<iframe src=\"http://www\\.google\\.com/recaptcha/api/noscript\\?k=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

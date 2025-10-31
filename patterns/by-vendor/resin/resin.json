@@ -4,6 +4,7 @@
   "product": "Resin",
   "product_id": "resin",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Resin",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Resin",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Server: ^Resin/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Resin/([^\\s]+)",
       "version_group": 1
@@ -70,11 +73,11 @@
             "input": "Server: [\\s]+Resin/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: [\\s]+Resin/([^\\s]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

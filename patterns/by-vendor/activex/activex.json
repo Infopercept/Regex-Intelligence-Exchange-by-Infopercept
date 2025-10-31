@@ -4,6 +4,7 @@
   "product": "ActiveX",
   "product_id": "activex",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "d27cdb6e-ae6d-11cf-96b8-444553540000",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "d27cdb6e-ae6d-11cf-96b8-444553540000",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

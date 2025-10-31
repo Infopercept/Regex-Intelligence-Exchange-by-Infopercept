@@ -4,6 +4,7 @@
   "product": "Konica-Minolta-Printer",
   "product_id": "konica-minolta-printer",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^LPC Http Server/V([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^LPC Http Server/V([^\\s]+)",
       "version_group": 1
@@ -47,7 +49,8 @@
             "input": "<?xml-stylesheet href=\"js_error.xsl\" type=\"text/xsl\"?>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<\\?xml\\-stylesheet\\ href=\"js_error\\.xsl\"\\ type=\"text/xsl\"\\?>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<meta http-equiv=\"refresh\" content=\"0; URL=/wcd/js_error.xml\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ http\\-equiv=\"refresh\"\\ content=\"0;\\ URL=/wcd/js_error\\.xml\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

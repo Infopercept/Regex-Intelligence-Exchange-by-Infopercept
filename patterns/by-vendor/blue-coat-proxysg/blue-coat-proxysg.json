@@ -4,6 +4,7 @@
   "product": "Blue-Coat-ProxySG",
   "product_id": "blue-coat-proxysg",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "https?://proxysg/?cfru=[^s]+$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "https?://proxysg/\\?cfru=[^\\s]+$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

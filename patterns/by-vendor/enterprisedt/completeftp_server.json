@@ -4,14 +4,12 @@
   "product": "completeftp_server",
   "product_id": "enterprisedt-completeftp_server",
   "category": "networking",
+  "subcategory": "router",
   "versions": {},
   "all_versions": [
     {
       "name": "CompleteFTP FTP Server",
-      "category": "networking",
       "pattern": "(?i)220\\sCompleteFTP\\sv\\s([\\d.]+)",
-      "vendor": "enterprisedt",
-      "product": "completeftp_server",
       "version_group": 1,
       "priority": 150,
       "confidence": 0.9,
@@ -34,9 +32,9 @@
             "input": "220 CompleteFTP v 8.2.3 ready",
             "expected_version": "8.2.3"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
-  ],
-  "subcategory": "router"
+  ]
 }

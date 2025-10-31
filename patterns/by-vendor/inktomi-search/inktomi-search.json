@@ -4,6 +4,7 @@
   "product": "Inktomi-Search",
   "product_id": "inktomi-search",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: ^Inktomi Search ([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Inktomi Search ([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

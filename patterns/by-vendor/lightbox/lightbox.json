@@ -4,6 +4,7 @@
   "product": "Lightbox",
   "product_id": "lightbox",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<script [^>]*(lightbox[^>]*.js)[^>]*",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script [^>]*(lightbox[^>]*.js)[^>]*",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

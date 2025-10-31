@@ -4,6 +4,7 @@
   "product": "Kandidat-CMS",
   "product_id": "kandidat-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Powered by[ ]?[:]? <a href=\"http://www.kan-studio.ru[/]?\">Kandidat CMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by[\\ ]?[:]? <a href=\"http://www.kan-studio.ru[/]?\">Kandidat CMS</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

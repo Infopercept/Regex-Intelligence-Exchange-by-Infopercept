@@ -4,6 +4,7 @@
   "product": "phpVMS",
   "product_id": "phpvms",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div class=\"jqmWindow\" id=\"jqmdialog\"></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ class=\"jqmWindow\"\\ id=\"jqmdialog\"></div>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- Please retain this!! It's part of the phpVMS license. You must display a[s]+\"powered by phpVMS\" somewhere on your page. Thanks! -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!-- Please retain this!! It's part of the phpVMS license\\. You must display a[\\s]+\"powered by phpVMS\" somewhere on your page\\. Thanks! -->",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<a href=\"http://www.phpvms.net\" target=\"_blank\">powered by phpVMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.phpvms\\.net\"\\ target=\"_blank\">powered\\ by\\ phpVMS</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "PowerAlert",
   "product_id": "poweralert",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<h1>Protected Object</h1>This object on the Netsilicon is protected.<p>Return to <A TARGET=\"_top\" HREF=\"index.html\">Last page</A><p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h1>Protected\\ Object</h1>This\\ object\\ on\\ the\\ Netsilicon\\ is\\ protected\\.<p>Return\\ to\\ <A\\ TARGET=\"_top\"\\ HREF=\"index\\.html\">Last\\ page</A><p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

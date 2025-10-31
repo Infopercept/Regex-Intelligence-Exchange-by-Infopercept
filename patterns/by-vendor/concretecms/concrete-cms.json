@@ -4,14 +4,12 @@
   "product": "Concrete CMS",
   "product_id": "concretecms-concrete-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
       "name": "Concrete CMS",
-      "category": "cms",
       "pattern": "<meta name=\"generator\" content=\"Concrete CMS ([\\d\\.]+)",
-      "vendor": "ConcreteCMS",
-      "product": "Concrete CMS",
       "version_group": 1,
       "priority": 150,
       "confidence": 0.9,
@@ -35,9 +33,9 @@
             "input": "<meta name=\"generator\" content=\"Concrete CMS 8.5.2\">",
             "expected_version": "8.5.2"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

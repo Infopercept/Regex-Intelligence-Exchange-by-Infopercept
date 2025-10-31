@@ -4,6 +4,7 @@
   "product": "Perl",
   "product_id": "perl",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: [^\\r^\\n]*Perl/v([^\\s^\\r^\\n]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: [^\\r^\\n]*Perl/v([^\\s^\\r^\\n]+)",
       "version_group": 1
@@ -47,7 +49,8 @@
             "input": "application/perl",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "application/perl",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "^(pl)$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^(pl)$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

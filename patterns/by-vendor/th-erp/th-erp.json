@@ -4,6 +4,7 @@
   "product": "th-ERP",
   "product_id": "th-erp",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<LINK REL=StyleSheet HREF='../include/therp.css' TYPE='text/css'><script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<LINK\\ REL=StyleSheet\\ HREF='\\.\\./include/therp\\.css'\\ TYPE='text/css'><script>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<title>thERP - Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>thERP\\ \\-\\ Login</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

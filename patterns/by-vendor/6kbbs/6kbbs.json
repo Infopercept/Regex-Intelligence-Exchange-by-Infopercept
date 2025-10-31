@@ -4,6 +4,7 @@
   "product": "6kbbs",
   "product_id": "6kbbs",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<meta name=\"author\" content=\"www.6kbbs.com\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"www\\.6kbbs\\.com\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

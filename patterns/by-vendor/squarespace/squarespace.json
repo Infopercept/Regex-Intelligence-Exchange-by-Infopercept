@@ -4,6 +4,7 @@
   "product": "SquareSpace",
   "product_id": "squarespace",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "This site is completely powered by the Squarespace platform.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "This\\ site\\ is\\ completely\\ powered\\ by\\ the\\ Squarespace\\ platform\\.",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "^WebPersCookie",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^WebPersCookie",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "^SS_MID",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^SS_MID",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "^ss_sd",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^ss_sd",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

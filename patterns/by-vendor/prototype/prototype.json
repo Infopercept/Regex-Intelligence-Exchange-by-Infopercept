@@ -4,6 +4,7 @@
   "product": "Prototype",
   "product_id": "prototype",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<script [^>]*(prototype[^>]*.js)[^>]*",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script [^>]*(prototype[^>]*.js)[^>]*",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Django",
   "product_id": "django",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^WSGIServer/[^s]+ Python/[^s]+$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^WSGIServer/[^\\s]+ Python/[^\\s]+$",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<div id=\"explanation\">[s]+<p>[s]+You're seeing this error because you have <code>DEBUG = True</code> in[s]+your[s]+Django settings file",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div id=\"explanation\">[\\s]+<p>[\\s]+You're seeing this error because you have <code>DEBUG = True</code> in[\\s]+your[\\s]+Django settings file",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<meta name=\"robots\" content=\"NONE,NOARCHIVE\"><title>Welcome to Django</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"robots\" content=\"NONE,NOARCHIVE\"><title>Welcome to Django</title>",
       "version_group": 0
@@ -116,7 +120,8 @@
             "input": "<input type=\"hidden\" name=\"this_is_the_login_form\" value=\"1\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ type=\"hidden\"\\ name=\"this_is_the_login_form\"\\ value=\"1\"\\ />",
       "version_group": 0
@@ -139,7 +144,8 @@
             "input": "csrftoken",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "csrftoken",
       "version_group": 0
@@ -162,11 +168,11 @@
             "input": "django_",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "django_",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

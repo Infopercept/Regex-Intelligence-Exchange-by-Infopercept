@@ -4,6 +4,7 @@
   "product": "Sony-Network-Camera",
   "product_id": "sony-network-camera",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "\tsetWindowVar = window.open(\"/adm/file.cgi?next_file=setting.htm\", \"adminWin\", setWinoptions);",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\tsetWindowVar\\ =\\ window\\.open\\(\"/adm/file\\.cgi\\?next_file=setting\\.htm\",\\ \"adminWin\",\\ setWinoptions\\);",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<TITLE>Server Push Viewer</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>Server\\ Push\\ Viewer</TITLE>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<FRAME SRC=\"bar.html\" SCROLLING=\"NO\" NAME=\"sonyhome[0-9]*\" NORESIZE[ MARGINHEIGHT=\"0-9\"]* MARGINWIDTH=\"0\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<FRAME SRC=\"bar.html\" SCROLLING=\"NO\" NAME=\"sonyhome[0-9]*\" NORESIZE[\\ MARGINHEIGHT=\"0-9\"]* MARGINWIDTH=\"0\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

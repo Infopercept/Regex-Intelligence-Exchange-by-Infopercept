@@ -4,6 +4,7 @@
   "product": "WebSideStory",
   "product_id": "websidestory",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- WebSideStory HTML for Search -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ WebSideStory\\ HTML\\ for\\ Search\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!--END WEBSIDESTORY CODE-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-END\\ WEBSIDESTORY\\ CODE\\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "Search powered by <a class=\"external\" href=\"http://www.websidestory.com/\">WebSideStory</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Search\\ powered\\ by\\ <a\\ class=\"external\"\\ href=\"http://www\\.websidestory\\.com/\">WebSideStory</a>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<a href=\"http://websidestory.com/\" target=\"_blank\">Powered by WebSideStory</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://websidestory\\.com/\"\\ target=\"_blank\">Powered\\ by\\ WebSideStory</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

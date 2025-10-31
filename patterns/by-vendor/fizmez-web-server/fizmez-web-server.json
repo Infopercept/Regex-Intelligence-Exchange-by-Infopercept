@@ -4,6 +4,7 @@
   "product": "Fizmez-Web-Server",
   "product_id": "fizmez-web-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Fizmez/0.0.1",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Fizmez/0\\.0\\.1",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "Server: ^Fizmez/([1-9]+\\.[\\d\\.]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Fizmez/([1-9]+\\.[\\d\\.]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

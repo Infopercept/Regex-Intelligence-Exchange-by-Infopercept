@@ -4,6 +4,7 @@
   "product": "Pressflow",
   "product_id": "pressflow",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a href=\"http://drupal.org\"><img src=\"[/a-zA-Z0-9-_+]*/misc/powered-blue-80x15.png\" alt=\"Powered by Pressflow, an open source content management system\" title=\"Powered by Pressflow, an open source content management system\" width=\"80\" height=\"15\" /></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"http://drupal.org\"><img src=\"[/a-zA-Z0-9\\-\\_+]*/misc/powered-blue-80x15.png\" alt=\"Powered by Pressflow, an open source content management system\" title=\"Powered by Pressflow, an open source content management system\" width=\"80\" height=\"15\" /></a>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<title>Drupal already installed | Pressflow</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Drupal\\ already\\ installed\\ \\|\\ Pressflow</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

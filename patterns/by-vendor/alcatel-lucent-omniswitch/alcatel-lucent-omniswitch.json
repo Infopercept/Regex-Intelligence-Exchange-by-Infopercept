@@ -4,6 +4,7 @@
   "product": "Alcatel-Lucent-Omniswitch",
   "product_id": "alcatel-lucent-omniswitch",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Webview Logon Page</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Webview\\ Logon\\ Page</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "document.write(errMsg==\"\"?\"&nbsp;\":(\"<u>Error</u>&nbsp;-&nbsp;\" + errMsg));",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "document\\.write\\(errMsg==\"\"\\?\"\\&nbsp;\":\\(\"<u>Error</u>\\&nbsp;\\-\\&nbsp;\"\\ \\+\\ errMsg\\)\\);",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

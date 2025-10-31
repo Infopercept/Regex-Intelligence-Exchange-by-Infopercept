@@ -4,6 +4,7 @@
   "product": "WebPA",
   "product_id": "webpa",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<iframe src=\"https?://[^/]+/keep_alive.php\" height=\"1\" width=\"1\" style=\"display: none;\">keep alive</iframe>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<iframe src=\"https?://[^/]+/keep_alive\\.php\" height=\"1\" width=\"1\" style=\"display: none;\">keep alive</iframe>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

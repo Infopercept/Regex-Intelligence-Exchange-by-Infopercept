@@ -4,6 +4,7 @@
   "product": "Net2Phone",
   "product_id": "net2phone",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<HTML><HEAD><TITLE>Net2Phone Init Page</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<HTML><HEAD><TITLE>Net2Phone\\ Init\\ Page</TITLE>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Auxilium-PetRatePro",
   "product_id": "auxilium-petratepro",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<form method=\"post\" name=\"myform2\" action=\"index.php?cmd=11\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ method=\"post\"\\ name=\"myform2\"\\ action=\"index\\.php\\?cmd=11\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<p class=\"text\"><b>Leader Of The Pack (Top 10 Pets)</b><br><br>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ class=\"text\"><b>Leader\\ Of\\ The\\ Pack\\ \\(Top\\ 10\\ Pets\\)</b><br><br>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

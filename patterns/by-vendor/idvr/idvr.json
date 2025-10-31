@@ -4,6 +4,7 @@
   "product": "iDVR",
   "product_id": "idvr",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>iDVR</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>iDVR</title>",
       "version_group": 0
@@ -70,7 +72,8 @@
             "input": "\t\t\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t\\\\",
       "version_group": 0
@@ -98,6 +101,5 @@
       "pattern": "\t\tmonitorDiv.innerHTML = \"<object id='monitorObject' style='display:none' classid='clsid:574B47E8-A366-4AB9-B2EA-57F145CA3780' codebase='lib\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

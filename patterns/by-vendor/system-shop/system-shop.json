@@ -4,6 +4,7 @@
   "product": "System-Shop",
   "product_id": "system-shop",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "      powered by System4you.com internet solutions",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ \\ \\ powered\\ by\\ System4you\\.com\\ internet\\ solutions",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "                powered by System-Shop",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ powered\\ by\\ System\\-Shop",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "               http://www.system-shop.at",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ http://www\\.system\\-shop\\.at",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<a href=\"http://www.systemshop.at\" target=\"_blank\">Powered by System",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.systemshop\\.at\"\\ target=\"_blank\">Powered\\ by\\ System",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

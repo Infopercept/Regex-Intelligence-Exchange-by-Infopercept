@@ -4,6 +4,7 @@
   "product": "Restlet-Framework",
   "product_id": "restlet-framework",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: ^Restlet-Framework/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Restlet-Framework/([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "iScripts-CyberMatch",
   "product_id": "iscripts-cybermatch",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "    <td width=\"[d]+%\" align=\"left\" class=\"footer\">Powered by <a href=\"http://www.iscripts.com/cybermatch/\" target=\"_blank\">iScripts Cybermatch</a> . A premium product from <a href=\"http://www.iscripts.com\" target=\"_blank\">iScripts.com</a></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "    <td width=\"[\\d]+%\" align=\"left\" class=\"footer\">Powered by <a href=\"http://www.iscripts.com/cybermatch/\" target=\"_blank\">iScripts Cybermatch</a> . A premium product from <a href=\"http://www.iscripts.com\" target=\"_blank\">iScripts.com</a></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

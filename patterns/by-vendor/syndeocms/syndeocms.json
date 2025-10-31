@@ -4,6 +4,7 @@
   "product": "SyndeoCMS",
   "product_id": "syndeocms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by <a href=\"http://www.syndeocms.org[/]?\" target=\"_blank\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by <a href=\"http://www.syndeocms.org[/]?\" target=\"_blank\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by <a href=\"http://www.syndeocms.org[/]?\" title=\"SyndeoCMS\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by <a href=\"http://www.syndeocms.org[/]?\" title=\"SyndeoCMS\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "Powered by <a href=\"http://www.syndeocms.org[/]?\"[^>]*>SyndeoCMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by <a href=\"http://www.syndeocms.org[/]?\"[^>]*>SyndeoCMS</a>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "Site created with <a href=\"http://www.syndeocms.org[/]?\">SyndeoCMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Site created with <a href=\"http://www.syndeocms.org[/]?\">SyndeoCMS</a>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<!-- Please don't remove my credits! I worked hard to create this theme and distribute it freely. Thanks! -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Please\\ don't\\ remove\\ my\\ credits!\\ I\\ worked\\ hard\\ to\\ create\\ this\\ theme\\ and\\ distribute\\ it\\ freely\\.\\ Thanks!\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

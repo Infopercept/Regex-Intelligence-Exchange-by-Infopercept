@@ -4,6 +4,7 @@
   "product": "LifeSize-Control",
   "product_id": "lifesize-control",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>LifeSize Control flash check</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>LifeSize\\ Control\\ flash\\ check</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<h3><font color=\"#999999\" face=\"Arial, Helvetica, sans-serif\">You don\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h3><font\\ color=\"\\#999999\"\\ face=\"Arial,\\ Helvetica,\\ sans\\-serif\">You\\ don\\\\",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "^https?://[^/]+/LifeSizeControl/ASP/index.html$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^https?://[^/]+/LifeSizeControl/ASP/index\\.html$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

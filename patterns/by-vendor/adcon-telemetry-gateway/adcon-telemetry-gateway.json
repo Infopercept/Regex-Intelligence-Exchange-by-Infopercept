@@ -4,6 +4,7 @@
   "product": "Adcon-Telemetry-Gateway",
   "product_id": "adcon-telemetry-gateway",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<area href=\"http://www.adcon.at\" coords=\"446,0,565,66\" shape=\"rect\" title=\"Adcon Telemetry\" alt=\"Adcon Telemetry\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<area\\ href=\"http://www\\.adcon\\.at\"\\ coords=\"446,0,565,66\"\\ shape=\"rect\"\\ title=\"Adcon\\ Telemetry\"\\ alt=\"Adcon\\ Telemetry\\\\",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<a name=\"configurator\" href=\"/cgi-bin/configurator.jnlp\">configure your Gateway</a>.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ name=\"configurator\"\\ href=\"/cgi\\-bin/configurator\\.jnlp\">configure\\ your\\ Gateway</a>\\.",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

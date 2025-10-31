@@ -4,6 +4,7 @@
   "product": "Mercurial",
   "product_id": "mercurial",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a href=\"http://mercurial.selenic.com/\" title=\"Mercurial\" style=\"float: right;\">Mercurial</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://mercurial\\.selenic\\.com/\"\\ title=\"Mercurial\"\\ style=\"float:\\ right;\">Mercurial</a>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<div id=\"powered-by\">[s]+<p><a href=\"http://mercurial.selenic.com/\" title=\"Mercurial\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div id=\"powered-by\">[\\s]+<p><a href=\"http://mercurial\\.selenic\\.com/\" title=\"Mercurial\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

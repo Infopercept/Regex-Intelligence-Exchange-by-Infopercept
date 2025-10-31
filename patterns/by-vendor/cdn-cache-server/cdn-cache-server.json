@@ -4,6 +4,7 @@
   "product": "CDN-Cache-Server",
   "product_id": "cdn-cache-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: ^Cdn Cache Server V8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Cdn Cache Server V([\\d\\.]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

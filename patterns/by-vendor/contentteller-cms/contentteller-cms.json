@@ -4,6 +4,7 @@
   "product": "Contentteller-CMS",
   "product_id": "contentteller-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<meta name=\"generator\" content=\"Esselbach Contentteller CMS\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"Esselbach\\ Contentteller\\ CMS\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

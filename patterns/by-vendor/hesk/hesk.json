@@ -4,6 +4,7 @@
   "product": "HESK",
   "product_id": "hesk",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<script language=\"Javascript\" type=\"text/javascript\" src=\"(../|./)?hesk_javascript.js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script language=\"Javascript\" type=\"text/javascript\" src=\"(\\.\\./|\\./)?hesk_javascript\\.js\"></script>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<link href=\"(./)?hesk_style.css\" type=\"text/css\" rel=\"stylesheet\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link href=\"(\\./)?hesk_style\\.css\" type=\"text/css\" rel=\"stylesheet\"",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"(./)?hesk_style.css\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link rel=\"stylesheet\" type=\"text/css\" href=\"(\\./)?hesk_style\\.css\"",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<body onload=\"javascript:var i=new Image();i.src=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ onload=\"javascript:var\\ i=new\\ Image\\(\\);i\\.src=\\\\",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<img src=\"img/loading.gif\" width=\"24\" height=\"24\" alt=\"\" border=\"0\" style=\"vertical-align:text-bottom\" /> <i>Loading knowledgebase suggestions...</i>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"img/loading\\.gif\"\\ width=\"24\"\\ height=\"24\"\\ alt=\"\"\\ border=\"0\"\\ style=\"vertical\\-align:text\\-bottom\"\\ />\\ <i>Loading\\ knowledgebase\\ suggestions\\.\\.\\.</i>",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<!-- START KNOWLEDGEBASE SUGGEST -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ START\\ KNOWLEDGEBASE\\ SUGGEST\\ \\-\\->",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "<p style=\"text-align:center\"><a href=\"admin/\" class=\"smaller\">Go to Administration Panel</a></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ style=\"text\\-align:center\"><a\\ href=\"admin/\"\\ class=\"smaller\">Go\\ to\\ Administration\\ Panel</a></p>",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "<p style=\"text-align:center\"><span class=\"smaller\">Powered by <a href=\"http://www.hesk.com\" class=\"smaller\"( target=\"_blank\")? title=\"Free Help Desk Software HESK\">Help Desk Software</a> HESK&trade;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p style=\"text-align:center\"><span class=\"smaller\">Powered by <a href=\"http://www\\.hesk\\.com\" class=\"smaller\"( target=\"_blank\")? title=\"Free Help Desk Software HESK\">Help Desk Software</a> HESK&trade;",
       "version_group": 0
@@ -208,11 +217,11 @@
             "input": "Powered by <a href=\"http://www.phpjunkyard.com/free-helpdesk-software.php\" class=\"smaller\" target=\"_blank\">Help desk software</a> HESK<sup>TM</sup></span>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.phpjunkyard\\.com/free\\-helpdesk\\-software\\.php\"\\ class=\"smaller\"\\ target=\"_blank\">Help\\ desk\\ software</a>\\ HESK<sup>TM</sup></span>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

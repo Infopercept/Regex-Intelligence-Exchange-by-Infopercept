@@ -4,6 +4,7 @@
   "product": "Telerik-UI",
   "product_id": "telerik-ui",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "type=\"text/css\" rel=\"stylesheet\" class=\"Telerik_stylesheet\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "type=\"text/css\"\\ rel=\"stylesheet\"\\ class=\"Telerik_stylesheet\"\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "$create(Telerik.Web.UI.Rad[a-zA-Z]+,",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\$create\\(Telerik\\.Web\\.UI\\.Rad[a-zA-Z]+,",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "(src|href)=\"/(Telerik.Web.UI.)?WebResource.axd?",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "(src|href)=\"/(Telerik.Web.UI.)?WebResource.axd\\?",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

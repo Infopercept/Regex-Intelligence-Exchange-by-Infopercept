@@ -4,6 +4,7 @@
   "product": "Aruba-Device",
   "product_id": "aruba-device",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<img src=\"/images/arubalogo.gif\" width=\"200\" height=\"51\"[s]+alt=\"Aruba( Wireless)? Networks\" title=\"Aruba( Wireless)? Networks\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img src=\"/images/arubalogo\\.gif\" width=\"200\" height=\"51\"[\\s]+alt=\"Aruba( Wireless)? Networks\" title=\"Aruba( Wireless)? Networks\"/>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<form id=\"login-form\" method=\"post\" autocomplete=\"off\" action=\"/screens/wms/wms.login\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ id=\"login\\-form\"\\ method=\"post\"\\ autocomplete=\"off\"\\ action=\"/screens/wms/wms\\.login\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

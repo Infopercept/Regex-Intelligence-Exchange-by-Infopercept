@@ -4,6 +4,7 @@
   "product": "AEF",
   "product_id": "aef",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"keywords\" content=\"aef, advanced, electron, forum, bulletin, board, software\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"keywords\"\\ content=\"aef,\\ advanced,\\ electron,\\ forum,\\ bulletin,\\ board,\\ software\"\\ />",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "AEFCookies[d]*[aefsid]=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "AEFCookies[\\d]*\\[aefsid\\]=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Lyris-ListManager",
   "product_id": "lyris-listmanager",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<INPUT TYPE=\"hidden\" NAME=\"check_code\" VALUE=\"[^\"^>]+\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<INPUT TYPE=\"hidden\" NAME=\"check_code\" VALUE=\"[^\"^>]+\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<html><h3>This Lyris ListManager Server is currently unavailable.<br>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html><h3>This\\ Lyris\\ ListManager\\ Server\\ is\\ currently\\ unavailable\\.<br>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<font face=\"Arial, Helvetica, sans-serif\" color=\"#000000\"><b><i>Main Menu</i></b></font><br>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<font\\ face=\"Arial,\\ Helvetica,\\ sans\\-serif\"\\ color=\"\\#000000\"><b><i>Main\\ Menu</i></b></font><br>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

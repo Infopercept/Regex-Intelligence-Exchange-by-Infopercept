@@ -4,6 +4,7 @@
   "product": "Google-Search-Appliance",
   "product_id": "google-search-appliance",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<font face=arial,sans-serif size=-1>If you are an end user looking for a Google search service on your network, please ask your system administrator for the URL of the search service.<p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<font\\ face=arial,sans\\-serif\\ size=\\-1>If\\ you\\ are\\ an\\ end\\ user\\ looking\\ for\\ a\\ Google\\ search\\ service\\ on\\ your\\ network,\\ please\\ ask\\ your\\ system\\ administrator\\ for\\ the\\ URL\\ of\\ the\\ search\\ service\\.<p>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "^GSE$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^GSE$",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "^/EnterpriseController",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^/EnterpriseController",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<tr id=\"TopBar\"><td id=\"TopBarName\">About Google Search Appliance</td></tr></table></td></tr></table>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr\\ id=\"TopBar\"><td\\ id=\"TopBarName\">About\\ Google\\ Search\\ Appliance</td></tr></table></td></tr></table>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<tr id=\"TopBar\"><td id=\"TopBarName\">Welcome to the Google Search Appliance!</td></tr></table></td></tr></table>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr\\ id=\"TopBar\"><td\\ id=\"TopBarName\">Welcome\\ to\\ the\\ Google\\ Search\\ Appliance!</td></tr></table></td></tr></table>",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "<tr id=\"TopBar\"> <td id=\"TopBarName\">  Welcome to the Google Mini!  </td> </tr> </table>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr\\ id=\"TopBar\">\\ <td\\ id=\"TopBarName\">\\ \\ Welcome\\ to\\ the\\ Google\\ Mini!\\ \\ </td>\\ </tr>\\ </table>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

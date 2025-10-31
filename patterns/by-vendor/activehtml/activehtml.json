@@ -4,6 +4,7 @@
   "product": "ActiveHTML",
   "product_id": "activehtml",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ActiveHTML/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ActiveHTML/([^\\s]+)",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "x-powered-by: seliSoft ActiveHTML/([^\\s]+)",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-powered-by: seliSoft ActiveHTML/([^\\s]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

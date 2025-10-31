@@ -4,6 +4,7 @@
   "product": "FrontPage-Personal-Web-Server",
   "product_id": "frontpage-personal-web-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^FPWS/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^FPWS/([^\\s]+)",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "^FPWS",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^FPWS",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

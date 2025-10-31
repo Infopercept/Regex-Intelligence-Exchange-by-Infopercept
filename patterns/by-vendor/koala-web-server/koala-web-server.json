@@ -4,6 +4,7 @@
   "product": "Koala-Web-Server",
   "product_id": "koala-web-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Koala Web Server",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Koala Web Server",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^Koala Web Server/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Koala Web Server/([^\\s]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Ipswitch-IMail",
   "product_id": "ipswitch-imail",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Ipswitch-IMail",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Ipswitch-IMail",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^Ipswitch-IMail/8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Ipswitch-IMail/([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

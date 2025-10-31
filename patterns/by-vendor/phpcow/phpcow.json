@@ -4,6 +4,7 @@
   "product": "PHPCow",
   "product_id": "phpcow",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<b>Powered by</b>: <a href=\"http://www.phpcow.com\" target=\"_blank\" style=\"color: #000000\">PHPCow.com</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<b>Powered\\ by</b>:\\ <a\\ href=\"http://www\\.phpcow\\.com\"\\ target=\"_blank\"\\ style=\"color:\\ \\#000000\">PHPCow\\.com</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<b>Powered by</b>: <a href=\"http://www.phpcow.com\" target=\"_blank\" style=\"color: #000000\" title=\"PHPCow news publishing script, content management system\">PHPCow.com</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<b>Powered\\ by</b>:\\ <a\\ href=\"http://www\\.phpcow\\.com\"\\ target=\"_blank\"\\ style=\"color:\\ \\#000000\"\\ title=\"PHPCow\\ news\\ publishing\\ script,\\ content\\ management\\ system\">PHPCow\\.com</a>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<meta name=\"Description\" content=\"PHPCow news publishing content management system\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"Description\"\\ content=\"PHPCow\\ news\\ publishing\\ content\\ management\\ system\"\\ />",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<meta name=\"Keywords\" content=\"phpcow, news publishing, article publishing, cms\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"Keywords\"\\ content=\"phpcow,\\ news\\ publishing,\\ article\\ publishing,\\ cms\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

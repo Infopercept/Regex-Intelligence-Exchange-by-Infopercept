@@ -4,6 +4,7 @@
   "product": "XAMPP",
   "product_id": "xampp",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"author\" content=\"Kai Oswald Seidler\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"Kai\\ Oswald\\ Seidler\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<p style=\"margin-left: 2.6em; font-size: 1.2em; color: red;\">New XAMPP security concept:</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ style=\"margin\\-left:\\ 2\\.6em;\\ font\\-size:\\ 1\\.2em;\\ color:\\ red;\">New\\ XAMPP\\ security\\ concept:</p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

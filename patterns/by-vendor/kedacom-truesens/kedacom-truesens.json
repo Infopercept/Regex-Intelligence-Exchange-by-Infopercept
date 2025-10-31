@@ -4,6 +4,7 @@
   "product": "Kedacom-TrueSens",
   "product_id": "kedacom-truesens",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^KEDACOM-Webs$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^KEDACOM-Webs$",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<body><span style=\"font:12px;\">Loading...</span></body>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body><span\\ style=\"font:12px;\">Loading\\.\\.\\.</span></body>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<img src=\"./img/kedacom-logo.jpg\" alt=\"WEB CONSOLE\" /></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"\\./img/kedacom\\-logo\\.jpg\"\\ alt=\"WEB\\ CONSOLE\"\\ /></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

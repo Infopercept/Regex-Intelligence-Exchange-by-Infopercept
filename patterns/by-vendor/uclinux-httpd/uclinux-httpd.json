@@ -4,6 +4,7 @@
   "product": "uClinux-httpd",
   "product_id": "uclinux-httpd",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^uClinux",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^uClinux",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "Server: ^uClinux-httpd 8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^uClinux-httpd ([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

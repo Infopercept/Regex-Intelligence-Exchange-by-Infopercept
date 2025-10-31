@@ -4,6 +4,7 @@
   "product": "Hughes-Satellite-Router",
   "product_id": "hughes-satellite-router",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<frame src=/fs/dynaform/dw_logo.html scrolling=no marginheight=0 marginwidth=0 NORESIZE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<frame\\ src=/fs/dynaform/dw_logo\\.html\\ scrolling=no\\ marginheight=0\\ marginwidth=0\\ NORESIZE>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "^Basic realm=\"HUGHES Terminal\"$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Basic realm=\"HUGHES Terminal\"$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

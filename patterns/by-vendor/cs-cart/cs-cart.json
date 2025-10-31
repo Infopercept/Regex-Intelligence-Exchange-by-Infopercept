@@ -4,6 +4,7 @@
   "product": "CS-Cart",
   "product_id": "cs-cart",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "\ttext_required_group_product: 'Please select a product for the required group [group_name]',",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\ttext_required_group_product:\\ 'Please\\ select\\ a\\ product\\ for\\ the\\ required\\ group\\ \\[group_name\\]',",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by <a href=\"http://www.cs-cart.com\" target=\"_blank\"[^>]+>CS-Cart - Shopping Cart Software</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by <a href=\"http://www.cs-cart.com\" target=\"_blank\"[^>]+>CS-Cart - Shopping Cart Software</a>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<title>CS-Cart. Powerful PHP shopping cart software</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>CS\\-Cart\\.\\ Powerful\\ PHP\\ shopping\\ cart\\ software</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

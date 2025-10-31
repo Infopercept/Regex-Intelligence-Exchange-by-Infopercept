@@ -4,6 +4,7 @@
   "product": "evercookie",
   "product_id": "evercookie",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "*  by samy kamkar : code@samy.pl : http://samy.pl",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\*\\ \\ by\\ samy\\ kamkar\\ :\\ code@samy\\.pl\\ :\\ http://samy\\.pl",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

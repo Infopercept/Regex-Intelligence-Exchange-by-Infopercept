@@ -4,6 +4,7 @@
   "product": "ImpressPages-CMS",
   "product_id": "impresspages-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by <a href=\"http://www.impresspages.org\">ImpressPages CMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.impresspages\\.org\">ImpressPages\\ CMS</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<h1 class=\"ipWidgetTitleHeading\">ImpressPages CMS successfully installed</h1>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h1\\ class=\"ipWidgetTitleHeading\">ImpressPages\\ CMS\\ successfully\\ installed</h1>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!-- common functions used by various modules -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ common\\ functions\\ used\\ by\\ various\\ modules\\ \\-\\->",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<script type=\"text/javascript\">if(parent.header && parent.content)parent.window.top.location=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ type=\"text/javascript\">if\\(parent\\.header\\ \\&\\&\\ parent\\.content\\)parent\\.window\\.top\\.location=\\\\",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<span id=\"modCommunityNewsletterError\" class=\"error\">Incorrect e-mail address</span>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<span\\ id=\"modCommunityNewsletterError\"\\ class=\"error\">Incorrect\\ e\\-mail\\ address</span>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

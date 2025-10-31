@@ -4,6 +4,7 @@
   "product": "Ruckus-Wireless-Router",
   "product_id": "ruckus-wireless-router",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<div class=\"box\"><img src=\"/images/logo_login.gif\" width=\"173\" height=\"52\" alt=\"Ruckus Wireless\" title=\"Ruckus Wireless\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ class=\"box\"><img\\ src=\"/images/logo_login\\.gif\"\\ width=\"173\"\\ height=\"52\"\\ alt=\"Ruckus\\ Wireless\"\\ title=\"Ruckus\\ Wireless\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

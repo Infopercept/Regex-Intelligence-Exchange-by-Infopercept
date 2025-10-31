@@ -4,6 +4,7 @@
   "product": "pcextreme",
   "product_id": "pcextreme",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<p class=\"content\" align=\"center\">Deze server is eigendom van <a href=\"http://www.pcextreme.nl/\">PCextreme B.V.</a></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ class=\"content\"\\ align=\"center\">Deze\\ server\\ is\\ eigendom\\ van\\ <a\\ href=\"http://www\\.pcextreme\\.nl/\">PCextreme\\ B\\.V\\.</a></p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

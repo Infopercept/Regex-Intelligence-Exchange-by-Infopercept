@@ -4,6 +4,7 @@
   "product": "PHP121",
   "product_id": "php121",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>PHP121 - Please login or register</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>PHP121\\ \\-\\ Please\\ login\\ or\\ register</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<title>PHP121 - New User</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>PHP121\\ \\-\\ New\\ User</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

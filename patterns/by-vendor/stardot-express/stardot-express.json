@@ -4,6 +4,7 @@
   "product": "Stardot-Express",
   "product_id": "stardot-express",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^Basic realm=\"Express6\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Basic realm=\"Express6\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "DV-Cart",
   "product_id": "dv-cart",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div id=\"KT_tngdeverror\"><label>Message:</label><div>You must have the proper credentials to access this page. Please login.</div></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"KT_tngdeverror\"><label>Message:</label><div>You\\ must\\ have\\ the\\ proper\\ credentials\\ to\\ access\\ this\\ page\\.\\ Please\\ login\\.</div></div>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<table cellpadding=\"2\" cellspacing=\"0\" class=\"KT_tngtable\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<table\\ cellpadding=\"2\"\\ cellspacing=\"0\"\\ class=\"KT_tngtable\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

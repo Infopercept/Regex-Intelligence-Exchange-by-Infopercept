@@ -4,6 +4,7 @@
   "product": "MochiWeb",
   "product_id": "mochiweb",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^MochiWeb",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^MochiWeb",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^MochiWeb/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^MochiWeb/([^\\s]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

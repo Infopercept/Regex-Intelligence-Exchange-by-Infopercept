@@ -4,6 +4,7 @@
   "product": "MyWebFTP",
   "product_id": "mywebftp",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<TITLE>MyWebFTP</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>MyWebFTP</TITLE>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<FORM METHOD=post NAME=\"mwForm\" ENCTYPE=\"multipart/form-data\" ACTION=\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<FORM\\ METHOD=post\\ NAME=\"mwForm\"\\ ENCTYPE=\"multipart/form\\-data\"\\ ACTION=\"",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<LINK REL=\"stylesheet\" TYPE=\"text/css\" HREF=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<LINK\\ REL=\"stylesheet\"\\ TYPE=\"text/css\"\\ HREF=\\\\",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<SCRIPT LANGUAGE=JAVASCRIPT SRC=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<SCRIPT\\ LANGUAGE=JAVASCRIPT\\ SRC=\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

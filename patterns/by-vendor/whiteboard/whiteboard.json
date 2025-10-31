@@ -4,6 +4,7 @@
   "product": "WhiteBoard",
   "product_id": "whiteboard",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "\t\t\t&copy; <a href=\"http://www.powerwd.com\">SaroSoftware</a><br />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t\\\t\\&copy;\\ <a\\ href=\"http://www\\.powerwd\\.com\">SaroSoftware</a><br\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "OpenLabyrinth",
   "product_id": "openlabyrinth",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "/images/openlabyrinth-logo.jpg\" alt=\"Labyrinth Identity\" border=\"0\" width=\"150\" height=\"150\"></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/images/openlabyrinth\\-logo\\.jpg\"\\ alt=\"Labyrinth\\ Identity\"\\ border=\"0\"\\ width=\"150\"\\ height=\"150\"></a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

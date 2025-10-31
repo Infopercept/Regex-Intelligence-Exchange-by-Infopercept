@@ -4,6 +4,7 @@
   "product": "LotusCMS",
   "product_id": "lotuscms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by: <a href=\"http://www.lotuscms.org\">LotusCMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by:\\ <a\\ href=\"http://www\\.lotuscms\\.org\">LotusCMS</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by <a href=\"http://www.arboroia.com/cmsproject/\">ArboroianCMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.arboroia\\.com/cmsproject/\">ArboroianCMS</a>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<ul><li><a class='firstM' href='index.php?page=index'>Home</a></li><li><a class='normalM' href='index.php?system=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<ul><li><a\\ class='firstM'\\ href='index\\.php\\?page=index'>Home</a></li><li><a\\ class='normalM'\\ href='index\\.php\\?system=",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<title>LotusCMS Administration</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>LotusCMS\\ Administration</title>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<title>.:Lotus Administration:.</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>\\.:Lotus\\ Administration:\\.</title>",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<form method=\"POST\" action=\"index.php?system=Admin&page=loginSubmit\" id=\"contactform\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ method=\"POST\"\\ action=\"index\\.php\\?system=Admin\\&page=loginSubmit\"\\ id=\"contactform\">",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "<!-- Please don't delete this. You can use this template for free and this is the only way that you can say thanks to me -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Please\\ don't\\ delete\\ this\\.\\ You\\ can\\ use\\ this\\ template\\ for\\ free\\ and\\ this\\ is\\ the\\ only\\ way\\ that\\ you\\ can\\ say\\ thanks\\ to\\ me\\ \\-\\->",
       "version_group": 0
@@ -185,11 +193,11 @@
             "input": "<meta name=\"keywords\" content=\"LotusCMS\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"keywords\"\\ content=\"LotusCMS\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

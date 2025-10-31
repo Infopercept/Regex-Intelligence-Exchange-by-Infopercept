@@ -4,6 +4,7 @@
   "product": "MikroTik-RouterOS",
   "product_id": "mikrotik-routeros",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<body onload=\"parent.generateContent(parent.location.hash.substr(1));\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ onload=\"parent\\.generateContent\\(parent\\.location\\.hash\\.substr\\(1\\)\\);\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

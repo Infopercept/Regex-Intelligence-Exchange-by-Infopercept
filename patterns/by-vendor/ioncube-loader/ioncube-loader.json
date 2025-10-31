@@ -4,6 +4,7 @@
   "product": "ionCube-Loader",
   "product_id": "ioncube-loader",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<img src=\"?page=logo\" alt=\"ionCube logo\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"\\?page=logo\"\\ alt=\"ionCube\\ logo\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<h2>ionCube Loader Wizard</h2><p class=\"alert\">An updated version of this Wizard script is available <a href=\"http://loaders.ioncube.com/\">here</a>.</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h2>ionCube\\ Loader\\ Wizard</h2><p\\ class=\"alert\">An\\ updated\\ version\\ of\\ this\\ Wizard\\ script\\ is\\ available\\ <a\\ href=\"http://loaders\\.ioncube\\.com/\">here</a>\\.</p>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<div id=\"loading\"><script type=\"text/javascript\">document.write(\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"loading\"><script\\ type=\"text/javascript\">document\\.write\\(\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

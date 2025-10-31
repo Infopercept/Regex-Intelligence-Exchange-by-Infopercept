@@ -4,6 +4,7 @@
   "product": "Pantheon",
   "product_id": "pantheon",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "HTTP/1.[01] 404 Unknown site!",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "HTTP/1\\.[01] 404 Unknown site\\!",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

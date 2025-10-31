@@ -4,6 +4,7 @@
   "product": "UnBounce",
   "product_id": "unbounce",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^ubpv",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^ubpv",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "^ubvs",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^ubvs",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "^ubvt",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^ubvt",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

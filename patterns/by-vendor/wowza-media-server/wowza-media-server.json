@@ -4,6 +4,7 @@
   "product": "Wowza-Media-Server",
   "product_id": "wowza-media-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "realm=\"Wowza Media Systems\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "realm=\"Wowza\\ Media\\ Systems\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

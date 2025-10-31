@@ -4,6 +4,7 @@
   "product": "Accellion-Secure-File-Transfer",
   "product_id": "accellion-secure-file-transfer",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "sfcurl=deleted;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "sfcurl=deleted;",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "/courier/[d]+@/mail_user_login.html?$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/courier/[\\d]+@/mail_user_login\\.html\\?$",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<form name=\"form1\" method=\"post\" action=\"mail_user_login_exec.html\" onsubmit=\"document.form1.submit.disabled=true;\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ name=\"form1\"\\ method=\"post\"\\ action=\"mail_user_login_exec\\.html\"\\ onsubmit=\"document\\.form1\\.submit\\.disabled=true;\">",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<link href=\"custom_template/[d]+/wcStyle.css\" type=\"?text/css\"? rel=\"?stylesheet\"?>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link href=\"custom_template/[\\d]+/wcStyle\\.css\" type=\"?text/css\"? rel=\"?stylesheet\"?>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "phpRaid",
   "product_id": "phpraid",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Raid Management Provided by phpRaid",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Raid\\ Management\\ Provided\\ by\\ phpRaid",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

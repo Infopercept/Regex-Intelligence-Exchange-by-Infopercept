@@ -4,6 +4,7 @@
   "product": "WebDAV",
   "product_id": "webdav",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "[^r^n]*DAV/",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "[^\\r^\\n]*DAV/",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Server: [^\\r^\\n]*DAV/([^\\s^\\r^\\n]*)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: [^\\r^\\n]*DAV/([^\\s^\\r^\\n]*)",
       "version_group": 1
@@ -70,7 +73,8 @@
             "input": "^[s]*DAV",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^[\\s]*DAV",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "dav: [\\s]*1,2,<http://([^>]+)>",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "dav: [\\s]*1,2,<http://([^>]+)>",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

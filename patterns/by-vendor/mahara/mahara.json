@@ -4,6 +4,7 @@
   "product": "Mahara",
   "product_id": "mahara",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- This site is powered by Mahara, an Open Source",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ This\\ site\\ is\\ powered\\ by\\ Mahara,\\ an\\ Open\\ Source",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- there is a div id=\"performance-info\" wrapping this -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ there\\ is\\ a\\ div\\ id=\"performance\\-info\"\\ wrapping\\ this\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<div id=\"powered-by\"><a href=\"http://mahara.org/\"><img src=\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"powered\\-by\"><a\\ href=\"http://mahara\\.org/\"><img\\ src=\"",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<script type=\"text/javascript\">var strings = {\"namedfieldempty\":\"The required field \\\"%s\\\" is empty\",\"processing\":\"Processing\",\"requiredfieldempty\":\"A required field is empty\",\"unknownerror\":\"An unknown error occurred (0x20f91a0)\",",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ type=\"text/javascript\">var\\ strings\\ =\\ \\{\"namedfieldempty\":\"The\\ required\\ field\\ \\\\\"%s\\\\\"\\ is\\ empty\",\"processing\":\"Processing\",\"requiredfieldempty\":\"A\\ required\\ field\\ is\\ empty\",\"unknownerror\":\"An\\ unknown\\ error\\ occurred\\ \\(0x20f91a0\\)\",",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

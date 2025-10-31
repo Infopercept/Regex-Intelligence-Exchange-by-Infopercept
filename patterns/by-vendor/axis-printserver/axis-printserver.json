@@ -4,6 +4,7 @@
   "product": "Axis-PrintServer",
   "product_id": "axis-printserver",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<h2>Welcome to AXIS 540/542 Network Print Server</h2>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h2>Welcome\\ to\\ AXIS\\ 540/542\\ Network\\ Print\\ Server</h2>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

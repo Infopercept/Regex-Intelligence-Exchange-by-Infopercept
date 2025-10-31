@@ -4,6 +4,7 @@
   "product": "Cisco-ACE-XML-Gateway",
   "product_id": "cisco-ace-xml-gateway",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^ACE XML Gateway$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^ACE XML Gateway$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

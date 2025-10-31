@@ -4,6 +4,7 @@
   "product": "php-ping",
   "product_id": "php-ping",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<form methode=\"post\" action=\"[^>]*>[s]*Enter IP or Host[^<]*<[^<]*type=\"text\" name=\"host\" value=\"[d.]*\"></input>[s]*Enter Count[^>]*name=\"count\" size=\"2\" value=\"4\"></input>[^>]*[s]*<input type=\"submit\"[^>]*name=\"submit\" value=\"Ping!\"></input></form><br><b></b>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form methode=\"post\" action=\"[^>]*>[\\s]*Enter IP or Host[^<]*<[^<]*type=\"text\" name=\"host\" value=\"[\\d\\.]*\"></input>[\\s]*Enter Count[^>]*name=\"count\" size=\"2\" value=\"4\"></input>[^>]*[\\s]*<input type=\"submit\"[^>]*name=\"submit\" value=\"Ping!\"></input></form><br><b></b>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "WordFusion",
   "product_id": "wordfusion",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<head id=\"Head\"><title>s+WordFusion.Webs+</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<head id=\"Head\"><title>\\s+WordFusion\\.Web\\s+\\</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<param name=\"source\" value=\"ClientBin/WordFusion.Web.xap\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<param\\ name=\"source\"\\ value=\"ClientBin/WordFusion\\.Web\\.xap\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

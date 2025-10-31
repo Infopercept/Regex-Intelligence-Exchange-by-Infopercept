@@ -4,6 +4,7 @@
   "product": "AM4SS",
   "product_id": "am4ss",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- Header end and right block start -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Header\\ end\\ and\\ right\\ block\\ start\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered By <a href=\"http://am4ss.com\"><font color=\"#FF000\">AM4SS</font></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ By\\ <a\\ href=\"http://am4ss\\.com\"><font\\ color=\"\\#FF000\">AM4SS</font></a>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"templates/[^/]+/am4ss.css\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link rel=\"stylesheet\" type=\"text/css\" href=\"templates/[^/]+/am4ss\\.css\" />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

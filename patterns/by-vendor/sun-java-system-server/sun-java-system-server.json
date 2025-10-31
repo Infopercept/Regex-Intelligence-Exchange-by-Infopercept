@@ -4,6 +4,7 @@
   "product": "Sun-Java-System-Server",
   "product_id": "sun-java-system-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "proxy-agent: ^[\\s]*Sun-Java-System-Web-[Proxy-]*Server/1.0",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "proxy-agent: ^[\\s]*Sun-Java-System-Web-[Proxy-]*Server/([\\d\\.]+)",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "Server: ^[\\s]*Sun-Java-System-Web-Server/8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^[\\s]*Sun-Java-System-Web-Server/([\\d\\.]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

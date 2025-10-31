@@ -4,6 +4,7 @@
   "product": "CaupoShop-Classic",
   "product_id": "cauposhop-classic",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<td align=\"center\"><small>Powered by CaupoShop Classic[s]?</small></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td align=\"center\"><small>Powered by CaupoShop Classic[\\s]?</small></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

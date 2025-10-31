@@ -4,6 +4,7 @@
   "product": "PageUp-People",
   "product_id": "pageup-people",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<a class=\"pageupLink\" href=\"http://www.pageuppeople.com\" target=\"self\">Powered by PageUp People</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ class=\"pageupLink\"\\ href=\"http://www\\.pageuppeople\\.com\"\\ target=\"self\">Powered\\ by\\ PageUp\\ People</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

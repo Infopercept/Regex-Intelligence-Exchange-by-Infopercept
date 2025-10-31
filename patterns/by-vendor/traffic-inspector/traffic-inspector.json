@@ -4,6 +4,7 @@
   "product": "Traffic-Inspector",
   "product_id": "traffic-inspector",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: ^Traffic [Ii]nspector HTTP/FTP/Proxy server \\(([^\\)]+)\\)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Traffic [Ii]nspector HTTP/FTP/Proxy server \\(([^\\)]+)\\)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

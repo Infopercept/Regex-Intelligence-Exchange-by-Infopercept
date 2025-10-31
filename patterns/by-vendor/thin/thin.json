@@ -4,6 +4,7 @@
   "product": "thin",
   "product_id": "thin",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: ^thin ([^\\s]+) codename (.+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^thin ([^\\s]+) codename (.+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

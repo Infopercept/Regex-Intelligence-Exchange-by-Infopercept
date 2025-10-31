@@ -4,6 +4,7 @@
   "product": "ExtJS",
   "product_id": "extjs",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<script [^>]*src=[\"'][^>]*ext-base.js[\"']",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script [^>]*src=[\"'][^>]*ext\\-base\\.js[\"']",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

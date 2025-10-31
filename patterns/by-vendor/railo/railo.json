@@ -4,6 +4,7 @@
   "product": "Railo",
   "product_id": "railo",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<script language = \"JavaScript\" type=\"text/javascript\" src=\"/railo-context/form.cfm\"></script><script language = \"JavaScript\" type=\"text/javascript\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ language\\ =\\ \"JavaScript\"\\ type=\"text/javascript\"\\ src=\"/railo\\-context/form\\.cfm\"></script><script\\ language\\ =\\ \"JavaScript\"\\ type=\"text/javascript\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

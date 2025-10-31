@@ -4,6 +4,7 @@
   "product": "Ikonboard",
   "product_id": "ikonboard",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- iB Copyright Information -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ iB\\ Copyright\\ Information\\ \\-\\->",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "</td></tr></table><center><hr><p>[^<]+ [P|p]owered by Ikonboard<br>http://www.ikonboard.com<br>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "</td></tr></table><center><hr><p>[^<]+ [P|p]owered by Ikonboard<br>http://www.ikonboard.com<br>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

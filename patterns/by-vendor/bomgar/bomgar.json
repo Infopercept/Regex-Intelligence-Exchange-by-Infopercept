@@ -4,6 +4,7 @@
   "product": "Bomgar",
   "product_id": "bomgar",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<img src=\"/content/poweredby.jpg\" alt=\"Remote Support by BOMGAR\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"/content/poweredby\\.jpg\"\\ alt=\"Remote\\ Support\\ by\\ BOMGAR\"/>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

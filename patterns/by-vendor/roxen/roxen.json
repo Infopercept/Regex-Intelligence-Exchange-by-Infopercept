@@ -4,6 +4,7 @@
   "product": "Roxen",
   "product_id": "roxen",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Roxen$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Roxen$",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^Roxen/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Roxen/([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "OpenNMS",
   "product_id": "opennms",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<h1 id=\"headerlogo\"><a href=\"[^\"]*index.jsp\"><img src=\"[^\"]*images/logo.png\" alt=\"OpenNMS Web Console Home\"/></a></h1>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h1 id=\"headerlogo\"><a href=\"[^\"]*index\\.jsp\"><img src=\"[^\"]*images/logo\\.png\" alt=\"OpenNMS Web Console Home\"/></a></h1>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<p><input type=\"checkbox\" name=\"_(spring|acegi)_security_remember_me\"> Don't ask for my password for two weeks</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p><input type=\"checkbox\" name=\"_(spring|acegi)_security_remember_me\"> Don't ask for my password for two weeks</p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

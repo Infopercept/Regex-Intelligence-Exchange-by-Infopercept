@@ -4,6 +4,7 @@
   "product": "ZoneMinder",
   "product_id": "zoneminder",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<tr><td colspan=\"2\" class=\"smallhead\" align=\"center\">ZoneMinder Login</td></tr>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr><td\\ colspan=\"2\"\\ class=\"smallhead\"\\ align=\"center\">ZoneMinder\\ Login</td></tr>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Server: ^ZoneMinder Video Server/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^ZoneMinder Video Server/([^\\s]+)$",
       "version_group": 1
@@ -70,11 +73,11 @@
             "input": "ZMSESSID=[^;]+",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "ZMSESSID=[^;]+",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

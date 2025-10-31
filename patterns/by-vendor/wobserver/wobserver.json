@@ -4,6 +4,7 @@
   "product": "Wobserver",
   "product_id": "wobserver",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"description\" content=\"A web based version of the Erlang observer.\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"description\"\\ content=\"A\\ web\\ based\\ version\\ of\\ the\\ Erlang\\ observer\\.\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<title>Wobserver</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Wobserver</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

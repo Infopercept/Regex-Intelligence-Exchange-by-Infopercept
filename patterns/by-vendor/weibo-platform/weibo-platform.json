@@ -4,6 +4,7 @@
   "product": "Weibo-Platform",
   "product_id": "weibo-platform",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<link href=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ href=\\\\",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<meta property=\"og:site_name\"[^>]*content=\"[^\"]*微博",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta property=\"og:site_name\"[^>]*content=\"[^\"]*微博",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

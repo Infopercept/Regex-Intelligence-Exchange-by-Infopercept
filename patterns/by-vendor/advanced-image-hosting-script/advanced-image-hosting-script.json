@@ -4,6 +4,7 @@
   "product": "Advanced-Image-Hosting-Script",
   "product_id": "advanced-image-hosting-script",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "    <td colspan=2 align=center><h3>Advanced Image Host Script</h3></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ <td\\ colspan=2\\ align=center><h3>Advanced\\ Image\\ Host\\ Script</h3></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

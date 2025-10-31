@@ -4,6 +4,7 @@
   "product": "MoonFruit",
   "product_id": "moonfruit",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "markc",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "markc",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "^moonfruit",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^moonfruit",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

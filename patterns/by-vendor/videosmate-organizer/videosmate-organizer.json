@@ -4,6 +4,7 @@
   "product": "Videosmate-Organizer",
   "product_id": "videosmate-organizer",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "</div> <!-- /content-in -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "</div>\\ <!\\-\\-\\ /content\\-in\\ \\-\\->",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!-- script Downloaded from http://videosmate.com -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ script\\ Downloaded\\ from\\ http://videosmate\\.com\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

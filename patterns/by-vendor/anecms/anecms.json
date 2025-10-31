@@ -4,6 +4,7 @@
   "product": "ANECMS",
   "product_id": "anecms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"Author\" content=\"Erwin Aligam - ealigam@gmail.com\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"Author\"\\ content=\"Erwin\\ Aligam\\ \\-\\ ealigam@gmail\\.com\"\\ />",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<title>[^<^-]+- Powered By ANECMS</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>[^<^\\-]+- Powered By ANECMS</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

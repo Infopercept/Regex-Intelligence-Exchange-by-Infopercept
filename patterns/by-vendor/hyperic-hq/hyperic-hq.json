@@ -4,6 +4,7 @@
   "product": "Hyperic-HQ",
   "product_id": "hyperic-hq",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a id=\"screencastLink\" href=\"http://www.hyperic.com/demo/screencasts.html\" target=\"_blank\" title=\"Screencasts\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ id=\"screencastLink\"\\ href=\"http://www\\.hyperic\\.com/demo/screencasts\\.html\"\\ target=\"_blank\"\\ title=\"Screencasts\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "/app/login;jsessionid=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/app/login;jsessionid=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

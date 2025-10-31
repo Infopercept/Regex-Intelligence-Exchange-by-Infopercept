@@ -4,6 +4,7 @@
   "product": "Netflix-Platform",
   "product_id": "netflix-platform",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<meta property=\"og:site_name\"[^>]*content=\"Netflix\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta property=\"og:site_name\"[^>]*content=\"Netflix\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

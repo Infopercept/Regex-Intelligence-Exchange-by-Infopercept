@@ -4,6 +4,7 @@
   "product": "VisualRoute",
   "product_id": "visualroute",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^VisualRoute ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^VisualRoute ",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^VisualRoute \\((tm|R)\\) ([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^VisualRoute \\((tm|R)\\) ([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

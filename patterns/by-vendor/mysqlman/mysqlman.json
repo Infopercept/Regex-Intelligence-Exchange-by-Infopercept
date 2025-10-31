@@ -4,6 +4,7 @@
   "product": "MySQLMan",
   "product_id": "mysqlman",
   "category": "database",
+  "subcategory": "database-engine",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "| <A href=\"mysql.cgi?do=top_level_op&data_source=&action=create_db\">Create</A>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\|\\ <A\\ href=\"mysql\\.cgi\\?do=top_level_op\\&data_source=\\&action=create_db\">Create</A>",
       "version_group": 0
     }
-  ],
-  "subcategory": "database-engine"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "O2Micro-Firewall",
   "product_id": "o2micro-firewall",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^O2micro",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^O2micro",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^(O2micro|Firewall)/8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^(O2micro|Firewall)/([\\d\\.]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

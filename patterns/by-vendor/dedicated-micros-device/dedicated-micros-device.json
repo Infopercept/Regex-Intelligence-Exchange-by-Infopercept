@@ -4,6 +4,7 @@
   "product": "Dedicated-Micros-Device",
   "product_id": "dedicated-micros-device",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "\t<title>DVIP</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<title>DVIP</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "^ADH-Web$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^ADH-Web$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

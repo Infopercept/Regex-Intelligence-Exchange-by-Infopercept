@@ -4,6 +4,7 @@
   "product": "XOOPS",
   "product_id": "xoops",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- RMV: added module header -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ RMV:\\ added\\ module\\ header\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"generator\" content=\"XOOPS\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"XOOPS\"\\ />",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<meta name=\"author\" content=\"XOOPS\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"XOOPS\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

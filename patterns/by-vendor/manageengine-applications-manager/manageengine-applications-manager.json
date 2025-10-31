@@ -4,6 +4,7 @@
   "product": "ManageEngine-Applications-Manager",
   "product_id": "manageengine-applications-manager",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- This comment is for Instant Gratification to work applications.do -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ This\\ comment\\ is\\ for\\ Instant\\ Gratification\\ to\\ work\\ applications\\.do\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<SCRIPT LANGUAGE=\"JavaScript1.2\" SRC=\"/template/appmanager.js\"></SCRIPT>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<SCRIPT\\ LANGUAGE=\"JavaScript1\\.2\"\\ SRC=\"/template/appmanager\\.js\"></SCRIPT>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<title>Applications Manager Login Screen</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Applications\\ Manager\\ Login\\ Screen</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

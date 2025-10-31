@@ -4,6 +4,7 @@
   "product": "OpenNewsletter",
   "product_id": "opennewsletter",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "This is a <a href=fsw.php>Free</a> & <a href=osd.php>Open Source</a> mailing list manager developed by <a href=selfexile.php>Self Exile</a> and distributed under the <a href=gpl.php>GPL</a>.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "This\\ is\\ a\\ <a\\ href=fsw\\.php>Free</a>\\ \\&\\ <a\\ href=osd\\.php>Open\\ Source</a>\\ mailing\\ list\\ manager\\ developed\\ by\\ <a\\ href=selfexile\\.php>Self\\ Exile</a>\\ and\\ distributed\\ under\\ the\\ <a\\ href=gpl\\.php>GPL</a>\\.",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "This is a <a href=fsw.php>Free</a> & <a href=osd.php>Open Source</a> mailing list manager developed by <a href=feedback.php>Self Exile</a> and distributed under the <a href=gpl.php>GPL</a>.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "This\\ is\\ a\\ <a\\ href=fsw\\.php>Free</a>\\ \\&\\ <a\\ href=osd\\.php>Open\\ Source</a>\\ mailing\\ list\\ manager\\ developed\\ by\\ <a\\ href=feedback\\.php>Self\\ Exile</a>\\ and\\ distributed\\ under\\ the\\ <a\\ href=gpl\\.php>GPL</a>\\.",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "This is a Free & Open Source mailing list manager developed by <a href=\"http://netmeans.net\">NetMeans.Net</a> and distributed under the LGPL license. This software is based on the OpenNewsletter project by <a href=\"http://www.selfexile.com\" target=\"_blank\">Self Exile</a>.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "This\\ is\\ a\\ Free\\ \\&\\ Open\\ Source\\ mailing\\ list\\ manager\\ developed\\ by\\ <a\\ href=\"http://netmeans\\.net\">NetMeans\\.Net</a>\\ and\\ distributed\\ under\\ the\\ LGPL\\ license\\.\\ This\\ software\\ is\\ based\\ on\\ the\\ OpenNewsletter\\ project\\ by\\ <a\\ href=\"http://www\\.selfexile\\.com\"\\ target=\"_blank\">Self\\ Exile</a>\\.",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "This is a Free & Open Source mailing list manager developed by <a href=\"http://www.quadronet.net\">Quadro Net</a> and distributed under the LGPL license. This software is based on the OpenNewsletter project by <a href=\"http://www.selfexile.com\" target=\"_blank\">Self Exile</a> and NmnNewsletter by <a href=\"http://netmeans.net\">NetMeans.Net</a>.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "This\\ is\\ a\\ Free\\ \\&\\ Open\\ Source\\ mailing\\ list\\ manager\\ developed\\ by\\ <a\\ href=\"http://www\\.quadronet\\.net\">Quadro\\ Net</a>\\ and\\ distributed\\ under\\ the\\ LGPL\\ license\\.\\ This\\ software\\ is\\ based\\ on\\ the\\ OpenNewsletter\\ project\\ by\\ <a\\ href=\"http://www\\.selfexile\\.com\"\\ target=\"_blank\">Self\\ Exile</a>\\ and\\ NmnNewsletter\\ by\\ <a\\ href=\"http://netmeans\\.net\">NetMeans\\.Net</a>\\.",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Incapsula-WAF",
   "product_id": "incapsula-waf",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "incap_ses_",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "incap_ses_",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "incap_visid_83_",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "incap_visid_83_",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "^visid_incap_",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^visid_incap_",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

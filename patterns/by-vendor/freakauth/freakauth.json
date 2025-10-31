@@ -4,6 +4,7 @@
   "product": "FreakAuth",
   "product_id": "freakauth",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>FreakAuth &raquo; [^<]+</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>FreakAuth &raquo; [^<]+</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Welcome on board ! / <a href=\"http[^\"]+\">Login</a>\t\t</div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Welcome on board ! / <a href=\"http[^\"]+\">Login</a>\t\t</div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Oracle-HTTP-Server",
   "product_id": "oracle-http-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Oracle[ -]HTTP[ -]Server",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Oracle[ -]HTTP[ -]Server",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Server: Oracle_Web_[Ll]istener(_NT_)?([\\d\\.]+/[^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: Oracle_Web_[Ll]istener(_NT_)?([\\d\\.]+/[^\\s]+)",
       "version_group": 1
@@ -70,11 +73,11 @@
             "input": "Server: Oracle_Web_[Ll]istener(_NT_)?/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: Oracle_Web_[Ll]istener(_NT_)?/([^\\s]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

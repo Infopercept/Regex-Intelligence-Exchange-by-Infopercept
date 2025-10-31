@@ -4,6 +4,7 @@
   "product": "Xerver",
   "product_id": "xerver",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Xerver",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Xerver",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^Xerver/8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Xerver/([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

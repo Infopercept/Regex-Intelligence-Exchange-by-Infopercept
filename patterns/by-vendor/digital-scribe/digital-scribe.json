@@ -4,6 +4,7 @@
   "product": "Digital-Scribe",
   "product_id": "digital-scribe",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<BR><A HREF=forgot.php?Submit2=1&email=>Forgot your password</A>?",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<BR><A\\ HREF=forgot\\.php\\?Submit2=1\\&email=>Forgot\\ your\\ password</A>\\?",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<IMG SRC=/DigitalScribe/images/logosmall.gif width=158 height=63 alt=\"Digital Scribe Logo\" border=0></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<IMG\\ SRC=/DigitalScribe/images/logosmall\\.gif\\ width=158\\ height=63\\ alt=\"Digital\\ Scribe\\ Logo\"\\ border=0></a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

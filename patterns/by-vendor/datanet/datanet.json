@@ -4,6 +4,7 @@
   "product": "DataNet",
   "product_id": "datanet",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<div class=\"scada\"><a class=\"scada\" href=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ class=\"scada\"><a\\ class=\"scada\"\\ href=\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

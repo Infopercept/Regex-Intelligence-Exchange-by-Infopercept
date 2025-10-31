@@ -4,6 +4,7 @@
   "product": "ConfTool",
   "product_id": "conftool",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<h2 align=center>ConfTool Conference Administration</h2>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h2\\ align=center>ConfTool\\ Conference\\ Administration</h2>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<td class=\"td_dlg_input\" width=67% align=left><input type=text name=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ class=\"td_dlg_input\"\\ width=67%\\ align=left><input\\ type=text\\ name=\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

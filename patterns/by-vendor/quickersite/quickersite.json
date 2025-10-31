@@ -4,6 +4,7 @@
   "product": "QuickerSite",
   "product_id": "quickersite",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta content=\"QuickerSite CMS - visit www.quickersite.com\" name=\"generator\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta content=\"QuickerSite CMS - visit www.quickersite.com\" name=\"generator\" />",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<meta name=\"generator\" content=\"QuickerSite CMS - visit www.quickersite.com\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"generator\" content=\"QuickerSite CMS - visit www.quickersite.com\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

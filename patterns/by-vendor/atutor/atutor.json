@@ -4,6 +4,7 @@
   "product": "ATutor",
   "product_id": "atutor",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<span id=\"howto\">For guidance on using ATutor see the official",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<span\\ id=\"howto\">For\\ guidance\\ on\\ using\\ ATutor\\ see\\ the\\ official",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

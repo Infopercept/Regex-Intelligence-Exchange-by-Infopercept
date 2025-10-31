@@ -4,6 +4,7 @@
   "product": "Amazon-CloudFront",
   "product_id": "amazon-cloudfront",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<html><body>Sorry, invalid request</body></html>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html><body>Sorry,\\ invalid\\ request</body></html>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "^CloudFront",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^CloudFront",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "^Error from cloudfront",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Error from cloudfront",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

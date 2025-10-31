@@ -4,6 +4,7 @@
   "product": "Alt-N-MDaemon-WorldClient",
   "product_id": "alt-n-mdaemon-worldclient",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div id=\"biglogo\" align=\"center\"><img src=\"LookOut/biglogo.gif\" alt=\"WorldClient\" /></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"biglogo\"\\ align=\"center\"><img\\ src=\"LookOut/biglogo\\.gif\"\\ alt=\"WorldClient\"\\ /></div>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<form action=\"/WorldClient.dll?View=Main\" target=\"_top\" method=\"post\" onsubmit=\"document.getElementById(\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ action=\"/WorldClient\\.dll\\?View=Main\"\\ target=\"_top\"\\ method=\"post\"\\ onsubmit=\"document\\.getElementById\\(\\\\",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<form action=\"/WorldClient.dll?View=Main\" target=\"_top\" method=\"post\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ action=\"/WorldClient\\.dll\\?View=Main\"\\ target=\"_top\"\\ method=\"post\">",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "Server: ^WDaemon/8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^WDaemon/([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Streamline-PHP-Media-Server",
   "product_id": "streamline-php-media-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "                <div style=\"font-size: 10pt\">A PHP Streaming Media Server</div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <div\\ style=\"font\\-size:\\ 10pt\">A\\ PHP\\ Streaming\\ Media\\ Server</div>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "    <title>Streamline Media Installation Wizard</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ <title>Streamline\\ Media\\ Installation\\ Wizard</title>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "            &copy; 2003-2010 Streamline",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\&copy;\\ 2003\\-2010\\ Streamline",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

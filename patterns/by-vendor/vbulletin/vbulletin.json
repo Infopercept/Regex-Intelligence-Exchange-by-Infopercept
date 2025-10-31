@@ -4,6 +4,7 @@
   "product": "VBulletin",
   "product_id": "vbulletin",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"generator\" content=\"vBulletin",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"generator\" content=\"vBulletin",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "* vBulletin [0-9a-z.]+ CSS",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\* vBulletin [0-9a-z.]+ CSS",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<script type=\"text/javascript\" src=\"[a-z0-9./]*vbulletin_global.js",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script type=\"text/javascript\" src=\"[a-z0-9./]*vbulletin_global.js",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "vb_bullet.gif\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "vb_bullet\\.gif\"",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "Powered by(:)? vBulletin(&reg;)? Version",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by(:)? vBulletin(&reg;)? Version",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "Copyright &copy;2000 - [0-9]+, Jelsoft Enterprises Ltd.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Copyright &copy;2000 - [0-9]+, Jelsoft Enterprises Ltd.",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "bblastactivity",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "bblastactivity",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "bblastvisit",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "bblastvisit",
       "version_group": 0
@@ -208,11 +217,11 @@
             "input": "bbsessionhash",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "bbsessionhash",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

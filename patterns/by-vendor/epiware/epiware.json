@@ -4,6 +4,7 @@
   "product": "Epiware",
   "product_id": "epiware",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Epiware - Project and Document Management  </title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Epiware\\ \\-\\ Project\\ and\\ Document\\ Management\\ \\ </title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<div id=\"jsWarning\" class=\"javascript_warning\">s+This web-site requires javascript.s+Please enable javascript to access this web-site.s+</div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div id=\"jsWarning\" class=\"javascript_warning\">\\s+This web-site requires javascript\\.\\s+Please enable javascript to access this web-site\\.\\s+</div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

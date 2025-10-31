@@ -4,6 +4,7 @@
   "product": "xt-Commerce",
   "product_id": "xt-commerce",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!--n\tThis OnlineStore is brought to you by XT-Commerce, Community made shoppingn\tXTC is a free open source e-Commerce Systemn\tcreated by Mario Zanier & Guido Winger and licensed under GNU/GPL.n\tInformation and contribution at http://www.xt-commerce.comn-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!--\\n\tThis OnlineStore is brought to you by XT-Commerce, Community made shopping\\n\tXTC is a free open source e-Commerce System\\n\tcreated by Mario Zanier & Guido Winger and licensed under GNU/GPL.\\n\tInformation and contribution at http://www.xt-commerce.com\\n-->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"generator\" content=\"(c) by xtcModified , http://www.xtc-modified.org\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"\\(c\\)\\ by\\ xtcModified\\ ,\\ http://www\\.xtc\\-modified\\.org\"\\ />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<meta name=\"generator\" content=\"(c) by xtcModified ----- http://www.xtc-modified.org\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"\\(c\\)\\ by\\ xtcModified\\ \\-\\-\\-\\-\\-\\ http://www\\.xtc\\-modified\\.org\"\\ />",
       "version_group": 0
@@ -116,11 +120,11 @@
             "input": "<div class=\"copyright\"><a href=\"http://www.xtc-modified.org\" target=\"_blank\">xtcModified</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ class=\"copyright\"><a\\ href=\"http://www\\.xtc\\-modified\\.org\"\\ target=\"_blank\">xtcModified</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

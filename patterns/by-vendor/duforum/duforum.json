@@ -4,6 +4,7 @@
   "product": "DUforum",
   "product_id": "duforum",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>DUdforum[0-9a-zA-Z .-]+</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>DUdforum[0-9a-zA-Z\\ \\.-]+</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<td align=\"right\" valign=\"middle\" class=\"text\">Powered by <a href=\"http://www.duware.com\" target=\"_blank\">DUforum</a></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ align=\"right\"\\ valign=\"middle\"\\ class=\"text\">Powered\\ by\\ <a\\ href=\"http://www\\.duware\\.com\"\\ target=\"_blank\">DUforum</a></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

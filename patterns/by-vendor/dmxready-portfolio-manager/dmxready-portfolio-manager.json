@@ -4,6 +4,7 @@
   "product": "DMXReady-Portfolio-Manager",
   "product_id": "dmxready-portfolio-manager",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<link href=\"/css/PortfolioManager/styles_display_page.css\" rel=\"stylesheet\" type=\"text/css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ href=\"/css/PortfolioManager/styles_display_page\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<a href=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\\\\",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<input name=\"rememberme_portfoliomanager\" type=\"checkbox\"  id=\"rememberme_portfoliomanager\"   value=\"yes\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ name=\"rememberme_portfoliomanager\"\\ type=\"checkbox\"\\ \\ id=\"rememberme_portfoliomanager\"\\ \\ \\ value=\"yes\">",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<form action=\"[^\"]*/applications/PortfolioManager/inc_portfoliomanager.asp\" method=\"POST\" name=\"login\" onSubmit=\"YY_checkform('login','admin_username_portfoliomanager','#q','0','Please provide Username','admin_username_portfoliomanager','#q','0','Please provide Password');return document.MM_returnValue\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form action=\"[^\"]*/applications/PortfolioManager/inc_portfoliomanager\\.asp\" method=\"POST\" name=\"login\" onSubmit=\"YY_checkform\\('login','admin_username_portfoliomanager','#q','0','Please provide Username','admin_username_portfoliomanager','#q','0','Please provide Password'\\);return document.MM_returnValue\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

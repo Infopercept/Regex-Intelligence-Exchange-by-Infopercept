@@ -4,6 +4,7 @@
   "product": "WorldNow",
   "product_id": "worldnow",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^wn_cg",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^wn_cg",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

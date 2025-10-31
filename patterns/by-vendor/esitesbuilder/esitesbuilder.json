@@ -4,6 +4,7 @@
   "product": "eSitesBuilder",
   "product_id": "esitesbuilder",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- created by XTLabs, Inc. http://www.xt-labs.com -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ created\\ by\\ XTLabs,\\ Inc\\.\\ http://www\\.xt\\-labs\\.com\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<a [^href]+href=\"http://[www.]*esitesbuilder.com\">Powered by eSitesBuilder</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a [^href]+href=\"http://[www\\.]*esitesbuilder.com\">Powered by eSitesBuilder</a>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "Powered by <a href=\"http://www.esitesbuilder.com/\" target=\"_blank\" alt=\"website builder\">eSitesBuilder</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.esitesbuilder\\.com/\"\\ target=\"_blank\"\\ alt=\"website\\ builder\">eSitesBuilder</a>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "All rights reserved. Powered by eSitesBuilder",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "All\\ rights\\ reserved\\.\\ Powered\\ by\\ eSitesBuilder",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "Powered by[&nbsp;]*[s]*<a [^href]+href=\"http://[www.]*esitesbuilder.com\">eSitesBuilder</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by[&nbsp;]*[\\s]*<a [^href]+href=\"http://[www\\.]*esitesbuilder.com\">eSitesBuilder</a>",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "Powered by <a href=\"http://www.esitesbuilder.com/\" target=\"_blank\" alt=\"website builder\">eSitesBuilder</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.esitesbuilder\\.com/\"\\ target=\"_blank\"\\ alt=\"website\\ builder\">eSitesBuilder</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

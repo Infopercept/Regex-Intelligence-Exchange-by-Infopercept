@@ -4,6 +4,7 @@
   "product": "DMXReady-Secure-Document-Library",
   "product_id": "dmxready-secure-document-library",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a href=\"[^\"]*/applications/[sS]ecureDocumentLibrary/inc_securedocumentlibrary.asp?show=sendpassword\">Forget Password?</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"[^\"]*/applications/[sS]ecureDocumentLibrary/inc_securedocumentlibrary\\.asp\\?show=sendpassword\">Forget Password\\?</a>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<form action=\"[^\"]*/applications/SecureDocumentLibrary/inc_securedocumentlibrary.asp\" method=\"POST\" name=\"login\" onSubmit=\"YY_checkform('login','entity_username','#q','0','Please provide username','entity_password','#q','0','Please provide password');return document.MM_returnValue\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form action=\"[^\"]*/applications/SecureDocumentLibrary/inc_securedocumentlibrary\\.asp\" method=\"POST\" name=\"login\" onSubmit=\"YY_checkform\\('login','entity_username','#q','0','Please provide username','entity_password','#q','0','Please provide password'\\);return document.MM_returnValue\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

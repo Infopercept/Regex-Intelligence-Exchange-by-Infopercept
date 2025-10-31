@@ -9,11 +9,7 @@
   "all_versions": [
     {
       "name": "Microsoft IIS Web Server",
-      "category": "web",
-      "subcategory": "web-server",
       "pattern": "Server: Microsoft-IIS/([\\d.]+)",
-      "vendor": "Microsoft",
-      "product": "Internet Information Services",
       "version_group": 1,
       "priority": 180,
       "confidence": 0.9,
@@ -37,7 +33,8 @@
             "input": "Server: Microsoft-IIS/8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
   ]

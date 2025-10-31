@@ -4,6 +4,7 @@
   "product": "dir2web-CMS",
   "product_id": "dir2web-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<link href=\"default/styles/d2w_object_page.css\" rel=\"stylesheet\" type=\"text/css\" media=\"screen\" /></head>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ href=\"default/styles/d2w_object_page\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ media=\"screen\"\\ /></head>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<div class=\"d2w-back_link\" id=\"start\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ class=\"d2w\\-back_link\"\\ id=\"start\">",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<img src=\"_themes\\/d2w\\d\\/images\\/logo_hp\\.jpg\" title=\"dir2web \\d logo\" alt=\"dir2web \\d logo\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"_themes\\\\/d2w\\\\d\\\\/images\\\\/logo_hp\\\\\\.jpg\"\\ title=\"dir2web\\ \\\\d\\ logo\"\\ alt=\"dir2web\\ \\\\d\\ logo\"/>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

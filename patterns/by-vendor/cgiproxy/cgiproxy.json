@@ -4,6 +4,7 @@
   "product": "CGIProxy",
   "product_id": "cgiproxy",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<title>Start Using CGIProxy</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Start\\ Using\\ CGIProxy</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

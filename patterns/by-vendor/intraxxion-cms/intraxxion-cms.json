@@ -4,6 +4,7 @@
   "product": "Intraxxion-CMS",
   "product_id": "intraxxion-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- site built by Intraxxion, www.intraxxion.com, info@intraxxion.com, tel: +31 45 5650207, fax: +31 45 5650123",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ site\\ built\\ by\\ Intraxxion,\\ www\\.intraxxion\\.com,\\ info@intraxxion\\.com,\\ tel:\\ \\+31\\ 45\\ 5650207,\\ fax:\\ \\+31\\ 45\\ 5650123",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!-- site built by Intraxxion, www.intraxxion.com, more_info@intraxxion.com, tel: +31 45 5650207, fax: +31 45 5650123",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ site\\ built\\ by\\ Intraxxion,\\ www\\.intraxxion\\.com,\\ more_info@intraxxion\\.com,\\ tel:\\ \\+31\\ 45\\ 5650207,\\ fax:\\ \\+31\\ 45\\ 5650123",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

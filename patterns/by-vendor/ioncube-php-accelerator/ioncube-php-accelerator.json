@@ -4,6 +4,7 @@
   "product": "ionCube-PHP-Accelerator",
   "product_id": "ioncube-php-accelerator",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "x-accelerated-by: ^[\\s]*PHPA/([^\\r^\\n]*)",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-accelerated-by: ^[\\s]*PHPA/([^\\r^\\n]*)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

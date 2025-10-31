@@ -4,6 +4,7 @@
   "product": "BadBehaviourAntiSpamPlugin",
   "product_id": "badbehaviourantispamplugin",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "bb2_screener_",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "bb2_screener_",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

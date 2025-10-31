@@ -4,6 +4,7 @@
   "product": "Gitorious",
   "product_id": "gitorious",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a href=\"http://gitorious.org\"><img alt=\"Poweredby\" src=\"/images/../img/poweredby.png?[d]+\" title=\"Powered by Gitorious\" /></a></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"http://gitorious\\.org\"><img alt=\"Poweredby\" src=\"/images/\\.\\./img/poweredby\\.png\\?[\\d]+\" title=\"Powered by Gitorious\" /></a></div>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "_gitorious_sess=[^-]+--[^;]+; domain=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "_gitorious_sess=[^-]+--[^;]+; domain=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

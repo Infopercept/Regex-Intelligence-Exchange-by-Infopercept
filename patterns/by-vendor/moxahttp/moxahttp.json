@@ -4,6 +4,7 @@
   "product": "MoxaHttp",
   "product_id": "moxahttp",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^MoxaHttp",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^MoxaHttp",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^MoxaHttp/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^MoxaHttp/([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

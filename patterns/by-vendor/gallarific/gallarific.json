@@ -4,6 +4,7 @@
   "product": "Gallarific",
   "product_id": "gallarific",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta http-equiv=\"Generator\" content=\"Gallarific\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ http\\-equiv=\"Generator\"\\ content=\"Gallarific\"\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- popular_grid: output a 4x1 row containing the most viewed photos --><tr> <td colspan=\"2\" class=\"heading\">Most Viewed Photos</td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ popular_grid:\\ output\\ a\\ 4x1\\ row\\ containing\\ the\\ most\\ viewed\\ photos\\ \\-\\-><tr>\\ <td\\ colspan=\"2\"\\ class=\"heading\">Most\\ Viewed\\ Photos</td>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!-- recent_grid: output a 4x1 row containing recently uploaded photos --><tr> <td colspan=\"2\" class=\"heading\">Recently Uploaded Photos</td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ recent_grid:\\ output\\ a\\ 4x1\\ row\\ containing\\ recently\\ uploaded\\ photos\\ \\-\\-><tr>\\ <td\\ colspan=\"2\"\\ class=\"heading\">Recently\\ Uploaded\\ Photos</td>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<a href=\"http://www.gallarific.com/\"><img src=\"http://www.gallarific.com/images/gallarific_white.gif\" width=\"215\" height=\"61\" border=\"0\" /></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.gallarific\\.com/\"><img\\ src=\"http://www\\.gallarific\\.com/images/gallarific_white\\.gif\"\\ width=\"215\"\\ height=\"61\"\\ border=\"0\"\\ /></a>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<title>Gallarific > Sign in</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Gallarific\\ >\\ Sign\\ in</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

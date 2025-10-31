@@ -4,6 +4,7 @@
   "product": "VMware-Horizon",
   "product_id": "vmware-horizon",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<title>VMware Horizon</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>VMware\\ Horizon</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

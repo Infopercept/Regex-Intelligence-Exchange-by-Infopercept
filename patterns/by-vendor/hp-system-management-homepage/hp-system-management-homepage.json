@@ -4,6 +4,7 @@
   "product": "HP-System-Management-Homepage",
   "product_id": "hp-system-management-homepage",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<TITLE>HP System Management Homepage Login</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>HP System Management Homepage Login</TITLE>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Compaq-HMMD=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Compaq-HMMD=",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "Server: CompaqHTTPServer/[^\\s]+ HP System Management Homepage/8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: CompaqHTTPServer/[^\\s]+ HP System Management Homepage/([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Index-Of",
   "product_id": "index-of",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Index of /",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Index\\ of\\ /",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<a href=\"?C=N;O=D\">Name</a></th><th><a href=\"?C=M;O=A\">Last modified</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"\\?C=N;O=D\">Name</a></th><th><a\\ href=\"\\?C=M;O=A\">Last\\ modified</a>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<a href=\"?C=N;O=D\">Name</a>[s]*<a href=\"?C=M;O=A\">Last modified</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"\\?C=N;O=D\">Name</a>[\\s]*<a href=\"\\?C=M;O=A\">Last modified</a>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<pre>Name[s]+Last modified[s]+Size[s]+<hr>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<pre>Name[\\s]+Last modified[\\s]+Size[\\s]+<hr>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<A HREF=\"?N=D\">Name</A>[s]+<A HREF=\"?M=A\">Last modified</A>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<A HREF=\"\\?N=D\">Name</A>[\\s]+<A HREF=\"\\?M=A\">Last modified</A>",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "<title>Index of /[^<]*</title>[s]*</head>[s]*<body>[s]*<h1>Index of ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Index of /[^<]*</title>[\\s]*</head>[\\s]*<body>[\\s]*<h1>Index of ",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

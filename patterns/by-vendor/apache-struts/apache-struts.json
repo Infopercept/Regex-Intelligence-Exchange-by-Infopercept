@@ -4,6 +4,7 @@
   "product": "Apache-Struts",
   "product_id": "apache-struts",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "org.apache.struts.action.LOCALE=[^s]+;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "org\\.apache\\.struts\\.action\\.LOCALE=[^\\s]+;",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "org.apache.struts.[^s]+=[^s]+;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "org\\.apache\\.struts\\.[^\\s]+=[^\\s]+;",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<as+href=[^>]+org.apache.struts",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\s+href=[^>]+org.apache.struts",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "org.apache.struts2",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "org\\.apache\\.struts2",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "org.apache.struts.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "org\\.apache\\.struts\\.",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "Development mode, or devMode, enables extras+debugging behaviors and reports to assist developers.  To disable this mode, set:s+<pre>s+  struts.devMode=false",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Development mode, or devMode, enables extra\\s+debugging behaviors and reports to assist developers.  To disable this mode, set:\\s+<pre>\\s+  struts.devMode=false",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

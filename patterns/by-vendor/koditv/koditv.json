@@ -4,6 +4,7 @@
   "product": "KodiTV",
   "product_id": "koditv",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Kodi</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Kodi</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<link rel=\"search\" href=\"provider.xml\" type=\"application/opensearchdescription+xml\" title=\"Kodi Library\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"search\"\\ href=\"provider\\.xml\"\\ type=\"application/opensearchdescription\\+xml\"\\ title=\"Kodi\\ Library\"\\ />",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "xbmc.org",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "xbmc\\.org",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

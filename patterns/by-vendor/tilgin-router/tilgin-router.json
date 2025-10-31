@@ -4,6 +4,7 @@
   "product": "Tilgin-Router",
   "product_id": "tilgin-router",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<H1 id=\"title\">Welcome to the Tilgin router</H1>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<H1\\ id=\"title\">Welcome\\ to\\ the\\ Tilgin\\ router</H1>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<TITLE>VOOD</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>VOOD</TITLE>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<A href=\"/wizard/\" class=\"\" title=\"Wizard\">Run wizard</A> for a quick and simple initial configuration.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<A\\ href=\"/wizard/\"\\ class=\"\"\\ title=\"Wizard\">Run\\ wizard</A>\\ for\\ a\\ quick\\ and\\ simple\\ initial\\ configuration\\.",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<A href=\"/status/\" class=\"menuitem\" title=\"Status\">Status</A><SPAN class=\"separator\"> </SPAN><A href=\"/help/\" class=\"last menuitem\" title=\"Help\">Help</A>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<A\\ href=\"/status/\"\\ class=\"menuitem\"\\ title=\"Status\">Status</A><SPAN\\ class=\"separator\">\\ </SPAN><A\\ href=\"/help/\"\\ class=\"last\\ menuitem\"\\ title=\"Help\">Help</A>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<LINK rel=\"stylesheet\" type=\"text/css\" href=\"/compressed-control.css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<LINK\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/compressed\\-control\\.css\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

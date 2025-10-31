@@ -4,6 +4,7 @@
   "product": "Scrutinizer",
   "product_id": "scrutinizer",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<link id='scrutStyle' rel=\"stylesheet\" href=\"/css/classic.css",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link id='scrutStyle' rel=\"stylesheet\" href=\"/css/classic\\.css",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<div id='testAlertHdrMsg'>For the best Scrutinizer experience possible, please address the issues below:</div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div id='testAlertHdrMsg'>For the best Scrutinizer experience possible, please address the issues below:</div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

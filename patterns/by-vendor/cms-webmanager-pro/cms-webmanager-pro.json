@@ -4,6 +4,7 @@
   "product": "CMS-WebManager-Pro",
   "product_id": "cms-webmanager-pro",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Powered by <a style=\"color:#555555;\" href=\"http://webmanager-pro.com/\">CMS Webmanager-pro</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ style=\"color:\\#555555;\"\\ href=\"http://webmanager\\-pro\\.com/\">CMS\\ Webmanager\\-pro</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

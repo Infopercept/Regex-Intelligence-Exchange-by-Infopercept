@@ -4,6 +4,7 @@
   "product": "KaiBB",
   "product_id": "kaibb",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- THIS MUST REMAIN INTACT AND SHOWN ON ALL PAGES -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ THIS\\ MUST\\ REMAIN\\ INTACT\\ AND\\ SHOWN\\ ON\\ ALL\\ PAGES\\ \\-\\->",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<meta name=\"Description\" http-equiv=\"Description\" content=\"Forum powered by KaiBB - Powered by KaiBB\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"Description\"\\ http\\-equiv=\"Description\"\\ content=\"Forum\\ powered\\ by\\ KaiBB\\ \\-\\ Powered\\ by\\ KaiBB\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

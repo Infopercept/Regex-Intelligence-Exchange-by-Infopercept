@@ -4,6 +4,7 @@
   "product": "MongoDB",
   "product_id": "mongodb",
   "category": "database",
+  "subcategory": "database-engine",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>mongod [^<]+</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>mongod [^<]+</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<pre>db version v[d.]+, pdfile version [d.]+ngit hash:",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<pre>db version v[\\d\\.]+, pdfile version [\\d\\.]+\\ngit hash:",
       "version_group": 0
     }
-  ],
-  "subcategory": "database-engine"
+  ]
 }

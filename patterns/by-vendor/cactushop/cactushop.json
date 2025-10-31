@@ -4,6 +4,7 @@
   "product": "CactuShop",
   "product_id": "cactushop",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<select name=\"numCurrencyID\" class=\"currencymenu\" onchange=\"javascript:document.getElementById(\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<select\\ name=\"numCurrencyID\"\\ class=\"currencymenu\"\\ onchange=\"javascript:document\\.getElementById\\(\\\\",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!-- MYDEVLICNUM -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!-- MYDEVLICNUM -->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

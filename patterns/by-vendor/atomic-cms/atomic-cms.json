@@ -4,6 +4,7 @@
   "product": "Atomic-CMS",
   "product_id": "atomic-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Powered by AtomicCms <a href=\"http://atomiccms.com/\" target=\"_blank\">content management",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ AtomicCms\\ <a\\ href=\"http://atomiccms\\.com/\"\\ target=\"_blank\">content\\ management",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

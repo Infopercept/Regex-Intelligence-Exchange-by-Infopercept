@@ -4,6 +4,7 @@
   "product": "FortiWeb",
   "product_id": "fortiweb",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^FortiWeb$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^FortiWeb$",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^FortiWeb-8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^FortiWeb-([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

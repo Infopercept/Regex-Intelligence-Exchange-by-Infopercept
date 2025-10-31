@@ -4,6 +4,7 @@
   "product": "Zeus-Web-Server",
   "product_id": "zeus-web-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Zeus$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Zeus$",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^Zeus/(([\\d]+)(\\.|_)([\\d]+))$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Zeus/(([\\d]+)(\\.|_)([\\d]+))$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

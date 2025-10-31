@@ -4,6 +4,7 @@
   "product": "TP-Link-Router",
   "product_id": "tp-link-router",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Operating System Error Nr:3997698:  <P><HR><H2>File not found</H2>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Operating\\ System\\ Error\\ Nr:3997698:\\ \\ <P><HR><H2>File\\ not\\ found</H2>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Operating System Error Nr:3997698: HTM <P><HR><H2>Access denied</H2>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Operating\\ System\\ Error\\ Nr:3997698:\\ HTM\\ <P><HR><H2>Access\\ denied</H2>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

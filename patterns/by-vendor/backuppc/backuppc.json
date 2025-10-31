@@ -4,6 +4,7 @@
   "product": "BackupPC",
   "product_id": "backuppc",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<input type=\"hidden\" name=\"action\" value=\"hostInfo\"><input type=\"submit\" value=\"Go\" name=\"ignore\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ type=\"hidden\"\\ name=\"action\"\\ value=\"hostInfo\"><input\\ type=\"submit\"\\ value=\"Go\"\\ name=\"ignore\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "</head><body onLoad=\"document.getElementById(\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "</head><body\\ onLoad=\"document\\.getElementById\\(\\\\",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "Basic realm=\"(Backup Admin|BackupPC admin|backuppc)\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Basic realm=\"(Backup Admin|BackupPC admin|backuppc)\"",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "/cgi-bin/BackupPC_Admin$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/cgi-bin/BackupPC_Admin$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

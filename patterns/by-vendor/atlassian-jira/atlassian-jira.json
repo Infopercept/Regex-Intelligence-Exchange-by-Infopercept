@@ -4,6 +4,7 @@
   "product": "Atlassian-JIRA",
   "product_id": "atlassian-jira",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<noscript><h1>Warning: either you have javascript disabled or your browser does not support javascript. To work properly, this page requires javascript to be enabled.</h1></noscript>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<noscript><h1>Warning:\\ either\\ you\\ have\\ javascript\\ disabled\\ or\\ your\\ browser\\ does\\ not\\ support\\ javascript\\.\\ To\\ work\\ properly,\\ this\\ page\\ requires\\ javascript\\ to\\ be\\ enabled\\.</h1></noscript>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<a class=\"seo-link\" href=\"http://www.atlassian.com/software/jira/bug-tracking.jsp\">Bug tracking</a> and <a class=\"seo-link\" href=\"http://www.atlassian.com/software/jira/tour/project-tracking.jsp\">project tracking</a> for <a class=\"seo-link\" href=\"http://www.atlassian.com/software/jira/tour/software-development.jsp\">software development</a> powered by <a href=\"http://www.atlassian.com/software/jira\" class=\"smalltext\">Atlassian JIRA</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ class=\"seo\\-link\"\\ href=\"http://www\\.atlassian\\.com/software/jira/bug\\-tracking\\.jsp\">Bug\\ tracking</a>\\ and\\ <a\\ class=\"seo\\-link\"\\ href=\"http://www\\.atlassian\\.com/software/jira/tour/project\\-tracking\\.jsp\">project\\ tracking</a>\\ for\\ <a\\ class=\"seo\\-link\"\\ href=\"http://www\\.atlassian\\.com/software/jira/tour/software\\-development\\.jsp\">software\\ development</a>\\ powered\\ by\\ <a\\ href=\"http://www\\.atlassian\\.com/software/jira\"\\ class=\"smalltext\">Atlassian\\ JIRA</a>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<meta name=\"decorator\" content=\"atl.general\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"decorator\"\\ content=\"atl\\.general\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

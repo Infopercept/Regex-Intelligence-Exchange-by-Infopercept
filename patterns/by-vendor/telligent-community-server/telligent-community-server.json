@@ -4,6 +4,7 @@
   "product": "Telligent-Community-Server",
   "product_id": "telligent-community-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "communityserver: ^1.0$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "communityserver: ^([\\d\\.]+)$",
       "version_group": 1
@@ -47,7 +49,8 @@
             "input": "^CommunityServer-UserCookie[d.]+",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^CommunityServer-UserCookie[\\d\\.]+",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "^CommunityServer-LastVisitUpdated-[d.]+",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^CommunityServer-LastVisitUpdated-[\\d\\.]+",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "DiBos",
   "product_id": "dibos",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>DiBos - Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>DiBos - Login</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<link rel=\"STYLESHEET\" type=\"text/css\" href=\"style/bovisnt.css\"></link>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"STYLESHEET\"\\ type=\"text/css\"\\ href=\"style/bovisnt\\.css\"></link>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<h2>Object moved to <a href=\"/Error.aspx?error=wrongbrowser\">here</a>.</h2>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h2>Object\\ moved\\ to\\ <a\\ href=\"/Error\\.aspx\\?error=wrongbrowser\">here</a>\\.</h2>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

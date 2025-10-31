@@ -4,6 +4,7 @@
   "product": "Passenger",
   "product_id": "passenger",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": ".*Phusion_Passenger",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": ".*Phusion_Passenger",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Server: [\\s]+Phusion_Passenger/8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: [\\s]+Phusion_Passenger/([\\d\\.]+)",
       "version_group": 1
@@ -70,11 +73,11 @@
             "input": "x-powered-by: Phusion Passenger \\(mod_rails/mod_rack\\) 1.0",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-powered-by: Phusion Passenger \\(mod_rails/mod_rack\\) ([\\d\\.]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

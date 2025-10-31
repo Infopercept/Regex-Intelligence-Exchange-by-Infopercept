@@ -4,6 +4,7 @@
   "product": "Hosting",
   "product_id": "hosting",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "DIY_SB",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "DIY_SB",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

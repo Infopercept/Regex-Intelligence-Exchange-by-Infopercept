@@ -4,6 +4,7 @@
   "product": "Advantech-WebAccess",
   "product_id": "advantech-webaccess",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<html><!-- #BeginTemplate \"/Templates/bw_templete1.dwt\" -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html><!\\-\\-\\ \\#BeginTemplate\\ \"/Templates/bw_templete1\\.dwt\"\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<a href=\"/broadweb/WebAccessClientSetup.exe\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"/broadweb/WebAccessClientSetup\\.exe\">",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "./broadWeb/bwviewpg.asp?proj=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\./broadWeb/bwviewpg\\.asp\\?proj=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

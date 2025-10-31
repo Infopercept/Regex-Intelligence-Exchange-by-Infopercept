@@ -4,6 +4,7 @@
   "product": "envezion~media",
   "product_id": "envezion-media",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by <a href=\"http://envezion.com/\">envezion~MEDIA</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://envezion\\.com/\">envezion\\~MEDIA</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by <a href=\"http://envezion.com/\"><strong>envezion~MEDIA</strong></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://envezion\\.com/\"><strong>envezion\\~MEDIA</strong></a>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "Powered by <a href=\"http://www.envezion.com\" target=\"_blank\"><strong> envezion~media</strong></a><br />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.envezion\\.com\"\\ target=\"_blank\"><strong>\\ envezion\\~media</strong></a><br\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

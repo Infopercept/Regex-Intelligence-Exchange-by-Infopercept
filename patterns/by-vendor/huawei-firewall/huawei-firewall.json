@@ -4,6 +4,7 @@
   "product": "Huawei-Firewall",
   "product_id": "huawei-firewall",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!--Modify by wangxiangguang 2006-9-29 for BYDD15857 Begin -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-Modify\\ by\\ wangxiangguang\\ 2006\\-9\\-29\\ for\\ BYDD15857\\ Begin\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!--Modify by wangxiangguang 2006-9-29 for BYDD15857 End -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-Modify\\ by\\ wangxiangguang\\ 2006\\-9\\-29\\ for\\ BYDD15857\\ End\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<input type=\"text\" onpaste=\"checkPaste(this,\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ type=\"text\"\\ onpaste=\"checkPaste\\(this,\\\\",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "Server: ^Eudemon Server ([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Eudemon Server ([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

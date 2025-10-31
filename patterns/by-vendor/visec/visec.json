@@ -4,6 +4,7 @@
   "product": "Visec",
   "product_id": "visec",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!--wml-->s+<!--bad-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!--wml-->\\s+<!--bad-->",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^VISEC/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^VISEC/([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

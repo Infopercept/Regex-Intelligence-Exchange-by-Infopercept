@@ -4,6 +4,7 @@
   "product": "Juniper-NetScreen-Secure-Access",
   "product_id": "juniper-netscreen-secure-access",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "src=\"/dana-na/css/ds.js\">|<img border=\"0\" src=\"welcome.cgi?p=logo|src=\"/dana-na/imgs/space.gif\"|document.cookie = \"DSPREAUTH=\"+ escape(\"\")|src=\"/dana-na/auth/url_default/s",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "src=\"/dana\\-na/css/ds\\.js\">|<img border=\"0\" src=\"welcome\\.cgi\\?p=logo|src=\"/dana\\-na/imgs/space\\.gif\"|document\\.cookie = \"DSPREAUTH=\"\\+ escape\\(\"\"\\)|src=\"/dana\\-na/auth/url_default/s",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

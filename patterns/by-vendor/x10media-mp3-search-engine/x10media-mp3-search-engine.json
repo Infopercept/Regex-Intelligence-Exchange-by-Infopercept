@@ -4,6 +4,7 @@
   "product": "X10media-MP3-Search-Engine",
   "product_id": "x10media-mp3-search-engine",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "\t<meta name=\"copyright\" content=\"X10Media\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<meta\\ name=\"copyright\"\\ content=\"X10Media\"/>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "\t<meta name=\"contributor\" content=\"X10Media\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<meta\\ name=\"contributor\"\\ content=\"X10Media\"/>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<title>x10media Mp3 Search Engine</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>x10media\\ Mp3\\ Search\\ Engine</title>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "Powered by <a href=\"http://www.x10media.com\">x10media.com</a> a <a href=\"http://www.x10media.com/mp3-script.php\">MP3 Search Script</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.x10media\\.com\">x10media\\.com</a>\\ a\\ <a\\ href=\"http://www\\.x10media\\.com/mp3\\-script\\.php\">MP3\\ Search\\ Script</a>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "Cannot connect to the database. Possibly, the X10Media Mp3 Search engine is not installed. Click <a href=\"install/\">here</a>, to install it.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Cannot\\ connect\\ to\\ the\\ database\\.\\ Possibly,\\ the\\ X10Media\\ Mp3\\ Search\\ engine\\ is\\ not\\ installed\\.\\ Click\\ <a\\ href=\"install/\">here</a>,\\ to\\ install\\ it\\.",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

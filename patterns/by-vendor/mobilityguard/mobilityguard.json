@@ -4,6 +4,7 @@
   "product": "MobilityGuard",
   "product_id": "mobilityguard",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<font size=2>Click here for more information about MobilityGuard.</font></a></center><br>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<font\\ size=2>Click\\ here\\ for\\ more\\ information\\ about\\ MobilityGuard\\.</font></a></center><br>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

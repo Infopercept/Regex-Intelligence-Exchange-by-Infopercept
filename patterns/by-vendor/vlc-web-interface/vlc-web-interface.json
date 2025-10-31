@@ -4,6 +4,7 @@
   "product": "VLC-Web-Interface",
   "product_id": "vlc-web-interface",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>VLC media player - Web Interface</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>VLC\\ media\\ player\\ \\-\\ Web\\ Interface</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title>VLC media player - Web Interface - Mosaic Wizard</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>VLC\\ media\\ player\\ \\-\\ Web\\ Interface\\ \\-\\ Mosaic\\ Wizard</title>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<title>VLC media player - Web Interface with Flash Viewer</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>VLC\\ media\\ player\\ \\-\\ Web\\ Interface\\ with\\ Flash\\ Viewer</title>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<title>VLC media player - Web Interface - VLM</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>VLC\\ media\\ player\\ \\-\\ Web\\ Interface\\ \\-\\ VLM</title>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<!-- do we need to browse in order to setup a mosaic ? for the background image maybe ... -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ do\\ we\\ need\\ to\\ browse\\ in\\ order\\ to\\ setup\\ a\\ mosaic\\ \\?\\ for\\ the\\ background\\ image\\ maybe\\ \\.\\.\\.\\ \\-\\->",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<input type=\"checkbox\" id=\"vlm_schedule_repeat\" onchange=\"toggle_schedule_repeat();update_vlm_add_schedule();\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ type=\"checkbox\"\\ id=\"vlm_schedule_repeat\"\\ onchange=\"toggle_schedule_repeat\\(\\);update_vlm_add_schedule\\(\\);\"\\ />",
       "version_group": 0
@@ -162,11 +169,11 @@
             "input": "<input type=\"text\" name=\"sout_mrl\" id=\"sout_mrl\" size=\"60\" onkeypress=\"if( event.keyCode == 13 ) vlm_output_change();\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ type=\"text\"\\ name=\"sout_mrl\"\\ id=\"sout_mrl\"\\ size=\"60\"\\ onkeypress=\"if\\(\\ event\\.keyCode\\ ==\\ 13\\ \\)\\ vlm_output_change\\(\\);\"/>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

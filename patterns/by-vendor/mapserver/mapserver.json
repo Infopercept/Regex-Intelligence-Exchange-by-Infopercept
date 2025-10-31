@@ -4,6 +4,7 @@
   "product": "MapServer",
   "product_id": "mapserver",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<BODY BGCOLOR=\"#FFFFFF\">s*msLoadMap(): Regular expression error",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<BODY BGCOLOR=\"#FFFFFF\">\\s*msLoadMap(): Regular expression error",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<HEAD><TITLE>MapServer Message</TITLE></HEAD>s*<!-- MapServer version",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<HEAD><TITLE>MapServer Message</TITLE></HEAD>\\s*<!\\-\\- MapServer version",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "PacketWave",
   "product_id": "packetwave",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<td bgcolor=\"#cccccc\" colspan=2 align=\"center\"><input type=\"button\" name=\"goto\" value=\"Log On\" onClick=\"encode_submit(this.form)\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ bgcolor=\"\\#cccccc\"\\ colspan=2\\ align=\"center\"><input\\ type=\"button\"\\ name=\"goto\"\\ value=\"Log\\ On\"\\ onClick=\"encode_submit\\(this\\.form\\)\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

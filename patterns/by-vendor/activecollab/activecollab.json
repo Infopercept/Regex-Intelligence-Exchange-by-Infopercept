@@ -4,6 +4,7 @@
   "product": "activeCollab",
   "product_id": "activecollab",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<form method=\"post\" id=\"system_form_2\" class=\"uniForm focusFirstField\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ method=\"post\"\\ id=\"system_form_2\"\\ class=\"uniForm\\ focusFirstField\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<p id=\"powered_by\"><a href=\"http://www.activecollab.com/\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ id=\"powered_by\"><a\\ href=\"http://www\\.activecollab\\.com/\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

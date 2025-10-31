@@ -4,6 +4,7 @@
   "product": "SDCMS",
   "product_id": "sdcms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<dl id=\"con_three_1\" class=\"index_photo\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<dl\\ id=\"con_three_1\"\\ class=\"index_photo\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

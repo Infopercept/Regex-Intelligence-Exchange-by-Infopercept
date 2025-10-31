@@ -4,6 +4,7 @@
   "product": "synType-CMS",
   "product_id": "syntype-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"generator\" content=\"synType CMS\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"synType\\ CMS\"\\ />",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "width=\"150\" height=\"40\" border=\"0\" alt=\"This Web site is powered by synType CMS, the ultimate Content Management System\" /></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "width=\"150\"\\ height=\"40\"\\ border=\"0\"\\ alt=\"This\\ Web\\ site\\ is\\ powered\\ by\\ synType\\ CMS,\\ the\\ ultimate\\ Content\\ Management\\ System\"\\ /></a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

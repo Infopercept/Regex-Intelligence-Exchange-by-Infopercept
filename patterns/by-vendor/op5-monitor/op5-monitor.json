@@ -4,6 +4,7 @@
   "product": "Op5-Monitor",
   "product_id": "op5-monitor",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>op5 Monitor login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>op5\\ Monitor\\ login</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<link type=\"text/css\" rel=\"stylesheet\" href=\"/monitor/application/views/themes/default/css/default/common.css\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ type=\"text/css\"\\ rel=\"stylesheet\"\\ href=\"/monitor/application/views/themes/default/css/default/common\\.css\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Turbo-Seek",
   "product_id": "turbo-seek",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "    var myspecs = \"\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ var\\ myspecs\\ =\\ \"\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

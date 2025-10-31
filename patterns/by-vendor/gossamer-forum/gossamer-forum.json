@@ -4,6 +4,7 @@
   "product": "Gossamer-Forum",
   "product_id": "gossamer-forum",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<title>Gossamer Forum: An error occured!</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Gossamer\\ Forum:\\ An\\ error\\ occured!</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

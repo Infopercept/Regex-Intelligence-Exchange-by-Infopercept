@@ -4,6 +4,7 @@
   "product": "mySQL-Error",
   "product_id": "mysql-error",
   "category": "database",
+  "subcategory": "database-engine",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '|You have an error in your SQL syntax near '",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '|You have an error in your SQL syntax near '",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Connessione non riuscita: Can't connect to local MySQL server through socket ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Connessione\\ non\\ riuscita:\\ Can't\\ connect\\ to\\ local\\ MySQL\\ server\\ through\\ socket\\ ",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<b>Warning</b>:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<b>Warning</b>:\\ \\ mysql_connect\\(\\)\\ \\[<a\\ href='function\\.mysql\\-connect'>function\\.mysql\\-connect</a>\\]:\\ Can't\\ connect\\ to\\ local\\ MySQL\\ server\\ through\\ socket",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "Warning: mysql_connect() [function.mysql-connect]: Lost connection to MySQL server at 'reading initial communication packet', ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Warning:\\ mysql_connect\\(\\)\\ \\[function\\.mysql\\-connect\\]:\\ Lost\\ connection\\ to\\ MySQL\\ server\\ at\\ 'reading\\ initial\\ communication\\ packet',\\ ",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<b>Warning</b>:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Lost connection to MySQL server at 'reading initial communication packet', ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<b>Warning</b>:\\ \\ mysql_connect\\(\\)\\ \\[<a\\ href='function\\.mysql\\-connect'>function\\.mysql\\-connect</a>\\]:\\ Lost\\ connection\\ to\\ MySQL\\ server\\ at\\ 'reading\\ initial\\ communication\\ packet',\\ ",
       "version_group": 0
     }
-  ],
-  "subcategory": "database-engine"
+  ]
 }

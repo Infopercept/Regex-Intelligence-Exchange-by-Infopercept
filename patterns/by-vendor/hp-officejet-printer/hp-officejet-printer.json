@@ -4,6 +4,7 @@
   "product": "HP-OfficeJet-Printer",
   "product_id": "hp-officejet-printer",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "index.htm?cat=info&page=printerInfo",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "index\\.htm\\?cat=info\\&page=printerInfo",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "home.htm?cat=home&page=home",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "home\\.htm\\?cat=home\\&page=home",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Symfony",
   "product_id": "symfony",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by <a href=\"http://www.symfony-project.org/\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.symfony\\-project\\.org/\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "^symfony",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^symfony",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "^SSESS",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^SSESS",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

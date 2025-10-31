@@ -4,6 +4,7 @@
   "product": "Microsoft-IIS",
   "product_id": "microsoft-iis",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<html><head><title>Site Not Found</title></head>.<body>No web site is configured at this address.</body></html>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html><head><title>Site\\ Not\\ Found</title></head>\\.<body>No\\ web\\ site\\ is\\ configured\\ at\\ this\\ address\\.</body></html>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<id id=\"Comment1\"><!--Problem--></id><id id=\"errorText\">Under Construction</id></h1>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<id\\ id=\"Comment1\"><!\\-\\-Problem\\-\\-></id><id\\ id=\"errorText\">Under\\ Construction</id></h1>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<P ID=Comment1><!--Problem--><P ID=\"errorText\">Under Construction</h1>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<P\\ ID=Comment1><!\\-\\-Problem\\-\\-><P\\ ID=\"errorText\">Under\\ Construction</h1>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "If you are the Web site administrator and feel you have received this message in error, please see &quot;Enabling and Disabling Dynamic Content&quot; in IIS Help.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "If\\ you\\ are\\ the\\ Web\\ site\\ administrator\\ and\\ feel\\ you\\ have\\ received\\ this\\ message\\ in\\ error,\\ please\\ see\\ \\&quot;Enabling\\ and\\ Disabling\\ Dynamic\\ Content\\&quot;\\ in\\ IIS\\ Help\\.",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<a href=\"http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409\"><img src=\"welcome.png\" alt=\"IIS7\" width=\"571\" height=\"411\" /></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://go\\.microsoft\\.com/fwlink/\\?linkid=66138\\&amp;clcid=0x409\"><img\\ src=\"welcome\\.png\"\\ alt=\"IIS7\"\\ width=\"571\"\\ height=\"411\"\\ /></a>",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<a href=\"http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409\"><img src=\"iis-85.png\" alt=\"IIS\" width=\"960\" height=\"600\" /></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://go\\.microsoft\\.com/fwlink/\\?linkid=66138\\&amp;clcid=0x409\"><img\\ src=\"iis\\-85\\.png\"\\ alt=\"IIS\"\\ width=\"960\"\\ height=\"600\"\\ /></a>",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "<h1 style=\"COLOR:000000; FONT: 13pt/15pt verdana\"><!--Problem-->The page cannot be found</h1>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h1\\ style=\"COLOR:000000;\\ FONT:\\ 13pt/15pt\\ verdana\"><!\\-\\-Problem\\-\\->The\\ page\\ cannot\\ be\\ found</h1>",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "<li>Go to <a href=\"http://go.microsoft.com/fwlink/?linkid=8180\">Microsoft Product Support Services</a> and perform a title search for the words <b>HTTP</b> and <b>404</b>.</li>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<li>Go\\ to\\ <a\\ href=\"http://go\\.microsoft\\.com/fwlink/\\?linkid=8180\">Microsoft\\ Product\\ Support\\ Services</a>\\ and\\ perform\\ a\\ title\\ search\\ for\\ the\\ words\\ <b>HTTP</b>\\ and\\ <b>404</b>\\.</li>",
       "version_group": 0
@@ -208,7 +217,8 @@
             "input": "<li>Go to <a href=\"http://go.microsoft.com/fwlink/?linkid=8180\">Microsoft Product Support Services</a> and perform a title search for the words <b>HTTP</b> and <b>403</b>.</li>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<li>Go\\ to\\ <a\\ href=\"http://go\\.microsoft\\.com/fwlink/\\?linkid=8180\">Microsoft\\ Product\\ Support\\ Services</a>\\ and\\ perform\\ a\\ title\\ search\\ for\\ the\\ words\\ <b>HTTP</b>\\ and\\ <b>403</b>\\.</li>",
       "version_group": 0
@@ -231,11 +241,11 @@
             "input": "Server: Microsoft-IIS/8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: Microsoft-IIS/([\\d\\.]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

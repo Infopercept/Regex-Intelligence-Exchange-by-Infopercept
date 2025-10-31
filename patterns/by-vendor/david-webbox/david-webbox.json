@@ -4,6 +4,7 @@
   "product": "David-WebBox",
   "product_id": "david-webbox",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: ^David-WebBox/([^\\s]+ \\([^\\)]+\\))$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^David-WebBox/([^\\s]+ \\([^\\)]+\\))$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

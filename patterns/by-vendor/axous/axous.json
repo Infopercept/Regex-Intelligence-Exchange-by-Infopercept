@@ -4,6 +4,7 @@
   "product": "Axous",
   "product_id": "axous",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"generator\" content=\"Axous V([^\"]+)\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"generator\" content=\"Axous V([^\"]+)\" />",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<div class=\"tit2 tit3\">Products</div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ class=\"tit2\\ tit3\">Products</div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

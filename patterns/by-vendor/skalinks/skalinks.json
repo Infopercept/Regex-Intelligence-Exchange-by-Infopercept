@@ -4,6 +4,7 @@
   "product": "SkaLinks",
   "product_id": "skalinks",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by <a class=sub_cat href=\"http://www.skalinks.com\">SkaLinks - Link Exchange Script",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ class=sub_cat\\ href=\"http://www\\.skalinks\\.com\">SkaLinks\\ \\-\\ Link\\ Exchange\\ Script",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by <a class=sub_cat href=\"http://www.skalinks.com\" rel=\"nofollow\">SkaLinks - Link Exchange Script",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ class=sub_cat\\ href=\"http://www\\.skalinks\\.com\"\\ rel=\"nofollow\">SkaLinks\\ \\-\\ Link\\ Exchange\\ Script",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "Powered by <a class=sub_cat rel=\"nofollow\" href=\"http://www.skalinks.com\">SkaLinks - Link Exchange Script",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ class=sub_cat\\ rel=\"nofollow\"\\ href=\"http://www\\.skalinks\\.com\">SkaLinks\\ \\-\\ Link\\ Exchange\\ Script",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

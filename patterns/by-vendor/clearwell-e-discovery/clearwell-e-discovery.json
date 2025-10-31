@@ -4,6 +4,7 @@
   "product": "Clearwell-E-Discovery",
   "product_id": "clearwell-e-discovery",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "/><a class=\"needHelp\" style=\"text-decoration:none\" href=\"javascript:logonHelp();void(0);\">Need help?</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/><a\\ class=\"needHelp\"\\ style=\"text\\-decoration:none\"\\ href=\"javascript:logonHelp\\(\\);void\\(0\\);\">Need\\ help\\?</a>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<title>Clearwell E-Discovery Platform log in</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Clearwell\\ E\\-Discovery\\ Platform\\ log\\ in</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

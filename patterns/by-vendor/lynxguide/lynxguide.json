@@ -4,6 +4,7 @@
   "product": "LynxGuide",
   "product_id": "lynxguide",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Login to LynxGuide Server</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Login\\ to\\ LynxGuide\\ Server</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Use subject to <a href=\"/cgi/help/license.htm\">license agreement</a></span>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Use\\ subject\\ to\\ <a\\ href=\"/cgi/help/license\\.htm\">license\\ agreement</a></span>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "Access_Num=[^;]+;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Access_Num=[^;]+;",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

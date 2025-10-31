@@ -4,6 +4,7 @@
   "product": "BosClassifieds",
   "product_id": "bosclassifieds",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Powered by <a href=\"http://www.bosdev.com/\" target=\"_blank\">BosClassifieds</a> <a href=\"http://www.bosdev.com/\" target=\"_blank\">Classified Ads</a> System<br>Copyright",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.bosdev\\.com/\"\\ target=\"_blank\">BosClassifieds</a>\\ <a\\ href=\"http://www\\.bosdev\\.com/\"\\ target=\"_blank\">Classified\\ Ads</a>\\ System<br>Copyright",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

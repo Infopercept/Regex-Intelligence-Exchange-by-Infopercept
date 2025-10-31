@@ -4,6 +4,7 @@
   "product": "Astaro-End-User-Portal",
   "product_id": "astaro-end-user-portal",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<script src=\"eup/eup_50_change_password.js\" type=\"text/JavaScript\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ src=\"eup/eup_50_change_password\\.js\"\\ type=\"text/JavaScript\"></script>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

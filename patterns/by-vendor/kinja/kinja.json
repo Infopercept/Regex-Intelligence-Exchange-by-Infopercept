@@ -4,6 +4,7 @@
   "product": "Kinja",
   "product_id": "kinja",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Alibaba-Aliyun",
   "product_id": "alibaba-aliyun",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "tengine",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "tengine",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "aliyun|alicdn",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "aliyun|alicdn",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

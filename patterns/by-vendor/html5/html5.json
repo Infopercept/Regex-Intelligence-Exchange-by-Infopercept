@@ -4,6 +4,7 @@
   "product": "HTML5",
   "product_id": "html5",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!DOCTYPE html>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!DOCTYPE html>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<html[^>]* manifest=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html[^>]* manifest=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

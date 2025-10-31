@@ -4,6 +4,7 @@
   "product": "WPML-Plugin",
   "product_id": "wpml-plugin",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "_icl_current_language",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "_icl_current_language",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

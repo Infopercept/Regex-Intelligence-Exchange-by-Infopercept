@@ -4,6 +4,7 @@
   "product": "Cype-MSCMS",
   "product_id": "cype-mscms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>[^(^<]+ (Powered by Cype)</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>[^\\(^<]+ \\(Powered by Cype\\)</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"author\" content=\"cypedev.com\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"cypedev\\.com\"\\ />",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<li><i>All images and other contents related to <a href='http://maplestory.com/' target='_blank'>MapleStory</a>&trade; are owned by <a href='http://nexon.net/' target='_blank'>Nexon Corporation</a></i><br /></li>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<li><i>All\\ images\\ and\\ other\\ contents\\ related\\ to\\ <a\\ href='http://maplestory\\.com/'\\ target='_blank'>MapleStory</a>\\&trade;\\ are\\ owned\\ by\\ <a\\ href='http://nexon\\.net/'\\ target='_blank'>Nexon\\ Corporation</a></i><br\\ /></li>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Flax-Article-Manager",
   "product_id": "flax-article-manager",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "/images/flaxweb_newsletter_bg.gif\" bgcolor=\"#FFFFFF\" valign=\"top\"> ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/images/flaxweb_newsletter_bg\\.gif\"\\ bgcolor=\"\\#FFFFFF\"\\ valign=\"top\">\\ ",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<b><a href=\"http://www.flaxweb.com/products/articles\"><font color=\"#666666\">Article ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<b><a\\ href=\"http://www\\.flaxweb\\.com/products/articles\"><font\\ color=\"\\#666666\">Article\\ ",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<title>Flax Article CMS Administration Panel</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Flax\\ Article\\ CMS\\ Administration\\ Panel</title>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "recent updates for Flax Article Manager</font></b></a></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "recent\\ updates\\ for\\ Flax\\ Article\\ Manager</font></b></a></div>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<td width=67%><font color=#FFFFFF><a href=admin.php class=htext>Flax ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ width=67%><font\\ color=\\#FFFFFF><a\\ href=admin\\.php\\ class=htext>Flax\\ ",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "<td><a href=\"http://www.flaxweb.com/products/articles\">For more details about Flax article manager (CMS) please click ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><a\\ href=\"http://www\\.flaxweb\\.com/products/articles\">For\\ more\\ details\\ about\\ Flax\\ article\\ manager\\ \\(CMS\\)\\ please\\ click\\ ",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

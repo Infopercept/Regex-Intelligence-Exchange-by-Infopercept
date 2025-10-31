@@ -4,6 +4,7 @@
   "product": "LANCOM-VPN",
   "product_id": "lancom-vpn",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^LANCOM.*VPN",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^LANCOM.*VPN",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

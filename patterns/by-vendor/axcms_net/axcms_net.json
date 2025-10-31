@@ -4,6 +4,7 @@
   "product": "AxCMS_net",
   "product_id": "axcms_net",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div style=\"text-align:center;width:100%;\"><a href=\"http://axcms.net\" target=\"_blank\"><img src=\"http://axcms.net/upload/poweredby_150x25_13871.png\" height=\"25\" width=\"150\" alt=\"Powered by AxCMS.net\" style=\"height:25px;width:150px;border-width:0px;\" /></a></div></form>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ style=\"text\\-align:center;width:100%;\"><a\\ href=\"http://axcms\\.net\"\\ target=\"_blank\"><img\\ src=\"http://axcms\\.net/upload/poweredby_150x25_13871\\.png\"\\ height=\"25\"\\ width=\"150\"\\ alt=\"Powered\\ by\\ AxCMS\\.net\"\\ style=\"height:25px;width:150px;border\\-width:0px;\"\\ /></a></div></form>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!-- Build and published by AxCMS.net | powered by Axinom-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Build\\ and\\ published\\ by\\ AxCMS\\.net\\ \\|\\ powered\\ by\\ Axinom\\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

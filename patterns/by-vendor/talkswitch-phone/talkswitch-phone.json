@@ -4,6 +4,7 @@
   "product": "TalkSwitch-Phone",
   "product_id": "talkswitch-phone",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^TalkSwitch",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^TalkSwitch",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Server: ^TalkSwitch HTTP Server/8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^TalkSwitch HTTP Server/([\\d\\.]+)$",
       "version_group": 1
@@ -70,11 +73,11 @@
             "input": "^Digest realm=\"Your TalkSwitch System\"$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Digest realm=\"Your TalkSwitch System\"$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

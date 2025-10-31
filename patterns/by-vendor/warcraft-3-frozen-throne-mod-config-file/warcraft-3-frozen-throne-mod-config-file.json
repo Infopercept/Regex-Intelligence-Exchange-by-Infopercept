@@ -4,6 +4,7 @@
   "product": "Warcraft-3-Frozen-Throne-Mod-Config-File",
   "product_id": "warcraft-3-frozen-throne-mod-config-file",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "// Radius to give XP to teammates near where the special objective is completed (rescued hosties, bomb planted, killed vip, vip escaped, default is 750)",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "//\\ Radius\\ to\\ give\\ XP\\ to\\ teammates\\ near\\ where\\ the\\ special\\ objective\\ is\\ completed\\ \\(rescued\\ hosties,\\ bomb\\ planted,\\ killed\\ vip,\\ vip\\ escaped,\\ default\\ is\\ 750\\)",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

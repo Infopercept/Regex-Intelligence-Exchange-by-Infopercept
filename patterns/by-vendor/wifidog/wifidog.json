@@ -4,6 +4,7 @@
   "product": "WiFiDog",
   "product_id": "wifidog",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<TITLE>Welcome - Wifidog Auth-server installation and configuration</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>Welcome\\ \\-\\ Wifidog\\ Auth\\-server\\ installation\\ and\\ configuration</TITLE>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<p><br></p><A HREF=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p><br></p><A\\ HREF=\\\\",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<html><body><h1>I am unable to retrieve the schema version. Either the wifidog database hasn't been created yet, the postgresql server is down, or pg_hba.conf does not allow your web server to connect to the wifidog database.</h1>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html><body><h1>I\\ am\\ unable\\ to\\ retrieve\\ the\\ schema\\ version\\.\\ Either\\ the\\ wifidog\\ database\\ hasn't\\ been\\ created\\ yet,\\ the\\ postgresql\\ server\\ is\\ down,\\ or\\ pg_hba\\.conf\\ does\\ not\\ allow\\ your\\ web\\ server\\ to\\ connect\\ to\\ the\\ wifidog\\ database\\.</h1>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

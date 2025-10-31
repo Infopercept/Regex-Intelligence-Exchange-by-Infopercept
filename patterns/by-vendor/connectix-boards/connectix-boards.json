@@ -4,6 +4,7 @@
   "product": "Connectix-Boards",
   "product_id": "connectix-boards",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "\t<title>Installation de Connectix Boards</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<title>Installation\\ de\\ Connectix\\ Boards</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "    <title>Connectix Boards - Fatal Error</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ <title>Connectix\\ Boards\\ \\-\\ Fatal\\ Error</title>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "\t<title>Connectix Boards Error</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<title>Connectix\\ Boards\\ Error</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

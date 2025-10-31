@@ -4,6 +4,7 @@
   "product": "DrugPak",
   "product_id": "drugpak",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<LINK REL=StyleSheet HREF=\"<#imagepath>/<#_style1 default=dpstyle.css>\" TYPE=\"text/css\" MEDIA=screen>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<LINK\\ REL=StyleSheet\\ HREF=\"<\\#imagepath>/<\\#_style1\\ default=dpstyle\\.css>\"\\ TYPE=\"text/css\"\\ MEDIA=screen>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!--Assist making SSL connection-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-Assist\\ making\\ SSL\\ connection\\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<hr>Powered by DrugPak</body>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<hr>Powered\\ by\\ DrugPak</body>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<LINK REL=StyleSheet HREF=\"/dplimg/DPSTYLE.CSS\" TYPE=\"text/css\" media=\"all\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<LINK\\ REL=StyleSheet\\ HREF=\"/dplimg/DPSTYLE\\.CSS\"\\ TYPE=\"text/css\"\\ media=\"all\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "PHP-Link-Directory",
   "product_id": "php-link-directory",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<a href=\"http://www.phplinkdirectory.com[^>]*Phplinkdirectory",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"http://www.phplinkdirectory.com[^>]*Phplinkdirectory",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

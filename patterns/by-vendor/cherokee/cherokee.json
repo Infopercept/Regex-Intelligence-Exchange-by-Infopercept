@@ -4,6 +4,7 @@
   "product": "Cherokee",
   "product_id": "cherokee",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^Cherokee/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Cherokee/([^\\s]+)",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "^Cherokee",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Cherokee",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

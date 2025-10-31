@@ -4,6 +4,7 @@
   "product": "phpRechnung",
   "product_id": "phprechnung",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<a class='slink' title='phpInvoice Home' href='http://www.ecorak.de/phpRechnung/' target='_blank'>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ class='slink'\\ title='phpInvoice\\ Home'\\ href='http://www\\.ecorak\\.de/phpRechnung/'\\ target='_blank'>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

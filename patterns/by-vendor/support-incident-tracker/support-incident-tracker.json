@@ -4,6 +4,7 @@
   "product": "Support-Incident-Tracker",
   "product_id": "support-incident-tracker",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div id='masthead'><h1 id='apptitle'><span>SiT! Support Incident Tracker</span></h1></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id='masthead'><h1\\ id='apptitle'><span>SiT!\\ Support\\ Incident\\ Tracker</span></h1></div>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<div class='windowtitle'>SiT! - Login</div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ class='windowtitle'>SiT!\\ \\-\\ Login</div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

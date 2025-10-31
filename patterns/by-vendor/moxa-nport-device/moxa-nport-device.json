@@ -4,6 +4,7 @@
   "product": "Moxa-NPort-Device",
   "product_id": "moxa-nport-device",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<HTML><HEAD><TITLE>NPort Web Console</TITLE></HEAD> <FRAMESET rows=57,1* frameborder=NO> <FRAME name=top scrolling=NO target=contents src=top.htm noresize> <FRAMESET cols=200,*> <FRAME name=contents target=main src=contents.htm> <FRAME name=main src=main.htm marginwidth=0 marginheight=0 scrolling=auto> </FRAMESET> <NOFRAMES><BODY background=bg.gif><P>This page uses frame, but your browser doesn't support.</P></BODY> </NOFRAMES> </FRAMESET></HTML>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<HTML><HEAD><TITLE>NPort\\ Web\\ Console</TITLE></HEAD>\\ <FRAMESET\\ rows=57,1\\*\\ frameborder=NO>\\ <FRAME\\ name=top\\ scrolling=NO\\ target=contents\\ src=top\\.htm\\ noresize>\\ <FRAMESET\\ cols=200,\\*>\\ <FRAME\\ name=contents\\ target=main\\ src=contents\\.htm>\\ <FRAME\\ name=main\\ src=main\\.htm\\ marginwidth=0\\ marginheight=0\\ scrolling=auto>\\ </FRAMESET>\\ <NOFRAMES><BODY\\ background=bg\\.gif><P>This\\ page\\ uses\\ frame,\\ but\\ your\\ browser\\ doesn't\\ support\\.</P></BODY>\\ </NOFRAMES>\\ </FRAMESET></HTML>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<HTML><HEAD><TITLE>NPort Web Console</TITLE> <SCRIPT language=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<HTML><HEAD><TITLE>NPort\\ Web\\ Console</TITLE>\\ <SCRIPT\\ language=",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<HTML><HEAD> <LINK href=nport2g.css rel=stylesheet type=text/css><TITLE>Overview</TITLE></HEAD>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<HTML><HEAD>\\ <LINK\\ href=nport2g\\.css\\ rel=stylesheet\\ type=text/css><TITLE>Overview</TITLE></HEAD>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "</script><BODY onload=window_onload()> <TABLE width=100% border=0 align=center><TR><TD><H2>Welcome to <span id=devlab1></span>'s web console !</H2></TD></TR>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "</script><BODY\\ onload=window_onload\\(\\)>\\ <TABLE\\ width=100%\\ border=0\\ align=center><TR><TD><H2>Welcome\\ to\\ <span\\ id=devlab1></span>'s\\ web\\ console\\ !</H2></TD></TR>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

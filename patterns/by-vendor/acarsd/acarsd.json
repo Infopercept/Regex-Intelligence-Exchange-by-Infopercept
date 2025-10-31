@@ -4,6 +4,7 @@
   "product": "acarsd",
   "product_id": "acarsd",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^acarsd/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^acarsd/([^\\s]+)$",
       "version_group": 1
@@ -47,7 +49,8 @@
             "input": "<meta name=\"author\" content=\"KjM <acarsd@acarsd.org>\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"KjM\\ <acarsd@acarsd\\.org>\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<title>[^<]*RealTime Web ACARS",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>[^<]*RealTime Web ACARS",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<!-- MAIN PART OF WEBACARS -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ MAIN\\ PART\\ OF\\ WEBACARS\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Macs-CMS",
   "product_id": "macs-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Mac's CMS - Admin Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Mac's\\ CMS\\ \\-\\ Admin\\ Login</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "    <!-- START: This block contains all code that the framework generates -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ <!\\-\\-\\ START:\\ This\\ block\\ contains\\ all\\ code\\ that\\ the\\ framework\\ generates\\ \\-\\->",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "Site Powered by Mac\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Site\\ Powered\\ by\\ Mac\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

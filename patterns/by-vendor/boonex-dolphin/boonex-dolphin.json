@@ -4,6 +4,7 @@
   "product": "BoonEx-Dolphin",
   "product_id": "boonex-dolphin",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -47,11 +48,11 @@
             "input": "Powered by                    Dolphin - <a href=\"http://www.boonex.com/products/dolphin/\">Free Community Software</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ Dolphin\\ \\-\\ <a\\ href=\"http://www\\.boonex\\.com/products/dolphin/\">Free\\ Community\\ Software</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

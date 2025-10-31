@@ -4,6 +4,7 @@
   "product": "CommonSpot",
   "product_id": "commonspot",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta[^>]+name=\"Generator\"[^>]+content=\"CommonSpot[^\"]+\"[^>]*/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta[^>]+name=\"Generator\"[^>]+content=\"CommonSpot[^\"]+\"[^>]*/>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<img[^>]+src=\"[^\"]+commonspot[^\"]+\"[^>]*/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img[^>]+src=\"[^\"]+commonspot[^\"]+\"[^>]*/>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<link[^>]+href=\"[^\"]commonspot/commonspot.css\"[^>]+/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link[^>]+href=\"[^\"]commonspot/commonspot\\.css\"[^>]+/>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

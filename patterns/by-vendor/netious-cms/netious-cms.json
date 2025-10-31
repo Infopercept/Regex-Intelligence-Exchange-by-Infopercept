@@ -4,6 +4,7 @@
   "product": "Netious-CMS",
   "product_id": "netious-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "&nbsp; &nbsp; Powered by <a href=\"http://www.netious.com\" title=\"Netious.com - free scripts, CMS-based internet services, RSS editors\">netious.com</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\&nbsp;\\ \\&nbsp;\\ Powered\\ by\\ <a\\ href=\"http://www\\.netious\\.com\"\\ title=\"Netious\\.com\\ \\-\\ free\\ scripts,\\ CMS\\-based\\ internet\\ services,\\ RSS\\ editors\">netious\\.com</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "&nbsp; &nbsp; Powered by <a href=\"http://www.netious.com\" title=\"Netious.com - free scripts, CMS-based services, RSS editors\">netious.com</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\&nbsp;\\ \\&nbsp;\\ Powered\\ by\\ <a\\ href=\"http://www\\.netious\\.com\"\\ title=\"Netious\\.com\\ \\-\\ free\\ scripts,\\ CMS\\-based\\ services,\\ RSS\\ editors\">netious\\.com</a>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<center><a href=\"../\" title=\"Home page\"><b class=visible>Go back to the home page of the service</b></a></center>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<center><a\\ href=\"\\.\\./\"\\ title=\"Home\\ page\"><b\\ class=visible>Go\\ back\\ to\\ the\\ home\\ page\\ of\\ the\\ service</b></a></center>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<title>CMS - powered by netious.com</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>CMS\\ \\-\\ powered\\ by\\ netious\\.com</title>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "&nbsp; &nbsp; Powered by <a href=\"http://pl.netious.com\" title=\"Netious.com - Polska. Darmowe strony internetowe z CMS.\">netious.com</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\&nbsp;\\ \\&nbsp;\\ Powered\\ by\\ <a\\ href=\"http://pl\\.netious\\.com\"\\ title=\"Netious\\.com\\ \\-\\ Polska\\.\\ Darmowe\\ strony\\ internetowe\\ z\\ CMS\\.\">netious\\.com</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

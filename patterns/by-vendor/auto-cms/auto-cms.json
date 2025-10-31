@@ -4,6 +4,7 @@
   "product": "Auto-CMS",
   "product_id": "auto-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<a href=\"http://www.ventics.com/autocms/\" target=\"_self\">Powered by Auto CMS</a>,<a href=\"http://validator.w3.org/check?uri=referer\">Valid XHTML 1.0</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.ventics\\.com/autocms/\"\\ target=\"_self\">Powered\\ by\\ Auto\\ CMS</a>,<a\\ href=\"http://validator\\.w3\\.org/check\\?uri=referer\">Valid\\ XHTML\\ 1\\.0</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

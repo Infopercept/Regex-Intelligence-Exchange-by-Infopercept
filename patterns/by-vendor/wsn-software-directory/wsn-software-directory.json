@@ -4,6 +4,7 @@
   "product": "WSN-Software-Directory",
   "product_id": "wsn-software-directory",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>WSN Software Directory Admin Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>WSN\\ Software\\ Directory\\ Admin\\ Login</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title>WSN Software Directory Administration Panel</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>WSN\\ Software\\ Directory\\ Administration\\ Panel</title>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!-- place any jquery-dependent script tags that need to be before the /head tag in here -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ place\\ any\\ jquery\\-dependent\\ script\\ tags\\ that\\ need\\ to\\ be\\ before\\ the\\ /head\\ tag\\ in\\ here\\ \\-\\->",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<div class=\"boxtitle\" on[c|C]lick=\"minmax('[a-z]+box')\"><img src=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div class=\"boxtitle\" on[c|C]lick=\"minmax\\('[a-z]+box'\\)\"><img src=",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<textarea readonly rows=\"20\" cols=\"75\">WSN Software Directory License Agreement",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<textarea\\ readonly\\ rows=\"20\"\\ cols=\"75\">WSN\\ Software\\ Directory\\ License\\ Agreement",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Funkwerk-Gateway",
   "product_id": "funkwerk-gateway",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^fec/[d.]+ (Funkwerk BOSS)$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^fec/[\\d\\.]+ \\(Funkwerk BOSS\\)$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

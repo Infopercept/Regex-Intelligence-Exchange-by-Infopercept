@@ -4,6 +4,7 @@
   "product": "SnomPhone",
   "product_id": "snomphone",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "&copy; 2000-20[0-9]+ <a href=\"http://snom.com\">snom AG</a><br>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "&copy; 2000-20[0-9]+ <a href=\"http://snom.com\">snom AG</a><br>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<tr><td class=\"flyoutLink\" colspan=\"2\"><b><a href=http://(wiki|www).snom.com",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr><td class=\"flyoutLink\" colspan=\"2\"><b><a href=http://(wiki|www).snom.com",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "You can enter a simple telephone number (e.g. 0114930398330) or URI like info@snom.com.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "You\\ can\\ enter\\ a\\ simple\\ telephone\\ number\\ \\(e\\.g\\.\\ 0114930398330\\)\\ or\\ URI\\ like\\ info@snom\\.com\\.",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<td[^>]+>Welcome to Your Phone!</td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td[^>]+>Welcome to Your Phone!</td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Contrexx-CMS",
   "product_id": "contrexx-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": " - powered by Contrexx   Web Content Management System</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\-\\ powered\\ by\\ Contrexx\\ \\ \\ Web\\ Content\\ Management\\ System</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<p id=\"powered\"><a href=\"http://www.contrexx.com/\" title=\"Powered by Contrexx&reg; Software\">Powered by Contrexx&reg; Software</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ id=\"powered\"><a\\ href=\"http://www\\.contrexx\\.com/\"\\ title=\"Powered\\ by\\ Contrexx\\&reg;\\ Software\">Powered\\ by\\ Contrexx\\&reg;\\ Software</a>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<div class=\"footer_right\">Powered by <a href=\"http://www.contrexx.com\">Contrexx Software</a></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ class=\"footer_right\">Powered\\ by\\ <a\\ href=\"http://www\\.contrexx\\.com\">Contrexx\\ Software</a></div>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<meta name=\"generator\" content=\"Contrexx   Web Content Management System\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"Contrexx\\ \\ \\ Web\\ Content\\ Management\\ System\"/>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<style type=\"text/css\">@import url(core_modules/frontendEditing/css/style.css) all;</style>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<style\\ type=\"text/css\">@import\\ url\\(core_modules/frontendEditing/css/style\\.css\\)\\ all;</style>",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<title>Contrexx Administration Console</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Contrexx\\ Administration\\ Console</title>",
       "version_group": 0
@@ -162,11 +169,11 @@
             "input": "\t\t<td><input type=\"submit\" tabindex=\"4\" name=\"submit_button\" value=\"Anmelden\" onclick=\"if(this.disabled || typeof(this.disabled)==\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t<td><input\\ type=\"submit\"\\ tabindex=\"4\"\\ name=\"submit_button\"\\ value=\"Anmelden\"\\ onclick=\"if\\(this\\.disabled\\ \\|\\|\\ typeof\\(this\\.disabled\\)==\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

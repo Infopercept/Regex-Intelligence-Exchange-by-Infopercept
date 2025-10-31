@@ -4,6 +4,7 @@
   "product": "Lithium",
   "product_id": "lithium",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<body[^>]+id=\"lia-body\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body[^>]+id=\"lia-body\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "BM-Classifieds",
   "product_id": "bm-classifieds",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- // All source code on this site © 2007 BM Scripts unless otherwise stated - All Rights Reserved // -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ //\\ All\\ source\\ code\\ on\\ this\\ site\\ ©\\ 2007\\ BM\\ Scripts\\ unless\\ otherwise\\ stated\\ \\-\\ All\\ Rights\\ Reserved\\ //\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- // All source code on this site © 2007 BM Scripts unless otherwise noted - All Rights Reserved // -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ //\\ All\\ source\\ code\\ on\\ this\\ site\\ ©\\ 2007\\ BM\\ Scripts\\ unless\\ otherwise\\ noted\\ \\-\\ All\\ Rights\\ Reserved\\ //\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "\t\t<!-- START HEADER TABLE - HOLDS GRAPHIC AND SITE NAME -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t<!\\-\\-\\ START\\ HEADER\\ TABLE\\ \\-\\ HOLDS\\ GRAPHIC\\ AND\\ SITE\\ NAME\\ \\-\\->",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "\t\t<!-- START MAIN TABLE - HOLDS CATEGORIES, MENU, ETC. -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t<!\\-\\-\\ START\\ MAIN\\ TABLE\\ \\-\\ HOLDS\\ CATEGORIES,\\ MENU,\\ ETC\\.\\ \\-\\->",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "\t<p class='credits'><a href='http://www.bmscripts.com'>Powered by BM Classifieds</a><br /></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<p\\ class='credits'><a\\ href='http://www\\.bmscripts\\.com'>Powered\\ by\\ BM\\ Classifieds</a><br\\ /></p>",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "\t<p class='credits'>Powered by BM Classifieds<br /></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<p\\ class='credits'>Powered\\ by\\ BM\\ Classifieds<br\\ /></p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

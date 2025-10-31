@@ -4,6 +4,7 @@
   "product": "Koha",
   "product_id": "koha",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -47,7 +48,8 @@
             "input": "<input type=\"hidden\" name=\"koha_login_context\" value=\"(opac|intranet)\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input type=\"hidden\" name=\"koha_login_context\" value=\"(opac|intranet)\" />",
       "version_group": 0
@@ -70,7 +72,8 @@
             "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/intranet-tmpl/prog/en/lib/jquery/plugins/ui.tabs.css\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/intranet\\-tmpl/prog/en/lib/jquery/plugins/ui\\.tabs\\.css\"\\ />",
       "version_group": 0
@@ -93,7 +96,8 @@
             "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/opac-tmpl/prog/en/lib/jquery/plugins/ui.tabs.css\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/opac\\-tmpl/prog/en/lib/jquery/plugins/ui\\.tabs\\.css\"\\ />",
       "version_group": 0
@@ -116,7 +120,8 @@
             "input": "<li><a href=\"/cgi-bin/koha/lostpassword.pl\" title=\"Password Lost and Found\">Lost your password?</a></li>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<li><a\\ href=\"/cgi\\-bin/koha/lostpassword\\.pl\"\\ title=\"Password\\ Lost\\ and\\ Found\">Lost\\ your\\ password\\?</a></li>",
       "version_group": 0
@@ -139,7 +144,8 @@
             "input": "<!-- login prompt time-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ login\\ prompt\\ time\\-\\->",
       "version_group": 0
@@ -162,11 +168,11 @@
             "input": "<div id=\"help\"><span class=\"loggedin\">You are not logged in | </span><a href=\"/cgi-bin/koha/help.pl\" onclick=\"Help(); return false;\">[ ? ]</a></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"help\"><span\\ class=\"loggedin\">You\\ are\\ not\\ logged\\ in\\ \\|\\ </span><a\\ href=\"/cgi\\-bin/koha/help\\.pl\"\\ onclick=\"Help\\(\\);\\ return\\ false;\">\\[\\ \\?\\ \\]</a></div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

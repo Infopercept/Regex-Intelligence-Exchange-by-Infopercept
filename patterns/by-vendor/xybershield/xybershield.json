@@ -4,6 +4,7 @@
   "product": "XyberShield",
   "product_id": "xybershield",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "XyberShieldSession=[^s]+;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "XyberShieldSession=[^\\s]+;",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "XyberShieldStatus=[^s]+;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "XyberShieldStatus=[^\\s]+;",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

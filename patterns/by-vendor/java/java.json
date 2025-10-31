@@ -4,6 +4,7 @@
   "product": "Java",
   "product_id": "java",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "x-powered-by: JSP/1.0",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-powered-by: JSP/([\\d\\.]+)",
       "version_group": 1
@@ -47,7 +49,8 @@
             "input": "Server: java/([\\d\\.\\-\\_]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: java/([\\d\\.\\-\\_]+)",
       "version_group": 1
@@ -70,11 +73,11 @@
             "input": "^(jsp|jpx|wss|do)$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^(jsp|jpx|wss|do)$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

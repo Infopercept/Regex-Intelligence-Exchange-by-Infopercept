@@ -4,6 +4,7 @@
   "product": "Posterita-POS",
   "product_id": "posterita-pos",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<img src=\"images/newUI/logo.gif\" alt=\"Powered by Posterita POS\" width=\"133px\" height=\"41px\" border=\"0px\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"images/newUI/logo\\.gif\"\\ alt=\"Powered\\ by\\ Posterita\\ POS\"\\ width=\"133px\"\\ height=\"41px\"\\ border=\"0px\"/>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!-- chooseApplication.jsp -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ chooseApplication\\.jsp\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

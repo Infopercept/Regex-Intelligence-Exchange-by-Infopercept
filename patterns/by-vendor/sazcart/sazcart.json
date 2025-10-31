@@ -4,6 +4,7 @@
   "product": "SazCart",
   "product_id": "sazcart",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "[^&]+&raquo; Powered by SazCart</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "[^&]+&raquo; Powered by SazCart</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<a href=\"http://www.sazcart.com\">Powered by SazCart</a> | <a href=\"http://www.sazcart.com\">Copyright &#169; 2005 - 2006 SazCart.com</a>  </div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.sazcart\\.com\">Powered\\ by\\ SazCart</a>\\ \\|\\ <a\\ href=\"http://www\\.sazcart\\.com\">Copyright\\ \\&\\#169;\\ 2005\\ \\-\\ 2006\\ SazCart\\.com</a>\\ \\ </div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

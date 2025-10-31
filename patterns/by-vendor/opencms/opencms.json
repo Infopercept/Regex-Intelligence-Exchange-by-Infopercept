@@ -4,6 +4,7 @@
   "product": "OpenCms",
   "product_id": "opencms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"generator\"[^>]+content=\"OpenCms\"( /)?>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"generator\"[^>]+content=\"OpenCms\"( /)?>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<(link|img)[^>]+(href|src)=\"[^\"^:]*/(opencms|export)/(sites|system)/[^\"]+\"[^>]*>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<(link|img)[^>]+(href|src)=\"[^\"^:]*/(opencms|export)/(sites|system)/[^\"]+\"[^>]*>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<(link|img)[^>]+(href|src)=\"[^\"^:]*/opencms/[^\"]+\"[^>]*>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<(link|img)[^>]+(href|src)=\"[^\"^:]*/opencms/[^\"]+\"[^>]*>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "^OpenCms",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^OpenCms",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "Server: ^OpenCms/([a-z\\d\\.]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^OpenCms/([a-z\\d\\.]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

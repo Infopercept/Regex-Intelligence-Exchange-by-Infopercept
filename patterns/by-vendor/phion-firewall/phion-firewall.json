@@ -4,6 +4,7 @@
   "product": "Phion-Firewall",
   "product_id": "phion-firewall",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Phion",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Phion",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^Phion/(.+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Phion/(.+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

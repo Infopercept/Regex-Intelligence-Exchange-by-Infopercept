@@ -4,6 +4,7 @@
   "product": "TypoLight",
   "product_id": "typolight",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<link rel=\"stylesheet\" href=\"system/typolight.css\" type=\"text/css\" media=\"screen\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"system/typolight\\.css\"\\ type=\"text/css\"\\ media=\"screen\"\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "This website is powered by TYPOlight Open Source CMS :: Licensed under GNU/LGPL",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "This\\ website\\ is\\ powered\\ by\\ TYPOlight\\ Open\\ Source\\ CMS\\ ::\\ Licensed\\ under\\ GNU/LGPL",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<!-- indexer::continue -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ indexer::continue\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

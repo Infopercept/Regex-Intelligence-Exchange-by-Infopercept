@@ -4,6 +4,7 @@
   "product": "dotclear",
   "product_id": "dotclear",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<p>Powered by <a href=\"http://dotclear.org/\">Dotclear</a></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://dotclear\\.org/\">Dotclear</a></p>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- End #d-content -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ End\\ \\#d\\-content\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!-- End #blogextra -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ End\\ \\#blogextra\\ \\-\\->",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<a href=\"#search\">To search</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"\\#search\">To\\ search</a>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<p class=\"post-info-co\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ class=\"post\\-info\\-co\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

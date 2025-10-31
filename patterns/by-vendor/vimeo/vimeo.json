@@ -4,6 +4,7 @@
   "product": "Vimeo",
   "product_id": "vimeo",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<(param|object|embed) [^>]+vimeo.com/moogaloop",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<(param|object|embed) [^>]+vimeo\\.com/moogaloop",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<iframe [^>]*src=['\"]https?://player.vimeo.com/video/",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<iframe [^>]*src=['\"]https?://player\\.vimeo\\.com/video/",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

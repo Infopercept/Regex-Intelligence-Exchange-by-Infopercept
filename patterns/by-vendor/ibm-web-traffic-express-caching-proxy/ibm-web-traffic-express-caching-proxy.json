@@ -4,6 +4,7 @@
   "product": "IBM-Web-Traffic-Express-Caching-Proxy",
   "product_id": "ibm-web-traffic-express-caching-proxy",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: ^IBM-PROXY-WTE/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^IBM-PROXY-WTE/([^\\s]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "TRIDENT7-Wave7-OLT",
   "product_id": "trident7-wave7-olt",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<TITLE>Trident7 System Login</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>Trident7\\ System\\ Login</TITLE>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

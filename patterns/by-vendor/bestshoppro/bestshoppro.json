@@ -4,6 +4,7 @@
   "product": "BestShopPro",
   "product_id": "bestshoppro",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<td width=300 height=18 colspan=2 align=center class=tdn><b>Logowanie</b></td></tr>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ width=300\\ height=18\\ colspan=2\\ align=center\\ class=tdn><b>Logowanie</b></td></tr>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta content=\"www.bst.pl\" name=\"author\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ content=\"www\\.bst\\.pl\"\\ name=\"author\"/>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<META CONTENT=\"www.bst.pl\" NAME=AUTHOR>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<META\\ CONTENT=\"www\\.bst\\.pl\"\\ NAME=AUTHOR>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "PulseCMS",
   "product_id": "pulsecms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<img src=\"img/new-logo.png\" alt=\"Pulse CMS\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"img/new\\-logo\\.png\"\\ alt=\"Pulse\\ CMS\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<input type=\"password\" size=\"27\" name=\"mpass_pass\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ type=\"password\"\\ size=\"27\"\\ name=\"mpass_pass\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<title>Pulse Content Manager</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Pulse\\ Content\\ Manager</title>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<body id=\"login-page\" onload=\"document.login.mpass_pass.focus()\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ id=\"login\\-page\"\\ onload=\"document\\.login\\.mpass_pass\\.focus\\(\\)\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

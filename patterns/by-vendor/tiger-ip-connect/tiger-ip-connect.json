@@ -4,6 +4,7 @@
   "product": "Tiger-IP-Connect",
   "product_id": "tiger-ip-connect",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^network/index.php$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^network/index\\.php$",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<td align=\"center\" bgcolor=\"#FFCC00\"><b>Login is disabled from this IP address.</b></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ align=\"center\"\\ bgcolor=\"\\#FFCC00\"><b>Login\\ is\\ disabled\\ from\\ this\\ IP\\ address\\.</b></td>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "background-image:url(../images/tiger/subTabmidden.gif);",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "background\\-image:url\\(\\.\\./images/tiger/subTabmidden\\.gif\\);",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<link rel=\"stylesheet\" href=\"/include/tms.css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"/include/tms\\.css\">",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<link rel=\"stylesheet\" href=\"/include/firedigit.css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"/include/firedigit\\.css\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

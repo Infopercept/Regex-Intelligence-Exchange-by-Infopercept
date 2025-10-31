@@ -4,6 +4,7 @@
   "product": "phpGreetCards",
   "product_id": "phpgreetcards",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<td align=\"right\"><font color=\"#b8c2cc\">Powered by <a href=\"http://www.w2b.ru/webapplications/index.php\" target=\"_blank\">phpGreetCards</a>, ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ align=\"right\"><font\\ color=\"\\#b8c2cc\">Powered\\ by\\ <a\\ href=\"http://www\\.w2b\\.ru/webapplications/index\\.php\"\\ target=\"_blank\">phpGreetCards</a>,\\ ",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<td align=\"right\"><font color=\"#b8c2cc\">Powered by <a href=\"http://www.w2bpm.com/index.php?cat=phpGreetCards\" target=\"_blank\">phpGreetCards</a>, ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ align=\"right\"><font\\ color=\"\\#b8c2cc\">Powered\\ by\\ <a\\ href=\"http://www\\.w2bpm\\.com/index\\.php\\?cat=phpGreetCards\"\\ target=\"_blank\">phpGreetCards</a>,\\ ",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

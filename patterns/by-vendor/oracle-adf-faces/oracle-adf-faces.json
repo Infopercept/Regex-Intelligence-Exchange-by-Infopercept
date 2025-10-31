@@ -4,6 +4,7 @@
   "product": "Oracle-ADF-Faces",
   "product_id": "oracle-adf-faces",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"generator\" content=\"Oracle ADF Faces\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"Oracle\\ ADF\\ Faces\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<script>var _AdfWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.';</script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script>var\\ _AdfWindowOpenError='A\\ popup\\ window\\ blocker\\ has\\ been\\ detected\\ in\\ your\\ browser\\.\\ Popup\\ blockers\\ interfere\\ with\\ the\\ operation\\ of\\ this\\ application\\.\\ Please\\ disable\\ your\\ popup\\ blocker\\ or\\ allow\\ popups\\ from\\ this\\ site\\.';</script>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

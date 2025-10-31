@@ -4,6 +4,7 @@
   "product": "Owl-Intranet-Engine",
   "product_id": "owl-intranet-engine",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "owl_sessid=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "owl_sessid=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

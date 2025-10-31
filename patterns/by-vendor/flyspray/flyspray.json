@@ -4,6 +4,7 @@
   "product": "Flyspray",
   "product_id": "flyspray",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- Please don't remove this line - it helps promote Flyspray -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Please\\ don't\\ remove\\ this\\ line\\ \\-\\ it\\ helps\\ promote\\ Flyspray\\ \\-\\->",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<a href=\"http://flyspray.org/\" class=\"offsite\">Powered by Flyspray</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://flyspray\\.org/\"\\ class=\"offsite\">Powered\\ by\\ Flyspray</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

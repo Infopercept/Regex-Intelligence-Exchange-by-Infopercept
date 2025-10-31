@@ -4,6 +4,7 @@
   "product": "Infomaster",
   "product_id": "infomaster",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "class=\"ackn\">[s]*Powered by InfoMaster",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "class=\"ackn\">[\\s]*Powered by InfoMaster",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<link href=\"../../MasterView.css\" type=\"text/css\" rel=\"stylesheet\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ href=\"\\.\\./\\.\\./MasterView\\.css\"\\ type=\"text/css\"\\ rel=\"stylesheet\"",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<link href=\"../../App_Themes/MasterView/MPLeftNavStyle/PanelBar.MPIFMA.css\" type=\"text/css\" rel=\"stylesheet\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ href=\"\\.\\./\\.\\./App_Themes/MasterView/MPLeftNavStyle/PanelBar\\.MPIFMA\\.css\"\\ type=\"text/css\"\\ rel=\"stylesheet\"\\ />",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<script language=\"javascript\" src=\"../../common/masterView.js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ language=\"javascript\"\\ src=\"\\.\\./\\.\\./common/masterView\\.js\"></script>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

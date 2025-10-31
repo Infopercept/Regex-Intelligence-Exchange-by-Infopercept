@@ -4,6 +4,7 @@
   "product": "FirePHP",
   "product_id": "firephp",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "x-wf-1-plugin-1: ^http://meta\\.firephp\\.org/Wildfire/Plugin/FirePHP/Library-FirePHPCore/([^\\s]+)$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-wf-1-plugin-1: ^http://meta\\.firephp\\.org/Wildfire/Plugin/FirePHP/Library-FirePHPCore/([^\\s]+)$",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "^http://meta.wildfirehq.org/Protocol/",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^http://meta\\.wildfirehq\\.org/Protocol/",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

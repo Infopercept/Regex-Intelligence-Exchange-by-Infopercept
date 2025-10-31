@@ -4,6 +4,7 @@
   "product": "MyBB",
   "product_id": "mybb",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "\t\t\t\t<!-- MyBB is free software developed and maintained by a volunteer community. ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t\\\t\\\t<!\\-\\-\\ MyBB\\ is\\ free\\ software\\ developed\\ and\\ maintained\\ by\\ a\\ volunteer\\ community\\.\\ ",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "\t\t\t\t<!-- You may NOT remove, modify or hinder the visibility of the MyBB copyright at any time.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t\\\t\\\t<!\\-\\-\\ You\\ may\\ NOT\\ remove,\\ modify\\ or\\ hinder\\ the\\ visibility\\ of\\ the\\ MyBB\\ copyright\\ at\\ any\\ time\\.",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!-- The following piece of code allows MyBB to run scheduled tasks. DO NOT REMOVE --><img",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ The\\ following\\ piece\\ of\\ code\\ allows\\ MyBB\\ to\\ run\\ scheduled\\ tasks\\.\\ DO\\ NOT\\ REMOVE\\ \\-\\-><img",
       "version_group": 0
@@ -116,11 +120,11 @@
             "input": "Powered By <a href=\"http://www.mybboard.com\" target=\"_blank\">MyBB</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.mybboard\\.com\"\\ target=\"_blank\">MyBB</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

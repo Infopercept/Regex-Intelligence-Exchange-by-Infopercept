@@ -4,6 +4,7 @@
   "product": "AMR-WinControl",
   "product_id": "amr-wincontrol",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: AMR_WinControl[_0-9]*/8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: AMR_WinControl[_0-9]*/([\\d\\.]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "DoceboLMS",
   "product_id": "docebolms",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by <a href=\"http://www.docebo.com/?versions\" onclick=\"window.open(this.href); return false;\">Docebo <sup>&reg;</sup></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.docebo\\.com/\\?versions\"\\ onclick=\"window\\.open\\(this\\.href\\);\\ return\\ false;\">Docebo\\ <sup>\\&reg;</sup></a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<div class=\"powered\"><a href=\"http://www.docebo.com/?[a-z]+\" target=\"_blank\" alt=\"Powered by Docebo .\" title=\"Powered by Docebo .\">Powered by Docebo .</a></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div class=\"powered\"><a href=\"http://www.docebo.com/\\?[a-z]+\" target=\"_blank\" alt=\"Powered by Docebo .\" title=\"Powered by Docebo .\">Powered by Docebo .</a></div>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "lang_setup.setBody(\"<ul class=\\\"link_list_inline\\\" id=\\\"language_selection\\\"><li><a class=\\\"lang-sprite lang_",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "lang_setup\\.setBody\\(\"<ul\\ class=\\\\\"link_list_inline\\\\\"\\ id=\\\\\"language_selection\\\\\"><li><a\\ class=\\\\\"lang\\-sprite\\ lang_",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Battle-Blog",
   "product_id": "battle-blog",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<br /><br /><font face=\"arial\" size=\"1\">Powered by <a href=\"http://www.battleblog.com\">Battle Blog</a></font>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<br\\ /><br\\ /><font\\ face=\"arial\"\\ size=\"1\">Powered\\ by\\ <a\\ href=\"http://www\\.battleblog\\.com\">Battle\\ Blog</a></font>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title>Battle Blog Login</title> ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Battle\\ Blog\\ Login</title>\\ ",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<form name = \"UserInfoCollect\" action = \"authenticate.asp\" method = \"post\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ name\\ =\\ \"UserInfoCollect\"\\ action\\ =\\ \"authenticate\\.asp\"\\ method\\ =\\ \"post\">",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<table width = \"10%\" cellpadding = \"5\" style = \"border-style: solid; border-color: #000000; border-width: 1px;\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<table\\ width\\ =\\ \"10%\"\\ cellpadding\\ =\\ \"5\"\\ style\\ =\\ \"border\\-style:\\ solid;\\ border\\-color:\\ \\#000000;\\ border\\-width:\\ 1px;\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

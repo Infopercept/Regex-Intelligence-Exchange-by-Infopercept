@@ -4,6 +4,7 @@
   "product": "Elite-Gaming-Ladders",
   "product_id": "elite-gaming-ladders",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- DO NOT EDIT ABOVE THIS LINE UNLESS YOU KNOW WHAT YOU ARE DOIN - END -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ DO\\ NOT\\ EDIT\\ ABOVE\\ THIS\\ LINE\\ UNLESS\\ YOU\\ KNOW\\ WHAT\\ YOU\\ ARE\\ DOIN\\ \\-\\ END\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- Do Not Edit Below This Line Unless You Know What You're Doing -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Do\\ Not\\ Edit\\ Below\\ This\\ Line\\ Unless\\ You\\ Know\\ What\\ You're\\ Doing\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!-- EGL INFORMATION - BLOCK END -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ EGL\\ INFORMATION\\ \\-\\ BLOCK\\ END\\ \\-\\->",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<!-- DESIGNER AND POWERED BY - START  - You must leave this Copyright link back to Elite Ladders in place othersise your license will be revoked -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ DESIGNER\\ AND\\ POWERED\\ BY\\ \\-\\ START\\ \\ \\-\\ You\\ must\\ leave\\ this\\ Copyright\\ link\\ back\\ to\\ Elite\\ Ladders\\ in\\ place\\ othersise\\ your\\ license\\ will\\ be\\ revoked\\ \\-\\->",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<!-- Copyright - Removing this link back to Elite Ladders without permission will result in suspension of your license  -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Copyright\\ \\-\\ Removing\\ this\\ link\\ back\\ to\\ Elite\\ Ladders\\ without\\ permission\\ will\\ result\\ in\\ suspension\\ of\\ your\\ license\\ \\ \\-\\->",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "<b><span style=\"color:#013171;\">Design By: </span> Soulast<span style=\"color:#013171;\"> | Powered [bB]y: </span>[s]?<a href=\"http://(www.)?eliteladders.com\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<b><span style=\"color:#013171;\">Design By: </span> Soulast<span style=\"color:#013171;\"> \\| Powered [bB]y: </span>[\\s]?<a href=\"http://(www\\.)?eliteladders\\.com\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

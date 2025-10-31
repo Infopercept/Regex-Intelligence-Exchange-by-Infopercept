@@ -4,6 +4,7 @@
   "product": "TeaLeaf",
   "product_id": "tealeaf",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^TLTSID",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^TLTSID",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "^TLTUID",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^TLTUID",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

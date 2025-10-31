@@ -4,6 +4,7 @@
   "product": "zFeeder",
   "product_id": "zfeeder",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<span style=\"font-family: Verdana, Arial, Helvetica, sans-serif; font-size: xx-small;\">powered by <a href=\"http://zvonnews.sourceforge.net\">zFeeder</a></span>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<span\\ style=\"font\\-family:\\ Verdana,\\ Arial,\\ Helvetica,\\ sans\\-serif;\\ font\\-size:\\ xx\\-small;\">powered\\ by\\ <a\\ href=\"http://zvonnews\\.sourceforge\\.net\">zFeeder</a></span>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

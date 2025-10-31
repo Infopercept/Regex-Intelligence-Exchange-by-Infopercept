@@ -4,6 +4,7 @@
   "product": "SDL-Tridion-WCMS",
   "product_id": "sdl-tridion-wcms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "product-version: ^(.+)$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "product-version: ^(.+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

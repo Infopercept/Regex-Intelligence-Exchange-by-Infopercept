@@ -4,6 +4,7 @@
   "product": "SilverStripe",
   "product_id": "silverstripe",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"generator\"[^>]*content=\"SilverStripe",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"generator\"[^>]*content=\"SilverStripe",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<link[^>]*stylesheet[^>]*layout.css[^>]*>[^<]*<link[^>]*stylesheet[^>]*typography.css[^>]*>[^<]*<link[^>]*stylesheet[^>]*form.css[^>]*>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link[^>]*stylesheet[^>]*layout.css[^>]*>[^<]*<link[^>]*stylesheet[^>]*typography.css[^>]*>[^<]*<link[^>]*stylesheet[^>]*form.css[^>]*>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<img src=\"/assets/[^/]+/_resampled/[^\"]+.jpg\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img src=\"/assets/[^/]+/_resampled/[^\"]+.jpg\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

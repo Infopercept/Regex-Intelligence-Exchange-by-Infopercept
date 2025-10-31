@@ -4,6 +4,7 @@
   "product": "Oracle-WebDB",
   "product_id": "oracle-webdb",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^Oracle_WebDb_Listener/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Oracle_WebDb_Listener/([^\\s]+)",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "^(https?://[^/]+)?/WebDB/WEBDB.home$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^(https?://[^/]+)?/WebDB/WEBDB\\.home$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

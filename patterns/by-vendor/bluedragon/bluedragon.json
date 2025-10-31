@@ -4,6 +4,7 @@
   "product": "BlueDragon",
   "product_id": "bluedragon",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: BlueDragon Server (JXAS|JX)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: BlueDragon Server (JXAS|JX)",
       "version_group": 1
@@ -47,7 +49,8 @@
             "input": "x-powered-by: BlueDragon Server/([^\\s^,]+)",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-powered-by: BlueDragon Server/([^\\s^,]+)",
       "version_group": 1
@@ -70,11 +73,11 @@
             "input": "Server: BlueDragon Server( JXAS| JX)?(/| )8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: BlueDragon Server( JXAS| JX)?(/| )([\\d\\.]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Internet-Cluster-Manager",
   "product_id": "internet-cluster-manager",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Internet Cluster Manager",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Internet Cluster Manager",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^Internet Cluster Manager Ver\\. ([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Internet Cluster Manager Ver\\. ([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

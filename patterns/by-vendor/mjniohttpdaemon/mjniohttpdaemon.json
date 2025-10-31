@@ -4,6 +4,7 @@
   "product": "MJNioHttpDaemon",
   "product_id": "mjniohttpdaemon",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^MJNioHttpDaemon/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^MJNioHttpDaemon/([^\\s]+)",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "MJNIOHTTPDSESSIONID=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "MJNIOHTTPDSESSIONID=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

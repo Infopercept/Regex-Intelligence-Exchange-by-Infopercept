@@ -4,6 +4,7 @@
   "product": "i-Gallery",
   "product_id": "i-gallery",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "var verify = confirm(\"Are you sure you want to permanently delete the selected \\\"Item\\\" from the i-Gallery database?  All information will be lost!\");",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "var\\ verify\\ =\\ confirm\\(\"Are\\ you\\ sure\\ you\\ want\\ to\\ permanently\\ delete\\ the\\ selected\\ \\\\\"Item\\\\\"\\ from\\ the\\ i\\-Gallery\\ database\\?\\ \\ All\\ information\\ will\\ be\\ lost!\"\\);",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- ################ Begin Empty Root Folder Message ################ -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ \\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\ Begin\\ Empty\\ Root\\ Folder\\ Message\\ \\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\#\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<img src=\"images/igallery-logo.gif\" width=[0-9]* height=[0-9]* border=[0-9]* alt=\"i-Gallery Home Page\"></a><br>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img src=\"images/igallery-logo.gif\" width=[0-9]* height=[0-9]* border=[0-9]* alt=\"i-Gallery Home Page\"></a><br>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<title>.::  - Photo Viewer ::.</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>\\.::\\ \\ \\-\\ Photo\\ Viewer\\ ::\\.</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

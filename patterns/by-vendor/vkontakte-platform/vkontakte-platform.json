@@ -4,6 +4,7 @@
   "product": "VKontakte-Platform",
   "product_id": "vkontakte-platform",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^kittenx",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^kittenx",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<script[^>]*src=\"//vk.com/js/api/openapi.js",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script[^>]*src=\"//vk\\.com/js/api/openapi\\.js",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<meta property=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ property=\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

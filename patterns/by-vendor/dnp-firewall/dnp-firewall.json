@@ -4,6 +4,7 @@
   "product": "DnP-Firewall",
   "product_id": "dnp-firewall",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Forum Gateway - Powered by DnP Firewall</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Forum\\ Gateway\\ \\-\\ Powered\\ by\\ DnP\\ Firewall</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "\t<form name=dnp_firewall method=get action=dnp_fw.php",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<form\\ name=dnp_firewall\\ method=get\\ action=dnp_fw\\.php",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<input type=submit value=\" \" alt=\"Click to continue to your destination\" style=\"background-image:url(default.jpg); height:444px; width:635px; cursor:pointer; border-width:0px;\"> ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ type=submit\\ value=\"\\ \"\\ alt=\"Click\\ to\\ continue\\ to\\ your\\ destination\"\\ style=\"background\\-image:url\\(default\\.jpg\\);\\ height:444px;\\ width:635px;\\ cursor:pointer;\\ border\\-width:0px;\">\\ ",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

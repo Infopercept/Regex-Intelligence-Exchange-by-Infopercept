@@ -4,6 +4,7 @@
   "product": "FreeNAC",
   "product_id": "freenac",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<a href=\"unknowns.php\" title=\"List unknown end devices and print/edit/delete them\">Find unknowns</a><br/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"unknowns\\.php\"\\ title=\"List\\ unknown\\ end\\ devices\\ and\\ print/edit/delete\\ them\">Find\\ unknowns</a><br/>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

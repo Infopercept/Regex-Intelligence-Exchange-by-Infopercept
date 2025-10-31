@@ -4,6 +4,7 @@
   "product": "ZyXEL-Router",
   "product_id": "zyxel-router",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>.:: Welcome to the Web-Based Configurator::.</title><meta http-equiv='content-type' content='text/html;charset=iso-8859-1'>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>\\.::\\ Welcome\\ to\\ the\\ Web\\-Based\\ Configurator::\\.</title><meta\\ http\\-equiv='content\\-type'\\ content='text/html;charset=iso\\-8859\\-1'>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<form method=\"post\" action=\"/Forms/rpAuth_1\" onSubmit=\"LoginClick(document.forms[0].hiddenPassword, document.forms[0].LoginPassword);\"><p>&nbsp;</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ method=\"post\"\\ action=\"/Forms/rpAuth_1\"\\ onSubmit=\"LoginClick\\(document\\.forms\\[0\\]\\.hiddenPassword,\\ document\\.forms\\[0\\]\\.LoginPassword\\);\"><p>\\&nbsp;</p>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "Welcome to your router Configuration Interface<p></p>Enter your password and press enter or click \"Login\"<p></p><img src=\"Images/i_key.gif\" width=\"11\" height=\"17\"  align=\"absmiddle\"> <strong>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Welcome\\ to\\ your\\ router\\ Configuration\\ Interface<p></p>Enter\\ your\\ password\\ and\\ press\\ enter\\ or\\ click\\ \"Login\"<p></p><img\\ src=\"Images/i_key\\.gif\"\\ width=\"11\"\\ height=\"17\"\\ \\ align=\"absmiddle\">\\ <strong>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<font size=\"3\" color=\"3366CC\" face=\"Arial\"><b><i>Vantage Service Gateway</i>&nbsp;</b></font>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<font\\ size=\"3\"\\ color=\"3366CC\"\\ face=\"Arial\"><b><i>Vantage\\ Service\\ Gateway</i>\\&nbsp;</b></font>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<frameset rows=\"75,97%,25\" framespacing=\"0\" border=\"0\" frameborder=\"0\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<frameset\\ rows=\"75,97%,25\"\\ framespacing=\"0\"\\ border=\"0\"\\ frameborder=\"0\">",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "loginPassword.value = \"ZyXEL ZyWALL Series\";",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "loginPassword\\.value\\ =\\ \"ZyXEL\\ ZyWALL\\ Series\";",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "^ZyXEL-RomPager",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^ZyXEL-RomPager",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "Server: ^ZyXEL-RomPager/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^ZyXEL-RomPager/([^\\s]+)$",
       "version_group": 1
@@ -208,11 +217,11 @@
             "input": "^RomPager",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^RomPager",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

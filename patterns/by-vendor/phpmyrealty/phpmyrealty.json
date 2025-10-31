@@ -4,6 +4,7 @@
   "product": "phpMyRealty",
   "product_id": "phpmyrealty",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- Main Content table : stop -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Main\\ Content\\ table\\ :\\ stop\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by <a href=\"http://www.phpmyrealty.com\" target=\"_blank\" style=\"font-size: 12px; font-family: arial\">phpMyRealty Professional</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.phpmyrealty\\.com\"\\ target=\"_blank\"\\ style=\"font\\-size:\\ 12px;\\ font\\-family:\\ arial\">phpMyRealty\\ Professional</a>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<span class=\"table_header_text\"> &nbsp;Administrator Control Panel</span>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<span\\ class=\"table_header_text\">\\ \\&nbsp;Administrator\\ Control\\ Panel</span>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

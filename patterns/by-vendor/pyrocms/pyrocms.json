@@ -4,6 +4,7 @@
   "product": "PyroCMS",
   "product_id": "pyrocms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "_pyrocms_",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "_pyrocms_",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

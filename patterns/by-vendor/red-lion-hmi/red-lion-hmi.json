@@ -4,6 +4,7 @@
   "product": "Red-Lion-HMI",
   "product_id": "red-lion-hmi",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<td><font face=tahoma size=\"2\">Display a view of the HMI\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><font\\ face=tahoma\\ size=\"2\">Display\\ a\\ view\\ of\\ the\\ HMI\\\\",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<p><font face=tahoma size=1>Powered by <a href=http://www.redlion.net>Red Lion</a>.</font></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p><font\\ face=tahoma\\ size=1>Powered\\ by\\ <a\\ href=http://www\\.redlion\\.net>Red\\ Lion</a>\\.</font></p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

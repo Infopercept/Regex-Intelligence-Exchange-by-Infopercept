@@ -4,6 +4,7 @@
   "product": "Sambar-Server",
   "product_id": "sambar-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^SAMBAR",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^SAMBAR",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^SAMBAR 8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^SAMBAR ([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

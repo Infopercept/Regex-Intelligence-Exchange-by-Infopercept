@@ -4,6 +4,7 @@
   "product": "CMScout",
   "product_id": "cmscout",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by CMScout &copy;[d,]+ <a href=\"http://www.cmscout.za.net\" title=\"CMScout Group\" target=\"_blank\">CMScout Group</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by CMScout &copy;[\\d\\,]+ <a href=\"http://www.cmscout.za.net\" title=\"CMScout Group\" target=\"_blank\">CMScout Group</a>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!--Shows the CMScout and website copyright information. Please do not remove this without permission from the CMScout admin-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-Shows\\ the\\ CMScout\\ and\\ website\\ copyright\\ information\\.\\ Please\\ do\\ not\\ remove\\ this\\ without\\ permission\\ from\\ the\\ CMScout\\ admin\\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

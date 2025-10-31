@@ -4,6 +4,7 @@
   "product": "Wacintaki-Poteto-BBS",
   "product_id": "wacintaki-poteto-bbs",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div align=\"center\">OekakiPoteto v([^s]+) by <a href=\"http://suteki.nu\">RanmaGuy</a> and <a href=\"http://www.cellosoft.com\">Marcello</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div align=\"center\">OekakiPoteto v([^\\s]+) by <a href=\"http://suteki\\.nu\">RanmaGuy</a> and <a href=\"http://www\\.cellosoft\\.com\">Marcello</a>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "OekakiPoteto 5.x by <a href=\"http://www.suteki.nu\">RanmaGuy</a> and <a href=\"http://www.cellosoft.com\">Marcello</a><br />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "OekakiPoteto\\ 5\\.x\\ by\\ <a\\ href=\"http://www\\.suteki\\.nu\">RanmaGuy</a>\\ and\\ <a\\ href=\"http://www\\.cellosoft\\.com\">Marcello</a><br\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "ASPThai_Net-Webboard",
   "product_id": "aspthai_net-webboard",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<meta name=\"copyright\" content=\"Copyright (C) 2002-2005 Supap Wanawan\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"copyright\"\\ content=\"Copyright\\ \\(C\\)\\ 2002\\-2005\\ Supap\\ Wanawan\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

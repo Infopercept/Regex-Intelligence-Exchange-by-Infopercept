@@ -4,6 +4,7 @@
   "product": "Uniform-Server",
   "product_id": "uniform-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div id=\"divider\">Developed By <a href=\"http://www.uniformserver.com/\">The Uniform Server Development Team</a></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"divider\">Developed\\ By\\ <a\\ href=\"http://www\\.uniformserver\\.com/\">The\\ Uniform\\ Server\\ Development\\ Team</a></div>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"Description\" content=\"The Uniform Server 8.1.0-Coral.\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"Description\"\\ content=\"The\\ Uniform\\ Server\\ 8\\.1\\.0\\-Coral\\.\"\\ />",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<div id=\"header\"><a href=\"http://www.uniformserver.com\"><img src=\"images/logo.jpg\" align=\"left\" alt=\"The Uniform Server\" /></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"header\"><a\\ href=\"http://www\\.uniformserver\\.com\"><img\\ src=\"images/logo\\.jpg\"\\ align=\"left\"\\ alt=\"The\\ Uniform\\ Server\"\\ /></a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

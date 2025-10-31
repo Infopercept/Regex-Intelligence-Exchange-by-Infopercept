@@ -4,10 +4,11 @@
   "product": "HighWire-Press",
   "product_id": "highwire-press",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
-      "name": "HighWire-Press Pattern",
+      "name": "HighWire-Press Version Pattern",
       "priority": 100,
       "confidence": 0.8,
       "metadata": {
@@ -21,16 +22,17 @@
         ],
         "test_cases": [
           {
-            "input": "^[d.]+$",
-            "expected_version": "unknown"
+            "input": "1.2.3",
+            "expected_version": "1.2.3"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^[\\d\\.]+$",
       "version_group": 0
     },
     {
-      "name": "HighWire-Press Pattern",
+      "name": "HighWire-Press Robot Pattern",
       "priority": 100,
       "confidence": 0.8,
       "metadata": {
@@ -44,16 +46,17 @@
         ],
         "test_cases": [
           {
-            "input": "^detect-robot:",
+            "input": "detect-robot: true",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^detect-robot:",
       "version_group": 0
     },
     {
-      "name": "HighWire-Press Pattern",
+      "name": "HighWire-Press Content Pattern",
       "priority": 100,
       "confidence": 0.8,
       "metadata": {
@@ -67,14 +70,14 @@
         ],
         "test_cases": [
           {
-            "input": "^.+$",
+            "input": "HighWire Press",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
-      "pattern": "^.+$",
+      "pattern": "HighWire\\s+Press",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

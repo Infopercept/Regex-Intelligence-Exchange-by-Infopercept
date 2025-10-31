@@ -4,14 +4,12 @@
   "product": "Pulsar",
   "product_id": "apache-pulsar",
   "category": "messaging",
+  "subcategory": "email-server",
   "versions": {},
   "all_versions": [
     {
       "name": "Apache Pulsar",
-      "category": "messaging",
       "pattern": "pulsar_version_info\\{cluster=\"[^\"]+\",version=\"([\\d\\.]+)",
-      "vendor": "Apache",
-      "product": "Pulsar",
       "version_group": 1,
       "priority": 150,
       "confidence": 0.85,
@@ -35,9 +33,16 @@
             "input": "pulsar_version_info{cluster=\"production\",version=\"2.8.3\",commit=\"f6e5d4c3b2a1\"}",
             "expected_version": "2.8.3"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "compiled_pattern": true
       }
     }
-  ],
-  "subcategory": "email-server"
+  ]
 }

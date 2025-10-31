@@ -4,6 +4,7 @@
   "product": "MyShell",
   "product_id": "myshell",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "&nbsp;| ::::::::::&nbsp;<a href=\"http://www.digitart.net\" target=\"_blank\" style=\"text-decoration:none\"><b>MyShell</b> &copy;2001 Digitart Producciones</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\&nbsp;\\|\\ ::::::::::\\&nbsp;<a\\ href=\"http://www\\.digitart\\.net\"\\ target=\"_blank\"\\ style=\"text\\-decoration:none\"><b>MyShell</b>\\ \\&copy;2001\\ Digitart\\ Producciones</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

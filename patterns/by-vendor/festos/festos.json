@@ -4,6 +4,7 @@
   "product": "FestOS",
   "product_id": "festos",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by[ FestOS,]* <a href=\"http://[festengine.org/|www.festengine.org/|skypanther.com/festos.php]+\" title=\"FestOS, [the festival engine|the Festival Engine|the web-based festival manager]+\"[ target=\"_blank\"]*>[FestOS|FestOS&trade;|www.festengine.org]+</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by[\\ FestOS,]* <a href=\"http://[festengine.org/|www.festengine.org/|skypanther.com/festos.php]+\" title=\"FestOS, [the\\ festival\\ engine|the\\ Festival\\ Engine|the\\ web\\-based\\ festival\\ manager]+\"[\\ target=\"_blank\"]*>[FestOS|FestOS&trade;|www.festengine.org]+</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "\t<meta name=\"author\" content=\"FestOS by Skypanther Studios\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<meta\\ name=\"author\"\\ content=\"FestOS\\ by\\ Skypanther\\ Studios\">",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "\t<meta name=\"author\" content=\"Skypanther Studios\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<meta\\ name=\"author\"\\ content=\"Skypanther\\ Studios\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

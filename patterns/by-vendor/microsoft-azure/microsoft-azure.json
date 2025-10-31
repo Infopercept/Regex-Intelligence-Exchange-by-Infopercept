@@ -4,6 +4,7 @@
   "product": "Microsoft-Azure",
   "product_id": "microsoft-azure",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "ARRAffinity",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "ARRAffinity",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "WAWebSiteSID",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "WAWebSiteSID",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

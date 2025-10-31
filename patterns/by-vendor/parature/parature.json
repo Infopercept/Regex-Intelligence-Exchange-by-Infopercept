@@ -4,6 +4,7 @@
   "product": "Parature",
   "product_id": "parature",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "This Website requires your browser to be JavaScript enabled. Please enable JavaScript  and click <a href=\"/ics/default.asp\">here</a> to continue.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "This\\ Website\\ requires\\ your\\ browser\\ to\\ be\\ JavaScript\\ enabled\\.\\ Please\\ enable\\ JavaScript\\ \\ and\\ click\\ <a\\ href=\"/ics/default\\.asp\">here</a>\\ to\\ continue\\.",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "RedirectPortalURL('/ics/support/custhandler.asp?task=signOut&redirectURL=' + encodeURI('",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "RedirectPortalURL\\('/ics/support/custhandler\\.asp\\?task=signOut\\&redirectURL='\\ \\+\\ encodeURI\\('",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<frame title=\"Left Navigation\" name=\"cypLeft\" src=\"KBFolder.asp?deptID=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<frame\\ title=\"Left\\ Navigation\"\\ name=\"cypLeft\"\\ src=\"KBFolder\\.asp\\?deptID=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

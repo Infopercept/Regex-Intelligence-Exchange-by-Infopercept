@@ -4,6 +4,7 @@
   "product": "FluxBB",
   "product_id": "fluxbb",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": ">P(owered by|ropuls&#233; par) (<strong>)?<a href=\"http://fluxbb.org/\">FluxBB</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": ">P(owered by|ropuls&#233; par) (<strong>)?<a href=\"http://fluxbb\\.org/\">FluxBB</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"style/(Cobalt|Lithium|Mercury|Oxygen|Radium|Sulfur).css\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link rel=\"stylesheet\" type=\"text/css\" href=\"style/(Cobalt|Lithium|Mercury|Oxygen|Radium|Sulfur)\\.css\" />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<li id=\"navlogin\"><a href=\"login.php\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<li\\ id=\"navlogin\"><a\\ href=\"login\\.php\">",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<div id=\"brdwelcome\" class=\"inbox\">[s]+<p>[^<]+</p>[s]+</div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div id=\"brdwelcome\" class=\"inbox\">[\\s]+<p>[^<]+</p>[\\s]+</div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

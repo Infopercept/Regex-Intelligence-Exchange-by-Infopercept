@@ -4,6 +4,7 @@
   "product": "Web-Wiz-Rich-Text-Editor",
   "product_id": "web-wiz-rich-text-editor",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<form method=\"post\" action=\"RTE_popup_file_atch.asp\" name=\"frmImageInsrt\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ method=\"post\"\\ action=\"RTE_popup_file_atch\\.asp\"\\ name=\"frmImageInsrt\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

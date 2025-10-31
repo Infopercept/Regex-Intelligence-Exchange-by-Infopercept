@@ -4,6 +4,7 @@
   "product": "sabros_us",
   "product_id": "sabros_us",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "\t<title>sabros.us/",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<title>sabros\\.us/",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "\t\t<p class=\"powered\">powered by: <a title=\"sabros.us\" href=\"http://sabros.us/\">sabros.us</a></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t<p\\ class=\"powered\">powered\\ by:\\ <a\\ title=\"sabros\\.us\"\\ href=\"http://sabros\\.us/\">sabros\\.us</a></p>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "\t\t<p class=\"powered\">powered by: <a title=\"sabros.us\" href=\"http://sourceforge.net/projects/sabrosus/\">sabros.us</a></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t<p\\ class=\"powered\">powered\\ by:\\ <a\\ title=\"sabros\\.us\"\\ href=\"http://sourceforge\\.net/projects/sabrosus/\">sabros\\.us</a></p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

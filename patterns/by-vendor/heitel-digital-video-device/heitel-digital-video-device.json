@@ -4,6 +4,7 @@
   "product": "HeiTel-Digital-Video-Device",
   "product_id": "heitel-digital-video-device",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^HeiTel GmbH Web Server",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^HeiTel GmbH Web Server",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^HeiTel GmbH Web Server \\[V8.5/V8.5/V8.5\\]$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^HeiTel GmbH Web Server \\[V([\\d\\.]+)/V([\\d\\.]+)/V([\\d\\.]+)\\]$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

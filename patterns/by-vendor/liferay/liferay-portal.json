@@ -4,14 +4,12 @@
   "product": "Liferay Portal",
   "product_id": "liferay-liferay-portal",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
       "name": "Liferay Portal",
-      "category": "web",
       "pattern": "(\\d+\\.\\d+(?:\\.\\d+){0,2})",
-      "vendor": "Liferay",
-      "product": "Liferay Portal",
       "version_group": 1,
       "priority": 150,
       "confidence": 0.8,
@@ -35,9 +33,9 @@
             "input": "X-Powered-By: Liferay Portal 6.2.1-ga1",
             "expected_version": "6.2.1"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

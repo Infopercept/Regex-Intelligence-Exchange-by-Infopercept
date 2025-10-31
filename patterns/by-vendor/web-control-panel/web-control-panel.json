@@ -4,6 +4,7 @@
   "product": "Web-Control-Panel",
   "product_id": "web-control-panel",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<td><img src=\"/images/wcpe.gif\" width=600 height=57 border=0></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><img\\ src=\"/images/wcpe\\.gif\"\\ width=600\\ height=57\\ border=0></td>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<td valign=\"top\"><a href=\"/cgi-bin/webmail?noframes=1\"><img src=\"images/",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ valign=\"top\"><a\\ href=\"/cgi\\-bin/webmail\\?noframes=1\"><img\\ src=\"images/",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

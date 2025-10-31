@@ -4,6 +4,7 @@
   "product": "MailSiteExpress",
   "product_id": "mailsiteexpress",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>MailSite Express</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>MailSite\\ Express</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<font face=\"arial\" size=\"1\">MailSite Express <br> version [0-9.]+</font>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<font face=\"arial\" size=\"1\">MailSite Express <br> version [0-9\\.]+</font>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!-- This software is copyright [0-9 ,.]+ Rockliffe systems, Inc. -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!-- This software is copyright [0-9 ,\\.]+ Rockliffe systems, Inc. -->",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<b>MailSite <em>Express</em> Login</b>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<b>MailSite\\ <em>Express</em>\\ Login</b>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "onSubmit=\"OpenExpress(document.ExpressLogin)\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "onSubmit=\"OpenExpress\\(document\\.ExpressLogin\\)\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

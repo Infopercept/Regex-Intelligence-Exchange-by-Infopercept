@@ -4,6 +4,7 @@
   "product": "Bentley-Systems-ProjectWise",
   "product_id": "bentley-systems-projectwise",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "</title><meta http-equiv=\"X-UA-Compatible\" content=\"IE=8\" /><link rel=\"shortcut icon\" href=\"ProjectWise.ico\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "</title><meta\\ http\\-equiv=\"X\\-UA\\-Compatible\"\\ content=\"IE=8\"\\ /><link\\ rel=\"shortcut\\ icon\"\\ href=\"ProjectWise\\.ico\"\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title>s+ProjectWise Web Servers+</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>\\s+ProjectWise Web Server\\s+</title>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!-- Initially invisible login form -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Initially\\ invisible\\ login\\ form\\ \\-\\->",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "Bentley.WebSession=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Bentley.WebSession=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "PixelPost",
   "product_id": "pixelpost",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "[Pp]owered by <a href=\"http://www.pixelpost.org[/]?\"[s]*(title=\"Powered by Pixelpost\")?>[Pp]ixel[Pp]ost<",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "[Pp]owered by <a href=\"http://www.pixelpost.org[/]?\"[\\s]*(title=\"Powered by Pixelpost\")?>[Pp]ixel[Pp]ost<",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Powered by <a onclick=\"window.open(this.href); return false;\" href=\"http://pixelpost.org/\" title=\"Pixelpost\">Pixelpost</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ onclick=\"window\\.open\\(this\\.href\\);\\ return\\ false;\"\\ href=\"http://pixelpost\\.org/\"\\ title=\"Pixelpost\">Pixelpost</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "phpMyAdmin",
   "product_id": "phpmyadmin",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<img src=\"./themes/original/img/logo_right.png\" id=\"imLogo\" name=\"imLogo\" alt=\"phpMyAdmin\" border=\"0\" /></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"\\./themes/original/img/logo_right\\.png\"\\ id=\"imLogo\"\\ name=\"imLogo\"\\ alt=\"phpMyAdmin\"\\ border=\"0\"\\ /></a>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<form method=\"post\" action=\"index.php\" target=\"_(top|parent)\"><input type=\"hidden\" name=\"phpMyAdmin\" value=\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form method=\"post\" action=\"index\\.php\" target=\"_(top|parent)\"><input type=\"hidden\" name=\"phpMyAdmin\" value=\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

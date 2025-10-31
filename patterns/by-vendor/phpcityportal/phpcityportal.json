@@ -4,6 +4,7 @@
   "product": "PHPCityportal",
   "product_id": "phpcityportal",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"author\" content=\"Cr8Soft\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"Cr8Soft\"\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<center><a href=\"http://phpcityportal.com\">Powered by PHPCityPortal.com</a></center><p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<center><a\\ href=\"http://phpcityportal\\.com\">Powered\\ by\\ PHPCityPortal\\.com</a></center><p>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<center><a href=\"http://www.phpcityportal.com/index.php\">Powered by PHPCityPortal.com</a></center>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<center><a\\ href=\"http://www\\.phpcityportal\\.com/index\\.php\">Powered\\ by\\ PHPCityPortal\\.com</a></center>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<form id=\"frm_login_left\" name=\"frm_login_left\" action=\"includes/check_user.php\" method=\"post\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ id=\"frm_login_left\"\\ name=\"frm_login_left\"\\ action=\"includes/check_user\\.php\"\\ method=\"post\">",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<form id=\"frm_login_left\" name=\"frm_login_left\" action=\"includes/check_user.php.inc\" method=\"post\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ id=\"frm_login_left\"\\ name=\"frm_login_left\"\\ action=\"includes/check_user\\.php\\.inc\"\\ method=\"post\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

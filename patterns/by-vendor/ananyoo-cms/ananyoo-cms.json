@@ -4,6 +4,7 @@
   "product": "Ananyoo-CMS",
   "product_id": "ananyoo-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"copyright\" content=\"Copyright 2003-2008, Ananyoo CMS, a Anblik.com Project.\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"copyright\"\\ content=\"Copyright\\ 2003\\-2008,\\ Ananyoo\\ CMS,\\ a\\ Anblik\\.com\\ Project\\.\"\\ />",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<meta name=\"generator\" content=\"http://www.ananyoo.com\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"http://www\\.ananyoo\\.com\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Symphony-CMS",
   "product_id": "symphony-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "\t<title>Symphony | Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<title>Symphony\\ \\|\\ Login</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"generator\" content=\"Symphony CMS\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"Symphony\\ CMS\"\\ />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "Powered by <a[^>]+href=\"http://www.symphony-cms.com[/]?\">Symphony CMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by <a[^>]+href=\"http://www.symphony-cms.com[/]?\">Symphony CMS</a>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "Powered by <a[^>]+href=\"http://symphony-cms.com[/]?\">Symphony CMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by <a[^>]+href=\"http://symphony-cms.com[/]?\">Symphony CMS</a>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "powered by <a href=\"http://www.symphony21.com\">SYMPHONY</a>.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "powered\\ by\\ <a\\ href=\"http://www\\.symphony21\\.com\">SYMPHONY</a>\\.",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "Powered by <a href=\"http://symphony21.com/\">Symphony</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://symphony21\\.com/\">Symphony</a>",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "Powered by <a class=\"symphony\" href=\"http://symphony21.com/\">Symphony</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ class=\"symphony\"\\ href=\"http://symphony21\\.com/\">Symphony</a>",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "Powered by <a class=\"symphony\" href=\"http://symphony-cms.com/\">Symphony</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ class=\"symphony\"\\ href=\"http://symphony\\-cms\\.com/\">Symphony</a>",
       "version_group": 0
@@ -208,7 +217,8 @@
             "input": "Site powered by <a href=\"http://www.symphony-cms.com\" class=\"external\">Symphony</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Site\\ powered\\ by\\ <a\\ href=\"http://www\\.symphony\\-cms\\.com\"\\ class=\"external\">Symphony</a>",
       "version_group": 0
@@ -231,11 +241,11 @@
             "input": "Powered by <a href=\"http://symphony-cms.com/\" rel=\"external\">Symphony</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://symphony\\-cms\\.com/\"\\ rel=\"external\">Symphony</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

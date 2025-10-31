@@ -4,6 +4,7 @@
   "product": "DORG",
   "product_id": "dorg",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<p>Powered by <a href=\"http://www.discorganizer.org\">DORG</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://www\\.discorganizer\\.org\">DORG</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title>DORG - Disc Organization System</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>DORG\\ \\-\\ Disc\\ Organization\\ System</title>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<title>DORG - admin panel</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>DORG\\ \\-\\ admin\\ panel</title>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<meta name=\"description\" content=\"this is the administration panel of the DORG system\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"description\"\\ content=\"this\\ is\\ the\\ administration\\ panel\\ of\\ the\\ DORG\\ system\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

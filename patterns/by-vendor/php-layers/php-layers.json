@@ -4,6 +4,7 @@
   "product": "PHP-Layers",
   "product_id": "php-layers",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "// because Konqueror 3 sets IE = 1 ... AAAAAAAAAARGHHH!!!",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "//\\ because\\ Konqueror\\ 3\\ sets\\ IE\\ =\\ 1\\ \\.\\.\\.\\ AAAAAAAAAARGHHH!!!",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": ".png\" alt=\"Powered by PHP Layers Menu\" height=\"31\" width=\"88\" /></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\.png\"\\ alt=\"Powered\\ by\\ PHP\\ Layers\\ Menu\"\\ height=\"31\"\\ width=\"88\"\\ /></a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

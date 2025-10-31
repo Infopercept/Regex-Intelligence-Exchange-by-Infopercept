@@ -4,6 +4,7 @@
   "product": "phpBB",
   "product_id": "phpbb",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- link rel=\"stylesheet\" href=\"templates/subSilver/subSilver.css",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ link\\ rel=\"stylesheet\"\\ href=\"templates/subSilver/subSilver\\.css",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "/images/logo_phpBB.gif",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/images/logo_phpBB\\.gif",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "We request you retain the full copyright notice below including the link to www.phpbb.com.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "We\\ request\\ you\\ retain\\ the\\ full\\ copyright\\ notice\\ below\\ including\\ the\\ link\\ to\\ www\\.phpbb\\.com\\.",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "Powered by <a href=\"http://www.phpbb.com/\"( target=\"_phpbb\")?( class=\"copyright\")?>phpBB</a>[ ]+&copy;[ 0-9,.]+ phpBB Group",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by <a href=\"http://www.phpbb.com/\"( target=\"_phpbb\")?( class=\"copyright\")?>phpBB</a>[ ]+&copy;[ 0-9,\\.]+ phpBB Group",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<td width=\"20\" align=\"center\"><img src=\"[^\"]+images/folder_new_big.gif\" alt=\"New posts\"/></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td width=\"20\" align=\"center\"><img src=\"[^\"]+images/folder_new_big.gif\" alt=\"New posts\"/></td>",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "In total there are <b>[0-9]+</b> users online :: [0-9]+ Registered, [0-9]+ Hidden and [0-9]+ Guests",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "In total there are <b>[0-9]+</b> users online :: [0-9]+ Registered, [0-9]+ Hidden and [0-9]+ Guests",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Barts-CMS",
   "product_id": "barts-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<meta name=\"author\" content=\"Bart Verstricht\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"Bart\\ Verstricht\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

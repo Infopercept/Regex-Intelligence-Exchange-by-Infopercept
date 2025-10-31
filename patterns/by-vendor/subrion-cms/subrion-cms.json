@@ -4,6 +4,7 @@
   "product": "Subrion-CMS",
   "product_id": "subrion-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by <a href=\"http://www.subrion.com\">Subrion CMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.subrion\\.com\">Subrion\\ CMS</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by <strong><a href=\"http://www.subrion.com/\" title=\"Subrion CMS\" target=\"_blank\">Subrion CMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <strong><a\\ href=\"http://www\\.subrion\\.com/\"\\ title=\"Subrion\\ CMS\"\\ target=\"_blank\">Subrion\\ CMS</a>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "powered by <a href=\"http://www.subrion.com/\" title=\"Site powered by Subrion CMS\">Subrion CMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "powered\\ by\\ <a\\ href=\"http://www\\.subrion\\.com/\"\\ title=\"Site\\ powered\\ by\\ Subrion\\ CMS\">Subrion\\ CMS</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "IP-Logger-Pro",
   "product_id": "ip-logger-pro",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<title>debilsoft IP-Logger PRO Besucherdaten</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>debilsoft\\ IP\\-Logger\\ PRO\\ Besucherdaten</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

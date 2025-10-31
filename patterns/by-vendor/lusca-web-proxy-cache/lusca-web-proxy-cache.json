@@ -4,6 +4,7 @@
   "product": "Lusca-Web-Proxy-Cache",
   "product_id": "lusca-web-proxy-cache",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Lusca$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Lusca$",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^Lusca/LUSCA_HEAD-([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Lusca/LUSCA_HEAD-([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

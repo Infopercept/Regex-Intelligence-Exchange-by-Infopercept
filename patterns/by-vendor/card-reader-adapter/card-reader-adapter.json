@@ -4,6 +4,7 @@
   "product": "Card-Reader-Adapter",
   "product_id": "card-reader-adapter",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<HTML> <Title> 401 unAuthorized </title>                   <body> <H1> 401 unauthorized request </H1></body>                   </HTML>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<HTML>\\ <Title>\\ 401\\ unAuthorized\\ </title>\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <body>\\ <H1>\\ 401\\ unauthorized\\ request\\ </H1></body>\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ </HTML>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Dr-Web-Anti-Virus",
   "product_id": "dr-web-anti-virus",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "DRWEB_PERSONAL_OFFICE=[^;]*;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "DRWEB_PERSONAL_OFFICE=[^;]*;",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<div id=\"logo\" class=\"logo\"><img src=\"/avdesk/includes/system/templates/images/logo_en.png\" alt=\"\" /></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"logo\"\\ class=\"logo\"><img\\ src=\"/avdesk/includes/system/templates/images/logo_en\\.png\"\\ alt=\"\"\\ /></div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

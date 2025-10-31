@@ -4,6 +4,7 @@
   "product": "Werkzeug",
   "product_id": "werkzeug",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^Werkzeug/8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Werkzeug/([\\d\\.]+)",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "<p>You should be redirected automatically to target URL:",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p>You\\ should\\ be\\ redirected\\ automatically\\ to\\ target\\ URL:",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

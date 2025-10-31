@@ -4,6 +4,7 @@
   "product": "BEA-WebLogic-Server",
   "product_id": "bea-weblogic-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Default BEA WebLogic Server Web Server Index Page</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Default\\ BEA\\ WebLogic\\ Server\\ Web\\ Server\\ Index\\ Page</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<TITLE>Default BEA WebLogic Server Web Server Index Page</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>Default\\ BEA\\ WebLogic\\ Server\\ Web\\ Server\\ Index\\ Page</TITLE>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

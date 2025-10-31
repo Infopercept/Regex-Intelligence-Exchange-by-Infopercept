@@ -4,6 +4,7 @@
   "product": "HostBill",
   "product_id": "hostbill",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- part below is not css valid. remove it if you want this document to be css valid -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ part\\ below\\ is\\ not\\ css\\ valid\\.\\ remove\\ it\\ if\\ you\\ want\\ this\\ document\\ to\\ be\\ css\\ valid\\ \\-\\->",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "</div><br/><center>Powered by <a href=\"http://hostbillapp.com\" target=\"_blank\"><strong>HostBill</strong></a></center><br/></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "</div><br/><center>Powered\\ by\\ <a\\ href=\"http://hostbillapp\\.com\"\\ target=\"_blank\"><strong>HostBill</strong></a></center><br/></div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

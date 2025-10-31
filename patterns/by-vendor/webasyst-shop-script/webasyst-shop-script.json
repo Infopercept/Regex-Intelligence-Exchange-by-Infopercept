@@ -4,6 +4,7 @@
   "product": "WebAsyst-Shop-Script",
   "product_id": "webasyst-shop-script",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by WebAsyst Shop-Script <a href=\"http://www.shop-script.com/\" style=\"font-weight: normal\">shopping cart software</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ WebAsyst\\ Shop\\-Script\\ <a\\ href=\"http://www\\.shop\\-script\\.com/\"\\ style=\"font\\-weight:\\ normal\">shopping\\ cart\\ software</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by <a href=\"http://www.shop-script.com\" style=\"font-weight: bold;\" target=\"_blank\">WebAsyst Shop-Script</a> - <a href=\"http://www.shop-script.com/\" style=\"font-weight: normal;\" target=\"_blank\">shopping cart software</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.shop\\-script\\.com\"\\ style=\"font\\-weight:\\ bold;\"\\ target=\"_blank\">WebAsyst\\ Shop\\-Script</a>\\ \\-\\ <a\\ href=\"http://www\\.shop\\-script\\.com/\"\\ style=\"font\\-weight:\\ normal;\"\\ target=\"_blank\">shopping\\ cart\\ software</a>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "[s]+var WAROOT_URL = '[^']+';//ok",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "[\\s]+var WAROOT_URL = '[^\\']+';//ok",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "WebSocket",
   "product_id": "websocket",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^WebSocket$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^WebSocket$",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "sec-websocket-version-server: (.+)",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "sec-websocket-version-server: (.+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

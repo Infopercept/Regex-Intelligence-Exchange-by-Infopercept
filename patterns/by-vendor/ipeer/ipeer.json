@@ -4,6 +4,7 @@
   "product": "iPeer",
   "product_id": "ipeer",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<h1 align=\"center\"><span class=\"footer\">Powered by iPeer and TeamMaker - Created by UBC and Rose-Hulman</span></h1>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h1\\ align=\"center\"><span\\ class=\"footer\">Powered\\ by\\ iPeer\\ and\\ TeamMaker\\ \\-\\ Created\\ by\\ UBC\\ and\\ Rose\\-Hulman</span></h1>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "IPEER=[^;]+;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "IPEER=[^;]+;",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

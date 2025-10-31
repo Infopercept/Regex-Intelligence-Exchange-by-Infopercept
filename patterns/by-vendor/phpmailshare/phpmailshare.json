@@ -4,6 +4,7 @@
   "product": "phpMailShare",
   "product_id": "phpmailshare",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<a href=\"index.php?action=viewbox&amp;box=0\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"index\\.php\\?action=viewbox\\&amp;box=0\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Apache-Flink",
   "product_id": "apache-flink",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<title>Apache Flink Web Dashboard</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Apache Flink Web Dashboard</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

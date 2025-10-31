@@ -4,6 +4,7 @@
   "product": "Cacti",
   "product_id": "cacti",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Login to Cacti</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Login\\ to\\ Cacti</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<body bgcolor=\"#FFFFFF\" onload=\"document.login.login_username.focus()\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ bgcolor=\"\\#FFFFFF\"\\ onload=\"document\\.login\\.login_username\\.focus\\(\\)\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

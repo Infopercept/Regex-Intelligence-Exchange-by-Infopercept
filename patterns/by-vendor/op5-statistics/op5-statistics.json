@@ -4,6 +4,7 @@
   "product": "Op5-Statistics",
   "product_id": "op5-statistics",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<td colspan=\"2\"><center><img src=\"/statistics/plugins/op5gui/op5_statistics.gif\" border=\"0\" alt=\"\"></center></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ colspan=\"2\"><center><img\\ src=\"/statistics/plugins/op5gui/op5_statistics\\.gif\"\\ border=\"0\"\\ alt=\"\"></center></td>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<title>Login to op5 Statistics</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Login\\ to\\ op5\\ Statistics</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

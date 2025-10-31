@@ -4,6 +4,7 @@
   "product": "Open-Blog",
   "product_id": "open-blog",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by <a href=\"http://www.open-blog.info[/]*\" target=\"_blank\">Open Blog</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by <a href=\"http://www.open-blog.info[/]*\" target=\"_blank\">Open Blog</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by <a href=\"http://www.open-blog.info\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.open\\-blog\\.info\"",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "    \tPowered by <a href=\"http://www.open-blog.info\" target=\"_blank\">Open Blog</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ \\\tPowered\\ by\\ <a\\ href=\"http://www\\.open\\-blog\\.info\"\\ target=\"_blank\">Open\\ Blog</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

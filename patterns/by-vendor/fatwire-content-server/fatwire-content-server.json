@@ -4,6 +4,7 @@
   "product": "FatWire-Content-Server",
   "product_id": "fatwire-content-server",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "host_service: ^FutureTenseContentServer:([^\\s]+)$",
       "version_group": 1
@@ -47,7 +49,8 @@
             "input": "<!-- this tag to be replaced with autogen stuff -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ this\\ tag\\ to\\ be\\ replaced\\ with\\ autogen\\ stuff\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<h1>FatWire Corporation<br />&nbsp;Content Server</h1>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h1>FatWire\\ Corporation<br\\ />\\&nbsp;Content\\ Server</h1>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<b>Open Market, Inc.<br>&nbsp;ContentServer</b><hr>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<b>Open\\ Market,\\ Inc\\.<br>\\&nbsp;ContentServer</b><hr>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "An error occurred during processing. Check the info log.<br",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "An\\ error\\ occurred\\ during\\ processing\\.\\ Check\\ the\\ info\\ log\\.<br",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

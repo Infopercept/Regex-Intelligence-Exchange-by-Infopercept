@@ -4,6 +4,7 @@
   "product": "XenForo",
   "product_id": "xenforo",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^xf_session",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^xf_session",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

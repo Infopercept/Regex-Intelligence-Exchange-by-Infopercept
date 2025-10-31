@@ -4,6 +4,7 @@
   "product": "MediaWiki",
   "product_id": "mediawiki",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "alt=\"Powered by MediaWiki\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "alt=\"Powered\\ by\\ MediaWiki\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Simbix-Framework",
   "product_id": "simbix-framework",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<div class=\"image\"><img src=\"/logo-lpage.png\" width=\"40\" height=\"40\" alt=\"Simbix Framework\" /></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ class=\"image\"><img\\ src=\"/logo\\-lpage\\.png\"\\ width=\"40\"\\ height=\"40\"\\ alt=\"Simbix\\ Framework\"\\ /></div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

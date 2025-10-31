@@ -4,6 +4,7 @@
   "product": "Carel-Data-Server",
   "product_id": "carel-data-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<script type=\"text/javascript\" language=\"JavaScript\" src=\"/MPwebCoreFn.js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ type=\"text/javascript\"\\ language=\"JavaScript\"\\ src=\"/MPwebCoreFn\\.js\"></script>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<img style=\"position:absolute;left:0;top:0;\" src=plv_primoLW.jpg zwidth=\"100%\" zheight=\"100%\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ style=\"position:absolute;left:0;top:0;\"\\ src=plv_primoLW\\.jpg\\ zwidth=\"100%\"\\ zheight=\"100%\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

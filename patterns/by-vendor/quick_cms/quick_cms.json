@@ -4,6 +4,7 @@
   "product": "Quick_Cms",
   "product_id": "quick_cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "  <title>Admin - Quick.Cms - simple content management system</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ <title>Admin\\ \\-\\ Quick\\.Cms\\ \\-\\ simple\\ content\\ management\\ system</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "    var cfLangNoWord      = \"Please fill in all required fields\";",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ var\\ cfLangNoWord\\ \\ \\ \\ \\ \\ =\\ \"Please\\ fill\\ in\\ all\\ required\\ fields\";",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "      <div class=\"foot\" id=\"powered\"><a href=\"http://opensolution.org/\">Powered by <strong>Quick.Cms</strong></a></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ \\ \\ <div\\ class=\"foot\"\\ id=\"powered\"><a\\ href=\"http://opensolution\\.org/\">Powered\\ by\\ <strong>Quick\\.Cms</strong></a></div>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "        LICENSE REQUIREMENTS - DONT DELETE/HIDE LINK \"powered by Quick.Cms\" TO www.OpenSolution.org",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ LICENSE\\ REQUIREMENTS\\ \\-\\ DONT\\ DELETE/HIDE\\ LINK\\ \"powered\\ by\\ Quick\\.Cms\"\\ TO\\ www\\.OpenSolution\\.org",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "  <meta name=\"Author\" content=\"OpenSolution.org\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ <meta\\ name=\"Author\"\\ content=\"OpenSolution\\.org\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

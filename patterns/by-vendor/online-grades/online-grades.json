@@ -4,6 +4,7 @@
   "product": "Online-Grades",
   "product_id": "online-grades",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<small><br /><em>Disclaimer</em>:  If you handed in an assignment or took a test today, don't expect the grade to be online immediately.  Teachers only update their grade books as needed.</small><ul><li>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<small><br\\ /><em>Disclaimer</em>:\\ \\ If\\ you\\ handed\\ in\\ an\\ assignment\\ or\\ took\\ a\\ test\\ today,\\ don't\\ expect\\ the\\ grade\\ to\\ be\\ online\\ immediately\\.\\ \\ Teachers\\ only\\ update\\ their\\ grade\\ books\\ as\\ needed\\.</small><ul><li>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"author\" content=\"Online Grade Posting System -- http://www.onlinegrades.org\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"Online\\ Grade\\ Posting\\ System\\ \\-\\-\\ http://www\\.onlinegrades\\.org\"\\ />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!-- YOU CAN SAFELY REMOVE OR CHANGE ANYTHING BETWEEN THIS SECTION OF COMENTED CODE -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ YOU\\ CAN\\ SAFELY\\ REMOVE\\ OR\\ CHANGE\\ ANYTHING\\ BETWEEN\\ THIS\\ SECTION\\ OF\\ COMENTED\\ CODE\\ \\-\\->",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<!-- STOP REMOVING LINES HERE IF REMOVING/CHANGING THE FOOTER -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ STOP\\ REMOVING\\ LINES\\ HERE\\ IF\\ REMOVING/CHANGING\\ THE\\ FOOTER\\ \\-\\->",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<a href=\"http://www.onlinegrades.org\"><img src=\"[^\"^>]+/images/og.png\"[^>]+alt=\"Powered by Online Grades\"[^>]*></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"http://www.onlinegrades.org\"><img src=\"[^\"^>]+/images/og.png\"[^>]+alt=\"Powered by Online Grades\"[^>]*></a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

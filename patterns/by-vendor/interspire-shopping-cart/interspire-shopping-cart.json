@@ -4,6 +4,7 @@
   "product": "Interspire-Shopping-Cart",
   "product_id": "interspire-shopping-cart",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "\t<meta name=\"generator\" content=\"Interspire Shopping Cart\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<meta\\ name=\"generator\"\\ content=\"Interspire\\ Shopping\\ Cart\"\\ />",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "\t\t\t\tPowered by <a href=\"http://www.interspire.com/shoppingcart[/]*\" target=\"_blank\" class=\"PoweredBy\">Interspire Shopping Cart</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\t\t\t\tPowered by <a href=\"http://www.interspire.com/shoppingcart[/]*\" target=\"_blank\" class=\"PoweredBy\">Interspire Shopping Cart</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

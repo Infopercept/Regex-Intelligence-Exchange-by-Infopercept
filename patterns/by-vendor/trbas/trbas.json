@@ -4,6 +4,7 @@
   "product": "Trbas",
   "product_id": "trbas",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<link rel=\"stylesheet\" href=\"http://www.trbas.com",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"http://www\\.trbas\\.com",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

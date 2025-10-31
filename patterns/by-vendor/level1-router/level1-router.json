@@ -4,6 +4,7 @@
   "product": "Level1-Router",
   "product_id": "level1-router",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<!---CAS:0003--><HTML>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\-CAS:0003\\-\\-><HTML>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

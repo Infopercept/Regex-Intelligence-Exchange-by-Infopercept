@@ -4,6 +4,7 @@
   "product": "Constructr-CMS",
   "product_id": "constructr-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<html><head><title>Constructr CMS</title><body><p>Sorry, no Workspace-Template found!</p><p>Visit <a href=\"http://constructr.phaziz.com\">http://constructr.phaziz.com</a> for further Information.</p></body></head>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html><head><title>Constructr\\ CMS</title><body><p>Sorry,\\ no\\ Workspace\\-Template\\ found!</p><p>Visit\\ <a\\ href=\"http://constructr\\.phaziz\\.com\">http://constructr\\.phaziz\\.com</a>\\ for\\ further\\ Information\\.</p></body></head>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<br /><br />Constructr CMS - developed by <a href=\"http://phaziz.com/constructr-cms/\" onclick=\"window.open(this.href);return false;\">phaziz interface design</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<br\\ /><br\\ />Constructr\\ CMS\\ \\-\\ developed\\ by\\ <a\\ href=\"http://phaziz\\.com/constructr\\-cms/\"\\ onclick=\"window\\.open\\(this\\.href\\);return\\ false;\">phaziz\\ interface\\ design</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

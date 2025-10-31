@@ -4,6 +4,7 @@
   "product": "chillyCMS",
   "product_id": "chillycms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "\tpowered by <a href=\"http://FrozenPepper.de\">chillyCMS</a>.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\tpowered\\ by\\ <a\\ href=\"http://FrozenPepper\\.de\">chillyCMS</a>\\.",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "\t<p>&copy;2010 <a href=\"\">demo.opensourcecms.com</a>,",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<p>\\&copy;2010\\ <a\\ href=\"\">demo\\.opensourcecms\\.com</a>,",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "\t<p>&copy;2010 <a href=\"\">chillycms.bplaced.net</a>,",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<p>\\&copy;2010\\ <a\\ href=\"\">chillycms\\.bplaced\\.net</a>,",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

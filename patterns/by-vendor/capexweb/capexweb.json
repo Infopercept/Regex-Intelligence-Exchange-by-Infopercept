@@ -4,6 +4,7 @@
   "product": "cApexWEB",
   "product_id": "capexweb",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<frame name=\"main\" src=\"capexmain_middle.htm\" scrolling=\"no\" target=\"_top\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<frame\\ name=\"main\"\\ src=\"capexmain_middle\\.htm\"\\ scrolling=\"no\"\\ target=\"_top\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- Change Company & Address Line , Enter First Line for Company Name and 2nd Line of Address --->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Change\\ Company\\ \\&\\ Address\\ Line\\ ,\\ Enter\\ First\\ Line\\ for\\ Company\\ Name\\ and\\ 2nd\\ Line\\ of\\ Address\\ \\-\\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<td><form method=\"post\" name=\"parentpage\" action=\"../servlet/capexweb.parentvalidatepassword\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><form\\ method=\"post\"\\ name=\"parentpage\"\\ action=\"\\.\\./servlet/capexweb\\.parentvalidatepassword\">",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<form method=\"post\" action=\"../servlet/capexweb.parentvalidatepassword\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ method=\"post\"\\ action=\"\\.\\./servlet/capexweb\\.parentvalidatepassword\">",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "var winPop = window.open(\"../servlet/capexweb.parentvalidatepassword?dfuserid=\"+dfuserid.value+\"&dfpassword=\"+dfpassword.value+\"&dfparentip=\"+dfparentip.value+\"&dfparentdb=\"+dfparentdb.value+\"&dfcode=\"+dfcode.value+\"\",\"mywin\",\"width=550,height=550,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,fullscreen=yes\");",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "var\\ winPop\\ =\\ window\\.open\\(\"\\.\\./servlet/capexweb\\.parentvalidatepassword\\?dfuserid=\"\\+dfuserid\\.value\\+\"\\&dfpassword=\"\\+dfpassword\\.value\\+\"\\&dfparentip=\"\\+dfparentip\\.value\\+\"\\&dfparentdb=\"\\+dfparentdb\\.value\\+\"\\&dfcode=\"\\+dfcode\\.value\\+\"\",\"mywin\",\"width=550,height=550,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,fullscreen=yes\"\\);",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "OpenSSL",
   "product_id": "openssl",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "OpenSSL",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "OpenSSL",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: [^\\r^\\n]*OpenSSL/([^\\s^\\r^\\n]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: [^\\r^\\n]*OpenSSL/([^\\s^\\r^\\n]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

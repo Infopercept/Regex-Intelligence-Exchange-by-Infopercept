@@ -4,6 +4,7 @@
   "product": "Watson-Router",
   "product_id": "watson-router",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<TITLE>Watson Management Console</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>Watson\\ Management\\ Console</TITLE>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!--- Page(page_login)=[Login] ---><HTML>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\-\\ Page\\(page_login\\)=\\[Login\\]\\ \\-\\-\\-><HTML>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

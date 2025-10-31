@@ -4,6 +4,7 @@
   "product": "MetInfo",
   "product_id": "metinfo",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<meta name=\"author\" content=\"[^\"]+--Powered by MetInfo\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"author\" content=\"[^\"]+--Powered by MetInfo\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

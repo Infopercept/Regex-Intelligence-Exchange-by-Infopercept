@@ -4,6 +4,7 @@
   "product": "cm3-cms",
   "product_id": "cm3-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "top.cm2_home.location.href",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "top\\.cm2_home\\.location\\.href",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "name=\"cm2_top\" id=\"cm2_top\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "name=\"cm2_top\"\\ id=\"cm2_top\"",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "name=\"cm25_main\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "name=\"cm25_main\"",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "name=\"id=\"cm3top\" name=\"cm3top\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "name=\"id=\"cm3top\"\\ name=\"cm3top\"",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "logo_cm3_top.gif\" border=\"0\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "logo_cm3_top\\.gif\"\\ border=\"0\"",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "alt=\"Content management system: cm3 built and powered\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "alt=\"Content\\ management\\ system:\\ cm3\\ built\\ and\\ powered\"",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "cm3powered_green.gif\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "cm3powered_green\\.gif\"",
       "version_group": 0
@@ -185,11 +193,11 @@
             "input": "cm3session",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "cm3session",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

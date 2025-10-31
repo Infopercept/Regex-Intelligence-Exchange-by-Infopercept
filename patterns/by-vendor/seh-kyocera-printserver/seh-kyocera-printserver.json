@@ -4,6 +4,7 @@
   "product": "SEH-KYOCERA-PrintServer",
   "product_id": "seh-kyocera-printserver",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<HTML><HEAD>[s]*<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; CHARSET=UTF-8\">[s]*<TITLE>Print server homepage</TITLE>[s]*</HEAD>[s]*<FRAMESET COLS=\"200",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<HTML><HEAD>[\\s]*<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; CHARSET=UTF-8\">[\\s]*<TITLE>Print server homepage</TITLE>[\\s]*</HEAD>[\\s]*<FRAMESET COLS=\"200",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

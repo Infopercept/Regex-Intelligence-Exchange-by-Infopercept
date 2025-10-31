@@ -4,6 +4,7 @@
   "product": "BlueNet-Video-Server",
   "product_id": "bluenet-video-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "window.location.href='/cgi-bin/client_execute.cgi?tUD=0';",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "window\\.location\\.href='/cgi\\-bin/client_execute\\.cgi\\?tUD=0';",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

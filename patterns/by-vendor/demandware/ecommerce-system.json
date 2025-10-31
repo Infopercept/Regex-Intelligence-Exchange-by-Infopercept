@@ -4,6 +4,7 @@
   "product": "eCommerce System",
   "product_id": "ecommerce-system",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "/demandware.store/",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/demandware.store/",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "cqcid",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "cqcid",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "dwac_",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "dwac_",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "dwac_",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "dwac_",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "dwsid",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "dwsid",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

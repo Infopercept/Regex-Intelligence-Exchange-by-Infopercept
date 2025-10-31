@@ -4,6 +4,7 @@
   "product": "FreeJoomlas_com",
   "product_id": "freejoomlas_com",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Free <a href=\"http://joomla.org\" target=_blank>Joomla!</a> hosting powered by  <a href=\"http://freejoomlas.com\"> FreeJoomlas.com </a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Free\\ <a\\ href=\"http://joomla\\.org\"\\ target=_blank>Joomla!</a>\\ hosting\\ powered\\ by\\ \\ <a\\ href=\"http://freejoomlas\\.com\">\\ FreeJoomlas\\.com\\ </a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

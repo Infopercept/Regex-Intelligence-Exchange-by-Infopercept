@@ -4,6 +4,7 @@
   "product": "Joomla",
   "product_id": "joomla",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"Generator\" content=\"Joomla! - Copyright (C) 200[0-9] - 200[0-9] Open Source Matters. All rights reserved.\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"Generator\" content=\"Joomla! - Copyright \\(C\\) 200[0-9] - 200[0-9] Open Source Matters. All rights reserved.\" />",
       "version_group": 1
@@ -47,7 +49,8 @@
             "input": "Powered by <a href=\"http://www.joomla.org\">Joomla!</a>.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.joomla\\.org\">Joomla!</a>\\.",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<div id=\"joomla\"><img src=\"[^\"]*/images/header_text.png\" alt=\"Joomla! Logo\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div id=\"joomla\"><img src=\"[^\"]*/images/header_text.png\" alt=\"Joomla! Logo\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

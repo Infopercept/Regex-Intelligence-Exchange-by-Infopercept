@@ -4,6 +4,7 @@
   "product": "Empire-CMS",
   "product_id": "empire-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": " - Powered by EmpireCMS</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\-\\ Powered\\ by\\ EmpireCMS</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

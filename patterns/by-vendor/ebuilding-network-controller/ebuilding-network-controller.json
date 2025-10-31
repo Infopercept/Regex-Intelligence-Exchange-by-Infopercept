@@ -4,6 +4,7 @@
   "product": "eBuilding-Network-Controller",
   "product_id": "ebuilding-network-controller",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>eBuilding Web</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>eBuilding\\ Web</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<HTML><HEAD><TITLE>eBuilding Network Controller</TITLE><LINK title=global_style ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<HTML><HEAD><TITLE>eBuilding\\ Network\\ Controller</TITLE><LINK\\ title=global_style\\ ",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

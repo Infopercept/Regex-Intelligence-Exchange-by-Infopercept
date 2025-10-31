@@ -4,6 +4,7 @@
   "product": "SpeedTouch",
   "product_id": "speedtouch",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "(Basic|Digest) realm=\"SpeedTouch",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "(Basic|Digest) realm=\"SpeedTouch",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

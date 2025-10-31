@@ -4,6 +4,7 @@
   "product": "Modernizr",
   "product_id": "modernizr",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<script [^>]*src=[\"'][^>]*modernizr[^>]*.js",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script [^>]*src=[\"'][^>]*modernizr[^>]*\\.js",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Sony-Video-Network-Station",
   "product_id": "sony-video-network-station",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<TITLE>SONY SNT-V304 Video Network Station</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>SONY\\ SNT\\-V304\\ Video\\ Network\\ Station</TITLE>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<TITLE>SONY Video Network Station</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>SONY\\ Video\\ Network\\ Station</TITLE>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

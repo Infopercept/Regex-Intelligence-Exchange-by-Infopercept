@@ -4,6 +4,7 @@
   "product": "Exponent-CMS",
   "product_id": "exponent-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"Generator\" content=\"Exponent Content Management System",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"Generator\"\\ content=\"Exponent\\ Content\\ Management\\ System",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by <a href=\"http://www.exponentcms.org\">Exponent CMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.exponentcms\\.org\">Exponent\\ CMS</a>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<a href=\"http://www.exponentcms.org\">Powered by Exponent CMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.exponentcms\\.org\">Powered\\ by\\ Exponent\\ CMS</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

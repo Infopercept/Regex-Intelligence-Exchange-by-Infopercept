@@ -4,6 +4,7 @@
   "product": "IBM-Remote-Supervisor-Adapter",
   "product_id": "ibm-remote-supervisor-adapter",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<HTML><BODY bgcolor=\"#FFFFFF\"><SCRIPT language=\"javascript1.2\"> top.location = \"/\"; </SCRIPT> </BODY> </HTML>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<HTML><BODY\\ bgcolor=\"\\#FFFFFF\"><SCRIPT\\ language=\"javascript1\\.2\">\\ top\\.location\\ =\\ \"/\";\\ </SCRIPT>\\ </BODY>\\ </HTML>",
       "version_group": 0
@@ -93,7 +95,8 @@
             "input": "<IMG SRC=\"banner.jpg\" WIDTH=110 HEIGHT=53 ALT=\"banner\" >",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<IMG\\ SRC=\"banner\\.jpg\"\\ WIDTH=110\\ HEIGHT=53\\ ALT=\"banner\"\\ >",
       "version_group": 0
@@ -121,6 +124,5 @@
       "pattern": "https?://[^/]+/private\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

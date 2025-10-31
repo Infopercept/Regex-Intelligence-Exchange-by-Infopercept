@@ -4,6 +4,7 @@
   "product": "LISTSERV",
   "product_id": "listserv",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "_white-space:pre;   /* IE only hack to re-specify in addition to word-wrap  */",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "_white\\-space:pre;\\ \\ \\ /\\*\\ IE\\ only\\ hack\\ to\\ re\\-specify\\ in\\ addition\\ to\\ word\\-wrap\\ \\ \\*/",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "alt=\"Powered by the LISTSERV Email List Manager\" title=\"Powered by the LISTSERV Email List Manager\" border=\"0\"></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "alt=\"Powered\\ by\\ the\\ LISTSERV\\ Email\\ List\\ Manager\"\\ title=\"Powered\\ by\\ the\\ LISTSERV\\ Email\\ List\\ Manager\"\\ border=\"0\"></a>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<TITLE>LISTSERV - Redirecting ...</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>LISTSERV\\ \\-\\ Redirecting\\ \\.\\.\\.</TITLE>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

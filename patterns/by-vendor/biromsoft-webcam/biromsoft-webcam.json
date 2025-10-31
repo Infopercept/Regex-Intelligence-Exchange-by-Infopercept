@@ -4,6 +4,7 @@
   "product": "Biromsoft-WebCam",
   "product_id": "biromsoft-webcam",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Biromsoft WebCam</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Biromsoft\\ WebCam</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<area shape=\"rect\" coords=\"[d-,]+\" href=\"http://www.biromsoft.com\" alt=\"Visit BiromSoft \" title=\"Visit BiromSoft \">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<area shape=\"rect\" coords=\"[\\d\\-,]+\" href=\"http://www.biromsoft.com\" alt=\"Visit BiromSoft \" title=\"Visit BiromSoft \">",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<area shape=\"rect\" coords=\"22,26,151,102\" href=\"http://www.biromsoft.com\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<area\\ shape=\"rect\"\\ coords=\"22,26,151,102\"\\ href=\"http://www\\.biromsoft\\.com\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

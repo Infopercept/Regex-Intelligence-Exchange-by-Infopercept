@@ -4,6 +4,7 @@
   "product": "DublinCore",
   "product_id": "dublincore",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<meta [^>]*name=\"DC.title\"[^>]*>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta [^>]*name=\"DC\\.title\"[^>]*>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

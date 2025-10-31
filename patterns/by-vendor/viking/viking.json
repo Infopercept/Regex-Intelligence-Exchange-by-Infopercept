@@ -4,6 +4,7 @@
   "product": "Viking",
   "product_id": "viking",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^Viking",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Viking",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

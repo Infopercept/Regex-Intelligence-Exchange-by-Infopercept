@@ -4,6 +4,7 @@
   "product": "Winstone",
   "product_id": "winstone",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^Winstone Servlet Engine v([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Winstone Servlet Engine v([^\\s]+)",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "x-powered-by: Servlet/[^\\s]+ \\(Winstone/([^\\)]+)\\)",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-powered-by: Servlet/[^\\s]+ \\(Winstone/([^\\)]+)\\)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

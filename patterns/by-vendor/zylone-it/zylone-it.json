@@ -4,6 +4,7 @@
   "product": "Zylone-IT",
   "product_id": "zylone-it",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Powered by[:]? <a href=\"http://www.zylone.com[/]*[^>]+>Zylone IT",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by[:]? <a href=\"http://www.zylone.com[/]*[^>]+>Zylone IT",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

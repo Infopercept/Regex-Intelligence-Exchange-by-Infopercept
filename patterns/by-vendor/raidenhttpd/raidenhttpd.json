@@ -4,6 +4,7 @@
   "product": "RaidenHTTPD",
   "product_id": "raidenhttpd",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: ^RaidenHTTPD/([^\\s]+) \\([^\\)]+\\)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^RaidenHTTPD/([^\\s]+) \\([^\\)]+\\)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

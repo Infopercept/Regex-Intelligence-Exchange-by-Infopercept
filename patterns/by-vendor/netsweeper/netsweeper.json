@@ -4,6 +4,7 @@
   "product": "Netsweeper",
   "product_id": "netsweeper",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<DIV id=\"overDiv\" style=\"position:absolute; visibility:hidden; z-index:104;\"></DIV>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<DIV\\ id=\"overDiv\"\\ style=\"position:absolute;\\ visibility:hidden;\\ z\\-index:104;\"></DIV>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<div id=\"overDiv\" style=\"position:absolute; visibility:hidden; z-index:104;\"></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"overDiv\"\\ style=\"position:absolute;\\ visibility:hidden;\\ z\\-index:104;\"></div>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!-- Body of content starts here -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Body\\ of\\ content\\ starts\\ here\\ \\-\\->",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<BR><SPAN class='netsweepersmbtextatbottomofloginscreen'>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<BR><SPAN\\ class='netsweepersmbtextatbottomofloginscreen'>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<br><span class='netsweepersmbtextatbottomofloginscreen'>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<br><span\\ class='netsweepersmbtextatbottomofloginscreen'>",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<!-- full_page_header.html START -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ full_page_header\\.html\\ START\\ \\-\\->",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "<!-- full_page_footer.html START-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ full_page_footer\\.html\\ START\\-\\->",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "<a target=_parent href=\"../\" >Please click <u>here</u> to continue.</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ target=_parent\\ href=\"\\.\\./\"\\ >Please\\ click\\ <u>here</u>\\ to\\ continue\\.</a>",
       "version_group": 0
@@ -208,7 +217,8 @@
             "input": "<a href=\"http://www.poweredbynetsweeper.com\"><img src=\"http://www.poweredbynetsweeper.com/images/deny/global/poweredbynetsweeper.gif\" border=\"0\" alt=\"\" align=\"top\" /></a></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.poweredbynetsweeper\\.com\"><img\\ src=\"http://www\\.poweredbynetsweeper\\.com/images/deny/global/poweredbynetsweeper\\.gif\"\\ border=\"0\"\\ alt=\"\"\\ align=\"top\"\\ /></a></td>",
       "version_group": 0
@@ -231,11 +241,11 @@
             "input": "<a href=\"http://www.poweredbynetsweeper.com\"><img align=top border=0 src=\"http://www.poweredbynetsweeper.com/images/deny/global/poweredbynetsweeper.gif\"></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.poweredbynetsweeper\\.com\"><img\\ align=top\\ border=0\\ src=\"http://www\\.poweredbynetsweeper\\.com/images/deny/global/poweredbynetsweeper\\.gif\"></a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

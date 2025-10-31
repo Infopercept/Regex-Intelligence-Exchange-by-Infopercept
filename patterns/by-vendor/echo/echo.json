@@ -4,6 +4,7 @@
   "product": "Echo",
   "product_id": "echo",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<a href=\"http://www.helloecho.com/go/?[^\"]*\" target=\"_blank\">powered by echo</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"http://www\\.helloecho\\.com/go/\\?[^\"]*\" target=\"_blank\">powered by echo</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

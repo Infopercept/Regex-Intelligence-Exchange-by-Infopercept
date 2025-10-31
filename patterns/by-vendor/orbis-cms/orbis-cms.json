@@ -4,6 +4,7 @@
   "product": "Orbis-CMS",
   "product_id": "orbis-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"description\" content=\"Orbis CMS is a simple and stylish management solution for small websites.\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"description\"\\ content=\"Orbis\\ CMS\\ is\\ a\\ simple\\ and\\ stylish\\ management\\ solution\\ for\\ small\\ websites\\.\"\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<div id=\"login_poweredby\">Powered by Orbis CMS</div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"login_poweredby\">Powered\\ by\\ Orbis\\ CMS</div>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<title>Orbis CMS &gt; Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Orbis\\ CMS\\ \\&gt;\\ Login</title>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<!-- Give feedback if user enters incorrect password (GET value \"e=2) or logged out (GET value \"e=3\") -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Give\\ feedback\\ if\\ user\\ enters\\ incorrect\\ password\\ \\(GET\\ value\\ \"e=2\\)\\ or\\ logged\\ out\\ \\(GET\\ value\\ \"e=3\"\\)\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

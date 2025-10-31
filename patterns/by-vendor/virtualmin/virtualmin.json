@@ -4,6 +4,7 @@
   "product": "Virtualmin",
   "product_id": "virtualmin",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<center><a href=/virtualmin-password-recovery/>Forgot your Virtualmin password?</a></center>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<center><a\\ href=/virtualmin\\-password\\-recovery/>Forgot\\ your\\ Virtualmin\\ password\\?</a></center>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

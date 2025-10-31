@@ -4,6 +4,7 @@
   "product": "Social-Strata",
   "product_id": "social-strata",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<a href=\"http://socialstrata.com/landing/goto.php?a=eve\" target=\"_blank\">Powered by Social Strata</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://socialstrata\\.com/landing/goto\\.php\\?a=eve\"\\ target=\"_blank\">Powered\\ by\\ Social\\ Strata</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

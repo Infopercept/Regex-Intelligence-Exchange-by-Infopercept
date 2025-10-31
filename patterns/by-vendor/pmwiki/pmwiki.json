@@ -4,6 +4,7 @@
   "product": "PmWiki",
   "product_id": "pmwiki",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "imstime=[d]+;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "imstime=[\\d]+;",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!--PageLeftFmt-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-PageLeftFmt\\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<span class='commentout-pmwikiorg'>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<span\\ class='commentout\\-pmwikiorg'>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<link rel='stylesheet' href='[^']*/pmwiki/pub/skins/pmwiki/pmwiki.css' type='text/css' />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link rel='stylesheet' href='[^']*/pmwiki/pub/skins/pmwiki/pmwiki\\.css' type='text/css' />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

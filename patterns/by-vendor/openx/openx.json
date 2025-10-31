@@ -4,6 +4,7 @@
   "product": "OpenX",
   "product_id": "openx",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<body class=\"hasInterface hasGradient hasSidebar \" onload=\"initPage();\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ class=\"hasInterface\\ hasGradient\\ hasSidebar\\ \"\\ onload=\"initPage\\(\\);\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<div id=\"oaHeaderBranding\" class=\"brandingAdServer\">OpenX</div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"oaHeaderBranding\"\\ class=\"brandingAdServer\">OpenX</div>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<span class=\"tab-s\">Welcome to OpenX</span><br />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<span\\ class=\"tab\\-s\">Welcome\\ to\\ OpenX</span><br\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

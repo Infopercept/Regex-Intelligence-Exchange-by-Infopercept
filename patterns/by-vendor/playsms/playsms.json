@@ -4,6 +4,7 @@
   "product": "playSMS",
   "product_id": "playsms",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div id=\"wraplogin\">[s]+<table width=\"100%\" height=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div id=\"wraplogin\">[\\s]+<table width=\"100%\" height=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!--td background=\"https?://[^>^\"]+/plugin/themes/km2/images/header-4.png\"-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!--td background=\"https?://[^>^\"]+/plugin/themes/km2/images/header-4\\.png\"-->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<a href='index.php?app=page&inc=register'>Register an account</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href='index\\.php\\?app=page\\&inc=register'>Register\\ an\\ account</a>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<a href='index.php?app=page&inc=forgot'>Forgot password</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href='index\\.php\\?app=page\\&inc=forgot'>Forgot\\ password</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

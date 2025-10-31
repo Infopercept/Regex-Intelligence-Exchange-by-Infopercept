@@ -4,6 +4,7 @@
   "product": "SnoGrafx",
   "product_id": "snografx",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- Website designed[ and powered]* by [^|]+|| Visit: http://snografx.com/ -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!-- Website designed[\\ and powered]* by [^\\|]+\\|\\| Visit: http://snografx.com/ -->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "var snoOff = new Image();snoOff.src = \"xfx/snografx0.gif\";var snoOn = new Image();snoOn.src = \"xfx/snografx2.gif\";",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "var\\ snoOff\\ =\\ new\\ Image\\(\\);snoOff\\.src\\ =\\ \"xfx/snografx0\\.gif\";var\\ snoOn\\ =\\ new\\ Image\\(\\);snoOn\\.src\\ =\\ \"xfx/snografx2\\.gif\";",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "var snoOff = new Image();snoOff.src = \"4fx/00sno.png\";var snoOn = new Image();snoOn.src = \"4fx/02sno.png\";",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "var\\ snoOff\\ =\\ new\\ Image\\(\\);snoOff\\.src\\ =\\ \"4fx/00sno\\.png\";var\\ snoOn\\ =\\ new\\ Image\\(\\);snoOn\\.src\\ =\\ \"4fx/02sno\\.png\";",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "Website powered by: <a href='http://snografx.com/' target='_blank'>Snöfx</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Website\\ powered\\ by:\\ <a\\ href='http://snografx\\.com/'\\ target='_blank'>Snöfx</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

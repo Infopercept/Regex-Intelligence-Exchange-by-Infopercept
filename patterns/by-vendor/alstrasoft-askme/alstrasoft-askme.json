@@ -4,6 +4,7 @@
   "product": "AlstraSoft-AskMe",
   "product_id": "alstrasoft-askme",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Enter details about your question and press the button bellow. All fields are required.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Enter\\ details\\ about\\ your\\ question\\ and\\ press\\ the\\ button\\ bellow\\.\\ All\\ fields\\ are\\ required\\.",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<font size=\"+2\">AskMe Pro Admin</font></b>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<font\\ size=\"\\+2\">AskMe\\ Pro\\ Admin</font></b>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<br> Powered by <a href='http://www.alstrasoft.com' targe='_blank'><font color=blue>AlstraSoft AskMe Pro</font></a><br><br>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<br>\\ Powered\\ by\\ <a\\ href='http://www\\.alstrasoft\\.com'\\ targe='_blank'><font\\ color=blue>AlstraSoft\\ AskMe\\ Pro</font></a><br><br>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<td colspan=2 align=\"center\"><a href=\"pass_recover.php\">Forgotten Password?</a></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ colspan=2\\ align=\"center\"><a\\ href=\"pass_recover\\.php\">Forgotten\\ Password\\?</a></td>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "Powered By <a href=\"http://www.alstrasoft.com\">AlstraSoft AskMe Pro</td></tr></table></body></a></html>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.alstrasoft\\.com\">AlstraSoft\\ AskMe\\ Pro</td></tr></table></body></a></html>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

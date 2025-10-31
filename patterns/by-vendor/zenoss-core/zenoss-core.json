@@ -4,6 +4,7 @@
   "product": "Zenoss-Core",
   "product_id": "zenoss-core",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/zport/dmd/favicon.ico\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ type=\"image/x\\-icon\"\\ href=\"/zport/dmd/favicon\\.ico\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

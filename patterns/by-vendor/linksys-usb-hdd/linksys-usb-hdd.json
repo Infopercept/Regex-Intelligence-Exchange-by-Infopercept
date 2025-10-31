@@ -4,6 +4,7 @@
   "product": "Linksys-USB-HDD",
   "product_id": "linksys-usb-hdd",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<title>Network Storage Link for USB 2.0 Disks</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Network\\ Storage\\ Link\\ for\\ USB\\ 2\\.0\\ Disks</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

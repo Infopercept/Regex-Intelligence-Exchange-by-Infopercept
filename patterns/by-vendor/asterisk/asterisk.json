@@ -4,6 +4,7 @@
   "product": "Asterisk",
   "product_id": "asterisk",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Your browser should automatically go to the configuration page.[s]+<br>[s]+Or you can <a href=\"config/cfgbasic.html\">click here</a>[s]+<br>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Your browser should automatically go to the configuration page\\.[\\s]+<br>[\\s]+Or you can <a href=\"config/cfgbasic\\.html\">click here</a>[\\s]+<br>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "^Asterisk/",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Asterisk/",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "Server: ^Asterisk/(.+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Asterisk/(.+)$",
       "version_group": 1
@@ -93,7 +97,8 @@
             "input": "<!--[s]+* Asterisk-GUI -[s]+an Asterisk configuration interface",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!--[\\s]+\\* Asterisk-GUI -[\\s]+an Asterisk configuration interface",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<link href=\"stylesheets/cfgbasic.css\" media=\"all\" rel=\"Stylesheet\" type=\"text/css\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ href=\"stylesheets/cfgbasic\\.css\"\\ media=\"all\"\\ rel=\"Stylesheet\"\\ type=\"text/css\"\\ />",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "<div id=\"ACTIVE_CONTENT\"><noscript>You need to enable Javascript in your browser !!</noscript></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"ACTIVE_CONTENT\"><noscript>You\\ need\\ to\\ enable\\ Javascript\\ in\\ your\\ browser\\ !!</noscript></div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

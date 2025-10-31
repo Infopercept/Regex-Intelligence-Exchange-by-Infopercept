@@ -4,6 +4,7 @@
   "product": "Pluck-CMS",
   "product_id": "pluck-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "powered by <a href=\"http://www.pluck-cms.org\">pluck</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "powered\\ by\\ <a\\ href=\"http://www\\.pluck\\-cms\\.org\">pluck</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

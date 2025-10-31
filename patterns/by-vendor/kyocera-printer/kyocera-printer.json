@@ -4,6 +4,7 @@
   "product": "Kyocera-Printer",
   "product_id": "kyocera-printer",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^KM-MFP-http",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^KM-MFP-http",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Server: ^KM-MFP-http/V8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^KM-MFP-http/V([\\d\\.]+)$",
       "version_group": 1
@@ -70,7 +73,8 @@
             "input": "Server: ^KM-httpd/8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^KM-httpd/([\\d\\.]+)$",
       "version_group": 1
@@ -93,7 +97,8 @@
             "input": "Server: ^JC-HTTPD/8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^JC-HTTPD/([\\d\\.]+)$",
       "version_group": 1
@@ -116,11 +121,11 @@
             "input": "Server: ^NetworkScanner WebServer Ver8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^NetworkScanner WebServer Ver([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

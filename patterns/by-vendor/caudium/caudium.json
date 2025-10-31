@@ -4,6 +4,7 @@
   "product": "Caudium",
   "product_id": "caudium",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: Caudium/8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: Caudium/([\\d\\.]+)",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "Caudium",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Caudium",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

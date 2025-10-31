@@ -4,6 +4,7 @@
   "product": "WEBCOMpro-CMS",
   "product_id": "webcompro-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "x-powered-by: WEBCOMpro CMS (.+)$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-powered-by: WEBCOMpro CMS (.+)$",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "<meta name=\"generator\" content=\"WEBCOMpro CMS ([^s]+) . Patrick Heyer, www.webcompro-cms.com\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"generator\" content=\"WEBCOMpro CMS ([^\\s]+) . Patrick Heyer, www\\.webcompro-cms\\.com\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

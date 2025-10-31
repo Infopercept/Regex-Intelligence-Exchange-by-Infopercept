@@ -4,12 +4,13 @@
   "product": "Jenkins",
   "product_id": "jenkins",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
-      "name": "Jenkins Pattern",
+      "name": "Jenkins Script Pattern",
       "priority": 100,
-      "confidence": 0.8,
+      "confidence": 0.9,
       "metadata": {
         "author": "WhatWeb Project",
         "created_at": "2025-01-01",
@@ -24,13 +25,14 @@
             "input": "<script>var isRunAsTest=false; var rootURL=\"[^\"]*\";</script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script>var isRunAsTest=false; var rootURL=\"[^\"]*\";</script>",
       "version_group": 0
     },
     {
-      "name": "Jenkins Pattern",
+      "name": "Jenkins Header Pattern",
       "priority": 100,
       "confidence": 0.8,
       "metadata": {
@@ -44,16 +46,17 @@
         ],
         "test_cases": [
           {
-            "input": "^.*$",
+            "input": "x-jenkins: Jenkins",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
-      "pattern": "^.*$",
+      "pattern": "x-jenkins:",
       "version_group": 0
     },
     {
-      "name": "Jenkins Pattern",
+      "name": "Jenkins Title Pattern",
       "priority": 100,
       "confidence": 0.8,
       "metadata": {
@@ -67,129 +70,14 @@
         ],
         "test_cases": [
           {
-            "input": "^.*$",
+            "input": "<title>Jenkins</title>",
             "expected_version": "unknown"
           }
-        ]
-      },
-      "pattern": "^.*$",
-      "version_group": 0
-    },
-    {
-      "name": "Jenkins Pattern",
-      "priority": 100,
-      "confidence": 0.8,
-      "metadata": {
-        "author": "WhatWeb Project",
-        "created_at": "2025-01-01",
-        "updated_at": "2025-01-01",
-        "description": "Pattern extracted from WhatWeb plugin for Jenkins",
-        "tags": [
-          "whatweb",
-          "extracted"
         ],
-        "test_cases": [
-          {
-            "input": "^.*$",
-            "expected_version": "unknown"
-          }
-        ]
+        "compiled_pattern": true
       },
-      "pattern": "^.*$",
-      "version_group": 0
-    },
-    {
-      "name": "Jenkins Pattern",
-      "priority": 100,
-      "confidence": 0.8,
-      "metadata": {
-        "author": "WhatWeb Project",
-        "created_at": "2025-01-01",
-        "updated_at": "2025-01-01",
-        "description": "Pattern extracted from WhatWeb plugin for Jenkins",
-        "tags": [
-          "whatweb",
-          "extracted"
-        ],
-        "test_cases": [
-          {
-            "input": "x-jenkins: ^(.+)$",
-            "expected_version": "1.0"
-          }
-        ]
-      },
-      "pattern": "x-jenkins: ^(.+)$",
-      "version_group": 1
-    },
-    {
-      "name": "Jenkins Pattern",
-      "priority": 100,
-      "confidence": 0.8,
-      "metadata": {
-        "author": "WhatWeb Project",
-        "created_at": "2025-01-01",
-        "updated_at": "2025-01-01",
-        "description": "Pattern extracted from WhatWeb plugin for Jenkins",
-        "tags": [
-          "whatweb",
-          "extracted"
-        ],
-        "test_cases": [
-          {
-            "input": "^.*$",
-            "expected_version": "unknown"
-          }
-        ]
-      },
-      "pattern": "^.*$",
-      "version_group": 0
-    },
-    {
-      "name": "Jenkins Pattern",
-      "priority": 100,
-      "confidence": 0.8,
-      "metadata": {
-        "author": "WhatWeb Project",
-        "created_at": "2025-01-01",
-        "updated_at": "2025-01-01",
-        "description": "Pattern extracted from WhatWeb plugin for Jenkins",
-        "tags": [
-          "whatweb",
-          "extracted"
-        ],
-        "test_cases": [
-          {
-            "input": "^.*$",
-            "expected_version": "unknown"
-          }
-        ]
-      },
-      "pattern": "^.*$",
-      "version_group": 0
-    },
-    {
-      "name": "Jenkins Pattern",
-      "priority": 100,
-      "confidence": 0.8,
-      "metadata": {
-        "author": "WhatWeb Project",
-        "created_at": "2025-01-01",
-        "updated_at": "2025-01-01",
-        "description": "Pattern extracted from WhatWeb plugin for Jenkins",
-        "tags": [
-          "whatweb",
-          "extracted"
-        ],
-        "test_cases": [
-          {
-            "input": "^.*$",
-            "expected_version": "unknown"
-          }
-        ]
-      },
-      "pattern": "^.*$",
+      "pattern": "<title>\\s*Jenkins\\s*</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

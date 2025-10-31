@@ -4,6 +4,7 @@
   "product": "Apache-Tomcat",
   "product_id": "apache-tomcat",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Apache Tomcat</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Apache Tomcat</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "CATALINA_HOME/webapps/ROOT/index.html",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "CATALINA_HOME/webapps/ROOT/index\\.html",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "org.apache.tomcat..*java.lang.Thread.run",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "org\\.apache\\.tomcat\\..*java\\.lang\\.Thread\\.run",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "tomcat",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "tomcat",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

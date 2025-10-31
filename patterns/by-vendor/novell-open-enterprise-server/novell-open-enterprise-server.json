@@ -4,6 +4,7 @@
   "product": "Novell-Open-Enterprise-Server",
   "product_id": "novell-open-enterprise-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- This is all just a super-duper redirect to the Welcome page",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ This\\ is\\ all\\ just\\ a\\ super\\-duper\\ redirect\\ to\\ the\\ Welcome\\ page",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title>Home - Novell Open Enterprise Server 2</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Home\\ \\-\\ Novell\\ Open\\ Enterprise\\ Server\\ 2</title>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<script type=\"text/javascript\" src=\"/welcome/inc/flashobj.js\"></script> <!-- required for javascript banners from Novell.com -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ type=\"text/javascript\"\\ src=\"/welcome/inc/flashobj\\.js\"></script>\\ <!\\-\\-\\ required\\ for\\ javascript\\ banners\\ from\\ Novell\\.com\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

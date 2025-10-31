@@ -4,6 +4,7 @@
   "product": "Mac-OSX-Server",
   "product_id": "mac-osx-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Mac OS X Server</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Mac\\ OS\\ X\\ Server</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<iframe id=\"webmail_frame\" src=\"/webmail/src/\"><!-- this frame will enable the webmail link if webmail is active --></iframe>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<iframe\\ id=\"webmail_frame\"\\ src=\"/webmail/src/\"><!\\-\\-\\ this\\ frame\\ will\\ enable\\ the\\ webmail\\ link\\ if\\ webmail\\ is\\ active\\ \\-\\-></iframe>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<link rel=\"stylesheet\" type=\"text/css\" media=\"screen, projection\" href=\"/collaboration/css/required_compressed.css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ media=\"screen,\\ projection\"\\ href=\"/collaboration/css/required_compressed\\.css\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

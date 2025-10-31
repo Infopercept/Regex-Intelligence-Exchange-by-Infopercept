@@ -4,6 +4,7 @@
   "product": "Drupal",
   "product_id": "drupal",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<script type=\"text/javascript\" src=\"[^\"]*/misc/drupal.js[^\"]*\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script type=\"text/javascript\" src=\"[^\\\"]*/misc/drupal.js[^\\\"]*\"></script>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<[^>]+alt=\"Powered by Drupal, an open source content management system\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<[^>]+alt=\"Powered by Drupal, an open source content management system\"",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "@import \"[^\"]*/misc/drupal.css\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "@import \"[^\\\"]*/misc/drupal.css\"",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "jQuery.extend(Drupal.settings,",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "jQuery\\.extend\\(Drupal\\.settings,",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "Drupal.extend(",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Drupal\\.extend\\(",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "mobileplugin_group=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "mobileplugin_group=",
       "version_group": 0
@@ -162,11 +169,11 @@
             "input": "(HIT|MISS)",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "(HIT|MISS)",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

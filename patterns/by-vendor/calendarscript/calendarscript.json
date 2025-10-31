@@ -4,6 +4,7 @@
   "product": "CalendarScript",
   "product_id": "calendarscript",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<HEAD><TITLE>Calendar Administration : Login</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<HEAD><TITLE>Calendar\\ Administration\\ :\\ Login</TITLE>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<FONT color=\"#FFFFFF\" SIZE=\"-1\">Powered by <A HREF=\"http://www.CalendarScript.com/\" STYLE=\"color:#FFFFFF;\">CalendarScript</A></FONT>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<FONT\\ color=\"\\#FFFFFF\"\\ SIZE=\"\\-1\">Powered\\ by\\ <A\\ HREF=\"http://www\\.CalendarScript\\.com/\"\\ STYLE=\"color:\\#FFFFFF;\">CalendarScript</A></FONT>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "Powered by <A HREF=\"http://www.CalendarScript.com/\" CLASS=\"footertext\" STYLE=\"text-decoration:underline;\">CalendarScript</A>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <A\\ HREF=\"http://www\\.CalendarScript\\.com/\"\\ CLASS=\"footertext\"\\ STYLE=\"text\\-decoration:underline;\">CalendarScript</A>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

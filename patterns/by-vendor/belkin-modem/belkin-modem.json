@@ -4,6 +4,7 @@
   "product": "Belkin-Modem",
   "product_id": "belkin-modem",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "// when proto = Bridge or ipExt = 1, DHCP should show disabled",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "// when proto = Bridge or ipExt = 1, DHCP should show disabled",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "href=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "href=\\\\",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<meta name=\"description\" content=\"Belkin [S]+",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"description\" content=\"Belkin [\\S]+",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<meta name=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\\\\",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<td bgcolor=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ bgcolor=\\\\",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "var isPPPoE, isStatic, isDynamic, isnat, isdialup, isbigpond, ispptp, isfirewall;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "var\\ isPPPoE,\\ isStatic,\\ isDynamic,\\ isnat,\\ isdialup,\\ isbigpond,\\ ispptp,\\ isfirewall;",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "gitstat",
   "product_id": "gitstat",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- FIXME: We should have some reference to the website of the git tree if available -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ FIXME:\\ We\\ should\\ have\\ some\\ reference\\ to\\ the\\ website\\ of\\ the\\ git\\ tree\\ if\\ available\\ \\-\\->",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Powered by <a href=\"http://sourceforge.net/projects/gitstat/\">gitstat</a> <br><img src=\"images/separator.gif\" alt=\"\" />Design: <a href=\"http://www.oswd.org/\">OSWD.ORG</a></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://sourceforge\\.net/projects/gitstat/\">gitstat</a>\\ <br><img\\ src=\"images/separator\\.gif\"\\ alt=\"\"\\ />Design:\\ <a\\ href=\"http://www\\.oswd\\.org/\">OSWD\\.ORG</a></p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

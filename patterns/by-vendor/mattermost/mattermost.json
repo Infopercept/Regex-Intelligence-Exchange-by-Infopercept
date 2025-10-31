@@ -4,14 +4,12 @@
   "product": "mattermost",
   "product_id": "mattermost-mattermost",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
       "name": "Mattermost",
-      "category": "web",
       "pattern": "(\\d+\\.\\d+\\.\\d+)",
-      "vendor": "mattermost",
-      "product": "mattermost",
       "version_group": 1,
       "priority": 150,
       "confidence": 0.9,
@@ -30,9 +28,9 @@
             "input": "10.5.2.13860318285.88e0006becb282869037669600e91315.false",
             "expected_version": "10.5.2"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

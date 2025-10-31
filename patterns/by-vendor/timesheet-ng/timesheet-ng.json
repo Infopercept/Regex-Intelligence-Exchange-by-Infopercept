@@ -4,6 +4,7 @@
   "product": "Timesheet-NG",
   "product_id": "timesheet-ng",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- include the timesheet face up until the heading start section -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ include\\ the\\ timesheet\\ face\\ up\\ until\\ the\\ heading\\ start\\ section\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<td><img class=\"login_image\" src=\"images/spacer.gif\"></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><img\\ class=\"login_image\"\\ src=\"images/spacer\\.gif\"></td>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<META name=\"description\" content=\"Timesheet Next Gen\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<META\\ name=\"description\"\\ content=\"Timesheet\\ Next\\ Gen\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

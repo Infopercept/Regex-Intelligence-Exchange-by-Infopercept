@@ -4,6 +4,7 @@
   "product": "CmyDocument",
   "product_id": "cmydocument",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<link href=\"CmyDocument.css\" rel=\"stylesheet\" type=\"text/css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ href=\"CmyDocument\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<link href=\"CmyDocument2.css\" rel=\"stylesheet\" type=\"text/css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ href=\"CmyDocument2\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"CmyDocument.css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"CmyDocument\\.css\">",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<link rel=\"SHORTCUT ICON\" href=\"icon_cmydoc.ico\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"SHORTCUT\\ ICON\"\\ href=\"icon_cmydoc\\.ico\">",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<!-- footer (begin) --><!-- *** Note: Only licensed users are allowed to remove or change the following copyright statement. *** -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ footer\\ \\(begin\\)\\ \\-\\-><!\\-\\-\\ \\*\\*\\*\\ Note:\\ Only\\ licensed\\ users\\ are\\ allowed\\ to\\ remove\\ or\\ change\\ the\\ following\\ copyright\\ statement\\.\\ \\*\\*\\*\\ \\-\\->",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "<td style=\"white-space: nowrap;\"><span class=\"aspmaker\"><a href=\"myDocview.asp?(myDocID|ID)=[d]+\">View</a></span></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td style=\"white-space: nowrap;\"><span class=\"aspmaker\"><a href=\"myDocview\\.asp\\?(myDocID|ID)=[\\d]+\">View</a></span></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

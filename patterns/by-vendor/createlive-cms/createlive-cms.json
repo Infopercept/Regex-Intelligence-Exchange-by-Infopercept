@@ -4,6 +4,7 @@
   "product": "CreateLive-Cms",
   "product_id": "createlive-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Kill=kill=(Yes|No)",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Kill=kill=(Yes|No)",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

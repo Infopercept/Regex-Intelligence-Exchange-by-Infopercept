@@ -4,6 +4,7 @@
   "product": "phpPgAdmin",
   "product_id": "phppgadmin",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^PPA_ID=[a-z0-9]+",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^PPA_ID=[a-z0-9]+",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<td><span class=\"appname\">phpPgAdmin</span></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><span\\ class=\"appname\">phpPgAdmin</span></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

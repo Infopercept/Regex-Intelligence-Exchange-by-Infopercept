@@ -4,6 +4,7 @@
   "product": "Seo-Panel",
   "product_id": "seo-panel",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Seo Panel: Login section</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Seo\\ Panel:\\ Login\\ section</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "var wantproceed = 'Do you really want to proceed?';",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "var\\ wantproceed\\ =\\ 'Do\\ you\\ really\\ want\\ to\\ proceed\\?';",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "var wantproceed = 'Wollen Sie wirklich fortfahren?';",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "var\\ wantproceed\\ =\\ 'Wollen\\ Sie\\ wirklich\\ fortfahren\\?';",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<p class='note error'><p style='color:red'>You don't have permission to access this page!</p></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ class='note\\ error'><p\\ style='color:red'>You\\ don't\\ have\\ permission\\ to\\ access\\ this\\ page!</p></p>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<meta name=\"description\" content=\"Login to Seo Panel and utilise seo tools and plugins to increase the perfomance of your site.\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"description\"\\ content=\"Login\\ to\\ Seo\\ Panel\\ and\\ utilise\\ seo\\ tools\\ and\\ plugins\\ to\\ increase\\ the\\ perfomance\\ of\\ your\\ site\\.\"\\ />",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "<p class=\"note error\">JavaScript is turned off in your web browser. Turn it on to take full advantage of this site, then refresh the page.</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ class=\"note\\ error\">JavaScript\\ is\\ turned\\ off\\ in\\ your\\ web\\ browser\\.\\ Turn\\ it\\ on\\ to\\ take\\ full\\ advantage\\ of\\ this\\ site,\\ then\\ refresh\\ the\\ page\\.</p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

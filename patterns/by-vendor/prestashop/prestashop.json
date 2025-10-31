@@ -4,6 +4,7 @@
   "product": "PrestaShop",
   "product_id": "prestashop",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"generator\"[^>]*content=\"PrestaShop",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"generator\"[^>]*content=\"PrestaShop",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"description\"[^>]*content=\"par PrestaShop",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"description\"[^>]*content=\"par PrestaShop",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<meta name=\"description\"[^>]*content=\"Shop powered by PrestaShop",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"description\"[^>]*content=\"Shop powered by PrestaShop",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<!-- /Block permanent links module HEADER -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!-- /Block permanent links module HEADER -->",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "PrestaShop",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "PrestaShop",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<meta name=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\\\\",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "<meta name=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\\\\",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "<meta name=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\\\\",
       "version_group": 0
@@ -208,11 +217,11 @@
             "input": "<!-- /Block permanent links module HEADER -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ /Block\\ permanent\\ links\\ module\\ HEADER\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

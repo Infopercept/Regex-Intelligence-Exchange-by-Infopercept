@@ -4,6 +4,7 @@
   "product": "Mambo",
   "product_id": "mambo",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"Generator\" content=\"Mambo - Copyright 2000 - [0-9]+ Miro International Pty Ltd.  All rights reserved.\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"Generator\" content=\"Mambo - Copyright 2000 - [0-9]+ Miro International Pty Ltd.  All rights reserved.\" />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"description\" content=\"Mambo - the dynamic portal engine and content management system\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"description\" content=\"Mambo - the dynamic portal engine and content management system\" />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "Mambo is OSI Certified Open Source Software, released under the GNU General Public License",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Mambo\\ is\\ OSI\\ Certified\\ Open\\ Source\\ Software,\\ released\\ under\\ the\\ GNU\\ General\\ Public\\ License",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "(<name>Mambo Admin</name>|<authorUrl>http://www.mambo-foundation.org</authorUrl>)",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "(<name>Mambo Admin</name>|<authorUrl>http://www\\.mambo\\-foundation\\.org</authorUrl>)",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

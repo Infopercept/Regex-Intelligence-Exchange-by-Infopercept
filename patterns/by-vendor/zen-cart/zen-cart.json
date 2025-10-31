@@ -4,6 +4,7 @@
   "product": "Zen-Cart",
   "product_id": "zen-cart",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by Zen Cart!, The Art of E-commerce</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ Zen\\ Cart!,\\ The\\ Art\\ of\\ E\\-commerce</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by <a href=\"http://www.zen-cart.com\" target=\"_blank\">Zen Cart</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.zen\\-cart\\.com\"\\ target=\"_blank\">Zen\\ Cart</a>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<meta name=\"authors\" content=\"The Zen Cart&trade; Team and others",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"authors\"\\ content=\"The\\ Zen\\ Cart\\&trade;\\ Team\\ and\\ others",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<meta name=\"generator\" content=\"shopping cart program by Zen Cart&trade;, http://www.zen-cart.com",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"shopping\\ cart\\ program\\ by\\ Zen\\ Cart\\&trade;,\\ http://www\\.zen\\-cart\\.com",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

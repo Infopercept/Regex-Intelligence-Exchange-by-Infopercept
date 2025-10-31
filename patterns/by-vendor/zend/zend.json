@@ -4,6 +4,7 @@
   "product": "Zend",
   "product_id": "zend",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": " alt=\"Powered by Zend Framework!\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ alt=\"Powered\\ by\\ Zend\\ Framework!\"\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "controllers/images/PoweredBy_ZF.gif\" alt=\"Powerd by Zend Framework!\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "controllers/images/PoweredBy_ZF\\.gif\"\\ alt=\"Powerd\\ by\\ Zend\\ Framework!\"\\ />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<h1>Controller/action not found!</h1>(rn|n)<p>Controller/action not found!</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h1>Controller/action not found!</h1>(\\r\\n|\\n)<p>Controller/action not found!</p>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "( ! )</span> Zend_Controller_Dispatcher_Exception: Invalid controller specified (application) in",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\(\\ !\\ \\)</span>\\ Zend_Controller_Dispatcher_Exception:\\ Invalid\\ controller\\ specified\\ \\(application\\)\\ in",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<b>Fatal error</b>:  Uncaught exception 'Zend_Controller_Dispatcher_Exception",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<b>Fatal\\ error</b>:\\ \\ Uncaught\\ exception\\ 'Zend_Controller_Dispatcher_Exception",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "Uncaught exception 'Zend_Controller_Router_Exception' with message 'No route matched the request'",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Uncaught\\ exception\\ 'Zend_Controller_Router_Exception'\\ with\\ message\\ 'No\\ route\\ matched\\ the\\ request'",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "/Zend/Controller/Router/Rewrite.php</b> on line <b>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/Zend/Controller/Router/Rewrite\\.php</b>\\ on\\ line\\ <b>",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "<meta name=\"vendor\" content=\"Zend Technologies",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"vendor\"\\ content=\"Zend\\ Technologies",
       "version_group": 0
@@ -208,7 +217,8 @@
             "input": "Zend Framework",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Zend Framework",
       "version_group": 0
@@ -231,7 +241,8 @@
             "input": "x-powered-by: Zend Framework ([a-zA-Z0-9\\./\\+\\-\\(\\)]+)",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-powered-by: Zend Framework ([a-zA-Z0-9\\./\\+\\-\\(\\)]+)",
       "version_group": 1
@@ -254,7 +265,8 @@
             "input": "x-powered-by: Zend Core/([a-zA-Z0-9\\./\\+\\-\\(\\)]+)",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-powered-by: Zend Core/([a-zA-Z0-9\\./\\+\\-\\(\\)]+)",
       "version_group": 1
@@ -277,7 +289,8 @@
             "input": "^Zend ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Zend ",
       "version_group": 0
@@ -300,11 +313,11 @@
             "input": "Server: Zend Core/([a-zA-Z0-9\\./\\+\\-\\(\\)]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: Zend Core/([a-zA-Z0-9\\./\\+\\-\\(\\)]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

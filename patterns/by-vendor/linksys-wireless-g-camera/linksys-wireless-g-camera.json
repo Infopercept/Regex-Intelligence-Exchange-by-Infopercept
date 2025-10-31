@@ -4,6 +4,7 @@
   "product": "Linksys-Wireless-G-Camera",
   "product_id": "linksys-wireless-g-camera",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Linksys Wireless-G Internet-Videokamera</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Linksys\\ Wireless\\-G\\ Internet\\-Videokamera</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title>Linksys Wireless-G Internet Video Camera</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Linksys\\ Wireless\\-G\\ Internet\\ Video\\ Camera</title>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<body bgcolor=\"#ffffff\" marginheight=\"0\" marginwidth=\"0\" leftmargin=\"0\" topmargin=\"0\" onload=\"parent.chkRefresh(\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ bgcolor=\"\\#ffffff\"\\ marginheight=\"0\"\\ marginwidth=\"0\"\\ leftmargin=\"0\"\\ topmargin=\"0\"\\ onload=\"parent\\.chkRefresh\\(\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

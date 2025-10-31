@@ -4,6 +4,7 @@
   "product": "Simple-Forum-PHP",
   "product_id": "simple-forum-php",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Simple Forum PHP script - Administration</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Simple\\ Forum\\ PHP\\ script\\ \\-\\ Administration</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<td class=\"userpassfield\"><input type=\"submit\" name=\"button\" value=\"Login\" class=\"loginButon\" /></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ class=\"userpassfield\"><input\\ type=\"submit\"\\ name=\"button\"\\ value=\"Login\"\\ class=\"loginButon\"\\ /></td>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": ".php?act=new\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\.php\\?act=new\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

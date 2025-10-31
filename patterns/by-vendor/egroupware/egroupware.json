@@ -4,6 +4,7 @@
   "product": "eGroupWare",
   "product_id": "egroupware",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"author\" content=\"eGroupWare http://www.egroupware.org\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"eGroupWare\\ http://www\\.egroupware\\.org\"\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<div align=\"center\"><font color=\"#FF0000\">Votre session n\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ align=\"center\"><font\\ color=\"\\#FF0000\">Votre\\ session\\ n\\\\",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<div id=\"loginCdMessage\"><font color=\"red\">Your session could not be verified.</font></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"loginCdMessage\"><font\\ color=\"red\">Your\\ session\\ could\\ not\\ be\\ verified\\.</font></div>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<title>EGroupware [Login]</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>EGroupware\\ \\[Login\\]</title>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<!-- we don't need body tags anymore, do we?) we do!!! onload!! LK -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ we\\ don't\\ need\\ body\\ tags\\ anymore,\\ do\\ we\\?\\)\\ we\\ do!!!\\ onload!!\\ LK\\ \\-\\->",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<META NAME=\"description\" CONTENT=\"Expresso Livre login screen, working environment powered by eGroupWare\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<META\\ NAME=\"description\"\\ CONTENT=\"Expresso\\ Livre\\ login\\ screen,\\ working\\ environment\\ powered\\ by\\ eGroupWare\">",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "<META NAME=\"keywords\" CONTENT=\"Expresso Livre login screen, eGroupWare, groupware, groupware suite\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<META\\ NAME=\"keywords\"\\ CONTENT=\"Expresso\\ Livre\\ login\\ screen,\\ eGroupWare,\\ groupware,\\ groupware\\ suite\">",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "<br><a title=\"eGroupWare\" target=\"_blank\" href=\"http://www.egroupware.org/\"> Powered by eGroupWare </a></div></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<br><a\\ title=\"eGroupWare\"\\ target=\"_blank\"\\ href=\"http://www\\.egroupware\\.org/\">\\ Powered\\ by\\ eGroupWare\\ </a></div></td>",
       "version_group": 0
@@ -208,11 +217,11 @@
             "input": "<TITLE>Expresso Livre - Login</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>Expresso\\ Livre\\ \\-\\ Login</TITLE>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

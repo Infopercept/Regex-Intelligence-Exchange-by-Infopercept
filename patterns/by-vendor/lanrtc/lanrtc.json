@@ -4,6 +4,7 @@
   "product": "LanRTC",
   "product_id": "lanrtc",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<td align=right><h2><img src=\"Logo.gif\" width=\"120\" height=\"59\" alt=\"MBB Gelma\"></h2>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ align=right><h2><img\\ src=\"Logo\\.gif\"\\ width=\"120\"\\ height=\"59\"\\ alt=\"MBB\\ Gelma\"></h2>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<p><font size=-1><strong><a href=\"javascript:window.history.back()\">Back</a> | <a href=\"Index.htm\">System Info</a> | <a href=\"TmStatus.htm?TM=1\">TM Status</a> | <a href=\"LanStat.htm\">LAN Akt.</a> | <a href=\"de/Buchen.htm\">Booking</a></strong></font></p></body></html>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p><font\\ size=\\-1><strong><a\\ href=\"javascript:window\\.history\\.back\\(\\)\">Back</a>\\ \\|\\ <a\\ href=\"Index\\.htm\">System\\ Info</a>\\ \\|\\ <a\\ href=\"TmStatus\\.htm\\?TM=1\">TM\\ Status</a>\\ \\|\\ <a\\ href=\"LanStat\\.htm\">LAN\\ Akt\\.</a>\\ \\|\\ <a\\ href=\"de/Buchen\\.htm\">Booking</a></strong></font></p></body></html>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "^LanRTC",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^LanRTC",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

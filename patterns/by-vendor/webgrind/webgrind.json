@@ -4,6 +4,7 @@
   "product": "Webgrind",
   "product_id": "webgrind",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<span id=\"invocation_sum\"></span> different functions called in <span id=\"runtime_sum\"></span> milliseconds (<span id=\"runs\"></span> runs, <span id=\"shown_sum\"></span> shown)",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<span\\ id=\"invocation_sum\"></span>\\ different\\ functions\\ called\\ in\\ <span\\ id=\"runtime_sum\"></span>\\ milliseconds\\ \\(<span\\ id=\"runs\"></span>\\ runs,\\ <span\\ id=\"shown_sum\"></span>\\ shown\\)",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<img class=\"list_reload\" src=\"img/reload.png\" onclick=\"reloadFilelist()\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ class=\"list_reload\"\\ src=\"img/reload\\.png\"\\ onclick=\"reloadFilelist\\(\\)\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

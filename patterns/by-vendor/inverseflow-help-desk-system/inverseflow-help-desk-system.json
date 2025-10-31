@@ -4,6 +4,7 @@
   "product": "InverseFlow-Help-Desk-System",
   "product_id": "inverseflow-help-desk-system",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<table width=\"100%\" bgcolor=\"#FFAD4D\" border=\"0\"><tr><td><div class=\"infobar_01\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<table\\ width=\"100%\"\\ bgcolor=\"\\#FFAD4D\"\\ border=\"0\"><tr><td><div\\ class=\"infobar_01\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<div class=\"normal\">To view a ticket, please enter your email address and ticket ID.  If you forgot your ticket ID, you can use the <a href=\"ticket.php?cmd=lost\">ticket lookup</a>.</div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ class=\"normal\">To\\ view\\ a\\ ticket,\\ please\\ enter\\ your\\ email\\ address\\ and\\ ticket\\ ID\\.\\ \\ If\\ you\\ forgot\\ your\\ ticket\\ ID,\\ you\\ can\\ use\\ the\\ <a\\ href=\"ticket\\.php\\?cmd=lost\">ticket\\ lookup</a>\\.</div>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<div class=\"normal\">[^<]+<a href=\"ticket.php?cmd=lost\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div class=\"normal\">[^<]+<a href=\"ticket\\.php\\?cmd=lost\">",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<form action=\"ticketview.php\" method=\"get\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ action=\"ticketview\\.php\"\\ method=\"get\">",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<form action=\"ticket.php\" method=\"get\">[s]+<input type=\"hidden\" name=\"cmd\" value=\"lost\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form action=\"ticket\\.php\" method=\"get\">[\\s]+<input type=\"hidden\" name=\"cmd\" value=\"lost\" />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "TorrentFlux",
   "product_id": "torrentflux",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<font class=\"title\">TorrentFlux Login</font>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<font\\ class=\"title\">TorrentFlux\\ Login</font>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<td><input type=\"password\" name=\"iamhim\" value=\"\" size=\"15\" style=\"font-family:verdana,helvetica,sans-serif; font-size:9px; color:#000\" /></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><input\\ type=\"password\"\\ name=\"iamhim\"\\ value=\"\"\\ size=\"15\"\\ style=\"font\\-family:verdana,helvetica,sans\\-serif;\\ font\\-size:9px;\\ color:\\#000\"\\ /></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

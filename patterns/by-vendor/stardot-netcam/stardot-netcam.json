@@ -4,6 +4,7 @@
   "product": "StarDot-NetCam",
   "product_id": "stardot-netcam",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>NetCam Live Image[ Popup]*</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>NetCam Live Image[\\ Popup]*</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<applet code=\"CaptureClient.class\" width=\"[d]+\" height=\"[d]+\" alt=\"NetCam Live [Stream|Image]+\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<applet code=\"CaptureClient.class\" width=\"[\\d]+\" height=\"[\\d]+\" alt=\"NetCam Live [Stream|Image]+\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<title>NetCamXL Live Image[ Popup]*</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>NetCamXL Live Image[\\ Popup]*</title>",
       "version_group": 1
@@ -93,11 +97,11 @@
             "input": "<applet code=\"CaptureClient.class\" width=\"[d]+\" height=\"[d]+\" alt=\"NetCamXL Live [Stream|Image]+\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<applet code=\"CaptureClient.class\" width=\"[\\d]+\" height=\"[\\d]+\" alt=\"NetCamXL Live [Stream|Image]+\">",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

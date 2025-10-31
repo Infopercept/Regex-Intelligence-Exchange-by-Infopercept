@@ -4,6 +4,7 @@
   "product": "Google-API",
   "product_id": "google-api",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<script[^>]+src[s]*=[s]*[\"|']?http://www.google.com/jsapi[^>]*>[s]*</script[s]*>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script[^>]+src[\\s]*=[\\s]*[\"|']?http://www.google.com/jsapi[^>]*>[\\s]*</script[\\s]*>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

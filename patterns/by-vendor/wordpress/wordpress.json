@@ -9,11 +9,7 @@
   "all_versions": [
     {
       "name": "WordPress CMS",
-      "category": "cms",
-      "subcategory": "cms-platform",
       "pattern": "X-Powered-By: WP [vV]?(\\d+\\.\\d+\\.\\d+)",
-      "vendor": "WordPress",
-      "product": "WordPress",
       "version_group": 1,
       "priority": 180,
       "confidence": 0.9,
@@ -36,7 +32,21 @@
             "input": "X-Powered-By: WP v6.1.1",
             "expected_version": "6.1.1"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "references": [
+          {
+            "title": "WordPress Developer Resources",
+            "url": "https://developer.wordpress.org/"
+          }
+        ],
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep WordPress updated to the latest stable version",
+        "compiled_pattern": true
       }
     },
     {
@@ -59,7 +69,21 @@
             "input": "<meta name=\"generator\" content=\"WordPress.com\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "references": [
+          {
+            "title": "WordPress Developer Resources",
+            "url": "https://developer.wordpress.org/"
+          }
+        ],
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep WordPress updated to the latest stable version",
+        "compiled_pattern": true
       }
     },
     {
@@ -82,7 +106,21 @@
             "input": "<a href=\"http://www.wordpress.com\">Powered by WordPress</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "references": [
+          {
+            "title": "WordPress Developer Resources",
+            "url": "https://developer.wordpress.org/"
+          }
+        ],
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep WordPress updated to the latest stable version",
+        "compiled_pattern": true
       }
     },
     {
@@ -105,7 +143,21 @@
             "input": "<link rel='https://api.w.org/'",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "references": [
+          {
+            "title": "WordPress Developer Resources",
+            "url": "https://developer.wordpress.org/"
+          }
+        ],
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep WordPress updated to the latest stable version",
+        "compiled_pattern": true
       }
     },
     {
@@ -128,7 +180,21 @@
             "input": "\"[^\"]+/wp-content/[^\"]+\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "references": [
+          {
+            "title": "WordPress Developer Resources",
+            "url": "https://developer.wordpress.org/"
+          }
+        ],
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep WordPress updated to the latest stable version",
+        "compiled_pattern": true
       }
     },
     {
@@ -151,7 +217,21 @@
             "input": "<a title=\"Powered by WordPress\" href=\"http://wordpress.org/\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "references": [
+          {
+            "title": "WordPress Developer Resources",
+            "url": "https://developer.wordpress.org/"
+          }
+        ],
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep WordPress updated to the latest stable version",
+        "compiled_pattern": true
       }
     },
     {
@@ -174,7 +254,21 @@
             "input": "<a href=\"http://wordpress.org/\" title=\"Powered by WordPress\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "references": [
+          {
+            "title": "WordPress Developer Resources",
+            "url": "https://developer.wordpress.org/"
+          }
+        ],
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep WordPress updated to the latest stable version",
+        "compiled_pattern": true
       }
     },
     {
@@ -197,7 +291,21 @@
             "input": "action=lostpassword",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "references": [
+          {
+            "title": "WordPress Developer Resources",
+            "url": "https://developer.wordpress.org/"
+          }
+        ],
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep WordPress updated to the latest stable version",
+        "compiled_pattern": true
       }
     }
   ]

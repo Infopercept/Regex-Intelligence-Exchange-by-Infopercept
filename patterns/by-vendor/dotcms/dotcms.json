@@ -4,6 +4,7 @@
   "product": "DotCMS",
   "product_id": "dotcms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<img[^>]+src=\"[^\"]*/dotAsset/",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img[^>]+src=\"[^\"]*/dotAsset/",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<link[^>]+href=\"[^\"]*/dotAsset/",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link[^>]+href=\"[^\"]*/dotAsset/",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<a[^>]+href=\"[^h][^\"]*index.dot",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a[^>]+href=\"[^h][^\"]*index\\.dot",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "dotcms",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "dotcms",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

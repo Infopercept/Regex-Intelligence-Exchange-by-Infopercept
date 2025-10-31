@@ -4,6 +4,7 @@
   "product": "CoDeSys-Web-Visualization",
   "product_id": "codesys-web-visualization",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<TITLE>CoDeSys WebVisualization</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>CoDeSys\\ WebVisualization</TITLE>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<APPLET CODEBASE=. CODE=webvisu/WebVisu.class name=\"WebVisu\" width=\"100%\" height=\"100%\" id=\"webvisuapplet\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<APPLET\\ CODEBASE=\\.\\ CODE=webvisu/WebVisu\\.class\\ name=\"WebVisu\"\\ width=\"100%\"\\ height=\"100%\"\\ id=\"webvisuapplet\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<APPLET CODEBASE=. CODE=webvisu/WebVisu.class name=\"WebVisu\" width=\"99%\" height=\"99%\" id=\"webvisuapplet\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<APPLET\\ CODEBASE=\\.\\ CODE=webvisu/WebVisu\\.class\\ name=\"WebVisu\"\\ width=\"99%\"\\ height=\"99%\"\\ id=\"webvisuapplet\">",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<param name=\"archive\" value=\"webvisu.jar,minml.jar\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<param\\ name=\"archive\"\\ value=\"webvisu\\.jar,minml\\.jar\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

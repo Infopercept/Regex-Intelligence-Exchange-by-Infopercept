@@ -4,6 +4,7 @@
   "product": "noVNC",
   "product_id": "novnc",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<div id=\"VNC_status_bar\" class=\"VNC_status_bar\" style=\"margin-top: 0px;\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"VNC_status_bar\"\\ class=\"VNC_status_bar\"\\ style=\"margin\\-top:\\ 0px;\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

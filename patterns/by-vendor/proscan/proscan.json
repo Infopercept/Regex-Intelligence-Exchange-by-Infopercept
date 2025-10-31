@@ -4,6 +4,7 @@
   "product": "ProScan",
   "product_id": "proscan",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^ProScan",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^ProScan",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Server: ^ProScan ([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^ProScan ([^\\s]+)$",
       "version_group": 1
@@ -70,11 +73,11 @@
             "input": "^ProScan",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^ProScan",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

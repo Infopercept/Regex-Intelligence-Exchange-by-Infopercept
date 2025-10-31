@@ -4,6 +4,7 @@
   "product": "Ektron-CMS",
   "product_id": "ektron-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "EkAnalytics",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "EkAnalytics",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "ecm=user_id=[d]+&isMembershipUser=[d]+&site_id=&username=&new_site=[^&]+&unique_id=[d]+&site_preview=[d]+&langvalue=[d]+&DefaultLanguage=[d]+",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "ecm=user_id=[\\d]+&isMembershipUser=[\\d]+&site_id=&username=&new_site=[^&]+&unique_id=[\\d]+&site_preview=[\\d]+&langvalue=[\\d]+&DefaultLanguage=[\\d]+",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<script id=\"EktronJS\" type=\"text/javascript\" src=\"/WorkArea/java/ektron.js\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ id=\"EktronJS\"\\ type=\"text/javascript\"\\ src=\"/WorkArea/java/ektron\\.js\">",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<script id=\"EktronRegisteredJs\" type=\"text/javascript\" src=\"/workarea/java/ektronJs.ashx?id=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ id=\"EktronRegisteredJs\"\\ type=\"text/javascript\"\\ src=\"/workarea/java/ektronJs\\.ashx\\?id=",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<script id=\"EktronModalJS\" type=\"text/javascript\" src=\"/WorkArea/java/plugins/modal/ektron.modal.js\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ id=\"EktronModalJS\"\\ type=\"text/javascript\"\\ src=\"/WorkArea/java/plugins/modal/ektron\\.modal\\.js\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Wildcat",
   "product_id": "wildcat",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^[wW]ildcat/v([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^[wW]ildcat/v([^\\s]+)",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "x-powered-by: Wildcat.Net v([^\\s]+)",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-powered-by: Wildcat.Net v([^\\s]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

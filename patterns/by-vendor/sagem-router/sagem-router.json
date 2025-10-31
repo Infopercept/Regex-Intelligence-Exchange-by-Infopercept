@@ -4,6 +4,7 @@
   "product": "Sagem-Router",
   "product_id": "sagem-router",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^Basic realm=\"?Sagem\"?$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Basic realm=\"?Sagem\"?$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

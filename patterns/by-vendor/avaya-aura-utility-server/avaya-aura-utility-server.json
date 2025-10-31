@@ -4,6 +4,7 @@
   "product": "Avaya-Aura-Utility-Server",
   "product_id": "avaya-aura-utility-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<span class=\"vmsTitle\">Avaya Aura&#8482;&nbsp;Utility Server</span>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<span\\ class=\"vmsTitle\">Avaya\\ Aura\\&\\#8482;\\&nbsp;Utility\\ Server</span>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<div id=\"topBar\"><div id=\"topBarLeft\"><a href=\"#\" class=\"helpAndExit\" onclick=\"window.open(\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"topBar\"><div\\ id=\"topBarLeft\"><a\\ href=\"\\#\"\\ class=\"helpAndExit\"\\ onclick=\"window\\.open\\(\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

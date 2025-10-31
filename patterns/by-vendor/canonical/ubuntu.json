@@ -4,14 +4,12 @@
   "product": "Ubuntu",
   "product_id": "canonical-ubuntu",
   "category": "os",
+  "subcategory": "linux-distribution",
   "versions": {},
   "all_versions": [
     {
       "name": "Ubuntu OS - SSH Banner",
-      "category": "os",
       "pattern": "Welcome to Ubuntu ([\\d.]+)",
-      "vendor": "Canonical",
-      "product": "Ubuntu",
       "version_group": 1,
       "priority": 160,
       "confidence": 0.9,
@@ -35,9 +33,9 @@
             "input": "Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.4.0-150-generic x86_64)",
             "expected_version": "20.04.6"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
-  ],
-  "subcategory": "linux-distribution"
+  ]
 }

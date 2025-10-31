@@ -4,6 +4,7 @@
   "product": "ASP_NET",
   "product_id": "asp_net",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "vti_title:SR|Web Settings for Active Server Pages",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "vti_title:SR\\|Web\\ Settings\\ for\\ Active\\ Server\\ Pages",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "This error page might contain sensitive information because ASP.NET is configured to show verbose error messages",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "This\\ error\\ page\\ might\\ contain\\ sensitive\\ information\\ because\\ ASP\\.NET\\ is\\ configured\\ to\\ show\\ verbose\\ error\\ messages",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "name=\"__VIEWSTATEENCRYPTED\" id=\"__VIEWSTATEENCRYPTED\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "name=\"__VIEWSTATEENCRYPTED\"\\ id=\"__VIEWSTATEENCRYPTED\"",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "asp.net",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "asp\\.net",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "x-aspnet-version: ^(.*)$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-aspnet-version: ^(.*)$",
       "version_group": 1
@@ -139,7 +145,8 @@
             "input": "^anonymousID=[^;]+; expires=[^;]+; path=[^;]+; HttpOnly",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^anonymousID=[^;]+; expires=[^;]+; path=[^;]+; HttpOnly",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "^chkvalues=[^;]+; expires=[^;]+; path=[^;]+; HttpOnly",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^chkvalues=[^;]+; expires=[^;]+; path=[^;]+; HttpOnly",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "^__RequestVerificationToken",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^__RequestVerificationToken",
       "version_group": 0
@@ -208,7 +217,8 @@
             "input": "^.ASPXANONYMOUS",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^.ASPXANONYMOUS",
       "version_group": 0
@@ -231,7 +241,8 @@
             "input": "^ASP.NET_SessionId",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^ASP.NET_SessionId",
       "version_group": 0
@@ -254,7 +265,8 @@
             "input": "^ASPSESSIONID",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^ASPSESSIONID",
       "version_group": 0
@@ -277,7 +289,8 @@
             "input": "<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ type=\"hidden\"\\ name=\"__VIEWSTATE\"\\ id=\"__VIEWSTATE\"",
       "version_group": 0
@@ -300,11 +313,11 @@
             "input": "^(asp|aspx|ashx)$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^(asp|aspx|ashx)$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

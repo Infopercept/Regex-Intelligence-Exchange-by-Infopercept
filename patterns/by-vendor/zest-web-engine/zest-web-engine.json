@@ -4,6 +4,7 @@
   "product": "Zest-Web-Engine",
   "product_id": "zest-web-engine",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "/cgi-bin/web.asp?title",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/cgi\\-bin/web\\.asp\\?title",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Powered by the <a href='http://www.zest-leisure.com/'>Zest Web Engine</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ the\\ <a\\ href='http://www\\.zest\\-leisure\\.com/'>Zest\\ Web\\ Engine</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "AMX-Mod-X",
   "product_id": "amx-mod-x",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "// *NOTE* amx_sql_type specifies the DEFAULT database type which admin.sma will use.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "//\\ \\*NOTE\\*\\ amx_sql_type\\ specifies\\ the\\ DEFAULT\\ database\\ type\\ which\\ admin\\.sma\\ will\\ use\\.",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

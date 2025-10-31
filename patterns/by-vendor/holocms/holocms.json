@@ -4,6 +4,7 @@
   "product": "HoloCMS",
   "product_id": "holocms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div id=\"remember-me-notification\" class=\"bottom-bubble\" style=\"display:none;\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"remember\\-me\\-notification\"\\ class=\"bottom\\-bubble\"\\ style=\"display:none;\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "^Powered by HoloCMS &copy[;]* 2008 Meth0d & Parts by Yifan, sisija",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Powered by HoloCMS &copy[;]* 2008 Meth0d & Parts by Yifan, sisija",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

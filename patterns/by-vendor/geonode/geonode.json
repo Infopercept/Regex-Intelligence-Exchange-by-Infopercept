@@ -4,6 +4,7 @@
   "product": "GeoNode",
   "product_id": "geonode",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<a href=\"/help/\" rel=\"tooltip\" title=\"help\"><i class=\"icon-question-sign\"></i></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"/help/\"\\ rel=\"tooltip\"\\ title=\"help\"><i\\ class=\"icon\\-question\\-sign\"></i></a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

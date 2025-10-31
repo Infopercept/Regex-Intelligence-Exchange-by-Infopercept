@@ -4,6 +4,7 @@
   "product": "TBDev-YSE",
   "product_id": "tbdev-yse",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- /////// Top Navigation Menu for unregistered-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ ///////\\ Top\\ Navigation\\ Menu\\ for\\ unregistered\\-\\->",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!-- /////////// here we go, with the menu //////////// -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ ///////////\\ here\\ we\\ go,\\ with\\ the\\ menu\\ ////////////\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

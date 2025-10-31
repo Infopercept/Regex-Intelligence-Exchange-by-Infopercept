@@ -4,6 +4,7 @@
   "product": "Winmail-Server",
   "product_id": "winmail-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>WebMail | Powered by Winmail Server - Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>WebMail\\ \\|\\ Powered\\ by\\ Winmail\\ Server\\ \\-\\ Login</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title>Web Administration | Powered by Winmail Server - Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Web\\ Administration\\ \\|\\ Powered\\ by\\ Winmail\\ Server\\ \\-\\ Login</title>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<td class=default>&nbsp;<input type=password name=f_password size=30 maxlength=64 onkeyup=\"javascript: EvalPwd(this.value);\" onchange=\"javascript: EvalPwd(this.value);\" class=\"textbox\"><font color=#ff0000>*</font></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ class=default>\\&nbsp;<input\\ type=password\\ name=f_password\\ size=30\\ maxlength=64\\ onkeyup=\"javascript:\\ EvalPwd\\(this\\.value\\);\"\\ onchange=\"javascript:\\ EvalPwd\\(this\\.value\\);\"\\ class=\"textbox\"><font\\ color=\\#ff0000>\\*</font></td>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<a target=\"_blank\" href=\"http://www.magicwinmail.net?sid=winmailcust\">Powered by Winmail Server</a>&nbsp;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ target=\"_blank\"\\ href=\"http://www\\.magicwinmail\\.net\\?sid=winmailcust\">Powered\\ by\\ Winmail\\ Server</a>\\&nbsp;",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<td align=\"right\" class=\"hometext\"><a href=\"http://www.magicwinmail.net?sid=winmailcust\" target=_blank>Powered by Winmail Server</a></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ align=\"right\"\\ class=\"hometext\"><a\\ href=\"http://www\\.magicwinmail\\.net\\?sid=winmailcust\"\\ target=_blank>Powered\\ by\\ Winmail\\ Server</a></td>",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<td rowspan=2 width=\"264\" bgcolor=\"#FFFFFF\"><img src=\"themes/default/images/mail_pic.jpg\" width=\"264\" height=\"102\"></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ rowspan=2\\ width=\"264\"\\ bgcolor=\"\\#FFFFFF\"><img\\ src=\"themes/default/images/mail_pic\\.jpg\"\\ width=\"264\"\\ height=\"102\"></td>",
       "version_group": 0
@@ -162,11 +169,11 @@
             "input": "<input type=checkbox name=f_autologin value=\"1\"><acronym style=\"cursor: hand;\" OnClick=\"f_autologin.click()\">Automatically login at next time</acronym>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ type=checkbox\\ name=f_autologin\\ value=\"1\"><acronym\\ style=\"cursor:\\ hand;\"\\ OnClick=\"f_autologin\\.click\\(\\)\">Automatically\\ login\\ at\\ next\\ time</acronym>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

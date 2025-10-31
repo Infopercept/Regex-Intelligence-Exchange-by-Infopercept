@@ -4,6 +4,7 @@
   "product": "qTranslate",
   "product_id": "qtranslate",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "qtrans_cookie_test=[^+]++Cookie+Test;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "qtrans_cookie_test=[^\\+]+\\+Cookie\\+Test;",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "MaxMind-GeoIP",
   "product_id": "maxmind-geoip",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<script type=\"(JavaScript|text/javascript)\" src=\"(http://)?j.maxmind.com/app/(country|geoip).js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script type=\"(JavaScript|text/javascript)\" src=\"(http://)?j\\.maxmind\\.com/app/(country|geoip)\\.js\"></script>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

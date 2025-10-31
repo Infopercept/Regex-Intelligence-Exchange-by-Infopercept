@@ -4,6 +4,7 @@
   "product": "Concrete5",
   "product_id": "concrete5",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "bvar CCM_DISPATCHER_FILENAME ?=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\bvar CCM_DISPATCHER_FILENAME ?=",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "^CONCRETE5=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^CONCRETE5=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

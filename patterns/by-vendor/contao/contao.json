@@ -4,6 +4,7 @@
   "product": "Contao",
   "product_id": "contao",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "This website is powered by Contao Open Source CMS :: Licensed under GNU/LGPL",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "This\\ website\\ is\\ powered\\ by\\ Contao\\ Open\\ Source\\ CMS\\ ::\\ Licensed\\ under\\ GNU/LGPL",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!-- indexer::continue -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ indexer::continue\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "MeiTrack",
   "product_id": "meitrack",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "var _TrackerMain_GTVTSeries = \"GT Series\\\\\\\\VT Series\";",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "var\\ _TrackerMain_GTVTSeries\\ =\\ \"GT\\ Series\\\\\\\\\\\\\\\\VT\\ Series\";",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<form name=\"form1\" method=\"post\" action=\"trackerlogin.aspx\" id=\"form1\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ name=\"form1\"\\ method=\"post\"\\ action=\"trackerlogin\\.aspx\"\\ id=\"form1\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Tencent-QQ",
   "product_id": "tencent-qq",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^HTTP_ME/d.d Tencent/HTTP_Magic_Expression$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^HTTP_ME/\\d\\.\\d Tencent/HTTP_Magic_Expression$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

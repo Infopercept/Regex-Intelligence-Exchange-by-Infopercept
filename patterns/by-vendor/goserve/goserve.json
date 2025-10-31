@@ -4,6 +4,7 @@
   "product": "GoServe",
   "product_id": "goserve",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^GoServe",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^GoServe",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Server: ^GoServe/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^GoServe/([^\\s]+)$",
       "version_group": 1
@@ -70,11 +73,11 @@
             "input": "Server: ^GoServe for OS/2, version ([^\\s^;]+); SRE-http [\\d\\.]+$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^GoServe for OS/2, version ([^\\s^;]+); SRE-http [\\d\\.]+$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

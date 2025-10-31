@@ -4,6 +4,7 @@
   "product": "Motorito",
   "product_id": "motorito",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- end META_TAGS subst -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ end\\ META_TAGS\\ subst\\ \\-\\->",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!-- CAL POSAR UN DISCRIMINADOR DE NAVEGADORS PER CARREGAR ELS ESTILS ADEQUATS -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ CAL\\ POSAR\\ UN\\ DISCRIMINADOR\\ DE\\ NAVEGADORS\\ PER\\ CARREGAR\\ ELS\\ ESTILS\\ ADEQUATS\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "SmartThumbs",
   "product_id": "smartthumbs",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "POWERED[s]+BY[s]+<a href=\"http://www.smart-scripts.com\">SMART THUMBS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "POWERED[\\s]+BY[\\s]+<a href=\"http://www.smart-scripts.com\">SMART THUMBS</a>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "POWERED BY<span> <a href=\"http://www.thumbsrotator.com\"><b><span style=\"font-size: 11px; font-family: Verdana, Arial;\">SMART THUMBS</span>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "POWERED\\ BY<span>\\ <a\\ href=\"http://www\\.thumbsrotator\\.com\"><b><span\\ style=\"font\\-size:\\ 11px;\\ font\\-family:\\ Verdana,\\ Arial;\">SMART\\ THUMBS</span>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

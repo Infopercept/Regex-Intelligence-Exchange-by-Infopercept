@@ -4,6 +4,7 @@
   "product": "Oracle-Internet-Application-Server",
   "product_id": "oracle-internet-application-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^Oracle9iAS/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Oracle9iAS/([^\\s]+)",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "Server: ^Oracle9iAS \\(([^\\s^\\)]+)\\)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Oracle9iAS \\(([^\\s^\\)]+)\\)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

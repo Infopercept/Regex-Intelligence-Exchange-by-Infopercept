@@ -4,6 +4,7 @@
   "product": "TFTgallery",
   "product_id": "tftgallery",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Select an album: <select name=\"album\" onchange=\"javascript:document.tftnavi.submit();\"><option></option>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Select\\ an\\ album:\\ <select\\ name=\"album\"\\ onchange=\"javascript:document\\.tftnavi\\.submit\\(\\);\"><option></option>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title>TFTgallery administration</title><link rel='stylesheet' type='text/css' href",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>TFTgallery\\ administration</title><link\\ rel='stylesheet'\\ type='text/css'\\ href",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<div class=\"login_text\"><br /><a href=\"../index.php\">back to the gallery</a></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ class=\"login_text\"><br\\ /><a\\ href=\"\\.\\./index\\.php\">back\\ to\\ the\\ gallery</a></div>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<td class='footer_right'><a href='http://www.tftgallery.org/' target='_blank'><img src=\"[^\"]*images/TFTgallery.png\" alt=\"TFTgallery\" border=\"0\" /></a></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td class='footer_right'><a href='http://www.tftgallery.org/' target='_blank'><img src=\"[^\"]*images/TFTgallery.png\" alt=\"TFTgallery\" border=\"0\" /></a></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

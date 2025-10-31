@@ -4,6 +4,7 @@
   "product": "Tektroniks",
   "product_id": "tektroniks",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<p>Transfering you to login page in 2 seconds...</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p>Transfering\\ you\\ to\\ login\\ page\\ in\\ 2\\ seconds\\.\\.\\.</p>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<td width=\"100\"><label id=\"AU_LOGIN_ID_label\" for=\"AU_LOGIN_ID\" dataType=\"\" required=\"true\">User Name:</label></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ width=\"100\"><label\\ id=\"AU_LOGIN_ID_label\"\\ for=\"AU_LOGIN_ID\"\\ dataType=\"\"\\ required=\"true\">User\\ Name:</label></td>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "Server: ^Tektroniks/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Tektroniks/([^\\s]+)$",
       "version_group": 1
@@ -93,11 +97,11 @@
             "input": "Basic realm=\"Tektroniks\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Basic\\ realm=\"Tektroniks\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

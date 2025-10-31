@@ -4,6 +4,7 @@
   "product": "Redaxscript",
   "product_id": "redaxscript",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Powered by <a href=\"http://redaxscript.com\">Redaxscript</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://redaxscript\\.com\">Redaxscript</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Nera-SatLink",
   "product_id": "nera-satlink",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Basic realm=\"SatLink Terminal\"$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Basic realm=\"SatLink Terminal\"$",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<FORM ID =\"statussatellite\" name = \"statussatellite\" method = \"GET\" action = \"\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<FORM\\ ID\\ =\"statussatellite\"\\ name\\ =\\ \"statussatellite\"\\ method\\ =\\ \"GET\"\\ action\\ =\\ \"\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

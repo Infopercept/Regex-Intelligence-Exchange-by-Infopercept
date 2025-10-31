@@ -4,6 +4,7 @@
   "product": "Rapidleech",
   "product_id": "rapidleech",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<small[^>]+>Credits to Pramode &amp; Checkmate &amp; Kloon</small><br",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<small[^>]+>Credits to Pramode &amp; Checkmate &amp; Kloon</small><br",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<small[^>]+>Credits to Pramode &amp; Checkmate &amp; Kloon. Mod by: MsNeil &amp; Idoenk</small><br",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<small[^>]+>Credits to Pramode &amp; Checkmate &amp; Kloon. Mod by: MsNeil &amp; Idoenk</small><br",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

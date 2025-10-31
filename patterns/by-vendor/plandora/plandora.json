@@ -4,6 +4,7 @@
   "product": "Plandora",
   "product_id": "plandora",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<area shape=\"rect\" coords=\"180,1,215,30\" href=\"javascript:void(0);\" onClick=\"closeFloatPanel();\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<area\\ shape=\"rect\"\\ coords=\"180,1,215,30\"\\ href=\"javascript:void\\(0\\);\"\\ onClick=\"closeFloatPanel\\(\\);\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Adobe-Connect",
   "product_id": "adobe-connect",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<script src=\"/common/scripts/showContent.js\"></script><script type=\"text/javascript\" src=\"/common/scripts/breezeUI.js\"></script><script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ src=\"/common/scripts/showContent\\.js\"></script><script\\ type=\"text/javascript\"\\ src=\"/common/scripts/breezeUI\\.js\"></script><script>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "BREEZESESSION=breez[^;]+;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "BREEZESESSION=breez[^;]+;",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

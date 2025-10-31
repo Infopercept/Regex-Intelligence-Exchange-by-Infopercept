@@ -4,6 +4,7 @@
   "product": "Claroline",
   "product_id": "claroline",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<link href=\"http://www.claroline.net/documentation.htm\" rel=\"Help\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ href=\"http://www\\.claroline\\.net/documentation\\.htm\"\\ rel=\"Help\"\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<link href=\"http://www.claroline.net/credits.htm\" rel=\"Author\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ href=\"http://www\\.claroline\\.net/credits\\.htm\"\\ rel=\"Author\"\\ />",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<link href=\"http://www.claroline.net\" rel=\"Copyright\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ href=\"http://www\\.claroline\\.net\"\\ rel=\"Copyright\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

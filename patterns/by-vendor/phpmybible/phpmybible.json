@@ -4,6 +4,7 @@
   "product": "phpMyBible",
   "product_id": "phpmybible",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div class='randomverse'>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ class='randomverse'>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<div class='fleft'><div class='chaphead'>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ class='fleft'><div\\ class='chaphead'>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

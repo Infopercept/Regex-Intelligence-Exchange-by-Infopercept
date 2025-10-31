@@ -4,6 +4,7 @@
   "product": "Dell-KACE-Appliance",
   "product_id": "dell-kace-appliance",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "x-dellkace-version: ^(.+)$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-dellkace-version: ^(.+)$",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "x-kbox-version: ^(.+)$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-kbox-version: ^(.+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

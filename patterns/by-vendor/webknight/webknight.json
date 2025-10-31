@@ -4,6 +4,7 @@
   "product": "WebKnight",
   "product_id": "webknight",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^WebKnight",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^WebKnight",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^WebKnight/(.+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^WebKnight/(.+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

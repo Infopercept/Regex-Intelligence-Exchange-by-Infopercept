@@ -4,6 +4,7 @@
   "product": "UseResponse",
   "product_id": "useresponse",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "title=\"Customer Feedback Software, Community Support System\" target=\"_blank\" href=\"http://www.useresponse.com\" class=\"popup-logo\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "title=\"Customer\\ Feedback\\ Software,\\ Community\\ Support\\ System\"\\ target=\"_blank\"\\ href=\"http://www\\.useresponse\\.com\"\\ class=\"popup\\-logo\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- DO NOT MODIFY (ABOVE|BELOW) THIS LINE UNLESS PURCHASED BRANDING REMOVAL -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!-- DO NOT MODIFY (ABOVE|BELOW) THIS LINE UNLESS PURCHASED BRANDING REMOVAL -->",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<form id=\"system-form-registration\" enctype=\"application/x-www-form-urlencoded\" class=\"system-form-registration\" accept-charset=\"utf-8\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ id=\"system\\-form\\-registration\"\\ enctype=\"application/x\\-www\\-form\\-urlencoded\"\\ class=\"system\\-form\\-registration\"\\ accept\\-charset=\"utf\\-8\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

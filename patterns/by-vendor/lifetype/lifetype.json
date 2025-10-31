@@ -4,6 +4,7 @@
   "product": "LifeType",
   "product_id": "lifetype",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by <a href=\"http://lifetype.net[^>]*>Lifetype</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by <a href=\"http://lifetype.net[^>]*>Lifetype</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by <a href=\"http://www.lifetype.net\">LifeType</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.lifetype\\.net\">LifeType</a>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "LifeType has not been installed yet, you\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "LifeType\\ has\\ not\\ been\\ installed\\ yet,\\ you\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

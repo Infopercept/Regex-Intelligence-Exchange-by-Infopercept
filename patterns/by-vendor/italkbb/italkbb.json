@@ -4,6 +4,7 @@
   "product": "iTalkBB",
   "product_id": "italkbb",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<P align=center><FONT size=5>welcome to phone settings</FONT></P><FORM action=/a ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<P align=center><FONT size=5>welcome to phone settings</FONT></P><FORM action=/a ",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

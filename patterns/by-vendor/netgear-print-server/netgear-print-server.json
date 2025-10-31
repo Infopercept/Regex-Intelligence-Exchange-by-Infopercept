@@ -4,6 +4,7 @@
   "product": "NetGear-Print-Server",
   "product_id": "netgear-print-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>NetGear Print Server Setup</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>NetGear\\ Print\\ Server\\ Setup</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<p>To provide an enhanced user interface, this Print Server uses JavaScript extensively.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p>To\\ provide\\ an\\ enhanced\\ user\\ interface,\\ this\\ Print\\ Server\\ uses\\ JavaScript\\ extensively\\.",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<title>NETGEAR Print Server </title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>NETGEAR\\ Print\\ Server\\ </title>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "Server: ^PRINT_SERVER WEB 8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^PRINT_SERVER WEB ([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

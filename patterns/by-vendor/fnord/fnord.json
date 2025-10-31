@@ -4,6 +4,7 @@
   "product": "fnord",
   "product_id": "fnord",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^fnord/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^fnord/([^\\s]+)$",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "^fnord",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^fnord",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

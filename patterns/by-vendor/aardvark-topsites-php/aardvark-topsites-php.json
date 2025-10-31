@@ -4,6 +4,7 @@
   "product": "Aardvark-Topsites-PHP",
   "product_id": "aardvark-topsites-php",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Powered by <a href=\"http://www.aardvarktopsitesphp.com[^>]*>[^A]*Aardvark Topsites PHP",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by <a href=\"http://www.aardvarktopsitesphp.com[^>]*>[^A]*Aardvark Topsites PHP",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

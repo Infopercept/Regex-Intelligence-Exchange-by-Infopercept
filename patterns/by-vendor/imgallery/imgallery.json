@@ -4,6 +4,7 @@
   "product": "IMGallery",
   "product_id": "imgallery",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Powered by <a class = \"a07\" href=\"http://www.imgallery.zor.pl\"><b>IMGallery</b></a> &copy; Dariusz Niemiec",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ class\\ =\\ \"a07\"\\ href=\"http://www\\.imgallery\\.zor\\.pl\"><b>IMGallery</b></a>\\ \\&copy;\\ Dariusz\\ Niemiec",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

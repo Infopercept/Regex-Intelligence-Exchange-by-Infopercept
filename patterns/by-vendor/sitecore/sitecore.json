@@ -4,6 +4,7 @@
   "product": "SiteCore",
   "product_id": "sitecore",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^SC_ANALYTICS_",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^SC_ANALYTICS_",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "^sc_expview",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^sc_expview",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

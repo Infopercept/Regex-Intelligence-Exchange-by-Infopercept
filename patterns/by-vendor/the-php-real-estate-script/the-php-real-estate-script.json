@@ -4,6 +4,7 @@
   "product": "The-PHP-Real-Estate-Script",
   "product_id": "the-php-real-estate-script",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<tr><td><h3>Administration Login<hr size=1/></h3><form action='login.php' method='post'><table border=0 cellpadding=2><tr><td>Username</td><td><input type='text' name='Username' required='yes' validate='text' message='Enter Admin Username.'></td></tr><tr><td>Password</td><td><input type='password' name='Password' required='yes' validate='text' message='Enter Admin Password.'></td></tr><td valign='top'>Image Verification</td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr><td><h3>Administration\\ Login<hr\\ size=1/></h3><form\\ action='login\\.php'\\ method='post'><table\\ border=0\\ cellpadding=2><tr><td>Username</td><td><input\\ type='text'\\ name='Username'\\ required='yes'\\ validate='text'\\ message='Enter\\ Admin\\ Username\\.'></td></tr><tr><td>Password</td><td><input\\ type='password'\\ name='Password'\\ required='yes'\\ validate='text'\\ message='Enter\\ Admin\\ Password\\.'></td></tr><td\\ valign='top'>Image\\ Verification</td>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<tr><td><h3>Administration Login<hr size=1/></h3><form action='login.php' method='post'><table border=0 cellpadding=2><tr><td>Username</td><td><input type='text' name='Username' required='yes' value='admin' validate='text' message='Enter Admin Username.'></td></tr><tr><td>Password</td><td><input type='password' name='Password' required='yes' validate='text' value='admin' message='Enter Admin Password.'></td></tr><td valign='top'>Image Verification</td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr><td><h3>Administration\\ Login<hr\\ size=1/></h3><form\\ action='login\\.php'\\ method='post'><table\\ border=0\\ cellpadding=2><tr><td>Username</td><td><input\\ type='text'\\ name='Username'\\ required='yes'\\ value='admin'\\ validate='text'\\ message='Enter\\ Admin\\ Username\\.'></td></tr><tr><td>Password</td><td><input\\ type='password'\\ name='Password'\\ required='yes'\\ validate='text'\\ value='admin'\\ message='Enter\\ Admin\\ Password\\.'></td></tr><td\\ valign='top'>Image\\ Verification</td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

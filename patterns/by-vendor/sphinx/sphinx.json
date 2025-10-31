@@ -4,6 +4,7 @@
   "product": "Sphinx",
   "product_id": "sphinx",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<div class=\"sphinxsidebar\">[s]+<div class=\"sphinxsidebarwrapper\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div class=\"sphinxsidebar\">[\\s]+<div class=\"sphinxsidebarwrapper\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

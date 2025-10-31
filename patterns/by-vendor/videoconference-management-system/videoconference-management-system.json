@@ -4,6 +4,7 @@
   "product": "Videoconference-Management-System",
   "product_id": "videoconference-management-system",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta NAME=\"AUTHOR\" CONTENT=\"TANDBERG ASA (http://www.tandberg.net)\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ NAME=\"AUTHOR\"\\ CONTENT=\"TANDBERG\\ ASA\\ \\(http://www\\.tandberg\\.net\\)\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "content=\"TANDBERG is a leading global provider of videoconferencing solutions. The company designs, develops and manufactures videoconferencing systems and offers sales, support and value-added services in more than 50 countries worldwide.\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "content=\"TANDBERG\\ is\\ a\\ leading\\ global\\ provider\\ of\\ videoconferencing\\ solutions\\.\\ The\\ company\\ designs,\\ develops\\ and\\ manufactures\\ videoconferencing\\ systems\\ and\\ offers\\ sales,\\ support\\ and\\ value\\-added\\ services\\ in\\ more\\ than\\ 50\\ countries\\ worldwide\\.\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<title>TANDBERG</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>TANDBERG</title>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "\t\t<frame src=\"framemiddle.htm\" name=\"No Name\" noresize marginheight=\"0\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t<frame\\ src=\"framemiddle\\.htm\"\\ name=\"No\\ Name\"\\ noresize\\ marginheight=\"0\">",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "\t<title>Middle frame of Videoconference Management System</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<title>Middle\\ frame\\ of\\ Videoconference\\ Management\\ System</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

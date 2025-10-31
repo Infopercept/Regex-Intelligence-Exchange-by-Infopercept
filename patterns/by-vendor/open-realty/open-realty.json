@@ -4,6 +4,7 @@
   "product": "Open-Realty",
   "product_id": "open-realty",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"Generator\" content=\"Open-Realty\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"Generator\"\\ content=\"Open\\-Realty\"\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by <a href=\"http://www.open-realty.org\"><b>Open-Realty</b></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.open\\-realty\\.org\"><b>Open\\-Realty</b></a>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "Powered by <a href=\"http://open-realty.org\" title=\"Open-Realty&reg;\" rel=\"external\">Open-Realty</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://open\\-realty\\.org\"\\ title=\"Open\\-Realty\\&reg;\"\\ rel=\"external\">Open\\-Realty</a>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<!--Open-Realty is distributed by Transparent Technologies and is Licensed under the Open-Realty License. See http://www.open-realty.org/license_info.html for more information.-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-Open\\-Realty\\ is\\ distributed\\ by\\ Transparent\\ Technologies\\ and\\ is\\ Licensed\\ under\\ the\\ Open\\-Realty\\ License\\.\\ See\\ http://www\\.open\\-realty\\.org/license_info\\.html\\ for\\ more\\ information\\.\\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

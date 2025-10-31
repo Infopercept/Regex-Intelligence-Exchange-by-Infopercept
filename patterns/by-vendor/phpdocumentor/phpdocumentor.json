@@ -4,6 +4,7 @@
   "product": "phpDocumentor",
   "product_id": "phpdocumentor",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>docBuilder - phpDocumentor web interface</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>docBuilder\\ \\-\\ phpDocumentor\\ web\\ interface</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"Description\" content=\"Frameset for phpDcoumentor docBuilder web interface\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"Description\"\\ content=\"Frameset\\ for\\ phpDcoumentor\\ docBuilder\\ web\\ interface\">",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<meta name=\"Description\" content=\"Frameset for phpDocumentor docBuilder web interface\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"Description\"\\ content=\"Frameset\\ for\\ phpDocumentor\\ docBuilder\\ web\\ interface\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

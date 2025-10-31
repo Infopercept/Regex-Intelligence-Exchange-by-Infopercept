@@ -4,6 +4,7 @@
   "product": "The-Amazing-Little-Poll",
   "product_id": "the-amazing-little-poll",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<form action=\"lp_admin.php\" method=\"post\" name=\"form0\">Admin Password:<input type=\"hidden\" name=\"adminstep\" value=\"1\"><input type=\"Password\" name=\"pwd\" size=\"20\"><br><input type=\"Submit\" value=\"OK\"></form>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ action=\"lp_admin\\.php\"\\ method=\"post\"\\ name=\"form0\">Admin\\ Password:<input\\ type=\"hidden\"\\ name=\"adminstep\"\\ value=\"1\"><input\\ type=\"Password\"\\ name=\"pwd\"\\ size=\"20\"><br><input\\ type=\"Submit\"\\ value=\"OK\"></form>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "pollidcookie=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "pollidcookie=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "XHP-CMS",
   "product_id": "xhp-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<title>XHP installation</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>XHP\\ installation</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

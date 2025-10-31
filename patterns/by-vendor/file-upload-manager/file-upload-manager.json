@@ -4,6 +4,7 @@
   "product": "File-Upload-Manager",
   "product_id": "file-upload-manager",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>File Upload Manager</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>File\\ Upload\\ Manager</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- Copyright (c) 2003 thepeak. Get your own copy of this free PHP script from www.mtnpeak.net -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Copyright\\ \\(c\\)\\ 2003\\ thepeak\\.\\ Get\\ your\\ own\\ copy\\ of\\ this\\ free\\ PHP\\ script\\ from\\ www\\.mtnpeak\\.net\\ \\-\\->",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<a href=\"http://www.mtnpeak.net\" style=\"text-decoration: none; color: #C0C0C0; font-size: 9px; cursor: default\";>&copy; thepeak</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.mtnpeak\\.net\"\\ style=\"text\\-decoration:\\ none;\\ color:\\ \\#C0C0C0;\\ font\\-size:\\ 9px;\\ cursor:\\ default\";>\\&copy;\\ thepeak</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Sipura-VoIP-Phone",
   "product_id": "sipura-voip-phone",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<form action=\"bsipura.spa\" method=\"POST\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ action=\"bsipura\\.spa\"\\ method=\"POST\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<img width=\"100%\" src=\"/spabanner.jpg\" border=\"0\" alt=\"Sipura Technology Inc\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ width=\"100%\"\\ src=\"/spabanner\\.jpg\"\\ border=\"0\"\\ alt=\"Sipura\\ Technology\\ Inc\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

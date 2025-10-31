@@ -4,6 +4,7 @@
   "product": "TivoWebPlus",
   "product_id": "tivowebplus",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "TivoWebPlus",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "TivoWebPlus",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "www-authenticate: ^Basic realm=['\"]TivoWebPlus - v([^'^\"]+)['\"]$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "www-authenticate: ^Basic realm=['\"]TivoWebPlus - v([^'^\"]+)['\"]$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

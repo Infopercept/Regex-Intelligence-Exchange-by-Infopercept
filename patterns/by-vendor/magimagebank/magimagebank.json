@@ -4,6 +4,7 @@
   "product": "MagImageBank",
   "product_id": "magimagebank",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "</div></div><div id=\"SiteBottom\" class=\"fun\"></div><div id=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "</div></div><div\\ id=\"SiteBottom\"\\ class=\"fun\"></div><div\\ id=\\\\",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<link href=\"/imagebank/stylesheets/fancybox.css?[d]+\" media=\"screen\" rel=\"Stylesheet\" type=\"text/css\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link href=\"/imagebank/stylesheets/fancybox\\.css\\?[\\d]+\" media=\"screen\" rel=\"Stylesheet\" type=\"text/css\" />",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "Powered by MagImageBank | <a href=\"http://magimagebank.com/\">magimagebank.com</a> | <a href=\"mailto:info@magimagebank.com\">info@magimagebank.com</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ MagImageBank\\ \\|\\ <a\\ href=\"http://magimagebank\\.com/\">magimagebank\\.com</a>\\ \\|\\ <a\\ href=\"mailto:info@magimagebank\\.com\">info@magimagebank\\.com</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

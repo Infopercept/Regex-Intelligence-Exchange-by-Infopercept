@@ -4,6 +4,7 @@
   "product": "OpenConf",
   "product_id": "openconf",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by <a href=\"http://www.OpenConf.org\" target=\"_blank\">OpenConf</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.OpenConf\\.org\"\\ target=\"_blank\">OpenConf</a>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "OPENCONF=[^;]+;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "OPENCONF=[^;]+;",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "ArGoSoft-Mail-Server",
   "product_id": "argosoft-mail-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ArGoSoft Mail Server Pro for WinNT/2000, Version [\\d\\.]+ \\(8.5\\)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ArGoSoft Mail Server Pro for WinNT/2000, Version [\\d\\.]+ \\(([\\d\\.]+)\\)",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "Server: ArGoSoft Mail Server Pro for WinNT/2000/XP, Version [\\d\\.]+ \\(8.5\\)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ArGoSoft Mail Server Pro for WinNT/2000/XP, Version [\\d\\.]+ \\(([\\d\\.]+)\\)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

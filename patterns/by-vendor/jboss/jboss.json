@@ -4,6 +4,7 @@
   "product": "JBoss",
   "product_id": "jboss",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Welcome to JBoss AS</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Welcome to JBoss AS</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<a href=\"/admin-console/\">Administration Console</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\\\"/admin-console/\\\">Administration Console</a>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<a href=\"/web-console/\">Jboss Web Console</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\\\"/web-console/\\\">Jboss Web Console</a>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<a href=\"/jmx-console/\">JMX Console</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\\\"/jmx-console/\\\">JMX Console</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

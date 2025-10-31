@@ -4,6 +4,7 @@
   "product": "bitweaver",
   "product_id": "bitweaver",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a id=\"poweredby\" class=\"external\" href=\"http://www.bitweaver.org\">Powered by bitweaver</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ id=\"poweredby\"\\ class=\"external\"\\ href=\"http://www\\.bitweaver\\.org\">Powered\\ by\\ bitweaver</a>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<meta name=\"generator\" content=\"bitweaver - http://www.bitweaver.org\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"bitweaver\\ \\-\\ http://www\\.bitweaver\\.org\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

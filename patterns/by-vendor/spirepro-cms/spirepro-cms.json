@@ -4,6 +4,7 @@
   "product": "SpirePRO-CMS",
   "product_id": "spirepro-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<script xmlns:a=\"http://www.1stomni.com/spire/aml\" type=\"text/javascript\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ xmlns:a=\"http://www\\.1stomni\\.com/spire/aml\"\\ type=\"text/javascript\"",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"Spire-Last-Modified\" content=\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"Spire\\-Last\\-Modified\"\\ content=\"",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<meta name=\"Spire-Editor\" content=\"([^\"]+)\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"Spire-Editor\" content=\"([^\"]+)\">",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "^SpirePRO CMS",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^SpirePRO CMS",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

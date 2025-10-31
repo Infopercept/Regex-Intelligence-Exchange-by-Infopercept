@@ -4,6 +4,7 @@
   "product": "ABO_CMS",
   "product_id": "abo_cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "a-powered-by: ^ABO\\.CMS( E-commerce| Corporative)? 1.0",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "a-powered-by: ^ABO\\.CMS( E-commerce| Corporative)? ([\\d\\.]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

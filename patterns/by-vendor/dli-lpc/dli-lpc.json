@@ -4,6 +4,7 @@
   "product": "DLI-LPC",
   "product_id": "dli-lpc",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Power Controller </title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Power\\ Controller\\ </title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<FORM NAME=\"login\" ID=\"login\" ACTION=\"/login.tgi\" METHOD=post>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<FORM\\ NAME=\"login\"\\ ID=\"login\"\\ ACTION=\"/login\\.tgi\"\\ METHOD=post>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<FORM NAME=\"secin\" ID=\"secin\" ACTION=\"/login.tgi\" METHOD=post>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<FORM\\ NAME=\"secin\"\\ ID=\"secin\"\\ ACTION=\"/login\\.tgi\"\\ METHOD=post>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<tr><td align=center><h1>Warning: Insecure Authentication</h1></td></tr>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr><td\\ align=center><h1>Warning:\\ Insecure\\ Authentication</h1></td></tr>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<TD><INPUT onClick=\"calcResponse(); return false;\" TYPE=\"Submit\" NAME=\"Submitbtn\" VALUE=\"OK\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TD><INPUT\\ onClick=\"calcResponse\\(\\);\\ return\\ false;\"\\ TYPE=\"Submit\"\\ NAME=\"Submitbtn\"\\ VALUE=\"OK\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

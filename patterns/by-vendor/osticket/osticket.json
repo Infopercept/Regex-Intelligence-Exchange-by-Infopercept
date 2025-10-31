@@ -4,6 +4,7 @@
   "product": "osTicket",
   "product_id": "osticket",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>osTicket Installer</title>[s]+<link rel=\"stylesheet\" href=\"style.css\" media=\"screen\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>osTicket Installer</title>[\\s]+<link rel=\"stylesheet\" href=\"style\\.css\" media=\"screen\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<a id=\"powered_by\" href=\"http://osticket.com\"><img src=\"./images/poweredby.jpg\" width=\"126\" height=\"23\" alt=\"Powered by osTicket\"></a></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a id=\"powered_by\" href=\"http://osticket\\.com\"><img src=\"\\./images/poweredby\\.jpg\" width=\"126\" height=\"23\" alt=\"Powered by osTicket\"></a></div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

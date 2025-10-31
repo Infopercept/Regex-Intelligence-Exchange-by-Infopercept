@@ -4,6 +4,7 @@
   "product": "PHP-Support-Tickets",
   "product_id": "php-support-tickets",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>PHP Support Tickets :: Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>PHP\\ Support\\ Tickets\\ ::\\ Login</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"copyright\"   content=\"Triangle Solutions Ltd\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"copyright\"\\ \\ \\ content=\"Triangle\\ Solutions\\ Ltd\"\\ />",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<!--<td class=\"boxborder list-menu\" width=\"10%\"><a href=\"javascript:popwindow('help.php#userpage','top=150,left=300,width=400,height=400,buttons=no,scrollbars=YES,location=no,menubar=no,resizable=no,status=no,directories=no,toolbar=no')\" title=\"Help popup\">Help</a></td>-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!--<td class=\"boxborder list-menu\" width=\"10%\"><a href=\"javascript:popwindow\\('help\\.php#userpage','top=150,left=300,width=400,height=400,buttons=no,scrollbars=YES,location=no,menubar=no,resizable=no,status=no,directories=no,toolbar=no'\\)\" title=\"Help popup\">Help</a></td>-->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

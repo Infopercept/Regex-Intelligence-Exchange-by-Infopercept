@@ -4,6 +4,7 @@
   "product": "Intellinet-IP-Camera",
   "product_id": "intellinet-ip-camera",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "    <font size=\"4\" color=\"#FFFFFF\" face=\"Arial\">NETWORK IP CAMERA<br>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ <font\\ size=\"4\"\\ color=\"\\#FFFFFF\"\\ face=\"Arial\">NETWORK\\ IP\\ CAMERA<br>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<TITLE>::::: INTELLINET IP Camera Homepage :::::</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>:::::\\ INTELLINET\\ IP\\ Camera\\ Homepage\\ :::::</TITLE>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<title>::::: INTELLINET ACTIVE NETWORKING Network IP Camera Homepage :::::</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>:::::\\ INTELLINET\\ ACTIVE\\ NETWORKING\\ Network\\ IP\\ Camera\\ Homepage\\ :::::</title>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<TITLE>INTELLINET NETWORK SOLUTIONS: Professional Series Network IP Camera Homepage</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>INTELLINET\\ NETWORK\\ SOLUTIONS:\\ Professional\\ Series\\ Network\\ IP\\ Camera\\ Homepage</TITLE>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<TITLE>INTELLINET NETWORK SOLUTIONS: Professional Series Wireless Network IP Camera Homepage</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>INTELLINET\\ NETWORK\\ SOLUTIONS:\\ Professional\\ Series\\ Wireless\\ Network\\ IP\\ Camera\\ Homepage</TITLE>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

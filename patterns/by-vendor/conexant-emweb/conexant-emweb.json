@@ -4,6 +4,7 @@
   "product": "Conexant-EmWeb",
   "product_id": "conexant-emweb",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" scrolling=\"no\" style=\"border-collapse: collapse\"bordercolor=\"#FFFFFF\" width=\"80%\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<table\\ border=\"1\"\\ cellpadding=\"0\"\\ cellspacing=\"0\"\\ scrolling=\"no\"\\ style=\"border\\-collapse:\\ collapse\"bordercolor=\"\\#FFFFFF\"\\ width=\"80%\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title>Flexor 151 Home</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Flexor\\ 151\\ Home</title>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<td><b>Flexor 151</b> is connected and working properly, for more information",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><b>Flexor\\ 151</b>\\ is\\ connected\\ and\\ working\\ properly,\\ for\\ more\\ information",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "Advanced configuration: <a style=\"font-size: 90%\" href=\"voice.html\">Voice Settings</a>&nbsp;&nbsp;&nbsp;<a style=\"font-size: 90%\" href=\"network.html\">Network Settings</a>&nbsp;&nbsp;&nbsp;<a style=\"font-size: 90%\" href=\"qos.html\">QoS Settings</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Advanced\\ configuration:\\ <a\\ style=\"font\\-size:\\ 90%\"\\ href=\"voice\\.html\">Voice\\ Settings</a>\\&nbsp;\\&nbsp;\\&nbsp;<a\\ style=\"font\\-size:\\ 90%\"\\ href=\"network\\.html\">Network\\ Settings</a>\\&nbsp;\\&nbsp;\\&nbsp;<a\\ style=\"font\\-size:\\ 90%\"\\ href=\"qos\\.html\">QoS\\ Settings</a>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<h2><a class=\"lg\" href=\"status.html\">Flexor 151</a></h2>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h2><a\\ class=\"lg\"\\ href=\"status\\.html\">Flexor\\ 151</a></h2>",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<tr valign=\"middle\"><td class=\"tmainhead\"><img src=\"/webconfig/images/blank.gif\" width=\"49\" height=\"10\" alt=\"\" hspace=\"0\" vspace=\"0\" align=\"top\" id=\"logospacer\">e-con TDL-3424M Ethernet Router</td></tr>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr\\ valign=\"middle\"><td\\ class=\"tmainhead\"><img\\ src=\"/webconfig/images/blank\\.gif\"\\ width=\"49\"\\ height=\"10\"\\ alt=\"\"\\ hspace=\"0\"\\ vspace=\"0\"\\ align=\"top\"\\ id=\"logospacer\">e\\-con\\ TDL\\-3424M\\ Ethernet\\ Router</td></tr>",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "<TITLE>AT-iMG634WA</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>AT\\-iMG634WA</TITLE>",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "<TITLE>AT-iMG606BD</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>AT\\-iMG606BD</TITLE>",
       "version_group": 0
@@ -208,7 +217,8 @@
             "input": "<TITLE>AT-iMG646BD</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>AT\\-iMG646BD</TITLE>",
       "version_group": 0
@@ -231,7 +241,8 @@
             "input": "<p class=\"help_data\"><b>Note:</b> If \"Checking Firmware Upgrades Automatically\" or \"Image Upgrade\" fails then please contact your service provider.</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ class=\"help_data\"><b>Note:</b>\\ If\\ \"Checking\\ Firmware\\ Upgrades\\ Automatically\"\\ or\\ \"Image\\ Upgrade\"\\ fails\\ then\\ please\\ contact\\ your\\ service\\ provider\\.</p>",
       "version_group": 0
@@ -254,7 +265,8 @@
             "input": "Server: Conexant-EmWeb/([^\\r^\\n]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: Conexant-EmWeb/([^\\r^\\n]+)",
       "version_group": 1
@@ -277,11 +289,11 @@
             "input": "Server: Virata-EmWeb/([^\\r^\\n]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: Virata-EmWeb/([^\\r^\\n]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

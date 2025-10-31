@@ -4,6 +4,7 @@
   "product": "FEX",
   "product_id": "fex",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<HEAD><TITLE>F*EX - File EXchange</TITLE></HEAD>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<HEAD><TITLE>F\\*EX\\ \\-\\ File\\ EXchange</TITLE></HEAD>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<h1>F*EX - Frams' Fast File EXchange",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h1>F\\*EX\\ \\-\\ Frams'\\ Fast\\ File\\ EXchange",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<a href=\"mailto:[^\"]+\">fexmaster</a></address>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"mailto:[^\"]+\">fexmaster</a></address>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "^fexsrv$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^fexsrv$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

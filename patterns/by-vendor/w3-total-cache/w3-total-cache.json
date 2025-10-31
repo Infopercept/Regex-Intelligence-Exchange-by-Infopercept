@@ -4,6 +4,7 @@
   "product": "W3-Total-Cache",
   "product_id": "w3-total-cache",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Performance\\ optimized\\ by\\ W3\\ Total\\ Cache\\.\\ Learn\\ more:\\ http://www\\.w3\\-edge\\.com/wordpress\\-plugins/",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

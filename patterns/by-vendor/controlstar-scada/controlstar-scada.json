@@ -4,6 +4,7 @@
   "product": "Controlstar-SCADA",
   "product_id": "controlstar-scada",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<APPLET archive=\"scada.jar, toolbox.jar, batik.jar, crimson-parser.jar\" code=\"Scada\" style=\"position:absolute;left:0;top:0;width:expression(document.body.clientWidth);height:expression(document.body.clientHeight);\" >",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<APPLET\\ archive=\"scada\\.jar,\\ toolbox\\.jar,\\ batik\\.jar,\\ crimson\\-parser\\.jar\"\\ code=\"Scada\"\\ style=\"position:absolute;left:0;top:0;width:expression\\(document\\.body\\.clientWidth\\);height:expression\\(document\\.body\\.clientHeight\\);\"\\ >",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

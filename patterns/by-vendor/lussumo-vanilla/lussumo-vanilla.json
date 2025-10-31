@@ -4,6 +4,7 @@
   "product": "Lussumo-Vanilla",
   "product_id": "lussumo-vanilla",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "x-powered-by: Lussumo Vanilla",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-powered-by: Lussumo Vanilla",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "x-powered-by: Lussumo Vanilla ([^\\s]+)",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-powered-by: Lussumo Vanilla ([^\\s]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

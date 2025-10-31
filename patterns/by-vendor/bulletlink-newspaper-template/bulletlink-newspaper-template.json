@@ -4,6 +4,7 @@
   "product": "Bulletlink-Newspaper-Template",
   "product_id": "bulletlink-newspaper-template",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<link rel=\"stylesheet\" href=\"/ModalPopup/core-modalpopup.css\" type=\"text/css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"/ModalPopup/core\\-modalpopup\\.css\"\\ type=\"text/css\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<div class=\"copyright\"><script type=\"text/javascript\" language=\"JavaScript\">GetCopyright();</script>&nbsp;&nbsp;&nbsp;<a class=\"copyright\" href=\"/sitemap.asp\">sitemap</a></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ class=\"copyright\"><script\\ type=\"text/javascript\"\\ language=\"JavaScript\">GetCopyright\\(\\);</script>\\&nbsp;\\&nbsp;\\&nbsp;<a\\ class=\"copyright\"\\ href=\"/sitemap\\.asp\">sitemap</a></div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

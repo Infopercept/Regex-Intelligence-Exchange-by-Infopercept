@@ -4,6 +4,7 @@
   "product": "Karrigell",
   "product_id": "karrigell",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Karrigell",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Karrigell",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Server: ^Karrigell/([^\\s]+) ",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Karrigell/([^\\s]+) ",
       "version_group": 1
@@ -70,11 +73,11 @@
             "input": "Server: ^Karrigell ([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Karrigell ([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

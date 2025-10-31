@@ -4,6 +4,7 @@
   "product": "Cogent-DataHub",
   "product_id": "cogent-datahub",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "timerID = setTimeout (\"DataHubConnection.updateTimer()\", this.timerTick);",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "timerID\\ =\\ setTimeout\\ \\(\"DataHubConnection\\.updateTimer\\(\\)\",\\ this\\.timerTick\\);",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<link type=\"text/css\" rel=\"stylesheet\" href=\"css/dhwebserver.css\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ type=\"text/css\"\\ rel=\"stylesheet\"\\ href=\"css/dhwebserver\\.css\"\\ />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<img src=\"images/Cogent.gif\" alt=\"\" width=\"449\" height=\"47\" border=\"0\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"images/Cogent\\.gif\"\\ alt=\"\"\\ width=\"449\"\\ height=\"47\"\\ border=\"0\">",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<!-- The DataHub script that determines if the DataPid is running is at the top of this file. The DataHub script is not visable",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ The\\ DataHub\\ script\\ that\\ determines\\ if\\ the\\ DataPid\\ is\\ running\\ is\\ at\\ the\\ top\\ of\\ this\\ file\\.\\ The\\ DataHub\\ script\\ is\\ not\\ visable",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<title>Cogent DataHub WebView</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Cogent\\ DataHub\\ WebView</title>",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "<!-- The following ASP code generates the table of DataHub point values -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ The\\ following\\ ASP\\ code\\ generates\\ the\\ table\\ of\\ DataHub\\ point\\ values\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

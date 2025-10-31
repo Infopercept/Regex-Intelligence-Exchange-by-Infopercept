@@ -4,6 +4,7 @@
   "product": "eXtreme-Message-Board",
   "product_id": "extreme-message-board",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- Powered by XMB ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Powered\\ by\\ XMB\\ ",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!-- The XMB Group -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ The\\ XMB\\ Group\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

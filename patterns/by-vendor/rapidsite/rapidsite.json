@@ -4,6 +4,7 @@
   "product": "RapidSite",
   "product_id": "rapidsite",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^Rapidsite",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Rapidsite",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

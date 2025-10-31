@@ -4,6 +4,7 @@
   "product": "Spring-Framework",
   "product_id": "spring-framework",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "org\\.springframework\\.web\\.servlet\\.i18n\\.CookieLocaleResolver\\.LOCALE=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

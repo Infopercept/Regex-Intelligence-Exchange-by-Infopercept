@@ -4,6 +4,7 @@
   "product": "Atvise-webMI",
   "product_id": "atvise-webmi",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^atvise$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^atvise$",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<td><noscript>N/A</noscript><script type=\"text/javascript\"><!--",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><noscript>N/A</noscript><script\\ type=\"text/javascript\"><!\\-\\-",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<li class=\"btn\"><a class=\"button\" style=\"left:93%;\" href=\"javascript:void(0)\" target=\"mainframe\" id=\"alarmlistbutton\"><img height=\"30\" width=\"47\" src=\"buttonc.gif\" alt=\"\" /></a></li>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<li\\ class=\"btn\"><a\\ class=\"button\"\\ style=\"left:93%;\"\\ href=\"javascript:void\\(0\\)\"\\ target=\"mainframe\"\\ id=\"alarmlistbutton\"><img\\ height=\"30\"\\ width=\"47\"\\ src=\"buttonc\\.gif\"\\ alt=\"\"\\ /></a></li>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

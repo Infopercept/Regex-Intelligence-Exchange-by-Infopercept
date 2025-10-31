@@ -4,6 +4,7 @@
   "product": "Namazu",
   "product_id": "namazu",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "This search system is powered by[s]+<strong><a href=\"http://www.namazu.org/\">Namazu</a></strong>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "This search system is powered by[\\s]+<strong><a href=\"http://www\\.namazu\\.org/\">Namazu</a></strong>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by <a href=\"http://www.namazu.(org|cc)/[^\"]*\" target=\"_blank\">(N|n)amazu</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by <a href=\"http://www\\.namazu\\.(org|cc)/[^\"]*\" target=\"_blank\">(N|n)amazu</a>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<p><strong> Total <!-- HIT -->[d]+<!-- HIT --> documents matching your query.</strong></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p><strong> Total <!-- HIT -->[\\d]+<!-- HIT --> documents matching your query.</strong></p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "ASP-Nuke",
   "product_id": "asp-nuke",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\\\\",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\\\\",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<meta name=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\\\\",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<a href=\"/gotoURL.asp?url=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"/gotoURL.asp\\?url=",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<a href=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\\\\",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<link rel=\"Shortcut Icon\" href=\"[^>]*aspnuke.ico\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link rel=\"Shortcut Icon\" href=\"[^>]*aspnuke.ico\">",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "<a href=\"http://www.aspnuke.it\" target=\"_blank\">ASP-Nuke [0-9.]*</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"http://www.aspnuke.it\" target=\"_blank\">ASP-Nuke [0-9\\.]*</a>",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "<form name='Authentication' method='post' action='[^']*/authent.asp'>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form name='Authentication' method='post' action='[^']*/authent.asp'>",
       "version_group": 0
@@ -208,7 +217,8 @@
             "input": "Designed with <a href=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Designed\\ with\\ <a\\ href=\\\\",
       "version_group": 0
@@ -231,7 +241,8 @@
             "input": "<br>Designed with ASP-Nuke v1.1+",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<br>Designed\\ with\\ ASP\\-Nuke\\ v1\\.1\\+",
       "version_group": 0
@@ -254,11 +265,11 @@
             "input": "CP=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "CP=\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

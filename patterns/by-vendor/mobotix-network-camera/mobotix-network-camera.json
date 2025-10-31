@@ -4,6 +4,7 @@
   "product": "Mobotix-Network-Camera",
   "product_id": "mobotix-network-camera",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"publisher\" content=\"MOBOTIX AG, Germany\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"publisher\"\\ content=\"MOBOTIX\\ AG,\\ Germany\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"copyright\" content=\"MOBOTIX AG, Germany\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"copyright\"\\ content=\"MOBOTIX\\ AG,\\ Germany\">",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<meta name=\"author\" content=\"Daniel Kabs, MOBOTIX AG, Kaiserslautern, Germany.\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"Daniel\\ Kabs,\\ MOBOTIX\\ AG,\\ Kaiserslautern,\\ Germany\\.\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

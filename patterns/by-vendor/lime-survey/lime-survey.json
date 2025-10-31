@@ -4,6 +4,7 @@
   "product": "Lime-Survey",
   "product_id": "lime-survey",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a href=\"http://www.limesurvey.org\" target=\"_blank\"><font color=\"#000000\">The Online Survey Tool</font></a> - Free & Open Source<br />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.limesurvey\\.org\"\\ target=\"_blank\"><font\\ color=\"\\#000000\">The\\ Online\\ Survey\\ Tool</font></a>\\ \\-\\ Free\\ \\&\\ Open\\ Source<br\\ />",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<meta name=\"generator\" content=\"LimeSurvey http://www.limesurvey.org\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"LimeSurvey\\ http://www\\.limesurvey\\.org\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

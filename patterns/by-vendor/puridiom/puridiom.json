@@ -4,6 +4,7 @@
   "product": "Puridiom",
   "product_id": "puridiom",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<TITLE>Puridiom, Enabling Self-Service Procurement</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>Puridiom,\\ Enabling\\ Self\\-Service\\ Procurement</TITLE>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<TITLE>Puridiom Xpress, Enabling Self-Service Procurement</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>Puridiom\\ Xpress,\\ Enabling\\ Self\\-Service\\ Procurement</TITLE>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<iframe id=\"getInfoFrame\" name=\"getInfoFrame\" src=\"/puridiom/system/processing.jsp\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<iframe\\ id=\"getInfoFrame\"\\ name=\"getInfoFrame\"\\ src=\"/puridiom/system/processing\\.jsp\"",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<tr><td width=100% align=center valign=top><br><b>Loading Page... Please wait.</b><br><br><br><img src=\"/puridiom",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr><td\\ width=100%\\ align=center\\ valign=top><br><b>Loading\\ Page\\.\\.\\.\\ Please\\ wait\\.</b><br><br><br><img\\ src=\"/puridiom",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<META NAME=\"Description\" Content=\"/puridiom/system/header.jsp\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<META\\ NAME=\"Description\"\\ Content=\"/puridiom/system/header\\.jsp\">",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "<META NAME=\"Description\" Content=\"/puridiomx/system/header.jsp\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<META\\ NAME=\"Description\"\\ Content=\"/puridiomx/system/header\\.jsp\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

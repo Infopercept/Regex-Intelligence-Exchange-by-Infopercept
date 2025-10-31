@@ -4,6 +4,7 @@
   "product": "OpenSearch",
   "product_id": "opensearch",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<link[^>]+type=[\"']?application/opensearchdescription+xml['\"]?[^>]*>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link[^>]+type=[\"']?application/opensearchdescription\\+xml['\"]?[^>]*>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

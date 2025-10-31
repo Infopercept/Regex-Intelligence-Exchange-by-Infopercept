@@ -4,6 +4,7 @@
   "product": "ASProxy",
   "product_id": "asproxy",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- Surf the web invisibly using ASProxy power. A Powerfull web proxy is in your hands. -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Surf\\ the\\ web\\ invisibly\\ using\\ ASProxy\\ power\\.\\ A\\ Powerfull\\ web\\ proxy\\ is\\ in\\ your\\ hands\\.\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!--This is ASProxy powered by SalarSoft. -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-This\\ is\\ ASProxy\\ powered\\ by\\ SalarSoft\\.\\ \\-\\->",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<input type=\"button\" onclick=\"_Page_SubmitForm()\" value=\"Display\" id=\"btnASProxyDisplayButton\" class=\"Button\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ type=\"button\"\\ onclick=\"_Page_SubmitForm\\(\\)\"\\ value=\"Display\"\\ id=\"btnASProxyDisplayButton\"\\ class=\"Button\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

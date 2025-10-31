@@ -4,6 +4,7 @@
   "product": "phpMyBackupPro",
   "product_id": "phpmybackuppro",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "[bB]asic realm=\"phpMyBackupPro\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "[bB]asic realm=\"phpMyBackupPro\"",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Please login (use your MySQL username and password): <a href=\"index.php?login=TRUE\">Login</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Please\\ login\\ \\(use\\ your\\ MySQL\\ username\\ and\\ password\\):\\ <a\\ href=\"index\\.php\\?login=TRUE\">Login</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

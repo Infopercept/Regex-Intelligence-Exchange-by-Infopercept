@@ -4,6 +4,7 @@
   "product": "Toshiba-Network-Camera",
   "product_id": "toshiba-network-camera",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>TOSHIBA Network Camera - User Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>TOSHIBA\\ Network\\ Camera\\ \\-\\ User\\ Login</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "    <td height=\"32\"><img src=\"toshiba.gif\" width=\"68\" height=\"12\"><font class=\"netcam\"><strong>&nbsp;&nbsp;Network Camera</strong></font></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ <td\\ height=\"32\"><img\\ src=\"toshiba\\.gif\"\\ width=\"68\"\\ height=\"12\"><font\\ class=\"netcam\"><strong>\\&nbsp;\\&nbsp;Network\\ Camera</strong></font></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

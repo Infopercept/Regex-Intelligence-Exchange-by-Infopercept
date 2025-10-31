@@ -4,6 +4,7 @@
   "product": "Truition",
   "product_id": "truition",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<A HREF=\"/cgi-bin/ncommerce3/ExecMacro/search.d2w/report?wl=151\">Search</A>&nbsp;|&nbsp;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<A\\ HREF=\"/cgi\\-bin/ncommerce3/ExecMacro/search\\.d2w/report\\?wl=151\">Search</A>\\&nbsp;\\|\\&nbsp;",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!--Logon Information-faq answers below-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-Logon\\ Information\\-faq\\ answers\\ below\\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<li>DTWF050E: Net.Data is unable to locate the HTML block specification in the URL.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<li>DTWF050E:\\ Net\\.Data\\ is\\ unable\\ to\\ locate\\ the\\ HTML\\ block\\ specification\\ in\\ the\\ URL\\.",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<li>DTWP001E: Net.Data is unable to locate the macro file",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<li>DTWP001E:\\ Net\\.Data\\ is\\ unable\\ to\\ locate\\ the\\ macro\\ file",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "location.href = \"/cgi-bin/ncommerce3/ExecMacro/static/",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "location\\.href\\ =\\ \"/cgi\\-bin/ncommerce3/ExecMacro/static/",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

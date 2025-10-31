@@ -4,6 +4,7 @@
   "product": "CushyCMS",
   "product_id": "cushycms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Content Management Powered by <a href=\"http://www.cushycms.com\">CushyCMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Content\\ Management\\ Powered\\ by\\ <a\\ href=\"http://www\\.cushycms\\.com\">CushyCMS</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<li id=\"poweredBy\"><img alt=\"Powered by CushyCMS\" src=\"/images/cushy_badge.gif",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<li\\ id=\"poweredBy\"><img\\ alt=\"Powered\\ by\\ CushyCMS\"\\ src=\"/images/cushy_badge\\.gif",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<span id=\"cushycms-footer\">Powered by CushyCMS</span>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<span\\ id=\"cushycms\\-footer\">Powered\\ by\\ CushyCMS</span>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<a href=\"http://www.cushycms.com/[^>]+>(<font[^>]+>)?Powered by CushyCMS",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"http://www.cushycms.com/[^>]+>(<font[^>]+>)?Powered by CushyCMS",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<[^>]+class=\"cushycms\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<[^>]+class=\"cushycms\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "CrushFTP",
   "product_id": "crushftp",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<script type=\"text/javascript\" src=\"crushftp_functions.js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ type=\"text/javascript\"\\ src=\"crushftp_functions\\.js\"></script>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "^CrushFTP ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^CrushFTP ",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "Server: ^CrushFTP (HTTP[\\d]? Server )?Version 8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^CrushFTP (HTTP[\\d]? Server )?Version ([\\d\\.]+)$",
       "version_group": 1
@@ -93,7 +97,8 @@
             "input": "^CrushAuth=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^CrushAuth=",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "www-authenticate: ^Basic realm=\"CrushFTP Server Version 1.0\"$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "www-authenticate: ^Basic realm=\"CrushFTP Server Version ([\\d\\.]+)\"$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Jasig-CAS",
   "product_id": "jasig-cas",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>CAS &#8211; Central Authentication Service</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>CAS\\ \\&\\#8211;\\ Central\\ Authentication\\ Service</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- Congratulations on bringing CAS online!  The default authentication handler authenticates where usernames equal passwords: go ahead, try it out.  -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Congratulations\\ on\\ bringing\\ CAS\\ online!\\ \\ The\\ default\\ authentication\\ handler\\ authenticates\\ where\\ usernames\\ equal\\ passwords:\\ go\\ ahead,\\ try\\ it\\ out\\.\\ \\ \\-\\->",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<p>Powered by <a href=\"http://www.jasig.org/cas\">Jasig Central Authentication Service</a></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://www\\.jasig\\.org/cas\">Jasig\\ Central\\ Authentication\\ Service</a></p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

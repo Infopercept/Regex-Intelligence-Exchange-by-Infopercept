@@ -4,6 +4,7 @@
   "product": "PhotoPost-PHP",
   "product_id": "photopost-php",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>PhotoPost Administration Menu</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>PhotoPost\\ Administration\\ Menu</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<frame name=\"mainFrame\"  src=\"adm-misc.php?admact=mainmenu\" scrolling=\"yes\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" border=\"no\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<frame\\ name=\"mainFrame\"\\ \\ src=\"adm\\-misc\\.php\\?admact=mainmenu\"\\ scrolling=\"yes\"\\ frameborder=\"0\"\\ marginwidth=\"0\"\\ marginheight=\"0\"\\ border=\"no\"\\ />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "Powered by: <a target=\"_blank\" href=\"http://www.photopost.com\">PhotoPost</a> PHP<br />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by:\\ <a\\ target=\"_blank\"\\ href=\"http://www\\.photopost\\.com\">PhotoPost</a>\\ PHP<br\\ />",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "Powered by: <a target=\"_blank\" href=\"http://www.photopost.com\">PhotoPost</a> PHP vB3 Enhanced<br />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by:\\ <a\\ target=\"_blank\"\\ href=\"http://www\\.photopost\\.com\">PhotoPost</a>\\ PHP\\ vB3\\ Enhanced<br\\ />",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": " - Powered by PhotoPost</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\-\\ Powered\\ by\\ PhotoPost</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

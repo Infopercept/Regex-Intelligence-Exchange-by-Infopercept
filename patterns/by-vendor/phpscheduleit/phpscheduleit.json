@@ -4,6 +4,7 @@
   "product": "phpScheduleIt",
   "product_id": "phpscheduleit",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div align=\"left\"><img src=\"img/phpScheduleIt.png\" alt=\"logo\" vspace=\"5\"/></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ align=\"left\"><img\\ src=\"img/phpScheduleIt\\.png\"\\ alt=\"logo\"\\ vspace=\"5\"/></div>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<p align=\"center\">Powered by <a href=\"http://phpscheduleit.sourceforge.net\">phpScheduleIt</a></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ align=\"center\">Powered\\ by\\ <a\\ href=\"http://phpscheduleit\\.sourceforge\\.net\">phpScheduleIt</a></p>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<p align=\"right\"><a href=\"http://phpscheduleit.sourceforge.net\">Powered By phpScheduleIt",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ align=\"right\"><a\\ href=\"http://phpscheduleit\\.sourceforge\\.net\">Powered\\ By\\ phpScheduleIt",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<br>Powered By: phpScheduleIt</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<br>Powered\\ By:\\ phpScheduleIt</p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

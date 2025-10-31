@@ -4,6 +4,7 @@
   "product": "Puppet-Dashboard",
   "product_id": "puppet-dashboard",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Puppet Node Manager</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Puppet\\ Node\\ Manager</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<a href='/' style=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href='/'\\ style=\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

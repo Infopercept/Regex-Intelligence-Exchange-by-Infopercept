@@ -4,6 +4,7 @@
   "product": "Hyperwave-IS",
   "product_id": "hyperwave-is",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Hyperwave-",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Hyperwave-",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Server: ^Hyperwave-IS/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Hyperwave-IS/([^\\s]+)$",
       "version_group": 1
@@ -70,11 +73,11 @@
             "input": "Server: ^Hyperwave-Information-Server/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Hyperwave-Information-Server/([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

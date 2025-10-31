@@ -4,6 +4,7 @@
   "product": "Wing-FTP-Server",
   "product_id": "wing-ftp-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^Wing FTP Server/8.5\\(([^\\)]*)\\)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Wing FTP Server/([\\d\\.]+)\\(([^\\)]*)\\)$",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "<p>JavaScript is a scripting language that works with your browser to create interactive elements in web pages. The web client depend on JavaScript to function properly. </p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p>JavaScript\\ is\\ a\\ scripting\\ language\\ that\\ works\\ with\\ your\\ browser\\ to\\ create\\ interactive\\ elements\\ in\\ web\\ pages\\.\\ The\\ web\\ client\\ depend\\ on\\ JavaScript\\ to\\ function\\ properly\\.\\ </p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

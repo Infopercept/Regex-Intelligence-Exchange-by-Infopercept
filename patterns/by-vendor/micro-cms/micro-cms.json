@@ -4,6 +4,7 @@
   "product": "Micro-CMS",
   "product_id": "micro-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div class=\"footer\"><div style=\"float: left;\">Powered by <a href=\"http://(tpiha.kset.org|www.micro-cms.com)/\">Micro CMS</a> | <a href=\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div class=\"footer\"><div style=\"float: left;\">Powered by <a href=\"http://(tpiha.kset.org|www.micro-cms.com)/\">Micro CMS</a> \\| <a href=\"",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by <strong><a href=\"http://microcms.kset.org/\">Micro CMS</a></strong><br />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <strong><a\\ href=\"http://microcms\\.kset\\.org/\">Micro\\ CMS</a></strong><br\\ />",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "\" method=\"post\"onsubmit=\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\"\\ method=\"post\"onsubmit=\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

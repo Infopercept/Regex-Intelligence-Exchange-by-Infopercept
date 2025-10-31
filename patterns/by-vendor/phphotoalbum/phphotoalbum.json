@@ -4,6 +4,7 @@
   "product": "phPhotoAlbum",
   "product_id": "phphotoalbum",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<title>My Picture Album</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>My\\ Picture\\ Album</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "ReOS",
   "product_id": "reos",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Powered by <a href=\"http://reos.elazos.com\">ReOS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://reos\\.elazos\\.com\">ReOS</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

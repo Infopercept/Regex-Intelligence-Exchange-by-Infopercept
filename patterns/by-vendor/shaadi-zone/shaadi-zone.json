@@ -4,6 +4,7 @@
   "product": "Shaadi-Zone",
   "product_id": "shaadi-zone",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a href='http://www.vastal.com/' target='_blank'>Powered By Shaadi Zone</a>.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href='http://www\\.vastal\\.com/'\\ target='_blank'>Powered\\ By\\ Shaadi\\ Zone</a>\\.",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Powered By <a href='http://www.vastal.com/' target=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ By\\ <a\\ href='http://www\\.vastal\\.com/'\\ target=\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

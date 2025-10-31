@@ -4,6 +4,7 @@
   "product": "syntaxCMS",
   "product_id": "syntaxcms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by <a href=\"http://www.syntaxcms.org\">SyntaxCMS</a></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.syntaxcms\\.org\">SyntaxCMS</a></div>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "powered by <a href=\"http://www.syntaxcms.org/\" title=\"SyntaxCMS\">SyntaxCMS</a></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "powered\\ by\\ <a\\ href=\"http://www\\.syntaxcms\\.org/\"\\ title=\"SyntaxCMS\">SyntaxCMS</a></div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

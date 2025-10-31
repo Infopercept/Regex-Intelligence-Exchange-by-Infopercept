@@ -4,6 +4,7 @@
   "product": "Synchronet-BBS",
   "product_id": "synchronet-bbs",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Synchronet BBS",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Synchronet BBS",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^Synchronet BBS for .+ Version ([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Synchronet BBS for .+ Version ([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

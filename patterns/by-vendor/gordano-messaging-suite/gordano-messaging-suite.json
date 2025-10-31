@@ -4,6 +4,7 @@
   "product": "Gordano-Messaging-Suite",
   "product_id": "gordano-messaging-suite",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: ^Gordano (Messaging Suite )?Web Server v([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Gordano (Messaging Suite )?Web Server v([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

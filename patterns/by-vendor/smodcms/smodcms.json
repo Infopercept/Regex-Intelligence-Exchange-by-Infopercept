@@ -4,6 +4,7 @@
   "product": "SmodCMS",
   "product_id": "smodcms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"Generator\" content=\"SmodCMS\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"Generator\"\\ content=\"SmodCMS\"\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"Authoring_Tool\" content=\"SmodCMS // www.smod.pl\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"Authoring_Tool\"\\ content=\"SmodCMS\\ //\\ www\\.smod\\.pl\"\\ />",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "[P|p]+owered by <a href=\"http://www.smod.pl[/]+\"[^>]+>SmodCMS[s]*</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "[P|p]+owered by <a href=\"http://www.smod.pl[/]+\"[^>]+>SmodCMS[\\s]*</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

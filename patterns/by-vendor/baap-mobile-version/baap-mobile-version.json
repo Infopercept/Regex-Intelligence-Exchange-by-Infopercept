@@ -4,6 +4,7 @@
   "product": "BAAP-Mobile-Version",
   "product_id": "baap-mobile-version",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "x-mobilized-by: ^BAAP Mobile Version ([^\\s]+)$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-mobilized-by: ^BAAP Mobile Version ([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

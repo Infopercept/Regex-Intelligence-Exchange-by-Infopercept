@@ -4,6 +4,7 @@
   "product": "LK-IHC-Controller",
   "product_id": "lk-ihc-controller",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>LK IHC controller forside</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>LK\\ IHC\\ controller\\ forside</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<table width=\"640\" height=\"480\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"  background=\"images/bg_image_LK.jpg\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<table\\ width=\"640\"\\ height=\"480\"\\ border=\"0\"\\ cellspacing=\"0\"\\ cellpadding=\"0\"\\ \\ background=\"images/bg_image_LK\\.jpg\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

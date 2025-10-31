@@ -4,6 +4,7 @@
   "product": "Weebly",
   "product_id": "weebly",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^is_mobile",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^is_mobile",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

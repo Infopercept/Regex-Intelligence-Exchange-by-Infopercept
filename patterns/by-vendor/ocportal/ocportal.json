@@ -4,6 +4,7 @@
   "product": "ocPortal",
   "product_id": "ocportal",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<html id=\"main_website_html\" xmlns=\"http://www.w3.org/1999/xhtml\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html\\ id=\"main_website_html\"\\ xmlns=\"http://www\\.w3\\.org/1999/xhtml\"",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"GENERATOR\" content=\"ocPortal\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"GENERATOR\"\\ content=\"ocPortal\"\\ />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "x-powered-by: ^ocPortal ([^\\(]+) \\(PHP",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-powered-by: ^ocPortal ([^\\(]+) \\(PHP",
       "version_group": 1
@@ -93,11 +97,11 @@
             "input": "ocp_session=[d]+;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "ocp_session=[\\d]+;",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

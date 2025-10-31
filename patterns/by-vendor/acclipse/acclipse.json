@@ -4,6 +4,7 @@
   "product": "Acclipse",
   "product_id": "acclipse",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a href=\"http://www.(acclipse|acclipseweb).(co.nz|com.au)[/]?(for_Businesses)?\" target=\"_blank\"( class=\"poweredbylink\")?>(Software solutions for accountants|Web design New Zealand|Web design Australia)</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"http://www\\.(acclipse|acclipseweb)\\.(co\\.nz|com\\.au)[/]?(for_Businesses)?\" target=\"_blank\"( class=\"poweredbylink\")?>(Software solutions for accountants|Web design New Zealand|Web design Australia)</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Website powered by <A href=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Website\\ powered\\ by\\ <A\\ href=\\\\",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<A href=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<A\\ href=\\\\",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "https://secure.acclipse(web)?.com/[^/]*/index.cfm",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "https://secure\\.acclipse(web)?\\.com/[^/]*/index\\.cfm",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

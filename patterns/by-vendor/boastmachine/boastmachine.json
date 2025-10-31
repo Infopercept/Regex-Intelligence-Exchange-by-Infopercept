@@ -4,6 +4,7 @@
   "product": "boastMachine",
   "product_id": "boastmachine",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<a href=\"http://boastology.com\"><img src=\"http://[^>]*alt=\"Powered by boastMachine\" /></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"http://boastology.com\"><img src=\"http://[^>]*alt=\"Powered by boastMachine\" /></a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

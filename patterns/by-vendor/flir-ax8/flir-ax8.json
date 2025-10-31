@@ -4,6 +4,7 @@
   "product": "Flir-AX8",
   "product_id": "flir-ax8",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<p style=\"display: inline-block\" id=\"login-title\">FLIR AX8",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ style=\"display:\\ inline\\-block\"\\ id=\"login\\-title\">FLIR\\ AX8",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

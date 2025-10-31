@@ -4,6 +4,7 @@
   "product": "Custom-CMS",
   "product_id": "custom-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": " - Powered by CCMS</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\-\\ Powered\\ by\\ CCMS</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<meta name=\"generator\" content=\"CustomCMS Gaming\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"CustomCMS\\ Gaming\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

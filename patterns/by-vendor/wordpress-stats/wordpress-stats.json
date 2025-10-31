@@ -4,6 +4,7 @@
   "product": "WordPress-Stats",
   "product_id": "wordpress-stats",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<script src=\"https?://(ssl-)?stats.wordpress.com/[^\"]+\" type=\"text/javascript\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script src=\"https?://(ssl-)?stats\\.wordpress\\.com/[^\"]+\" type=\"text/javascript\"></script>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<noscript><img src=\"https?://stats.wordpress.com/b.gif?v=noscript\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<noscript><img src=\"https?://stats\\.wordpress\\.com/b\\.gif\\?v=noscript\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

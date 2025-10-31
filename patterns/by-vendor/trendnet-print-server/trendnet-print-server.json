@@ -4,6 +4,7 @@
   "product": "TRENDnet-Print-Server",
   "product_id": "trendnet-print-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<frame name=\"Banner\" scrolling=\"no\" noresize target=\"Inhalt\" src=\"head.htm\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<frame\\ name=\"Banner\"\\ scrolling=\"no\"\\ noresize\\ target=\"Inhalt\"\\ src=\"head\\.htm\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^PRINT_SERVER WEB 8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^PRINT_SERVER WEB ([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

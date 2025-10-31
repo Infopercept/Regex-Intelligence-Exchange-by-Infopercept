@@ -4,6 +4,7 @@
   "product": "Purveyor-Encrypt-WebServer",
   "product_id": "purveyor-encrypt-webserver",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Purveyor Encrypt",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Purveyor Encrypt",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^Purveyor Encrypt (Export|Domestic)/v([^\\s]+) OpenVMS$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Purveyor Encrypt (Export|Domestic)/v([^\\s]+) OpenVMS$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

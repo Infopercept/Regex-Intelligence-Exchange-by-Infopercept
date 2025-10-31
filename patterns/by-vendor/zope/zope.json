@@ -4,6 +4,7 @@
   "product": "Zope",
   "product_id": "zope",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: Zope/\\(([^,]*)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: Zope/\\(([^,]*)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

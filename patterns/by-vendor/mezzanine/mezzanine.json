@@ -4,6 +4,7 @@
   "product": "Mezzanine",
   "product_id": "mezzanine",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "mezzanine_login_interface",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "mezzanine_login_interface",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

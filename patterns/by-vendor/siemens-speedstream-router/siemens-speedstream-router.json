@@ -4,6 +4,7 @@
   "product": "Siemens-SpeedStream-Router",
   "product_id": "siemens-speedstream-router",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<TITLE>SpeedStream Router Management Interface</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>SpeedStream\\ Router\\ Management\\ Interface</TITLE>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- Copyright(C) [0-9]+ Siemens Subscriber Networks -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!-- Copyright(C) [0-9]+ Siemens Subscriber Networks -->",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<FRAME SRC=\"pflogin.htm\" NAME=\"rightFrame\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<FRAME\\ SRC=\"pflogin\\.htm\"\\ NAME=\"rightFrame\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

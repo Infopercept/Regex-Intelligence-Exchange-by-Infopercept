@@ -4,6 +4,7 @@
   "product": "SARG",
   "product_id": "sarg",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Squid User's Access Report</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Squid\\ User's\\ Access\\ Report</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<tr><th class=\"logo\"><a href=\"http://sarg.sourceforge.net\"><img src=\"./images/sarg.png\" border=\"0\" align=\"absmiddle\" title=\"SARG, Squid Analysis Report Generator. Logo by Osamu Matsuzaki\"></a>&nbsp;<font class=\"logo\">Squid Analysis Report Generator</font></th></tr>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr><th\\ class=\"logo\"><a\\ href=\"http://sarg\\.sourceforge\\.net\"><img\\ src=\"\\./images/sarg\\.png\"\\ border=\"0\"\\ align=\"absmiddle\"\\ title=\"SARG,\\ Squid\\ Analysis\\ Report\\ Generator\\.\\ Logo\\ by\\ Osamu\\ Matsuzaki\"></a>\\&nbsp;<font\\ class=\"logo\">Squid\\ Analysis\\ Report\\ Generator</font></th></tr>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<tr><th class=\"logo\"><a href=\"http://sarg.sourceforge.net\"><img src=\"../images/sarg.png\" border=\"0\" align=\"absmiddle\" title=\"SARG, Squid Analysis Report Generator. Logo by Osamu Matsuzaki\"></a>&nbsp;<font class=\"logo\">Squid Analysis Report Generator</font></th></tr>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr><th\\ class=\"logo\"><a\\ href=\"http://sarg\\.sourceforge\\.net\"><img\\ src=\"\\.\\./images/sarg\\.png\"\\ border=\"0\"\\ align=\"absmiddle\"\\ title=\"SARG,\\ Squid\\ Analysis\\ Report\\ Generator\\.\\ Logo\\ by\\ Osamu\\ Matsuzaki\"></a>\\&nbsp;<font\\ class=\"logo\">Squid\\ Analysis\\ Report\\ Generator</font></th></tr>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<tr><th><a href=\"http://sarg.sourceforge.net\"><img src=\"./images/sarg.png\" title=\"SARG, Squid Analysis Report Generator. Logo by Osamu Matsuzaki\" alt=\"Sarg\"></a>&nbsp;Squid Analysis Report Generator</th></tr>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr><th><a\\ href=\"http://sarg\\.sourceforge\\.net\"><img\\ src=\"\\./images/sarg\\.png\"\\ title=\"SARG,\\ Squid\\ Analysis\\ Report\\ Generator\\.\\ Logo\\ by\\ Osamu\\ Matsuzaki\"\\ alt=\"Sarg\"></a>\\&nbsp;Squid\\ Analysis\\ Report\\ Generator</th></tr>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<tr><th (align=\"center\" )?class=\"title(_c)?\">Squid User Access Reports?</th></tr>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr><th (align=\"center\" )?class=\"title(_c)?\">Squid User Access Reports?</th></tr>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

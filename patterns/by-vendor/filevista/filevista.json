@@ -4,6 +4,7 @@
   "product": "FileVista",
   "product_id": "filevista",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<td>Welcome to FileVista<br />Please enter your credentials:</td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td>Welcome\\ to\\ FileVista<br\\ />Please\\ enter\\ your\\ credentials:</td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

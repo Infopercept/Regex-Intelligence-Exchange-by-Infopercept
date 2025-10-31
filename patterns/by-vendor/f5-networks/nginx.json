@@ -9,11 +9,7 @@
   "all_versions": [
     {
       "name": "NGINX Web Server",
-      "category": "web",
-      "subcategory": "web-server",
       "pattern": "Server: nginx/([\\d.]+)",
-      "vendor": "F5 Networks",
-      "product": "NGINX",
       "version_group": 1,
       "priority": 180,
       "confidence": 0.9,
@@ -36,7 +32,8 @@
             "input": "Server: nginx/1.21.6",
             "expected_version": "1.21.6"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
   ]

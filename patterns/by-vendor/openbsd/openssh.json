@@ -4,14 +4,12 @@
   "product": "OpenSSH",
   "product_id": "openbsd-openssh",
   "category": "networking",
+  "subcategory": "router",
   "versions": {},
   "all_versions": [
     {
       "name": "OpenSSH Server",
-      "category": "networking",
       "pattern": "OpenSSH_([\\d\\.p]+)",
-      "vendor": "OpenBSD",
-      "product": "OpenSSH",
       "version_group": 1,
       "priority": 200,
       "confidence": 0.95,
@@ -34,9 +32,9 @@
             "input": "SSH-2.0-OpenSSH_9.0",
             "expected_version": "9.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
-  ],
-  "subcategory": "router"
+  ]
 }

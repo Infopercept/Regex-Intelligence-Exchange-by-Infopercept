@@ -43,7 +43,8 @@
               "input": "Server: Apache/2.4.41 (Ubuntu)",
               "expected_version": "41"
             }
-          ]
+          ],
+          "compiled_pattern": true
         }
       }
     ],
@@ -84,7 +85,8 @@
               "input": "Server: Apache/2.2.34 (Unix)",
               "expected_version": "34"
             }
-          ]
+          ],
+          "compiled_pattern": true
         }
       }
     ]
@@ -128,16 +130,13 @@
             "input": "Server: Apache/2.2.34 (Unix)",
             "expected_version": "2.2.34"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     },
     {
       "name": "Apache HTTPD Server",
-      "category": "web",
-      "subcategory": "web-server",
       "pattern": "Server: Apache/([\\d.]+)",
-      "vendor": "Apache",
-      "product": "HTTPD",
       "version_group": 1,
       "priority": 180,
       "confidence": 0.9,
@@ -173,7 +172,8 @@
             "input": "Server: Apache/2.4.52",
             "expected_version": "2.4.52"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
   ]

@@ -4,6 +4,7 @@
   "product": "Tele-Data-CMS",
   "product_id": "tele-data-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by Teledata<br>n<center>Best viewed in IE6.</center>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by Teledata<br>\\n<center>Best viewed in IE6\\.</center>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<input name=\"txthomepassword\" type=\"password\"  size=\"22\" id=\"txthomepassword\" maxlength=\"200\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ name=\"txthomepassword\"\\ type=\"password\"\\ \\ size=\"22\"\\ id=\"txthomepassword\"\\ maxlength=\"200\"\\ />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "align=center class=\"tdi-errormessage\" style=\"height: 25px\"><script type=\"text/javascript\">showerror();</script></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "align=center\\ class=\"tdi\\-errormessage\"\\ style=\"height:\\ 25px\"><script\\ type=\"text/javascript\">showerror\\(\\);</script></td>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<!--To reduce the gap between banner and content the below if condition is added-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-To\\ reduce\\ the\\ gap\\ between\\ banner\\ and\\ content\\ the\\ below\\ if\\ condition\\ is\\ added\\-\\->",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<iframe onload=\"postload(0);\" scrolling=\"no\" style=\"position:absolute;top:0;left:0;height:0;width:0;\" id=\"fraLH\" name=\"fraLH\" src=\"default.aspx\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\"></iframe>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<iframe\\ onload=\"postload\\(0\\);\"\\ scrolling=\"no\"\\ style=\"position:absolute;top:0;left:0;height:0;width:0;\"\\ id=\"fraLH\"\\ name=\"fraLH\"\\ src=\"default\\.aspx\"\\ frameborder=\"0\"\\ marginheight=\"0\"\\ marginwidth=\"0\"></iframe>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

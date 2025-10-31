@@ -4,6 +4,7 @@
   "product": "Openfiler",
   "product_id": "openfiler",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div id=\"uptimeDiv\" class=\"uptimeDiv\"><span style=\"line-height: 10px;\" id=\"uptimeData\"></span> </div></body>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"uptimeDiv\"\\ class=\"uptimeDiv\"><span\\ style=\"line\\-height:\\ 10px;\"\\ id=\"uptimeData\"></span>\\ </div></body>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<body bgcolor=\"#4c555a\" style=\"margin: 0; padding: 0\" onload=\"getSysUptime()\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ bgcolor=\"\\#4c555a\"\\ style=\"margin:\\ 0;\\ padding:\\ 0\"\\ onload=\"getSysUptime\\(\\)\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "TCExam",
   "product_id": "tcexam",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a name=\"topofdoc\" id=\"topofdoc\"></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ name=\"topofdoc\"\\ id=\"topofdoc\"></a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"author\" content=\"Nicola Asuni - Tecnick.com s.r.l.\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"Nicola\\ Asuni\\ \\-\\ Tecnick\\.com\\ s\\.r\\.l\\.\"\\ />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!-- TCExam19730104 -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ TCExam19730104\\ \\-\\->",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<li><a href=\"tce_login.php\" title=\"click on this link to access on this system\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<li><a\\ href=\"tce_login\\.php\"\\ title=\"click\\ on\\ this\\ link\\ to\\ access\\ on\\ this\\ system\">",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<meta name=\"tcexam_level\" content=\"0\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"tcexam_level\"\\ content=\"0\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

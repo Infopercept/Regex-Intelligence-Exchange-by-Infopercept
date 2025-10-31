@@ -4,6 +4,7 @@
   "product": "DiamondList",
   "product_id": "diamondlist",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Powered by <a href=\"http://www.hulihanapplications.com/projects/diamondlist\"><b>DiamondList</b>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.hulihanapplications\\.com/projects/diamondlist\"><b>DiamondList</b>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

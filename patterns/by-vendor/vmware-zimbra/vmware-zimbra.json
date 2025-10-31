@@ -4,6 +4,7 @@
   "product": "VMware-Zimbra",
   "product_id": "vmware-zimbra",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"description\" content=\"Zimbra provides open source server and client software for messaging and collaboration. To find out more visit http://www.zimbra.com.\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"description\"\\ content=\"Zimbra\\ provides\\ open\\ source\\ server\\ and\\ client\\ software\\ for\\ messaging\\ and\\ collaboration\\.\\ To\\ find\\ out\\ more\\ visit\\ http://www\\.zimbra\\.com\\.\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!--div id=\"ZLoginAppName\">Web Client</div-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-div\\ id=\"ZLoginAppName\">Web\\ Client</div\\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<title>Zimbra Web Client Log In</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Zimbra\\ Web\\ Client\\ Log\\ In</title>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<h1><a href=\"http://www.zimbra.com/\" id=\"bannerLink\" target=\"_new\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h1><a\\ href=\"http://www\\.zimbra\\.com/\"\\ id=\"bannerLink\"\\ target=\"_new\">",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<td><input id=\"password\" class=\"zLoginField\" name=\"password\" type=\"password\" value=\"\" size=\"40\"/></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><input\\ id=\"password\"\\ class=\"zLoginField\"\\ name=\"password\"\\ type=\"password\"\\ value=\"\"\\ size=\"40\"/></td>",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<div id=\"ZLoginWhatsThis\" class=\"ZLoginInfoMessage\" style=\"display:none;\"><center style=\"margin-bottom:3px;\"><b>Client Types:</b></center>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"ZLoginWhatsThis\"\\ class=\"ZLoginInfoMessage\"\\ style=\"display:none;\"><center\\ style=\"margin\\-bottom:3px;\"><b>Client\\ Types:</b></center>",
       "version_group": 0
@@ -162,11 +169,11 @@
             "input": "<div id=\"ZLoginNotice\" class=\"legalNotice-small\"><a target=\"_new\" href=\"http://www.zimbra.com\">Zimbra</a> :: the leader in open source messaging and collaboration ::",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"ZLoginNotice\"\\ class=\"legalNotice\\-small\"><a\\ target=\"_new\"\\ href=\"http://www\\.zimbra\\.com\">Zimbra</a>\\ ::\\ the\\ leader\\ in\\ open\\ source\\ messaging\\ and\\ collaboration\\ ::",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

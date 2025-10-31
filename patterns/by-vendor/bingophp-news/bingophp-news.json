@@ -4,6 +4,7 @@
   "product": "BinGoPHP-News",
   "product_id": "bingophp-news",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "</b><a href='bnadmin.php' target='_blank'>Admin des news</a>'",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "</b><a\\ href='bnadmin\\.php'\\ target='_blank'>Admin\\ des\\ news</a>'",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<a href=\"http://bingophp.free.fr\" target=\"_blank\"><font color=\"#00000\" style=\"font-size: 8px\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://bingophp\\.free\\.fr\"\\ target=\"_blank\"><font\\ color=\"\\#00000\"\\ style=\"font\\-size:\\ 8px\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "onClick=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "onClick=\\\\",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<html><head><title>BinGoPHP News - IDENTIFICATION</title></head>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html><head><title>BinGoPHP\\ News\\ \\-\\ IDENTIFICATION</title></head>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<br><input type=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<br><input\\ type=\\\\",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "       <td width=\"50%\"><a href=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ \\ \\ \\ <td\\ width=\"50%\"><a\\ href=\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

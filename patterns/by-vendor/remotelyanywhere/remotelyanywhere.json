@@ -4,6 +4,7 @@
   "product": "RemotelyAnywhere",
   "product_id": "remotelyanywhere",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^RemotelyAnywhere",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^RemotelyAnywhere",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^RemotelyAnywhere/8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^RemotelyAnywhere/([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

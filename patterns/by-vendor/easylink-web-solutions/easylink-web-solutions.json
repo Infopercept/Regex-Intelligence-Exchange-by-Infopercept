@@ -4,6 +4,7 @@
   "product": "easyLink-Web-Solutions",
   "product_id": "easylink-web-solutions",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Dieser Abschnitt darf nur mit Genehmigung des Entwicklers entfernt werden und bedarf einer",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Dieser\\ Abschnitt\\ darf\\ nur\\ mit\\ Genehmigung\\ des\\ Entwicklers\\ entfernt\\ werden\\ und\\ bedarf\\ einer",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

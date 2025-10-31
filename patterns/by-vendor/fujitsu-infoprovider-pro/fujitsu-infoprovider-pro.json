@@ -4,6 +4,7 @@
   "product": "Fujitsu-InfoProvider-Pro",
   "product_id": "fujitsu-infoprovider-pro",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Fujitsu-InfoProvider-Pro",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Fujitsu-InfoProvider-Pro",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: Fujitsu-InfoProvider-Pro/[V]?([^ ]+) ",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: Fujitsu-InfoProvider-Pro/[V]?([^ ]+) ",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Niagara-Web-Server",
   "product_id": "niagara-web-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Niagara Web Server",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Niagara Web Server",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Server: Niagara Web Server/8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: Niagara Web Server/([\\d\\.]+)",
       "version_group": 1
@@ -70,11 +73,11 @@
             "input": "niagara-release: ^(.*)$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "niagara-release: ^(.*)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

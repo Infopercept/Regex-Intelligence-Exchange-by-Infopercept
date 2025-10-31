@@ -4,6 +4,7 @@
   "product": "Iciniti-Store",
   "product_id": "iciniti-store",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<!-- START (content_stylesheet.inc) -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ START\\ \\(content_stylesheet\\.inc\\)\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

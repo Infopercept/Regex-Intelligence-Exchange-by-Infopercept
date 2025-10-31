@@ -4,6 +4,7 @@
   "product": "HubSpot",
   "product_id": "hubspot",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "hsPagesViewedThisSession",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "hsPagesViewedThisSession",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "bitcoin-js-remote",
   "product_id": "bitcoin-js-remote",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<span id=\"balance\"</span>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<span\\ id=\"balance\"</span>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<p><a href=\"http://tcatm.github.com/bitcoin-js-remote\">bitcoin-js-remote</a> <span id=\"version\"></span> by <a href=\"mailto:tcatm@gawab.com\">tcatm</a></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p><a\\ href=\"http://tcatm\\.github\\.com/bitcoin\\-js\\-remote\">bitcoin\\-js\\-remote</a>\\ <span\\ id=\"version\"></span>\\ by\\ <a\\ href=\"mailto:tcatm@gawab\\.com\">tcatm</a></p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

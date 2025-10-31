@@ -4,6 +4,7 @@
   "product": "All-in-one-SEO-Pack",
   "product_id": "all-in-one-seo-pack",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<!-- /all in one seo pack -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ /all\\ in\\ one\\ seo\\ pack\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

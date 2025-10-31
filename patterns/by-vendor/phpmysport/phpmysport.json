@@ -4,6 +4,7 @@
   "product": "phpMySport",
   "product_id": "phpmysport",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by phpMySport <a href=\"http://phpmysport.sourceforge.net\" title=\"phpMySport\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ phpMySport\\ <a\\ href=\"http://phpmysport\\.sourceforge\\.net\"\\ title=\"phpMySport\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<a href=\"http://phpmysport.sourceforge.net\" title=\"phpMySport\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://phpmysport\\.sourceforge\\.net\"\\ title=\"phpMySport\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<div id=\"footer\">R&eacute;alisation phpMySport",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"footer\">R\\&eacute;alisation\\ phpMySport",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "/tpl_image/by_phpmysport.gif\" border=\"0\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/tpl_image/by_phpmysport\\.gif\"\\ border=\"0\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

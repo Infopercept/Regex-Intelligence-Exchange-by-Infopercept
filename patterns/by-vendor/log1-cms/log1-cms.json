@@ -4,6 +4,7 @@
   "product": "Log1-CMS",
   "product_id": "log1-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta http-equiv=\"Generator\" content=\"log1_cms\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ http\\-equiv=\"Generator\"\\ content=\"log1_cms\"\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- please do not deleate info below, thank you -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ please\\ do\\ not\\ deleate\\ info\\ below,\\ thank\\ you\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<p>Powered by <a href=\"http://log1cms.sourceforge.net\" target=\"_blank\"> Log1 CMS</a></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://log1cms\\.sourceforge\\.net\"\\ target=\"_blank\">\\ Log1\\ CMS</a></p>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<title>log1 cms: Login as Admin to</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>log1\\ cms:\\ Login\\ as\\ Admin\\ to</title>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<link href=\"engine/styles/login.css.php\" rel=\"stylesheet\" type=\"text/css\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ href=\"engine/styles/login\\.css\\.php\"\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ />",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "<img src=\"engine/images/logo.gif\" alt=\"log1 CMS logo\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"engine/images/logo\\.gif\"\\ alt=\"log1\\ CMS\\ logo\"/>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

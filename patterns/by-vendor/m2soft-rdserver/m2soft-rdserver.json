@@ -4,6 +4,7 @@
   "product": "M2Soft-RDServer",
   "product_id": "m2soft-rdserver",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>M2Soft Report Designer Server</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>M2Soft\\ Report\\ Designer\\ Server</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "^FALSE$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^FALSE$",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "Server: ^RDServer/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^RDServer/([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

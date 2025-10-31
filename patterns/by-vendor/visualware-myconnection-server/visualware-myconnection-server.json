@@ -4,6 +4,7 @@
   "product": "Visualware-MyConnection-Server",
   "product_id": "visualware-myconnection-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- Begin MyConnection Server applet -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Begin\\ MyConnection\\ Server\\ applet\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "^Visualware MyConnection Server",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Visualware MyConnection Server",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "Server: ^Visualware MyConnection Server [^\\d]+ (\\d\\.[^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Visualware MyConnection Server [^\\d]+ (\\d\\.[^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

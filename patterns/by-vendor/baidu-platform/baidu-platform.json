@@ -4,6 +4,7 @@
   "product": "Baidu-Platform",
   "product_id": "baidu-platform",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^BFE",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^BFE",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "^BD",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^BD",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<link rel=\"dns-prefetch\" href=\"//s[0-9].bdstatic.com\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link rel=\"dns-prefetch\" href=\"//s[0-9]\\.bdstatic\\.com\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

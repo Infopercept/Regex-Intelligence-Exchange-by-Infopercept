@@ -4,6 +4,7 @@
   "product": "AB-WEB-CMS",
   "product_id": "ab-web-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a href=\"#\" onclick=\"maximize();\" class=\"hdp_z01_z03_l\" onmouseover=\"ShowIB(",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"\\#\"\\ onclick=\"maximize\\(\\);\"\\ class=\"hdp_z01_z03_l\"\\ onmouseover=\"ShowIB\\(",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<div style=\"text-align: center;\"><br /><br /><a href=\"#\" onclick=\"imprfct();\" class=\"main_link\">[Imprimer]</a></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ style=\"text\\-align:\\ center;\"><br\\ /><br\\ /><a\\ href=\"\\#\"\\ onclick=\"imprfct\\(\\);\"\\ class=\"main_link\">\\[Imprimer\\]</a></div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

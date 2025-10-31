@@ -4,6 +4,7 @@
   "product": "WebYep",
   "product_id": "webyep",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<p class=\"warning\">To edit these pages with WebYep you need to <strong>enable JavaScript</strong> in your Web",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ class=\"warning\">To\\ edit\\ these\\ pages\\ with\\ WebYep\\ you\\ need\\ to\\ <strong>enable\\ JavaScript</strong>\\ in\\ your\\ Web",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<html><!-- InstanceBegin template=\"/Templates/panels.dwt.php\" codeOutsideHTMLIsLocked=\"false\" -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html><!\\-\\-\\ InstanceBegin\\ template=\"/Templates/panels\\.dwt\\.php\"\\ codeOutsideHTMLIsLocked=\"false\"\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

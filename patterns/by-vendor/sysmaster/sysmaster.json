@@ -4,6 +4,7 @@
   "product": "SysMaster",
   "product_id": "sysmaster",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^SysMaster Web Server",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^SysMaster Web Server",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^SysMaster Web Server/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^SysMaster Web Server/([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

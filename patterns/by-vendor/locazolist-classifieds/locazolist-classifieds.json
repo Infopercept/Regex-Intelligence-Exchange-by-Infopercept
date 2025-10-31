@@ -4,6 +4,7 @@
   "product": "LocazoList-Classifieds",
   "product_id": "locazolist-classifieds",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<link rel=\"stylesheet\" href=\"includes/lczFonts.css\" type=\"text/css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"includes/lczFonts\\.css\"\\ type=\"text/css\">",
       "version_group": 0
@@ -52,6 +54,5 @@
       "pattern": "Powered by <a href='http:/\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

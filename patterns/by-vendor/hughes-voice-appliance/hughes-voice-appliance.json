@@ -4,6 +4,7 @@
   "product": "Hughes-Voice-Appliance",
   "product_id": "hughes-voice-appliance",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<HTML><HEAD></HEAD><BODY onload=\"window.location=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<HTML><HEAD></HEAD><BODY\\ onload=\"window\\.location=\\\\",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<head><title>HughesNet Appliance Control Center</title></head>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<head><title>HughesNet\\ Appliance\\ Control\\ Center</title></head>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

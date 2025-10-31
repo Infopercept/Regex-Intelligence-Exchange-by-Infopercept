@@ -4,6 +4,7 @@
   "product": "ModxCMS",
   "product_id": "modxcms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"generator\" content=\"ModX",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"ModX",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<script type=\"text/javascript\">var MODX_MEDIA_PATH",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ type=\"text/javascript\">var\\ MODX_MEDIA_PATH",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

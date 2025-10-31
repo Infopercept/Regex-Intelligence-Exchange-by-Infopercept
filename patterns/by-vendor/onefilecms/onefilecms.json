@@ -4,6 +4,7 @@
   "product": "OneFileCMS",
   "product_id": "onefilecms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<p>This site powered by <a href=\"http://onefilecms.com/\">OneFileCMS</a>. [<a href=\"onefilecms.php?f=index.php\">Admin</a>]</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p>This\\ site\\ powered\\ by\\ <a\\ href=\"http://onefilecms\\.com/\">OneFileCMS</a>\\.\\ \\[<a\\ href=\"onefilecms\\.php\\?f=index\\.php\">Admin</a>\\]</p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

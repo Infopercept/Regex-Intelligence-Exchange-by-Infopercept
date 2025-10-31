@@ -4,6 +4,7 @@
   "product": "iGuard-Security-System",
   "product_id": "iguard-security-system",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "\t<TITLE>iGuard Fingerprint Security System</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<TITLE>iGuard\\ Fingerprint\\ Security\\ System</TITLE>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

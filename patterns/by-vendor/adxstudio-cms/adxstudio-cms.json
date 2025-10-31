@@ -4,6 +4,7 @@
   "product": "adxstudio-cms",
   "product_id": "adxstudio-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "anonprofile",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "anonprofile",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "/PoweredByADX.gif",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/PoweredByADX\\.gif",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "alt=\"Powered by Adxstudio\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "alt=\"Powered\\ by\\ Adxstudio\"",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "/poweredbyadx.png",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/poweredbyadx\\.png",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

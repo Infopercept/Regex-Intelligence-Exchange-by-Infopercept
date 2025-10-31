@@ -4,6 +4,7 @@
   "product": "Energine",
   "product_id": "energine",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<script type=\"text/javascript\" src=\"[^\"]*scripts/Energine.js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script type=\"text/javascript\" src=\"[^\"]*scripts/Energine.js\"></script>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"[^\"]*stylesheets/energine.css\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link rel=\"stylesheet\" type=\"text/css\" href=\"[^\"]*stylesheets/energine.css\" />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<div id=\"footer\"><span class=\"copyright\">Powered by <a href=\"http://energine.org\">Energine</a><br/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"footer\"><span\\ class=\"copyright\">Powered\\ by\\ <a\\ href=\"http://energine\\.org\">Energine</a><br/>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<span class=\"copyright\">Powered by <a href= \"http://energine.org/\">Energine</a></span>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<span\\ class=\"copyright\">Powered\\ by\\ <a\\ href=\\ \"http://energine\\.org/\">Energine</a></span>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<div id=\"footer\">Powered by Energine.</div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"footer\">Powered\\ by\\ Energine\\.</div>",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "<div id=\"footer\">Powered by <a href=\"http://energine.org\">Energine</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"footer\">Powered\\ by\\ <a\\ href=\"http://energine\\.org\">Energine</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

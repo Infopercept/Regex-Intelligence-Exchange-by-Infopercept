@@ -4,6 +4,7 @@
   "product": "Citrix-Metaframe",
   "product_id": "citrix-metaframe",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Copyright (c) [d]+ - [d]+ Citrix Systems, Inc. All Rights Reserved.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Copyright \\(c\\) [\\d]+ - [\\d]+ Citrix Systems, Inc. All Rights Reserved.",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "window.location=\"/Citrix/MetaFrame\";",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "window\\.location=\"/Citrix/MetaFrame\";",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<title>MetaFrame Presentation Server Log In</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>MetaFrame\\ Presentation\\ Server\\ Log\\ In</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

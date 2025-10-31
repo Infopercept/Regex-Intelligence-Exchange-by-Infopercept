@@ -4,6 +4,7 @@
   "product": "AlstraSoft-EPay-Enterprise",
   "product_id": "alstrasoft-epay-enterprise",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a class=copy href=\"http://www.alstrasoft.com/\" target=\"_blank\">Powered by EPay Enterprise.</a>&nbsp;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ class=copy\\ href=\"http://www\\.alstrasoft\\.com/\"\\ target=\"_blank\">Powered\\ by\\ EPay\\ Enterprise\\.</a>\\&nbsp;",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "ln=English",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "ln=English",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": " <tr><td align=center><input class=submit type=submit name=send value=\"LOGIN NOW!\"></td></tr>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ <tr><td\\ align=center><input\\ class=submit\\ type=submit\\ name=send\\ value=\"LOGIN\\ NOW!\"></td></tr>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<tr><td class=capl><a href='/shop.htm?action=view'>TOP CATEGORIES</a>&nbsp;&nbsp;&gt;&gt;&nbsp;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr><td\\ class=capl><a\\ href='/shop\\.htm\\?action=view'>TOP\\ CATEGORIES</a>\\&nbsp;\\&nbsp;\\&gt;\\&gt;\\&nbsp;",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

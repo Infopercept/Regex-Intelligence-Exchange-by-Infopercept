@@ -4,6 +4,7 @@
   "product": "LPSE",
   "product_id": "lpse",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^(https?://[^/]+)?/eproc/app",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^(https?://[^/]+)?/eproc/app",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/eproc/assets/application.css\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/eproc/assets/application\\.css\"/>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

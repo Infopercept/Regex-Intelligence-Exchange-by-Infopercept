@@ -4,6 +4,7 @@
   "product": "Footprint",
   "product_id": "footprint",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^Footprint 8.5/FPMCP$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Footprint ([\\d\\.]+)/FPMCP$",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "^Footprint",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Footprint",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

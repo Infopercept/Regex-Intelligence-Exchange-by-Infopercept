@@ -4,6 +4,7 @@
   "product": "Easy-File-Sharing-Web-Server",
   "product_id": "easy-file-sharing-web-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: ^Easy File Sharing Web Server v(.+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Easy File Sharing Web Server v(.+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

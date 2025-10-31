@@ -4,6 +4,7 @@
   "product": "RIPS",
   "product_id": "rips",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<td nowrap><input type=\"checkbox\" id=\"subdirs\" value=\"1\" title=\"check to scan subdirectories\" />subdirs</td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ nowrap><input\\ type=\"checkbox\"\\ id=\"subdirs\"\\ value=\"1\"\\ title=\"check\\ to\\ scan\\ subdirectories\"\\ />subdirs</td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

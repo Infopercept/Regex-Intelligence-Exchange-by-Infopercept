@@ -4,6 +4,7 @@
   "product": "Micronet-Router",
   "product_id": "micronet-router",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: ^RCTTools \\(SecureSOHO Web configuration Tools\\) v([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^RCTTools \\(SecureSOHO Web configuration Tools\\) v([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

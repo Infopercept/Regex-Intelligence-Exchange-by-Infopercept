@@ -4,6 +4,7 @@
   "product": "TypePad",
   "product_id": "typepad",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<meta name=\"generator\" content=\"http://www.typepad.com/\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"http://www\\.typepad\\.com/\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

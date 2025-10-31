@@ -4,6 +4,7 @@
   "product": "anyInventory",
   "product_id": "anyinventory",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "\t\t<title>anyInventory: Top</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t<title>anyInventory:\\ Top</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "\t\t\t\t\t you have inventoried <b>[0-9]*</b>  items with <a href=\"http://anyinventory.sourceforge.net/\">anyInventory, the most flexible and powerful web-based inventory system</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\t\t\t\t\t you have inventoried <b>[0-9]*</b>  items with <a href=\"http://anyinventory.sourceforge.net/\">anyInventory, the most flexible and powerful web-based inventory system</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

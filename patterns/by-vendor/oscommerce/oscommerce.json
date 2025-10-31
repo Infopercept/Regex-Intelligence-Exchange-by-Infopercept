@@ -4,6 +4,7 @@
   "product": "OSCommerce",
   "product_id": "oscommerce",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "The Exchange Project - Community Made Shopping!",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "The\\ Exchange\\ Project\\ \\-\\ Community\\ Made\\ Shopping!",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<td class=\"messageStackWarning\"><img src=\"images/icons/warning.gif\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ class=\"messageStackWarning\"><img\\ src=\"images/icons/warning\\.gif\"",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "Powered by <a href=\"http://www.oscommerce.com\" target=\"_blank\">osCommerce</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.oscommerce\\.com\"\\ target=\"_blank\">osCommerce</a>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "cookie_test=please_accept_for_session;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "cookie_test=please_accept_for_session;",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

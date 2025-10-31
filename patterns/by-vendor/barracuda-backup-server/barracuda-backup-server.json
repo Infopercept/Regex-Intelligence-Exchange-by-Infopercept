@@ -4,6 +4,7 @@
   "product": "Barracuda-Backup-Server",
   "product_id": "barracuda-backup-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div id=\"logo-wrapper\"><a id=\"logo\" href=\"http://www.barracudanetworks.com/ns/?a=backup_localui\">Barracuda Networks</a></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"logo\\-wrapper\"><a\\ id=\"logo\"\\ href=\"http://www\\.barracudanetworks\\.com/ns/\\?a=backup_localui\">Barracuda\\ Networks</a></div>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "BACKUP_LOCAL_LOCALE=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "BACKUP_LOCAL_LOCALE=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

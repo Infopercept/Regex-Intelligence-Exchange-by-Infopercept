@@ -4,6 +4,7 @@
   "product": "NukeViet-CMS",
   "product_id": "nukeviet-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div id=\"run_cronjobs\" style=\"visibility: hidden; display: none;\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"run_cronjobs\"\\ style=\"visibility:\\ hidden;\\ display:\\ none;\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<form class=\"loginform\" method=\"post\" action=\"[^\"^>]*/admin/index.php\" onsubmit=\"return nv_checkadminlogin_submit();\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form class=\"loginform\" method=\"post\" action=\"[^\"^>]*/admin/index\\.php\" onsubmit=\"return nv_checkadminlogin_submit\\(\\);\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

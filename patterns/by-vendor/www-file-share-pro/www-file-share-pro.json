@@ -4,6 +4,7 @@
   "product": "WWW-File-Share-Pro",
   "product_id": "www-file-share-pro",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<td height=\"27\"><a href=\"http://www.lionmax.com\" target=\"_blank\">Powered by LionMax Software</a></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ height=\"27\"><a\\ href=\"http://www\\.lionmax\\.com\"\\ target=\"_blank\">Powered\\ by\\ LionMax\\ Software</a></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

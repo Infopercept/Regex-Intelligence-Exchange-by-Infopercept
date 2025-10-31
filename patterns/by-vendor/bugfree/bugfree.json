@@ -4,6 +4,7 @@
   "product": "BugFree",
   "product_id": "bugfree",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<select name=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<select\\ name=\\\\",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<img src=\"Image/login_bg_left.gif\" class=\"loginBgImage\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"Image/login_bg_left\\.gif\"\\ class=\"loginBgImage\"/>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<td><input type=\"password\" name=\"BugUserPWD\" class=\"MyInput\"></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><input\\ type=\"password\"\\ name=\"BugUserPWD\"\\ class=\"MyInput\"></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

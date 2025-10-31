@@ -4,6 +4,7 @@
   "product": "SQLiteManager",
   "product_id": "sqlitemanager",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- SQLiteFunctionProperties.class.php : propView() -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ SQLiteFunctionProperties\\.class\\.php\\ :\\ propView\\(\\)\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- common.lib.php : displayMenuTitle() -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ common\\.lib\\.php\\ :\\ displayMenuTitle\\(\\)\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<td style=\"white-space: nowrap\">\t<form name=\"database\" action=\"main.php\" enctype=\"multipart/form-data\" method=\"POST\" onSubmit=\"checkPath();\" target=\"main\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ style=\"white\\-space:\\ nowrap\">\\\t<form\\ name=\"database\"\\ action=\"main\\.php\"\\ enctype=\"multipart/form\\-data\"\\ method=\"POST\"\\ onSubmit=\"checkPath\\(\\);\"\\ target=\"main\">",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<h2 class=\"sqlmVersion\">Database : <a href=\"main.php?dbsel=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h2\\ class=\"sqlmVersion\">Database\\ :\\ <a\\ href=\"main\\.php\\?dbsel=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "TomatoCart",
   "product_id": "tomatocart",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"generator\" content=\"TomatoCart Open Source Shopping Cart Solutions\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"TomatoCart\\ Open\\ Source\\ Shopping\\ Cart\\ Solutions\"\\ />",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Powered by <a href=\"http://www.tomatocart.com\" target=\"_blank\">TomatoCart</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.tomatocart\\.com\"\\ target=\"_blank\">TomatoCart</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

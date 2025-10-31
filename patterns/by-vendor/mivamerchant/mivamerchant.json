@@ -4,6 +4,7 @@
   "product": "MivaMerchant",
   "product_id": "mivamerchant",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div id=\"mmcategorytree\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"mmcategorytree\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "htscallerid=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "htscallerid=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

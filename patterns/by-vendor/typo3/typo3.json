@@ -4,6 +4,7 @@
   "product": "TYPO3",
   "product_id": "typo3",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!--TYPO3SEARCH_end-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-TYPO3SEARCH_end\\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!--W+This website is powered by TYPO3",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!--\\W+This website is powered by TYPO3",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "^fe_typo_user",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^fe_typo_user",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "d+ms",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\d+ms",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

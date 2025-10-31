@@ -4,6 +4,7 @@
   "product": "Enhydra-Application-Server",
   "product_id": "enhydra-application-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^Enhydra-MultiServer/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Enhydra-MultiServer/([^\\s]+)",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "servlet-engine: Enhydra Application Server/([^\\s]+)",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "servlet-engine: Enhydra Application Server/([^\\s]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

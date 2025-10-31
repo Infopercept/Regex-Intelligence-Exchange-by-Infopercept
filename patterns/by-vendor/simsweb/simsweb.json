@@ -4,6 +4,7 @@
   "product": "SIMSWeb",
   "product_id": "simsweb",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>SIMSWeb Loading.....</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>SIMSWeb\\ Loading\\.\\.\\.\\.\\.</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "index.html\"><font color=\"black\" face=\"arial\">Loading SIMSWeb, please wait.....</font></a></h2>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "index\\.html\"><font\\ color=\"black\"\\ face=\"arial\">Loading\\ SIMSWeb,\\ please\\ wait\\.\\.\\.\\.\\.</font></a></h2>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<script language=\"Javascript\" src=\"/SIMSWeb/monitor.js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ language=\"Javascript\"\\ src=\"/SIMSWeb/monitor\\.js\"></script>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<form onSubmit=\"sendinfo(); return false;\" name=\"LOGON\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ onSubmit=\"sendinfo\\(\\);\\ return\\ false;\"\\ name=\"LOGON\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

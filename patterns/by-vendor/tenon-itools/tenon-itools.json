@@ -4,6 +4,7 @@
   "product": "Tenon-iTools",
   "product_id": "tenon-itools",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "(iTools",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\(iTools",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: \\(iTools 8.5[\\)]?/Mac OS X\\)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: \\(iTools ([\\d\\.]+)[\\)]?/Mac OS X\\)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

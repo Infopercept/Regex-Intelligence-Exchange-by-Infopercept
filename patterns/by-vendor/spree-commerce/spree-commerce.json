@@ -4,6 +4,7 @@
   "product": "Spree-Commerce",
   "product_id": "spree-commerce",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<div style=\"margin:0;padding:0;display:inline\"><input name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ style=\"margin:0;padding:0;display:inline\"><input\\ name=\"utf8\"\\ type=\"hidden\"\\ value=\"\\&\\#x2713;\"\\ /></div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

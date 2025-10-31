@@ -4,6 +4,7 @@
   "product": "fsaATLAS",
   "product_id": "fsaatlas",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<form action=\"LoginFinish.asp\" method=\"post\" name=\"MainForm\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ action=\"LoginFinish\\.asp\"\\ method=\"post\"\\ name=\"MainForm\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!-- AP - 06/02/2009 - Defect 1533 - Campus DataLink Link not appearing at the top navigation bar-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ AP\\ \\-\\ 06/02/2009\\ \\-\\ Defect\\ 1533\\ \\-\\ Campus\\ DataLink\\ Link\\ not\\ appearing\\ at\\ the\\ top\\ navigation\\ bar\\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "DBHcms",
   "product_id": "dbhcms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a target=\"_blank\" href=\"http://www.drbenhur.com/\" class=\"copyright\"> powered by DBHcms </a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ target=\"_blank\"\\ href=\"http://www\\.drbenhur\\.com/\"\\ class=\"copyright\">\\ powered\\ by\\ DBHcms\\ </a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!--[s]+Please leave this link on your website, it will help a lot for the DBHcms to get well-known.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!--[\\s]+Please leave this link on your website, it will help a lot for the DBHcms to get well-known.",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<!--[s]+Change the copyright but please leave a link \"powered by DBHcms\" to http://www.drbenhur.com[s]",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!--[\\s]+Change the copyright but please leave a link \"powered by DBHcms\" to http://www.drbenhur.com[\\s]",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "BeEF",
   "product_id": "beef",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<img src=\"../images/beef.gif\" onclick=\"new Effect.Shake(\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"\\.\\./images/beef\\.gif\"\\ onclick=\"new\\ Effect\\.Shake\\(\\\\",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title>Browser Exploitation Framework</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Browser\\ Exploitation\\ Framework</title>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<script[^>]+src=['\"]?[^>^=\"'^\"]+/hook/beefmagic.js.php['\"]?",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script[^>]+src=['\"]?[^>^=\"'^\"]+/hook/beefmagic\\.js\\.php['\"]?",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<script[^>]+src=['\"]?https?://[^/]+/hook.js['\"]?",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script[^>]+src=['\"]?https?://[^/]+/hook\\.js['\"]?",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<div id=\"centered\"><img id=\"beef-logo\" src=\"/ui/media/images/beef.png\" alt=\"BeEF - The Browser Exploitation Framework\" /></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"centered\"><img\\ id=\"beef\\-logo\"\\ src=\"/ui/media/images/beef\\.png\"\\ alt=\"BeEF\\ \\-\\ The\\ Browser\\ Exploitation\\ Framework\"\\ /></div>",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "Server: ^BeEF ([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^BeEF ([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "AiCart",
   "product_id": "aicart",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "\" for = \"l_password\">Password <span class=\"req\">*</span></label>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\"\\ for\\ =\\ \"l_password\">Password\\ <span\\ class=\"req\">\\*</span></label>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<input id = \"l_password\" name = \"l_password\" class = \"field text medium\" type = \"password\" maxlength = \"255\" value = \"\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ id\\ =\\ \"l_password\"\\ name\\ =\\ \"l_password\"\\ class\\ =\\ \"field\\ text\\ medium\"\\ type\\ =\\ \"password\"\\ maxlength\\ =\\ \"255\"\\ value\\ =\\ \"\"\\ />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<input id=\"l_remember_me\" name=\"l_remember_me\" class = \"field checkbox\" type = \"checkbox\" value = \"1\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ id=\"l_remember_me\"\\ name=\"l_remember_me\"\\ class\\ =\\ \"field\\ checkbox\"\\ type\\ =\\ \"checkbox\"\\ value\\ =\\ \"1\"\\ />",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<input name=\"APP_authenticate\" type=\"hidden\" id=\"APP_authenticate\" value=\"frmLogin\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ name=\"APP_authenticate\"\\ type=\"hidden\"\\ id=\"APP_authenticate\"\\ value=\"frmLogin\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

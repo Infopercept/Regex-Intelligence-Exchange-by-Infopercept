@@ -4,6 +4,7 @@
   "product": "OpenWrt",
   "product_id": "openwrt",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>OpenWrt Administrative Console</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>OpenWrt\\ Administrative\\ Console</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "OpenWrt Administrative Console<br />Redirecting to : <a style=\"color: inherit;\" href=\"/cgi-bin/webif.sh\">main page</a></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "OpenWrt\\ Administrative\\ Console<br\\ />Redirecting\\ to\\ :\\ <a\\ style=\"color:\\ inherit;\"\\ href=\"/cgi\\-bin/webif\\.sh\">main\\ page</a></p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

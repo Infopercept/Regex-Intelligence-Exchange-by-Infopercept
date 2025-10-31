@@ -4,6 +4,7 @@
   "product": "NetArtMedia-Real-Estate-Portal",
   "product_id": "netartmedia-real-estate-portal",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by <a href=\"http://www.netartmedia.net/realestate\" target=\"_blank\">Real Estate Portal</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.netartmedia\\.net/realestate\"\\ target=\"_blank\">Real\\ Estate\\ Portal</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by <a href=\"http://www.netartmedia.net/realestate\">Real Estate Portal</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.netartmedia\\.net/realestate\">Real\\ Estate\\ Portal</a>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "\t\t\tdocument.form1.property_type.options[i] = new Option(CurrentModels[i], CurrentModels[i], 0, 0);",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t\\\tdocument\\.form1\\.property_type\\.options\\[i\\]\\ =\\ new\\ Option\\(CurrentModels\\[i\\],\\ CurrentModels\\[i\\],\\ 0,\\ 0\\);",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

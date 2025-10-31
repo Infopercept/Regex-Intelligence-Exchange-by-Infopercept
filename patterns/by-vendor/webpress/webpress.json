@@ -4,6 +4,7 @@
   "product": "WebPress",
   "product_id": "webpress",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered By <a href=\"http://www.ecomenterprises.com\" target=\"_blank\" class=\"small_text\">WebPress</a><SUP><FONT SIZE=\"-5\">TM</FONT></SUP></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.ecomenterprises\\.com\"\\ target=\"_blank\"\\ class=\"small_text\">WebPress</a><SUP><FONT\\ SIZE=\"\\-5\">TM</FONT></SUP></td>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by <a href=\"http://goywp.com\" id=\"webpresslink\">WebPress</a><br></p></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://goywp\\.com\"\\ id=\"webpresslink\">WebPress</a><br></p></td>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "Powered by </font><font size=\"1\" color=\"#000000\" face=\"Arial\">YWP</font>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ </font><font\\ size=\"1\"\\ color=\"\\#000000\"\\ face=\"Arial\">YWP</font>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

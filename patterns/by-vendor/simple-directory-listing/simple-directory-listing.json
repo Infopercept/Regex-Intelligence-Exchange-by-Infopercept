@@ -4,6 +4,7 @@
   "product": "Simple-Directory-Listing",
   "product_id": "simple-directory-listing",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name='keywords' content='simple, directory, listing'></meta>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name='keywords'\\ content='simple,\\ directory,\\ listing'></meta>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name='keywords' content='simple, directory, listing, /[^/]*/? - Simple Directory Listing'></meta>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name='keywords' content='simple, directory, listing, /[^/]*/? - Simple Directory Listing'></meta>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<form action='?system=login' method='post' onsubmit='Sdl.login.submit(); return false;'>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ action='\\?system=login'\\ method='post'\\ onsubmit='Sdl\\.login\\.submit\\(\\);\\ return\\ false;'>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<i><b>powered by <a href='http://simpledirectorylisting.net'>SimpleDirectoryListing</a></b></i>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<i><b>powered\\ by\\ <a\\ href='http://simpledirectorylisting\\.net'>SimpleDirectoryListing</a></b></i>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "Powered by <a href=\"http://sourceforge.net/simpledirectory\">SimpleDirectoryListing</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://sourceforge\\.net/simpledirectory\">SimpleDirectoryListing</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

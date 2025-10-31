@@ -4,6 +4,7 @@
   "product": "IBM-Cognos",
   "product_id": "ibm-cognos",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"Trademark\" content=\"Licensed Material - Property of IBM Corp. IBM, the IBM logo, and Cognos are trademarks of IBM Corp., registered in many jurisdictions worldwide.\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"Trademark\"\\ content=\"Licensed\\ Material\\ \\-\\ Property\\ of\\ IBM\\ Corp\\.\\ IBM,\\ the\\ IBM\\ logo,\\ and\\ Cognos\\ are\\ trademarks\\ of\\ IBM\\ Corp\\.,\\ registered\\ in\\ many\\ jurisdictions\\ worldwide\\.\"/>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<td nowrap class=\"copyright\" id=\"loginLegalContainer\">Licensed Material - Property of IBM Corp.<br>(C) Copyright IBM Corporation and its licensors 2005, 2009.<br>IBM, the IBM logo, and Cognos are trademarks of IBM Corp., registered in many jurisdictions worldwide.</td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ nowrap\\ class=\"copyright\"\\ id=\"loginLegalContainer\">Licensed\\ Material\\ \\-\\ Property\\ of\\ IBM\\ Corp\\.<br>\\(C\\)\\ Copyright\\ IBM\\ Corporation\\ and\\ its\\ licensors\\ 2005,\\ 2009\\.<br>IBM,\\ the\\ IBM\\ logo,\\ and\\ Cognos\\ are\\ trademarks\\ of\\ IBM\\ Corp\\.,\\ registered\\ in\\ many\\ jurisdictions\\ worldwide\\.</td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

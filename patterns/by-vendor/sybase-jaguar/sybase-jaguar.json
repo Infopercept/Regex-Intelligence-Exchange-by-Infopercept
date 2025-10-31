@@ -4,6 +4,7 @@
   "product": "Sybase-Jaguar",
   "product_id": "sybase-jaguar",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Jaguar Server Version",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Jaguar Server Version",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^Jaguar Server Version 8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Jaguar Server Version ([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Ricoh-Photocopier",
   "product_id": "ricoh-photocopier",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"background:url(/images/settingDivision.gif) repeat-x bottom;\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<table\\ width=\"100%\"\\ border=\"0\"\\ cellspacing=\"0\"\\ cellpadding=\"0\"\\ style=\"background:url\\(/images/settingDivision\\.gif\\)\\ repeat\\-x\\ bottom;\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<meta http-equiv=\"refresh\" content=\"1; URL=/web/guest/en/websys/webArch/message.cgi?messageID=MSG_JAVASCRIPTOFF&buttonURL=/../../../\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ http\\-equiv=\"refresh\"\\ content=\"1;\\ URL=/web/guest/en/websys/webArch/message\\.cgi\\?messageID=MSG_JAVASCRIPTOFF\\&buttonURL=/\\.\\./\\.\\./\\.\\./\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

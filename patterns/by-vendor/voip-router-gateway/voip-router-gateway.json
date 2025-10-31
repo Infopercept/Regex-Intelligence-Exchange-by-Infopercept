@@ -4,6 +4,7 @@
   "product": "VoIP-Router-Gateway",
   "product_id": "voip-router-gateway",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<area shape=\"poly\" coords=\"152,237,152,180,194,180,260,215,293,214,293,236\" href=\"enFrame.htm\" alt=\"english version\" onClick=\"form_submit(\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<area\\ shape=\"poly\"\\ coords=\"152,237,152,180,194,180,260,215,293,214,293,236\"\\ href=\"enFrame\\.htm\"\\ alt=\"english\\ version\"\\ onClick=\"form_submit\\(\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

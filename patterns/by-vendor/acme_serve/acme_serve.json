@@ -4,6 +4,7 @@
   "product": "Acme_Serve",
   "product_id": "acme_serve",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: Acme.Serve",
             "expected_version": "Acme.Serve"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Acme\\.Serve",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

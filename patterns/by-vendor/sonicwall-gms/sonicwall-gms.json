@@ -4,6 +4,7 @@
   "product": "SonicWALL-GMS",
   "product_id": "sonicwall-gms",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>SonicWALL GMS Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>SonicWALL\\ GMS\\ Login</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title>SonicWALL GMS Login Screen</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>SonicWALL\\ GMS\\ Login\\ Screen</title>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<body background=\"images/gray_waves.back.gif\" leftmargin=\"0\" topmargin=\"0\" marginwidth=\"0\" marginheight=\"0\" onLoad=\"onLoadFunc()\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ background=\"images/gray_waves\\.back\\.gif\"\\ leftmargin=\"0\"\\ topmargin=\"0\"\\ marginwidth=\"0\"\\ marginheight=\"0\"\\ onLoad=\"onLoadFunc\\(\\)\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "lochDNS-MyDNS-Appliance",
   "product_id": "lochdns-mydns-appliance",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<li><a href=\"/mydnsconfig/index.htm\">Configure MyDNS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<li><a\\ href=\"/mydnsconfig/index\\.htm\">Configure\\ MyDNS</a>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<body bgcolor=\"#FFFFFF\" leftmargin=0 topmargin=0 marginwidth=0 marginheight=0 onLoad=\"breakout()\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ bgcolor=\"\\#FFFFFF\"\\ leftmargin=0\\ topmargin=0\\ marginwidth=0\\ marginheight=0\\ onLoad=\"breakout\\(\\)\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

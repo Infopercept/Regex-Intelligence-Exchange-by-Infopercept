@@ -4,6 +4,7 @@
   "product": "Zen-Load-Balancer",
   "product_id": "zen-load-balancer",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Basic realm=\"Zen Load Balancer\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Basic\\ realm=\"Zen\\ Load\\ Balancer\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

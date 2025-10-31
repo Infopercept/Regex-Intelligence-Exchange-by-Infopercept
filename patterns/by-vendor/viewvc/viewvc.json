@@ -4,6 +4,7 @@
   "product": "ViewVC",
   "product_id": "viewvc",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>ViewVC Repository Listing</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>ViewVC\\ Repository\\ Listing</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- ViewVC :: http://www.viewvc.org/ -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ ViewVC\\ ::\\ http://www\\.viewvc\\.org/\\ \\-\\->",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<!-- ViewCVS -- http://viewcvs.sourceforge.net/",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ ViewCVS\\ \\-\\-\\ http://viewcvs\\.sourceforge\\.net/",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Piwigo",
   "product_id": "piwigo",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"generator\" content=\"Piwigo (aka PWG), see piwigo.org\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"Piwigo\\ \\(aka\\ PWG\\),\\ see\\ piwigo\\.org\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"generator\" content=\"Piwigo, piwigo.org\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"Piwigo,\\ piwigo\\.org\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<div id=\"copyright\">s+<a name=\"EoP\"></a>s+<!-- End of Page -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div id=\"copyright\">\\s+<a name=\"EoP\"></a>\\s+<!-- End of Page -->",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "Powered bys+<a href=\"http://piwigo.org\" class=\"Piwigo\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by\\s+<a href=\"http://piwigo\\.org\" class=\"Piwigo\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

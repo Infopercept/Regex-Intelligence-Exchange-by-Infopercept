@@ -4,6 +4,7 @@
   "product": "Infotrak-Oil-Commander",
   "product_id": "infotrak-oil-commander",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Login - Powered By: Infotrak's Oil Commander</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Login\\ \\-\\ Powered\\ By:\\ Infotrak's\\ Oil\\ Commander</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<div id=\"pnlContent_Shadow\" style=\"background-color:DarkGray;overflow:hidden;position:absolute;left:23;top:163;z-index:-1;width:98%;height:700 ;\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"pnlContent_Shadow\"\\ style=\"background\\-color:DarkGray;overflow:hidden;position:absolute;left:23;top:163;z\\-index:\\-1;width:98%;height:700\\ ;\">",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<span id=\"lblMessage\">After entering your email address and clicking on Continue, an email with your login details will be sent. Please allow some time for the email. If you do not receive it please contact your dealership. </span>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<span\\ id=\"lblMessage\">After\\ entering\\ your\\ email\\ address\\ and\\ clicking\\ on\\ Continue,\\ an\\ email\\ with\\ your\\ login\\ details\\ will\\ be\\ sent\\.\\ Please\\ allow\\ some\\ time\\ for\\ the\\ email\\.\\ If\\ you\\ do\\ not\\ receive\\ it\\ please\\ contact\\ your\\ dealership\\.\\ </span>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

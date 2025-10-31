@@ -4,6 +4,7 @@
   "product": "Ruby-on-Rails",
   "product_id": "ruby-on-rails",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- This file lives in public/404.html -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ This\\ file\\ lives\\ in\\ public/404\\.html\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- This file lives in public/422.html -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ This\\ file\\ lives\\ in\\ public/422\\.html\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!-- This file lives in public/500.html -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ This\\ file\\ lives\\ in\\ public/500\\.html\\ \\-\\->",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "// This file is automatically included by javascript_include_tag :defaults",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "//\\ This\\ file\\ is\\ automatically\\ included\\ by\\ javascript_include_tag\\ :defaults",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<title>The page you were looking for doesn't exist (404)</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>The\\ page\\ you\\ were\\ looking\\ for\\ doesn't\\ exist\\ \\(404\\)</title>",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "#errorExplanation h2 {",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\#errorExplanation\\ h2\\ \\{",
       "version_group": 0
@@ -231,7 +238,8 @@
             "input": "<h3><a href=\"rails/info/properties\" onclick=\"about(); return false\">About your application&rsquo;s environment</a></h3>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h3><a\\ href=\"rails/info/properties\"\\ onclick=\"about\\(\\);\\ return\\ false\">About\\ your\\ application\\&rsquo;s\\ environment</a></h3>",
       "version_group": 0
@@ -254,7 +262,8 @@
             "input": "<p>Run <tt>rake db:migrate</tt> to create your database. If you're not using SQLite (the default), edit <tt>config/database.yml</tt> with your username and password.</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p>Run\\ <tt>rake\\ db:migrate</tt>\\ to\\ create\\ your\\ database\\.\\ If\\ you're\\ not\\ using\\ SQLite\\ \\(the\\ default\\),\\ edit\\ <tt>config/database\\.yml</tt>\\ with\\ your\\ username\\ and\\ password\\.</p>",
       "version_group": 0
@@ -277,7 +286,8 @@
             "input": "<title>Action Controller: Exception caught</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Action\\ Controller:\\ Exception\\ caught</title>",
       "version_group": 0
@@ -300,7 +310,8 @@
             "input": "<div id=\"session_dump\" style=\"display:none\"><pre class=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"session_dump\"\\ style=\"display:none\"><pre\\ class=\\\\",
       "version_group": 0
@@ -323,11 +334,11 @@
             "input": "^request_method",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^request_method",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,14 +4,12 @@
   "product": "PostgreSQL",
   "product_id": "postgresql-global-development-group-postgresql",
   "category": "database",
+  "subcategory": "database-engine",
   "versions": {},
   "all_versions": [
     {
       "name": "PostgreSQL Database - Banner",
-      "category": "database",
       "pattern": "PostgreSQL ([\\d.]+)",
-      "vendor": "PostgreSQL Global Development Group",
-      "product": "PostgreSQL",
       "version_group": 1,
       "priority": 170,
       "confidence": 0.95,
@@ -35,9 +33,9 @@
             "input": "PostgreSQL 12.10 on x86_64-pc-linux-gnu",
             "expected_version": "12.10"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
-  ],
-  "subcategory": "database-engine"
+  ]
 }

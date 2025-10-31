@@ -4,6 +4,7 @@
   "product": "Bootstrap",
   "product_id": "bootstrap",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<script [^>]*bootstrap",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script [^>]*bootstrap",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<link [^>]*bootstrap",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link [^>]*bootstrap",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

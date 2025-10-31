@@ -4,6 +4,7 @@
   "product": "Apache",
   "product_id": "apache",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,15 @@
             "input": "<title>Test Page for Apache Installation</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "compiled_pattern": true
       },
       "pattern": "<title>Test\\ Page\\ for\\ Apache\\ Installation</title>",
       "version_group": 0
@@ -47,7 +56,15 @@
             "input": "<TITLE>Test Page for the SSL/TLS-aware Apache Installation on Web Site</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>Test\\ Page\\ for\\ the\\ SSL/TLS\\-aware\\ Apache\\ Installation\\ on\\ Web\\ Site</TITLE>",
       "version_group": 0
@@ -70,7 +87,15 @@
             "input": "<html><body><h1>It works!</h1></body></html>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "compiled_pattern": true
       },
       "pattern": "<html><body><h1>It\\ works!</h1></body></html>",
       "version_group": 0
@@ -93,7 +118,15 @@
             "input": "<html>Apache is functioning normally</html>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "compiled_pattern": true
       },
       "pattern": "<html>Apache\\ is\\ functioning\\ normally</html>",
       "version_group": 0
@@ -116,7 +149,15 @@
             "input": "<body><center>This IP is being shared among many domains.<br>\\nTo view the domain you are looking for, simply enter the domain name in the location bar of your web browser.<br>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "compiled_pattern": true
       },
       "pattern": "<body><center>This\\ IP\\ is\\ being\\ shared\\ among\\ many\\ domains\\.<br>\\\\nTo\\ view\\ the\\ domain\\ you\\ are\\ looking\\ for,\\ simply\\ enter\\ the\\ domain\\ name\\ in\\ the\\ location\\ bar\\ of\\ your\\ web\\ browser\\.<br>",
       "version_group": 0
@@ -139,7 +180,15 @@
             "input": "Apache is working on your cPanel<sup>&reg;</sup> and WHM&#8482; Server",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "compiled_pattern": true
       },
       "pattern": "Apache\\ is\\ working\\ on\\ your\\ cPanel<sup>\\&reg;</sup>\\ and\\ WHM\\&\\#8482;\\ Server",
       "version_group": 0
@@ -162,7 +211,15 @@
             "input": "Server: Apache",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "compiled_pattern": true
       },
       "pattern": "^Apache",
       "version_group": 0
@@ -185,7 +242,15 @@
             "input": "Server: Apache/8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "compiled_pattern": true
       },
       "pattern": "Server: Apache/([\\d\\.]+)",
       "version_group": 1
@@ -208,7 +273,15 @@
             "input": "NOYB",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "compiled_pattern": true
       },
       "pattern": "^NOYB$",
       "version_group": 0
@@ -231,11 +304,18 @@
             "input": "Basic realm=\"htaccess password prompt\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "compiled_pattern": true
       },
       "pattern": "Basic realm=\"htaccess password prompt\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

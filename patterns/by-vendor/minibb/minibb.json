@@ -4,6 +4,7 @@
   "product": "MiniBB",
   "product_id": "minibb",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<td class=\"tbTransparent txtR\"><!--miniBB Copyright link. You are not allowed to remove it if you have not purchased the Commercial License. Refer to COPYING file for more-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ class=\"tbTransparent\\ txtR\"><!\\-\\-miniBB\\ Copyright\\ link\\.\\ You\\ are\\ not\\ allowed\\ to\\ remove\\ it\\ if\\ you\\ have\\ not\\ purchased\\ the\\ Commercial\\ License\\.\\ Refer\\ to\\ COPYING\\ file\\ for\\ more\\-\\->",
       "version_group": 0
@@ -52,6 +54,5 @@
       "pattern": "Powered by <a[^>]+href=\"http:/\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

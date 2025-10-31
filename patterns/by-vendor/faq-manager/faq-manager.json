@@ -4,6 +4,7 @@
   "product": "FAQ-Manager",
   "product_id": "faq-manager",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "\t\t<a href=\"admin/\">Admin Area</a></td></tr></table></body></html>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t<a\\ href=\"admin/\">Admin\\ Area</a></td></tr></table></body></html>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "\t\t<td><font size=\"-1\">&nbsp;</font><p><b><font size=\"-1\">FAQ ADMIN AREA</font></b></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t<td><font\\ size=\"\\-1\">\\&nbsp;</font><p><b><font\\ size=\"\\-1\">FAQ\\ ADMIN\\ AREA</font></b></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

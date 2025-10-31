@@ -4,6 +4,7 @@
   "product": "F5-BigIP",
   "product_id": "f5-bigip",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "BIGIP",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "BIGIP",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "CEBrowser",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "CEBrowser",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "ceSessionUID",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "ceSessionUID",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "LoadingAsMobile",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "LoadingAsMobile",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "_SitePath",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "_SitePath",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

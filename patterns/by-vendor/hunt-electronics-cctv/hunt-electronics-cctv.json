@@ -4,6 +4,7 @@
   "product": "Hunt-Electronics-CCTV",
   "product_id": "hunt-electronics-cctv",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<body bgcolor=\"white\" text=\"black\" link=\"blue\" vlink=\"purple\" alink=\"red\" leftmargin=\"0\" marginwidth=\"0\" topmargin=\"0\" marginheight=\"0\" OnLoad=\"preload_img(false, \\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ bgcolor=\"white\"\\ text=\"black\"\\ link=\"blue\"\\ vlink=\"purple\"\\ alink=\"red\"\\ leftmargin=\"0\"\\ marginwidth=\"0\"\\ topmargin=\"0\"\\ marginheight=\"0\"\\ OnLoad=\"preload_img\\(false,\\ \\\\",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "   //login.action = \"./webviewer.php\" ;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ //login\\.action\\ =\\ \"\\./webviewer\\.php\"\\ ;",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "                        <!--<p>If ActiveX control can\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <!\\-\\-<p>If\\ ActiveX\\ control\\ can\\\\",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "                        <!--<p>If ActiveX control can\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <!\\-\\-<p>If\\ ActiveX\\ control\\ can\\\\",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "                        <!--<p>If ActiveX control can\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ <!\\-\\-<p>If\\ ActiveX\\ control\\ can\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

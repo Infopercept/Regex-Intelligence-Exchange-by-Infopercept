@@ -4,6 +4,7 @@
   "product": "FCMS",
   "product_id": "fcms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"author\" content=\"Ryan Haudenschilt\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"Ryan\\ Haudenschilt\"/>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "- [pP]owered by Family Connections</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "- [pP]owered by Family Connections</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

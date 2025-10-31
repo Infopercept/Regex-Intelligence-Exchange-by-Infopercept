@@ -4,6 +4,7 @@
   "product": "BrowserCMS",
   "product_id": "browsercms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!--User is member of the following groups:  -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-User\\ is\\ member\\ of\\ the\\ following\\ groups:\\ \\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<li class=\"bmcms\"><a href=\"http://www.browsercms.com/index.ww\" title=\"BrowserCMS 2.0\" target=\"_blank\"><span>Powered by BrowserCMS 2.0</span></a></li>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<li\\ class=\"bmcms\"><a\\ href=\"http://www\\.browsercms\\.com/index\\.ww\"\\ title=\"BrowserCMS\\ 2\\.0\"\\ target=\"_blank\"><span>Powered\\ by\\ BrowserCMS\\ 2\\.0</span></a></li>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "Powered by <a href=\"http://www.browsercms.com[/]*\"[^>]+>BrowserCMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by <a href=\"http://www.browsercms.com[/]*\"[^>]+>BrowserCMS</a>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<a href=\"http://www.browsercms.com[/]*\"[^>]+title=\"Powered by BrowserCMS\"[^>]+",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"http://www.browsercms.com[/]*\"[^>]+title=\"Powered by BrowserCMS\"[^>]+",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<a href=\"http://www.browsercms.com[^>]+><img[^>]*src=\"/site/images[^>]+ onmouseover=\"this.src='/site/images[^>]+onmouseout=\"this.src='/site/images[^>]+alt=\"Powered by BrowserCMS\"[^>]*></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"http://www.browsercms.com[^>]+><img[^>]*src=\"/site/images[^>]+ onmouseover=\"this.src='/site/images[^>]+onmouseout=\"this.src='/site/images[^>]+alt=\"Powered by BrowserCMS\"[^>]*></a>",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<form method=\"POST\" action=\"/portlets/login/do-login.jsp\" name=\"security\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ method=\"POST\"\\ action=\"/portlets/login/do\\-login\\.jsp\"\\ name=\"security\">",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "<input type=\"hidden\" name=\"success_uri\" value=\"[^>]*/page.ww?name=[^>]*&section=[^>]*\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input type=\"hidden\" name=\"success_uri\" value=\"[^>]*/page.ww\\?name=[^>]*\\&section=[^>]*\"/>",
       "version_group": 0
@@ -185,11 +193,11 @@
             "input": "<input type=\"hidden\" name=\"failure_uri\" value=\"[^>]*/page.ww?name=[^>]*&section=[^>]*\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input type=\"hidden\" name=\"failure_uri\" value=\"[^>]*/page.ww\\?name=[^>]*\\&section=[^>]*\"/>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

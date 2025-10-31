@@ -4,6 +4,7 @@
   "product": "Laravel",
   "product_id": "laravel",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^laravel_session",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^laravel_session",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

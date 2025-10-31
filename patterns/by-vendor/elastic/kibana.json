@@ -4,14 +4,12 @@
   "product": "Kibana",
   "product_id": "elastic-kibana",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
       "name": "Kibana",
-      "category": "web",
       "pattern": "kbn-version: ([\\d\\.]+)",
-      "vendor": "Elastic",
-      "product": "Kibana",
       "version_group": 1,
       "priority": 160,
       "confidence": 0.9,
@@ -35,9 +33,9 @@
             "input": "kbn-version: 7.4.2",
             "expected_version": "7.4.2"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

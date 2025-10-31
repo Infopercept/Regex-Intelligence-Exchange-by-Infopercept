@@ -4,6 +4,7 @@
   "product": "Outlook-Web-App",
   "product_id": "outlook-web-app",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<body class=\"owaLgnBdy\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ class=\"owaLgnBdy\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- OwaPage = ASP.auth_logon_aspx -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ OwaPage\\ =\\ ASP\\.auth_logon_aspx\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<FORM action=\"(/CookieAuth.dll?Logon|/exchweb/bin/auth/owaauth.dll)\" method=\"POST\" name=\"logonForm\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<FORM action=\"(/CookieAuth\\.dll\\?Logon|/exchweb/bin/auth/owaauth\\.dll)\" method=\"POST\" name=\"logonForm\"",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<TR><TD><P style=\"color:red\">You could not be logged on to",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TR><TD><P\\ style=\"color:red\">You\\ could\\ not\\ be\\ logged\\ on\\ to",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<TR><TD><P style=\"color:red\">You could not be logged on to",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TR><TD><P\\ style=\"color:red\">You\\ could\\ not\\ be\\ logged\\ on\\ to",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<TITLE>Microsoft Outlook Web Access</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>Microsoft\\ Outlook\\ Web\\ Access</TITLE>",
       "version_group": 0
@@ -162,11 +169,11 @@
             "input": "<td style=\"width:100%\">To use Outlook Web App, browser settings must allow scripts to run. For information about how to allow scripts, consult the Help for your browser. If your browser doesn\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ style=\"width:100%\">To\\ use\\ Outlook\\ Web\\ App,\\ browser\\ settings\\ must\\ allow\\ scripts\\ to\\ run\\.\\ For\\ information\\ about\\ how\\ to\\ allow\\ scripts,\\ consult\\ the\\ Help\\ for\\ your\\ browser\\.\\ If\\ your\\ browser\\ doesn\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

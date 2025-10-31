@@ -4,14 +4,12 @@
   "product": "Go Ethereum",
   "product_id": "ethereum-go-ethereum",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
       "name": "Go Ethereum",
-      "category": "web",
       "pattern": "v(\\d+\\.\\d+\\.\\d+)",
-      "vendor": "Ethereum",
-      "product": "Go Ethereum",
       "version_group": 1,
       "priority": 140,
       "confidence": 0.8,
@@ -34,9 +32,9 @@
             "input": "\"result\": \"Geth/v1.8.11-stable-...\"",
             "expected_version": "1.8.11"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

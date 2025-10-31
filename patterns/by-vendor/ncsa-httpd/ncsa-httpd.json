@@ -4,6 +4,7 @@
   "product": "NCSA-HTTPd",
   "product_id": "ncsa-httpd",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^NCSA",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^NCSA",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^NCSA/8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^NCSA/([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

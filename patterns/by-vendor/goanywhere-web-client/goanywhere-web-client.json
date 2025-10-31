@@ -4,6 +4,7 @@
   "product": "GoAnywhere-Web-Client",
   "product_id": "goanywhere-web-client",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>GoAnywhere Web Client - Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>GoAnywhere\\ Web\\ Client\\ \\-\\ Login</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<div id=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Group-Office",
   "product_id": "group-office",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "groupoffice=[^;]+;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "groupoffice=[^;]+;",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- include everything after the loading indicator -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ include\\ everything\\ after\\ the\\ loading\\ indicator\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<meta name=\"description\" content=\"Take your office online. Share projects, calendars, files and e-mail online with co-workers and clients. Easy to use and fully customizable, Group-Office takes online colaboration to the next level.\" />.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"description\"\\ content=\"Take\\ your\\ office\\ online\\.\\ Share\\ projects,\\ calendars,\\ files\\ and\\ e\\-mail\\ online\\ with\\ co\\-workers\\ and\\ clients\\.\\ Easy\\ to\\ use\\ and\\ fully\\ customizable,\\ Group\\-Office\\ takes\\ online\\ colaboration\\ to\\ the\\ next\\ level\\.\"\\ />\\.",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<a style=\"color: white;\" target=\"_blank\" href=\"http://www.group-office.com\">powered by Group-Office</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ style=\"color:\\ white;\"\\ target=\"_blank\"\\ href=\"http://www\\.group\\-office\\.com\">powered\\ by\\ Group\\-Office</a>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "Powered by Group-Office: <a target=\"_blank\" class=\"normal-link\" href=\"http://www.group-office.com\">http://www.group-office.com</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ Group\\-Office:\\ <a\\ target=\"_blank\"\\ class=\"normal\\-link\"\\ href=\"http://www\\.group\\-office\\.com\">http://www\\.group\\-office\\.com</a>",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "alert('The Group-Office javascripts were not loaded. Check the host property in config.php and see if the file_storage_path folder and it\\\\'s contents are writable');",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "alert\\('The\\ Group\\-Office\\ javascripts\\ were\\ not\\ loaded\\.\\ Check\\ the\\ host\\ property\\ in\\ config\\.php\\ and\\ see\\ if\\ the\\ file_storage_path\\ folder\\ and\\ it\\\\\\\\'s\\ contents\\ are\\ writable'\\);",
       "version_group": 0
@@ -162,11 +169,11 @@
             "input": "alert('Could not load the application javascripts. Check the \\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "alert\\('Could\\ not\\ load\\ the\\ application\\ javascripts\\.\\ Check\\ the\\ \\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Sendio-ESP",
   "product_id": "sendio-esp",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<frameset id=\"icetopframeset\" name=\"icetopframeset\" rows=\"28,*,20,0,0,0\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<frameset\\ id=\"icetopframeset\"\\ name=\"icetopframeset\"\\ rows=\"28,\\*,20,0,0,0\"",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/sendio/ice/css/nice.css\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/sendio/ice/css/nice\\.css\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

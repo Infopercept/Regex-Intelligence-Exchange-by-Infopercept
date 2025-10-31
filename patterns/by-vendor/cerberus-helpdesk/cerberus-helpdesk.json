@@ -4,6 +4,7 @@
   "product": "Cerberus-Helpdesk",
   "product_id": "cerberus-helpdesk",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- If you have your own stylesheet for HTML elements, you can remove the cerberus-html.css link -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ If\\ you\\ have\\ your\\ own\\ stylesheet\\ for\\ HTML\\ elements,\\ you\\ can\\ remove\\ the\\ cerberus\\-html\\.css\\ link\\ \\-\\->",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<td width=\"519\" class=\"kb_most_viewed_articles\">Most Viewed Knowledgebase Articles</td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ width=\"519\"\\ class=\"kb_most_viewed_articles\">Most\\ Viewed\\ Knowledgebase\\ Articles</td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

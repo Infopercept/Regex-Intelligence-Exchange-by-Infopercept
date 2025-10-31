@@ -4,6 +4,7 @@
   "product": "Miniature-JWS",
   "product_id": "miniature-jws",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^(D. )?Rogatkin",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^(D\\. )?Rogatkin",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Server: ^Rogatkin's JWS based on Acme\\.Serve/\\$Revision: 8.5 \\$$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Rogatkin's JWS based on Acme\\.Serve/\\$Revision: ([\\d\\.]+) \\$$",
       "version_group": 1
@@ -70,11 +73,11 @@
             "input": "Server: ^D\\. Rogatkin's TJWS based on Acme\\.Serve/Version [^,]+, \\$Revision: 8.5 \\$$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^D\\. Rogatkin's TJWS based on Acme\\.Serve/Version [^,]+, \\$Revision: ([\\d\\.]+) \\$$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

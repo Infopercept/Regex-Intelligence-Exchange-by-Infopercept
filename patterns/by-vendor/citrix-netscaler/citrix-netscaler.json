@@ -4,6 +4,7 @@
   "product": "Citrix-NetScaler",
   "product_id": "citrix-netscaler",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "NS-CACHE",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "NS\\-CACHE",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "^NSC_",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^NSC_",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

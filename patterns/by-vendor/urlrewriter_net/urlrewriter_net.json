@@ -4,6 +4,7 @@
   "product": "UrlRewriter_NET",
   "product_id": "urlrewriter_net",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "x-powered-by: UrlRewriter\\.NET ([^\\s]+)",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-powered-by: UrlRewriter\\.NET ([^\\s]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "PhotoStore",
   "product_id": "photostore",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered By <a href=\"http://www.ktools.net/photostore/index.php\" title=\"Sell your photos online with PhotoStore, online proofing and sales.\" target=\"_blank\"><u>PhotoStore | Sell Photos Online</u></a> by <a href=\"http://www.ktools.net\" title=\"Ktools LLC\" target=\"_blank\"><u>Ktools.net LLC</u></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.ktools\\.net/photostore/index\\.php\"\\ title=\"Sell\\ your\\ photos\\ online\\ with\\ PhotoStore,\\ online\\ proofing\\ and\\ sales\\.\"\\ target=\"_blank\"><u>PhotoStore\\ \\|\\ Sell\\ Photos\\ Online</u></a>\\ by\\ <a\\ href=\"http://www\\.ktools\\.net\"\\ title=\"Ktools\\ LLC\"\\ target=\"_blank\"><u>Ktools\\.net\\ LLC</u></a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered By <a href=\"http://www.ktools.net/photoshow/index.php\" title=\"Show your photos online with PhotoShow, an online photo gallery.\" target=\"_blank\"><u>PhotoShow | Photo Gallery</u></a> by <a href=\"http://www.ktools.net\" title=\"Ktools LLC\" target=\"_blank\"><u>Ktools.net LLC</u></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.ktools\\.net/photoshow/index\\.php\"\\ title=\"Show\\ your\\ photos\\ online\\ with\\ PhotoShow,\\ an\\ online\\ photo\\ gallery\\.\"\\ target=\"_blank\"><u>PhotoShow\\ \\|\\ Photo\\ Gallery</u></a>\\ by\\ <a\\ href=\"http://www\\.ktools\\.net\"\\ title=\"Ktools\\ LLC\"\\ target=\"_blank\"><u>Ktools\\.net\\ LLC</u></a>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<b>Search:</b> <input type=\"textbox\" name=\"search\" class=\"search_box\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<b>Search:</b>\\ <input\\ type=\"textbox\"\\ name=\"search\"\\ class=\"search_box\">",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<form action=\"mgr_actions.php?pmode=login\" name=\"login_form\" method=\"post\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ action=\"mgr_actions\\.php\\?pmode=login\"\\ name=\"login_form\"\\ method=\"post\">",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<body bgcolor=\"#13387E\" topmargin=\"0\" leftmargin=\"0\" marginheight=\"0\" marginwidth=\"0\" onLoad=\"document.login_form.username.focus();\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ bgcolor=\"\\#13387E\"\\ topmargin=\"0\"\\ leftmargin=\"0\"\\ marginheight=\"0\"\\ marginwidth=\"0\"\\ onLoad=\"document\\.login_form\\.username\\.focus\\(\\);\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

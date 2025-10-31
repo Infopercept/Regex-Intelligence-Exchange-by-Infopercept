@@ -4,6 +4,7 @@
   "product": "DZCP",
   "product_id": "dzcp",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<script language=\"javascript\" type=\"text/javascript\" src=\"../inc/_templates_/[^/]+/_js/dzcp.js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script language=\"javascript\" type=\"text/javascript\" src=\"../inc/_templates_/[^/]+/_js/dzcp.js\"></script>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

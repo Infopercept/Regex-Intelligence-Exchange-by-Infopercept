@@ -4,6 +4,7 @@
   "product": "Koobi",
   "product_id": "koobi",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by <a title=\"Koobi ist ein komfortables und leistungsf&auml;higes Content-Management-System (CMS) f&uuml;r Privatpersonen, Vereine, kleine und mittelst&auml;ndische Unternehmen, die einen professionellen Internetauftritt realisieren m&ouml;chten.\"[^>]+>Koobi",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by <a title=\"Koobi ist ein komfortables und leistungsf&auml;higes Content-Management-System \\(CMS\\) f&uuml;r Privatpersonen, Vereine, kleine und mittelst&auml;ndische Unternehmen, die einen professionellen Internetauftritt realisieren m&ouml;chten.\"[^>]+>Koobi",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!-- powered by koobi - do not remove this info! -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ powered\\ by\\ koobi\\ \\-\\ do\\ not\\ remove\\ this\\ info!\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

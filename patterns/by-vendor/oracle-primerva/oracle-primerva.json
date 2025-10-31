@@ -4,6 +4,7 @@
   "product": "Oracle-Primerva",
   "product_id": "oracle-primerva",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- use the default style sheet only.... we do not know the users locale at this time -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ use\\ the\\ default\\ style\\ sheet\\ only\\.\\.\\.\\.\\ we\\ do\\ not\\ know\\ the\\ users\\ locale\\ at\\ this\\ time\\ \\-\\->",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<img src=\"img/process_meter.gif\" border=0 id=\"progressimage\"><br><br>Loading Java Plugin and Security Certificate",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"img/process_meter\\.gif\"\\ border=0\\ id=\"progressimage\"><br><br>Loading\\ Java\\ Plugin\\ and\\ Security\\ Certificate",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

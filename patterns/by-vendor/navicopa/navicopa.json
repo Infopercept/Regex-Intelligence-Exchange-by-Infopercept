@@ -4,6 +4,7 @@
   "product": "NaviCOPA",
   "product_id": "navicopa",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^InterVations NaviCOPA",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^InterVations NaviCOPA",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "^NaviCopaSession",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^NaviCopaSession",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "MultiPowUpload",
   "product_id": "multipowupload",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Upload result:<br><pre>No files sent. Script is OK!Here is some more debugging info:Array",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Upload\\ result:<br><pre>No\\ files\\ sent\\.\\ Script\\ is\\ OK!Here\\ is\\ some\\ more\\ debugging\\ info:Array",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "\t\tVisit <a href=\"http://www.element-it.com/MultiPowUpload.aspx\">MultiPowUpload</a> web site for new release and support information.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\tVisit\\ <a\\ href=\"http://www\\.element\\-it\\.com/MultiPowUpload\\.aspx\">MultiPowUpload</a>\\ web\\ site\\ for\\ new\\ release\\ and\\ support\\ information\\.",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "\t\tVisit <a href=\"http://www.element-it.com/multiple-file-upload/flash-uploader.aspx\">MultiPowUpload</a> web site for new release and support information.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\tVisit\\ <a\\ href=\"http://www\\.element\\-it\\.com/multiple\\-file\\-upload/flash\\-uploader\\.aspx\">MultiPowUpload</a>\\ web\\ site\\ for\\ new\\ release\\ and\\ support\\ information\\.",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<PARAM NAME=\"FlashVars\" VALUE=\"uploadUrl=FileProcessingScripts/PHP/uploadfiles.php",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<PARAM\\ NAME=\"FlashVars\"\\ VALUE=\"uploadUrl=FileProcessingScripts/PHP/uploadfiles\\.php",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<embed bgcolor=[^>]+src=\"ElementITMultiPowUpload.swf\" quality=\"high\" pluginspage=\"http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<embed\\ bgcolor=\\[\\^>\\]\\+src=\"ElementITMultiPowUpload\\.swf\"\\ quality=\"high\"\\ pluginspage=\"http://www\\.macromedia\\.com/shockwave/download/index\\.cgi\\?P1_Prod_Version=ShockwaveFlash\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

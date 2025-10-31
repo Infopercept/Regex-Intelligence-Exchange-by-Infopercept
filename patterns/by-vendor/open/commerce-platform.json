@@ -4,6 +4,7 @@
   "product": "Commerce Platform",
   "product_id": "commerce-platform",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "/js/ocpsdk/base.js",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/js/ocpsdk/base.js",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

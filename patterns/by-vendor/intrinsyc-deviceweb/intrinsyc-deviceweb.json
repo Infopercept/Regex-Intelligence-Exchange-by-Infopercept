@@ -4,6 +4,7 @@
   "product": "Intrinsyc-deviceWEB",
   "product_id": "intrinsyc-deviceweb",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: ^Intrinsyc deviceWEB v8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Intrinsyc deviceWEB v([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Sawmill",
   "product_id": "sawmill",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<tr><td>Username:</td><td>Administrator<input type=\"hidden\" name=\"cgionly_authentication_username\" value=\"([^\"]+)\"></td></tr>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr><td>Username:</td><td>Administrator<input type=\"hidden\" name=\"cgionly_authentication_username\" value=\"([^\\\"]+)\"></td></tr>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<td><input id=\"password\" class=\"username-psw text\" type=\"password\" value=\"\" /><div id=\"password:error\" class=\"form-error\"></div></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><input\\ id=\"password\"\\ class=\"username\\-psw\\ text\"\\ type=\"password\"\\ value=\"\"\\ /><div\\ id=\"password:error\"\\ class=\"form\\-error\"></div></td>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "Server: ^Sawmill/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Sawmill/([^\\s]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

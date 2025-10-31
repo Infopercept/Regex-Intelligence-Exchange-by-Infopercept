@@ -4,6 +4,7 @@
   "product": "PHPWind",
   "product_id": "phpwind",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>[^<]+ - (powered by phpwind.net|Powered by PHPWind)</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>[^<]+ - (powered by phpwind.net|Powered by PHPWind)</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Powered by <a href=\"http://www.phpwind.net/\" target=\"_blank\"><b>PHPWind</b></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.phpwind\\.net/\"\\ target=\"_blank\"><b>PHPWind</b></a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

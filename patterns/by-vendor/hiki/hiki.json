@@ -4,6 +4,7 @@
   "product": "Hiki",
   "product_id": "hiki",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<html><head><title>Hiki Error</title></head><body>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html><head><title>Hiki\\ Error</title></head><body>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

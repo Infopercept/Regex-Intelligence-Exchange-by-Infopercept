@@ -4,6 +4,7 @@
   "product": "Allinta-CMS",
   "product_id": "allinta-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "\t<link rel=\"stylesheet\" href=\"css/wizard/t[0-9_]+.css\" type=\"text/css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\t<link rel=\"stylesheet\" href=\"css/wizard/t[0-9_]+.css\" type=\"text/css\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "\t<link href=\"css/wizard/t[0-9_]+.css\" rel=\"stylesheet\" type=\"text/css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\t<link href=\"css/wizard/t[0-9_]+.css\" rel=\"stylesheet\" type=\"text/css\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "\t\t<td align=\"right\" class=\"footerText\">Powered by allinta CMS</td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t<td\\ align=\"right\"\\ class=\"footerText\">Powered\\ by\\ allinta\\ CMS</td>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<img src=\"img/wizard/t[0-9_]+/powered_allinta.gif\"[^>]*alt=\"Powered by Allinta CMS\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img src=\"img/wizard/t[0-9_]+/powered_allinta.gif\"[^>]*alt=\"Powered by Allinta CMS\"",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<img contenteditable=\"inherit\" start=\"fileopen\" height=\"[0-9]+\" src=\"img/powered_allinta.gif\" width=\"[0-9]+\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img contenteditable=\"inherit\" start=\"fileopen\" height=\"[0-9]+\" src=\"img/powered_allinta.gif\" width=\"[0-9]+\" />",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "<title>allinta.com- aCMS Content Manager</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>allinta\\.com\\-\\ aCMS\\ Content\\ Manager</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

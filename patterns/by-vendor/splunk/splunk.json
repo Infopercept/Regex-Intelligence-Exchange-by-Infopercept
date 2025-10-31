@@ -4,6 +4,7 @@
   "product": "Splunk",
   "product_id": "splunk",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<p><span>First time logging in?</span> Splunk's default credentials are </p><p>username: <span>admin</span><br />password: <span>changeme</span></p><p>If you've forgotten your username or password, please contact your Splunk administrator.</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p><span>First\\ time\\ logging\\ in\\?</span>\\ Splunk's\\ default\\ credentials\\ are\\ </p><p>username:\\ <span>admin</span><br\\ />password:\\ <span>changeme</span></p><p>If\\ you've\\ forgotten\\ your\\ username\\ or\\ password,\\ please\\ contact\\ your\\ Splunk\\ administrator\\.</p>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<meta name=\"author\" content=\"Splunk Inc.\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"Splunk\\ Inc\\.\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

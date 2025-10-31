@@ -4,6 +4,7 @@
   "product": "Vanilla-Forums",
   "product_id": "vanilla-forums",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "x-garden-version: ^Vanilla ([^\\s]+)$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-garden-version: ^Vanilla ([^\\s]+)$",
       "version_group": 1
@@ -47,7 +49,8 @@
             "input": "Vanilla=deleted; expires=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Vanilla=deleted; expires=",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<body id=[\"'](DiscussionsPage|vanilla)",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body id=[\"'](DiscussionsPage|vanilla)",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

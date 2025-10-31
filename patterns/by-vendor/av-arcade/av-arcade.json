@@ -4,6 +4,7 @@
   "product": "AV-Arcade",
   "product_id": "av-arcade",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!--MUST BE INCLUDED IN ALL TEMPLATES AND UNMODIFIED UNLESS YOU HAVE PAID FOR COPYRIGHT REMOVAL-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-MUST\\ BE\\ INCLUDED\\ IN\\ ALL\\ TEMPLATES\\ AND\\ UNMODIFIED\\ UNLESS\\ YOU\\ HAVE\\ PAID\\ FOR\\ COPYRIGHT\\ REMOVAL\\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "\t  <!--MUST BE INCLUDED IN ALL TEMPLATES AND UNMODIFIED UNLESS YOU HAVE PAID FOR COPYRIGHT REMOVAL-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\ \\ <!\\-\\-MUST\\ BE\\ INCLUDED\\ IN\\ ALL\\ TEMPLATES\\ AND\\ UNMODIFIED\\ UNLESS\\ YOU\\ HAVE\\ PAID\\ FOR\\ COPYRIGHT\\ REMOVAL\\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<b><span class=\"copytext\">Powered by <a href=\"http://www.avscripts.net/avarcade/\">AV Arcade Free Edition</a> - Copyright 2006-2010 <a href=\"http://www.avscripts.net\">AV Scripts</a></span></b>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<b><span\\ class=\"copytext\">Powered\\ by\\ <a\\ href=\"http://www\\.avscripts\\.net/avarcade/\">AV\\ Arcade\\ Free\\ Edition</a>\\ \\-\\ Copyright\\ 2006\\-2010\\ <a\\ href=\"http://www\\.avscripts\\.net\">AV\\ Scripts</a></span></b>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<b><span class=\"copytext\">Powered by <a href=\"http://www.avscripts.net/avarcade/\">AV Arcade v3</a> - Copyright 2006-2008 <a href=\"http://www.avscripts.net\">AV Scripts</a></span></b>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<b><span\\ class=\"copytext\">Powered\\ by\\ <a\\ href=\"http://www\\.avscripts\\.net/avarcade/\">AV\\ Arcade\\ v3</a>\\ \\-\\ Copyright\\ 2006\\-2008\\ <a\\ href=\"http://www\\.avscripts\\.net\">AV\\ Scripts</a></span></b>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "Powered by <a href=\"http://www.avscripts.net/avarcade/\">AV Arcade Pro</a> - Copyright <a href=\"http://www.avscripts.net\">AV Scripts</a> 2006-2010 <a href=\"http://www.avscripts.net\"></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.avscripts\\.net/avarcade/\">AV\\ Arcade\\ Pro</a>\\ \\-\\ Copyright\\ <a\\ href=\"http://www\\.avscripts\\.net\">AV\\ Scripts</a>\\ 2006\\-2010\\ <a\\ href=\"http://www\\.avscripts\\.net\"></a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

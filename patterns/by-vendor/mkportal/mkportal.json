@@ -4,6 +4,7 @@
   "product": "MKPortal",
   "product_id": "mkportal",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"generator\" content=\"MKPortal\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"MKPortal\"\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "|   Cascading Style Sheet for MKportal \"Forum\" Portal Template",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\|\\ \\ \\ Cascading\\ Style\\ Sheet\\ for\\ MKportal\\ \"Forum\"\\ Portal\\ Template",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<!-- end close portal body -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ end\\ close\\ portal\\ body\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

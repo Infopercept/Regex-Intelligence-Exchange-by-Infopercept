@@ -4,6 +4,7 @@
   "product": "InvisionPowerBoard",
   "product_id": "invisionpowerboard",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "(Powered by Invision Power Board)</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\(Powered\\ by\\ Invision\\ Power\\ Board\\)</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "index.php?app=core&amp;module=global&amp;section=rss&amp;type=forums&amp;id=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "index\\.php\\?app=core\\&amp;module=global\\&amp;section=rss\\&amp;type=forums\\&amp;id=",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<a href='#j_content' title='Jump to content' accesskey='m'>Jump to content</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href='\\#j_content'\\ title='Jump\\ to\\ content'\\ accesskey='m'>Jump\\ to\\ content</a>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<script [^>]+src='[^']+/ipb.js",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script [^>]+src='[^']+/ipb\\.js",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<script [^>]*src='[^']+/ipb_global.js'>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script [^>]*src='[^']+/ipb_global\\.js'>",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<div id=\"ipbwrapper\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"ipbwrapper\">",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "<div [^>]*class='copyright'>Powered by <[^>]+>Invision Power Board</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div [^>]*class='copyright'>Powered by <[^>]+>Invision Power Board</a>",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "<script type=\"text/javascript\" src='[^']*ips_xmlhttprequest.js'></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script type=\"text/javascript\" src='[^']*ips_xmlhttprequest\\.js'></script>",
       "version_group": 0
@@ -208,7 +217,8 @@
             "input": "Powered By <a href='http://www.invisionboard.com' style='text-decoration:none' target='_blank'>IP.Board</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ By\\ <a\\ href='http://www\\.invisionboard\\.com'\\ style='text\\-decoration:none'\\ target='_blank'>IP\\.Board</a>",
       "version_group": 0
@@ -231,7 +241,8 @@
             "input": "&copy; [0-9]+ &nbsp;<a href='http://www.invisionpower.com'[^>]*>IPS, Inc<",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "&copy; [0-9]+ &nbsp;<a href='http://www\\.invisionpower\\.com'[^>]*>IPS, Inc<",
       "version_group": 0
@@ -254,7 +265,8 @@
             "input": "&copy; [0-9]+ &nbsp;<a href='http://www.invisionpower.com'[^>]*>IPS, <abbr title='Incorporated'>Inc</abbr><",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "&copy; [0-9]+ &nbsp;<a href='http://www\\.invisionpower\\.com'[^>]*>IPS, <abbr title='Incorporated'>Inc</abbr><",
       "version_group": 0
@@ -277,11 +289,11 @@
             "input": "<a href=\"[^\"]+index.php?s=[a-z0-9]+&amp;act=Login&amp;CODE=[0-9]+\">Log In</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"[^\"]+index\\.php\\?s=[a-z0-9]+&amp;act=Login&amp;CODE=[0-9]+\">Log In</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

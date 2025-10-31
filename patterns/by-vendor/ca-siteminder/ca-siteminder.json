@@ -4,6 +4,7 @@
   "product": "CA-SiteMinder",
   "product_id": "ca-siteminder",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<td><img alt=\"Logo\" src=\"(/)?(siteminderagent/)?(pw/|pwcgi/|pwserv/)?siteminder_logo.gif\" height=\"44\"></td></tr></table>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><img alt=\"Logo\" src=\"(/)?(siteminderagent/)?(pw/|pwcgi/|pwserv/)?siteminder_logo\\.gif\" height=\"44\"></td></tr></table>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- SiteMinder Encoding=UTF-8; -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ SiteMinder\\ Encoding=UTF\\-8;\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!-- SiteMinder Encoding=ISO-8859-1; -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ SiteMinder\\ Encoding=ISO\\-8859\\-1;\\ \\-\\->",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<tr><td></td></tr></table></td></tr></table></center></div><!--</form> --></body></html>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr><td></td></tr></table></td></tr></table></center></div><!\\-\\-</form>\\ \\-\\-></body></html>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "/* SiteMinder Login Form CGIs+Copyright (C) 1999,2000 Netegrity, Inc. All rights reserved.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/\\* SiteMinder Login Form CGI\\s+Copyright \\(C\\) 1999,2000 Netegrity, Inc\\. All rights reserved\\.",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "<title>SiteMinder Password Services</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>SiteMinder\\ Password\\ Services</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Axigen-Mail-Server",
   "product_id": "axigen-mail-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "            top.opener.location.href=\"/?login=\";",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ top\\.opener\\.location\\.href=\"/\\?login=\";",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<div>Powered by <a href=\"http://www.axigen.com\" target=\"_blank\" class=\"gray\">Axigen Mail Server</a></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div>Powered\\ by\\ <a\\ href=\"http://www\\.axigen\\.com\"\\ target=\"_blank\"\\ class=\"gray\">Axigen\\ Mail\\ Server</a></div>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "Powered by <a href=\"http://www.axigen.com/\" target=\"_blank\">Axigen Mail Server</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.axigen\\.com/\"\\ target=\"_blank\">Axigen\\ Mail\\ Server</a>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<div class=\"nojsContainer\"><h1>In order to access AXIGEN Webmail, <br />you must enable Javascript in your browser!</h1></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ class=\"nojsContainer\"><h1>In\\ order\\ to\\ access\\ AXIGEN\\ Webmail,\\ <br\\ />you\\ must\\ enable\\ Javascript\\ in\\ your\\ browser!</h1></div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

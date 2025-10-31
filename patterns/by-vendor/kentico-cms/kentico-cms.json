@@ -4,6 +4,7 @@
   "product": "Kentico-CMS",
   "product_id": "kentico-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "2fCMSAdministration.aspx\" id=\"form1\" class=\"logon-page\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "2fCMSAdministration.aspx\" id=\"form1\" class=\"logon-page\"",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "CMSCsrfCookie",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "CMSCsrfCookie",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "CMSCurrentTheme",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "CMSCurrentTheme",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "CMSPreferredCulture",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "CMSPreferredCulture",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "CMSCsrfCookie",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "CMSCsrfCookie",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

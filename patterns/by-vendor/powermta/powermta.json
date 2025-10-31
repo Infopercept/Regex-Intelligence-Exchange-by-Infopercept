@@ -4,6 +4,7 @@
   "product": "PowerMTA",
   "product_id": "powermta",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<html><body>Access denied.  Please consult the http-access directive in the User's Guide for more information.</body></html>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html><body>Access\\ denied\\.\\ \\ Please\\ consult\\ the\\ http\\-access\\ directive\\ in\\ the\\ User's\\ Guide\\ for\\ more\\ information\\.</body></html>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "^Basic realm=\"PowerMTA\"$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Basic realm=\"PowerMTA\"$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

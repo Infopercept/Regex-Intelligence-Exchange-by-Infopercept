@@ -4,6 +4,7 @@
   "product": "Mioot-Live-Chat",
   "product_id": "mioot-live-chat",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div id=\"miootOnOffDiv\" class=\"online\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"miootOnOffDiv\"\\ class=\"online\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<div id=\"miootOnOffDiv\" style=\"display:inline;\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"miootOnOffDiv\"\\ style=\"display:inline;\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<div id=\"miootOnOffDiv\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"miootOnOffDiv\">",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<div id=\"miootOnOffDiv\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"miootOnOffDiv\"",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<!-- Start LIVE CHAT image tag, for details visit www.mioot.com -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Start\\ LIVE\\ CHAT\\ image\\ tag,\\ for\\ details\\ visit\\ www\\.mioot\\.com\\ \\-\\->",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "<a href=\"javascript:OnOffImage(\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"javascript:OnOffImage\\(\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

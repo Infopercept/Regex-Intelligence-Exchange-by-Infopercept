@@ -4,6 +4,7 @@
   "product": "SchoolWire-Centricity",
   "product_id": "schoolwire-centricity",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^SWSessionID",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^SWSessionID",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "^PSDB",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^PSDB",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "^PSN",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^PSN",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

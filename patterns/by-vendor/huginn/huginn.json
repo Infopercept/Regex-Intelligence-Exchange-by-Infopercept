@@ -4,6 +4,7 @@
   "product": "Huginn",
   "product_id": "huginn",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<a tabindex=\"-1\" href=\"https://github.com/huginn/huginn\">About</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ tabindex=\"\\-1\"\\ href=\"https://github\\.com/huginn/huginn\">About</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

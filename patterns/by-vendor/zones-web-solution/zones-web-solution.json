@@ -4,6 +4,7 @@
   "product": "Zones-Web-Solution",
   "product_id": "zones-web-solution",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"author\" content=\"Vikas Madaan (http://madaan.zones.in) - Zones Web Solution (www.zones.in), Visit http://www.zones.in for more info\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"Vikas\\ Madaan\\ \\(http://madaan\\.zones\\.in\\)\\ \\-\\ Zones\\ Web\\ Solution\\ \\(www\\.zones\\.in\\),\\ Visit\\ http://www\\.zones\\.in\\ for\\ more\\ info\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<br>Powered by : <a href=\"http://www.zones.in\" target=\"_blank\">Zones Web Solution</a> &amp;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<br>Powered\\ by\\ :\\ <a\\ href=\"http://www\\.zones\\.in\"\\ target=\"_blank\">Zones\\ Web\\ Solution</a>\\ \\&amp;",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

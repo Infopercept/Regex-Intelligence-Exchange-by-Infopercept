@@ -4,6 +4,7 @@
   "product": "NetShelter-VPN",
   "product_id": "netshelter-vpn",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<HEAD><TITLE>Welcome to NetShelter</TITLE></HEAD>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<HEAD><TITLE>Welcome\\ to\\ NetShelter</TITLE></HEAD>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "^NetShelter/VPN$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^NetShelter/VPN$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

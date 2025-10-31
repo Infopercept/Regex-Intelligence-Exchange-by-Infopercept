@@ -4,6 +4,7 @@
   "product": "NewBayMediaWebsite",
   "product_id": "newbaymediawebsite",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "nice-menu-menu-newbay-media-websites",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "nice-menu-menu-newbay-media-websites",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "ExpressionEngine",
   "product_id": "expressionengine",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "owered by <a href=\"http://expressionengine.com/\">ExpressionEngine</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "owered by <a href=\"http://expressionengine.com/\">ExpressionEngine</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "^exp_last_visit",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^exp_last_visit",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "^exp_last_activity",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^exp_last_activity",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "^exp_tracker",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^exp_tracker",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "^exp_csrf_token",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^exp_csrf_token",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

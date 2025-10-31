@@ -4,6 +4,7 @@
   "product": "DeluxeBB",
   "product_id": "deluxebb",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|[rns]+| This forum is coded by and          |[rns]+| copyrighted to Frank Nissel         |",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!-- \\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|-\\|[\\r\\n\\s]+\\| This forum is coded by and          \\|[\\r\\n\\s]+\\| copyrighted to Frank Nissel         \\|",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<meta name=\"description\" content=\"powered by DeluxeBB - www.deluxebb.com\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"description\"\\ content=\"powered\\ by\\ DeluxeBB\\ \\-\\ www\\.deluxebb\\.com\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

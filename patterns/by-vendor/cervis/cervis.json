@@ -4,6 +4,7 @@
   "product": "CERVIS",
   "product_id": "cervis",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<a href=\"http://www.cervistech.com\" target=\"_blank\"><img src=\"/acts/images/cervis_logo_sm.png\" align=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.cervistech\\.com\"\\ target=\"_blank\"><img\\ src=\"/acts/images/cervis_logo_sm\\.png\"\\ align=\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

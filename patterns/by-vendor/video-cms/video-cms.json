@@ -4,6 +4,7 @@
   "product": "Video-CMS",
   "product_id": "video-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<p style=\"color:#aaaaaa;text-align:center\">Powered by <a style=\"color:#aaaaaa\" href=\"http://www.codemight.com\" target=\"_blank\">Video CMS</a><br /><br /></p></body>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ style=\"color:\\#aaaaaa;text\\-align:center\">Powered\\ by\\ <a\\ style=\"color:\\#aaaaaa\"\\ href=\"http://www\\.codemight\\.com\"\\ target=\"_blank\">Video\\ CMS</a><br\\ /><br\\ /></p></body>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Escenic",
   "product_id": "escenic",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- Start Escenic Analysis Engine client script -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Start\\ Escenic\\ Analysis\\ Engine\\ client\\ script\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"author\" content=\"Escenic AS\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"Escenic\\ AS\"/>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<form action=\"/sok/\" id=\"[^\"]+\" method=\"get\" accept-charset=\"utf-8\"[^>]*>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form action=\"/sok/\" id=\"[^\"]+\" method=\"get\" accept-charset=\"utf-8\"[^>]*>",
       "version_group": 0
@@ -121,6 +125,5 @@
       "pattern": "<a[^>]+href=\"[^\"^>]+\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

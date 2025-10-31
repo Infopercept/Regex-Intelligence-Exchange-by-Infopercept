@@ -4,6 +4,7 @@
   "product": "Adobe-Experience-Manager",
   "product_id": "adobe-experience-manager",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div class=\"[^\"]*parbase",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div class=\\\"[^\\\"]*parbase",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<div[^>]+data-component-path=\"[^\"+]jcr:",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div[^>]+data-component-path=\\\"[^\\\"+]jcr:",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<div class=\"[^\"]*aem-Grid",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div class=\\\"[^\\\"]*aem-Grid",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<script type=\"text/javascript\" src=\"/etc/designs/",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script type=\"text/javascript\" src=\"/etc/designs/",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<script type=\"text/javascript\" src=\"/etc/clientlibs/",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script type=\"text/javascript\" src=\"/etc/clientlibs/",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "<script type=\"text/javascript\" src=\"/etc.clientlibs/",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script type=\"text/javascript\" src=\"/etc\\.clientlibs/",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

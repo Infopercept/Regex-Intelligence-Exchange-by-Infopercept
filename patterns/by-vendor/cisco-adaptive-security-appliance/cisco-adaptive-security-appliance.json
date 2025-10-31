@@ -4,6 +4,7 @@
   "product": "Cisco-Adaptive-Security-Appliance",
   "product_id": "cisco-adaptive-security-appliance",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Cisco Systems, Inc. Network Access</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Cisco\\ Systems,\\ Inc\\.\\ Network\\ Access</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "^Adaptive Security Appliance HTTP/1.1$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Adaptive Security Appliance HTTP/1\\.1$",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<FORM ACTION=\"/netaccess/redirect.html\">s+<INPUT type=hidden name=sid VALUE=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<FORM ACTION=\"/netaccess/redirect\\.html\">\\s+<INPUT type=hidden name=sid VALUE=",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "document.location.replace(['\"]/+CSCOE+/logon.html(?:?[^'\"]*)?['\"])",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "document\\.location\\.replace\\(['\"]/\\+CSCOE\\+/logon\\.html(?:\\?[^'\"]*)?['\"]\\)",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

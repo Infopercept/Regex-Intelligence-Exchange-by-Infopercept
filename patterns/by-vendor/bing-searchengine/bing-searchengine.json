@@ -4,6 +4,7 @@
   "product": "Bing-SearchEngine",
   "product_id": "bing-searchengine",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "var curUrl=\"http://www.bing.com/\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "var\\ curUrl=\"http://www\\.bing\\.com/\"",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<meta content=\"Bing is a search engine that finds",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ content=\"Bing\\ is\\ a\\ search\\ engine\\ that\\ finds",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "SmugMug",
   "product_id": "smugmug",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^SmugMug",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^SmugMug",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "x-powered-by: ^SmugMug/1.0$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-powered-by: ^SmugMug/([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

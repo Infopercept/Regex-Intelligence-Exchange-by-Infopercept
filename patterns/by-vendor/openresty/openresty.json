@@ -4,6 +4,7 @@
   "product": "OpenResty",
   "product_id": "openresty",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "If you see this page, the OpenResty web platform is successfully installed and working",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "If\\ you\\ see\\ this\\ page,\\ the\\ OpenResty\\ web\\ platform\\ is\\ successfully\\ installed\\ and\\ working",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<hr><center>openresty</center>s*</body>s*</html>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<hr><center>openresty</center>\\s*</body>\\s*</html>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "Server: ^openresty/(.*)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^openresty/(.*)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Mobile-Joomla",
   "product_id": "mobile-joomla",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "mjmarkup=deleted;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "mjmarkup=deleted;",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

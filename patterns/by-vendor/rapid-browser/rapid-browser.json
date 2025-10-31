@@ -4,6 +4,7 @@
   "product": "RAPID-Browser",
   "product_id": "rapid-browser",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- ### Bullet table ### -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ \\#\\#\\#\\ Bullet\\ table\\ \\#\\#\\#\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<td rowspan=\"3\" valign=\"top\" bgcolor=\"#FF6600\"><img src=\"images/copy_line.gif\" width=\"175\" height=\"80\" alt=\"Real time news browser that lets you share and publish\" border=\"0\"></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ rowspan=\"3\"\\ valign=\"top\"\\ bgcolor=\"\\#FF6600\"><img\\ src=\"images/copy_line\\.gif\"\\ width=\"175\"\\ height=\"80\"\\ alt=\"Real\\ time\\ news\\ browser\\ that\\ lets\\ you\\ share\\ and\\ publish\"\\ border=\"0\"></td>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<td align=\"right\" valign=\"top\"><input type=\"image\" name=\"login\" src=\"images/login_button.gif\" alt=\"Login to Rapid Browser\"></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ align=\"right\"\\ valign=\"top\"><input\\ type=\"image\"\\ name=\"login\"\\ src=\"images/login_button\\.gif\"\\ alt=\"Login\\ to\\ Rapid\\ Browser\"></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

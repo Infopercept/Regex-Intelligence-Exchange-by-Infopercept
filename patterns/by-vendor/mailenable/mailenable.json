@@ -4,6 +4,7 @@
   "product": "MailEnable",
   "product_id": "mailenable",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "</table><!-- loginPanel_shell_table -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "</table><!\\-\\-\\ loginPanel_shell_table\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<td class=\"loginPanel_botLeft\"><div class=\"loginPanel_botLeft_div\"></div></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ class=\"loginPanel_botLeft\"><div\\ class=\"loginPanel_botLeft_div\"></div></td>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<title>MailEnable - Webmail</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>MailEnable\\ \\-\\ Webmail</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

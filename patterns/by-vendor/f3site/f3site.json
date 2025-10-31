@@ -4,6 +4,7 @@
   "product": "F3Site",
   "product_id": "f3site",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a href=\"http://compmaster.prv.pl\" target=\"_blank\">powered by F3Site</a></span>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://compmaster\\.prv\\.pl\"\\ target=\"_blank\">powered\\ by\\ F3Site</a></span>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by[^>]*<a[^>]*href=\"http://compmaster.prv.pl[^>]*>F3Site[^>]*</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by[^>]*<a[^>]*href=\"http://compmaster.prv.pl[^>]*>F3Site[^>]*</a>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "Powered by[^>]*<a[^>]*href=\"http://dhost.info/compmaste[^>]*>F3Site[^<]*</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by[^>]*<a[^>]*href=\"http://dhost.info/compmaste[^>]*>F3Site[^<]*</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

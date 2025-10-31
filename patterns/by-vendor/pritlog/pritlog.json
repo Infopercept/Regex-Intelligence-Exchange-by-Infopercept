@@ -4,6 +4,7 @@
   "product": "PRITLOG",
   "product_id": "pritlog",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<em id=\"jserror\">Please enable Javascript for full functionality.</em>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<em\\ id=\"jserror\">Please\\ enable\\ Javascript\\ for\\ full\\ functionality\\.</em>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Powered by <a href=\"http://pritlog.com/\">Pritlog</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://pritlog\\.com/\">Pritlog</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

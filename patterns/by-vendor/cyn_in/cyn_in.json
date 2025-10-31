@@ -4,6 +4,7 @@
   "product": "Cyn_in",
   "product_id": "cyn_in",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<meta name=\"generator\" content=\"cyn.in - http://cyn.in\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"cyn\\.in\\ \\-\\ http://cyn\\.in\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

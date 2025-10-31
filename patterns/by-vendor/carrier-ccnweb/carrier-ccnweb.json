@@ -4,6 +4,7 @@
   "product": "Carrier-CCNWeb",
   "product_id": "carrier-ccnweb",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<APPLET CODE=\"JLogin.class\" ARCHIVE=\"JLogin.jar\" MAYSCRIPT WIDTH=310 HEIGHT=185>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<APPLET\\ CODE=\"JLogin\\.class\"\\ ARCHIVE=\"JLogin\\.jar\"\\ MAYSCRIPT\\ WIDTH=310\\ HEIGHT=185>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

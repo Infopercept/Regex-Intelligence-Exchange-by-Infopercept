@@ -4,6 +4,7 @@
   "product": "Shopify",
   "product_id": "shopify",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a target=\"_blank\" class=\"ico ico-shopify-bag\" href=\"//www.shopify.com\">        <span class=\"helper--visually-hidden\">Shopify.com</span></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ target=\"_blank\"\\ class=\"ico\\ ico\\-shopify\\-bag\"\\ href=\"//www\\.shopify\\.com\">\\ \\ \\ \\ \\ \\ \\ \\ <span\\ class=\"helper\\-\\-visually\\-hidden\">Shopify\\.com</span></a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "_secure_session_id",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "_secure_session_id",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "_session_id",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "_session_id",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "cart_sig",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "cart_sig",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "customer_sig",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "customer_sig",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "secure_customer_sig",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "secure_customer_sig",
       "version_group": 0
@@ -162,11 +169,11 @@
             "input": "<meta name=\"shopify-digital-wallet\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"shopify-digital-wallet\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

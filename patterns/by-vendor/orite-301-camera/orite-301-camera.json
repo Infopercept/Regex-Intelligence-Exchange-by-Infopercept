@@ -4,6 +4,7 @@
   "product": "ORITE-301-Camera",
   "product_id": "orite-301-camera",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "\t<TITLE>ORITE Audio IP-Camera IC-301 </TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<TITLE>ORITE\\ Audio\\ IP\\-Camera\\ IC\\-301\\ </TITLE>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<TITLE>Orite IC301</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>Orite\\ IC301</TITLE>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "\tvar s=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\tvar\\ s=\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

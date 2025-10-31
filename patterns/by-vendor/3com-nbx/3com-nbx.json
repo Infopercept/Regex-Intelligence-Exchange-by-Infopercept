@@ -4,6 +4,7 @@
   "product": "3COM-NBX",
   "product_id": "3com-nbx",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<head><title>NBX NetSet</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<head><title>NBX\\ NetSet</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<HEAD><TITLE>NBX NetSet</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<HEAD><TITLE>NBX\\ NetSet</TITLE>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!-- (c) Copyright, 3Com Corporation or its subsidiaries, 2004.  All Rights Reserved. -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ \\(c\\)\\ Copyright,\\ 3Com\\ Corporation\\ or\\ its\\ subsidiaries,\\ 2004\\.\\ \\ All\\ Rights\\ Reserved\\.\\ \\-\\->",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<!-- Gregory Brucato  4/22/98  NBX Corporation -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Gregory\\ Brucato\\ \\ 4/22/98\\ \\ NBX\\ Corporation\\ \\-\\->",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<span class=\"splashTitleIPTelephony\">&nbsp;3Com<SUP><span class=\"splashTitleNBXReg\">&reg;</span></SUP> IP Telephony Solution</span>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<span\\ class=\"splashTitleIPTelephony\">\\&nbsp;3Com<SUP><span\\ class=\"splashTitleNBXReg\">\\&reg;</span></SUP>\\ IP\\ Telephony\\ Solution</span>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

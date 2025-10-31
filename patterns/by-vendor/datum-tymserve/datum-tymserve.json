@@ -4,6 +4,7 @@
   "product": "Datum-TymServe",
   "product_id": "datum-tymserve",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -29,6 +30,5 @@
       "pattern": "Server: ^DATM\\",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

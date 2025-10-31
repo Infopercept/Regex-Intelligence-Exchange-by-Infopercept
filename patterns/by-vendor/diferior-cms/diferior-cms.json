@@ -4,6 +4,7 @@
   "product": "Diferior-CMS",
   "product_id": "diferior-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "&#8212; Powered by Diferior</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\&\\#8212;\\ Powered\\ by\\ Diferior</title>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<a href=\"http://diferior.com\" rel=\"external_dif[^>]+>Powered by Diferior, Copyright &copy; 2007, 2008 Povilas Musteikis</a><br/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"http://diferior.com\" rel=\"external_dif[^>]+>Powered by Diferior, Copyright &copy; 2007, 2008 Povilas Musteikis</a><br/>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

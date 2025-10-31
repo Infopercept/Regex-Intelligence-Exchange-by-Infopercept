@@ -4,6 +4,7 @@
   "product": "MapServer-4-Windows",
   "product_id": "mapserver-4-windows",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<title>MS4W - MapServer 4 Windows</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>MS4W\\ \\-\\ MapServer\\ 4\\ Windows</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

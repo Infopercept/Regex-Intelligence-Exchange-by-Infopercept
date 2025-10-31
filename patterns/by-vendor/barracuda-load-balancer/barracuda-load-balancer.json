@@ -4,6 +4,7 @@
   "product": "Barracuda-Load-Balancer",
   "product_id": "barracuda-load-balancer",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "BNI__BARRACUDA_LB_COOKIE",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "BNI__BARRACUDA_LB_COOKIE",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "BNI_BARRACUDA_LB_COOKIE",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "BNI_BARRACUDA_LB_COOKIE",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

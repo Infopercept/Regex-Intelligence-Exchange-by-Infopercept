@@ -4,6 +4,7 @@
   "product": "Netscape-Enterprise",
   "product_id": "netscape-enterprise",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Netscape-Enterprise",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Netscape-Enterprise",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^Netscape-Enterprise/(.+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Netscape-Enterprise/(.+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

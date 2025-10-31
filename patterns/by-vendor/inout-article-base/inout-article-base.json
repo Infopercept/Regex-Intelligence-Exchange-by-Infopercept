@@ -4,6 +4,7 @@
   "product": "Inout-Article-Base",
   "product_id": "inout-article-base",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Inout Article Base - Admin Area</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Inout\\ Article\\ Base\\ \\-\\ Admin\\ Area</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title>Inout ArticleBase - Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Inout\\ ArticleBase\\ \\-\\ Login</title>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": " href=\"http://www.inoutscripts.com/?r=0\">Powered by Inoutscripts</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ href=\"http://www\\.inoutscripts\\.com/\\?r=0\">Powered\\ by\\ Inoutscripts</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

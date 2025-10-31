@@ -4,6 +4,7 @@
   "product": "Citrix-Access-Gateway",
   "product_id": "citrix-access-gateway",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<HTML><HEAD><TITLE>Citrix Access Gateway</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<HTML><HEAD><TITLE>Citrix\\ Access\\ Gateway</TITLE>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<link rel=\"SHORTCUT ICON\" href=\"/vpn/images/AccessGateway.ico\" type=\"image/vnd.microsoft.icon\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"SHORTCUT\\ ICON\"\\ href=\"/vpn/images/AccessGateway\\.ico\"\\ type=\"image/vnd\\.microsoft\\.icon\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!--CONTENT CONTENT CONTENT CONTENT CONTENT--->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-CONTENT\\ CONTENT\\ CONTENT\\ CONTENT\\ CONTENT\\-\\-\\->",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "</div><!---end of div c_logon_maincontent-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "</div><!\\-\\-\\-end\\ of\\ div\\ c_logon_maincontent\\-\\->",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "ezisneercsresu=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "ezisneercsresu=",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "^Cyms-SecS v[d.]+$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Cyms-SecS v[\\d\\.]+$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

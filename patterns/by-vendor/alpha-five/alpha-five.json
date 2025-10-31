@@ -4,6 +4,7 @@
   "product": "Alpha-Five",
   "product_id": "alpha-five",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: ^Alpha Five( Application Server)?/([\\d\\.]+ Build/[\\d\\-]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Alpha Five( Application Server)?/([\\d\\.]+ Build/[\\d\\-]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Sony-Projector",
   "product_id": "sony-projector",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<BODY onLoad=\"setWindowTitle();showIndex();\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<BODY\\ onLoad=\"setWindowTitle\\(\\);showIndex\\(\\);\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<form Action=\"/Forms/index_1\" method=\"post\"  NAME=\"form1\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ Action=\"/Forms/index_1\"\\ method=\"post\"\\ \\ NAME=\"form1\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<script type=\"text/javascript\" src=\"sonylogoJS.js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ type=\"text/javascript\"\\ src=\"sonylogoJS\\.js\"></script>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<frame src=\"index_bg.htm\" NAME=\"RIGHT\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" noresize>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<frame\\ src=\"index_bg\\.htm\"\\ NAME=\"RIGHT\"\\ marginwidth=\"0\"\\ marginheight=\"0\"\\ scrolling=\"no\"\\ noresize>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<frame src=\"index_bg.htm\" NAME=\"RIGHT\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" noresize>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<frame\\ src=\"index_bg\\.htm\"\\ NAME=\"RIGHT\"\\ marginwidth=\"0\"\\ marginheight=\"0\"\\ scrolling=\"no\"\\ noresize>",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "<TR><TD COLSPAN=\"2\"><script type=\"text/javascript\">sonylogo();</script></TD>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TR><TD\\ COLSPAN=\"2\"><script\\ type=\"text/javascript\">sonylogo\\(\\);</script></TD>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

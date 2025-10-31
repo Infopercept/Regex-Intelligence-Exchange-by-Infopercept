@@ -4,6 +4,7 @@
   "product": "iGaming-CMS",
   "product_id": "igaming-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- iGaming CMS is free software, please do not remove the copyright message. -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ iGaming\\ CMS\\ is\\ free\\ software,\\ please\\ do\\ not\\ remove\\ the\\ copyright\\ message\\.\\ \\-\\->",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Powered by <a href=\"http://www.igamingcms.com/\" target=\"_blank\">iGaming CMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.igamingcms\\.com/\"\\ target=\"_blank\">iGaming\\ CMS</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

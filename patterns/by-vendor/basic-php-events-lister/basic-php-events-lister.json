@@ -4,6 +4,7 @@
   "product": "Basic-PHP-Events-Lister",
   "product_id": "basic-php-events-lister",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by: <a href=\"http://www.mevin.com/\">mevin productions</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by:\\ <a\\ href=\"http://www\\.mevin\\.com/\">mevin\\ productions</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<br /><center><input class=\"text\" type=\"submit\" name=\"submitBtn\" value=\"Login\" /></center>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<br\\ /><center><input\\ class=\"text\"\\ type=\"submit\"\\ name=\"submitBtn\"\\ value=\"Login\"\\ /></center>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<center><br> <a href=recover.php>Lost your password?</a></center>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<center><br>\\ <a\\ href=recover\\.php>Lost\\ your\\ password\\?</a></center>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

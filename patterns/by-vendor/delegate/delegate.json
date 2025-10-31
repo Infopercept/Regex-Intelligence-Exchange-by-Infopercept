@@ -4,6 +4,7 @@
   "product": "DeleGate",
   "product_id": "delegate",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^DeleGate/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^DeleGate/([^\\s]+)",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "delegate-ver: ^([^\\s]+) \\(delay=",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "delegate-ver: ^([^\\s]+) \\(delay=",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

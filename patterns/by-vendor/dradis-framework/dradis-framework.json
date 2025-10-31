@@ -4,6 +4,7 @@
   "product": "Dradis-Framework",
   "product_id": "dradis-framework",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "effective information sharing - <a href=\"http://dradisframework.org/\">http://dradisframework.org</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "effective\\ information\\ sharing\\ \\-\\ <a\\ href=\"http://dradisframework\\.org/\">http://dradisframework\\.org</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<div id=\"back\"><a href=\"/\">&lsaquo; back to the app.</a></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"back\"><a\\ href=\"/\">\\&lsaquo;\\ back\\ to\\ the\\ app\\.</a></div>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<p id=\"wizard\">Not familiar with Dradis? Checkout the <a href=\"/wizard\">Wizard</a>.</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ id=\"wizard\">Not\\ familiar\\ with\\ Dradis\\?\\ Checkout\\ the\\ <a\\ href=\"/wizard\">Wizard</a>\\.</p>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<li>Integration with existing systems and tools through <a href=\"http://Dradisframework.org/server_plugins.html\">server plugins</a>.</li>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<li>Integration\\ with\\ existing\\ systems\\ and\\ tools\\ through\\ <a\\ href=\"http://Dradisframework\\.org/server_plugins\\.html\">server\\ plugins</a>\\.</li>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

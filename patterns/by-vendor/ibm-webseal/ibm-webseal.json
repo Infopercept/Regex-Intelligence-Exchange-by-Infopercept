@@ -4,6 +4,7 @@
   "product": "IBM-WebSEAL",
   "product_id": "ibm-webseal",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: ^WebSEAL/([^\\s]+ \\(Build \\d+\\))",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^WebSEAL/([^\\s]+ \\(Build \\d+\\))",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

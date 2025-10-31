@@ -4,14 +4,12 @@
   "product": "Answer",
   "product_id": "apache-answer",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
       "name": "Apache Answer",
-      "category": "web",
       "pattern": "(?:main|app|index|style|runtime~main)\\.([0-9a-f]{8})\\.(?:js|css)",
-      "vendor": "Apache",
-      "product": "Answer",
       "version_group": 1,
       "priority": 140,
       "confidence": 0.75,
@@ -35,9 +33,16 @@
             "input": "app.1c3bc641.css",
             "expected_version": "1c3bc641"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "compiled_pattern": true
       }
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "GeekLog",
   "product_id": "geeklog",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered By <a href=\"http://www.geeklog.net/\">Geeklog</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.geeklog\\.net/\">Geeklog</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered By <a class=\"footer\" href=\"http://www.geeklog.net/\">GeekLog</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ By\\ <a\\ class=\"footer\"\\ href=\"http://www\\.geeklog\\.net/\">GeekLog</a>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<!--If you want the splash, uncomment the last line. If you want no splash, make sure it is commented out.-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-If\\ you\\ want\\ the\\ splash,\\ uncomment\\ the\\ last\\ line\\.\\ If\\ you\\ want\\ no\\ splash,\\ make\\ sure\\ it\\ is\\ commented\\ out\\.\\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "KSearch",
   "product_id": "ksearch",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Powered by[s]+<a[^>]+href=\"http://www.kscripts.com/(scripts.html#ksearch)?\"[^>]*>KSearch</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by[\\s]+<a[^>]+href=\"http://www\\.kscripts\\.com/(scripts\\.html#ksearch)?\"[^>]*>KSearch</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

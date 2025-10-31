@@ -4,6 +4,7 @@
   "product": "iScripts-MultiCart",
   "product_id": "iscripts-multicart",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -29,6 +30,5 @@
       "pattern": "Powered by <a href=\"http://iscripts.com\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

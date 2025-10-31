@@ -4,6 +4,7 @@
   "product": "Daisy",
   "product_id": "daisy",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "x-daisy-version: ^([^\\s]+) \\(build: [^\\s]+",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-daisy-version: ^([^\\s]+) \\(build: [^\\s]+",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

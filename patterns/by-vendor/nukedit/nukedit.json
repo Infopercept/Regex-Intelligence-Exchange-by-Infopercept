@@ -4,6 +4,7 @@
   "product": "Nukedit",
   "product_id": "nukedit",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by Nukedit - <a href=\"(http://www.|http://)nukedit.com\" target=_blank title=\"[^\"]*\"><span class=footer><u>(Web Content Management|Open Source CMS)</u></a><br>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by Nukedit - <a href=\"(http://www.|http://)nukedit.com\" target=_blank title=\"[^\"]*\"><span class=footer><u>(Web Content Management|Open Source CMS)</u></a><br>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<a href=\"http://www.nukedit.com\" target=_blank title=\"Fast web portal, friendly with search engines\">Powered by Nukedit</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.nukedit\\.com\"\\ target=_blank\\ title=\"Fast\\ web\\ portal,\\ friendly\\ with\\ search\\ engines\">Powered\\ by\\ Nukedit</a>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "\t\t\t\t\t\t\tYou can move it anywhere you want. -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t\\\t\\\t\\\t\\\t\\\tYou\\ can\\ move\\ it\\ anywhere\\ you\\ want\\.\\ \\-\\->",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<a href=\"http://www.nukedit.com\" target=_blank title=\"Fast web portal, friendly with search engines\"><span class=\"footer\">Powered by Nukedit</span></a><span class=\"footer\"> |",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.nukedit\\.com\"\\ target=_blank\\ title=\"Fast\\ web\\ portal,\\ friendly\\ with\\ search\\ engines\"><span\\ class=\"footer\">Powered\\ by\\ Nukedit</span></a><span\\ class=\"footer\">\\ \\|",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

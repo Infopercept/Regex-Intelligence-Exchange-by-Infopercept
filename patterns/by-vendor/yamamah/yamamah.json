@@ -4,6 +4,7 @@
   "product": "Yamamah",
   "product_id": "yamamah",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"Author\" content=\"Majed Al-Mulihani - majed@modernsys.net\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"Author\"\\ content=\"Majed\\ Al\\-Mulihani\\ \\-\\ majed@modernsys\\.net\"\\ />",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<meta name=\"Description\" content=\"Yamamah is free photo gallery cms\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"Description\"\\ content=\"Yamamah\\ is\\ free\\ photo\\ gallery\\ cms\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

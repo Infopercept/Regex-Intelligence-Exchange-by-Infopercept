@@ -4,6 +4,7 @@
   "product": "Jetty",
   "product_id": "jetty",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^Jetty(/|\\()([^\\s^\\)]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Jetty(/|\\()([^\\s^\\)]+)",
       "version_group": 1
@@ -47,7 +49,8 @@
             "input": "<A HREF=\"http://jetty.mortbay.org\"><IMG SRC=\"jetty_banner.gif\"></A>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<A\\ HREF=\"http://jetty\\.mortbay\\.org\"><IMG\\ SRC=\"jetty_banner\\.gif\"></A>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<p><i><small><a href=\"http://jetty.mortbay.org\">Powered by Jetty://</a></small></i></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p><i><small><a\\ href=\"http://jetty\\.mortbay\\.org\">Powered\\ by\\ Jetty://</a></small></i></p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

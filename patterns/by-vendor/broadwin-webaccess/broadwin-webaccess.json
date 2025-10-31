@@ -4,6 +4,7 @@
   "product": "BroadWin-WebAccess",
   "product_id": "broadwin-webaccess",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<frame marginheight=\"0\" marginwidth=\"0\" name=\"rightRunFrame\" noresize src=\"bwRunRight.asp\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<frame\\ marginheight=\"0\"\\ marginwidth=\"0\"\\ name=\"rightRunFrame\"\\ noresize\\ src=\"bwRunRight\\.asp\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<html><!-- #BeginTemplate \"/Templates/bw_templete1.dwt\" -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html><!\\-\\-\\ \\#BeginTemplate\\ \"/Templates/bw_templete1\\.dwt\"\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<title>Operator Manual</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Operator\\ Manual</title>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<form name=\"login\" action=\"/broadweb/user/signin.asp\" method=\"post\" onSubmit=\"return validateUserName()\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ name=\"login\"\\ action=\"/broadweb/user/signin\\.asp\"\\ method=\"post\"\\ onSubmit=\"return\\ validateUserName\\(\\)\">",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "window.top.location.replace(\"/broadweb/bwroot.asp?username=admin\");",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "window\\.top\\.location\\.replace\\(\"/broadweb/bwroot\\.asp\\?username=admin\"\\);",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

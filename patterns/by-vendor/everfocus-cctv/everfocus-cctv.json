@@ -4,6 +4,7 @@
   "product": "EverFocus-CCTV",
   "product_id": "everfocus-cctv",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -47,11 +48,11 @@
             "input": "<!--mei20071101 input type=\"image\" name=\"recMode\" style=\"visibility:hidden\" src=\"stoprec.gif\" onclick=\"changeRecordMode()\"-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-mei20071101\\ input\\ type=\"image\"\\ name=\"recMode\"\\ style=\"visibility:hidden\"\\ src=\"stoprec\\.gif\"\\ onclick=\"changeRecordMode\\(\\)\"\\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

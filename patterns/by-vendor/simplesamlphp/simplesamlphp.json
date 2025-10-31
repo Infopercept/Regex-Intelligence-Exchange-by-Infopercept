@@ -4,6 +4,7 @@
   "product": "simpleSAMLphp",
   "product_id": "simplesamlphp",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>simpleSAMLphp installation page</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>simpleSAMLphp\\ installation\\ page</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<h1><a style=\"text-decoration: none; color: white\" href=\"[^\"]+\">simpleSAMLphp installation page</a></h1>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h1><a style=\"text-decoration: none; color: white\" href=\"[^\"]+\">simpleSAMLphp installation page</a></h1>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<a href=\"http://rnd.feide.no/simplesamlphp\">SimpleSAMLPhp </a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://rnd\\.feide\\.no/simplesamlphp\">SimpleSAMLPhp\\ </a>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<!-- Grey header bar below -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Grey\\ header\\ bar\\ below\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

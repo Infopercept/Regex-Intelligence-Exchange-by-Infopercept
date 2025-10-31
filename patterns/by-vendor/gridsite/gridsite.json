@@ -4,6 +4,7 @@
   "product": "GridSite",
   "product_id": "gridsite",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a href=\"gridsite-admin.cgi?cmd=history&amp;file=index.html\">View&nbsp;page&nbsp;history</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"gridsite\\-admin\\.cgi\\?cmd=history\\&amp;file=index\\.html\">View\\&nbsp;page\\&nbsp;history</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<a href=\"gridsite-admin.cgi?cmd=print&amp;file=index.html\">Print&nbsp;View</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"gridsite\\-admin\\.cgi\\?cmd=print\\&amp;file=index\\.html\">Print\\&nbsp;View</a>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<!-- start of gridsitefoot.txt -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ start\\ of\\ gridsitefoot\\.txt\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

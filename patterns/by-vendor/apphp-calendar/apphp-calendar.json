@@ -4,6 +4,7 @@
   "product": "ApPHP-Calendar",
   "product_id": "apphp-calendar",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<tr class='tr_days'><td class='th'>Sunday</td><td class='th'>Monday</td><td class='th'>Tuesday</td><td class='th'>Wednesday</td><td class='th'>Thursday</td><td class='th'>Friday</td><td class='th'>Satarday</td></tr>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr\\ class='tr_days'><td\\ class='th'>Sunday</td><td\\ class='th'>Monday</td><td\\ class='th'>Tuesday</td><td\\ class='th'>Wednesday</td><td\\ class='th'>Thursday</td><td\\ class='th'>Friday</td><td\\ class='th'>Satarday</td></tr>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

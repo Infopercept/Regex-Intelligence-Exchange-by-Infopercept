@@ -4,6 +4,7 @@
   "product": "Diaspora",
   "product_id": "diaspora",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "_diaspora_session=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "_diaspora_session=",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<input name=\"user[remember_me]\" type=\"hidden\" value=\"0\" /><input id=\"user_remember_me\" name=\"user[remember_me]\" type=\"checkbox\" value=\"1\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ name=\"user\\[remember_me\\]\"\\ type=\"hidden\"\\ value=\"0\"\\ /><input\\ id=\"user_remember_me\"\\ name=\"user\\[remember_me\\]\"\\ type=\"checkbox\"\\ value=\"1\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

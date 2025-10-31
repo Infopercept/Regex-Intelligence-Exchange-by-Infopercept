@@ -4,6 +4,7 @@
   "product": "KeyFocus-WebServer",
   "product_id": "keyfocus-webserver",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^KFWebServer$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^KFWebServer$",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^KFWebServer/8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^KFWebServer/([\\d\\.]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

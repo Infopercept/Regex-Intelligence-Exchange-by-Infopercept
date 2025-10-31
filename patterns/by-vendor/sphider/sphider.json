@@ -4,6 +4,7 @@
   "product": "Sphider",
   "product_id": "sphider",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<html>[s]+<head>[s]+<title>[s]+Sphider installation script.[s]+</title>[s]+<LINK REL=STYLESHEET HREF=\"admin.css\" TYPE=\"text/css\">[s]+</head>[s]+<body>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html>[\\s]+<head>[\\s]+<title>[\\s]+Sphider installation script\\.[\\s]+</title>[\\s]+<LINK REL=STYLESHEET HREF=\"admin\\.css\" TYPE=\"text/css\">[\\s]+</head>[\\s]+<body>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<title>Sphider Admin Login</title>[s]+<LINK REL=STYLESHEET HREF=\"admin.css\" TYPE=\"text/css\">[s]+</head>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Sphider Admin Login</title>[\\s]+<LINK REL=STYLESHEET HREF=\"admin\\.css\" TYPE=\"text/css\">[\\s]+</head>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

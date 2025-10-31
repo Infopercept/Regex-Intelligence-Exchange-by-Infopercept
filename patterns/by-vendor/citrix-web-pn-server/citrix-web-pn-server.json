@@ -4,6 +4,7 @@
   "product": "Citrix-Web-PN-Server",
   "product_id": "citrix-web-pn-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^Citrix Web PN Server$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Citrix Web PN Server$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

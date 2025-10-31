@@ -4,6 +4,7 @@
   "product": "Gallery",
   "product_id": "gallery",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a href=\"#\" id=\"g-password-reset\" class=\"g-right g-text-small\">Forgot your password?</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"\\#\"\\ id=\"g\\-password\\-reset\"\\ class=\"g\\-right\\ g\\-text\\-small\">Forgot\\ your\\ password\\?</a>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<title>Gallery 3 Installer</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Gallery\\ 3\\ Installer</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

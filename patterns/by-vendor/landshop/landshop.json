@@ -4,6 +4,7 @@
   "product": "LandShop",
   "product_id": "landshop",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a class=\"white\" href=\"http://www.landshop.gr\" target=\"_blank\" (alte=\"Samedia LandShop\")? title=\"Samedia Landshop\">Land[Ss]hop<sup>&reg;</sup></a><br>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a class=\"white\" href=\"http://www\\.landshop\\.gr\" target=\"_blank\" (alte=\"Samedia LandShop\")? title=\"Samedia Landshop\">Land[Ss]hop<sup>&reg;</sup></a><br>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<div class=\"more CAT\" style=\"height:20px;margin:5px 0px 10px 0px;text-align:right\"><a class=\"item fat\"  href=\"ls.php?",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ class=\"more\\ CAT\"\\ style=\"height:20px;margin:5px\\ 0px\\ 10px\\ 0px;text\\-align:right\"><a\\ class=\"item\\ fat\"\\ \\ href=\"ls\\.php\\?",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<!--<A href=\"<#G_ADMIN_URL#>/action/contacts.php?action=list\"><#list_contacts#></a>-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-<A\\ href=\"<\\#G_ADMIN_URL\\#>/action/contacts\\.php\\?action=list\"><\\#list_contacts\\#></a>\\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

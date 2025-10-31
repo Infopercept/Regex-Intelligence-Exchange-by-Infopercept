@@ -4,6 +4,7 @@
   "product": "Realtor-747",
   "product_id": "realtor-747",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<body onload=\"start_realtor747_admin();\" onunload=\"stop_realtor747_admin();\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ onload=\"start_realtor747_admin\\(\\);\"\\ onunload=\"stop_realtor747_admin\\(\\);\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

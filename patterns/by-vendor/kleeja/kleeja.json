@@ -4,6 +4,7 @@
   "product": "Kleeja",
   "product_id": "kleeja",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>[^(]+(Powered by Kleeja)</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>[^\\(]+\\(Powered by Kleeja\\)</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"copyrights\" content=\"Powered by Kleeja :: kleeja.com\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"copyrights\"\\ content=\"Powered\\ by\\ Kleeja\\ ::\\ kleeja\\.com\"\\ />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<meta name=\"Description\" content=\"Powered by Kleeja :: kleeja.com\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"Description\"\\ content=\"Powered\\ by\\ Kleeja\\ ::\\ kleeja\\.com\"\\ />",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "Powered by <a href=\"http://www.kleeja.com/\" target=\"_blank\">Kleeja</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.kleeja\\.com/\"\\ target=\"_blank\">Kleeja</a>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<!-- IF REMOVE: Pay for a license -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ IF\\ REMOVE:\\ Pay\\ for\\ a\\ license\\ \\-\\->",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "<!-- IF REMOVE: Pay for a license - see http://www.kleeja.com -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ IF\\ REMOVE:\\ Pay\\ for\\ a\\ license\\ \\-\\ see\\ http://www\\.kleeja\\.com\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

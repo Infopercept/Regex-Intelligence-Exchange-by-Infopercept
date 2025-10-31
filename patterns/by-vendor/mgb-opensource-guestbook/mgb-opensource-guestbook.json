@@ -4,6 +4,7 @@
   "product": "MGB-OpenSource-Guestbook",
   "product_id": "mgb-opensource-guestbook",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- If you want to remove this copyright you can do so. But it took and already takes a lot of time to code all this stuff.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ If\\ you\\ want\\ to\\ remove\\ this\\ copyright\\ you\\ can\\ do\\ so\\.\\ But\\ it\\ took\\ and\\ already\\ takes\\ a\\ lot\\ of\\ time\\ to\\ code\\ all\\ this\\ stuff\\.",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<td class=\"entry_info\" colspan=\"3\"><a href=\"email.php?id=denied\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ class=\"entry_info\"\\ colspan=\"3\"><a\\ href=\"email\\.php\\?id=denied\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

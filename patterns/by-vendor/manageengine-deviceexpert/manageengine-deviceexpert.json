@@ -4,6 +4,7 @@
   "product": "ManageEngine-DeviceExpert",
   "product_id": "manageengine-deviceexpert",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<input type=\"hidden\" name=\"AUTHRULE_NAME\" id=\"AUTHRULE_NAME\" value=\"Authenticator\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ type=\"hidden\"\\ name=\"AUTHRULE_NAME\"\\ id=\"AUTHRULE_NAME\"\\ value=\"Authenticator\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<SCRIPT language=\"javascript\" src=\"/javascript/deviceexpert.js\"></SCRIPT>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<SCRIPT\\ language=\"javascript\"\\ src=\"/javascript/deviceexpert\\.js\"></SCRIPT>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "SVN",
   "product_id": "svn",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "[^r^n]*SVN",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "[^\\r^\\n]*SVN",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: [^\\r^\\n]*SVN/([^\\r^\\n^\\s]*)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: [^\\r^\\n]*SVN/([^\\r^\\n^\\s]*)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "SonicWALL-SSL-VPN",
   "product_id": "sonicwall-ssl-vpn",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^SonicWALL SSL-VPN Web Server.?$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^SonicWALL SSL-VPN Web Server\\.?$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

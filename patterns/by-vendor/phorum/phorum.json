@@ -4,6 +4,7 @@
   "product": "Phorum",
   "product_id": "phorum",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "powered by <a href=\"http://www.phorum.org/\"( target=\"_blank\")?>Phorum</a>.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "powered by <a href=\"http://www\\.phorum\\.org/\"( target=\"_blank\")?>Phorum</a>\\.",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!-- end of div id=user-info -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ end\\ of\\ div\\ id=user\\-info\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "web2Project",
   "product_id": "web2project",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>web2Project Development :: web2Project Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>web2Project\\ Development\\ ::\\ web2Project\\ Login</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "</head><body>Fatal Error. You haven't created a config file yet.<br/><a href=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "</head><body>Fatal\\ Error\\.\\ You\\ haven't\\ created\\ a\\ config\\ file\\ yet\\.<br/><a\\ href=",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "web2project=[^;]+;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "web2project=[^;]+;",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

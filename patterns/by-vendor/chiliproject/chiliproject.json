@@ -4,6 +4,7 @@
   "product": "ChiliProject",
   "product_id": "chiliproject",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by <a href=\"https://www.chiliproject.org/\">ChiliProject</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"https://www\\.chiliproject\\.org/\">ChiliProject</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"description\" content=\"ChiliProject\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"description\"\\ content=\"ChiliProject\"\\ />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!-- page specific tags -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ page\\ specific\\ tags\\ \\-\\->",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "_chiliproject_session=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "_chiliproject_session=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

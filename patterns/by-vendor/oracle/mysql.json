@@ -4,14 +4,12 @@
   "product": "MySQL",
   "product_id": "oracle-mysql",
   "category": "database",
+  "subcategory": "database-engine",
   "versions": {},
   "all_versions": [
     {
       "name": "MySQL Database",
-      "category": "database",
       "pattern": "MySQL ([\\d.]+)",
-      "vendor": "Oracle",
-      "product": "MySQL",
       "version_group": 1,
       "priority": 150,
       "confidence": 0.8,
@@ -30,9 +28,9 @@
             "input": "ERROR 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES) MySQL 8.0.28",
             "expected_version": "8.0.28"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
-  ],
-  "subcategory": "database-engine"
+  ]
 }

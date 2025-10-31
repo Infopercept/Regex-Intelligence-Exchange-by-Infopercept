@@ -4,6 +4,7 @@
   "product": "Windows-Remote-Printing",
   "product_id": "windows-remote-printing",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<frame src=\"ipp_000[d].asp?eprinter=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<frame src=\"ipp_000[\\d]\\.asp\\?eprinter=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

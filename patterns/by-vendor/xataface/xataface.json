@@ -4,6 +4,7 @@
   "product": "Xataface",
   "product_id": "xataface",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- custom javascripts can go in slot \"custom_javascripts\" -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ custom\\ javascripts\\ can\\ go\\ in\\ slot\\ \"custom_javascripts\"\\ \\-\\->",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!-- Place any other items in the head of the document by filling the \"head_slot\" slot -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Place\\ any\\ other\\ items\\ in\\ the\\ head\\ of\\ the\\ document\\ by\\ filling\\ the\\ \"head_slot\"\\ slot\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

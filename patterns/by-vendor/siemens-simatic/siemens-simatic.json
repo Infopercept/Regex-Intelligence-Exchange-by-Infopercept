@@ -4,6 +4,7 @@
   "product": "Siemens-Simatic",
   "product_id": "siemens-simatic",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<META HTTP-EQUIV=\"refresh\" content=\"0;URL=/www/start.html\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<META\\ HTTP\\-EQUIV=\"refresh\"\\ content=\"0;URL=/www/start\\.html\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title> Miniweb Start Page </title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>\\ Miniweb\\ Start\\ Page\\ </title>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<img src=\"/Images/Siemens_Firmenmarke.gif\" alt=\"Siemens\" border=\"0\"></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"/Images/Siemens_Firmenmarke\\.gif\"\\ alt=\"Siemens\"\\ border=\"0\"></td>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<font color=\"#ffffff\"> <!-- font ist da, um bei einer Anzeige OHNE CSS nicht schwarz auf schwarz anzuzeigen -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<font\\ color=\"\\#ffffff\">\\ <!\\-\\-\\ font\\ ist\\ da,\\ um\\ bei\\ einer\\ Anzeige\\ OHNE\\ CSS\\ nicht\\ schwarz\\ auf\\ schwarz\\ anzuzeigen\\ \\-\\->",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "Hint:<br> When the devicename contains an underscore ( _ ) some browsers have a bug that makes it impossible to log in.<br> One possible solution may be to use the IP address of the device instead of the name, or to use another browser.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Hint:<br>\\ When\\ the\\ devicename\\ contains\\ an\\ underscore\\ \\(\\ _\\ \\)\\ some\\ browsers\\ have\\ a\\ bug\\ that\\ makes\\ it\\ impossible\\ to\\ log\\ in\\.<br>\\ One\\ possible\\ solution\\ may\\ be\\ to\\ use\\ the\\ IP\\ address\\ of\\ the\\ device\\ instead\\ of\\ the\\ name,\\ or\\ to\\ use\\ another\\ browser\\.",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<title>SIMATIC NET IT-CP</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>SIMATIC\\ NET\\ IT\\-CP</title>",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "<td class=\"Login_Area\" colspan=\"2\"><img src=\"/SIMATIC_CONTROLLER.png\" alt=\"Simatic S7 CP\"></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ class=\"Login_Area\"\\ colspan=\"2\"><img\\ src=\"/SIMATIC_CONTROLLER\\.png\"\\ alt=\"Simatic\\ S7\\ CP\"></td>",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "<td><img src=\"/Siemens_Firmenmarke_Header.gif\" alt=\"Siemens\" border=\"0\"></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><img\\ src=\"/Siemens_Firmenmarke_Header\\.gif\"\\ alt=\"Siemens\"\\ border=\"0\"></td>",
       "version_group": 0
@@ -208,7 +217,8 @@
             "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/S7Web.css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/S7Web\\.css\">",
       "version_group": 0
@@ -231,11 +241,11 @@
             "input": "<td class=\"MainMenu_Navigation_Level1\"><a class=\"MainMenu_Navigation_Text_Level1\" href=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ class=\"MainMenu_Navigation_Level1\"><a\\ class=\"MainMenu_Navigation_Text_Level1\"\\ href=\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

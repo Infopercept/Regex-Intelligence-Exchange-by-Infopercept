@@ -4,6 +4,7 @@
   "product": "Barracuda-Waf",
   "product_id": "barracuda-waf",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<div style=\"border: 3px solid #4991C5; font:1.5em; font-family:tahoma,calibri,arial; font-weight:bold; color:#0A4369; padding:5px; margin:10px; text-align:center\"> The requested service is temporarily unavailable. It is either overloaded or under maintenance. Please try later.</div><!--01234567890123456789",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ style=\"border:\\ 3px\\ solid\\ \\#4991C5;\\ font:1\\.5em;\\ font\\-family:tahoma,calibri,arial;\\ font\\-weight:bold;\\ color:\\#0A4369;\\ padding:5px;\\ margin:10px;\\ text\\-align:center\">\\ The\\ requested\\ service\\ is\\ temporarily\\ unavailable\\.\\ It\\ is\\ either\\ overloaded\\ or\\ under\\ maintenance\\.\\ Please\\ try\\ later\\.</div><!\\-\\-01234567890123456789",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

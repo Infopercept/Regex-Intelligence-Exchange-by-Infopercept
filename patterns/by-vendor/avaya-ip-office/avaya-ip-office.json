@@ -4,6 +4,7 @@
   "product": "Avaya-IP-Office",
   "product_id": "avaya-ip-office",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<html><head><title>IP Office System Status</title><style",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html><head><title>IP\\ Office\\ System\\ Status</title><style",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^IPOffice/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^IPOffice/([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

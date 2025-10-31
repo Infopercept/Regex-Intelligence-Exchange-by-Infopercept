@@ -4,6 +4,7 @@
   "product": "Microsoft-Windows-Business-Server",
   "product_id": "microsoft-windows-business-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Welcome to Windows Small Business Server 2003</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Welcome\\ to\\ Windows\\ Small\\ Business\\ Server\\ 2003</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title>Welcome to Windows Small Business Server 2008</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Welcome\\ to\\ Windows\\ Small\\ Business\\ Server\\ 2008</title>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<TD id=\"Remote_Link\" class=\"linkHeader\"><A HREF=\"/Remote\">Remote Web Workplace</A></TD>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TD\\ id=\"Remote_Link\"\\ class=\"linkHeader\"><A\\ HREF=\"/Remote\">Remote\\ Web\\ Workplace</A></TD>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<IMG alt=\"\" src=\"images/sbslogo.gif\" border=\"0\" width=\"200\" height=\"55\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<IMG\\ alt=\"\"\\ src=\"images/sbslogo\\.gif\"\\ border=\"0\"\\ width=\"200\"\\ height=\"55\">",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "</title><link href=\"signinStyle.css\" rel=\"stylesheet\" type=\"text/css\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "</title><link\\ href=\"signinStyle\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ />",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<form name=\"form1\" method=\"post\" action=\"logon.aspx?ReturnUrl=%2f[^\"]\" id=\"form1\" autocomplete=\"OFF\" onsubmit=\"OnUserNameFocus();\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form name=\"form1\" method=\"post\" action=\"logon\\.aspx\\?ReturnUrl=%2f[^\"]\" id=\"form1\" autocomplete=\"OFF\" onsubmit=\"OnUserNameFocus\\(\\);\">",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "<input id=\"rememberMe\" type=\"checkbox\" name=\"rememberMe\" tabindex=\"3\" /><label for=\"rememberMe\">Remember me on this computer</label>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ id=\"rememberMe\"\\ type=\"checkbox\"\\ name=\"rememberMe\"\\ tabindex=\"3\"\\ /><label\\ for=\"rememberMe\">Remember\\ me\\ on\\ this\\ computer</label>",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "<meta name=\"copyright\" content=\"Copyright (c) Microsoft Corporation.  All rights reserved.\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"copyright\"\\ content=\"Copyright\\ \\(c\\)\\ Microsoft\\ Corporation\\.\\ \\ All\\ rights\\ reserved\\.\"\\ />",
       "version_group": 0
@@ -208,11 +217,11 @@
             "input": "<head id=\"Head1\"><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<head\\ id=\"Head1\"><meta\\ http\\-equiv=\"Content\\-Type\"\\ content=\"text/html;\\ charset=utf\\-8\"\\ /><title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

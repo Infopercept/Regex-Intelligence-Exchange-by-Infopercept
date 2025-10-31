@@ -4,6 +4,7 @@
   "product": "Epic-Web-Honeypot",
   "product_id": "epic-web-honeypot",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<center><font size=\"3\" face=\"monospace\">******************************** Epic Web Honeypot ********************************</font></center>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<center><font\\ size=\"3\"\\ face=\"monospace\">\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\ Epic\\ Web\\ Honeypot\\ \\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*</font></center>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!-- Added OS fingerprints - creds - nmap and honeyd nmap.prints file!-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Added\\ OS\\ fingerprints\\ \\-\\ creds\\ \\-\\ nmap\\ and\\ honeyd\\ nmap\\.prints\\ file!\\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

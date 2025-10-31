@@ -4,6 +4,7 @@
   "product": "APC-UPS-Management-Card",
   "product_id": "apc-ups-management-card",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<td class=\"apclogo\"><a href=\"http://www.apc.com\"><img src=\"images/smapc.gif\" alt=\"APC Website\" width=\"59\" height=\"17\" border=\"0\" align=\"top\" /></a>&nbsp;&nbsp;</td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ class=\"apclogo\"><a\\ href=\"http://www\\.apc\\.com\"><img\\ src=\"images/smapc\\.gif\"\\ alt=\"APC\\ Website\"\\ width=\"59\"\\ height=\"17\"\\ border=\"0\"\\ align=\"top\"\\ /></a>\\&nbsp;\\&nbsp;</td>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<td>This object on the&nbsp;APC Management Web Server&nbsp;is protected and requires a secure socket connection.<br /><br /><br /><br /><A HREF=\"https://",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td>This\\ object\\ on\\ the\\&nbsp;APC\\ Management\\ Web\\ Server\\&nbsp;is\\ protected\\ and\\ requires\\ a\\ secure\\ socket\\ connection\\.<br\\ /><br\\ /><br\\ /><br\\ /><A\\ HREF=\"https://",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "^Basic realm=\"APC Management Card\"$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Basic realm=\"APC Management Card\"$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

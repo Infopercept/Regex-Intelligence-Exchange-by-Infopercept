@@ -4,6 +4,7 @@
   "product": "LuCI",
   "product_id": "luci",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a style=\"color: white; text-decoration: none\" href=\"/cgi-bin/luci\">LuCI - Lua Configuration Interface</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ style=\"color:\\ white;\\ text\\-decoration:\\ none\"\\ href=\"/cgi\\-bin/luci\">LuCI\\ \\-\\ Lua\\ Configuration\\ Interface</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"/luci-static/openwrt.org/cascade.css\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ media=\"screen\"\\ href=\"/luci\\-static/openwrt\\.org/cascade\\.css\"\\ />",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<li><a href=\"/cgi-bin/luci/admin/\">Administration</a></li>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<li><a\\ href=\"/cgi\\-bin/luci/admin/\">Administration</a></li>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

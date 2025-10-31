@@ -4,6 +4,7 @@
   "product": "TutorTrac",
   "product_id": "tutortrac",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<TITLE>TutorTrac Learning Center Tracking Software</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>TutorTrac\\ Learning\\ Center\\ Tracking\\ Software</TITLE>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<meta name=\"keywords\" content=\"tutor,software,scheduling,learning,center,tutoring,assistant,assistance,education,accutrack,tutorial,community,college,university\"><meta name=\"description\" content=\"Web Based Tutor/Learning Center Management/Scheduling Software\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"keywords\"\\ content=\"tutor,software,scheduling,learning,center,tutoring,assistant,assistance,education,accutrack,tutorial,community,college,university\"><meta\\ name=\"description\"\\ content=\"Web\\ Based\\ Tutor/Learning\\ Center\\ Management/Scheduling\\ Software\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "PHP-CSL",
   "product_id": "php-csl",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"description\" content=\"PHP Code Snippet Library stores all your code for you for easy access, runs on any PHP platform and does not require a database... easy to install and full of features.\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"description\"\\ content=\"PHP\\ Code\\ Snippet\\ Library\\ stores\\ all\\ your\\ code\\ for\\ you\\ for\\ easy\\ access,\\ runs\\ on\\ any\\ PHP\\ platform\\ and\\ does\\ not\\ require\\ a\\ database\\.\\.\\.\\ easy\\ to\\ install\\ and\\ full\\ of\\ features\\.\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!-- Please note the credit message below is required if you want support -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Please\\ note\\ the\\ credit\\ message\\ below\\ is\\ required\\ if\\ you\\ want\\ support\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "MySqlDumper",
   "product_id": "mysqldumper",
   "category": "database",
+  "subcategory": "database-engine",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<select class=\"SQLCombo\" name=\"tablecombo\" onchange=\"this.form.sqltextarea.value=this.options[this.selectedIndex].value;this.form.execsql.click();\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<select\\ class=\"SQLCombo\"\\ name=\"tablecombo\"\\ onchange=\"this\\.form\\.sqltextarea\\.value=this\\.options\\[this\\.selectedIndex\\]\\.value;this\\.form\\.execsql\\.click\\(\\);\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "align=\"center\">The execution of SQL Statements can manipulate data. TAKE CARE! The Authors don\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "align=\"center\">The\\ execution\\ of\\ SQL\\ Statements\\ can\\ manipulate\\ data\\.\\ TAKE\\ CARE!\\ The\\ Authors\\ don\\\\",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<a title=\"Select Database / Datebase functions / Import - Export \" href=\"sql.php?db=&amp;dbid=0&amp;context=3",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ title=\"Select\\ Database\\ /\\ Datebase\\ functions\\ /\\ Import\\ \\-\\ Export\\ \"\\ href=\"sql\\.php\\?db=\\&amp;dbid=0\\&amp;context=3",
       "version_group": 0
     }
-  ],
-  "subcategory": "database-engine"
+  ]
 }

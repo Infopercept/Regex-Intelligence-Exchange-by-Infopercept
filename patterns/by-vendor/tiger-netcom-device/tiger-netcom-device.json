@@ -4,6 +4,7 @@
   "product": "Tiger-Netcom-Device",
   "product_id": "tiger-netcom-device",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^TigerNetCom",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^TigerNetCom",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^TigerNetCom/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^TigerNetCom/([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

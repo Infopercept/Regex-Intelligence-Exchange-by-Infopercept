@@ -4,6 +4,7 @@
   "product": "Cyberoam-Appliance",
   "product_id": "cyberoam-appliance",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<td align=\"right\" class=\"arial12whitebold\">Log on to:&nbsp; </td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ align=\"right\"\\ class=\"arial12whitebold\">Log\\ on\\ to:\\&nbsp;\\ </td>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<INPUT TYPE=HIDDEN NAME=\"js_autodetect_results\" VALUE=\"SMPREF_JS_OFF\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<INPUT\\ TYPE=HIDDEN\\ NAME=\"js_autodetect_results\"\\ VALUE=\"SMPREF_JS_OFF\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<noscript><font class=\"arial12whitebold\">JavaScript must be enabled in order for you to use cyberoam admin console.</font></noscript><br>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<noscript><font\\ class=\"arial12whitebold\">JavaScript\\ must\\ be\\ enabled\\ in\\ order\\ for\\ you\\ to\\ use\\ cyberoam\\ admin\\ console\\.</font></noscript><br>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<!-- PUT THE LOGIC OF YOUR PAGE HERE -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ PUT\\ THE\\ LOGIC\\ OF\\ YOUR\\ PAGE\\ HERE\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

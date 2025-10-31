@@ -4,6 +4,7 @@
   "product": "Brother-Printer",
   "product_id": "brother-printer",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<FRAME SRC=\"/printer/inc_head.html\" NAME=\"header\" NORESIZE SCROLLING=\"no\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<FRAME\\ SRC=\"/printer/inc_head\\.html\"\\ NAME=\"header\"\\ NORESIZE\\ SCROLLING=\"no\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<IMG src=\"/common/image/HL4040CN.gif\" border=0>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<IMG\\ src=\"/common/image/HL4040CN\\.gif\"\\ border=0>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<IMG src=\"/common/image/HL4040CDN.gif\" border=0>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<IMG\\ src=\"/common/image/HL4040CDN\\.gif\"\\ border=0>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<IMG src=\"/common/image/HL4050CDN.gif\" border=0>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<IMG\\ src=\"/common/image/HL4050CDN\\.gif\"\\ border=0>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<IMG src=\"/common/image/HL4070CDW.gif\" border=0>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<IMG\\ src=\"/common/image/HL4070CDW\\.gif\"\\ border=0>",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "Server: ^[Dd]ebut/8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^[Dd]ebut/([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

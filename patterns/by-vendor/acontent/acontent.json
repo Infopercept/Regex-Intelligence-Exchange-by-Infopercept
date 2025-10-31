@@ -4,6 +4,7 @@
   "product": "AContent",
   "product_id": "acontent",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>AContent: Learning Content Repository:",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>AContent:\\ Learning\\ Content\\ Repository:",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<dt><span class=\"required\" title=\"Required Field\">*</span><label for=\"login\">Login Name or Email</label></dt>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<dt><span\\ class=\"required\"\\ title=\"Required\\ Field\">\\*</span><label\\ for=\"login\">Login\\ Name\\ or\\ Email</label></dt>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

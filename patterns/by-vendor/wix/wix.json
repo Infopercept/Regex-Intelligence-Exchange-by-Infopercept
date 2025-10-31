@@ -4,6 +4,7 @@
   "product": "Wix",
   "product_id": "wix",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "_wixAB3",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "_wixAB3",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "^hss",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^hs\\s",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "svSession",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "svSession",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

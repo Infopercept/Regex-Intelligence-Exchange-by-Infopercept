@@ -4,6 +4,7 @@
   "product": "DotA-OpenStats",
   "product_id": "dota-openstats",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"generator\" content=\"dota OpenStats\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"dota\\ OpenStats\"\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"copyright\" content=\"openstats.iz.rs\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"copyright\"\\ content=\"openstats\\.iz\\.rs\"\\ />",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<img alt='' width='16' height='16' style='vertical-align:middle' src='./style/dota/img/logo.png' />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ alt=''\\ width='16'\\ height='16'\\ style='vertical\\-align:middle'\\ src='\\./style/dota/img/logo\\.png'\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

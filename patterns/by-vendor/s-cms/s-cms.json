@@ -4,6 +4,7 @@
   "product": "S-CMS",
   "product_id": "s-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<p class=\"alignRight\">Powered by S:CMS - Copyright ©",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ class=\"alignRight\">Powered\\ by\\ S:CMS\\ \\-\\ Copyright\\ ©",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title>SCMS</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>SCMS</title>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<!-- Inizio righe di indicizzazione nei motori di ricerca -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Inizio\\ righe\\ di\\ indicizzazione\\ nei\\ motori\\ di\\ ricerca\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

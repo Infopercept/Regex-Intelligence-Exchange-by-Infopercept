@@ -4,6 +4,7 @@
   "product": "nginx",
   "product_id": "nginx",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -21,10 +22,24 @@
         ],
         "test_cases": [
           {
-            "input": "^nginx$",
+            "input": "nginx",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "references": [
+          {
+            "title": "nginx Documentation",
+            "url": "https://nginx.org/en/docs/"
+          }
+        ],
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep nginx updated to the latest stable version",
+        "compiled_pattern": true
       },
       "pattern": "^nginx$",
       "version_group": 0
@@ -44,14 +59,27 @@
         ],
         "test_cases": [
           {
-            "input": "Server: ^nginx/([^\\s]+).*$",
-            "expected_version": "8.5"
+            "input": "Server: nginx/1.18.0",
+            "expected_version": "1.18.0"
           }
-        ]
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "references": [
+          {
+            "title": "nginx Documentation",
+            "url": "https://nginx.org/en/docs/"
+          }
+        ],
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep nginx updated to the latest stable version",
+        "compiled_pattern": true
       },
-      "pattern": "Server: ^nginx/([^\\s]+).*$",
+      "pattern": "Server: nginx/([^\\s]+).*$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

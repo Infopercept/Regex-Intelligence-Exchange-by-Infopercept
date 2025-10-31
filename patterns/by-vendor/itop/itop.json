@@ -4,6 +4,7 @@
   "product": "iTop",
   "product_id": "itop",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<p><b>Error</b>: Unable to read the configuration file: 'config-itop.php'. Please check the access rights on this file.</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p><b>Error</b>:\\ Unable\\ to\\ read\\ the\\ configuration\\ file:\\ 'config\\-itop\\.php'\\.\\ Please\\ check\\ the\\ access\\ rights\\ on\\ this\\ file\\.</p>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<p><b>Security Warning</b>: the configuration file 'config-itop.php' should be read-only.</p><p>Please modify the access rights to this file.</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p><b>Security\\ Warning</b>:\\ the\\ configuration\\ file\\ 'config\\-itop\\.php'\\ should\\ be\\ read\\-only\\.</p><p>Please\\ modify\\ the\\ access\\ rights\\ to\\ this\\ file\\.</p>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<title>iTop Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>iTop\\ Login</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

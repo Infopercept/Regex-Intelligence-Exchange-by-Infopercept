@@ -4,6 +4,7 @@
   "product": "Web2",
   "product_id": "web2",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Web/2 ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Web/2 ",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^Web/2 v([^\\r^\\n]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Web/2 v([^\\r^\\n]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

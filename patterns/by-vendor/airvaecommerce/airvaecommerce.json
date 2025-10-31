@@ -4,6 +4,7 @@
   "product": "AirvaeCommerce",
   "product_id": "airvaecommerce",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<link href=\"imgs/store.css\" rel=\"stylesheet\" media=\"screen\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ href=\"imgs/store\\.css\"\\ rel=\"stylesheet\"\\ media=\"screen\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<link href=\"/conf/minify/f=imgs/store.css&142\" rel=\"stylesheet\" media=\"screen\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ href=\"/conf/minify/f=imgs/store\\.css\\&142\"\\ rel=\"stylesheet\"\\ media=\"screen\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "RackCorp-CDN",
   "product_id": "rackcorp-cdn",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^[s]*rackcorpcdn",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^[\\s]*rackcorpcdn",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

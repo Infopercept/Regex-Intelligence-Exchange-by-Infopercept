@@ -4,6 +4,7 @@
   "product": "Apache-Cocoon",
   "product_id": "apache-cocoon",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "x-cocoon-version: ^(.*)$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-cocoon-version: ^(.*)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

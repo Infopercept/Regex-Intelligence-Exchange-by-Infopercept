@@ -4,6 +4,7 @@
   "product": "Kerio-WebSTAR",
   "product_id": "kerio-webstar",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^(Kerio_|WebSTAR|4D_WebStar)",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^(Kerio_|WebSTAR|4D_WebStar)",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Server: ^WebSTAR/([^\\s^\\(]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^WebSTAR/([^\\s^\\(]+)",
       "version_group": 1
@@ -70,7 +73,8 @@
             "input": "Server: ^Kerio_WebSTAR/([^\\s^\\(]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Kerio_WebSTAR/([^\\s^\\(]+)",
       "version_group": 1
@@ -93,7 +97,8 @@
             "input": "Server: ^WebSTAR ([\\d\\.]+ .+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^WebSTAR ([\\d\\.]+ .+)$",
       "version_group": 1
@@ -116,11 +121,11 @@
             "input": "Server: ^4D_WebStar_[A-Z]/8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^4D_WebStar_[A-Z]/([\\d\\.]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

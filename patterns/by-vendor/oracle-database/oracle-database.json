@@ -4,6 +4,7 @@
   "product": "Oracle-Database",
   "product_id": "oracle-database",
   "category": "database",
+  "subcategory": "database-engine",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^Oracle XML DB/Oracle Database$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Oracle XML DB/Oracle Database$",
       "version_group": 0
     }
-  ],
-  "subcategory": "database-engine"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Prediction-Football",
   "product_id": "prediction-football",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- Show the different leagues -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Show\\ the\\ different\\ leagues\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- Show the league ID if there is more than one. -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Show\\ the\\ league\\ ID\\ if\\ there\\ is\\ more\\ than\\ one\\.\\ \\-\\->",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<!-- The display of powered by prediction football must not be removed without explicit permission.[s]+Unauthorized removal or modification of the powered by prediction football will require that[s]+the associated payment is made. -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!-- The display of powered by prediction football must not be removed without explicit permission\\.[\\s]+Unauthorized removal or modification of the powered by prediction football will require that[\\s]+the associated payment is made\\. -->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

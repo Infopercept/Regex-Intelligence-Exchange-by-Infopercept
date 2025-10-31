@@ -4,6 +4,7 @@
   "product": "VTS",
   "product_id": "vts",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<html>rn<head>rn<title>Error Message</title>rn<link rel=\"stylesheet\" href=\"/VTS.css\">rnrn</head>rn<body class=error>rn<h1>Error Message</h1>rn<p>Error Code 401.rn<p>Message: Unauthorized.rn<p>Description: 401 = No permission -- see authorization schemes.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html>\\r\\n<head>\\r\\n<title>Error Message</title>\\r\\n<link rel=\"stylesheet\" href=\"/VTS.css\">\\r\\n\\r\\n</head>\\r\\n<body class=error>\\r\\n<h1>Error Message</h1>\\r\\n<p>Error Code 401.\\r\\n<p>Message: Unauthorized.\\r\\n<p>Description: 401 = No permission -- see authorization schemes.",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "VTS ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "VTS ",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "Server: VTS 8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: VTS ([\\d\\.]+)",
       "version_group": 1
@@ -93,11 +97,11 @@
             "input": "set-cookie: ^VTS=1.0",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "set-cookie: ^VTS=([\\d\\.]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

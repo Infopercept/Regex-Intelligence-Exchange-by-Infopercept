@@ -4,6 +4,7 @@
   "product": "phpRemoteView",
   "product_id": "phpremoteview",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "'><font face=fixedsys size=+2>*</font></a><font size=5><b>Index of</b></font>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "'><font\\ face=fixedsys\\ size=\\+2>\\*</font></a><font\\ size=5><b>Index\\ of</b></font>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "MySource-Matrix",
   "product_id": "mysource-matrix",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<p class=\"right\">Powered by <a href=\"http://www.squiz.co.uk/mysource_matrix\" target=\"_blank\">MySource Matrix</a></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ class=\"right\">Powered\\ by\\ <a\\ href=\"http://www\\.squiz\\.co\\.uk/mysource_matrix\"\\ target=\"_blank\">MySource\\ Matrix</a></p>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "class=\"squiz\">Powered by MySource Matrix - a Squiz.net initiative</a> </div>  </div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "class=\"squiz\">Powered\\ by\\ MySource\\ Matrix\\ \\-\\ a\\ Squiz\\.net\\ initiative</a>\\ </div>\\ \\ </div>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<p>Powered By MySource Matrix - A Squiz.net  Initiative</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p>Powered\\ By\\ MySource\\ Matrix\\ \\-\\ A\\ Squiz\\.net\\ \\ Initiative</p>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "  MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ MySource,\\ MySource\\ Matrix\\ and\\ Squiz\\.net\\ are\\ registered\\ Trademarks\\ of\\ Squiz\\ Pty\\ Ltd",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

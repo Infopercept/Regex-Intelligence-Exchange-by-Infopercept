@@ -4,6 +4,7 @@
   "product": "Safedog",
   "product_id": "safedog",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Safedog",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Safedog",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "safedog-flow-item=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "safedog\\-flow\\-item=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

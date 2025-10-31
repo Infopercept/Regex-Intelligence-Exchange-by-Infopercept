@@ -4,6 +4,7 @@
   "product": "webSPELL",
   "product_id": "webspell",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"generator\" content=\"webSPELL\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"webSPELL\"\\ />",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "ws_session=[a-zd]+;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "ws_session=[a-z\\d]+;",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

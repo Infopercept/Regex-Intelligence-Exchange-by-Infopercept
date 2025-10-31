@@ -4,6 +4,7 @@
   "product": "IB-Lite",
   "product_id": "ib-lite",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<tr class=\"w_r\"><td class=\"w_n\">Access code</td><td width=\"140\" class=\"w_v\"><input id=\"psw_id\" type=\"password\" maxLength=\"15\" size=\"20\" name=\"q\" value=\"\"></td></tr>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr\\ class=\"w_r\"><td\\ class=\"w_n\">Access\\ code</td><td\\ width=\"140\"\\ class=\"w_v\"><input\\ id=\"psw_id\"\\ type=\"password\"\\ maxLength=\"15\"\\ size=\"20\"\\ name=\"q\"\\ value=\"\"></td></tr>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

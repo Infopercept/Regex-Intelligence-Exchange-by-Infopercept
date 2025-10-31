@@ -4,6 +4,7 @@
   "product": "EPiServer",
   "product_id": "episerver",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\\\\",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- EPiServer -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ EPiServer\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "src=\"/Util/javascript/episerverscriptmanager.js\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "src=\"/Util/javascript/episerverscriptmanager\\.js\"",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<h1>Log in to EPiServer CMS 6",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h1>Log\\ in\\ to\\ EPiServer\\ CMS\\ 6",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

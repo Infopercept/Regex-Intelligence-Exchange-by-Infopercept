@@ -4,6 +4,7 @@
   "product": "NSFocus",
   "product_id": "nsfocus",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^NSFocus",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^NSFocus",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^NSFocus/([^\\s]+) \\( NSFOCUS \\)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^NSFocus/([^\\s]+) \\( NSFOCUS \\)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

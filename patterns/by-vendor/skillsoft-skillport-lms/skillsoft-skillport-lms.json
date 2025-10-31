@@ -4,6 +4,7 @@
   "product": "Skillsoft-Skillport-LMS",
   "product_id": "skillsoft-skillport-lms",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a href=\"javascript:void(0);showContextSpecificHelp(\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"javascript:void\\(0\\);showContextSpecificHelp\\(\\\\",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<div id=\"poweredbylogo\">s+<img src =\"/skillportfe/resources/default/images/poweredby.gif\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div id=\"poweredbylogo\">\\s+<img src =\"/skillportfe/resources/default/images/poweredby\\.gif\" />",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "SP[5-7]dFE=d+.d+.d+",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "SP[5-7]\\dFE=\\d+\\.\\d+\\.\\d+",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

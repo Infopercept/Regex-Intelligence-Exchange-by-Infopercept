@@ -4,6 +4,7 @@
   "product": "Pro-Chat-Rooms",
   "product_id": "pro-chat-rooms",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Pro Chat Rooms</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Pro\\ Chat\\ Rooms</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<tr id=\"doPasswordBox\"><td>Password:</td><td><input type=\"password\" name=\"password\" id=\"password\" value=\"\" onblur=\"def(\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr\\ id=\"doPasswordBox\"><td>Password:</td><td><input\\ type=\"password\"\\ name=\"password\"\\ id=\"password\"\\ value=\"\"\\ onblur=\"def\\(\\\\",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "\tshowError(\"char_error\", \"Sorry, Username is already registered.\");",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\tshowError\\(\"char_error\",\\ \"Sorry,\\ Username\\ is\\ already\\ registered\\.\"\\);",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

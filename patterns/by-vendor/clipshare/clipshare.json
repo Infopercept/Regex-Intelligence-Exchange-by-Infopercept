@@ -4,6 +4,7 @@
   "product": "ClipShare",
   "product_id": "clipshare",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!--!!!!!!!!!!!!!!!!!!!!!!!!! Processing SCRIPT !!!!!!!!!!!!!!!!!!!-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-!!!!!!!!!!!!!!!!!!!!!!!!!\\ Processing\\ SCRIPT\\ !!!!!!!!!!!!!!!!!!!\\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!--!!!!!!!!!!!!!!!!!!!!!!!! LIBRARY !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-!!!!!!!!!!!!!!!!!!!!!!!!\\ LIBRARY\\ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\\-\\->",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "Powered By <a href=\"http://www.clip-share.com\">ClipShare</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.clip\\-share\\.com\">ClipShare</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

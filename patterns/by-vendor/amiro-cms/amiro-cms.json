@@ -4,6 +4,7 @@
   "product": "Amiro-CMS",
   "product_id": "amiro-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a href='http://www.amirocms.com' target=_blank>Powered by: Amiro CMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href='http://www\\.amirocms\\.com'\\ target=_blank>Powered\\ by:\\ Amiro\\ CMS</a>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<a href=\"http://www.amirocms.com/\" target=_blank><FONT size=1><B>Powered by: Amiro CMS</B></FONT></A>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.amirocms\\.com/\"\\ target=_blank><FONT\\ size=1><B>Powered\\ by:\\ Amiro\\ CMS</B></FONT></A>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

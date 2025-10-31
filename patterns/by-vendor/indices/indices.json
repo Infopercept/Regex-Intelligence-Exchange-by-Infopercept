@@ -4,6 +4,7 @@
   "product": "Indices",
   "product_id": "indices",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<!--[s]+Pleasant Apache directory listings courtesy of Indices:[s]+http://antisleep.com/software/indices[s]+-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!--[\\s]+Pleasant Apache directory listings courtesy of Indices:[\\s]+http://antisleep\\.com/software/indices[\\s]+-->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

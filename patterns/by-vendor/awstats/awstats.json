@@ -4,6 +4,7 @@
   "product": "AWStats",
   "product_id": "awstats",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a href=\"http://awstats.sourceforge.net\" target=\"_newawstats\">Created by awstats</a><br>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://awstats\\.sourceforge\\.net\"\\ target=\"_newawstats\">Created\\ by\\ awstats</a><br>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta http-equiv=\"description\" content=\"Awstats - Advanced Web Statistics for",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ http\\-equiv=\"description\"\\ content=\"Awstats\\ \\-\\ Advanced\\ Web\\ Statistics\\ for",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<a href=\"http://awstats.sourceforge.net\" target=\"_newawstats\"><img src=\"/icon/other/awstats_logo1.png\" border=0 alt=\"awstats Official Web Site\" title=\"awstats Official Web Site\"></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://awstats\\.sourceforge\\.net\"\\ target=\"_newawstats\"><img\\ src=\"/icon/other/awstats_logo1\\.png\"\\ border=0\\ alt=\"awstats\\ Official\\ Web\\ Site\"\\ title=\"awstats\\ Official\\ Web\\ Site\"></a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

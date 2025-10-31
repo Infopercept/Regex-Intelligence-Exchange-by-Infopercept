@@ -4,6 +4,7 @@
   "product": "Akiva-WebBoard",
   "product_id": "akiva-webboard",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- --- AKIVA COPYRIGHT NOTICE --- -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ \\-\\-\\-\\ AKIVA\\ COPYRIGHT\\ NOTICE\\ \\-\\-\\-\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- Under the terms of the WebBoard License Agreement -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Under\\ the\\ terms\\ of\\ the\\ WebBoard\\ License\\ Agreement\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!-- wbmain 8/22/2005 11:11AM -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ wbmain\\ 8/22/2005\\ 11:11AM\\ \\-\\->",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<img src=\"images/branding-bottom.gif\" width=\"46\" height=\"44\" alt=\"Powered by WebBoard\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"images/branding\\-bottom\\.gif\"\\ width=\"46\"\\ height=\"44\"\\ alt=\"Powered\\ by\\ WebBoard\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

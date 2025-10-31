@@ -4,6 +4,7 @@
   "product": "dwr",
   "product_id": "dwr",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "/dwr/engine.js\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/dwr/engine\\.js\\\\",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "/dwr/engine.js\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/dwr/engine\\.js\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

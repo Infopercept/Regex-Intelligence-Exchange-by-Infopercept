@@ -4,6 +4,7 @@
   "product": "AChecker",
   "product_id": "achecker",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<title>AChecker : ATRC Accessibility Checker: </title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>AChecker\\ :\\ ATRC\\ Accessibility\\ Checker:\\ </title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

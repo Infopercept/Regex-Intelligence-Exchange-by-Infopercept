@@ -4,6 +4,7 @@
   "product": "EMC-Documentum-Webtop",
   "product_id": "emc-documentum-webtop",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<body  marginwidth='0' topmargin='40' bottommargin='0' class='contentBackground' leftmargin='0' rightmargin='0' marginheight='40'>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ \\ marginwidth='0'\\ topmargin='40'\\ bottommargin='0'\\ class='contentBackground'\\ leftmargin='0'\\ rightmargin='0'\\ marginheight='40'>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<select name='Login_docbase_0' id='DocbaseName' title=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<select\\ name='Login_docbase_0'\\ id='DocbaseName'\\ title=\\\\",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<td scope=\"row\" align=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ scope=\"row\"\\ align=\\\\",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<td nowrap class=\"logintitletext\" height=\"23\" valign=\"top\"><span  class=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ nowrap\\ class=\"logintitletext\"\\ height=\"23\"\\ valign=\"top\"><span\\ \\ class=\\\\",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<script type=\"text/javascript\">var g_virtualRoot = \"/webtop\";</script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ type=\"text/javascript\">var\\ g_virtualRoot\\ =\\ \"/webtop\";</script>",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<td><input type='text' name='MyLogin_username_0' id='LoginUsername' title=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><input\\ type='text'\\ name='MyLogin_username_0'\\ id='LoginUsername'\\ title=\\\\",
       "version_group": 0
@@ -162,11 +169,11 @@
             "input": "<script type=\"text/javascript\" src='/webtop/index.js'></script>[s]+</head>[s]+<body onload='doRedirect(\"/component/main\")'>[s]+</body>[s]+</html>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script type=\"text/javascript\" src='/webtop/index\\.js'></script>[\\s]+</head>[\\s]+<body onload='doRedirect\\(\"/component/main\"\\)'>[\\s]+</body>[\\s]+</html>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

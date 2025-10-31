@@ -4,6 +4,7 @@
   "product": "CitrusDB",
   "product_id": "citrusdb",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<INPUT TYPE=\"SUBMIT\" NAME=\"submit\" VALUE=\"Login\"  onclick=\"password.value = calcMD5(password.value)\" class=smallbutton>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<INPUT\\ TYPE=\"SUBMIT\"\\ NAME=\"submit\"\\ VALUE=\"Login\"\\ \\ onclick=\"password\\.value\\ =\\ calcMD5\\(password\\.value\\)\"\\ class=smallbutton>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<center><table><td valign=top><img src=\"images/my-logo.png\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<center><table><td\\ valign=top><img\\ src=\"images/my\\-logo\\.png\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

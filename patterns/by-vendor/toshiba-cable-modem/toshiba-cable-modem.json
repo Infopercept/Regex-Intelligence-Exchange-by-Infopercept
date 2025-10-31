@@ -4,6 +4,7 @@
   "product": "Toshiba-Cable-Modem",
   "product_id": "toshiba-cable-modem",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<TITLE>Toshiba Cable Modem PCX3000</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>Toshiba\\ Cable\\ Modem\\ PCX3000</TITLE>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<BR><FONT color=navy size=5>Toshiba Cable Modem Diagnostics Page &nbsp;</FONT>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<BR><FONT\\ color=navy\\ size=5>Toshiba\\ Cable\\ Modem\\ Diagnostics\\ Page\\ \\&nbsp;</FONT>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

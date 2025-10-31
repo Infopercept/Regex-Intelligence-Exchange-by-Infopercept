@@ -4,6 +4,7 @@
   "product": "iHTML",
   "product_id": "ihtml",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: \\(Using iHTML/([^\\)^\\s]+)\\)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server:  \\(Using iHTML/([^\\)^\\s]+)\\)",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "x-powered-by: ^iHTML/([^\\s]+)$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-powered-by: ^iHTML/([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Panasonic-Network-Camera",
   "product_id": "panasonic-network-camera",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<HEAD><TITLE>WJ-NT104 MAIN PAGE</TITLE></HEAD>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<HEAD><TITLE>WJ\\-NT104\\ MAIN\\ PAGE</TITLE></HEAD>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "      <FONT FACE=\"Arial\" STYLE=\"font-size: 24px\" COLOR=\"#ffffff\"><B>Network Camera</B></FONT>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ \\ \\ <FONT\\ FACE=\"Arial\"\\ STYLE=\"font\\-size:\\ 24px\"\\ COLOR=\"\\#ffffff\"><B>Network\\ Camera</B></FONT>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<BODY BACKGROUND=\"image/Hcm1[0]?.gif\" \t\t[t]?BGCOLOR=\"#efefef\" TEXT=\"#000000\" LINK=\"#000000\" \t\t\tVLINK=\"#000000\" ALINK=\"#000000\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<BODY BACKGROUND=\"image/Hcm1[0]?\\.gif\" \t\t[\\t]?BGCOLOR=\"#efefef\" TEXT=\"#000000\" LINK=\"#000000\" \t\t\tVLINK=\"#000000\" ALINK=\"#000000\">",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<FRAME name=bar src=\"CgiTagMenu?page=[^&]+&Language=[d]+\" scrolling=no NORESIZE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<FRAME name=bar src=\"CgiTagMenu\\?page=[^&]+&Language=[\\d]+\" scrolling=no NORESIZE>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<META name=\"copyright\" content=\"Copyright (C) 2003 Matsushita Electric Industrial Co., Ltd. All rights reserved.\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<META\\ name=\"copyright\"\\ content=\"Copyright\\ \\(C\\)\\ 2003\\ Matsushita\\ Electric\\ Industrial\\ Co\\.,\\ Ltd\\.\\ All\\ rights\\ reserved\\.\">",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<TITLE>Digital Disk Recorder WJ-HD220 CONTROL MAIN PAGE</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>Digital\\ Disk\\ Recorder\\ WJ\\-HD220\\ CONTROL\\ MAIN\\ PAGE</TITLE>",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "<TITLE>WJ-HD200 DigitalDiskRecorder CONTROL MAIN PAGE</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>WJ\\-HD200\\ DigitalDiskRecorder\\ CONTROL\\ MAIN\\ PAGE</TITLE>",
       "version_group": 0
@@ -185,11 +193,11 @@
             "input": "window.location.replace(\"/view/idconv.cgi?UID=%i&FILE=/hdrindex.html&PAGE=\"+myDate.getTime());",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "window\\.location\\.replace\\(\"/view/idconv\\.cgi\\?UID=%i\\&FILE=/hdrindex\\.html\\&PAGE=\"\\+myDate\\.getTime\\(\\)\\);",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Jive-SBS",
   "product_id": "jive-sbs",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a href=\"#jive-body-full\" class=\"jive-skip-nav\">Skip navigation</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"\\#jive\\-body\\-full\"\\ class=\"jive\\-skip\\-nav\">Skip\\ navigation</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<body class=\"jive-body-formpage jive-body-formpage-login\" >",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ class=\"jive\\-body\\-formpage\\ jive\\-body\\-formpage\\-login\"\\ >",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": " * This software is the proprietary information of Jive Software. Use is subject to license terms.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\*\\ This\\ software\\ is\\ the\\ proprietary\\ information\\ of\\ Jive\\ Software\\.\\ Use\\ is\\ subject\\ to\\ license\\ terms\\.",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "^D=[d]+ t=[d]+$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^D=[\\d]+ t=[\\d]+$",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "^[d]+$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^[\\d]+$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

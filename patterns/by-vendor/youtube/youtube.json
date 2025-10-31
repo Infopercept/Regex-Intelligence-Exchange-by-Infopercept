@@ -4,6 +4,7 @@
   "product": "YouTube",
   "product_id": "youtube",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<(param|embed) [^>]*youtube.com/v",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<(param|embed) [^>]*youtube\\.com/v",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<iframe class=\"youtube-player\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<iframe\\ class=\"youtube\\-player\"",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<iframe [^>]*src=['\"]https?://(www.)?youtube.com/embed/",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<iframe [^>]*src=['\"]https?://(www\\.)?youtube\\.com/embed/",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

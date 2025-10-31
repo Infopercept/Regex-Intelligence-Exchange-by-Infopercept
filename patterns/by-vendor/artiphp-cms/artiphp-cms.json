@@ -4,6 +4,7 @@
   "product": "Artiphp-CMS",
   "product_id": "artiphp-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!--  fin ArtiMenu horizontal -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ \\ fin\\ ArtiMenu\\ horizontal\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!--  Fin ArtiMenu horizontal -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ \\ Fin\\ ArtiMenu\\ horizontal\\ \\-\\->",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<!-- copyright Artiphp, merci de respecter notre travail en laissant notre signature -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ copyright\\ Artiphp,\\ merci\\ de\\ respecter\\ notre\\ travail\\ en\\ laissant\\ notre\\ signature\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

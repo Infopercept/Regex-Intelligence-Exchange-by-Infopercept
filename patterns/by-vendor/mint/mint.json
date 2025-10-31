@@ -4,6 +4,7 @@
   "product": "Mint",
   "product_id": "mint",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<script [^>]*src=[\"'][^>]*mint/?js",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script [^>]*src=[\"'][^>]*mint/\\?js",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

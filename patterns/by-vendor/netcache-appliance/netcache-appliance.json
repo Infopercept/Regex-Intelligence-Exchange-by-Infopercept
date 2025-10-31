@@ -4,6 +4,7 @@
   "product": "NetCache-Appliance",
   "product_id": "netcache-appliance",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: ^NetCache appliance \\(NetApp/([^\\)]+)\\)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^NetCache appliance \\(NetApp/([^\\)]+)\\)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

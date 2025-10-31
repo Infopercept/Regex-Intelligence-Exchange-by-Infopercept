@@ -4,6 +4,7 @@
   "product": "Spiceworks",
   "product_id": "spiceworks",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"author\" content=\"Spiceworks, Inc.\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"Spiceworks,\\ Inc\\.\"\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<p>Spiceworks is compatible with <a href=\"http://community.spiceworks.com/help/Spiceworks_Requirements#Browser\">modern browsers</a>, and requires JavaScript, Cookies, and Stylesheets (CSS) to function correctly.</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p>Spiceworks\\ is\\ compatible\\ with\\ <a\\ href=\"http://community\\.spiceworks\\.com/help/Spiceworks_Requirements\\#Browser\">modern\\ browsers</a>,\\ and\\ requires\\ JavaScript,\\ Cookies,\\ and\\ Stylesheets\\ \\(CSS\\)\\ to\\ function\\ correctly\\.</p>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<title>Spiceworks - Login Required</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Spiceworks\\ \\-\\ Login\\ Required</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

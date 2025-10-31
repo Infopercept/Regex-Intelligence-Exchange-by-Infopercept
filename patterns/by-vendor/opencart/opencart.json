@@ -4,6 +4,7 @@
   "product": "OpenCart",
   "product_id": "opencart",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!--s+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!--\\s+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation\\.",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<div id=\"powered\">Powered By <a href=\"http://www.opencart.com\"( title=\"OpenCart\")?>OpenCart</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div id=\"powered\">Powered By <a href=\"http://www\\.opencart\\.com\"( title=\"OpenCart\")?>OpenCart</a>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "/admin/index.php?route=common/login\" method=\"post\" enctype=\"multipart/form-data\" id=\"form\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/admin/index\\.php\\?route=common/login\"\\ method=\"post\"\\ enctype=\"multipart/form\\-data\"\\ id=\"form\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

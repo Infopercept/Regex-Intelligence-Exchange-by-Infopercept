@@ -4,6 +4,7 @@
   "product": "Buddy-Zone",
   "product_id": "buddy-zone",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Powered By <a href=\"http://www.vastal.com\" class=\"bottom\">Buddy Zone</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.vastal\\.com\"\\ class=\"bottom\">Buddy\\ Zone</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

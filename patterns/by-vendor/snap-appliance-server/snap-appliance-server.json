@@ -4,6 +4,7 @@
   "product": "Snap-Appliance-Server",
   "product_id": "snap-appliance-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<A HREF=\"http://www.snapappliance.com/support\" TARGET=\"new\"><IMG SRC=\"/config/resource/Tech.gif\"  ALIGN=\"TOP\" NATURALSIZEFLAG=\"3\" BORDER=\"0\" ALT=\"\"></A> ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<A\\ HREF=\"http://www\\.snapappliance\\.com/support\"\\ TARGET=\"new\"><IMG\\ SRC=\"/config/resource/Tech\\.gif\"\\ \\ ALIGN=\"TOP\"\\ NATURALSIZEFLAG=\"3\"\\ BORDER=\"0\"\\ ALT=\"\"></A>\\ ",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<A HREF=\"javascript:_ShowAbout()\" onMouseOver=\"window.status=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<A\\ HREF=\"javascript:_ShowAbout\\(\\)\"\\ onMouseOver=\"window\\.status=\\\\",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "   window.open(\"/config?Func=AboutSend\",\"AboutSnap\",\"toolbar=no,location=no,status=no,menubar=no,scrollbars=no,width=500,height=395,resizable=yes,dependent=yes\"); ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ window\\.open\\(\"/config\\?Func=AboutSend\",\"AboutSnap\",\"toolbar=no,location=no,status=no,menubar=no,scrollbars=no,width=500,height=395,resizable=yes,dependent=yes\"\\);\\ ",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "^Snap Appliance",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Snap Appliance",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "^Quantum Corporation",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Quantum Corporation",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "Server: ^Snap Appliances?, Inc\\./8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Snap Appliances?, Inc\\./([\\d\\.]+)$",
       "version_group": 1
@@ -162,11 +169,11 @@
             "input": "Server: ^Quantum Corporation\\./8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Quantum Corporation\\./([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "TimeLive",
   "product_id": "timelive",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<img id=\"CtlLogin1_Login1_imgCompanyOwnLogo\" src=\"Images/TopHeader.jpg\" alt=\"CompanyLogo\" style=\"height:50px;border-width:0px;\" /></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ id=\"CtlLogin1_Login1_imgCompanyOwnLogo\"\\ src=\"Images/TopHeader\\.jpg\"\\ alt=\"CompanyLogo\"\\ style=\"height:50px;border\\-width:0px;\"\\ /></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

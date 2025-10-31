@@ -4,6 +4,7 @@
   "product": "Uebimiau-Webmail",
   "product_id": "uebimiau-webmail",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Uebimiau ( Installer )</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Uebimiau\\ \\(\\ Installer\\ \\)</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<p>You are about to re-install Uebimiau Webmail on you system.<br>Thanks to log with your UebiMiau Admin ID and password to continue.</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p>You\\ are\\ about\\ to\\ re\\-install\\ Uebimiau\\ Webmail\\ on\\ you\\ system\\.<br>Thanks\\ to\\ log\\ with\\ your\\ UebiMiau\\ Admin\\ ID\\ and\\ password\\ to\\ continue\\.</p>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<script type=\"text/javascript\" src=\"themes/default/js/webmail.js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ type=\"text/javascript\"\\ src=\"themes/default/js/webmail\\.js\"></script>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<meta name=\"keywords\" content=\"uebimiau,tdah,uebimiau,webmail,email,mail,client,application,pop3,php,open     source,free,sourceforge,development\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"keywords\"\\ content=\"uebimiau,tdah,uebimiau,webmail,email,mail,client,application,pop3,php,open\\ \\ \\ \\ \\ source,free,sourceforge,development\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

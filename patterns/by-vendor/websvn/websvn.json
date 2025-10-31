@@ -4,6 +4,7 @@
   "product": "WebSVN",
   "product_id": "websvn",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"WebSVN RSS\" href=\"rss.php?repname=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"alternate\"\\ type=\"application/rss\\+xml\"\\ title=\"WebSVN\\ RSS\"\\ href=\"rss\\.php\\?repname=",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<link rel='alternate' type='application/rss+xml' title='WebSVN RSS' href='rss.php?repname=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel='alternate'\\ type='application/rss\\+xml'\\ title='WebSVN\\ RSS'\\ href='rss\\.php\\?repname=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

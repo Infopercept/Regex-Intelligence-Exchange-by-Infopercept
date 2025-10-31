@@ -4,6 +4,7 @@
   "product": "Web-Crossing-Server",
   "product_id": "web-crossing-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^Web Crossing/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Web Crossing/([^\\s]+)$",
       "version_group": 1
@@ -47,7 +49,8 @@
             "input": "Server: ^Web Crossing\\(r\\) [^\\s]+-v8.5 built",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Web Crossing\\(r\\) [^\\s]+-v([\\d\\.]+) built",
       "version_group": 1
@@ -70,11 +73,11 @@
             "input": "webxSess=[d]+.[^s]+;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "webxSess=[\\d]+\\.[^\\s]+;",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

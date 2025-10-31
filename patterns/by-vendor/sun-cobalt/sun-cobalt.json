@@ -4,6 +4,7 @@
   "product": "Sun-Cobalt",
   "product_id": "sun-cobalt",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<META NAME=\"Copyright\" VALUE=\"Copyright (C) 2000, Cobalt Networks, Inc.  All rights reserved.\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<META\\ NAME=\"Copyright\"\\ VALUE=\"Copyright\\ \\(C\\)\\ 2000,\\ Cobalt\\ Networks,\\ Inc\\.\\ \\ All\\ rights\\ reserved\\.\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "var url = \"/login.php?expired=true&target=\"+escape(pathname+top.location.search+top.location.hash);",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "var\\ url\\ =\\ \"/login\\.php\\?expired=true\\&target=\"\\+escape\\(pathname\\+top\\.location\\.search\\+top\\.location\\.hash\\);",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<P ALIGN=\"CENTER\"><FONT SIZE=\"5\" COLOR=\"#000099\" FACE=\"HELVETICA, ARIAL\"><B>Welcome to the Web Site of [^s^<]+</B></FONT>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<P ALIGN=\"CENTER\"><FONT SIZE=\"5\" COLOR=\"#000099\" FACE=\"HELVETICA, ARIAL\"><B>Welcome to the Web Site of [^\\s^<]+</B></FONT>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<HTML><BODY onLoad=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<HTML><BODY\\ onLoad=\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

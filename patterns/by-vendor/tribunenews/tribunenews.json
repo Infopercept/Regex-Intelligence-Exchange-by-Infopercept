@@ -4,6 +4,7 @@
   "product": "TribuneNews",
   "product_id": "tribunenews",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<a href=\"http://www.tribune.com/\" target=\"_parent\">A Tribune Newspaper website</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.tribune\\.com/\"\\ target=\"_parent\">A\\ Tribune\\ Newspaper\\ website</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

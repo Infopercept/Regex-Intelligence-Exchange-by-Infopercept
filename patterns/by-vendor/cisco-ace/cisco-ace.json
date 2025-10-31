@@ -4,6 +4,7 @@
   "product": "Cisco-ACE",
   "product_id": "cisco-ace",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<link href=\"/utility/cuesStylesLogo.css\" rel=\"stylesheet\" type=\"text/css\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ href=\"/utility/cuesStylesLogo\\.css\"\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

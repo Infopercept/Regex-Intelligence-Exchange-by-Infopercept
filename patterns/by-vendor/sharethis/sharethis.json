@@ -4,6 +4,7 @@
   "product": "ShareThis",
   "product_id": "sharethis",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<script [^>]*src=[\"|'][^\"^']+w.sharethis.com/",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script [^>]*src=[\"|'][^\"^']+w\\.sharethis\\.com/",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

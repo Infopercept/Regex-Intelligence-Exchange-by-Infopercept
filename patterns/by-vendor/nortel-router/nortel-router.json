@@ -4,6 +4,7 @@
   "product": "Nortel-Router",
   "product_id": "nortel-router",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<td class=\"greytitle\" nowrap><b>About Nortel Secure Router</b></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ class=\"greytitle\"\\ nowrap><b>About\\ Nortel\\ Secure\\ Router</b></td>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<td class=\"headtext\" nowrap><font class=\"yellowbullet\">&#149;</font> <a href=\"javascript:telnetToBox();\">Telnet</a></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ class=\"headtext\"\\ nowrap><font\\ class=\"yellowbullet\">\\&\\#149;</font>\\ <a\\ href=\"javascript:telnetToBox\\(\\);\">Telnet</a></td>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "Server: ^Nortel Http Server v([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Nortel Http Server v([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

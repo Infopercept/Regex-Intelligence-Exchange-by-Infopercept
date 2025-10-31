@@ -4,6 +4,7 @@
   "product": "68-Classifieds-Script",
   "product_id": "68-classifieds-script",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Powered by <a href=\"http://www.68classifieds.com\">68 Classifieds Script</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.68classifieds\\.com\">68\\ Classifieds\\ Script</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

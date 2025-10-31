@@ -4,6 +4,7 @@
   "product": "WebHare-Application-Portal",
   "product_id": "webhare-application-portal",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^WebHare Application Portal",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^WebHare Application Portal",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^WebHare Application Portal v8.5 Webserver$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^WebHare Application Portal v([\\d\\.]+) Webserver$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

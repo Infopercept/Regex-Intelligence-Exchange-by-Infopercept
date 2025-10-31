@@ -4,6 +4,7 @@
   "product": "Centreon",
   "product_id": "centreon",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<td class=\"LoginInvitLogo\" colspan=\"2\"><img src=\"img/centreon.gif\" alt=\"Centreon Logo\" title=\"Centreon Logo\" style=\"\" /></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ class=\"LoginInvitLogo\"\\ colspan=\"2\"><img\\ src=\"img/centreon\\.gif\"\\ alt=\"Centreon\\ Logo\"\\ title=\"Centreon\\ Logo\"\\ style=\"\"\\ /></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

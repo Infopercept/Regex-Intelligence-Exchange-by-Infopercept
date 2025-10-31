@@ -4,6 +4,7 @@
   "product": "Managed-Fusion-Url-Rewriter",
   "product_id": "managed-fusion-url-rewriter",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^ManagedFusion (rewriter; reverse-proxy; +http://managedfusion.com/)$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^ManagedFusion \\(rewriter; reverse-proxy; +http://managedfusion\\.com/\\)$",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "x-managedfusion-rewriter-version: ^(.+)$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-managedfusion-rewriter-version: ^(.+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

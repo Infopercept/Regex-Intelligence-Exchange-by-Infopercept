@@ -4,6 +4,7 @@
   "product": "ezBOO-WebStats",
   "product_id": "ezboo-webstats",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>ezBOO WebStats</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>ezBOO\\ WebStats</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<div align=\"center\" class=\"titre\"><font color=\"#FFFFFF\">&gt;&gt; Administrator Panel        &lt;&lt; </font></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ align=\"center\"\\ class=\"titre\"><font\\ color=\"\\#FFFFFF\">\\&gt;\\&gt;\\ Administrator\\ Panel\\ \\ \\ \\ \\ \\ \\ \\ \\&lt;\\&lt;\\ </font></div>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<td height=\"60\" valign=\"top\" align=\"center\"><img src=\"image/logo_ez1.gif\" border=\"0\"></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ height=\"60\"\\ valign=\"top\"\\ align=\"center\"><img\\ src=\"image/logo_ez1\\.gif\"\\ border=\"0\"></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

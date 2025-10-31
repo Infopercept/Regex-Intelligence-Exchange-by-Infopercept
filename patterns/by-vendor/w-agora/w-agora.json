@@ -4,6 +4,7 @@
   "product": "w-agora",
   "product_id": "w-agora",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<CAPTION><B>System Administrator's Informations (login : <u>admin</u>)</B></CAPTION>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<CAPTION><B>System\\ Administrator's\\ Informations\\ \\(login\\ :\\ <u>admin</u>\\)</B></CAPTION>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<table border bgcolor=\"#eeeeee\" align=\"center\" cellspacing=0 cellpadding=5 width=400><tr><td align=center><font face=\"Arial, Verdana\" color=\"#FF2020\">Cannot access configuration file: ./conf/site_agora.php3</td></tr></table>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<table\\ border\\ bgcolor=\"\\#eeeeee\"\\ align=\"center\"\\ cellspacing=0\\ cellpadding=5\\ width=400><tr><td\\ align=center><font\\ face=\"Arial,\\ Verdana\"\\ color=\"\\#FF2020\">Cannot\\ access\\ configuration\\ file:\\ \\./conf/site_agora\\.php3</td></tr></table>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

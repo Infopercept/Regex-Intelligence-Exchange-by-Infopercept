@@ -4,6 +4,7 @@
   "product": "BugTracker.NET",
   "product_id": "bugtracker-net",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<link rel=\"StyleSheet\" href=\"btnet.css\" type=\"text/css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"StyleSheet\"\\ href=\"btnet\\.css\"\\ type=\"text/css\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<td width=100 valign=middle><a href=http://ifdefined.com/bugtrackernet.html>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ width=100\\ valign=middle><a\\ href=http://ifdefined\\.com/bugtrackernet\\.html>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Network-Tracker",
   "product_id": "network-tracker",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<p><small>powered by <a href=\"http://networktracker.org\" target=\"_blank\" title=\"network tracker website\">network tracker</a></small></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p><small>powered\\ by\\ <a\\ href=\"http://networktracker\\.org\"\\ target=\"_blank\"\\ title=\"network\\ tracker\\ website\">network\\ tracker</a></small></p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

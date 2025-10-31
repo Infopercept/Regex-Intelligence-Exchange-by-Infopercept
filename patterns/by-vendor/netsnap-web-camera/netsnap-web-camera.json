@@ -4,6 +4,7 @@
   "product": "Netsnap-Web-Camera",
   "product_id": "netsnap-web-camera",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Live NetSnap Cam-Server feed</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Live\\ NetSnap\\ Cam\\-Server\\ feed</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "color=\"#008080\">Live-Webcam</font></big></big></big></strong></em></font></h3>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "color=\"\\#008080\">Live\\-Webcam</font></big></big></big></strong></em></font></h3>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "color=\"#008080\">NetSnap®</font></big></big></big></big><font size=\"6\"> </font></strong></font></em></h3>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "color=\"\\#008080\">NetSnap®</font></big></big></big></big><font\\ size=\"6\">\\ </font></strong></font></em></h3>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<p align=\"center\"><font face=\"Arial\"><small><small>NetSnap is a registered Trademark of",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ align=\"center\"><font\\ face=\"Arial\"><small><small>NetSnap\\ is\\ a\\ registered\\ Trademark\\ of",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

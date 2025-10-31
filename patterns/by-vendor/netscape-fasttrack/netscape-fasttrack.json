@@ -4,6 +4,7 @@
   "product": "Netscape-FastTrack",
   "product_id": "netscape-fasttrack",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Netscape-FastTrack",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Netscape-FastTrack",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^Netscape-FastTrack/(.+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Netscape-FastTrack/(.+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "DT-Centrepiece",
   "product_id": "dt-centrepiece",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "\t<meta name=\"generator\" content=\"DT Centrepiece - www.dt.net.nz/centrepiece/\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<meta\\ name=\"generator\"\\ content=\"DT\\ Centrepiece\\ \\-\\ www\\.dt\\.net\\.nz/centrepiece/\"\\ />",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<a href=\"http://www.dt.net.nz/centrepiece/\" target=\"_blank\">Powered By DT Centrepiece</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.dt\\.net\\.nz/centrepiece/\"\\ target=\"_blank\">Powered\\ By\\ DT\\ Centrepiece</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

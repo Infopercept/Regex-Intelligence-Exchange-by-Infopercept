@@ -4,6 +4,7 @@
   "product": "GpsGate-Server",
   "product_id": "gpsgate-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<input name=\"LoginControl$TextBoxPassword\" type=\"password\" id=\"LoginControl_TextBoxPassword\" tabindex=\"2\" class=\"form\" onfocus=\"document.getElementById(\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ name=\"LoginControl\\$TextBoxPassword\"\\ type=\"password\"\\ id=\"LoginControl_TextBoxPassword\"\\ tabindex=\"2\"\\ class=\"form\"\\ onfocus=\"document\\.getElementById\\(\\\\",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<head><title>r?ntGpsGate Server - Loginr?n</title></head>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<head><title>\\r?\\n\\tGpsGate Server - Login\\r?\\n</title></head>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

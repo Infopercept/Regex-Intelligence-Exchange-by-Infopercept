@@ -4,6 +4,7 @@
   "product": "Open-Auto-Classifieds",
   "product_id": "open-auto-classifieds",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<p>Powered by <a href=\"http://www.openautoclassifieds.com/index.php\">Open Auto Classifieds</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p>Powered\\ by\\ <a\\ href=\"http://www\\.openautoclassifieds\\.com/index\\.php\">Open\\ Auto\\ Classifieds</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

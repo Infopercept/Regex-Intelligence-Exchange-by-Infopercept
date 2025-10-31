@@ -4,6 +4,7 @@
   "product": "WebTrends",
   "product_id": "webtrends",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^WEBTRENDS_ID",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^WEBTRENDS_ID",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

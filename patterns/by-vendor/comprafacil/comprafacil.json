@@ -4,6 +4,7 @@
   "product": "Comprafacil",
   "product_id": "comprafacil",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a id=\"seloPowered\" href=\"http://www.comprafacil.com.br\"><img alt=\"Powered by Comprafacil\" src=\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ id=\"seloPowered\"\\ href=\"http://www\\.comprafacil\\.com\\.br\"><img\\ alt=\"Powered\\ by\\ Comprafacil\"\\ src=\"",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"author\"      content=\"HERMES SA\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ \\ \\ \\ \\ \\ content=\"HERMES\\ SA\"\\ />",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<meta name=\"author\" content=\"HERMES SA\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"HERMES\\ SA\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

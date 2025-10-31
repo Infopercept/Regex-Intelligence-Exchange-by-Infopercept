@@ -4,6 +4,7 @@
   "product": "Brightcove",
   "product_id": "brightcove",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "goku.brightcove.com|admin.brightcove.com/js",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "goku\\.brightcove\\.com|admin\\.brightcove\\.com/js",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

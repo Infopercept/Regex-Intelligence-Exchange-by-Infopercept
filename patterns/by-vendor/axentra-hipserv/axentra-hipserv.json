@@ -4,6 +4,7 @@
   "product": "Axentra-HipServ",
   "product_id": "axentra-hipserv",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"author\" content=\"Axentra\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"Axentra\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title id=\"document_title\">Axentra :: Digital Home/SOHO Software Platform for Internet Gateway and NAS Devices</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title\\ id=\"document_title\">Axentra\\ ::\\ Digital\\ Home/SOHO\\ Software\\ Platform\\ for\\ Internet\\ Gateway\\ and\\ NAS\\ Devices</title>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "HOMEBASEID=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "HOMEBASEID=",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

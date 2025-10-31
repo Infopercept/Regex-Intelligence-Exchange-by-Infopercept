@@ -4,6 +4,7 @@
   "product": "MS-SDK-HttpServer",
   "product_id": "ms-sdk-httpserver",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^MS-SDK-HttpServer",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^MS-SDK-HttpServer",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^MS-SDK-HttpServer/8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^MS-SDK-HttpServer/([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

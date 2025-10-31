@@ -4,6 +4,7 @@
   "product": "Esvon-Classifieds",
   "product_id": "esvon-classifieds",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- DO NOT REMOVE OR EDIT THIS LINE, DOING SO WILL RESULT IN COPYRIGHT VIOLATIONS UNLESS YOU PURCHASED \"POWERED BY\" REMOVAL OPTION -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ DO\\ NOT\\ REMOVE\\ OR\\ EDIT\\ THIS\\ LINE,\\ DOING\\ SO\\ WILL\\ RESULT\\ IN\\ COPYRIGHT\\ VIOLATIONS\\ UNLESS\\ YOU\\ PURCHASED\\ \"POWERED\\ BY\"\\ REMOVAL\\ OPTION\\ \\-\\->",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Powered by Esvon <a href='http://www.esvon.com/pg/products/p_classifieds/' target=\"_blank\"[^>]+>Classifieds</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by Esvon <a href='http://www.esvon.com/pg/products/p_classifieds/' target=\"_blank\"[^>]+>Classifieds</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

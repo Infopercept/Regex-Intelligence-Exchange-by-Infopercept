@@ -4,6 +4,7 @@
   "product": "WebsiteTonight",
   "product_id": "websitetonight",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "dps_site_id",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "dps_site_id",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

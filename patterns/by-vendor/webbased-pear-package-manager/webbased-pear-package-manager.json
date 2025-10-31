@@ -4,6 +4,7 @@
   "product": "Webbased-PEAR-Package-Manager",
   "product_id": "webbased-pear-package-manager",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<img src=\"?img=pear\" width=\"104\" height=\"50\" vspace=\"2\" hspace=\"5\" alt=\"PEAR\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"\\?img=pear\"\\ width=\"104\"\\ height=\"50\"\\ vspace=\"2\"\\ hspace=\"5\"\\ alt=\"PEAR\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<b>Warning:</b> This package management website is <b>not protected</b> with a password, this is a MAJOR security risk. Please read the <a href=\"?command=doc-show&pkg=pear.php.net/PEAR_Frontend_Web&file=README\" class=\"green\">README</a>.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<b>Warning:</b>\\ This\\ package\\ management\\ website\\ is\\ <b>not\\ protected</b>\\ with\\ a\\ password,\\ this\\ is\\ a\\ MAJOR\\ security\\ risk\\.\\ Please\\ read\\ the\\ <a\\ href=\"\\?command=doc\\-show\\&pkg=pear\\.php\\.net/PEAR_Frontend_Web\\&file=README\"\\ class=\"green\">README</a>\\.",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

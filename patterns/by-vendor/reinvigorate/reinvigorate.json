@@ -4,6 +4,7 @@
   "product": "Reinvigorate",
   "product_id": "reinvigorate",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- Reinvigorate -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Reinvigorate\\ \\-\\->",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<script type=\"text/javascript\" src=\"http://include.reinvigorate.net/re_.js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ type=\"text/javascript\"\\ src=\"http://include\\.reinvigorate\\.net/re_\\.js\"></script>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

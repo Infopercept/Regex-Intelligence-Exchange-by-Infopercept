@@ -4,6 +4,7 @@
   "product": "vTigerCRM",
   "product_id": "vtigercrm",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<img src=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\\\\",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "/vtigercrm_icon.ico\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/vtigercrm_icon\\.ico\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

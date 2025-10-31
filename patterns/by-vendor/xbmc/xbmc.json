@@ -4,6 +4,7 @@
   "product": "XBMC",
   "product_id": "xbmc",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "\t\t<!-- <link rel=\"search\" href=\"/provider.xml\" type=\"application/opensearchdescription+xml\" title=\"XBMC Library\" /> -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t<!\\-\\-\\ <link\\ rel=\"search\"\\ href=\"/provider\\.xml\"\\ type=\"application/opensearchdescription\\+xml\"\\ title=\"XBMC\\ Library\"\\ />\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

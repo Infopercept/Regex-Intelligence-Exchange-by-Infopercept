@@ -4,6 +4,7 @@
   "product": "TMSoft-MyAuth-Gateway",
   "product_id": "tmsoft-myauth-gateway",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "x-powered-by: TMSoft MyAuth Gateway ([^\\s^\\r^\\n]+)",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-powered-by: TMSoft MyAuth Gateway ([^\\s^\\r^\\n]+)",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "x-manager-by: MyAuth Gateway ([^\\s]+)",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-manager-by: MyAuth Gateway ([^\\s]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

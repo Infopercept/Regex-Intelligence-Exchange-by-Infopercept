@@ -4,6 +4,7 @@
   "product": "Gannett",
   "product_id": "gannett",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<link rel=\"shortcut icon\" href=\"http://www.gannett-cdn.com/sites/[A-Za-z0-9_-]+/images/favicon.png\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link rel=\"shortcut icon\" href=\"http://www.gannett-cdn.com/sites/[A-Za-z0-9_-]+/images/favicon.png\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

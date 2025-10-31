@@ -4,6 +4,7 @@
   "product": "PHP-Live",
   "product_id": "php-live",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "// image is NOT CACHED (Netscape problem).  keep this or bad things could happen",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "//\\ image\\ is\\ NOT\\ CACHED\\ \\(Netscape\\ problem\\)\\.\\ \\ keep\\ this\\ or\\ bad\\ things\\ could\\ happen",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- copyright OSI Codes Inc. http://www.osicodes.com [DO NOT DELETE] -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ copyright\\ OSI\\ Codes\\ Inc\\.\\ http://www\\.osicodes\\.com\\ \\[DO\\ NOT\\ DELETE\\]\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!-- copyright OSI Codes, http://www.osicodes.com [DO NOT DELETE] -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ copyright\\ OSI\\ Codes,\\ http://www\\.osicodes\\.com\\ \\[DO\\ NOT\\ DELETE\\]\\ \\-\\->",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<!-- BEGIN PHP Live! Code, copyright 2001 OSI Codes -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ BEGIN\\ PHP\\ Live!\\ Code,\\ copyright\\ 2001\\ OSI\\ Codes\\ \\-\\->",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<!-- END PHP Live! Code, copyright 2001 OSI Codes -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ END\\ PHP\\ Live!\\ Code,\\ copyright\\ 2001\\ OSI\\ Codes\\ \\-\\->",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<title> Knowledge BASE (FAQ) </title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>\\ Knowledge\\ BASE\\ \\(FAQ\\)\\ </title>",
       "version_group": 0
@@ -162,11 +169,11 @@
             "input": "<font color=\"#FF0000\">[Configuration Error: config files not found!] Exiting",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<font\\ color=\"\\#FF0000\">\\[Configuration\\ Error:\\ config\\ files\\ not\\ found!\\]\\ Exiting",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

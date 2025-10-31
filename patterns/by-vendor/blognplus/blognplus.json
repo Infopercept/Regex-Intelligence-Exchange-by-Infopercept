@@ -4,6 +4,7 @@
   "product": "BlognPlus",
   "product_id": "blognplus",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Powered by[s]*<a href=\"http://www.blogn.org[^>]*>BlognPlus",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by[\\s]*<a href=\"http://www.blogn.org[^>]*>BlognPlus",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

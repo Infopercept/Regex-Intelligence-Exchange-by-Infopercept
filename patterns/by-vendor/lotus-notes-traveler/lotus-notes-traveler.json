@@ -4,6 +4,7 @@
   "product": "Lotus-Notes-Traveler",
   "product_id": "lotus-notes-traveler",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<HTML><HEAD><TITLE>Unable to Process Request</TITLE></HEAD><BODY><P>Servlet Status Code: 401</P><P>Servlet Status Message: Unauthorized</P></BODY></HTML>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<HTML><HEAD><TITLE>Unable\\ to\\ Process\\ Request</TITLE></HEAD><BODY><P>Servlet\\ Status\\ Code:\\ 401</P><P>Servlet\\ Status\\ Message:\\ Unauthorized</P></BODY></HTML>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

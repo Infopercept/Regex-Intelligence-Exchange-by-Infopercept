@@ -4,6 +4,7 @@
   "product": "Check-Point-SSL-Network-Extender",
   "product_id": "check-point-ssl-network-extender",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Check Point SVN foundation$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Check Point SVN foundation$",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<script src=\"cookies.js\"></script>[s]+<script>document.write(conn_html)</script>[s]+<HEAD>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script src=\"cookies\\.js\"></script>[\\s]+<script>document\\.write\\(conn_html\\)</script>[\\s]+<HEAD>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<meta name=Generator content=\"Microsoft Word 11 (filtered)\">[s]+<title>Check Point SSL Network Extender HELP</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=Generator content=\"Microsoft Word 11 \\(filtered\\)\">[\\s]+<title>Check Point SSL Network Extender HELP</title>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<meta name=\"description\" content=\"Webui Login Page\"/>  <!-- changes to this line must be reflected in sfwOverrides.js & lm_home.js -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"description\"\\ content=\"Webui\\ Login\\ Page\"/>\\ \\ <!\\-\\-\\ changes\\ to\\ this\\ line\\ must\\ be\\ reflected\\ in\\ sfwOverrides\\.js\\ \\&\\ lm_home\\.js\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

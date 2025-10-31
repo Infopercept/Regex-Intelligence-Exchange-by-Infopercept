@@ -4,6 +4,7 @@
   "product": "CMSimple",
   "product_id": "cmsimple",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<meta name=\"generator\" content=\"CMSimple",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"CMSimple",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

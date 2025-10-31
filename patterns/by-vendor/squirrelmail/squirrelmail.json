@@ -4,6 +4,7 @@
   "product": "SquirrelMail",
   "product_id": "squirrelmail",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>SquirrelMail - Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>SquirrelMail\\ \\-\\ Login</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "function squirrelmail_loginpage_onload()",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "function\\ squirrelmail_loginpage_onload\\(\\)",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "/* avoid stupid IE6 bug with frames and scrollbars */",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/\\*\\ avoid\\ stupid\\ IE6\\ bug\\ with\\ frames\\ and\\ scrollbars\\ \\*/",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<b>SquirrelMail Login</b>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<b>SquirrelMail\\ Login</b>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

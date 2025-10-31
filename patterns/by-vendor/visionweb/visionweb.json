@@ -4,6 +4,7 @@
   "product": "VisionWEB",
   "product_id": "visionweb",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^IWeb/([^s]+)",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^IWeb/([^\\s]+)",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<b>CIEFFE srl</b> - \"We power Your eyes\"<br",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<b>CIEFFE\\ srl</b>\\ \\-\\ \"We\\ power\\ Your\\ eyes\"<br",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

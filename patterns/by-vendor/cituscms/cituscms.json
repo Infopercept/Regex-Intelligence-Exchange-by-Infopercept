@@ -4,6 +4,7 @@
   "product": "CitusCMS",
   "product_id": "cituscms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Administration &#149; Webseitenname</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Administration\\ \\&\\#149;\\ Webseitenname</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- Powered by CitusCMS - http://www.citus-cms.org -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Powered\\ by\\ CitusCMS\\ \\-\\ http://www\\.citus\\-cms\\.org\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "Powered by <a href=\"http://www.citus-cms.org\" target=\"_blank\" title=\"Powered by CitusCMS\"><strong>CitusCMS</strong></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.citus\\-cms\\.org\"\\ target=\"_blank\"\\ title=\"Powered\\ by\\ CitusCMS\"><strong>CitusCMS</strong></a>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<meta name=\"generator\" content=\"CitusCMS - http://www.citus-cms.org\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"CitusCMS\\ \\-\\ http://www\\.citus\\-cms\\.org\"\\ />",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<meta name=\"generator\" content=\"CitusCMS [http://www.citus-cms.org]\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"CitusCMS\\ \\[http://www\\.citus\\-cms\\.org\\]\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

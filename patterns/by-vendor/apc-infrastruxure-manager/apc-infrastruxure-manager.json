@@ -4,6 +4,7 @@
   "product": "APC-InfraStruXure-Manager",
   "product_id": "apc-infrastruxure-manager",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>APC | InfraStruXure Manager</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>APC\\ \\|\\ InfraStruXure\\ Manager</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<td align=\"center\" width=\"725\" height=\"72\"><img src=\"images/ldrISX.jpg\" alt=\"ISX Manager\" align=\"left\" border=\"0\"/></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ align=\"center\"\\ width=\"725\"\\ height=\"72\"><img\\ src=\"images/ldrISX\\.jpg\"\\ alt=\"ISX\\ Manager\"\\ align=\"left\"\\ border=\"0\"/></td>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<td><img src=\"images/Xlogo_Layer-1.gif\" height=\"327\" width=\"342\" align=\"left\"/></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><img\\ src=\"images/Xlogo_Layer\\-1\\.gif\"\\ height=\"327\"\\ width=\"342\"\\ align=\"left\"/></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

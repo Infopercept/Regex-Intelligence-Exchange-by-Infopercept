@@ -4,6 +4,7 @@
   "product": "ColdFusion",
   "product_id": "coldfusion",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "\t<title>ColdFusion Administrator Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<title>ColdFusion\\ Administrator\\ Login</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "\t{   document.write(\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\{\\ \\ \\ document\\.write\\(\\\\",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<form name=\"loginform\" action=\"./enter.cfm\" method=\"POST\" onSubmit=\"cfadminPassword.value = hex_hmac_sha1(salt.value, hex_sha1(cfadminPassword.value));\" >",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ name=\"loginform\"\\ action=\"\\./enter\\.cfm\"\\ method=\"POST\"\\ onSubmit=\"cfadminPassword\\.value\\ =\\ hex_hmac_sha1\\(salt\\.value,\\ hex_sha1\\(cfadminPassword\\.value\\)\\);\"\\ >",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<input name=\"cfadminPassword\" type=\"Password\" size=\"15\" style=\"width:15em;\" class=\"label\" maxlength=\"100\" id=\"admin_login\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<input\\ name=\"cfadminPassword\"\\ type=\"Password\"\\ size=\"15\"\\ style=\"width:15em;\"\\ class=\"label\"\\ maxlength=\"100\"\\ id=\"admin_login\">",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "\tMacromedia, the Macromedia logo, Macromedia ColdFusion and ColdFusion are<br />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\tMacromedia,\\ the\\ Macromedia\\ logo,\\ Macromedia\\ ColdFusion\\ and\\ ColdFusion\\ are<br\\ />",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "\t<tr><td><img src=\"./images/mx_copyrframe.gif\" width=\"2\" height=\"57\" border=\"0\" alt=\"ColdFusion MX\" hspace=\"10\"></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<tr><td><img\\ src=\"\\./images/mx_copyrframe\\.gif\"\\ width=\"2\"\\ height=\"57\"\\ border=\"0\"\\ alt=\"ColdFusion\\ MX\"\\ hspace=\"10\"></td>",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "(Abnormal|Normal)",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "(Abnormal|Normal)",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "CFAUTHORIZATION_cfadmin=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "CFAUTHORIZATION_cfadmin=",
       "version_group": 0
@@ -208,11 +217,11 @@
             "input": "^(cfm|cfc)$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^(cfm|cfc)$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

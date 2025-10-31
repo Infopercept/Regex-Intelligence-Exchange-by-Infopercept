@@ -4,6 +4,7 @@
   "product": "NexusPHP",
   "product_id": "nexusphp",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"generator\" content=\"NexusPHP\"[s]?/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"generator\" content=\"NexusPHP\"[\\s]?/>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<p><b>Note</b>: You need cookies enabled to log in or switch language.<br /> [<b>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p><b>Note</b>:\\ You\\ need\\ cookies\\ enabled\\ to\\ log\\ in\\ or\\ switch\\ language\\.<br\\ />\\ \\[<b>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<tr><td class=\"rowhead\">SSL (HTTPS):</td><td class=\"rowfollow\" align=\"left\"><input class=\"checkbox\" type=\"checkbox\" name=\"ssl\" value=\"yes\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr><td\\ class=\"rowhead\">SSL\\ \\(HTTPS\\):</td><td\\ class=\"rowfollow\"\\ align=\"left\"><input\\ class=\"checkbox\"\\ type=\"checkbox\"\\ name=\"ssl\"\\ value=\"yes\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

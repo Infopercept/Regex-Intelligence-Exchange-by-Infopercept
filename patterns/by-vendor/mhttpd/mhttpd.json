@@ -4,6 +4,7 @@
   "product": "MHttpd",
   "product_id": "mhttpd",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "[s]*mhttpd",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "[\\s]*mhttpd",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Server: [\\s]*mhttpd v8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: [\\s]*mhttpd v([\\d\\.]+)",
       "version_group": 1
@@ -70,7 +73,8 @@
             "input": "Server: [\\s]*MHttpd/8.5 \\([^\\;]+; [^\\;]+; Meta-HTML/[\\d\\.]+\\)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: [\\s]*MHttpd/([\\d\\.]+) \\([^\\;]+; [^\\;]+; Meta-HTML/[\\d\\.]+\\)",
       "version_group": 1
@@ -93,11 +97,11 @@
             "input": "meta-html-engine: [\\s]*MHttpd/1.0 \\([^\\;]+; [^\\;]+; Meta-HTML/[\\d\\.]+\\)",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "meta-html-engine: [\\s]*MHttpd/([\\d\\.]+) \\([^\\;]+; [^\\;]+; Meta-HTML/[\\d\\.]+\\)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

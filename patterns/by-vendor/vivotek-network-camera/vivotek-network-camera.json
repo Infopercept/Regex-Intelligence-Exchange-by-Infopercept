@@ -4,6 +4,7 @@
   "product": "Vivotek-Network-Camera",
   "product_id": "vivotek-network-camera",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div id=\"logo_icon\"><a href=\"http://www.vivotek.com/\" target=\"_blank\"><img alt=\"logo\" src=\"pic/logo.gif\"></a></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"logo_icon\"><a\\ href=\"http://www\\.vivotek\\.com/\"\\ target=\"_blank\"><img\\ alt=\"logo\"\\ src=\"pic/logo\\.gif\"></a></div>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<frameset rows=\"2000,0\" border=\"0\" frameborder=\"no\" framespacing=\"0\">[s]+<frame name=\"mainframe\" src=\"main.html\" marginheight=\"0\" marginwidth=\"0\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<frameset rows=\"2000,0\" border=\"0\" frameborder=\"no\" framespacing=\"0\">[\\s]+<frame name=\"mainframe\" src=\"main\\.html\" marginheight=\"0\" marginwidth=\"0\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "^(Network Camera|Network Dome Camera|Network Camera with Pan/Tilt|Wireless Network Camera)$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^(Network Camera|Network Dome Camera|Network Camera with Pan/Tilt|Wireless Network Camera)$",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<script type=\"text/javascript\" \tsrc=\"/cgi-bin/admin/getparamjs.cgi?system\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ type=\"text/javascript\"\\ \\\tsrc=\"/cgi\\-bin/admin/getparamjs\\.cgi\\?system\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

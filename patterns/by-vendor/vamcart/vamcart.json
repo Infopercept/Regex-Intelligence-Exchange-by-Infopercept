@@ -4,6 +4,7 @@
   "product": "VamCart",
   "product_id": "vamcart",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<link type=\"text/css\" href=\"[^\"]+/stylesheets/load/vamcart.css\" rel=\"stylesheet\"  media=\"screen\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link type=\"text/css\" href=\"[^\"]+/stylesheets/load/vamcart\\.css\" rel=\"stylesheet\"  media=\"screen\"/>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- Powered by: VamCart (http://vamcart.com) -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Powered\\ by:\\ VamCart\\ \\(http://vamcart\\.com\\)\\ \\-\\->",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<p><a href=\"http://vamcart.com/\">PHP Shopping Cart</a> <a href=\"http://vamcart.com/\">VamCart</a></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p><a\\ href=\"http://vamcart\\.com/\">PHP\\ Shopping\\ Cart</a>\\ <a\\ href=\"http://vamcart\\.com/\">VamCart</a></p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Parallel-Crystal-Load-Balancer",
   "product_id": "parallel-crystal-load-balancer",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Crystal2 BalancerServer",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Crystal2 BalancerServer",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^Crystal2 BalancerServer 8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Crystal2 BalancerServer ([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "phpMoneyBooks",
   "product_id": "phpmoneybooks",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<tr><td><center><input type=\"submit\" name=\"B1\" value=\"  Login  \" class=\"button\"></center></td><td><input type=\"checkbox\" name=\"remember\" value=\"1\"> Remember Me</td></tr>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr><td><center><input\\ type=\"submit\"\\ name=\"B1\"\\ value=\"\\ \\ Login\\ \\ \"\\ class=\"button\"></center></td><td><input\\ type=\"checkbox\"\\ name=\"remember\"\\ value=\"1\">\\ Remember\\ Me</td></tr>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

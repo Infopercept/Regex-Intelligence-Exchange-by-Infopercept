@@ -4,6 +4,7 @@
   "product": "PHP-Slim",
   "product_id": "php-slim",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "to ensure your URL is spelled correctly. If all else fails, you can",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "to\\ ensure\\ your\\ URL\\ is\\ spelled\\ correctly\\.\\ If\\ all\\ else\\ fails,\\ you\\ can",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "The requested resource could not be found. Please verify the URI and try again.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "The\\ requested\\ resource\\ could\\ not\\ be\\ found\\.\\ Please\\ verify\\ the\\ URI\\ and\\ try\\ again\\.",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

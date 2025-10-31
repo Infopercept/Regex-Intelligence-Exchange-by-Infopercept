@@ -4,6 +4,7 @@
   "product": "Etano",
   "product_id": "etano",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "All Rights Reserved.<br />Powered by <a href=\"http://www.datemill.com\" title=\"Etano community builder\">Etano</a>.</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "All\\ Rights\\ Reserved\\.<br\\ />Powered\\ by\\ <a\\ href=\"http://www\\.datemill\\.com\"\\ title=\"Etano\\ community\\ builder\">Etano</a>\\.</p>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Etano</a>. All Rights Reserved.<br />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Etano</a>\\.\\ All\\ Rights\\ Reserved\\.<br\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

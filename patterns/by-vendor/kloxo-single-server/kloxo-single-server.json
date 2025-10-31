@@ -4,6 +4,7 @@
   "product": "Kloxo-Single-Server",
   "product_id": "kloxo-single-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title> HyperVM 2.0 </title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>\\ HyperVM\\ 2\\.0\\ </title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title> Kloxo </title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>\\ Kloxo\\ </title>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<title> Lxadmin </title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>\\ Lxadmin\\ </title>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<img id=main_logo width=84 height=23 src=\"/img/hypervm-logo.gif\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ id=main_logo\\ width=84\\ height=23\\ src=\"/img/hypervm\\-logo\\.gif\">",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "Use a valid username and password to gain access to the console</b>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Use\\ a\\ valid\\ username\\ and\\ password\\ to\\ gain\\ access\\ to\\ the\\ console</b>",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "@import url(\"/htmllib/lib/admin_login.css\");",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "@import\\ url\\(\"/htmllib/lib/admin_login\\.css\"\\);",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "<script language=javascript src=\"/htmllib/js/preop.js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ language=javascript\\ src=\"/htmllib/js/preop\\.js\"></script>",
       "version_group": 0
@@ -185,11 +193,11 @@
             "input": "<form name=loginform action=\"/htmllib/phplib/\" onsubmit=\"encode_url(loginform) ; return fieldcheck(this);\" method=post>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ name=loginform\\ action=\"/htmllib/phplib/\"\\ onsubmit=\"encode_url\\(loginform\\)\\ ;\\ return\\ fieldcheck\\(this\\);\"\\ method=post>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Web2py",
   "product_id": "web2py",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<div id=\"serendipityLeftSideBar\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"serendipityLeftSideBar\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

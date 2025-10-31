@@ -4,6 +4,7 @@
   "product": "NetSuite",
   "product_id": "netsuite",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^NLSD3",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^NLSD3",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "^NS_ROUTING_VERSION",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^NS_ROUTING_VERSION",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "^NS_VER",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^NS_VER",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

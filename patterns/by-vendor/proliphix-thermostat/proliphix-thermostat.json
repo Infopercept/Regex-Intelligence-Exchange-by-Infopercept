@@ -4,6 +4,7 @@
   "product": "Proliphix-Thermostat",
   "product_id": "proliphix-thermostat",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "printFSC(\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "printFSC\\(\\\\",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": " - Status &amp; Control</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\-\\ Status\\ \\&amp;\\ Control</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

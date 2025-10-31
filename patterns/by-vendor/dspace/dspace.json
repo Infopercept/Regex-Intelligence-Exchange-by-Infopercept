@@ -4,6 +4,7 @@
   "product": "DSpace",
   "product_id": "dspace",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<meta content=\"DSpace\" name=\"Generator\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ content=\"DSpace\"\\ name=\"Generator\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

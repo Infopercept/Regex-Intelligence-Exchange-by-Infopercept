@@ -4,6 +4,7 @@
   "product": "StorageTek-NAS",
   "product_id": "storagetek-nas",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Sun StorageTek NAS OS Web Admin</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Sun\\ StorageTek\\ NAS\\ OS\\ Web\\ Admin</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "^StorageTek-HTTPD",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^StorageTek-HTTPD",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "Server: ^StorageTek-HTTPD/([^\\s]+) \\([^\\s]+ NAS\\)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^StorageTek-HTTPD/([^\\s]+) \\([^\\s]+ NAS\\)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

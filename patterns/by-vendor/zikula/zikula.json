@@ -4,6 +4,7 @@
   "product": "Zikula",
   "product_id": "zikula",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"Generator\" content=\"Zikula - www.zikula.org\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"Generator\"\\ content=\"Zikula\\ \\-\\ www\\.zikula\\.org\"\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"Generator\" content=\"Zikula - http://zikula.de\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"Generator\"\\ content=\"Zikula\\ \\-\\ http://zikula\\.de\"\\ />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<meta name=\"generator\" content=\"Zikula Application Framework - http://zikula.de\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"Zikula\\ Application\\ Framework\\ \\-\\ http://zikula\\.de\"\\ />",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<a href=\"http://community.zikula.org/\" title=\"Powered by Zikula\">Zikula</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://community\\.zikula\\.org/\"\\ title=\"Powered\\ by\\ Zikula\">Zikula</a>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "Powered by <a href=\"http://www.zikula.org\">Zikula</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://www\\.zikula\\.org\">Zikula</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

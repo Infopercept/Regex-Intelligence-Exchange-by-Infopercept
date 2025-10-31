@@ -4,6 +4,7 @@
   "product": "Apache-Archiva",
   "product_id": "apache-archiva",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Apache Archiva \\\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Apache\\ Archiva\\ \\\\\\\\",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "No context on this server matched or handled this request.<BR>Contexts known to this server are: <ul><li><a href=\"/archiva\">/archiva&nbsp;--->&nbsp;org.mortbay.jetty.webapp.WebAppContext",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "No\\ context\\ on\\ this\\ server\\ matched\\ or\\ handled\\ this\\ request\\.<BR>Contexts\\ known\\ to\\ this\\ server\\ are:\\ <ul><li><a\\ href=\"/archiva\">/archiva\\&nbsp;\\-\\-\\->\\&nbsp;org\\.mortbay\\.jetty\\.webapp\\.WebAppContext",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<form namespace=\"/\" id=\"quickSearch\" name=\"quickSearch\" onsubmit=\"customOnsubmit_quickSearch(); return validateForm_quickSearch();\" action=\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ namespace=\"/\"\\ id=\"quickSearch\"\\ name=\"quickSearch\"\\ onsubmit=\"customOnsubmit_quickSearch\\(\\);\\ return\\ validateForm_quickSearch\\(\\);\"\\ action=\"",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<form namespace=\"/\" id=\"quickSearch\" name=\"quickSearch\" onsubmit=\"return validateForm_quickSearch();\" action=\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ namespace=\"/\"\\ id=\"quickSearch\"\\ name=\"quickSearch\"\\ onsubmit=\"return\\ validateForm_quickSearch\\(\\);\"\\ action=\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

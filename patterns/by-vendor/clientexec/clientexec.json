@@ -4,6 +4,7 @@
   "product": "ClientExec",
   "product_id": "clientexec",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- These should not have debug at the end for production -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ These\\ should\\ not\\ have\\ debug\\ at\\ the\\ end\\ for\\ production\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title>Support Center - Powered By ClientExec</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Support\\ Center\\ \\-\\ Powered\\ By\\ ClientExec</title>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<form action=\"index.php?fuse=admin&amp;action=Login&amp;public=1\" method=\"post\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ action=\"index\\.php\\?fuse=admin\\&amp;action=Login\\&amp;public=1\"\\ method=\"post\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

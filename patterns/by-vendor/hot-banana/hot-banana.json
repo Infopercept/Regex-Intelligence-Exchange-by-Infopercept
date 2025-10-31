@@ -4,6 +4,7 @@
   "product": "Hot-Banana",
   "product_id": "hot-banana",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "\t\t\t\t\tvar hbac_regFileTypes = new RegExp(\"\\s*.(pdf|swf|gif|jpg|jpeg|jpe|xls|ppt|doc|mp3|txt|wav)\");",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t\\\t\\\t\\\tvar\\ hbac_regFileTypes\\ =\\ new\\ RegExp\\(\"\\\\s\\*\\.\\(pdf\\|swf\\|gif\\|jpg\\|jpeg\\|jpe\\|xls\\|ppt\\|doc\\|mp3\\|txt\\|wav\\)\"\\);",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<div align=\"right\"><img src=\"Images/hblogo.gif\" width=\"49\" height=\"28\" border=\"0\" alt=\"Powered By Hot Banana\" /></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ align=\"right\"><img\\ src=\"Images/hblogo\\.gif\"\\ width=\"49\"\\ height=\"28\"\\ border=\"0\"\\ alt=\"Powered\\ By\\ Hot\\ Banana\"\\ /></div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

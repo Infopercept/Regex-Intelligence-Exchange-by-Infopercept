@@ -4,6 +4,7 @@
   "product": "Kerio-WinRoute-Firewall",
   "product_id": "kerio-winroute-firewall",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Kerio WinRoute Firewall Embedded Web Server$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Kerio WinRoute Firewall Embedded Web Server$",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<meta HTTP-EQUIV=\"Refresh\" content=\"0;URL=/internal/ntlm/dologin.php?internal=0\">\t<title>Kerio WinRoute Firewall - Login Page - Kerio WinRoute Firewall</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ HTTP\\-EQUIV=\"Refresh\"\\ content=\"0;URL=/internal/ntlm/dologin\\.php\\?internal=0\">\\\t<title>Kerio\\ WinRoute\\ Firewall\\ \\-\\ Login\\ Page\\ \\-\\ Kerio\\ WinRoute\\ Firewall</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

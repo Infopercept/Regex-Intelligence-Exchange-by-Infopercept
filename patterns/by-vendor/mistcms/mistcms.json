@@ -4,6 +4,7 @@
   "product": "MistCMS",
   "product_id": "mistcms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div class=\"page\">login</div><form method=\"post\" action=\"mist.php\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ class=\"page\">login</div><form\\ method=\"post\"\\ action=\"mist\\.php\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<!-- Powered by MistCMS @ dvondrake.com -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Powered\\ by\\ MistCMS\\ @\\ dvondrake\\.com\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

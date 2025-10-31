@@ -4,6 +4,7 @@
   "product": "Traidnt-UP",
   "product_id": "traidnt-up",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- # START HEDARE -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ \\#\\ START\\ HEDARE\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<font color='#000080'><a href='http://traidnt.net' target='_blank'>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<font\\ color='\\#000080'><a\\ href='http://traidnt\\.net'\\ target='_blank'>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "\t\t\t<span style='text-decoration: none'><font color='#000000'>Traidnt&nbsp;UP</font></span></a></font></span></b>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t\\\t<span\\ style='text\\-decoration:\\ none'><font\\ color='\\#000000'>Traidnt\\&nbsp;UP</font></span></a></font></span></b>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

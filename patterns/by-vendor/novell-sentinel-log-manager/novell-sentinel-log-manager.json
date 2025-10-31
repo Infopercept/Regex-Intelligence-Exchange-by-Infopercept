@@ -4,6 +4,7 @@
   "product": "Novell-Sentinel-Log-Manager",
   "product_id": "novell-sentinel-log-manager",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<p class=\"content\">Novell Sentinel Log Manager supports Firefox 3 (works best on 3.6) and Internet Explorer 8 (works best on 8.0)</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ class=\"content\">Novell\\ Sentinel\\ Log\\ Manager\\ supports\\ Firefox\\ 3\\ \\(works\\ best\\ on\\ 3\\.6\\)\\ and\\ Internet\\ Explorer\\ 8\\ \\(works\\ best\\ on\\ 8\\.0\\)</p>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<META HTTP-EQUIV=\"refresh\" CONTENT=\"0;URL=/novelllogmanager\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<META\\ HTTP\\-EQUIV=\"refresh\"\\ CONTENT=\"0;URL=/novelllogmanager\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

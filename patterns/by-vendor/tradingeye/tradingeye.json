@@ -4,6 +4,7 @@
   "product": "Tradingeye",
   "product_id": "tradingeye",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<p id=\"credits\"><a href=\"http://www.tradingeye.com/\">powered by Tradingeye</a></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ id=\"credits\"><a\\ href=\"http://www\\.tradingeye\\.com/\">powered\\ by\\ Tradingeye</a></p>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"author\" content=\"dpivision.com Ltd\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"dpivision\\.com\\ Ltd\"\\ />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<p id=\"breadcrumbs\">You are here:",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ id=\"breadcrumbs\">You\\ are\\ here:",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "</div><!-- end body/inner -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "</div><!\\-\\-\\ end\\ body/inner\\ \\-\\->",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<p id=\"skip\">[<a href=\"#main\">skip to main content</a>]</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ id=\"skip\">\\[<a\\ href=\"\\#main\">skip\\ to\\ main\\ content</a>\\]</p>",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "<th class=\"login_bg\" colspan=\"2\">Tradingeye Login</th>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<th\\ class=\"login_bg\"\\ colspan=\"2\">Tradingeye\\ Login</th>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

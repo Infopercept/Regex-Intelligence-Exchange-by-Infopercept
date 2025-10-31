@@ -4,54 +4,9 @@
   "product": "Kibana",
   "product_id": "kibana",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
-    {
-      "name": "Kibana Pattern",
-      "priority": 100,
-      "confidence": 0.8,
-      "metadata": {
-        "author": "WhatWeb Project",
-        "created_at": "2025-01-01",
-        "updated_at": "2025-01-01",
-        "description": "Pattern extracted from WhatWeb plugin for Kibana",
-        "tags": [
-          "whatweb",
-          "extracted"
-        ],
-        "test_cases": [
-          {
-            "input": "^kibana$",
-            "expected_version": "unknown"
-          }
-        ]
-      },
-      "pattern": "^kibana$",
-      "version_group": 0
-    },
-    {
-      "name": "Kibana Pattern",
-      "priority": 100,
-      "confidence": 0.8,
-      "metadata": {
-        "author": "WhatWeb Project",
-        "created_at": "2025-01-01",
-        "updated_at": "2025-01-01",
-        "description": "Pattern extracted from WhatWeb plugin for Kibana",
-        "tags": [
-          "whatweb",
-          "extracted"
-        ],
-        "test_cases": [
-          {
-            "input": "<body kibana ng-class",
-            "expected_version": "unknown"
-          }
-        ]
-      },
-      "pattern": "<body\\ kibana\\ ng\\-class",
-      "version_group": 0
-    },
     {
       "name": "kbn-name header",
       "priority": 100,
@@ -67,12 +22,13 @@
         ],
         "test_cases": [
           {
-            "input": "",
+            "input": "kbn-name",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
-      "pattern": "",
+      "pattern": "kbn\\-name",
       "version_group": 0
     },
     {
@@ -93,11 +49,11 @@
             "input": "kbn-injected-metadata",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "kbn\\-injected\\-metadata",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

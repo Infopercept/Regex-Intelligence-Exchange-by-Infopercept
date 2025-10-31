@@ -4,6 +4,7 @@
   "product": "EasyFeeds",
   "product_id": "easyfeeds",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div id=\"feedslist\" align=\"left\" class=\"divTableCell\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"feedslist\"\\ align=\"left\"\\ class=\"divTableCell\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<div style=\"float: left; height: 35px; width: 300px; margin: 45px 0px 0px 40px;\"></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ style=\"float:\\ left;\\ height:\\ 35px;\\ width:\\ 300px;\\ margin:\\ 45px\\ 0px\\ 0px\\ 40px;\"></div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

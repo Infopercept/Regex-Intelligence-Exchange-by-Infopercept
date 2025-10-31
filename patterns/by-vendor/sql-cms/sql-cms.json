@@ -4,6 +4,7 @@
   "product": "SQL-CMS",
   "product_id": "sql-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<script type=\"text/javascript\">var LoginAttempts=0;</script><link href=\"CSS/styles/default.css\" type=\"text/css\" rel=\"stylesheet\" /></head>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ type=\"text/javascript\">var\\ LoginAttempts=0;</script><link\\ href=\"CSS/styles/default\\.css\"\\ type=\"text/css\"\\ rel=\"stylesheet\"\\ /></head>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<tr><td>Language</td><td><select id=\"ddlLanguage\" onchange=\"location.href=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<tr><td>Language</td><td><select\\ id=\"ddlLanguage\"\\ onchange=\"location\\.href=\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

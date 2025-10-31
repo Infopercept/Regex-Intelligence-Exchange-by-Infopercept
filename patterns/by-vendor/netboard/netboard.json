@@ -4,6 +4,7 @@
   "product": "netboard",
   "product_id": "netboard",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<td><form method=post action=\"netboard.cgi\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><form\\ method=post\\ action=\"netboard\\.cgi\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<td><form method=post action=netboard.cgi>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><form\\ method=post\\ action=netboard\\.cgi>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

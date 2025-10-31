@@ -4,6 +4,7 @@
   "product": "NetBox",
   "product_id": "netbox",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^NetBox",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^NetBox",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^NetBox Version (.+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^NetBox Version (.+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

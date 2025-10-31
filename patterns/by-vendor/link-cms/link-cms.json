@@ -4,6 +4,7 @@
   "product": "LINK-CMS",
   "product_id": "link-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a href=\"http://www.link-softsolutions.com/SoftLink-Content-Management-System---CMS_20_1\" target=\"_blank\">LINK CMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.link\\-softsolutions\\.com/SoftLink\\-Content\\-Management\\-System\\-\\-\\-CMS_20_1\"\\ target=\"_blank\">LINK\\ CMS</a>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<a href=\"http://www.link-softsolutions.com/SoftLink-Content-Management-System---CMS_20_1\">LINK CMS</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.link\\-softsolutions\\.com/SoftLink\\-Content\\-Management\\-System\\-\\-\\-CMS_20_1\">LINK\\ CMS</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

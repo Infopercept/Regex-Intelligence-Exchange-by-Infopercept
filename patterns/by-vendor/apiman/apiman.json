@@ -4,14 +4,12 @@
   "product": "Apiman",
   "product_id": "apiman-apiman",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
       "name": "Apiman",
-      "category": "web",
       "pattern": "\"version\"\\s*:\\s*\"([^\"]*)\"",
-      "vendor": "Apiman",
-      "product": "Apiman",
       "version_group": 1,
       "priority": 140,
       "confidence": 0.8,
@@ -35,9 +33,9 @@
             "input": "{\"version\":\"2.0.0.Final\"}",
             "expected_version": "2.0.0.Final"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

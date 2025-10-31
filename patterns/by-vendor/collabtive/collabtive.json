@@ -4,6 +4,7 @@
   "product": "Collabtive",
   "product_id": "collabtive",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Login @ Collabtive</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Login\\ @\\ Collabtive</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!--<div id = \"jslog\" style = \"color:red;position:absolute;top:60%;right:5%;width:300px;border:1px solid;background-color:grey;\"></div>-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-<div\\ id\\ =\\ \"jslog\"\\ style\\ =\\ \"color:red;position:absolute;top:60%;right:5%;width:300px;border:1px\\ solid;background\\-color:grey;\"></div>\\-\\->",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<form id = \"loginform\" name = \"loginform\" method=\"post\" action=\"manageuser.php?action=login\"  onsubmit=\"return validateCompleteForm(this,\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ id\\ =\\ \"loginform\"\\ name\\ =\\ \"loginform\"\\ method=\"post\"\\ action=\"manageuser\\.php\\?action=login\"\\ \\ onsubmit=\"return\\ validateCompleteForm\\(this,\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

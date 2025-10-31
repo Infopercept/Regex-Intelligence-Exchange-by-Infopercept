@@ -4,6 +4,7 @@
   "product": "ntop",
   "product_id": "ntop",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^ntop/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^ntop/([^\\s]+)",
       "version_group": 1
@@ -47,7 +49,8 @@
             "input": "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"ntop RSS Feed\" href=\"http://www.ntop.org/blog/?feed=rss2\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"alternate\"\\ type=\"application/rss\\+xml\"\\ title=\"ntop\\ RSS\\ Feed\"\\ href=\"http://www\\.ntop\\.org/blog/\\?feed=rss2\"\\ />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<TITLE>Global Traffic Statistics</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>Global\\ Traffic\\ Statistics</TITLE>",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "Basic realm=\"NTOP\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Basic\\ realm=\"NTOP\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "TROY-Serial-Server",
   "product_id": "troy-serial-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<BODY><CENTER><TABLE BORDER=0><TR ALIGN=CENTER><TD><FONT COLOR=RED SIZE=5>TROY Serial Server</FONT></TD></TR>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<BODY><CENTER><TABLE\\ BORDER=0><TR\\ ALIGN=CENTER><TD><FONT\\ COLOR=RED\\ SIZE=5>TROY\\ Serial\\ Server</FONT></TD></TR>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Network Card Access Password&#058; </B><INPUT TYPE=PASSWORD SIZE=16 MAXLENGTH=16 NAME=access_psw>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Network\\ Card\\ Access\\ Password\\&\\#058;\\ </B><INPUT\\ TYPE=PASSWORD\\ SIZE=16\\ MAXLENGTH=16\\ NAME=access_psw>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

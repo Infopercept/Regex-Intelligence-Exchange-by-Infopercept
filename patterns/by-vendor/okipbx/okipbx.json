@@ -4,6 +4,7 @@
   "product": "OkiPBX",
   "product_id": "okipbx",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>IPstageMaintenanceConsole(PBX)</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>IPstageMaintenanceConsole\\(PBX\\)</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<APPLET CODE=\"DavisBar.class\" ARCHIVE=\"ipstage.jar\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<APPLET\\ CODE=\"DavisBar\\.class\"\\ ARCHIVE=\"ipstage\\.jar\"",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<PARAM NAME=\"systype\"    value=\"OKI\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<PARAM\\ NAME=\"systype\"\\ \\ \\ \\ value=\"OKI\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

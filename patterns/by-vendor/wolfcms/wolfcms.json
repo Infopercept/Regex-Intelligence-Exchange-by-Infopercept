@@ -4,6 +4,7 @@
   "product": "WolfCMS",
   "product_id": "wolfcms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "href=\"http://www.wolfcms.org/\" title=\"Wolf CMS\" rel=\"noreferrer\">Wolf CMS</a>[s]+Inside.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "href=\"http://www.wolfcms.org/\" title=\"Wolf CMS\" rel=\"noreferrer\">Wolf CMS</a>[\\s]+Inside.",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

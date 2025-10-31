@@ -4,6 +4,7 @@
   "product": "ToshibaPrinter",
   "product_id": "toshibaprinter",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<TITLE CLASS=\"clsTitle1\">TopAccess</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE\\ CLASS=\"clsTitle1\">TopAccess</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

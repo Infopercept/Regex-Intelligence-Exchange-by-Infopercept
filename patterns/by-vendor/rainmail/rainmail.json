@@ -4,6 +4,7 @@
   "product": "Rainmail",
   "product_id": "rainmail",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<form action='/cgi-bin/openwebmail/openwebmail.pl'",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ action='/cgi\\-bin/openwebmail/openwebmail\\.pl'",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!--  SCRIPT CONFIGURATION SECTION -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ \\ SCRIPT\\ CONFIGURATION\\ SECTION\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<TD width=50%><font color=\"ffffff\" size=\"1\"face=\"Verdana, Helvetica\">Rainmail is a product of :</font>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TD\\ width=50%><font\\ color=\"ffffff\"\\ size=\"1\"face=\"Verdana,\\ Helvetica\">Rainmail\\ is\\ a\\ product\\ of\\ :</font>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<div align=\"center\">.: <b>Rainmail Intranet Login </b> :.</div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ align=\"center\">\\.:\\ <b>Rainmail\\ Intranet\\ Login\\ </b>\\ :\\.</div>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<TD><font color=\"ffffff\" size=\"1\"face=\"Verdana, Arial, Helvetica, sans-serif\">Rainmail is a product of :</font></TD>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TD><font\\ color=\"ffffff\"\\ size=\"1\"face=\"Verdana,\\ Arial,\\ Helvetica,\\ sans\\-serif\">Rainmail\\ is\\ a\\ product\\ of\\ :</font></TD>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

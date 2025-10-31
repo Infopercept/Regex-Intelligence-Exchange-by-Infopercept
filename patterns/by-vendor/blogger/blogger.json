@@ -4,6 +4,7 @@
   "product": "Blogger",
   "product_id": "blogger",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta content='blogger' name='generator'/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ content='blogger'\\ name='generator'/>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<a href=\"http://www.blogger.com\"><img [^>]* alt=\"Powered by Blogger\"></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"http://www.blogger.com\"><img [^>]* alt=\"Powered by Blogger\"></a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

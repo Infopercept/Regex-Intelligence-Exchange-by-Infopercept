@@ -4,6 +4,7 @@
   "product": "SiteCaddy",
   "product_id": "sitecaddy",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- SECTION: bottom branding -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ SECTION:\\ bottom\\ branding\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- write title and meta tags -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ write\\ title\\ and\\ meta\\ tags\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<ul class=\"siteCaddyMenu menuLevel0 bottomNav\" id=\"primaryNav\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<ul\\ class=\"siteCaddyMenu\\ menuLevel0\\ bottomNav\"\\ id=\"primaryNav\">",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<a href=\"http://www.sitecaddy.com\" title=\"Powered by SiteCaddy.com\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.sitecaddy\\.com\"\\ title=\"Powered\\ by\\ SiteCaddy\\.com\">",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<img src=\"/mysitecaddy/assets3/common/images/poweredbysitecaddy.gif\" alt=\"Powered by SiteCaddy.com\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"/mysitecaddy/assets3/common/images/poweredbysitecaddy\\.gif\"\\ alt=\"Powered\\ by\\ SiteCaddy\\.com\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

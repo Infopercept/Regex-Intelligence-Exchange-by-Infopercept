@@ -4,6 +4,7 @@
   "product": "OLAT",
   "product_id": "olat",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"DC.creator\" content=\"University of Zurich - http://www.uzh.ch\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"DC\\.creator\"\\ content=\"University\\ of\\ Zurich\\ \\-\\ http://www\\.uzh\\.ch\"\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"DC.subject\" content=\"OLAT - Online Learning And Training - Your Open Source Learning Management System\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"DC\\.subject\"\\ content=\"OLAT\\ \\-\\ Online\\ Learning\\ And\\ Training\\ \\-\\ Your\\ Open\\ Source\\ Learning\\ Management\\ System\"\\ />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<meta name=\"DC.contributor\" content=\"see http://www.olat.org/website/en/html/download_license.html\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"DC\\.contributor\"\\ content=\"see\\ http://www\\.olat\\.org/website/en/html/download_license\\.html\"\\ />",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<title>OLAT - Online Learning And Training</title></head>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>OLAT\\ \\-\\ Online\\ Learning\\ And\\ Training</title></head>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<title>OLAT - Online Learning And Training </title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>OLAT\\ \\-\\ Online\\ Learning\\ And\\ Training\\ </title>",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<body onload=\"b_start();\" id=\"b_body\" class=\"b_lang_en\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ onload=\"b_start\\(\\);\"\\ id=\"b_body\"\\ class=\"b_lang_en\">",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "<body onload=\"b_start();\" id=\"b_body\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ onload=\"b_start\\(\\);\"\\ id=\"b_body\">",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "<body onload=\"o2start();\" class=\"o_body\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ onload=\"o2start\\(\\);\"\\ class=\"o_body\">",
       "version_group": 0
@@ -208,7 +217,8 @@
             "input": "<!-- START olatContentPanel -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ START\\ olatContentPanel\\ \\-\\->",
       "version_group": 0
@@ -231,11 +241,11 @@
             "input": "<a accesskey=\"2\" href=\"#content\" title=\"Go to \"Content\"\"></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ accesskey=\"2\"\\ href=\"\\#content\"\\ title=\"Go\\ to\\ \"Content\"\"></a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

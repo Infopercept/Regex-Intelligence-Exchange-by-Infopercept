@@ -4,6 +4,7 @@
   "product": "Oracle-Access-Manager",
   "product_id": "oracle-access-manager",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "ObSSOCookie=[^;]+;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "ObSSOCookie=[^;]+;",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "obrareq.cgi",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "obrareq\\.cgi",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

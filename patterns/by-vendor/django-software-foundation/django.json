@@ -4,14 +4,12 @@
   "product": "Django",
   "product_id": "django-software-foundation-django",
   "category": "framework",
+  "subcategory": "web-framework",
   "versions": {},
   "all_versions": [
     {
       "name": "Django Framework - X-Powered-By Header",
-      "category": "framework",
       "pattern": "X-Powered-By: Django ([\\d.]+)",
-      "vendor": "Django Software Foundation",
-      "product": "Django",
       "version_group": 1,
       "priority": 140,
       "confidence": 0.8,
@@ -31,9 +29,9 @@
             "input": "X-Powered-By: Django 4.1.7",
             "expected_version": "4.1.7"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
-  ],
-  "subcategory": "web-framework"
+  ]
 }

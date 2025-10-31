@@ -4,6 +4,7 @@
   "product": "Covalent-Enterprise-Ready-Server",
   "product_id": "covalent-enterprise-ready-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: secured_by_Covalent/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: secured_by_Covalent/([^\\s]+)",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "Server: (CovalentSNMP/[^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: (CovalentSNMP/[^\\s]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

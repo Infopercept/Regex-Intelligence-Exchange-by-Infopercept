@@ -4,6 +4,7 @@
   "product": "BitKeeper",
   "product_id": "bitkeeper",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<A class=\"tab\" HREF=\"/cgi-bin/query.cgi?.page=advquery\">Advanced Query</A>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<A\\ class=\"tab\"\\ HREF=\"/cgi\\-bin/query\\.cgi\\?\\.page=advquery\">Advanced\\ Query</A>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^bkhttp/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^bkhttp/([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

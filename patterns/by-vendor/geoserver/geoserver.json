@@ -4,6 +4,7 @@
   "product": "GeoServer",
   "product_id": "geoserver",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<link rel=\"shortcut icon\" href=\"resources/org.geoserver.web.GeoServerBasePage/favicon.ico\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ href=\"resources/org\\.geoserver\\.web\\.GeoServerBasePage/favicon\\.ico\"/>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<link href=\"resources/org.geoserver.web.GeoServerBasePage/favicon.ico\" rel=\"shortcut icon\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ href=\"resources/org\\.geoserver\\.web\\.GeoServerBasePage/favicon\\.ico\"\\ rel=\"shortcut\\ icon\"/>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<body>[s]+<p><b>Redirecting to the actual home page.</b></p>[s]+<p>If you're stuck here, it means you don't have javascript[s]+enabled. Javascript is required to actually use the GeoServer admin console.</p>[s]+</body>[s]+</html>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body>[\\s]+<p><b>Redirecting to the actual home page\\.</b></p>[\\s]+<p>If you're stuck here, it means you don't have javascript[\\s]+enabled\\. Javascript is required to actually use the GeoServer admin console.</p>[\\s]+</body>[\\s]+</html>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

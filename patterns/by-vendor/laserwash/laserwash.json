@@ -4,6 +4,7 @@
   "product": "LaserWash",
   "product_id": "laserwash",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "^Basic realm=\"PDQ Laserwash\"$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Basic realm=\"PDQ Laserwash\"$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "CollegiateLink",
   "product_id": "collegiatelink",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "</div></div></div><div class=\"salink\"><span class=\"shadow\"><!----></span></div></div><span class=\"clearDiv\"><!----></span></div></div><span class=\"clearDiv\"><!----></span><script type=\"text/javascript\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "</div></div></div><div\\ class=\"salink\"><span\\ class=\"shadow\"><!\\-\\-\\-\\-></span></div></div><span\\ class=\"clearDiv\"><!\\-\\-\\-\\-></span></div></div><span\\ class=\"clearDiv\"><!\\-\\-\\-\\-></span><script\\ type=\"text/javascript\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

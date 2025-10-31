@@ -4,6 +4,7 @@
   "product": "WikiWebHelp",
   "product_id": "wikiwebhelp",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "style=\"float:left;\"><img src=\"theme/default/images/wh32.png\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "style=\"float:left;\"><img\\ src=\"theme/default/images/wh32\\.png\"",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<script type=\"text/javascript\" language=\"javascript\" src=\"script/wicky/wiky.js\" ></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ type=\"text/javascript\"\\ language=\"javascript\"\\ src=\"script/wicky/wiky\\.js\"\\ ></script>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

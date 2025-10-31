@@ -4,6 +4,7 @@
   "product": "CubeCart",
   "product_id": "cubecart",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<div class='txtCopyright'>Powered by <a href='http://www.cubecart.com' class='txtCopyright' target='_blank'>CubeCart</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ class='txtCopyright'>Powered\\ by\\ <a\\ href='http://www\\.cubecart\\.com'\\ class='txtCopyright'\\ target='_blank'>CubeCart</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

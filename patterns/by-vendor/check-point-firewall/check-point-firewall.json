@@ -4,6 +4,7 @@
   "product": "Check-Point-Firewall",
   "product_id": "check-point-firewall",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -26,9 +27,8 @@
           }
         ]
       },
-      "pattern": "\\",
+      "pattern": "CheckPoint",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

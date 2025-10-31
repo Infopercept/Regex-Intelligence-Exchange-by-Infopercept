@@ -4,6 +4,7 @@
   "product": "Tine-2",
   "product_id": "tine-2",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- Tine 2.0 static files -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Tine\\ 2\\.0\\ static\\ files\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- Tine 2.0 setup static files -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Tine\\ 2\\.0\\ setup\\ static\\ files\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "Powered by: <a target=\"_blank\" href=\"http://www.tine20.org/\">Tine 2.0</a></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by:\\ <a\\ target=\"_blank\"\\ href=\"http://www\\.tine20\\.org/\">Tine\\ 2\\.0</a></div>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<noscript><p>You need to enable javascript to use <a href=\"http://www.tine20.org/\" title=\"online open source groupware and crm\">Tine 2.0</a></p></noscript>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<noscript><p>You\\ need\\ to\\ enable\\ javascript\\ to\\ use\\ <a\\ href=\"http://www\\.tine20\\.org/\"\\ title=\"online\\ open\\ source\\ groupware\\ and\\ crm\">Tine\\ 2\\.0</a></p></noscript>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<noscript>You need to enable javascript to use <a href=\"http://www.tine20.org\">Tine 2.0 setup or use the CLI setup</a></noscript>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<noscript>You\\ need\\ to\\ enable\\ javascript\\ to\\ use\\ <a\\ href=\"http://www\\.tine20\\.org\">Tine\\ 2\\.0\\ setup\\ or\\ use\\ the\\ CLI\\ setup</a></noscript>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

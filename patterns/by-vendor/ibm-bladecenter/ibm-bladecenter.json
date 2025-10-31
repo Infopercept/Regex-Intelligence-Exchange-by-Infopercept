@@ -4,6 +4,7 @@
   "product": "IBM-BladeCenter",
   "product_id": "ibm-bladecenter",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<h1><img src=\"/shared/ibmbc.png\" alt=\"IBM BladeCenter Advanced Management Module\" border=\"0\" /></h1>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h1><img\\ src=\"/shared/ibmbc\\.png\"\\ alt=\"IBM\\ BladeCenter\\ Advanced\\ Management\\ Module\"\\ border=\"0\"\\ /></h1>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<img id=\"logo\" src=\"/shared/banner_logo.png\" alt=\"IBM\" width=\"41\" height=\"15\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ id=\"logo\"\\ src=\"/shared/banner_logo\\.png\"\\ alt=\"IBM\"\\ width=\"41\"\\ height=\"15\"\\ />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<form method=\"post\" name=\"login\" action=\"/shared/userlogin.php\"><input type=\"hidden\" name=\"SESSID\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ method=\"post\"\\ name=\"login\"\\ action=\"/shared/userlogin\\.php\"><input\\ type=\"hidden\"\\ name=\"SESSID\"",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<img src=\"/shared/banner_left.jpg\" width=110 height=53 alt=\"banner\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"/shared/banner_left\\.jpg\"\\ width=110\\ height=53\\ alt=\"banner\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Zoph",
   "product_id": "zoph",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<li class=\"selected\"><a href=\"zoph.php\">home</a></li><li ><a href=\"albums.php\">albums</a></li><li ><a href=\"categories.php\">categories</a></li><li >",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<li\\ class=\"selected\"><a\\ href=\"zoph\\.php\">home</a></li><li\\ ><a\\ href=\"albums\\.php\">albums</a></li><li\\ ><a\\ href=\"categories\\.php\">categories</a></li><li\\ >",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<title>Zoph - Home</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Zoph\\ \\-\\ Home</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

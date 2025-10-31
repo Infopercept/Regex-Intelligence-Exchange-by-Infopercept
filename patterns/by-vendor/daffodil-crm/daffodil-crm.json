@@ -4,6 +4,7 @@
   "product": "Daffodil-CRM",
   "product_id": "daffodil-crm",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div id=\"right_footer\">Powered by Daffodil Software Ltd</div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"right_footer\">Powered\\ by\\ Daffodil\\ Software\\ Ltd</div>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<div id=\"right_footer\">Design & Development by Daffodil Software Ltd</div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"right_footer\">Design\\ \\&\\ Development\\ by\\ Daffodil\\ Software\\ Ltd</div>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": " href=\"?app=forgot_passwd&amp;cmd=passwd_send\">[^>]*Forgot Password?</a></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": " href=\"\\?app=forgot_passwd&amp;cmd=passwd_send\">[^>]*Forgot Password\\?</a></td>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

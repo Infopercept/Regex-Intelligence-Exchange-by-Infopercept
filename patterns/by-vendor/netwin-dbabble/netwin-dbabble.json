@@ -4,6 +4,7 @@
   "product": "NetWin-DBabble",
   "product_id": "netwin-dbabble",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>DBabble login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>DBabble\\ login</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<LINK REL = \"stylesheet\" TYPE = \"text/css\" HREF = \"/cgi/dbabble.cgi?cmd_get_js2=dbabble.css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<LINK\\ REL\\ =\\ \"stylesheet\"\\ TYPE\\ =\\ \"text/css\"\\ HREF\\ =\\ \"/cgi/dbabble\\.cgi\\?cmd_get_js2=dbabble\\.css\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<LINK REL = \"stylesheet\" TYPE = \"text/css\" HREF = \"/dbabble?cmd_get_js2=dbabble.css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<LINK\\ REL\\ =\\ \"stylesheet\"\\ TYPE\\ =\\ \"text/css\"\\ HREF\\ =\\ \"/dbabble\\?cmd_get_js2=dbabble\\.css\">",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<script language=\"JavaScript\" src=\"/cgi/dbabble.cgi?cmd_get_js2=dbabble.js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ language=\"JavaScript\"\\ src=\"/cgi/dbabble\\.cgi\\?cmd_get_js2=dbabble\\.js\"></script>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<script language=\"JavaScript\" src=\"/dbabble?cmd_get_js2=dbabble.js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ language=\"JavaScript\"\\ src=\"/dbabble\\?cmd_get_js2=dbabble\\.js\"></script>",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "if (window.top!=window && window.location!=\"/cgi/dbabble.cgi\") {",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "if\\ \\(window\\.top!=window\\ \\&\\&\\ window\\.location!=\"/cgi/dbabble\\.cgi\"\\)\\ \\{",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "if (window.top!=window && window.location!=\"/dbabble\") {",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "if\\ \\(window\\.top!=window\\ \\&\\&\\ window\\.location!=\"/dbabble\"\\)\\ \\{",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "document.writeln(\"<b>Warning - DBabble requires a web browser that Supports JavaScript 1.1 or higher.</b><br>\");",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "document\\.writeln\\(\"<b>Warning\\ \\-\\ DBabble\\ requires\\ a\\ web\\ browser\\ that\\ Supports\\ JavaScript\\ 1\\.1\\ or\\ higher\\.</b><br>\"\\);",
       "version_group": 0
@@ -208,7 +217,8 @@
             "input": "<form style=\"margin:0\" name=\"loginform\" method=\"POST\" target=\"_top\" action=\"/cgi/dbabble.cgi\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ style=\"margin:0\"\\ name=\"loginform\"\\ method=\"POST\"\\ target=\"_top\"\\ action=\"/cgi/dbabble\\.cgi\"",
       "version_group": 0
@@ -231,7 +241,8 @@
             "input": "<form style=\"margin:0\" name=\"loginform\" method=\"POST\" target=\"_top\" action=\"/dbabble\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ style=\"margin:0\"\\ name=\"loginform\"\\ method=\"POST\"\\ target=\"_top\"\\ action=\"/dbabble\"",
       "version_group": 0
@@ -254,7 +265,8 @@
             "input": "<a target=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ target=\\\\",
       "version_group": 0
@@ -277,11 +289,11 @@
             "input": "You can use DBabble securely but slower through your web browser at <a href=\"http",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "You\\ can\\ use\\ DBabble\\ securely\\ but\\ slower\\ through\\ your\\ web\\ browser\\ at\\ <a\\ href=\"http",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

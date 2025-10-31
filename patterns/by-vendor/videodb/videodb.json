@@ -4,6 +4,7 @@
   "product": "VideoDB",
   "product_id": "videodb",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a href=\"index.php?export=pdf&amp;ext=.pdf\"><img src=\"images/pdfexport.png\" /></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"index\\.php\\?export=pdf\\&amp;ext=\\.pdf\"><img\\ src=\"images/pdfexport\\.png\"\\ /></a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- /content --><!-- footer.tpl -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ /content\\ \\-\\-><!\\-\\-\\ footer\\.tpl\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"VideoDB RSS\" href=\"index.php?export=rss\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"alternate\"\\ type=\"application/rss\\+xml\"\\ title=\"VideoDB\\ RSS\"\\ href=\"index\\.php\\?export=rss\"\\ />",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<meta name='description' content='VideoDB' />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name='description'\\ content='VideoDB'\\ />",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<meta name=\"description\" content=\"VideoDB\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"description\"\\ content=\"VideoDB\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

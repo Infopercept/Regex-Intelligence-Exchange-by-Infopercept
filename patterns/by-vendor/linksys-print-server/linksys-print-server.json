@@ -4,6 +4,7 @@
   "product": "Linksys-Print-Server",
   "product_id": "linksys-print-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<td align=\"right\" class=\"pname\" height=\"25\" colspan=\"5\">Print Server for USB with 4-Port Switch &nbsp; &nbsp; </td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ align=\"right\"\\ class=\"pname\"\\ height=\"25\"\\ colspan=\"5\">Print\\ Server\\ for\\ USB\\ with\\ 4\\-Port\\ Switch\\ \\&nbsp;\\ \\&nbsp;\\ </td>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Server: ^PRINT_SERVER WEB 8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^PRINT_SERVER WEB ([\\d\\.]+)$",
       "version_group": 1
@@ -70,11 +73,11 @@
             "input": "^PRINT_SERVER WEB",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^PRINT_SERVER WEB",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

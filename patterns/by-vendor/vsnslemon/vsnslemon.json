@@ -4,6 +4,7 @@
   "product": "VSNSLemon",
   "product_id": "vsnslemon",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<p>Powered by <abbr title=\"very simple news system\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p>Powered\\ by\\ <abbr\\ title=\"very\\ simple\\ news\\ system\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<a[^>]+title=\"Blog powered by VSNS Lemon\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a[^>]+title=\"Blog powered by VSNS Lemon\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<div id=\"vsns-(inner|container)\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div id=\"vsns-(inner|container)\">",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<img[^>]+alt=\"VSNS Lemon\"[^>]+title=\"Blog powered by VSNS Lemon\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img[^>]+alt=\"VSNS Lemon\"[^>]+title=\"Blog powered by VSNS Lemon\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

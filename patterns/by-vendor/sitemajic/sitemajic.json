@@ -4,6 +4,7 @@
   "product": "SiteMajic",
   "product_id": "sitemajic",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<td width=109 align='left'><input type='text' name='UserName' size='20' style='font-family: Arial; font-size: 8pt;' onKeyPress=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ width=109\\ align='left'><input\\ type='text'\\ name='UserName'\\ size='20'\\ style='font\\-family:\\ Arial;\\ font\\-size:\\ 8pt;'\\ onKeyPress=\\\\",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Website Powered by <a href='http://www.sitemajic.com' style='text-decoration:none'>SiteMajic</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Website\\ Powered\\ by\\ <a\\ href='http://www\\.sitemajic\\.com'\\ style='text\\-decoration:none'>SiteMajic</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

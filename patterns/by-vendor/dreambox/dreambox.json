@@ -4,6 +4,7 @@
   "product": "Dreambox",
   "product_id": "dreambox",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^Enigma2 WebInterface Server 8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Enigma2 WebInterface Server ([\\d\\.]+)$",
       "version_group": 1
@@ -47,7 +49,8 @@
             "input": "^TwistedWeb",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^TwistedWeb",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "Server: ^TwistedWeb/8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^TwistedWeb/([\\d\\.]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

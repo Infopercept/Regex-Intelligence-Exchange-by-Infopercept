@@ -4,6 +4,7 @@
   "product": "CGI:IRC",
   "product_id": "cgi-irc",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>CGI:IRC Login</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>CGI:IRC\\ Login</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<body bgcolor=\"#ffffff\" text=\"#000000\" onload=\"setcharset();\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ bgcolor=\"\\#ffffff\"\\ text=\"\\#000000\"\\ onload=\"setcharset\\(\\);\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<form method=\"post\" action=\"irc.cgi\" name=\"loginform\" onsubmit=\"setjs()\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form\\ method=\"post\"\\ action=\"irc\\.cgi\"\\ name=\"loginform\"\\ onsubmit=\"setjs\\(\\)\">",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<small><a href=\"irc.cgi?adv=1\">Advanced..</a></small>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<small><a\\ href=\"irc\\.cgi\\?adv=1\">Advanced\\.\\.</a></small>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,12 +4,13 @@
   "product": "SPIP",
   "product_id": "spip",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
-      "name": "SPIP Pattern",
+      "name": "SPIP Search Form Pattern",
       "priority": 100,
-      "confidence": 0.8,
+      "confidence": 0.9,
       "metadata": {
         "author": "WhatWeb Project",
         "created_at": "2025-01-01",
@@ -24,13 +25,14 @@
             "input": "<div class=\"formulaire_spip formulaire_recherche\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ class=\"formulaire_spip\\ formulaire_recherche\"",
       "version_group": 0
     },
     {
-      "name": "SPIP Pattern",
+      "name": "SPIP Footer Pattern",
       "priority": 100,
       "confidence": 0.8,
       "metadata": {
@@ -47,36 +49,14 @@
             "input": "SPIP @ www.spip.net",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "SPIP @ www\\.spip\\.net",
       "version_group": 0
     },
     {
-      "name": "SPIP Pattern",
-      "priority": 100,
-      "confidence": 0.8,
-      "metadata": {
-        "author": "WhatWeb Project",
-        "created_at": "2025-01-01",
-        "updated_at": "2025-01-01",
-        "description": "Pattern extracted from WhatWeb plugin for SPIP",
-        "tags": [
-          "whatweb",
-          "extracted"
-        ],
-        "test_cases": [
-          {
-            "input": "^.+$",
-            "expected_version": "unknown"
-          }
-        ]
-      },
-      "pattern": "^.+$",
-      "version_group": 0
-    },
-    {
-      "name": "SPIP Pattern",
+      "name": "SPIP Link Pattern",
       "priority": 100,
       "confidence": 0.8,
       "metadata": {
@@ -93,13 +73,14 @@
             "input": "<a href=\"spip.php",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"spip\\.php",
       "version_group": 0
     },
     {
-      "name": "SPIP Pattern",
+      "name": "SPIP Image Pattern",
       "priority": 100,
       "confidence": 0.8,
       "metadata": {
@@ -116,11 +97,35 @@
             "input": "<img src=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\\\\",
       "version_group": 0
+    },
+    {
+      "name": "SPIP Generator Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for SPIP",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"SPIP",
+            "expected_version": "unknown"
+          }
+        ],
+        "compiled_pattern": true
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"SPIP",
+      "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

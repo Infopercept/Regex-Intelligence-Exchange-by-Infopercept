@@ -4,6 +4,7 @@
   "product": "MD-Pro",
   "product_id": "md-pro",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a href=\"language/eng/dbfail.html\" style=\"text-decoration: none;\">MAXdev - Problem in Database Connection: click here to read more...</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"language/eng/dbfail\\.html\"\\ style=\"text\\-decoration:\\ none;\">MAXdev\\ \\-\\ Problem\\ in\\ Database\\ Connection:\\ click\\ here\\ to\\ read\\ more\\.\\.\\.</a>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<a href=\"http://www.maxdev.it\" target=\"_blank\">Powered by MAXDev</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://www\\.maxdev\\.it\"\\ target=\"_blank\">Powered\\ by\\ MAXDev</a>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<div class=\"poweredtext\"><a href=\"javascript:opencredits()\">Credit(i|s)</a> <a href=\"http://www.maxdev(.it|italia.com)\">Powered by MAXdev</a></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div class=\"poweredtext\"><a href=\"javascript:opencredits\\(\\)\">Credit(i|s)</a> <a href=\"http://www.maxdev(.it|italia.com)\">Powered by MAXdev</a></div>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "************** MAXdev - MAXdev (http://www.maxdev.it) ***********",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\ MAXdev\\ \\-\\ MAXdev\\ \\(http://www\\.maxdev\\.it\\)\\ \\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "************** MAXdev - MAXdev (http://www.maxdev.com) ***********",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\ MAXdev\\ \\-\\ MAXdev\\ \\(http://www\\.maxdev\\.com\\)\\ \\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

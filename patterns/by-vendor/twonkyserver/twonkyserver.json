@@ -4,6 +4,7 @@
   "product": "TwonkyServer",
   "product_id": "twonkyserver",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "TwonkyMedia UPnP",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "TwonkyMedia UPnP",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"description\" content=\"TwonkyMedia Digital Home\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"description\"\\ content=\"TwonkyMedia\\ Digital\\ Home\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<td><strong><font color=\"#294A94\" size=\"2\">TwonkyMedia Settings</font></strong></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><strong><font\\ color=\"\\#294A94\"\\ size=\"2\">TwonkyMedia\\ Settings</font></strong></td>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<html><head><title>TwonkyServer Media Browser</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html><head><title>TwonkyServer\\ Media\\ Browser</title>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<html><head><title>TwonkyMedia server media browser</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html><head><title>TwonkyMedia\\ server\\ media\\ browser</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

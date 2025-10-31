@@ -4,6 +4,7 @@
   "product": "H3C-SecBlade-FireWall",
   "product_id": "h3c-secblade-firewall",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Switch$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Switch$",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<script language=javascript src=\"js/MulPlatAPI.js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ language=javascript\\ src=\"js/MulPlatAPI\\.js\"></script>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<a href=\"../cn/login.html\"><img border=\"0\" src=\"../images/Cnlink.jpg\" alt=\"Chinese\"></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"\\.\\./cn/login\\.html\"><img\\ border=\"0\"\\ src=\"\\.\\./images/Cnlink\\.jpg\"\\ alt=\"Chinese\"></a>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<a href=\"../en/login.html\"><img border=\"0\" src=\"../images/Enlink.jpg\" alt=\"English\"></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"\\.\\./en/login\\.html\"><img\\ border=\"0\"\\ src=\"\\.\\./images/Enlink\\.jpg\"\\ alt=\"English\"></a>",
       "version_group": 0
@@ -116,11 +121,11 @@
             "input": "<script language=javascript src=\"/js/MulPlatAPI.js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ language=javascript\\ src=\"/js/MulPlatAPI\\.js\"></script>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

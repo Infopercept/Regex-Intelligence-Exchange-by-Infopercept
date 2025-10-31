@@ -4,6 +4,7 @@
   "product": "LuxCal",
   "product_id": "luxcal",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"description\" content=\"LuxCal web calendar - a LuxSoft product\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"description\"\\ content=\"LuxCal\\ web\\ calendar\\ \\-\\ a\\ LuxSoft\\ product\"\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<link rel=\"shortcut icon\" href=\"lcal.ico\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"shortcut\\ icon\"\\ href=\"lcal\\.ico\"\\ />",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<meta name=\"author\" content=\"Roel Buining\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"author\"\\ content=\"Roel\\ Buining\"\\ />",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<span class=\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<span\\ class=\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

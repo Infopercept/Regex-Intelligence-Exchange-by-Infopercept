@@ -4,6 +4,7 @@
   "product": "PEAR",
   "product_id": "pear",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<title>PEAR :: PEAR_Info()</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>PEAR\\ ::\\ PEAR_Info\\(\\)</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

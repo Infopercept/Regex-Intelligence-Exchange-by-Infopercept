@@ -4,14 +4,12 @@
   "product": "Couchbase Server",
   "product_id": "couchbase-couchbase-server",
   "category": "database",
+  "subcategory": "database-engine",
   "versions": {},
   "all_versions": [
     {
       "name": "Couchbase Server",
-      "category": "database",
       "pattern": "implementationVersion\": \"(\\d+\\.\\d+(?:\\.\\d+)?)",
-      "vendor": "Couchbase",
-      "product": "Couchbase Server",
       "version_group": 1,
       "priority": 150,
       "confidence": 0.8,
@@ -35,9 +33,9 @@
             "input": "\"implementationVersion\": \"6.2.0-1234-community\"",
             "expected_version": "6.2.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
-  ],
-  "subcategory": "database-engine"
+  ]
 }

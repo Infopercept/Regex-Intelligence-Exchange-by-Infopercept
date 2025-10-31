@@ -4,6 +4,7 @@
   "product": "Artifactory",
   "product_id": "artifactory",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<html ng-app=\"artifactory.ui\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html\\ ng\\-app=\"artifactory\\.ui\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<body jf-body-class ng-class=\"{\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ jf\\-body\\-class\\ ng\\-class=\"\\{\\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

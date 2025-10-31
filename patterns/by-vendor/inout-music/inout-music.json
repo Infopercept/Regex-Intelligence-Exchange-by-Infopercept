@@ -4,6 +4,7 @@
   "product": "Inout-Music",
   "product_id": "inout-music",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": " href=\"http://www.inoutscripts.com/?r=13\">Powered by Inoutscripts</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ href=\"http://www\\.inoutscripts\\.com/\\?r=13\">Powered\\ by\\ Inoutscripts</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "WordPress-Mobile-Pack",
   "product_id": "wordpress-mobile-pack",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "x-mobilized-by: ^WordPress Mobile Pack ([^\\s]+)$",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-mobilized-by: ^WordPress Mobile Pack ([^\\s]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

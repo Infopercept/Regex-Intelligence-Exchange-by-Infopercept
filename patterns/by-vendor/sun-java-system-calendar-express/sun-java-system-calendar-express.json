@@ -4,6 +4,7 @@
   "product": "Sun-Java-System-Calendar-Express",
   "product_id": "sun-java-system-calendar-express",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<TITLE>Sun Java[tm] System Calendar Express</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>Sun\\ Java\\[tm\\]\\ System\\ Calendar\\ Express</TITLE>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<img src=\"imx/login-logo.gif\" width=\"186\" height=\"79\" alt=\"Sun Microsystems, Inc.\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"imx/login\\-logo\\.gif\"\\ width=\"186\"\\ height=\"79\"\\ alt=\"Sun\\ Microsystems,\\ Inc\\.\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

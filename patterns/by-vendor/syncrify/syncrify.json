@@ -4,6 +4,7 @@
   "product": "Syncrify",
   "product_id": "syncrify",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta NAME=\"Keywords\" CONTENT=\"Syncrify - Fast incremental backup\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ NAME=\"Keywords\"\\ CONTENT=\"Syncrify\\ \\-\\ Fast\\ incremental\\ backup\"\\ />",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<p>Powered by <a href='http://www.syncrify.com' >Syncrify</a></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p>Powered\\ by\\ <a\\ href='http://www\\.syncrify\\.com'\\ >Syncrify</a></p>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

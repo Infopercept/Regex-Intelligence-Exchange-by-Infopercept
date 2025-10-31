@@ -4,6 +4,7 @@
   "product": "Cimplicity-WebView",
   "product_id": "cimplicity-webview",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<TITLE>CIMPLICITY WebView</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>CIMPLICITY\\ WebView</TITLE>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<APPLET NAME=\"ProwlerClientAppletObject\" ARCHIVE=\"/ProwlerClient.jar\" ",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<APPLET\\ NAME=\"ProwlerClientAppletObject\"\\ ARCHIVE=\"/ProwlerClient\\.jar\"\\ ",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "^CIMPLICITY-HttpSvr",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^CIMPLICITY-HttpSvr",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "Server: ^CIMPLICITY-HttpSvr/8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^CIMPLICITY-HttpSvr/([\\d\\.]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

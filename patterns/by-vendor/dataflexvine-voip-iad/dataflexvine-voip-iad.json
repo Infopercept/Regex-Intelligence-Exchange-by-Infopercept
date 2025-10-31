@@ -4,6 +4,7 @@
   "product": "DataflexViNE-VoIP-IAD",
   "product_id": "dataflexvine-voip-iad",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: DataflexViNE-Webserver/8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: DataflexViNE-Webserver/([\\d\\.]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

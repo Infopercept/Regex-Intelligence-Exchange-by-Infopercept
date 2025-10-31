@@ -4,6 +4,7 @@
   "product": "Ionize-CMS",
   "product_id": "ionize-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div id=\"loginWindow\" class=\" clearfix\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"loginWindow\"\\ class=\"\\ clearfix\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<div id=\"content\" class=\"content\" onKeyPress=\"javascript:doSubmit(event);\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"content\"\\ class=\"content\"\\ onKeyPress=\"javascript:doSubmit\\(event\\);\">",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<p class=\"note\">view : <b>default/article</b></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ class=\"note\">view\\ :\\ <b>default/article</b></p>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<p class=\"article-date\">07.09.2010</p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ class=\"article\\-date\">07\\.09\\.2010</p>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<meta name=\"description\" content=\"HandMade, an Ionize theme\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"description\"\\ content=\"HandMade,\\ an\\ Ionize\\ theme\"\\ />",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "<!--[s]+Displays the Google code defined in Ionize's Advanced settings panel[s]+-->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!--[\\s]+Displays the Google code defined in Ionize's Advanced settings panel[\\s]+-->",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

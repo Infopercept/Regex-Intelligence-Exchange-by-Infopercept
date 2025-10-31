@@ -4,6 +4,7 @@
   "product": "Windows-Internet-Printing",
   "product_id": "windows-internet-printing",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "        <td width=\"12%\"><img src=\"images/ipp_0002.gif\" alt=\"printers.gif\"></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ \\ \\ \\ \\ <td\\ width=\"12%\"><img\\ src=\"images/ipp_0002\\.gif\"\\ alt=\"printers\\.gif\"></td>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "      <tr><td bgcolor=#000000 nowrap><font  face=\"Tahoma, Verdana, Arial, MS Sans Serif\"  size=2 color=white><b>Name&nbsp;&nbsp;</b></font></td><td bgcolor=#000000 nowrap><font  face=\"Tahoma, Verdana, Arial, MS Sans Serif\"  size=2 color=white><b>Status&nbsp;&nbsp;</b></font></td><td bgcolor=#000000 nowrap><font  face=\"Tahoma, Verdana, Arial, MS Sans Serif\"  size=2 color=white><b>Location&nbsp;&nbsp;</b></font></td><td bgcolor=#000000 nowrap><font  face=\"Tahoma, Verdana, Arial, MS Sans Serif\"  size=2 color=white><b>Jobs&nbsp;&nbsp;</b></font></td><td bgcolor=#000000 nowrap><font  face=\"Tahoma, Verdana, Arial, MS Sans Serif\"  size=2 color=white><b>Model&nbsp;&nbsp;</b></font></td><td bgcolor=#000000 nowrap><font  face=\"Tahoma, Verdana, Arial, MS Sans Serif\"  size=2 color=white><b>Comment&nbsp;&nbsp;</b></font></td></tr><tr><td nowrap><font  face=\"Tahoma, Verdana, Arial, MS Sans Serif\"  size=2>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ \\ \\ <tr><td\\ bgcolor=\\#000000\\ nowrap><font\\ \\ face=\"Tahoma,\\ Verdana,\\ Arial,\\ MS\\ Sans\\ Serif\"\\ \\ size=2\\ color=white><b>Name\\&nbsp;\\&nbsp;</b></font></td><td\\ bgcolor=\\#000000\\ nowrap><font\\ \\ face=\"Tahoma,\\ Verdana,\\ Arial,\\ MS\\ Sans\\ Serif\"\\ \\ size=2\\ color=white><b>Status\\&nbsp;\\&nbsp;</b></font></td><td\\ bgcolor=\\#000000\\ nowrap><font\\ \\ face=\"Tahoma,\\ Verdana,\\ Arial,\\ MS\\ Sans\\ Serif\"\\ \\ size=2\\ color=white><b>Location\\&nbsp;\\&nbsp;</b></font></td><td\\ bgcolor=\\#000000\\ nowrap><font\\ \\ face=\"Tahoma,\\ Verdana,\\ Arial,\\ MS\\ Sans\\ Serif\"\\ \\ size=2\\ color=white><b>Jobs\\&nbsp;\\&nbsp;</b></font></td><td\\ bgcolor=\\#000000\\ nowrap><font\\ \\ face=\"Tahoma,\\ Verdana,\\ Arial,\\ MS\\ Sans\\ Serif\"\\ \\ size=2\\ color=white><b>Model\\&nbsp;\\&nbsp;</b></font></td><td\\ bgcolor=\\#000000\\ nowrap><font\\ \\ face=\"Tahoma,\\ Verdana,\\ Arial,\\ MS\\ Sans\\ Serif\"\\ \\ size=2\\ color=white><b>Comment\\&nbsp;\\&nbsp;</b></font></td></tr><tr><td\\ nowrap><font\\ \\ face=\"Tahoma,\\ Verdana,\\ Arial,\\ MS\\ Sans\\ Serif\"\\ \\ size=2>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

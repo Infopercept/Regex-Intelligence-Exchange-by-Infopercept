@@ -4,6 +4,7 @@
   "product": "Indico",
   "product_id": "indico",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<td class=\"menuConfTopCell\" align=\"left\" valign=\"bottom\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ class=\"menuConfTopCell\"\\ align=\"left\"\\ valign=\"bottom\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

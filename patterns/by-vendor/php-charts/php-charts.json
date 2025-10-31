@@ -4,6 +4,7 @@
   "product": "php-Charts",
   "product_id": "php-charts",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "b(href|src)s*=s*[\"'][^>]*url.php?type=bar&dimension=[^s^&]+&data_type=[^s^&]+&file_path=[^&]+&group_col=[^s^&]+&series_col=[^s^&]+&output_type=[^s^&]+",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\b(href|src)\\s*=\\s*[\"'][^>]*url\\.php\\?type=bar&dimension=[^\\s^&]+&data_type=[^\\s^&]+&file_path=[^&]+&group_col=[^\\s^&]+&series_col=[^\\s^&]+&output_type=[^\\s^&]+",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Newscoop",
   "product_id": "newscoop",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by Newscoop, the open content management system for professional journalists.<br />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ Newscoop,\\ the\\ open\\ content\\ management\\ system\\ for\\ professional\\ journalists\\.<br\\ />",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by <a href=\"http://newscoop.sourcefabric.org/\" target=\"_blank\">Newscoop</a>, the open content management system for professional journalists.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href=\"http://newscoop\\.sourcefabric\\.org/\"\\ target=\"_blank\">Newscoop</a>,\\ the\\ open\\ content\\ management\\ system\\ for\\ professional\\ journalists\\.",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<meta name=\"generator\" content=\"Newscoop\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"Newscoop\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

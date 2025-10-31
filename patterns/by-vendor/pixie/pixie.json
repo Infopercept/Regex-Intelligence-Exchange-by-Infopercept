@@ -4,6 +4,7 @@
   "product": "Pixie",
   "product_id": "pixie",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "href=\"http://www.getpixie.co.uk\" title=\"Get Pixie\">(Pixie Powered|Powered by Pixie|Pixie)</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "href=\"http://www.getpixie.co.uk\" title=\"Get Pixie\">(Pixie Powered|Powered by Pixie|Pixie)</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

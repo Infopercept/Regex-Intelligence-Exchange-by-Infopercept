@@ -4,6 +4,7 @@
   "product": "Hycus-CMS",
   "product_id": "hycus-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"generator\" content=\"Hycus - Open Source PHP Based Content Management\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"Hycus\\ \\-\\ Open\\ Source\\ PHP\\ Based\\ Content\\ Management\"\\ />",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Powered By <a href=\"http://www.hycus.com\" target=\"_blank\" >Hycus-CMS</a>. Developed By <a href=\"http://www.hycus.com\" target=\"_blank\" >Hycus Team</a>.",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ By\\ <a\\ href=\"http://www\\.hycus\\.com\"\\ target=\"_blank\"\\ >Hycus\\-CMS</a>\\.\\ Developed\\ By\\ <a\\ href=\"http://www\\.hycus\\.com\"\\ target=\"_blank\"\\ >Hycus\\ Team</a>\\.",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

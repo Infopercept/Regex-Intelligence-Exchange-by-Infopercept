@@ -4,6 +4,7 @@
   "product": "Viscacha",
   "product_id": "viscacha",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"generator\" content=\"Viscacha (http://www.viscacha.org)\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"Viscacha\\ \\(http://www\\.viscacha\\.org\\)\"\\ />",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<link rel=\"copyright\" href=\"http://www.viscacha.org\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"copyright\"\\ href=\"http://www\\.viscacha\\.org\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

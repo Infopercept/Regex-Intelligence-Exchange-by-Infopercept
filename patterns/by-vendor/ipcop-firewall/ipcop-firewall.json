@@ -4,6 +4,7 @@
   "product": "IPCop-Firewall",
   "product_id": "ipcop-firewall",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "    <title>IPCop - Main page</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ <title>IPCop\\ \\-\\ Main\\ page</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "    <style type=\"text/css\">@import url(/include/ipcop.css);</style>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ \\ <style\\ type=\"text/css\">@import\\ url\\(/include/ipcop\\.css\\);</style>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "\t<td valign='bottom'><a href='http://sf.net/projects/ipcop/' target='_blank'><img src='/images/sflogo.png' width='88' height='31' alt='Sourceforge logo' /></a></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<td\\ valign='bottom'><a\\ href='http://sf\\.net/projects/ipcop/'\\ target='_blank'><img\\ src='/images/sflogo\\.png'\\ width='88'\\ height='31'\\ alt='Sourceforge\\ logo'\\ /></a></td>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<td style='background-color: #EAE9EE;' align='left' width='100%'><b>Home</b> | <a href='/cgi-bin/updates.cgi'>Updates</a> | <a href='/cgi-bin/changepw.cgi'>Passwords</a> | <a href='/cgi-bin/remote.cgi'>SSH Access</a> | <a href='/cgi-bin/gui.cgi'>GUI Settings</a> | <a href='/cgi-bin/backup.cgi'>Backup</a> | <a href='/cgi-bin/shutdown.cgi'>Shutdown</a> | <a href='/cgi-bin/credits.cgi'>Credits</a></td></tr></table>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td\\ style='background\\-color:\\ \\#EAE9EE;'\\ align='left'\\ width='100%'><b>Home</b>\\ \\|\\ <a\\ href='/cgi\\-bin/updates\\.cgi'>Updates</a>\\ \\|\\ <a\\ href='/cgi\\-bin/changepw\\.cgi'>Passwords</a>\\ \\|\\ <a\\ href='/cgi\\-bin/remote\\.cgi'>SSH\\ Access</a>\\ \\|\\ <a\\ href='/cgi\\-bin/gui\\.cgi'>GUI\\ Settings</a>\\ \\|\\ <a\\ href='/cgi\\-bin/backup\\.cgi'>Backup</a>\\ \\|\\ <a\\ href='/cgi\\-bin/shutdown\\.cgi'>Shutdown</a>\\ \\|\\ <a\\ href='/cgi\\-bin/credits\\.cgi'>Credits</a></td></tr></table>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<!-- IPCOP FOOTER -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ IPCOP\\ FOOTER\\ \\-\\->",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "/* used in status.cgi (among others) */",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/\\*\\ used\\ in\\ status\\.cgi\\ \\(among\\ others\\)\\ \\*/",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

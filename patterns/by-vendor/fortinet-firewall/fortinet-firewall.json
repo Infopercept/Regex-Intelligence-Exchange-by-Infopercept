@@ -4,6 +4,7 @@
   "product": "Fortinet-Firewall",
   "product_id": "fortinet-firewall",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "str_table.token_needed = \"Please input your token code.\";[s]+str_table.ncode_needed = \"FortiToken clock drift detected. Please input the next code and continue.\";[s]+str_table.mail_token_msg = \"An email message containing a Token Code will be sent to\";",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "str_table\\.token_needed = \"Please input your token code.\";[\\s]+str_table\\.ncode_needed = \"FortiToken clock drift detected\\. Please input the next code and continue\\.\";[\\s]+str_table\\.mail_token_msg = \"An email message containing a Token Code will be sent to\";",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

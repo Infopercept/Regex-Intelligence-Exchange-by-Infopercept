@@ -4,6 +4,7 @@
   "product": "Kordil-EDMS",
   "product_id": "kordil-edms",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "stm_aix(\"p6i3\",\"p1i0\",[0,\" Kordil EDMS\\\\\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "stm_aix\\(\"p6i3\",\"p1i0\",\\[0,\"\\ Kordil\\ EDMS\\\\\\\\\\\\",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "https?://[^/]+kordil_edms/documents.php$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "https?://[^/]+kordil_edms/documents\\.php$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

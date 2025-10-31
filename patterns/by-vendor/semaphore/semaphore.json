@@ -4,6 +4,7 @@
   "product": "Semaphore",
   "product_id": "semaphore",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<html><head><title>Semaphore server Error</title></head><body>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html><head><title>Semaphore\\ server\\ Error</title></head><body>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- Display the \"Powered by Semaphore\" logo -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Display\\ the\\ \"Powered\\ by\\ Semaphore\"\\ logo\\ \\-\\->",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<a href=\"http://www.smartlogic.com/poweredbysemaphore\"><img src=\"[^\"^>]+/semaphore/semaphore_small.gif\"[^>]+alt=\"Powered by Semaphore\" title=\"Powered by Semaphore\" /></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"http://www.smartlogic.com/poweredbysemaphore\"><img src=\"[^\"^>]+/semaphore/semaphore_small\\.gif\"[^>]+alt=\"Powered by Semaphore\" title=\"Powered by Semaphore\" /></a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

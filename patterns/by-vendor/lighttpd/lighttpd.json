@@ -4,6 +4,7 @@
   "product": "lighttpd",
   "product_id": "lighttpd",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "lighttpd",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "lighttpd",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^[\\s]*lighttpd/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^[\\s]*lighttpd/([^\\s]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

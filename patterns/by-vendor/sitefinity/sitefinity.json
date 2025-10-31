@@ -4,6 +4,7 @@
   "product": "Sitefinity",
   "product_id": "sitefinity",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "href=\"http://www.sitefinity.com\" class=\"poweredBySitefinity\" title=\"Sitefinity ASP.NET CMS\">Powered by Sitefinity ASP.NET CMS</a></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "href=\"http://www\\.sitefinity\\.com\"\\ class=\"poweredBySitefinity\"\\ title=\"Sitefinity\\ ASP\\.NET\\ CMS\">Powered\\ by\\ Sitefinity\\ ASP\\.NET\\ CMS</a></p>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "title=\"Sitefinity ASP.NET CMS\" class=\"poweredBySitefinity\" href=\"http://www.sitefinity.com\">Powered by Sitefinity ASP.NET CMS</a></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "title=\"Sitefinity\\ ASP\\.NET\\ CMS\"\\ class=\"poweredBySitefinity\"\\ href=\"http://www\\.sitefinity\\.com\">Powered\\ by\\ Sitefinity\\ ASP\\.NET\\ CMS</a></p>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<link href=\"/[Ss]ite[Ff]inity/WebsiteTemplates/",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link href=\"/[Ss]ite[Ff]inity/WebsiteTemplates/",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

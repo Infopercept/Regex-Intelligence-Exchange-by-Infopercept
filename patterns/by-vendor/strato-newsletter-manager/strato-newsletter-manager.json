@@ -4,6 +4,7 @@
   "product": "STRATO-Newsletter-Manager",
   "product_id": "strato-newsletter-manager",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<td><img src=\"http://strato.de/cgi2004/cgi2.0/images/transparent120x94.gif\" alt=\"CGI 2004\" /></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<td><img\\ src=\"http://strato\\.de/cgi2004/cgi2\\.0/images/transparent120x94\\.gif\"\\ alt=\"CGI\\ 2004\"\\ /></td>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<title>STRATO Newsletter Manager</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>STRATO\\ Newsletter\\ Manager</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

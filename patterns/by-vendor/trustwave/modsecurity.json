@@ -4,14 +4,12 @@
   "product": "ModSecurity",
   "product_id": "trustwave-modsecurity",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
       "name": "ModSecurity WAF - Server Header",
-      "category": "web",
       "pattern": "Server:.*mod_security/([\\d.]+)",
-      "vendor": "Trustwave",
-      "product": "ModSecurity",
       "version_group": 1,
       "priority": 160,
       "confidence": 0.9,
@@ -31,15 +29,13 @@
             "input": "Server: Apache/2.4.41 (Ubuntu) mod_security/2.9.3",
             "expected_version": "2.9.3"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     },
     {
       "name": "ModSecurity WAF - Custom Header",
-      "category": "web",
       "pattern": "ModSecurity: ([\\d.]+)",
-      "vendor": "Trustwave",
-      "product": "ModSecurity",
       "version_group": 1,
       "priority": 150,
       "confidence": 0.85,
@@ -59,9 +55,9 @@
             "input": "ModSecurity: 3.0.4",
             "expected_version": "3.0.4"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

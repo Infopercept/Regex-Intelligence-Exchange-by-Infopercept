@@ -4,6 +4,7 @@
   "product": "Lantronix-Device",
   "product_id": "lantronix-device",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: ^Gordian Embedded8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Gordian Embedded([\\d\\.]+)$",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "^Gordian Embedded",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Gordian Embedded",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

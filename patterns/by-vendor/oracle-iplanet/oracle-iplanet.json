@@ -4,6 +4,7 @@
   "product": "Oracle-iPlanet",
   "product_id": "oracle-iplanet",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "proxy-agent: iPlanet-Web-Proxy-Server/1.0",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "proxy-agent: iPlanet-Web-Proxy-Server/([\\d\\.]+)",
       "version_group": 1
@@ -47,7 +49,8 @@
             "input": "Server: iPlanet-WebServer-Enterprise/8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: iPlanet-WebServer-Enterprise/([\\d\\.]+)",
       "version_group": 1
@@ -70,11 +73,11 @@
             "input": "Server: Oracle-iPlanet-Web-Server/8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: Oracle-iPlanet-Web-Server/([\\d\\.]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

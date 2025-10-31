@@ -4,6 +4,7 @@
   "product": "TiVo",
   "product_id": "tivo",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^tivo-httpd",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^tivo-httpd",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^tivo-httpd-[\\d]+:(.+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^tivo-httpd-[\\d]+:(.+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

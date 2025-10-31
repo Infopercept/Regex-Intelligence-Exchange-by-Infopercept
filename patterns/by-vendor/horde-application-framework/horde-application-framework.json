@@ -4,6 +4,7 @@
   "product": "Horde-Application-Framework",
   "product_id": "horde-application-framework",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "title=\"This site is powered by The Horde Application Framework.\" href=\"http://horde.org\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "title=\"This\\ site\\ is\\ powered\\ by\\ The\\ Horde\\ Application\\ Framework\\.\"\\ href=\"http://horde\\.org\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Powered by </font><a href=\"http://www.horde.org/\" TARGET=_blank>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ </font><a\\ href=\"http://www\\.horde\\.org/\"\\ TARGET=_blank>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!-- IMP: Copyright 2001-2006, The Horde Project. IMP is under the GPL. -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ IMP:\\ Copyright\\ 2001\\-2006,\\ The\\ Horde\\ Project\\.\\ IMP\\ is\\ under\\ the\\ GPL\\.\\ \\-\\->",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<!--   Horde Project: http://horde.org/ | IMP: http://horde.org/imp/    -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ \\ \\ Horde\\ Project:\\ http://horde\\.org/\\ \\|\\ IMP:\\ http://horde\\.org/imp/\\ \\ \\ \\ \\-\\->",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "/themes/graphics/horde-power1.png\" alt=\"Powered by Horde\" title=\"\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "/themes/graphics/horde\\-power1\\.png\"\\ alt=\"Powered\\ by\\ Horde\"\\ title=\"\"\\ />",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "if (typeof(_setHordeTitle) == 'undefined' && document.title && parent.frames.horde_main) parent.document.title = document.title;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "if\\ \\(typeof\\(_setHordeTitle\\)\\ ==\\ 'undefined'\\ \\&\\&\\ document\\.title\\ \\&\\&\\ parent\\.frames\\.horde_main\\)\\ parent\\.document\\.title\\ =\\ document\\.title;",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "<!-- This file contains any \"Message Of The Day\" Type information -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ This\\ file\\ contains\\ any\\ \"Message\\ Of\\ The\\ Day\"\\ Type\\ information\\ \\-\\->",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "<a href=\"icon_browser.php?app=chora\">Version Control</a><br />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"icon_browser\\.php\\?app=chora\">Version\\ Control</a><br\\ />",
       "version_group": 0
@@ -208,7 +217,8 @@
             "input": "<html><body bgcolor=\"#aaaaaa\"><a href=\"icon_browser.php\">Application List</a><br /><br /><h2>Icons for My Account</h2>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html><body\\ bgcolor=\"\\#aaaaaa\"><a\\ href=\"icon_browser\\.php\">Application\\ List</a><br\\ /><br\\ /><h2>Icons\\ for\\ My\\ Account</h2>",
       "version_group": 0
@@ -231,7 +241,8 @@
             "input": "<script language=\"JavaScript\" type=\"text/javascript\" src=\"/hunter/js/enter_key_trap.js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script\\ language=\"JavaScript\"\\ type=\"text/javascript\"\\ src=\"/hunter/js/enter_key_trap\\.js\"></script>",
       "version_group": 0
@@ -254,11 +265,11 @@
             "input": "<link href=\"/mail/mailbox.php?mailbox=INBOX\" rel=\"Top\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ href=\"/mail/mailbox\\.php\\?mailbox=INBOX\"\\ rel=\"Top\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

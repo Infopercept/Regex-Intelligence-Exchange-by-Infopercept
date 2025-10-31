@@ -4,6 +4,7 @@
   "product": "crossdomain_xml",
   "product_id": "crossdomain_xml",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<cross-domain-policy>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<cross\\-domain\\-policy>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<site-control permitted-cross-domain-policies=\"none\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<site\\-control\\ permitted\\-cross\\-domain\\-policies=\"none\"/>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "PJIRC",
   "product_id": "pjirc",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<body onload=\"document.login.nick.focus();\" style=\"margin: 5px;\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ onload=\"document\\.login\\.nick\\.focus\\(\\);\"\\ style=\"margin:\\ 5px;\">",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "\t\t\t\t\tdocument.writeln(\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t\\\t\\\t\\\t\\\tdocument\\.writeln\\(\\\\",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "\t\t\t\t<form name=\"login\" action=\"[^\"]*index.php\" method=\"post\" onsubmit=\"return CheckForm('[^']*index.php?page=advanced')\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\t\t\t\t<form name=\"login\" action=\"[^\"]*index\\.php\" method=\"post\" onsubmit=\"return CheckForm\\('[^']*index\\.php\\?page=advanced'\\)\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

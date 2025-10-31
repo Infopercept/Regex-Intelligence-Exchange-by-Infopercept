@@ -4,6 +4,7 @@
   "product": "Edito-CMS",
   "product_id": "edito-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"(g|G)enerator\" content=\"(E|e)dito( CMS)? - www.edito.pl\"[s]*/?>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"(g|G)enerator\" content=\"(E|e)dito( CMS)? - www\\.edito\\.pl\"[\\s]*/?>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Powered by[s]*:?[s]+<a[^>]+href=\"http://www.edito.pl[/]?\"[^>]+title=\"Edito CMS\"[^>]*>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by[\\s]*:?[\\s]+<a[^>]+href=\"http://www.edito.pl[/]?\"[^>]+title=\"Edito CMS\"[^>]*>",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

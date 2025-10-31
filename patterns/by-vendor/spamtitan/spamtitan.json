@@ -4,6 +4,7 @@
   "product": "SpamTitan",
   "product_id": "spamtitan",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -47,11 +48,11 @@
             "input": "<table class=\"lhead\"><tr><td class=\"img\"><img src=\"/imgs/logo.gif\" alt=\"SpamTitan Logo\"></td></tr></table></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<table\\ class=\"lhead\"><tr><td\\ class=\"img\"><img\\ src=\"/imgs/logo\\.gif\"\\ alt=\"SpamTitan\\ Logo\"></td></tr></table></div>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

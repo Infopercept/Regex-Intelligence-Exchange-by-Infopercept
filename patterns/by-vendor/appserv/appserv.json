@@ -4,6 +4,7 @@
   "product": "AppServ",
   "product_id": "appserv",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<font color=\"#000080\" class=\"headd\">&nbsp;&nbsp;&nbsp;<img src=\"appserv/softicon.gif\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<font\\ color=\"\\#000080\"\\ class=\"headd\">\\&nbsp;\\&nbsp;\\&nbsp;<img\\ src=\"appserv/softicon\\.gif\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Fidion-CMS",
   "product_id": "fidion-cms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- ================== This site is powered by: ==================== -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ ==================\\ This\\ site\\ is\\ powered\\ by:\\ ====================\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- | fCMS by fidion GmbH, Wüg.         http://www.fidion.de  | -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ \\|\\ fCMS\\ by\\ fidion\\ GmbH,\\ Wüg\\.\\ \\ \\ \\ \\ \\ \\ \\ \\ http://www\\.fidion\\.de\\ \\ \\|\\ \\-\\->",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<!-- fCMS-Template head.tpl begins -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ fCMS\\-Template\\ head\\.tpl\\ begins\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

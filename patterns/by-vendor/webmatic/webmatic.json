@@ -4,6 +4,7 @@
   "product": "Webmatic",
   "product_id": "webmatic",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Powered&nbsp;by&nbsp;<a href=\"http://www.webmatic.it\">Webmatic</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\&nbsp;by\\&nbsp;<a\\ href=\"http://www\\.webmatic\\.it\">Webmatic</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

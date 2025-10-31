@@ -4,6 +4,7 @@
   "product": "Movable-Type",
   "product_id": "movable-type",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<script type=\"text/javascript\" src=\"[^\"]+mt(-site)?.js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script type=\"text/javascript\" src=\"[^\"]+mt(-site)?\\.js\"></script>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "\"[^\"]+/mt-(tags|tb|cp|search|user-login|recommend).[f]?cgi[^\"]*\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\"[^\"]+/mt-(tags|tb|cp|search|user-login|recommend)\\.[f]?cgi[^\"]*\"",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<meta name=\"generator\" content=\"http://www.movabletype.org/\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta name=\"generator\" content=\"http://www\\.movabletype\\.org/\" />",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<title>Movable Type System Check [mt-check.cgi]</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Movable\\ Type\\ System\\ Check\\ \\[mt\\-check\\.cgi\\]</title>",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<a href=\"http://sixapart.com\">Powered by Movable Type</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a href=\"http://sixapart\\.com\">Powered by Movable Type</a>",
       "version_group": 0
@@ -139,11 +145,11 @@
             "input": "Powered by <a href=\"http://www.movabletype.com/\"[^>]*>Movable Type</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by <a href=\"http://www\\.movabletype\\.com/\"[^>]*>Movable Type</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

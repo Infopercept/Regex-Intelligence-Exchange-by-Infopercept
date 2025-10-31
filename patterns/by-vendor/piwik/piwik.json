@@ -4,6 +4,7 @@
   "product": "Piwik",
   "product_id": "piwik",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>Piwik &rsaquo; Web Analytics Reports</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Piwik\\ \\&rsaquo;\\ Web\\ Analytics\\ Reports</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<img src=\"themes/default/images/loading-blue.gif\" alt=\"\" /> Loading data",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"themes/default/images/loading\\-blue\\.gif\"\\ alt=\"\"\\ />\\ Loading\\ data",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "^_pk_",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^_pk_",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "^PIWIK_SESSID",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^PIWIK_SESSID",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

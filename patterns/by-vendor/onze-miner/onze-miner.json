@@ -4,6 +4,7 @@
   "product": "ONZE-Miner",
   "product_id": "onze-miner",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<link rel=\"stylesheet\" href=\"transcriber.css\" type=\"text/css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"transcriber\\.css\"\\ type=\"text/css\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<a href=\"http://onzeminer.sourceforge.net\">ONZE Miner</a> is free software distributed under the terms of the <a href=\"/miner/gpl.txt\" target=\"license\">GNU General Public License</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"http://onzeminer\\.sourceforge\\.net\">ONZE\\ Miner</a>\\ is\\ free\\ software\\ distributed\\ under\\ the\\ terms\\ of\\ the\\ <a\\ href=\"/miner/gpl\\.txt\"\\ target=\"license\">GNU\\ General\\ Public\\ License</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

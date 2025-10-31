@@ -4,6 +4,7 @@
   "product": "CAStor",
   "product_id": "castor",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<html><head><title>CAStor Node Status</title></head><body><h2>CAStor Node IP",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<html><head><title>CAStor\\ Node\\ Status</title></head><body><h2>CAStor\\ Node\\ IP",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Server: ^CAStor Cluster/([^\\s]+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^CAStor Cluster/([^\\s]+)$",
       "version_group": 1
@@ -70,7 +73,8 @@
             "input": "^[d]+$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^[\\d]+$",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "^[d]+$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^[\\d]+$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

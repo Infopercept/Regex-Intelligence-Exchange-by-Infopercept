@@ -4,6 +4,7 @@
   "product": "Muster-Render-Farm",
   "product_id": "muster-render-farm",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<body onLoad=\"init_page()\" name=\"muster_login\" >",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body\\ onLoad=\"init_page\\(\\)\"\\ name=\"muster_login\"\\ >",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<applet code=\"FileFolderSelector.class\" archive=\"FileFolderSelector.jar\" CODEBASE=\"js\" id=\"FileSelector\" name=\"FileSelector\" width=\"1\" height=\"1\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<applet\\ code=\"FileFolderSelector\\.class\"\\ archive=\"FileFolderSelector\\.jar\"\\ CODEBASE=\"js\"\\ id=\"FileSelector\"\\ name=\"FileSelector\"\\ width=\"1\"\\ height=\"1\">",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "Server: ^cias-muster([\\d])$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^cias-muster([\\d])$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

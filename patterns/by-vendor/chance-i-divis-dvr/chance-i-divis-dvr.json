@@ -4,6 +4,7 @@
   "product": "CHANCE-i-DiViS-DVR",
   "product_id": "chance-i-divis-dvr",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Server: ^Techno Vision Security System Ver. 8.5$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Techno Vision Security System Ver. ([\\d\\.]+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

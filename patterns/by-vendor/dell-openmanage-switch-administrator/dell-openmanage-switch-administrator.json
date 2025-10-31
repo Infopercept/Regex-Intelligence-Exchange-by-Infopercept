@@ -4,6 +4,7 @@
   "product": "Dell-OpenManage-Switch-Administrator",
   "product_id": "dell-openmanage-switch-administrator",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Web Server",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Web\\ Server",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title>Dell OpenManage Switch Administrator</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Dell\\ OpenManage\\ Switch\\ Administrator</title>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "window.top.location.href = \\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "window\\.top\\.location\\.href\\ =\\ \\\\",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

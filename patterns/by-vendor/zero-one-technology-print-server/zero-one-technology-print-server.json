@@ -4,6 +4,7 @@
   "product": "Zero-One-Technology-Print-Server",
   "product_id": "zero-one-technology-print-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^ZOT-PS-",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^ZOT-PS-",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^ZOT-PS-[\\d]+/(.+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^ZOT-PS-[\\d]+/(.+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

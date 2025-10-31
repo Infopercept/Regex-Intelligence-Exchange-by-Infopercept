@@ -4,6 +4,7 @@
   "product": "Arab-Portal",
   "product_id": "arab-portal",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<META NAME=\"COPYRIGHT\" CONTENT=\"Copyright[^>]*by Arab[s]*Portal\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<META NAME=\"COPYRIGHT\" CONTENT=\"Copyright[^\\>]*by Arab[\\s]*Portal\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

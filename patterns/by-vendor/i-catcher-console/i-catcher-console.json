@@ -4,6 +4,7 @@
   "product": "i-Catcher-Console",
   "product_id": "i-catcher-console",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "   // These vars will be filled in by i-Catcher Console",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ \\ \\ //\\ These\\ vars\\ will\\ be\\ filled\\ in\\ by\\ i\\-Catcher\\ Console",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": " <title>i-Catcher Console - Live view</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\ <title>i\\-Catcher\\ Console\\ \\-\\ Live\\ view</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

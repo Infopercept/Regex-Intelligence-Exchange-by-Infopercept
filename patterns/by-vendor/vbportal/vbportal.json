@@ -4,6 +4,7 @@
   "product": "vbPortal",
   "product_id": "vbportal",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"generator\" content=\"vbPortal - Copyright 2010\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"vbPortal\\ \\-\\ Copyright\\ 2010\"\\ />",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "\t<!-- Do not remove  or your scheduled tasks will cease to function -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "\\\t<!\\-\\-\\ Do\\ not\\ remove\\ \\ or\\ your\\ scheduled\\ tasks\\ will\\ cease\\ to\\ function\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

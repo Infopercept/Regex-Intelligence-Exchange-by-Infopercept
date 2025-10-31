@@ -4,6 +4,7 @@
   "product": "TVersity",
   "product_id": "tversity",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: TVersity Media Server",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: TVersity Media Server",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "Server: TVersity Media Server/8.5",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: TVersity Media Server/([\\d\\.]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

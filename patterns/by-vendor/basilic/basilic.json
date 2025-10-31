@@ -4,6 +4,7 @@
   "product": "Basilic",
   "product_id": "basilic",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Powered by <a href='http://artis.imag.fr/Software/Basilic/'>Basilic</a></p>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered\\ by\\ <a\\ href='http://artis\\.imag\\.fr/Software/Basilic/'>Basilic</a></p>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<a href='http://artis.imag.fr/Software/Basilic'>Powered by Basilic</a></span>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href='http://artis\\.imag\\.fr/Software/Basilic'>Powered\\ by\\ Basilic</a></span>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

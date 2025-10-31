@@ -4,6 +4,7 @@
   "product": "ShopEx",
   "product_id": "shopex",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>[^<]* -- Powered by Shop(e|E)x</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>[^<]* -- Powered by Shop(e|E)x</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<p align=center><font color=black style='font-size:9pt;font-family:Arial'>Powered by </font><a href='http://www.shopex.cn' target='_blank'><font color=navy style='font-size:9pt;font-family:Arial;text-decoration:under-line'>Shop<font><font color=orange style='font-size:9pt;font-family:Arial;text-decoration:under-line'>Ex<font></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<p\\ align=center><font\\ color=black\\ style='font\\-size:9pt;font\\-family:Arial'>Powered\\ by\\ </font><a\\ href='http://www\\.shopex\\.cn'\\ target='_blank'><font\\ color=navy\\ style='font\\-size:9pt;font\\-family:Arial;text\\-decoration:under\\-line'>Shop<font><font\\ color=orange\\ style='font\\-size:9pt;font\\-family:Arial;text\\-decoration:under\\-line'>Ex<font></a>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<link href=\"syssite/home/shop/[d]+/images/[d]+/css.css\" rel=\"stylesheet\" type=\"text/css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link href=\"syssite/home/shop/[\\d]+/images/[\\d]+/css\\.css\" rel=\"stylesheet\" type=\"text/css\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Day-Communique",
   "product_id": "day-communique",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Communique",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Communique",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "Server: Communique/([^\\s]+ \\([^\\)]+\\))",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: Communique/([^\\s]+ \\([^\\)]+\\))",
       "version_group": 1
@@ -70,11 +73,11 @@
             "input": "Server: Communique/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: Communique/([^\\s]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

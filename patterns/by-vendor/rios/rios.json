@@ -4,6 +4,7 @@
   "product": "RiOS",
   "product_id": "rios",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "x-rbt-optimized-by: \\(RiOS ([^\\s]+)\\)",
             "expected_version": "1.0"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "x-rbt-optimized-by: \\(RiOS ([^\\s]+)\\)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

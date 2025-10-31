@@ -4,6 +4,7 @@
   "product": "Easy-Site-Edit",
   "product_id": "easy-site-edit",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Powered by <a href=\"http://www.easysiteedit.com\" class=\"link(tahoma11)?[^\"]*\" target=\"_blank\">Easy Site-Edit</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered by <a href=\"http://www\\.easysiteedit\\.com\" class=\"link(tahoma11)?[^\"]*\" target=\"_blank\">Easy Site-Edit</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "EDIMAX",
   "product_id": "edimax",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<title>EDIMAX Technology</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>EDIMAX\\ Technology</title>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<title>Access Point Status</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>Access\\ Point\\ Status</title>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "cdwindow=window.open('countdown.asp','CountDown','channelmode=0, directories=0,fullscreen=0,height=100,location=0,menubar=0,resizable=1,scrollbars=0,status=0,titlebar=0,toolbar=0,width=450','false');",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "cdwindow=window\\.open\\('countdown\\.asp','CountDown','channelmode=0,\\ directories=0,fullscreen=0,height=100,location=0,menubar=0,resizable=1,scrollbars=0,status=0,titlebar=0,toolbar=0,width=450','false'\\);",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<link rel=\"stylesheet\" href=\"edimax.css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"stylesheet\"\\ href=\"edimax\\.css\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

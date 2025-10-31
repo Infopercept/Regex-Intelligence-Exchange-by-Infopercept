@@ -4,6 +4,7 @@
   "product": "Infinet-bCX1-Controller-Router",
   "product_id": "infinet-bcx1-controller-router",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<H2><u><A HREF=\"/BCXMain\"><font face=\"Arial\" size=\"3\">Controller Configuration Options</FONT></A></u></H2>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<H2><u><A\\ HREF=\"/BCXMain\"><font\\ face=\"Arial\"\\ size=\"3\">Controller\\ Configuration\\ Options</FONT></A></u></H2>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<img BORDER=\"0\" src=\"/Images/taclogo\" </A></H3>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ BORDER=\"0\"\\ src=\"/Images/taclogo\"\\ </A></H3>",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<img BORDER=\"0\" src=\"/Images/AndoverContinuum\"</A><P>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ BORDER=\"0\"\\ src=\"/Images/AndoverContinuum\"</A><P>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "OpenLookup",
   "product_id": "openlookup",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<h2>OpenLookup Node Status</h2>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<h2>OpenLookup\\ Node\\ Status</h2>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

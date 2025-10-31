@@ -4,6 +4,7 @@
   "product": "Minecraft-Server",
   "product_id": "minecraft-server",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<span>Map type:</span><select id=\"mode\" onchange=\"show(1,$(\\",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<span>Map\\ type:</span><select\\ id=\"mode\"\\ onchange=\"show\\(1,\\$\\(\\\\",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<title>MineOS Admin Page</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>MineOS\\ Admin\\ Page</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

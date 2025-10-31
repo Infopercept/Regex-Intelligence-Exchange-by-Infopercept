@@ -4,6 +4,7 @@
   "product": "Aurion",
   "product_id": "aurion",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<br/>Please enable JavaScript in your browser or refer to you internal IT support for assistance.<br/><br/></div>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<br/>Please\\ enable\\ JavaScript\\ in\\ your\\ browser\\ or\\ refer\\ to\\ you\\ internal\\ IT\\ support\\ for\\ assistance\\.<br/><br/></div>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- Aurion Teal will be used as the login-time default. Shell layouts will replace these after login. -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Aurion\\ Teal\\ will\\ be\\ used\\ as\\ the\\ login\\-time\\ default\\.\\ Shell\\ layouts\\ will\\ replace\\ these\\ after\\ login\\.\\ \\-\\->",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<!-- teal.css has stuff needed for div#loading-noscript -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ teal\\.css\\ has\\ stuff\\ needed\\ for\\ div\\#loading\\-noscript\\ \\-\\->",
       "version_group": 0
@@ -93,11 +97,11 @@
             "input": "<meta http-equiv=\"X-UA-Compatible\" content=\"chrome=1; IE=8; IE=7\"> <!-- Stop Internet Explorer from using \"Compatability Mode\" -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ http\\-equiv=\"X\\-UA\\-Compatible\"\\ content=\"chrome=1;\\ IE=8;\\ IE=7\">\\ <!\\-\\-\\ Stop\\ Internet\\ Explorer\\ from\\ using\\ \"Compatability\\ Mode\"\\ \\-\\->",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

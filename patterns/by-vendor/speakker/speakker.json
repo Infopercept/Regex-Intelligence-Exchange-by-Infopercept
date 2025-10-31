@@ -4,6 +4,7 @@
   "product": "Speakker",
   "product_id": "speakker",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<!-- INSTANTIATE SPEAKKER -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ INSTANTIATE\\ SPEAKKER\\ \\-\\->",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<!-- INCLUDE SPEAKKER -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ INCLUDE\\ SPEAKKER\\ \\-\\->",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<script type=\"text/javascript\" src=\"[^\"]+/(projekktor|speakker).min.js\"></script>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<script type=\"text/javascript\" src=\"[^\"]+/(projekktor|speakker)\\.min\\.js\"></script>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

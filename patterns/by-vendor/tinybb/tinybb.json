@@ -4,6 +4,7 @@
   "product": "TinyBB",
   "product_id": "tinybb",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Proudly powered by <a href='http://tinybb.net'>TinyBB</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Proudly\\ powered\\ by\\ <a\\ href='http://tinybb\\.net'>TinyBB</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

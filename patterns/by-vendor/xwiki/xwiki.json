@@ -4,6 +4,7 @@
   "product": "XWiki",
   "product_id": "xwiki",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<meta name=\"wiki\" content=\"xwiki\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"wiki\"\\ content=\"xwiki\"/>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<div id=\"xwikilicence\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"xwikilicence\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

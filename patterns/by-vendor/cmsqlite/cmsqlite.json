@@ -4,6 +4,7 @@
   "product": "CMSQLite",
   "product_id": "cmsqlite",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<div id=\"cmsqliteFooter\"><span id=\"anchorFooter\"><a href=\"http://www.cmsqlite.net\" target=\"_blank\">powered by CMSQLite</a></span></div></body></html>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<div\\ id=\"cmsqliteFooter\"><span\\ id=\"anchorFooter\"><a\\ href=\"http://www\\.cmsqlite\\.net\"\\ target=\"_blank\">powered\\ by\\ CMSQLite</a></span></div></body></html>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "<meta name=\"generator\" content=\"www.CMSQLite.net by www.Netzabdruck.de\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"generator\"\\ content=\"www\\.CMSQLite\\.net\\ by\\ www\\.Netzabdruck\\.de\"\\ />",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

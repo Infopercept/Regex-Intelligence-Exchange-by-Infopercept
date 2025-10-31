@@ -4,6 +4,7 @@
   "product": "ACTi-Web-Configurator",
   "product_id": "acti-web-configurator",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<form name=\"frm(LOGIN|Config)\" method=\"POST\" enctype=\"multipart/form-data\" action=\"videoconfiguration.cgi\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<form name=\"frm(LOGIN|Config)\" method=\"POST\" enctype=\"multipart/form-data\" action=\"videoconfiguration\\.cgi\">",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

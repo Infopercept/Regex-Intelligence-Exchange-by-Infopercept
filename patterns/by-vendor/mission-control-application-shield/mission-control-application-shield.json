@@ -4,6 +4,7 @@
   "product": "Mission-Control-Application-Shield",
   "product_id": "mission-control-application-shield",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<img id=\"logo\" src=\"/srm-error-pages/images/logo.gif\" alt=\"mission control application shield\" ></td><td><p class=\"notification\">Notification</p></td>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ id=\"logo\"\\ src=\"/srm\\-error\\-pages/images/logo\\.gif\"\\ alt=\"mission\\ control\\ application\\ shield\"\\ ></td><td><p\\ class=\"notification\">Notification</p></td>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "^Mission Control Application Shield$",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Mission Control Application Shield$",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

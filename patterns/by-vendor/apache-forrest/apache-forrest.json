@@ -4,6 +4,7 @@
   "product": "Apache-Forrest",
   "product_id": "apache-forrest",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "<meta content=\"Apache Forrest\" name=\"Generator\"",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ content=\"Apache\\ Forrest\"\\ name=\"Generator\"",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "Microsoft-WinCE",
   "product_id": "microsoft-wince",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Microsoft-WinCE",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Microsoft-WinCE",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^Microsoft-WinCE/([\\S]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Microsoft-WinCE/([\\S]+)",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

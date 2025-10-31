@@ -4,6 +4,7 @@
   "product": "Kerio-Connect",
   "product_id": "kerio-connect",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "^Kerio",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^Kerio",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "Server: ^Kerio (MailServer|Connect) (.+)$",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: ^Kerio (MailServer|Connect) (.+)$",
       "version_group": 1
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

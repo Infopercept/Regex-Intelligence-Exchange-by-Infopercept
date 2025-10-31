@@ -4,6 +4,7 @@
   "product": "360-Web-Manager",
   "product_id": "360-web-manager",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "360WebManager Software :: administrador contenidos web",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "360WebManager Software :: administrador contenidos web",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

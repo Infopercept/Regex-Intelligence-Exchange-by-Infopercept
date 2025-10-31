@@ -4,6 +4,7 @@
   "product": "OBM",
   "product_id": "obm",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<body>[s]+[s]+<p id=\"aliasource\">[s]+<a href=\"http://www.obm.org\">OBM.org</a>[s]+</p>[s]+<h1>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<body>[\\s]+[\\s]+<p id=\"aliasource\">[\\s]+<a href=\"http://www\\.obm\\.org\">OBM\\.org</a>[\\s]+</p>[\\s]+<h1>",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "OBM_Session=[s]+;",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "OBM_Session=[\\s]+;",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

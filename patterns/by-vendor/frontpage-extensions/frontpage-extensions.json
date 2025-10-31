@@ -4,6 +4,7 @@
   "product": "FrontPage-Extensions",
   "product_id": "frontpage-extensions",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "Server: FrontPage/([^\\s]+)",
             "expected_version": "8.5"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Server: FrontPage/([^\\s]+)",
       "version_group": 1
@@ -47,11 +49,11 @@
             "input": "^FrontPage",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "^FrontPage",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "CraftCMS",
   "product_id": "craftcms",
   "category": "cms",
+  "subcategory": "cms-platform",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<a id=\"poweredby\" href=\"http://craftcms.com/\" title=\"Powered by Craft CMS\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ id=\"poweredby\"\\ href=\"http://craftcms\\.com/\"\\ title=\"Powered\\ by\\ Craft\\ CMS\">",
       "version_group": 0
@@ -47,11 +49,11 @@
             "input": "CraftSessionId",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "CraftSessionId",
       "version_group": 0
     }
-  ],
-  "subcategory": "cms-platform"
+  ]
 }

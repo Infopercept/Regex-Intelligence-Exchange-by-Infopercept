@@ -4,6 +4,7 @@
   "product": "Star-Network",
   "product_id": "star-network",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,11 +25,11 @@
             "input": "Powered [b|B]+y <a href=\"http://www.[starltd.net|s4u.co.il]+[/]*\">Star Network[ and Promotion LTD|&amp; Promotion LTD]*</a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "Powered [b|B]+y <a href=\"http://www.[starltd.net|s4u.co.il]+[/]*\">Star Network[\\ and\\ Promotion\\ LTD|\\&amp\\;\\ Promotion\\ LTD]*</a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

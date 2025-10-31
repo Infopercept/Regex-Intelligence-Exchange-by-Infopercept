@@ -4,6 +4,7 @@
   "product": "Redmine",
   "product_id": "redmine",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "_redmine_session=",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "_redmine_session=",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<meta name=\"description\" content=\"Redmine\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<meta\\ name=\"description\"\\ content=\"Redmine\"\\ />",
       "version_group": 0
@@ -70,11 +73,11 @@
             "input": "<title>redMine 404 error</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>redMine\\ 404\\ error</title>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

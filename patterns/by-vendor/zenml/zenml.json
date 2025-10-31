@@ -4,14 +4,12 @@
   "product": "ZenML",
   "product_id": "zenml-zenml",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
       "name": "ZenML",
-      "category": "web",
       "pattern": "\"version\"\\s*:\\s*\"([\\d\\.]+)\"",
-      "vendor": "ZenML",
-      "product": "ZenML",
       "version_group": 1,
       "priority": 140,
       "confidence": 0.8,
@@ -35,9 +33,9 @@
             "input": "\"version\" : \"1.2.3\"",
             "expected_version": "1.2.3"
           }
-        ]
+        ],
+        "compiled_pattern": true
       }
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }

@@ -4,6 +4,7 @@
   "product": "SolarWinds-Network-Performance-Monitor",
   "product_id": "solarwinds-network-performance-monitor",
   "category": "web",
+  "subcategory": "web-application",
   "versions": {},
   "all_versions": [
     {
@@ -24,7 +25,8 @@
             "input": "<b>Cannot access main SQL Server database.</b><br><br><b>Connection</b>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<b>Cannot\\ access\\ main\\ SQL\\ Server\\ database\\.</b><br><br><b>Connection</b>",
       "version_group": 0
@@ -47,7 +49,8 @@
             "input": "<TITLE>SolarWinds Network Management</TITLE>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TITLE>SolarWinds\\ Network\\ Management</TITLE>",
       "version_group": 0
@@ -70,7 +73,8 @@
             "input": "<TD Class=PageHeader>Network Performance Monitor</TD>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<TD\\ Class=PageHeader>Network\\ Performance\\ Monitor</TD>",
       "version_group": 0
@@ -93,7 +97,8 @@
             "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/SolarWinds.css\">",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/SolarWinds\\.css\">",
       "version_group": 0
@@ -116,7 +121,8 @@
             "input": "<title>[rn]*\tOrion Network Performance Monitor[rn]*</title>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<title>[\\r\\n]*\tOrion Network Performance Monitor[\\r\\n]*</title>",
       "version_group": 0
@@ -139,7 +145,8 @@
             "input": "<link rel=\"stylesheet\" type=\"text/css\" href=\"/SolarWinds.css\" />",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<link\\ rel=\"stylesheet\"\\ type=\"text/css\"\\ href=\"/SolarWinds\\.css\"\\ />",
       "version_group": 0
@@ -162,7 +169,8 @@
             "input": "<!-- Stylesheets left here to support legacy resources -->",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<!\\-\\-\\ Stylesheets\\ left\\ here\\ to\\ support\\ legacy\\ resources\\ \\-\\->",
       "version_group": 0
@@ -185,7 +193,8 @@
             "input": "<img src=\"/NetPerfMon/images/SolarWinds.Logo.gif\" alt=\"Site Logo\"/>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"/NetPerfMon/images/SolarWinds\\.Logo\\.gif\"\\ alt=\"Site\\ Logo\"/>",
       "version_group": 0
@@ -208,7 +217,8 @@
             "input": "<img src=\"../NetPerfMon/images/SolarWinds.Logo.jpg\" border=0>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"\\.\\./NetPerfMon/images/SolarWinds\\.Logo\\.jpg\"\\ border=0>",
       "version_group": 0
@@ -231,7 +241,8 @@
             "input": "<img src=\"/NetPerfMon/images/SolarWinds.Logo.jpg\" border=0>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<img\\ src=\"/NetPerfMon/images/SolarWinds\\.Logo\\.jpg\"\\ border=0>",
       "version_group": 0
@@ -254,11 +265,11 @@
             "input": "<a href=\"/Login.asp\"><u><b>Retry Login<b><u></a>",
             "expected_version": "unknown"
           }
-        ]
+        ],
+        "compiled_pattern": true
       },
       "pattern": "<a\\ href=\"/Login\\.asp\"><u><b>Retry\\ Login<b><u></a>",
       "version_group": 0
     }
-  ],
-  "subcategory": "web-application"
+  ]
 }
