@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-10-28",
+  "pattern_directories": [
+    "patterns/by-vendor"
+  ],
+  "default_category": "web",
+  "performance": {
+    "cache_enabled": true,
+    "precompile_patterns": true
+  }
+}
