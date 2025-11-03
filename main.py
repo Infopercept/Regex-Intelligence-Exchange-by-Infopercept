@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Modern startup script for Regex Intelligence Exchange
-Cross-platform compatible with enhanced configuration
+Main entry point for Regex Intelligence Exchange
+Cross-platform compatible with modern structure
 """
 
 import sys
@@ -25,10 +25,10 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python run.py                           # Run web interface
-  python run.py --mode api                # Run API only
-  python run.py --mode both               # Run both web and API
-  python run.py --host 0.0.0.0 --port 8080 # Run on specific host/port
+  python main.py                           # Run web interface
+  python main.py --mode api                # Run API only
+  python main.py --mode both               # Run both web and API
+  python main.py --host 0.0.0.0 --port 8080 # Run on specific host/port
         """
     )
     
@@ -70,6 +70,7 @@ Examples:
     try:
         if args.mode == 'web':
             # Import and run web application
+            sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'web'))
             from app import create_app
             app = create_app()
             print(f"🚀 Starting Regex Intelligence Exchange Web Interface")
@@ -79,6 +80,7 @@ Examples:
             
         elif args.mode == 'api':
             # Import and run API application
+            sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'web'))
             from api.app import create_app
             app = create_app()
             print(f"🚀 Starting Regex Intelligence Exchange API")
@@ -91,6 +93,7 @@ Examples:
             import threading
             
             # Start web application in a separate thread
+            sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'web'))
             from app import create_app as create_web_app
             web_app = create_web_app()
             

@@ -25,17 +25,17 @@ A comprehensive technology fingerprinting pattern database with **1500+ real pat
 1. **Clone or download this repository**
 2. **Install dependencies:**
    ```bash
-   cd web
    pip install -r requirements.txt
    ```
 
 3. **Run the application:**
    ```bash
-   python app.py
+   python main.py
    ```
    
-   Or use the simple runner:
+   Or use the web directory runner:
    ```bash
+   cd web
    python run.py
    ```
 
@@ -62,13 +62,13 @@ To add all real-time data in your format:
 1. **One-Time Integration:**
    ```bash
    # Run integration once
-   python tools/realtime-integration.py
+   python tools/integration-scripts/import-all-sources.py
    ```
 
 2. **Scheduled Integration (Continuous):**
    ```bash
    # Run continuous integration (checks for updates every 24 hours)
-   python tools/realtime-integration.py --schedule
+   python tools/monitor-integration.py
    ```
 
 ### Integration Details
@@ -94,24 +94,24 @@ For detailed usage instructions, see the [tools directory README](tools/README.m
 
 ```bash
 # Search for Apache patterns
-curl "http://localhost:5000/api/patterns?q=apache&limit=5"
+curl "http://localhost:5000/api/v1/patterns?q=apache&limit=5"
 
 # Get specific pattern
-curl "http://localhost:5000/api/patterns/apache/apache"
+curl "http://localhost:5000/api/v1/patterns/apache/apache"
 
 # Match patterns against text
-curl -X POST "http://localhost:5000/api/match" \
+curl -X POST "http://localhost:5000/api/v1/match" \
   -H "Content-Type: application/json" \
   -d '{"text": "Server: Apache/2.4.41 (Ubuntu)"}'
 
 # Get analytics summary
-curl "http://localhost:5000/api/analytics/summary"
+curl "http://localhost:5000/api/v1/analytics/summary"
 
 # Get all categories
-curl "http://localhost:5000/api/categories"
+curl "http://localhost:5000/api/v1/categories"
 
 # Get all vendors
-curl "http://localhost:5000/api/vendors"
+curl "http://localhost:5000/api/v1/vendors"
 ```
 
 ### Python Integration
@@ -120,11 +120,11 @@ curl "http://localhost:5000/api/vendors"
 import requests
 
 # Search patterns
-response = requests.get('http://localhost:5000/api/patterns?q=nginx')
+response = requests.get('http://localhost:5000/api/v1/patterns?q=nginx')
 patterns = response.json()
 
 # Match text against patterns
-response = requests.post('http://localhost:5000/api/match', 
+response = requests.post('http://localhost:5000/api/v1/match', 
                         json={'text': 'Server: nginx/1.18.0'})
 matches = response.json()
 
@@ -155,28 +155,39 @@ The database includes patterns for:
 ### Command Line Options
 
 ```bash
-python app.py --help
+python main.py --help
 
 Options:
-  --host TEXT     Host to bind to (default: 127.0.0.1)
-  --port INTEGER  Port to bind to (default: 5000)
-  --debug         Enable debug mode
+  --mode {web,api,both}  Run mode: web interface, API only, or both (default: web)
+  --host TEXT            Host to bind to (default: 127.0.0.1)
+  --port INTEGER         Port to bind to (default: 5000)
+  --debug                Enable debug mode
+  --api-port INTEGER     API port (when running in "both" mode, default: 5001)
 ```
 
 ### Examples
 
 ```bash
+# Run web interface only
+python main.py --mode web
+
+# Run API only
+python main.py --mode api
+
+# Run both web and API
+python main.py --mode both
+
 # Run on all interfaces
-python app.py --host 0.0.0.0
+python main.py --host 0.0.0.0
 
 # Use different port
-python app.py --port 8080
+python main.py --port 8080
 
 # Enable debug mode
-python app.py --debug
+python main.py --debug
 
 # Combine options
-python app.py --host 0.0.0.0 --port 8080 --debug
+python main.py --mode both --host 0.0.0.0 --port 8080 --api-port 8081
 ```
 
 ## 🌐 API Documentation
@@ -190,13 +201,13 @@ The application includes interactive API documentation powered by Swagger UI:
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| GET | `/api/patterns` | List all patterns with filtering |
-| GET | `/api/patterns/{vendor_id}/{product_id}` | Get specific pattern |
-| POST | `/api/match` | Match text against patterns |
-| GET | `/api/categories` | Get all categories |
-| GET | `/api/vendors` | Get all vendors |
-| GET | `/api/analytics/summary` | Get analytics data |
-| GET | `/api/health` | Health check |
+| GET | `/api/v1/patterns` | List all patterns with filtering |
+| GET | `/api/v1/patterns/{vendor_id}/{product_id}` | Get specific pattern |
+| POST | `/api/v1/match` | Match text against patterns |
+| GET | `/api/v1/categories` | Get all categories |
+| GET | `/api/v1/vendors` | Get all vendors |
+| GET | `/api/v1/analytics/summary` | Get analytics data |
+| GET | `/api/v1/health` | Health check |
 
 ## 🔧 Development
 
