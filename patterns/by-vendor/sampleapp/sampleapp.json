@@ -1,0 +1,159 @@
+{
+  "vendor": "SampleApp",
+  "vendor_id": "sampleapp",
+  "product": "SampleApp",
+  "product_id": "sampleapp",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "SampleApp Html Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from Wappalyzer for SampleApp",
+        "tags": [
+          "wappalyzer",
+          "extracted"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "test_cases": [
+          {
+            "input": "<title>Sample Application</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Sample\\ Application</title>"
+    },
+    {
+      "name": "SampleApp Headers Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from Wappalyzer for SampleApp",
+        "tags": [
+          "wappalyzer",
+          "extracted"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "test_cases": [
+          {
+            "input": "X-Powered-By",
+            "expected_version": "SampleApp(?:/([\\d.]+))?\\;version:\\1"
+          }
+        ]
+      },
+      "pattern": "X-Powered-By: .*",
+      "version_group": 1
+    },
+    {
+      "name": "SampleApp Meta Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from Wappalyzer for SampleApp",
+        "tags": [
+          "wappalyzer",
+          "extracted"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "test_cases": [
+          {
+            "input": "generator",
+            "expected_version": "SampleApp ([\\d.]+)\\;version:\\1"
+          }
+        ]
+      },
+      "pattern": "generator",
+      "version_group": 1
+    },
+    {
+      "name": "SampleApp Script Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from Wappalyzer for SampleApp",
+        "tags": [
+          "wappalyzer",
+          "extracted"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "test_cases": [
+          {
+            "input": "sampleapp\\.js",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "sampleapp\\\\\\.js"
+    },
+    {
+      "name": "SampleApp Js Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from Wappalyzer for SampleApp",
+        "tags": [
+          "wappalyzer",
+          "extracted"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "test_cases": [
+          {
+            "input": "SampleApp.version",
+            "expected_version": "([\\d.]+)\\;version:\\1"
+          }
+        ]
+      },
+      "pattern": "SampleApp\\.version",
+      "version_group": 1
+    }
+  ],
+  "subcategory": ""
+}

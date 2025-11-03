@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://infopercept.github.io/Regex-Intelligence-Exchange-by-Infopercept/sitemap.xml

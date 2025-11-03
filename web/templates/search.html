@@ -5,289 +5,307 @@
 {% block content %}
 <div class="row mb-4">
     <div class="col-12">
-        <h1><i class="fas fa-search"></i> Search Patterns</h1>
-        <p class="lead">Search our comprehensive database of technology fingerprinting patterns.</p>
+        <h1 class="h2 fw-bold">
+            <i class="fas fa-search me-2"></i>Search Patterns
+        </h1>
+        <p class="text-muted">Search through {{ categories|length }} categories and {{ vendors|length }} vendors</p>
     </div>
 </div>
 
-<div class="row">
-    <div class="col-lg-3 mb-4">
-        <div class="card">
-            <div class="card-header">
-                <i class="fas fa-filter"></i> Filters
+<!-- Search Filters -->
+<div class="search-filters">
+    <form id="searchForm">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <label for="searchQuery" class="form-label">Search Query</label>
+                <input type="text" class="form-control" id="searchQuery" 
+                       placeholder="Enter vendor, product, or keyword...">
             </div>
-            <div class="card-body">
-                <form id="search-filters">
-                    <div class="mb-3">
-                        <label for="search-query" class="form-label">Search Query</label>
-                        <input type="text" class="form-control" id="search-query" placeholder="Enter search terms...">
-                        <div class="form-text">Search by vendor, product, category, or technology name</div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="category-filter" class="form-label">Category</label>
-                        <select class="form-select" id="category-filter">
-                            <option value="">All Categories</option>
-                        </select>
-                    </div>
-                    <div class="mb-3">
-                        <label for="vendor-filter" class="form-label">Vendor</label>
-                        <select class="form-select" id="vendor-filter">
-                            <option value="">All Vendors</option>
-                        </select>
-                    </div>
-                    <div class="d-grid gap-2">
-                        <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-search"></i> Search
-                        </button>
-                        <button type="button" class="btn btn-outline-secondary" id="clear-filters">
-                            <i class="fas fa-times"></i> Clear Filters
-                        </button>
-                    </div>
-                </form>
+            
+            <div class="col-md-3 mb-3">
+                <label for="categoryFilter" class="form-label">Category</label>
+                <select class="form-select" id="categoryFilter">
+                    <option value="">All Categories</option>
+                    {% for category in categories %}
+                    <option value="{{ category }}">{{ category }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div class="col-md-3 mb-3">
+                <label for="vendorFilter" class="form-label">Vendor</label>
+                <select class="form-select" id="vendorFilter">
+                    <option value="">All Vendors</option>
+                    {% for vendor in vendors %}
+                    <option value="{{ vendor }}">{{ vendor }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div class="col-md-2 mb-3">
+                <label for="limitFilter" class="form-label">Results</label>
+                <select class="form-select" id="limitFilter">
+                    <option value="20">20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                </select>
             </div>
         </div>
         
-        <div class="card mt-4">
-            <div class="card-header">
-                <i class="fas fa-info-circle"></i> Search Tips
-            </div>
-            <div class="card-body">
-                <ul class="mb-0">
-                    <li>Use specific terms for better results</li>
-                    <li>Combine filters for precise searches</li>
-                    <li>Try vendor names like "Apache" or "Microsoft"</li>
-                    <li>Filter by category for focused results</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    
-    <div class="col-lg-9">
-        <div class="card">
-            <div class="card-header d-flex justify-content-between align-items-center">
-                <span><i class="fas fa-list"></i> Search Results</span>
-                <div>
-                    <span id="result-count">0</span> patterns found
+        <div class="row">
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary me-2">
+                    <i class="fas fa-search me-1"></i>
+                    <span class="loading-spinner spinner-border spinner-border-sm me-1"></span>
+                    Search
+                </button>
+                
+                <button type="button" class="btn btn-outline-secondary" id="clearFilters">
+                    <i class="fas fa-times me-1"></i>Clear
+                </button>
+                
+                <div class="float-end">
+                    <small class="text-muted" id="searchInfo">
+                        Enter search criteria above
+                    </small>
                 </div>
             </div>
-            <div class="card-body">
-                <div id="search-results">
-                    <div class="text-center">
-                        <div class="spinner-border" role="status">
-                            <span class="visually-hidden">Loading...</span>
-                        </div>
-                        <p class="mt-2">Enter search terms or apply filters to begin</p>
-                    </div>
-                </div>
-                <nav id="pagination-controls" class="mt-3 d-none">
-                    <ul class="pagination justify-content-center">
-                        <li class="page-item disabled" id="prev-page">
-                            <a class="page-link" href="#" tabindex="-1">Previous</a>
-                        </li>
-                        <li class="page-item active" id="page-1">
-                            <a class="page-link" href="#">1</a>
-                        </li>
-                        <li class="page-item" id="next-page">
-                            <a class="page-link" href="#">Next</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
         </div>
+    </form>
+</div>
+
+<!-- Results -->
+<div id="searchResults">
+    <div class="text-center py-5">
+        <i class="fas fa-search fa-3x text-muted mb-3"></i>
+        <h5 class="text-muted">Enter search criteria to find patterns</h5>
+        <p class="text-muted">Use the filters above to search through our extensive pattern database</p>
     </div>
+</div>
+
+<!-- Pagination -->
+<div id="pagination" class="d-none">
+    <nav aria-label="Search results pagination">
+        <ul class="pagination justify-content-center">
+            <!-- Pagination will be inserted here -->
+        </ul>
+    </nav>
 </div>
 {% endblock %}
 
-{% block scripts %}
+{% block extra_js %}
 <script>
-    // Global variables
-    let currentPage = 1;
+let currentOffset = 0;
+let currentLimit = 20;
+let totalResults = 0;
+
+document.addEventListener('DOMContentLoaded', function() {
+    const searchForm = document.getElementById('searchForm');
+    const clearButton = document.getElementById('clearFilters');
+    const searchQuery = document.getElementById('searchQuery');
+    const categoryFilter = document.getElementById('categoryFilter');
+    const vendorFilter = document.getElementById('vendorFilter');
+    const limitFilter = document.getElementById('limitFilter');
     
-    // Fetch categories and vendors for filters
-    fetch('/api/patterns')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return response.json();
-        })
-        .then(data => {
-            // Extract unique categories and vendors from patterns
-            const categories = [...new Set(data.map(pattern => pattern.category).filter(Boolean))].sort();
-            const vendors = [...new Set(data.map(pattern => pattern.vendor).filter(Boolean))].sort();
-            
-            const categorySelect = document.getElementById('category-filter');
-            if (categorySelect) {
-                categories.forEach(category => {
-                    const option = document.createElement('option');
-                    option.value = category;
-                    option.textContent = category;
-                    categorySelect.appendChild(option);
-                });
-            }
-            
-            const vendorSelect = document.getElementById('vendor-filter');
-            if (vendorSelect) {
-                vendors.forEach(vendor => {
-                    const option = document.createElement('option');
-                    option.value = vendor;
-                    option.textContent = vendor;
-                    vendorSelect.appendChild(option);
-                });
-            }
-        })
-        .catch(error => {
-            console.error('Error loading filter options:', error);
-            // Show notification to user
-            const resultsContainer = document.getElementById('search-results');
-            if (resultsContainer) {
-                resultsContainer.innerHTML = `<div class="alert alert-danger">Error loading filter options: ${error.message}</div>`;
-            }
-        });
-    
-    // Search functionality
-    document.getElementById('search-filters').addEventListener('submit', function(e) {
+    // Search form submission
+    searchForm.addEventListener('submit', function(e) {
         e.preventDefault();
-        currentPage = 1;
+        currentOffset = 0;
         performSearch();
     });
     
-    // Clear filters functionality
-    document.getElementById('clear-filters').addEventListener('click', function() {
-        document.getElementById('search-query').value = '';
-        document.getElementById('category-filter').value = '';
-        document.getElementById('vendor-filter').value = '';
-        document.getElementById('search-results').innerHTML = `
-            <div class="text-center">
-                <div class="spinner-border" role="status">
-                    <span class="visually-hidden">Loading...</span>
-                </div>
-                <p class="mt-2">Enter search terms or apply filters to begin</p>
+    // Clear filters
+    clearButton.addEventListener('click', function() {
+        searchQuery.value = '';
+        categoryFilter.value = '';
+        vendorFilter.value = '';
+        limitFilter.value = '20';
+        currentOffset = 0;
+        
+        document.getElementById('searchResults').innerHTML = `
+            <div class="text-center py-5">
+                <i class="fas fa-search fa-3x text-muted mb-3"></i>
+                <h5 class="text-muted">Enter search criteria to find patterns</h5>
+                <p class="text-muted">Use the filters above to search through our extensive pattern database</p>
             </div>
         `;
-        document.getElementById('result-count').textContent = '0';
+        
+        document.getElementById('pagination').classList.add('d-none');
+        document.getElementById('searchInfo').textContent = 'Enter search criteria above';
     });
     
-    // Add real-time search with debounce
+    // Real-time search on input
     let searchTimeout;
-    const searchInput = document.getElementById('search-query');
-    if (searchInput) {
-        searchInput.addEventListener('input', function() {
+    [searchQuery, categoryFilter, vendorFilter].forEach(element => {
+        element.addEventListener('input', function() {
             clearTimeout(searchTimeout);
-            searchTimeout = setTimeout(performSearch, 300); // 300ms debounce
+            searchTimeout = setTimeout(() => {
+                if (searchQuery.value || categoryFilter.value || vendorFilter.value) {
+                    currentOffset = 0;
+                    performSearch();
+                }
+            }, 500);
         });
-    }
+    });
     
-    // Also trigger search when filters change
-    const categoryFilter = document.getElementById('category-filter');
-    const vendorFilter = document.getElementById('vendor-filter');
+    // Limit change
+    limitFilter.addEventListener('change', function() {
+        currentLimit = parseInt(this.value);
+        currentOffset = 0;
+        if (searchQuery.value || categoryFilter.value || vendorFilter.value) {
+            performSearch();
+        }
+    });
+});
+
+function performSearch(offset = 0) {
+    const submitButton = document.querySelector('button[type="submit"]');
+    const searchInfo = document.getElementById('searchInfo');
     
-    if (categoryFilter) {
-        categoryFilter.addEventListener('change', performSearch);
-    }
+    showLoading(submitButton);
     
-    if (vendorFilter) {
-        vendorFilter.addEventListener('change', performSearch);
-    }
+    const params = new URLSearchParams({
+        q: document.getElementById('searchQuery').value,
+        category: document.getElementById('categoryFilter').value,
+        vendor: document.getElementById('vendorFilter').value,
+        limit: currentLimit,
+        offset: offset
+    });
     
-    function performSearch(page = 1) {
-        const query = document.getElementById('search-query').value;
-        const category = document.getElementById('category-filter').value;
-        const vendor = document.getElementById('vendor-filter').value;
-        
-        // Build query parameters
-        const params = new URLSearchParams();
-        if (query) params.append('q', query);
-        if (category) params.append('category', category);
-        if (vendor) params.append('vendor', vendor);
-        
-        // Show loading indicator only if there are search terms or filters
-        const resultsContainer = document.getElementById('search-results');
-        if (resultsContainer) {
-            if (query || category || vendor) {
-                resultsContainer.innerHTML = `
-                    <div class="text-center">
-                        <div class="spinner-border" role="status">
-                            <span class="visually-hidden">Loading...</span>
-                        </div>
-                        <p class="mt-2">Searching patterns...</p>
-                    </div>
-                `;
+    fetch(`/api/patterns?${params}`)
+        .then(response => response.json())
+        .then(data => {
+            displayResults(data);
+            totalResults = data.total;
+            currentOffset = offset;
+            
+            searchInfo.textContent = `Found ${data.total} patterns`;
+            
+            if (data.total > currentLimit) {
+                createPagination(data.total, offset, currentLimit);
             } else {
-                resultsContainer.innerHTML = `
-                    <div class="text-center">
-                        <div class="spinner-border" role="status">
-                            <span class="visually-hidden">Loading...</span>
-                        </div>
-                        <p class="mt-2">Enter search terms or apply filters to begin</p>
-                    </div>
-                `;
-                document.getElementById('result-count').textContent = '0';
-                return;
+                document.getElementById('pagination').classList.add('d-none');
             }
-        }
-        
-        fetch(`/api/patterns/search?${params.toString()}`)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                return response.json();
-            })
-            .then(data => {
-                displayResults(data, data.length);
-            })
-            .catch(error => {
-                console.error('Error searching patterns:', error);
-                if (resultsContainer) {
-                    resultsContainer.innerHTML = `<div class="alert alert-danger">Error searching patterns: ${error.message}</div>`;
-                }
-            });
+        })
+        .catch(error => {
+            console.error('Search error:', error);
+            showAlert('Error performing search. Please try again.', 'danger');
+        })
+        .finally(() => {
+            hideLoading(submitButton);
+        });
+}
+
+function displayResults(data) {
+    const resultsContainer = document.getElementById('searchResults');
+    
+    if (data.patterns.length === 0) {
+        resultsContainer.innerHTML = `
+            <div class="text-center py-5">
+                <i class="fas fa-search fa-3x text-muted mb-3"></i>
+                <h5 class="text-muted">No patterns found</h5>
+                <p class="text-muted">Try adjusting your search criteria</p>
+            </div>
+        `;
+        return;
     }
     
-    function displayResults(patterns, total) {
-        const resultCountElement = document.getElementById('result-count');
-        const resultsContainer = document.getElementById('search-results');
-        
-        if (resultCountElement) {
-            resultCountElement.textContent = total;
-        }
-        
-        if (resultsContainer) {
-            if (patterns.length === 0) {
-                resultsContainer.innerHTML = '<div class="alert alert-info">No patterns found matching your criteria</div>';
-                return;
-            }
-            
-            const resultsHtml = `
-                <div class="row">
-                    ${patterns.map(pattern => `
-                        <div class="col-md-6 col-lg-4 mb-4">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <h5 class="card-title">${pattern.vendor} - ${pattern.product}</h5>
-                                    <p class="card-text">
-                                        <span class="badge bg-primary">${pattern.category}</span>
-                                        ${pattern.subcategory ? `<span class="badge bg-secondary ms-1">${pattern.subcategory}</span>` : ''}
-                                    </p>
-                                    <p class="card-text small text-muted">
-                                        Vendor ID: ${pattern.vendor_id}<br>
-                                        Product ID: ${pattern.product_id}
-                                    </p>
-                                </div>
-                                <div class="card-footer bg-transparent">
-                                    <a href="/pattern/${pattern.vendor_id}/${pattern.product_id}" class="btn btn-primary btn-sm w-100">
-                                        <i class="fas fa-eye"></i> View Details
-                                    </a>
-                                </div>
-                            </div>
+    const patternsHtml = data.patterns.map(pattern => `
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card pattern-card h-100">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h6 class="card-title mb-0">${escapeHtml(pattern.product || 'Unknown Product')}</h6>
+                        <span class="badge badge-category">${escapeHtml(pattern.category || 'Unknown')}</span>
+                    </div>
+                    
+                    <p class="text-muted mb-2">
+                        <i class="fas fa-building me-1"></i>
+                        ${escapeHtml(pattern.vendor || 'Unknown Vendor')}
+                    </p>
+                    
+                    ${pattern.subcategory ? `
+                        <p class="text-muted mb-2">
+                            <i class="fas fa-tag me-1"></i>
+                            ${escapeHtml(pattern.subcategory)}
+                        </p>
+                    ` : ''}
+                    
+                    <div class="mt-auto">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <small class="text-muted">
+                                ${pattern.all_versions ? pattern.all_versions.length : 0} patterns
+                            </small>
+                            
+                            <a href="/pattern/${pattern.vendor_id}/${pattern.product_id}" 
+                               class="btn btn-outline-primary btn-sm">
+                                <i class="fas fa-eye me-1"></i>View
+                            </a>
                         </div>
-                    `).join('')}
+                    </div>
                 </div>
-            `;
-            
-            resultsContainer.innerHTML = resultsHtml;
-        }
+            </div>
+        </div>
+    `).join('');
+    
+    resultsContainer.innerHTML = `
+        <div class="row">
+            ${patternsHtml}
+        </div>
+    `;
+}
+
+function createPagination(total, offset, limit) {
+    const totalPages = Math.ceil(total / limit);
+    const currentPage = Math.floor(offset / limit) + 1;
+    const paginationContainer = document.getElementById('pagination');
+    
+    let paginationHtml = '';
+    
+    // Previous button
+    if (currentPage > 1) {
+        paginationHtml += `
+            <li class="page-item">
+                <a class="page-link" href="#" onclick="performSearch(${(currentPage - 2) * limit}); return false;">
+                    <i class="fas fa-chevron-left"></i>
+                </a>
+            </li>
+        `;
     }
+    
+    // Page numbers
+    const startPage = Math.max(1, currentPage - 2);
+    const endPage = Math.min(totalPages, currentPage + 2);
+    
+    for (let i = startPage; i <= endPage; i++) {
+        paginationHtml += `
+            <li class="page-item ${i === currentPage ? 'active' : ''}">
+                <a class="page-link" href="#" onclick="performSearch(${(i - 1) * limit}); return false;">
+                    ${i}
+                </a>
+            </li>
+        `;
+    }
+    
+    // Next button
+    if (currentPage < totalPages) {
+        paginationHtml += `
+            <li class="page-item">
+                <a class="page-link" href="#" onclick="performSearch(${currentPage * limit}); return false;">
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </li>
+        `;
+    }
+    
+    paginationContainer.querySelector('.pagination').innerHTML = paginationHtml;
+    paginationContainer.classList.remove('d-none');
+}
+
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
 </script>
 {% endblock %}

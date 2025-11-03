@@ -172,7 +172,14 @@ def convert_to_regex_exchange_format(whatweb_data):
                 'created_at': '2025-01-01',
                 'updated_at': '2025-01-01',
                 'description': f"Pattern extracted from WhatWeb plugin for {whatweb_data['plugin_name']}",
-                'tags': ['whatweb', 'extracted']
+                'tags': ['whatweb', 'extracted'],
+                'source': 'WhatWeb',
+                'license': 'MIT',
+                'severity': 'low',
+                'cvss_score': 0.0,
+                'cwe_ids': [],
+                'affected_versions': [],
+                'remediation': 'Keep the software updated to the latest stable version'
             }
         }
         
@@ -278,10 +285,6 @@ def process_whatweb_plugins(whatweb_plugins_dir, output_dir):
             print(f"Processing {plugin_file.name}...")
             whatweb_data = extract_patterns_from_plugin(plugin_file)
             
-            # Debug: Print patterns for Microsoft-IIS
-            if "microsoft-iis.rb" in plugin_file.name:
-                print(f"Microsoft-IIS patterns: {whatweb_data['patterns']}")
-            
             if whatweb_data and whatweb_data['patterns']:
                 regex_exchange_data = convert_to_regex_exchange_format(whatweb_data)
                 
@@ -315,7 +318,7 @@ def process_whatweb_plugins(whatweb_plugins_dir, output_dir):
 
 if __name__ == '__main__':
     # Configuration
-    WHATWEB_PLUGINS_DIR = 'whatweb-repo/plugins'
+    WHATWEB_PLUGINS_DIR = 'external/whatweb'
     OUTPUT_DIR = 'patterns/by-vendor'
     
     # Process plugins

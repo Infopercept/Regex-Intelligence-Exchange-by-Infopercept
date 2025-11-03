@@ -1,0 +1,82 @@
+{
+  "vendor": "Apache",
+  "vendor_id": "apache",
+  "product": "Apache HTTP Server",
+  "product_id": "apache-http-server",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Apache Server Header",
+      "pattern": "Apache/([\\d.]+)",
+      "version_group": 1,
+      "priority": 100,
+      "confidence": 0.95,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Detects Apache HTTP Server from Server header",
+        "tags": [
+          "web-server",
+          "apache",
+          "whatweb"
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep Apache updated to the latest stable version",
+        "test_cases": [
+          {
+            "input": "Server: Apache/2.4.41 (Ubuntu)",
+            "expected_version": "2.4.41"
+          }
+        ]
+      }
+    },
+    {
+      "vendor": "Apache",
+      "vendor_id": "apache",
+      "product": "Apache HTTP Server",
+      "product_id": "apache-http-server",
+      "category": "web",
+      "versions": {},
+      "all_versions": [
+        {
+          "name": "Apache Server Header",
+          "pattern": "Apache/([\\d.]+)",
+          "version_group": 1,
+          "priority": 100,
+          "confidence": 0.95,
+          "metadata": {
+            "author": "WhatWeb Project",
+            "created_at": "2025-01-01",
+            "updated_at": "2025-01-01",
+            "description": "Detects Apache HTTP Server from Server header",
+            "tags": [
+              "web-server",
+              "apache"
+            ],
+            "source": "WhatWeb",
+            "license": "MIT",
+            "severity": "low",
+            "cvss_score": 0.0,
+            "cwe_ids": [],
+            "affected_versions": [],
+            "remediation": "Keep Apache updated to the latest stable version",
+            "test_cases": [
+              {
+                "input": "Server: Apache/2.4.41 (Ubuntu)",
+                "expected_version": "2.4.41"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "subcategory": ""
+}

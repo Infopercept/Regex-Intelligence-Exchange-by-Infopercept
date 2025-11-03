@@ -11,7 +11,7 @@ from datetime import datetime
 from utils.security import security_manager, validate_pattern_id, validate_search_input
 from utils.logging import log_manager
 from services.pattern_service import pattern_service
-from models.pattern import PatternSearchResult
+# PatternSearchResult is now defined in pattern_service
 
 # Create namespace with detailed description
 api = Namespace('patterns', description='Technology fingerprinting pattern operations')

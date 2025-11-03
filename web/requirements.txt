@@ -1,7 +1,8 @@
+# Complete Regex Intelligence Exchange - Cross-Platform Requirements
+# Works on Windows, macOS, and Linux
+
 Flask==2.3.3
 Flask-CORS==4.0.0
 Flask-RESTX==1.3.2
 requests==2.31.0
-PyJWT==2.8.0
-redis==4.5.4
-# SQLAlchemy==2.0.23  # Optional - only needed if using database storage
+python-dotenv==1.0.0

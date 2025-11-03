@@ -1,0 +1,3 @@
+# Requirements for real-time integration system
+schedule>=1.1.0
+requests>=2.25.1

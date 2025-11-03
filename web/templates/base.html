@@ -4,42 +4,226 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Regex Intelligence Exchange{% endblock %}</title>
-    <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #64748b;
+            --success-color: #059669;
+            --warning-color: #d97706;
+            --danger-color: #dc2626;
+            --dark-color: #1e293b;
+            --light-color: #f8fafc;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--light-color);
+        }
+        
+        .navbar-brand {
+            font-weight: 700;
+            color: var(--primary-color) !important;
+        }
+        
+        .card {
+            border: none;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+            border-radius: 0.75rem;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: #1d4ed8;
+            border-color: #1d4ed8;
+        }
+        
+        .stats-card {
+            background: linear-gradient(135deg, var(--primary-color), #3b82f6);
+            color: white;
+            border-radius: 1rem;
+        }
+        
+        .pattern-card {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .pattern-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .badge-category {
+            background-color: var(--success-color);
+        }
+        
+        .badge-vendor {
+            background-color: var(--warning-color);
+        }
+        
+        .code-block {
+            background-color: #1e293b;
+            color: #e2e8f0;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 0.875rem;
+            overflow-x: auto;
+        }
+        
+        .search-filters {
+            background-color: white;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+        }
+        
+        .footer {
+            background-color: var(--dark-color);
+            color: white;
+            padding: 2rem 0;
+            margin-top: 4rem;
+        }
+        
+        .loading-spinner {
+            display: none;
+        }
+        
+        .loading .loading-spinner {
+            display: inline-block;
+        }
+        
+        .chart-container {
+            position: relative;
+            height: 400px;
+            margin: 2rem 0;
+        }
+    </style>
+    {% block extra_css %}{% endblock %}
 </head>
 <body>
-    {% include 'partials/navigation.html' %}
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <i class="fas fa-search-plus me-2"></i>
+                Regex Intelligence Exchange
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">
+                            <i class="fas fa-home me-1"></i>Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/search">
+                            <i class="fas fa-search me-1"></i>Search
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/analytics">
+                            <i class="fas fa-chart-bar me-1"></i>Analytics
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/test">
+                            <i class="fas fa-flask me-1"></i>Test Patterns
+                        </a>
+                    </li>
+                </ul>
+                
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/api/docs/" target="_blank">
+                            <i class="fas fa-book me-1"></i>API Docs
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- Main Content -->
-    <div class="container-fluid mt-4">
-        {% with messages = get_flashed_messages() %}
-            {% if messages %}
-                {% for message in messages %}
-                    <div class="alert alert-info alert-dismissible fade show" role="alert">
-                        {{ message }}
-                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-                    </div>
-                {% endfor %}
-            {% endif %}
-        {% endwith %}
-
+    <main class="container my-4">
         {% block content %}{% endblock %}
-    </div>
+    </main>
 
-    {% include 'partials/footer.html' %}
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Regex Intelligence Exchange</h5>
+                    <p class="text-muted">Complete technology fingerprinting pattern database with 1500+ patterns.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="text-muted">
+                        <i class="fas fa-code me-1"></i>
+                        Cross-platform compatible • Windows • macOS • Linux
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    <!-- Bootstrap 5 JS -->
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Chart.js for advanced analytics -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <!-- Custom JS -->
-    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
-    {% block scripts %}{% endblock %}
+    
+    <script>
+        // Global utilities
+        function showLoading(element) {
+            element.classList.add('loading');
+            element.disabled = true;
+        }
+        
+        function hideLoading(element) {
+            element.classList.remove('loading');
+            element.disabled = false;
+        }
+        
+        function showAlert(message, type = 'info') {
+            const alertDiv = document.createElement('div');
+            alertDiv.className = `alert alert-${type} alert-dismissible fade show`;
+            alertDiv.innerHTML = `
+                ${message}
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            `;
+            
+            const container = document.querySelector('.container');
+            container.insertBefore(alertDiv, container.firstChild);
+            
+            setTimeout(() => {
+                alertDiv.remove();
+            }, 5000);
+        }
+        
+        // Auto-dismiss alerts
+        document.addEventListener('DOMContentLoaded', function() {
+            const alerts = document.querySelectorAll('.alert');
+            alerts.forEach(alert => {
+                setTimeout(() => {
+                    alert.remove();
+                }, 5000);
+            });
+        });
+    </script>
+    
+    {% block extra_js %}{% endblock %}
 </body>
 </html>

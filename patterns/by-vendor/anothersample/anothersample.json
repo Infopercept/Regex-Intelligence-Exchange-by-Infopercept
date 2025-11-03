@@ -1,0 +1,98 @@
+{
+  "vendor": "AnotherSample",
+  "vendor_id": "anothersample",
+  "product": "AnotherSample",
+  "product_id": "anothersample",
+  "category": "database",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "AnotherSample Html Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from Wappalyzer for AnotherSample",
+        "tags": [
+          "wappalyzer",
+          "extracted"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "test_cases": [
+          {
+            "input": "<!-- Another Sample App v([\\d.]+) -->\\;version:\\1",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Another\\ Sample\\ App\\ v\\(\\[\\\\d\\.\\]\\+\\)\\ \\-\\->\\\\;version:\\\\1"
+    },
+    {
+      "name": "AnotherSample Meta Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from Wappalyzer for AnotherSample",
+        "tags": [
+          "wappalyzer",
+          "extracted"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "test_cases": [
+          {
+            "input": "generator",
+            "expected_version": "AnotherSample"
+          }
+        ]
+      },
+      "pattern": "generator"
+    },
+    {
+      "name": "AnotherSample Cookies Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "Wappalyzer Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from Wappalyzer for AnotherSample",
+        "tags": [
+          "wappalyzer",
+          "extracted"
+        ],
+        "source": "Wappalyzer",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "test_cases": [
+          {
+            "input": "anothersample",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "anothersample"
+    }
+  ],
+  "subcategory": ""
+}

@@ -1,0 +1,28 @@
+{
+  "sources": {
+    "whatweb": {
+      "enabled": true,
+      "repo_url": "https://github.com/urbanadventurer/WhatWeb.git",
+      "local_path": "external/whatweb-repo",
+      "update_interval_hours": 24,
+      "import_script": "tools/extract-whatweb-patterns.py"
+    },
+    "wappalyzer": {
+      "enabled": true,
+      "repo_url": "https://github.com/tomnomnom/wappalyzer.git",
+      "local_path": "external/wappalyzer-repo",
+      "update_interval_hours": 24,
+      "import_script": "tools/import-wappalyzer.py"
+    },
+    "webtech": {
+      "enabled": true,
+      "repo_url": "https://github.com/ShielderSec/webtech.git",
+      "local_path": "external/webtech-repo",
+      "update_interval_hours": 24,
+      "import_script": "tools/import-webtech.py"
+    }
+  },
+  "patterns_output_dir": "patterns/by-vendor",
+  "log_file": "logs/integration.log",
+  "max_workers": 3
+}

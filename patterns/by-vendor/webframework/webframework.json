@@ -1,0 +1,98 @@
+{
+  "vendor": "WebFramework",
+  "vendor_id": "webframework",
+  "product": "WebFramework",
+  "product_id": "webframework",
+  "category": "database",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "WebFramework Html Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WebTech for WebFramework",
+        "tags": [
+          "webtech",
+          "extracted"
+        ],
+        "source": "WebTech",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "test_cases": [
+          {
+            "input": "<!-- Web Framework v([\\d.]+) -->\\;version:\\1",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<!\\-\\-\\ Web\\ Framework\\ v\\(\\[\\\\d\\.\\]\\+\\)\\ \\-\\->\\\\;version:\\\\1"
+    },
+    {
+      "name": "WebFramework Meta Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WebTech for WebFramework",
+        "tags": [
+          "webtech",
+          "extracted"
+        ],
+        "source": "WebTech",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "test_cases": [
+          {
+            "input": "generator",
+            "expected_version": "WebFramework"
+          }
+        ]
+      },
+      "pattern": "generator"
+    },
+    {
+      "name": "WebFramework Cookies Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WebTech Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WebTech for WebFramework",
+        "tags": [
+          "webtech",
+          "extracted"
+        ],
+        "source": "WebTech",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "test_cases": [
+          {
+            "input": "webframework",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "webframework"
+    }
+  ],
+  "subcategory": ""
+}

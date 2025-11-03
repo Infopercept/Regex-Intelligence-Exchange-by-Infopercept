@@ -1,0 +1,199 @@
+{
+  "vendor": "Unknown",
+  "vendor_id": "unknown",
+  "product": "Unknown",
+  "product_id": "unknown",
+  "category": "web",
+  "versions": {},
+  "all_versions": [
+    {
+      "name": "Unknown Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Unknown",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "test_cases": []
+      },
+      "pattern": "^SampleApp/([0-9\\.]+)"
+    },
+    {
+      "name": "Unknown Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Unknown",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "test_cases": [
+          {
+            "input": "<title>Sample Application</title>",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<title>Sample\\ Application</title>"
+    },
+    {
+      "name": "Unknown Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Unknown",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "test_cases": [
+          {
+            "input": "<meta name=\"generator\" content=\"SampleApp",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "<meta\\ name=\"generator\"\\ content=\"SampleApp"
+    },
+    {
+      "name": "Unknown Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Unknown",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "test_cases": []
+      },
+      "pattern": "var sampleAppVersion = \"([0-9\\.]+)\";"
+    },
+    {
+      "name": "Unknown Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Unknown",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "test_cases": []
+      },
+      "pattern": "sampleapp_session="
+    },
+    {
+      "name": "Unknown Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Unknown",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "test_cases": [
+          {
+            "input": "/sampleapp.css",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "/sampleapp\\.css"
+    },
+    {
+      "name": "Unknown Pattern",
+      "priority": 100,
+      "confidence": 0.8,
+      "metadata": {
+        "author": "WhatWeb Project",
+        "created_at": "2025-01-01",
+        "updated_at": "2025-01-01",
+        "description": "Pattern extracted from WhatWeb plugin for Unknown",
+        "tags": [
+          "whatweb",
+          "extracted"
+        ],
+        "source": "WhatWeb",
+        "license": "MIT",
+        "severity": "low",
+        "cvss_score": 0.0,
+        "cwe_ids": [],
+        "affected_versions": [],
+        "remediation": "Keep the software updated to the latest stable version",
+        "test_cases": [
+          {
+            "input": "Powered by SampleApp",
+            "expected_version": "unknown"
+          }
+        ]
+      },
+      "pattern": "Powered\\ by\\ SampleApp"
+    }
+  ],
+  "subcategory": ""
+}

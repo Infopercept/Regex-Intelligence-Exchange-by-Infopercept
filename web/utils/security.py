@@ -1,173 +1,238 @@
 """
-Security utilities for Regex Intelligence Exchange.
+Enhanced security utilities for Regex Intelligence Exchange.
 """
 
 import re
 import hashlib
 import secrets
-import time
+import logging
+from typing import Dict, Any, Optional, List
 from functools import wraps
-from flask import request, jsonify, current_app, session
-from werkzeug.exceptions import Forbidden
+from flask import request, abort, current_app, session
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
+import bcrypt
+import jwt
+from datetime import datetime, timedelta
+
+logger = logging.getLogger(__name__)
 
 class SecurityManager:
-    """Manages security for the web interface."""
+    """Enhanced security manager with comprehensive protection."""
     
-    def __init__(self):
-        # Define safe patterns for input validation
-        self.safe_pattern = re.compile(r'^[a-zA-Z0-9\-_\.]+$')
-        self.safe_text_pattern = re.compile(r'^[a-zA-Z0-9\-_\.\/\s\(\)\[\]\{\}\<\>\:\;\,\!\?\@\#\$\%\^\&\*\+\=\~]+$')
+    def __init__(self, app=None):
+        self.app = app
+        self.limiter = None
+        self.failed_attempts = {}  # Simple in-memory storage
+        self.blocked_ips = set()   # Simple in-memory storage
         
-        # Rate limiting storage (in production, use Redis)
-        self.rate_limits = {}
+        if app:
+            self.init_app(app)
     
-    def sanitize_input(self, input_string):
-        """Sanitize user input to prevent injection attacks."""
-        if not input_string:
-            return input_string
+    def init_app(self, app):
+        """Initialize security manager with Flask app."""
+        self.app = app
+        
+        # Initialize rate limiter
+        self.limiter = Limiter(
+            app,
+            key_func=get_remote_address,
+            default_limits=["1000 per hour", "100 per minute"]
+        )
+        
+        # Set security headers
+        @app.after_request
+        def set_security_headers(response):
+            response.headers['X-Content-Type-Options'] = 'nosniff'
+            response.headers['X-Frame-Options'] = 'DENY'
+            response.headers['X-XSS-Protection'] = '1; mode=block'
+            response.headers['Strict-Transport-Security'] = 'max-age=31536000; includeSubDomains'
+            response.headers['Content-Security-Policy'] = (
+                "default-src 'self'; "
+                "script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; "
+                "style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://fonts.googleapis.com; "
+                "font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; "
+                "img-src 'self' data: https:; "
+                "connect-src 'self';"
+            )
+            return response
+    
+    def sanitize_input(self, input_text: str, max_length: int = 1000) -> str:
+        """Sanitize user input to prevent XSS and injection attacks."""
+        if not input_text:
+            return ""
+        
+        # Limit length
+        input_text = input_text[:max_length]
         
         # Remove potentially dangerous characters
-        sanitized = re.sub(r'[<>"\']', '', str(input_string))
-        return sanitized.strip()
+        input_text = re.sub(r'[<>"\']', '', input_text)
+        
+        # Remove SQL injection patterns
+        sql_patterns = [
+            r'(\b(SELECT|INSERT|UPDATE|DELETE|DROP|CREATE|ALTER|EXEC|UNION)\b)',
+            r'(--|#|/\*|\*/)',
+            r'(\bOR\b.*=.*\bOR\b)',
+            r'(\bAND\b.*=.*\bAND\b)'
+        ]
+        
+        for pattern in sql_patterns:
+            input_text = re.sub(pattern, '', input_text, flags=re.IGNORECASE)
+        
+        return input_text.strip()
     
-    def validate_id(self, id_string):
-        """Validate ID strings to ensure they're safe."""
-        if not id_string:
+    def validate_pattern_id(self, pattern_id: str) -> bool:
+        """Validate pattern ID format."""
+        if not pattern_id:
             return False
-        return bool(self.safe_pattern.match(str(id_string)))
+        
+        # Allow only alphanumeric, hyphens, and underscores
+        return bool(re.match(r'^[a-zA-Z0-9_-]+$', pattern_id))
     
-    def validate_search_query(self, query):
-        """Validate search queries to ensure they're safe."""
+    def validate_search_query(self, query: str) -> bool:
+        """Validate search query."""
         if not query:
             return True
-        return bool(self.safe_text_pattern.match(str(query)))
-    
-    def generate_csrf_token(self):
-        """Generate a CSRF token."""
-        return secrets.token_hex(16)
-    
-    def validate_csrf_token(self, token):
-        """Validate a CSRF token."""
-        if 'csrf_token' not in session:
-            return False
-        return secrets.compare_digest(session['csrf_token'], token)
-    
-    def rate_limit(self, max_requests=100, window_seconds=3600):
-        """Decorator to implement rate limiting."""
-        def decorator(f):
-            @wraps(f)
-            def decorated_function(*args, **kwargs):
-                # Get client IP
-                client_ip = request.remote_addr
-                
-                # Create a unique key for this endpoint and IP
-                key = f"{client_ip}:{request.endpoint}"
-                
-                current_time = time.time()
-                
-                # Initialize rate limit data for this key if it doesn't exist
-                if key not in self.rate_limits:
-                    self.rate_limits[key] = {
-                        'count': 0,
-                        'first_request_time': current_time
-                    }
-                
-                # Reset count if window has expired
-                if current_time - self.rate_limits[key]['first_request_time'] > window_seconds:
-                    self.rate_limits[key] = {
-                        'count': 0,
-                        'first_request_time': current_time
-                    }
-                
-                # Increment request count
-                self.rate_limits[key]['count'] += 1
-                
-                # Check if limit exceeded
-                if self.rate_limits[key]['count'] > max_requests:
-                    return jsonify({'error': 'Rate limit exceeded'}), 429
-                
-                return f(*args, **kwargs)
-            return decorated_function
-        return decorator
-    
-    def require_https(self, f):
-        """Decorator to require HTTPS connections."""
-        @wraps(f)
-        def decorated_function(*args, **kwargs):
-            if not request.is_secure and current_app.config.get('REQUIRE_HTTPS', False):
-                return jsonify({'error': 'HTTPS required'}), 403
-            return f(*args, **kwargs)
-        return decorated_function
-    
-    def sanitize_json_input(self, data):
-        """Sanitize JSON input data."""
-        if isinstance(data, dict):
-            sanitized = {}
-            for key, value in data.items():
-                sanitized_key = self.sanitize_input(key)
-                sanitized_value = self.sanitize_json_input(value)
-                sanitized[sanitized_key] = sanitized_value
-            return sanitized
-        elif isinstance(data, list):
-            return [self.sanitize_json_input(item) for item in data]
-        elif isinstance(data, str):
-            return self.sanitize_input(data)
-        else:
-            return data
-    
-    def hash_password(self, password):
-        """Hash a password using SHA-256 with salt."""
-        salt = secrets.token_hex(16)
-        hashed = hashlib.sha256((password + salt).encode()).hexdigest()
-        return f"{hashed}:{salt}"
-    
-    def verify_password(self, password, hashed_password):
-        """Verify a password against a hashed password."""
-        if ':' not in hashed_password:
+        
+        # Check length
+        if len(query) > 500:
             return False
         
-        hashed, salt = hashed_password.split(':')
-        return hashlib.sha256((password + salt).encode()).hexdigest() == hashed
+        # Check for suspicious patterns
+        suspicious_patterns = [
+            r'<script',
+            r'javascript:',
+            r'vbscript:',
+            r'onload=',
+            r'onerror=',
+            r'eval\(',
+            r'exec\(',
+        ]
+        
+        for pattern in suspicious_patterns:
+            if re.search(pattern, query, re.IGNORECASE):
+                return False
+        
+        return True
     
-    def validate_api_key(self, api_key):
-        """Validate an API key (placeholder implementation)."""
-        # In a real implementation, you would check against a database of valid API keys
-        # For now, we'll just check if it's a valid hex string
+    def generate_csrf_token(self) -> str:
+        """Generate CSRF token."""
+        return secrets.token_urlsafe(32)
+    
+    def validate_csrf_token(self, token: str) -> bool:
+        """Validate CSRF token."""
+        session_token = session.get('csrf_token')
+        return session_token and secrets.compare_digest(session_token, token)
+    
+    def hash_password(self, password: str) -> str:
+        """Hash password using bcrypt."""
+        return bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
+    
+    def verify_password(self, password: str, hashed: str) -> bool:
+        """Verify password against hash."""
+        return bcrypt.checkpw(password.encode('utf-8'), hashed.encode('utf-8'))
+    
+    def generate_api_key(self) -> str:
+        """Generate API key."""
+        return secrets.token_urlsafe(32)
+    
+    def create_jwt_token(self, payload: Dict[str, Any], expires_in: int = 3600) -> str:
+        """Create JWT token."""
+        payload['exp'] = datetime.utcnow() + timedelta(seconds=expires_in)
+        payload['iat'] = datetime.utcnow()
+        
+        return jwt.encode(
+            payload,
+            current_app.config['SECRET_KEY'],
+            algorithm='HS256'
+        )
+    
+    def verify_jwt_token(self, token: str) -> Optional[Dict[str, Any]]:
+        """Verify JWT token."""
         try:
-            bytes.fromhex(api_key)
-            return len(api_key) == 32  # 16 bytes = 32 hex characters
-        except ValueError:
+            payload = jwt.decode(
+                token,
+                current_app.config['SECRET_KEY'],
+                algorithms=['HS256']
+            )
+            return payload
+        except jwt.ExpiredSignatureError:
+            logger.warning("JWT token expired")
+            return None
+        except jwt.InvalidTokenError:
+            logger.warning("Invalid JWT token")
+            return None
+    
+    def log_security_event(self, event_type: str, details: Dict[str, Any]):
+        """Log security events."""
+        logger.warning(f"Security Event: {event_type}", extra={
+            'event_type': event_type,
+            'details': details,
+            'ip_address': get_remote_address(),
+            'user_agent': request.headers.get('User-Agent', ''),
+            'timestamp': datetime.utcnow().isoformat()
+        })
+    
+    def check_rate_limit(self, identifier: str, limit: int, window: int) -> bool:
+        """Check rate limit for identifier."""
+        # Simple in-memory rate limiting
+        # This is a simple in-memory implementation
+        current_time = datetime.utcnow()
+        
+        if identifier not in self.failed_attempts:
+            self.failed_attempts[identifier] = []
+        
+        # Clean old attempts
+        self.failed_attempts[identifier] = [
+            attempt for attempt in self.failed_attempts[identifier]
+            if (current_time - attempt).seconds < window
+        ]
+        
+        # Check limit
+        if len(self.failed_attempts[identifier]) >= limit:
             return False
+        
+        # Add current attempt
+        self.failed_attempts[identifier].append(current_time)
+        return True
+    
+    def is_ip_blocked(self, ip_address: str) -> bool:
+        """Check if IP address is blocked."""
+        return ip_address in self.blocked_ips
+    
+    def block_ip(self, ip_address: str, duration: int = 3600):
+        """Block IP address."""
+        self.blocked_ips.add(ip_address)
+        self.log_security_event('ip_blocked', {
+            'ip_address': ip_address,
+            'duration': duration
+        })
 
-# Global security manager
+# Global security manager instance
 security_manager = SecurityManager()
 
-def sanitize_user_input(f):
-    """Decorator to sanitize user input."""
-    @wraps(f)
-    def decorated_function(*args, **kwargs):
-        # Sanitize query parameters
-        sanitized_args = {}
-        for key, value in request.args.items():
-            sanitized_args[key] = security_manager.sanitize_input(value)
-        
-        # Add sanitized args to request context if needed
-        return f(*args, **kwargs)
-    return decorated_function
-
+# Decorators for security validation
 def validate_pattern_id(f):
-    """Decorator to validate pattern IDs in URL parameters."""
+    """Decorator to validate pattern ID parameters."""
     @wraps(f)
     def decorated_function(*args, **kwargs):
-        # Validate vendor_id and product_id
-        vendor_id = kwargs.get('vendor_id')
-        product_id = kwargs.get('product_id')
+        # Check vendor and product parameters
+        vendor = kwargs.get('vendor') or request.view_args.get('vendor')
+        product = kwargs.get('product') or request.view_args.get('product')
         
-        if vendor_id and not security_manager.validate_id(vendor_id):
-            return jsonify({'error': 'Invalid vendor ID'}), 400
+        if vendor and not security_manager.validate_pattern_id(vendor):
+            security_manager.log_security_event('invalid_pattern_id', {
+                'parameter': 'vendor',
+                'value': vendor
+            })
+            abort(400, description="Invalid vendor ID format")
         
-        if product_id and not security_manager.validate_id(product_id):
-            return jsonify({'error': 'Invalid product ID'}), 400
+        if product and not security_manager.validate_pattern_id(product):
+            security_manager.log_security_event('invalid_pattern_id', {
+                'parameter': 'product',
+                'value': product
+            })
+            abort(400, description="Invalid product ID format")
         
         return f(*args, **kwargs)
     return decorated_function
@@ -176,42 +241,52 @@ def validate_search_input(f):
     """Decorator to validate search input."""
     @wraps(f)
     def decorated_function(*args, **kwargs):
-        # Validate search query
         query = request.args.get('q', '')
+        
         if query and not security_manager.validate_search_query(query):
-            return jsonify({'error': 'Invalid search query'}), 400
-        
-        # Validate category and vendor filters
-        category = request.args.get('category', '')
-        vendor = request.args.get('vendor', '')
-        
-        if category and not security_manager.validate_id(category):
-            return jsonify({'error': 'Invalid category'}), 400
-        
-        if vendor and not security_manager.validate_id(vendor):
-            return jsonify({'error': 'Invalid vendor'}), 400
+            security_manager.log_security_event('invalid_search_query', {
+                'query': query[:100]  # Log only first 100 chars
+            })
+            abort(400, description="Invalid search query")
         
         return f(*args, **kwargs)
     return decorated_function
-
-def require_https(f):
-    """Decorator to require HTTPS connections."""
-    return security_manager.require_https(f)
 
 def require_api_key(f):
     """Decorator to require API key authentication."""
     @wraps(f)
     def decorated_function(*args, **kwargs):
         api_key = request.headers.get('X-API-Key')
-        if not api_key:
-            return jsonify({'error': 'API key required'}), 401
         
-        if not security_manager.validate_api_key(api_key):
-            return jsonify({'error': 'Invalid API key'}), 401
+        if not api_key:
+            security_manager.log_security_event('missing_api_key', {})
+            abort(401, description="API key required")
+        
+        # Simple API key validation
+        # For now, just check if it's a valid format
+        if len(api_key) < 32:
+            security_manager.log_security_event('invalid_api_key', {
+                'api_key_length': len(api_key)
+            })
+            abort(401, description="Invalid API key")
         
         return f(*args, **kwargs)
     return decorated_function
 
-def rate_limit(max_requests=100, window_seconds=3600):
-    """Decorator to implement rate limiting."""
-    return security_manager.rate_limit(max_requests, window_seconds)
+def check_ip_whitelist(allowed_ips: List[str]):
+    """Decorator to check IP whitelist."""
+    def decorator(f):
+        @wraps(f)
+        def decorated_function(*args, **kwargs):
+            client_ip = get_remote_address()
+            
+            if client_ip not in allowed_ips:
+                security_manager.log_security_event('ip_not_whitelisted', {
+                    'client_ip': client_ip,
+                    'allowed_ips': allowed_ips
+                })
+                abort(403, description="Access denied")
+            
+            return f(*args, **kwargs)
+        return decorated_function
+    return decorator

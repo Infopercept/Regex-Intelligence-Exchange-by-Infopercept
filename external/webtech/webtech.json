@@ -1,0 +1,34 @@
+{
+  "SampleTech": {
+    "cats": [
+      1
+    ],
+    "headers": {
+      "Server": "SampleTech(?:/([\\d.]+))?\\;version:\\1"
+    },
+    "html": "<title>Sample Technology</title>",
+    "icon": "SampleTech.png",
+    "implies": "Apache",
+    "js": {
+      "SampleTech.version": "([\\d.]+)\\;version:\\1"
+    },
+    "meta": {
+      "generator": "SampleTech ([\\d.]+)\\;version:\\1"
+    },
+    "website": "https://sampletech.com"
+  },
+  "WebFramework": {
+    "cats": [
+      18
+    ],
+    "cookies": {
+      "webframework": ""
+    },
+    "html": "<!-- Web Framework v([\\d.]+) -->\\;version:\\1",
+    "icon": "WebFramework.png",
+    "meta": {
+      "generator": "WebFramework"
+    },
+    "website": "https://webframework.com"
+  }
+}

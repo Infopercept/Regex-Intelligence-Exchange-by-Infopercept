@@ -1,0 +1,527 @@
+{% extends "base.html" %}
+
+{% block title %}Pattern Tester - Regex Intelligence Exchange{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <h1 class="h2 fw-bold">
+            <i class="fas fa-flask me-2"></i>Advanced Pattern Tester
+        </h1>
+        <p class="text-muted">Test your text against all patterns to identify technologies with advanced analysis</p>
+    </div>
+</div>
+
+<!-- Test Form -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <i class="fas fa-edit me-2"></i>Input Text for Analysis
+                </h5>
+            </div>
+            <div class="card-body">
+                <form id="testForm">
+                    <div class="mb-3">
+                        <label for="testInput" class="form-label">Enter text to analyze:</label>
+                        <textarea class="form-control" id="testInput" rows="10" 
+                                  placeholder="Paste HTTP headers, HTML content, or any text that might contain technology fingerprints...
+
+Example:
+Server: Apache/2.4.41 (Ubuntu)
+X-Powered-By: PHP/7.4.3
+Set-Cookie: PHPSESSID=abc123; path=/
+Content-Type: text/html; charset=UTF-8"></textarea>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="maxResults" class="form-label">Maximum Results:</label>
+                            <select class="form-select" id="maxResults">
+                                <option value="10">10 results</option>
+                                <option value="25" selected>25 results</option>
+                                <option value="50">50 results</option>
+                                <option value="100">100 results</option>
+                                <option value="0">All results</option>
+                            </select>
+                        </div>
+                        
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Quick Examples:</label>
+                            <div class="d-grid gap-2">
+                                <button type="button" class="btn btn-outline-secondary btn-sm" onclick="loadExample('apache')">
+                                    Apache Server
+                                </button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm" onclick="loadExample('nginx')">
+                                    Nginx Server
+                                </button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm" onclick="loadExample('php')">
+                                    PHP Application
+                                </button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm" onclick="loadExample('wordpress')">
+                                    WordPress Site
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex justify-content-between align-items-center">
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            <i class="fas fa-search me-2"></i>
+                            <span class="loading-spinner spinner-border spinner-border-sm me-2"></span>
+                            Analyze Text
+                        </button>
+                        
+                        <div>
+                            <button type="button" class="btn btn-outline-secondary me-2" onclick="clearTest()">
+                                <i class="fas fa-times me-1"></i>Clear
+                            </button>
+                            <button type="button" class="btn btn-outline-info" onclick="showHelp()">
+                                <i class="fas fa-question-circle me-1"></i>Help
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Results -->
+<div id="testResults" class="d-none">
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">
+                        <i class="fas fa-chart-line me-2"></i>Analysis Results
+                        <button class="btn btn-sm btn-outline-primary float-end" onclick="exportResults()">
+                            <i class="fas fa-download me-1"></i>Export
+                        </button>
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div id="resultsStats" class="row mb-3">
+                        <!-- Stats will be inserted here -->
+                    </div>
+                    
+                    <div id="resultsContent">
+                        <!-- Results will be inserted here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- No Results -->
+<div id="noResults" class="d-none">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body text-center py-5">
+                    <i class="fas fa-search fa-3x text-muted mb-3"></i>
+                    <h5 class="text-muted">No Technology Patterns Detected</h5>
+                    <p class="text-muted">The provided text doesn't match any known technology fingerprints.</p>
+                    <p class="text-muted">Try entering HTTP headers, HTML content, or server responses.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Help Modal -->
+<div class="modal fade" id="helpModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    <i class="fas fa-question-circle me-2"></i>Pattern Testing Guide
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <h6 class="fw-bold">How to Use the Pattern Tester</h6>
+                <p>The Pattern Tester analyzes text to identify technologies using over 1500 regex patterns.</p>
+                
+                <h6 class="fw-bold mt-4">Best Input Types</h6>
+                <ul>
+                    <li><i class="fas fa-check text-success me-2"></i><strong>HTTP Response Headers</strong> - Server, X-Powered-By, etc.</li>
+                    <li><i class="fas fa-check text-success me-2"></i><strong>HTML Source Code</strong> - Meta tags, comments, scripts</li>
+                    <li><i class="fas fa-check text-success me-2"></i><strong>Server Responses</strong> - Error messages, banners</li>
+                    <li><i class="fas fa-check text-success me-2"></i><strong>Application Output</strong> - Version strings, footers</li>
+                </ul>
+                
+                <h6 class="fw-bold mt-4">Interpreting Results</h6>
+                <ul>
+                    <li><i class="fas fa-info-circle text-primary me-2"></i><strong>Product</strong> - The identified technology</li>
+                    <li><i class="fas fa-info-circle text-primary me-2"></i><strong>Vendor</strong> - The company or organization</li>
+                    <li><i class="fas fa-info-circle text-primary me-2"></i><strong>Version</strong> - Detected version (when available)</li>
+                    <li><i class="fas fa-info-circle text-primary me-2"></i><strong>Matched Text</strong> - The exact text that triggered the match</li>
+                </ul>
+                
+                <h6 class="fw-bold mt-4">Advanced Features</h6>
+                <ul>
+                    <li><i class="fas fa-star text-warning me-2"></i><strong>Export Results</strong> - Download findings as JSON or CSV</li>
+                    <li><i class="fas fa-star text-warning me-2"></i><strong>Filter by Category</strong> - Focus on specific technology types</li>
+                    <li><i class="fas fa-star text-warning me-2"></i><strong>Pattern Details</strong> - View exact regex patterns used</li>
+                </ul>
+                
+                <h6 class="fw-bold mt-4">Example Use Cases</h6>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="border rounded p-3 mb-3">
+                            <h6 class="fw-bold">Web Server Identification</h6>
+                            <small class="text-muted">Input HTTP headers to identify web servers:</small>
+                            <div class="code-block mt-2">
+                                <code>Server: Apache/2.4.41 (Ubuntu)</code>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="border rounded p-3 mb-3">
+                            <h6 class="fw-bold">CMS Detection</h6>
+                            <small class="text-muted">Input HTML to identify content management systems:</small>
+                            <div class="code-block mt-2">
+                                <code>&lt;meta name="generator" content="WordPress 6.2" /&gt;</code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Got It</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Export Modal -->
+<div class="modal fade" id="exportModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    <i class="fas fa-download me-2"></i>Export Results
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p>Choose export format for your analysis results:</p>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-success" onclick="downloadResults('json')">
+                        <i class="fas fa-file-code me-2"></i>Export as JSON
+                    </button>
+                    <button class="btn btn-info" onclick="downloadResults('csv')">
+                        <i class="fas fa-file-csv me-2"></i>Export as CSV
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Tips -->
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <i class="fas fa-lightbulb me-2"></i>Tips for Better Results
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6 class="fw-bold">Good Input Examples:</h6>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-success me-2"></i>HTTP response headers</li>
+                            <li><i class="fas fa-check text-success me-2"></i>HTML source code</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Server error messages</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Application version strings</li>
+                            <li><i class="fas fa-check text-success me-2"></i>JavaScript library references</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <h6 class="fw-bold">Pattern Categories:</h6>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-server text-primary me-2"></i>Web servers (Apache, Nginx, IIS)</li>
+                            <li><i class="fas fa-code text-info me-2"></i>Programming languages (PHP, Python, Java)</li>
+                            <li><i class="fas fa-database text-warning me-2"></i>Databases (MySQL, PostgreSQL, MongoDB)</li>
+                            <li><i class="fas fa-shield-alt text-danger me-2"></i>Security tools and firewalls</li>
+                            <li><i class="fas fa-cogs text-secondary me-2"></i>CMS and frameworks</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+let lastResults = [];
+
+// Initialize examples after page load
+document.addEventListener('DOMContentLoaded', function() {
+    const testForm = document.getElementById('testForm');
+    
+    testForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        performTest();
+    });
+});
+
+function loadExample(type) {
+    let example = "";
+    if (type === 'apache') {
+        example = "Server: Apache/2.4.41 (Ubuntu)\nX-Powered-By: PHP/7.4.3\nSet-Cookie: PHPSESSID=abc123; path=/\nContent-Type: text/html; charset=UTF-8";
+    } else if (type === 'nginx') {
+        example = "Server: nginx/1.18.0 (Ubuntu)\nX-Powered-By: Express\nX-Frame-Options: SAMEORIGIN\nContent-Security-Policy: default-src 'self'";
+    } else if (type === 'php') {
+        example = "X-Powered-By: PHP/8.1.2\nSet-Cookie: PHPSESSID=def456; path=/; HttpOnly\nContent-Type: text/html; charset=UTF-8\nX-PHP-Version: 8.1.2";
+    } else if (type === 'wordpress') {
+        // Using a completely different approach to avoid string literal issues
+        example = [
+            '<meta name="generator" content="WordPress 6.2" />',
+            '<link rel="stylesheet" id="wp-block-library-css" />',
+            '<script src="/wp-includes/js/jquery/jquery.min.js"></script>'
+        ].join('\n');
+    }
+    
+    document.getElementById('testInput').value = example;
+}
+
+function clearTest() {
+    document.getElementById('testInput').value = '';
+    document.getElementById('testResults').classList.add('d-none');
+    document.getElementById('noResults').classList.add('d-none');
+}
+
+function showHelp() {
+    const modal = new bootstrap.Modal(document.getElementById('helpModal'));
+    modal.show();
+}
+
+function performTest() {
+    const testInput = document.getElementById('testInput').value.trim();
+    const submitButton = document.querySelector('button[type="submit"]');
+    
+    if (!testInput) {
+        showAlert('Please enter some text to analyze', 'warning');
+        return;
+    }
+    
+    showLoading(submitButton);
+    
+    // Hide previous results
+    document.getElementById('testResults').classList.add('d-none');
+    document.getElementById('noResults').classList.add('d-none');
+    
+    fetch('/api/match', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            text: testInput
+        })
+    })
+    .then(response => response.json())
+    .then(matches => {
+        lastResults = matches;
+        if (matches.length > 0) {
+            displayResults(matches);
+        } else {
+            document.getElementById('noResults').classList.remove('d-none');
+        }
+    })
+    .catch(error => {
+        console.error('Test error:', error);
+        showAlert('Error analyzing text. Please try again.', 'danger');
+    })
+    .finally(() => {
+        hideLoading(submitButton);
+    });
+}
+
+function displayResults(matches) {
+    const resultsDiv = document.getElementById('testResults');
+    const statsDiv = document.getElementById('resultsStats');
+    const contentDiv = document.getElementById('resultsContent');
+    
+    // Apply limit if not "All results"
+    const limit = parseInt(document.getElementById('maxResults').value);
+    let filteredMatches = matches;
+    if (limit > 0) {
+        filteredMatches = matches.slice(0, limit);
+    }
+    
+    // Group matches by category
+    const categories = {};
+    filteredMatches.forEach(match => {
+        const category = match.category || 'Unknown';
+        if (!categories[category]) {
+            categories[category] = [];
+        }
+        categories[category].push(match);
+    });
+    
+    // Display stats
+    statsDiv.innerHTML = `
+        <div class="col-md-3">
+            <div class="text-center">
+                <h4 class="text-primary fw-bold">${filteredMatches.length}</h4>
+                <small class="text-muted">Total Matches</small>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="text-center">
+                <h4 class="text-success fw-bold">${Object.keys(categories).length}</h4>
+                <small class="text-muted">Categories</small>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="text-center">
+                <h4 class="text-warning fw-bold">${new Set(filteredMatches.map(m => m.vendor)).size}</h4>
+                <small class="text-muted">Vendors</small>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="text-center">
+                <h4 class="text-info fw-bold">${filteredMatches.filter(m => m.version).length}</h4>
+                <small class="text-muted">With Versions</small>
+            </div>
+        </div>
+    `;
+    
+    // Display matches by category
+    let contentHtml = '';
+    
+    Object.entries(categories).forEach(([category, categoryMatches]) => {
+        contentHtml += `
+            <div class="mb-4">
+                <h6 class="fw-bold text-primary mb-3">
+                    <i class="fas fa-tag me-2"></i>${escapeHtml(category)} 
+                    <span class="badge bg-primary">${categoryMatches.length}</span>
+                </h6>
+                
+                <div class="row">
+        `;
+        
+        categoryMatches.forEach(match => {
+            contentHtml += `
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="card border-start border-primary border-3 h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h6 class="card-title mb-2">${escapeHtml(match.product || 'Unknown Product')}</h6>
+                            
+                            <p class="text-muted mb-2">
+                                <i class="fas fa-building me-1"></i>
+                                ${escapeHtml(match.vendor || 'Unknown Vendor')}
+                            </p>
+                            
+                            ${match.version ? `
+                                <p class="text-success mb-2">
+                                    <i class="fas fa-code-branch me-1"></i>
+                                    Version: <strong>${escapeHtml(match.version)}</strong>
+                                </p>
+                            ` : ''}
+                            
+                            <div class="mb-2 flex-grow-1">
+                                <small class="text-muted">Matched Text:</small>
+                                <div class="code-block mt-1" style="font-size: 0.75rem; padding: 0.5rem;">
+                                    <code>${escapeHtml(match.matched_text)}</code>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                <small class="text-muted">${escapeHtml(match.pattern_name || 'Pattern')}</small>
+                                <a href="/pattern/${match.vendor_id}/${match.product_id}" 
+                                   class="btn btn-outline-primary btn-sm">
+                                    <i class="fas fa-eye me-1"></i>Details
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        });
+        
+        contentHtml += `
+                </div>
+            </div>
+        `;
+    });
+    
+    contentDiv.innerHTML = contentHtml;
+    resultsDiv.classList.remove('d-none');
+    
+    // Scroll to results
+    resultsDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function exportResults() {
+    const modal = new bootstrap.Modal(document.getElementById('exportModal'));
+    modal.show();
+}
+
+function downloadResults(format) {
+    if (lastResults.length === 0) {
+        showAlert('No results to export', 'warning');
+        return;
+    }
+    
+    if (format === 'json') {
+        downloadJSON(lastResults, 'pattern-test-results.json');
+    } else if (format === 'csv') {
+        downloadCSV(lastResults, 'pattern-test-results.csv');
+    }
+    
+    // Close the modal
+    const modal = bootstrap.Modal.getInstance(document.getElementById('exportModal'));
+    modal.hide();
+    
+    showAlert(`Results exported as ${format.toUpperCase()}`, 'success');
+}
+
+function downloadJSON(data, filename) {
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+
+function downloadCSV(data, filename) {
+    let csv = 'Vendor,Product,Category,Version,Pattern Name,Matched Text,Vendor ID,Product ID\n';
+    
+    data.forEach(item => {
+        csv += `"${item.vendor || ''}","${item.product || ''}","${item.category || ''}","${item.version || ''}","${item.pattern_name || ''}","${item.matched_text || ''}","${item.vendor_id || ''}","${item.product_id || ''}"\n`;
+    });
+    
+    const blob = new Blob([csv], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+</script>
+{% endblock %}

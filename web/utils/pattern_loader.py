@@ -131,7 +131,7 @@ def get_vendors(patterns: List[Dict[str, Any]]) -> List[str]:
 
 def get_statistics(patterns: List[Dict[str, Any]]) -> Dict[str, Any]:
     """
-    Get database statistics.
+    Get pattern statistics.
     
     Args:
         patterns: List of pattern dictionaries

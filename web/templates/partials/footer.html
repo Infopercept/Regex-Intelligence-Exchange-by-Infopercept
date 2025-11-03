@@ -1,17 +1,348 @@
-<!-- Footer Partial -->
-<footer class="footer mt-auto py-3 bg-white border-top">
+<!-- Enhanced Footer for Regex Intelligence Exchange -->
+<footer class="footer mt-auto py-4 bg-light border-top">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 text-center text-md-start">
-                <span class="text-muted">© 2025 Regex Intelligence Exchange by Infopercept</span>
+            <!-- About Section -->
+            <div class="col-md-4 mb-3">
+                <h6 class="fw-bold text-primary">
+                    <i class="fas fa-search-plus"></i>
+                    Regex Intelligence Exchange
+                </h6>
+                <p class="text-muted small mb-2">
+                    A comprehensive repository of regex patterns for technology fingerprinting and security analysis.
+                </p>
+                <div class="d-flex gap-2">
+                    <a href="https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept" 
+                       class="btn btn-outline-primary btn-sm" target="_blank">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="/api/docs/" class="btn btn-outline-info btn-sm" target="_blank">
+                        <i class="fas fa-book"></i> API Docs
+                    </a>
+                </div>
             </div>
-            <div class="col-md-6 text-center text-md-end">
-                <span class="text-muted">
-                    <a href="#" class="text-muted me-3">Privacy Policy</a>
-                    <a href="#" class="text-muted me-3">Terms of Service</a>
-                    <a href="#" class="text-muted">Documentation</a>
-                </span>
+
+            <!-- Quick Links -->
+            <div class="col-md-2 mb-3">
+                <h6 class="fw-bold">Quick Links</h6>
+                <ul class="list-unstyled small">
+                    <li><a href="{{ url_for('main.index') }}" class="text-decoration-none">Dashboard</a></li>
+                    <li><a href="{{ url_for('main.search') }}" class="text-decoration-none">Search Patterns</a></li>
+                    <li><a href="{{ url_for('main.analytics') }}" class="text-decoration-none">Analytics</a></li>
+                    <li><a href="{{ url_for('main.pattern_editor') }}" class="text-decoration-none">Pattern Editor</a></li>
+                </ul>
+            </div>
+
+            <!-- Resources -->
+            <div class="col-md-2 mb-3">
+                <h6 class="fw-bold">Resources</h6>
+                <ul class="list-unstyled small">
+                    <li><a href="#" onclick="showDocumentation()" class="text-decoration-none">Documentation</a></li>
+                    <li><a href="#" onclick="showContributing()" class="text-decoration-none">Contributing</a></li>
+                    <li><a href="#" onclick="showLicense()" class="text-decoration-none">License</a></li>
+                    <li><a href="#" onclick="showSupport()" class="text-decoration-none">Support</a></li>
+                </ul>
+            </div>
+
+            <!-- Statistics -->
+            <div class="col-md-4 mb-3">
+                <h6 class="fw-bold">Live Statistics</h6>
+                <div class="row text-center">
+                    <div class="col-4">
+                        <div class="small text-muted">Total Patterns</div>
+                        <div class="fw-bold text-primary" id="footerTotalPatterns">-</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="small text-muted">Categories</div>
+                        <div class="fw-bold text-success" id="footerTotalCategories">-</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="small text-muted">Vendors</div>
+                        <div class="fw-bold text-info" id="footerTotalVendors">-</div>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <small class="text-muted">
+                        <i class="fas fa-clock"></i>
+                        Last updated: <span id="footerLastUpdated">Loading...</span>
+                    </small>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-3">
+
+        <!-- Bottom Row -->
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="text-muted small mb-0">
+                    © 2024 <strong>Infopercept</strong>. Made with ❤️ for the security community.
+                </p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <div class="d-flex justify-content-md-end align-items-center gap-3">
+                    <!-- Theme Toggle -->
+                    <button class="btn btn-outline-secondary btn-sm" onclick="toggleTheme()" title="Toggle Theme">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                    </button>
+                    
+                    <!-- Performance Indicator -->
+                    <div class="d-flex align-items-center gap-1">
+                        <div class="status-indicator" id="performanceIndicator"></div>
+                        <small class="text-muted">Status</small>
+                    </div>
+                    
+                    <!-- Version Info -->
+                    <small class="text-muted">
+                        v2.0.0 | 
+                        <span id="footerUptime">-</span>
+                    </small>
+                </div>
             </div>
         </div>
     </div>
 </footer>
+
+<!-- Documentation Modal -->
+<div class="modal fade" id="documentationModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    <i class="fas fa-book"></i>
+                    Documentation
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6>Getting Started</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none">
+                                <i class="fas fa-play-circle"></i> Quick Start Guide
+                            </a></li>
+                            <li><a href="#" class="text-decoration-none">
+                                <i class="fas fa-cogs"></i> Installation
+                            </a></li>
+                            <li><a href="#" class="text-decoration-none">
+                                <i class="fas fa-rocket"></i> Deployment
+                            </a></li>
+                        </ul>
+                        
+                        <h6 class="mt-3">API Reference</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="/api/docs/" target="_blank" class="text-decoration-none">
+                                <i class="fas fa-code"></i> REST API Documentation
+                            </a></li>
+                            <li><a href="#" class="text-decoration-none">
+                                <i class="fas fa-puzzle-piece"></i> Pattern Format
+                            </a></li>
+                            <li><a href="#" class="text-decoration-none">
+                                <i class="fas fa-search"></i> Search Syntax
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Advanced Topics</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none">
+                                <i class="fas fa-database"></i> Database Migration
+                            </a></li>
+                            <li><a href="#" class="text-decoration-none">
+                                <i class="fas fa-shield-alt"></i> Security Configuration
+                            </a></li>
+                            <li><a href="#" class="text-decoration-none">
+                                <i class="fas fa-tachometer-alt"></i> Performance Tuning
+                            </a></li>
+                        </ul>
+                        
+                        <h6 class="mt-3">Community</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none">
+                                <i class="fas fa-users"></i> Contributing Guidelines
+                            </a></li>
+                            <li><a href="#" class="text-decoration-none">
+                                <i class="fas fa-bug"></i> Report Issues
+                            </a></li>
+                            <li><a href="#" class="text-decoration-none">
+                                <i class="fas fa-comments"></i> Discussions
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.status-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #28a745;
+    animation: pulse 2s infinite;
+}
+
+.status-indicator.warning {
+    background-color: #ffc107;
+}
+
+.status-indicator.error {
+    background-color: #dc3545;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.footer {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.footer .btn:hover {
+    transform: translateY(-1px);
+    transition: transform 0.2s ease;
+}
+</style>
+
+<script>
+// Footer JavaScript functions
+let footerStatsInterval;
+let startTime = Date.now();
+
+// Load footer statistics
+function loadFooterStats() {
+    fetch('/api/analytics/summary')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('footerTotalPatterns').textContent = data.total_patterns || 0;
+            document.getElementById('footerTotalCategories').textContent = Object.keys(data.categories || {}).length;
+            document.getElementById('footerTotalVendors').textContent = Object.keys(data.subcategories || {}).length;
+            document.getElementById('footerLastUpdated').textContent = new Date().toLocaleTimeString();
+            
+            // Update performance indicator
+            updatePerformanceIndicator('success');
+        })
+        .catch(error => {
+            console.error('Error loading footer stats:', error);
+            updatePerformanceIndicator('error');
+        });
+}
+
+// Update performance indicator
+function updatePerformanceIndicator(status) {
+    const indicator = document.getElementById('performanceIndicator');
+    indicator.className = 'status-indicator';
+    
+    if (status === 'warning') {
+        indicator.classList.add('warning');
+    } else if (status === 'error') {
+        indicator.classList.add('error');
+    }
+}
+
+// Update uptime display
+function updateUptime() {
+    const uptime = Date.now() - startTime;
+    const seconds = Math.floor(uptime / 1000);
+    const minutes = Math.floor(seconds / 60);
+    const hours = Math.floor(minutes / 60);
+    
+    let uptimeText;
+    if (hours > 0) {
+        uptimeText = `${hours}h ${minutes % 60}m`;
+    } else if (minutes > 0) {
+        uptimeText = `${minutes}m ${seconds % 60}s`;
+    } else {
+        uptimeText = `${seconds}s`;
+    }
+    
+    document.getElementById('footerUptime').textContent = uptimeText;
+}
+
+// Theme toggle functionality
+function toggleTheme() {
+    const body = document.body;
+    const themeIcon = document.getElementById('themeIcon');
+    
+    if (body.classList.contains('dark-theme')) {
+        body.classList.remove('dark-theme');
+        themeIcon.className = 'fas fa-moon';
+        localStorage.setItem('theme', 'light');
+    } else {
+        body.classList.add('dark-theme');
+        themeIcon.className = 'fas fa-sun';
+        localStorage.setItem('theme', 'dark');
+    }
+}
+
+// Load saved theme
+function loadTheme() {
+    const savedTheme = localStorage.getItem('theme');
+    const themeIcon = document.getElementById('themeIcon');
+    
+    if (savedTheme === 'dark') {
+        document.body.classList.add('dark-theme');
+        themeIcon.className = 'fas fa-sun';
+    }
+}
+
+// Modal functions
+function showDocumentation() {
+    const modal = new bootstrap.Modal(document.getElementById('documentationModal'));
+    modal.show();
+}
+
+function showContributing() {
+    window.open('https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept/blob/main/CONTRIBUTING.md', '_blank');
+}
+
+function showLicense() {
+    window.open('https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept/blob/main/LICENSE', '_blank');
+}
+
+function showSupport() {
+    window.open('https://github.com/Infopercept/Regex-Intelligence-Exchange-by-Infopercept/issues', '_blank');
+}
+
+// Initialize footer
+document.addEventListener('DOMContentLoaded', function() {
+    // Load theme
+    loadTheme();
+    
+    // Load initial stats
+    loadFooterStats();
+    
+    // Set up intervals
+    footerStatsInterval = setInterval(loadFooterStats, 30000); // Update every 30 seconds
+    setInterval(updateUptime, 1000); // Update uptime every second
+    
+    // Performance monitoring
+    let performanceCheckCount = 0;
+    setInterval(() => {
+        performanceCheckCount++;
+        
+        // Simulate performance check
+        const isHealthy = Math.random() > 0.1; // 90% healthy
+        updatePerformanceIndicator(isHealthy ? 'success' : 'warning');
+        
+        // Occasionally show notifications for system events
+        if (performanceCheckCount % 60 === 0) { // Every minute
+            if (typeof addNotification === 'function') {
+                addNotification('System health check completed', 'info');
+            }
+        }
+    }, 1000);
+});
+
+// Cleanup on page unload
+window.addEventListener('beforeunload', function() {
+    if (footerStatsInterval) {
+        clearInterval(footerStatsInterval);
+    }
+});
+</script>

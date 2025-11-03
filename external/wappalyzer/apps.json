@@ -1,0 +1,47 @@
+{
+  "apps": {
+    "SampleApp": {
+      "cats": [
+        1
+      ],
+      "headers": {
+        "X-Powered-By": "SampleApp(?:/([\\d.]+))?\\;version:\\1"
+      },
+      "html": "<title>Sample Application</title>",
+      "icon": "SampleApp.png",
+      "implies": "PHP",
+      "js": {
+        "SampleApp.version": "([\\d.]+)\\;version:\\1"
+      },
+      "meta": {
+        "generator": "SampleApp ([\\d.]+)\\;version:\\1"
+      },
+      "script": "sampleapp\\.js",
+      "website": "https://sampleapp.com"
+    },
+    "AnotherSample": {
+      "cats": [
+        18
+      ],
+      "cookies": {
+        "anothersample": ""
+      },
+      "html": "<!-- Another Sample App v([\\d.]+) -->\\;version:\\1",
+      "icon": "AnotherSample.png",
+      "meta": {
+        "generator": "AnotherSample"
+      },
+      "website": "https://anothersample.com"
+    }
+  },
+  "categories": {
+    "1": {
+      "name": "CMS",
+      "priority": 1
+    },
+    "18": {
+      "name": "Web frameworks",
+      "priority": 1
+    }
+  }
+}

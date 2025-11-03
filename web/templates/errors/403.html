@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}Forbidden - Regex Intelligence Exchange{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="text-center">
+                <div class="display-1 text-danger mb-3">403</div>
+                <h1 class="h2 mb-3">Access Forbidden</h1>
+                <p class="lead mb-4">
+                    {{ error.description or "You don't have permission to access this resource." }}
+                </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                    <a href="{{ url_for('main.index') }}" class="btn btn-primary">
+                        <i class="fas fa-home"></i> Go Home
+                    </a>
+                    <button onclick="history.back()" class="btn btn-outline-primary">
+                        <i class="fas fa-arrow-left"></i> Go Back
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

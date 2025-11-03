@@ -165,10 +165,6 @@ To prevent duplicate entries when importing patterns from external sources:
    ```bash
    python tools/check-duplicates.py
    ```
-3. **Use the merge tool** to intelligently combine patterns from different sources:
-   ```bash
-   python tools/merge-patterns.py <import-directory> <target-directory>
-   ```
 
 ## Tools
 
@@ -180,56 +176,14 @@ To prevent duplicate entries when importing patterns from external sources:
 - `validate-imported-patterns.py`: Validates Wappalyzer imported patterns
 - `validate-webtech-patterns.py`: Validates WebTech imported patterns
 
-### Migration Tools
-
-- `migrate-patterns.py`: Converts traditional structure to new structure
-- `update-patterns.py`: Updates existing patterns to enhanced structure
-
 ### Utility Tools
 
 - `list-vendors-products.py`: Lists all vendors and products in the new structure
 - `search-patterns.py`: Searches for patterns by vendor or product name
-- `compare-structures.py`: Compares pattern counts between structures
 - `add-test-cases.py`: Automatically adds test cases to patterns
 - `check-duplicates.py`: Checks for duplicate patterns
-- `merge-patterns.py`: Merges patterns from different sources
 
 ### Integration Tools
 
 - `import-wappalyzer.py`: Imports patterns from Wappalyzer (now skips existing patterns)
 - `import-webtech.py`: Imports patterns from WebTech (now skips existing patterns)
-
-## Best Practices
-
-1. **Use the new structure** for new contributions when possible
-2. **Include comprehensive test cases** for all patterns
-3. **Use appropriate priority and confidence scores**:
-   - Priority: 0-200 (higher = more reliable)
-   - Confidence: 0.0-1.0 (higher = more accurate)
-4. **Provide clear, descriptive names** for patterns
-5. **Include relevant tags** to help with discovery
-6. **Validate patterns** before submitting
-7. **Check for duplicates** before importing external patterns
-
-## Example Workflow
-
-1. **Find an existing product**:
-   ```bash
-   python tools/search-patterns.py apache
-   ```
-
-2. **Add a new pattern** to an existing product file in `patterns/by-vendor/apache/httpd.json`
-
-3. **Validate the updated file**:
-   ```bash
-   python tools/validate-new-pattern.py patterns/by-vendor/apache/httpd.json
-   ```
-
-4. **Test your regex** with sample inputs to ensure it works correctly
-
-5. **Check for duplicates** if importing from external sources:
-   ```bash
-   python tools/check-duplicates.py
-   ```
-
-6. **Submit a pull request** with your changes
