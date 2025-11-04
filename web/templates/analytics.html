@@ -144,7 +144,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            {% for vendor, count in stats.vendors.items()[:20] %}
+                            {% for vendor, count in top_vendors %}
                             <tr>
                                 <td>
                                     <a href="/search?vendor={{ vendor|urlencode }}" class="text-decoration-none">
@@ -156,16 +156,17 @@
                             </tr>
                             {% endfor %}
                         </tbody>
+
+                        {% if stats.vendors|length > 20 %}
+                        <div class="text-center mt-3">
+                            <button class="btn btn-outline-primary btn-sm" onclick="showAllVendors()">
+                                <i class="fas fa-eye me-1"></i>Show All {{ stats.vendors|length }} Vendors
+                            </button>
+                        </div>
+                        {% endif %}
                     </table>
                 </div>
                 
-                {% if stats.vendors|length > 20 %}
-                <div class="text-center mt-3">
-                    <button class="btn btn-outline-primary btn-sm" onclick="showAllVendors()">
-                        <i class="fas fa-eye me-1"></i>Show All {{ stats.vendors|length }} Vendors
-                    </button>
-                </div>
-                {% endif %}
             </div>
         </div>
     </div>

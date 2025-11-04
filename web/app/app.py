@@ -6,11 +6,13 @@ Web interface for Regex Intelligence Exchange
 import os
 import sys
 from flask import Flask
-from utils.error_handler import register_error_handlers
-from config import config
 
 # Add project root to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
+
+# Now we can import the modules
+from web.utils.error_handler import register_error_handlers
+from web.config import config
 
 def create_app(config_name='development'):
     """Application factory function."""
@@ -29,7 +31,7 @@ def create_app(config_name='development'):
     register_error_handlers(app)
     
     # Register blueprints
-    from app.routes import main
+    from web.app.routes import main
     app.register_blueprint(main)
     
     return app

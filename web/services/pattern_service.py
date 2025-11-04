@@ -13,6 +13,9 @@ from datetime import datetime
 
 logger = logging.getLogger(__name__)
 
+# Test logger
+logger.debug("Pattern service module loaded")
+
 # Simple pattern classes
 class Pattern:
     def __init__(self, vendor, product, vendor_id, product_id, category, subcategory=None, versions=None, all_versions=None):
@@ -27,16 +30,48 @@ class Pattern:
     
     @classmethod
     def from_dict(cls, data):
-        return cls(
+        # Convert all_versions from dict to VersionPattern objects
+        all_versions = []
+        for v in data.get('all_versions', []):
+            if isinstance(v, dict):
+                version_pattern = VersionPattern.from_dict(v)
+                # Debug: Print version pattern info
+                logger.debug(f"Converted all_versions pattern: name='{version_pattern.name}', pattern='{version_pattern.pattern}'")
+                all_versions.append(version_pattern)
+            else:
+                # If it's already a VersionPattern object, use it as is
+                all_versions.append(v)
+        
+        # Convert versions dict values from dict to VersionPattern objects
+        versions = {}
+        for key, version_list in data.get('versions', {}).items():
+            converted_list = []
+            for v in version_list:
+                if isinstance(v, dict):
+                    version_pattern = VersionPattern.from_dict(v)
+                    # Debug: Print version pattern info
+                    logger.debug(f"Converted versions pattern: name='{version_pattern.name}', pattern='{version_pattern.pattern}'")
+                    converted_list.append(version_pattern)
+                else:
+                    # If it's already a VersionPattern object, use it as is
+                    converted_list.append(v)
+            versions[key] = converted_list
+        
+        pattern = cls(
             vendor=data.get('vendor', ''),
             product=data.get('product', ''),
             vendor_id=data.get('vendor_id', ''),
             product_id=data.get('product_id', ''),
             category=data.get('category', ''),
             subcategory=data.get('subcategory'),
-            versions=data.get('versions', {}),
-            all_versions=[VersionPattern.from_dict(v) for v in data.get('all_versions', [])]
+            versions=versions,
+            all_versions=all_versions
         )
+        
+        # Debug: Print pattern info
+        logger.debug(f"Created pattern: vendor='{pattern.vendor}', product='{pattern.product}', vendor_id='{pattern.vendor_id}', product_id='{pattern.product_id}'")
+        
+        return pattern
     
     def to_dict(self):
         return {
@@ -46,8 +81,8 @@ class Pattern:
             'product_id': self.product_id,
             'category': self.category,
             'subcategory': self.subcategory,
-            'versions': self.versions,
-            'all_versions': [v.to_dict() for v in self.all_versions]
+            'versions': {k: [v.to_dict() if hasattr(v, 'to_dict') else v for v in vl] for k, vl in self.versions.items()},
+            'all_versions': [v.to_dict() if hasattr(v, 'to_dict') else v for v in self.all_versions]
         }
 
 class VersionPattern:
@@ -58,11 +93,16 @@ class VersionPattern:
     
     @classmethod
     def from_dict(cls, data):
-        return cls(
+        version_pattern = cls(
             name=data.get('name', ''),
             pattern=data.get('pattern', ''),
             version_range=data.get('version_range')
         )
+        
+        # Debug: Print version pattern info
+        logger.debug(f"Created VersionPattern: name='{version_pattern.name}', pattern='{version_pattern.pattern}'")
+        
+        return version_pattern
     
     def to_dict(self):
         return {
@@ -90,19 +130,25 @@ class PatternMatch:
         self.version_range = version_range
 
 class CategoryStats:
-    def __init__(self, total_patterns, categories, subcategories):
+    def __init__(self, total_patterns, categories, subcategories, vendors=None):
         self.total_patterns = total_patterns
         self.categories = categories
         self.subcategories = subcategories
+        self.vendors = vendors or {}
+        # Add top categories and vendors for the charts
+        self.top_categories = dict(list(sorted(categories.items(), key=lambda x: x[1], reverse=True))[:10])
+        self.top_vendors = dict(list(sorted(self.vendors.items(), key=lambda x: x[1], reverse=True))[:10])
 
 class PatternService:
     """Simple file-based pattern service."""
     
-    def __init__(self, patterns_dir: str = None):
+    def __init__(self, patterns_dir: Optional[str] = None):
         self.patterns_dir = patterns_dir or self._get_default_patterns_dir()
         self.compiled_patterns = {}  # Cache for compiled regex patterns
         self.patterns = {}  # File-based pattern storage
+        print(f"PatternService initialized with patterns_dir: {self.patterns_dir}")
         self.load_patterns()
+        print(f"PatternService loaded {len(self.patterns)} patterns")
     
     def _get_default_patterns_dir(self) -> str:
         """Get default patterns directory."""
@@ -125,6 +171,9 @@ class PatternService:
                             pattern = Pattern.from_dict(pattern_data)
                             pattern_key = f"{pattern.vendor_id}/{pattern.product_id}"
                             self.patterns[pattern_key] = pattern
+                            
+                            # Debug: Print loaded pattern info
+                            logger.debug(f"Loaded pattern: {pattern_key} with {len(pattern.all_versions)} all_versions and {len(pattern.versions)} version groups")
                             
                         except Exception as e:
                             logger.error(f"Error loading pattern from {file_path}: {e}")
@@ -225,11 +274,23 @@ class PatternService:
         
         try:
             patterns = self.get_all_patterns(limit=max_patterns)
+            print(f"Matching against {len(patterns)} patterns")
             
-            for pattern in patterns:
+            # Test all patterns with a more focused approach
+            for i, pattern in enumerate(patterns):
                 # Check all versions
                 for version_patterns in pattern.versions.values():
                     for version_pattern in version_patterns:
+                        # Ensure version_pattern is a VersionPattern object
+                        if not isinstance(version_pattern, VersionPattern):
+                            print(f"WARNING: version_pattern in versions is not a VersionPattern object: {type(version_pattern)}")
+                            continue
+                        # Skip empty patterns
+                        if not hasattr(version_pattern, 'pattern') or not version_pattern.pattern:
+                            continue
+                        # Skip patterns with empty names
+                        if not hasattr(version_pattern, 'name') or not version_pattern.name:
+                            continue
                         match_result = self._test_pattern_match(version_pattern.pattern, input_text)
                         if match_result:
                             match = PatternMatch(
@@ -247,6 +308,16 @@ class PatternService:
                 
                 # Also check all_versions
                 for version_pattern in pattern.all_versions:
+                    # Ensure version_pattern is a VersionPattern object
+                    if not isinstance(version_pattern, VersionPattern):
+                        print(f"WARNING: version_pattern in all_versions is not a VersionPattern object: {type(version_pattern)}")
+                        continue
+                    # Skip empty patterns
+                    if not hasattr(version_pattern, 'pattern') or not version_pattern.pattern:
+                        continue
+                    # Skip patterns with empty names
+                    if not hasattr(version_pattern, 'name') or not version_pattern.name:
+                        continue
                     match_result = self._test_pattern_match(version_pattern.pattern, input_text)
                     if match_result:
                         # Check if we already have a match for this pattern
@@ -268,15 +339,24 @@ class PatternService:
                             matches.append(match)
                             break
             
+            print(f"Found {len(matches)} matches")
             return matches
             
         except Exception as e:
             logger.error(f"Error matching patterns: {e}")
+            import traceback
+            traceback.print_exc()
             return []
     
     def _test_pattern_match(self, pattern: str, text: str) -> Optional[Dict[str, Any]]:
         """Test if pattern matches text."""
         try:
+            # Skip empty patterns
+            if not pattern:
+                return None
+                
+            print(f"Testing pattern '{pattern}' against text '{text}'")
+                
             # Use compiled pattern cache for better performance
             if pattern not in self.compiled_patterns:
                 self.compiled_patterns[pattern] = re.compile(pattern, re.IGNORECASE | re.MULTILINE)
@@ -292,8 +372,12 @@ class PatternService:
                 
                 # Try to extract version if there are groups
                 if match.groups():
-                    # Assume first group is version
+                    # Look for version_group in the pattern metadata if available
+                    # For now, assume first group is version
                     result['version'] = match.group(1)
+                
+                # Debug: Print match info
+                print(f"Pattern '{pattern}' matched text '{text}' with result: {result}")
                 
                 return result
             
@@ -311,6 +395,7 @@ class PatternService:
             
             categories = {}
             subcategories = {}
+            vendors = {}
             
             for pattern in patterns:
                 # Count categories
@@ -320,17 +405,22 @@ class PatternService:
                 # Count subcategories
                 if pattern.subcategory:
                     subcategories[pattern.subcategory] = subcategories.get(pattern.subcategory, 0) + 1
+                
+                # Count vendors
+                if pattern.vendor:
+                    vendors[pattern.vendor] = vendors.get(pattern.vendor, 0) + 1
             
             return CategoryStats(
                 total_patterns=len(patterns),
                 categories=categories,
-                subcategories=subcategories
+                subcategories=subcategories,
+                vendors=vendors
             )
             
         except Exception as e:
             logger.error(f"Error getting statistics: {e}")
-            return CategoryStats(total_patterns=0, categories={}, subcategories={})
-    
+            return CategoryStats(total_patterns=0, categories={}, subcategories={}, vendors={})
+
     def get_health_status(self) -> Dict[str, Any]:
         """Get service health status."""
         status = {
@@ -352,3 +442,6 @@ class PatternService:
 
 # Global pattern service instance
 pattern_service = PatternService()
+
+# Debug: Print pattern service info
+logger.debug(f"Pattern service initialized with {len(pattern_service.patterns)} patterns")

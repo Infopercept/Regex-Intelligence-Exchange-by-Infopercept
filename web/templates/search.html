@@ -164,18 +164,40 @@ function performSearch(offset = 0) {
     
     showLoading(submitButton);
     
+    const query = document.getElementById('searchQuery').value;
+    const category = document.getElementById('categoryFilter').value;
+    const vendor = document.getElementById('vendorFilter').value;
+    
+    // Debug logging
+    console.log('Search params:', {
+        query: query,
+        category: category,
+        vendor: vendor,
+        limit: currentLimit,
+        offset: offset
+    });
+    
     const params = new URLSearchParams({
-        q: document.getElementById('searchQuery').value,
-        category: document.getElementById('categoryFilter').value,
-        vendor: document.getElementById('vendorFilter').value,
+        q: query,
+        category: category,
+        vendor: vendor,
         limit: currentLimit,
         offset: offset
     });
     
     fetch(`/api/patterns?${params}`)
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(data => {
-            displayResults(data);
+            if (data.error) {
+                throw new Error(data.error);
+            }
+            
+            displayResults(data.patterns);
             totalResults = data.total;
             currentOffset = offset;
             
@@ -189,17 +211,31 @@ function performSearch(offset = 0) {
         })
         .catch(error => {
             console.error('Search error:', error);
-            showAlert('Error performing search. Please try again.', 'danger');
+            document.getElementById('searchResults').innerHTML = `
+                <div class="alert alert-danger">
+                    <i class="fas fa-exclamation-circle me-2"></i>
+                    Error performing search: ${error.message}
+                </div>
+            `;
+            document.getElementById('pagination').classList.add('d-none');
+            searchInfo.textContent = 'Error performing search';
         })
         .finally(() => {
             hideLoading(submitButton);
         });
 }
 
-function displayResults(data) {
+function displayResults(patterns) {
     const resultsContainer = document.getElementById('searchResults');
     
-    if (data.patterns.length === 0) {
+    // Debug logging
+    console.log('Displaying results:', {
+        patternsReceived: patterns,
+        isArray: Array.isArray(patterns),
+        count: Array.isArray(patterns) ? patterns.length : 0
+    });
+    
+    if (!Array.isArray(patterns) || patterns.length === 0) {
         resultsContainer.innerHTML = `
             <div class="text-center py-5">
                 <i class="fas fa-search fa-3x text-muted mb-3"></i>
@@ -210,13 +246,17 @@ function displayResults(data) {
         return;
     }
     
-    const patternsHtml = data.patterns.map(pattern => `
+    const patternsHtml = patterns.map(pattern => {
+        // Debug logging for each pattern
+        console.log('Pattern data:', pattern);
+        
+        return `
         <div class="col-md-6 col-lg-4 mb-4">
             <div class="card pattern-card h-100">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-start mb-2">
                         <h6 class="card-title mb-0">${escapeHtml(pattern.product || 'Unknown Product')}</h6>
-                        <span class="badge badge-category">${escapeHtml(pattern.category || 'Unknown')}</span>
+                        <span class="badge bg-primary badge-category">${escapeHtml(pattern.category || 'Unknown')}</span>
                     </div>
                     
                     <p class="text-muted mb-2">
@@ -231,22 +271,32 @@ function displayResults(data) {
                         </p>
                     ` : ''}
                     
-                    <div class="mt-auto">
+                    ${pattern.description ? `
+                        <p class="text-muted small mb-2">
+                            <i class="fas fa-info-circle me-1"></i>
+                            ${escapeHtml(pattern.description)}
+                        </p>
+                    ` : ''}
+                    
+                    <div class="mt-3">
                         <div class="d-flex justify-content-between align-items-center">
-                            <small class="text-muted">
-                                ${pattern.all_versions ? pattern.all_versions.length : 0} patterns
-                            </small>
+                            <div>
+                                <small class="text-muted">
+                                    <i class="fas fa-code me-1"></i>
+                                    ${pattern.all_versions ? pattern.all_versions.length : 0} patterns
+                                </small>
+                            </div>
                             
                             <a href="/pattern/${pattern.vendor_id}/${pattern.product_id}" 
                                class="btn btn-outline-primary btn-sm">
-                                <i class="fas fa-eye me-1"></i>View
+                                <i class="fas fa-eye me-1"></i>View Details
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    `).join('');
+    `}).join('');
     
     resultsContainer.innerHTML = `
         <div class="row">

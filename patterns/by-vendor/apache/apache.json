@@ -35,7 +35,7 @@
         "remediation": "Keep the software updated to the latest stable version",
         "compiled_pattern": true
       },
-      "pattern": "<title>Test\\ Page\\ for\\ Apache\\ Installation</title>",
+      "pattern": "<title>Test Page for Apache Installation</title>",
       "version_group": 0
     },
     {
@@ -66,7 +66,7 @@
         "remediation": "Keep the software updated to the latest stable version",
         "compiled_pattern": true
       },
-      "pattern": "<TITLE>Test\\ Page\\ for\\ the\\ SSL/TLS\\-aware\\ Apache\\ Installation\\ on\\ Web\\ Site</TITLE>",
+      "pattern": "<TITLE>Test Page for the SSL/TLS-aware Apache Installation on Web Site</TITLE>",
       "version_group": 0
     },
     {
@@ -97,7 +97,7 @@
         "remediation": "Keep the software updated to the latest stable version",
         "compiled_pattern": true
       },
-      "pattern": "<html><body><h1>It\\ works!</h1></body></html>",
+      "pattern": "<html><body><h1>It works!</h1></body></html>",
       "version_group": 0
     },
     {
@@ -128,7 +128,7 @@
         "remediation": "Keep the software updated to the latest stable version",
         "compiled_pattern": true
       },
-      "pattern": "<html>Apache\\ is\\ functioning\\ normally</html>",
+      "pattern": "<html>Apache is functioning normally</html>",
       "version_group": 0
     },
     {
@@ -159,7 +159,7 @@
         "remediation": "Keep the software updated to the latest stable version",
         "compiled_pattern": true
       },
-      "pattern": "<body><center>This\\ IP\\ is\\ being\\ shared\\ among\\ many\\ domains\\.<br>\\\\nTo\\ view\\ the\\ domain\\ you\\ are\\ looking\\ for,\\ simply\\ enter\\ the\\ domain\\ name\\ in\\ the\\ location\\ bar\\ of\\ your\\ web\\ browser\\.<br>",
+      "pattern": "<body><center>This IP is being shared among many domains.<br>\\\\nTo view the domain you are looking for, simply enter the domain name in the location bar of your web browser.<br>",
       "version_group": 0
     },
     {
@@ -190,7 +190,7 @@
         "remediation": "Keep the software updated to the latest stable version",
         "compiled_pattern": true
       },
-      "pattern": "Apache\\ is\\ working\\ on\\ your\\ cPanel<sup>\\&reg;</sup>\\ and\\ WHM\\&\\#8482;\\ Server",
+      "pattern": "Apache is working on your cPanel<sup>&reg;</sup> and WHM&#8482; Server",
       "version_group": 0
     },
     {

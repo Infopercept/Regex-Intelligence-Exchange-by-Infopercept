@@ -12,7 +12,7 @@ import glob
 import re
 import time
 from pathlib import Path
-from flask import Flask, render_template, jsonify, request, send_from_directory
+from flask import Flask, render_template, jsonify, request, send_from_directory, current_app, Blueprint
 from flask_cors import CORS
 from flask_restx import Api, Resource, fields
 import argparse
@@ -29,34 +29,110 @@ class PatternService:
     
     def _get_patterns_dir(self):
         """Get patterns directory path."""
-        return os.path.join(os.path.dirname(__file__), '..', 'patterns', 'by-vendor')
+        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        patterns_dir = os.path.join(base_dir, 'patterns', 'by-vendor')
+        if not os.path.exists(patterns_dir):
+            raise Exception(f"Patterns directory not found at {patterns_dir}")
+        return patterns_dir
     
     def _load_patterns(self):
         """Load all patterns from files with progress indicator."""
         if self._patterns_cache is not None:
             return self._patterns_cache
         
+        if not os.path.exists(self.patterns_dir):
+            # Try to find patterns directory relative to the current file
+            current_dir = os.path.dirname(os.path.abspath(__file__))
+            base_dir = os.path.dirname(current_dir)
+            alt_patterns_dir = os.path.join(base_dir, 'patterns', 'by-vendor')
+            
+            if os.path.exists(alt_patterns_dir):
+                self.patterns_dir = alt_patterns_dir
+            else:
+                raise Exception(f"Patterns directory not found at: {self.patterns_dir} or {alt_patterns_dir}")
+        
         patterns = []
         pattern_files = glob.glob(os.path.join(self.patterns_dir, '**', '*.json'), recursive=True)
         
-        print(f"📂 Loading patterns from {len(pattern_files)} files...")
+        if not pattern_files:
+            raise Exception(f"No pattern files found in: {self.patterns_dir}")
+        
+        print(f"📂 Loading patterns from {len(pattern_files)} files in {self.patterns_dir}...")
         
         for i, file_path in enumerate(pattern_files):
             try:
                 with open(file_path, 'r', encoding='utf-8') as f:
                     pattern_data = json.load(f)
-                    patterns.append(pattern_data)
-                
-                # Progress indicator
-                if (i + 1) % 100 == 0:
-                    print(f"   Loaded {i + 1}/{len(pattern_files)} files...")
                     
+                    # Get vendor/product from file path
+                    rel_path = os.path.relpath(file_path, self.patterns_dir)
+                    parts = rel_path.split(os.sep)
+                    
+                    # Extract meaningful data from path
+                    if len(parts) >= 2:
+                        vendor_id = parts[0]
+                        product_id = os.path.splitext(parts[1])[0]
+                        
+                        # Set vendor and product IDs
+                        pattern_data['vendor_id'] = vendor_id
+                        pattern_data['product_id'] = product_id
+                        
+                        # Set vendor/product names if not present
+                        if not pattern_data.get('vendor'):
+                            pattern_data['vendor'] = vendor_id.replace('-', ' ').title()
+                        if not pattern_data.get('product'):
+                            pattern_data['product'] = product_id.replace('-', ' ').title()
+                    
+                    # Ensure all required fields with proper defaults
+                    pattern_data.setdefault('vendor', pattern_data.get('vendor_id', 'Unknown'))
+                    pattern_data.setdefault('product', pattern_data.get('product_id', 'Unknown'))
+                    pattern_data.setdefault('category', 'Web')  # Default to Web category
+                    pattern_data.setdefault('subcategory', '')
+                    pattern_data.setdefault('description', '')
+                    pattern_data.setdefault('notes', '')
+                    
+                    # Validate required fields
+                    if not pattern_data.get('vendor') or not pattern_data.get('product'):
+                        print(f"⚠️  Skipping {file_path}: Missing vendor or product name")
+                        continue
+                        
+                    # Validate patterns
+                    all_versions = pattern_data.get('all_versions', [])
+                    versions = pattern_data.get('versions', {})
+                    
+                    if not all_versions and not versions:
+                        print(f"⚠️  Warning: No patterns found in {file_path}")
+                        continue
+                        
+                    # Validate and compile patterns
+                    for pattern_entry in all_versions:
+                        try:
+                            if pattern_entry.get('pattern'):
+                                re.compile(pattern_entry['pattern'])
+                        except re.error as e:
+                            print(f"⚠️  Invalid regex in {file_path}: {e}")
+                            continue
+                    
+                    patterns.append(pattern_data)
+                    
+                    # Progress indicator
+                    if (i + 1) % 100 == 0:
+                        print(f"   Loaded {i + 1}/{len(pattern_files)} files...")
+                    
+            except json.JSONDecodeError as e:
+                print(f"⚠️  JSON Error in {file_path}: {e}")
+                continue
             except Exception as e:
                 print(f"⚠️  Error loading {file_path}: {e}")
                 continue
         
+        if not patterns:
+            raise Exception("No valid patterns were loaded!")
+        
         self._patterns_cache = patterns
         print(f"✅ Successfully loaded {len(patterns)} patterns!")
+        print(f"   Categories: {len(set(p.get('category', '') for p in patterns))}")
+        print(f"   Vendors: {len(set(p.get('vendor', '') for p in patterns))}")
         return patterns
     
     def get_all_patterns(self, limit=None, offset=0):
@@ -72,44 +148,93 @@ class PatternService:
     
     def search_patterns(self, query=None, category=None, vendor=None, limit=None, offset=0):
         """Search patterns with advanced filtering."""
-        patterns = self._load_patterns()
-        
-        if not query and not category and not vendor:
-            filtered = patterns
-        else:
+        try:
+            print(f"\n🔍 Search request - Query: '{query}', Category: '{category}', Vendor: '{vendor}'")
+            
+            # Ensure patterns are loaded
+            patterns = self._load_patterns()
+            if not patterns:
+                print("❌ No patterns loaded in cache")
+                return {
+                    'patterns': [],
+                    'total': 0,
+                    'offset': offset,
+                    'limit': limit or 20
+                }
+            
+            print(f"📊 Total patterns in cache: {len(patterns)}")
+            
+            # Apply filters
             filtered = []
             for pattern in patterns:
                 match = True
                 
-                if category and category.lower() not in pattern.get('category', '').lower():
-                    match = False
-                
-                if vendor and vendor.lower() not in pattern.get('vendor', '').lower():
-                    match = False
-                
-                if query:
-                    query_lower = query.lower()
-                    if not (query_lower in pattern.get('vendor', '').lower() or 
-                           query_lower in pattern.get('product', '').lower() or
-                           query_lower in pattern.get('category', '').lower()):
+                # Category filter
+                if category and category.lower() not in ('all categories', 'all'):
+                    pattern_category = str(pattern.get('category', '')).lower()
+                    if not pattern_category:
                         match = False
+                    elif category.lower() != pattern_category:
+                        # Try partial match for subcategories
+                        pattern_subcategory = str(pattern.get('subcategory', '')).lower()
+                        if not (category.lower() in pattern_category or 
+                              category.lower() in pattern_subcategory):
+                            match = False
+                
+                # Vendor filter
+                if vendor and vendor.lower() not in ('all vendors', 'all'):
+                    pattern_vendor = str(pattern.get('vendor', '')).lower()
+                    vendor_id = str(pattern.get('vendor_id', '')).lower()
+                    if not (vendor.lower() in pattern_vendor or 
+                           vendor.lower() in vendor_id):
+                        match = False
+                
+                # Text search
+                if query and match:
+                    query_parts = query.lower().split()
+                    searchable_fields = {
+                        'vendor': str(pattern.get('vendor', '')).lower(),
+                        'vendor_id': str(pattern.get('vendor_id', '')).lower(),
+                        'product': str(pattern.get('product', '')).lower(),
+                        'product_id': str(pattern.get('product_id', '')).lower(),
+                        'category': str(pattern.get('category', '')).lower(),
+                        'subcategory': str(pattern.get('subcategory', '')).lower(),
+                        'description': str(pattern.get('description', '')).lower(),
+                        'notes': str(pattern.get('notes', '')).lower(),
+                    }
+                    
+                    # Check each query part against all fields
+                    for query_part in query_parts:
+                        found_part = False
+                        for field_value in searchable_fields.values():
+                            if query_part in field_value:
+                                found_part = True
+                                break
+                        if not found_part:
+                            match = False
+                            break
                 
                 if match:
                     filtered.append(pattern)
-        
-        # Apply pagination
-        total = len(filtered)
-        if offset:
-            filtered = filtered[offset:]
-        if limit:
-            filtered = filtered[:limit]
-        
-        return {
-            'patterns': filtered,
-            'total': total,
-            'offset': offset,
-            'limit': limit
-        }
+            
+            # Get total before pagination
+            total = len(filtered)
+            
+            # Apply pagination
+            offset = max(0, int(offset))
+            if limit:
+                limit = max(1, int(limit))
+                filtered = filtered[offset:offset + limit]
+            
+            return {
+                'patterns': filtered,
+                'total': total,
+                'offset': offset,
+                'limit': limit or len(filtered)
+            }
+            
+        except Exception as e:
+            raise Exception(f"Error searching patterns: {str(e)}")
     
     def get_pattern_by_id(self, vendor_id, product_id):
         """Get specific pattern by vendor and product ID."""
@@ -250,6 +375,61 @@ class PatternService:
         stats = self.get_statistics()
         return list(stats['vendors'].keys())
 
+from flask import Blueprint
+
+# Initialize Flask-RESTX API
+api = Api(
+    title='Regex Intelligence Exchange API',
+    version='1.0',
+    description='Complete technology fingerprinting pattern API with 1500+ patterns',
+    doc='/api/docs/',
+    prefix='/api'
+)
+
+# Create namespaces
+ns = api.namespace('', description='Pattern operations')
+
+# Create blueprints
+web_bp = Blueprint('web', __name__, url_prefix='')
+api_bp = Blueprint('api', __name__, url_prefix='/api')
+
+def init_web_routes(bp, pattern_service):
+    @bp.route('/')
+    def index():
+        """Main dashboard."""
+        try:
+            stats = pattern_service.get_statistics()
+            return render_template('dashboard.html', stats=stats)
+        except Exception as e:
+            current_app.logger.error(f"Error loading dashboard: {str(e)}")
+            return render_template('errors/500.html'), 500
+
+    @bp.route('/search')
+    def search():
+        """Search page."""
+        categories = pattern_service.get_categories()
+        vendors = pattern_service.get_vendors()
+        return render_template('search.html', categories=categories, vendors=vendors)
+
+    @bp.route('/analytics')
+    def analytics():
+        """Analytics dashboard."""
+        stats = pattern_service.get_statistics()
+        return render_template('analytics.html', stats=stats)
+
+    @bp.route('/test')
+    def test():
+        """Pattern testing tool."""
+        return render_template('test.html')
+    
+    @bp.route('/pattern/<string:vendor_id>/<string:product_id>')
+    def pattern_detail(vendor_id, product_id):
+        """Pattern detail page."""
+        pattern = pattern_service.get_pattern_by_id(vendor_id, product_id)
+        if not pattern:
+            return render_template('errors/404.html'), 404
+        return render_template('pattern_detail.html', pattern=pattern)
+
 def create_app():
     """Create complete Flask application with all features."""
     app = Flask(__name__)
@@ -258,12 +438,27 @@ def create_app():
     # Initialize pattern service
     pattern_service = PatternService()
     
-    # Initialize Flask-RESTX API
-    api = Api(app, 
-              title='Regex Intelligence Exchange API',
-              version='1.0',
-              description='Complete technology fingerprinting pattern API with 1500+ patterns',
-              doc='/api/docs/')
+    # Register static folder
+    app.static_folder = 'static'
+    app.template_folder = 'templates'
+    
+    # Add favicon handler
+    @app.route('/favicon.ico')
+    def favicon():
+        return send_from_directory(
+            os.path.join(app.root_path, 'static'),
+            'favicon.ico', mimetype='image/vnd.microsoft.icon'
+        )
+    
+    # Initialize routes
+    init_web_routes(web_bp, pattern_service)
+    
+    # Register blueprints
+    app.register_blueprint(web_bp)
+    app.register_blueprint(api_bp)
+    
+    # Initialize API with app
+    api.init_app(app)
     
     # API Models for documentation
     pattern_model = api.model('Pattern', {
@@ -290,8 +485,12 @@ def create_app():
     @app.route('/')
     def index():
         """Main dashboard."""
-        stats = pattern_service.get_statistics()
-        return render_template('dashboard.html', stats=stats)
+        try:
+            stats = pattern_service.get_statistics()
+            return render_template('dashboard.html', stats=stats)
+        except Exception as e:
+            app.logger.error(f"Error loading dashboard: {str(e)}")
+            return render_template('errors/500.html'), 500
     
     @app.route('/search')
     def search():
@@ -320,29 +519,65 @@ def create_app():
         return render_template('test.html')
     
     # API Routes
-    @api.route('/patterns')
+    @ns.route('/patterns')
     class PatternList(Resource):
-        @api.doc('list_patterns')
-        @api.param('q', 'Search query')
-        @api.param('category', 'Filter by category')
-        @api.param('vendor', 'Filter by vendor')
-        @api.param('limit', 'Limit results (max 100)', type=int, default=20)
-        @api.param('offset', 'Offset for pagination', type=int, default=0)
-        @api.marshal_list_with(pattern_model)
+        @ns.doc('list_patterns')
+        @ns.param('q', 'Search query')
+        @ns.param('category', 'Filter by category')
+        @ns.param('vendor', 'Filter by vendor')
+        @ns.param('limit', 'Limit results (max 100)', type=int, default=20)
+        @ns.param('offset', 'Offset for pagination', type=int, default=0)
+        @ns.marshal_list_with(pattern_model)
         def get(self):
             """Get all patterns with optional filtering."""
-            query = request.args.get('q', '')
-            category = request.args.get('category', '')
-            vendor = request.args.get('vendor', '')
+            # Get and clean search parameters
+            query = request.args.get('q', '').strip()
+            category = request.args.get('category', '').strip()
+            vendor = request.args.get('vendor', '').strip()
             limit = min(request.args.get('limit', 20, type=int), 100)
             offset = request.args.get('offset', 0, type=int)
             
-            result = pattern_service.search_patterns(query, category, vendor, limit, offset)
-            return result
+            try:
+                # Log the request parameters
+                print(f"\n📥 API Request - Params: q='{query}', category='{category}', vendor='{vendor}', limit={limit}, offset={offset}")
+                
+                # If all filters are empty, return the first page of all patterns
+                if not query and not category and not vendor:
+                    result = pattern_service.get_all_patterns(limit=limit, offset=offset)
+                    total = len(pattern_service._load_patterns())
+                    response_data = {
+                        'patterns': result,
+                        'total': total,
+                        'offset': offset,
+                        'limit': limit,
+                        'has_more': (offset + limit) < total
+                    }
+                else:
+                    # Do filtered search
+                    result = pattern_service.search_patterns(query, category, vendor, limit, offset)
+                    response_data = {
+                        'patterns': result['patterns'],
+                        'total': result['total'],
+                        'offset': result['offset'],
+                        'limit': result['limit'],
+                        'has_more': (result['offset'] + result['limit']) < result['total']
+                    }
+                
+                print(f"📤 API Response - Total matches: {response_data['total']}, Returned: {len(response_data['patterns'])}")
+                
+                if not response_data['patterns']:
+                    print("⚠️ Warning: No patterns found for the given criteria")
+                    print(f"   Available categories: {pattern_service.get_categories()}")
+                
+                return response_data
+            except Exception as e:
+                app.logger.error(f"Search error: {str(e)}")
+                return {'error': str(e)}, 500
     
-    @api.route('/patterns/<string:vendor_id>/<string:product_id>')
+    @ns.route('/patterns/<string:vendor_id>/<string:product_id>')
+    @ns.response(404, 'Pattern not found')
     class PatternDetail(Resource):
-        @api.doc('get_pattern')
+        @ns.doc('get_pattern')
         def get(self, vendor_id, product_id):
             """Get specific pattern by vendor and product ID."""
             pattern = pattern_service.get_pattern_by_id(vendor_id, product_id)
@@ -350,46 +585,50 @@ def create_app():
                 api.abort(404, "Pattern not found")
             return pattern
     
-    @api.route('/match')
+    @ns.route('/match')
     class PatternMatch(Resource):
-        @api.doc('match_patterns')
-        @api.expect(match_request_model)
-        @api.marshal_list_with(match_result_model)
+        @ns.doc('match_patterns')
+        @ns.expect(match_request_model)
+        @ns.marshal_list_with(match_result_model)
         def post(self):
             """Match patterns against input text."""
-            data = request.get_json()
-            if not data or 'text' not in data:
-                api.abort(400, "Missing text parameter")
-            
-            matches = pattern_service.match_patterns(data['text'])
-            return matches
+            try:
+                data = request.get_json()
+                if not data or 'text' not in data:
+                    api.abort(400, "Missing text parameter")
+                
+                matches = pattern_service.match_patterns(data['text'])
+                return matches
+            except Exception as e:
+                app.logger.error(f"Error in pattern matching: {str(e)}")
+                api.abort(500, f"Error processing pattern match request: {str(e)}")
     
-    @api.route('/categories')
+    @ns.route('/categories')
     class CategoriesList(Resource):
-        @api.doc('list_categories')
+        @ns.doc('list_categories')
         def get(self):
             """Get all available categories."""
             categories = pattern_service.get_categories()
             return {'categories': categories}
     
-    @api.route('/vendors')
+    @ns.route('/vendors')
     class VendorsList(Resource):
-        @api.doc('list_vendors')
+        @ns.doc('list_vendors')
         def get(self):
             """Get all available vendors."""
             vendors = pattern_service.get_vendors()
             return {'vendors': vendors}
     
-    @api.route('/analytics/summary')
+    @ns.route('/analytics/summary')
     class AnalyticsSummary(Resource):
-        @api.doc('get_analytics')
+        @ns.doc('get_analytics')
         def get(self):
             """Get analytics summary."""
             return pattern_service.get_statistics()
     
-    @api.route('/health')
+    @app.route('/health')
     class Health(Resource):
-        @api.doc('health_check')
+        @ns.doc('health_check')
         def get(self):
             """Health check endpoint."""
             stats = pattern_service.get_statistics()
@@ -400,6 +639,20 @@ def create_app():
                 'vendors': len(stats['vendors']),
                 'timestamp': time.time()
             }
+    
+    # Error handlers
+    @app.errorhandler(404)
+    def not_found_error(error):
+        return render_template('errors/404.html'), 404
+
+    @app.errorhandler(500)
+    def internal_error(error):
+        return render_template('errors/500.html'), 500
+
+    @app.errorhandler(Exception)
+    def unhandled_exception(error):
+        app.logger.error(f'Unhandled Exception: {str(error)}')
+        return render_template('errors/500.html'), 500
     
     return app
 

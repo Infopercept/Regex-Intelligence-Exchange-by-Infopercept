@@ -71,7 +71,7 @@ Examples:
         if args.mode == 'web':
             # Import and run web application
             sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'web'))
-            from app import create_app
+            from app.app import create_app
             app = create_app()
             print(f"🚀 Starting Regex Intelligence Exchange Web Interface")
             print(f"🌍 Access at: http://{args.host}:{args.port}")
@@ -94,7 +94,7 @@ Examples:
             
             # Start web application in a separate thread
             sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'web'))
-            from app import create_app as create_web_app
+            from app.app import create_app as create_web_app
             web_app = create_web_app()
             
             def run_web():

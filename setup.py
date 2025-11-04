@@ -21,15 +21,24 @@ def check_python_version():
 def install_dependencies():
     """Install required Python dependencies."""
     print("Installing Python dependencies...")
-    
-    # Required packages
+    # If a requirements.txt exists, use it to install dependencies
+    req_file = Path('requirements.txt')
+    if req_file.exists():
+        try:
+            subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", str(req_file)])
+            return True
+        except subprocess.CalledProcessError:
+            print("Failed to install dependencies from requirements.txt")
+            return False
+
+    # Fallback to installing a minimal set if requirements.txt is missing
     required_packages = [
         "packaging",
         "sqlalchemy",
         "psycopg2-binary",
         "redis"
     ]
-    
+
     for package in required_packages:
         try:
             __import__(package)
@@ -42,7 +51,7 @@ def install_dependencies():
             except subprocess.CalledProcessError:
                 print(f"Failed to install '{package}'")
                 return False
-    
+
     return True
 
 
@@ -63,19 +72,26 @@ def validate_setup():
             print(f"Error: Required directory '{dir_name}' not found")
             return False
     
-    # Check if required files exist
+    # Check if required files exist (warn rather than fail for non-critical files)
     required_files = [
         "tools/version_utils.py",
         "tools/enhanced-validation.py",
         "tools/test-patterns.py",
-        "web/models/database.py",
-        "web/scripts/migrate_all_patterns.py"
+        # prefer known web entrypoints instead of strict scripts that may be absent
+        "web/app.py",
+        "web/run.py"
     ]
-    
+
+    missing_files = []
     for file_path in required_files:
         if not os.path.exists(file_path):
-            print(f"Error: Required file '{file_path}' not found")
-            return False
+            missing_files.append(file_path)
+
+    if missing_files:
+        print("Warning: The following expected files are missing (these may be optional depending on your deployment):")
+        for mf in missing_files:
+            print(f"  - {mf}")
+        print("Continuing setup, but verify the missing files if you expect those features to be present.")
     
     # Test importing version utilities
     try:

@@ -70,7 +70,7 @@ Examples:
     try:
         if args.mode == 'web':
             # Import and run web application
-            from app import create_app
+            from app.app import create_app
             app = create_app()
             print(f"🚀 Starting Regex Intelligence Exchange Web Interface")
             print(f"🌍 Access at: http://{args.host}:{args.port}")
@@ -91,7 +91,7 @@ Examples:
             import threading
             
             # Start web application in a separate thread
-            from app import create_app as create_web_app
+            from app.app import create_app as create_web_app
             web_app = create_web_app()
             
             def run_web():
