@@ -1,0 +1,403 @@
+{% extends "base.html" %}
+
+{% block title %}API Documentation - Regex Intelligence Exchange{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <h1 class="h2 fw-bold">
+            <i class="fas fa-book me-2"></i>API Documentation
+        </h1>
+        <p class="text-muted">RESTful API for accessing technology fingerprinting patterns</p>
+    </div>
+</div>
+
+<!-- API Overview -->
+<div class="card mb-4">
+    <div class="card-body">
+        <h5 class="card-title"><i class="fas fa-info-circle me-2"></i>Overview</h5>
+        <p>The Regex Intelligence Exchange API provides programmatic access to our comprehensive pattern database with 1500+ technology fingerprinting patterns.</p>
+        <p class="mb-0"><strong>Base URL:</strong> <code>http://127.0.0.1:5000/api</code></p>
+    </div>
+</div>
+
+<!-- Endpoints -->
+<div class="accordion" id="apiAccordion">
+    
+    <!-- GET /patterns -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#endpoint1">
+                <span class="badge bg-success me-2">GET</span>
+                <code>/patterns</code>
+                <span class="ms-2 text-muted">- List/Search patterns</span>
+            </button>
+        </h2>
+        <div id="endpoint1" class="accordion-collapse collapse show" data-bs-parent="#apiAccordion">
+            <div class="accordion-body">
+                <h6>Description</h6>
+                <p>Get all patterns with optional filtering and pagination.</p>
+                
+                <h6>Query Parameters</h6>
+                <table class="table table-sm">
+                    <thead>
+                        <tr>
+                            <th>Parameter</th>
+                            <th>Type</th>
+                            <th>Description</th>
+                            <th>Example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>q</code></td>
+                            <td>string</td>
+                            <td>Search query (vendor, product, keyword)</td>
+                            <td><code>apache</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>category</code></td>
+                            <td>string</td>
+                            <td>Filter by category</td>
+                            <td><code>web</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>vendor</code></td>
+                            <td>string</td>
+                            <td>Filter by vendor</td>
+                            <td><code>Apache</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>limit</code></td>
+                            <td>integer</td>
+                            <td>Number of results (max 100)</td>
+                            <td><code>20</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>offset</code></td>
+                            <td>integer</td>
+                            <td>Pagination offset</td>
+                            <td><code>0</code></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h6>Example Request</h6>
+                <pre class="code-block"><code>GET /api/patterns?q=apache&category=web&limit=5</code></pre>
+                
+                <h6>Example Response</h6>
+                <pre class="code-block"><code>{
+  "patterns": [
+    {
+      "vendor": "Apache",
+      "vendor_id": "apache",
+      "product": "Apache HTTP Server",
+      "product_id": "apache",
+      "category": "web",
+      "subcategory": "web-server",
+      "all_versions": [...]
+    }
+  ],
+  "total": 17,
+  "offset": 0,
+  "limit": 5
+}</code></pre>
+                
+                <button class="btn btn-sm btn-primary" onclick="testEndpoint('/api/patterns?limit=5')">
+                    <i class="fas fa-play me-1"></i>Try it
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- GET /patterns/{vendor_id}/{product_id} -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#endpoint2">
+                <span class="badge bg-success me-2">GET</span>
+                <code>/patterns/{vendor_id}/{product_id}</code>
+                <span class="ms-2 text-muted">- Get specific pattern</span>
+            </button>
+        </h2>
+        <div id="endpoint2" class="accordion-collapse collapse" data-bs-parent="#apiAccordion">
+            <div class="accordion-body">
+                <h6>Description</h6>
+                <p>Get detailed information about a specific pattern.</p>
+                
+                <h6>Path Parameters</h6>
+                <table class="table table-sm">
+                    <thead>
+                        <tr>
+                            <th>Parameter</th>
+                            <th>Type</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>vendor_id</code></td>
+                            <td>string</td>
+                            <td>Vendor identifier</td>
+                        </tr>
+                        <tr>
+                            <td><code>product_id</code></td>
+                            <td>string</td>
+                            <td>Product identifier</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h6>Example Request</h6>
+                <pre class="code-block"><code>GET /api/patterns/apache/apache</code></pre>
+                
+                <button class="btn btn-sm btn-primary" onclick="testEndpoint('/api/patterns/apache/apache')">
+                    <i class="fas fa-play me-1"></i>Try it
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- POST /match -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#endpoint3">
+                <span class="badge bg-primary me-2">POST</span>
+                <code>/match</code>
+                <span class="ms-2 text-muted">- Match patterns against text</span>
+            </button>
+        </h2>
+        <div id="endpoint3" class="accordion-collapse collapse" data-bs-parent="#apiAccordion">
+            <div class="accordion-body">
+                <h6>Description</h6>
+                <p>Match patterns against input text to identify technologies.</p>
+                
+                <h6>Request Body</h6>
+                <pre class="code-block"><code>{
+  "text": "Server: Apache/2.4.41 (Ubuntu)"
+}</code></pre>
+                
+                <h6>Example Response</h6>
+                <pre class="code-block"><code>[
+  {
+    "vendor": "Apache",
+    "product": "Apache HTTP Server",
+    "vendor_id": "apache",
+    "product_id": "apache",
+    "pattern_name": "Apache Server Header",
+    "matched_text": "Server: Apache/2.4.41",
+    "version": "2.4.41",
+    "category": "web"
+  }
+]</code></pre>
+                
+                <button class="btn btn-sm btn-primary" onclick="testMatchEndpoint()">
+                    <i class="fas fa-play me-1"></i>Try it
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- GET /categories -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#endpoint4">
+                <span class="badge bg-success me-2">GET</span>
+                <code>/categories</code>
+                <span class="ms-2 text-muted">- Get all categories</span>
+            </button>
+        </h2>
+        <div id="endpoint4" class="accordion-collapse collapse" data-bs-parent="#apiAccordion">
+            <div class="accordion-body">
+                <h6>Description</h6>
+                <p>Get list of all available pattern categories.</p>
+                
+                <h6>Example Response</h6>
+                <pre class="code-block"><code>{
+  "categories": ["web", "cms", "database", "networking", ...]
+}</code></pre>
+                
+                <button class="btn btn-sm btn-primary" onclick="testEndpoint('/api/categories')">
+                    <i class="fas fa-play me-1"></i>Try it
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- GET /vendors -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#endpoint5">
+                <span class="badge bg-success me-2">GET</span>
+                <code>/vendors</code>
+                <span class="ms-2 text-muted">- Get all vendors</span>
+            </button>
+        </h2>
+        <div id="endpoint5" class="accordion-collapse collapse" data-bs-parent="#apiAccordion">
+            <div class="accordion-body">
+                <h6>Description</h6>
+                <p>Get list of all available vendors, optionally filtered by category.</p>
+                
+                <h6>Query Parameters</h6>
+                <table class="table table-sm">
+                    <thead>
+                        <tr>
+                            <th>Parameter</th>
+                            <th>Type</th>
+                            <th>Description</th>
+                            <th>Example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>category</code></td>
+                            <td>string</td>
+                            <td>Filter vendors by category (optional)</td>
+                            <td><code>web</code></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h6>Example Request</h6>
+                <pre class="code-block"><code>GET /api/vendors?category=web</code></pre>
+                
+                <h6>Example Response</h6>
+                <pre class="code-block"><code>{
+  "vendors": ["Apache", "Nginx", "Microsoft", ...]
+}</code></pre>
+                
+                <button class="btn btn-sm btn-primary" onclick="testEndpoint('/api/vendors')">
+                    <i class="fas fa-play me-1"></i>Try it
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- GET /analytics/summary -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#endpoint6">
+                <span class="badge bg-success me-2">GET</span>
+                <code>/analytics/summary</code>
+                <span class="ms-2 text-muted">- Get analytics data</span>
+            </button>
+        </h2>
+        <div id="endpoint6" class="accordion-collapse collapse" data-bs-parent="#apiAccordion">
+            <div class="accordion-body">
+                <h6>Description</h6>
+                <p>Get comprehensive statistics about the pattern database.</p>
+                
+                <h6>Example Response</h6>
+                <pre class="code-block"><code>{
+  "total_patterns": 1582,
+  "categories": {...},
+  "vendors": {...},
+  "subcategories": {...},
+  "top_categories": {...},
+  "top_vendors": {...}
+}</code></pre>
+                
+                <button class="btn btn-sm btn-primary" onclick="testEndpoint('/api/analytics/summary')">
+                    <i class="fas fa-play me-1"></i>Try it
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- GET /health -->
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#endpoint7">
+                <span class="badge bg-success me-2">GET</span>
+                <code>/health</code>
+                <span class="ms-2 text-muted">- Health check</span>
+            </button>
+        </h2>
+        <div id="endpoint7" class="accordion-collapse collapse" data-bs-parent="#apiAccordion">
+            <div class="accordion-body">
+                <h6>Description</h6>
+                <p>Check API health status and get basic statistics.</p>
+                
+                <h6>Example Response</h6>
+                <pre class="code-block"><code>{
+  "status": "healthy",
+  "patterns_loaded": 1582,
+  "categories": 7,
+  "vendors": 1577,
+  "timestamp": 1699712345.678
+}</code></pre>
+                
+                <button class="btn btn-sm btn-primary" onclick="testEndpoint('/api/health')">
+                    <i class="fas fa-play me-1"></i>Try it
+                </button>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<!-- Response Display -->
+<div class="card mt-4 d-none" id="responseCard">
+    <div class="card-header">
+        <h6 class="mb-0">
+            <i class="fas fa-terminal me-2"></i>Response
+            <button class="btn btn-sm btn-outline-secondary float-end" onclick="closeResponse()">
+                <i class="fas fa-times"></i>
+            </button>
+        </h6>
+    </div>
+    <div class="card-body">
+        <pre class="code-block mb-0" id="responseContent"></pre>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+function testEndpoint(endpoint) {
+    const responseCard = document.getElementById('responseCard');
+    const responseContent = document.getElementById('responseContent');
+    
+    responseCard.classList.remove('d-none');
+    responseContent.textContent = 'Loading...';
+    
+    fetch(endpoint)
+        .then(response => response.json())
+        .then(data => {
+            responseContent.textContent = JSON.stringify(data, null, 2);
+        })
+        .catch(error => {
+            responseContent.textContent = `Error: ${error.message}`;
+        });
+}
+
+function testMatchEndpoint() {
+    const responseCard = document.getElementById('responseCard');
+    const responseContent = document.getElementById('responseContent');
+    
+    responseCard.classList.remove('d-none');
+    responseContent.textContent = 'Loading...';
+    
+    fetch('/api/match', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            text: 'Server: Apache/2.4.41 (Ubuntu)\nX-Powered-By: PHP/7.4.3'
+        })
+    })
+        .then(response => response.json())
+        .then(data => {
+            responseContent.textContent = JSON.stringify(data, null, 2);
+        })
+        .catch(error => {
+            responseContent.textContent = `Error: ${error.message}`;
+        });
+}
+
+function closeResponse() {
+    document.getElementById('responseCard').classList.add('d-none');
+}
+</script>
+{% endblock %}

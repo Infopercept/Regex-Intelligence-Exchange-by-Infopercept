@@ -107,6 +107,22 @@ document.addEventListener('DOMContentLoaded', function() {
     const vendorFilter = document.getElementById('vendorFilter');
     const limitFilter = document.getElementById('limitFilter');
     
+    // Store all vendors for reset
+    let allVendors = [];
+    
+    // Store current vendor options
+    const vendorOptions = Array.from(vendorFilter.options).map(opt => ({
+        value: opt.value,
+        text: opt.text
+    }));
+    allVendors = vendorOptions;
+    
+    // Category change handler - update vendor dropdown
+    categoryFilter.addEventListener('change', function() {
+        const selectedCategory = this.value;
+        updateVendorDropdown(selectedCategory);
+    });
+    
     // Search form submission
     searchForm.addEventListener('submit', function(e) {
         e.preventDefault();
@@ -122,6 +138,9 @@ document.addEventListener('DOMContentLoaded', function() {
         limitFilter.value = '20';
         currentOffset = 0;
         
+        // Reset vendor dropdown to show all vendors
+        updateVendorDropdown('');
+        
         document.getElementById('searchResults').innerHTML = `
             <div class="text-center py-5">
                 <i class="fas fa-search fa-3x text-muted mb-3"></i>
@@ -134,9 +153,9 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('searchInfo').textContent = 'Enter search criteria above';
     });
     
-    // Real-time search on input
+    // Real-time search on input (excluding category since it has its own handler)
     let searchTimeout;
-    [searchQuery, categoryFilter, vendorFilter].forEach(element => {
+    [searchQuery, vendorFilter].forEach(element => {
         element.addEventListener('input', function() {
             clearTimeout(searchTimeout);
             searchTimeout = setTimeout(() => {
@@ -356,6 +375,60 @@ function escapeHtml(text) {
     const div = document.createElement('div');
     div.textContent = text;
     return div.innerHTML;
+}
+
+function updateVendorDropdown(category) {
+    const vendorFilter = document.getElementById('vendorFilter');
+    const currentValue = vendorFilter.value;
+    
+    // Show loading state
+    vendorFilter.disabled = true;
+    vendorFilter.innerHTML = '<option value="">Loading vendors...</option>';
+    
+    // Build API URL with category parameter if provided
+    const apiUrl = category ? `/api/vendors?category=${encodeURIComponent(category)}` : '/api/vendors';
+    
+    fetch(apiUrl)
+        .then(response => response.json())
+        .then(data => {
+            // Clear current options
+            vendorFilter.innerHTML = '<option value="">All Vendors</option>';
+            
+            // Add filtered vendors
+            if (data.vendors && data.vendors.length > 0) {
+                data.vendors.forEach(vendor => {
+                    const option = document.createElement('option');
+                    option.value = vendor;
+                    option.textContent = vendor;
+                    vendorFilter.appendChild(option);
+                });
+                
+                // Try to restore previous selection if it still exists
+                if (currentValue) {
+                    const optionExists = Array.from(vendorFilter.options).some(opt => opt.value === currentValue);
+                    if (optionExists) {
+                        vendorFilter.value = currentValue;
+                    }
+                }
+            } else {
+                // No vendors found for this category
+                vendorFilter.innerHTML = '<option value="">No vendors available</option>';
+            }
+            
+            vendorFilter.disabled = false;
+            
+            // Trigger search if there are existing search criteria
+            const searchQuery = document.getElementById('searchQuery').value;
+            if (searchQuery || category || currentValue) {
+                currentOffset = 0;
+                performSearch();
+            }
+        })
+        .catch(error => {
+            console.error('Error fetching vendors:', error);
+            vendorFilter.innerHTML = '<option value="">Error loading vendors</option>';
+            vendorFilter.disabled = false;
+        });
 }
 </script>
 {% endblock %}

@@ -1,0 +1,319 @@
+{% extends "base.html" %}
+
+{% block title %}Export Data - Regex Intelligence Exchange{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <h1 class="h2 fw-bold">
+            <i class="fas fa-download me-2"></i>Export Data
+        </h1>
+        <p class="text-muted">Export pattern data filtered by category and vendor</p>
+    </div>
+</div>
+
+<!-- Export Form -->
+<div class="row">
+    <div class="col-lg-8 mx-auto">
+        <div class="card">
+            <div class="card-body">
+                <form id="exportForm">
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="categoryFilter" class="form-label">
+                                <i class="fas fa-tag me-1"></i>Category
+                            </label>
+                            <select class="form-select" id="categoryFilter" name="category">
+                                <option value="">All Categories</option>
+                                {% for category in categories %}
+                                <option value="{{ category }}">{{ category }}</option>
+                                {% endfor %}
+                            </select>
+                            <small class="text-muted">Select a category to filter patterns</small>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <label for="vendorFilter" class="form-label">
+                                <i class="fas fa-building me-1"></i>Vendor
+                            </label>
+                            <select class="form-select" id="vendorFilter" name="vendor">
+                                <option value="">All Vendors</option>
+                                {% for vendor in vendors %}
+                                <option value="{{ vendor }}">{{ vendor }}</option>
+                                {% endfor %}
+                            </select>
+                            <small class="text-muted">Select a vendor to filter patterns</small>
+                        </div>
+                    </div>
+                    
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <label for="formatSelect" class="form-label">
+                                <i class="fas fa-file-export me-1"></i>Export Format
+                            </label>
+                            <select class="form-select" id="formatSelect" name="format">
+                                <option value="json">JSON</option>
+                                <option value="csv">CSV</option>
+                            </select>
+                            <small class="text-muted">Choose the export file format</small>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <label class="form-label d-block">
+                                <i class="fas fa-info-circle me-1"></i>Preview
+                            </label>
+                            <div class="alert alert-info mb-0" id="previewInfo">
+                                <small>
+                                    <strong id="patternCount">Loading...</strong> patterns will be exported
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg" id="exportButton">
+                            <i class="fas fa-download me-2"></i>
+                            <span class="loading-spinner spinner-border spinner-border-sm me-2"></span>
+                            Export Data
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Export Info -->
+        <div class="card mt-4">
+            <div class="card-header">
+                <h6 class="mb-0">
+                    <i class="fas fa-info-circle me-2"></i>Export Information
+                </h6>
+            </div>
+            <div class="card-body">
+                <h6>Available Formats:</h6>
+                <ul class="mb-3">
+                    <li>
+                        <strong>JSON:</strong> Complete pattern data including all regex patterns, metadata, and version information. 
+                        Best for programmatic use and data integration.
+                    </li>
+                    <li>
+                        <strong>CSV:</strong> Simplified tabular format with basic pattern information (vendor, product, category). 
+                        Best for spreadsheet analysis and reporting.
+                    </li>
+                </ul>
+                
+                <h6>Filtering:</h6>
+                <ul class="mb-3">
+                    <li>Select a <strong>category</strong> to export only patterns from that category</li>
+                    <li>When you select a category, the vendor dropdown will automatically show only vendors with patterns in that category</li>
+                    <li>Select a <strong>vendor</strong> to further filter patterns to a specific vendor</li>
+                    <li>Leave both filters empty to export all patterns</li>
+                </ul>
+                
+                <h6>Usage Examples:</h6>
+                <ul class="mb-0">
+                    <li><strong>Export all web server patterns:</strong> Category = "web", Vendor = "All Vendors"</li>
+                    <li><strong>Export all Apache patterns:</strong> Category = "All Categories", Vendor = "Apache"</li>
+                    <li><strong>Export Apache web patterns:</strong> Category = "web", Vendor = "Apache"</li>
+                    <li><strong>Export everything:</strong> Category = "All Categories", Vendor = "All Vendors"</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Success Modal -->
+<div class="modal fade" id="successModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title">
+                    <i class="fas fa-check-circle me-2"></i>Export Successful
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p class="mb-0">Your data has been exported successfully!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+// Version: 2.0 - Force browser to reload
+console.log('Export page JavaScript loaded - Version 2.0');
+document.addEventListener('DOMContentLoaded', function() {
+    const categoryFilter = document.getElementById('categoryFilter');
+    const vendorFilter = document.getElementById('vendorFilter');
+    const formatSelect = document.getElementById('formatSelect');
+    const exportForm = document.getElementById('exportForm');
+    const exportButton = document.getElementById('exportButton');
+    const patternCount = document.getElementById('patternCount');
+    
+    // Update pattern count on load
+    updatePatternCount();
+    
+    // Category change handler - update vendor dropdown (same logic as search page)
+    categoryFilter.addEventListener('change', function() {
+        const selectedCategory = this.value;
+        updateVendorDropdown(selectedCategory);
+    });
+    
+    // Update pattern count when filters change
+    [categoryFilter, vendorFilter].forEach(element => {
+        element.addEventListener('change', updatePatternCount);
+    });
+    
+    // Export form submission
+    exportForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const category = categoryFilter.value;
+        const vendor = vendorFilter.value;
+        const format = formatSelect.value;
+        
+        // Build export URL
+        const params = new URLSearchParams();
+        if (category) params.append('category', category);
+        if (vendor) params.append('vendor', vendor);
+        params.append('format', format);
+        
+        const exportUrl = `/api/export?${params.toString()}`;
+        
+        // Show loading state
+        showLoading(exportButton);
+        
+        // Trigger download
+        window.location.href = exportUrl;
+        
+        // Hide loading state after a delay
+        setTimeout(() => {
+            hideLoading(exportButton);
+            // Show success modal
+            const successModal = new bootstrap.Modal(document.getElementById('successModal'));
+            successModal.show();
+        }, 1000);
+    });
+});
+
+function updateVendorDropdown(category) {
+    const vendorFilter = document.getElementById('vendorFilter');
+    const currentValue = vendorFilter.value;
+    
+    // Show loading state
+    vendorFilter.disabled = true;
+    vendorFilter.innerHTML = '<option value="">Loading vendors...</option>';
+    
+    // Build API URL with category parameter if provided
+    const apiUrl = category ? `/api/vendors?category=${encodeURIComponent(category)}` : '/api/vendors';
+    
+    console.log('Fetching vendors from:', apiUrl);
+    
+    fetch(apiUrl)
+        .then(response => {
+            console.log('Response status:', response.status);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('Received data:', data);
+            console.log('data exists:', !!data);
+            console.log('data.vendors exists:', !!data.vendors);
+            console.log('data.vendors is array:', Array.isArray(data.vendors));
+            console.log('data.vendors length:', data.vendors ? data.vendors.length : 0);
+            
+            // Clear current options
+            vendorFilter.innerHTML = '<option value="">All Vendors</option>';
+            
+            // Check if data and vendors array exist
+            if (data && data.vendors && Array.isArray(data.vendors) && data.vendors.length > 0) {
+                console.log(`✓ Adding ${data.vendors.length} vendors to dropdown`);
+                // Add filtered vendors
+                data.vendors.forEach(vendor => {
+                    console.log('Adding vendor:', vendor);
+                    const option = document.createElement('option');
+                    option.value = vendor;
+                    option.textContent = vendor;
+                    vendorFilter.appendChild(option);
+                });
+                
+                console.log('Final dropdown options count:', vendorFilter.options.length);
+                
+                // Try to restore previous selection if it still exists
+                if (currentValue && currentValue !== '') {
+                    const optionExists = Array.from(vendorFilter.options).some(opt => opt.value === currentValue);
+                    if (optionExists) {
+                        vendorFilter.value = currentValue;
+                    }
+                }
+            } else {
+                console.log('✗ No vendors condition failed - showing error message');
+                // No vendors in this category
+                vendorFilter.innerHTML = '<option value="">No vendors in this category</option>';
+            }
+            
+            vendorFilter.disabled = false;
+            
+            // Update pattern count
+            updatePatternCount();
+        })
+        .catch(error => {
+            console.error('Error fetching vendors:', error);
+            // Show user-friendly message
+            vendorFilter.innerHTML = '<option value="">No vendors in this category</option>';
+            vendorFilter.disabled = false;
+            
+            // Still update pattern count
+            updatePatternCount();
+        });
+}
+
+function updatePatternCount() {
+    const category = document.getElementById('categoryFilter').value;
+    const vendor = document.getElementById('vendorFilter').value;
+    const patternCount = document.getElementById('patternCount');
+    
+    // Check if element exists
+    if (!patternCount) {
+        console.error('patternCount element not found');
+        return;
+    }
+    
+    patternCount.textContent = 'Loading...';
+    
+    // Build API URL
+    const params = new URLSearchParams();
+    if (category) params.append('category', category);
+    if (vendor) params.append('vendor', vendor);
+    params.append('limit', '1');  // We only need the count
+    
+    fetch(`/api/patterns?${params.toString()}`)
+        .then(response => response.json())
+        .then(data => {
+            const count = data.total || 0;
+            if (patternCount) {
+                patternCount.textContent = `${count.toLocaleString()}`;
+            }
+            
+            // Update button text
+            const exportButton = document.getElementById('exportButton');
+            if (exportButton) {
+                exportButton.disabled = count === 0;
+            }
+        })
+        .catch(error => {
+            console.error('Error fetching pattern count:', error);
+            if (patternCount) {
+                patternCount.textContent = 'Error';
+            }
+        });
+}
+</script>
+{% endblock %}
